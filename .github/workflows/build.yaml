@@ -14,6 +14,8 @@ jobs:
         run: pip install -r scripts/requirements.txt
       - name: Build site
         run: python3 scripts/build.py
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - uses: stefanzweifel/git-auto-commit-action@v4
         name: Commit downloaded fonts and data
         with:
