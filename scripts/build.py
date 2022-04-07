@@ -7,6 +7,7 @@ import os
 import json
 from pybars import Compiler
 import re
+import subprocess
 
 
 print("Fetching existing repos")
@@ -73,6 +74,11 @@ for repo_name in sources.keys():
                     os.makedirs(newpath.parent, exist_ok=True)
                     family_thing["files"].append(str(newpath))
                     os.rename(font, newpath)
+                # Add it and tag it
+                subprocess.run(["git", "add", "."])
+                subprocess.run(["git", "commit", "-m", "Add "+release.tag_name])
+                subprocess.run(["git", "tag", release.tag_name])
+
 
             # Tweet about the new release or something
     results[repo_name]["families"] = sources[repo_name].get("families", {})
