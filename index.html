@@ -6,15 +6,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Noto Dashboard</title>
         		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
 			rel="stylesheet"
-			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
 			crossorigin="anonymous"
 		/>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        		<script
+			src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
 			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.18/dist/css/bootstrap-select.min.css"
+		/>
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.18/dist/js/bootstrap-select.min.js"
 		></script>
     </head>
     <body>
@@ -23,21 +36,37 @@
 					<div class="mx-auto order-0">
 						<a class="navbar-brand" href="#"> Noto Dashboard </a>
 					</div>
+					<div id="navbarSupportedContent">
+						<ul class="navbar-nav">
+							<select
+								class="selectpicker w-auto"
+								data-live-search="true"
+								onchange="location = this.value;"
+							>
+								<option value="#latin-greek-cyrillic">Noto Latin,  Greek,  Cyrillic (ONLY FOR TESTING)</option>
+								<option value="#limbu">Noto Limbu (ONLY FOR TESTING)</option>
+									<option value="#limbu"> - Noto Sans Limbu</option>
+								<option value="#test">Noto Test (ONLY FOR TESTING)</option>
+							</select>
+						</ul>
+					</div>
 				</div>
 			</nav>
 			<div class="container mt-2">
-			<h3>Noto Latin,  Greek,  Cyrillic (ONLY FOR TESTING)</h3>
+			<h3 id="latin-greek-cyrillic">Noto Latin,  Greek,  Cyrillic (ONLY FOR TESTING)</h3>
 				<ul>
 					<li><a href="https://notofonts.github.io/latin-greek-cyrillic">Development builds</a> 
 						<img src="https://img.shields.io/github/workflow/status/notofonts/latin-greek-cyrillic/Build%20font%20and%20specimen?label=%20&style=plastic"></li>
 					<li><a href="https://www.github.com/notofonts/latin-greek-cyrillic">Source repository</a></li>
+					<li><a href="https://www.github.com/notofonts/latin-greek-cyrillic/issues/new">Report a bug in this font</a></li>
 				</ul>
 			<hr>
-			<h3>Noto Limbu (ONLY FOR TESTING)</h3>
+			<h3 id="limbu">Noto Limbu (ONLY FOR TESTING)</h3>
 				<ul>
 					<li><a href="https://notofonts.github.io/limbu">Development builds</a> 
 						<img src="https://img.shields.io/github/workflow/status/notofonts/limbu/Build%20font%20and%20specimen?label=%20&style=plastic"></li>
 					<li><a href="https://www.github.com/notofonts/limbu">Source repository</a></li>
+					<li><a href="https://www.github.com/notofonts/limbu/issues/new">Report a bug in this font</a></li>
 				</ul>
 					<h4>Noto Sans Limbu
 						<a href="https://github.com/notofonts/limbu/releases/tag/NotoSansLimbu-v2.002">v2.002</a>
@@ -51,13 +80,14 @@
 							<li> <a href="unhinted/ttf/NotoSansLimbu-Regular.ttf">unhinted/ttf/NotoSansLimbu-Regular.ttf</a></li>
 					</ul>
 			<hr>
-			<h3>Noto Test (ONLY FOR TESTING)</h3>
+			<h3 id="test">Noto Test (ONLY FOR TESTING)</h3>
 				<ul>
 					<li><a href="https://notofonts.github.io/test">Development builds</a> 
 						<img src="https://img.shields.io/github/workflow/status/notofonts/test/Build%20font%20and%20specimen?label=%20&style=plastic"></li>
 					<li><a href="https://www.github.com/notofonts/test">Source repository</a></li>
+					<li><a href="https://www.github.com/notofonts/test/issues/new">Report a bug in this font</a></li>
 				</ul>
-					<h5>Issues</h5>
+					<h5>Known Issues</h5>
 					<ul>
 							<li> A Test Issue. Please Ignore It. (<a href="https://github.com/notofonts/test/issues/1">#1</a>)</li>
 					</ul>
