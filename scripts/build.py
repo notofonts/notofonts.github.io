@@ -16,6 +16,9 @@ org = g.get_organization("notofonts")
 org_repos = org.get_repos()
 org_names = [r.name for r in org_repos]
 
+subprocess.run(["git", "config", "user.name", "actions-user"])
+subprocess.run(["git", "config", "user.email", "actions-user@users.noreply.github.com"])
+
 sources = json.load(open("sources.json"))
 
 results = {}
