@@ -81,6 +81,8 @@ for repo_name in sources.keys():
                 subprocess.run(["git", "add", "."])
                 subprocess.run(["git", "commit", "-m", "Add "+release.tag_name])
                 subprocess.run(["git", "tag", release.tag_name])
+                subprocess.run(["git", "push"])
+                subprocess.run(["git", "push", "--tags"])
 
 
             # Tweet about the new release or something
