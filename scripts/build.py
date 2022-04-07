@@ -94,7 +94,7 @@ template = compiler.compile(template)
 output = template({"results": results})
 
 # Save sources
-json.dump(sources, open("sources-new.json", "w"), indent=True, sort_keys=True)
+json.dump(sources, open("sources.json", "w"), indent=True, sort_keys=True)
 
 print(json.dumps(results, indent=True))
 with open("index.html", "w") as fh:
