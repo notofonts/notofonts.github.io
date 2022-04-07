@@ -88,13 +88,25 @@ for repo_name in sources.keys():
             # Tweet about the new release or something
     results[repo_name]["families"] = sources[repo_name].get("families", {})
 
+# Save sources
+json.dump(sources, open("sources.json", "w"), indent=True, sort_keys=True)
+
+for result in results.values():
+    for family in result.get("families", {}).values():
+        newfiles = {"unhinted": [], "hinted": [], "full": []}
+        for file in family.get("files", []):
+            if "unhinted" in file:
+                newfiles["unhinted"].append(file)
+            elif "hinted" in file:
+                newfiles["hinted"].append(file)
+            elif "full" in file:
+                newfiles["full"].append(file)
+        family["files"] = newfiles
+
 compiler = Compiler()
 template = open("scripts/template.html", "r").read()
 template = compiler.compile(template)
 output = template({"results": results})
-
-# Save sources
-json.dump(sources, open("sources.json", "w"), indent=True, sort_keys=True)
 
 print(json.dumps(results, indent=True))
 with open("index.html", "w") as fh:
