@@ -29,7 +29,8 @@
 			{{#each results}}
 			<h3>{{title}}</h3>
 				<ul>
-					<li><a href="{{gh_url}}">Development builds</a><img src="{{repo_url}}/actions/workflows/build.yaml/badge.svg" /></li>
+					<li><a href="{{gh_url}}">Development builds</a> 
+						<img src="https://img.shields.io/github/workflow/status/notofonts/{{@key}}/Build%20font%20and%20specimen?label=%20&style=plastic"></li>
 					<li><a href="{{repo_url}}">Source repository</a></li>
 				</ul>
 				{{#if issues}}
