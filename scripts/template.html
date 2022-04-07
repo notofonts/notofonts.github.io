@@ -29,14 +29,14 @@
 			{{#each results}}
 			<h3>{{title}}</h3>
 				<ul>
-					<li><a href="{{gh_url}}">Development builds</a></li>
+					<li><a href="{{gh_url}}">Development builds</a><img src="{{repo_url}}/actions/workflows/build.yaml/badge.svg" /></li>
 					<li><a href="{{repo_url}}">Source repository</a></li>
 				</ul>
 				{{#if issues}}
 					<h5>Issues</h5>
 					<ul>
 					{{#each issues}}
-							<li> {{title}} (<a href="{{url}}">{{number}}</a>)</li>
+							<li> {{title}} (<a href="{{url}}">#{{number}}</a>)</li>
 					{{/each}}
 					</ul>
 				{{/if}}
