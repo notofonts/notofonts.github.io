@@ -85,7 +85,7 @@ for repo_name in sources.keys():
                     os.makedirs(newpath.parent, exist_ok=True)
                     family_thing["files"].append(str(newpath))
                     os.rename(font, newpath)
-                if not TEESTING:
+                if not TESTING:
                     # Add it and tag it
                     subprocess.run(["git", "add", "."])
                     subprocess.run(["git", "commit", "-m", "Add "+release.tag_name])
