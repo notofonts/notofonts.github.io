@@ -10,7 +10,7 @@ import re
 import subprocess
 
 
-TEESTING = False
+TESTING = False
 
 print("Fetching existing repos")
 g = Github(os.environ["GITHUB_TOKEN"])
