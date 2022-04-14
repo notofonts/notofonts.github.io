@@ -20,5 +20,3 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - uses: stefanzweifel/git-auto-commit-action@v4
         name: Commit downloaded fonts and data
-        with:
-          file_pattern: index.html sources.json full hinted unhinted
