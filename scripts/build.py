@@ -20,6 +20,10 @@ subprocess.run(["git", "config", "user.name", "actions-user"])
 subprocess.run(["git", "config", "user.email", "actions-user@users.noreply.github.com"])
 
 sources = json.load(open("sources.json"))
+if os.path.exists("state.json"):
+    state = json.load(open("state.json"))
+else:
+    state = {}
 
 results = {}
 
@@ -43,6 +47,9 @@ for repo_name in sources.keys():
             {"title": issue.title, "number": issue.number, "url": issue.html_url}
         )
 
+    if repo_name not in state:
+        state[repo_name] = {}
+
     # Check for new releases
     for release in repo.get_releases():
         m = re.match(r"^(.*)-(v[\d.]+)", release.tag_name)
@@ -51,14 +58,14 @@ for repo_name in sources.keys():
             continue
         family, version = m[1], m[2]
         family = re.sub(r"([a-z])([A-Z])", r"\1 \2", family)
-        if release.tag_name not in sources[repo_name].get("known_releases", []):
+        if release.tag_name not in state[repo_name].get("known_releases", []):
             assets = release.get_assets()
             if not assets:
                 continue
             latest_asset = assets[0]
-            sources[repo_name].setdefault("known_releases", []).append(release.tag_name)
+            state[repo_name].setdefault("known_releases", []).append(release.tag_name)
             family_thing = (
-                sources[repo_name].setdefault("families", {}).setdefault(family, {})
+                state[repo_name].setdefault("families", {}).setdefault(family, {})
             )
 
             family_thing["latest_release"] = {
@@ -72,8 +79,7 @@ for repo_name in sources.keys():
             with tempfile.TemporaryDirectory() as tmpdir:
                 fonts = fonts_from_zip(z, tmpdir)
                 for font in fonts:
-                    parts = Path(font).relative_to(tmpdir).parts[1:]
-                    newpath = Path(os.path.join(*parts))
+                    newpath = Path("fonts/") / Path(font).relative_to(tmpdir)
                     os.makedirs(newpath.parent, exist_ok=True)
                     family_thing["files"].append(str(newpath))
                     os.rename(font, newpath)
@@ -86,10 +92,10 @@ for repo_name in sources.keys():
 
 
             # Tweet about the new release or something
-    results[repo_name]["families"] = sources[repo_name].get("families", {})
+    results[repo_name]["families"] = state[repo_name].get("families", {})
 
-# Save sources
-json.dump(sources, open("sources.json", "w"), indent=True, sort_keys=True)
+# Save state
+json.dump(state, open("state.json", "w"), indent=True, sort_keys=True)
 
 for result in results.values():
     for family in result.get("families", {}).values():
