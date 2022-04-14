@@ -34,38 +34,6 @@
 				$('.selectpicker').selectpicker('refresh').selectpicker('toggle');
 			});
 		</script>
-		<style>
-     #searchSelect {
-      z-index: 999;
-      position: absolute;
-    }
-
-    .bootstrap-select .dropdown-toggle,
-    .bootstrap-select .dropdown-toggle:hover,
-    .bootstrap-select .dropdown-toggle:active,
-    .bootstrap-select .dropdown-toggle:focus {
-      background: none !important;
-      border: none !important;
-      outline: 0px;
-      box-shadow: none;
-    }
-
-    .dropdown-toggle::after {
-      display: none;
-    }
-
-    #searchSelect .btn.dropdown-toggle {
-      height: 0px;
-      padding: 0px;
-    }
-
-    .bootstrap-select .filter-option {
-      display: none !important;
-    }
-    .bigmargin {
-    	padding-bottom: 300px;
-    }
-		</style>
     </head>
     <body>
   		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -77,27 +45,26 @@
 			</nav>
 			<div class="container my-5">
 			    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-			      <div class="p-3 p-lg-5 pt-lg-3">
+			      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
 			        <h1 class="display-4 fw-bold lh-1">Report an issue in a Noto font</h1>
 			        <p class="lead">To report an issue, please first choose the font.</p>
-			        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3 bigmargin">
+			        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
 
 						<ul class="navbar-nav">
 							<select
-								id="select"
 								class="selectpicker w-auto"
 								data-live-search="true"
 								onchange="location = 'https://github.com/notofonts/'+this.value+'/issues/new/choose';"
 							>
 								<option value="bengali">Noto Bengali (ONLY FOR TESTING)</option>
-									<option value="bengali"> - Noto Sans Bengali</option>
 									<option value="bengali"> - Noto Serif Bengali</option>
+									<option value="bengali"> - Noto Sans Bengali</option>
 								<option value="latin-greek-cyrillic">Noto Latin,  Greek,  Cyrillic (ONLY FOR TESTING)</option>
 								<option value="limbu">Noto Limbu (ONLY FOR TESTING)</option>
 									<option value="limbu"> - Noto Sans Limbu</option>
 								<option value="test">Noto Test (ONLY FOR TESTING)</option>
-									<option value="test"> - Noto Sans Test</option>
 									<option value="test"> - Noto Serif Test</option>
+									<option value="test"> - Noto Sans Test</option>
 							</select>
 						</ul>
 
