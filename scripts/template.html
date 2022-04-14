@@ -88,23 +88,26 @@
 			{{/if}}
 			<div class="row">
 				<div class="col">
+					<h3>Unhinted</h3>
 					<ul>
 						{{#each files.unhinted}}
-						<li><a href="{{this}}">{{this}}</a></li>
+						<li><a href="{{this}}">{{basename this}}</a></li>
 						{{/each}}
 					</ul>
 				</div>
 				<div class="col">
+					<h3>Hinted</h3>
 					<ul>
 						{{#each files.hinted}}
-						<li><a href="{{this}}">{{this}}</a></li>
+						<li><a href="{{this}}">{{basename this}}</a></li>
 						{{/each}}
 					</ul>
 				</div>
 				<div class="col">
+					<h3>Full</h3>
 					<ul>
 						{{#each files.full}}
-						<li><a href="{{this}}">{{this}}</a></li>
+						<li><a href="{{this}}">{{basename this}}</a></li>
 						{{/each}}
 					</ul>
 				</div>

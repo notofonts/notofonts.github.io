@@ -5,7 +5,7 @@ from pathlib import Path
 import tempfile
 import os
 import json
-from pybars import Compiler
+from pybars import Compiler, strlist
 import re
 import subprocess
 
@@ -103,7 +103,7 @@ json.dump(state, open("state.json", "w"), indent=True, sort_keys=True)
 for result in results.values():
     for family in result.get("families", {}).values():
         newfiles = {"unhinted": [], "hinted": [], "full": []}
-        for file in family.get("files", []):
+        for file in sorted(family.get("files", [])):
             if "unhinted" in file:
                 newfiles["unhinted"].append(file)
             elif "hinted" in file:
@@ -112,10 +112,14 @@ for result in results.values():
                 newfiles["full"].append(file)
         family["files"] = newfiles
 
+def _basename(this, item):
+    return strlist([os.path.basename(item)])
+helpers = {'basename': _basename}
+
 compiler = Compiler()
 template = open("scripts/template.html", "r").read()
 template = compiler.compile(template)
-output = template({"results": results})
+output = template({"results": results}, helpers=helpers)
 
 print(json.dumps(results, indent=True))
 with open("index.html", "w") as fh:
