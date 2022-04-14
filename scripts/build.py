@@ -10,6 +10,8 @@ import re
 import subprocess
 
 
+TEESTING = False
+
 print("Fetching existing repos")
 g = Github(os.environ["GITHUB_TOKEN"])
 org = g.get_organization("notofonts")
@@ -83,12 +85,13 @@ for repo_name in sources.keys():
                     os.makedirs(newpath.parent, exist_ok=True)
                     family_thing["files"].append(str(newpath))
                     os.rename(font, newpath)
-                # Add it and tag it
-                subprocess.run(["git", "add", "."])
-                subprocess.run(["git", "commit", "-m", "Add "+release.tag_name])
-                subprocess.run(["git", "tag", release.tag_name])
-                subprocess.run(["git", "push"])
-                subprocess.run(["git", "push", "--tags"])
+                if not TEESTING:
+                    # Add it and tag it
+                    subprocess.run(["git", "add", "."])
+                    subprocess.run(["git", "commit", "-m", "Add "+release.tag_name])
+                    subprocess.run(["git", "tag", release.tag_name])
+                    subprocess.run(["git", "push"])
+                    subprocess.run(["git", "push", "--tags"])
 
 
             # Tweet about the new release or something
