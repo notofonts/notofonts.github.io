@@ -111,3 +111,9 @@ output = template({"results": results})
 print(json.dumps(results, indent=True))
 with open("index.html", "w") as fh:
     fh.write(output)
+
+bug_template = open("scripts/bugreporter.html", "r").read()
+bug_template = compiler.compile(bug_template)
+output = bug_template({"results": results})
+with open("reporter.html", "w") as fh:
+    fh.write(output)
