@@ -236,13 +236,13 @@
    "Noto Sans Test": {
     "files": [
      "fonts/NotoSansTest/hinted/ttf/NotoSansTest-Regular.ttf",
-     "fonts/NotoSansTest/unhinted/variable-ttf/NotoSansTest[wght].ttf",
-     "fonts/NotoSansTest/unhinted/ttf/NotoSansTest-Regular.ttf"
+     "fonts/NotoSansTest/unhinted/ttf/NotoSansTest-Regular.ttf",
+     "fonts/NotoSansTest/unhinted/variable-ttf/NotoSansTest[wght].ttf"
     ],
     "latest_release": {
-     "notes": "Ported from noto-source",
-     "url": "https://github.com/notofonts/test/releases/tag/NotoSansTest-v1.000",
-     "version": "v1.000"
+     "notes": "",
+     "url": "https://github.com/notofonts/test/releases/tag/NotoSansTest-v1.001",
+     "version": "v1.001"
     }
    },
    "Noto Serif Test": {
@@ -261,7 +261,8 @@
   },
   "known_releases": [
    "NotoSerifTest-v1.000",
-   "NotoSansTest-v1.000"
+   "NotoSansTest-v1.000",
+   "NotoSansTest-v1.001"
   ]
  }
 }
