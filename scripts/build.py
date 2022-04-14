@@ -107,7 +107,7 @@ for result in results.values():
                 newfiles["hinted"].append(file)
             elif "full" in file:
                 newfiles["full"].append(file)
-        family["files"] = newfiles
+        family["files"] = list(sorted(newfiles))
 
 compiler = Compiler()
 template = open("scripts/template.html", "r").read()
