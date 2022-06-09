@@ -265,5 +265,59 @@
    "NotoSansTest-v1.000",
    "NotoSansTest-v1.001"
   ]
+ },
+ "vithkuqi": {
+  "families": {
+   "Noto Sans Vithkuqi": {
+    "files": [
+     "fonts/NotoSansVithkuqi/full/variable-ttf/NotoSansVithkuqi[wght].ttf",
+     "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-Bold.ttf",
+     "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-Regular.ttf",
+     "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-Medium.ttf",
+     "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-SemiBold.ttf",
+     "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-Bold.ttf",
+     "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-Regular.ttf",
+     "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-Medium.ttf",
+     "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-SemiBold.ttf",
+     "fonts/NotoSansVithkuqi/unhinted/variable-ttf/NotoSansVithkuqi[wght].ttf",
+     "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-Bold.ttf",
+     "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-Regular.ttf",
+     "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-Medium.ttf",
+     "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-SemiBold.ttf"
+    ],
+    "latest_release": {
+     "notes": "Ported from noto-source",
+     "url": "https://github.com/notofonts/vithkuqi/releases/tag/NotoSansVithkuqi-v1.000",
+     "version": "v1.000"
+    }
+   },
+   "Noto Serif Vithkuqi": {
+    "files": [
+     "fonts/NotoSerifVithkuqi/full/variable-ttf/NotoSerifVithkuqi[wght].ttf",
+     "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-SemiBold.ttf",
+     "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-Bold.ttf",
+     "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-Regular.ttf",
+     "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-Medium.ttf",
+     "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-SemiBold.ttf",
+     "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-Bold.ttf",
+     "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-Regular.ttf",
+     "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-Medium.ttf",
+     "fonts/NotoSerifVithkuqi/unhinted/variable-ttf/NotoSerifVithkuqi[wght].ttf",
+     "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-SemiBold.ttf",
+     "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-Bold.ttf",
+     "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-Regular.ttf",
+     "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-Medium.ttf"
+    ],
+    "latest_release": {
+     "notes": "Ported from noto-source",
+     "url": "https://github.com/notofonts/vithkuqi/releases/tag/NotoSerifVithkuqi-v1.004",
+     "version": "v1.004"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSerifVithkuqi-v1.004",
+   "NotoSansVithkuqi-v1.000"
+  ]
  }
 }
