@@ -121,7 +121,8 @@ template = open("scripts/template.html", "r").read()
 template = compiler.compile(template)
 output = template({"results": results}, helpers=helpers)
 
-print(json.dumps(results, indent=True))
+json.dump(results, open("noto.json", "w"), indent=True, sort_keys=True)
+
 with open("index.html", "w") as fh:
     fh.write(output)
 
