@@ -1,233 +1,4 @@
 {
- "arabic": {
-  "families": {},
-  "gh_url": "https://notofonts.github.io/arabic",
-  "issues": [],
-  "repo_url": "https://www.github.com/notofonts/arabic",
-  "title": "Noto Arabic (ONLY FOR TESTING)"
- },
- "bengali": {
-  "families": {
-   "Noto Sans Bengali": {
-    "files": {
-     "full": [
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengali-Black.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengali-Bold.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengali-Condensed.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengali-ExtraBold.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengali-ExtraCondensed.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengali-ExtraLight.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengali-Light.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengali-Medium.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengali-Regular.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengali-SemiBold.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengali-SemiCondensed.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengali-Thin.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengaliUI-Black.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengaliUI-Bold.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengaliUI-Condensed.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengaliUI-ExtraBold.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengaliUI-ExtraCondensed.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengaliUI-ExtraLight.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengaliUI-Light.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengaliUI-Medium.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengaliUI-Regular.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengaliUI-SemiBold.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengaliUI-SemiCondensed.ttf",
-      "fonts/NotoSansBengali/full/ttf/NotoSansBengaliUI-Thin.ttf",
-      "fonts/NotoSansBengali/full/variable-ttf/NotoSansBengali[wdth,wght].ttf"
-     ],
-     "hinted": [
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengali-Black.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengali-Bold.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengali-Condensed.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengali-ExtraBold.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengali-ExtraCondensed.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengali-ExtraLight.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengali-Light.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengali-Medium.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengali-Regular.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengali-SemiBold.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengali-SemiCondensed.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengali-Thin.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengaliUI-Black.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengaliUI-Bold.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengaliUI-Condensed.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengaliUI-ExtraBold.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengaliUI-ExtraCondensed.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengaliUI-ExtraLight.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengaliUI-Light.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengaliUI-Medium.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengaliUI-Regular.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengaliUI-SemiBold.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengaliUI-SemiCondensed.ttf",
-      "fonts/NotoSansBengali/hinted/ttf/NotoSansBengaliUI-Thin.ttf"
-     ],
-     "unhinted": [
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengali-Black.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengali-Bold.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengali-Condensed.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengali-ExtraBold.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengali-ExtraCondensed.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengali-ExtraLight.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengali-Light.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengali-Medium.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengali-Regular.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengali-SemiBold.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengali-SemiCondensed.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengali-Thin.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengaliUI-Black.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengaliUI-Bold.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengaliUI-Condensed.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengaliUI-ExtraBold.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengaliUI-ExtraCondensed.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengaliUI-ExtraLight.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengaliUI-Light.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengaliUI-Medium.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengaliUI-Regular.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengaliUI-SemiBold.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengaliUI-SemiCondensed.ttf",
-      "fonts/NotoSansBengali/unhinted/ttf/NotoSansBengaliUI-Thin.ttf",
-      "fonts/NotoSansBengali/unhinted/variable-ttf/NotoSansBengali[wdth,wght].ttf"
-     ]
-    },
-    "latest_release": {
-     "notes": "Ported from noto-source",
-     "url": "https://github.com/notofonts/bengali/releases/tag/NotoSansBengali-v2.002",
-     "version": "v2.002"
-    }
-   },
-   "Noto Serif Bengali": {
-    "files": {
-     "full": [
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-Black.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-Bold.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-Condensed.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-CondensedBlack.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-CondensedBold.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-CondensedExtraBold.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-CondensedExtraLight.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-CondensedLight.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-CondensedMedium.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-CondensedSemiBold.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-CondensedThin.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-ExtraBold.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-ExtraCondensed.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-ExtraCondensedBold.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-ExtraCondensedLight.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-ExtraCondensedThin.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-ExtraLight.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-Light.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-Medium.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-Regular.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-SemiBold.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-SemiCondensed.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-SemiCondensedBlack.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-SemiCondensedBold.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-SemiCondensedLight.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-SemiCondensedMedium.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-SemiCondensedThin.ttf",
-      "fonts/NotoSerifBengali/full/ttf/NotoSerifBengali-Thin.ttf",
-      "fonts/NotoSerifBengali/full/variable-ttf/NotoSerifBengali[wdth,wght].ttf"
-     ],
-     "hinted": [
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-Black.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-Bold.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-Condensed.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-CondensedBlack.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-CondensedBold.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-CondensedExtraBold.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-CondensedExtraLight.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-CondensedLight.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-CondensedMedium.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-CondensedSemiBold.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-CondensedThin.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-ExtraBold.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-ExtraCondensed.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-ExtraCondensedBold.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-ExtraCondensedLight.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-ExtraCondensedThin.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-ExtraLight.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-Light.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-Medium.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-Regular.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-SemiBold.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-SemiCondensed.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-SemiCondensedBlack.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-SemiCondensedBold.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-SemiCondensedLight.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-SemiCondensedMedium.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-SemiCondensedThin.ttf",
-      "fonts/NotoSerifBengali/hinted/ttf/NotoSerifBengali-Thin.ttf"
-     ],
-     "unhinted": [
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-Black.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-Bold.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-Condensed.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-CondensedBlack.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-CondensedBold.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-CondensedExtraBold.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-CondensedExtraLight.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-CondensedLight.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-CondensedMedium.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-CondensedSemiBold.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-CondensedThin.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-ExtraBold.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-ExtraCondensed.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedBlack.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedBold.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedExtraBold.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedExtraLight.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedLight.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedMedium.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedSemiBold.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-ExtraCondensedThin.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-ExtraLight.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-Light.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-Medium.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-Regular.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-SemiBold.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-SemiCondensed.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-SemiCondensedBlack.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-SemiCondensedBold.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-SemiCondensedExtraBold.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-SemiCondensedExtraLight.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-SemiCondensedLight.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-SemiCondensedMedium.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-SemiCondensedSemiBold.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-SemiCondensedThin.ttf",
-      "fonts/NotoSerifBengali/unhinted/ttf/NotoSerifBengali-Thin.ttf",
-      "fonts/NotoSerifBengali/unhinted/variable-ttf/NotoSerifBengali[wdth,wght].ttf"
-     ]
-    },
-    "latest_release": {
-     "notes": "Ported from noto-source",
-     "url": "https://github.com/notofonts/bengali/releases/tag/NotoSerifBengali-v2.001",
-     "version": "v2.001"
-    }
-   }
-  },
-  "gh_url": "https://notofonts.github.io/bengali",
-  "issues": [],
-  "repo_url": "https://www.github.com/notofonts/bengali",
-  "title": "Noto Bengali (ONLY FOR TESTING)"
- },
  "latin-greek-cyrillic": {
   "families": {},
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
@@ -235,98 +6,47 @@
   "repo_url": "https://www.github.com/notofonts/latin-greek-cyrillic",
   "title": "Noto Latin,  Greek,  Cyrillic (ONLY FOR TESTING)"
  },
- "limbu": {
+ "test": {
   "families": {
-   "Noto Sans Limbu": {
+   "Noto Sans Test": {
     "files": {
-     "full": [
-      "fonts/limbu-2.002/full/ttf/NotoSansLimbu-Regular.ttf",
-      "fonts/limbu-2.002/full/variable-ttf/NotoSansLimbu[wght].ttf"
-     ],
+     "full": [],
      "hinted": [
-      "fonts/limbu-2.002/hinted/ttf/NotoSansLimbu-Regular.ttf"
+      "fonts/NotoSansTest/hinted/ttf/NotoSansTest-Regular.ttf"
      ],
      "unhinted": [
-      "fonts/limbu-2.002/unhinted/ttf/NotoSansLimbu-Regular.ttf",
-      "fonts/limbu-2.002/unhinted/variable-ttf/NotoSansLimbu[wght].ttf"
+      "fonts/NotoSansTest/unhinted/ttf/NotoSansTest-Regular.ttf",
+      "fonts/NotoSansTest/unhinted/variable-ttf/NotoSansTest[wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "This is a manual release, which we should never do.",
-     "url": "https://github.com/notofonts/limbu/releases/tag/NotoSansLimbu-v2.002",
-     "version": "v2.002"
-    }
-   }
-  },
-  "gh_url": "https://notofonts.github.io/limbu",
-  "issues": [],
-  "repo_url": "https://www.github.com/notofonts/limbu",
-  "title": "Noto Limbu (ONLY FOR TESTING)"
- },
- "vithkuqi": {
-  "families": {
-   "Noto Sans Vithkuqi": {
-    "files": {
-     "full": [
-      "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-Bold.ttf",
-      "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-Medium.ttf",
-      "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-Regular.ttf",
-      "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-SemiBold.ttf",
-      "fonts/NotoSansVithkuqi/full/variable-ttf/NotoSansVithkuqi[wght].ttf"
-     ],
-     "hinted": [
-      "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-Bold.ttf",
-      "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-Medium.ttf",
-      "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-Regular.ttf",
-      "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-SemiBold.ttf"
-     ],
-     "unhinted": [
-      "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-Bold.ttf",
-      "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-Medium.ttf",
-      "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-Regular.ttf",
-      "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-SemiBold.ttf",
-      "fonts/NotoSansVithkuqi/unhinted/variable-ttf/NotoSansVithkuqi[wght].ttf"
-     ]
-    },
-    "latest_release": {
-     "notes": "Ported from noto-source",
-     "url": "https://github.com/notofonts/vithkuqi/releases/tag/NotoSansVithkuqi-v1.000",
-     "version": "v1.000"
+     "notes": "",
+     "url": "https://github.com/notofonts/test/releases/tag/NotoSansTest-v1.001",
+     "version": "v1.001"
     }
    },
-   "Noto Serif Vithkuqi": {
+   "Noto Serif Test": {
     "files": {
-     "full": [
-      "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-Bold.ttf",
-      "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-Medium.ttf",
-      "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-Regular.ttf",
-      "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-SemiBold.ttf",
-      "fonts/NotoSerifVithkuqi/full/variable-ttf/NotoSerifVithkuqi[wght].ttf"
-     ],
+     "full": [],
      "hinted": [
-      "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-Bold.ttf",
-      "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-Medium.ttf",
-      "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-Regular.ttf",
-      "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-SemiBold.ttf"
+      "fonts/NotoSerifTest/hinted/ttf/NotoSerifTest-Bold.ttf",
+      "fonts/NotoSerifTest/hinted/ttf/NotoSerifTest-Regular.ttf"
      ],
      "unhinted": [
-      "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-Bold.ttf",
-      "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-Medium.ttf",
-      "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-Regular.ttf",
-      "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-SemiBold.ttf",
-      "fonts/NotoSerifVithkuqi/unhinted/variable-ttf/NotoSerifVithkuqi[wght].ttf"
+      "fonts/NotoSerifTest/unhinted/ttf/NotoSerifTest-Bold.ttf",
+      "fonts/NotoSerifTest/unhinted/ttf/NotoSerifTest-Regular.ttf"
      ]
     },
     "latest_release": {
      "notes": "Ported from noto-source",
-     "url": "https://github.com/notofonts/vithkuqi/releases/tag/NotoSerifVithkuqi-v1.004",
-     "version": "v1.004"
+     "url": "https://github.com/notofonts/test/releases/tag/NotoSerifTest-v1.000",
+     "version": "v1.000"
     }
    }
   },
-  "gh_url": "https://notofonts.github.io/vithkuqi",
+  "gh_url": "https://notofonts.github.io/test",
   "issues": [],
-  "repo_url": "https://www.github.com/notofonts/vithkuqi",
-  "title": "Noto Vithkuqi (ONLY FOR TESTING)"
+  "repo_url": "https://www.github.com/notofonts/test",
+  "title": "Noto Test (ONLY FOR TESTING)"
  }
 }
