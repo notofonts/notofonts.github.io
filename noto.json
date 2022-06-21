@@ -4,9 +4,64 @@
   "gh_url": "https://notofonts.github.io/Arimo",
   "issues": [
    {
+    "number": 13,
+    "title": "Wrong weight value for Arimo-BoldItalic.ttf",
+    "url": "https://github.com/notofonts/Arimo/issues/13"
+   },
+   {
+    "number": 12,
+    "title": "[Arimo, Tinos, & Cousine] The Eng (U+014A) should be N-shaped (as opposed to n-) ",
+    "url": "https://github.com/notofonts/Arimo/issues/12"
+   },
+   {
+    "number": 11,
+    "title": "Questionable glyph for U+1D24 LATIN LETTER VOICED LARYNGEAL SPIRANT",
+    "url": "https://github.com/notofonts/Arimo/issues/11"
+   },
+   {
+    "number": 10,
+    "title": "Several missing characters from croscore fonts (musical symbols, mathematical characters, small capital Q)",
+    "url": "https://github.com/notofonts/Arimo/issues/10"
+   },
+   {
+    "number": 9,
+    "title": "Latin: combining diacritics positioning broken on historical letters",
+    "url": "https://github.com/notofonts/Arimo/issues/9"
+   },
+   {
+    "number": 8,
+    "title": "Latin/IPA vertical bars design issues",
+    "url": "https://github.com/notofonts/Arimo/issues/8"
+   },
+   {
     "number": 2,
     "title": "in Arimo, \u1d7c\u1da5 should be based on \u0269",
     "url": "https://github.com/notofonts/Arimo/issues/2"
+   },
+   {
+    "number": 7,
+    "title": "changes to U+1D7B U+1DA6 U+1DA7 in Arimo and Cousine",
+    "url": "https://github.com/notofonts/Arimo/issues/7"
+   },
+   {
+    "number": 6,
+    "title": "Latin upsilons design issues in Arimo and Cousine",
+    "url": "https://github.com/notofonts/Arimo/issues/6"
+   },
+   {
+    "number": 5,
+    "title": " jumping superscripts of different sizes and different optical weights in Arimo, Cousine and Tinos",
+    "url": "https://github.com/notofonts/Arimo/issues/5"
+   },
+   {
+    "number": 4,
+    "title": "combining cedilla is misplaced w.r.t. a lot of base characters in Arimo, Tinos, Cousine",
+    "url": "https://github.com/notofonts/Arimo/issues/4"
+   },
+   {
+    "number": 3,
+    "title": " \ua7b5 in Tinos which still needs serifs and \u019b should be \u03bb with a stroke in Arimo and Cousine",
+    "url": "https://github.com/notofonts/Arimo/issues/3"
    },
    {
     "number": 1,
@@ -159,6 +214,11 @@
     "number": 31,
     "title": "Lower three dots incorrectly orientated in \"Noto Sans Arabic\" codepoints U+0752 and U+0753",
     "url": "https://github.com/notofonts/arabic/issues/31"
+   },
+   {
+    "number": 38,
+    "title": "Missing glyph \"\u062c\" in not naskh arabic",
+    "url": "https://github.com/notofonts/arabic/issues/38"
    },
    {
     "number": 30,
@@ -2009,6 +2069,11 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/1"
    },
    {
+    "number": 227,
+    "title": "Noto-Sans: some issues",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/227"
+   },
+   {
     "number": 2,
     "title": "Noto Sans and Noto Sans Bold have differ size while setted as 13 px",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/2"
@@ -2094,6 +2159,11 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/14"
    },
    {
+    "number": 231,
+    "title": "Please include variable versions of Noto Sans and Noto Serif in Google fonts",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/231"
+   },
+   {
     "number": 74,
     "title": "Combining half marks need separate anchors",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/74"
@@ -2102,6 +2172,11 @@
     "number": 15,
     "title": "Combining half marks need separate anchors",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/15"
+   },
+   {
+    "number": 224,
+    "title": "Serif and Sans 1DD4..1DF4 are stretched in some rendering engines",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/224"
    },
    {
     "number": 16,
@@ -2122,6 +2197,11 @@
     "number": 18,
     "title": "Latin, Greek and Cyrillc superscript and subscript modifier letters are scaled composites",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/18"
+   },
+   {
+    "number": 225,
+    "title": "Noto Sans light, semibold, etc. are not present on Google Fonts",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/225"
    },
    {
     "number": 75,
@@ -2589,6 +2669,11 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/215"
    },
    {
+    "number": 228,
+    "title": "Wrong Turkic small capital i",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/228"
+   },
+   {
     "number": 214,
     "title": "Reordered Romanian diacritic stacks in Noto Sans Mono",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/214"
@@ -2597,6 +2682,11 @@
     "number": 213,
     "title": "Bad combinations of spacing Greek diacritics",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/213"
+   },
+   {
+    "number": 229,
+    "title": "Noto Sans: missing U+266A Eighth Note and U+266B Beamed Eighth Notes for complete subtitle support",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/229"
    },
    {
     "number": 212,
@@ -3059,6 +3149,16 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/176"
    },
    {
+    "number": 230,
+    "title": "Some fonts might need update for USE and default mark zeroing behavior change in HB",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/230"
+   },
+   {
+    "number": 226,
+    "title": "Combining grapheme joiner (CGJ) with double diacritics",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/226"
+   },
+   {
     "number": 177,
     "title": "Latin/IPA vertical bars design issues",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/177"
@@ -3155,6 +3255,11 @@
   },
   "gh_url": "https://notofonts.github.io/limbu",
   "issues": [
+   {
+    "number": 2,
+    "title": "Overlapping marks in Limbu",
+    "url": "https://github.com/notofonts/limbu/issues/2"
+   },
    {
     "number": 1,
     "title": "Misplaced Limbu vowel signs after medial consonants",
@@ -3427,6 +3532,11 @@
     "number": 1,
     "title": "210E h planck costant doesn't fit in 1D455 mathematical italic small h",
     "url": "https://github.com/notofonts/math/issues/1"
+   },
+   {
+    "number": 14,
+    "title": "Support OpenType math",
+    "url": "https://github.com/notofonts/math/issues/14"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/math",
@@ -3489,7 +3599,18 @@
  "meroitic": {
   "families": {},
   "gh_url": "https://notofonts.github.io/meroitic",
-  "issues": [],
+  "issues": [
+   {
+    "number": 1,
+    "title": "Cursive Meroitic 'dist' is not applied",
+    "url": "https://github.com/notofonts/meroitic/issues/1"
+   },
+   {
+    "number": 2,
+    "title": "Problems with Meroitic punctuation",
+    "url": "https://github.com/notofonts/meroitic/issues/2"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/meroitic",
   "title": "Noto Meroitic"
  },
@@ -3673,6 +3794,11 @@
     "number": 21,
     "title": "Myanmar -UU not shifted right after subjoined KA",
     "url": "https://github.com/notofonts/myanmar/issues/21"
+   },
+   {
+    "number": 38,
+    "title": "Position Dot(1037) in Sgaw Karen Language on Noto Sans Myanmar Fonts",
+    "url": "https://github.com/notofonts/myanmar/issues/38"
    },
    {
     "number": 20,
@@ -4037,6 +4163,11 @@
     "number": 1,
     "title": "Missing \u201cVersion \u201d in version strings",
     "url": "https://github.com/notofonts/nushu/issues/1"
+   },
+   {
+    "number": 3,
+    "title": "NotoTraditionalNushu-Regular include Latin glyphs from Source Sans",
+    "url": "https://github.com/notofonts/nushu/issues/3"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/nushu",
@@ -4102,7 +4233,13 @@
  "old-italic": {
   "families": {},
   "gh_url": "https://notofonts.github.io/old-italic",
-  "issues": [],
+  "issues": [
+   {
+    "number": 1,
+    "title": "Noto Sans Old Italic should support Old Italic variant forms",
+    "url": "https://github.com/notofonts/old-italic/issues/1"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/old-italic",
   "title": "Noto Old Italic"
  },
@@ -4560,7 +4697,33 @@
  "syloti-nagri": {
   "families": {},
   "gh_url": "https://notofonts.github.io/syloti-nagri",
-  "issues": [],
+  "issues": [
+   {
+    "number": 5,
+    "title": "Syloti is poorly hinted in W10/GDI",
+    "url": "https://github.com/notofonts/syloti-nagri/issues/5"
+   },
+   {
+    "number": 4,
+    "title": "Improvements for Noto Sans Syloti Nagri",
+    "url": "https://github.com/notofonts/syloti-nagri/issues/4"
+   },
+   {
+    "number": 3,
+    "title": "Syloti Nagari, issue with \ua81c, \ua816\ua825, \ua826, \ua827",
+    "url": "https://github.com/notofonts/syloti-nagri/issues/3"
+   },
+   {
+    "number": 2,
+    "title": "A Syloti Nagari font without the horaizontal line is needed.",
+    "url": "https://github.com/notofonts/syloti-nagri/issues/2"
+   },
+   {
+    "number": 1,
+    "title": "Syloti conjuncts",
+    "url": "https://github.com/notofonts/syloti-nagri/issues/1"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/syloti-nagri",
   "title": "Noto Syloti Nagri"
  },
@@ -4582,6 +4745,156 @@
     "number": 1,
     "title": "Implement Kaktovik numerals in Symbol or Canadian",
     "url": "https://github.com/notofonts/symbols/issues/1"
+   },
+   {
+    "number": 31,
+    "title": "Reversed rotated fleuron is larger than other two",
+    "url": "https://github.com/notofonts/symbols/issues/31"
+   },
+   {
+    "number": 30,
+    "title": "Baseline of U+1F6F7..U+1F6FA is too low",
+    "url": "https://github.com/notofonts/symbols/issues/30"
+   },
+   {
+    "number": 33,
+    "title": "missing characters, scripts, and drawing behavior",
+    "url": "https://github.com/notofonts/symbols/issues/33"
+   },
+   {
+    "number": 32,
+    "title": "Language-neutral tofu of Windows 10 + Unicode 13",
+    "url": "https://github.com/notofonts/symbols/issues/32"
+   },
+   {
+    "number": 29,
+    "title": "Inconsistent width of Block Element in Noto Sans Symbols (\u2593 / U+2593 is wider)",
+    "url": "https://github.com/notofonts/symbols/issues/29"
+   },
+   {
+    "number": 28,
+    "title": "Language-neutral tofu of Windows 7 base plane",
+    "url": "https://github.com/notofonts/symbols/issues/28"
+   },
+   {
+    "number": 27,
+    "title": "Merge NotoSansSymbols and NotoSansSymbols2",
+    "url": "https://github.com/notofonts/symbols/issues/27"
+   },
+   {
+    "number": 26,
+    "title": "Height of box characters in \"Symbols for Legacy Computing\" doesn't match height of box characters in \"Block Elements\" block ",
+    "url": "https://github.com/notofonts/symbols/issues/26"
+   },
+   {
+    "number": 25,
+    "title": "Multiple U+102E0 COPTIC EPACT THOUSANDS MARKs are too far apart",
+    "url": "https://github.com/notofonts/symbols/issues/25"
+   },
+   {
+    "number": 24,
+    "title": "Missing U+0301 COMBINING ACUTE ACCENT in Noto Sans Symbols2",
+    "url": "https://github.com/notofonts/symbols/issues/24"
+   },
+   {
+    "number": 23,
+    "title": "Combining enclosing circle is centered on the zero line",
+    "url": "https://github.com/notofonts/symbols/issues/23"
+   },
+   {
+    "number": 22,
+    "title": "Questionable hatching for large orange shapes",
+    "url": "https://github.com/notofonts/symbols/issues/22"
+   },
+   {
+    "number": 21,
+    "title": "U+101A0 GREEK SYMBOL TAU RHO is off center",
+    "url": "https://github.com/notofonts/symbols/issues/21"
+   },
+   {
+    "number": 20,
+    "title": "Wrong glyphs for WHITE/BLACK CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES",
+    "url": "https://github.com/notofonts/symbols/issues/20"
+   },
+   {
+    "number": 19,
+    "title": "missing symbols from code page 437 : box drawing and filled boxes characters in Unicode (U+2500..U+25A0)",
+    "url": "https://github.com/notofonts/symbols/issues/19"
+   },
+   {
+    "number": 18,
+    "title": "Descent of Noto Sans Symbols2 does not match that of Noto Sans",
+    "url": "https://github.com/notofonts/symbols/issues/18"
+   },
+   {
+    "number": 17,
+    "title": "Inconsistent glyph for U+2394 SOFTWARE-FUNCTION SYMBOL",
+    "url": "https://github.com/notofonts/symbols/issues/17"
+   },
+   {
+    "number": 16,
+    "title": "Missing previously present characters in NotoSansSymbols",
+    "url": "https://github.com/notofonts/symbols/issues/16"
+   },
+   {
+    "number": 15,
+    "title": "Wrong glyphs for circled zero dingbats",
+    "url": "https://github.com/notofonts/symbols/issues/15"
+   },
+   {
+    "number": 14,
+    "title": "Misleading glyph for U+1F93B MODERN PENTATHLON",
+    "url": "https://github.com/notofonts/symbols/issues/14"
+   },
+   {
+    "number": 13,
+    "title": "Self-intersecting glyphs with U+20E0",
+    "url": "https://github.com/notofonts/symbols/issues/13"
+   },
+   {
+    "number": 12,
+    "title": "Combining character combines with the following character",
+    "url": "https://github.com/notofonts/symbols/issues/12"
+   },
+   {
+    "number": 11,
+    "title": "Inaccurate U+101FD PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE",
+    "url": "https://github.com/notofonts/symbols/issues/11"
+   },
+   {
+    "number": 10,
+    "title": "Symbols2: incorrect FFF9\u2013FFFB",
+    "url": "https://github.com/notofonts/symbols/issues/10"
+   },
+   {
+    "number": 9,
+    "title": "Webdings and Wingdings are missing from Noto Symbols",
+    "url": "https://github.com/notofonts/symbols/issues/9"
+   },
+   {
+    "number": 8,
+    "title": "U+2139 in Noto Symbols should have serifs.",
+    "url": "https://github.com/notofonts/symbols/issues/8"
+   },
+   {
+    "number": 7,
+    "title": "NotoSansSymbols-Regular is not monospaced",
+    "url": "https://github.com/notofonts/symbols/issues/7"
+   },
+   {
+    "number": 6,
+    "title": "Noto Symbols needs variation sequence slashed zero form of empty set",
+    "url": "https://github.com/notofonts/symbols/issues/6"
+   },
+   {
+    "number": 5,
+    "title": "OpenType layout features missing",
+    "url": "https://github.com/notofonts/symbols/issues/5"
+   },
+   {
+    "number": 4,
+    "title": "Noto Sans Symbols: U+1F1EB loses its cross bar in 15px on Linux",
+    "url": "https://github.com/notofonts/symbols/issues/4"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/symbols",
@@ -4690,6 +5003,195 @@
   "repo_url": "https://www.github.com/notofonts/tagbanwa",
   "title": "Noto Tagbanwa"
  },
+ "tai-le": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/tai-le",
+  "issues": [
+   {
+    "number": 2,
+    "title": "Noto Sans Tai Le does not work with USE shaper",
+    "url": "https://github.com/notofonts/tai-le/issues/2"
+   },
+   {
+    "number": 1,
+    "title": "Glyph variants for digits in Tai Le",
+    "url": "https://github.com/notofonts/tai-le/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/tai-le",
+  "title": "Noto Tai Le"
+ },
+ "tai-tham": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/tai-tham",
+  "issues": [
+   {
+    "number": 7,
+    "title": "Noto Sans Tai Tham is missing dotted circle",
+    "url": "https://github.com/notofonts/tai-tham/issues/7"
+   },
+   {
+    "number": 6,
+    "title": "Mispositioned fallback form of U+1A60 TAI THAM SIGN SAKOT",
+    "url": "https://github.com/notofonts/tai-tham/issues/6"
+   },
+   {
+    "number": 5,
+    "title": "Noto Sans Tai Tham Issues ",
+    "url": "https://github.com/notofonts/tai-tham/issues/5"
+   },
+   {
+    "number": 4,
+    "title": "Limited reordering in Tai Tham",
+    "url": "https://github.com/notofonts/tai-tham/issues/4"
+   },
+   {
+    "number": 3,
+    "title": "Incorrectly subjoined Tai Tham wa and low ya",
+    "url": "https://github.com/notofonts/tai-tham/issues/3"
+   },
+   {
+    "number": 2,
+    "title": "Missing anchor on U+1A7F TAI THAM COMBINING CRYPTOGRAMMIC DOT",
+    "url": "https://github.com/notofonts/tai-tham/issues/2"
+   },
+   {
+    "number": 1,
+    "title": "GSUB problem with Noto Sans Tai Tham: uni1A4B",
+    "url": "https://github.com/notofonts/tai-tham/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/tai-tham",
+  "title": "Noto Tai Tham"
+ },
+ "tai-viet": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/tai-viet",
+  "issues": [
+   {
+    "number": 1,
+    "title": "Missing anchor points in Tai Viet",
+    "url": "https://github.com/notofonts/tai-viet/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/tai-viet",
+  "title": "Noto Tai Viet"
+ },
+ "takri": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/takri",
+  "issues": [
+   {
+    "number": 5,
+    "title": "U+116B7 TAKRI SIGN NUKTA blocks 'dist'",
+    "url": "https://github.com/notofonts/takri/issues/5"
+   },
+   {
+    "number": 4,
+    "title": "Occlusion for a particular combination of letters in Takri",
+    "url": "https://github.com/notofonts/takri/issues/4"
+   },
+   {
+    "number": 3,
+    "title": "Occlusion when using LETTER+VIRAMA+HA+LETTER",
+    "url": "https://github.com/notofonts/takri/issues/3"
+   },
+   {
+    "number": 2,
+    "title": "TAKRI word for NGA+AA and TA+AA+ANUSVARA looks the same.",
+    "url": "https://github.com/notofonts/takri/issues/2"
+   },
+   {
+    "number": 1,
+    "title": "Stylistically inconsistent Takri dandas",
+    "url": "https://github.com/notofonts/takri/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/takri",
+  "title": "Noto Takri"
+ },
+ "tamil": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/tamil",
+  "issues": [
+   {
+    "number": 6,
+    "title": "Noto Serif Tamil Slanted is named \u201cNotoSerifTamilSlanted\u201d",
+    "url": "https://github.com/notofonts/tamil/issues/6"
+   },
+   {
+    "number": 5,
+    "title": "Inclusion of original Tamil uyirmeyye\u1e3buttuka\u1e37 no longer used in India?",
+    "url": "https://github.com/notofonts/tamil/issues/5"
+   },
+   {
+    "number": 4,
+    "title": "NotoSerifTamilSlanted-VF.ttf and NotoSerifTamilSlanted-Italic-VF.ttf in tree/main/unhinted/variable-ttf",
+    "url": "https://github.com/notofonts/tamil/issues/4"
+   },
+   {
+    "number": 3,
+    "title": "Mispositioned nuktas below U+0BC6 TAMIL VOWEL SIGN E",
+    "url": "https://github.com/notofonts/tamil/issues/3"
+   },
+   {
+    "number": 2,
+    "title": "U+1133C GRANTHA SIGN NUKTA blocks Tamil ligatures",
+    "url": "https://github.com/notofonts/tamil/issues/2"
+   },
+   {
+    "number": 1,
+    "title": "Tamil: \"isolated\" form of U+0BC2 is different from the Unicode code charts",
+    "url": "https://github.com/notofonts/tamil/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/tamil",
+  "title": "Noto Tamil"
+ },
+ "tangsa": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/tangsa",
+  "issues": [
+   {
+    "number": 1,
+    "title": "Kerning rules of U+16AA7 TANGSA LETTER PA and U+16ABA TANGSA LETTER XA are swapped",
+    "url": "https://github.com/notofonts/tangsa/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/tangsa",
+  "title": "Noto Tangsa"
+ },
+ "tangut": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/tangut",
+  "issues": [
+   {
+    "number": 1,
+    "title": "Some incorrect Tangut glyphs",
+    "url": "https://github.com/notofonts/tangut/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/tangut",
+  "title": "Noto Tangut"
+ },
+ "telugu": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/telugu",
+  "issues": [
+   {
+    "number": 2,
+    "title": "Bugs in Telugu font at OS level in Android.",
+    "url": "https://github.com/notofonts/telugu/issues/2"
+   },
+   {
+    "number": 1,
+    "title": "The base line for noto sans Telugu is not in line with English and punctuation marks. ",
+    "url": "https://github.com/notofonts/telugu/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/telugu",
+  "title": "Noto Telugu"
+ },
  "test": {
   "families": {
    "Noto Sans Test": {
@@ -4738,5 +5240,524 @@
   ],
   "repo_url": "https://www.github.com/notofonts/test",
   "title": "Noto Test (ONLY FOR TESTING)"
+ },
+ "thaana": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/thaana",
+  "issues": [],
+  "repo_url": "https://www.github.com/notofonts/thaana",
+  "title": "Noto Thaana"
+ },
+ "thai": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/thai",
+  "issues": [
+   {
+    "number": 9,
+    "title": "Noto Sans Thai: U+F700 and U+F70F are missing",
+    "url": "https://github.com/notofonts/thai/issues/9"
+   },
+   {
+    "number": 8,
+    "title": "Noto Looped Thai overwrites vowel-signs with tone marks",
+    "url": "https://github.com/notofonts/thai/issues/8"
+   },
+   {
+    "number": 7,
+    "title": "Missing substitution rule for uni0E2C loChula-thai",
+    "url": "https://github.com/notofonts/thai/issues/7"
+   },
+   {
+    "number": 6,
+    "title": "No contextual variants of U+0331 in Thai",
+    "url": "https://github.com/notofonts/thai/issues/6"
+   },
+   {
+    "number": 5,
+    "title": "Misplaced U+0331 COMBINING MACRON BELOW in Thai",
+    "url": "https://github.com/notofonts/thai/issues/5"
+   },
+   {
+    "number": 4,
+    "title": "Missing contextual form of U+0E0D THAI CHARACTER YO YING",
+    "url": "https://github.com/notofonts/thai/issues/4"
+   },
+   {
+    "number": 3,
+    "title": "U+0E4D THAI CHARACTER NIKHAHIT is reordered below tone marks",
+    "url": "https://github.com/notofonts/thai/issues/3"
+   },
+   {
+    "number": 2,
+    "title": "NotoSansThaiUI-ttf phase III font's stacked diacritics seems more compressed than the NotoSansThaiUI-VH.ttf's ones",
+    "url": "https://github.com/notofonts/thai/issues/2"
+   },
+   {
+    "number": 1,
+    "title": "some Thai character sequences go outside UI box for Noto Sans Thai UI and they shouldn't",
+    "url": "https://github.com/notofonts/thai/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/thai",
+  "title": "Noto Thai"
+ },
+ "tibetan": {
+  "families": {
+   "Noto Serif Tibetan": {
+    "files": {
+     "full": [
+      "fonts/NotoSerifTibetan/full/slim-variable-ttf/NotoSerifTibetan[wght].ttf",
+      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Black.ttf",
+      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Bold.ttf",
+      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-ExtraBold.ttf",
+      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-ExtraLight.ttf",
+      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Light.ttf",
+      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Medium.ttf",
+      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Regular.ttf",
+      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-SemiBold.ttf",
+      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Thin.ttf",
+      "fonts/NotoSerifTibetan/full/variable-ttf/NotoSerifTibetan[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Black.ttf",
+      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Bold.ttf",
+      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-ExtraBold.ttf",
+      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-ExtraLight.ttf",
+      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Light.ttf",
+      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Medium.ttf",
+      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Regular.ttf",
+      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-SemiBold.ttf",
+      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Thin.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSerifTibetan/unhinted/slim-variable-ttf/NotoSerifTibetan[wght].ttf",
+      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Black.ttf",
+      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Bold.ttf",
+      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-ExtraBold.ttf",
+      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-ExtraLight.ttf",
+      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Light.ttf",
+      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Medium.ttf",
+      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Regular.ttf",
+      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-SemiBold.ttf",
+      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Thin.ttf",
+      "fonts/NotoSerifTibetan/unhinted/variable-ttf/NotoSerifTibetan[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/tibetan/releases/tag/NotoSerifTibetan-v2.102",
+     "version": "v2.102"
+    }
+   }
+  },
+  "gh_url": "https://notofonts.github.io/tibetan",
+  "issues": [
+   {
+    "number": 23,
+    "title": "Noto Serif Tibetan glyphs and line height too large?",
+    "url": "https://github.com/notofonts/tibetan/issues/23"
+   },
+   {
+    "number": 22,
+    "title": "U+0FC6 TIBETAN SYMBOL PADMA GDAN has no anchor",
+    "url": "https://github.com/notofonts/tibetan/issues/22"
+   },
+   {
+    "number": 21,
+    "title": "Noto Serif Tibetan deletes U+25CC DOTTED CIRCLE in certain contexts",
+    "url": "https://github.com/notofonts/tibetan/issues/21"
+   },
+   {
+    "number": 20,
+    "title": "Dependent vowel signs in Noto Serif Tibetan are misaligned",
+    "url": "https://github.com/notofonts/tibetan/issues/20"
+   },
+   {
+    "number": 19,
+    "title": "U+0F74 TIBETAN VOWEL SIGN U needs kerning",
+    "url": "https://github.com/notofonts/tibetan/issues/19"
+   },
+   {
+    "number": 18,
+    "title": "Excessive compression in \u27e8\u0f68\u0f7c\u0f7e\u27e9",
+    "url": "https://github.com/notofonts/tibetan/issues/18"
+   },
+   {
+    "number": 17,
+    "title": "Misplaced U+0F39 TIBETAN MARK TSA -PHRU on some yig mgo",
+    "url": "https://github.com/notofonts/tibetan/issues/17"
+   },
+   {
+    "number": 16,
+    "title": "Wrong form of Tibetan ra with subjoined nya in some contexts",
+    "url": "https://github.com/notofonts/tibetan/issues/16"
+   },
+   {
+    "number": 15,
+    "title": "U+0F0C TIBETAN MARK DELIMITER TSHEG BSTAR should be identical to U+0F0B TIBETAN MARK INTERSYLLABIC TSHEG",
+    "url": "https://github.com/notofonts/tibetan/issues/15"
+   },
+   {
+    "number": 14,
+    "title": "Incomplete contextualization for narrow Tibetan above-base vowels",
+    "url": "https://github.com/notofonts/tibetan/issues/14"
+   },
+   {
+    "number": 13,
+    "title": "Tibetan `wide_abvs` lookup overapplies",
+    "url": "https://github.com/notofonts/tibetan/issues/13"
+   },
+   {
+    "number": 12,
+    "title": "\u27e8\u0f51\u0fad\u0f74\u27e9 is wrong",
+    "url": "https://github.com/notofonts/tibetan/issues/12"
+   },
+   {
+    "number": 11,
+    "title": "Letters are rearranged in stacks with U+0FB0 TIBETAN SUBJOINED LETTER -A",
+    "url": "https://github.com/notofonts/tibetan/issues/11"
+   },
+   {
+    "number": 10,
+    "title": "Actual Noto Sans Tibetan?",
+    "url": "https://github.com/notofonts/tibetan/issues/10"
+   },
+   {
+    "number": 9,
+    "title": "Subjoined U+0F39 TIBETAN MARK TSA -PHRU overlaps tsheg",
+    "url": "https://github.com/notofonts/tibetan/issues/9"
+   },
+   {
+    "number": 8,
+    "title": "Inconsistent contextualization of Tibetan vowel signs above tsa \u2019phru",
+    "url": "https://github.com/notofonts/tibetan/issues/8"
+   },
+   {
+    "number": 7,
+    "title": "U+0F39 TIBETAN MARK TSA -PHRU blocks ligatures",
+    "url": "https://github.com/notofonts/tibetan/issues/7"
+   },
+   {
+    "number": 6,
+    "title": "NotoSerifTibetan Some characters are not drawn correctly in MS-WORD (2010)",
+    "url": "https://github.com/notofonts/tibetan/issues/6"
+   },
+   {
+    "number": 5,
+    "title": "Inconsistent compression in stacks with U+0FB0 TIBETAN SUBJOINED LETTER -A",
+    "url": "https://github.com/notofonts/tibetan/issues/5"
+   },
+   {
+    "number": 4,
+    "title": "Incorrect glyph for \u27e8\u0f4a\u0fb7\u0fb1\u27e9",
+    "url": "https://github.com/notofonts/tibetan/issues/4"
+   },
+   {
+    "number": 3,
+    "title": "Tibetan vowel signs are sometimes too narrow",
+    "url": "https://github.com/notofonts/tibetan/issues/3"
+   },
+   {
+    "number": 2,
+    "title": "Tibetan: angle in ya tag",
+    "url": "https://github.com/notofonts/tibetan/issues/2"
+   },
+   {
+    "number": 1,
+    "title": "'hang' baseline feature for NotoSans-Tibetan",
+    "url": "https://github.com/notofonts/tibetan/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/tibetan",
+  "title": "Noto Tibetan"
+ },
+ "tifinagh": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/tifinagh",
+  "issues": [
+   {
+    "number": 10,
+    "title": "Duplicate copies of Tifinagh fonts",
+    "url": "https://github.com/notofonts/tifinagh/issues/10"
+   },
+   {
+    "number": 9,
+    "title": "Duplicate Noto Tifininagh fonts for script variants in the main ZIP package containing all fonts",
+    "url": "https://github.com/notofonts/tifinagh/issues/9"
+   },
+   {
+    "number": 8,
+    "title": "Half-implemented variant Tifinagh glyphs at inappropriate code points",
+    "url": "https://github.com/notofonts/tifinagh/issues/8"
+   },
+   {
+    "number": 7,
+    "title": "Tifinagh: some ligatures seem erroneous",
+    "url": "https://github.com/notofonts/tifinagh/issues/7"
+   },
+   {
+    "number": 6,
+    "title": "Wrong glyph for U+02C7 CARON in Tifinagh",
+    "url": "https://github.com/notofonts/tifinagh/issues/6"
+   },
+   {
+    "number": 5,
+    "title": "NotoSansTifinagh is graphically a Neo-Tifinagh font, but uses traditional Tifinagh shaping",
+    "url": "https://github.com/notofonts/tifinagh/issues/5"
+   },
+   {
+    "number": 4,
+    "title": "Bad combination of dot and macron in Tifinagh",
+    "url": "https://github.com/notofonts/tifinagh/issues/4"
+   },
+   {
+    "number": 3,
+    "title": "Missing diaeresis in Tifinagh",
+    "url": "https://github.com/notofonts/tifinagh/issues/3"
+   },
+   {
+    "number": 2,
+    "title": "Erroneous contextual variants of Tifinagh yal and yan",
+    "url": "https://github.com/notofonts/tifinagh/issues/2"
+   },
+   {
+    "number": 1,
+    "title": "Noto Sans Tifinagh character spacing",
+    "url": "https://github.com/notofonts/tifinagh/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/tifinagh",
+  "title": "Noto Tifinagh"
+ },
+ "tirhuta": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/tirhuta",
+  "issues": [
+   {
+    "number": 9,
+    "title": "Noto Sans Tirhuta",
+    "url": "https://github.com/notofonts/tirhuta/issues/9"
+   },
+   {
+    "number": 8,
+    "title": "No conjunct for Tirhuta dbha",
+    "url": "https://github.com/notofonts/tirhuta/issues/8"
+   },
+   {
+    "number": 7,
+    "title": "Perfectly overlapping viramas after Tirhuta ta",
+    "url": "https://github.com/notofonts/tirhuta/issues/7"
+   },
+   {
+    "number": 6,
+    "title": "No conjunct for Tirhuta bra",
+    "url": "https://github.com/notofonts/tirhuta/issues/6"
+   },
+   {
+    "number": 5,
+    "title": "Misplaced Tirhuta nukta in \u27e8\ud805\udca5\ud805\udcc3\ud805\udcbd\u27e9",
+    "url": "https://github.com/notofonts/tirhuta/issues/5"
+   },
+   {
+    "number": 4,
+    "title": "No conjoining Tirhuta ya, ra, or va after conjuncts",
+    "url": "https://github.com/notofonts/tirhuta/issues/4"
+   },
+   {
+    "number": 3,
+    "title": "Contextually inappropriate TaVirama.alt in Noto Sans Tirhuta",
+    "url": "https://github.com/notofonts/tirhuta/issues/3"
+   },
+   {
+    "number": 2,
+    "title": "Word-final Tirhuta m in the middle of a word",
+    "url": "https://github.com/notofonts/tirhuta/issues/2"
+   },
+   {
+    "number": 1,
+    "title": "Blocked Tirhuta k\u1e63a",
+    "url": "https://github.com/notofonts/tirhuta/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/tirhuta",
+  "title": "Noto Tirhuta"
+ },
+ "toto": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/toto",
+  "issues": [
+   {
+    "number": 1,
+    "title": "Questionable kerning of U+1E29D TOTO LETTER JA",
+    "url": "https://github.com/notofonts/toto/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/toto",
+  "title": "Noto Toto"
+ },
+ "ugaritic": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/ugaritic",
+  "issues": [],
+  "repo_url": "https://www.github.com/notofonts/ugaritic",
+  "title": "Noto Ugaritic"
+ },
+ "vai": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/vai",
+  "issues": [],
+  "repo_url": "https://www.github.com/notofonts/vai",
+  "title": "Noto Vai"
+ },
+ "vithkuqi": {
+  "families": {
+   "Noto Sans Vithkuqi": {
+    "files": {
+     "full": [
+      "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-Bold.ttf",
+      "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-Medium.ttf",
+      "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-Regular.ttf",
+      "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-SemiBold.ttf",
+      "fonts/NotoSansVithkuqi/full/variable-ttf/NotoSansVithkuqi[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-Bold.ttf",
+      "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-Medium.ttf",
+      "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-Regular.ttf",
+      "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-Bold.ttf",
+      "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-Medium.ttf",
+      "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-Regular.ttf",
+      "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-SemiBold.ttf",
+      "fonts/NotoSansVithkuqi/unhinted/variable-ttf/NotoSansVithkuqi[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Ported from noto-source",
+     "url": "https://github.com/notofonts/vithkuqi/releases/tag/NotoSansVithkuqi-v1.000",
+     "version": "v1.000"
+    }
+   },
+   "Noto Serif Vithkuqi": {
+    "files": {
+     "full": [
+      "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-Bold.ttf",
+      "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-Medium.ttf",
+      "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-Regular.ttf",
+      "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-SemiBold.ttf",
+      "fonts/NotoSerifVithkuqi/full/variable-ttf/NotoSerifVithkuqi[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-Bold.ttf",
+      "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-Medium.ttf",
+      "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-Regular.ttf",
+      "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-Bold.ttf",
+      "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-Medium.ttf",
+      "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-Regular.ttf",
+      "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-SemiBold.ttf",
+      "fonts/NotoSerifVithkuqi/unhinted/variable-ttf/NotoSerifVithkuqi[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Ported from noto-source",
+     "url": "https://github.com/notofonts/vithkuqi/releases/tag/NotoSerifVithkuqi-v1.004",
+     "version": "v1.004"
+    }
+   }
+  },
+  "gh_url": "https://notofonts.github.io/vithkuqi",
+  "issues": [],
+  "repo_url": "https://www.github.com/notofonts/vithkuqi",
+  "title": "Noto Vithkuqi"
+ },
+ "wancho": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/wancho",
+  "issues": [
+   {
+    "number": 1,
+    "title": "Incomplete and unnecessary localization of ASCII punctuation in Wancho",
+    "url": "https://github.com/notofonts/wancho/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/wancho",
+  "title": "Noto Wancho"
+ },
+ "warang-citi": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/warang-citi",
+  "issues": [
+   {
+    "number": 1,
+    "title": "Extra ZWJs interfere with Warang Citi conjuncts",
+    "url": "https://github.com/notofonts/warang-citi/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/warang-citi",
+  "title": "Noto Warang Citi"
+ },
+ "yezidi": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/yezidi",
+  "issues": [
+   {
+    "number": 2,
+    "title": "Yezidi: dotted circle 25CC is missing",
+    "url": "https://github.com/notofonts/yezidi/issues/2"
+   },
+   {
+    "number": 1,
+    "title": "Missing anchor points in Noto Serif Yezidi",
+    "url": "https://github.com/notofonts/yezidi/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/yezidi",
+  "title": "Noto Yezidi"
+ },
+ "yi": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/yi",
+  "issues": [
+   {
+    "number": 1,
+    "title": "Support comma and fullwidth comma in Yi",
+    "url": "https://github.com/notofonts/yi/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/yi",
+  "title": "Noto Yi"
+ },
+ "zanabazar-square": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/zanabazar-square",
+  "issues": [
+   {
+    "number": 4,
+    "title": "Missing Zanabazar Square contextual variants in Sanskrit",
+    "url": "https://github.com/notofonts/zanabazar-square/issues/4"
+   },
+   {
+    "number": 3,
+    "title": "Missing anchor points on U+11A45 ZANABAZAR SQUARE INITIAL DOUBLE-LINED HEAD MARK",
+    "url": "https://github.com/notofonts/zanabazar-square/issues/3"
+   },
+   {
+    "number": 2,
+    "title": "Above-base Zanabazar Square marks on subjoined letters",
+    "url": "https://github.com/notofonts/zanabazar-square/issues/2"
+   },
+   {
+    "number": 1,
+    "title": "Not enough space for subjoined U+11A00 ZANABAZAR SQUARE LETTER A",
+    "url": "https://github.com/notofonts/zanabazar-square/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/zanabazar-square",
+  "title": "Noto Zanabazar Square"
  }
 }

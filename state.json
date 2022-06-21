@@ -362,6 +362,14 @@
  "syriac": {},
  "tagalog": {},
  "tagbanwa": {},
+ "tai-le": {},
+ "tai-tham": {},
+ "tai-viet": {},
+ "takri": {},
+ "tamil": {},
+ "tangsa": {},
+ "tangut": {},
+ "telugu": {},
  "test": {
   "families": {
    "Noto Sans Test": {
@@ -396,6 +404,8 @@
    "NotoSansTest-v1.001"
   ]
  },
+ "thaana": {},
+ "thai": {},
  "tibetan": {
   "families": {
    "Noto Serif Tibetan": {
@@ -454,6 +464,11 @@
    "NotoSerifTibetan-v2.102"
   ]
  },
+ "tifinagh": {},
+ "tirhuta": {},
+ "toto": {},
+ "ugaritic": {},
+ "vai": {},
  "vithkuqi": {
   "families": {
    "Noto Sans Vithkuqi": {
@@ -507,5 +522,10 @@
    "NotoSerifVithkuqi-v1.004",
    "NotoSansVithkuqi-v1.000"
   ]
- }
+ },
+ "wancho": {},
+ "warang-citi": {},
+ "yezidi": {},
+ "yi": {},
+ "zanabazar-square": {}
 }
