@@ -181,11 +181,6 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
-    "number": 36,
-    "title": "Noto Sans Arabic UI Issue",
-    "url": "https://github.com/notofonts/arabic/issues/36"
-   },
-   {
     "number": 35,
     "title": "Noto Sans Arabic Font",
     "url": "https://github.com/notofonts/arabic/issues/35"
@@ -771,11 +766,6 @@
   "gh_url": "https://notofonts.github.io/bengali",
   "issues": [
    {
-    "number": 9,
-    "title": "Issues with displaying this \"\u09b9\u09cd\u09af\u09be\u0981\" character when using Noto sans bengali",
-    "url": "https://github.com/notofonts/bengali/issues/9"
-   },
-   {
     "number": 8,
     "title": "Mispositioned U+0951 DEVANAGARI STRESS SIGN UDATTA in Noto Serif Bengali",
     "url": "https://github.com/notofonts/bengali/issues/8"
@@ -1235,35 +1225,28 @@
   "title": "Noto Dives Akuru"
  },
  "dogra": {
-  "families": {},
-  "gh_url": "https://notofonts.github.io/dogra",
-  "issues": [
-   {
-    "number": 5,
-    "title": "'aalt' swaps Dogra -\u0101 and anusvara",
-    "url": "https://github.com/notofonts/dogra/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Incomplete 'ss02' in Noto Serif Dogra",
-    "url": "https://github.com/notofonts/dogra/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Overlapping Dogra nukta and vowel signs",
-    "url": "https://github.com/notofonts/dogra/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Inconsistent Dogra \u015bra with 'ss02'",
-    "url": "https://github.com/notofonts/dogra/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Extraneous headstroke in Dogra with 'ss01'",
-    "url": "https://github.com/notofonts/dogra/issues/1"
+  "families": {
+   "Noto Serif Dogra": {
+    "files": {
+     "full": [
+      "fonts/NotoSerifDogra/full/ttf/NotoSerifDogra-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSerifDogra/hinted/ttf/NotoSerifDogra-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSerifDogra/unhinted/ttf/NotoSerifDogra-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/dogra/releases/tag/NotoSerifDogra-v1.004",
+     "version": "v1.004"
+    }
    }
-  ],
+  },
+  "gh_url": "https://notofonts.github.io/dogra",
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/dogra",
   "title": "Noto Dogra"
  },
@@ -1303,11 +1286,6 @@
     "number": 2,
     "title": "Questionable stroke width for U+130C9 EGYPTIAN HIEROGLYPH D067 etc.",
     "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Support Egyptian Hieroglyph Format Controls",
-    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/egyptian-hieroglyphs",
@@ -1364,19 +1342,9 @@
     "url": "https://github.com/notofonts/georgian/issues/4"
    },
    {
-    "number": 3,
-    "title": "Open corners on U+1C90 GEORGIAN MTAVRULI CAPITAL LETTER AN",
-    "url": "https://github.com/notofonts/georgian/issues/3"
-   },
-   {
     "number": 2,
     "title": "Bad kerning of U+10B7 GEORGIAN CAPITAL LETTER QAR",
     "url": "https://github.com/notofonts/georgian/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Map Georgian captial letter code points to the corresponding existing glyphs for Georgian letters",
-    "url": "https://github.com/notofonts/georgian/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/georgian",
@@ -1403,13 +1371,7 @@
  "gothic": {
   "families": {},
   "gh_url": "https://notofonts.github.io/gothic",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Gothic font in alpha severely broken",
-    "url": "https://github.com/notofonts/gothic/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/gothic",
   "title": "Noto Gothic"
  },
@@ -1862,11 +1824,6 @@
     "number": 2,
     "title": "review of Serif Kannada change proposal",
     "url": "https://github.com/notofonts/kannada/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Noto Sans Kannada and Noto Serif Kannada: ZWJ not working as expected after {U+0CB0, U+0CCD}",
-    "url": "https://github.com/notofonts/kannada/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/kannada",
@@ -1883,31 +1840,6 @@
   "families": {},
   "gh_url": "https://notofonts.github.io/kharoshthi",
   "issues": [
-   {
-    "number": 7,
-    "title": "Misshapen U+10A02 KHAROSHTHI VOWEL SIGN U",
-    "url": "https://github.com/notofonts/kharoshthi/issues/7"
-   },
-   {
-    "number": 6,
-    "title": "Questionable ligature for Kharoshthi de",
-    "url": "https://github.com/notofonts/kharoshthi/issues/6"
-   },
-   {
-    "number": 5,
-    "title": "Misplaced vowel sign in Kharoshthi yu",
-    "url": "https://github.com/notofonts/kharoshthi/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Sloppy combinations of Kharoshthi bases and attached marks",
-    "url": "https://github.com/notofonts/kharoshthi/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Obsolete encoding of Kharoshthi vha",
-    "url": "https://github.com/notofonts/kharoshthi/issues/3"
-   },
    {
     "number": 2,
     "title": "Problems with U+10A39 KHAROSHTHI SIGN CAUDA",
@@ -1965,11 +1897,6 @@
     "number": 2,
     "title": "Baseline of Noto Sans Khmer UI variable font is not aligned with Latin script",
     "url": "https://github.com/notofonts/khmer/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Noto Khmer Sans UI: cannot use with IE 11 and Notepad on Windows 7",
-    "url": "https://github.com/notofonts/khmer/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/khmer",
@@ -3157,6 +3084,11 @@
     "number": 226,
     "title": "Combining grapheme joiner (CGJ) with double diacritics",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/226"
+   },
+   {
+    "number": 232,
+    "title": "Musical Flat Symbol",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/232"
    },
    {
     "number": 177,
@@ -4569,6 +4501,11 @@
   "families": {},
   "gh_url": "https://notofonts.github.io/siddham",
   "issues": [
+   {
+    "number": 2,
+    "title": "/rya/ renders incorrectly in Noto Sans Siddham",
+    "url": "https://github.com/notofonts/siddham/issues/2"
+   },
    {
     "number": 1,
     "title": "In NotoSansSiddham-Regular, reph ra is not above base.",

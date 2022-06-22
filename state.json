@@ -240,7 +240,26 @@
  "deseret": {},
  "devanagari": {},
  "dives-akuru": {},
- "dogra": {},
+ "dogra": {
+  "families": {
+   "Noto Serif Dogra": {
+    "files": [
+     "fonts/NotoSerifDogra/unhinted/ttf/NotoSerifDogra-Regular.ttf",
+     "fonts/NotoSerifDogra/hinted/ttf/NotoSerifDogra-Regular.ttf",
+     "fonts/NotoSerifDogra/googlefonts/ttf/NotoSerifDogra-Regular.ttf",
+     "fonts/NotoSerifDogra/full/ttf/NotoSerifDogra-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/dogra/releases/tag/NotoSerifDogra-v1.004",
+     "version": "v1.004"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSerifDogra-v1.004"
+  ]
+ },
  "duployan": {},
  "egyptian-hieroglyphs": {},
  "elbasan": {},
