@@ -147,23 +147,32 @@
   "title": "Noto Adlam"
  },
  "ahom": {
-  "families": {},
+  "families": {
+   "Noto Serif Ahom": {
+    "files": {
+     "full": [
+      "fonts/NotoSerifAhom/full/ttf/NotoSerifAhom-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSerifAhom/hinted/ttf/NotoSerifAhom-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSerifAhom/unhinted/ttf/NotoSerifAhom-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/ahom/releases/tag/NotoSerifAhom-v2.005",
+     "version": "v2.005"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/ahom",
   "issues": [
    {
-    "number": 3,
-    "title": "U+1171E AHOM CONSONANT SIGN MEDIAL RA blocks ta\u2013ja ligature",
-    "url": "https://github.com/notofonts/ahom/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Inconsistent kerning of U+11705 AHOM LETTER ALTERNATE TA",
-    "url": "https://github.com/notofonts/ahom/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Inconsistent 'dist' in Ahom",
-    "url": "https://github.com/notofonts/ahom/issues/1"
+    "number": 5,
+    "title": "\u27e8\ud805\udf05\ud805\udf1e\ud805\udf0a\u27e9 overlaps the next cluster",
+    "url": "https://github.com/notofonts/ahom/issues/5"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/ahom",
@@ -518,13 +527,7 @@
  "bassa-vah": {
   "families": {},
   "gh_url": "https://notofonts.github.io/bassa-vah",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Ordering of input of diacritics in Noto Sans Bassa Vah",
-    "url": "https://github.com/notofonts/bassa-vah/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/bassa-vah",
   "title": "Noto Bassa Vah"
  },
@@ -878,15 +881,28 @@
   "title": "Noto Buginese"
  },
  "buhid": {
-  "families": {},
-  "gh_url": "https://notofonts.github.io/buhid",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Missing `buhd` script tag in `NotoSansBuhid-Regular.ttf`.",
-    "url": "https://github.com/notofonts/buhid/issues/1"
+  "families": {
+   "Noto Sans Buhid": {
+    "files": {
+     "full": [
+      "fonts/NotoSansBuhid/full/ttf/NotoSansBuhid-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansBuhid/hinted/ttf/NotoSansBuhid-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansBuhid/unhinted/ttf/NotoSansBuhid-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/buhid/releases/tag/NotoSansBuhid-v2.001",
+     "version": "v2.001"
+    }
    }
-  ],
+  },
+  "gh_url": "https://notofonts.github.io/buhid",
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/buhid",
   "title": "Noto Buhid"
  },
@@ -941,6 +957,11 @@
   "gh_url": "https://notofonts.github.io/caucasian-albanian",
   "issues": [
    {
+    "number": 2,
+    "title": "Caucasian Albanian 2.004",
+    "url": "https://github.com/notofonts/caucasian-albanian/pull/2"
+   },
+   {
     "number": 1,
     "title": "Misplaced half marks in Caucasian Albanian",
     "url": "https://github.com/notofonts/caucasian-albanian/issues/1"
@@ -957,21 +978,6 @@
     "number": 4,
     "title": "Duplicate encoding of two Chakma vowel signs",
     "url": "https://github.com/notofonts/chakma/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Chakma base letter doesn\u2019t ligate with more than one post-base glyph",
-    "url": "https://github.com/notofonts/chakma/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Incomplete 'ss01' in Noto Sans Chakma",
-    "url": "https://github.com/notofonts/chakma/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Noto Sans Chakma font",
-    "url": "https://github.com/notofonts/chakma/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/chakma",
@@ -1098,11 +1104,6 @@
     "number": 2,
     "title": "Wrong glyphs for DESERET CAPITAL/SMALL LETTER VEE",
     "url": "https://github.com/notofonts/deseret/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "correction for noto sans deseret needed",
-    "url": "https://github.com/notofonts/deseret/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/deseret",
@@ -1214,11 +1215,6 @@
     "number": 2,
     "title": "U+11943 DIVES AKURU SIGN NUKTA blocks ligatures",
     "url": "https://github.com/notofonts/dives-akuru/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "U+11925 DIVES AKURU LETTER YA ligates like U+11940 DIVES AKURU MEDIAL YA",
-    "url": "https://github.com/notofonts/dives-akuru/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/dives-akuru",
@@ -1286,6 +1282,11 @@
     "number": 2,
     "title": "Questionable stroke width for U+130C9 EGYPTIAN HIEROGLYPH D067 etc.",
     "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/2"
+   },
+   {
+    "number": 1,
+    "title": "Support Egyptian Hieroglyph Format Controls",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/egyptian-hieroglyphs",
@@ -1319,11 +1320,6 @@
     "url": "https://github.com/notofonts/elymaic/issues/3"
    },
    {
-    "number": 2,
-    "title": "Backwards kerning in Elymaic",
-    "url": "https://github.com/notofonts/elymaic/issues/2"
-   },
-   {
     "number": 1,
     "title": "Bad discretionary ligature of Elymaic yodh and zayin",
     "url": "https://github.com/notofonts/elymaic/issues/1"
@@ -1351,18 +1347,37 @@
   "title": "Noto Georgian"
  },
  "glagolitic": {
-  "families": {},
+  "families": {
+   "Noto Sans Glagolitic": {
+    "files": {
+     "full": [
+      "fonts/NotoSansGlagolitic/full/ttf/NotoSansGlagolitic-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansGlagolitic/hinted/ttf/NotoSansGlagolitic-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansGlagolitic/unhinted/ttf/NotoSansGlagolitic-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/glagolitic/releases/tag/NotoSansGlagolitic-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/glagolitic",
   "issues": [
+   {
+    "number": 4,
+    "title": "U+FE26 COMBINING CONJOINING MACRON is higher than the titlo halves",
+    "url": "https://github.com/notofonts/glagolitic/issues/4"
+   },
    {
     "number": 2,
     "title": "Glagolitic: dotted circle 25CC is missing",
     "url": "https://github.com/notofonts/glagolitic/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Missing Glagolitic titlo",
-    "url": "https://github.com/notofonts/glagolitic/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/glagolitic",
@@ -1380,19 +1395,9 @@
   "gh_url": "https://notofonts.github.io/grantha",
   "issues": [
    {
-    "number": 7,
-    "title": "ZWJ breaks positioning of subjoined Grantha consonants",
-    "url": "https://github.com/notofonts/grantha/issues/7"
-   },
-   {
     "number": 6,
     "title": "Missing anchor points on digits in Grantha",
     "url": "https://github.com/notofonts/grantha/issues/6"
-   },
-   {
-    "number": 5,
-    "title": "Misplaced U+20F0 COMBINING ASTERISK ABOVE in Grantha",
-    "url": "https://github.com/notofonts/grantha/issues/5"
    },
    {
     "number": 4,
@@ -1403,16 +1408,6 @@
     "number": 3,
     "title": "Contextualization of Grantha da ignores spacing marks",
     "url": "https://github.com/notofonts/grantha/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Inconsistent contextualization of Grantha \u1e63\u1e6da",
-    "url": "https://github.com/notofonts/grantha/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Wrong forms of Grantha ya and ra in ligature-initial cluster",
-    "url": "https://github.com/notofonts/grantha/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/grantha",
@@ -1526,6 +1521,21 @@
   "gh_url": "https://notofonts.github.io/gurmukhi",
   "issues": [
    {
+    "number": 6,
+    "title": "Support conjuncts found in the Adi Granth",
+    "url": "https://github.com/notofonts/gurmukhi/issues/6"
+   },
+   {
+    "number": 5,
+    "title": "La ha-ha versus la-ha ha conjunct",
+    "url": "https://github.com/notofonts/gurmukhi/issues/5"
+   },
+   {
+    "number": 4,
+    "title": " Noto Serif Gurmukhi is not attaching conjuncts correctly",
+    "url": "https://github.com/notofonts/gurmukhi/issues/4"
+   },
+   {
     "number": 3,
     "title": "Gurmukhi fonts need U+02BC 'MODIFIER LETTER APOSTROPHE'",
     "url": "https://github.com/notofonts/gurmukhi/issues/3"
@@ -1534,11 +1544,6 @@
     "number": 2,
     "title": "Inconsistent kerning in Gurmukhi",
     "url": "https://github.com/notofonts/gurmukhi/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Punjabi (Gurmukhi script):consonant+halant+consonant not handled correctly",
-    "url": "https://github.com/notofonts/gurmukhi/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/gurmukhi",
@@ -1565,13 +1570,7 @@
  "hanunoo": {
   "families": {},
   "gh_url": "https://notofonts.github.io/hanunoo",
-  "issues": [
-   {
-    "number": 1,
-    "title": "U+172D: HANUNOO LETTER RA (\u172d) should be updated to modern Ra.",
-    "url": "https://github.com/notofonts/hanunoo/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/hanunoo",
   "title": "Noto Hanunoo"
  },
@@ -1595,11 +1594,6 @@
     "number": 12,
     "title": "Overlapping Hebrew vowel signs",
     "url": "https://github.com/notofonts/hebrew/issues/12"
-   },
-   {
-    "number": 11,
-    "title": "Noto Rashi Hebrew font names wrong",
-    "url": "https://github.com/notofonts/hebrew/issues/11"
    },
    {
     "number": 10,
@@ -1627,11 +1621,6 @@
     "url": "https://github.com/notofonts/hebrew/issues/6"
    },
    {
-    "number": 5,
-    "title": "Backwards discretionary ligature of yod and vav",
-    "url": "https://github.com/notofonts/hebrew/issues/5"
-   },
-   {
     "number": 4,
     "title": "Hebrew cantillation marks",
     "url": "https://github.com/notofonts/hebrew/issues/4"
@@ -1645,11 +1634,6 @@
     "number": 2,
     "title": "Problems with meteg",
     "url": "https://github.com/notofonts/hebrew/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Misplaced holam haser on vav",
-    "url": "https://github.com/notofonts/hebrew/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/hebrew",
@@ -1990,6 +1974,11 @@
   "families": {},
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
+   {
+    "number": 233,
+    "title": "Noto Mono has U+2264 (\u2264) and U+2265 (\u2265) but not the slanted versions U+2A7D (\u2a7d) and U+2A7E (\u2a7e)",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/233"
+   },
    {
     "number": 1,
     "title": "Wrong positioning for diacritics of DIN SPEC 91379 in Noto Sans Mono",
@@ -4502,6 +4491,11 @@
   "gh_url": "https://notofonts.github.io/siddham",
   "issues": [
    {
+    "number": 3,
+    "title": "Correction in glyph of j\u00f1a in Siddham ",
+    "url": "https://github.com/notofonts/siddham/issues/3"
+   },
+   {
     "number": 2,
     "title": "/rya/ renders incorrectly in Noto Sans Siddham",
     "url": "https://github.com/notofonts/siddham/issues/2"
@@ -4702,11 +4696,6 @@
     "number": 32,
     "title": "Language-neutral tofu of Windows 10 + Unicode 13",
     "url": "https://github.com/notofonts/symbols/issues/32"
-   },
-   {
-    "number": 29,
-    "title": "Inconsistent width of Block Element in Noto Sans Symbols (\u2593 / U+2593 is wider)",
-    "url": "https://github.com/notofonts/symbols/issues/29"
    },
    {
     "number": 28,

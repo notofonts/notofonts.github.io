@@ -3,7 +3,26 @@
  "Cousine": {},
  "Tinos": {},
  "adlam": {},
- "ahom": {},
+ "ahom": {
+  "families": {
+   "Noto Serif Ahom": {
+    "files": [
+     "fonts/NotoSerifAhom/full/ttf/NotoSerifAhom-Regular.ttf",
+     "fonts/NotoSerifAhom/googlefonts/ttf/NotoSerifAhom-Regular.ttf",
+     "fonts/NotoSerifAhom/unhinted/ttf/NotoSerifAhom-Regular.ttf",
+     "fonts/NotoSerifAhom/hinted/ttf/NotoSerifAhom-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/ahom/releases/tag/NotoSerifAhom-v2.005",
+     "version": "v2.005"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSerifAhom-v2.005"
+  ]
+ },
  "anatolian-hieroglyphs": {},
  "arabic": {},
  "armenian": {},
@@ -225,7 +244,26 @@
  "bhaiksuki": {},
  "brahmi": {},
  "buginese": {},
- "buhid": {},
+ "buhid": {
+  "families": {
+   "Noto Sans Buhid": {
+    "files": [
+     "fonts/NotoSansBuhid/full/ttf/NotoSansBuhid-Regular.ttf",
+     "fonts/NotoSansBuhid/googlefonts/ttf/NotoSansBuhid-Regular.ttf",
+     "fonts/NotoSansBuhid/unhinted/ttf/NotoSansBuhid-Regular.ttf",
+     "fonts/NotoSansBuhid/hinted/ttf/NotoSansBuhid-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/buhid/releases/tag/NotoSansBuhid-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansBuhid-v2.001"
+  ]
+ },
  "canadian-aboriginal": {},
  "carian": {},
  "caucasian-albanian": {},
@@ -265,7 +303,26 @@
  "elbasan": {},
  "elymaic": {},
  "georgian": {},
- "glagolitic": {},
+ "glagolitic": {
+  "families": {
+   "Noto Sans Glagolitic": {
+    "files": [
+     "fonts/NotoSansGlagolitic/full/ttf/NotoSansGlagolitic-Regular.ttf",
+     "fonts/NotoSansGlagolitic/googlefonts/ttf/NotoSansGlagolitic-Regular.ttf",
+     "fonts/NotoSansGlagolitic/unhinted/ttf/NotoSansGlagolitic-Regular.ttf",
+     "fonts/NotoSansGlagolitic/hinted/ttf/NotoSansGlagolitic-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/glagolitic/releases/tag/NotoSansGlagolitic-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansGlagolitic-v2.001"
+  ]
+ },
  "gothic": {},
  "grantha": {},
  "gujarati": {},
