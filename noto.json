@@ -3311,11 +3311,6 @@
     "number": 2,
     "title": "Contextual U+0848 MANDAIC LETTER ATT in final but not medial position",
     "url": "https://github.com/notofonts/mandaic/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Missing anchor points on Mandaic contextual forms",
-    "url": "https://github.com/notofonts/mandaic/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/mandaic",
@@ -3344,11 +3339,6 @@
     "number": 2,
     "title": "Problems with Manichaean swashes and ligatures",
     "url": "https://github.com/notofonts/manichaean/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Standardized variants for Manichaean",
-    "url": "https://github.com/notofonts/manichaean/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/manichaean",
@@ -3375,11 +3365,6 @@
     "number": 2,
     "title": "Overlapping U+11D41 MASARAM GONDI SIGN VISARGA",
     "url": "https://github.com/notofonts/masaram-gondi/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "U+11D42 MASARAM GONDI SIGN NUKTA blocks half forms",
-    "url": "https://github.com/notofonts/masaram-gondi/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/masaram-gondi",
@@ -3485,16 +3470,6 @@
     "number": 5,
     "title": "Rename Noto Sans MeeteiMayek as Noto Sans Meetei Mayek",
     "url": "https://github.com/notofonts/meetei-mayek/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Overlapping U+ABED MEETEI MAYEK APUN IYEK and vowel signs",
-    "url": "https://github.com/notofonts/meetei-mayek/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Reordering vowels block contextual U+ABED MEETEI MAYEK APUN IYEK",
-    "url": "https://github.com/notofonts/meetei-mayek/issues/3"
    },
    {
     "number": 2,
@@ -4056,11 +4031,6 @@
     "number": 3,
     "title": "Questionable glyphs for N\u2019Ko tone apostrophes",
     "url": "https://github.com/notofonts/nko/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Missing anchor points on N\u2019Ko digits",
-    "url": "https://github.com/notofonts/nko/issues/2"
    },
    {
     "number": 1,
