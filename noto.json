@@ -1242,7 +1242,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/dogra",
-  "issues": [],
+  "issues": [
+   {
+    "number": 7,
+    "title": "Conjuncts are to be added in the Dogra font",
+    "url": "https://github.com/notofonts/dogra/issues/7"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/dogra",
   "title": "Noto Dogra"
  },
@@ -4023,19 +4029,9 @@
     "url": "https://github.com/notofonts/nko/issues/5"
    },
    {
-    "number": 4,
-    "title": "Missing N'ko Glyphs Added in Unicode 11.0",
-    "url": "https://github.com/notofonts/nko/issues/4"
-   },
-   {
     "number": 3,
     "title": "Questionable glyphs for N\u2019Ko tone apostrophes",
     "url": "https://github.com/notofonts/nko/issues/3"
-   },
-   {
-    "number": 1,
-    "title": "Inappropriate mark ligatures in N\u2019Ko",
-    "url": "https://github.com/notofonts/nko/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/nko",
@@ -4227,6 +4223,11 @@
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
    {
+    "number": 9,
+    "title": "Oriya 2.001",
+    "url": "https://github.com/notofonts/oriya/pull/9"
+   },
+   {
     "number": 8,
     "title": "NotoSansOriya does not connect vowels to conjunct consonants",
     "url": "https://github.com/notofonts/oriya/issues/8"
@@ -4260,11 +4261,6 @@
     "number": 2,
     "title": "Oriya fonts need U+02BC 'MODIFIER LETTER APOSTROPHE'",
     "url": "https://github.com/notofonts/oriya/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "add Unicode Character 'INDIAN RUPEE SIGN' (U+20B9) to NotoSerifOriya.glyphs",
-    "url": "https://github.com/notofonts/oriya/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/oriya",
