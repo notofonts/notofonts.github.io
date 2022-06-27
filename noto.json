@@ -769,6 +769,11 @@
   "gh_url": "https://notofonts.github.io/bengali",
   "issues": [
    {
+    "number": 10,
+    "title": "Half forms are not to be used in Bengali",
+    "url": "https://github.com/notofonts/bengali/issues/10"
+   },
+   {
     "number": 8,
     "title": "Mispositioned U+0951 DEVANAGARI STRESS SIGN UDATTA in Noto Serif Bengali",
     "url": "https://github.com/notofonts/bengali/issues/8"
