@@ -412,7 +412,26 @@
   "title": "Noto Armenian"
  },
  "avestan": {
-  "families": {},
+  "families": {
+   "Noto Sans Avestan": {
+    "files": {
+     "full": [
+      "fonts/NotoSansAvestan/full/ttf/NotoSansAvestan-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansAvestan/hinted/ttf/NotoSansAvestan-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansAvestan/unhinted/ttf/NotoSansAvestan-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/avestan/releases/tag/NotoSansAvestan-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/avestan",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/avestan",
@@ -506,19 +525,14 @@
   "gh_url": "https://notofonts.github.io/bamum",
   "issues": [
    {
-    "number": 3,
-    "title": "Bamum has no dotted circle 25CC",
-    "url": "https://github.com/notofonts/bamum/issues/3"
+    "number": 4,
+    "title": "Hinting has gone",
+    "url": "https://github.com/notofonts/bamum/issues/4"
    },
    {
     "number": 2,
     "title": "Inconsistent weights of Bamum glyphs",
     "url": "https://github.com/notofonts/bamum/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Misplaced U+A6F0 BAMUM COMBINING MARK KOQNDON",
-    "url": "https://github.com/notofonts/bamum/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/bamum",
@@ -1241,8 +1255,8 @@
     },
     "latest_release": {
      "notes": "",
-     "url": "https://github.com/notofonts/dogra/releases/tag/NotoSerifDogra-v1.004",
-     "version": "v1.004"
+     "url": "https://github.com/notofonts/dogra/releases/tag/NotoSerifDogra-v1.005",
+     "version": "v1.005"
     }
    }
   },
@@ -1781,6 +1795,11 @@
   "gh_url": "https://notofonts.github.io/kannada",
   "issues": [
    {
+    "number": 10,
+    "title": "Spacing/Kerning issue Noto Serif Kannada in clusters with candrabindus, VS vocalic RR",
+    "url": "https://github.com/notofonts/kannada/issues/10"
+   },
+   {
     "number": 9,
     "title": "Subscript of \u0c95\u0ccd\u0cb7 needs to be corrected in Noto Sans Kannada",
     "url": "https://github.com/notofonts/kannada/issues/9"
@@ -1985,6 +2004,11 @@
   "families": {},
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
+   {
+    "number": 234,
+    "title": "Noto Mono is not mono. ",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/234"
+   },
    {
     "number": 233,
     "title": "Noto Mono has U+2264 (\u2264) and U+2265 (\u2265) but not the slanted versions U+2A7D (\u2a7d) and U+2A7E (\u2a7e)",
@@ -2599,6 +2623,11 @@
     "number": 228,
     "title": "Wrong Turkic small capital i",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/228"
+   },
+   {
+    "number": 235,
+    "title": "Bad small capital versions of combining diacritics",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/235"
    },
    {
     "number": 214,
@@ -3615,11 +3644,6 @@
     "number": 2,
     "title": "NotoSansMongolian Unfamiliar glyph U+1837 RA ",
     "url": "https://github.com/notofonts/mongolian/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Mongolian punctuation rotated 90\u00b0 counterclockwise",
-    "url": "https://github.com/notofonts/mongolian/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/mongolian",
@@ -4989,19 +5013,9 @@
     "url": "https://github.com/notofonts/takri/issues/4"
    },
    {
-    "number": 3,
-    "title": "Occlusion when using LETTER+VIRAMA+HA+LETTER",
-    "url": "https://github.com/notofonts/takri/issues/3"
-   },
-   {
     "number": 2,
     "title": "TAKRI word for NGA+AA and TA+AA+ANUSVARA looks the same.",
     "url": "https://github.com/notofonts/takri/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Stylistically inconsistent Takri dandas",
-    "url": "https://github.com/notofonts/takri/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/takri",
@@ -5061,13 +5075,7 @@
  "tangut": {
   "families": {},
   "gh_url": "https://notofonts.github.io/tangut",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Some incorrect Tangut glyphs",
-    "url": "https://github.com/notofonts/tangut/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/tangut",
   "title": "Noto Tangut"
  },
@@ -5075,11 +5083,6 @@
   "families": {},
   "gh_url": "https://notofonts.github.io/telugu",
   "issues": [
-   {
-    "number": 2,
-    "title": "Bugs in Telugu font at OS level in Android.",
-    "url": "https://github.com/notofonts/telugu/issues/2"
-   },
    {
     "number": 1,
     "title": "The base line for noto sans Telugu is not in line with English and punctuation marks. ",
@@ -5128,13 +5131,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/test",
-  "issues": [
-   {
-    "number": 1,
-    "title": "A Test Issue. Please Ignore It.",
-    "url": "https://github.com/notofonts/test/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/test",
   "title": "Noto Test (ONLY FOR TESTING)"
  },
@@ -5153,11 +5150,6 @@
     "number": 9,
     "title": "Noto Sans Thai: U+F700 and U+F70F are missing",
     "url": "https://github.com/notofonts/thai/issues/9"
-   },
-   {
-    "number": 8,
-    "title": "Noto Looped Thai overwrites vowel-signs with tone marks",
-    "url": "https://github.com/notofonts/thai/issues/8"
    },
    {
     "number": 7,
@@ -5270,49 +5262,14 @@
     "url": "https://github.com/notofonts/tibetan/issues/20"
    },
    {
-    "number": 19,
-    "title": "U+0F74 TIBETAN VOWEL SIGN U needs kerning",
-    "url": "https://github.com/notofonts/tibetan/issues/19"
-   },
-   {
     "number": 18,
     "title": "Excessive compression in \u27e8\u0f68\u0f7c\u0f7e\u27e9",
     "url": "https://github.com/notofonts/tibetan/issues/18"
    },
    {
-    "number": 17,
-    "title": "Misplaced U+0F39 TIBETAN MARK TSA -PHRU on some yig mgo",
-    "url": "https://github.com/notofonts/tibetan/issues/17"
-   },
-   {
-    "number": 16,
-    "title": "Wrong form of Tibetan ra with subjoined nya in some contexts",
-    "url": "https://github.com/notofonts/tibetan/issues/16"
-   },
-   {
-    "number": 15,
-    "title": "U+0F0C TIBETAN MARK DELIMITER TSHEG BSTAR should be identical to U+0F0B TIBETAN MARK INTERSYLLABIC TSHEG",
-    "url": "https://github.com/notofonts/tibetan/issues/15"
-   },
-   {
     "number": 14,
     "title": "Incomplete contextualization for narrow Tibetan above-base vowels",
     "url": "https://github.com/notofonts/tibetan/issues/14"
-   },
-   {
-    "number": 13,
-    "title": "Tibetan `wide_abvs` lookup overapplies",
-    "url": "https://github.com/notofonts/tibetan/issues/13"
-   },
-   {
-    "number": 12,
-    "title": "\u27e8\u0f51\u0fad\u0f74\u27e9 is wrong",
-    "url": "https://github.com/notofonts/tibetan/issues/12"
-   },
-   {
-    "number": 11,
-    "title": "Letters are rearranged in stacks with U+0FB0 TIBETAN SUBJOINED LETTER -A",
-    "url": "https://github.com/notofonts/tibetan/issues/11"
    },
    {
     "number": 10,
@@ -5372,11 +5329,6 @@
   "families": {},
   "gh_url": "https://notofonts.github.io/tifinagh",
   "issues": [
-   {
-    "number": 10,
-    "title": "Duplicate copies of Tifinagh fonts",
-    "url": "https://github.com/notofonts/tifinagh/issues/10"
-   },
    {
     "number": 9,
     "title": "Duplicate Noto Tifininagh fonts for script variants in the main ZIP package containing all fonts",

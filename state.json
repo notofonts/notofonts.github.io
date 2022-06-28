@@ -26,7 +26,26 @@
  "anatolian-hieroglyphs": {},
  "arabic": {},
  "armenian": {},
- "avestan": {},
+ "avestan": {
+  "families": {
+   "Noto Sans Avestan": {
+    "files": [
+     "fonts/NotoSansAvestan/full/ttf/NotoSansAvestan-Regular.ttf",
+     "fonts/NotoSansAvestan/googlefonts/ttf/NotoSansAvestan-Regular.ttf",
+     "fonts/NotoSansAvestan/unhinted/ttf/NotoSansAvestan-Regular.ttf",
+     "fonts/NotoSansAvestan/hinted/ttf/NotoSansAvestan-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/avestan/releases/tag/NotoSansAvestan-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansAvestan-v2.002"
+  ]
+ },
  "balinese": {},
  "bamum": {},
  "bassa-vah": {},
@@ -282,20 +301,21 @@
   "families": {
    "Noto Serif Dogra": {
     "files": [
-     "fonts/NotoSerifDogra/unhinted/ttf/NotoSerifDogra-Regular.ttf",
-     "fonts/NotoSerifDogra/hinted/ttf/NotoSerifDogra-Regular.ttf",
+     "fonts/NotoSerifDogra/full/ttf/NotoSerifDogra-Regular.ttf",
      "fonts/NotoSerifDogra/googlefonts/ttf/NotoSerifDogra-Regular.ttf",
-     "fonts/NotoSerifDogra/full/ttf/NotoSerifDogra-Regular.ttf"
+     "fonts/NotoSerifDogra/unhinted/ttf/NotoSerifDogra-Regular.ttf",
+     "fonts/NotoSerifDogra/hinted/ttf/NotoSerifDogra-Regular.ttf"
     ],
     "latest_release": {
      "notes": "",
-     "url": "https://github.com/notofonts/dogra/releases/tag/NotoSerifDogra-v1.004",
-     "version": "v1.004"
+     "url": "https://github.com/notofonts/dogra/releases/tag/NotoSerifDogra-v1.005",
+     "version": "v1.005"
     }
    }
   },
   "known_releases": [
-   "NotoSerifDogra-v1.004"
+   "NotoSerifDogra-v1.004",
+   "NotoSerifDogra-v1.005"
   ]
  },
  "duployan": {},
