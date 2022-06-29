@@ -3480,6 +3480,11 @@
     "url": "https://github.com/notofonts/math/issues/1"
    },
    {
+    "number": 15,
+    "title": "OpenType layout features missing",
+    "url": "https://github.com/notofonts/math/issues/15"
+   },
+   {
     "number": 14,
     "title": "Support OpenType math",
     "url": "https://github.com/notofonts/math/issues/14"
@@ -4743,16 +4748,6 @@
     "url": "https://github.com/notofonts/symbols/issues/19"
    },
    {
-    "number": 18,
-    "title": "Descent of Noto Sans Symbols2 does not match that of Noto Sans",
-    "url": "https://github.com/notofonts/symbols/issues/18"
-   },
-   {
-    "number": 17,
-    "title": "Inconsistent glyph for U+2394 SOFTWARE-FUNCTION SYMBOL",
-    "url": "https://github.com/notofonts/symbols/issues/17"
-   },
-   {
     "number": 16,
     "title": "Missing previously present characters in NotoSansSymbols",
     "url": "https://github.com/notofonts/symbols/issues/16"
@@ -4783,11 +4778,6 @@
     "url": "https://github.com/notofonts/symbols/issues/11"
    },
    {
-    "number": 10,
-    "title": "Symbols2: incorrect FFF9\u2013FFFB",
-    "url": "https://github.com/notofonts/symbols/issues/10"
-   },
-   {
     "number": 9,
     "title": "Webdings and Wingdings are missing from Noto Symbols",
     "url": "https://github.com/notofonts/symbols/issues/9"
@@ -4806,11 +4796,6 @@
     "number": 6,
     "title": "Noto Symbols needs variation sequence slashed zero form of empty set",
     "url": "https://github.com/notofonts/symbols/issues/6"
-   },
-   {
-    "number": 5,
-    "title": "OpenType layout features missing",
-    "url": "https://github.com/notofonts/symbols/issues/5"
    },
    {
     "number": 4,
@@ -5267,11 +5252,6 @@
     "url": "https://github.com/notofonts/tibetan/issues/18"
    },
    {
-    "number": 14,
-    "title": "Incomplete contextualization for narrow Tibetan above-base vowels",
-    "url": "https://github.com/notofonts/tibetan/issues/14"
-   },
-   {
     "number": 10,
     "title": "Actual Noto Sans Tibetan?",
     "url": "https://github.com/notofonts/tibetan/issues/10"
@@ -5584,28 +5564,7 @@
  "zanabazar-square": {
   "families": {},
   "gh_url": "https://notofonts.github.io/zanabazar-square",
-  "issues": [
-   {
-    "number": 4,
-    "title": "Missing Zanabazar Square contextual variants in Sanskrit",
-    "url": "https://github.com/notofonts/zanabazar-square/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Missing anchor points on U+11A45 ZANABAZAR SQUARE INITIAL DOUBLE-LINED HEAD MARK",
-    "url": "https://github.com/notofonts/zanabazar-square/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Above-base Zanabazar Square marks on subjoined letters",
-    "url": "https://github.com/notofonts/zanabazar-square/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Not enough space for subjoined U+11A00 ZANABAZAR SQUARE LETTER A",
-    "url": "https://github.com/notofonts/zanabazar-square/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/zanabazar-square",
   "title": "Noto Zanabazar Square"
  }
