@@ -4257,6 +4257,11 @@
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
    {
+    "number": 10,
+    "title": "NotoSansOriya cannot place Nuktah on most characters",
+    "url": "https://github.com/notofonts/oriya/issues/10"
+   },
+   {
     "number": 9,
     "title": "Oriya 2.001",
     "url": "https://github.com/notofonts/oriya/pull/9"
