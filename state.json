@@ -350,7 +350,64 @@
  "hanifi-rohingya": {},
  "hanunoo": {},
  "hatran": {},
- "hebrew": {},
+ "hebrew": {
+  "families": {
+   "Noto Rashi Hebrew": {
+    "files": [
+     "fonts/NotoRashiHebrew/full/ttf/NotoRashiHebrew-Black.ttf",
+     "fonts/NotoRashiHebrew/full/ttf/NotoRashiHebrew-SemiBold.ttf",
+     "fonts/NotoRashiHebrew/full/ttf/NotoRashiHebrew-Thin.ttf",
+     "fonts/NotoRashiHebrew/full/ttf/NotoRashiHebrew-Bold.ttf",
+     "fonts/NotoRashiHebrew/full/ttf/NotoRashiHebrew-ExtraBold.ttf",
+     "fonts/NotoRashiHebrew/full/ttf/NotoRashiHebrew-ExtraLight.ttf",
+     "fonts/NotoRashiHebrew/full/ttf/NotoRashiHebrew-Regular.ttf",
+     "fonts/NotoRashiHebrew/full/ttf/NotoRashiHebrew-Medium.ttf",
+     "fonts/NotoRashiHebrew/full/ttf/NotoRashiHebrew-Light.ttf",
+     "fonts/NotoRashiHebrew/full/slim-variable-ttf/NotoRashiHebrew[wght].ttf",
+     "fonts/NotoRashiHebrew/full/variable-ttf/NotoRashiHebrew[wght].ttf",
+     "fonts/NotoRashiHebrew/googlefonts/ttf/NotoRashiHebrew-Black.ttf",
+     "fonts/NotoRashiHebrew/googlefonts/ttf/NotoRashiHebrew-SemiBold.ttf",
+     "fonts/NotoRashiHebrew/googlefonts/ttf/NotoRashiHebrew-Thin.ttf",
+     "fonts/NotoRashiHebrew/googlefonts/ttf/NotoRashiHebrew-Bold.ttf",
+     "fonts/NotoRashiHebrew/googlefonts/ttf/NotoRashiHebrew-ExtraBold.ttf",
+     "fonts/NotoRashiHebrew/googlefonts/ttf/NotoRashiHebrew-ExtraLight.ttf",
+     "fonts/NotoRashiHebrew/googlefonts/ttf/NotoRashiHebrew-Regular.ttf",
+     "fonts/NotoRashiHebrew/googlefonts/ttf/NotoRashiHebrew-Medium.ttf",
+     "fonts/NotoRashiHebrew/googlefonts/ttf/NotoRashiHebrew-Light.ttf",
+     "fonts/NotoRashiHebrew/googlefonts/slim-variable-ttf/NotoRashiHebrew[wght].ttf",
+     "fonts/NotoRashiHebrew/googlefonts/variable-ttf/NotoRashiHebrew[wght].ttf",
+     "fonts/NotoRashiHebrew/unhinted/ttf/NotoRashiHebrew-Black.ttf",
+     "fonts/NotoRashiHebrew/unhinted/ttf/NotoRashiHebrew-SemiBold.ttf",
+     "fonts/NotoRashiHebrew/unhinted/ttf/NotoRashiHebrew-Thin.ttf",
+     "fonts/NotoRashiHebrew/unhinted/ttf/NotoRashiHebrew-Bold.ttf",
+     "fonts/NotoRashiHebrew/unhinted/ttf/NotoRashiHebrew-ExtraBold.ttf",
+     "fonts/NotoRashiHebrew/unhinted/ttf/NotoRashiHebrew-ExtraLight.ttf",
+     "fonts/NotoRashiHebrew/unhinted/ttf/NotoRashiHebrew-Regular.ttf",
+     "fonts/NotoRashiHebrew/unhinted/ttf/NotoRashiHebrew-Medium.ttf",
+     "fonts/NotoRashiHebrew/unhinted/ttf/NotoRashiHebrew-Light.ttf",
+     "fonts/NotoRashiHebrew/unhinted/slim-variable-ttf/NotoRashiHebrew[wght].ttf",
+     "fonts/NotoRashiHebrew/unhinted/variable-ttf/NotoRashiHebrew[wght].ttf",
+     "fonts/NotoRashiHebrew/hinted/ttf/NotoRashiHebrew-Black.ttf",
+     "fonts/NotoRashiHebrew/hinted/ttf/NotoRashiHebrew-SemiBold.ttf",
+     "fonts/NotoRashiHebrew/hinted/ttf/NotoRashiHebrew-Thin.ttf",
+     "fonts/NotoRashiHebrew/hinted/ttf/NotoRashiHebrew-Bold.ttf",
+     "fonts/NotoRashiHebrew/hinted/ttf/NotoRashiHebrew-ExtraBold.ttf",
+     "fonts/NotoRashiHebrew/hinted/ttf/NotoRashiHebrew-ExtraLight.ttf",
+     "fonts/NotoRashiHebrew/hinted/ttf/NotoRashiHebrew-Regular.ttf",
+     "fonts/NotoRashiHebrew/hinted/ttf/NotoRashiHebrew-Medium.ttf",
+     "fonts/NotoRashiHebrew/hinted/ttf/NotoRashiHebrew-Light.ttf"
+    ],
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/hebrew/releases/tag/NotoRashiHebrew-v1.005",
+     "version": "v1.005"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoRashiHebrew-v1.005"
+  ]
+ },
  "imperial-aramaic": {},
  "indic-siyaq-numbers": {},
  "inscriptional-pahlavi": {},

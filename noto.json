@@ -1299,6 +1299,11 @@
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "issues": [
    {
+    "number": 4,
+    "title": "U+130B8, U+130B9 and U+130BA missing",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/4"
+   },
+   {
     "number": 3,
     "title": "Redraw Egyptian hieroglyphs according to 2021 changes",
     "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/3"
@@ -1607,7 +1612,54 @@
   "title": "Noto Hatran"
  },
  "hebrew": {
-  "families": {},
+  "families": {
+   "Noto Rashi Hebrew": {
+    "files": {
+     "full": [
+      "fonts/NotoRashiHebrew/full/slim-variable-ttf/NotoRashiHebrew[wght].ttf",
+      "fonts/NotoRashiHebrew/full/ttf/NotoRashiHebrew-Black.ttf",
+      "fonts/NotoRashiHebrew/full/ttf/NotoRashiHebrew-Bold.ttf",
+      "fonts/NotoRashiHebrew/full/ttf/NotoRashiHebrew-ExtraBold.ttf",
+      "fonts/NotoRashiHebrew/full/ttf/NotoRashiHebrew-ExtraLight.ttf",
+      "fonts/NotoRashiHebrew/full/ttf/NotoRashiHebrew-Light.ttf",
+      "fonts/NotoRashiHebrew/full/ttf/NotoRashiHebrew-Medium.ttf",
+      "fonts/NotoRashiHebrew/full/ttf/NotoRashiHebrew-Regular.ttf",
+      "fonts/NotoRashiHebrew/full/ttf/NotoRashiHebrew-SemiBold.ttf",
+      "fonts/NotoRashiHebrew/full/ttf/NotoRashiHebrew-Thin.ttf",
+      "fonts/NotoRashiHebrew/full/variable-ttf/NotoRashiHebrew[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoRashiHebrew/hinted/ttf/NotoRashiHebrew-Black.ttf",
+      "fonts/NotoRashiHebrew/hinted/ttf/NotoRashiHebrew-Bold.ttf",
+      "fonts/NotoRashiHebrew/hinted/ttf/NotoRashiHebrew-ExtraBold.ttf",
+      "fonts/NotoRashiHebrew/hinted/ttf/NotoRashiHebrew-ExtraLight.ttf",
+      "fonts/NotoRashiHebrew/hinted/ttf/NotoRashiHebrew-Light.ttf",
+      "fonts/NotoRashiHebrew/hinted/ttf/NotoRashiHebrew-Medium.ttf",
+      "fonts/NotoRashiHebrew/hinted/ttf/NotoRashiHebrew-Regular.ttf",
+      "fonts/NotoRashiHebrew/hinted/ttf/NotoRashiHebrew-SemiBold.ttf",
+      "fonts/NotoRashiHebrew/hinted/ttf/NotoRashiHebrew-Thin.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoRashiHebrew/unhinted/slim-variable-ttf/NotoRashiHebrew[wght].ttf",
+      "fonts/NotoRashiHebrew/unhinted/ttf/NotoRashiHebrew-Black.ttf",
+      "fonts/NotoRashiHebrew/unhinted/ttf/NotoRashiHebrew-Bold.ttf",
+      "fonts/NotoRashiHebrew/unhinted/ttf/NotoRashiHebrew-ExtraBold.ttf",
+      "fonts/NotoRashiHebrew/unhinted/ttf/NotoRashiHebrew-ExtraLight.ttf",
+      "fonts/NotoRashiHebrew/unhinted/ttf/NotoRashiHebrew-Light.ttf",
+      "fonts/NotoRashiHebrew/unhinted/ttf/NotoRashiHebrew-Medium.ttf",
+      "fonts/NotoRashiHebrew/unhinted/ttf/NotoRashiHebrew-Regular.ttf",
+      "fonts/NotoRashiHebrew/unhinted/ttf/NotoRashiHebrew-SemiBold.ttf",
+      "fonts/NotoRashiHebrew/unhinted/ttf/NotoRashiHebrew-Thin.ttf",
+      "fonts/NotoRashiHebrew/unhinted/variable-ttf/NotoRashiHebrew[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/hebrew/releases/tag/NotoRashiHebrew-v1.005",
+     "version": "v1.005"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/hebrew",
   "issues": [
    {
@@ -3939,6 +3991,11 @@
   "families": {},
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
+   {
+    "number": 16,
+    "title": "Noto Nastaliq Urdu: Wrong Nuqta and Tah placement in U+0768 ARABIC LETTER NOON WITH SMALL TAH and U+08C7 ARABIC LETTER LAM WITH SMALL ARABIC LETTER TAH ABOVE respectively",
+    "url": "https://github.com/notofonts/nastaliq/issues/16"
+   },
    {
     "number": 14,
     "title": "Add support for Central Asian Turkic language characters to Noto Nastaliq Urdu",
