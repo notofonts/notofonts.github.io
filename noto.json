@@ -186,7 +186,32 @@
   "title": "Noto Anatolian Hieroglyphs"
  },
  "arabic": {
-  "families": {},
+  "families": {
+   "Noto Naskh Arabic": {
+    "files": {
+     "full": [],
+     "hinted": [
+      "fonts/NotoNaskhArabic/hinted/ttf/NotoNaskhArabic-Bold.ttf",
+      "fonts/NotoNaskhArabic/hinted/ttf/NotoNaskhArabic-Medium.ttf",
+      "fonts/NotoNaskhArabic/hinted/ttf/NotoNaskhArabic-Regular.ttf",
+      "fonts/NotoNaskhArabic/hinted/ttf/NotoNaskhArabic-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoNaskhArabic/unhinted/slim-variable-ttf/NotoNaskhArabic[wght].ttf",
+      "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-Bold.ttf",
+      "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-Medium.ttf",
+      "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-Regular.ttf",
+      "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-SemiBold.ttf",
+      "fonts/NotoNaskhArabic/unhinted/variable-ttf/NotoNaskhArabic[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.013",
+     "version": "v2.013"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
@@ -433,7 +458,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/avestan",
-  "issues": [],
+  "issues": [
+   {
+    "number": 1,
+    "title": "Hinting has gone",
+    "url": "https://github.com/notofonts/avestan/issues/1"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/avestan",
   "title": "Noto Avestan"
  },
@@ -1359,7 +1390,262 @@
   "title": "Noto Elymaic"
  },
  "georgian": {
-  "families": {},
+  "families": {
+   "Noto Sans Georgian": {
+    "files": {
+     "full": [
+      "fonts/NotoSansGeorgian/full/slim-variable-ttf/NotoSansGeorgian[wght].ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-Black.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-Bold.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-Condensed.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-CondensedBlack.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-CondensedBold.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-CondensedExtraBold.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-CondensedExtraLight.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-CondensedLight.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-CondensedMedium.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-CondensedSemiBold.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-CondensedThin.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-ExtraBold.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-ExtraCondensed.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-ExtraCondensedBlack.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-ExtraCondensedBold.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-ExtraCondensedLight.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-ExtraCondensedMedium.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-ExtraCondensedThin.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-ExtraLight.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-Light.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-Medium.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-Regular.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-SemiBold.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-SemiCondensed.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-SemiCondensedBlack.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-SemiCondensedBold.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-SemiCondensedExtraBold.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-SemiCondensedExtraLight.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-SemiCondensedLight.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-SemiCondensedMedium.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-SemiCondensedSemiBold.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-SemiCondensedThin.ttf",
+      "fonts/NotoSansGeorgian/full/ttf/NotoSansGeorgian-Thin.ttf",
+      "fonts/NotoSansGeorgian/full/variable-ttf/NotoSansGeorgian[wdth,wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-Black.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-Bold.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-Condensed.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-CondensedBlack.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-CondensedBold.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-CondensedExtraBold.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-CondensedExtraLight.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-CondensedLight.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-CondensedMedium.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-CondensedSemiBold.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-CondensedThin.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-ExtraBold.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-ExtraCondensed.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-ExtraCondensedBlack.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-ExtraCondensedBold.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-ExtraCondensedLight.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-ExtraCondensedMedium.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-ExtraCondensedThin.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-ExtraLight.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-Light.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-Medium.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-Regular.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-SemiBold.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-SemiCondensed.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-SemiCondensedBlack.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-SemiCondensedBold.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-SemiCondensedExtraBold.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-SemiCondensedExtraLight.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-SemiCondensedLight.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-SemiCondensedMedium.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-SemiCondensedSemiBold.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-SemiCondensedThin.ttf",
+      "fonts/NotoSansGeorgian/hinted/ttf/NotoSansGeorgian-Thin.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansGeorgian/unhinted/slim-variable-ttf/NotoSansGeorgian[wght].ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-Black.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-Bold.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-Condensed.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-CondensedBlack.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-CondensedBold.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-CondensedExtraBold.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-CondensedExtraLight.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-CondensedLight.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-CondensedMedium.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-CondensedSemiBold.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-CondensedThin.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-ExtraBold.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensed.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedBlack.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedBold.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedLight.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedMedium.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-ExtraCondensedThin.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-ExtraLight.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-Light.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-Medium.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-Regular.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-SemiBold.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-SemiCondensed.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedBlack.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedBold.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedExtraBold.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedExtraLight.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedLight.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedMedium.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedSemiBold.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-SemiCondensedThin.ttf",
+      "fonts/NotoSansGeorgian/unhinted/ttf/NotoSansGeorgian-Thin.ttf",
+      "fonts/NotoSansGeorgian/unhinted/variable-ttf/NotoSansGeorgian[wdth,wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/georgian/releases/tag/NotoSansGeorgian-v2.002",
+     "version": "v2.002"
+    }
+   },
+   "Noto Serif Georgian": {
+    "files": {
+     "full": [
+      "fonts/NotoSerifGeorgian/full/slim-variable-ttf/NotoSerifGeorgian[wght].ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-Black.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-Bold.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-Condensed.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-CondensedBlack.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-CondensedBold.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-CondensedExtraBold.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-CondensedExtraLight.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-CondensedLight.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-CondensedMedium.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-CondensedSemiBold.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-CondensedThin.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-ExtraBold.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-ExtraCondensed.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-ExtraCondensedBlack.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-ExtraCondensedBold.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-ExtraCondensedLight.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-ExtraCondensedMedium.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-ExtraCondensedThin.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-ExtraLight.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-Light.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-Medium.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-Regular.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-SemiBold.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-SemiCondensed.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-SemiCondensedBlack.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-SemiCondensedBold.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-SemiCondensedExtraBold.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-SemiCondensedExtraLight.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-SemiCondensedLight.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-SemiCondensedMedium.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-SemiCondensedSemiBold.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-SemiCondensedThin.ttf",
+      "fonts/NotoSerifGeorgian/full/ttf/NotoSerifGeorgian-Thin.ttf",
+      "fonts/NotoSerifGeorgian/full/variable-ttf/NotoSerifGeorgian[wdth,wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-Black.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-Bold.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-Condensed.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-CondensedBlack.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-CondensedBold.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-CondensedExtraBold.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-CondensedExtraLight.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-CondensedLight.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-CondensedMedium.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-CondensedSemiBold.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-CondensedThin.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-ExtraBold.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-ExtraCondensed.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-ExtraCondensedBlack.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-ExtraCondensedBold.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-ExtraCondensedLight.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-ExtraCondensedMedium.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-ExtraCondensedThin.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-ExtraLight.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-Light.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-Medium.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-Regular.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-SemiBold.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-SemiCondensed.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-SemiCondensedBlack.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-SemiCondensedBold.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-SemiCondensedExtraBold.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-SemiCondensedExtraLight.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-SemiCondensedLight.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-SemiCondensedMedium.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-SemiCondensedSemiBold.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-SemiCondensedThin.ttf",
+      "fonts/NotoSerifGeorgian/hinted/ttf/NotoSerifGeorgian-Thin.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSerifGeorgian/unhinted/slim-variable-ttf/NotoSerifGeorgian[wght].ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-Black.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-Bold.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-Condensed.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-CondensedBlack.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-CondensedBold.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-CondensedExtraBold.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-CondensedExtraLight.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-CondensedLight.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-CondensedMedium.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-CondensedSemiBold.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-CondensedThin.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-ExtraBold.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-ExtraCondensed.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-ExtraCondensedBlack.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-ExtraCondensedBold.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-ExtraCondensedLight.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-ExtraCondensedMedium.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-ExtraCondensedThin.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-ExtraLight.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-Light.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-Medium.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-Regular.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-SemiBold.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-SemiCondensed.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-SemiCondensedBlack.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-SemiCondensedBold.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-SemiCondensedExtraBold.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-SemiCondensedExtraLight.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-SemiCondensedLight.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-SemiCondensedMedium.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-SemiCondensedSemiBold.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-SemiCondensedThin.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/ttf/NotoSerifGeorgian-Thin.ttf",
+      "fonts/NotoSerifGeorgian/unhinted/variable-ttf/NotoSerifGeorgian[wdth,wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/georgian/releases/tag/NotoSerifGeorgian-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/georgian",
   "issues": [
    {
@@ -2056,6 +2342,11 @@
   "families": {},
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
+   {
+    "number": 236,
+    "title": "Standalone diacritics combine with the next letter in Noto Serif",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/236"
+   },
    {
     "number": 234,
     "title": "Noto Mono is not mono. ",
@@ -3988,7 +4279,33 @@
   "title": "Noto Nandinagari"
  },
  "nastaliq": {
-  "families": {},
+  "families": {
+   "Noto Nastaliq Urdu": {
+    "files": {
+     "full": [
+      "fonts/NotoNastaliqUrdu/full/slim-variable-ttf/NotoNastaliqUrdu[wght].ttf",
+      "fonts/NotoNastaliqUrdu/full/ttf/NotoNastaliqUrdu-Bold.ttf",
+      "fonts/NotoNastaliqUrdu/full/ttf/NotoNastaliqUrdu-Regular.ttf",
+      "fonts/NotoNastaliqUrdu/full/variable-ttf/NotoNastaliqUrdu[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoNastaliqUrdu/hinted/ttf/NotoNastaliqUrdu-Bold.ttf",
+      "fonts/NotoNastaliqUrdu/hinted/ttf/NotoNastaliqUrdu-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoNastaliqUrdu/unhinted/slim-variable-ttf/NotoNastaliqUrdu[wght].ttf",
+      "fonts/NotoNastaliqUrdu/unhinted/ttf/NotoNastaliqUrdu-Bold.ttf",
+      "fonts/NotoNastaliqUrdu/unhinted/ttf/NotoNastaliqUrdu-Regular.ttf",
+      "fonts/NotoNastaliqUrdu/unhinted/variable-ttf/NotoNastaliqUrdu[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/nastaliq/releases/tag/NotoNastaliqUrdu-v3.004",
+     "version": "v3.004"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
