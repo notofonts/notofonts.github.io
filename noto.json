@@ -895,6 +895,11 @@
   "gh_url": "https://notofonts.github.io/brahmi",
   "issues": [
    {
+    "number": 6,
+    "title": "Brahmi Vocalic R(U+1103E) vowel sign joins/overlap with the previous letter.",
+    "url": "https://github.com/notofonts/brahmi/issues/6"
+   },
+   {
     "number": 5,
     "title": "Mispositioned U+11039 BRAHMI VOWEL SIGN BHATTIPROLU AA",
     "url": "https://github.com/notofonts/brahmi/issues/5"
@@ -1293,6 +1298,11 @@
   },
   "gh_url": "https://notofonts.github.io/dogra",
   "issues": [
+   {
+    "number": 9,
+    "title": "Conjuncts with vowel sign I is rendered with Virama",
+    "url": "https://github.com/notofonts/dogra/issues/9"
+   },
    {
     "number": 7,
     "title": "Conjuncts are to be added in the Dogra font",
@@ -4829,6 +4839,11 @@
   "families": {},
   "gh_url": "https://notofonts.github.io/sharada",
   "issues": [
+   {
+    "number": 6,
+    "title": "Noto Sharada font needs to be redesigned",
+    "url": "https://github.com/notofonts/sharada/issues/6"
+   },
    {
     "number": 5,
     "title": "Overlapping marks in Sharada",
