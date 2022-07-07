@@ -347,6 +347,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 39,
+    "title": "Fix ARABIC LETTER HIGH HAMZA (U+0674)",
+    "url": "https://github.com/notofonts/arabic/pull/39"
+   },
+   {
     "number": 35,
     "title": "Noto Sans Arabic Font",
     "url": "https://github.com/notofonts/arabic/issues/35"
@@ -6815,6 +6820,11 @@
   },
   "gh_url": "https://notofonts.github.io/telugu",
   "issues": [
+   {
+    "number": 3,
+    "title": "Regression: 0C00 candrabindu above and 0C04 anusvara above are too high",
+    "url": "https://github.com/notofonts/telugu/issues/3"
+   },
    {
     "number": 1,
     "title": "The base line for noto sans Telugu is not in line with English and punctuation marks. ",
