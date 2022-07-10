@@ -3803,6 +3803,16 @@
   "gh_url": "https://notofonts.github.io/kannada",
   "issues": [
    {
+    "number": 12,
+    "title": "Move anchor in 25CC greatly down in Serif",
+    "url": "https://github.com/notofonts/kannada/issues/12"
+   },
+   {
+    "number": 11,
+    "title": "The glyphs of \u0c99\u0ccc \u0c9e\u0ccc \u0cde\u0ccc \u0cb1\u0ccc needs to updated in Noto Sans Kannada",
+    "url": "https://github.com/notofonts/kannada/issues/11"
+   },
+   {
     "number": 10,
     "title": "Spacing/Kerning issue Noto Serif Kannada in clusters with candrabindus, VS vocalic RR",
     "url": "https://github.com/notofonts/kannada/issues/10"
