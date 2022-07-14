@@ -119,7 +119,58 @@
   "title": "Noto Tinos"
  },
  "adlam": {
-  "families": {},
+  "families": {
+   "Noto Sans Adlam": {
+    "files": {
+     "full": [
+      "fonts/NotoSansAdlam/full/slim-variable-ttf/NotoSansAdlam[wght].ttf",
+      "fonts/NotoSansAdlam/full/ttf/NotoSansAdlam-Bold.ttf",
+      "fonts/NotoSansAdlam/full/ttf/NotoSansAdlam-Regular.ttf",
+      "fonts/NotoSansAdlam/full/variable-ttf/NotoSansAdlam[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansAdlam/hinted/ttf/NotoSansAdlam-Bold.ttf",
+      "fonts/NotoSansAdlam/hinted/ttf/NotoSansAdlam-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansAdlam/unhinted/slim-variable-ttf/NotoSansAdlam[wght].ttf",
+      "fonts/NotoSansAdlam/unhinted/ttf/NotoSansAdlam-Bold.ttf",
+      "fonts/NotoSansAdlam/unhinted/ttf/NotoSansAdlam-Regular.ttf",
+      "fonts/NotoSansAdlam/unhinted/variable-ttf/NotoSansAdlam[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/adlam/releases/tag/NotoSansAdlam-v3.001",
+     "version": "v3.001"
+    }
+   },
+   "Noto Sans Adlam Unjoined": {
+    "files": {
+     "full": [
+      "fonts/NotoSansAdlamUnjoined/full/slim-variable-ttf/NotoSansAdlamUnjoined[wght].ttf",
+      "fonts/NotoSansAdlamUnjoined/full/ttf/NotoSansAdlamUnjoined-Bold.ttf",
+      "fonts/NotoSansAdlamUnjoined/full/ttf/NotoSansAdlamUnjoined-Regular.ttf",
+      "fonts/NotoSansAdlamUnjoined/full/variable-ttf/NotoSansAdlamUnjoined[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansAdlamUnjoined/hinted/ttf/NotoSansAdlamUnjoined-Bold.ttf",
+      "fonts/NotoSansAdlamUnjoined/hinted/ttf/NotoSansAdlamUnjoined-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansAdlamUnjoined/unhinted/slim-variable-ttf/NotoSansAdlamUnjoined[wght].ttf",
+      "fonts/NotoSansAdlamUnjoined/unhinted/ttf/NotoSansAdlamUnjoined-Bold.ttf",
+      "fonts/NotoSansAdlamUnjoined/unhinted/ttf/NotoSansAdlamUnjoined-Regular.ttf",
+      "fonts/NotoSansAdlamUnjoined/unhinted/variable-ttf/NotoSansAdlamUnjoined[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/adlam/releases/tag/NotoSansAdlamUnjoined-v3.001",
+     "version": "v3.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/adlam",
   "issues": [
    {
@@ -3337,6 +3388,133 @@
      "url": "https://github.com/notofonts/hebrew/releases/tag/NotoRashiHebrew-v1.005",
      "version": "v1.005"
     }
+   },
+   "Noto Serif Hebrew": {
+    "files": {
+     "full": [
+      "fonts/NotoSerifHebrew/full/slim-variable-ttf/NotoSerifHebrew[wght].ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-Black.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-Bold.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-Condensed.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-CondensedBlack.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-CondensedBold.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-CondensedExtraBold.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-CondensedExtraLight.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-CondensedLight.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-CondensedMedium.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-CondensedSemiBold.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-CondensedThin.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-ExtraBold.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-ExtraCondensed.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-ExtraCondensedBlack.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-ExtraCondensedBold.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-ExtraCondensedLight.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-ExtraCondensedMedium.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-ExtraCondensedThin.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-ExtraLight.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-Light.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-Medium.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-Regular.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-SemiBold.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-SemiCondensed.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-SemiCondensedBlack.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-SemiCondensedBold.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-SemiCondensedExtraBold.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-SemiCondensedExtraLight.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-SemiCondensedLight.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-SemiCondensedMedium.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-SemiCondensedSemiBold.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-SemiCondensedThin.ttf",
+      "fonts/NotoSerifHebrew/full/ttf/NotoSerifHebrew-Thin.ttf",
+      "fonts/NotoSerifHebrew/full/variable-ttf/NotoSerifHebrew[wdth,wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-Black.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-Bold.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-Condensed.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-CondensedBlack.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-CondensedBold.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-CondensedExtraBold.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-CondensedExtraLight.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-CondensedLight.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-CondensedMedium.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-CondensedSemiBold.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-CondensedThin.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-ExtraBold.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-ExtraCondensed.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-ExtraCondensedBlack.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-ExtraCondensedBold.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-ExtraCondensedLight.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-ExtraCondensedMedium.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-ExtraCondensedThin.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-ExtraLight.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-Light.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-Medium.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-Regular.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-SemiBold.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-SemiCondensed.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-SemiCondensedBlack.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-SemiCondensedBold.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-SemiCondensedExtraBold.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-SemiCondensedExtraLight.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-SemiCondensedLight.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-SemiCondensedMedium.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-SemiCondensedSemiBold.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-SemiCondensedThin.ttf",
+      "fonts/NotoSerifHebrew/hinted/ttf/NotoSerifHebrew-Thin.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSerifHebrew/unhinted/slim-variable-ttf/NotoSerifHebrew[wght].ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-Black.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-Bold.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-Condensed.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-CondensedBlack.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-CondensedBold.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-CondensedExtraBold.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-CondensedExtraLight.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-CondensedLight.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-CondensedMedium.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-CondensedSemiBold.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-CondensedThin.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-ExtraBold.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-ExtraCondensed.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-ExtraCondensedBlack.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-ExtraCondensedBold.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-ExtraCondensedLight.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-ExtraCondensedMedium.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-ExtraCondensedThin.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-ExtraLight.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-Light.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-Medium.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-Regular.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-SemiBold.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-SemiCondensed.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-SemiCondensedBlack.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-SemiCondensedBold.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-SemiCondensedExtraBold.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-SemiCondensedExtraLight.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-SemiCondensedLight.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-SemiCondensedMedium.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-SemiCondensedSemiBold.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-SemiCondensedThin.ttf",
+      "fonts/NotoSerifHebrew/unhinted/ttf/NotoSerifHebrew-Thin.ttf",
+      "fonts/NotoSerifHebrew/unhinted/variable-ttf/NotoSerifHebrew[wdth,wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/hebrew/releases/tag/NotoSerifHebrew-v2.003",
+     "version": "v2.003"
+    }
    }
   },
   "gh_url": "https://notofonts.github.io/hebrew",
@@ -3811,11 +3989,6 @@
     "number": 13,
     "title": "Shape of \u0c9c and its subscript are not matching in Serif",
     "url": "https://github.com/notofonts/kannada/issues/13"
-   },
-   {
-    "number": 12,
-    "title": "Move anchor in 25CC greatly down in Serif",
-    "url": "https://github.com/notofonts/kannada/issues/12"
    },
    {
     "number": 11,
@@ -5744,21 +5917,19 @@
    "Noto Sans Limbu": {
     "files": {
      "full": [
-      "fonts/limbu-2.002/full/ttf/NotoSansLimbu-Regular.ttf",
-      "fonts/limbu-2.002/full/variable-ttf/NotoSansLimbu[wght].ttf"
+      "fonts/NotoSansLimbu/full/ttf/NotoSansLimbu-Regular.ttf"
      ],
      "hinted": [
-      "fonts/limbu-2.002/hinted/ttf/NotoSansLimbu-Regular.ttf"
+      "fonts/NotoSansLimbu/hinted/ttf/NotoSansLimbu-Regular.ttf"
      ],
      "unhinted": [
-      "fonts/limbu-2.002/unhinted/ttf/NotoSansLimbu-Regular.ttf",
-      "fonts/limbu-2.002/unhinted/variable-ttf/NotoSansLimbu[wght].ttf"
+      "fonts/NotoSansLimbu/unhinted/ttf/NotoSansLimbu-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "This is a manual release, which we should never do.",
-     "url": "https://github.com/notofonts/limbu/releases/tag/NotoSansLimbu-v2.002",
-     "version": "v2.002"
+     "notes": "",
+     "url": "https://github.com/notofonts/limbu/releases/tag/NotoSansLimbu-v2.003",
+     "version": "v2.003"
     }
    }
   },
@@ -5799,7 +5970,39 @@
   "title": "Noto Linear B"
  },
  "lisu": {
-  "families": {},
+  "families": {
+   "Noto Sans Lisu": {
+    "files": {
+     "full": [
+      "fonts/NotoSansLisu/full/slim-variable-ttf/NotoSansLisu[wght].ttf",
+      "fonts/NotoSansLisu/full/ttf/NotoSansLisu-Bold.ttf",
+      "fonts/NotoSansLisu/full/ttf/NotoSansLisu-Medium.ttf",
+      "fonts/NotoSansLisu/full/ttf/NotoSansLisu-Regular.ttf",
+      "fonts/NotoSansLisu/full/ttf/NotoSansLisu-SemiBold.ttf",
+      "fonts/NotoSansLisu/full/variable-ttf/NotoSansLisu[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansLisu/hinted/ttf/NotoSansLisu-Bold.ttf",
+      "fonts/NotoSansLisu/hinted/ttf/NotoSansLisu-Medium.ttf",
+      "fonts/NotoSansLisu/hinted/ttf/NotoSansLisu-Regular.ttf",
+      "fonts/NotoSansLisu/hinted/ttf/NotoSansLisu-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansLisu/unhinted/slim-variable-ttf/NotoSansLisu[wght].ttf",
+      "fonts/NotoSansLisu/unhinted/ttf/NotoSansLisu-Bold.ttf",
+      "fonts/NotoSansLisu/unhinted/ttf/NotoSansLisu-Medium.ttf",
+      "fonts/NotoSansLisu/unhinted/ttf/NotoSansLisu-Regular.ttf",
+      "fonts/NotoSansLisu/unhinted/ttf/NotoSansLisu-SemiBold.ttf",
+      "fonts/NotoSansLisu/unhinted/variable-ttf/NotoSansLisu[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/lisu/releases/tag/NotoSansLisu-v2.102",
+     "version": "v2.102"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/lisu",
   "issues": [
    {
