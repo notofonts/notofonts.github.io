@@ -7540,6 +7540,16 @@
   "gh_url": "https://notofonts.github.io/myanmar",
   "issues": [
    {
+    "number": 61,
+    "title": "Serif: Shan Aa is not spacing",
+    "url": "https://github.com/notofonts/myanmar/issues/61"
+   },
+   {
+    "number": 60,
+    "title": "More (not) post-base U problems",
+    "url": "https://github.com/notofonts/myanmar/issues/60"
+   },
+   {
     "number": 24,
     "title": "Overlapping subjoined U+105B MYANMAR LETTER MON JHA",
     "url": "https://github.com/notofonts/myanmar/issues/24"
