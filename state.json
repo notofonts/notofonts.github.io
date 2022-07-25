@@ -615,21 +615,22 @@
    },
    "Noto Serif Balinese": {
     "files": [
-     "fonts/NotoSerifBalinese/full/ttf/NotoSerifBalinese-Regular.ttf",
      "fonts/NotoSerifBalinese/googlefonts/ttf/NotoSerifBalinese-Regular.ttf",
-     "fonts/NotoSerifBalinese/unhinted/ttf/NotoSerifBalinese-Regular.ttf",
-     "fonts/NotoSerifBalinese/hinted/ttf/NotoSerifBalinese-Regular.ttf"
+     "fonts/NotoSerifBalinese/full/ttf/NotoSerifBalinese-Regular.ttf",
+     "fonts/NotoSerifBalinese/hinted/ttf/NotoSerifBalinese-Regular.ttf",
+     "fonts/NotoSerifBalinese/unhinted/ttf/NotoSerifBalinese-Regular.ttf"
     ],
     "latest_release": {
      "notes": "",
-     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSerifBalinese-v2.003",
-     "version": "v2.003"
+     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSerifBalinese-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "known_releases": [
    "NotoSerifBalinese-v2.003",
-   "NotoSansBalinese-v2.003"
+   "NotoSansBalinese-v2.003",
+   "NotoSerifBalinese-v2.004"
   ]
  },
  "bamum": {},
