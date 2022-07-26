@@ -3380,8 +3380,8 @@
     },
     "latest_release": {
      "notes": "",
-     "url": "https://github.com/notofonts/hebrew/releases/tag/NotoRashiHebrew-v1.005",
-     "version": "v1.005"
+     "url": "https://github.com/notofonts/hebrew/releases/tag/NotoRashiHebrew-v1.006",
+     "version": "v1.006"
     }
    },
    "Noto Sans Hebrew": {
@@ -8174,8 +8174,8 @@
     },
     "latest_release": {
      "notes": "",
-     "url": "https://github.com/notofonts/oriya/releases/tag/NotoSansOriya-v2.001",
-     "version": "v2.001"
+     "url": "https://github.com/notofonts/oriya/releases/tag/NotoSansOriya-v2.002",
+     "version": "v2.002"
     }
    },
    "Noto Serif Oriya": {
@@ -8849,13 +8849,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/sinhala",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Glyph overlap issue with USE",
-    "url": "https://github.com/notofonts/sinhala/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/sinhala",
   "title": "Noto Sinhala"
  },
