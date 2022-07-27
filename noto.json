@@ -9711,6 +9711,11 @@
   "gh_url": "https://notofonts.github.io/tangsa",
   "issues": [
    {
+    "number": 3,
+    "title": "Noto Sans Tangsa font - issues for fixing",
+    "url": "https://github.com/notofonts/tangsa/issues/3"
+   },
+   {
     "number": 1,
     "title": "Kerning rules of U+16AA7 TANGSA LETTER PA and U+16ABA TANGSA LETTER XA are swapped",
     "url": "https://github.com/notofonts/tangsa/issues/1"
