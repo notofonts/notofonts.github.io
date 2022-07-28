@@ -398,6 +398,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 178,
+    "title": "Missing Arabic Extended-B Block",
+    "url": "https://github.com/notofonts/arabic/issues/178"
+   },
+   {
     "number": 39,
     "title": "Fix ARABIC LETTER HIGH HAMZA (U+0674)",
     "url": "https://github.com/notofonts/arabic/pull/39"
@@ -8843,8 +8848,8 @@
     },
     "latest_release": {
      "notes": "",
-     "url": "https://github.com/notofonts/sinhala/releases/tag/NotoSerifSinhala-v2.005",
-     "version": "v2.005"
+     "url": "https://github.com/notofonts/sinhala/releases/tag/NotoSerifSinhala-v2.006",
+     "version": "v2.006"
     }
    }
   },
