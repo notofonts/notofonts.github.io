@@ -187,11 +187,6 @@
     "number": 2,
     "title": "U+2044 FRACTION SLASH in Noto Sans Adlam",
     "url": "https://github.com/notofonts/adlam/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Missing contextual form of Adlam nukta",
-    "url": "https://github.com/notofonts/adlam/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/adlam",
@@ -4929,8 +4924,8 @@
     },
     "latest_release": {
      "notes": "",
-     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSansMono-v2.009",
-     "version": "v2.009"
+     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSansMono-v2.010",
+     "version": "v2.010"
     }
    },
    "Noto Serif": {
@@ -7410,8 +7405,8 @@
     },
     "latest_release": {
      "notes": "",
-     "url": "https://github.com/notofonts/myanmar/releases/tag/NotoSansMyanmar-v2.106",
-     "version": "v2.106"
+     "url": "https://github.com/notofonts/myanmar/releases/tag/NotoSansMyanmar-v2.107",
+     "version": "v2.107"
     }
    },
    "Noto Serif Myanmar": {
@@ -7801,8 +7796,8 @@
     },
     "latest_release": {
      "notes": "",
-     "url": "https://github.com/notofonts/nastaliq/releases/tag/NotoNastaliqUrdu-v3.005",
-     "version": "v3.005"
+     "url": "https://github.com/notofonts/nastaliq/releases/tag/NotoNastaliqUrdu-v3.006",
+     "version": "v3.006"
     }
    }
   },
@@ -8721,8 +8716,8 @@
     },
     "latest_release": {
      "notes": "",
-     "url": "https://github.com/notofonts/sinhala/releases/tag/NotoSansSinhala-v2.005",
-     "version": "v2.005"
+     "url": "https://github.com/notofonts/sinhala/releases/tag/NotoSansSinhala-v2.006",
+     "version": "v2.006"
     }
    },
    "Noto Serif Sinhala": {
