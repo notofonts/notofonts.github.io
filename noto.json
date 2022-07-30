@@ -240,7 +240,14 @@
   "families": {
    "Noto Naskh Arabic": {
     "files": {
-     "full": [],
+     "full": [
+      "fonts/NotoNaskhArabic/full/slim-variable-ttf/NotoNaskhArabic[wght].ttf",
+      "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-Bold.ttf",
+      "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-Medium.ttf",
+      "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-Regular.ttf",
+      "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-SemiBold.ttf",
+      "fonts/NotoNaskhArabic/full/variable-ttf/NotoNaskhArabic[wght].ttf"
+     ],
      "hinted": [
       "fonts/NotoNaskhArabic/hinted/ttf/NotoNaskhArabic-Bold.ttf",
       "fonts/NotoNaskhArabic/hinted/ttf/NotoNaskhArabic-Medium.ttf",
@@ -258,8 +265,8 @@
     },
     "latest_release": {
      "notes": "",
-     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.013",
-     "version": "v2.013"
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.014",
+     "version": "v2.014"
     }
    },
    "Noto Sans Arabic": {
@@ -392,6 +399,11 @@
   },
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
+   {
+    "number": 179,
+    "title": "Fixed dots in final and isol forms of U+06AD for Naskh and NaskhUI",
+    "url": "https://github.com/notofonts/arabic/pull/179"
+   },
    {
     "number": 178,
     "title": "Missing Arabic Extended-B Block",
@@ -716,8 +728,8 @@
     },
     "latest_release": {
      "notes": "",
-     "url": "https://github.com/notofonts/armenian/releases/tag/NotoSansArmenian-v2.006",
-     "version": "v2.006"
+     "url": "https://github.com/notofonts/armenian/releases/tag/NotoSansArmenian-v2.007",
+     "version": "v2.007"
     }
    },
    "Noto Serif Armenian": {
@@ -843,8 +855,8 @@
     },
     "latest_release": {
      "notes": "",
-     "url": "https://github.com/notofonts/armenian/releases/tag/NotoSerifArmenian-v2.006",
-     "version": "v2.006"
+     "url": "https://github.com/notofonts/armenian/releases/tag/NotoSerifArmenian-v2.007",
+     "version": "v2.007"
     }
    }
   },
