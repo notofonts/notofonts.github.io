@@ -7902,7 +7902,13 @@
  "new-tai-lue": {
   "families": {},
   "gh_url": "https://notofonts.github.io/new-tai-lue",
-  "issues": [],
+  "issues": [
+   {
+    "number": 2,
+    "title": "Missing U+19D2 (\u19d2)",
+    "url": "https://github.com/notofonts/new-tai-lue/issues/2"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/new-tai-lue",
   "title": "Noto New Tai Lue"
  },
