@@ -106,6 +106,35 @@
      "version": "v2.014"
     }
    },
+   "Noto Naskh Arabic UI": {
+    "files": [
+     "fonts/NotoNaskhArabicUI/googlefonts/ttf/NotoNaskhArabicUI-Bold.ttf",
+     "fonts/NotoNaskhArabicUI/googlefonts/ttf/NotoNaskhArabicUI-Regular.ttf",
+     "fonts/NotoNaskhArabicUI/googlefonts/ttf/NotoNaskhArabicUI-Medium.ttf",
+     "fonts/NotoNaskhArabicUI/googlefonts/variable-ttf/NotoNaskhArabicUI[wght].ttf",
+     "fonts/NotoNaskhArabicUI/full/ttf/NotoNaskhArabicUI-Bold.ttf",
+     "fonts/NotoNaskhArabicUI/full/ttf/NotoNaskhArabicUI-SemiBold.ttf",
+     "fonts/NotoNaskhArabicUI/full/ttf/NotoNaskhArabicUI-Regular.ttf",
+     "fonts/NotoNaskhArabicUI/full/ttf/NotoNaskhArabicUI-Medium.ttf",
+     "fonts/NotoNaskhArabicUI/full/slim-variable-ttf/NotoNaskhArabicUI[wght].ttf",
+     "fonts/NotoNaskhArabicUI/full/variable-ttf/NotoNaskhArabicUI[wght].ttf",
+     "fonts/NotoNaskhArabicUI/hinted/ttf/NotoNaskhArabicUI-Bold.ttf",
+     "fonts/NotoNaskhArabicUI/hinted/ttf/NotoNaskhArabicUI-SemiBold.ttf",
+     "fonts/NotoNaskhArabicUI/hinted/ttf/NotoNaskhArabicUI-Regular.ttf",
+     "fonts/NotoNaskhArabicUI/hinted/ttf/NotoNaskhArabicUI-Medium.ttf",
+     "fonts/NotoNaskhArabicUI/unhinted/ttf/NotoNaskhArabicUI-Bold.ttf",
+     "fonts/NotoNaskhArabicUI/unhinted/ttf/NotoNaskhArabicUI-SemiBold.ttf",
+     "fonts/NotoNaskhArabicUI/unhinted/ttf/NotoNaskhArabicUI-Regular.ttf",
+     "fonts/NotoNaskhArabicUI/unhinted/ttf/NotoNaskhArabicUI-Medium.ttf",
+     "fonts/NotoNaskhArabicUI/unhinted/slim-variable-ttf/NotoNaskhArabicUI[wght].ttf",
+     "fonts/NotoNaskhArabicUI/unhinted/variable-ttf/NotoNaskhArabicUI[wght].ttf"
+    ],
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabicUI-v2.014",
+     "version": "v2.014"
+    }
+   },
    "Noto Sans Arabic": {
     "files": [
      "fonts/NotoSansArabic/full/ttf/NotoSansArabic-SemiCondensedBlack.ttf",
@@ -241,7 +270,8 @@
   "known_releases": [
    "NotoNaskhArabic-v2.013",
    "NotoSansArabic-v2.010",
-   "NotoNaskhArabic-v2.014"
+   "NotoNaskhArabic-v2.014",
+   "NotoNaskhArabicUI-v2.014"
   ]
  },
  "armenian": {
@@ -4640,15 +4670,16 @@
     ],
     "latest_release": {
      "notes": "",
-     "url": "https://github.com/notofonts/nastaliq/releases/tag/NotoNastaliqUrdu-v3.006",
-     "version": "v3.006"
+     "url": "https://github.com/notofonts/nastaliq/releases/tag/NotoNastaliqUrdu-v3.007",
+     "version": "v3.007"
     }
    }
   },
   "known_releases": [
    "NotoNastaliqUrdu-v3.004",
    "NotoNastaliqUrdu-v3.005",
-   "NotoNastaliqUrdu-v3.006"
+   "NotoNastaliqUrdu-v3.006",
+   "NotoNastaliqUrdu-v3.007"
   ]
  },
  "new-tai-lue": {},

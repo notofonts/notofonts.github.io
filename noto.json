@@ -269,6 +269,37 @@
      "version": "v2.014"
     }
    },
+   "Noto Naskh Arabic UI": {
+    "files": {
+     "full": [
+      "fonts/NotoNaskhArabicUI/full/slim-variable-ttf/NotoNaskhArabicUI[wght].ttf",
+      "fonts/NotoNaskhArabicUI/full/ttf/NotoNaskhArabicUI-Bold.ttf",
+      "fonts/NotoNaskhArabicUI/full/ttf/NotoNaskhArabicUI-Medium.ttf",
+      "fonts/NotoNaskhArabicUI/full/ttf/NotoNaskhArabicUI-Regular.ttf",
+      "fonts/NotoNaskhArabicUI/full/ttf/NotoNaskhArabicUI-SemiBold.ttf",
+      "fonts/NotoNaskhArabicUI/full/variable-ttf/NotoNaskhArabicUI[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoNaskhArabicUI/hinted/ttf/NotoNaskhArabicUI-Bold.ttf",
+      "fonts/NotoNaskhArabicUI/hinted/ttf/NotoNaskhArabicUI-Medium.ttf",
+      "fonts/NotoNaskhArabicUI/hinted/ttf/NotoNaskhArabicUI-Regular.ttf",
+      "fonts/NotoNaskhArabicUI/hinted/ttf/NotoNaskhArabicUI-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoNaskhArabicUI/unhinted/slim-variable-ttf/NotoNaskhArabicUI[wght].ttf",
+      "fonts/NotoNaskhArabicUI/unhinted/ttf/NotoNaskhArabicUI-Bold.ttf",
+      "fonts/NotoNaskhArabicUI/unhinted/ttf/NotoNaskhArabicUI-Medium.ttf",
+      "fonts/NotoNaskhArabicUI/unhinted/ttf/NotoNaskhArabicUI-Regular.ttf",
+      "fonts/NotoNaskhArabicUI/unhinted/ttf/NotoNaskhArabicUI-SemiBold.ttf",
+      "fonts/NotoNaskhArabicUI/unhinted/variable-ttf/NotoNaskhArabicUI[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "",
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabicUI-v2.014",
+     "version": "v2.014"
+    }
+   },
    "Noto Sans Arabic": {
     "files": {
      "full": [
@@ -463,11 +494,6 @@
     "number": 28,
     "title": "Noto Naskh Arabic font does not work in Word, but yes in Excel and PowerPoint",
     "url": "https://github.com/notofonts/arabic/issues/28"
-   },
-   {
-    "number": 27,
-    "title": "Extended Arabic-Indic Digit Seven \"\u06f7\" of Noto Naskh Arabic family is broken",
-    "url": "https://github.com/notofonts/arabic/issues/27"
    },
    {
     "number": 26,
@@ -7808,8 +7834,8 @@
     },
     "latest_release": {
      "notes": "",
-     "url": "https://github.com/notofonts/nastaliq/releases/tag/NotoNastaliqUrdu-v3.006",
-     "version": "v3.006"
+     "url": "https://github.com/notofonts/nastaliq/releases/tag/NotoNastaliqUrdu-v3.007",
+     "version": "v3.007"
     }
    }
   },
