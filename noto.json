@@ -7290,6 +7290,11 @@
   "gh_url": "https://notofonts.github.io/music",
   "issues": [
    {
+    "number": 8,
+    "title": "Any plans to make the font SMuFL-compatible?",
+    "url": "https://github.com/notofonts/music/issues/8"
+   },
+   {
     "number": 5,
     "title": "U+1D159 MUSICAL SYMBOL NULL NOTEHEAD is invisible",
     "url": "https://github.com/notofonts/music/issues/5"
