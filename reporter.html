@@ -87,8 +87,9 @@
 								id="select"
 								class="selectpicker w-auto"
 								data-live-search="true"
-								onchange="location = 'https://github.com/notofonts/'+this.value+'/issues/new/choose';"
+								onchange="if (this.value) { location = 'https://github.com/notofonts/'+this.value+'/issues/new/choose' };"
 							>
+								<option value="">-- Select a font --</option>
 								<option value="Arimo">Noto Arimo</option>
 								<option value="Cousine">Noto Cousine</option>
 								<option value="Tinos">Noto Tinos</option>
