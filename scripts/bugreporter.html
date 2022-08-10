@@ -87,8 +87,9 @@
 								id="select"
 								class="selectpicker w-auto"
 								data-live-search="true"
-								onchange="location = 'https://github.com/notofonts/'+this.value+'/issues/new/choose';"
+								onchange="if (this.value) { location = 'https://github.com/notofonts/'+this.value+'/issues/new/choose' };"
 							>
+								<option value="">-- Select a font --</option>
 								{{#each results}}
 								<option value="{{@key}}">{{title}}</option>
 								{{#each families}}
