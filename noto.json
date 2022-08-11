@@ -431,6 +431,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 181,
+    "title": "Noto Kufi Arabic",
+    "url": "https://github.com/notofonts/arabic/issues/181"
+   },
+   {
     "number": 179,
     "title": "Fixed dots in final and isol forms of U+06AD for Naskh and NaskhUI",
     "url": "https://github.com/notofonts/arabic/pull/179"
@@ -2139,6 +2144,11 @@
   "families": {},
   "gh_url": "https://notofonts.github.io/dives-akuru",
   "issues": [
+   {
+    "number": 16,
+    "title": "Noto Serif Dives Akuru Ligating issue",
+    "url": "https://github.com/notofonts/dives-akuru/issues/16"
+   },
    {
     "number": 7,
     "title": "Extraneous Dives Akuru conjuncts without viramas",
