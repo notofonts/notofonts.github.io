@@ -456,11 +456,6 @@
     "url": "https://github.com/notofonts/arabic/issues/35"
    },
    {
-    "number": 37,
-    "title": "Noto Sans Arabic: missing latin characters ",
-    "url": "https://github.com/notofonts/arabic/issues/37"
-   },
-   {
     "number": 34,
     "title": "Digits over U+0601 (ARABIC SIGN SANAH) are too small in Noto Naskh Arabic",
     "url": "https://github.com/notofonts/arabic/issues/34"
