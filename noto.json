@@ -2562,11 +2562,6 @@
   "gh_url": "https://notofonts.github.io/ethiopic",
   "issues": [
    {
-    "number": 7,
-    "title": "Ethiopic is missing on starting page",
-    "url": "https://github.com/notofonts/ethiopic/issues/7"
-   },
-   {
     "number": 6,
     "title": "Funked up Ethiopic Ex B?",
     "url": "https://github.com/notofonts/ethiopic/issues/6"
@@ -4099,16 +4094,6 @@
     "number": 3,
     "title": "Inscriptional Parthian optional ligatures should use 'liga' instead of 'ccmp'",
     "url": "https://github.com/notofonts/inscriptional-parthian/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Inscriptional Parthian ligatures block swash kerning",
-    "url": "https://github.com/notofonts/inscriptional-parthian/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Unnecessary kerning in Noto Sans Inscriptional Parthian",
-    "url": "https://github.com/notofonts/inscriptional-parthian/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/inscriptional-parthian",
@@ -8184,6 +8169,11 @@
   },
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
+   {
+    "number": 47,
+    "title": "Localized form of digits do not appear when used with a subtending mark",
+    "url": "https://github.com/notofonts/nastaliq/issues/47"
+   },
    {
     "number": 16,
     "title": "Noto Nastaliq Urdu: Wrong Nuqta and Tah placement in U+0768 ARABIC LETTER NOON WITH SMALL TAH and U+08C7 ARABIC LETTER LAM WITH SMALL ARABIC LETTER TAH ABOVE respectively",
