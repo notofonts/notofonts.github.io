@@ -9573,6 +9573,11 @@
     "number": 1,
     "title": "Overlapping Tagalog vowel signs",
     "url": "https://github.com/notofonts/tagalog/issues/1"
+   },
+   {
+    "number": 4,
+    "title": "Additional Unicode14.0 | 170D, 1715, 171F. | Baybayin 'Ra' ",
+    "url": "https://github.com/notofonts/tagalog/issues/4"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/tagalog",
