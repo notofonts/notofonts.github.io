@@ -1466,7 +1466,13 @@
  "buginese": {
   "families": {},
   "gh_url": "https://notofonts.github.io/buginese",
-  "issues": [],
+  "issues": [
+   {
+    "number": 1,
+    "title": "A Problem and Design Suggestion",
+    "url": "https://github.com/notofonts/buginese/issues/1"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/buginese",
   "title": "Noto Buginese"
  },
