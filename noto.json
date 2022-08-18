@@ -4811,6 +4811,11 @@
   "gh_url": "https://notofonts.github.io/khmer",
   "issues": [
    {
+    "number": 26,
+    "title": "Khmer Qa-Triisap-Vowel Sign II `\u17a2\u17ca\u17b8` shaping in Noto Sans Khmer VF vs. Noto Sans Khmer UI",
+    "url": "https://github.com/notofonts/khmer/issues/26"
+   },
+   {
     "number": 9,
     "title": "Khmer glyph error on iOS for \u1796\u17c4\u17c7 (U+1796U+17C4U+17C7)",
     "url": "https://github.com/notofonts/khmer/issues/9"
