@@ -8557,8 +8557,8 @@
     },
     "latest_release": {
      "notes": "",
-     "url": "https://github.com/notofonts/oriya/releases/tag/NotoSansOriya-v2.002",
-     "version": "v2.002"
+     "url": "https://github.com/notofonts/oriya/releases/tag/NotoSansOriya-v2.003",
+     "version": "v2.003"
     }
    },
    "Noto Serif Oriya": {
@@ -8595,16 +8595,6 @@
   },
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
-   {
-    "number": 13,
-    "title": "Marks not attaching in sans",
-    "url": "https://github.com/notofonts/oriya/issues/13"
-   },
-   {
-    "number": 10,
-    "title": "NotoSansOriya cannot place Nuktah on most characters",
-    "url": "https://github.com/notofonts/oriya/issues/10"
-   },
    {
     "number": 8,
     "title": "NotoSansOriya does not connect vowels to conjunct consonants",
