@@ -9488,6 +9488,11 @@
   "gh_url": "https://notofonts.github.io/syriac",
   "issues": [
    {
+    "number": 20,
+    "title": "Font missing Syriac Supplement characters",
+    "url": "https://github.com/notofonts/syriac/issues/20"
+   },
+   {
     "number": 13,
     "title": "Assyrian Syriac fonts need to be broken up - the merged font set is unusable in most situations",
     "url": "https://github.com/notofonts/syriac/issues/13"
@@ -10723,6 +10728,11 @@
   },
   "gh_url": "https://notofonts.github.io/thai",
   "issues": [
+   {
+    "number": 21,
+    "title": "Sans Looped: overlapping tone signs with the vowel signs ",
+    "url": "https://github.com/notofonts/thai/issues/21"
+   },
    {
     "number": 11,
     "title": "Italic and/or oblique font style",
