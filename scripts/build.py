@@ -70,28 +70,42 @@ for repo_name in sources.keys():
                 state[repo_name].setdefault("families", {}).setdefault(family, {})
             )
 
+            body = release.body
+            if not body:
+                tag_sha = repo.get_git_ref("tags/"+release.tag_name).object.sha
+                try:
+                    body = repo.get_git_tag(tag_sha).message
+                except Exception as e:
+                    print("Couldn't retrieve release message for %s"  % release.tag_name)
+
             family_thing["latest_release"] = {
                 "url": release.html_url,
                 "version": version,
-                "notes": release.body,
+                "notes": body,
             }
 
-            z = ZipFile(download_file(latest_asset.browser_download_url))
-            family_thing["files"] = []
-            with tempfile.TemporaryDirectory() as tmpdir:
-                fonts = fonts_from_zip(z, tmpdir)
-                for font in fonts:
-                    newpath = Path("fonts/") / Path(font).relative_to(tmpdir)
-                    os.makedirs(newpath.parent, exist_ok=True)
-                    family_thing["files"].append(str(newpath))
-                    os.rename(font, newpath)
-                if not TESTING:
-                    # Add it and tag it
-                    subprocess.run(["git", "add", "."])
-                    subprocess.run(["git", "commit", "-m", "Add "+release.tag_name])
-                    subprocess.run(["git", "tag", release.tag_name])
-                    subprocess.run(["git", "push"])
-                    subprocess.run(["git", "push", "--tags"])
+            if release.published_at:
+                family_thing["published"] = release.published_at.isoformat()
+
+            try:
+                z = ZipFile(download_file(latest_asset.browser_download_url))
+                family_thing["files"] = []
+                with tempfile.TemporaryDirectory() as tmpdir:
+                    fonts = fonts_from_zip(z, tmpdir)
+                    for font in fonts:
+                        newpath = Path("fonts/") / Path(font).relative_to(tmpdir)
+                        os.makedirs(newpath.parent, exist_ok=True)
+                        family_thing["files"].append(str(newpath))
+                        os.rename(font, newpath)
+                    if not TESTING:
+                        # Add it and tag it
+                        subprocess.run(["git", "add", "."])
+                        subprocess.run(["git", "commit", "-m", "Add "+release.tag_name])
+                        subprocess.run(["git", "tag", release.tag_name])
+                        subprocess.run(["git", "push"])
+                        subprocess.run(["git", "push", "--tags"])
+            except Exception as e:
+                print("Couldn't fetch download for %s" % latest_asset.browser_download_url)
 
 
             # Tweet about the new release or something
