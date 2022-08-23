@@ -145,7 +145,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Adlam v3.001\n\nThis is an administrative release.\n",
+     "published": "2022-07-13T15:51:43",
      "url": "https://github.com/notofonts/adlam/releases/tag/NotoSansAdlam-v3.001",
      "version": "v3.001"
     }
@@ -170,7 +171,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Adlam Unjoined v3.001\n\nThis is an administrative release.\n",
+     "published": "2022-07-13T15:50:54",
      "url": "https://github.com/notofonts/adlam/releases/tag/NotoSansAdlamUnjoined-v3.001",
      "version": "v3.001"
     }
@@ -213,6 +215,7 @@
     },
     "latest_release": {
      "notes": "",
+     "published": "2022-06-22T12:35:13",
      "url": "https://github.com/notofonts/ahom/releases/tag/NotoSerifAhom-v2.005",
      "version": "v2.005"
     }
@@ -269,7 +272,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Naskh Arabic v2.014 This release pairs the full build of this font with Noto Serif.\n",
+     "published": "2022-07-29T12:05:59",
      "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.014",
      "version": "v2.014"
     }
@@ -300,7 +304,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Naskh Arabic UI v2.014\n\nThis release\n* fixes U+06F7 to prefer the Persian form and localize to the Urdu form on demand (issue #27)\n* fixes some accents that were not correctly anchoring to the dotted\n* brings Noto Naskh Arabic UI up to Google Fonts production standards\ncircle\n",
+     "published": "2022-08-01T14:51:32",
      "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabicUI-v2.014",
      "version": "v2.014"
     }
@@ -427,7 +432,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Arabic v2.010\n\nThis is an administrative release.\n",
+     "published": "2022-07-05T05:59:11",
      "url": "https://github.com/notofonts/arabic/releases/tag/NotoSansArabic-v2.010",
      "version": "v2.010"
     }
@@ -758,7 +764,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Armenian v2.007\n\nThis release adds U+2024 ONE DOT LEADER (used as Armenian semicolon) to full builds of this font.\n",
+     "published": "2022-07-29T09:55:08",
      "url": "https://github.com/notofonts/armenian/releases/tag/NotoSansArmenian-v2.007",
      "version": "v2.007"
     }
@@ -885,7 +892,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Armenian v2.007\n\nThis release adds U+2024 ONE DOT LEADER (used as Armenian semicolon) to full builds of this font.\n",
+     "published": "2022-07-29T09:56:05",
      "url": "https://github.com/notofonts/armenian/releases/tag/NotoSerifArmenian-v2.007",
      "version": "v2.007"
     }
@@ -937,7 +945,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "This is purely a maintenance release.\n\nIt brings Noto Sans Avestan up to the recommendations of the Google\nFonts process, for onboarding onto Google Fonts.\n",
+     "published": "2022-06-27T13:47:57",
      "url": "https://github.com/notofonts/avestan/releases/tag/NotoSansAvestan-v2.002",
      "version": "v2.002"
     }
@@ -958,32 +967,13 @@
   "families": {
    "Noto Sans Balinese": {
     "files": {
-     "full": [
-      "fonts/NotoSansBalinese/full/slim-variable-ttf/NotoSansBalinese[wght].ttf",
-      "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-Bold.ttf",
-      "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-Medium.ttf",
-      "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-Regular.ttf",
-      "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-SemiBold.ttf",
-      "fonts/NotoSansBalinese/full/variable-ttf/NotoSansBalinese[wght].ttf"
-     ],
-     "hinted": [
-      "fonts/NotoSansBalinese/hinted/ttf/NotoSansBalinese-Bold.ttf",
-      "fonts/NotoSansBalinese/hinted/ttf/NotoSansBalinese-Medium.ttf",
-      "fonts/NotoSansBalinese/hinted/ttf/NotoSansBalinese-Regular.ttf",
-      "fonts/NotoSansBalinese/hinted/ttf/NotoSansBalinese-SemiBold.ttf"
-     ],
-     "unhinted": [
-      "fonts/NotoSansBalinese/unhinted/slim-variable-ttf/NotoSansBalinese[wght].ttf",
-      "fonts/NotoSansBalinese/unhinted/ttf/NotoSansBalinese-Bold.ttf",
-      "fonts/NotoSansBalinese/unhinted/ttf/NotoSansBalinese-Medium.ttf",
-      "fonts/NotoSansBalinese/unhinted/ttf/NotoSansBalinese-Regular.ttf",
-      "fonts/NotoSansBalinese/unhinted/ttf/NotoSansBalinese-SemiBold.ttf",
-      "fonts/NotoSansBalinese/unhinted/variable-ttf/NotoSansBalinese[wght].ttf"
-     ]
+     "full": [],
+     "hinted": [],
+     "unhinted": []
     },
     "latest_release": {
-     "notes": "",
-     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSansBalinese-v2.003",
+     "notes": "Noto Sans Balinese v2.003\n\nThis is a maintenance release.\n",
+     "url": "https://github.com/notofonts/balinese/releases/tag/untagged-e675e491f3b1a3a25ac5",
      "version": "v2.003"
     }
    },
@@ -1000,7 +990,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Balinese 2.004\n\nThis release fixes the positioning of the sukun and of marks attached\nto the dotted circle glyph.\n",
+     "published": "2022-07-24T15:52:02",
      "url": "https://github.com/notofonts/balinese/releases/tag/NotoSerifBalinese-v2.004",
      "version": "v2.004"
     }
@@ -1218,7 +1209,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Bengali v2.003\n\nThis is an administrative release.\n",
+     "published": "2022-07-05T06:51:05",
      "url": "https://github.com/notofonts/bengali/releases/tag/NotoSansBengali-v2.003",
      "version": "v2.003"
     }
@@ -1345,7 +1337,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Bengali v2.003\n\nThis is an administrative release.\n",
+     "published": "2022-07-05T06:51:03",
      "url": "https://github.com/notofonts/bengali/releases/tag/NotoSerifBengali-v2.003",
      "version": "v2.003"
     }
@@ -1485,19 +1478,13 @@
   "families": {
    "Noto Sans Buhid": {
     "files": {
-     "full": [
-      "fonts/NotoSansBuhid/full/ttf/NotoSansBuhid-Regular.ttf"
-     ],
-     "hinted": [
-      "fonts/NotoSansBuhid/hinted/ttf/NotoSansBuhid-Regular.ttf"
-     ],
-     "unhinted": [
-      "fonts/NotoSansBuhid/unhinted/ttf/NotoSansBuhid-Regular.ttf"
-     ]
+     "full": [],
+     "hinted": [],
+     "unhinted": []
     },
     "latest_release": {
-     "notes": "",
-     "url": "https://github.com/notofonts/buhid/releases/tag/NotoSansBuhid-v2.001",
+     "notes": "Noto Sans Buhid v2.001\n\n* Ensure we have a buhd script tag; fixes #1\n* Copyright & version update\n* Use typo metrics\n",
+     "url": "https://github.com/notofonts/buhid/releases/tag/untagged-7c1cf8b610cadcc2fe9e",
      "version": "v2.001"
     }
    }
@@ -1942,7 +1929,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Devanagari v2.003\n\nThis is an administrative release.\n",
+     "published": "2022-07-08T12:38:48",
      "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSansDevanagari-v2.003",
      "version": "v2.003"
     }
@@ -2069,7 +2057,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Devanagari v2.003\n\nThis is an administrative release.\n",
+     "published": "2022-07-08T12:30:39",
      "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSerifDevanagari-v2.003",
      "version": "v2.003"
     }
@@ -2204,7 +2193,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Dogra v1.005 - Administrative release\n\nFixes copyright information and uses new upstream.yaml generator to help with Google Fonts onboarding.\n\n* Fix copyright to match OFL, version bump\n* Add dotted circle anchors\n* Add Stylistic set names\n",
+     "published": "2022-06-27T13:00:27",
      "url": "https://github.com/notofonts/dogra/releases/tag/NotoSerifDogra-v1.005",
      "version": "v1.005"
     }
@@ -2437,7 +2427,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Ethiopic v2.101\n\nThis is purely an administrative release.\n",
+     "published": "2022-07-01T12:25:47",
      "url": "https://github.com/notofonts/ethiopic/releases/tag/NotoSansEthiopic-v2.101",
      "version": "v2.101"
     }
@@ -2564,7 +2555,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Ethiopic v2.101\n\nThis is purely an administrative release.\n",
+     "published": "2022-07-01T12:29:51",
      "url": "https://github.com/notofonts/ethiopic/releases/tag/NotoSerifEthiopic-v2.101",
      "version": "v2.101"
     }
@@ -2730,7 +2722,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Georgian\n\nThis is purely an administrative release.\n",
+     "published": "2022-07-01T12:40:49",
      "url": "https://github.com/notofonts/georgian/releases/tag/NotoSansGeorgian-v2.002",
      "version": "v2.002"
     }
@@ -2857,7 +2850,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Georgian v2.002\n\nThis is purely an administrative release.\n",
+     "published": "2022-07-01T12:41:55",
      "url": "https://github.com/notofonts/georgian/releases/tag/NotoSerifGeorgian-v2.002",
      "version": "v2.002"
     }
@@ -2895,6 +2889,7 @@
     },
     "latest_release": {
      "notes": "",
+     "published": "2022-06-22T11:52:22",
      "url": "https://github.com/notofonts/glagolitic/releases/tag/NotoSansGlagolitic-v2.001",
      "version": "v2.001"
     }
@@ -3183,7 +3178,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Gujarati v2.102\n\nThis is an administrative release.\n",
+     "published": "2022-07-07T17:14:09",
      "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSansGujarati-v2.102",
      "version": "v2.102"
     }
@@ -3229,7 +3225,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Gujarati v2.102\n\nThis is an administrative release.\n",
+     "published": "2022-07-07T17:24:11",
      "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSerifGujarati-v2.102",
      "version": "v2.102"
     }
@@ -3591,7 +3588,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Gurmukhi v2.003\n\nThis is an administrative release\n",
+     "published": "2022-07-07T16:13:31",
      "url": "https://github.com/notofonts/gurmukhi/releases/tag/NotoSansGurmukhi-v2.003",
      "version": "v2.003"
     }
@@ -3637,7 +3635,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Gurmukhi v2.003\n\nThis is an administrative release\n",
+     "published": "2022-07-07T16:16:20",
      "url": "https://github.com/notofonts/gurmukhi/releases/tag/NotoSerifGurmukhi-v2.003",
      "version": "v2.003"
     }
@@ -3645,6 +3644,16 @@
   },
   "gh_url": "https://notofonts.github.io/gurmukhi",
   "issues": [
+   {
+    "number": 21,
+    "title": "Handling of I-matra + tippi",
+    "url": "https://github.com/notofonts/gurmukhi/issues/21"
+   },
+   {
+    "number": 20,
+    "title": "Nukta of LLA on wrong side?",
+    "url": "https://github.com/notofonts/gurmukhi/issues/20"
+   },
    {
     "number": 6,
     "title": "Support conjuncts found in the Adi Granth",
@@ -3749,7 +3758,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Rashi Hebrew v1.006\n\nThis release replaces the Latin subset in full builds with Noto Serif.\n",
+     "published": "2022-07-25T08:08:17",
      "url": "https://github.com/notofonts/hebrew/releases/tag/NotoRashiHebrew-v1.006",
      "version": "v1.006"
     }
@@ -3876,7 +3886,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Hebrew v2.003\n\nThis is an administrative release.\n",
+     "published": "2022-07-15T08:08:34",
      "url": "https://github.com/notofonts/hebrew/releases/tag/NotoSansHebrew-v2.003",
      "version": "v2.003"
     }
@@ -4003,7 +4014,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Hebrew v2.003\n\nThis is a maintenance release.\n",
+     "published": "2022-07-13T13:28:21",
      "url": "https://github.com/notofonts/hebrew/releases/tag/NotoSerifHebrew-v2.003",
      "version": "v2.003"
     }
@@ -4413,7 +4425,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Kannada v2.003\n\nThis is a maintenance release\n",
+     "published": "2022-07-07T21:25:30",
      "url": "https://github.com/notofonts/kannada/releases/tag/NotoSansKannada-v2.003",
      "version": "v2.003"
     }
@@ -4459,7 +4472,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Kannada v2.003\n\nThis is a maintenance release\n",
+     "published": "2022-07-07T21:23:02",
      "url": "https://github.com/notofonts/kannada/releases/tag/NotoSerifKannada-v2.003",
      "version": "v2.003"
     }
@@ -4680,7 +4694,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Khmer v2.003\n\nThis is an administrative release.\n",
+     "published": "2022-07-04T22:08:47",
      "url": "https://github.com/notofonts/khmer/releases/tag/NotoSansKhmer-v2.003",
      "version": "v2.003"
     }
@@ -4807,7 +4822,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Khmer v2.003\n\nThis is an administrative release.\n",
+     "published": "2022-07-04T22:04:07",
      "url": "https://github.com/notofonts/khmer/releases/tag/NotoSerifKhmer-v2.003",
      "version": "v2.003"
     }
@@ -5034,7 +5050,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Lao v2.002\n\nThis is an administrative release.\n",
+     "published": "2022-07-05T06:46:22",
      "url": "https://github.com/notofonts/lao/releases/tag/NotoSansLao-v2.002",
      "version": "v2.002"
     }
@@ -5161,7 +5178,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Lao v2.002\n\nThis is an administrative release.\n",
+     "published": "2022-07-05T06:49:21",
      "url": "https://github.com/notofonts/lao/releases/tag/NotoSerifLao-v2.002",
      "version": "v2.002"
     }
@@ -5283,7 +5301,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Mono v2.010\n\nThis release:\n\n* Fixes the width of U+AB60 sakhayat to be monospaced.\n",
+     "published": "2022-07-28T08:54:58",
      "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSansMono-v2.010",
      "version": "v2.010"
     }
@@ -5446,6 +5465,7 @@
     },
     "latest_release": {
      "notes": "",
+     "published": "2022-07-18T16:47:23",
      "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.009",
      "version": "v2.009"
     }
@@ -5607,7 +5627,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Display v2.009\n\nThis is an administrative release. No changes have been made to any glyphs.\n",
+     "published": "2022-07-18T16:44:55",
      "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerifDisplay-v2.009",
      "version": "v2.009"
     }
@@ -6827,7 +6848,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Limbu v2.003\n\nThis is an administrative release.\n",
+     "published": "2022-07-13T11:43:49",
      "url": "https://github.com/notofonts/limbu/releases/tag/NotoSansLimbu-v2.003",
      "version": "v2.003"
     }
@@ -6897,7 +6919,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Lisu v2.102\n\nThis is an administrative release.\n",
+     "published": "2022-07-13T11:56:31",
      "url": "https://github.com/notofonts/lisu/releases/tag/NotoSansLisu-v2.102",
      "version": "v2.102"
     }
@@ -7185,7 +7208,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Malayalam v2.103\n\nThis is an administrative release.\n",
+     "published": "2022-07-07T06:30:02",
      "url": "https://github.com/notofonts/malayalam/releases/tag/NotoSansMalayalam-v2.103",
      "version": "v2.103"
     }
@@ -7231,7 +7255,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Malayalam v2.103\n\nThis is an administrative release.\n",
+     "published": "2022-07-07T06:33:46",
      "url": "https://github.com/notofonts/malayalam/releases/tag/NotoSerifMalayalam-v2.103",
      "version": "v2.103"
     }
@@ -7776,7 +7801,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Myanmar v2.107\n\nThis release uses production naming for exported glyphs.\n",
+     "published": "2022-07-28T07:58:21",
      "url": "https://github.com/notofonts/myanmar/releases/tag/NotoSansMyanmar-v2.107",
      "version": "v2.107"
     }
@@ -7903,7 +7929,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Myanmar v2.106\n\nThis is an administrative release.\n",
+     "published": "2022-07-14T07:43:25",
      "url": "https://github.com/notofonts/myanmar/releases/tag/NotoSerifMyanmar-v2.106",
      "version": "v2.106"
     }
@@ -8172,7 +8199,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Nastaliq Urdu v3.007 This release replaces the Latin counterpart of the full builds with Noto Serif.\n",
+     "published": "2022-08-01T17:26:14",
      "url": "https://github.com/notofonts/nastaliq/releases/tag/NotoNastaliqUrdu-v3.007",
      "version": "v3.007"
     }
@@ -8561,7 +8589,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Oriya v2.003\n\nThis release:\n* Fixes some unattached mark issues (#13)\n* Adds nukta anchors to all base glyphs (#10)\n",
+     "published": "2022-08-19T10:37:34",
      "url": "https://github.com/notofonts/oriya/releases/tag/NotoSansOriya-v2.003",
      "version": "v2.003"
     }
@@ -8592,7 +8621,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Oriya v1.051\n\n* Administrative fixes\n* Add dotted circle anchors\n",
+     "published": "2022-07-04T13:19:53",
      "url": "https://github.com/notofonts/oriya/releases/tag/NotoSerifOriya-v1.051",
      "version": "v1.051"
     }
@@ -9098,9 +9128,10 @@
      ]
     },
     "latest_release": {
-     "notes": "",
-     "url": "https://github.com/notofonts/sinhala/releases/tag/NotoSansSinhala-v2.006",
-     "version": "v2.006"
+     "notes": "Noto Sans Sinhala\n\nThis fixes a regression where vowel signs had zero width on recent shaping engines. (See #1)\n",
+     "published": "2022-07-22T13:37:38",
+     "url": "https://github.com/notofonts/sinhala/releases/tag/NotoSansSinhala-v2.005",
+     "version": "v2.005"
     }
    },
    "Noto Serif Sinhala": {
@@ -9225,7 +9256,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Sinhala v2.006\n\nThis release ensures that the non-breaking space has the same width as the breaking space.\n",
+     "published": "2022-07-27T14:44:15",
      "url": "https://github.com/notofonts/sinhala/releases/tag/NotoSerifSinhala-v2.006",
      "version": "v2.006"
     }
@@ -9931,135 +9963,21 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Tamil v2.003\n\nThis is an administrative release\n",
+     "published": "2022-07-07T06:13:21",
      "url": "https://github.com/notofonts/tamil/releases/tag/NotoSansTamil-v2.003",
      "version": "v2.003"
     }
    },
    "Noto Serif Tamil": {
     "files": {
-     "full": [
-      "fonts/NotoSerifTamil/full/slim-variable-ttf/NotoSerifTamil[wght].ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-Black.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-Bold.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-Condensed.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedBlack.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedBold.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedExtraBold.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedExtraLight.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedLight.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedMedium.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedSemiBold.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedThin.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraBold.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensed.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedBlack.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedBold.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedExtraBold.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedExtraLight.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedLight.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedMedium.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedSemiBold.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedThin.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraLight.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-Light.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-Medium.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-Regular.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiBold.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensed.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedBlack.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedBold.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedExtraBold.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedExtraLight.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedLight.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedMedium.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedSemiBold.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedThin.ttf",
-      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-Thin.ttf",
-      "fonts/NotoSerifTamil/full/variable-ttf/NotoSerifTamil[wdth,wght].ttf"
-     ],
-     "hinted": [
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-Black.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-Bold.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-Condensed.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedBlack.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedBold.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedExtraBold.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedExtraLight.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedLight.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedMedium.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedSemiBold.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedThin.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraBold.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensed.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedBlack.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedBold.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedExtraBold.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedExtraLight.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedLight.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedMedium.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedSemiBold.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedThin.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraLight.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-Light.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-Medium.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-Regular.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiBold.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensed.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedBlack.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedBold.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedExtraBold.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedExtraLight.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedLight.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedMedium.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedSemiBold.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedThin.ttf",
-      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-Thin.ttf"
-     ],
-     "unhinted": [
-      "fonts/NotoSerifTamil/unhinted/slim-variable-ttf/NotoSerifTamil[wght].ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-Black.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-Bold.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-Condensed.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedBlack.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedBold.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedExtraBold.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedExtraLight.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedLight.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedMedium.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedSemiBold.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedThin.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraBold.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensed.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedBlack.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedBold.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedExtraBold.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedExtraLight.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedLight.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedMedium.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedSemiBold.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedThin.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraLight.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-Light.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-Medium.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-Regular.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiBold.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensed.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedBlack.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedBold.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedExtraBold.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedExtraLight.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedLight.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedMedium.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedSemiBold.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedThin.ttf",
-      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-Thin.ttf",
-      "fonts/NotoSerifTamil/unhinted/variable-ttf/NotoSerifTamil[wdth,wght].ttf"
-     ]
+     "full": [],
+     "hinted": [],
+     "unhinted": []
     },
     "latest_release": {
-     "notes": "",
-     "url": "https://github.com/notofonts/tamil/releases/tag/NotoSerifTamil-v2.003",
+     "notes": "Noto Serif Tamil v2.003\n\n* Renamed \"Noto Serif Tamil Slanted\" to \"Noto Serif Tamil\" as part of family\n* Added dotted circle anchors\n* Fixed version, copyright, vertical metrics, production names, etc. to GF standards\n",
+     "url": "https://github.com/notofonts/tamil/releases/tag/untagged-ca1d6a7cfbfc1646a8c2",
      "version": "v2.003"
     }
    }
@@ -10357,7 +10275,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Telugu v2.003\n\nThis is an administrative release\n",
+     "published": "2022-07-05T16:15:25",
      "url": "https://github.com/notofonts/telugu/releases/tag/NotoSansTelugu-v2.003",
      "version": "v2.003"
     }
@@ -10403,7 +10322,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Telugu v2.003\n\nThis is an administrative release\n",
+     "published": "2022-07-05T16:06:42",
      "url": "https://github.com/notofonts/telugu/releases/tag/NotoSerifTelugu-v2.003",
      "version": "v2.003"
     }
@@ -10434,35 +10354,45 @@
   "families": {
    "Noto Sans Test": {
     "files": {
-     "full": [],
+     "full": [
+      "fonts/NotoSansTest/full/ttf/NotoSansTest-Regular.ttf"
+     ],
      "hinted": [
       "fonts/NotoSansTest/hinted/ttf/NotoSansTest-Regular.ttf"
      ],
      "unhinted": [
-      "fonts/NotoSansTest/unhinted/ttf/NotoSansTest-Regular.ttf",
-      "fonts/NotoSansTest/unhinted/variable-ttf/NotoSansTest[wght].ttf"
+      "fonts/NotoSansTest/unhinted/ttf/NotoSansTest-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "",
-     "url": "https://github.com/notofonts/test/releases/tag/NotoSansTest-v1.001",
-     "version": "v1.001"
+     "notes": "Ported from noto-source",
+     "published": "2022-06-20T15:10:02",
+     "url": "https://github.com/notofonts/test/releases/tag/NotoSansTest-v1.000",
+     "version": "v1.000"
     }
    },
    "Noto Serif Test": {
     "files": {
-     "full": [],
+     "full": [
+      "fonts/NotoSerifTest/full/slim-variable-ttf/NotoSerifTest[wght].ttf",
+      "fonts/NotoSerifTest/full/ttf/NotoSerifTest-Bold.ttf",
+      "fonts/NotoSerifTest/full/ttf/NotoSerifTest-Regular.ttf",
+      "fonts/NotoSerifTest/full/variable-ttf/NotoSerifTest[wght].ttf"
+     ],
      "hinted": [
       "fonts/NotoSerifTest/hinted/ttf/NotoSerifTest-Bold.ttf",
       "fonts/NotoSerifTest/hinted/ttf/NotoSerifTest-Regular.ttf"
      ],
      "unhinted": [
+      "fonts/NotoSerifTest/unhinted/slim-variable-ttf/NotoSerifTest[wght].ttf",
       "fonts/NotoSerifTest/unhinted/ttf/NotoSerifTest-Bold.ttf",
-      "fonts/NotoSerifTest/unhinted/ttf/NotoSerifTest-Regular.ttf"
+      "fonts/NotoSerifTest/unhinted/ttf/NotoSerifTest-Regular.ttf",
+      "fonts/NotoSerifTest/unhinted/variable-ttf/NotoSerifTest[wght].ttf"
      ]
     },
     "latest_release": {
      "notes": "Ported from noto-source",
+     "published": "2022-06-20T15:09:06",
      "url": "https://github.com/notofonts/test/releases/tag/NotoSerifTest-v1.000",
      "version": "v1.000"
     }
@@ -10601,10 +10531,10 @@
     },
     "latest_release": {
      "notes": "Noto Looped Thai v1.001\n\nThis is an administrative release, to fix fontbakery fails:\n\n* The Extrabold instance has been renamed to ExtraBold\n* Underline thickness has been set to constant across the family\n",
+     "published": "2022-08-22T09:46:45",
      "url": "https://github.com/notofonts/thai/releases/tag/NotoLoopedThai-v1.001",
      "version": "v1.001"
-    },
-    "published": "2022-08-22T09:46:45"
+    }
    },
    "Noto Sans Thai": {
     "files": {
@@ -10728,9 +10658,134 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Sans Thai v2.001\n\nThis is an administrative release.\n",
+     "published": "2022-07-05T17:47:50",
      "url": "https://github.com/notofonts/thai/releases/tag/NotoSansThai-v2.001",
      "version": "v2.001"
+    }
+   },
+   "Noto Sans Thai Looped": {
+    "files": {
+     "full": [
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-Black.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-Bold.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-Condensed.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-CondensedBlack.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-CondensedBold.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-CondensedExtraBold.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-CondensedExtraLight.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-CondensedLight.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-CondensedMedium.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-CondensedSemiBold.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-CondensedThin.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-ExtraBold.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-ExtraCondensed.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-ExtraCondensedBlack.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-ExtraCondensedBold.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-ExtraCondensedLight.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-ExtraCondensedMedium.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-ExtraCondensedThin.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-ExtraLight.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-Light.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-Medium.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-Regular.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-SemiBold.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-SemiCondensed.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-SemiCondensedBlack.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-SemiCondensedBold.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-SemiCondensedExtraBold.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-SemiCondensedExtraLight.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-SemiCondensedLight.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-SemiCondensedMedium.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-SemiCondensedSemiBold.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-SemiCondensedThin.ttf",
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-Thin.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-Black.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-Bold.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-Condensed.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-CondensedBlack.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-CondensedBold.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-CondensedExtraBold.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-CondensedExtraLight.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-CondensedLight.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-CondensedMedium.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-CondensedSemiBold.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-CondensedThin.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-ExtraBold.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-ExtraCondensed.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-ExtraCondensedBlack.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-ExtraCondensedBold.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-ExtraCondensedLight.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-ExtraCondensedMedium.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-ExtraCondensedThin.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-ExtraLight.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-Light.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-Medium.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-Regular.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-SemiBold.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-SemiCondensed.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-SemiCondensedBlack.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-SemiCondensedBold.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-SemiCondensedExtraBold.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-SemiCondensedExtraLight.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-SemiCondensedLight.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-SemiCondensedMedium.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-SemiCondensedSemiBold.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-SemiCondensedThin.ttf",
+      "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-Thin.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-Black.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-Bold.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-Condensed.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-CondensedBlack.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-CondensedBold.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-CondensedExtraBold.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-CondensedExtraLight.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-CondensedLight.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-CondensedMedium.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-CondensedSemiBold.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-CondensedThin.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-ExtraBold.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-ExtraCondensed.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-ExtraCondensedBlack.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-ExtraCondensedBold.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-ExtraCondensedLight.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-ExtraCondensedMedium.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-ExtraCondensedThin.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-ExtraLight.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-Light.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-Medium.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-Regular.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-SemiBold.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-SemiCondensed.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-SemiCondensedBlack.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-SemiCondensedBold.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-SemiCondensedExtraBold.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-SemiCondensedExtraLight.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-SemiCondensedLight.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-SemiCondensedMedium.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-SemiCondensedSemiBold.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-SemiCondensedThin.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-Thin.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Thai Looped v1.001\n\nThis is an administrative release; it renames the font from\n\"Noto Looped Thai\" to \"Noto Sans Thai Looped\" and additionally fixes\nsome fontbakery fails:\n\n* The Extrabold instance has been renamed to ExtraBold\n* Underline thickness has been set to constant across the family\n",
+     "published": "2022-08-23T07:33:13",
+     "url": "https://github.com/notofonts/thai/releases/tag/NotoSansThaiLooped-v1.001",
+     "version": "v1.001"
     }
    },
    "Noto Serif Thai": {
@@ -10855,7 +10910,8 @@
      ]
     },
     "latest_release": {
-     "notes": "",
+     "notes": "Noto Serif Thai v2.001\n\nThis is an administrative release.\n",
+     "published": "2022-07-05T17:46:31",
      "url": "https://github.com/notofonts/thai/releases/tag/NotoSerifThai-v2.001",
      "version": "v2.001"
     }
@@ -10923,54 +10979,7 @@
   "title": "Noto Thai"
  },
  "tibetan": {
-  "families": {
-   "Noto Serif Tibetan": {
-    "files": {
-     "full": [
-      "fonts/NotoSerifTibetan/full/slim-variable-ttf/NotoSerifTibetan[wght].ttf",
-      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Black.ttf",
-      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Bold.ttf",
-      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-ExtraBold.ttf",
-      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-ExtraLight.ttf",
-      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Light.ttf",
-      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Medium.ttf",
-      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Regular.ttf",
-      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-SemiBold.ttf",
-      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Thin.ttf",
-      "fonts/NotoSerifTibetan/full/variable-ttf/NotoSerifTibetan[wght].ttf"
-     ],
-     "hinted": [
-      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Black.ttf",
-      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Bold.ttf",
-      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-ExtraBold.ttf",
-      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-ExtraLight.ttf",
-      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Light.ttf",
-      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Medium.ttf",
-      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Regular.ttf",
-      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-SemiBold.ttf",
-      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Thin.ttf"
-     ],
-     "unhinted": [
-      "fonts/NotoSerifTibetan/unhinted/slim-variable-ttf/NotoSerifTibetan[wght].ttf",
-      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Black.ttf",
-      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Bold.ttf",
-      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-ExtraBold.ttf",
-      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-ExtraLight.ttf",
-      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Light.ttf",
-      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Medium.ttf",
-      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Regular.ttf",
-      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-SemiBold.ttf",
-      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Thin.ttf",
-      "fonts/NotoSerifTibetan/unhinted/variable-ttf/NotoSerifTibetan[wght].ttf"
-     ]
-    },
-    "latest_release": {
-     "notes": "",
-     "url": "https://github.com/notofonts/tibetan/releases/tag/NotoSerifTibetan-v2.102",
-     "version": "v2.102"
-    }
-   }
-  },
+  "families": {},
   "gh_url": "https://notofonts.github.io/tibetan",
   "issues": [
    {
@@ -11186,66 +11195,7 @@
   "title": "Noto Vai"
  },
  "vithkuqi": {
-  "families": {
-   "Noto Sans Vithkuqi": {
-    "files": {
-     "full": [
-      "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-Bold.ttf",
-      "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-Medium.ttf",
-      "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-Regular.ttf",
-      "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-SemiBold.ttf",
-      "fonts/NotoSansVithkuqi/full/variable-ttf/NotoSansVithkuqi[wght].ttf"
-     ],
-     "hinted": [
-      "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-Bold.ttf",
-      "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-Medium.ttf",
-      "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-Regular.ttf",
-      "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-SemiBold.ttf"
-     ],
-     "unhinted": [
-      "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-Bold.ttf",
-      "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-Medium.ttf",
-      "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-Regular.ttf",
-      "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-SemiBold.ttf",
-      "fonts/NotoSansVithkuqi/unhinted/variable-ttf/NotoSansVithkuqi[wght].ttf"
-     ]
-    },
-    "latest_release": {
-     "notes": "Ported from noto-source",
-     "url": "https://github.com/notofonts/vithkuqi/releases/tag/NotoSansVithkuqi-v1.000",
-     "version": "v1.000"
-    }
-   },
-   "Noto Serif Vithkuqi": {
-    "files": {
-     "full": [
-      "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-Bold.ttf",
-      "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-Medium.ttf",
-      "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-Regular.ttf",
-      "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-SemiBold.ttf",
-      "fonts/NotoSerifVithkuqi/full/variable-ttf/NotoSerifVithkuqi[wght].ttf"
-     ],
-     "hinted": [
-      "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-Bold.ttf",
-      "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-Medium.ttf",
-      "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-Regular.ttf",
-      "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-SemiBold.ttf"
-     ],
-     "unhinted": [
-      "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-Bold.ttf",
-      "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-Medium.ttf",
-      "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-Regular.ttf",
-      "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-SemiBold.ttf",
-      "fonts/NotoSerifVithkuqi/unhinted/variable-ttf/NotoSerifVithkuqi[wght].ttf"
-     ]
-    },
-    "latest_release": {
-     "notes": "Ported from noto-source",
-     "url": "https://github.com/notofonts/vithkuqi/releases/tag/NotoSerifVithkuqi-v1.004",
-     "version": "v1.004"
-    }
-   }
-  },
+  "families": {},
   "gh_url": "https://notofonts.github.io/vithkuqi",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/vithkuqi",
