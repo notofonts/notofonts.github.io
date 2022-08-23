@@ -248,6 +248,7 @@
 							<option value="#thai">Noto Thai</option>
 							<option value="#thai">- Noto Sans Thai</option>
 							<option value="#thai">- Noto Serif Thai</option>
+							<option value="#thai">- Noto Looped Thai</option>
 							<option value="#tibetan">Noto Tibetan</option>
 							<option value="#tibetan">- Noto Serif Tibetan</option>
 							<option value="#tifinagh">Noto Tifinagh</option>
@@ -284,6 +285,7 @@
 			</ul>
 			<h5>Known Issues</h5>
 			<ul>
+				<li>Erroneous &quot;Italic&quot; Style on Arimo-BoldItalic.ttf (<a href="https://github.com/notofonts/Arimo/issues/14">#14</a>)</li>
 				<li>Wrong weight value for Arimo-BoldItalic.ttf (<a href="https://github.com/notofonts/Arimo/issues/13">#13</a>)</li>
 				<li>[Arimo, Tinos, &amp; Cousine] The Eng (U+014A) should be N-shaped (as opposed to n-)  (<a href="https://github.com/notofonts/Arimo/issues/12">#12</a>)</li>
 				<li>Questionable glyph for U+1D24 LATIN LETTER VOICED LARYNGEAL SPIRANT (<a href="https://github.com/notofonts/Arimo/issues/11">#11</a>)</li>
@@ -7827,6 +7829,10 @@
 					<a href="https://www.github.com/notofonts/sinhala/issues/new/choose">Report a bug in this font</a>
 				</li>
 			</ul>
+			<h5>Known Issues</h5>
+			<ul>
+				<li>Sinhala: sub-optimal placement of repaya in complex conjunct (<a href="https://github.com/notofonts/sinhala/issues/4">#4</a>)</li>
+			</ul>
 			<h4>
 				Noto Sans Sinhala 
 				<a href="https://github.com/notofonts/sinhala/releases/tag/NotoSansSinhala-v2.006">v2.006</a>
@@ -8359,7 +8365,6 @@
 			</ul>
 			<h5>Known Issues</h5>
 			<ul>
-				<li>Font missing Syriac Supplement characters (<a href="https://github.com/notofonts/syriac/issues/20">#20</a>)</li>
 				<li>Assyrian Syriac fonts need to be broken up - the merged font set is unusable in most situations (<a href="https://github.com/notofonts/syriac/issues/13">#13</a>)</li>
 				<li>Missing U+1DF8 and U+1DFA in Noto Sans Syriac (<a href="https://github.com/notofonts/syriac/issues/12">#12</a>)</li>
 				<li>Malayalam Syriac is missing (<a href="https://github.com/notofonts/syriac/issues/11">#11</a>)</li>
@@ -8939,6 +8944,7 @@
 			<h5>Known Issues</h5>
 			<ul>
 				<li>Regression: 0C00 candrabindu above and 0C04 anusvara above are too high (<a href="https://github.com/notofonts/telugu/issues/3">#3</a>)</li>
+				<li>Telugu Noto sans and serif consonant conjuncts and vowel sign rendering issue (<a href="https://github.com/notofonts/telugu/issues/8">#8</a>)</li>
 				<li>The base line for noto sans Telugu is not in line with English and punctuation marks.  (<a href="https://github.com/notofonts/telugu/issues/1">#1</a>)</li>
 			</ul>
 			<h4>
@@ -9331,7 +9337,7 @@
 			</ul>
 			<h5>Known Issues</h5>
 			<ul>
-				<li>Sans Looped: overlapping tone signs with the vowel signs  (<a href="https://github.com/notofonts/thai/issues/21">#21</a>)</li>
+				<li>Rename Looped Thai to Sans Thai Looped (<a href="https://github.com/notofonts/thai/issues/22">#22</a>)</li>
 				<li>Italic and/or oblique font style (<a href="https://github.com/notofonts/thai/issues/11">#11</a>)</li>
 				<li>Looped Thai won&#x27;t build as a variable font (<a href="https://github.com/notofonts/thai/issues/10">#10</a>)</li>
 				<li>Noto Sans Thai: U+F700 and U+F70F are missing (<a href="https://github.com/notofonts/thai/issues/9">#9</a>)</li>
@@ -9608,6 +9614,142 @@
 						<li><a href="fonts/NotoSerifThai/full/ttf/NotoSerifThai-SemiCondensedThin.ttf">NotoSerifThai-SemiCondensedThin.ttf</a></li>
 						<li><a href="fonts/NotoSerifThai/full/ttf/NotoSerifThai-Thin.ttf">NotoSerifThai-Thin.ttf</a></li>
 						<li><a href="fonts/NotoSerifThai/full/variable-ttf/NotoSerifThai[wdth,wght].ttf">NotoSerifThai[wdth,wght].ttf</a></li>
+					</ul>
+				</div>
+			</div>
+			<h4>
+				Noto Looped Thai 
+				<a href="https://github.com/notofonts/thai/releases/tag/NotoLoopedThai-v1.001">v1.001</a>
+			</h4>
+			<pre>Noto Looped Thai v1.001
+
+This is an administrative release, to fix fontbakery fails:
+
+* The Extrabold instance has been renamed to ExtraBold
+* Underline thickness has been set to constant across the family
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Black.ttf">NotoLoopedThai-Black.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Bold.ttf">NotoLoopedThai-Bold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Condensed.ttf">NotoLoopedThai-Condensed.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedBlack.ttf">NotoLoopedThai-CondensedBlack.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedBold.ttf">NotoLoopedThai-CondensedBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedExtraBold.ttf">NotoLoopedThai-CondensedExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedExtraLight.ttf">NotoLoopedThai-CondensedExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedLight.ttf">NotoLoopedThai-CondensedLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedMedium.ttf">NotoLoopedThai-CondensedMedium.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedSemiBold.ttf">NotoLoopedThai-CondensedSemiBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedThin.ttf">NotoLoopedThai-CondensedThin.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraBold.ttf">NotoLoopedThai-ExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensed.ttf">NotoLoopedThai-ExtraCondensed.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedBlack.ttf">NotoLoopedThai-ExtraCondensedBlack.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedBold.ttf">NotoLoopedThai-ExtraCondensedBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedExtraBold.ttf">NotoLoopedThai-ExtraCondensedExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedExtraLight.ttf">NotoLoopedThai-ExtraCondensedExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedLight.ttf">NotoLoopedThai-ExtraCondensedLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedMedium.ttf">NotoLoopedThai-ExtraCondensedMedium.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedSemiBold.ttf">NotoLoopedThai-ExtraCondensedSemiBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedThin.ttf">NotoLoopedThai-ExtraCondensedThin.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraLight.ttf">NotoLoopedThai-ExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Light.ttf">NotoLoopedThai-Light.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Medium.ttf">NotoLoopedThai-Medium.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Regular.ttf">NotoLoopedThai-Regular.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiBold.ttf">NotoLoopedThai-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensed.ttf">NotoLoopedThai-SemiCondensed.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedBlack.ttf">NotoLoopedThai-SemiCondensedBlack.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedBold.ttf">NotoLoopedThai-SemiCondensedBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedExtraBold.ttf">NotoLoopedThai-SemiCondensedExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedExtraLight.ttf">NotoLoopedThai-SemiCondensedExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedLight.ttf">NotoLoopedThai-SemiCondensedLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedMedium.ttf">NotoLoopedThai-SemiCondensedMedium.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedSemiBold.ttf">NotoLoopedThai-SemiCondensedSemiBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedThin.ttf">NotoLoopedThai-SemiCondensedThin.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Thin.ttf">NotoLoopedThai-Thin.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Black.ttf">NotoLoopedThai-Black.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Bold.ttf">NotoLoopedThai-Bold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Condensed.ttf">NotoLoopedThai-Condensed.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedBlack.ttf">NotoLoopedThai-CondensedBlack.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedBold.ttf">NotoLoopedThai-CondensedBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedExtraBold.ttf">NotoLoopedThai-CondensedExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedExtraLight.ttf">NotoLoopedThai-CondensedExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedLight.ttf">NotoLoopedThai-CondensedLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedMedium.ttf">NotoLoopedThai-CondensedMedium.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedSemiBold.ttf">NotoLoopedThai-CondensedSemiBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedThin.ttf">NotoLoopedThai-CondensedThin.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraBold.ttf">NotoLoopedThai-ExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensed.ttf">NotoLoopedThai-ExtraCondensed.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedBlack.ttf">NotoLoopedThai-ExtraCondensedBlack.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedBold.ttf">NotoLoopedThai-ExtraCondensedBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedExtraBold.ttf">NotoLoopedThai-ExtraCondensedExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedExtraLight.ttf">NotoLoopedThai-ExtraCondensedExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedLight.ttf">NotoLoopedThai-ExtraCondensedLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedMedium.ttf">NotoLoopedThai-ExtraCondensedMedium.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedSemiBold.ttf">NotoLoopedThai-ExtraCondensedSemiBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedThin.ttf">NotoLoopedThai-ExtraCondensedThin.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraLight.ttf">NotoLoopedThai-ExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Light.ttf">NotoLoopedThai-Light.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Medium.ttf">NotoLoopedThai-Medium.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Regular.ttf">NotoLoopedThai-Regular.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiBold.ttf">NotoLoopedThai-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensed.ttf">NotoLoopedThai-SemiCondensed.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedBlack.ttf">NotoLoopedThai-SemiCondensedBlack.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedBold.ttf">NotoLoopedThai-SemiCondensedBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedExtraBold.ttf">NotoLoopedThai-SemiCondensedExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedExtraLight.ttf">NotoLoopedThai-SemiCondensedExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedLight.ttf">NotoLoopedThai-SemiCondensedLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedMedium.ttf">NotoLoopedThai-SemiCondensedMedium.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedSemiBold.ttf">NotoLoopedThai-SemiCondensedSemiBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedThin.ttf">NotoLoopedThai-SemiCondensedThin.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Thin.ttf">NotoLoopedThai-Thin.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Black.ttf">NotoLoopedThai-Black.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Bold.ttf">NotoLoopedThai-Bold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Condensed.ttf">NotoLoopedThai-Condensed.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedBlack.ttf">NotoLoopedThai-CondensedBlack.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedBold.ttf">NotoLoopedThai-CondensedBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedExtraBold.ttf">NotoLoopedThai-CondensedExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedExtraLight.ttf">NotoLoopedThai-CondensedExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedLight.ttf">NotoLoopedThai-CondensedLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedMedium.ttf">NotoLoopedThai-CondensedMedium.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedSemiBold.ttf">NotoLoopedThai-CondensedSemiBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedThin.ttf">NotoLoopedThai-CondensedThin.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraBold.ttf">NotoLoopedThai-ExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensed.ttf">NotoLoopedThai-ExtraCondensed.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedBlack.ttf">NotoLoopedThai-ExtraCondensedBlack.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedBold.ttf">NotoLoopedThai-ExtraCondensedBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedExtraBold.ttf">NotoLoopedThai-ExtraCondensedExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedExtraLight.ttf">NotoLoopedThai-ExtraCondensedExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedLight.ttf">NotoLoopedThai-ExtraCondensedLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedMedium.ttf">NotoLoopedThai-ExtraCondensedMedium.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedSemiBold.ttf">NotoLoopedThai-ExtraCondensedSemiBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedThin.ttf">NotoLoopedThai-ExtraCondensedThin.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraLight.ttf">NotoLoopedThai-ExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Light.ttf">NotoLoopedThai-Light.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Medium.ttf">NotoLoopedThai-Medium.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Regular.ttf">NotoLoopedThai-Regular.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiBold.ttf">NotoLoopedThai-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensed.ttf">NotoLoopedThai-SemiCondensed.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedBlack.ttf">NotoLoopedThai-SemiCondensedBlack.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedBold.ttf">NotoLoopedThai-SemiCondensedBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedExtraBold.ttf">NotoLoopedThai-SemiCondensedExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedExtraLight.ttf">NotoLoopedThai-SemiCondensedExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedLight.ttf">NotoLoopedThai-SemiCondensedLight.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedMedium.ttf">NotoLoopedThai-SemiCondensedMedium.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedSemiBold.ttf">NotoLoopedThai-SemiCondensedSemiBold.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedThin.ttf">NotoLoopedThai-SemiCondensedThin.ttf</a></li>
+						<li><a href="fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Thin.ttf">NotoLoopedThai-Thin.ttf</a></li>
 					</ul>
 				</div>
 			</div>

@@ -4,6 +4,11 @@
   "gh_url": "https://notofonts.github.io/Arimo",
   "issues": [
    {
+    "number": 14,
+    "title": "Erroneous \"Italic\" Style on Arimo-BoldItalic.ttf",
+    "url": "https://github.com/notofonts/Arimo/issues/14"
+   },
+   {
     "number": 13,
     "title": "Wrong weight value for Arimo-BoldItalic.ttf",
     "url": "https://github.com/notofonts/Arimo/issues/13"
@@ -9227,7 +9232,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/sinhala",
-  "issues": [],
+  "issues": [
+   {
+    "number": 4,
+    "title": "Sinhala: sub-optimal placement of repaya in complex conjunct",
+    "url": "https://github.com/notofonts/sinhala/issues/4"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/sinhala",
   "title": "Noto Sinhala"
  },
@@ -9487,11 +9498,6 @@
   "families": {},
   "gh_url": "https://notofonts.github.io/syriac",
   "issues": [
-   {
-    "number": 20,
-    "title": "Font missing Syriac Supplement characters",
-    "url": "https://github.com/notofonts/syriac/issues/20"
-   },
    {
     "number": 13,
     "title": "Assyrian Syriac fonts need to be broken up - the merged font set is unusable in most situations",
@@ -10411,6 +10417,11 @@
     "url": "https://github.com/notofonts/telugu/issues/3"
    },
    {
+    "number": 8,
+    "title": "Telugu Noto sans and serif consonant conjuncts and vowel sign rendering issue",
+    "url": "https://github.com/notofonts/telugu/issues/8"
+   },
+   {
     "number": 1,
     "title": "The base line for noto sans Telugu is not in line with English and punctuation marks. ",
     "url": "https://github.com/notofonts/telugu/issues/1"
@@ -10471,6 +10482,130 @@
  },
  "thai": {
   "families": {
+   "Noto Looped Thai": {
+    "files": {
+     "full": [
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Black.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Bold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Condensed.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedBlack.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedExtraBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedExtraLight.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedLight.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedMedium.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedSemiBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedThin.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensed.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedBlack.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedLight.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedMedium.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedThin.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraLight.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Light.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Medium.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Regular.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensed.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedBlack.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedExtraBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedExtraLight.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedLight.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedMedium.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedSemiBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedThin.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Thin.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Black.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Bold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Condensed.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedBlack.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedExtraBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedExtraLight.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedLight.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedMedium.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedSemiBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedThin.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensed.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedBlack.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedLight.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedMedium.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedThin.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraLight.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Light.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Medium.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Regular.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensed.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedBlack.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedExtraBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedExtraLight.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedLight.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedMedium.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedSemiBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedThin.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Thin.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Black.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Bold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Condensed.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedBlack.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedExtraBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedExtraLight.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedLight.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedMedium.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedSemiBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedThin.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensed.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedBlack.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedLight.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedMedium.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedThin.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraLight.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Light.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Medium.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Regular.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensed.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedBlack.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedExtraBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedExtraLight.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedLight.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedMedium.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedSemiBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedThin.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Thin.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Looped Thai v1.001\n\nThis is an administrative release, to fix fontbakery fails:\n\n* The Extrabold instance has been renamed to ExtraBold\n* Underline thickness has been set to constant across the family\n",
+     "url": "https://github.com/notofonts/thai/releases/tag/NotoLoopedThai-v1.001",
+     "version": "v1.001"
+    },
+    "published": "2022-08-22T09:46:45"
+   },
    "Noto Sans Thai": {
     "files": {
      "full": [
@@ -10729,9 +10864,9 @@
   "gh_url": "https://notofonts.github.io/thai",
   "issues": [
    {
-    "number": 21,
-    "title": "Sans Looped: overlapping tone signs with the vowel signs ",
-    "url": "https://github.com/notofonts/thai/issues/21"
+    "number": 22,
+    "title": "Rename Looped Thai to Sans Thai Looped",
+    "url": "https://github.com/notofonts/thai/issues/22"
    },
    {
     "number": 11,
