@@ -1084,7 +1084,40 @@
   "title": "Noto Balinese"
  },
  "bamum": {
-  "families": {},
+  "families": {
+   "Noto Sans Bamum": {
+    "files": {
+     "full": [
+      "fonts/NotoSansBamum/full/slim-variable-ttf/NotoSansBamum[wght].ttf",
+      "fonts/NotoSansBamum/full/ttf/NotoSansBamum-Bold.ttf",
+      "fonts/NotoSansBamum/full/ttf/NotoSansBamum-Medium.ttf",
+      "fonts/NotoSansBamum/full/ttf/NotoSansBamum-Regular.ttf",
+      "fonts/NotoSansBamum/full/ttf/NotoSansBamum-SemiBold.ttf",
+      "fonts/NotoSansBamum/full/variable-ttf/NotoSansBamum[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansBamum/hinted/ttf/NotoSansBamum-Bold.ttf",
+      "fonts/NotoSansBamum/hinted/ttf/NotoSansBamum-Medium.ttf",
+      "fonts/NotoSansBamum/hinted/ttf/NotoSansBamum-Regular.ttf",
+      "fonts/NotoSansBamum/hinted/ttf/NotoSansBamum-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansBamum/unhinted/slim-variable-ttf/NotoSansBamum[wght].ttf",
+      "fonts/NotoSansBamum/unhinted/ttf/NotoSansBamum-Bold.ttf",
+      "fonts/NotoSansBamum/unhinted/ttf/NotoSansBamum-Medium.ttf",
+      "fonts/NotoSansBamum/unhinted/ttf/NotoSansBamum-Regular.ttf",
+      "fonts/NotoSansBamum/unhinted/ttf/NotoSansBamum-SemiBold.ttf",
+      "fonts/NotoSansBamum/unhinted/variable-ttf/NotoSansBamum[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Bamum v2.001\n\nThis is an administrative release which fixes various fontbakery fails.\n",
+     "published": "2022-08-23T14:18:39",
+     "url": "https://github.com/notofonts/bamum/releases/tag/NotoSansBamum-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/bamum",
   "issues": [
    {
@@ -1097,27 +1130,69 @@
   "title": "Noto Bamum"
  },
  "bassa-vah": {
-  "families": {},
+  "families": {
+   "Noto Sans Bassa Vah": {
+    "files": {
+     "full": [
+      "fonts/NotoSansBassaVah/full/slim-variable-ttf/NotoSansBassaVah[wght].ttf",
+      "fonts/NotoSansBassaVah/full/ttf/NotoSansBassaVah-Bold.ttf",
+      "fonts/NotoSansBassaVah/full/ttf/NotoSansBassaVah-Medium.ttf",
+      "fonts/NotoSansBassaVah/full/ttf/NotoSansBassaVah-Regular.ttf",
+      "fonts/NotoSansBassaVah/full/ttf/NotoSansBassaVah-SemiBold.ttf",
+      "fonts/NotoSansBassaVah/full/variable-ttf/NotoSansBassaVah[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansBassaVah/hinted/ttf/NotoSansBassaVah-Bold.ttf",
+      "fonts/NotoSansBassaVah/hinted/ttf/NotoSansBassaVah-Medium.ttf",
+      "fonts/NotoSansBassaVah/hinted/ttf/NotoSansBassaVah-Regular.ttf",
+      "fonts/NotoSansBassaVah/hinted/ttf/NotoSansBassaVah-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansBassaVah/unhinted/slim-variable-ttf/NotoSansBassaVah[wght].ttf",
+      "fonts/NotoSansBassaVah/unhinted/ttf/NotoSansBassaVah-Bold.ttf",
+      "fonts/NotoSansBassaVah/unhinted/ttf/NotoSansBassaVah-Medium.ttf",
+      "fonts/NotoSansBassaVah/unhinted/ttf/NotoSansBassaVah-Regular.ttf",
+      "fonts/NotoSansBassaVah/unhinted/ttf/NotoSansBassaVah-SemiBold.ttf",
+      "fonts/NotoSansBassaVah/unhinted/variable-ttf/NotoSansBassaVah[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Bassa Vah v2.002\n\nThis is an administrative release; it fixes a number of fontbakery\nfails.\n",
+     "published": "2022-08-23T13:25:17",
+     "url": "https://github.com/notofonts/bassa-vah/releases/tag/NotoSansBassaVah-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/bassa-vah",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/bassa-vah",
   "title": "Noto Bassa Vah"
  },
  "batak": {
-  "families": {},
-  "gh_url": "https://notofonts.github.io/batak",
-  "issues": [
-   {
-    "number": 2,
-    "title": "U+1BFF BATAK SYMBOL BINDU PANGOLAT overlaps marks",
-    "url": "https://github.com/notofonts/batak/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "No ligatures with U+1BEE BATAK VOWEL SIGN U",
-    "url": "https://github.com/notofonts/batak/issues/1"
+  "families": {
+   "Noto Sans Batak": {
+    "files": {
+     "full": [
+      "fonts/NotoSansBatak/full/ttf/NotoSansBatak-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansBatak/hinted/ttf/NotoSansBatak-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansBatak/unhinted/ttf/NotoSansBatak-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Batak v2.002\n\nThis release:\n* fixes a number of fontbakery fails\n* moves the ligatures to the rlig feature (see #1)\n* stops bindu pangolat from overlapping above/below marks (see #2)\n",
+     "published": "2022-08-23T13:23:56",
+     "url": "https://github.com/notofonts/batak/releases/tag/NotoSansBatak-v2.002",
+     "version": "v2.002"
+    }
    }
-  ],
+  },
+  "gh_url": "https://notofonts.github.io/batak",
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/batak",
   "title": "Noto Batak"
  },
@@ -1462,15 +1537,29 @@
   "title": "Noto Brahmi"
  },
  "buginese": {
-  "families": {},
-  "gh_url": "https://notofonts.github.io/buginese",
-  "issues": [
-   {
-    "number": 1,
-    "title": "A Problem and Design Suggestion",
-    "url": "https://github.com/notofonts/buginese/issues/1"
+  "families": {
+   "Noto Sans Buginese": {
+    "files": {
+     "full": [
+      "fonts/NotoSansBuginese/full/ttf/NotoSansBuginese-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansBuginese/hinted/ttf/NotoSansBuginese-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansBuginese/unhinted/ttf/NotoSansBuginese-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Buginese v2.001\n\nThis release:\n* fixes a number of fontbakery fails\n* introduces space after the o vowel sign where this would collide into the following consonant (see #1)\n",
+     "published": "2022-08-23T14:27:52",
+     "url": "https://github.com/notofonts/buginese/releases/tag/NotoSansBuginese-v2.001",
+     "version": "v2.001"
+    }
    }
-  ],
+  },
+  "gh_url": "https://notofonts.github.io/buginese",
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/buginese",
   "title": "Noto Buginese"
  },
@@ -1559,15 +1648,29 @@
   "title": "Noto Caucasian Albanian"
  },
  "chakma": {
-  "families": {},
-  "gh_url": "https://notofonts.github.io/chakma",
-  "issues": [
-   {
-    "number": 4,
-    "title": "Duplicate encoding of two Chakma vowel signs",
-    "url": "https://github.com/notofonts/chakma/issues/4"
+  "families": {
+   "Noto Sans Chakma": {
+    "files": {
+     "full": [
+      "fonts/NotoSansChakma/full/ttf/NotoSansChakma-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansChakma/hinted/ttf/NotoSansChakma-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansChakma/unhinted/ttf/NotoSansChakma-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Chakma v2.003\n\nThis release:\n* Fixes a number of fontbakery fails\n* Stops producing AA vowel and EI vowel signs from virama+aa/virama+i conjuncts (see #4)\n",
+     "published": "2022-08-23T15:30:58",
+     "url": "https://github.com/notofonts/chakma/releases/tag/NotoSansChakma-v2.003",
+     "version": "v2.003"
+    }
    }
-  ],
+  },
+  "gh_url": "https://notofonts.github.io/chakma",
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/chakma",
   "title": "Noto Chakma"
  },
@@ -3684,7 +3787,40 @@
   "title": "Noto Gurmukhi"
  },
  "hanifi-rohingya": {
-  "families": {},
+  "families": {
+   "Noto Sans Hanifi Rohingya": {
+    "files": {
+     "full": [
+      "fonts/NotoSansHanifiRohingya/full/slim-variable-ttf/NotoSansHanifiRohingya[wght].ttf",
+      "fonts/NotoSansHanifiRohingya/full/ttf/NotoSansHanifiRohingya-Bold.ttf",
+      "fonts/NotoSansHanifiRohingya/full/ttf/NotoSansHanifiRohingya-Medium.ttf",
+      "fonts/NotoSansHanifiRohingya/full/ttf/NotoSansHanifiRohingya-Regular.ttf",
+      "fonts/NotoSansHanifiRohingya/full/ttf/NotoSansHanifiRohingya-SemiBold.ttf",
+      "fonts/NotoSansHanifiRohingya/full/variable-ttf/NotoSansHanifiRohingya[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansHanifiRohingya/hinted/ttf/NotoSansHanifiRohingya-Bold.ttf",
+      "fonts/NotoSansHanifiRohingya/hinted/ttf/NotoSansHanifiRohingya-Medium.ttf",
+      "fonts/NotoSansHanifiRohingya/hinted/ttf/NotoSansHanifiRohingya-Regular.ttf",
+      "fonts/NotoSansHanifiRohingya/hinted/ttf/NotoSansHanifiRohingya-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansHanifiRohingya/unhinted/slim-variable-ttf/NotoSansHanifiRohingya[wght].ttf",
+      "fonts/NotoSansHanifiRohingya/unhinted/ttf/NotoSansHanifiRohingya-Bold.ttf",
+      "fonts/NotoSansHanifiRohingya/unhinted/ttf/NotoSansHanifiRohingya-Medium.ttf",
+      "fonts/NotoSansHanifiRohingya/unhinted/ttf/NotoSansHanifiRohingya-Regular.ttf",
+      "fonts/NotoSansHanifiRohingya/unhinted/ttf/NotoSansHanifiRohingya-SemiBold.ttf",
+      "fonts/NotoSansHanifiRohingya/unhinted/variable-ttf/NotoSansHanifiRohingya[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Hanifi Rohingya v2.101\n\nThis is an administrative release; it fixes a number of fontbakery\nfails.\n",
+     "published": "2022-08-23T13:42:50",
+     "url": "https://github.com/notofonts/hanifi-rohingya/releases/tag/NotoSansHanifiRohingya-v2.101",
+     "version": "v2.101"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/hanifi-rohingya",
   "issues": [
    {
@@ -8630,6 +8766,11 @@
   },
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
+   {
+    "number": 14,
+    "title": "Combine vowels with conjunct consonants in NotoSansOriya",
+    "url": "https://github.com/notofonts/oriya/pull/14"
+   },
    {
     "number": 8,
     "title": "NotoSansOriya does not connect vowels to conjunct consonants",
