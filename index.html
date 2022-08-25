@@ -85,9 +85,12 @@
 							<option value="#chakma">Noto Chakma</option>
 							<option value="#chakma">- Noto Sans Chakma</option>
 							<option value="#cham">Noto Cham</option>
+							<option value="#cham">- Noto Sans Cham</option>
 							<option value="#cherokee">Noto Cherokee</option>
+							<option value="#cherokee">- Noto Sans Cherokee</option>
 							<option value="#chorasmian">Noto Chorasmian</option>
 							<option value="#coptic">Noto Coptic</option>
+							<option value="#coptic">- Noto Sans Coptic</option>
 							<option value="#cuneiform">Noto Cuneiform</option>
 							<option value="#cypriot">Noto Cypriot</option>
 							<option value="#cypro-minoan">Noto Cypro Minoan</option>
@@ -1869,14 +1872,69 @@ This release:
 					<a href="https://www.github.com/notofonts/cham/issues/new/choose">Report a bug in this font</a>
 				</li>
 			</ul>
-			<h5>Known Issues</h5>
-			<ul>
-				<li>Excessive kerning before space and U+AA34 CHAM CONSONANT SIGN RA (<a href="https://github.com/notofonts/cham/issues/5">#5</a>)</li>
-				<li>Cham mark sequences are not kerned (<a href="https://github.com/notofonts/cham/issues/4">#4</a>)</li>
-				<li>Cham ligatures use &#x27;liga&#x27; instead of &#x27;rlig&#x27; (<a href="https://github.com/notofonts/cham/issues/3">#3</a>)</li>
-				<li>Incomplete localization of ASCII punctuation in Cham (<a href="https://github.com/notofonts/cham/issues/2">#2</a>)</li>
-				<li>Questionable glyph for U+AA5E CHAM PUNCTUATION DOUBLE DANDA (<a href="https://github.com/notofonts/cham/issues/1">#1</a>)</li>
-			</ul>
+			<h4>
+				Noto Sans Cham 
+				<a href="https://github.com/notofonts/cham/releases/tag/NotoSansCham-v2.002">v2.002</a>
+			</h4>
+			<pre>Noto Sans Cham v2.002
+
+This release:
+* Fixes a number of fontbakery fails
+* Adds a dotless double danda as a stylistic set. (Fixes #1)
+* Uses locl feature for Cham punctuation. (Fixes #2.
+* Use rlig instead of liga for require features. (Fixes #3.)
+* Fixes a number of mark sequence collisions which were failing to ligate.
+* Adds kerning for mark sequences. (Fixes #4.)
+* Reduces kerning between aa-space-ra. (Fixes #5.)
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansCham/unhinted/slim-variable-ttf/NotoSansCham[wght].ttf">NotoSansCham[wght].ttf</a></li>
+						<li><a href="fonts/NotoSansCham/unhinted/ttf/NotoSansCham-Black.ttf">NotoSansCham-Black.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/unhinted/ttf/NotoSansCham-Bold.ttf">NotoSansCham-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/unhinted/ttf/NotoSansCham-ExtraBold.ttf">NotoSansCham-ExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/unhinted/ttf/NotoSansCham-ExtraLight.ttf">NotoSansCham-ExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/unhinted/ttf/NotoSansCham-Light.ttf">NotoSansCham-Light.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/unhinted/ttf/NotoSansCham-Medium.ttf">NotoSansCham-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/unhinted/ttf/NotoSansCham-Regular.ttf">NotoSansCham-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/unhinted/ttf/NotoSansCham-SemiBold.ttf">NotoSansCham-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/unhinted/ttf/NotoSansCham-Thin.ttf">NotoSansCham-Thin.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/unhinted/variable-ttf/NotoSansCham[wght].ttf">NotoSansCham[wght].ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansCham/hinted/ttf/NotoSansCham-Black.ttf">NotoSansCham-Black.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/hinted/ttf/NotoSansCham-Bold.ttf">NotoSansCham-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/hinted/ttf/NotoSansCham-ExtraBold.ttf">NotoSansCham-ExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/hinted/ttf/NotoSansCham-ExtraLight.ttf">NotoSansCham-ExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/hinted/ttf/NotoSansCham-Light.ttf">NotoSansCham-Light.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/hinted/ttf/NotoSansCham-Medium.ttf">NotoSansCham-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/hinted/ttf/NotoSansCham-Regular.ttf">NotoSansCham-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/hinted/ttf/NotoSansCham-SemiBold.ttf">NotoSansCham-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/hinted/ttf/NotoSansCham-Thin.ttf">NotoSansCham-Thin.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansCham/full/slim-variable-ttf/NotoSansCham[wght].ttf">NotoSansCham[wght].ttf</a></li>
+						<li><a href="fonts/NotoSansCham/full/ttf/NotoSansCham-Black.ttf">NotoSansCham-Black.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/full/ttf/NotoSansCham-Bold.ttf">NotoSansCham-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/full/ttf/NotoSansCham-ExtraBold.ttf">NotoSansCham-ExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/full/ttf/NotoSansCham-ExtraLight.ttf">NotoSansCham-ExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/full/ttf/NotoSansCham-Light.ttf">NotoSansCham-Light.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/full/ttf/NotoSansCham-Medium.ttf">NotoSansCham-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/full/ttf/NotoSansCham-Regular.ttf">NotoSansCham-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/full/ttf/NotoSansCham-SemiBold.ttf">NotoSansCham-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/full/ttf/NotoSansCham-Thin.ttf">NotoSansCham-Thin.ttf</a></li>
+						<li><a href="fonts/NotoSansCham/full/variable-ttf/NotoSansCham[wght].ttf">NotoSansCham[wght].ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="cherokee">Noto Cherokee</h3>
 			<ul>
@@ -1891,11 +1949,64 @@ This release:
 					<a href="https://www.github.com/notofonts/cherokee/issues/new/choose">Report a bug in this font</a>
 				</li>
 			</ul>
-			<h5>Known Issues</h5>
-			<ul>
-				<li>Cherokee diaeresis below is above (<a href="https://github.com/notofonts/cherokee/issues/2">#2</a>)</li>
-				<li>Cherokee: how to package the old uppercase-only glyphs (<a href="https://github.com/notofonts/cherokee/issues/1">#1</a>)</li>
-			</ul>
+			<h4>
+				Noto Sans Cherokee 
+				<a href="https://github.com/notofonts/cherokee/releases/tag/NotoSansCherokee-v2.001">v2.001</a>
+			</h4>
+			<pre>Noto Sans Cherokee v2.001
+
+This release:
+* fixes a number of fontbakery fails
+* Moves the COMBINING DIAERESIS BELOW accent below base letters. (Fixes #2)
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansCherokee/unhinted/slim-variable-ttf/NotoSansCherokee[wght].ttf">NotoSansCherokee[wght].ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/unhinted/ttf/NotoSansCherokee-Black.ttf">NotoSansCherokee-Black.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/unhinted/ttf/NotoSansCherokee-Bold.ttf">NotoSansCherokee-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/unhinted/ttf/NotoSansCherokee-ExtraBold.ttf">NotoSansCherokee-ExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/unhinted/ttf/NotoSansCherokee-ExtraLight.ttf">NotoSansCherokee-ExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/unhinted/ttf/NotoSansCherokee-Light.ttf">NotoSansCherokee-Light.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/unhinted/ttf/NotoSansCherokee-Medium.ttf">NotoSansCherokee-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/unhinted/ttf/NotoSansCherokee-Regular.ttf">NotoSansCherokee-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/unhinted/ttf/NotoSansCherokee-SemiBold.ttf">NotoSansCherokee-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/unhinted/ttf/NotoSansCherokee-Thin.ttf">NotoSansCherokee-Thin.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/unhinted/variable-ttf/NotoSansCherokee[wght].ttf">NotoSansCherokee[wght].ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansCherokee/hinted/ttf/NotoSansCherokee-Black.ttf">NotoSansCherokee-Black.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/hinted/ttf/NotoSansCherokee-Bold.ttf">NotoSansCherokee-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/hinted/ttf/NotoSansCherokee-ExtraBold.ttf">NotoSansCherokee-ExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/hinted/ttf/NotoSansCherokee-ExtraLight.ttf">NotoSansCherokee-ExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/hinted/ttf/NotoSansCherokee-Light.ttf">NotoSansCherokee-Light.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/hinted/ttf/NotoSansCherokee-Medium.ttf">NotoSansCherokee-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/hinted/ttf/NotoSansCherokee-Regular.ttf">NotoSansCherokee-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/hinted/ttf/NotoSansCherokee-SemiBold.ttf">NotoSansCherokee-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/hinted/ttf/NotoSansCherokee-Thin.ttf">NotoSansCherokee-Thin.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansCherokee/full/slim-variable-ttf/NotoSansCherokee[wght].ttf">NotoSansCherokee[wght].ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/full/ttf/NotoSansCherokee-Black.ttf">NotoSansCherokee-Black.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/full/ttf/NotoSansCherokee-Bold.ttf">NotoSansCherokee-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/full/ttf/NotoSansCherokee-ExtraBold.ttf">NotoSansCherokee-ExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/full/ttf/NotoSansCherokee-ExtraLight.ttf">NotoSansCherokee-ExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/full/ttf/NotoSansCherokee-Light.ttf">NotoSansCherokee-Light.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/full/ttf/NotoSansCherokee-Medium.ttf">NotoSansCherokee-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/full/ttf/NotoSansCherokee-Regular.ttf">NotoSansCherokee-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/full/ttf/NotoSansCherokee-SemiBold.ttf">NotoSansCherokee-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/full/ttf/NotoSansCherokee-Thin.ttf">NotoSansCherokee-Thin.ttf</a></li>
+						<li><a href="fonts/NotoSansCherokee/full/variable-ttf/NotoSansCherokee[wght].ttf">NotoSansCherokee[wght].ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="chorasmian">Noto Chorasmian</h3>
 			<ul>
@@ -1931,10 +2042,37 @@ This release:
 			</ul>
 			<h5>Known Issues</h5>
 			<ul>
-				<li>Support Coptic Epact Numbers (<a href="https://github.com/notofonts/coptic/issues/3">#3</a>)</li>
 				<li>The appearance of the Middle Dot (U+00B7) should change in Coptic (<a href="https://github.com/notofonts/coptic/issues/2">#2</a>)</li>
 				<li>Missing U+0605 ARABIC NUMBER MARK ABOVE for Coptic numbers (<a href="https://github.com/notofonts/coptic/issues/1">#1</a>)</li>
 			</ul>
+			<h4>
+				Noto Sans Coptic 
+				<a href="https://github.com/notofonts/coptic/releases/tag/NotoSansCoptic-v2.002">v2.002</a>
+			</h4>
+			<pre>Noto Sans Coptic v2.002
+
+This is an administrative release; it fixes a number of fontbakery fails.
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansCoptic/unhinted/ttf/NotoSansCoptic-Regular.ttf">NotoSansCoptic-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansCoptic/hinted/ttf/NotoSansCoptic-Regular.ttf">NotoSansCoptic-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansCoptic/full/ttf/NotoSansCoptic-Regular.ttf">NotoSansCoptic-Regular.ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="cuneiform">Noto Cuneiform</h3>
 			<ul>

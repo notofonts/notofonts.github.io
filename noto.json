@@ -1675,53 +1675,112 @@
   "title": "Noto Chakma"
  },
  "cham": {
-  "families": {},
-  "gh_url": "https://notofonts.github.io/cham",
-  "issues": [
-   {
-    "number": 5,
-    "title": "Excessive kerning before space and U+AA34 CHAM CONSONANT SIGN RA",
-    "url": "https://github.com/notofonts/cham/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Cham mark sequences are not kerned",
-    "url": "https://github.com/notofonts/cham/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Cham ligatures use 'liga' instead of 'rlig'",
-    "url": "https://github.com/notofonts/cham/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Incomplete localization of ASCII punctuation in Cham",
-    "url": "https://github.com/notofonts/cham/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Questionable glyph for U+AA5E CHAM PUNCTUATION DOUBLE DANDA",
-    "url": "https://github.com/notofonts/cham/issues/1"
+  "families": {
+   "Noto Sans Cham": {
+    "files": {
+     "full": [
+      "fonts/NotoSansCham/full/slim-variable-ttf/NotoSansCham[wght].ttf",
+      "fonts/NotoSansCham/full/ttf/NotoSansCham-Black.ttf",
+      "fonts/NotoSansCham/full/ttf/NotoSansCham-Bold.ttf",
+      "fonts/NotoSansCham/full/ttf/NotoSansCham-ExtraBold.ttf",
+      "fonts/NotoSansCham/full/ttf/NotoSansCham-ExtraLight.ttf",
+      "fonts/NotoSansCham/full/ttf/NotoSansCham-Light.ttf",
+      "fonts/NotoSansCham/full/ttf/NotoSansCham-Medium.ttf",
+      "fonts/NotoSansCham/full/ttf/NotoSansCham-Regular.ttf",
+      "fonts/NotoSansCham/full/ttf/NotoSansCham-SemiBold.ttf",
+      "fonts/NotoSansCham/full/ttf/NotoSansCham-Thin.ttf",
+      "fonts/NotoSansCham/full/variable-ttf/NotoSansCham[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansCham/hinted/ttf/NotoSansCham-Black.ttf",
+      "fonts/NotoSansCham/hinted/ttf/NotoSansCham-Bold.ttf",
+      "fonts/NotoSansCham/hinted/ttf/NotoSansCham-ExtraBold.ttf",
+      "fonts/NotoSansCham/hinted/ttf/NotoSansCham-ExtraLight.ttf",
+      "fonts/NotoSansCham/hinted/ttf/NotoSansCham-Light.ttf",
+      "fonts/NotoSansCham/hinted/ttf/NotoSansCham-Medium.ttf",
+      "fonts/NotoSansCham/hinted/ttf/NotoSansCham-Regular.ttf",
+      "fonts/NotoSansCham/hinted/ttf/NotoSansCham-SemiBold.ttf",
+      "fonts/NotoSansCham/hinted/ttf/NotoSansCham-Thin.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansCham/unhinted/slim-variable-ttf/NotoSansCham[wght].ttf",
+      "fonts/NotoSansCham/unhinted/ttf/NotoSansCham-Black.ttf",
+      "fonts/NotoSansCham/unhinted/ttf/NotoSansCham-Bold.ttf",
+      "fonts/NotoSansCham/unhinted/ttf/NotoSansCham-ExtraBold.ttf",
+      "fonts/NotoSansCham/unhinted/ttf/NotoSansCham-ExtraLight.ttf",
+      "fonts/NotoSansCham/unhinted/ttf/NotoSansCham-Light.ttf",
+      "fonts/NotoSansCham/unhinted/ttf/NotoSansCham-Medium.ttf",
+      "fonts/NotoSansCham/unhinted/ttf/NotoSansCham-Regular.ttf",
+      "fonts/NotoSansCham/unhinted/ttf/NotoSansCham-SemiBold.ttf",
+      "fonts/NotoSansCham/unhinted/ttf/NotoSansCham-Thin.ttf",
+      "fonts/NotoSansCham/unhinted/variable-ttf/NotoSansCham[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Cham v2.002\n\nThis release:\n* Fixes a number of fontbakery fails\n* Adds a dotless double danda as a stylistic set. (Fixes #1)\n* Uses locl feature for Cham punctuation. (Fixes #2.\n* Use rlig instead of liga for require features. (Fixes #3.)\n* Fixes a number of mark sequence collisions which were failing to ligate.\n* Adds kerning for mark sequences. (Fixes #4.)\n* Reduces kerning between aa-space-ra. (Fixes #5.)\n",
+     "published": "2022-08-24T12:09:05",
+     "url": "https://github.com/notofonts/cham/releases/tag/NotoSansCham-v2.002",
+     "version": "v2.002"
+    }
    }
-  ],
+  },
+  "gh_url": "https://notofonts.github.io/cham",
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/cham",
   "title": "Noto Cham"
  },
  "cherokee": {
-  "families": {},
-  "gh_url": "https://notofonts.github.io/cherokee",
-  "issues": [
-   {
-    "number": 2,
-    "title": "Cherokee diaeresis below is above",
-    "url": "https://github.com/notofonts/cherokee/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Cherokee: how to package the old uppercase-only glyphs",
-    "url": "https://github.com/notofonts/cherokee/issues/1"
+  "families": {
+   "Noto Sans Cherokee": {
+    "files": {
+     "full": [
+      "fonts/NotoSansCherokee/full/slim-variable-ttf/NotoSansCherokee[wght].ttf",
+      "fonts/NotoSansCherokee/full/ttf/NotoSansCherokee-Black.ttf",
+      "fonts/NotoSansCherokee/full/ttf/NotoSansCherokee-Bold.ttf",
+      "fonts/NotoSansCherokee/full/ttf/NotoSansCherokee-ExtraBold.ttf",
+      "fonts/NotoSansCherokee/full/ttf/NotoSansCherokee-ExtraLight.ttf",
+      "fonts/NotoSansCherokee/full/ttf/NotoSansCherokee-Light.ttf",
+      "fonts/NotoSansCherokee/full/ttf/NotoSansCherokee-Medium.ttf",
+      "fonts/NotoSansCherokee/full/ttf/NotoSansCherokee-Regular.ttf",
+      "fonts/NotoSansCherokee/full/ttf/NotoSansCherokee-SemiBold.ttf",
+      "fonts/NotoSansCherokee/full/ttf/NotoSansCherokee-Thin.ttf",
+      "fonts/NotoSansCherokee/full/variable-ttf/NotoSansCherokee[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansCherokee/hinted/ttf/NotoSansCherokee-Black.ttf",
+      "fonts/NotoSansCherokee/hinted/ttf/NotoSansCherokee-Bold.ttf",
+      "fonts/NotoSansCherokee/hinted/ttf/NotoSansCherokee-ExtraBold.ttf",
+      "fonts/NotoSansCherokee/hinted/ttf/NotoSansCherokee-ExtraLight.ttf",
+      "fonts/NotoSansCherokee/hinted/ttf/NotoSansCherokee-Light.ttf",
+      "fonts/NotoSansCherokee/hinted/ttf/NotoSansCherokee-Medium.ttf",
+      "fonts/NotoSansCherokee/hinted/ttf/NotoSansCherokee-Regular.ttf",
+      "fonts/NotoSansCherokee/hinted/ttf/NotoSansCherokee-SemiBold.ttf",
+      "fonts/NotoSansCherokee/hinted/ttf/NotoSansCherokee-Thin.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansCherokee/unhinted/slim-variable-ttf/NotoSansCherokee[wght].ttf",
+      "fonts/NotoSansCherokee/unhinted/ttf/NotoSansCherokee-Black.ttf",
+      "fonts/NotoSansCherokee/unhinted/ttf/NotoSansCherokee-Bold.ttf",
+      "fonts/NotoSansCherokee/unhinted/ttf/NotoSansCherokee-ExtraBold.ttf",
+      "fonts/NotoSansCherokee/unhinted/ttf/NotoSansCherokee-ExtraLight.ttf",
+      "fonts/NotoSansCherokee/unhinted/ttf/NotoSansCherokee-Light.ttf",
+      "fonts/NotoSansCherokee/unhinted/ttf/NotoSansCherokee-Medium.ttf",
+      "fonts/NotoSansCherokee/unhinted/ttf/NotoSansCherokee-Regular.ttf",
+      "fonts/NotoSansCherokee/unhinted/ttf/NotoSansCherokee-SemiBold.ttf",
+      "fonts/NotoSansCherokee/unhinted/ttf/NotoSansCherokee-Thin.ttf",
+      "fonts/NotoSansCherokee/unhinted/variable-ttf/NotoSansCherokee[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Cherokee v2.001\n\nThis release:\n* fixes a number of fontbakery fails\n* Moves the COMBINING DIAERESIS BELOW accent below base letters. (Fixes #2)\n",
+     "published": "2022-08-24T12:46:31",
+     "url": "https://github.com/notofonts/cherokee/releases/tag/NotoSansCherokee-v2.001",
+     "version": "v2.001"
+    }
    }
-  ],
+  },
+  "gh_url": "https://notofonts.github.io/cherokee",
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/cherokee",
   "title": "Noto Cherokee"
  },
@@ -1744,14 +1803,29 @@
   "title": "Noto Chorasmian"
  },
  "coptic": {
-  "families": {},
+  "families": {
+   "Noto Sans Coptic": {
+    "files": {
+     "full": [
+      "fonts/NotoSansCoptic/full/ttf/NotoSansCoptic-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansCoptic/hinted/ttf/NotoSansCoptic-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansCoptic/unhinted/ttf/NotoSansCoptic-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Coptic v2.002\n\nThis is an administrative release; it fixes a number of fontbakery fails.\n",
+     "published": "2022-08-24T14:36:32",
+     "url": "https://github.com/notofonts/coptic/releases/tag/NotoSansCoptic-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/coptic",
   "issues": [
-   {
-    "number": 3,
-    "title": "Support Coptic Epact Numbers",
-    "url": "https://github.com/notofonts/coptic/issues/3"
-   },
    {
     "number": 2,
     "title": "The appearance of the Middle Dot (U+00B7) should change in Coptic",
