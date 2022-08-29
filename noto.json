@@ -181,6 +181,16 @@
   "gh_url": "https://notofonts.github.io/adlam",
   "issues": [
    {
+    "number": 10,
+    "title": "'case' should be removed",
+    "url": "https://github.com/notofonts/adlam/issues/10"
+   },
+   {
+    "number": 9,
+    "title": "Marks are placed badly on U+25CC DOTTED CIRCLE",
+    "url": "https://github.com/notofonts/adlam/issues/9"
+   },
+   {
     "number": 4,
     "title": "Missing medial U+1E94B ADLAM NASALIZATION MARK",
     "url": "https://github.com/notofonts/adlam/issues/4"
@@ -1725,7 +1735,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/cham",
-  "issues": [],
+  "issues": [
+   {
+    "number": 7,
+    "title": "Subjoined marks overlap glyphs in following clusters",
+    "url": "https://github.com/notofonts/cham/issues/7"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/cham",
   "title": "Noto Cham"
  },
@@ -3101,23 +3117,38 @@
   "title": "Noto Gothic"
  },
  "grantha": {
-  "families": {},
+  "families": {
+   "Noto Sans Grantha": {
+    "files": {
+     "full": [
+      "fonts/NotoSansGrantha/full/ttf/NotoSansGrantha-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansGrantha/hinted/ttf/NotoSansGrantha-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansGrantha/unhinted/ttf/NotoSansGrantha-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Grantha v2.003\n\nThis release\n* fixes a number of fontbakery fails\n* adds names to all stylistic sets\n* fixes a rare issue with Tamil numerals (see #6)\n",
+     "published": "2022-08-28T10:17:21",
+     "url": "https://github.com/notofonts/grantha/releases/tag/NotoSansGrantha-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/grantha",
   "issues": [
    {
-    "number": 6,
-    "title": "Missing anchor points on digits in Grantha",
-    "url": "https://github.com/notofonts/grantha/issues/6"
+    "number": 17,
+    "title": "'ss01' is incomplete",
+    "url": "https://github.com/notofonts/grantha/issues/17"
    },
    {
     "number": 4,
     "title": "Sloppy contextualization of Grantha letters with descenders",
     "url": "https://github.com/notofonts/grantha/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Contextualization of Grantha da ignores spacing marks",
-    "url": "https://github.com/notofonts/grantha/issues/3"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/grantha",
@@ -3912,9 +3943,35 @@
   "title": "Noto Hanifi Rohingya"
  },
  "hanunoo": {
-  "families": {},
+  "families": {
+   "Noto Sans Hanunoo": {
+    "files": {
+     "full": [
+      "fonts/NotoSansHanunoo/full/ttf/NotoSansHanunoo-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansHanunoo/hinted/ttf/NotoSansHanunoo-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansHanunoo/unhinted/ttf/NotoSansHanunoo-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Hanunoo v2.003\n\nThis release:\n* fixes a number of fontbakery fails\n* replaces the salt feature with a ss01 feature (so it can be named)\n",
+     "published": "2022-08-28T10:19:36",
+     "url": "https://github.com/notofonts/hanunoo/releases/tag/NotoSansHanunoo-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/hanunoo",
-  "issues": [],
+  "issues": [
+   {
+    "number": 2,
+    "title": "U+1734 HANUNOO SIGN PAMUDPOD overlaps the following glyph",
+    "url": "https://github.com/notofonts/hanunoo/issues/2"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/hanunoo",
   "title": "Noto Hanunoo"
  },
@@ -4756,7 +4813,40 @@
   "title": "Noto Kannada"
  },
  "kayah-li": {
-  "families": {},
+  "families": {
+   "Noto Sans Kayah Li": {
+    "files": {
+     "full": [
+      "fonts/NotoSansKayahLi/full/slim-variable-ttf/NotoSansKayahLi[wght].ttf",
+      "fonts/NotoSansKayahLi/full/ttf/NotoSansKayahLi-Bold.ttf",
+      "fonts/NotoSansKayahLi/full/ttf/NotoSansKayahLi-Medium.ttf",
+      "fonts/NotoSansKayahLi/full/ttf/NotoSansKayahLi-Regular.ttf",
+      "fonts/NotoSansKayahLi/full/ttf/NotoSansKayahLi-SemiBold.ttf",
+      "fonts/NotoSansKayahLi/full/variable-ttf/NotoSansKayahLi[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansKayahLi/hinted/ttf/NotoSansKayahLi-Bold.ttf",
+      "fonts/NotoSansKayahLi/hinted/ttf/NotoSansKayahLi-Medium.ttf",
+      "fonts/NotoSansKayahLi/hinted/ttf/NotoSansKayahLi-Regular.ttf",
+      "fonts/NotoSansKayahLi/hinted/ttf/NotoSansKayahLi-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansKayahLi/unhinted/slim-variable-ttf/NotoSansKayahLi[wght].ttf",
+      "fonts/NotoSansKayahLi/unhinted/ttf/NotoSansKayahLi-Bold.ttf",
+      "fonts/NotoSansKayahLi/unhinted/ttf/NotoSansKayahLi-Medium.ttf",
+      "fonts/NotoSansKayahLi/unhinted/ttf/NotoSansKayahLi-Regular.ttf",
+      "fonts/NotoSansKayahLi/unhinted/ttf/NotoSansKayahLi-SemiBold.ttf",
+      "fonts/NotoSansKayahLi/unhinted/variable-ttf/NotoSansKayahLi[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Kayah Li v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-08-28T16:44:57",
+     "url": "https://github.com/notofonts/kayah-li/releases/tag/NotoSansKayahLi-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/kayah-li",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/kayah-li",
@@ -7738,11 +7828,6 @@
     "number": 2,
     "title": "Alternate Glyphs for Lipo [lpo]",
     "url": "https://github.com/notofonts/miao/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Make sure Miao is based on corrected Unicode glyphs",
-    "url": "https://github.com/notofonts/miao/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/miao",

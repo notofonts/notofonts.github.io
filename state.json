@@ -2267,7 +2267,27 @@
   ]
  },
  "gothic": {},
- "grantha": {},
+ "grantha": {
+  "families": {
+   "Noto Sans Grantha": {
+    "files": [
+     "fonts/NotoSansGrantha/full/ttf/NotoSansGrantha-Regular.ttf",
+     "fonts/NotoSansGrantha/googlefonts/ttf/NotoSansGrantha-Regular.ttf",
+     "fonts/NotoSansGrantha/unhinted/ttf/NotoSansGrantha-Regular.ttf",
+     "fonts/NotoSansGrantha/hinted/ttf/NotoSansGrantha-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Grantha v2.003\n\nThis release\n* fixes a number of fontbakery fails\n* adds names to all stylistic sets\n* fixes a rare issue with Tamil numerals (see #6)\n",
+     "published": "2022-08-28T10:17:21",
+     "url": "https://github.com/notofonts/grantha/releases/tag/NotoSansGrantha-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansGrantha-v2.003"
+  ]
+ },
  "gujarati": {
   "families": {
    "Noto Sans Gujarati": {
@@ -2923,7 +2943,27 @@
    "NotoSansHanifiRohingya-v2.101"
   ]
  },
- "hanunoo": {},
+ "hanunoo": {
+  "families": {
+   "Noto Sans Hanunoo": {
+    "files": [
+     "fonts/NotoSansHanunoo/full/ttf/NotoSansHanunoo-Regular.ttf",
+     "fonts/NotoSansHanunoo/googlefonts/ttf/NotoSansHanunoo-Regular.ttf",
+     "fonts/NotoSansHanunoo/unhinted/ttf/NotoSansHanunoo-Regular.ttf",
+     "fonts/NotoSansHanunoo/hinted/ttf/NotoSansHanunoo-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Hanunoo v2.003\n\nThis release:\n* fixes a number of fontbakery fails\n* replaces the salt feature with a ss01 feature (so it can be named)\n",
+     "published": "2022-08-28T10:19:36",
+     "url": "https://github.com/notofonts/hanunoo/releases/tag/NotoSansHanunoo-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansHanunoo-v2.003"
+  ]
+ },
  "hatran": {},
  "hebrew": {
   "families": {
@@ -3564,7 +3604,44 @@
    "NotoSansKannada-v2.003"
   ]
  },
- "kayah-li": {},
+ "kayah-li": {
+  "families": {
+   "Noto Sans Kayah Li": {
+    "files": [
+     "fonts/NotoSansKayahLi/full/slim-variable-ttf/NotoSansKayahLi[wght].ttf",
+     "fonts/NotoSansKayahLi/full/ttf/NotoSansKayahLi-SemiBold.ttf",
+     "fonts/NotoSansKayahLi/full/ttf/NotoSansKayahLi-Bold.ttf",
+     "fonts/NotoSansKayahLi/full/ttf/NotoSansKayahLi-Medium.ttf",
+     "fonts/NotoSansKayahLi/full/ttf/NotoSansKayahLi-Regular.ttf",
+     "fonts/NotoSansKayahLi/full/variable-ttf/NotoSansKayahLi[wght].ttf",
+     "fonts/NotoSansKayahLi/googlefonts/ttf/NotoSansKayahLi-SemiBold.ttf",
+     "fonts/NotoSansKayahLi/googlefonts/ttf/NotoSansKayahLi-Bold.ttf",
+     "fonts/NotoSansKayahLi/googlefonts/ttf/NotoSansKayahLi-Medium.ttf",
+     "fonts/NotoSansKayahLi/googlefonts/ttf/NotoSansKayahLi-Regular.ttf",
+     "fonts/NotoSansKayahLi/googlefonts/variable-ttf/NotoSansKayahLi[wght].ttf",
+     "fonts/NotoSansKayahLi/unhinted/slim-variable-ttf/NotoSansKayahLi[wght].ttf",
+     "fonts/NotoSansKayahLi/unhinted/ttf/NotoSansKayahLi-SemiBold.ttf",
+     "fonts/NotoSansKayahLi/unhinted/ttf/NotoSansKayahLi-Bold.ttf",
+     "fonts/NotoSansKayahLi/unhinted/ttf/NotoSansKayahLi-Medium.ttf",
+     "fonts/NotoSansKayahLi/unhinted/ttf/NotoSansKayahLi-Regular.ttf",
+     "fonts/NotoSansKayahLi/unhinted/variable-ttf/NotoSansKayahLi[wght].ttf",
+     "fonts/NotoSansKayahLi/hinted/ttf/NotoSansKayahLi-SemiBold.ttf",
+     "fonts/NotoSansKayahLi/hinted/ttf/NotoSansKayahLi-Bold.ttf",
+     "fonts/NotoSansKayahLi/hinted/ttf/NotoSansKayahLi-Medium.ttf",
+     "fonts/NotoSansKayahLi/hinted/ttf/NotoSansKayahLi-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Kayah Li v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-08-28T16:44:57",
+     "url": "https://github.com/notofonts/kayah-li/releases/tag/NotoSansKayahLi-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansKayahLi-v2.002"
+  ]
+ },
  "kharoshthi": {},
  "khmer": {
   "families": {

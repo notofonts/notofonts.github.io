@@ -115,6 +115,7 @@
 							<option value="#glagolitic">- Noto Sans Glagolitic</option>
 							<option value="#gothic">Noto Gothic</option>
 							<option value="#grantha">Noto Grantha</option>
+							<option value="#grantha">- Noto Sans Grantha</option>
 							<option value="#gujarati">Noto Gujarati</option>
 							<option value="#gujarati">- Noto Sans Gujarati</option>
 							<option value="#gujarati">- Noto Serif Gujarati</option>
@@ -125,6 +126,7 @@
 							<option value="#hanifi-rohingya">Noto Hanifi Rohingya</option>
 							<option value="#hanifi-rohingya">- Noto Sans Hanifi Rohingya</option>
 							<option value="#hanunoo">Noto Hanunoo</option>
+							<option value="#hanunoo">- Noto Sans Hanunoo</option>
 							<option value="#hatran">Noto Hatran</option>
 							<option value="#hebrew">Noto Hebrew</option>
 							<option value="#hebrew">- Noto Rashi Hebrew</option>
@@ -140,6 +142,7 @@
 							<option value="#kannada">- Noto Sans Kannada</option>
 							<option value="#kannada">- Noto Serif Kannada</option>
 							<option value="#kayah-li">Noto Kayah Li</option>
+							<option value="#kayah-li">- Noto Sans Kayah Li</option>
 							<option value="#kharoshthi">Noto Kharoshthi</option>
 							<option value="#khmer">Noto Khmer</option>
 							<option value="#khmer">- Noto Sans Khmer</option>
@@ -363,6 +366,8 @@
 			</ul>
 			<h5>Known Issues</h5>
 			<ul>
+				<li>&#x27;case&#x27; should be removed (<a href="https://github.com/notofonts/adlam/issues/10">#10</a>)</li>
+				<li>Marks are placed badly on U+25CC DOTTED CIRCLE (<a href="https://github.com/notofonts/adlam/issues/9">#9</a>)</li>
 				<li>Missing medial U+1E94B ADLAM NASALIZATION MARK (<a href="https://github.com/notofonts/adlam/issues/4">#4</a>)</li>
 				<li>U+1E94A ADLAM NUKTA blocks capital U+1E945 ADLAM VOWEL LENGTHENER (<a href="https://github.com/notofonts/adlam/issues/3">#3</a>)</li>
 				<li>U+2044 FRACTION SLASH in Noto Sans Adlam (<a href="https://github.com/notofonts/adlam/issues/2">#2</a>)</li>
@@ -1872,6 +1877,10 @@ This release:
 					<a href="https://www.github.com/notofonts/cham/issues/new/choose">Report a bug in this font</a>
 				</li>
 			</ul>
+			<h5>Known Issues</h5>
+			<ul>
+				<li>Subjoined marks overlap glyphs in following clusters (<a href="https://github.com/notofonts/cham/issues/7">#7</a>)</li>
+			</ul>
 			<h4>
 				Noto Sans Cham 
 				<a href="https://github.com/notofonts/cham/releases/tag/NotoSansCham-v2.002">v2.002</a>
@@ -3364,10 +3373,40 @@ This is purely an administrative release.
 			</ul>
 			<h5>Known Issues</h5>
 			<ul>
-				<li>Missing anchor points on digits in Grantha (<a href="https://github.com/notofonts/grantha/issues/6">#6</a>)</li>
+				<li>&#x27;ss01&#x27; is incomplete (<a href="https://github.com/notofonts/grantha/issues/17">#17</a>)</li>
 				<li>Sloppy contextualization of Grantha letters with descenders (<a href="https://github.com/notofonts/grantha/issues/4">#4</a>)</li>
-				<li>Contextualization of Grantha da ignores spacing marks (<a href="https://github.com/notofonts/grantha/issues/3">#3</a>)</li>
 			</ul>
+			<h4>
+				Noto Sans Grantha 
+				<a href="https://github.com/notofonts/grantha/releases/tag/NotoSansGrantha-v2.003">v2.003</a>
+			</h4>
+			<pre>Noto Sans Grantha v2.003
+
+This release
+* fixes a number of fontbakery fails
+* adds names to all stylistic sets
+* fixes a rare issue with Tamil numerals (see #6)
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansGrantha/unhinted/ttf/NotoSansGrantha-Regular.ttf">NotoSansGrantha-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansGrantha/hinted/ttf/NotoSansGrantha-Regular.ttf">NotoSansGrantha-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansGrantha/full/ttf/NotoSansGrantha-Regular.ttf">NotoSansGrantha-Regular.ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="gujarati">Noto Gujarati</h3>
 			<ul>
@@ -4125,6 +4164,40 @@ fails.
 					<a href="https://www.github.com/notofonts/hanunoo/issues/new/choose">Report a bug in this font</a>
 				</li>
 			</ul>
+			<h5>Known Issues</h5>
+			<ul>
+				<li>U+1734 HANUNOO SIGN PAMUDPOD overlaps the following glyph (<a href="https://github.com/notofonts/hanunoo/issues/2">#2</a>)</li>
+			</ul>
+			<h4>
+				Noto Sans Hanunoo 
+				<a href="https://github.com/notofonts/hanunoo/releases/tag/NotoSansHanunoo-v2.003">v2.003</a>
+			</h4>
+			<pre>Noto Sans Hanunoo v2.003
+
+This release:
+* fixes a number of fontbakery fails
+* replaces the salt feature with a ss01 feature (so it can be named)
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansHanunoo/unhinted/ttf/NotoSansHanunoo-Regular.ttf">NotoSansHanunoo-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansHanunoo/hinted/ttf/NotoSansHanunoo-Regular.ttf">NotoSansHanunoo-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansHanunoo/full/ttf/NotoSansHanunoo-Regular.ttf">NotoSansHanunoo-Regular.ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="hatran">Noto Hatran</h3>
 			<ul>
@@ -4950,6 +5023,47 @@ This is a maintenance release
 					<a href="https://www.github.com/notofonts/kayah-li/issues/new/choose">Report a bug in this font</a>
 				</li>
 			</ul>
+			<h4>
+				Noto Sans Kayah Li 
+				<a href="https://github.com/notofonts/kayah-li/releases/tag/NotoSansKayahLi-v2.002">v2.002</a>
+			</h4>
+			<pre>Noto Sans Kayah Li v2.002
+
+This release fixes a number of fontbakery fails.
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansKayahLi/unhinted/slim-variable-ttf/NotoSansKayahLi[wght].ttf">NotoSansKayahLi[wght].ttf</a></li>
+						<li><a href="fonts/NotoSansKayahLi/unhinted/ttf/NotoSansKayahLi-Bold.ttf">NotoSansKayahLi-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSansKayahLi/unhinted/ttf/NotoSansKayahLi-Medium.ttf">NotoSansKayahLi-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSansKayahLi/unhinted/ttf/NotoSansKayahLi-Regular.ttf">NotoSansKayahLi-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansKayahLi/unhinted/ttf/NotoSansKayahLi-SemiBold.ttf">NotoSansKayahLi-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoSansKayahLi/unhinted/variable-ttf/NotoSansKayahLi[wght].ttf">NotoSansKayahLi[wght].ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansKayahLi/hinted/ttf/NotoSansKayahLi-Bold.ttf">NotoSansKayahLi-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSansKayahLi/hinted/ttf/NotoSansKayahLi-Medium.ttf">NotoSansKayahLi-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSansKayahLi/hinted/ttf/NotoSansKayahLi-Regular.ttf">NotoSansKayahLi-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansKayahLi/hinted/ttf/NotoSansKayahLi-SemiBold.ttf">NotoSansKayahLi-SemiBold.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansKayahLi/full/slim-variable-ttf/NotoSansKayahLi[wght].ttf">NotoSansKayahLi[wght].ttf</a></li>
+						<li><a href="fonts/NotoSansKayahLi/full/ttf/NotoSansKayahLi-Bold.ttf">NotoSansKayahLi-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSansKayahLi/full/ttf/NotoSansKayahLi-Medium.ttf">NotoSansKayahLi-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSansKayahLi/full/ttf/NotoSansKayahLi-Regular.ttf">NotoSansKayahLi-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansKayahLi/full/ttf/NotoSansKayahLi-SemiBold.ttf">NotoSansKayahLi-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoSansKayahLi/full/variable-ttf/NotoSansKayahLi[wght].ttf">NotoSansKayahLi[wght].ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="kharoshthi">Noto Kharoshthi</h3>
 			<ul>
@@ -7050,7 +7164,6 @@ This is an administrative release.
 			<h5>Known Issues</h5>
 			<ul>
 				<li>Alternate Glyphs for Lipo [lpo] (<a href="https://github.com/notofonts/miao/issues/2">#2</a>)</li>
-				<li>Make sure Miao is based on corrected Unicode glyphs (<a href="https://github.com/notofonts/miao/issues/1">#1</a>)</li>
 			</ul>
 			<hr />
 			<h3 id="modi">Noto Modi</h3>
