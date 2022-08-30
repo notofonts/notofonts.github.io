@@ -181,6 +181,11 @@
   "gh_url": "https://notofonts.github.io/adlam",
   "issues": [
    {
+    "number": 11,
+    "title": "U+1E948 ADLAM CONSONANT MODIFIER overlaps U+1E947 ADLAM HAMZA",
+    "url": "https://github.com/notofonts/adlam/issues/11"
+   },
+   {
     "number": 10,
     "title": "'case' should be removed",
     "url": "https://github.com/notofonts/adlam/issues/10"
@@ -3140,6 +3145,16 @@
   },
   "gh_url": "https://notofonts.github.io/grantha",
   "issues": [
+   {
+    "number": 19,
+    "title": "Extra space in \u201cAdditional ligatures (jjnya/ shva)\u201d",
+    "url": "https://github.com/notofonts/grantha/issues/19"
+   },
+   {
+    "number": 18,
+    "title": "'ss02' is incomplete",
+    "url": "https://github.com/notofonts/grantha/issues/18"
+   },
    {
     "number": 17,
     "title": "'ss01' is incomplete",
@@ -7766,7 +7781,40 @@
   "title": "Noto Mayan Numerals"
  },
  "medefaidrin": {
-  "families": {},
+  "families": {
+   "Noto Sans Medefaidrin": {
+    "files": {
+     "full": [
+      "fonts/NotoSansMedefaidrin/full/slim-variable-ttf/NotoSansMedefaidrin[wght].ttf",
+      "fonts/NotoSansMedefaidrin/full/ttf/NotoSansMedefaidrin-Bold.ttf",
+      "fonts/NotoSansMedefaidrin/full/ttf/NotoSansMedefaidrin-Medium.ttf",
+      "fonts/NotoSansMedefaidrin/full/ttf/NotoSansMedefaidrin-Regular.ttf",
+      "fonts/NotoSansMedefaidrin/full/ttf/NotoSansMedefaidrin-SemiBold.ttf",
+      "fonts/NotoSansMedefaidrin/full/variable-ttf/NotoSansMedefaidrin[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansMedefaidrin/hinted/ttf/NotoSansMedefaidrin-Bold.ttf",
+      "fonts/NotoSansMedefaidrin/hinted/ttf/NotoSansMedefaidrin-Medium.ttf",
+      "fonts/NotoSansMedefaidrin/hinted/ttf/NotoSansMedefaidrin-Regular.ttf",
+      "fonts/NotoSansMedefaidrin/hinted/ttf/NotoSansMedefaidrin-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansMedefaidrin/unhinted/slim-variable-ttf/NotoSansMedefaidrin[wght].ttf",
+      "fonts/NotoSansMedefaidrin/unhinted/ttf/NotoSansMedefaidrin-Bold.ttf",
+      "fonts/NotoSansMedefaidrin/unhinted/ttf/NotoSansMedefaidrin-Medium.ttf",
+      "fonts/NotoSansMedefaidrin/unhinted/ttf/NotoSansMedefaidrin-Regular.ttf",
+      "fonts/NotoSansMedefaidrin/unhinted/ttf/NotoSansMedefaidrin-SemiBold.ttf",
+      "fonts/NotoSansMedefaidrin/unhinted/variable-ttf/NotoSansMedefaidrin[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Medefaidrin v1.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-08-29T07:30:23",
+     "url": "https://github.com/notofonts/medefaidrin/releases/tag/NotoSansMedefaidrin-v1.002",
+     "version": "v1.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/medefaidrin",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/medefaidrin",
@@ -7796,9 +7844,35 @@
   "title": "Noto Meetei Mayek"
  },
  "mende-kikakui": {
-  "families": {},
+  "families": {
+   "Noto Sans Mende Kikakui": {
+    "files": {
+     "full": [
+      "fonts/NotoSansMendeKikakui/full/ttf/NotoSansMendeKikakui-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansMendeKikakui/hinted/ttf/NotoSansMendeKikakui-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansMendeKikakui/unhinted/ttf/NotoSansMendeKikakui-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Mende Kikakui v2.003\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-08-29T07:40:26",
+     "url": "https://github.com/notofonts/mende-kikakui/releases/tag/NotoSansMendeKikakui-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/mende-kikakui",
-  "issues": [],
+  "issues": [
+   {
+    "number": 1,
+    "title": "U+25CC DOTTED CIRCLE\u2019s anchor point is misplaced",
+    "url": "https://github.com/notofonts/mende-kikakui/issues/1"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/mende-kikakui",
   "title": "Noto Mende Kikakui"
  },
@@ -7821,7 +7895,27 @@
   "title": "Noto Meroitic"
  },
  "miao": {
-  "families": {},
+  "families": {
+   "Noto Sans Miao": {
+    "files": {
+     "full": [
+      "fonts/NotoSansMiao/full/ttf/NotoSansMiao-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansMiao/hinted/ttf/NotoSansMiao-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansMiao/unhinted/ttf/NotoSansMiao-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Miao v2.003\n\nThis release fixes a number of fontbakery fails\n",
+     "published": "2022-08-29T08:13:06",
+     "url": "https://github.com/notofonts/miao/releases/tag/NotoSansMiao-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/miao",
   "issues": [
    {
@@ -8959,7 +9053,27 @@
   "title": "Noto Osmanya"
  },
  "pahawh-hmong": {
-  "families": {},
+  "families": {
+   "Noto Sans Pahawh Hmong": {
+    "files": {
+     "full": [
+      "fonts/NotoSansPahawhHmong/full/ttf/NotoSansPahawhHmong-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansPahawhHmong/hinted/ttf/NotoSansPahawhHmong-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansPahawhHmong/unhinted/ttf/NotoSansPahawhHmong-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Pahawh Hmong v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-08-29T20:47:43",
+     "url": "https://github.com/notofonts/pahawh-hmong/releases/tag/NotoSansPahawhHmong-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/pahawh-hmong",
   "issues": [
    {
@@ -8971,11 +9085,6 @@
     "number": 2,
     "title": "Noto Sans Pahawh Hmong character U+16B26 is not the original character",
     "url": "https://github.com/notofonts/pahawh-hmong/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Noto Sans Pahawh Hmong needs minor correction to glyphs",
-    "url": "https://github.com/notofonts/pahawh-hmong/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/pahawh-hmong",

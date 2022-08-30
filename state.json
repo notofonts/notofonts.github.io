@@ -5030,11 +5030,88 @@
  "masaram-gondi": {},
  "math": {},
  "mayan-numerals": {},
- "medefaidrin": {},
+ "medefaidrin": {
+  "families": {
+   "Noto Sans Medefaidrin": {
+    "files": [
+     "fonts/NotoSansMedefaidrin/full/slim-variable-ttf/NotoSansMedefaidrin[wght].ttf",
+     "fonts/NotoSansMedefaidrin/full/ttf/NotoSansMedefaidrin-SemiBold.ttf",
+     "fonts/NotoSansMedefaidrin/full/ttf/NotoSansMedefaidrin-Bold.ttf",
+     "fonts/NotoSansMedefaidrin/full/ttf/NotoSansMedefaidrin-Regular.ttf",
+     "fonts/NotoSansMedefaidrin/full/ttf/NotoSansMedefaidrin-Medium.ttf",
+     "fonts/NotoSansMedefaidrin/full/variable-ttf/NotoSansMedefaidrin[wght].ttf",
+     "fonts/NotoSansMedefaidrin/googlefonts/ttf/NotoSansMedefaidrin-SemiBold.ttf",
+     "fonts/NotoSansMedefaidrin/googlefonts/ttf/NotoSansMedefaidrin-Bold.ttf",
+     "fonts/NotoSansMedefaidrin/googlefonts/ttf/NotoSansMedefaidrin-Regular.ttf",
+     "fonts/NotoSansMedefaidrin/googlefonts/ttf/NotoSansMedefaidrin-Medium.ttf",
+     "fonts/NotoSansMedefaidrin/googlefonts/variable-ttf/NotoSansMedefaidrin[wght].ttf",
+     "fonts/NotoSansMedefaidrin/unhinted/slim-variable-ttf/NotoSansMedefaidrin[wght].ttf",
+     "fonts/NotoSansMedefaidrin/unhinted/ttf/NotoSansMedefaidrin-SemiBold.ttf",
+     "fonts/NotoSansMedefaidrin/unhinted/ttf/NotoSansMedefaidrin-Bold.ttf",
+     "fonts/NotoSansMedefaidrin/unhinted/ttf/NotoSansMedefaidrin-Regular.ttf",
+     "fonts/NotoSansMedefaidrin/unhinted/ttf/NotoSansMedefaidrin-Medium.ttf",
+     "fonts/NotoSansMedefaidrin/unhinted/variable-ttf/NotoSansMedefaidrin[wght].ttf",
+     "fonts/NotoSansMedefaidrin/hinted/ttf/NotoSansMedefaidrin-SemiBold.ttf",
+     "fonts/NotoSansMedefaidrin/hinted/ttf/NotoSansMedefaidrin-Bold.ttf",
+     "fonts/NotoSansMedefaidrin/hinted/ttf/NotoSansMedefaidrin-Regular.ttf",
+     "fonts/NotoSansMedefaidrin/hinted/ttf/NotoSansMedefaidrin-Medium.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Medefaidrin v1.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-08-29T07:30:23",
+     "url": "https://github.com/notofonts/medefaidrin/releases/tag/NotoSansMedefaidrin-v1.002",
+     "version": "v1.002"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansMedefaidrin-v1.002"
+  ]
+ },
  "meetei-mayek": {},
- "mende-kikakui": {},
+ "mende-kikakui": {
+  "families": {
+   "Noto Sans Mende Kikakui": {
+    "files": [
+     "fonts/NotoSansMendeKikakui/full/ttf/NotoSansMendeKikakui-Regular.ttf",
+     "fonts/NotoSansMendeKikakui/googlefonts/ttf/NotoSansMendeKikakui-Regular.ttf",
+     "fonts/NotoSansMendeKikakui/unhinted/ttf/NotoSansMendeKikakui-Regular.ttf",
+     "fonts/NotoSansMendeKikakui/hinted/ttf/NotoSansMendeKikakui-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Mende Kikakui v2.003\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-08-29T07:40:26",
+     "url": "https://github.com/notofonts/mende-kikakui/releases/tag/NotoSansMendeKikakui-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansMendeKikakui-v2.003"
+  ]
+ },
  "meroitic": {},
- "miao": {},
+ "miao": {
+  "families": {
+   "Noto Sans Miao": {
+    "files": [
+     "fonts/NotoSansMiao/full/ttf/NotoSansMiao-Regular.ttf",
+     "fonts/NotoSansMiao/googlefonts/ttf/NotoSansMiao-Regular.ttf",
+     "fonts/NotoSansMiao/unhinted/ttf/NotoSansMiao-Regular.ttf",
+     "fonts/NotoSansMiao/hinted/ttf/NotoSansMiao-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Miao v2.003\n\nThis release fixes a number of fontbakery fails\n",
+     "published": "2022-08-29T08:13:06",
+     "url": "https://github.com/notofonts/miao/releases/tag/NotoSansMiao-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansMiao-v2.003"
+  ]
+ },
  "modi": {},
  "mongolian": {},
  "mro": {},
@@ -5463,7 +5540,27 @@
  },
  "osage": {},
  "osmanya": {},
- "pahawh-hmong": {},
+ "pahawh-hmong": {
+  "families": {
+   "Noto Sans Pahawh Hmong": {
+    "files": [
+     "fonts/NotoSansPahawhHmong/full/ttf/NotoSansPahawhHmong-Regular.ttf",
+     "fonts/NotoSansPahawhHmong/googlefonts/ttf/NotoSansPahawhHmong-Regular.ttf",
+     "fonts/NotoSansPahawhHmong/unhinted/ttf/NotoSansPahawhHmong-Regular.ttf",
+     "fonts/NotoSansPahawhHmong/hinted/ttf/NotoSansPahawhHmong-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Pahawh Hmong v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-08-29T20:47:43",
+     "url": "https://github.com/notofonts/pahawh-hmong/releases/tag/NotoSansPahawhHmong-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansPahawhHmong-v2.001"
+  ]
+ },
  "palmyrene": {},
  "pau-cin-hau": {},
  "phags-pa": {},
