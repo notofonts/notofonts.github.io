@@ -1599,7 +1599,55 @@
   "title": "Noto Buhid"
  },
  "canadian-aboriginal": {
-  "families": {},
+  "families": {
+   "Noto Sans Canadian Aboriginal": {
+    "files": {
+     "full": [
+      "fonts/NotoSansCanadianAboriginal/full/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf",
+      "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-Black.ttf",
+      "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-Bold.ttf",
+      "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf",
+      "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf",
+      "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-Light.ttf",
+      "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-Medium.ttf",
+      "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-Regular.ttf",
+      "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-SemiBold.ttf",
+      "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-Thin.ttf",
+      "fonts/NotoSansCanadianAboriginal/full/variable-ttf/NotoSansCanadianAboriginal[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-Black.ttf",
+      "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-Bold.ttf",
+      "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf",
+      "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf",
+      "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-Light.ttf",
+      "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-Medium.ttf",
+      "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-Regular.ttf",
+      "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-SemiBold.ttf",
+      "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-Thin.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansCanadianAboriginal/unhinted/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf",
+      "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-Black.ttf",
+      "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-Bold.ttf",
+      "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf",
+      "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf",
+      "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-Light.ttf",
+      "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-Medium.ttf",
+      "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-Regular.ttf",
+      "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-SemiBold.ttf",
+      "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-Thin.ttf",
+      "fonts/NotoSansCanadianAboriginal/unhinted/variable-ttf/NotoSansCanadianAboriginal[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Canadian Aboriginal v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-08-30T09:12:51",
+     "url": "https://github.com/notofonts/canadian-aboriginal/releases/tag/NotoSansCanadianAboriginal-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/canadian-aboriginal",
   "issues": [
    {
@@ -5191,28 +5239,69 @@
   "title": "Noto Khmer"
  },
  "khojki": {
-  "families": {},
+  "families": {
+   "Noto Sans Khojki": {
+    "files": {
+     "full": [
+      "fonts/NotoSansKhojki/full/ttf/NotoSansKhojki-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansKhojki/hinted/ttf/NotoSansKhojki-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansKhojki/unhinted/ttf/NotoSansKhojki-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Khojki v2.002\n\nThis release:\n* fixes a number of fontbakery fails\n* allows the ZWJ character to block akhand ligatures (#2)\n* fixes an overlap between two above marks (#6)\n",
+     "published": "2022-08-30T10:34:12",
+     "url": "https://github.com/notofonts/khojki/releases/tag/NotoSansKhojki-v2.002",
+     "version": "v2.002"
+    }
+   },
+   "Noto Serif Khojki": {
+    "files": {
+     "full": [
+      "fonts/NotoSerifKhojki/full/slim-variable-ttf/NotoSerifKhojki[wght].ttf",
+      "fonts/NotoSerifKhojki/full/ttf/NotoSerifKhojki-Bold.ttf",
+      "fonts/NotoSerifKhojki/full/ttf/NotoSerifKhojki-Regular.ttf",
+      "fonts/NotoSerifKhojki/full/variable-ttf/NotoSerifKhojki[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSerifKhojki/hinted/ttf/NotoSerifKhojki-Bold.ttf",
+      "fonts/NotoSerifKhojki/hinted/ttf/NotoSerifKhojki-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSerifKhojki/unhinted/slim-variable-ttf/NotoSerifKhojki[wght].ttf",
+      "fonts/NotoSerifKhojki/unhinted/ttf/NotoSerifKhojki-Bold.ttf",
+      "fonts/NotoSerifKhojki/unhinted/ttf/NotoSerifKhojki-Regular.ttf",
+      "fonts/NotoSerifKhojki/unhinted/variable-ttf/NotoSerifKhojki[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Serif Khojki v2.002\n\nThis release:\n* fixes a number of fontbakery fails\n* removes the unnecessary (and wrong) PUNCTUATION SPACE glyph (#3)\n* removes the erroneous GUJARATI VOWEL SIGN VOCALIC R and encodes the (proposed) U+11241 KHOJKI VOWEL SIGN VOCALIC R (#4)\n* fixes overlapping above vowel marks (#5)\n",
+     "published": "2022-08-30T10:33:43",
+     "url": "https://github.com/notofonts/khojki/releases/tag/NotoSerifKhojki-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/khojki",
   "issues": [
    {
-    "number": 5,
-    "title": "Overlapping U+1123E KHOJKI SIGN SUKUN in Noto Serif Khojki",
-    "url": "https://github.com/notofonts/khojki/issues/5"
+    "number": 9,
+    "title": "Repha is formed in Gujarati",
+    "url": "https://github.com/notofonts/khojki/issues/9"
    },
    {
-    "number": 4,
-    "title": "Gujarati r\u0325 in Noto Serif Khojki",
-    "url": "https://github.com/notofonts/khojki/issues/4"
+    "number": 8,
+    "title": "Trailing marks block the k\u1e63a ligature",
+    "url": "https://github.com/notofonts/khojki/issues/8"
    },
    {
-    "number": 3,
-    "title": "Wrong and superfluous Khojki glyph for U+2008 PUNCTUATION SPACE",
-    "url": "https://github.com/notofonts/khojki/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "ZWJ does not block Khojki k\u1e63a ligature",
-    "url": "https://github.com/notofonts/khojki/issues/2"
+    "number": 7,
+    "title": "U+1123E KHOJKI SIGN SUKUN overlaps marks above",
+    "url": "https://github.com/notofonts/khojki/issues/7"
    },
    {
     "number": 1,
