@@ -8098,14 +8098,54 @@
   "title": "Noto Mongolian"
  },
  "mro": {
-  "families": {},
+  "families": {
+   "Noto Sans Mro": {
+    "files": {
+     "full": [
+      "fonts/NotoSansMro/full/ttf/NotoSansMro-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansMro/hinted/ttf/NotoSansMro-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansMro/unhinted/ttf/NotoSansMro-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Mro v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-08-31T08:56:13",
+     "url": "https://github.com/notofonts/mro/releases/tag/NotoSansMro-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/mro",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/mro",
   "title": "Noto Mro"
  },
  "multani": {
-  "families": {},
+  "families": {
+   "Noto Sans Multani": {
+    "files": {
+     "full": [
+      "fonts/NotoSansMultani/full/ttf/NotoSansMultani-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansMultani/hinted/ttf/NotoSansMultani-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansMultani/unhinted/ttf/NotoSansMultani-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Multani v2.001\n\nThis release fixes a number of fontbakery fails\n",
+     "published": "2022-08-31T08:59:41",
+     "url": "https://github.com/notofonts/multani/releases/tag/NotoSansMultani-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/multani",
   "issues": [
    {
@@ -8778,13 +8818,7 @@
  "new-tai-lue": {
   "families": {},
   "gh_url": "https://notofonts.github.io/new-tai-lue",
-  "issues": [
-   {
-    "number": 2,
-    "title": "Missing U+19D2 (\u19d2)",
-    "url": "https://github.com/notofonts/new-tai-lue/issues/2"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/new-tai-lue",
   "title": "Noto New Tai Lue"
  },
