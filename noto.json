@@ -8823,23 +8823,33 @@
   "title": "Noto New Tai Lue"
  },
  "newa": {
-  "families": {},
+  "families": {
+   "Noto Sans Newa": {
+    "files": {
+     "full": [
+      "fonts/NotoSansNewa/full/ttf/NotoSansNewa-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansNewa/hinted/ttf/NotoSansNewa-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansNewa/unhinted/ttf/NotoSansNewa-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Newa v2.005\n\nThis release fixes a number of fontbakery fails\n",
+     "published": "2022-09-01T14:11:54",
+     "url": "https://github.com/notofonts/newa/releases/tag/NotoSansNewa-v2.005",
+     "version": "v2.005"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/newa",
   "issues": [
    {
     "number": 4,
     "title": "ZWNJ does not block Newa repha",
     "url": "https://github.com/notofonts/newa/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Inconsistent glyph for Newa gi",
-    "url": "https://github.com/notofonts/newa/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Wrong form of U+11438 NEWA VOWEL SIGN U in two clusters",
-    "url": "https://github.com/notofonts/newa/issues/2"
    },
    {
     "number": 1,
@@ -8851,7 +8861,27 @@
   "title": "Noto Newa"
  },
  "nko": {
-  "families": {},
+  "families": {
+   "Noto Sans NKo": {
+    "files": {
+     "full": [
+      "fonts/NotoSansNKo/full/ttf/NotoSansNKo-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansNKo/hinted/ttf/NotoSansNKo-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansNKo/unhinted/ttf/NotoSansNKo-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans NKo v2.003\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-01T14:12:15",
+     "url": "https://github.com/notofonts/nko/releases/tag/NotoSansNKo-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/nko",
   "issues": [
    {
