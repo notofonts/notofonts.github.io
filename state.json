@@ -5612,7 +5612,44 @@
  "nushu": {},
  "nyiakeng-puachue-hmong": {},
  "ogham": {},
- "ol-chiki": {},
+ "ol-chiki": {
+  "families": {
+   "Noto Sans Ol Chiki": {
+    "files": [
+     "fonts/NotoSansOlChiki/full/slim-variable-ttf/NotoSansOlChiki[wght].ttf",
+     "fonts/NotoSansOlChiki/full/ttf/NotoSansOlChiki-Regular.ttf",
+     "fonts/NotoSansOlChiki/full/ttf/NotoSansOlChiki-Medium.ttf",
+     "fonts/NotoSansOlChiki/full/ttf/NotoSansOlChiki-Bold.ttf",
+     "fonts/NotoSansOlChiki/full/ttf/NotoSansOlChiki-SemiBold.ttf",
+     "fonts/NotoSansOlChiki/full/variable-ttf/NotoSansOlChiki[wght].ttf",
+     "fonts/NotoSansOlChiki/googlefonts/ttf/NotoSansOlChiki-Regular.ttf",
+     "fonts/NotoSansOlChiki/googlefonts/ttf/NotoSansOlChiki-Medium.ttf",
+     "fonts/NotoSansOlChiki/googlefonts/ttf/NotoSansOlChiki-Bold.ttf",
+     "fonts/NotoSansOlChiki/googlefonts/ttf/NotoSansOlChiki-SemiBold.ttf",
+     "fonts/NotoSansOlChiki/googlefonts/variable-ttf/NotoSansOlChiki[wght].ttf",
+     "fonts/NotoSansOlChiki/unhinted/slim-variable-ttf/NotoSansOlChiki[wght].ttf",
+     "fonts/NotoSansOlChiki/unhinted/ttf/NotoSansOlChiki-Regular.ttf",
+     "fonts/NotoSansOlChiki/unhinted/ttf/NotoSansOlChiki-Medium.ttf",
+     "fonts/NotoSansOlChiki/unhinted/ttf/NotoSansOlChiki-Bold.ttf",
+     "fonts/NotoSansOlChiki/unhinted/ttf/NotoSansOlChiki-SemiBold.ttf",
+     "fonts/NotoSansOlChiki/unhinted/variable-ttf/NotoSansOlChiki[wght].ttf",
+     "fonts/NotoSansOlChiki/hinted/ttf/NotoSansOlChiki-Regular.ttf",
+     "fonts/NotoSansOlChiki/hinted/ttf/NotoSansOlChiki-Medium.ttf",
+     "fonts/NotoSansOlChiki/hinted/ttf/NotoSansOlChiki-Bold.ttf",
+     "fonts/NotoSansOlChiki/hinted/ttf/NotoSansOlChiki-SemiBold.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Ol Chiki v2.003\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-02T06:28:51",
+     "url": "https://github.com/notofonts/ol-chiki/releases/tag/NotoSansOlChiki-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansOlChiki-v2.003"
+  ]
+ },
  "old-hungarian": {},
  "old-hungarian-ui": {},
  "old-italic": {},
@@ -5719,8 +5756,48 @@
    "NotoSansOriya-v2.003"
   ]
  },
- "osage": {},
- "osmanya": {},
+ "osage": {
+  "families": {
+   "Noto Sans Osage": {
+    "files": [
+     "fonts/NotoSansOsage/full/ttf/NotoSansOsage-Regular.ttf",
+     "fonts/NotoSansOsage/googlefonts/ttf/NotoSansOsage-Regular.ttf",
+     "fonts/NotoSansOsage/unhinted/ttf/NotoSansOsage-Regular.ttf",
+     "fonts/NotoSansOsage/hinted/ttf/NotoSansOsage-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Osage v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-02T06:58:14",
+     "url": "https://github.com/notofonts/osage/releases/tag/NotoSansOsage-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansOsage-v2.002"
+  ]
+ },
+ "osmanya": {
+  "families": {
+   "Noto Sans Osmanya": {
+    "files": [
+     "fonts/NotoSansOsmanya/full/ttf/NotoSansOsmanya-Regular.ttf",
+     "fonts/NotoSansOsmanya/googlefonts/ttf/NotoSansOsmanya-Regular.ttf",
+     "fonts/NotoSansOsmanya/unhinted/ttf/NotoSansOsmanya-Regular.ttf",
+     "fonts/NotoSansOsmanya/hinted/ttf/NotoSansOsmanya-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Osmanya v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-02T06:59:23",
+     "url": "https://github.com/notofonts/osmanya/releases/tag/NotoSansOsmanya-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansOsmanya-v2.001"
+  ]
+ },
  "pahawh-hmong": {
   "families": {
    "Noto Sans Pahawh Hmong": {
@@ -5743,14 +5820,74 @@
   ]
  },
  "palmyrene": {},
- "pau-cin-hau": {},
+ "pau-cin-hau": {
+  "families": {
+   "Noto Sans Pau Cin Hau": {
+    "files": [
+     "fonts/NotoSansPauCinHau/full/ttf/NotoSansPauCinHau-Regular.ttf",
+     "fonts/NotoSansPauCinHau/googlefonts/ttf/NotoSansPauCinHau-Regular.ttf",
+     "fonts/NotoSansPauCinHau/unhinted/ttf/NotoSansPauCinHau-Regular.ttf",
+     "fonts/NotoSansPauCinHau/hinted/ttf/NotoSansPauCinHau-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Pau Cin Hau v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-02T07:11:20",
+     "url": "https://github.com/notofonts/pau-cin-hau/releases/tag/NotoSansPauCinHau-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansPauCinHau-v2.002"
+  ]
+ },
  "phags-pa": {},
  "phoenician": {},
  "psalter-pahlavi": {},
- "rejang": {},
+ "rejang": {
+  "families": {
+   "Noto Sans Rejang": {
+    "files": [
+     "fonts/NotoSansRejang/full/ttf/NotoSansRejang-Regular.ttf",
+     "fonts/NotoSansRejang/googlefonts/ttf/NotoSansRejang-Regular.ttf",
+     "fonts/NotoSansRejang/unhinted/ttf/NotoSansRejang-Regular.ttf",
+     "fonts/NotoSansRejang/hinted/ttf/NotoSansRejang-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Rejang v2.001\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes an issue where some mark glyphs overlapped preceding or following bases (#1)\n",
+     "published": "2022-09-02T07:08:26",
+     "url": "https://github.com/notofonts/rejang/releases/tag/NotoSansRejang-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansRejang-v2.001"
+  ]
+ },
  "runic": {},
  "samaritan": {},
- "saurashtra": {},
+ "saurashtra": {
+  "families": {
+   "Noto Sans Saurashtra": {
+    "files": [
+     "fonts/NotoSansSaurashtra/full/ttf/NotoSansSaurashtra-Regular.ttf",
+     "fonts/NotoSansSaurashtra/googlefonts/ttf/NotoSansSaurashtra-Regular.ttf",
+     "fonts/NotoSansSaurashtra/unhinted/ttf/NotoSansSaurashtra-Regular.ttf",
+     "fonts/NotoSansSaurashtra/hinted/ttf/NotoSansSaurashtra-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Saurashtra v2.001\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes a mispositioned virama glyph (#2)\n",
+     "published": "2022-09-02T09:39:21",
+     "url": "https://github.com/notofonts/saurashtra/releases/tag/NotoSansSaurashtra-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansSaurashtra-v2.001"
+  ]
+ },
  "sharada": {},
  "shavian": {},
  "siddham": {},
@@ -6149,7 +6286,43 @@
   ]
  },
  "sogdian": {},
- "sora-sompeng": {},
+ "sora-sompeng": {
+  "families": {
+   "Noto Sans Sora Sompeng": {
+    "files": [
+     "fonts/NotoSansSoraSompeng/full/slim-variable-ttf/NotoSansSoraSompeng[wght].ttf",
+     "fonts/NotoSansSoraSompeng/full/ttf/NotoSansSoraSompeng-Regular.ttf",
+     "fonts/NotoSansSoraSompeng/full/ttf/NotoSansSoraSompeng-SemiBold.ttf",
+     "fonts/NotoSansSoraSompeng/full/ttf/NotoSansSoraSompeng-Medium.ttf",
+     "fonts/NotoSansSoraSompeng/full/ttf/NotoSansSoraSompeng-Bold.ttf",
+     "fonts/NotoSansSoraSompeng/full/variable-ttf/NotoSansSoraSompeng[wght].ttf",
+     "fonts/NotoSansSoraSompeng/googlefonts/ttf/NotoSansSoraSompeng-Regular.ttf",
+     "fonts/NotoSansSoraSompeng/googlefonts/ttf/NotoSansSoraSompeng-Medium.ttf",
+     "fonts/NotoSansSoraSompeng/googlefonts/ttf/NotoSansSoraSompeng-Bold.ttf",
+     "fonts/NotoSansSoraSompeng/googlefonts/variable-ttf/NotoSansSoraSompeng[wght].ttf",
+     "fonts/NotoSansSoraSompeng/unhinted/slim-variable-ttf/NotoSansSoraSompeng[wght].ttf",
+     "fonts/NotoSansSoraSompeng/unhinted/ttf/NotoSansSoraSompeng-Regular.ttf",
+     "fonts/NotoSansSoraSompeng/unhinted/ttf/NotoSansSoraSompeng-SemiBold.ttf",
+     "fonts/NotoSansSoraSompeng/unhinted/ttf/NotoSansSoraSompeng-Medium.ttf",
+     "fonts/NotoSansSoraSompeng/unhinted/ttf/NotoSansSoraSompeng-Bold.ttf",
+     "fonts/NotoSansSoraSompeng/unhinted/variable-ttf/NotoSansSoraSompeng[wght].ttf",
+     "fonts/NotoSansSoraSompeng/hinted/ttf/NotoSansSoraSompeng-Regular.ttf",
+     "fonts/NotoSansSoraSompeng/hinted/ttf/NotoSansSoraSompeng-SemiBold.ttf",
+     "fonts/NotoSansSoraSompeng/hinted/ttf/NotoSansSoraSompeng-Medium.ttf",
+     "fonts/NotoSansSoraSompeng/hinted/ttf/NotoSansSoraSompeng-Bold.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noro Sans Sora Sompeng v2.101\n\nThis release fixes a number of fontbakery fails\n",
+     "published": "2022-09-02T09:03:30",
+     "url": "https://github.com/notofonts/sora-sompeng/releases/tag/NotoSansSoraSompeng-v2.101",
+     "version": "v2.101"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansSoraSompeng-v2.101"
+  ]
+ },
  "soyombo": {},
  "sundanese": {},
  "syloti-nagri": {},

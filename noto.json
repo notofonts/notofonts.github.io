@@ -8947,7 +8947,40 @@
   "title": "Noto Ogham"
  },
  "ol-chiki": {
-  "families": {},
+  "families": {
+   "Noto Sans Ol Chiki": {
+    "files": {
+     "full": [
+      "fonts/NotoSansOlChiki/full/slim-variable-ttf/NotoSansOlChiki[wght].ttf",
+      "fonts/NotoSansOlChiki/full/ttf/NotoSansOlChiki-Bold.ttf",
+      "fonts/NotoSansOlChiki/full/ttf/NotoSansOlChiki-Medium.ttf",
+      "fonts/NotoSansOlChiki/full/ttf/NotoSansOlChiki-Regular.ttf",
+      "fonts/NotoSansOlChiki/full/ttf/NotoSansOlChiki-SemiBold.ttf",
+      "fonts/NotoSansOlChiki/full/variable-ttf/NotoSansOlChiki[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansOlChiki/hinted/ttf/NotoSansOlChiki-Bold.ttf",
+      "fonts/NotoSansOlChiki/hinted/ttf/NotoSansOlChiki-Medium.ttf",
+      "fonts/NotoSansOlChiki/hinted/ttf/NotoSansOlChiki-Regular.ttf",
+      "fonts/NotoSansOlChiki/hinted/ttf/NotoSansOlChiki-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansOlChiki/unhinted/slim-variable-ttf/NotoSansOlChiki[wght].ttf",
+      "fonts/NotoSansOlChiki/unhinted/ttf/NotoSansOlChiki-Bold.ttf",
+      "fonts/NotoSansOlChiki/unhinted/ttf/NotoSansOlChiki-Medium.ttf",
+      "fonts/NotoSansOlChiki/unhinted/ttf/NotoSansOlChiki-Regular.ttf",
+      "fonts/NotoSansOlChiki/unhinted/ttf/NotoSansOlChiki-SemiBold.ttf",
+      "fonts/NotoSansOlChiki/unhinted/variable-ttf/NotoSansOlChiki[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Ol Chiki v2.003\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-02T06:28:51",
+     "url": "https://github.com/notofonts/ol-chiki/releases/tag/NotoSansOlChiki-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/ol-chiki",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/ol-chiki",
@@ -9192,14 +9225,54 @@
   "title": "Noto Oriya"
  },
  "osage": {
-  "families": {},
+  "families": {
+   "Noto Sans Osage": {
+    "files": {
+     "full": [
+      "fonts/NotoSansOsage/full/ttf/NotoSansOsage-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansOsage/hinted/ttf/NotoSansOsage-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansOsage/unhinted/ttf/NotoSansOsage-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Osage v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-02T06:58:14",
+     "url": "https://github.com/notofonts/osage/releases/tag/NotoSansOsage-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/osage",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/osage",
   "title": "Noto Osage"
  },
  "osmanya": {
-  "families": {},
+  "families": {
+   "Noto Sans Osmanya": {
+    "files": {
+     "full": [
+      "fonts/NotoSansOsmanya/full/ttf/NotoSansOsmanya-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansOsmanya/hinted/ttf/NotoSansOsmanya-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansOsmanya/unhinted/ttf/NotoSansOsmanya-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Osmanya v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-02T06:59:23",
+     "url": "https://github.com/notofonts/osmanya/releases/tag/NotoSansOsmanya-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/osmanya",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/osmanya",
@@ -9251,7 +9324,27 @@
   "title": "Noto Palmyrene"
  },
  "pau-cin-hau": {
-  "families": {},
+  "families": {
+   "Noto Sans Pau Cin Hau": {
+    "files": {
+     "full": [
+      "fonts/NotoSansPauCinHau/full/ttf/NotoSansPauCinHau-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansPauCinHau/hinted/ttf/NotoSansPauCinHau-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansPauCinHau/unhinted/ttf/NotoSansPauCinHau-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Pau Cin Hau v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-02T07:11:20",
+     "url": "https://github.com/notofonts/pau-cin-hau/releases/tag/NotoSansPauCinHau-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/pau-cin-hau",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/pau-cin-hau",
@@ -9302,9 +9395,34 @@
   "title": "Noto Psalter Pahlavi"
  },
  "rejang": {
-  "families": {},
+  "families": {
+   "Noto Sans Rejang": {
+    "files": {
+     "full": [
+      "fonts/NotoSansRejang/full/ttf/NotoSansRejang-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansRejang/hinted/ttf/NotoSansRejang-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansRejang/unhinted/ttf/NotoSansRejang-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Rejang v2.001\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes an issue where some mark glyphs overlapped preceding or following bases (#1)\n",
+     "published": "2022-09-02T07:08:26",
+     "url": "https://github.com/notofonts/rejang/releases/tag/NotoSansRejang-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/rejang",
   "issues": [
+   {
+    "number": 2,
+    "title": "U+A952 REJANG CONSONANT SIGN H should be spacing",
+    "url": "https://github.com/notofonts/rejang/issues/2"
+   },
    {
     "number": 1,
     "title": "Overlapping marks in Rejang",
@@ -9335,14 +9453,29 @@
   "title": "Noto Samaritan"
  },
  "saurashtra": {
-  "families": {},
+  "families": {
+   "Noto Sans Saurashtra": {
+    "files": {
+     "full": [
+      "fonts/NotoSansSaurashtra/full/ttf/NotoSansSaurashtra-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansSaurashtra/hinted/ttf/NotoSansSaurashtra-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansSaurashtra/unhinted/ttf/NotoSansSaurashtra-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Saurashtra v2.001\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes a mispositioned virama glyph (#2)\n",
+     "published": "2022-09-02T09:39:21",
+     "url": "https://github.com/notofonts/saurashtra/releases/tag/NotoSansSaurashtra-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/saurashtra",
   "issues": [
-   {
-    "number": 2,
-    "title": "Mispositioned virama after U+A8B4 SAURASHTRA CONSONANT SIGN HAARU",
-    "url": "https://github.com/notofonts/saurashtra/issues/2"
-   },
    {
     "number": 1,
     "title": "Missing Saurashtra conjuncts",
@@ -9850,7 +9983,40 @@
   "title": "Noto Sogdian"
  },
  "sora-sompeng": {
-  "families": {},
+  "families": {
+   "Noto Sans Sora Sompeng": {
+    "files": {
+     "full": [
+      "fonts/NotoSansSoraSompeng/full/slim-variable-ttf/NotoSansSoraSompeng[wght].ttf",
+      "fonts/NotoSansSoraSompeng/full/ttf/NotoSansSoraSompeng-Bold.ttf",
+      "fonts/NotoSansSoraSompeng/full/ttf/NotoSansSoraSompeng-Medium.ttf",
+      "fonts/NotoSansSoraSompeng/full/ttf/NotoSansSoraSompeng-Regular.ttf",
+      "fonts/NotoSansSoraSompeng/full/ttf/NotoSansSoraSompeng-SemiBold.ttf",
+      "fonts/NotoSansSoraSompeng/full/variable-ttf/NotoSansSoraSompeng[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansSoraSompeng/hinted/ttf/NotoSansSoraSompeng-Bold.ttf",
+      "fonts/NotoSansSoraSompeng/hinted/ttf/NotoSansSoraSompeng-Medium.ttf",
+      "fonts/NotoSansSoraSompeng/hinted/ttf/NotoSansSoraSompeng-Regular.ttf",
+      "fonts/NotoSansSoraSompeng/hinted/ttf/NotoSansSoraSompeng-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansSoraSompeng/unhinted/slim-variable-ttf/NotoSansSoraSompeng[wght].ttf",
+      "fonts/NotoSansSoraSompeng/unhinted/ttf/NotoSansSoraSompeng-Bold.ttf",
+      "fonts/NotoSansSoraSompeng/unhinted/ttf/NotoSansSoraSompeng-Medium.ttf",
+      "fonts/NotoSansSoraSompeng/unhinted/ttf/NotoSansSoraSompeng-Regular.ttf",
+      "fonts/NotoSansSoraSompeng/unhinted/ttf/NotoSansSoraSompeng-SemiBold.ttf",
+      "fonts/NotoSansSoraSompeng/unhinted/variable-ttf/NotoSansSoraSompeng[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noro Sans Sora Sompeng v2.101\n\nThis release fixes a number of fontbakery fails\n",
+     "published": "2022-09-02T09:03:30",
+     "url": "https://github.com/notofonts/sora-sompeng/releases/tag/NotoSansSoraSompeng-v2.101",
+     "version": "v2.101"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/sora-sompeng",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/sora-sompeng",
@@ -9883,11 +10049,6 @@
   "families": {},
   "gh_url": "https://notofonts.github.io/sundanese",
   "issues": [
-   {
-    "number": 4,
-    "title": "U+1B81  SUNDANESE SIGN PANGLAYAR = repha does not form ligature",
-    "url": "https://github.com/notofonts/sundanese/issues/4"
-   },
    {
     "number": 3,
     "title": "U+1BA1 SUNDANESE CONSONANT SIGN PAMINGKAL is not spacing",
