@@ -9419,6 +9419,11 @@
   "gh_url": "https://notofonts.github.io/rejang",
   "issues": [
    {
+    "number": 3,
+    "title": "U+A953 REJANG VIRAMA should be spacing",
+    "url": "https://github.com/notofonts/rejang/issues/3"
+   },
+   {
     "number": 2,
     "title": "U+A952 REJANG CONSONANT SIGN H should be spacing",
     "url": "https://github.com/notofonts/rejang/issues/2"
@@ -10049,11 +10054,6 @@
   "families": {},
   "gh_url": "https://notofonts.github.io/sundanese",
   "issues": [
-   {
-    "number": 3,
-    "title": "U+1BA1 SUNDANESE CONSONANT SIGN PAMINGKAL is not spacing",
-    "url": "https://github.com/notofonts/sundanese/issues/3"
-   },
    {
     "number": 2,
     "title": "U+1BAB SUNDANESE SIGN VIRAMA does not form conjuncts",
