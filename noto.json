@@ -7914,16 +7914,6 @@
   "gh_url": "https://notofonts.github.io/meetei-mayek",
   "issues": [
    {
-    "number": 5,
-    "title": "Rename Noto Sans MeeteiMayek as Noto Sans Meetei Mayek",
-    "url": "https://github.com/notofonts/meetei-mayek/issues/5"
-   },
-   {
-    "number": 2,
-    "title": "Questionable glyph for word-final U+ABED MEETEI MAYEK APUN IYEK",
-    "url": "https://github.com/notofonts/meetei-mayek/issues/2"
-   },
-   {
     "number": 1,
     "title": "No Meetei Mayek conjuncts",
     "url": "https://github.com/notofonts/meetei-mayek/issues/1"
@@ -10351,7 +10341,27 @@
   "title": "Noto Tagalog"
  },
  "tagbanwa": {
-  "families": {},
+  "families": {
+   "Noto Sans Tagbanwa": {
+    "files": {
+     "full": [
+      "fonts/NotoSansTagbanwa/full/ttf/NotoSansTagbanwa-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansTagbanwa/hinted/ttf/NotoSansTagbanwa-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansTagbanwa/unhinted/ttf/NotoSansTagbanwa-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Tagbanwa v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-05T07:53:59",
+     "url": "https://github.com/notofonts/tagbanwa/releases/tag/NotoSansTagbanwa-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/tagbanwa",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/tagbanwa",
@@ -11127,7 +11137,55 @@
   "title": "Noto Test (ONLY FOR TESTING)"
  },
  "thaana": {
-  "families": {},
+  "families": {
+   "Noto Sans Thaana": {
+    "files": {
+     "full": [
+      "fonts/NotoSansThaana/full/slim-variable-ttf/NotoSansThaana[wght].ttf",
+      "fonts/NotoSansThaana/full/ttf/NotoSansThaana-Black.ttf",
+      "fonts/NotoSansThaana/full/ttf/NotoSansThaana-Bold.ttf",
+      "fonts/NotoSansThaana/full/ttf/NotoSansThaana-ExtraBold.ttf",
+      "fonts/NotoSansThaana/full/ttf/NotoSansThaana-ExtraLight.ttf",
+      "fonts/NotoSansThaana/full/ttf/NotoSansThaana-Light.ttf",
+      "fonts/NotoSansThaana/full/ttf/NotoSansThaana-Medium.ttf",
+      "fonts/NotoSansThaana/full/ttf/NotoSansThaana-Regular.ttf",
+      "fonts/NotoSansThaana/full/ttf/NotoSansThaana-SemiBold.ttf",
+      "fonts/NotoSansThaana/full/ttf/NotoSansThaana-Thin.ttf",
+      "fonts/NotoSansThaana/full/variable-ttf/NotoSansThaana[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansThaana/hinted/ttf/NotoSansThaana-Black.ttf",
+      "fonts/NotoSansThaana/hinted/ttf/NotoSansThaana-Bold.ttf",
+      "fonts/NotoSansThaana/hinted/ttf/NotoSansThaana-ExtraBold.ttf",
+      "fonts/NotoSansThaana/hinted/ttf/NotoSansThaana-ExtraLight.ttf",
+      "fonts/NotoSansThaana/hinted/ttf/NotoSansThaana-Light.ttf",
+      "fonts/NotoSansThaana/hinted/ttf/NotoSansThaana-Medium.ttf",
+      "fonts/NotoSansThaana/hinted/ttf/NotoSansThaana-Regular.ttf",
+      "fonts/NotoSansThaana/hinted/ttf/NotoSansThaana-SemiBold.ttf",
+      "fonts/NotoSansThaana/hinted/ttf/NotoSansThaana-Thin.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansThaana/unhinted/slim-variable-ttf/NotoSansThaana[wght].ttf",
+      "fonts/NotoSansThaana/unhinted/ttf/NotoSansThaana-Black.ttf",
+      "fonts/NotoSansThaana/unhinted/ttf/NotoSansThaana-Bold.ttf",
+      "fonts/NotoSansThaana/unhinted/ttf/NotoSansThaana-ExtraBold.ttf",
+      "fonts/NotoSansThaana/unhinted/ttf/NotoSansThaana-ExtraLight.ttf",
+      "fonts/NotoSansThaana/unhinted/ttf/NotoSansThaana-Light.ttf",
+      "fonts/NotoSansThaana/unhinted/ttf/NotoSansThaana-Medium.ttf",
+      "fonts/NotoSansThaana/unhinted/ttf/NotoSansThaana-Regular.ttf",
+      "fonts/NotoSansThaana/unhinted/ttf/NotoSansThaana-SemiBold.ttf",
+      "fonts/NotoSansThaana/unhinted/ttf/NotoSansThaana-Thin.ttf",
+      "fonts/NotoSansThaana/unhinted/variable-ttf/NotoSansThaana[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Thaana v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-05T08:16:08",
+     "url": "https://github.com/notofonts/thaana/releases/tag/NotoSansThaana-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/thaana",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/thaana",
@@ -11891,15 +11949,42 @@
   "title": "Noto Tirhuta"
  },
  "toto": {
-  "families": {},
-  "gh_url": "https://notofonts.github.io/toto",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Questionable kerning of U+1E29D TOTO LETTER JA",
-    "url": "https://github.com/notofonts/toto/issues/1"
+  "families": {
+   "Noto Serif Toto": {
+    "files": {
+     "full": [
+      "fonts/NotoSerifToto/full/slim-variable-ttf/NotoSerifToto[wght].ttf",
+      "fonts/NotoSerifToto/full/ttf/NotoSerifToto-Bold.ttf",
+      "fonts/NotoSerifToto/full/ttf/NotoSerifToto-Medium.ttf",
+      "fonts/NotoSerifToto/full/ttf/NotoSerifToto-Regular.ttf",
+      "fonts/NotoSerifToto/full/ttf/NotoSerifToto-SemiBold.ttf",
+      "fonts/NotoSerifToto/full/variable-ttf/NotoSerifToto[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSerifToto/hinted/ttf/NotoSerifToto-Bold.ttf",
+      "fonts/NotoSerifToto/hinted/ttf/NotoSerifToto-Medium.ttf",
+      "fonts/NotoSerifToto/hinted/ttf/NotoSerifToto-Regular.ttf",
+      "fonts/NotoSerifToto/hinted/ttf/NotoSerifToto-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSerifToto/unhinted/slim-variable-ttf/NotoSerifToto[wght].ttf",
+      "fonts/NotoSerifToto/unhinted/ttf/NotoSerifToto-Bold.ttf",
+      "fonts/NotoSerifToto/unhinted/ttf/NotoSerifToto-Medium.ttf",
+      "fonts/NotoSerifToto/unhinted/ttf/NotoSerifToto-Regular.ttf",
+      "fonts/NotoSerifToto/unhinted/ttf/NotoSerifToto-SemiBold.ttf",
+      "fonts/NotoSerifToto/unhinted/variable-ttf/NotoSerifToto[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Serif Toto v2.001\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes clashes between the \"ja\" glyph and following glyphs (#1)\n",
+     "published": "2022-09-05T14:41:51",
+     "url": "https://github.com/notofonts/toto/releases/tag/NotoSerifToto-v2.001",
+     "version": "v2.001"
+    }
    }
-  ],
+  },
+  "gh_url": "https://notofonts.github.io/toto",
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/toto",
   "title": "Noto Toto"
  },
@@ -11911,7 +11996,27 @@
   "title": "Noto Ugaritic"
  },
  "vai": {
-  "families": {},
+  "families": {
+   "Noto Sans Vai": {
+    "files": {
+     "full": [
+      "fonts/NotoSansVai/full/ttf/NotoSansVai-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansVai/hinted/ttf/NotoSansVai-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansVai/unhinted/ttf/NotoSansVai-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Vai v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-05T15:23:18",
+     "url": "https://github.com/notofonts/vai/releases/tag/NotoSansVai-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/vai",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/vai",
@@ -11925,20 +12030,60 @@
   "title": "Noto Vithkuqi"
  },
  "wancho": {
-  "families": {},
+  "families": {
+   "Noto Sans Wancho": {
+    "files": {
+     "full": [
+      "fonts/NotoSansWancho/full/ttf/NotoSansWancho-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansWancho/hinted/ttf/NotoSansWancho-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansWancho/unhinted/ttf/NotoSansWancho-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Wancho v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-05T16:01:30",
+     "url": "https://github.com/notofonts/wancho/releases/tag/NotoSansWancho-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/wancho",
   "issues": [
    {
-    "number": 1,
-    "title": "Incomplete and unnecessary localization of ASCII punctuation in Wancho",
-    "url": "https://github.com/notofonts/wancho/issues/1"
+    "number": 2,
+    "title": "Kerning is not applied",
+    "url": "https://github.com/notofonts/wancho/issues/2"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/wancho",
   "title": "Noto Wancho"
  },
  "warang-citi": {
-  "families": {},
+  "families": {
+   "Noto Sans Warang Citi": {
+    "files": {
+     "full": [
+      "fonts/NotoSansWarangCiti/full/ttf/NotoSansWarangCiti-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansWarangCiti/hinted/ttf/NotoSansWarangCiti-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansWarangCiti/unhinted/ttf/NotoSansWarangCiti-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Warang Citi v3.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-05T16:00:03",
+     "url": "https://github.com/notofonts/warang-citi/releases/tag/NotoSansWarangCiti-v3.001",
+     "version": "v3.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/warang-citi",
   "issues": [
    {
@@ -11969,20 +12114,54 @@
   "title": "Noto Yezidi"
  },
  "yi": {
-  "families": {},
-  "gh_url": "https://notofonts.github.io/yi",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Support comma and fullwidth comma in Yi",
-    "url": "https://github.com/notofonts/yi/issues/1"
+  "families": {
+   "Noto Sans Yi": {
+    "files": {
+     "full": [
+      "fonts/NotoSansYi/full/ttf/NotoSansYi-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansYi/hinted/ttf/NotoSansYi-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansYi/unhinted/ttf/NotoSansYi-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Yi v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-05T16:00:46",
+     "url": "https://github.com/notofonts/yi/releases/tag/NotoSansYi-v2.001",
+     "version": "v2.001"
+    }
    }
-  ],
+  },
+  "gh_url": "https://notofonts.github.io/yi",
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/yi",
   "title": "Noto Yi"
  },
  "zanabazar-square": {
-  "families": {},
+  "families": {
+   "Noto Sans Zanabazar Square": {
+    "files": {
+     "full": [
+      "fonts/NotoSansZanabazarSquare/full/ttf/NotoSansZanabazarSquare-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansZanabazarSquare/hinted/ttf/NotoSansZanabazarSquare-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansZanabazarSquare/unhinted/ttf/NotoSansZanabazarSquare-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Zanabazar Square v2.003\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-05T16:22:14",
+     "url": "https://github.com/notofonts/zanabazar-square/releases/tag/NotoSansZanabazarSquare-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/zanabazar-square",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/zanabazar-square",
