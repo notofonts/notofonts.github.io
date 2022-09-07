@@ -2339,10 +2339,25 @@
      "url": "https://github.com/notofonts/grantha/releases/tag/NotoSansGrantha-v2.003",
      "version": "v2.003"
     }
+   },
+   "Noto Serif Grantha": {
+    "files": [
+     "fonts/NotoSerifGrantha/full/ttf/NotoSerifGrantha-Regular.ttf",
+     "fonts/NotoSerifGrantha/googlefonts/ttf/NotoSerifGrantha-Regular.ttf",
+     "fonts/NotoSerifGrantha/unhinted/ttf/NotoSerifGrantha-Regular.ttf",
+     "fonts/NotoSerifGrantha/hinted/ttf/NotoSerifGrantha-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Serif Grantha v2.004\n\nThis release fixes a number of fontbakery fails, as well as adding\nnames to the stylistic sets.\n",
+     "published": "2022-09-06T09:44:05",
+     "url": "https://github.com/notofonts/grantha/releases/tag/NotoSerifGrantha-v2.004",
+     "version": "v2.004"
+    }
    }
   },
   "known_releases": [
-   "NotoSansGrantha-v2.003"
+   "NotoSansGrantha-v2.003",
+   "NotoSerifGrantha-v2.004"
   ]
  },
  "gujarati": {
@@ -3351,7 +3366,36 @@
  "indic-siyaq-numbers": {},
  "inscriptional-pahlavi": {},
  "inscriptional-parthian": {},
- "javanese": {},
+ "javanese": {
+  "families": {
+   "Noto Sans Javanese": {
+    "files": [
+     "fonts/NotoSansJavanese/full/slim-variable-ttf/NotoSansJavanese[wght].ttf",
+     "fonts/NotoSansJavanese/full/ttf/NotoSansJavanese-Bold.ttf",
+     "fonts/NotoSansJavanese/full/ttf/NotoSansJavanese-Regular.ttf",
+     "fonts/NotoSansJavanese/full/variable-ttf/NotoSansJavanese[wght].ttf",
+     "fonts/NotoSansJavanese/googlefonts/ttf/NotoSansJavanese-Bold.ttf",
+     "fonts/NotoSansJavanese/googlefonts/ttf/NotoSansJavanese-Regular.ttf",
+     "fonts/NotoSansJavanese/googlefonts/variable-ttf/NotoSansJavanese[wght].ttf",
+     "fonts/NotoSansJavanese/unhinted/slim-variable-ttf/NotoSansJavanese[wght].ttf",
+     "fonts/NotoSansJavanese/unhinted/ttf/NotoSansJavanese-Bold.ttf",
+     "fonts/NotoSansJavanese/unhinted/ttf/NotoSansJavanese-Regular.ttf",
+     "fonts/NotoSansJavanese/unhinted/variable-ttf/NotoSansJavanese[wght].ttf",
+     "fonts/NotoSansJavanese/hinted/ttf/NotoSansJavanese-Bold.ttf",
+     "fonts/NotoSansJavanese/hinted/ttf/NotoSansJavanese-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Javanese v2.004\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes an issue where some pasangan forms took a second level instead of first level position (#3)\n* fixes an issue where above mark ligatures were not being formed (#7)\n",
+     "published": "2022-09-06T09:47:37",
+     "url": "https://github.com/notofonts/javanese/releases/tag/NotoSansJavanese-v2.004",
+     "version": "v2.004"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansJavanese-v2.004"
+  ]
+ },
  "kaithi": {},
  "kannada": {
   "families": {
@@ -4152,6 +4196,138 @@
      "version": "v2.002"
     }
    },
+   "Noto Sans Lao Looped": {
+    "files": [
+     "fonts/NotoSansLaoLooped/full/slim-variable-ttf/NotoSansLaoLooped[wght].ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-SemiCondensedThin.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-ExtraCondensedThin.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-CondensedThin.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-Condensed.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-SemiCondensedMedium.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-SemiCondensedBold.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-ExtraCondensedExtraBold.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-ExtraCondensedMedium.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-SemiCondensedExtraBold.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-CondensedMedium.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-ExtraCondensedBlack.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-Black.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-SemiCondensed.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-ExtraCondensed.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-SemiCondensedLight.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-SemiCondensedSemiBold.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-Medium.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-Light.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-SemiCondensedExtraLight.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-Regular.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-Thin.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-CondensedSemiBold.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-Bold.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-SemiBold.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-SemiCondensedBlack.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-ExtraCondensedSemiBold.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-CondensedLight.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-ExtraCondensedLight.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-CondensedExtraLight.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-CondensedBold.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-ExtraBold.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-ExtraCondensedExtraLight.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-CondensedBlack.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-ExtraLight.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-CondensedExtraBold.ttf",
+     "fonts/NotoSansLaoLooped/full/ttf/NotoSansLaoLooped-ExtraCondensedBold.ttf",
+     "fonts/NotoSansLaoLooped/full/variable-ttf/NotoSansLaoLooped[wdth,wght].ttf",
+     "fonts/NotoSansLaoLooped/googlefonts/ttf/NotoSansLaoLooped-Black.ttf",
+     "fonts/NotoSansLaoLooped/googlefonts/ttf/NotoSansLaoLooped-Medium.ttf",
+     "fonts/NotoSansLaoLooped/googlefonts/ttf/NotoSansLaoLooped-Light.ttf",
+     "fonts/NotoSansLaoLooped/googlefonts/ttf/NotoSansLaoLooped-Regular.ttf",
+     "fonts/NotoSansLaoLooped/googlefonts/ttf/NotoSansLaoLooped-Thin.ttf",
+     "fonts/NotoSansLaoLooped/googlefonts/ttf/NotoSansLaoLooped-Bold.ttf",
+     "fonts/NotoSansLaoLooped/googlefonts/ttf/NotoSansLaoLooped-SemiBold.ttf",
+     "fonts/NotoSansLaoLooped/googlefonts/ttf/NotoSansLaoLooped-ExtraBold.ttf",
+     "fonts/NotoSansLaoLooped/googlefonts/ttf/NotoSansLaoLooped-ExtraLight.ttf",
+     "fonts/NotoSansLaoLooped/googlefonts/variable-ttf/NotoSansLaoLooped[wdth,wght].ttf",
+     "fonts/NotoSansLaoLooped/unhinted/slim-variable-ttf/NotoSansLaoLooped[wght].ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-SemiCondensedThin.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-ExtraCondensedThin.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-CondensedThin.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-Condensed.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-SemiCondensedMedium.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-SemiCondensedBold.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-ExtraCondensedExtraBold.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-ExtraCondensedMedium.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-SemiCondensedExtraBold.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-CondensedMedium.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-ExtraCondensedBlack.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-Black.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-SemiCondensed.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-ExtraCondensed.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-SemiCondensedLight.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-SemiCondensedSemiBold.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-Medium.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-Light.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-SemiCondensedExtraLight.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-Regular.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-Thin.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-CondensedSemiBold.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-Bold.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-SemiBold.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-SemiCondensedBlack.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-ExtraCondensedSemiBold.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-CondensedLight.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-ExtraCondensedLight.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-CondensedExtraLight.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-CondensedBold.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-ExtraBold.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-ExtraCondensedExtraLight.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-CondensedBlack.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-ExtraLight.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-CondensedExtraBold.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/ttf/NotoSansLaoLooped-ExtraCondensedBold.ttf",
+     "fonts/NotoSansLaoLooped/unhinted/variable-ttf/NotoSansLaoLooped[wdth,wght].ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-SemiCondensedThin.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-ExtraCondensedThin.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-CondensedThin.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-Condensed.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-SemiCondensedMedium.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-SemiCondensedBold.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-ExtraCondensedExtraBold.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-ExtraCondensedMedium.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-SemiCondensedExtraBold.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-CondensedMedium.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-ExtraCondensedBlack.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-Black.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-SemiCondensed.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-ExtraCondensed.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-SemiCondensedLight.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-SemiCondensedSemiBold.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-Medium.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-Light.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-SemiCondensedExtraLight.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-Regular.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-Thin.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-CondensedSemiBold.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-Bold.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-SemiBold.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-SemiCondensedBlack.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-ExtraCondensedSemiBold.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-CondensedLight.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-ExtraCondensedLight.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-CondensedExtraLight.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-CondensedBold.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-ExtraBold.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-ExtraCondensedExtraLight.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-CondensedBlack.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-ExtraLight.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-CondensedExtraBold.ttf",
+     "fonts/NotoSansLaoLooped/hinted/ttf/NotoSansLaoLooped-ExtraCondensedBold.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Lao Looped v1.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-06T09:45:28",
+     "url": "https://github.com/notofonts/lao/releases/tag/NotoSansLaoLooped-v1.001",
+     "version": "v1.001"
+    }
+   },
    "Noto Serif Lao": {
     "files": [
      "fonts/NotoSerifLao/full/ttf/NotoSerifLao-SemiCondensed.ttf",
@@ -4287,7 +4463,8 @@
   },
   "known_releases": [
    "NotoSansLao-v2.002",
-   "NotoSerifLao-v2.002"
+   "NotoSerifLao-v2.002",
+   "NotoSansLaoLooped-v1.001"
   ]
  },
  "latin-greek-cyrillic": {
@@ -4750,7 +4927,27 @@
    "NotoSansMono-v2.010"
   ]
  },
- "lepcha": {},
+ "lepcha": {
+  "families": {
+   "Noto Sans Lepcha": {
+    "files": [
+     "fonts/NotoSansLepcha/full/ttf/NotoSansLepcha-Regular.ttf",
+     "fonts/NotoSansLepcha/googlefonts/ttf/NotoSansLepcha-Regular.ttf",
+     "fonts/NotoSansLepcha/unhinted/ttf/NotoSansLepcha-Regular.ttf",
+     "fonts/NotoSansLepcha/hinted/ttf/NotoSansLepcha-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Lepcha v2.004\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes an issue where nukta/e sequences were colliding. (#1)\n",
+     "published": "2022-09-06T11:22:08",
+     "url": "https://github.com/notofonts/lepcha/releases/tag/NotoSansLepcha-v2.004",
+     "version": "v2.004"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansLepcha-v2.004"
+  ]
+ },
  "limbu": {
   "families": {
    "Noto Sans Limbu": {
@@ -5128,7 +5325,27 @@
  "mandaic": {},
  "manichaean": {},
  "marchen": {},
- "masaram-gondi": {},
+ "masaram-gondi": {
+  "families": {
+   "Noto Sans Masaram Gondi": {
+    "files": [
+     "fonts/NotoSansMasaramGondi/full/ttf/NotoSansMasaramGondi-Regular.ttf",
+     "fonts/NotoSansMasaramGondi/googlefonts/ttf/NotoSansMasaramGondi-Regular.ttf",
+     "fonts/NotoSansMasaramGondi/unhinted/ttf/NotoSansMasaramGondi-Regular.ttf",
+     "fonts/NotoSansMasaramGondi/hinted/ttf/NotoSansMasaramGondi-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Masaram Gondi v1.004\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes overlaps between vowel signs and visarga (#2)\n",
+     "published": "2022-09-06T12:16:51",
+     "url": "https://github.com/notofonts/masaram-gondi/releases/tag/NotoSansMasaramGondi-v1.004",
+     "version": "v1.004"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansMasaramGondi-v1.004"
+  ]
+ },
  "math": {},
  "mayan-numerals": {},
  "medefaidrin": {
@@ -5169,7 +5386,64 @@
    "NotoSansMedefaidrin-v1.002"
   ]
  },
- "meetei-mayek": {},
+ "meetei-mayek": {
+  "families": {
+   "Noto Sans Meetei Mayek": {
+    "files": [
+     "fonts/NotoSansMeeteiMayek/full/slim-variable-ttf/NotoSansMeeteiMayek[wght].ttf",
+     "fonts/NotoSansMeeteiMayek/full/ttf/NotoSansMeeteiMayek-ExtraLight.ttf",
+     "fonts/NotoSansMeeteiMayek/full/ttf/NotoSansMeeteiMayek-Bold.ttf",
+     "fonts/NotoSansMeeteiMayek/full/ttf/NotoSansMeeteiMayek-Regular.ttf",
+     "fonts/NotoSansMeeteiMayek/full/ttf/NotoSansMeeteiMayek-SemiBold.ttf",
+     "fonts/NotoSansMeeteiMayek/full/ttf/NotoSansMeeteiMayek-Light.ttf",
+     "fonts/NotoSansMeeteiMayek/full/ttf/NotoSansMeeteiMayek-ExtraBold.ttf",
+     "fonts/NotoSansMeeteiMayek/full/ttf/NotoSansMeeteiMayek-Thin.ttf",
+     "fonts/NotoSansMeeteiMayek/full/ttf/NotoSansMeeteiMayek-Medium.ttf",
+     "fonts/NotoSansMeeteiMayek/full/ttf/NotoSansMeeteiMayek-Black.ttf",
+     "fonts/NotoSansMeeteiMayek/full/variable-ttf/NotoSansMeeteiMayek[wght].ttf",
+     "fonts/NotoSansMeeteiMayek/googlefonts/ttf/NotoSansMeeteiMayek-ExtraLight.ttf",
+     "fonts/NotoSansMeeteiMayek/googlefonts/ttf/NotoSansMeeteiMayek-Bold.ttf",
+     "fonts/NotoSansMeeteiMayek/googlefonts/ttf/NotoSansMeeteiMayek-Regular.ttf",
+     "fonts/NotoSansMeeteiMayek/googlefonts/ttf/NotoSansMeeteiMayek-SemiBold.ttf",
+     "fonts/NotoSansMeeteiMayek/googlefonts/ttf/NotoSansMeeteiMayek-Light.ttf",
+     "fonts/NotoSansMeeteiMayek/googlefonts/ttf/NotoSansMeeteiMayek-ExtraBold.ttf",
+     "fonts/NotoSansMeeteiMayek/googlefonts/ttf/NotoSansMeeteiMayek-Thin.ttf",
+     "fonts/NotoSansMeeteiMayek/googlefonts/ttf/NotoSansMeeteiMayek-Medium.ttf",
+     "fonts/NotoSansMeeteiMayek/googlefonts/ttf/NotoSansMeeteiMayek-Black.ttf",
+     "fonts/NotoSansMeeteiMayek/googlefonts/variable-ttf/NotoSansMeeteiMayek[wght].ttf",
+     "fonts/NotoSansMeeteiMayek/unhinted/slim-variable-ttf/NotoSansMeeteiMayek[wght].ttf",
+     "fonts/NotoSansMeeteiMayek/unhinted/ttf/NotoSansMeeteiMayek-ExtraLight.ttf",
+     "fonts/NotoSansMeeteiMayek/unhinted/ttf/NotoSansMeeteiMayek-Bold.ttf",
+     "fonts/NotoSansMeeteiMayek/unhinted/ttf/NotoSansMeeteiMayek-Regular.ttf",
+     "fonts/NotoSansMeeteiMayek/unhinted/ttf/NotoSansMeeteiMayek-SemiBold.ttf",
+     "fonts/NotoSansMeeteiMayek/unhinted/ttf/NotoSansMeeteiMayek-Light.ttf",
+     "fonts/NotoSansMeeteiMayek/unhinted/ttf/NotoSansMeeteiMayek-ExtraBold.ttf",
+     "fonts/NotoSansMeeteiMayek/unhinted/ttf/NotoSansMeeteiMayek-Thin.ttf",
+     "fonts/NotoSansMeeteiMayek/unhinted/ttf/NotoSansMeeteiMayek-Medium.ttf",
+     "fonts/NotoSansMeeteiMayek/unhinted/ttf/NotoSansMeeteiMayek-Black.ttf",
+     "fonts/NotoSansMeeteiMayek/unhinted/variable-ttf/NotoSansMeeteiMayek[wght].ttf",
+     "fonts/NotoSansMeeteiMayek/hinted/ttf/NotoSansMeeteiMayek-ExtraLight.ttf",
+     "fonts/NotoSansMeeteiMayek/hinted/ttf/NotoSansMeeteiMayek-Bold.ttf",
+     "fonts/NotoSansMeeteiMayek/hinted/ttf/NotoSansMeeteiMayek-Regular.ttf",
+     "fonts/NotoSansMeeteiMayek/hinted/ttf/NotoSansMeeteiMayek-SemiBold.ttf",
+     "fonts/NotoSansMeeteiMayek/hinted/ttf/NotoSansMeeteiMayek-Light.ttf",
+     "fonts/NotoSansMeeteiMayek/hinted/ttf/NotoSansMeeteiMayek-ExtraBold.ttf",
+     "fonts/NotoSansMeeteiMayek/hinted/ttf/NotoSansMeeteiMayek-Thin.ttf",
+     "fonts/NotoSansMeeteiMayek/hinted/ttf/NotoSansMeeteiMayek-Medium.ttf",
+     "fonts/NotoSansMeeteiMayek/hinted/ttf/NotoSansMeeteiMayek-Black.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Meetei Mayek v2.002\n\nThis release fixes a number of fontabkery fails.\n",
+     "published": "2022-09-06T12:40:05",
+     "url": "https://github.com/notofonts/meetei-mayek/releases/tag/NotoSansMeeteiMayek-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansMeeteiMayek-v2.002"
+  ]
+ },
  "mende-kikakui": {
   "families": {
    "Noto Sans Mende Kikakui": {
