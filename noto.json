@@ -1790,6 +1790,11 @@
   "gh_url": "https://notofonts.github.io/cham",
   "issues": [
    {
+    "number": 8,
+    "title": "'calt' should follow 'rlig'",
+    "url": "https://github.com/notofonts/cham/issues/8"
+   },
+   {
     "number": 7,
     "title": "Subjoined marks overlap glyphs in following clusters",
     "url": "https://github.com/notofonts/cham/issues/7"
@@ -3934,6 +3939,11 @@
   },
   "gh_url": "https://notofonts.github.io/gurmukhi",
   "issues": [
+   {
+    "number": 22,
+    "title": "'calt' is inconsistent about which clusters to separate",
+    "url": "https://github.com/notofonts/gurmukhi/issues/22"
+   },
    {
     "number": 21,
     "title": "Handling of I-matra + tippi",
