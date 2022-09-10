@@ -8953,6 +8953,11 @@
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
+    "number": 48,
+    "title": "Adding the letter \u06ad to nastaliq",
+    "url": "https://github.com/notofonts/nastaliq/issues/48"
+   },
+   {
     "number": 47,
     "title": "Localized form of digits do not appear when used with a subtending mark",
     "url": "https://github.com/notofonts/nastaliq/issues/47"
