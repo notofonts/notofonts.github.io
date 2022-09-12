@@ -8384,9 +8384,34 @@
   "title": "Noto Multani"
  },
  "music": {
-  "families": {},
+  "families": {
+   "Noto Music": {
+    "files": {
+     "full": [
+      "fonts/NotoMusic/full/ttf/NotoMusic-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoMusic/hinted/ttf/NotoMusic-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoMusic/unhinted/ttf/NotoMusic-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Music v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-11T19:44:14",
+     "url": "https://github.com/notofonts/music/releases/tag/NotoMusic-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/music",
   "issues": [
+   {
+    "number": 9,
+    "title": "Overlapping U+1D17C MUSICAL SYMBOL COMBINING STACCATO",
+    "url": "https://github.com/notofonts/music/issues/9"
+   },
    {
     "number": 8,
     "title": "Any plans to make the font SMuFL-compatible?",

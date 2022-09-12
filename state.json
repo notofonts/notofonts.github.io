@@ -5531,7 +5531,27 @@
    "NotoSansMultani-v2.001"
   ]
  },
- "music": {},
+ "music": {
+  "families": {
+   "Noto Music": {
+    "files": [
+     "fonts/NotoMusic/full/ttf/NotoMusic-Regular.ttf",
+     "fonts/NotoMusic/googlefonts/ttf/NotoMusic-Regular.ttf",
+     "fonts/NotoMusic/unhinted/ttf/NotoMusic-Regular.ttf",
+     "fonts/NotoMusic/hinted/ttf/NotoMusic-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Music v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-11T19:44:14",
+     "url": "https://github.com/notofonts/music/releases/tag/NotoMusic-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoMusic-v2.002"
+  ]
+ },
  "myanmar": {
   "families": {
    "Noto Sans Myanmar": {
