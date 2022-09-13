@@ -8247,11 +8247,6 @@
   "gh_url": "https://notofonts.github.io/modi",
   "issues": [
    {
-    "number": 10,
-    "title": "Modi kr\u0325 looks like dka",
-    "url": "https://github.com/notofonts/modi/issues/10"
-   },
-   {
     "number": 9,
     "title": "Request for serif style font for Modi script",
     "url": "https://github.com/notofonts/modi/issues/9"
@@ -8267,34 +8262,14 @@
     "url": "https://github.com/notofonts/modi/issues/7"
    },
    {
-    "number": 6,
-    "title": "Incorrect rendering of Modi k\u0101r\u0101",
-    "url": "https://github.com/notofonts/modi/issues/6"
-   },
-   {
     "number": 5,
     "title": "Wrong contextualization of subjoined Modi ra",
     "url": "https://github.com/notofonts/modi/issues/5"
    },
    {
-    "number": 4,
-    "title": "Modi d\u00f1a looks like dna",
-    "url": "https://github.com/notofonts/modi/issues/4"
-   },
-   {
     "number": 3,
     "title": "Inappropriate Glyphs",
     "url": "https://github.com/notofonts/modi/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Modi repha breaks ligatures",
-    "url": "https://github.com/notofonts/modi/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Contextually inappropriate half forms in Modi",
-    "url": "https://github.com/notofonts/modi/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/modi",
@@ -8441,6 +8416,11 @@
     "number": 1,
     "title": "Wrong positions for Byzantine musical symbols with contrasting heights",
     "url": "https://github.com/notofonts/music/issues/1"
+   },
+   {
+    "number": 6,
+    "title": "Eighth note (\u266a, U+266A) size",
+    "url": "https://github.com/notofonts/music/issues/6"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/music",
@@ -9072,7 +9052,40 @@
   "title": "Noto Nastaliq"
  },
  "new-tai-lue": {
-  "families": {},
+  "families": {
+   "Noto Sans New Tai Lue": {
+    "files": {
+     "full": [
+      "fonts/NotoSansNewTaiLue/full/slim-variable-ttf/NotoSansNewTaiLue[wght].ttf",
+      "fonts/NotoSansNewTaiLue/full/ttf/NotoSansNewTaiLue-Bold.ttf",
+      "fonts/NotoSansNewTaiLue/full/ttf/NotoSansNewTaiLue-Medium.ttf",
+      "fonts/NotoSansNewTaiLue/full/ttf/NotoSansNewTaiLue-Regular.ttf",
+      "fonts/NotoSansNewTaiLue/full/ttf/NotoSansNewTaiLue-Semibold.ttf",
+      "fonts/NotoSansNewTaiLue/full/variable-ttf/NotoSansNewTaiLue[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansNewTaiLue/hinted/ttf/NotoSansNewTaiLue-Bold.ttf",
+      "fonts/NotoSansNewTaiLue/hinted/ttf/NotoSansNewTaiLue-Medium.ttf",
+      "fonts/NotoSansNewTaiLue/hinted/ttf/NotoSansNewTaiLue-Regular.ttf",
+      "fonts/NotoSansNewTaiLue/hinted/ttf/NotoSansNewTaiLue-Semibold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansNewTaiLue/unhinted/slim-variable-ttf/NotoSansNewTaiLue[wght].ttf",
+      "fonts/NotoSansNewTaiLue/unhinted/ttf/NotoSansNewTaiLue-Bold.ttf",
+      "fonts/NotoSansNewTaiLue/unhinted/ttf/NotoSansNewTaiLue-Medium.ttf",
+      "fonts/NotoSansNewTaiLue/unhinted/ttf/NotoSansNewTaiLue-Regular.ttf",
+      "fonts/NotoSansNewTaiLue/unhinted/ttf/NotoSansNewTaiLue-Semibold.ttf",
+      "fonts/NotoSansNewTaiLue/unhinted/variable-ttf/NotoSansNewTaiLue[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans New Tai Lue v2.003\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-12T10:21:19",
+     "url": "https://github.com/notofonts/new-tai-lue/releases/tag/NotoSansNewTaiLue-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/new-tai-lue",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/new-tai-lue",
@@ -9747,38 +9760,33 @@
   "title": "Noto Saurashtra"
  },
  "sharada": {
-  "families": {},
+  "families": {
+   "Noto Sans Sharada": {
+    "files": {
+     "full": [
+      "fonts/NotoSansSharada/full/ttf/NotoSansSharada-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansSharada/hinted/ttf/NotoSansSharada-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansSharada/unhinted/ttf/NotoSansSharada-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Sharada v2.005\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes a number of overlapping marks (#5)\n* adds more anchors on short vowel marks (#2)\n* adds more anchors for the jihvamuliya (#1)\n",
+     "published": "2022-09-12T13:42:35",
+     "url": "https://github.com/notofonts/sharada/releases/tag/NotoSansSharada-v2.005",
+     "version": "v2.005"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/sharada",
   "issues": [
    {
     "number": 6,
     "title": "Noto Sharada font needs to be redesigned",
     "url": "https://github.com/notofonts/sharada/issues/6"
-   },
-   {
-    "number": 5,
-    "title": "Overlapping marks in Sharada",
-    "url": "https://github.com/notofonts/sharada/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Wrong glyph for U+111CD SHARADA SUTRA MARK",
-    "url": "https://github.com/notofonts/sharada/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Sharada CCV clusters are inconsistent with CC and CV clusters",
-    "url": "https://github.com/notofonts/sharada/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Misplaced U+111CC SHARADA EXTRA SHORT VOWEL MARK",
-    "url": "https://github.com/notofonts/sharada/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Misplaced U+111C2 SHARADA SIGN JIHVAMULIYA",
-    "url": "https://github.com/notofonts/sharada/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/sharada",
@@ -9792,30 +9800,90 @@
   "title": "Noto Shavian"
  },
  "siddham": {
-  "families": {},
+  "families": {
+   "Noto Sans Siddham": {
+    "files": {
+     "full": [
+      "fonts/NotoSansSiddham/full/ttf/NotoSansSiddham-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansSiddham/hinted/ttf/NotoSansSiddham-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansSiddham/unhinted/ttf/NotoSansSiddham-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Siddham v2.003\n\nThis release:\n* fixes a number of fontbakery fails\n* creates a stylistic set to raise the head of reph ra (#1)\n* creates a stylistic set for alternate forms of rya (#2)\n",
+     "published": "2022-09-12T13:58:31",
+     "url": "https://github.com/notofonts/siddham/releases/tag/NotoSansSiddham-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/siddham",
   "issues": [
+   {
+    "number": 17,
+    "title": "'kern' should not be used for required positioning",
+    "url": "https://github.com/notofonts/siddham/issues/17"
+   },
+   {
+    "number": 16,
+    "title": "`seed_ta_h_iiMatra_ma_msidd` uses the wrong vowel sign",
+    "url": "https://github.com/notofonts/siddham/issues/16"
+   },
+   {
+    "number": 15,
+    "title": "'ss03' does not affect `seed_va_c_l_m_d_y_aiMatrasidd`",
+    "url": "https://github.com/notofonts/siddham/issues/15"
+   },
+   {
+    "number": 14,
+    "title": "'ss04' takes U+115B0 SIDDHAM VOWEL SIGN I from the following cluster",
+    "url": "https://github.com/notofonts/siddham/issues/14"
+   },
+   {
+    "number": 13,
+    "title": "'ss06' ignores `uni115A8.iniThird`",
+    "url": "https://github.com/notofonts/siddham/issues/13"
+   },
+   {
+    "number": 12,
+    "title": "'ss06' strands spacing vowel signs",
+    "url": "https://github.com/notofonts/siddham/issues/12"
+   },
    {
     "number": 3,
     "title": "Correction in glyph of j\u00f1a in Siddham ",
     "url": "https://github.com/notofonts/siddham/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "/rya/ renders incorrectly in Noto Sans Siddham",
-    "url": "https://github.com/notofonts/siddham/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "In NotoSansSiddham-Regular, reph ra is not above base.",
-    "url": "https://github.com/notofonts/siddham/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/siddham",
   "title": "Noto Siddham"
  },
  "sign-writing": {
-  "families": {},
+  "families": {
+   "Noto Sans Sign Writing": {
+    "files": {
+     "full": [
+      "fonts/NotoSansSignWriting/full/ttf/NotoSansSignWriting-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansSignWriting/hinted/ttf/NotoSansSignWriting-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansSignWriting/unhinted/ttf/NotoSansSignWriting-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans SignWriting 2.004 This release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-12T09:35:42",
+     "url": "https://github.com/notofonts/sign-writing/releases/tag/NotoSansSignWriting-v2.004",
+     "version": "v2.004"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/sign-writing",
   "issues": [
    {
@@ -10307,9 +10375,47 @@
   "title": "Noto Soyombo"
  },
  "sundanese": {
-  "families": {},
+  "families": {
+   "Noto Sans Sundanese": {
+    "files": {
+     "full": [
+      "fonts/NotoSansSundanese/full/slim-variable-ttf/NotoSansSundanese[wght].ttf",
+      "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-Bold.ttf",
+      "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-Medium.ttf",
+      "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-Regular.ttf",
+      "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-SemiBold.ttf",
+      "fonts/NotoSansSundanese/full/variable-ttf/NotoSansSundanese[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-Bold.ttf",
+      "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-Medium.ttf",
+      "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-Regular.ttf",
+      "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansSundanese/unhinted/slim-variable-ttf/NotoSansSundanese[wght].ttf",
+      "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf",
+      "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf",
+      "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf",
+      "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf",
+      "fonts/NotoSansSundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Sundanese v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-12T08:35:28",
+     "url": "https://github.com/notofonts/sundanese/releases/tag/NotoSansSundanese-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/sundanese",
   "issues": [
+   {
+    "number": 3,
+    "title": "U+1BA1 SUNDANESE CONSONANT SIGN PAMINGKAL is not spacing",
+    "url": "https://github.com/notofonts/sundanese/issues/3"
+   },
    {
     "number": 2,
     "title": "U+1BAB SUNDANESE SIGN VIRAMA does not form conjuncts",
@@ -10708,23 +10814,33 @@
   "title": "Noto Tai Viet"
  },
  "takri": {
-  "families": {},
+  "families": {
+   "Noto Sans Takri": {
+    "files": {
+     "full": [
+      "fonts/NotoSansTakri/full/ttf/NotoSansTakri-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansTakri/hinted/ttf/NotoSansTakri-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansTakri/unhinted/ttf/NotoSansTakri-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Takri v2.003\n\nThis release:\n* fixes a number of fontbakery fails\n* stops the nukta blocking kerning (see #5)\n* distinguishes NGA+AA from TA+AA+ANUSVARA (see #2)\n",
+     "published": "2022-09-12T16:39:41",
+     "url": "https://github.com/notofonts/takri/releases/tag/NotoSansTakri-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/takri",
   "issues": [
    {
-    "number": 5,
-    "title": "U+116B7 TAKRI SIGN NUKTA blocks 'dist'",
-    "url": "https://github.com/notofonts/takri/issues/5"
-   },
-   {
     "number": 4,
-    "title": "Occlusion for a particular combination of letters in Takri",
+    "title": "Takri conjuncts missing, \"post-form ha\" not attested",
     "url": "https://github.com/notofonts/takri/issues/4"
-   },
-   {
-    "number": 2,
-    "title": "TAKRI word for NGA+AA and TA+AA+ANUSVARA looks the same.",
-    "url": "https://github.com/notofonts/takri/issues/2"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/takri",
@@ -11018,18 +11134,51 @@
   "title": "Noto Tamil"
  },
  "tangsa": {
-  "families": {},
+  "families": {
+   "Noto Sans Tangsa": {
+    "files": {
+     "full": [
+      "fonts/NotoSansTangsa/full/slim-variable-ttf/NotoSansTangsa[wght].ttf",
+      "fonts/NotoSansTangsa/full/ttf/NotoSansTangsa-Bold.ttf",
+      "fonts/NotoSansTangsa/full/ttf/NotoSansTangsa-Medium.ttf",
+      "fonts/NotoSansTangsa/full/ttf/NotoSansTangsa-Regular.ttf",
+      "fonts/NotoSansTangsa/full/ttf/NotoSansTangsa-SemiBold.ttf",
+      "fonts/NotoSansTangsa/full/variable-ttf/NotoSansTangsa[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansTangsa/hinted/ttf/NotoSansTangsa-Bold.ttf",
+      "fonts/NotoSansTangsa/hinted/ttf/NotoSansTangsa-Medium.ttf",
+      "fonts/NotoSansTangsa/hinted/ttf/NotoSansTangsa-Regular.ttf",
+      "fonts/NotoSansTangsa/hinted/ttf/NotoSansTangsa-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansTangsa/unhinted/slim-variable-ttf/NotoSansTangsa[wght].ttf",
+      "fonts/NotoSansTangsa/unhinted/ttf/NotoSansTangsa-Bold.ttf",
+      "fonts/NotoSansTangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf",
+      "fonts/NotoSansTangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf",
+      "fonts/NotoSansTangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf",
+      "fonts/NotoSansTangsa/unhinted/variable-ttf/NotoSansTangsa[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Tangsa v1.504\n\nThis release:\n* fixes a number of fontbakery fails\n* corrects the kerning of the PA and XA glyphs (#1)\n",
+     "published": "2022-09-12T09:21:47",
+     "url": "https://github.com/notofonts/tangsa/releases/tag/NotoSansTangsa-v1.504",
+     "version": "v1.504"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/tangsa",
   "issues": [
+   {
+    "number": 4,
+    "title": "Version 1.504 lost some kerning pairs",
+    "url": "https://github.com/notofonts/tangsa/issues/4"
+   },
    {
     "number": 3,
     "title": "Noto Sans Tangsa font - issues for fixing",
     "url": "https://github.com/notofonts/tangsa/issues/3"
-   },
-   {
-    "number": 1,
-    "title": "Kerning rules of U+16AA7 TANGSA LETTER PA and U+16ABA TANGSA LETTER XA are swapped",
-    "url": "https://github.com/notofonts/tangsa/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/tangsa",
@@ -12136,26 +12285,6 @@
     "number": 5,
     "title": "NotoSansTifinagh is graphically a Neo-Tifinagh font, but uses traditional Tifinagh shaping",
     "url": "https://github.com/notofonts/tifinagh/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Bad combination of dot and macron in Tifinagh",
-    "url": "https://github.com/notofonts/tifinagh/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Missing diaeresis in Tifinagh",
-    "url": "https://github.com/notofonts/tifinagh/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Erroneous contextual variants of Tifinagh yal and yan",
-    "url": "https://github.com/notofonts/tifinagh/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Noto Sans Tifinagh character spacing",
-    "url": "https://github.com/notofonts/tifinagh/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/tifinagh",
