@@ -9824,6 +9824,11 @@
   "gh_url": "https://notofonts.github.io/siddham",
   "issues": [
    {
+    "number": 18,
+    "title": "Some seed syllable glyphs are inaccessible",
+    "url": "https://github.com/notofonts/siddham/issues/18"
+   },
+   {
     "number": 17,
     "title": "'kern' should not be used for required positioning",
     "url": "https://github.com/notofonts/siddham/issues/17"
@@ -10468,6 +10473,11 @@
   "gh_url": "https://notofonts.github.io/symbols",
   "issues": [
    {
+    "number": 64,
+    "title": "Unicode 15 Addition of U+1F7D9 NINE POINTED WHITE STAR",
+    "url": "https://github.com/notofonts/symbols/issues/64"
+   },
+   {
     "number": 3,
     "title": "Mahjong Tile Designs - Circle Suite",
     "url": "https://github.com/notofonts/symbols/issues/3"
@@ -10837,6 +10847,16 @@
   },
   "gh_url": "https://notofonts.github.io/takri",
   "issues": [
+   {
+    "number": 13,
+    "title": "<U+116AD, U+116AB> lost its kerning",
+    "url": "https://github.com/notofonts/takri/issues/13"
+   },
+   {
+    "number": 12,
+    "title": "U+116B7 TAKRI SIGN NUKTA blocks spacing U+116AD TAKRI VOWEL SIGN AA",
+    "url": "https://github.com/notofonts/takri/issues/12"
+   },
    {
     "number": 4,
     "title": "Takri conjuncts missing, \"post-form ha\" not attested",
@@ -12261,6 +12281,11 @@
   "families": {},
   "gh_url": "https://notofonts.github.io/tifinagh",
   "issues": [
+   {
+    "number": 15,
+    "title": "Add Languagesystems",
+    "url": "https://github.com/notofonts/tifinagh/pull/15"
+   },
    {
     "number": 9,
     "title": "Duplicate Noto Tifininagh fonts for script variants in the main ZIP package containing all fonts",
