@@ -6752,8 +6752,100 @@
    "NotoSansSundanese-v2.002"
   ]
  },
- "syloti-nagri": {},
- "symbols": {},
+ "syloti-nagri": {
+  "families": {
+   "Noto Sans Syloti Nagri": {
+    "files": [
+     "fonts/NotoSansSylotiNagri/full/ttf/NotoSansSylotiNagri-Regular.ttf",
+     "fonts/NotoSansSylotiNagri/googlefonts/ttf/NotoSansSylotiNagri-Regular.ttf",
+     "fonts/NotoSansSylotiNagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf",
+     "fonts/NotoSansSylotiNagri/hinted/ttf/NotoSansSylotiNagri-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Syloti Nagri v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-14T11:18:24",
+     "url": "https://github.com/notofonts/syloti-nagri/releases/tag/NotoSansSylotiNagri-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansSylotiNagri-v2.002"
+  ]
+ },
+ "symbols": {
+  "families": {
+   "Noto Sans Symbols": {
+    "files": [
+     "fonts/NotoSansSymbols/full/slim-variable-ttf/NotoSansSymbols[wght].ttf",
+     "fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-Light.ttf",
+     "fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-Regular.ttf",
+     "fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-ExtraLight.ttf",
+     "fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-SemiBold.ttf",
+     "fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-Thin.ttf",
+     "fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-Bold.ttf",
+     "fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-Black.ttf",
+     "fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-ExtraBold.ttf",
+     "fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-Medium.ttf",
+     "fonts/NotoSansSymbols/full/variable-ttf/NotoSansSymbols[wght].ttf",
+     "fonts/NotoSansSymbols/googlefonts/ttf/NotoSansSymbols-Light.ttf",
+     "fonts/NotoSansSymbols/googlefonts/ttf/NotoSansSymbols-Regular.ttf",
+     "fonts/NotoSansSymbols/googlefonts/ttf/NotoSansSymbols-ExtraLight.ttf",
+     "fonts/NotoSansSymbols/googlefonts/ttf/NotoSansSymbols-SemiBold.ttf",
+     "fonts/NotoSansSymbols/googlefonts/ttf/NotoSansSymbols-Thin.ttf",
+     "fonts/NotoSansSymbols/googlefonts/ttf/NotoSansSymbols-Bold.ttf",
+     "fonts/NotoSansSymbols/googlefonts/ttf/NotoSansSymbols-Black.ttf",
+     "fonts/NotoSansSymbols/googlefonts/ttf/NotoSansSymbols-ExtraBold.ttf",
+     "fonts/NotoSansSymbols/googlefonts/ttf/NotoSansSymbols-Medium.ttf",
+     "fonts/NotoSansSymbols/googlefonts/variable-ttf/NotoSansSymbols[wght].ttf",
+     "fonts/NotoSansSymbols/unhinted/slim-variable-ttf/NotoSansSymbols[wght].ttf",
+     "fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-Light.ttf",
+     "fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-Regular.ttf",
+     "fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-ExtraLight.ttf",
+     "fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-SemiBold.ttf",
+     "fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-Thin.ttf",
+     "fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-Bold.ttf",
+     "fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-Black.ttf",
+     "fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-ExtraBold.ttf",
+     "fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-Medium.ttf",
+     "fonts/NotoSansSymbols/unhinted/variable-ttf/NotoSansSymbols[wght].ttf",
+     "fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-Light.ttf",
+     "fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-Regular.ttf",
+     "fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-ExtraLight.ttf",
+     "fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-SemiBold.ttf",
+     "fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-Thin.ttf",
+     "fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-Bold.ttf",
+     "fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-Black.ttf",
+     "fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-ExtraBold.ttf",
+     "fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-Medium.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Symbols v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-14T12:57:33",
+     "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols-v2.002",
+     "version": "v2.002"
+    }
+   },
+   "Noto Sans Symbols2": {
+    "files": [
+     "fonts/NotoSansSymbols2/full/ttf/NotoSansSymbols2-Regular.ttf",
+     "fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf",
+     "fonts/NotoSansSymbols2/unhinted/ttf/NotoSansSymbols2-Regular.ttf",
+     "fonts/NotoSansSymbols2/hinted/ttf/NotoSansSymbols2-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Symbols2 v2.004 This release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-14T13:22:10",
+     "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols2-v2.004",
+     "version": "v2.004"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansSymbols-v2.002",
+   "NotoSansSymbols2-v2.004"
+  ]
+ },
  "syriac": {},
  "tagalog": {},
  "tagbanwa": {
@@ -6777,9 +6869,86 @@
    "NotoSansTagbanwa-v2.001"
   ]
  },
- "tai-le": {},
- "tai-tham": {},
- "tai-viet": {},
+ "tai-le": {
+  "families": {
+   "Noto Sans Tai Le": {
+    "files": [
+     "fonts/NotoSansTaiLe/full/ttf/NotoSansTaiLe-Regular.ttf",
+     "fonts/NotoSansTaiLe/googlefonts/ttf/NotoSansTaiLe-Regular.ttf",
+     "fonts/NotoSansTaiLe/unhinted/ttf/NotoSansTaiLe-Regular.ttf",
+     "fonts/NotoSansTaiLe/hinted/ttf/NotoSansTaiLe-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Tai Le v2.002\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes a problem where shaping was applied across clusters. (#2)\n",
+     "published": "2022-09-14T15:37:58",
+     "url": "https://github.com/notofonts/tai-le/releases/tag/NotoSansTaiLe-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansTaiLe-v2.002"
+  ]
+ },
+ "tai-tham": {
+  "families": {
+   "Noto Sans Tai Tham": {
+    "files": [
+     "fonts/NotoSansTaiTham/full/slim-variable-ttf/NotoSansTaiTham[wght].ttf",
+     "fonts/NotoSansTaiTham/full/ttf/NotoSansTaiTham-SemiBold.ttf",
+     "fonts/NotoSansTaiTham/full/ttf/NotoSansTaiTham-Bold.ttf",
+     "fonts/NotoSansTaiTham/full/ttf/NotoSansTaiTham-Medium.ttf",
+     "fonts/NotoSansTaiTham/full/ttf/NotoSansTaiTham-Regular.ttf",
+     "fonts/NotoSansTaiTham/full/variable-ttf/NotoSansTaiTham[wght].ttf",
+     "fonts/NotoSansTaiTham/googlefonts/ttf/NotoSansTaiTham-SemiBold.ttf",
+     "fonts/NotoSansTaiTham/googlefonts/ttf/NotoSansTaiTham-Bold.ttf",
+     "fonts/NotoSansTaiTham/googlefonts/ttf/NotoSansTaiTham-Medium.ttf",
+     "fonts/NotoSansTaiTham/googlefonts/ttf/NotoSansTaiTham-Regular.ttf",
+     "fonts/NotoSansTaiTham/googlefonts/variable-ttf/NotoSansTaiTham[wght].ttf",
+     "fonts/NotoSansTaiTham/unhinted/slim-variable-ttf/NotoSansTaiTham[wght].ttf",
+     "fonts/NotoSansTaiTham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf",
+     "fonts/NotoSansTaiTham/unhinted/ttf/NotoSansTaiTham-Bold.ttf",
+     "fonts/NotoSansTaiTham/unhinted/ttf/NotoSansTaiTham-Medium.ttf",
+     "fonts/NotoSansTaiTham/unhinted/ttf/NotoSansTaiTham-Regular.ttf",
+     "fonts/NotoSansTaiTham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf",
+     "fonts/NotoSansTaiTham/hinted/ttf/NotoSansTaiTham-SemiBold.ttf",
+     "fonts/NotoSansTaiTham/hinted/ttf/NotoSansTaiTham-Bold.ttf",
+     "fonts/NotoSansTaiTham/hinted/ttf/NotoSansTaiTham-Medium.ttf",
+     "fonts/NotoSansTaiTham/hinted/ttf/NotoSansTaiTham-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Tai Tham v2.002\n\nThis release:\n* fixes a number of fontbakery fails\n* correctly forms the conjunct for HIGH PA (#1)\n* does not form the conjunct for WA+LOW YA unless sakot characters are provided (#3)\n",
+     "published": "2022-09-14T16:17:31",
+     "url": "https://github.com/notofonts/tai-tham/releases/tag/NotoSansTaiTham-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansTaiTham-v2.002"
+  ]
+ },
+ "tai-viet": {
+  "families": {
+   "Noto Sans Tai Viet": {
+    "files": [
+     "fonts/NotoSansTaiViet/full/ttf/NotoSansTaiViet-Regular.ttf",
+     "fonts/NotoSansTaiViet/googlefonts/ttf/NotoSansTaiViet-Regular.ttf",
+     "fonts/NotoSansTaiViet/unhinted/ttf/NotoSansTaiViet-Regular.ttf",
+     "fonts/NotoSansTaiViet/hinted/ttf/NotoSansTaiViet-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Tai Viet v2.002\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes the anchors for certain mark glyphs (#1)\n",
+     "published": "2022-09-14T16:13:52",
+     "url": "https://github.com/notofonts/tai-viet/releases/tag/NotoSansTaiViet-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansTaiViet-v2.002"
+  ]
+ },
  "takri": {
   "families": {
    "Noto Sans Takri": {
@@ -8072,7 +8241,71 @@
   ]
  },
  "tibetan": {},
- "tifinagh": {},
+ "tifinagh": {
+  "families": {
+   "Noto Sans Tifinagh": {
+    "files": [
+     "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinagh-Regular.ttf",
+     "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghAPT-Regular.ttf",
+     "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghHawad-Regular.ttf",
+     "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghSIL-Regular.ttf",
+     "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghAir-Regular.ttf",
+     "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghAzawagh-Regular.ttf",
+     "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghAdrar-Regular.ttf",
+     "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghAgrawImazighen-Regular.ttf",
+     "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghGhat-Regular.ttf",
+     "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghTawellemmet-Regular.ttf",
+     "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghRhissaIxa-Regular.ttf",
+     "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghAhaggar-Regular.ttf",
+     "fonts/NotoSansTifinagh/googlefonts/ttf/NotoSansTifinagh-Regular.ttf",
+     "fonts/NotoSansTifinagh/googlefonts/ttf/NotoSansTifinaghAPT-Regular.ttf",
+     "fonts/NotoSansTifinagh/googlefonts/ttf/NotoSansTifinaghHawad-Regular.ttf",
+     "fonts/NotoSansTifinagh/googlefonts/ttf/NotoSansTifinaghSIL-Regular.ttf",
+     "fonts/NotoSansTifinagh/googlefonts/ttf/NotoSansTifinaghAir-Regular.ttf",
+     "fonts/NotoSansTifinagh/googlefonts/ttf/NotoSansTifinaghAzawagh-Regular.ttf",
+     "fonts/NotoSansTifinagh/googlefonts/ttf/NotoSansTifinaghAdrar-Regular.ttf",
+     "fonts/NotoSansTifinagh/googlefonts/ttf/NotoSansTifinaghAgrawImazighen-Regular.ttf",
+     "fonts/NotoSansTifinagh/googlefonts/ttf/NotoSansTifinaghGhat-Regular.ttf",
+     "fonts/NotoSansTifinagh/googlefonts/ttf/NotoSansTifinaghTawellemmet-Regular.ttf",
+     "fonts/NotoSansTifinagh/googlefonts/ttf/NotoSansTifinaghRhissaIxa-Regular.ttf",
+     "fonts/NotoSansTifinagh/googlefonts/ttf/NotoSansTifinaghAhaggar-Regular.ttf",
+     "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinagh-Regular.ttf",
+     "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAPT-Regular.ttf",
+     "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghHawad-Regular.ttf",
+     "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghSIL-Regular.ttf",
+     "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAir-Regular.ttf",
+     "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAzawagh-Regular.ttf",
+     "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAdrar-Regular.ttf",
+     "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAgrawImazighen-Regular.ttf",
+     "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghGhat-Regular.ttf",
+     "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghTawellemmet-Regular.ttf",
+     "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghRhissaIxa-Regular.ttf",
+     "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAhaggar-Regular.ttf",
+     "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinagh-Regular.ttf",
+     "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghAPT-Regular.ttf",
+     "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghHawad-Regular.ttf",
+     "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghSIL-Regular.ttf",
+     "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghAir-Regular.ttf",
+     "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghAzawagh-Regular.ttf",
+     "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghAdrar-Regular.ttf",
+     "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghAgrawImazighen-Regular.ttf",
+     "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghGhat-Regular.ttf",
+     "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghTawellemmet-Regular.ttf",
+     "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghRhissaIxa-Regular.ttf",
+     "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghAhaggar-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Tifinagh 2.004\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes a clash between the dot accent and macro (#4)\n* removes stylistically inappropriate yal/yan ligatures (#2)\n",
+     "published": "2022-09-14T11:41:57",
+     "url": "https://github.com/notofonts/tifinagh/releases/tag/NotoSansTifinagh-v2.004",
+     "version": "v2.004"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansTifinagh-v2.004"
+  ]
+ },
  "tirhuta": {},
  "toto": {
   "families": {

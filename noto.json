@@ -2495,6 +2495,16 @@
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "issues": [
    {
+    "number": 6,
+    "title": "Add hieroglyphic variants controlled by variation selectors",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/6"
+   },
+   {
+    "number": 5,
+    "title": "Add seven new hieroglyphs: reversed cartouche end, 2D destruction signs, 2D blanks",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/5"
+   },
+   {
     "number": 4,
     "title": "U+130B8, U+130B9 and U+130BA missing",
     "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/4"
@@ -9787,6 +9797,11 @@
     "number": 6,
     "title": "Noto Sharada font needs to be redesigned",
     "url": "https://github.com/notofonts/sharada/issues/6"
+   },
+   {
+    "number": 3,
+    "title": "Sharada CCV clusters are inconsistent with CC and CV clusters",
+    "url": "https://github.com/notofonts/sharada/issues/3"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/sharada",
@@ -9823,6 +9838,11 @@
   },
   "gh_url": "https://notofonts.github.io/siddham",
   "issues": [
+   {
+    "number": 19,
+    "title": "'ss05' renders vowel signs with /rya/ incorrectly",
+    "url": "https://github.com/notofonts/siddham/issues/19"
+   },
    {
     "number": 18,
     "title": "Some seed syllable glyphs are inaccessible",
@@ -10436,9 +10456,44 @@
   "title": "Noto Sundanese"
  },
  "syloti-nagri": {
-  "families": {},
+  "families": {
+   "Noto Sans Syloti Nagri": {
+    "files": {
+     "full": [
+      "fonts/NotoSansSylotiNagri/full/ttf/NotoSansSylotiNagri-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansSylotiNagri/hinted/ttf/NotoSansSylotiNagri-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansSylotiNagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Syloti Nagri v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-14T11:18:24",
+     "url": "https://github.com/notofonts/syloti-nagri/releases/tag/NotoSansSylotiNagri-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/syloti-nagri",
   "issues": [
+   {
+    "number": 8,
+    "title": "U+A826 SYLOTI NAGRI VOWEL SIGN E overlaps other glyphs",
+    "url": "https://github.com/notofonts/syloti-nagri/issues/8"
+   },
+   {
+    "number": 7,
+    "title": "Marks are positioned badly above U+25CC DOTTED CIRCLE",
+    "url": "https://github.com/notofonts/syloti-nagri/issues/7"
+   },
+   {
+    "number": 6,
+    "title": "Spacing combining marks are not spacing",
+    "url": "https://github.com/notofonts/syloti-nagri/issues/6"
+   },
    {
     "number": 5,
     "title": "Syloti is poorly hinted in W10/GDI",
@@ -10469,7 +10524,74 @@
   "title": "Noto Syloti Nagri"
  },
  "symbols": {
-  "families": {},
+  "families": {
+   "Noto Sans Symbols": {
+    "files": {
+     "full": [
+      "fonts/NotoSansSymbols/full/slim-variable-ttf/NotoSansSymbols[wght].ttf",
+      "fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-Black.ttf",
+      "fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-Bold.ttf",
+      "fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-ExtraBold.ttf",
+      "fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-ExtraLight.ttf",
+      "fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-Light.ttf",
+      "fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-Medium.ttf",
+      "fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-Regular.ttf",
+      "fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-SemiBold.ttf",
+      "fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-Thin.ttf",
+      "fonts/NotoSansSymbols/full/variable-ttf/NotoSansSymbols[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-Black.ttf",
+      "fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-Bold.ttf",
+      "fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-ExtraBold.ttf",
+      "fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-ExtraLight.ttf",
+      "fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-Light.ttf",
+      "fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-Medium.ttf",
+      "fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-Regular.ttf",
+      "fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-SemiBold.ttf",
+      "fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-Thin.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansSymbols/unhinted/slim-variable-ttf/NotoSansSymbols[wght].ttf",
+      "fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-Black.ttf",
+      "fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-Bold.ttf",
+      "fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-ExtraBold.ttf",
+      "fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-ExtraLight.ttf",
+      "fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-Light.ttf",
+      "fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-Medium.ttf",
+      "fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-Regular.ttf",
+      "fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-SemiBold.ttf",
+      "fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-Thin.ttf",
+      "fonts/NotoSansSymbols/unhinted/variable-ttf/NotoSansSymbols[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Symbols v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-14T12:57:33",
+     "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols-v2.002",
+     "version": "v2.002"
+    }
+   },
+   "Noto Sans Symbols2": {
+    "files": {
+     "full": [
+      "fonts/NotoSansSymbols2/full/ttf/NotoSansSymbols2-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansSymbols2/hinted/ttf/NotoSansSymbols2-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansSymbols2/unhinted/ttf/NotoSansSymbols2-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Symbols2 v2.004 This release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-14T13:22:10",
+     "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols2-v2.004",
+     "version": "v2.004"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/symbols",
   "issues": [
    {
@@ -10697,28 +10819,7 @@
  "tagalog": {
   "families": {},
   "gh_url": "https://notofonts.github.io/tagalog",
-  "issues": [
-   {
-    "number": 3,
-    "title": "Ra not rendering correctly tagalog ",
-    "url": "https://github.com/notofonts/tagalog/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Please enlarge virama 1714 in Tagalog",
-    "url": "https://github.com/notofonts/tagalog/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Overlapping Tagalog vowel signs",
-    "url": "https://github.com/notofonts/tagalog/issues/1"
-   },
-   {
-    "number": 4,
-    "title": "Additional Unicode14.0 | 170D, 1715, 171F. | Baybayin 'Ra' ",
-    "url": "https://github.com/notofonts/tagalog/issues/4"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/tagalog",
   "title": "Noto Tagalog"
  },
@@ -10750,14 +10851,29 @@
   "title": "Noto Tagbanwa"
  },
  "tai-le": {
-  "families": {},
+  "families": {
+   "Noto Sans Tai Le": {
+    "files": {
+     "full": [
+      "fonts/NotoSansTaiLe/full/ttf/NotoSansTaiLe-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansTaiLe/hinted/ttf/NotoSansTaiLe-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansTaiLe/unhinted/ttf/NotoSansTaiLe-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Tai Le v2.002\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes a problem where shaping was applied across clusters. (#2)\n",
+     "published": "2022-09-14T15:37:58",
+     "url": "https://github.com/notofonts/tai-le/releases/tag/NotoSansTaiLe-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/tai-le",
   "issues": [
-   {
-    "number": 2,
-    "title": "Noto Sans Tai Le does not work with USE shaper",
-    "url": "https://github.com/notofonts/tai-le/issues/2"
-   },
    {
     "number": 1,
     "title": "Glyph variants for digits in Tai Le",
@@ -10768,18 +10884,46 @@
   "title": "Noto Tai Le"
  },
  "tai-tham": {
-  "families": {},
+  "families": {
+   "Noto Sans Tai Tham": {
+    "files": {
+     "full": [
+      "fonts/NotoSansTaiTham/full/slim-variable-ttf/NotoSansTaiTham[wght].ttf",
+      "fonts/NotoSansTaiTham/full/ttf/NotoSansTaiTham-Bold.ttf",
+      "fonts/NotoSansTaiTham/full/ttf/NotoSansTaiTham-Medium.ttf",
+      "fonts/NotoSansTaiTham/full/ttf/NotoSansTaiTham-Regular.ttf",
+      "fonts/NotoSansTaiTham/full/ttf/NotoSansTaiTham-SemiBold.ttf",
+      "fonts/NotoSansTaiTham/full/variable-ttf/NotoSansTaiTham[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansTaiTham/hinted/ttf/NotoSansTaiTham-Bold.ttf",
+      "fonts/NotoSansTaiTham/hinted/ttf/NotoSansTaiTham-Medium.ttf",
+      "fonts/NotoSansTaiTham/hinted/ttf/NotoSansTaiTham-Regular.ttf",
+      "fonts/NotoSansTaiTham/hinted/ttf/NotoSansTaiTham-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansTaiTham/unhinted/slim-variable-ttf/NotoSansTaiTham[wght].ttf",
+      "fonts/NotoSansTaiTham/unhinted/ttf/NotoSansTaiTham-Bold.ttf",
+      "fonts/NotoSansTaiTham/unhinted/ttf/NotoSansTaiTham-Medium.ttf",
+      "fonts/NotoSansTaiTham/unhinted/ttf/NotoSansTaiTham-Regular.ttf",
+      "fonts/NotoSansTaiTham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf",
+      "fonts/NotoSansTaiTham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Tai Tham v2.002\n\nThis release:\n* fixes a number of fontbakery fails\n* correctly forms the conjunct for HIGH PA (#1)\n* does not form the conjunct for WA+LOW YA unless sakot characters are provided (#3)\n",
+     "published": "2022-09-14T16:17:31",
+     "url": "https://github.com/notofonts/tai-tham/releases/tag/NotoSansTaiTham-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/tai-tham",
   "issues": [
    {
     "number": 7,
     "title": "Noto Sans Tai Tham is missing dotted circle",
     "url": "https://github.com/notofonts/tai-tham/issues/7"
-   },
-   {
-    "number": 6,
-    "title": "Mispositioned fallback form of U+1A60 TAI THAM SIGN SAKOT",
-    "url": "https://github.com/notofonts/tai-tham/issues/6"
    },
    {
     "number": 5,
@@ -10792,34 +10936,38 @@
     "url": "https://github.com/notofonts/tai-tham/issues/4"
    },
    {
-    "number": 3,
-    "title": "Incorrectly subjoined Tai Tham wa and low ya",
-    "url": "https://github.com/notofonts/tai-tham/issues/3"
-   },
-   {
     "number": 2,
-    "title": "Missing anchor on U+1A7F TAI THAM COMBINING CRYPTOGRAMMIC DOT",
+    "title": "v2 font lacks anchors",
     "url": "https://github.com/notofonts/tai-tham/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "GSUB problem with Noto Sans Tai Tham: uni1A4B",
-    "url": "https://github.com/notofonts/tai-tham/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/tai-tham",
   "title": "Noto Tai Tham"
  },
  "tai-viet": {
-  "families": {},
-  "gh_url": "https://notofonts.github.io/tai-viet",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Missing anchor points in Tai Viet",
-    "url": "https://github.com/notofonts/tai-viet/issues/1"
+  "families": {
+   "Noto Sans Tai Viet": {
+    "files": {
+     "full": [
+      "fonts/NotoSansTaiViet/full/ttf/NotoSansTaiViet-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansTaiViet/hinted/ttf/NotoSansTaiViet-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansTaiViet/unhinted/ttf/NotoSansTaiViet-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Tai Viet v2.002\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes the anchors for certain mark glyphs (#1)\n",
+     "published": "2022-09-14T16:13:52",
+     "url": "https://github.com/notofonts/tai-viet/releases/tag/NotoSansTaiViet-v2.002",
+     "version": "v2.002"
+    }
    }
-  ],
+  },
+  "gh_url": "https://notofonts.github.io/tai-viet",
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/tai-viet",
   "title": "Noto Tai Viet"
  },
@@ -12278,13 +12426,66 @@
   "title": "Noto Tibetan"
  },
  "tifinagh": {
-  "families": {},
+  "families": {
+   "Noto Sans Tifinagh": {
+    "files": {
+     "full": [
+      "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinagh-Regular.ttf",
+      "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghAPT-Regular.ttf",
+      "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghAdrar-Regular.ttf",
+      "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghAgrawImazighen-Regular.ttf",
+      "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghAhaggar-Regular.ttf",
+      "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghAir-Regular.ttf",
+      "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghAzawagh-Regular.ttf",
+      "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghGhat-Regular.ttf",
+      "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghHawad-Regular.ttf",
+      "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghRhissaIxa-Regular.ttf",
+      "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghSIL-Regular.ttf",
+      "fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghTawellemmet-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinagh-Regular.ttf",
+      "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghAPT-Regular.ttf",
+      "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghAdrar-Regular.ttf",
+      "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghAgrawImazighen-Regular.ttf",
+      "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghAhaggar-Regular.ttf",
+      "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghAir-Regular.ttf",
+      "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghAzawagh-Regular.ttf",
+      "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghGhat-Regular.ttf",
+      "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghHawad-Regular.ttf",
+      "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghRhissaIxa-Regular.ttf",
+      "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghSIL-Regular.ttf",
+      "fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghTawellemmet-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinagh-Regular.ttf",
+      "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAPT-Regular.ttf",
+      "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAdrar-Regular.ttf",
+      "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAgrawImazighen-Regular.ttf",
+      "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAhaggar-Regular.ttf",
+      "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAir-Regular.ttf",
+      "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAzawagh-Regular.ttf",
+      "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghGhat-Regular.ttf",
+      "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghHawad-Regular.ttf",
+      "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghRhissaIxa-Regular.ttf",
+      "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghSIL-Regular.ttf",
+      "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghTawellemmet-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Tifinagh 2.004\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes a clash between the dot accent and macro (#4)\n* removes stylistically inappropriate yal/yan ligatures (#2)\n",
+     "published": "2022-09-14T11:41:57",
+     "url": "https://github.com/notofonts/tifinagh/releases/tag/NotoSansTifinagh-v2.004",
+     "version": "v2.004"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/tifinagh",
   "issues": [
    {
-    "number": 15,
-    "title": "Add Languagesystems",
-    "url": "https://github.com/notofonts/tifinagh/pull/15"
+    "number": 16,
+    "title": "U+0309 COMBINING HOOK ABOVE has no anchor point",
+    "url": "https://github.com/notofonts/tifinagh/issues/16"
    },
    {
     "number": 9,
@@ -12310,6 +12511,11 @@
     "number": 5,
     "title": "NotoSansTifinagh is graphically a Neo-Tifinagh font, but uses traditional Tifinagh shaping",
     "url": "https://github.com/notofonts/tifinagh/issues/5"
+   },
+   {
+    "number": 4,
+    "title": "Bad combination of dot and macron in Tifinagh",
+    "url": "https://github.com/notofonts/tifinagh/issues/4"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/tifinagh",

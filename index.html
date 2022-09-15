@@ -267,14 +267,20 @@
 							<option value="#sundanese">Noto Sundanese</option>
 							<option value="#sundanese">- Noto Sans Sundanese</option>
 							<option value="#syloti-nagri">Noto Syloti Nagri</option>
+							<option value="#syloti-nagri">- Noto Sans Syloti Nagri</option>
 							<option value="#symbols">Noto Symbols</option>
+							<option value="#symbols">- Noto Sans Symbols</option>
+							<option value="#symbols">- Noto Sans Symbols2</option>
 							<option value="#syriac">Noto Syriac</option>
 							<option value="#tagalog">Noto Tagalog</option>
 							<option value="#tagbanwa">Noto Tagbanwa</option>
 							<option value="#tagbanwa">- Noto Sans Tagbanwa</option>
 							<option value="#tai-le">Noto Tai Le</option>
+							<option value="#tai-le">- Noto Sans Tai Le</option>
 							<option value="#tai-tham">Noto Tai Tham</option>
+							<option value="#tai-tham">- Noto Sans Tai Tham</option>
 							<option value="#tai-viet">Noto Tai Viet</option>
+							<option value="#tai-viet">- Noto Sans Tai Viet</option>
 							<option value="#takri">Noto Takri</option>
 							<option value="#takri">- Noto Sans Takri</option>
 							<option value="#tamil">Noto Tamil</option>
@@ -298,6 +304,7 @@
 							<option value="#thai">- Noto Serif Thai</option>
 							<option value="#tibetan">Noto Tibetan</option>
 							<option value="#tifinagh">Noto Tifinagh</option>
+							<option value="#tifinagh">- Noto Sans Tifinagh</option>
 							<option value="#tirhuta">Noto Tirhuta</option>
 							<option value="#toto">Noto Toto</option>
 							<option value="#toto">- Noto Serif Toto</option>
@@ -2763,6 +2770,8 @@ Fixes copyright information and uses new upstream.yaml generator to help with Go
 			</ul>
 			<h5>Known Issues</h5>
 			<ul>
+				<li>Add hieroglyphic variants controlled by variation selectors (<a href="https://github.com/notofonts/egyptian-hieroglyphs/issues/6">#6</a>)</li>
+				<li>Add seven new hieroglyphs: reversed cartouche end, 2D destruction signs, 2D blanks (<a href="https://github.com/notofonts/egyptian-hieroglyphs/issues/5">#5</a>)</li>
 				<li>U+130B8, U+130B9 and U+130BA missing (<a href="https://github.com/notofonts/egyptian-hieroglyphs/issues/4">#4</a>)</li>
 				<li>Redraw Egyptian hieroglyphs according to 2021 changes (<a href="https://github.com/notofonts/egyptian-hieroglyphs/issues/3">#3</a>)</li>
 				<li>Questionable stroke width for U+130C9 EGYPTIAN HIEROGLYPH D067 etc. (<a href="https://github.com/notofonts/egyptian-hieroglyphs/issues/2">#2</a>)</li>
@@ -9304,6 +9313,7 @@ This release:
 			<h5>Known Issues</h5>
 			<ul>
 				<li>Noto Sharada font needs to be redesigned (<a href="https://github.com/notofonts/sharada/issues/6">#6</a>)</li>
+				<li>Sharada CCV clusters are inconsistent with CC and CV clusters (<a href="https://github.com/notofonts/sharada/issues/3">#3</a>)</li>
 			</ul>
 			<h4>
 				Noto Sans Sharada 
@@ -9367,6 +9377,7 @@ This release:
 			</ul>
 			<h5>Known Issues</h5>
 			<ul>
+				<li>&#x27;ss05&#x27; renders vowel signs with /rya/ incorrectly (<a href="https://github.com/notofonts/siddham/issues/19">#19</a>)</li>
 				<li>Some seed syllable glyphs are inaccessible (<a href="https://github.com/notofonts/siddham/issues/18">#18</a>)</li>
 				<li>&#x27;kern&#x27; should not be used for required positioning (<a href="https://github.com/notofonts/siddham/issues/17">#17</a>)</li>
 				<li>&#x60;seed_ta_h_iiMatra_ma_msidd&#x60; uses the wrong vowel sign (<a href="https://github.com/notofonts/siddham/issues/16">#16</a>)</li>
@@ -10026,12 +10037,43 @@ This release fixes a number of fontbakery fails.
 			</ul>
 			<h5>Known Issues</h5>
 			<ul>
+				<li>U+A826 SYLOTI NAGRI VOWEL SIGN E overlaps other glyphs (<a href="https://github.com/notofonts/syloti-nagri/issues/8">#8</a>)</li>
+				<li>Marks are positioned badly above U+25CC DOTTED CIRCLE (<a href="https://github.com/notofonts/syloti-nagri/issues/7">#7</a>)</li>
+				<li>Spacing combining marks are not spacing (<a href="https://github.com/notofonts/syloti-nagri/issues/6">#6</a>)</li>
 				<li>Syloti is poorly hinted in W10/GDI (<a href="https://github.com/notofonts/syloti-nagri/issues/5">#5</a>)</li>
 				<li>Improvements for Noto Sans Syloti Nagri (<a href="https://github.com/notofonts/syloti-nagri/issues/4">#4</a>)</li>
 				<li>Syloti Nagari, issue with ꠜ, ꠖꠥ, ꠦ, ꠧ (<a href="https://github.com/notofonts/syloti-nagri/issues/3">#3</a>)</li>
 				<li>A Syloti Nagari font without the horaizontal line is needed. (<a href="https://github.com/notofonts/syloti-nagri/issues/2">#2</a>)</li>
 				<li>Syloti conjuncts (<a href="https://github.com/notofonts/syloti-nagri/issues/1">#1</a>)</li>
 			</ul>
+			<h4>
+				Noto Sans Syloti Nagri 
+				<a href="https://github.com/notofonts/syloti-nagri/releases/tag/NotoSansSylotiNagri-v2.002">v2.002</a>
+			</h4>
+			<pre>Noto Sans Syloti Nagri v2.002
+
+This release fixes a number of fontbakery fails.
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansSylotiNagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf">NotoSansSylotiNagri-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansSylotiNagri/hinted/ttf/NotoSansSylotiNagri-Regular.ttf">NotoSansSylotiNagri-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansSylotiNagri/full/ttf/NotoSansSylotiNagri-Regular.ttf">NotoSansSylotiNagri-Regular.ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="symbols">Noto Symbols</h3>
 			<ul>
@@ -10078,6 +10120,88 @@ This release fixes a number of fontbakery fails.
 				<li>Noto Symbols needs variation sequence slashed zero form of empty set (<a href="https://github.com/notofonts/symbols/issues/6">#6</a>)</li>
 				<li>Noto Sans Symbols: U+1F1EB loses its cross bar in 15px on Linux (<a href="https://github.com/notofonts/symbols/issues/4">#4</a>)</li>
 			</ul>
+			<h4>
+				Noto Sans Symbols 
+				<a href="https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols-v2.002">v2.002</a>
+			</h4>
+			<pre>Noto Sans Symbols v2.002
+
+This release fixes a number of fontbakery fails.
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansSymbols/unhinted/slim-variable-ttf/NotoSansSymbols[wght].ttf">NotoSansSymbols[wght].ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-Black.ttf">NotoSansSymbols-Black.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-Bold.ttf">NotoSansSymbols-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-ExtraBold.ttf">NotoSansSymbols-ExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-ExtraLight.ttf">NotoSansSymbols-ExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-Light.ttf">NotoSansSymbols-Light.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-Medium.ttf">NotoSansSymbols-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-Regular.ttf">NotoSansSymbols-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-SemiBold.ttf">NotoSansSymbols-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/unhinted/ttf/NotoSansSymbols-Thin.ttf">NotoSansSymbols-Thin.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/unhinted/variable-ttf/NotoSansSymbols[wght].ttf">NotoSansSymbols[wght].ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-Black.ttf">NotoSansSymbols-Black.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-Bold.ttf">NotoSansSymbols-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-ExtraBold.ttf">NotoSansSymbols-ExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-ExtraLight.ttf">NotoSansSymbols-ExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-Light.ttf">NotoSansSymbols-Light.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-Medium.ttf">NotoSansSymbols-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-Regular.ttf">NotoSansSymbols-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-SemiBold.ttf">NotoSansSymbols-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/hinted/ttf/NotoSansSymbols-Thin.ttf">NotoSansSymbols-Thin.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansSymbols/full/slim-variable-ttf/NotoSansSymbols[wght].ttf">NotoSansSymbols[wght].ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-Black.ttf">NotoSansSymbols-Black.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-Bold.ttf">NotoSansSymbols-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-ExtraBold.ttf">NotoSansSymbols-ExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-ExtraLight.ttf">NotoSansSymbols-ExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-Light.ttf">NotoSansSymbols-Light.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-Medium.ttf">NotoSansSymbols-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-Regular.ttf">NotoSansSymbols-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-SemiBold.ttf">NotoSansSymbols-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/full/ttf/NotoSansSymbols-Thin.ttf">NotoSansSymbols-Thin.ttf</a></li>
+						<li><a href="fonts/NotoSansSymbols/full/variable-ttf/NotoSansSymbols[wght].ttf">NotoSansSymbols[wght].ttf</a></li>
+					</ul>
+				</div>
+			</div>
+			<h4>
+				Noto Sans Symbols2 
+				<a href="https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols2-v2.004">v2.004</a>
+			</h4>
+			<pre>Noto Sans Symbols2 v2.004 This release fixes a number of fontbakery fails.
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansSymbols2/unhinted/ttf/NotoSansSymbols2-Regular.ttf">NotoSansSymbols2-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansSymbols2/hinted/ttf/NotoSansSymbols2-Regular.ttf">NotoSansSymbols2-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansSymbols2/full/ttf/NotoSansSymbols2-Regular.ttf">NotoSansSymbols2-Regular.ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="syriac">Noto Syriac</h3>
 			<ul>
@@ -10121,13 +10245,6 @@ This release fixes a number of fontbakery fails.
 				<li>
 					<a href="https://www.github.com/notofonts/tagalog/issues/new/choose">Report a bug in this font</a>
 				</li>
-			</ul>
-			<h5>Known Issues</h5>
-			<ul>
-				<li>Ra not rendering correctly tagalog  (<a href="https://github.com/notofonts/tagalog/issues/3">#3</a>)</li>
-				<li>Please enlarge virama 1714 in Tagalog (<a href="https://github.com/notofonts/tagalog/issues/2">#2</a>)</li>
-				<li>Overlapping Tagalog vowel signs (<a href="https://github.com/notofonts/tagalog/issues/1">#1</a>)</li>
-				<li>Additional Unicode14.0 | 170D, 1715, 171F. | Baybayin &#x27;Ra&#x27;  (<a href="https://github.com/notofonts/tagalog/issues/4">#4</a>)</li>
 			</ul>
 			<hr />
 			<h3 id="tagbanwa">Noto Tagbanwa</h3>
@@ -10187,9 +10304,38 @@ This release fixes a number of fontbakery fails.
 			</ul>
 			<h5>Known Issues</h5>
 			<ul>
-				<li>Noto Sans Tai Le does not work with USE shaper (<a href="https://github.com/notofonts/tai-le/issues/2">#2</a>)</li>
 				<li>Glyph variants for digits in Tai Le (<a href="https://github.com/notofonts/tai-le/issues/1">#1</a>)</li>
 			</ul>
+			<h4>
+				Noto Sans Tai Le 
+				<a href="https://github.com/notofonts/tai-le/releases/tag/NotoSansTaiLe-v2.002">v2.002</a>
+			</h4>
+			<pre>Noto Sans Tai Le v2.002
+
+This release:
+* fixes a number of fontbakery fails
+* fixes a problem where shaping was applied across clusters. (#2)
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansTaiLe/unhinted/ttf/NotoSansTaiLe-Regular.ttf">NotoSansTaiLe-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansTaiLe/hinted/ttf/NotoSansTaiLe-Regular.ttf">NotoSansTaiLe-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansTaiLe/full/ttf/NotoSansTaiLe-Regular.ttf">NotoSansTaiLe-Regular.ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="tai-tham">Noto Tai Tham</h3>
 			<ul>
@@ -10207,13 +10353,54 @@ This release fixes a number of fontbakery fails.
 			<h5>Known Issues</h5>
 			<ul>
 				<li>Noto Sans Tai Tham is missing dotted circle (<a href="https://github.com/notofonts/tai-tham/issues/7">#7</a>)</li>
-				<li>Mispositioned fallback form of U+1A60 TAI THAM SIGN SAKOT (<a href="https://github.com/notofonts/tai-tham/issues/6">#6</a>)</li>
 				<li>Noto Sans Tai Tham Issues  (<a href="https://github.com/notofonts/tai-tham/issues/5">#5</a>)</li>
 				<li>Limited reordering in Tai Tham (<a href="https://github.com/notofonts/tai-tham/issues/4">#4</a>)</li>
-				<li>Incorrectly subjoined Tai Tham wa and low ya (<a href="https://github.com/notofonts/tai-tham/issues/3">#3</a>)</li>
-				<li>Missing anchor on U+1A7F TAI THAM COMBINING CRYPTOGRAMMIC DOT (<a href="https://github.com/notofonts/tai-tham/issues/2">#2</a>)</li>
-				<li>GSUB problem with Noto Sans Tai Tham: uni1A4B (<a href="https://github.com/notofonts/tai-tham/issues/1">#1</a>)</li>
+				<li>v2 font lacks anchors (<a href="https://github.com/notofonts/tai-tham/issues/2">#2</a>)</li>
 			</ul>
+			<h4>
+				Noto Sans Tai Tham 
+				<a href="https://github.com/notofonts/tai-tham/releases/tag/NotoSansTaiTham-v2.002">v2.002</a>
+			</h4>
+			<pre>Noto Sans Tai Tham v2.002
+
+This release:
+* fixes a number of fontbakery fails
+* correctly forms the conjunct for HIGH PA (#1)
+* does not form the conjunct for WA+LOW YA unless sakot characters are provided (#3)
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansTaiTham/unhinted/slim-variable-ttf/NotoSansTaiTham[wght].ttf">NotoSansTaiTham[wght].ttf</a></li>
+						<li><a href="fonts/NotoSansTaiTham/unhinted/ttf/NotoSansTaiTham-Bold.ttf">NotoSansTaiTham-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSansTaiTham/unhinted/ttf/NotoSansTaiTham-Medium.ttf">NotoSansTaiTham-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSansTaiTham/unhinted/ttf/NotoSansTaiTham-Regular.ttf">NotoSansTaiTham-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTaiTham/unhinted/ttf/NotoSansTaiTham-SemiBold.ttf">NotoSansTaiTham-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoSansTaiTham/unhinted/variable-ttf/NotoSansTaiTham[wght].ttf">NotoSansTaiTham[wght].ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansTaiTham/hinted/ttf/NotoSansTaiTham-Bold.ttf">NotoSansTaiTham-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSansTaiTham/hinted/ttf/NotoSansTaiTham-Medium.ttf">NotoSansTaiTham-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSansTaiTham/hinted/ttf/NotoSansTaiTham-Regular.ttf">NotoSansTaiTham-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTaiTham/hinted/ttf/NotoSansTaiTham-SemiBold.ttf">NotoSansTaiTham-SemiBold.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansTaiTham/full/slim-variable-ttf/NotoSansTaiTham[wght].ttf">NotoSansTaiTham[wght].ttf</a></li>
+						<li><a href="fonts/NotoSansTaiTham/full/ttf/NotoSansTaiTham-Bold.ttf">NotoSansTaiTham-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSansTaiTham/full/ttf/NotoSansTaiTham-Medium.ttf">NotoSansTaiTham-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSansTaiTham/full/ttf/NotoSansTaiTham-Regular.ttf">NotoSansTaiTham-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTaiTham/full/ttf/NotoSansTaiTham-SemiBold.ttf">NotoSansTaiTham-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoSansTaiTham/full/variable-ttf/NotoSansTaiTham[wght].ttf">NotoSansTaiTham[wght].ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="tai-viet">Noto Tai Viet</h3>
 			<ul>
@@ -10228,10 +10415,36 @@ This release fixes a number of fontbakery fails.
 					<a href="https://www.github.com/notofonts/tai-viet/issues/new/choose">Report a bug in this font</a>
 				</li>
 			</ul>
-			<h5>Known Issues</h5>
-			<ul>
-				<li>Missing anchor points in Tai Viet (<a href="https://github.com/notofonts/tai-viet/issues/1">#1</a>)</li>
-			</ul>
+			<h4>
+				Noto Sans Tai Viet 
+				<a href="https://github.com/notofonts/tai-viet/releases/tag/NotoSansTaiViet-v2.002">v2.002</a>
+			</h4>
+			<pre>Noto Sans Tai Viet v2.002
+
+This release:
+* fixes a number of fontbakery fails
+* fixes the anchors for certain mark glyphs (#1)
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansTaiViet/unhinted/ttf/NotoSansTaiViet-Regular.ttf">NotoSansTaiViet-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansTaiViet/hinted/ttf/NotoSansTaiViet-Regular.ttf">NotoSansTaiViet-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansTaiViet/full/ttf/NotoSansTaiViet-Regular.ttf">NotoSansTaiViet-Regular.ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="takri">Noto Takri</h3>
 			<ul>
@@ -11740,13 +11953,78 @@ This is an administrative release.
 			</ul>
 			<h5>Known Issues</h5>
 			<ul>
-				<li>Add Languagesystems (<a href="https://github.com/notofonts/tifinagh/pull/15">#15</a>)</li>
+				<li>U+0309 COMBINING HOOK ABOVE has no anchor point (<a href="https://github.com/notofonts/tifinagh/issues/16">#16</a>)</li>
 				<li>Duplicate Noto Tifininagh fonts for script variants in the main ZIP package containing all fonts (<a href="https://github.com/notofonts/tifinagh/issues/9">#9</a>)</li>
 				<li>Half-implemented variant Tifinagh glyphs at inappropriate code points (<a href="https://github.com/notofonts/tifinagh/issues/8">#8</a>)</li>
 				<li>Tifinagh: some ligatures seem erroneous (<a href="https://github.com/notofonts/tifinagh/issues/7">#7</a>)</li>
 				<li>Wrong glyph for U+02C7 CARON in Tifinagh (<a href="https://github.com/notofonts/tifinagh/issues/6">#6</a>)</li>
 				<li>NotoSansTifinagh is graphically a Neo-Tifinagh font, but uses traditional Tifinagh shaping (<a href="https://github.com/notofonts/tifinagh/issues/5">#5</a>)</li>
+				<li>Bad combination of dot and macron in Tifinagh (<a href="https://github.com/notofonts/tifinagh/issues/4">#4</a>)</li>
 			</ul>
+			<h4>
+				Noto Sans Tifinagh 
+				<a href="https://github.com/notofonts/tifinagh/releases/tag/NotoSansTifinagh-v2.004">v2.004</a>
+			</h4>
+			<pre>Noto Sans Tifinagh 2.004
+
+This release:
+* fixes a number of fontbakery fails
+* fixes a clash between the dot accent and macro (#4)
+* removes stylistically inappropriate yal/yan ligatures (#2)
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinagh-Regular.ttf">NotoSansTifinagh-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAPT-Regular.ttf">NotoSansTifinaghAPT-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAdrar-Regular.ttf">NotoSansTifinaghAdrar-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAgrawImazighen-Regular.ttf">NotoSansTifinaghAgrawImazighen-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAhaggar-Regular.ttf">NotoSansTifinaghAhaggar-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAir-Regular.ttf">NotoSansTifinaghAir-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAzawagh-Regular.ttf">NotoSansTifinaghAzawagh-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghGhat-Regular.ttf">NotoSansTifinaghGhat-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghHawad-Regular.ttf">NotoSansTifinaghHawad-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghRhissaIxa-Regular.ttf">NotoSansTifinaghRhissaIxa-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghSIL-Regular.ttf">NotoSansTifinaghSIL-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghTawellemmet-Regular.ttf">NotoSansTifinaghTawellemmet-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinagh-Regular.ttf">NotoSansTifinagh-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghAPT-Regular.ttf">NotoSansTifinaghAPT-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghAdrar-Regular.ttf">NotoSansTifinaghAdrar-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghAgrawImazighen-Regular.ttf">NotoSansTifinaghAgrawImazighen-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghAhaggar-Regular.ttf">NotoSansTifinaghAhaggar-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghAir-Regular.ttf">NotoSansTifinaghAir-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghAzawagh-Regular.ttf">NotoSansTifinaghAzawagh-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghGhat-Regular.ttf">NotoSansTifinaghGhat-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghHawad-Regular.ttf">NotoSansTifinaghHawad-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghRhissaIxa-Regular.ttf">NotoSansTifinaghRhissaIxa-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghSIL-Regular.ttf">NotoSansTifinaghSIL-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/hinted/ttf/NotoSansTifinaghTawellemmet-Regular.ttf">NotoSansTifinaghTawellemmet-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansTifinagh/full/ttf/NotoSansTifinagh-Regular.ttf">NotoSansTifinagh-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghAPT-Regular.ttf">NotoSansTifinaghAPT-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghAdrar-Regular.ttf">NotoSansTifinaghAdrar-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghAgrawImazighen-Regular.ttf">NotoSansTifinaghAgrawImazighen-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghAhaggar-Regular.ttf">NotoSansTifinaghAhaggar-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghAir-Regular.ttf">NotoSansTifinaghAir-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghAzawagh-Regular.ttf">NotoSansTifinaghAzawagh-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghGhat-Regular.ttf">NotoSansTifinaghGhat-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghHawad-Regular.ttf">NotoSansTifinaghHawad-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghRhissaIxa-Regular.ttf">NotoSansTifinaghRhissaIxa-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghSIL-Regular.ttf">NotoSansTifinaghSIL-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSansTifinagh/full/ttf/NotoSansTifinaghTawellemmet-Regular.ttf">NotoSansTifinaghTawellemmet-Regular.ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="tirhuta">Noto Tirhuta</h3>
 			<ul>
