@@ -6205,6 +6205,16 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 386,
+    "title": "Suggestion: \"YOPQ\" axis in Noto Sans sources",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/386"
+   },
+   {
+    "number": 385,
+    "title": "Noto Sans (LCG) builds missing from https://github.com/notofonts/notofonts.github.io/tree/main/fonts/",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/385"
+   },
+   {
     "number": 237,
     "title": "Noto Sans Display Italic : adjust modifier letters component position",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/237"
@@ -8272,11 +8282,6 @@
     "url": "https://github.com/notofonts/modi/issues/7"
    },
    {
-    "number": 5,
-    "title": "Wrong contextualization of subjoined Modi ra",
-    "url": "https://github.com/notofonts/modi/issues/5"
-   },
-   {
     "number": 3,
     "title": "Inappropriate Glyphs",
     "url": "https://github.com/notofonts/modi/issues/3"
@@ -8293,11 +8298,6 @@
     "number": 4,
     "title": "Mongol 18A9 is anchored badly",
     "url": "https://github.com/notofonts/mongolian/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Invalid glyph in Noto Sans Mongolian for char 0x3001(ideographiccoma)",
-    "url": "https://github.com/notofonts/mongolian/issues/3"
    },
    {
     "number": 2,
@@ -9201,9 +9201,47 @@
   "title": "Noto Nushu"
  },
  "nyiakeng-puachue-hmong": {
-  "families": {},
+  "families": {
+   "Noto Serif NPHmong": {
+    "files": {
+     "full": [
+      "fonts/NotoSerifNPHmong/full/slim-variable-ttf/NotoSerifNPHmong[wght].ttf",
+      "fonts/NotoSerifNPHmong/full/ttf/NotoSerifNPHmong-Bold.ttf",
+      "fonts/NotoSerifNPHmong/full/ttf/NotoSerifNPHmong-Medium.ttf",
+      "fonts/NotoSerifNPHmong/full/ttf/NotoSerifNPHmong-Regular.ttf",
+      "fonts/NotoSerifNPHmong/full/ttf/NotoSerifNPHmong-SemiBold.ttf",
+      "fonts/NotoSerifNPHmong/full/variable-ttf/NotoSerifNPHmong[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSerifNPHmong/hinted/ttf/NotoSerifNPHmong-Bold.ttf",
+      "fonts/NotoSerifNPHmong/hinted/ttf/NotoSerifNPHmong-Medium.ttf",
+      "fonts/NotoSerifNPHmong/hinted/ttf/NotoSerifNPHmong-Regular.ttf",
+      "fonts/NotoSerifNPHmong/hinted/ttf/NotoSerifNPHmong-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSerifNPHmong/unhinted/slim-variable-ttf/NotoSerifNPHmong[wght].ttf",
+      "fonts/NotoSerifNPHmong/unhinted/ttf/NotoSerifNPHmong-Bold.ttf",
+      "fonts/NotoSerifNPHmong/unhinted/ttf/NotoSerifNPHmong-Medium.ttf",
+      "fonts/NotoSerifNPHmong/unhinted/ttf/NotoSerifNPHmong-Regular.ttf",
+      "fonts/NotoSerifNPHmong/unhinted/ttf/NotoSerifNPHmong-SemiBold.ttf",
+      "fonts/NotoSerifNPHmong/unhinted/variable-ttf/NotoSerifNPHmong[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Serif NP Hmong v1.001\n\nThis release:\n* renames the font family from \"Noto Serif Nyiakeng Puachue Hmong\" to avoid over-long name table entries\n* fixes a number of other fontbakery fails\n",
+     "published": "2022-09-15T08:38:41",
+     "url": "https://github.com/notofonts/nyiakeng-puachue-hmong/releases/tag/NotoSerifNPHmong-v1.001",
+     "version": "v1.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/nyiakeng-puachue-hmong",
   "issues": [
+   {
+    "number": 3,
+    "title": "U+25CC DOTTED CIRCLE\u2019s anchor point is off center",
+    "url": "https://github.com/notofonts/nyiakeng-puachue-hmong/issues/3"
+   },
    {
     "number": 2,
     "title": "NP Hmong: dotted circle 25CC is missing",
@@ -12703,10 +12741,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Warang Citi v3.001\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-05T16:00:03",
-     "url": "https://github.com/notofonts/warang-citi/releases/tag/NotoSansWarangCiti-v3.001",
-     "version": "v3.001"
+     "notes": "Noto Sans Warang Citi v3.002\n\nThis release fixes the handling of above-base subscript forms in the full build.\n",
+     "published": "2022-09-15T15:26:08",
+     "url": "https://github.com/notofonts/warang-citi/releases/tag/NotoSansWarangCiti-v3.002",
+     "version": "v3.002"
     }
    }
   },

@@ -5940,7 +5940,44 @@
   ]
  },
  "nushu": {},
- "nyiakeng-puachue-hmong": {},
+ "nyiakeng-puachue-hmong": {
+  "families": {
+   "Noto Serif NPHmong": {
+    "files": [
+     "fonts/NotoSerifNPHmong/full/slim-variable-ttf/NotoSerifNPHmong[wght].ttf",
+     "fonts/NotoSerifNPHmong/full/ttf/NotoSerifNPHmong-SemiBold.ttf",
+     "fonts/NotoSerifNPHmong/full/ttf/NotoSerifNPHmong-Bold.ttf",
+     "fonts/NotoSerifNPHmong/full/ttf/NotoSerifNPHmong-Medium.ttf",
+     "fonts/NotoSerifNPHmong/full/ttf/NotoSerifNPHmong-Regular.ttf",
+     "fonts/NotoSerifNPHmong/full/variable-ttf/NotoSerifNPHmong[wght].ttf",
+     "fonts/NotoSerifNPHmong/googlefonts/ttf/NotoSerifNPHmong-SemiBold.ttf",
+     "fonts/NotoSerifNPHmong/googlefonts/ttf/NotoSerifNPHmong-Bold.ttf",
+     "fonts/NotoSerifNPHmong/googlefonts/ttf/NotoSerifNPHmong-Medium.ttf",
+     "fonts/NotoSerifNPHmong/googlefonts/ttf/NotoSerifNPHmong-Regular.ttf",
+     "fonts/NotoSerifNPHmong/googlefonts/variable-ttf/NotoSerifNPHmong[wght].ttf",
+     "fonts/NotoSerifNPHmong/unhinted/slim-variable-ttf/NotoSerifNPHmong[wght].ttf",
+     "fonts/NotoSerifNPHmong/unhinted/ttf/NotoSerifNPHmong-SemiBold.ttf",
+     "fonts/NotoSerifNPHmong/unhinted/ttf/NotoSerifNPHmong-Bold.ttf",
+     "fonts/NotoSerifNPHmong/unhinted/ttf/NotoSerifNPHmong-Medium.ttf",
+     "fonts/NotoSerifNPHmong/unhinted/ttf/NotoSerifNPHmong-Regular.ttf",
+     "fonts/NotoSerifNPHmong/unhinted/variable-ttf/NotoSerifNPHmong[wght].ttf",
+     "fonts/NotoSerifNPHmong/hinted/ttf/NotoSerifNPHmong-SemiBold.ttf",
+     "fonts/NotoSerifNPHmong/hinted/ttf/NotoSerifNPHmong-Bold.ttf",
+     "fonts/NotoSerifNPHmong/hinted/ttf/NotoSerifNPHmong-Medium.ttf",
+     "fonts/NotoSerifNPHmong/hinted/ttf/NotoSerifNPHmong-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Serif NP Hmong v1.001\n\nThis release:\n* renames the font family from \"Noto Serif Nyiakeng Puachue Hmong\" to avoid over-long name table entries\n* fixes a number of other fontbakery fails\n",
+     "published": "2022-09-15T08:38:41",
+     "url": "https://github.com/notofonts/nyiakeng-puachue-hmong/releases/tag/NotoSerifNPHmong-v1.001",
+     "version": "v1.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSerifNPHmong-v1.001"
+  ]
+ },
  "ogham": {},
  "ol-chiki": {
   "families": {
@@ -8399,15 +8436,16 @@
      "fonts/NotoSansWarangCiti/hinted/ttf/NotoSansWarangCiti-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Warang Citi v3.001\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-05T16:00:03",
-     "url": "https://github.com/notofonts/warang-citi/releases/tag/NotoSansWarangCiti-v3.001",
-     "version": "v3.001"
+     "notes": "Noto Sans Warang Citi v3.002\n\nThis release fixes the handling of above-base subscript forms in the full build.\n",
+     "published": "2022-09-15T15:26:08",
+     "url": "https://github.com/notofonts/warang-citi/releases/tag/NotoSansWarangCiti-v3.002",
+     "version": "v3.002"
     }
    }
   },
   "known_releases": [
-   "NotoSansWarangCiti-v3.001"
+   "NotoSansWarangCiti-v3.001",
+   "NotoSansWarangCiti-v3.002"
   ]
  },
  "yezidi": {},

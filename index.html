@@ -216,6 +216,7 @@
 							<option value="#nko">- Noto Sans NKo</option>
 							<option value="#nushu">Noto Nushu</option>
 							<option value="#nyiakeng-puachue-hmong">Noto Nyiakeng Puachue Hmong</option>
+							<option value="#nyiakeng-puachue-hmong">- Noto Serif NPHmong</option>
 							<option value="#ogham">Noto Ogham</option>
 							<option value="#ol-chiki">Noto Ol Chiki</option>
 							<option value="#ol-chiki">- Noto Sans Ol Chiki</option>
@@ -6112,6 +6113,8 @@ This is an administrative release.
 			</ul>
 			<h5>Known Issues</h5>
 			<ul>
+				<li>Suggestion: &quot;YOPQ&quot; axis in Noto Sans sources (<a href="https://github.com/notofonts/latin-greek-cyrillic/issues/386">#386</a>)</li>
+				<li>Noto Sans (LCG) builds missing from https://github.com/notofonts/notofonts.github.io/tree/main/fonts/ (<a href="https://github.com/notofonts/latin-greek-cyrillic/issues/385">#385</a>)</li>
 				<li>Noto Sans Display Italic : adjust modifier letters component position (<a href="https://github.com/notofonts/latin-greek-cyrillic/pull/237">#237</a>)</li>
 				<li>Standalone diacritics combine with the next letter in Noto Serif (<a href="https://github.com/notofonts/latin-greek-cyrillic/issues/236">#236</a>)</li>
 				<li>Noto Mono is not mono.  (<a href="https://github.com/notofonts/latin-greek-cyrillic/issues/234">#234</a>)</li>
@@ -7772,7 +7775,6 @@ This release fixes a number of fontbakery fails
 				<li>Request for serif style font for Modi script (<a href="https://github.com/notofonts/modi/issues/9">#9</a>)</li>
 				<li>Overline (Shiroregha) above the digits is missing in NotoSansModi font. (<a href="https://github.com/notofonts/modi/issues/8">#8</a>)</li>
 				<li>Some letters in Modi Script Font looks wrong (<a href="https://github.com/notofonts/modi/issues/7">#7</a>)</li>
-				<li>Wrong contextualization of subjoined Modi ra (<a href="https://github.com/notofonts/modi/issues/5">#5</a>)</li>
 				<li>Inappropriate Glyphs (<a href="https://github.com/notofonts/modi/issues/3">#3</a>)</li>
 			</ul>
 			<hr />
@@ -7792,7 +7794,6 @@ This release fixes a number of fontbakery fails
 			<h5>Known Issues</h5>
 			<ul>
 				<li>Mongol 18A9 is anchored badly (<a href="https://github.com/notofonts/mongolian/issues/4">#4</a>)</li>
-				<li>Invalid glyph in Noto Sans Mongolian for char 0x3001(ideographiccoma) (<a href="https://github.com/notofonts/mongolian/issues/3">#3</a>)</li>
 				<li>NotoSansMongolian Unfamiliar glyph U+1837 RA  (<a href="https://github.com/notofonts/mongolian/issues/2">#2</a>)</li>
 			</ul>
 			<hr />
@@ -8555,9 +8556,53 @@ This release fixes a number of fontbakery fails.
 			</ul>
 			<h5>Known Issues</h5>
 			<ul>
+				<li>U+25CC DOTTED CIRCLE’s anchor point is off center (<a href="https://github.com/notofonts/nyiakeng-puachue-hmong/issues/3">#3</a>)</li>
 				<li>NP Hmong: dotted circle 25CC is missing (<a href="https://github.com/notofonts/nyiakeng-puachue-hmong/issues/2">#2</a>)</li>
 				<li>Completely rename &quot;Noto Serif Nyiakeng Puachue Hmong&quot; to &quot;Noto Serif NP Hmong&quot; (<a href="https://github.com/notofonts/nyiakeng-puachue-hmong/issues/1">#1</a>)</li>
 			</ul>
+			<h4>
+				Noto Serif NPHmong 
+				<a href="https://github.com/notofonts/nyiakeng-puachue-hmong/releases/tag/NotoSerifNPHmong-v1.001">v1.001</a>
+			</h4>
+			<pre>Noto Serif NP Hmong v1.001
+
+This release:
+* renames the font family from &quot;Noto Serif Nyiakeng Puachue Hmong&quot; to avoid over-long name table entries
+* fixes a number of other fontbakery fails
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSerifNPHmong/unhinted/slim-variable-ttf/NotoSerifNPHmong[wght].ttf">NotoSerifNPHmong[wght].ttf</a></li>
+						<li><a href="fonts/NotoSerifNPHmong/unhinted/ttf/NotoSerifNPHmong-Bold.ttf">NotoSerifNPHmong-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSerifNPHmong/unhinted/ttf/NotoSerifNPHmong-Medium.ttf">NotoSerifNPHmong-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSerifNPHmong/unhinted/ttf/NotoSerifNPHmong-Regular.ttf">NotoSerifNPHmong-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSerifNPHmong/unhinted/ttf/NotoSerifNPHmong-SemiBold.ttf">NotoSerifNPHmong-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoSerifNPHmong/unhinted/variable-ttf/NotoSerifNPHmong[wght].ttf">NotoSerifNPHmong[wght].ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSerifNPHmong/hinted/ttf/NotoSerifNPHmong-Bold.ttf">NotoSerifNPHmong-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSerifNPHmong/hinted/ttf/NotoSerifNPHmong-Medium.ttf">NotoSerifNPHmong-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSerifNPHmong/hinted/ttf/NotoSerifNPHmong-Regular.ttf">NotoSerifNPHmong-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSerifNPHmong/hinted/ttf/NotoSerifNPHmong-SemiBold.ttf">NotoSerifNPHmong-SemiBold.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSerifNPHmong/full/slim-variable-ttf/NotoSerifNPHmong[wght].ttf">NotoSerifNPHmong[wght].ttf</a></li>
+						<li><a href="fonts/NotoSerifNPHmong/full/ttf/NotoSerifNPHmong-Bold.ttf">NotoSerifNPHmong-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSerifNPHmong/full/ttf/NotoSerifNPHmong-Medium.ttf">NotoSerifNPHmong-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSerifNPHmong/full/ttf/NotoSerifNPHmong-Regular.ttf">NotoSerifNPHmong-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSerifNPHmong/full/ttf/NotoSerifNPHmong-SemiBold.ttf">NotoSerifNPHmong-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoSerifNPHmong/full/variable-ttf/NotoSerifNPHmong[wght].ttf">NotoSerifNPHmong[wght].ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="ogham">Noto Ogham</h3>
 			<ul>
@@ -12244,11 +12289,11 @@ This release fixes a number of fontbakery fails.
 			</ul>
 			<h4>
 				Noto Sans Warang Citi 
-				<a href="https://github.com/notofonts/warang-citi/releases/tag/NotoSansWarangCiti-v3.001">v3.001</a>
+				<a href="https://github.com/notofonts/warang-citi/releases/tag/NotoSansWarangCiti-v3.002">v3.002</a>
 			</h4>
-			<pre>Noto Sans Warang Citi v3.001
+			<pre>Noto Sans Warang Citi v3.002
 
-This release fixes a number of fontbakery fails.
+This release fixes the handling of above-base subscript forms in the full build.
 </pre>
 			<div class="row">
 				<div class="col">
