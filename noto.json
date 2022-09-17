@@ -6205,6 +6205,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 387,
+    "title": "Add Alternate Glyph Forms for Lowercase L, T, G and A",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/387"
+   },
+   {
     "number": 386,
     "title": "Suggestion: \"YOPQ\" axis in Noto Sans sources",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/386"
@@ -8263,7 +8268,27 @@
   "title": "Noto Miao"
  },
  "modi": {
-  "families": {},
+  "families": {
+   "Noto Sans Modi": {
+    "files": {
+     "full": [
+      "fonts/NotoSansModi/full/ttf/NotoSansModi-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansModi/hinted/ttf/NotoSansModi-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansModi/unhinted/ttf/NotoSansModi-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Modi v2.002\n\nThis release:\n* fixes a number of fontbakery fails\n* makes the attaching of anchors more predictable and fixes a number of clashes\n* fixes the contextualization of subjoined ra (#5)\n* removes an incorrect ligature applied to dna/dnaa/dnuu  (#4)\n* tightens up the production of half forms (#1)\n* allows formation of ligatures across a repha (#2)\n",
+     "published": "2022-09-16T13:44:36",
+     "url": "https://github.com/notofonts/modi/releases/tag/NotoSansModi-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/modi",
   "issues": [
    {
@@ -8291,7 +8316,27 @@
   "title": "Noto Modi"
  },
  "mongolian": {
-  "families": {},
+  "families": {
+   "Noto Sans Mongolian": {
+    "files": {
+     "full": [
+      "fonts/NotoSansMongolian/full/ttf/NotoSansMongolian-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansMongolian/hinted/ttf/NotoSansMongolian-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansMongolian/unhinted/ttf/NotoSansMongolian-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Mongolian v2.003\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-16T10:55:45",
+     "url": "https://github.com/notofonts/mongolian/releases/tag/NotoSansMongolian-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
    {
@@ -10855,9 +10900,45 @@
   "title": "Noto Syriac"
  },
  "tagalog": {
-  "families": {},
+  "families": {
+   "Noto Sans Tagalog": {
+    "files": {
+     "full": [
+      "fonts/NotoSansTagalog/full/ttf/NotoSansTagalog-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansTagalog/hinted/ttf/NotoSansTagalog-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansTagalog/unhinted/ttf/NotoSansTagalog-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Tagalog v2.001\n\nThis release:\n* Adds support for new glyphs in Unicode 14 (U+170D, U+1715, U+171F); thanks to @Mercury13 (#1, #4)\n* Increases the size of the virama glyph (#2)\n* Allows multiple marks to be applied without overlapping (#1)\n* and fixes a number of fontbakery fails\n",
+     "published": "2022-09-16T10:36:53",
+     "url": "https://github.com/notofonts/tagalog/releases/tag/NotoSansTagalog-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/tagalog",
-  "issues": [],
+  "issues": [
+   {
+    "number": 7,
+    "title": "Combining characters alignment with base characters",
+    "url": "https://github.com/notofonts/tagalog/issues/7"
+   },
+   {
+    "number": 6,
+    "title": "U+1715 TAGALOG SIGN PAMUDPOD should be spacing",
+    "url": "https://github.com/notofonts/tagalog/issues/6"
+   },
+   {
+    "number": 5,
+    "title": "Vowel signs overlap on U+25CC DOTTED CIRCLE",
+    "url": "https://github.com/notofonts/tagalog/issues/5"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/tagalog",
   "title": "Noto Tagalog"
  },
@@ -12381,7 +12462,55 @@
   "title": "Noto Thai"
  },
  "tibetan": {
-  "families": {},
+  "families": {
+   "Noto Serif Tibetan": {
+    "files": {
+     "full": [
+      "fonts/NotoSerifTibetan/full/slim-variable-ttf/NotoSerifTibetan[wght].ttf",
+      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Black.ttf",
+      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Bold.ttf",
+      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-ExtraBold.ttf",
+      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-ExtraLight.ttf",
+      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Light.ttf",
+      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Medium.ttf",
+      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Regular.ttf",
+      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-SemiBold.ttf",
+      "fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Thin.ttf",
+      "fonts/NotoSerifTibetan/full/variable-ttf/NotoSerifTibetan[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Black.ttf",
+      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Bold.ttf",
+      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-ExtraBold.ttf",
+      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-ExtraLight.ttf",
+      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Light.ttf",
+      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Medium.ttf",
+      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Regular.ttf",
+      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-SemiBold.ttf",
+      "fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Thin.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSerifTibetan/unhinted/slim-variable-ttf/NotoSerifTibetan[wght].ttf",
+      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Black.ttf",
+      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Bold.ttf",
+      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-ExtraBold.ttf",
+      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-ExtraLight.ttf",
+      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Light.ttf",
+      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Medium.ttf",
+      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Regular.ttf",
+      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-SemiBold.ttf",
+      "fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Thin.ttf",
+      "fonts/NotoSerifTibetan/unhinted/variable-ttf/NotoSerifTibetan[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Serif Tibetan v2.103\n\nThis release:\n* fixes a number of fontbakery fails\n* removes an erroneous aa matra from the stack \"tthya\" (#4)\n",
+     "published": "2022-09-16T13:58:09",
+     "url": "https://github.com/notofonts/tibetan/releases/tag/NotoSerifTibetan-v2.103",
+     "version": "v2.103"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/tibetan",
   "issues": [
    {
@@ -12430,29 +12559,9 @@
     "url": "https://github.com/notofonts/tibetan/issues/7"
    },
    {
-    "number": 6,
-    "title": "NotoSerifTibetan Some characters are not drawn correctly in MS-WORD (2010)",
-    "url": "https://github.com/notofonts/tibetan/issues/6"
-   },
-   {
     "number": 5,
     "title": "Inconsistent compression in stacks with U+0FB0 TIBETAN SUBJOINED LETTER -A",
     "url": "https://github.com/notofonts/tibetan/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Incorrect glyph for \u27e8\u0f4a\u0fb7\u0fb1\u27e9",
-    "url": "https://github.com/notofonts/tibetan/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Tibetan vowel signs are sometimes too narrow",
-    "url": "https://github.com/notofonts/tibetan/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Tibetan: angle in ya tag",
-    "url": "https://github.com/notofonts/tibetan/issues/2"
    },
    {
     "number": 1,
@@ -12792,10 +12901,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Yi v2.001\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-05T16:00:46",
-     "url": "https://github.com/notofonts/yi/releases/tag/NotoSansYi-v2.001",
-     "version": "v2.001"
+     "notes": "NotoSansYi-v2.002\n\nThis release adds a number of punctuation characters: uniFF01, uniFF0C, uniFF1A, uniFF1B, and uniFF1F\n",
+     "published": "2022-09-16T08:04:46",
+     "url": "https://github.com/notofonts/yi/releases/tag/NotoSansYi-v2.002",
+     "version": "v2.002"
     }
    }
   },

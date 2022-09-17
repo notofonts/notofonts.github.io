@@ -194,7 +194,9 @@
 							<option value="#miao">Noto Miao</option>
 							<option value="#miao">- Noto Sans Miao</option>
 							<option value="#modi">Noto Modi</option>
+							<option value="#modi">- Noto Sans Modi</option>
 							<option value="#mongolian">Noto Mongolian</option>
+							<option value="#mongolian">- Noto Sans Mongolian</option>
 							<option value="#mro">Noto Mro</option>
 							<option value="#mro">- Noto Sans Mro</option>
 							<option value="#multani">Noto Multani</option>
@@ -274,6 +276,7 @@
 							<option value="#symbols">- Noto Sans Symbols2</option>
 							<option value="#syriac">Noto Syriac</option>
 							<option value="#tagalog">Noto Tagalog</option>
+							<option value="#tagalog">- Noto Sans Tagalog</option>
 							<option value="#tagbanwa">Noto Tagbanwa</option>
 							<option value="#tagbanwa">- Noto Sans Tagbanwa</option>
 							<option value="#tai-le">Noto Tai Le</option>
@@ -304,6 +307,7 @@
 							<option value="#thai">- Noto Sans Thai Looped</option>
 							<option value="#thai">- Noto Serif Thai</option>
 							<option value="#tibetan">Noto Tibetan</option>
+							<option value="#tibetan">- Noto Serif Tibetan</option>
 							<option value="#tifinagh">Noto Tifinagh</option>
 							<option value="#tifinagh">- Noto Sans Tifinagh</option>
 							<option value="#tirhuta">Noto Tirhuta</option>
@@ -6113,6 +6117,7 @@ This is an administrative release.
 			</ul>
 			<h5>Known Issues</h5>
 			<ul>
+				<li>Add Alternate Glyph Forms for Lowercase L, T, G and A (<a href="https://github.com/notofonts/latin-greek-cyrillic/issues/387">#387</a>)</li>
 				<li>Suggestion: &quot;YOPQ&quot; axis in Noto Sans sources (<a href="https://github.com/notofonts/latin-greek-cyrillic/issues/386">#386</a>)</li>
 				<li>Noto Sans (LCG) builds missing from https://github.com/notofonts/notofonts.github.io/tree/main/fonts/ (<a href="https://github.com/notofonts/latin-greek-cyrillic/issues/385">#385</a>)</li>
 				<li>Noto Sans Display Italic : adjust modifier letters component position (<a href="https://github.com/notofonts/latin-greek-cyrillic/pull/237">#237</a>)</li>
@@ -7777,6 +7782,40 @@ This release fixes a number of fontbakery fails
 				<li>Some letters in Modi Script Font looks wrong (<a href="https://github.com/notofonts/modi/issues/7">#7</a>)</li>
 				<li>Inappropriate Glyphs (<a href="https://github.com/notofonts/modi/issues/3">#3</a>)</li>
 			</ul>
+			<h4>
+				Noto Sans Modi 
+				<a href="https://github.com/notofonts/modi/releases/tag/NotoSansModi-v2.002">v2.002</a>
+			</h4>
+			<pre>Noto Sans Modi v2.002
+
+This release:
+* fixes a number of fontbakery fails
+* makes the attaching of anchors more predictable and fixes a number of clashes
+* fixes the contextualization of subjoined ra (#5)
+* removes an incorrect ligature applied to dna/dnaa/dnuu  (#4)
+* tightens up the production of half forms (#1)
+* allows formation of ligatures across a repha (#2)
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansModi/unhinted/ttf/NotoSansModi-Regular.ttf">NotoSansModi-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansModi/hinted/ttf/NotoSansModi-Regular.ttf">NotoSansModi-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansModi/full/ttf/NotoSansModi-Regular.ttf">NotoSansModi-Regular.ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="mongolian">Noto Mongolian</h3>
 			<ul>
@@ -7796,6 +7835,34 @@ This release fixes a number of fontbakery fails
 				<li>Mongol 18A9 is anchored badly (<a href="https://github.com/notofonts/mongolian/issues/4">#4</a>)</li>
 				<li>NotoSansMongolian Unfamiliar glyph U+1837 RA  (<a href="https://github.com/notofonts/mongolian/issues/2">#2</a>)</li>
 			</ul>
+			<h4>
+				Noto Sans Mongolian 
+				<a href="https://github.com/notofonts/mongolian/releases/tag/NotoSansMongolian-v2.003">v2.003</a>
+			</h4>
+			<pre>Noto Sans Mongolian v2.003
+
+This release fixes a number of fontbakery fails.
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansMongolian/unhinted/ttf/NotoSansMongolian-Regular.ttf">NotoSansMongolian-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansMongolian/hinted/ttf/NotoSansMongolian-Regular.ttf">NotoSansMongolian-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansMongolian/full/ttf/NotoSansMongolian-Regular.ttf">NotoSansMongolian-Regular.ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="mro">Noto Mro</h3>
 			<ul>
@@ -10291,6 +10358,44 @@ This release fixes a number of fontbakery fails.
 					<a href="https://www.github.com/notofonts/tagalog/issues/new/choose">Report a bug in this font</a>
 				</li>
 			</ul>
+			<h5>Known Issues</h5>
+			<ul>
+				<li>Combining characters alignment with base characters (<a href="https://github.com/notofonts/tagalog/issues/7">#7</a>)</li>
+				<li>U+1715 TAGALOG SIGN PAMUDPOD should be spacing (<a href="https://github.com/notofonts/tagalog/issues/6">#6</a>)</li>
+				<li>Vowel signs overlap on U+25CC DOTTED CIRCLE (<a href="https://github.com/notofonts/tagalog/issues/5">#5</a>)</li>
+			</ul>
+			<h4>
+				Noto Sans Tagalog 
+				<a href="https://github.com/notofonts/tagalog/releases/tag/NotoSansTagalog-v2.001">v2.001</a>
+			</h4>
+			<pre>Noto Sans Tagalog v2.001
+
+This release:
+* Adds support for new glyphs in Unicode 14 (U+170D, U+1715, U+171F); thanks to @Mercury13 (#1, #4)
+* Increases the size of the virama glyph (#2)
+* Allows multiple marks to be applied without overlapping (#1)
+* and fixes a number of fontbakery fails
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansTagalog/unhinted/ttf/NotoSansTagalog-Regular.ttf">NotoSansTagalog-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansTagalog/hinted/ttf/NotoSansTagalog-Regular.ttf">NotoSansTagalog-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansTagalog/full/ttf/NotoSansTagalog-Regular.ttf">NotoSansTagalog-Regular.ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="tagbanwa">Noto Tagbanwa</h3>
 			<ul>
@@ -11975,13 +12080,67 @@ This is an administrative release.
 				<li>Subjoined U+0F39 TIBETAN MARK TSA -PHRU overlaps tsheg (<a href="https://github.com/notofonts/tibetan/issues/9">#9</a>)</li>
 				<li>Inconsistent contextualization of Tibetan vowel signs above tsa ’phru (<a href="https://github.com/notofonts/tibetan/issues/8">#8</a>)</li>
 				<li>U+0F39 TIBETAN MARK TSA -PHRU blocks ligatures (<a href="https://github.com/notofonts/tibetan/issues/7">#7</a>)</li>
-				<li>NotoSerifTibetan Some characters are not drawn correctly in MS-WORD (2010) (<a href="https://github.com/notofonts/tibetan/issues/6">#6</a>)</li>
 				<li>Inconsistent compression in stacks with U+0FB0 TIBETAN SUBJOINED LETTER -A (<a href="https://github.com/notofonts/tibetan/issues/5">#5</a>)</li>
-				<li>Incorrect glyph for ⟨ཊྷྱ⟩ (<a href="https://github.com/notofonts/tibetan/issues/4">#4</a>)</li>
-				<li>Tibetan vowel signs are sometimes too narrow (<a href="https://github.com/notofonts/tibetan/issues/3">#3</a>)</li>
-				<li>Tibetan: angle in ya tag (<a href="https://github.com/notofonts/tibetan/issues/2">#2</a>)</li>
 				<li>&#x27;hang&#x27; baseline feature for NotoSans-Tibetan (<a href="https://github.com/notofonts/tibetan/issues/1">#1</a>)</li>
 			</ul>
+			<h4>
+				Noto Serif Tibetan 
+				<a href="https://github.com/notofonts/tibetan/releases/tag/NotoSerifTibetan-v2.103">v2.103</a>
+			</h4>
+			<pre>Noto Serif Tibetan v2.103
+
+This release:
+* fixes a number of fontbakery fails
+* removes an erroneous aa matra from the stack &quot;tthya&quot; (#4)
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSerifTibetan/unhinted/slim-variable-ttf/NotoSerifTibetan[wght].ttf">NotoSerifTibetan[wght].ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Black.ttf">NotoSerifTibetan-Black.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Bold.ttf">NotoSerifTibetan-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-ExtraBold.ttf">NotoSerifTibetan-ExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-ExtraLight.ttf">NotoSerifTibetan-ExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Light.ttf">NotoSerifTibetan-Light.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Medium.ttf">NotoSerifTibetan-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Regular.ttf">NotoSerifTibetan-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-SemiBold.ttf">NotoSerifTibetan-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/unhinted/ttf/NotoSerifTibetan-Thin.ttf">NotoSerifTibetan-Thin.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/unhinted/variable-ttf/NotoSerifTibetan[wght].ttf">NotoSerifTibetan[wght].ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Black.ttf">NotoSerifTibetan-Black.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Bold.ttf">NotoSerifTibetan-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-ExtraBold.ttf">NotoSerifTibetan-ExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-ExtraLight.ttf">NotoSerifTibetan-ExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Light.ttf">NotoSerifTibetan-Light.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Medium.ttf">NotoSerifTibetan-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Regular.ttf">NotoSerifTibetan-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-SemiBold.ttf">NotoSerifTibetan-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/hinted/ttf/NotoSerifTibetan-Thin.ttf">NotoSerifTibetan-Thin.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSerifTibetan/full/slim-variable-ttf/NotoSerifTibetan[wght].ttf">NotoSerifTibetan[wght].ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Black.ttf">NotoSerifTibetan-Black.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Bold.ttf">NotoSerifTibetan-Bold.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-ExtraBold.ttf">NotoSerifTibetan-ExtraBold.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-ExtraLight.ttf">NotoSerifTibetan-ExtraLight.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Light.ttf">NotoSerifTibetan-Light.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Medium.ttf">NotoSerifTibetan-Medium.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Regular.ttf">NotoSerifTibetan-Regular.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-SemiBold.ttf">NotoSerifTibetan-SemiBold.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/full/ttf/NotoSerifTibetan-Thin.ttf">NotoSerifTibetan-Thin.ttf</a></li>
+						<li><a href="fonts/NotoSerifTibetan/full/variable-ttf/NotoSerifTibetan[wght].ttf">NotoSerifTibetan[wght].ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="tifinagh">Noto Tifinagh</h3>
 			<ul>
@@ -12350,11 +12509,11 @@ This release fixes the handling of above-base subscript forms in the full build.
 			</ul>
 			<h4>
 				Noto Sans Yi 
-				<a href="https://github.com/notofonts/yi/releases/tag/NotoSansYi-v2.001">v2.001</a>
+				<a href="https://github.com/notofonts/yi/releases/tag/NotoSansYi-v2.002">v2.002</a>
 			</h4>
-			<pre>Noto Sans Yi v2.001
+			<pre>NotoSansYi-v2.002
 
-This release fixes a number of fontbakery fails.
+This release adds a number of punctuation characters: uniFF01, uniFF0C, uniFF1A, uniFF1B, and uniFF1F
 </pre>
 			<div class="row">
 				<div class="col">
