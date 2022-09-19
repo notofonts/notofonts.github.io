@@ -5340,6 +5340,11 @@
   "gh_url": "https://notofonts.github.io/khojki",
   "issues": [
    {
+    "number": 10,
+    "title": "U+1123F KHOJKI LETTER QA was disunified from U+11208 KHOJKI LETTER KA",
+    "url": "https://github.com/notofonts/khojki/issues/10"
+   },
+   {
     "number": 9,
     "title": "Repha is formed in Gujarati",
     "url": "https://github.com/notofonts/khojki/issues/9"
