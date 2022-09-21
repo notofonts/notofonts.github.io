@@ -253,7 +253,27 @@
   "title": "Noto Ahom"
  },
  "anatolian-hieroglyphs": {
-  "families": {},
+  "families": {
+   "Noto Sans Anatolian Hieroglyphs": {
+    "files": {
+     "full": [
+      "fonts/NotoSansAnatolianHieroglyphs/full/ttf/NotoSansAnatolianHieroglyphs-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansAnatolianHieroglyphs/hinted/ttf/NotoSansAnatolianHieroglyphs-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansAnatolianHieroglyphs/unhinted/ttf/NotoSansAnatolianHieroglyphs-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Anatolian Hieroglyphs v2.001\n\nThis release fixes a number of fontbakery fails\n",
+     "published": "2022-09-20T16:10:47",
+     "url": "https://github.com/notofonts/anatolian-hieroglyphs/releases/tag/NotoSansAnatolianHieroglyphs-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/anatolian-hieroglyphs",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/anatolian-hieroglyphs",
@@ -1700,7 +1720,27 @@
   "title": "Noto Canadian Aboriginal"
  },
  "carian": {
-  "families": {},
+  "families": {
+   "Noto Sans Carian": {
+    "files": {
+     "full": [
+      "fonts/NotoSansCarian/full/ttf/NotoSansCarian-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansCarian/hinted/ttf/NotoSansCarian-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansCarian/unhinted/ttf/NotoSansCarian-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Carian v2.001\n\nThis font fixes a number of fontbakery fails.\n",
+     "published": "2022-09-20T16:16:58",
+     "url": "https://github.com/notofonts/carian/releases/tag/NotoSansCarian-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/carian",
   "issues": [
    {
@@ -1720,11 +1760,6 @@
     "number": 2,
     "title": "Caucasian Albanian 2.004",
     "url": "https://github.com/notofonts/caucasian-albanian/pull/2"
-   },
-   {
-    "number": 1,
-    "title": "Misplaced half marks in Caucasian Albanian",
-    "url": "https://github.com/notofonts/caucasian-albanian/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/caucasian-albanian",
@@ -1962,7 +1997,27 @@
   "title": "Noto Cuneiform"
  },
  "cypriot": {
-  "families": {},
+  "families": {
+   "Noto Sans Cypriot": {
+    "files": {
+     "full": [
+      "fonts/NotoSansCypriot/full/ttf/NotoSansCypriot-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansCypriot/hinted/ttf/NotoSansCypriot-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansCypriot/unhinted/ttf/NotoSansCypriot-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Cypriot v2.001\n\nThis release fixse a number of fontbakery fails.\n",
+     "published": "2022-09-20T16:33:23",
+     "url": "https://github.com/notofonts/cypriot/releases/tag/NotoSansCypriot-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/cypriot",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/cypriot",
@@ -8534,6 +8589,11 @@
   "gh_url": "https://notofonts.github.io/modi",
   "issues": [
    {
+    "number": 12,
+    "title": "`DNaa` and `DNu` are not used",
+    "url": "https://github.com/notofonts/modi/issues/12"
+   },
+   {
     "number": 9,
     "title": "Request for serif style font for Modi script",
     "url": "https://github.com/notofonts/modi/issues/9"
@@ -12815,6 +12875,11 @@
   },
   "gh_url": "https://notofonts.github.io/tibetan",
   "issues": [
+   {
+    "number": 44,
+    "title": "`uni0F4A0FB70FB1` has misplaced anchor points and is vertically compressed",
+    "url": "https://github.com/notofonts/tibetan/issues/44"
+   },
    {
     "number": 23,
     "title": "Noto Serif Tibetan glyphs and line height too large?",

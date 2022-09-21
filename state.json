@@ -77,7 +77,27 @@
    "NotoSerifAhom-v2.005"
   ]
  },
- "anatolian-hieroglyphs": {},
+ "anatolian-hieroglyphs": {
+  "families": {
+   "Noto Sans Anatolian Hieroglyphs": {
+    "files": [
+     "fonts/NotoSansAnatolianHieroglyphs/full/ttf/NotoSansAnatolianHieroglyphs-Regular.ttf",
+     "fonts/NotoSansAnatolianHieroglyphs/googlefonts/ttf/NotoSansAnatolianHieroglyphs-Regular.ttf",
+     "fonts/NotoSansAnatolianHieroglyphs/unhinted/ttf/NotoSansAnatolianHieroglyphs-Regular.ttf",
+     "fonts/NotoSansAnatolianHieroglyphs/hinted/ttf/NotoSansAnatolianHieroglyphs-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Anatolian Hieroglyphs v2.001\n\nThis release fixes a number of fontbakery fails\n",
+     "published": "2022-09-20T16:10:47",
+     "url": "https://github.com/notofonts/anatolian-hieroglyphs/releases/tag/NotoSansAnatolianHieroglyphs-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansAnatolianHieroglyphs-v2.001"
+  ]
+ },
  "arabic": {
   "families": {
    "Noto Naskh Arabic": {
@@ -1143,7 +1163,27 @@
    "NotoSansCanadianAboriginal-v2.002"
   ]
  },
- "carian": {},
+ "carian": {
+  "families": {
+   "Noto Sans Carian": {
+    "files": [
+     "fonts/NotoSansCarian/full/ttf/NotoSansCarian-Regular.ttf",
+     "fonts/NotoSansCarian/googlefonts/ttf/NotoSansCarian-Regular.ttf",
+     "fonts/NotoSansCarian/unhinted/ttf/NotoSansCarian-Regular.ttf",
+     "fonts/NotoSansCarian/hinted/ttf/NotoSansCarian-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Carian v2.001\n\nThis font fixes a number of fontbakery fails.\n",
+     "published": "2022-09-20T16:16:58",
+     "url": "https://github.com/notofonts/carian/releases/tag/NotoSansCarian-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansCarian-v2.001"
+  ]
+ },
  "caucasian-albanian": {},
  "chakma": {
   "families": {
@@ -1325,7 +1365,27 @@
    "NotoSansCuneiform-v2.001"
   ]
  },
- "cypriot": {},
+ "cypriot": {
+  "families": {
+   "Noto Sans Cypriot": {
+    "files": [
+     "fonts/NotoSansCypriot/full/ttf/NotoSansCypriot-Regular.ttf",
+     "fonts/NotoSansCypriot/googlefonts/ttf/NotoSansCypriot-Regular.ttf",
+     "fonts/NotoSansCypriot/unhinted/ttf/NotoSansCypriot-Regular.ttf",
+     "fonts/NotoSansCypriot/hinted/ttf/NotoSansCypriot-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Cypriot v2.001\n\nThis release fixse a number of fontbakery fails.\n",
+     "published": "2022-09-20T16:33:23",
+     "url": "https://github.com/notofonts/cypriot/releases/tag/NotoSansCypriot-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansCypriot-v2.001"
+  ]
+ },
  "cypro-minoan": {},
  "deseret": {
   "families": {
