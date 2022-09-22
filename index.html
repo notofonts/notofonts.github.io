@@ -86,6 +86,7 @@
 							<option value="#carian">Noto Carian</option>
 							<option value="#carian">- Noto Sans Carian</option>
 							<option value="#caucasian-albanian">Noto Caucasian Albanian</option>
+							<option value="#caucasian-albanian">- Noto Sans Caucasian Albanian</option>
 							<option value="#chakma">Noto Chakma</option>
 							<option value="#chakma">- Noto Sans Chakma</option>
 							<option value="#cham">Noto Cham</option>
@@ -113,6 +114,7 @@
 							<option value="#egyptian-hieroglyphs">- Noto Sans Egyptian Hieroglyphs</option>
 							<option value="#elbasan">Noto Elbasan</option>
 							<option value="#elymaic">Noto Elymaic</option>
+							<option value="#elymaic">- Noto Sans Elymaic</option>
 							<option value="#ethiopic">Noto Ethiopic</option>
 							<option value="#ethiopic">- Noto Sans Ethiopic</option>
 							<option value="#ethiopic">- Noto Serif Ethiopic</option>
@@ -143,8 +145,11 @@
 							<option value="#hebrew">- Noto Sans Hebrew</option>
 							<option value="#hebrew">- Noto Serif Hebrew</option>
 							<option value="#imperial-aramaic">Noto Imperial Aramaic</option>
+							<option value="#imperial-aramaic">- Noto Sans Imperial Aramaic</option>
 							<option value="#indic-siyaq-numbers">Noto Indic Siyaq Numbers</option>
+							<option value="#indic-siyaq-numbers">- Noto Sans Indic Siyaq Numbers</option>
 							<option value="#inscriptional-pahlavi">Noto Inscriptional Pahlavi</option>
+							<option value="#inscriptional-pahlavi">- Noto Sans Inscriptional Pahlavi</option>
 							<option value="#inscriptional-parthian">Noto Inscriptional Parthian</option>
 							<option value="#javanese">Noto Javanese</option>
 							<option value="#javanese">- Noto Sans Javanese</option>
@@ -182,6 +187,7 @@
 							<option value="#lisu">Noto Lisu</option>
 							<option value="#lisu">- Noto Sans Lisu</option>
 							<option value="#lycian">Noto Lycian</option>
+							<option value="#lycian">- Noto Sans Lycian</option>
 							<option value="#lydian">Noto Lydian</option>
 							<option value="#lydian">- Noto Sans Lydian</option>
 							<option value="#mahajani">Noto Mahajani</option>
@@ -191,6 +197,7 @@
 							<option value="#malayalam">- Noto Sans Malayalam</option>
 							<option value="#malayalam">- Noto Serif Malayalam</option>
 							<option value="#mandaic">Noto Mandaic</option>
+							<option value="#mandaic">- Noto Sans Mandaic</option>
 							<option value="#manichaean">Noto Manichaean</option>
 							<option value="#manichaean">- Noto Sans Manichaean</option>
 							<option value="#marchen">Noto Marchen</option>
@@ -198,6 +205,7 @@
 							<option value="#masaram-gondi">- Noto Sans Masaram Gondi</option>
 							<option value="#math">Noto Math</option>
 							<option value="#mayan-numerals">Noto Mayan Numerals</option>
+							<option value="#mayan-numerals">- Noto Sans Mayan Numerals</option>
 							<option value="#medefaidrin">Noto Medefaidrin</option>
 							<option value="#medefaidrin">- Noto Sans Medefaidrin</option>
 							<option value="#meetei-mayek">Noto Meetei Mayek</option>
@@ -2027,8 +2035,41 @@ This font fixes a number of fontbakery fails.
 			</ul>
 			<h5>Known Issues</h5>
 			<ul>
+				<li>U+035E COMBINING DOUBLE MACRON looks like a titlo (<a href="https://github.com/notofonts/caucasian-albanian/issues/5">#5</a>)</li>
+				<li>Mark attachment fails in DFLT script (<a href="https://github.com/notofonts/caucasian-albanian/issues/4">#4</a>)</li>
+				<li>Conjoining macrons do not conjoin (<a href="https://github.com/notofonts/caucasian-albanian/issues/3">#3</a>)</li>
 				<li>Caucasian Albanian 2.004 (<a href="https://github.com/notofonts/caucasian-albanian/pull/2">#2</a>)</li>
 			</ul>
+			<h4>
+				Noto Sans Caucasian Albanian 
+				<a href="https://github.com/notofonts/caucasian-albanian/releases/tag/NotoSansCaucasianAlbanian-v2.004">v2.004</a>
+			</h4>
+			<pre>Noto Sans Caucasian Albanian v2.004
+
+This release:
+* improves the placement of &quot;half marks&quot; (#1)
+* fixes a number of fontbakery fails
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansCaucasianAlbanian/unhinted/ttf/NotoSansCaucasianAlbanian-Regular.ttf">NotoSansCaucasianAlbanian-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansCaucasianAlbanian/hinted/ttf/NotoSansCaucasianAlbanian-Regular.ttf">NotoSansCaucasianAlbanian-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansCaucasianAlbanian/full/ttf/NotoSansCaucasianAlbanian-Regular.ttf">NotoSansCaucasianAlbanian-Regular.ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="chakma">Noto Chakma</h3>
 			<ul>
@@ -3033,6 +3074,34 @@ This release fixes a number of fontbakery fails.
 				<li>u10FF6.ss02 is inaccessible in Noto Sans Elymaic (<a href="https://github.com/notofonts/elymaic/issues/3">#3</a>)</li>
 				<li>Bad discretionary ligature of Elymaic yodh and zayin (<a href="https://github.com/notofonts/elymaic/issues/1">#1</a>)</li>
 			</ul>
+			<h4>
+				Noto Sans Elymaic 
+				<a href="https://github.com/notofonts/elymaic/releases/tag/NotoSansElymaic-v1.001">v1.001</a>
+			</h4>
+			<pre>Noto Sans Elymaic v1.001
+
+This release fixes a number of fontbakery fails.
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansElymaic/unhinted/ttf/NotoSansElymaic-Regular.ttf">NotoSansElymaic-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansElymaic/hinted/ttf/NotoSansElymaic-Regular.ttf">NotoSansElymaic-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansElymaic/full/ttf/NotoSansElymaic-Regular.ttf">NotoSansElymaic-Regular.ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="ethiopic">Noto Ethiopic</h3>
 			<ul>
@@ -4972,6 +5041,34 @@ This is a maintenance release.
 					<a href="https://www.github.com/notofonts/imperial-aramaic/issues/new/choose">Report a bug in this font</a>
 				</li>
 			</ul>
+			<h4>
+				Noto Sans Imperial Aramaic 
+				<a href="https://github.com/notofonts/imperial-aramaic/releases/tag/NotoSansImperialAramaic-v2.001">v2.001</a>
+			</h4>
+			<pre>Noto Sans Imperial Aramaic v2.001
+
+This release fixes a number of fontbakery fails.
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansImperialAramaic/unhinted/ttf/NotoSansImperialAramaic-Regular.ttf">NotoSansImperialAramaic-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansImperialAramaic/hinted/ttf/NotoSansImperialAramaic-Regular.ttf">NotoSansImperialAramaic-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansImperialAramaic/full/ttf/NotoSansImperialAramaic-Regular.ttf">NotoSansImperialAramaic-Regular.ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="indic-siyaq-numbers">Noto Indic Siyaq Numbers</h3>
 			<ul>
@@ -4986,6 +5083,34 @@ This is a maintenance release.
 					<a href="https://www.github.com/notofonts/indic-siyaq-numbers/issues/new/choose">Report a bug in this font</a>
 				</li>
 			</ul>
+			<h4>
+				Noto Sans Indic Siyaq Numbers 
+				<a href="https://github.com/notofonts/indic-siyaq-numbers/releases/tag/NotoSansIndicSiyaqNumbers-v2.002">v2.002</a>
+			</h4>
+			<pre>Noto Sans Indic Siyaq Numbers v2.002
+
+This release fixes a number of fontbakery fails.
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansIndicSiyaqNumbers/unhinted/ttf/NotoSansIndicSiyaqNumbers-Regular.ttf">NotoSansIndicSiyaqNumbers-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansIndicSiyaqNumbers/hinted/ttf/NotoSansIndicSiyaqNumbers-Regular.ttf">NotoSansIndicSiyaqNumbers-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansIndicSiyaqNumbers/full/ttf/NotoSansIndicSiyaqNumbers-Regular.ttf">NotoSansIndicSiyaqNumbers-Regular.ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="inscriptional-pahlavi">Noto Inscriptional Pahlavi</h3>
 			<ul>
@@ -5005,6 +5130,34 @@ This is a maintenance release.
 				<li>Overlapping U+10B61 INSCRIPTIONAL PAHLAVI LETTER BETH (<a href="https://github.com/notofonts/inscriptional-pahlavi/issues/2">#2</a>)</li>
 				<li>Unnecessary kerning in Noto Sans Inscriptional Pahlavi (<a href="https://github.com/notofonts/inscriptional-pahlavi/issues/1">#1</a>)</li>
 			</ul>
+			<h4>
+				Noto Sans Inscriptional Pahlavi 
+				<a href="https://github.com/notofonts/inscriptional-pahlavi/releases/tag/NotoSansInscriptionalPahlavi-v2.003">v2.003</a>
+			</h4>
+			<pre>Noto Sans Inscriptional Pahlavi v2.003
+
+This release fixes a number of fontbakery fails.
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansInscriptionalPahlavi/unhinted/ttf/NotoSansInscriptionalPahlavi-Regular.ttf">NotoSansInscriptionalPahlavi-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansInscriptionalPahlavi/hinted/ttf/NotoSansInscriptionalPahlavi-Regular.ttf">NotoSansInscriptionalPahlavi-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansInscriptionalPahlavi/full/ttf/NotoSansInscriptionalPahlavi-Regular.ttf">NotoSansInscriptionalPahlavi-Regular.ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="inscriptional-parthian">Noto Inscriptional Parthian</h3>
 			<ul>
@@ -5018,10 +5171,6 @@ This is a maintenance release.
 				<li>
 					<a href="https://www.github.com/notofonts/inscriptional-parthian/issues/new/choose">Report a bug in this font</a>
 				</li>
-			</ul>
-			<h5>Known Issues</h5>
-			<ul>
-				<li>Inscriptional Parthian optional ligatures should use &#x27;liga&#x27; instead of &#x27;ccmp&#x27; (<a href="https://github.com/notofonts/inscriptional-parthian/issues/3">#3</a>)</li>
 			</ul>
 			<hr />
 			<h3 id="javanese">Noto Javanese</h3>
@@ -7332,6 +7481,34 @@ This is an administrative release.
 					<a href="https://www.github.com/notofonts/lycian/issues/new/choose">Report a bug in this font</a>
 				</li>
 			</ul>
+			<h4>
+				Noto Sans Lycian 
+				<a href="https://github.com/notofonts/lycian/releases/tag/NotoSansLycian-v2.001">v2.001</a>
+			</h4>
+			<pre>Noto Sans Lycian v2.001
+
+This release fixes a number of fontbakery fails.
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansLycian/unhinted/ttf/NotoSansLycian-Regular.ttf">NotoSansLycian-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansLycian/hinted/ttf/NotoSansLycian-Regular.ttf">NotoSansLycian-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansLycian/full/ttf/NotoSansLycian-Regular.ttf">NotoSansLycian-Regular.ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="lydian">Noto Lydian</h3>
 			<ul>
@@ -7783,6 +7960,34 @@ This is an administrative release.
 				<li>Three right-joining Mandaic letters don’t join (<a href="https://github.com/notofonts/mandaic/issues/3">#3</a>)</li>
 				<li>Contextual U+0848 MANDAIC LETTER ATT in final but not medial position (<a href="https://github.com/notofonts/mandaic/issues/2">#2</a>)</li>
 			</ul>
+			<h4>
+				Noto Sans Mandaic 
+				<a href="https://github.com/notofonts/mandaic/releases/tag/NotoSansMandaic-v2.002">v2.002</a>
+			</h4>
+			<pre>Noto Sans Mandaic v2.002
+
+This release fixes a number of fontbakery fails.
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansMandaic/unhinted/ttf/NotoSansMandaic-Regular.ttf">NotoSansMandaic-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansMandaic/hinted/ttf/NotoSansMandaic-Regular.ttf">NotoSansMandaic-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansMandaic/full/ttf/NotoSansMandaic-Regular.ttf">NotoSansMandaic-Regular.ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="manichaean">Noto Manichaean</h3>
 			<ul>
@@ -7940,6 +8145,34 @@ This release:
 					<a href="https://www.github.com/notofonts/mayan-numerals/issues/new/choose">Report a bug in this font</a>
 				</li>
 			</ul>
+			<h4>
+				Noto Sans Mayan Numerals 
+				<a href="https://github.com/notofonts/mayan-numerals/releases/tag/NotoSansMayanNumerals-v2.001">v2.001</a>
+			</h4>
+			<pre>Noto Sans Mayan Numerals v2.001
+
+This release fixes a number of fontbakery fails.
+</pre>
+			<div class="row">
+				<div class="col">
+					<h3>Unhinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansMayanNumerals/unhinted/ttf/NotoSansMayanNumerals-Regular.ttf">NotoSansMayanNumerals-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Hinted</h3>
+					<ul>
+						<li><a href="fonts/NotoSansMayanNumerals/hinted/ttf/NotoSansMayanNumerals-Regular.ttf">NotoSansMayanNumerals-Regular.ttf</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Full</h3>
+					<ul>
+						<li><a href="fonts/NotoSansMayanNumerals/full/ttf/NotoSansMayanNumerals-Regular.ttf">NotoSansMayanNumerals-Regular.ttf</a></li>
+					</ul>
+				</div>
+			</div>
 			<hr />
 			<h3 id="medefaidrin">Noto Medefaidrin</h3>
 			<ul>

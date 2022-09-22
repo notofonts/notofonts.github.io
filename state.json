@@ -1184,7 +1184,27 @@
    "NotoSansCarian-v2.001"
   ]
  },
- "caucasian-albanian": {},
+ "caucasian-albanian": {
+  "families": {
+   "Noto Sans Caucasian Albanian": {
+    "files": [
+     "fonts/NotoSansCaucasianAlbanian/full/ttf/NotoSansCaucasianAlbanian-Regular.ttf",
+     "fonts/NotoSansCaucasianAlbanian/googlefonts/ttf/NotoSansCaucasianAlbanian-Regular.ttf",
+     "fonts/NotoSansCaucasianAlbanian/unhinted/ttf/NotoSansCaucasianAlbanian-Regular.ttf",
+     "fonts/NotoSansCaucasianAlbanian/hinted/ttf/NotoSansCaucasianAlbanian-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Caucasian Albanian v2.004\n\nThis release:\n* improves the placement of \"half marks\" (#1)\n* fixes a number of fontbakery fails\n",
+     "published": "2022-09-21T11:14:13",
+     "url": "https://github.com/notofonts/caucasian-albanian/releases/tag/NotoSansCaucasianAlbanian-v2.004",
+     "version": "v2.004"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansCaucasianAlbanian-v2.004"
+  ]
+ },
  "chakma": {
   "families": {
    "Noto Sans Chakma": {
@@ -1843,7 +1863,27 @@
   ]
  },
  "elbasan": {},
- "elymaic": {},
+ "elymaic": {
+  "families": {
+   "Noto Sans Elymaic": {
+    "files": [
+     "fonts/NotoSansElymaic/full/ttf/NotoSansElymaic-Regular.ttf",
+     "fonts/NotoSansElymaic/googlefonts/ttf/NotoSansElymaic-Regular.ttf",
+     "fonts/NotoSansElymaic/unhinted/ttf/NotoSansElymaic-Regular.ttf",
+     "fonts/NotoSansElymaic/hinted/ttf/NotoSansElymaic-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Elymaic v1.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-21T14:11:05",
+     "url": "https://github.com/notofonts/elymaic/releases/tag/NotoSansElymaic-v1.001",
+     "version": "v1.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansElymaic-v1.001"
+  ]
+ },
  "ethiopic": {
   "families": {
    "Noto Sans Ethiopic": {
@@ -3522,9 +3562,69 @@
    "NotoRashiHebrew-v1.006"
   ]
  },
- "imperial-aramaic": {},
- "indic-siyaq-numbers": {},
- "inscriptional-pahlavi": {},
+ "imperial-aramaic": {
+  "families": {
+   "Noto Sans Imperial Aramaic": {
+    "files": [
+     "fonts/NotoSansImperialAramaic/full/ttf/NotoSansImperialAramaic-Regular.ttf",
+     "fonts/NotoSansImperialAramaic/googlefonts/ttf/NotoSansImperialAramaic-Regular.ttf",
+     "fonts/NotoSansImperialAramaic/unhinted/ttf/NotoSansImperialAramaic-Regular.ttf",
+     "fonts/NotoSansImperialAramaic/hinted/ttf/NotoSansImperialAramaic-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Imperial Aramaic v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-21T14:22:21",
+     "url": "https://github.com/notofonts/imperial-aramaic/releases/tag/NotoSansImperialAramaic-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansImperialAramaic-v2.001"
+  ]
+ },
+ "indic-siyaq-numbers": {
+  "families": {
+   "Noto Sans Indic Siyaq Numbers": {
+    "files": [
+     "fonts/NotoSansIndicSiyaqNumbers/full/ttf/NotoSansIndicSiyaqNumbers-Regular.ttf",
+     "fonts/NotoSansIndicSiyaqNumbers/googlefonts/ttf/NotoSansIndicSiyaqNumbers-Regular.ttf",
+     "fonts/NotoSansIndicSiyaqNumbers/unhinted/ttf/NotoSansIndicSiyaqNumbers-Regular.ttf",
+     "fonts/NotoSansIndicSiyaqNumbers/hinted/ttf/NotoSansIndicSiyaqNumbers-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Indic Siyaq Numbers v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-21T14:23:52",
+     "url": "https://github.com/notofonts/indic-siyaq-numbers/releases/tag/NotoSansIndicSiyaqNumbers-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansIndicSiyaqNumbers-v2.002"
+  ]
+ },
+ "inscriptional-pahlavi": {
+  "families": {
+   "Noto Sans Inscriptional Pahlavi": {
+    "files": [
+     "fonts/NotoSansInscriptionalPahlavi/full/ttf/NotoSansInscriptionalPahlavi-Regular.ttf",
+     "fonts/NotoSansInscriptionalPahlavi/googlefonts/ttf/NotoSansInscriptionalPahlavi-Regular.ttf",
+     "fonts/NotoSansInscriptionalPahlavi/unhinted/ttf/NotoSansInscriptionalPahlavi-Regular.ttf",
+     "fonts/NotoSansInscriptionalPahlavi/hinted/ttf/NotoSansInscriptionalPahlavi-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Inscriptional Pahlavi v2.003\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-21T14:39:12",
+     "url": "https://github.com/notofonts/inscriptional-pahlavi/releases/tag/NotoSansInscriptionalPahlavi-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansInscriptionalPahlavi-v2.003"
+  ]
+ },
  "inscriptional-parthian": {},
  "javanese": {
   "families": {
@@ -5230,7 +5330,27 @@
    "NotoSansLisu-v2.102"
   ]
  },
- "lycian": {},
+ "lycian": {
+  "families": {
+   "Noto Sans Lycian": {
+    "files": [
+     "fonts/NotoSansLycian/full/ttf/NotoSansLycian-Regular.ttf",
+     "fonts/NotoSansLycian/googlefonts/ttf/NotoSansLycian-Regular.ttf",
+     "fonts/NotoSansLycian/unhinted/ttf/NotoSansLycian-Regular.ttf",
+     "fonts/NotoSansLycian/hinted/ttf/NotoSansLycian-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Lycian v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-21T14:48:10",
+     "url": "https://github.com/notofonts/lycian/releases/tag/NotoSansLycian-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansLycian-v2.001"
+  ]
+ },
  "lydian": {
   "families": {
    "Noto Sans Lydian": {
@@ -5582,7 +5702,27 @@
    "NotoSerifMalayalam-v2.103"
   ]
  },
- "mandaic": {},
+ "mandaic": {
+  "families": {
+   "Noto Sans Mandaic": {
+    "files": [
+     "fonts/NotoSansMandaic/full/ttf/NotoSansMandaic-Regular.ttf",
+     "fonts/NotoSansMandaic/googlefonts/ttf/NotoSansMandaic-Regular.ttf",
+     "fonts/NotoSansMandaic/unhinted/ttf/NotoSansMandaic-Regular.ttf",
+     "fonts/NotoSansMandaic/hinted/ttf/NotoSansMandaic-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Mandaic v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-21T14:07:05",
+     "url": "https://github.com/notofonts/mandaic/releases/tag/NotoSansMandaic-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansMandaic-v2.002"
+  ]
+ },
  "manichaean": {
   "families": {
    "Noto Sans Manichaean": {
@@ -5627,7 +5767,27 @@
   ]
  },
  "math": {},
- "mayan-numerals": {},
+ "mayan-numerals": {
+  "families": {
+   "Noto Sans Mayan Numerals": {
+    "files": [
+     "fonts/NotoSansMayanNumerals/full/ttf/NotoSansMayanNumerals-Regular.ttf",
+     "fonts/NotoSansMayanNumerals/googlefonts/ttf/NotoSansMayanNumerals-Regular.ttf",
+     "fonts/NotoSansMayanNumerals/unhinted/ttf/NotoSansMayanNumerals-Regular.ttf",
+     "fonts/NotoSansMayanNumerals/hinted/ttf/NotoSansMayanNumerals-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Mayan Numerals v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-21T14:50:36",
+     "url": "https://github.com/notofonts/mayan-numerals/releases/tag/NotoSansMayanNumerals-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansMayanNumerals-v2.001"
+  ]
+ },
  "medefaidrin": {
   "families": {
    "Noto Sans Medefaidrin": {

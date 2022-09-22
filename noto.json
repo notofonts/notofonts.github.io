@@ -1753,9 +1753,44 @@
   "title": "Noto Carian"
  },
  "caucasian-albanian": {
-  "families": {},
+  "families": {
+   "Noto Sans Caucasian Albanian": {
+    "files": {
+     "full": [
+      "fonts/NotoSansCaucasianAlbanian/full/ttf/NotoSansCaucasianAlbanian-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansCaucasianAlbanian/hinted/ttf/NotoSansCaucasianAlbanian-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansCaucasianAlbanian/unhinted/ttf/NotoSansCaucasianAlbanian-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Caucasian Albanian v2.004\n\nThis release:\n* improves the placement of \"half marks\" (#1)\n* fixes a number of fontbakery fails\n",
+     "published": "2022-09-21T11:14:13",
+     "url": "https://github.com/notofonts/caucasian-albanian/releases/tag/NotoSansCaucasianAlbanian-v2.004",
+     "version": "v2.004"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/caucasian-albanian",
   "issues": [
+   {
+    "number": 5,
+    "title": "U+035E COMBINING DOUBLE MACRON looks like a titlo",
+    "url": "https://github.com/notofonts/caucasian-albanian/issues/5"
+   },
+   {
+    "number": 4,
+    "title": "Mark attachment fails in DFLT script",
+    "url": "https://github.com/notofonts/caucasian-albanian/issues/4"
+   },
+   {
+    "number": 3,
+    "title": "Conjoining macrons do not conjoin",
+    "url": "https://github.com/notofonts/caucasian-albanian/issues/3"
+   },
    {
     "number": 2,
     "title": "Caucasian Albanian 2.004",
@@ -2682,7 +2717,27 @@
   "title": "Noto Elbasan"
  },
  "elymaic": {
-  "families": {},
+  "families": {
+   "Noto Sans Elymaic": {
+    "files": {
+     "full": [
+      "fonts/NotoSansElymaic/full/ttf/NotoSansElymaic-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansElymaic/hinted/ttf/NotoSansElymaic-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansElymaic/unhinted/ttf/NotoSansElymaic-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Elymaic v1.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-21T14:11:05",
+     "url": "https://github.com/notofonts/elymaic/releases/tag/NotoSansElymaic-v1.001",
+     "version": "v1.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/elymaic",
   "issues": [
    {
@@ -4608,21 +4663,81 @@
   "title": "Noto Hebrew"
  },
  "imperial-aramaic": {
-  "families": {},
+  "families": {
+   "Noto Sans Imperial Aramaic": {
+    "files": {
+     "full": [
+      "fonts/NotoSansImperialAramaic/full/ttf/NotoSansImperialAramaic-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansImperialAramaic/hinted/ttf/NotoSansImperialAramaic-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansImperialAramaic/unhinted/ttf/NotoSansImperialAramaic-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Imperial Aramaic v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-21T14:22:21",
+     "url": "https://github.com/notofonts/imperial-aramaic/releases/tag/NotoSansImperialAramaic-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/imperial-aramaic",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/imperial-aramaic",
   "title": "Noto Imperial Aramaic"
  },
  "indic-siyaq-numbers": {
-  "families": {},
+  "families": {
+   "Noto Sans Indic Siyaq Numbers": {
+    "files": {
+     "full": [
+      "fonts/NotoSansIndicSiyaqNumbers/full/ttf/NotoSansIndicSiyaqNumbers-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansIndicSiyaqNumbers/hinted/ttf/NotoSansIndicSiyaqNumbers-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansIndicSiyaqNumbers/unhinted/ttf/NotoSansIndicSiyaqNumbers-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Indic Siyaq Numbers v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-21T14:23:52",
+     "url": "https://github.com/notofonts/indic-siyaq-numbers/releases/tag/NotoSansIndicSiyaqNumbers-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/indic-siyaq-numbers",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/indic-siyaq-numbers",
   "title": "Noto Indic Siyaq Numbers"
  },
  "inscriptional-pahlavi": {
-  "families": {},
+  "families": {
+   "Noto Sans Inscriptional Pahlavi": {
+    "files": {
+     "full": [
+      "fonts/NotoSansInscriptionalPahlavi/full/ttf/NotoSansInscriptionalPahlavi-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansInscriptionalPahlavi/hinted/ttf/NotoSansInscriptionalPahlavi-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansInscriptionalPahlavi/unhinted/ttf/NotoSansInscriptionalPahlavi-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Inscriptional Pahlavi v2.003\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-21T14:39:12",
+     "url": "https://github.com/notofonts/inscriptional-pahlavi/releases/tag/NotoSansInscriptionalPahlavi-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/inscriptional-pahlavi",
   "issues": [
    {
@@ -4642,13 +4757,7 @@
  "inscriptional-parthian": {
   "families": {},
   "gh_url": "https://notofonts.github.io/inscriptional-parthian",
-  "issues": [
-   {
-    "number": 3,
-    "title": "Inscriptional Parthian optional ligatures should use 'liga' instead of 'ccmp'",
-    "url": "https://github.com/notofonts/inscriptional-parthian/issues/3"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/inscriptional-parthian",
   "title": "Noto Inscriptional Parthian"
  },
@@ -7772,7 +7881,27 @@
   "title": "Noto Lisu"
  },
  "lycian": {
-  "families": {},
+  "families": {
+   "Noto Sans Lycian": {
+    "files": {
+     "full": [
+      "fonts/NotoSansLycian/full/ttf/NotoSansLycian-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansLycian/hinted/ttf/NotoSansLycian-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansLycian/unhinted/ttf/NotoSansLycian-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Lycian v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-21T14:48:10",
+     "url": "https://github.com/notofonts/lycian/releases/tag/NotoSansLycian-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/lycian",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/lycian",
@@ -8179,7 +8308,27 @@
   "title": "Noto Malayalam"
  },
  "mandaic": {
-  "families": {},
+  "families": {
+   "Noto Sans Mandaic": {
+    "files": {
+     "full": [
+      "fonts/NotoSansMandaic/full/ttf/NotoSansMandaic-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansMandaic/hinted/ttf/NotoSansMandaic-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansMandaic/unhinted/ttf/NotoSansMandaic-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Mandaic v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-21T14:07:05",
+     "url": "https://github.com/notofonts/mandaic/releases/tag/NotoSansMandaic-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/mandaic",
   "issues": [
    {
@@ -8373,7 +8522,27 @@
   "title": "Noto Math"
  },
  "mayan-numerals": {
-  "families": {},
+  "families": {
+   "Noto Sans Mayan Numerals": {
+    "files": {
+     "full": [
+      "fonts/NotoSansMayanNumerals/full/ttf/NotoSansMayanNumerals-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansMayanNumerals/hinted/ttf/NotoSansMayanNumerals-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansMayanNumerals/unhinted/ttf/NotoSansMayanNumerals-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Mayan Numerals v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-21T14:50:36",
+     "url": "https://github.com/notofonts/mayan-numerals/releases/tag/NotoSansMayanNumerals-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/mayan-numerals",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/mayan-numerals",
