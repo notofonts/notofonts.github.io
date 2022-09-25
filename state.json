@@ -1074,21 +1074,22 @@
   "families": {
    "Noto Sans Buginese": {
     "files": [
-     "fonts/NotoSansBuginese/full/ttf/NotoSansBuginese-Regular.ttf",
+     "fonts/NotoSansBuginese/hinted/ttf/NotoSansBuginese-Regular.ttf",
      "fonts/NotoSansBuginese/googlefonts/ttf/NotoSansBuginese-Regular.ttf",
      "fonts/NotoSansBuginese/unhinted/ttf/NotoSansBuginese-Regular.ttf",
-     "fonts/NotoSansBuginese/hinted/ttf/NotoSansBuginese-Regular.ttf"
+     "fonts/NotoSansBuginese/full/ttf/NotoSansBuginese-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Buginese v2.001\n\nThis release:\n* fixes a number of fontbakery fails\n* introduces space after the o vowel sign where this would collide into the following consonant (see #1)\n",
-     "published": "2022-08-23T14:27:52",
-     "url": "https://github.com/notofonts/buginese/releases/tag/NotoSansBuginese-v2.001",
-     "version": "v2.001"
+     "notes": "Noto Sans Buginese v2.002 This release fixes mark attachment in full builds.\n",
+     "published": "2022-09-24T11:33:40",
+     "url": "https://github.com/notofonts/buginese/releases/tag/NotoSansBuginese-v2.002",
+     "version": "v2.002"
     }
    }
   },
   "known_releases": [
-   "NotoSansBuginese-v2.001"
+   "NotoSansBuginese-v2.001",
+   "NotoSansBuginese-v2.002"
   ]
  },
  "buhid": {
@@ -2486,21 +2487,22 @@
   "families": {
    "Noto Sans Glagolitic": {
     "files": [
-     "fonts/NotoSansGlagolitic/full/ttf/NotoSansGlagolitic-Regular.ttf",
+     "fonts/NotoSansGlagolitic/hinted/ttf/NotoSansGlagolitic-Regular.ttf",
      "fonts/NotoSansGlagolitic/googlefonts/ttf/NotoSansGlagolitic-Regular.ttf",
      "fonts/NotoSansGlagolitic/unhinted/ttf/NotoSansGlagolitic-Regular.ttf",
-     "fonts/NotoSansGlagolitic/hinted/ttf/NotoSansGlagolitic-Regular.ttf"
+     "fonts/NotoSansGlagolitic/full/ttf/NotoSansGlagolitic-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "",
-     "published": "2022-06-22T11:52:22",
-     "url": "https://github.com/notofonts/glagolitic/releases/tag/NotoSansGlagolitic-v2.001",
-     "version": "v2.001"
+     "notes": "Noto Sans Glagolitic v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T13:08:59",
+     "url": "https://github.com/notofonts/glagolitic/releases/tag/NotoSansGlagolitic-v2.002",
+     "version": "v2.002"
     }
    }
   },
   "known_releases": [
-   "NotoSansGlagolitic-v2.001"
+   "NotoSansGlagolitic-v2.001",
+   "NotoSansGlagolitic-v2.002"
   ]
  },
  "gothic": {
@@ -3236,7 +3238,27 @@
    "NotoSansHanunoo-v2.003"
   ]
  },
- "hatran": {},
+ "hatran": {
+  "families": {
+   "Noto Sans Hatran": {
+    "files": [
+     "fonts/NotoSansHatran/full/ttf/NotoSansHatran-Regular.ttf",
+     "fonts/NotoSansHatran/googlefonts/ttf/NotoSansHatran-Regular.ttf",
+     "fonts/NotoSansHatran/unhinted/ttf/NotoSansHatran-Regular.ttf",
+     "fonts/NotoSansHatran/hinted/ttf/NotoSansHatran-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Hatran v2.001 This release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T14:07:13",
+     "url": "https://github.com/notofonts/hatran/releases/tag/NotoSansHatran-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansHatran-v2.001"
+  ]
+ },
  "hebrew": {
   "families": {
    "Noto Rashi Hebrew": {
@@ -3656,7 +3678,27 @@
    "NotoSansJavanese-v2.004"
   ]
  },
- "kaithi": {},
+ "kaithi": {
+  "families": {
+   "Noto Sans Kaithi": {
+    "files": [
+     "fonts/NotoSansKaithi/full/ttf/NotoSansKaithi-Regular.ttf",
+     "fonts/NotoSansKaithi/googlefonts/ttf/NotoSansKaithi-Regular.ttf",
+     "fonts/NotoSansKaithi/unhinted/ttf/NotoSansKaithi-Regular.ttf",
+     "fonts/NotoSansKaithi/hinted/ttf/NotoSansKaithi-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Kaithi v2.004\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T11:49:29",
+     "url": "https://github.com/notofonts/kaithi/releases/tag/NotoSansKaithi-v2.004",
+     "version": "v2.004"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansKaithi-v2.004"
+  ]
+ },
  "kannada": {
   "families": {
    "Noto Sans Kannada": {
@@ -5744,7 +5786,27 @@
    "NotoSansManichaean-v2.004"
   ]
  },
- "marchen": {},
+ "marchen": {
+  "families": {
+   "Noto Sans Marchen": {
+    "files": [
+     "fonts/NotoSansMarchen/full/ttf/NotoSansMarchen-Regular.ttf",
+     "fonts/NotoSansMarchen/googlefonts/ttf/NotoSansMarchen-Regular.ttf",
+     "fonts/NotoSansMarchen/unhinted/ttf/NotoSansMarchen-Regular.ttf",
+     "fonts/NotoSansMarchen/hinted/ttf/NotoSansMarchen-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Marchen v2.003\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T14:10:33",
+     "url": "https://github.com/notofonts/marchen/releases/tag/NotoSansMarchen-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansMarchen-v2.003"
+  ]
+ },
  "masaram-gondi": {
   "families": {
    "Noto Sans Masaram Gondi": {
@@ -5905,7 +5967,27 @@
    "NotoSansMendeKikakui-v2.003"
   ]
  },
- "meroitic": {},
+ "meroitic": {
+  "families": {
+   "Noto Sans Meroitic": {
+    "files": [
+     "fonts/NotoSansMeroitic/full/ttf/NotoSansMeroitic-Regular.ttf",
+     "fonts/NotoSansMeroitic/googlefonts/ttf/NotoSansMeroitic-Regular.ttf",
+     "fonts/NotoSansMeroitic/unhinted/ttf/NotoSansMeroitic-Regular.ttf",
+     "fonts/NotoSansMeroitic/hinted/ttf/NotoSansMeroitic-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Meroitic v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T14:18:56",
+     "url": "https://github.com/notofonts/meroitic/releases/tag/NotoSansMeroitic-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansMeroitic-v2.001"
+  ]
+ },
  "miao": {
   "families": {
    "Noto Sans Miao": {
@@ -6305,7 +6387,27 @@
    "NotoSansMyanmar-v2.107"
   ]
  },
- "nabataean": {},
+ "nabataean": {
+  "families": {
+   "Noto Sans Nabataean": {
+    "files": [
+     "fonts/NotoSansNabataean/full/ttf/NotoSansNabataean-Regular.ttf",
+     "fonts/NotoSansNabataean/googlefonts/ttf/NotoSansNabataean-Regular.ttf",
+     "fonts/NotoSansNabataean/unhinted/ttf/NotoSansNabataean-Regular.ttf",
+     "fonts/NotoSansNabataean/hinted/ttf/NotoSansNabataean-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Nabataean v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T15:02:01",
+     "url": "https://github.com/notofonts/nabataean/releases/tag/NotoSansNabataean-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansNabataean-v2.001"
+  ]
+ },
  "nandinagari": {},
  "nastaliq": {
   "families": {
@@ -6517,15 +6619,175 @@
    "NotoSansOlChiki-v2.003"
   ]
  },
- "old-hungarian": {},
+ "old-hungarian": {
+  "families": {
+   "Noto Sans Old Hungarian": {
+    "files": [
+     "fonts/NotoSansOldHungarian/hinted/ttf/NotoSansOldHungarian-Regular.ttf",
+     "fonts/NotoSansOldHungarian/googlefonts/ttf/NotoSansOldHungarian-Regular.ttf",
+     "fonts/NotoSansOldHungarian/unhinted/ttf/NotoSansOldHungarian-Regular.ttf",
+     "fonts/NotoSansOldHungarian/full/ttf/NotoSansOldHungarian-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Old Hungarian v2.004\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T14:02:52",
+     "url": "https://github.com/notofonts/old-hungarian/releases/tag/NotoSansOldHungarian-v2.004",
+     "version": "v2.004"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansOldHungarian-v2.004"
+  ]
+ },
  "old-hungarian-ui": {},
- "old-italic": {},
- "old-north-arabian": {},
- "old-permic": {},
- "old-persian": {},
- "old-sogdian": {},
- "old-south-arabian": {},
- "old-turkic": {},
+ "old-italic": {
+  "families": {
+   "Noto Sans Old Italic": {
+    "files": [
+     "fonts/NotoSansOldItalic/full/ttf/NotoSansOldItalic-Regular.ttf",
+     "fonts/NotoSansOldItalic/googlefonts/ttf/NotoSansOldItalic-Regular.ttf",
+     "fonts/NotoSansOldItalic/unhinted/ttf/NotoSansOldItalic-Regular.ttf",
+     "fonts/NotoSansOldItalic/hinted/ttf/NotoSansOldItalic-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Old Italic v2.003\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T14:16:47",
+     "url": "https://github.com/notofonts/old-italic/releases/tag/NotoSansOldItalic-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansOldItalic-v2.003"
+  ]
+ },
+ "old-north-arabian": {
+  "families": {
+   "Noto Sans Old North Arabian": {
+    "files": [
+     "fonts/NotoSansOldNorthArabian/hinted/ttf/NotoSansOldNorthArabian-Regular.ttf",
+     "fonts/NotoSansOldNorthArabian/googlefonts/ttf/NotoSansOldNorthArabian-Regular.ttf",
+     "fonts/NotoSansOldNorthArabian/unhinted/ttf/NotoSansOldNorthArabian-Regular.ttf",
+     "fonts/NotoSansOldNorthArabian/full/ttf/NotoSansOldNorthArabian-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Old North Arabian v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T14:23:35",
+     "url": "https://github.com/notofonts/old-north-arabian/releases/tag/NotoSansOldNorthArabian-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansOldNorthArabian-v2.001"
+  ]
+ },
+ "old-permic": {
+  "families": {
+   "Noto Sans Old Permic": {
+    "files": [
+     "fonts/NotoSansOldPermic/full/ttf/NotoSansOldPermic-Regular.ttf",
+     "fonts/NotoSansOldPermic/googlefonts/ttf/NotoSansOldPermic-Regular.ttf",
+     "fonts/NotoSansOldPermic/unhinted/ttf/NotoSansOldPermic-Regular.ttf",
+     "fonts/NotoSansOldPermic/hinted/ttf/NotoSansOldPermic-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Old Permic v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T14:28:20",
+     "url": "https://github.com/notofonts/old-permic/releases/tag/NotoSansOldPermic-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansOldPermic-v2.001"
+  ]
+ },
+ "old-persian": {
+  "families": {
+   "Noto Sans Old Persian": {
+    "files": [
+     "fonts/NotoSansOldPersian/full/ttf/NotoSansOldPersian-Regular.ttf",
+     "fonts/NotoSansOldPersian/googlefonts/ttf/NotoSansOldPersian-Regular.ttf",
+     "fonts/NotoSansOldPersian/unhinted/ttf/NotoSansOldPersian-Regular.ttf",
+     "fonts/NotoSansOldPersian/hinted/ttf/NotoSansOldPersian-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Old Persian v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T14:26:34",
+     "url": "https://github.com/notofonts/old-persian/releases/tag/NotoSansOldPersian-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansOldPersian-v2.001"
+  ]
+ },
+ "old-sogdian": {
+  "families": {
+   "Noto Sans Old Sogdian": {
+    "files": [
+     "fonts/NotoSansOldSogdian/hinted/ttf/NotoSansOldSogdian-Regular.ttf",
+     "fonts/NotoSansOldSogdian/googlefonts/ttf/NotoSansOldSogdian-Regular.ttf",
+     "fonts/NotoSansOldSogdian/unhinted/ttf/NotoSansOldSogdian-Regular.ttf",
+     "fonts/NotoSansOldSogdian/full/ttf/NotoSansOldSogdian-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Old Sogdian v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T14:37:45",
+     "url": "https://github.com/notofonts/old-sogdian/releases/tag/NotoSansOldSogdian-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansOldSogdian-v2.002"
+  ]
+ },
+ "old-south-arabian": {
+  "families": {
+   "Noto Sans Old South Arabian": {
+    "files": [
+     "fonts/NotoSansOldSouthArabian/full/ttf/NotoSansOldSouthArabian-Regular.ttf",
+     "fonts/NotoSansOldSouthArabian/googlefonts/ttf/NotoSansOldSouthArabian-Regular.ttf",
+     "fonts/NotoSansOldSouthArabian/unhinted/ttf/NotoSansOldSouthArabian-Regular.ttf",
+     "fonts/NotoSansOldSouthArabian/hinted/ttf/NotoSansOldSouthArabian-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Old South Arabian v2.001\n\nThis font fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T14:31:33",
+     "url": "https://github.com/notofonts/old-south-arabian/releases/tag/NotoSansOldSouthArabian-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansOldSouthArabian-v2.001"
+  ]
+ },
+ "old-turkic": {
+  "families": {
+   "Noto Sans Old Turkic": {
+    "files": [
+     "fonts/NotoSansOldTurkic/full/ttf/NotoSansOldTurkic-Regular.ttf",
+     "fonts/NotoSansOldTurkic/googlefonts/ttf/NotoSansOldTurkic-Regular.ttf",
+     "fonts/NotoSansOldTurkic/unhinted/ttf/NotoSansOldTurkic-Regular.ttf",
+     "fonts/NotoSansOldTurkic/hinted/ttf/NotoSansOldTurkic-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Old Turkic v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T14:35:27",
+     "url": "https://github.com/notofonts/old-turkic/releases/tag/NotoSansOldTurkic-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansOldTurkic-v2.002"
+  ]
+ },
  "old-uyghur": {},
  "oriya": {
   "families": {
@@ -6686,7 +6948,27 @@
    "NotoSansPahawhHmong-v2.001"
   ]
  },
- "palmyrene": {},
+ "palmyrene": {
+  "families": {
+   "Noto Sans Palmyrene": {
+    "files": [
+     "fonts/NotoSansPalmyrene/full/ttf/NotoSansPalmyrene-Regular.ttf",
+     "fonts/NotoSansPalmyrene/googlefonts/ttf/NotoSansPalmyrene-Regular.ttf",
+     "fonts/NotoSansPalmyrene/unhinted/ttf/NotoSansPalmyrene-Regular.ttf",
+     "fonts/NotoSansPalmyrene/hinted/ttf/NotoSansPalmyrene-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Palmyrene v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T15:02:19",
+     "url": "https://github.com/notofonts/palmyrene/releases/tag/NotoSansPalmyrene-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansPalmyrene-v2.001"
+  ]
+ },
  "pau-cin-hau": {
   "families": {
    "Noto Sans Pau Cin Hau": {
@@ -6708,7 +6990,27 @@
    "NotoSansPauCinHau-v2.002"
   ]
  },
- "phags-pa": {},
+ "phags-pa": {
+  "families": {
+   "Noto Sans Phags Pa": {
+    "files": [
+     "fonts/NotoSansPhagsPa/full/ttf/NotoSansPhags-Pa-Regular.ttf",
+     "fonts/NotoSansPhagsPa/googlefonts/ttf/NotoSansPhags-Pa-Regular.ttf",
+     "fonts/NotoSansPhagsPa/unhinted/ttf/NotoSansPhags-Pa-Regular.ttf",
+     "fonts/NotoSansPhagsPa/hinted/ttf/NotoSansPhags-Pa-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Phags Pa v2.003 This release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T14:03:36",
+     "url": "https://github.com/notofonts/phags-pa/releases/tag/NotoSansPhagsPa-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansPhagsPa-v2.003"
+  ]
+ },
  "phoenician": {
   "families": {
    "Noto Sans Phoenician": {
@@ -6730,7 +7032,27 @@
    "NotoSansPhoenician-v2.001"
   ]
  },
- "psalter-pahlavi": {},
+ "psalter-pahlavi": {
+  "families": {
+   "Noto Sans Psalter Pahlavi": {
+    "files": [
+     "fonts/NotoSansPsalterPahlavi/full/ttf/NotoSansPsalterPahlavi-Regular.ttf",
+     "fonts/NotoSansPsalterPahlavi/googlefonts/ttf/NotoSansPsalterPahlavi-Regular.ttf",
+     "fonts/NotoSansPsalterPahlavi/unhinted/ttf/NotoSansPsalterPahlavi-Regular.ttf",
+     "fonts/NotoSansPsalterPahlavi/hinted/ttf/NotoSansPsalterPahlavi-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Psalter Pahlavi v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T18:27:39",
+     "url": "https://github.com/notofonts/psalter-pahlavi/releases/tag/NotoSansPsalterPahlavi-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansPsalterPahlavi-v2.002"
+  ]
+ },
  "rejang": {
   "families": {
    "Noto Sans Rejang": {
@@ -6752,8 +7074,48 @@
    "NotoSansRejang-v2.001"
   ]
  },
- "runic": {},
- "samaritan": {},
+ "runic": {
+  "families": {
+   "Noto Sans Runic": {
+    "files": [
+     "fonts/NotoSansRunic/full/ttf/NotoSansRunic-Regular.ttf",
+     "fonts/NotoSansRunic/googlefonts/ttf/NotoSansRunic-Regular.ttf",
+     "fonts/NotoSansRunic/unhinted/ttf/NotoSansRunic-Regular.ttf",
+     "fonts/NotoSansRunic/hinted/ttf/NotoSansRunic-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Runic v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T13:23:33",
+     "url": "https://github.com/notofonts/runic/releases/tag/NotoSansRunic-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansRunic-v2.002"
+  ]
+ },
+ "samaritan": {
+  "families": {
+   "Noto Sans Samaritan": {
+    "files": [
+     "fonts/NotoSansSamaritan/full/ttf/NotoSansSamaritan-Regular.ttf",
+     "fonts/NotoSansSamaritan/googlefonts/ttf/NotoSansSamaritan-Regular.ttf",
+     "fonts/NotoSansSamaritan/unhinted/ttf/NotoSansSamaritan-Regular.ttf",
+     "fonts/NotoSansSamaritan/hinted/ttf/NotoSansSamaritan-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Samaritan v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T15:00:35",
+     "url": "https://github.com/notofonts/samaritan/releases/tag/NotoSansSamaritan-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansSamaritan-v2.001"
+  ]
+ },
  "saurashtra": {
   "families": {
    "Noto Sans Saurashtra": {
@@ -7290,7 +7652,27 @@
    "NotoSansSoraSompeng-v2.101"
   ]
  },
- "soyombo": {},
+ "soyombo": {
+  "families": {
+   "Noto Sans Soyombo": {
+    "files": [
+     "fonts/NotoSansSoyombo/hinted/ttf/NotoSansSoyombo-Regular.ttf",
+     "fonts/NotoSansSoyombo/googlefonts/ttf/NotoSansSoyombo-Regular.ttf",
+     "fonts/NotoSansSoyombo/unhinted/ttf/NotoSansSoyombo-Regular.ttf",
+     "fonts/NotoSansSoyombo/full/ttf/NotoSansSoyombo-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Soyombo v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T13:45:02",
+     "url": "https://github.com/notofonts/soyombo/releases/tag/NotoSansSoyombo-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansSoyombo-v2.001"
+  ]
+ },
  "sundanese": {
   "families": {
    "Noto Sans Sundanese": {
@@ -9085,7 +9467,44 @@
    "NotoSansWarangCiti-v3.002"
   ]
  },
- "yezidi": {},
+ "yezidi": {
+  "families": {
+   "Noto Serif Yezidi": {
+    "files": [
+     "fonts/NotoSerifYezidi/hinted/ttf/NotoSerifYezidi-SemiBold.ttf",
+     "fonts/NotoSerifYezidi/hinted/ttf/NotoSerifYezidi-Bold.ttf",
+     "fonts/NotoSerifYezidi/hinted/ttf/NotoSerifYezidi-Medium.ttf",
+     "fonts/NotoSerifYezidi/hinted/ttf/NotoSerifYezidi-Regular.ttf",
+     "fonts/NotoSerifYezidi/googlefonts/ttf/NotoSerifYezidi-SemiBold.ttf",
+     "fonts/NotoSerifYezidi/googlefonts/ttf/NotoSerifYezidi-Bold.ttf",
+     "fonts/NotoSerifYezidi/googlefonts/ttf/NotoSerifYezidi-Medium.ttf",
+     "fonts/NotoSerifYezidi/googlefonts/ttf/NotoSerifYezidi-Regular.ttf",
+     "fonts/NotoSerifYezidi/googlefonts/variable-ttf/NotoSerifYezidi[wght].ttf",
+     "fonts/NotoSerifYezidi/unhinted/slim-variable-ttf/NotoSerifYezidi[wght].ttf",
+     "fonts/NotoSerifYezidi/unhinted/ttf/NotoSerifYezidi-SemiBold.ttf",
+     "fonts/NotoSerifYezidi/unhinted/ttf/NotoSerifYezidi-Bold.ttf",
+     "fonts/NotoSerifYezidi/unhinted/ttf/NotoSerifYezidi-Medium.ttf",
+     "fonts/NotoSerifYezidi/unhinted/ttf/NotoSerifYezidi-Regular.ttf",
+     "fonts/NotoSerifYezidi/unhinted/variable-ttf/NotoSerifYezidi[wght].ttf",
+     "fonts/NotoSerifYezidi/full/slim-variable-ttf/NotoSerifYezidi[wght].ttf",
+     "fonts/NotoSerifYezidi/full/ttf/NotoSerifYezidi-SemiBold.ttf",
+     "fonts/NotoSerifYezidi/full/ttf/NotoSerifYezidi-Bold.ttf",
+     "fonts/NotoSerifYezidi/full/ttf/NotoSerifYezidi-Medium.ttf",
+     "fonts/NotoSerifYezidi/full/ttf/NotoSerifYezidi-Regular.ttf",
+     "fonts/NotoSerifYezidi/full/variable-ttf/NotoSerifYezidi[wght].ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Serif Yezidi v1.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-09-24T14:00:40",
+     "url": "https://github.com/notofonts/yezidi/releases/tag/NotoSerifYezidi-v1.001",
+     "version": "v1.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSerifYezidi-v1.001"
+  ]
+ },
  "yi": {
   "families": {
    "Noto Sans Yi": {
