@@ -4322,16 +4322,16 @@
   "families": {
    "Noto Sans Khojki": {
     "files": [
-     "fonts/NotoSansKhojki/full/ttf/NotoSansKhojki-Regular.ttf",
+     "fonts/NotoSansKhojki/hinted/ttf/NotoSansKhojki-Regular.ttf",
      "fonts/NotoSansKhojki/googlefonts/ttf/NotoSansKhojki-Regular.ttf",
      "fonts/NotoSansKhojki/unhinted/ttf/NotoSansKhojki-Regular.ttf",
-     "fonts/NotoSansKhojki/hinted/ttf/NotoSansKhojki-Regular.ttf"
+     "fonts/NotoSansKhojki/full/ttf/NotoSansKhojki-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Khojki v2.002\n\nThis release:\n* fixes a number of fontbakery fails\n* allows the ZWJ character to block akhand ligatures (#2)\n* fixes an overlap between two above marks (#6)\n",
-     "published": "2022-08-30T10:34:12",
-     "url": "https://github.com/notofonts/khojki/releases/tag/NotoSansKhojki-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Sans Khojki v2.003 This release fixes a bug whereby certain consonants before YA would be erroneously deleted.\n",
+     "published": "2022-09-28T06:28:47",
+     "url": "https://github.com/notofonts/khojki/releases/tag/NotoSansKhojki-v2.003",
+     "version": "v2.003"
     }
    },
    "Noto Serif Khojki": {
@@ -4360,7 +4360,8 @@
   },
   "known_releases": [
    "NotoSerifKhojki-v2.002",
-   "NotoSansKhojki-v2.002"
+   "NotoSansKhojki-v2.002",
+   "NotoSansKhojki-v2.003"
   ]
  },
  "khudawadi": {
@@ -5274,22 +5275,23 @@
   "families": {
    "Noto Sans Limbu": {
     "files": [
-     "fonts/NotoSansLimbu/googlefonts/ttf/NotoSansLimbu-Regular.ttf",
      "fonts/NotoSansLimbu/hinted/ttf/NotoSansLimbu-Regular.ttf",
+     "fonts/NotoSansLimbu/googlefonts/ttf/NotoSansLimbu-Regular.ttf",
      "fonts/NotoSansLimbu/unhinted/ttf/NotoSansLimbu-Regular.ttf",
      "fonts/NotoSansLimbu/full/ttf/NotoSansLimbu-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Limbu v2.003\n\nThis is an administrative release.\n",
-     "published": "2022-07-13T11:43:49",
-     "url": "https://github.com/notofonts/limbu/releases/tag/NotoSansLimbu-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Limbu v2.004\n\nThis release adds the characters U+0964 DEVANAGARI DANDA and U+0965 DEVANAGARI DOUBLE DANDA to the full builds.\n",
+     "published": "2022-09-28T15:18:48",
+     "url": "https://github.com/notofonts/limbu/releases/tag/NotoSansLimbu-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "known_releases": [
    "NotoSansLimbu-v2.002",
-   "NotoSansLimbu-v2.003"
+   "NotoSansLimbu-v2.003",
+   "NotoSansLimbu-v2.004"
   ]
  },
  "linear-a": {

@@ -5629,10 +5629,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Khojki v2.002\n\nThis release:\n* fixes a number of fontbakery fails\n* allows the ZWJ character to block akhand ligatures (#2)\n* fixes an overlap between two above marks (#6)\n",
-     "published": "2022-08-30T10:34:12",
-     "url": "https://github.com/notofonts/khojki/releases/tag/NotoSansKhojki-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Sans Khojki v2.003 This release fixes a bug whereby certain consonants before YA would be erroneously deleted.\n",
+     "published": "2022-09-28T06:28:47",
+     "url": "https://github.com/notofonts/khojki/releases/tag/NotoSansKhojki-v2.003",
+     "version": "v2.003"
     }
    },
    "Noto Serif Khojki": {
@@ -7806,10 +7806,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Limbu v2.003\n\nThis is an administrative release.\n",
-     "published": "2022-07-13T11:43:49",
-     "url": "https://github.com/notofonts/limbu/releases/tag/NotoSansLimbu-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Limbu v2.004\n\nThis release adds the characters U+0964 DEVANAGARI DANDA and U+0965 DEVANAGARI DOUBLE DANDA to the full builds.\n",
+     "published": "2022-09-28T15:18:48",
+     "url": "https://github.com/notofonts/limbu/releases/tag/NotoSansLimbu-v2.004",
+     "version": "v2.004"
     }
    }
   },
@@ -9604,11 +9604,6 @@
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
-    "number": 48,
-    "title": "Adding the letter \u06ad to nastaliq",
-    "url": "https://github.com/notofonts/nastaliq/issues/48"
-   },
-   {
     "number": 47,
     "title": "Localized form of digits do not appear when used with a subtending mark",
     "url": "https://github.com/notofonts/nastaliq/issues/47"
@@ -10338,6 +10333,11 @@
   },
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
+   {
+    "number": 15,
+    "title": "Noto Sans Oriya Condensed is not condensed",
+    "url": "https://github.com/notofonts/oriya/issues/15"
+   },
    {
     "number": 14,
     "title": "Combine vowels with conjunct consonants in NotoSansOriya",
@@ -11629,6 +11629,16 @@
   },
   "gh_url": "https://notofonts.github.io/symbols",
   "issues": [
+   {
+    "number": 66,
+    "title": "Add Nine Pointed White Star to Symbols2",
+    "url": "https://github.com/notofonts/symbols/pull/66"
+   },
+   {
+    "number": 65,
+    "title": "\u201cFull\u201d version of Symbols2 \u2014 weight of Latin characters",
+    "url": "https://github.com/notofonts/symbols/issues/65"
+   },
    {
     "number": 64,
     "title": "Unicode 15 Addition of U+1F7D9 NINE POINTED WHITE STAR",
