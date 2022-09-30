@@ -12355,6 +12355,11 @@
   "gh_url": "https://notofonts.github.io/tamil",
   "issues": [
    {
+    "number": 13,
+    "title": "Noto Sans Tamil UI baseline alignment issue in the Android 13 environment",
+    "url": "https://github.com/notofonts/tamil/issues/13"
+   },
+   {
     "number": 6,
     "title": "Noto Serif Tamil Slanted is named \u201cNotoSerifTamilSlanted\u201d",
     "url": "https://github.com/notofonts/tamil/issues/6"
