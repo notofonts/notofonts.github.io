@@ -12862,7 +12862,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/thaana",
-  "issues": [],
+  "issues": [
+   {
+    "number": 2,
+    "title": "a new version of Thaana",
+    "url": "https://github.com/notofonts/thaana/pull/2"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/thaana",
   "title": "Noto Thaana"
  },
