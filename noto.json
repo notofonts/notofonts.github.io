@@ -5188,6 +5188,11 @@
   "gh_url": "https://notofonts.github.io/kannada",
   "issues": [
    {
+    "number": 49,
+    "title": "Android UI VF Issues",
+    "url": "https://github.com/notofonts/kannada/issues/49"
+   },
+   {
     "number": 14,
     "title": "The glyphs of some vowel sign combinations of \u0c9f need to be revisited in Serif",
     "url": "https://github.com/notofonts/kannada/issues/14"
@@ -8328,6 +8333,11 @@
   },
   "gh_url": "https://notofonts.github.io/malayalam",
   "issues": [
+   {
+    "number": 18,
+    "title": "Android UI VF Issues",
+    "url": "https://github.com/notofonts/malayalam/issues/18"
+   },
    {
     "number": 6,
     "title": "Sans Malayalam: Wrong glyph shape for: G-MA cluster",
@@ -12355,6 +12365,11 @@
   "gh_url": "https://notofonts.github.io/tamil",
   "issues": [
    {
+    "number": 14,
+    "title": "Android UI VF Issues",
+    "url": "https://github.com/notofonts/tamil/issues/14"
+   },
+   {
     "number": 13,
     "title": "Noto Sans Tamil UI baseline alignment issue in the Android 13 environment",
     "url": "https://github.com/notofonts/tamil/issues/13"
@@ -12739,6 +12754,11 @@
   },
   "gh_url": "https://notofonts.github.io/telugu",
   "issues": [
+   {
+    "number": 9,
+    "title": "Android UI VF issues",
+    "url": "https://github.com/notofonts/telugu/issues/9"
+   },
    {
     "number": 3,
     "title": "Regression: 0C00 candrabindu above and 0C04 anusvara above are too high",
