@@ -1,16 +1,31 @@
 from github import Github, Repository
-from gftools.utils import download_file, fonts_from_zip
+from gftools.utils import download_file
 from zipfile import ZipFile
 from pathlib import Path
 import tempfile
 import os
 import json
+from io import BytesIO
 from pybars import Compiler, strlist
 import re
 import subprocess
 
 
 TESTING = False
+
+
+def fonts_from_zip(zipfile, dst=None):
+    """Unzip fonts. If not dst is given unzip as BytesIO objects"""
+    fonts = []
+    for filename in zipfile.namelist():
+        if filename.endswith(".ttf") or filename.endswith(".otf"):
+            if dst:
+                target = os.path.join(dst, filename)
+                zipfile.extract(filename, dst)
+                fonts.append(target)
+            else:
+                fonts.append(BytesIO(zipfile.read(filename)))
+    return fonts
 
 
 def tree_has_new_files():
@@ -26,6 +41,8 @@ org_names = [r.name for r in org_repos]
 
 subprocess.run(["git", "config", "user.name", "actions-user"])
 subprocess.run(["git", "config", "user.email", "actions-user@users.noreply.github.com"])
+
+to_push = []
 
 sources = json.load(open("sources.json"))
 if os.path.exists("state.json"):
@@ -116,13 +133,16 @@ for repo_name in sources.keys():
                     subprocess.run(["git", "add", "."])
                     subprocess.run(["git", "commit", "-m", "Add " + release.tag_name])
                     subprocess.run(["git", "tag", release.tag_name])
-                    subprocess.run(["git", "push"])
-                    subprocess.run(["git", "push", release.tagname])
+                    to_push.append(release.tag_name)
         except Exception as e:
             print("Couldn't fetch download for %s" % latest_asset.browser_download_url)
 
             # Tweet about the new release or something
     results[repo_name]["families"] = state[repo_name].get("families", {})
+
+subprocess.run(["git", "push"])
+for tag in to_push:
+    subprocess.run(["git", "push", tag])
 
 # Save state
 json.dump(state, open("state.json", "w"), indent=True, sort_keys=True)
