@@ -1008,13 +1008,33 @@
   "families": {
    "Noto Sans Balinese": {
     "files": {
-     "full": [],
-     "hinted": [],
-     "unhinted": []
+     "full": [
+      "fonts/NotoSansBalinese/full/slim-variable-ttf/NotoSansBalinese[wght].ttf",
+      "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-Bold.ttf",
+      "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-Medium.ttf",
+      "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-Regular.ttf",
+      "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-SemiBold.ttf",
+      "fonts/NotoSansBalinese/full/variable-ttf/NotoSansBalinese[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansBalinese/hinted/ttf/NotoSansBalinese-Bold.ttf",
+      "fonts/NotoSansBalinese/hinted/ttf/NotoSansBalinese-Medium.ttf",
+      "fonts/NotoSansBalinese/hinted/ttf/NotoSansBalinese-Regular.ttf",
+      "fonts/NotoSansBalinese/hinted/ttf/NotoSansBalinese-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansBalinese/unhinted/slim-variable-ttf/NotoSansBalinese[wght].ttf",
+      "fonts/NotoSansBalinese/unhinted/ttf/NotoSansBalinese-Bold.ttf",
+      "fonts/NotoSansBalinese/unhinted/ttf/NotoSansBalinese-Medium.ttf",
+      "fonts/NotoSansBalinese/unhinted/ttf/NotoSansBalinese-Regular.ttf",
+      "fonts/NotoSansBalinese/unhinted/ttf/NotoSansBalinese-SemiBold.ttf",
+      "fonts/NotoSansBalinese/unhinted/variable-ttf/NotoSansBalinese[wght].ttf"
+     ]
     },
     "latest_release": {
      "notes": "Noto Sans Balinese v2.003\n\nThis is a maintenance release.\n",
-     "url": "https://github.com/notofonts/balinese/releases/tag/untagged-e675e491f3b1a3a25ac5",
+     "published": "2022-07-11T18:54:02",
+     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSansBalinese-v2.003",
      "version": "v2.003"
     }
    },
@@ -1512,7 +1532,27 @@
   "title": "Noto Bengali"
  },
  "bhaiksuki": {
-  "families": {},
+  "families": {
+   "Noto Sans Bhaiksuki": {
+    "files": {
+     "full": [
+      "fonts/NotoSansBhaiksuki/full/ttf/NotoSansBhaiksuki-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansBhaiksuki/hinted/ttf/NotoSansBhaiksuki-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansBhaiksuki/unhinted/ttf/NotoSansBhaiksuki-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Bhaiksuki v2.002 This release fixes a number of fontbakery fails.\n",
+     "published": "2022-10-05T08:49:52",
+     "url": "https://github.com/notofonts/bhaiksuki/releases/tag/NotoSansBhaiksuki-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/bhaiksuki",
   "issues": [
    {
@@ -1628,13 +1668,20 @@
   "families": {
    "Noto Sans Buhid": {
     "files": {
-     "full": [],
-     "hinted": [],
-     "unhinted": []
+     "full": [
+      "fonts/NotoSansBuhid/full/ttf/NotoSansBuhid-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansBuhid/hinted/ttf/NotoSansBuhid-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansBuhid/unhinted/ttf/NotoSansBuhid-Regular.ttf"
+     ]
     },
     "latest_release": {
      "notes": "Noto Sans Buhid v2.001\n\n* Ensure we have a buhd script tag; fixes #1\n* Copyright & version update\n* Use typo metrics\n",
-     "url": "https://github.com/notofonts/buhid/releases/tag/untagged-7c1cf8b610cadcc2fe9e",
+     "published": "2022-06-27T13:17:09",
+     "url": "https://github.com/notofonts/buhid/releases/tag/NotoSansBuhid-v2.001",
      "version": "v2.001"
     }
    }
@@ -11208,10 +11255,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Sinhala\n\nThis fixes a regression where vowel signs had zero width on recent shaping engines. (See #1)\n",
-     "published": "2022-07-22T13:37:38",
-     "url": "https://github.com/notofonts/sinhala/releases/tag/NotoSansSinhala-v2.005",
-     "version": "v2.005"
+     "notes": "Noto Sans Sinhala v2.006\n\nThis release makes the non-breaking space the same width as the breaking space, as required for Google Workspace.\n",
+     "published": "2022-07-29T08:32:50",
+     "url": "https://github.com/notofonts/sinhala/releases/tag/NotoSansSinhala-v2.006",
+     "version": "v2.006"
     }
    },
    "Noto Serif Sinhala": {
@@ -12377,13 +12424,241 @@
    },
    "Noto Serif Tamil": {
     "files": {
-     "full": [],
-     "hinted": [],
-     "unhinted": []
+     "full": [
+      "fonts/NotoSerifTamil/full/slim-variable-ttf/NotoSerifTamil-Italic[wght].ttf",
+      "fonts/NotoSerifTamil/full/slim-variable-ttf/NotoSerifTamil[wght].ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-Black.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-BlackItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-Bold.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-BoldItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-Condensed.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedBlack.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedBlackItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedBold.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedBoldItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedExtraBold.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedExtraBoldItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedExtraLight.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedExtraLightItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedLight.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedLightItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedMedium.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedMediumItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedSemiBold.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedSemiBoldItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedThin.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-CondensedThinItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraBold.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraBoldItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensed.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedBlack.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedBlackItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedBold.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedBoldItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedExtraBoldItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedExtraLightItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedLight.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedLightItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedMedium.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedMediumItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedSemiBoldItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedThin.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraCondensedThinItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraLight.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ExtraLightItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-Italic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-Light.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-LightItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-Medium.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-MediumItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-Regular.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiBold.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiBoldItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensed.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedBlack.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedBlackItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedBold.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedBoldItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedExtraBold.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedExtraBoldItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedExtraLight.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedExtraLightItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedLight.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedLightItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedMedium.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedMediumItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedSemiBold.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedSemiBoldItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedThin.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-SemiCondensedThinItalic.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-Thin.ttf",
+      "fonts/NotoSerifTamil/full/ttf/NotoSerifTamil-ThinItalic.ttf",
+      "fonts/NotoSerifTamil/full/variable-ttf/NotoSerifTamil-Italic[wdth,wght].ttf",
+      "fonts/NotoSerifTamil/full/variable-ttf/NotoSerifTamil[wdth,wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-Black.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-BlackItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-Bold.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-BoldItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-Condensed.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedBlack.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedBlackItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedBold.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedBoldItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedExtraBold.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedExtraBoldItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedExtraLight.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedExtraLightItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedLight.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedLightItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedMedium.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedMediumItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedSemiBold.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedSemiBoldItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedThin.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-CondensedThinItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraBold.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraBoldItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensed.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedBlack.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedBlackItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedBold.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedBoldItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedExtraBoldItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedExtraLightItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedLight.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedLightItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedMedium.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedMediumItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedSemiBoldItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedThin.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraCondensedThinItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraLight.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ExtraLightItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-Italic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-Light.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-LightItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-Medium.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-MediumItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-Regular.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiBold.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiBoldItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensed.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedBlack.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedBlackItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedBold.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedBoldItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedExtraBold.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedExtraBoldItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedExtraLight.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedExtraLightItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedLight.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedLightItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedMedium.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedMediumItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedSemiBold.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedSemiBoldItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedThin.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-SemiCondensedThinItalic.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-Thin.ttf",
+      "fonts/NotoSerifTamil/hinted/ttf/NotoSerifTamil-ThinItalic.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSerifTamil/unhinted/slim-variable-ttf/NotoSerifTamil-Italic[wght].ttf",
+      "fonts/NotoSerifTamil/unhinted/slim-variable-ttf/NotoSerifTamil[wght].ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-Black.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-BlackItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-Bold.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-BoldItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-Condensed.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedBlack.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedBlackItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedBold.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedBoldItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedExtraBold.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedExtraBoldItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedExtraLight.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedExtraLightItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedLight.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedLightItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedMedium.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedMediumItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedSemiBold.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedSemiBoldItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedThin.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-CondensedThinItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraBold.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraBoldItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensed.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedBlack.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedBlackItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedBold.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedBoldItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedExtraBoldItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedExtraLightItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedLight.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedLightItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedMedium.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedMediumItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedSemiBoldItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedThin.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraCondensedThinItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraLight.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ExtraLightItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-Italic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-Light.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-LightItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-Medium.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-MediumItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-Regular.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiBold.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiBoldItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensed.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedBlack.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedBlackItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedBold.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedBoldItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedExtraBold.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedExtraBoldItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedExtraLight.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedExtraLightItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedLight.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedLightItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedMedium.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedMediumItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedSemiBold.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedSemiBoldItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedThin.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-SemiCondensedThinItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-Thin.ttf",
+      "fonts/NotoSerifTamil/unhinted/ttf/NotoSerifTamil-ThinItalic.ttf",
+      "fonts/NotoSerifTamil/unhinted/variable-ttf/NotoSerifTamil-Italic[wdth,wght].ttf",
+      "fonts/NotoSerifTamil/unhinted/variable-ttf/NotoSerifTamil[wdth,wght].ttf"
+     ]
     },
     "latest_release": {
      "notes": "Noto Serif Tamil v2.003\n\n* Renamed \"Noto Serif Tamil Slanted\" to \"Noto Serif Tamil\" as part of family\n* Added dotted circle anchors\n* Fixed version, copyright, vertical metrics, production names, etc. to GF standards\n",
-     "url": "https://github.com/notofonts/tamil/releases/tag/untagged-ca1d6a7cfbfc1646a8c2",
+     "published": "2022-07-13T11:20:58",
+     "url": "https://github.com/notofonts/tamil/releases/tag/NotoSerifTamil-v2.003",
      "version": "v2.003"
     }
    }
