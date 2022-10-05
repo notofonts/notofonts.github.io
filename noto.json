@@ -275,7 +275,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/anatolian-hieroglyphs",
-  "issues": [],
+  "issues": [
+   {
+    "number": 1,
+    "title": "Want OTF back",
+    "url": "https://github.com/notofonts/anatolian-hieroglyphs/issues/1"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/anatolian-hieroglyphs",
   "title": "Noto Anatolian Hieroglyphs"
  },
