@@ -67,6 +67,8 @@ for repo_name in sources.keys():
         if not m:
             print(f"Unparsable release {release.tag_name} in {repo_name}")
             continue
+        if release.draft:
+            continue
         family, version = m[1], m[2]
         family = re.sub(r"([a-z])([A-Z])", r"\1 \2", family)
         if release.tag_name in state[repo_name].get("known_releases", []):
@@ -115,7 +117,7 @@ for repo_name in sources.keys():
                     subprocess.run(["git", "commit", "-m", "Add " + release.tag_name])
                     subprocess.run(["git", "tag", release.tag_name])
                     subprocess.run(["git", "push"])
-                    subprocess.run(["git", "push", "--tags"])
+                    subprocess.run(["git", "push", release.tagname])
         except Exception as e:
             print("Couldn't fetch download for %s" % latest_asset.browser_download_url)
 
