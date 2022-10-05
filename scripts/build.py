@@ -12,6 +12,12 @@ import subprocess
 
 TESTING = False
 
+
+def tree_has_new_files():
+    ls = subprocess.run(["git", "ls-files", "--others"], capture_output=True)
+    return ls.stdout
+
+
 print("Fetching existing repos")
 g = Github(os.environ["GITHUB_TOKEN"])
 org = g.get_organization("notofonts")
@@ -54,7 +60,9 @@ for repo_name in sources.keys():
 
     # Check for new releases
     releases = repo.get_releases()
-    for release in sorted(releases, key=lambda r: r.published_at.isoformat() if r.published_at else ""):
+    for release in sorted(
+        releases, key=lambda r: r.published_at.isoformat() if r.published_at else ""
+    ):
         m = re.match(r"^(.*)-(v[\d.]+)", release.tag_name)
         if not m:
             print(f"Unparsable release {release.tag_name} in {repo_name}")
@@ -62,7 +70,7 @@ for repo_name in sources.keys():
         family, version = m[1], m[2]
         family = re.sub(r"([a-z])([A-Z])", r"\1 \2", family)
         if release.tag_name in state[repo_name].get("known_releases", []):
-           continue
+            continue
         assets = release.get_assets()
         if not assets:
             continue
@@ -74,11 +82,11 @@ for repo_name in sources.keys():
 
         body = release.body
         if not body:
-            tag_sha = repo.get_git_ref("tags/"+release.tag_name).object.sha
+            tag_sha = repo.get_git_ref("tags/" + release.tag_name).object.sha
             try:
                 body = repo.get_git_tag(tag_sha).message
             except Exception as e:
-                print("Couldn't retrieve release message for %s"  % release.tag_name)
+                print("Couldn't retrieve release message for %s" % release.tag_name)
 
         family_thing["latest_release"] = {
             "url": release.html_url,
@@ -87,7 +95,9 @@ for repo_name in sources.keys():
         }
 
         if release.published_at:
-            family_thing["latest_release"]["published"] = release.published_at.isoformat()
+            family_thing["latest_release"][
+                "published"
+            ] = release.published_at.isoformat()
 
         try:
             z = ZipFile(download_file(latest_asset.browser_download_url))
@@ -99,16 +109,15 @@ for repo_name in sources.keys():
                     os.makedirs(newpath.parent, exist_ok=True)
                     family_thing["files"].append(str(newpath))
                     os.rename(font, newpath)
-                if not TESTING:
+                if tree_has_new_files() and not TESTING:
                     # Add it and tag it
                     subprocess.run(["git", "add", "."])
-                    subprocess.run(["git", "commit", "-m", "Add "+release.tag_name])
+                    subprocess.run(["git", "commit", "-m", "Add " + release.tag_name])
                     subprocess.run(["git", "tag", release.tag_name])
                     subprocess.run(["git", "push"])
                     subprocess.run(["git", "push", "--tags"])
         except Exception as e:
             print("Couldn't fetch download for %s" % latest_asset.browser_download_url)
-
 
             # Tweet about the new release or something
     results[repo_name]["families"] = state[repo_name].get("families", {})
@@ -128,9 +137,12 @@ for result in results.values():
                 newfiles["full"].append(file)
         family["files"] = newfiles
 
+
 def _basename(this, item):
     return strlist([os.path.basename(item)])
-helpers = {'basename': _basename}
+
+
+helpers = {"basename": _basename}
 
 compiler = Compiler()
 template = open("scripts/template.html", "r").read()
