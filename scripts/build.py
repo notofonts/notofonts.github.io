@@ -142,7 +142,7 @@ for repo_name in sources.keys():
 
 subprocess.run(["git", "push"])
 for tag in to_push:
-    subprocess.run(["git", "push", tag])
+    subprocess.run(["git", "push", "origin", tag])
 
 # Save state
 json.dump(state, open("state.json", "w"), indent=True, sort_keys=True)
