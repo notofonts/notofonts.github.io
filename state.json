@@ -7616,7 +7616,27 @@
    "NotoSerifSinhala-v2.006"
   ]
  },
- "sogdian": {},
+ "sogdian": {
+  "families": {
+   "Noto Sans Sogdian": {
+    "files": [
+     "fonts/NotoSansSogdian/hinted/ttf/NotoSansSogdian-Regular.ttf",
+     "fonts/NotoSansSogdian/googlefonts/ttf/NotoSansSogdian-Regular.ttf",
+     "fonts/NotoSansSogdian/unhinted/ttf/NotoSansSogdian-Regular.ttf",
+     "fonts/NotoSansSogdian/full/ttf/NotoSansSogdian-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Sogdian v2.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-10-04T12:44:55",
+     "url": "https://github.com/notofonts/sogdian/releases/tag/NotoSansSogdian-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansSogdian-v2.002"
+  ]
+ },
  "sora-sompeng": {
   "families": {
    "Noto Sans Sora Sompeng": {
@@ -8253,7 +8273,27 @@
    "NotoSansTangsa-v1.504"
   ]
  },
- "tangut": {},
+ "tangut": {
+  "families": {
+   "Noto Serif Tangut": {
+    "files": [
+     "fonts/NotoSerifTangut/hinted/ttf/NotoSerifTangut-Regular.ttf",
+     "fonts/NotoSerifTangut/googlefonts/ttf/NotoSerifTangut-Regular.ttf",
+     "fonts/NotoSerifTangut/unhinted/ttf/NotoSerifTangut-Regular.ttf",
+     "fonts/NotoSerifTangut/full/ttf/NotoSerifTangut-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Serif Tangut v2.169\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-10-04T13:18:39",
+     "url": "https://github.com/notofonts/tangut/releases/tag/NotoSerifTangut-v2.169",
+     "version": "v2.169"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSerifTangut-v2.169"
+  ]
+ },
  "telugu": {
   "families": {
    "Noto Sans Telugu": {
@@ -9403,7 +9443,27 @@
    "NotoSerifToto-v2.001"
   ]
  },
- "ugaritic": {},
+ "ugaritic": {
+  "families": {
+   "Noto Sans Ugaritic": {
+    "files": [
+     "fonts/NotoSansUgaritic/hinted/ttf/NotoSansUgaritic-Regular.ttf",
+     "fonts/NotoSansUgaritic/googlefonts/ttf/NotoSansUgaritic-Regular.ttf",
+     "fonts/NotoSansUgaritic/unhinted/ttf/NotoSansUgaritic-Regular.ttf",
+     "fonts/NotoSansUgaritic/full/ttf/NotoSansUgaritic-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Ugaritic v2.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-10-04T13:23:40",
+     "url": "https://github.com/notofonts/ugaritic/releases/tag/NotoSansUgaritic-v2.001",
+     "version": "v2.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansUgaritic-v2.001"
+  ]
+ },
  "vai": {
   "families": {
    "Noto Sans Vai": {
