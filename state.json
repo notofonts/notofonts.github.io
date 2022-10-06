@@ -9915,23 +9915,24 @@
   "families": {
    "Noto Sans Siddham": {
     "files": [
-     "fonts/NotoSansSiddham/full/ttf/NotoSansSiddham-Regular.ttf",
-     "fonts/NotoSansSiddham/full/otf/NotoSansSiddham-Regular.otf",
+     "fonts/NotoSansSiddham/hinted/ttf/NotoSansSiddham-Regular.ttf",
      "fonts/NotoSansSiddham/googlefonts/ttf/NotoSansSiddham-Regular.ttf",
      "fonts/NotoSansSiddham/unhinted/ttf/NotoSansSiddham-Regular.ttf",
      "fonts/NotoSansSiddham/unhinted/otf/NotoSansSiddham-Regular.otf",
-     "fonts/NotoSansSiddham/hinted/ttf/NotoSansSiddham-Regular.ttf"
+     "fonts/NotoSansSiddham/full/ttf/NotoSansSiddham-Regular.ttf",
+     "fonts/NotoSansSiddham/full/otf/NotoSansSiddham-Regular.otf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Siddham v2.003\n\nThis release:\n* fixes a number of fontbakery fails\n* creates a stylistic set to raise the head of reph ra (#1)\n* creates a stylistic set for alternate forms of rya (#2)\n",
-     "published": "2022-09-12T13:58:31",
-     "url": "https://github.com/notofonts/siddham/releases/tag/NotoSansSiddham-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Siddham v2.004\n\nThis release fixes an issue where multi-glyph stacks were not being attached to the dotted circle correctly.\n",
+     "published": "2022-10-05T14:25:08",
+     "url": "https://github.com/notofonts/siddham/releases/tag/NotoSansSiddham-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "known_releases": [
-   "NotoSansSiddham-v2.003"
+   "NotoSansSiddham-v2.003",
+   "NotoSansSiddham-v2.004"
   ]
  },
  "sign-writing": {

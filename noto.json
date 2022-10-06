@@ -287,13 +287,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/anatolian-hieroglyphs",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Want OTF back",
-    "url": "https://github.com/notofonts/anatolian-hieroglyphs/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/anatolian-hieroglyphs",
   "title": "Noto Anatolian Hieroglyphs"
  },
@@ -1924,6 +1918,11 @@
   },
   "gh_url": "https://notofonts.github.io/bhaiksuki",
   "issues": [
+   {
+    "number": 9,
+    "title": "Two marks have base glyphs",
+    "url": "https://github.com/notofonts/bhaiksuki/issues/9"
+   },
    {
     "number": 4,
     "title": "Missing or misplaced Bhaiksuki anchor points",
@@ -11462,6 +11461,11 @@
   "gh_url": "https://notofonts.github.io/multani",
   "issues": [
    {
+    "number": 2,
+    "title": "Subset of Noto Sans is missing anchors",
+    "url": "https://github.com/notofonts/multani/issues/2"
+   },
+   {
     "number": 1,
     "title": "Wrong glyphs for some Multani digits",
     "url": "https://github.com/notofonts/multani/issues/1"
@@ -13585,10 +13589,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Siddham v2.003\n\nThis release:\n* fixes a number of fontbakery fails\n* creates a stylistic set to raise the head of reph ra (#1)\n* creates a stylistic set for alternate forms of rya (#2)\n",
-     "published": "2022-09-12T13:58:31",
-     "url": "https://github.com/notofonts/siddham/releases/tag/NotoSansSiddham-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Siddham v2.004\n\nThis release fixes an issue where multi-glyph stacks were not being attached to the dotted circle correctly.\n",
+     "published": "2022-10-05T14:25:08",
+     "url": "https://github.com/notofonts/siddham/releases/tag/NotoSansSiddham-v2.004",
+     "version": "v2.004"
     }
    }
   },
