@@ -55,63 +55,149 @@
 		</nav>
 		<div class="container mt-2">
 			{{#each results}}
-			<h3 id="{{@key}}">{{title}}</h3>
-			<ul>
-				<li>
-					<a href="{{gh_url}}">Development builds</a>
-					<img
-						src="https://img.shields.io/github/workflow/status/notofonts/{{@key}}/Build,%20QA,%20Release?label=%20&style=plastic"
-					/>
-				</li>
-				<li><a href="{{repo_url}}">Source repository</a></li>
-				<li>
-					<a href="{{repo_url}}/issues/new/choose">Report a bug in this font</a>
-				</li>
-			</ul>
-			{{#if issues}}
-			<h5>Known Issues</h5>
-			<ul>
-				{{#each issues}}
-				<li>{{title}} (<a href="{{url}}">#{{number}}</a>)</li>
-				{{/each}}
-			</ul>
-			{{/if}} {{#each families}}
-			<h4>
-				{{@key}} {{#if latest_release}}
-				<a href="{{latest_release.url}}">{{latest_release.version}}</a>
-				{{/if}}
-			</h4>
-			{{#if latest_release}}
-			<pre>{{latest_release.notes}}</pre>
-			{{/if}}
-			<div class="row">
-				<div class="col">
-					<h3>Unhinted</h3>
-					<ul>
-						{{#each files.unhinted}}
-						<li><a href="{{this}}">{{basename this}}</a></li>
-						{{/each}}
-					</ul>
+			<div id="{{@key}}">
+				<h3>{{title}}</h3>
+				<ul>
+					<li>
+						<a href="{{gh_url}}">Development builds</a>
+						<img
+							src="https://img.shields.io/github/workflow/status/notofonts/{{@key}}/Build,%20QA,%20Release?label=%20&style=plastic"
+						/>
+					</li>
+					<li><a href="{{repo_url}}">Source repository</a></li>
+					<li>
+						<a href="{{repo_url}}/issues/new/choose"
+							>Report a bug in this font</a
+						>
+					</li>
+				</ul>
+
+				<div class="accordion">
+					{{#if issues}}
+					<div class="card">
+						<div class="card-header">
+							<h5 class="mb-0">
+								<button
+									class="btn btn-link"
+									data-toggle="collapse"
+									data-target="#{{@key}} .issuescard"
+								>
+									Known Issues
+								</button>
+							</h5>
+						</div>
+						<div class="collapse issuescard">
+							<div class="card-body">
+								<h5>Known Issues</h5>
+								<ul>
+									{{#each issues}}
+									<li>{{title}} (<a href="{{url}}">#{{number}}</a>)</li>
+									{{/each}}
+								</ul>
+							</div>
+						</div>
+					</div>
+					{{/if}}
+
+					<div class="card">
+						<div class="card-header">
+							<h5 class="mb-0">
+								<button
+									class="btn btn-link"
+									data-toggle="collapse"
+									data-target="#{{@key}} .releasescard"
+								>
+									Releases
+								</button>
+							</h5>
+						</div>
+						<div class="collapse releasescard">
+							<div class="card-body">
+								{{#each families}} {{#if latest_release}}
+								<h6>
+									{{@key}}
+									<a href="{{latest_release.url}}"
+										>{{latest_release.version}}</a
+									>
+								</h6>
+								<pre>{{latest_release.notes}}</pre>
+								{{/if}} {{/each}}
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-header">
+							<h5 class="mb-0">
+								<button
+									class="btn btn-link"
+									data-toggle="collapse"
+									data-target="#{{@key}} .fontscard"
+								>
+									Latest fonts
+								</button>
+							</h5>
+						</div>
+						<div class="collapse show fontscard">
+							<div class="card-body">
+								{{#each families}}
+								{{#gt ../families.length 1}}
+								<h5>{{@key}}</h5>
+								{{/gt}}
+
+								<div class="row">
+									<div class="col">
+										<h6>Unhinted</h3>
+										<ul>
+											{{#each files.unhinted}}
+											<li>
+												<a
+													href="https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io/{{this}}"
+													>{{basename this}}</a
+												>
+											</li>
+											{{/each}}
+										</ul>
+									</div>
+									<div class="col">
+										<h6>Hinted</h6>
+										<ul>
+											{{#each files.hinted}}
+											<li>
+												<a
+													href="https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io/{{this}}"
+													>{{basename this}}</a
+												>
+											</li>
+											{{/each}}
+										</ul>
+									</div>
+									<div class="col">
+										<h6>Full</h6>
+										<ul>
+											{{#each files.full}}
+											<li>
+												<a
+													href="https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io/{{this}}"
+													>{{basename this}}</a
+												>
+											</li>
+											{{/each}}
+										</ul>
+									</div>
+								</div>
+								{{/each}}
+							</div>
+							<!-- card-body -->
+						</div>
+						<!-- fontscard -->
+					</div>
+					<!-- card -->
 				</div>
-				<div class="col">
-					<h3>Hinted</h3>
-					<ul>
-						{{#each files.hinted}}
-						<li><a href="{{this}}">{{basename this}}</a></li>
-						{{/each}}
-					</ul>
-				</div>
-				<div class="col">
-					<h3>Full</h3>
-					<ul>
-						{{#each files.full}}
-						<li><a href="{{this}}">{{basename this}}</a></li>
-						{{/each}}
-					</ul>
-				</div>
+				<!-- accordion -->
+				<hr />
 			</div>
-			{{/each}}
-			<hr />
+			<!-- @key -->
 			{{/each}}
 			<p>Get this information as a <a href="noto.json">JSON file</a>.</p>
 		</div>

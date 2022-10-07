@@ -159,25 +159,4 @@ for result in results.values():
                 newfiles["full"].append(file)
         family["files"] = newfiles
 
-
-def _basename(this, item):
-    return strlist([os.path.basename(item)])
-
-
-helpers = {"basename": _basename}
-
-compiler = Compiler()
-template = open("scripts/template.html", "r").read()
-template = compiler.compile(template)
-output = template({"results": results}, helpers=helpers)
-
-json.dump(results, open("noto.json", "w"), indent=True, sort_keys=True)
-
-with open("index.html", "w") as fh:
-    fh.write(output)
-
-bug_template = open("scripts/bugreporter.html", "r").read()
-bug_template = compiler.compile(bug_template)
-output = bug_template({"results": results})
-with open("reporter.html", "w") as fh:
-    fh.write(output)
+json.dump(results, open("docs/noto.json", "w"), indent=True, sort_keys=True)
