@@ -1,7 +1,7 @@
-name: Rebuild website
+name: Gather issues stats
 on:
   schedule:
-    - cron: '12 1 * * *'
+    - cron: '0 3 * * 1'
 
 jobs:
   rebuild:
@@ -13,8 +13,8 @@ jobs:
       - uses: actions/setup-python@v2
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
-      - name: Build site
-        run: python3 scripts/build.py
+      - name: Build statistics
+        run: python3 scripts/issue-stats.py
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - uses: stefanzweifel/git-auto-commit-action@v4
