@@ -160,7 +160,7 @@ monthly_stats = [
     {
         "month": months[i - 1],
         "opened": opened_per_month.get(i, 0),
-        "closed": opened_per_month.get(i, 0),
+        "closed": closed_per_month.get(i, 0),
         "releases": releases_per_month.get(i, []),
     }
     for i in year_to_date
