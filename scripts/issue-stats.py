@@ -3,6 +3,7 @@ import os
 import json
 from datetime import datetime
 from collections import Counter
+from pybars import Compiler
 import matplotlib
 
 matplotlib.use("Agg")
@@ -71,9 +72,7 @@ json.dump(
 )
 
 
-this_month = datetime.datetime.now().month
-
-year_to_date = range(1, this_month + 1)
+year_to_date = range(1, this.month + 1)
 
 months = [
     "Jan",
@@ -88,7 +87,7 @@ months = [
     "Oct",
     "Nov",
     "Dec",
-][:this_month]
+][:this.month]
 totals = [totals_per_month[i] for i in year_to_date]
 
 fig, ax1 = plt.subplots()
@@ -124,7 +123,7 @@ lines, labels = ax1.get_legend_handles_labels()
 lines2, labels2 = ax2.get_legend_handles_labels()
 ax2.legend(lines + lines2, labels + labels2, loc="lower left")
 plt.title("Issues opened, closed, and open")
-plt.savefig("open-closed.png")
+plt.savefig("docs/open-closed.png")
 
 
 ## Top 10 scripts
@@ -136,7 +135,7 @@ ax.bar_label(bars)
 plt.title("Repositories with most open issues")
 plt.xticks(rotation=60)
 plt.tight_layout()
-plt.savefig("top-10.png")
+plt.savefig("docs/top-10.png")
 
 
 ## Low hanging fruit
@@ -155,7 +154,7 @@ fig, ax = plt.subplots()
 bars = ax.bar(months, release_count_per_month)
 ax.bar_label(bars)
 plt.title("Releases per month")
-plt.savefig("releases.png")
+plt.savefig("docs/releases.png")
 
 monthly_stats = [
     {
