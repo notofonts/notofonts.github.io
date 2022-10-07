@@ -2529,24 +2529,25 @@
   "families": {
    "Noto Serif Dogra": {
     "files": [
-     "fonts/NotoSerifDogra/full/otf/NotoSerifDogra-Regular.otf",
-     "fonts/NotoSerifDogra/full/ttf/NotoSerifDogra-Regular.ttf",
+     "fonts/NotoSerifDogra/hinted/ttf/NotoSerifDogra-Regular.ttf",
      "fonts/NotoSerifDogra/googlefonts/ttf/NotoSerifDogra-Regular.ttf",
-     "fonts/NotoSerifDogra/unhinted/otf/NotoSerifDogra-Regular.otf",
      "fonts/NotoSerifDogra/unhinted/ttf/NotoSerifDogra-Regular.ttf",
-     "fonts/NotoSerifDogra/hinted/ttf/NotoSerifDogra-Regular.ttf"
+     "fonts/NotoSerifDogra/unhinted/otf/NotoSerifDogra-Regular.otf",
+     "fonts/NotoSerifDogra/full/ttf/NotoSerifDogra-Regular.ttf",
+     "fonts/NotoSerifDogra/full/otf/NotoSerifDogra-Regular.otf"
     ],
     "latest_release": {
-     "notes": "Noto Serif Dogra v1.005 - Administrative release\n\nFixes copyright information and uses new upstream.yaml generator to help with Google Fonts onboarding.\n\n* Fix copyright to match OFL, version bump\n* Add dotted circle anchors\n* Add Stylistic set names\n",
-     "published": "2022-06-27T13:00:27",
-     "url": "https://github.com/notofonts/dogra/releases/tag/NotoSerifDogra-v1.005",
-     "version": "v1.005"
+     "notes": "Noto Serif Dogra v1.006 This release: AUTHORS.txt CONTRIBUTORS.txt Makefile OFL.txt README.md build.stamp documentation fontbakery.yml fonts master_ttf master_ufo qa requirements.txt scripts sources subset-files venv fixes an issue where akhand forms where not being formed in the presence of an i-matra (#9) AUTHORS.txt CONTRIBUTORS.txt Makefile OFL.txt README.md build.stamp documentation fontbakery.yml fonts master_ttf master_ufo qa requirements.txt scripts sources subset-files venv adds the Devanagari avagraha glyph to full builds.\n",
+     "published": "2022-10-06T11:54:30",
+     "url": "https://github.com/notofonts/dogra/releases/tag/NotoSerifDogra-v1.006",
+     "version": "v1.006"
     }
    }
   },
   "known_releases": [
    "NotoSerifDogra-v1.004",
-   "NotoSerifDogra-v1.005"
+   "NotoSerifDogra-v1.005",
+   "NotoSerifDogra-v1.006"
   ]
  },
  "duployan": {},
@@ -7490,23 +7491,24 @@
   "families": {
    "Noto Sans Lepcha": {
     "files": [
-     "fonts/NotoSansLepcha/full/ttf/NotoSansLepcha-Regular.ttf",
-     "fonts/NotoSansLepcha/full/otf/NotoSansLepcha-Regular.otf",
+     "fonts/NotoSansLepcha/hinted/ttf/NotoSansLepcha-Regular.ttf",
      "fonts/NotoSansLepcha/googlefonts/ttf/NotoSansLepcha-Regular.ttf",
      "fonts/NotoSansLepcha/unhinted/ttf/NotoSansLepcha-Regular.ttf",
      "fonts/NotoSansLepcha/unhinted/otf/NotoSansLepcha-Regular.otf",
-     "fonts/NotoSansLepcha/hinted/ttf/NotoSansLepcha-Regular.ttf"
+     "fonts/NotoSansLepcha/full/ttf/NotoSansLepcha-Regular.ttf",
+     "fonts/NotoSansLepcha/full/otf/NotoSansLepcha-Regular.otf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Lepcha v2.004\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes an issue where nukta/e sequences were colliding. (#1)\n",
-     "published": "2022-09-06T11:22:08",
-     "url": "https://github.com/notofonts/lepcha/releases/tag/NotoSansLepcha-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Lepcha v2.005\n\nThis release fixes an issue where certain marks would not correctly attach to ligature glyphs. (#1)\n",
+     "published": "2022-10-06T10:51:49",
+     "url": "https://github.com/notofonts/lepcha/releases/tag/NotoSansLepcha-v2.005",
+     "version": "v2.005"
     }
    }
   },
   "known_releases": [
-   "NotoSansLepcha-v2.004"
+   "NotoSansLepcha-v2.004",
+   "NotoSansLepcha-v2.005"
   ]
  },
  "limbu": {
@@ -10708,23 +10710,24 @@
   "families": {
    "Noto Sans Syloti Nagri": {
     "files": [
-     "fonts/NotoSansSylotiNagri/full/ttf/NotoSansSylotiNagri-Regular.ttf",
-     "fonts/NotoSansSylotiNagri/full/otf/NotoSansSylotiNagri-Regular.otf",
+     "fonts/NotoSansSylotiNagri/hinted/ttf/NotoSansSylotiNagri-Regular.ttf",
      "fonts/NotoSansSylotiNagri/googlefonts/ttf/NotoSansSylotiNagri-Regular.ttf",
      "fonts/NotoSansSylotiNagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf",
      "fonts/NotoSansSylotiNagri/unhinted/otf/NotoSansSylotiNagri-Regular.otf",
-     "fonts/NotoSansSylotiNagri/hinted/ttf/NotoSansSylotiNagri-Regular.ttf"
+     "fonts/NotoSansSylotiNagri/full/ttf/NotoSansSylotiNagri-Regular.ttf",
+     "fonts/NotoSansSylotiNagri/full/otf/NotoSansSylotiNagri-Regular.otf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Syloti Nagri v2.002\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-14T11:18:24",
-     "url": "https://github.com/notofonts/syloti-nagri/releases/tag/NotoSansSylotiNagri-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Sans Syloti Nagri v2.003 This release: AUTHORS.txt CONTRIBUTORS.txt Makefile OFL.txt README.md build.stamp documentation fontbakery.yml fonts qa requirements.txt scripts sources subset-files venv Fixes a problem where postbase vowels collided with subsequent letters. (#6) AUTHORS.txt CONTRIBUTORS.txt Makefile OFL.txt README.md build.stamp documentation fontbakery.yml fonts qa requirements.txt scripts sources subset-files venv Partially fixes the position of some dotted circle anchors. (#7)\n",
+     "published": "2022-10-06T14:28:53",
+     "url": "https://github.com/notofonts/syloti-nagri/releases/tag/NotoSansSylotiNagri-v2.003",
+     "version": "v2.003"
     }
    }
   },
   "known_releases": [
-   "NotoSansSylotiNagri-v2.002"
+   "NotoSansSylotiNagri-v2.002",
+   "NotoSansSylotiNagri-v2.003"
   ]
  },
  "symbols": {

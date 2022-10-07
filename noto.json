@@ -3307,20 +3307,15 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Dogra v1.005 - Administrative release\n\nFixes copyright information and uses new upstream.yaml generator to help with Google Fonts onboarding.\n\n* Fix copyright to match OFL, version bump\n* Add dotted circle anchors\n* Add Stylistic set names\n",
-     "published": "2022-06-27T13:00:27",
-     "url": "https://github.com/notofonts/dogra/releases/tag/NotoSerifDogra-v1.005",
-     "version": "v1.005"
+     "notes": "Noto Serif Dogra v1.006 This release: AUTHORS.txt CONTRIBUTORS.txt Makefile OFL.txt README.md build.stamp documentation fontbakery.yml fonts master_ttf master_ufo qa requirements.txt scripts sources subset-files venv fixes an issue where akhand forms where not being formed in the presence of an i-matra (#9) AUTHORS.txt CONTRIBUTORS.txt Makefile OFL.txt README.md build.stamp documentation fontbakery.yml fonts master_ttf master_ufo qa requirements.txt scripts sources subset-files venv adds the Devanagari avagraha glyph to full builds.\n",
+     "published": "2022-10-06T11:54:30",
+     "url": "https://github.com/notofonts/dogra/releases/tag/NotoSerifDogra-v1.006",
+     "version": "v1.006"
     }
    }
   },
   "gh_url": "https://notofonts.github.io/dogra",
   "issues": [
-   {
-    "number": 9,
-    "title": "Conjuncts with vowel sign I is rendered with Virama",
-    "url": "https://github.com/notofonts/dogra/issues/9"
-   },
    {
     "number": 7,
     "title": "Conjuncts are to be added in the Dogra font",
@@ -10021,15 +10016,20 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Lepcha v2.004\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes an issue where nukta/e sequences were colliding. (#1)\n",
-     "published": "2022-09-06T11:22:08",
-     "url": "https://github.com/notofonts/lepcha/releases/tag/NotoSansLepcha-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Lepcha v2.005\n\nThis release fixes an issue where certain marks would not correctly attach to ligature glyphs. (#1)\n",
+     "published": "2022-10-06T10:51:49",
+     "url": "https://github.com/notofonts/lepcha/releases/tag/NotoSansLepcha-v2.005",
+     "version": "v2.005"
     }
    }
   },
   "gh_url": "https://notofonts.github.io/lepcha",
   "issues": [
+   {
+    "number": 6,
+    "title": "`uni1C25_1C24` blocks positioning of U+1C2C LEPCHA VOWEL SIGN E",
+    "url": "https://github.com/notofonts/lepcha/issues/6"
+   },
    {
     "number": 1,
     "title": "Mispositioned U+1C2C LEPCHA VOWEL SIGN E below U+1C37 LEPCHA SIGN NUKTA",
@@ -14515,10 +14515,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Syloti Nagri v2.002\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-14T11:18:24",
-     "url": "https://github.com/notofonts/syloti-nagri/releases/tag/NotoSansSylotiNagri-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Sans Syloti Nagri v2.003 This release: AUTHORS.txt CONTRIBUTORS.txt Makefile OFL.txt README.md build.stamp documentation fontbakery.yml fonts qa requirements.txt scripts sources subset-files venv Fixes a problem where postbase vowels collided with subsequent letters. (#6) AUTHORS.txt CONTRIBUTORS.txt Makefile OFL.txt README.md build.stamp documentation fontbakery.yml fonts qa requirements.txt scripts sources subset-files venv Partially fixes the position of some dotted circle anchors. (#7)\n",
+     "published": "2022-10-06T14:28:53",
+     "url": "https://github.com/notofonts/syloti-nagri/releases/tag/NotoSansSylotiNagri-v2.003",
+     "version": "v2.003"
     }
    }
   },
@@ -14533,11 +14533,6 @@
     "number": 7,
     "title": "Marks are positioned badly above U+25CC DOTTED CIRCLE",
     "url": "https://github.com/notofonts/syloti-nagri/issues/7"
-   },
-   {
-    "number": 6,
-    "title": "Spacing combining marks are not spacing",
-    "url": "https://github.com/notofonts/syloti-nagri/issues/6"
    },
    {
     "number": 5,
