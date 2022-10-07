@@ -65,7 +65,7 @@ json.dump(
         "open_per_repo": open_per_repo,
         "releases_per_month": releases_per_month,
     },
-    open("issues.json", "w"),
+    open("docs/issues.json", "w"),
     indent=True,
     sort_keys=True,
 )
@@ -178,5 +178,5 @@ output = template(
     }
 )
 
-with open("analytics.html", "w") as fh:
+with open("docs/analytics.html", "w") as fh:
     fh.write(output)
