@@ -3179,6 +3179,11 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
+    "number": 31,
+    "title": "Indesign crashing with glyph sequence \u0914\u0901",
+    "url": "https://github.com/notofonts/devanagari/issues/31"
+   },
+   {
     "number": 13,
     "title": "Representation of geminate Devanagari letter NA in Noto Serif Devanagari",
     "url": "https://github.com/notofonts/devanagari/issues/13"
