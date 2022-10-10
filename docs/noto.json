@@ -3322,6 +3322,11 @@
   "gh_url": "https://notofonts.github.io/dogra",
   "issues": [
    {
+    "number": 12,
+    "title": "U+093D DEVANAGARI SIGN AVAGRAHA is copied from Noto Serif Devanagari",
+    "url": "https://github.com/notofonts/dogra/issues/12"
+   },
+   {
     "number": 11,
     "title": "'ss02' reorders U+1182D DOGRA VOWEL SIGN I inconsistently in \u27e8\ud806\udc27\ud806\udc39\ud806\udc24\ud806\udc2d\u27e9",
     "url": "https://github.com/notofonts/dogra/issues/11"
