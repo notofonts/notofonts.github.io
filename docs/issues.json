@@ -32,9 +32,9 @@
   "chorasmian": 2,
   "coptic": 2,
   "deseret": 1,
-  "devanagari": 13,
+  "devanagari": 14,
   "dives-akuru": 7,
-  "dogra": 1,
+  "dogra": 3,
   "duployan": 3,
   "egyptian-hieroglyphs": 6,
   "elbasan": 2,
@@ -138,7 +138,7 @@
   "7": 20,
   "8": 22,
   "9": 55,
-  "10": 7
+  "10": 10
  },
  "releases_per_month": {
   "6": [
