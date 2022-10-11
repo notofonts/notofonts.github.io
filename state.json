@@ -2524,7 +2524,29 @@
    "NotoSansDevanagari-v2.003"
   ]
  },
- "dives-akuru": {},
+ "dives-akuru": {
+  "families": {
+   "Noto Serif Dives Akuru": {
+    "files": [
+     "fonts/NotoSerifDivesAkuru/hinted/ttf/NotoSerifDivesAkuru-Regular.ttf",
+     "fonts/NotoSerifDivesAkuru/googlefonts/ttf/NotoSerifDivesAkuru-Regular.ttf",
+     "fonts/NotoSerifDivesAkuru/unhinted/ttf/NotoSerifDivesAkuru-Regular.ttf",
+     "fonts/NotoSerifDivesAkuru/unhinted/otf/NotoSerifDivesAkuru-Regular.otf",
+     "fonts/NotoSerifDivesAkuru/full/ttf/NotoSerifDivesAkuru-Regular.ttf",
+     "fonts/NotoSerifDivesAkuru/full/otf/NotoSerifDivesAkuru-Regular.otf"
+    ],
+    "latest_release": {
+     "notes": "Noto Serif Dives Akuru v1.001\n\nThis release:\n\n* Improves the appearance of the initial ra glyph (#8)\n* Improves mark positioning and adds missing touching conjuncts (#9)\n* Increases consistency by using the attached form of the prefixed nasal sign (#10)\n* Renders certain ligatures as touching forms (#11)\n* Avoids collisions between multiple above marks (#12)\n* Uses the correct (dist) feature for spacing (#13)\n* Adds the dotted circle glyph (#14)\n* Removes an incorrect stylistic set (#15)\n* Fixes the ligation of letter ya (#1)\n* and fixes a number of fontbakery fails.\n\nMany thanks to @sergiolmartins for all his work on this release!\n",
+     "published": "2022-10-10T14:33:58",
+     "url": "https://github.com/notofonts/dives-akuru/releases/tag/NotoSerifDivesAkuru-v1.001",
+     "version": "v1.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSerifDivesAkuru-v1.001"
+  ]
+ },
  "dogra": {
   "families": {
    "Noto Serif Dogra": {
@@ -2574,7 +2596,29 @@
    "NotoSansEgyptianHieroglyphs-v2.001"
   ]
  },
- "elbasan": {},
+ "elbasan": {
+  "families": {
+   "Noto Sans Elbasan": {
+    "files": [
+     "fonts/NotoSansElbasan/hinted/ttf/NotoSansElbasan-Regular.ttf",
+     "fonts/NotoSansElbasan/googlefonts/ttf/NotoSansElbasan-Regular.ttf",
+     "fonts/NotoSansElbasan/unhinted/ttf/NotoSansElbasan-Regular.ttf",
+     "fonts/NotoSansElbasan/unhinted/otf/NotoSansElbasan-Regular.otf",
+     "fonts/NotoSansElbasan/full/ttf/NotoSansElbasan-Regular.ttf",
+     "fonts/NotoSansElbasan/full/otf/NotoSansElbasan-Regular.otf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Elbasan v2.004\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-10-10T14:01:39",
+     "url": "https://github.com/notofonts/elbasan/releases/tag/NotoSansElbasan-v2.004",
+     "version": "v2.004"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansElbasan-v2.004"
+  ]
+ },
  "elymaic": {
   "families": {
    "Noto Sans Elymaic": {
@@ -9848,23 +9892,24 @@
   "families": {
    "Noto Sans Saurashtra": {
     "files": [
-     "fonts/NotoSansSaurashtra/full/ttf/NotoSansSaurashtra-Regular.ttf",
-     "fonts/NotoSansSaurashtra/full/otf/NotoSansSaurashtra-Regular.otf",
+     "fonts/NotoSansSaurashtra/hinted/ttf/NotoSansSaurashtra-Regular.ttf",
      "fonts/NotoSansSaurashtra/googlefonts/ttf/NotoSansSaurashtra-Regular.ttf",
      "fonts/NotoSansSaurashtra/unhinted/ttf/NotoSansSaurashtra-Regular.ttf",
      "fonts/NotoSansSaurashtra/unhinted/otf/NotoSansSaurashtra-Regular.otf",
-     "fonts/NotoSansSaurashtra/hinted/ttf/NotoSansSaurashtra-Regular.ttf"
+     "fonts/NotoSansSaurashtra/full/ttf/NotoSansSaurashtra-Regular.ttf",
+     "fonts/NotoSansSaurashtra/full/otf/NotoSansSaurashtra-Regular.otf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Saurashtra v2.001\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes a mispositioned virama glyph (#2)\n",
-     "published": "2022-09-02T09:39:21",
-     "url": "https://github.com/notofonts/saurashtra/releases/tag/NotoSansSaurashtra-v2.001",
-     "version": "v2.001"
+     "notes": "Noto Sans Saurashtra v2.002 This release: AUTHORS.txt CONTRIBUTORS.txt Makefile OFL.txt README.md build.stamp documentation fontbakery.yml fonts master_ttf master_ufo qa report.html requirements.txt scripts sources subset-files venv Fixes the category of certain spacing marks. (#3) AUTHORS.txt CONTRIBUTORS.txt Makefile OFL.txt README.md build.stamp documentation fontbakery.yml fonts master_ttf master_ufo qa report.html requirements.txt scripts sources subset-files venv Fixes the counter shape of vocalic rr. (#4)\n",
+     "published": "2022-10-10T08:26:11",
+     "url": "https://github.com/notofonts/saurashtra/releases/tag/NotoSansSaurashtra-v2.002",
+     "version": "v2.002"
     }
    }
   },
   "known_releases": [
-   "NotoSansSaurashtra-v2.001"
+   "NotoSansSaurashtra-v2.001",
+   "NotoSansSaurashtra-v2.002"
   ]
  },
  "sharada": {
@@ -10664,46 +10709,47 @@
   "families": {
    "Noto Sans Sundanese": {
     "files": [
-     "fonts/NotoSansSundanese/full/slim-variable-ttf/NotoSansSundanese[wght].ttf",
-     "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-Medium.ttf",
-     "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-Bold.ttf",
-     "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-SemiBold.ttf",
-     "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-Regular.ttf",
-     "fonts/NotoSansSundanese/full/variable-ttf/NotoSansSundanese[wght].ttf",
-     "fonts/NotoSansSundanese/full/otf/NotoSansSundanese-Medium.otf",
-     "fonts/NotoSansSundanese/full/otf/NotoSansSundanese-Regular.otf",
-     "fonts/NotoSansSundanese/full/otf/NotoSansSundanese-Bold.otf",
-     "fonts/NotoSansSundanese/full/otf/NotoSansSundanese-SemiBold.otf",
-     "fonts/NotoSansSundanese/googlefonts/ttf/NotoSansSundanese-Medium.ttf",
-     "fonts/NotoSansSundanese/googlefonts/ttf/NotoSansSundanese-Bold.ttf",
+     "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-SemiBold.ttf",
+     "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-Regular.ttf",
+     "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-Bold.ttf",
+     "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-Medium.ttf",
      "fonts/NotoSansSundanese/googlefonts/ttf/NotoSansSundanese-SemiBold.ttf",
      "fonts/NotoSansSundanese/googlefonts/ttf/NotoSansSundanese-Regular.ttf",
+     "fonts/NotoSansSundanese/googlefonts/ttf/NotoSansSundanese-Bold.ttf",
+     "fonts/NotoSansSundanese/googlefonts/ttf/NotoSansSundanese-Medium.ttf",
      "fonts/NotoSansSundanese/googlefonts/variable-ttf/NotoSansSundanese[wght].ttf",
      "fonts/NotoSansSundanese/unhinted/slim-variable-ttf/NotoSansSundanese[wght].ttf",
-     "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf",
-     "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf",
      "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf",
      "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf",
-     "fonts/NotoSansSundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf",
+     "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf",
+     "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf",
      "fonts/NotoSansSundanese/unhinted/otf/NotoSansSundanese-Medium.otf",
-     "fonts/NotoSansSundanese/unhinted/otf/NotoSansSundanese-Regular.otf",
      "fonts/NotoSansSundanese/unhinted/otf/NotoSansSundanese-Bold.otf",
      "fonts/NotoSansSundanese/unhinted/otf/NotoSansSundanese-SemiBold.otf",
-     "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-Medium.ttf",
-     "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-Bold.ttf",
-     "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-SemiBold.ttf",
-     "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-Regular.ttf"
+     "fonts/NotoSansSundanese/unhinted/otf/NotoSansSundanese-Regular.otf",
+     "fonts/NotoSansSundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf",
+     "fonts/NotoSansSundanese/full/slim-variable-ttf/NotoSansSundanese[wght].ttf",
+     "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-SemiBold.ttf",
+     "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-Regular.ttf",
+     "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-Bold.ttf",
+     "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-Medium.ttf",
+     "fonts/NotoSansSundanese/full/otf/NotoSansSundanese-Medium.otf",
+     "fonts/NotoSansSundanese/full/otf/NotoSansSundanese-Bold.otf",
+     "fonts/NotoSansSundanese/full/otf/NotoSansSundanese-SemiBold.otf",
+     "fonts/NotoSansSundanese/full/otf/NotoSansSundanese-Regular.otf",
+     "fonts/NotoSansSundanese/full/variable-ttf/NotoSansSundanese[wght].ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Sundanese v2.002\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-12T08:35:28",
-     "url": "https://github.com/notofonts/sundanese/releases/tag/NotoSansSundanese-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Sans Sundanese v2.003\n\nThis release fixes an issue with marks not being correctly attached to bases.\n",
+     "published": "2022-10-10T08:32:56",
+     "url": "https://github.com/notofonts/sundanese/releases/tag/NotoSansSundanese-v2.003",
+     "version": "v2.003"
     }
    }
   },
   "known_releases": [
-   "NotoSansSundanese-v2.002"
+   "NotoSansSundanese-v2.002",
+   "NotoSansSundanese-v2.003"
   ]
  },
  "syloti-nagri": {
