@@ -2436,7 +2436,29 @@
   "title": "Noto Cherokee"
  },
  "chorasmian": {
-  "families": {},
+  "families": {
+   "Noto Sans Chorasmian": {
+    "files": {
+     "full": [
+      "fonts/NotoSansChorasmian/full/otf/NotoSansChorasmian-Regular.otf",
+      "fonts/NotoSansChorasmian/full/ttf/NotoSansChorasmian-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansChorasmian/hinted/ttf/NotoSansChorasmian-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansChorasmian/unhinted/otf/NotoSansChorasmian-Regular.otf",
+      "fonts/NotoSansChorasmian/unhinted/ttf/NotoSansChorasmian-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Chorasmian v1.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-10-11T08:57:34",
+     "url": "https://github.com/notofonts/chorasmian/releases/tag/NotoSansChorasmian-v1.002",
+     "version": "v1.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/chorasmian",
   "issues": [
    {
@@ -3178,11 +3200,6 @@
   },
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
-   {
-    "number": 31,
-    "title": "Indesign crashing with glyph sequence \u0914\u0901",
-    "url": "https://github.com/notofonts/devanagari/issues/31"
-   },
    {
     "number": 13,
     "title": "Representation of geminate Devanagari letter NA in Noto Serif Devanagari",
@@ -10366,7 +10383,29 @@
   "title": "Noto Mahajani"
  },
  "makasar": {
-  "families": {},
+  "families": {
+   "Noto Serif Makasar": {
+    "files": {
+     "full": [
+      "fonts/NotoSerifMakasar/full/otf/NotoSerifMakasar-Regular.otf",
+      "fonts/NotoSerifMakasar/full/ttf/NotoSerifMakasar-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSerifMakasar/hinted/ttf/NotoSerifMakasar-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSerifMakasar/unhinted/otf/NotoSerifMakasar-Regular.otf",
+      "fonts/NotoSerifMakasar/unhinted/ttf/NotoSerifMakasar-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Serif Makasar v1.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-10-11T20:15:50",
+     "url": "https://github.com/notofonts/makasar/releases/tag/NotoSerifMakasar-v1.001",
+     "version": "v1.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/makasar",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/makasar",
@@ -12980,7 +13019,29 @@
   "title": "Noto Old Turkic"
  },
  "old-uyghur": {
-  "families": {},
+  "families": {
+   "Noto Serif Old Uyghur": {
+    "files": {
+     "full": [
+      "fonts/NotoSerifOldUyghur/full/otf/NotoSerifOldUyghur-Regular.otf",
+      "fonts/NotoSerifOldUyghur/full/ttf/NotoSerifOldUyghur-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSerifOldUyghur/hinted/ttf/NotoSerifOldUyghur-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSerifOldUyghur/unhinted/otf/NotoSerifOldUyghur-Regular.otf",
+      "fonts/NotoSerifOldUyghur/unhinted/ttf/NotoSerifOldUyghur-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Serif Old Uyghur v1.002\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-10-11T16:10:20",
+     "url": "https://github.com/notofonts/old-uyghur/releases/tag/NotoSerifOldUyghur-v1.002",
+     "version": "v1.002"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/old-uyghur",
   "issues": [
    {
@@ -16565,6 +16626,11 @@
   "gh_url": "https://notofonts.github.io/telugu",
   "issues": [
    {
+    "number": 10,
+    "title": "Vedic accents are not properly placed on a consonant with subscripts",
+    "url": "https://github.com/notofonts/telugu/issues/10"
+   },
+   {
     "number": 9,
     "title": "Android UI VF issues",
     "url": "https://github.com/notofonts/telugu/issues/9"
@@ -18023,7 +18089,88 @@
   "title": "Noto Vai"
  },
  "vithkuqi": {
-  "families": {},
+  "families": {
+   "Noto Sans Vithkuqi": {
+    "files": {
+     "full": [
+      "fonts/NotoSansVithkuqi/full/otf/NotoSansVithkuqi-Bold.otf",
+      "fonts/NotoSansVithkuqi/full/otf/NotoSansVithkuqi-Medium.otf",
+      "fonts/NotoSansVithkuqi/full/otf/NotoSansVithkuqi-Regular.otf",
+      "fonts/NotoSansVithkuqi/full/otf/NotoSansVithkuqi-SemiBold.otf",
+      "fonts/NotoSansVithkuqi/full/slim-variable-ttf/NotoSansVithkuqi[wght].ttf",
+      "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-Bold.ttf",
+      "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-Medium.ttf",
+      "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-Regular.ttf",
+      "fonts/NotoSansVithkuqi/full/ttf/NotoSansVithkuqi-SemiBold.ttf",
+      "fonts/NotoSansVithkuqi/full/variable-ttf/NotoSansVithkuqi[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-Bold.ttf",
+      "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-Medium.ttf",
+      "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-Regular.ttf",
+      "fonts/NotoSansVithkuqi/hinted/ttf/NotoSansVithkuqi-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansVithkuqi/unhinted/otf/NotoSansVithkuqi-Bold.otf",
+      "fonts/NotoSansVithkuqi/unhinted/otf/NotoSansVithkuqi-Medium.otf",
+      "fonts/NotoSansVithkuqi/unhinted/otf/NotoSansVithkuqi-Regular.otf",
+      "fonts/NotoSansVithkuqi/unhinted/otf/NotoSansVithkuqi-SemiBold.otf",
+      "fonts/NotoSansVithkuqi/unhinted/slim-variable-ttf/NotoSansVithkuqi[wght].ttf",
+      "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-Bold.ttf",
+      "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-Medium.ttf",
+      "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-Regular.ttf",
+      "fonts/NotoSansVithkuqi/unhinted/ttf/NotoSansVithkuqi-SemiBold.ttf",
+      "fonts/NotoSansVithkuqi/unhinted/variable-ttf/NotoSansVithkuqi[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Vithkuqi v1.001\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-10-11T09:53:52",
+     "url": "https://github.com/notofonts/vithkuqi/releases/tag/NotoSansVithkuqi-v1.001",
+     "version": "v1.001"
+    }
+   },
+   "Noto Serif Vithkuqi": {
+    "files": {
+     "full": [
+      "fonts/NotoSerifVithkuqi/full/otf/NotoSerifVithkuqi-Bold.otf",
+      "fonts/NotoSerifVithkuqi/full/otf/NotoSerifVithkuqi-Medium.otf",
+      "fonts/NotoSerifVithkuqi/full/otf/NotoSerifVithkuqi-Regular.otf",
+      "fonts/NotoSerifVithkuqi/full/otf/NotoSerifVithkuqi-SemiBold.otf",
+      "fonts/NotoSerifVithkuqi/full/slim-variable-ttf/NotoSerifVithkuqi[wght].ttf",
+      "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-Bold.ttf",
+      "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-Medium.ttf",
+      "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-Regular.ttf",
+      "fonts/NotoSerifVithkuqi/full/ttf/NotoSerifVithkuqi-SemiBold.ttf",
+      "fonts/NotoSerifVithkuqi/full/variable-ttf/NotoSerifVithkuqi[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-Bold.ttf",
+      "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-Medium.ttf",
+      "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-Regular.ttf",
+      "fonts/NotoSerifVithkuqi/hinted/ttf/NotoSerifVithkuqi-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSerifVithkuqi/unhinted/otf/NotoSerifVithkuqi-Bold.otf",
+      "fonts/NotoSerifVithkuqi/unhinted/otf/NotoSerifVithkuqi-Medium.otf",
+      "fonts/NotoSerifVithkuqi/unhinted/otf/NotoSerifVithkuqi-Regular.otf",
+      "fonts/NotoSerifVithkuqi/unhinted/otf/NotoSerifVithkuqi-SemiBold.otf",
+      "fonts/NotoSerifVithkuqi/unhinted/slim-variable-ttf/NotoSerifVithkuqi[wght].ttf",
+      "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-Bold.ttf",
+      "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-Medium.ttf",
+      "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-Regular.ttf",
+      "fonts/NotoSerifVithkuqi/unhinted/ttf/NotoSerifVithkuqi-SemiBold.ttf",
+      "fonts/NotoSerifVithkuqi/unhinted/variable-ttf/NotoSerifVithkuqi[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Serif Vithkuqi v1.005\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-10-11T09:54:51",
+     "url": "https://github.com/notofonts/vithkuqi/releases/tag/NotoSerifVithkuqi-v1.005",
+     "version": "v1.005"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/vithkuqi",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/vithkuqi",
@@ -18204,15 +18351,21 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Zanabazar Square v2.003\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-05T16:22:14",
-     "url": "https://github.com/notofonts/zanabazar-square/releases/tag/NotoSansZanabazarSquare-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Zanabazar Square v2.004\n\nThis release fixes the languagesystem script tag, allowing the font to work properly on old versions of Windows and OS X.\n",
+     "published": "2022-10-11T15:24:12",
+     "url": "https://github.com/notofonts/zanabazar-square/releases/tag/NotoSansZanabazarSquare-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "gh_url": "https://notofonts.github.io/zanabazar-square",
-  "issues": [],
+  "issues": [
+   {
+    "number": 7,
+    "title": "Version 2.004 broke most of GSUB",
+    "url": "https://github.com/notofonts/zanabazar-square/issues/7"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/zanabazar-square",
   "title": "Noto Zanabazar Square"
  }
