@@ -13955,16 +13955,17 @@
      "fonts/NotoSansZanabazarSquare/full/otf/NotoSansZanabazarSquare-Regular.otf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Zanabazar Square v2.004\n\nThis release fixes the languagesystem script tag, allowing the font to work properly on old versions of Windows and OS X.\n",
-     "published": "2022-10-11T15:24:12",
-     "url": "https://github.com/notofonts/zanabazar-square/releases/tag/NotoSansZanabazarSquare-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Zanabazar Square v2.005 This release fixes a critical bug with the GSUB table.\n",
+     "published": "2022-10-12T13:33:09",
+     "url": "https://github.com/notofonts/zanabazar-square/releases/tag/NotoSansZanabazarSquare-v2.005",
+     "version": "v2.005"
     }
    }
   },
   "known_releases": [
    "NotoSansZanabazarSquare-v2.003",
-   "NotoSansZanabazarSquare-v2.004"
+   "NotoSansZanabazarSquare-v2.004",
+   "NotoSansZanabazarSquare-v2.005"
   ]
  }
 }

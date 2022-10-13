@@ -3444,11 +3444,6 @@
     "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/5"
    },
    {
-    "number": 4,
-    "title": "U+130B8, U+130B9 and U+130BA missing",
-    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/4"
-   },
-   {
     "number": 3,
     "title": "Redraw Egyptian hieroglyphs according to 2021 changes",
     "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/3"
@@ -18351,19 +18346,24 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Zanabazar Square v2.004\n\nThis release fixes the languagesystem script tag, allowing the font to work properly on old versions of Windows and OS X.\n",
-     "published": "2022-10-11T15:24:12",
-     "url": "https://github.com/notofonts/zanabazar-square/releases/tag/NotoSansZanabazarSquare-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Zanabazar Square v2.005 This release fixes a critical bug with the GSUB table.\n",
+     "published": "2022-10-12T13:33:09",
+     "url": "https://github.com/notofonts/zanabazar-square/releases/tag/NotoSansZanabazarSquare-v2.005",
+     "version": "v2.005"
     }
    }
   },
   "gh_url": "https://notofonts.github.io/zanabazar-square",
   "issues": [
    {
-    "number": 7,
-    "title": "Version 2.004 broke most of GSUB",
-    "url": "https://github.com/notofonts/zanabazar-square/issues/7"
+    "number": 9,
+    "title": "U+11A33 ZANABAZAR SQUARE FINAL CONSONANT MARK overlaps U+11A3B and U+11A3C",
+    "url": "https://github.com/notofonts/zanabazar-square/issues/9"
+   },
+   {
+    "number": 8,
+    "title": "U+11A3A ZANABAZAR SQUARE CLUSTER-INITIAL LETTER RA reorders",
+    "url": "https://github.com/notofonts/zanabazar-square/issues/8"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/zanabazar-square",

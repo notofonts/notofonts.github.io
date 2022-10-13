@@ -14846,7 +14846,6 @@ Many thanks to @sergiolmartins for all his work on this release!
 								<ul>
 									<li>Add hieroglyphic variants controlled by variation selectors (<a href="https://github.com/notofonts/egyptian-hieroglyphs/issues/6">#6</a>)</li>
 									<li>Add seven new hieroglyphs: reversed cartouche end, 2D destruction signs, 2D blanks (<a href="https://github.com/notofonts/egyptian-hieroglyphs/issues/5">#5</a>)</li>
-									<li>U+130B8, U+130B9 and U+130BA missing (<a href="https://github.com/notofonts/egyptian-hieroglyphs/issues/4">#4</a>)</li>
 									<li>Redraw Egyptian hieroglyphs according to 2021 changes (<a href="https://github.com/notofonts/egyptian-hieroglyphs/issues/3">#3</a>)</li>
 									<li>Questionable stroke width for U+130C9 EGYPTIAN HIEROGLYPH D067 etc. (<a href="https://github.com/notofonts/egyptian-hieroglyphs/issues/2">#2</a>)</li>
 									<li>Support Egyptian Hieroglyph Format Controls (<a href="https://github.com/notofonts/egyptian-hieroglyphs/issues/1">#1</a>)</li>
@@ -78522,7 +78521,8 @@ This release adds a number of punctuation characters: uniFF01, uniFF0C, uniFF1A,
 							<div class="card-body">
 								<h5>Known Issues</h5>
 								<ul>
-									<li>Version 2.004 broke most of GSUB (<a href="https://github.com/notofonts/zanabazar-square/issues/7">#7</a>)</li>
+									<li>U+11A33 ZANABAZAR SQUARE FINAL CONSONANT MARK overlaps U+11A3B and U+11A3C (<a href="https://github.com/notofonts/zanabazar-square/issues/9">#9</a>)</li>
+									<li>U+11A3A ZANABAZAR SQUARE CLUSTER-INITIAL LETTER RA reorders (<a href="https://github.com/notofonts/zanabazar-square/issues/8">#8</a>)</li>
 								</ul>
 							</div>
 						</div>
@@ -78544,13 +78544,11 @@ This release adds a number of punctuation characters: uniFF01, uniFF0C, uniFF1A,
 							<div class="card-body">
 								<h6>
 									Noto Sans Zanabazar Square
-									<a href="https://github.com/notofonts/zanabazar-square/releases/tag/NotoSansZanabazarSquare-v2.004"
-										>v2.004</a
+									<a href="https://github.com/notofonts/zanabazar-square/releases/tag/NotoSansZanabazarSquare-v2.005"
+										>v2.005</a
 									>
 								</h6>
-								<pre>Noto Sans Zanabazar Square v2.004
-
-This release fixes the languagesystem script tag, allowing the font to work properly on old versions of Windows and OS X.
+								<pre>Noto Sans Zanabazar Square v2.005 This release fixes a critical bug with the GSUB table.
 </pre>
 							</div>
 						</div>
