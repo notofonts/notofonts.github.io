@@ -11055,7 +11055,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/masaram-gondi",
-  "issues": [],
+  "issues": [
+   {
+    "number": 3,
+    "title": "Masaram Gondi variant numeral shapes 5 and 6 mismatched",
+    "url": "https://github.com/notofonts/masaram-gondi/issues/3"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/masaram-gondi",
   "title": "Noto Masaram Gondi"
  },
