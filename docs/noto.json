@@ -12503,24 +12503,19 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Newa v2.005\n\nThis release fixes a number of fontbakery fails\n",
-     "published": "2022-09-01T14:11:54",
-     "url": "https://github.com/notofonts/newa/releases/tag/NotoSansNewa-v2.005",
-     "version": "v2.005"
+     "notes": "Noto Sans Newa v2.006\n\nThis release fixes a bug where the repha did not attach correctly to top dependant vowels.\n",
+     "published": "2022-10-14T10:28:50",
+     "url": "https://github.com/notofonts/newa/releases/tag/NotoSansNewa-v2.006",
+     "version": "v2.006"
     }
    }
   },
   "gh_url": "https://notofonts.github.io/newa",
   "issues": [
    {
-    "number": 4,
-    "title": "ZWNJ does not block Newa repha",
-    "url": "https://github.com/notofonts/newa/issues/4"
-   },
-   {
-    "number": 1,
-    "title": "Newa script issues - letter shapes, conjunctions problems",
-    "url": "https://github.com/notofonts/newa/issues/1"
+    "number": 9,
+    "title": "U+11443 NEWA SIGN CANDRABINDU is too big in \u27e8\ud805\udc2c\ud805\udc42\ud805\udc0e\ud805\udc36\ud805\udc43\u27e9",
+    "url": "https://github.com/notofonts/newa/issues/9"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/newa",

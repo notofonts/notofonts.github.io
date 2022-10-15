@@ -9207,23 +9207,24 @@
   "families": {
    "Noto Sans Newa": {
     "files": [
-     "fonts/NotoSansNewa/full/ttf/NotoSansNewa-Regular.ttf",
-     "fonts/NotoSansNewa/full/otf/NotoSansNewa-Regular.otf",
+     "fonts/NotoSansNewa/hinted/ttf/NotoSansNewa-Regular.ttf",
      "fonts/NotoSansNewa/googlefonts/ttf/NotoSansNewa-Regular.ttf",
      "fonts/NotoSansNewa/unhinted/ttf/NotoSansNewa-Regular.ttf",
      "fonts/NotoSansNewa/unhinted/otf/NotoSansNewa-Regular.otf",
-     "fonts/NotoSansNewa/hinted/ttf/NotoSansNewa-Regular.ttf"
+     "fonts/NotoSansNewa/full/ttf/NotoSansNewa-Regular.ttf",
+     "fonts/NotoSansNewa/full/otf/NotoSansNewa-Regular.otf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Newa v2.005\n\nThis release fixes a number of fontbakery fails\n",
-     "published": "2022-09-01T14:11:54",
-     "url": "https://github.com/notofonts/newa/releases/tag/NotoSansNewa-v2.005",
-     "version": "v2.005"
+     "notes": "Noto Sans Newa v2.006\n\nThis release fixes a bug where the repha did not attach correctly to top dependant vowels.\n",
+     "published": "2022-10-14T10:28:50",
+     "url": "https://github.com/notofonts/newa/releases/tag/NotoSansNewa-v2.006",
+     "version": "v2.006"
     }
    }
   },
   "known_releases": [
-   "NotoSansNewa-v2.005"
+   "NotoSansNewa-v2.005",
+   "NotoSansNewa-v2.006"
   ]
  },
  "nko": {
