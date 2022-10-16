@@ -11496,6 +11496,11 @@
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
    {
+    "number": 23,
+    "title": "Shaping regression in Mongolian final forms",
+    "url": "https://github.com/notofonts/mongolian/issues/23"
+   },
+   {
     "number": 4,
     "title": "Mongol 18A9 is anchored badly",
     "url": "https://github.com/notofonts/mongolian/issues/4"
