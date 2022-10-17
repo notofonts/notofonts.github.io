@@ -9,7 +9,7 @@
   "7": 10,
   "8": 32,
   "9": 57,
-  "10": 3
+  "10": 9
  },
  "open_per_repo": {
   "Arimo": 14,
@@ -32,11 +32,11 @@
   "chorasmian": 2,
   "coptic": 2,
   "deseret": 1,
-  "devanagari": 14,
+  "devanagari": 13,
   "dives-akuru": 7,
-  "dogra": 3,
+  "dogra": 4,
   "duployan": 3,
-  "egyptian-hieroglyphs": 6,
+  "egyptian-hieroglyphs": 5,
   "elbasan": 2,
   "elymaic": 2,
   "ethiopic": 6,
@@ -70,19 +70,20 @@
   "mandaic": 3,
   "manichaean": 4,
   "marchen": 2,
+  "masaram-gondi": 1,
   "math": 15,
   "meetei-mayek": 1,
   "mende-kikakui": 1,
   "meroitic": 2,
   "miao": 1,
   "modi": 5,
-  "mongolian": 2,
+  "mongolian": 3,
   "multani": 2,
   "music": 8,
   "myanmar": 39,
   "nandinagari": 5,
   "nastaliq": 17,
-  "newa": 2,
+  "newa": 1,
   "nko": 2,
   "nushu": 3,
   "nyiakeng-puachue-hmong": 3,
@@ -107,7 +108,7 @@
   "sinhala": 1,
   "sogdian": 1,
   "soyombo": 3,
-  "sundanese": 3,
+  "sundanese": 4,
   "syloti-nagri": 7,
   "symbols": 31,
   "syriac": 13,
@@ -118,7 +119,7 @@
   "takri": 3,
   "tamil": 8,
   "tangsa": 2,
-  "telugu": 4,
+  "telugu": 5,
   "thaana": 1,
   "thai": 11,
   "tibetan": 12,
@@ -126,7 +127,8 @@
   "tirhuta": 10,
   "wancho": 1,
   "warang-citi": 1,
-  "yezidi": 2
+  "yezidi": 2,
+  "zanabazar-square": 2
  },
  "opened_per_month": {
   "1": 2,
@@ -134,11 +136,11 @@
   "3": 27,
   "4": 23,
   "5": 19,
-  "6": 22,
+  "6": 21,
   "7": 20,
   "8": 22,
   "9": 55,
-  "10": 10
+  "10": 17
  },
  "releases_per_month": {
   "6": [
@@ -923,12 +925,28 @@
     "url": "https://github.com/notofonts/bhaiksuki/releases/tag/NotoSansBhaiksuki-v2.002"
    },
    {
+    "tag": "NotoSansChorasmian-v1.002",
+    "url": "https://github.com/notofonts/chorasmian/releases/tag/NotoSansChorasmian-v1.002"
+   },
+   {
+    "tag": "NotoSerifDivesAkuru-v1.001",
+    "url": "https://github.com/notofonts/dives-akuru/releases/tag/NotoSerifDivesAkuru-v1.001"
+   },
+   {
     "tag": "NotoSerifDogra-v1.006",
     "url": "https://github.com/notofonts/dogra/releases/tag/NotoSerifDogra-v1.006"
    },
    {
+    "tag": "NotoSansElbasan-v2.004",
+    "url": "https://github.com/notofonts/elbasan/releases/tag/NotoSansElbasan-v2.004"
+   },
+   {
     "tag": "NotoSansLepcha-v2.005",
     "url": "https://github.com/notofonts/lepcha/releases/tag/NotoSansLepcha-v2.005"
+   },
+   {
+    "tag": "NotoSerifMakasar-v1.001",
+    "url": "https://github.com/notofonts/makasar/releases/tag/NotoSerifMakasar-v1.001"
    },
    {
     "tag": "NotoSansModi-v2.003",
@@ -937,6 +955,18 @@
    {
     "tag": "NotoSansMultani-v2.002",
     "url": "https://github.com/notofonts/multani/releases/tag/NotoSansMultani-v2.002"
+   },
+   {
+    "tag": "NotoSansNewa-v2.006",
+    "url": "https://github.com/notofonts/newa/releases/tag/NotoSansNewa-v2.006"
+   },
+   {
+    "tag": "NotoSerifOldUyghur-v1.002",
+    "url": "https://github.com/notofonts/old-uyghur/releases/tag/NotoSerifOldUyghur-v1.002"
+   },
+   {
+    "tag": "NotoSansSaurashtra-v2.002",
+    "url": "https://github.com/notofonts/saurashtra/releases/tag/NotoSansSaurashtra-v2.002"
    },
    {
     "tag": "NotoSansSharada-v2.005",
@@ -951,6 +981,10 @@
     "url": "https://github.com/notofonts/sogdian/releases/tag/NotoSansSogdian-v2.002"
    },
    {
+    "tag": "NotoSansSundanese-v2.003",
+    "url": "https://github.com/notofonts/sundanese/releases/tag/NotoSansSundanese-v2.003"
+   },
+   {
     "tag": "NotoSansSylotiNagri-v2.003",
     "url": "https://github.com/notofonts/syloti-nagri/releases/tag/NotoSansSylotiNagri-v2.003"
    },
@@ -961,19 +995,31 @@
    {
     "tag": "NotoSansUgaritic-v2.001",
     "url": "https://github.com/notofonts/ugaritic/releases/tag/NotoSansUgaritic-v2.001"
+   },
+   {
+    "tag": "NotoSansVithkuqi-v1.001",
+    "url": "https://github.com/notofonts/vithkuqi/releases/tag/NotoSansVithkuqi-v1.001"
+   },
+   {
+    "tag": "NotoSerifVithkuqi-v1.005",
+    "url": "https://github.com/notofonts/vithkuqi/releases/tag/NotoSerifVithkuqi-v1.005"
+   },
+   {
+    "tag": "NotoSansZanabazarSquare-v2.005",
+    "url": "https://github.com/notofonts/zanabazar-square/releases/tag/NotoSansZanabazarSquare-v2.005"
    }
   ]
  },
  "totals_per_month": {
-  "1": 1927,
-  "2": 1906,
-  "3": 1872,
-  "4": 1888,
-  "5": 1867,
-  "6": 1885,
-  "7": 1812,
-  "8": 1822,
-  "9": 1812,
-  "10": 1810
+  "1": 1937,
+  "2": 1916,
+  "3": 1882,
+  "4": 1898,
+  "5": 1877,
+  "6": 1895,
+  "7": 1821,
+  "8": 1831,
+  "9": 1821,
+  "10": 1819
  }
 }
