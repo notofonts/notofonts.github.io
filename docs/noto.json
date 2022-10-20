@@ -3948,6 +3948,11 @@
   "gh_url": "https://notofonts.github.io/ethiopic",
   "issues": [
    {
+    "number": 11,
+    "title": "Adding UFO sources with Gurage Additions",
+    "url": "https://github.com/notofonts/ethiopic/pull/11"
+   },
+   {
     "number": 6,
     "title": "Funked up Ethiopic Ex B?",
     "url": "https://github.com/notofonts/ethiopic/issues/6"
