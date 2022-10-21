@@ -5226,7 +5226,29 @@
    "NotoSansInscriptionalPahlavi-v2.003"
   ]
  },
- "inscriptional-parthian": {},
+ "inscriptional-parthian": {
+  "families": {
+   "Noto Sans Inscriptional Parthian": {
+    "files": [
+     "fonts/NotoSansInscriptionalParthian/hinted/ttf/NotoSansInscriptionalParthian-Regular.ttf",
+     "fonts/NotoSansInscriptionalParthian/googlefonts/ttf/NotoSansInscriptionalParthian-Regular.ttf",
+     "fonts/NotoSansInscriptionalParthian/unhinted/ttf/NotoSansInscriptionalParthian-Regular.ttf",
+     "fonts/NotoSansInscriptionalParthian/unhinted/otf/NotoSansInscriptionalParthian-Regular.otf",
+     "fonts/NotoSansInscriptionalParthian/full/ttf/NotoSansInscriptionalParthian-Regular.ttf",
+     "fonts/NotoSansInscriptionalParthian/full/otf/NotoSansInscriptionalParthian-Regular.otf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Inscriptional Parthian v2.003\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-10-20T12:38:37",
+     "url": "https://github.com/notofonts/inscriptional-parthian/releases/tag/NotoSansInscriptionalParthian-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansInscriptionalParthian-v2.003"
+  ]
+ },
  "javanese": {
   "families": {
    "Noto Sans Javanese": {

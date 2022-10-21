@@ -6368,9 +6368,37 @@
   "title": "Noto Inscriptional Pahlavi"
  },
  "inscriptional-parthian": {
-  "families": {},
+  "families": {
+   "Noto Sans Inscriptional Parthian": {
+    "files": {
+     "full": [
+      "fonts/NotoSansInscriptionalParthian/full/otf/NotoSansInscriptionalParthian-Regular.otf",
+      "fonts/NotoSansInscriptionalParthian/full/ttf/NotoSansInscriptionalParthian-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansInscriptionalParthian/hinted/ttf/NotoSansInscriptionalParthian-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansInscriptionalParthian/unhinted/otf/NotoSansInscriptionalParthian-Regular.otf",
+      "fonts/NotoSansInscriptionalParthian/unhinted/ttf/NotoSansInscriptionalParthian-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Inscriptional Parthian v2.003\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-10-20T12:38:37",
+     "url": "https://github.com/notofonts/inscriptional-parthian/releases/tag/NotoSansInscriptionalParthian-v2.003",
+     "version": "v2.003"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/inscriptional-parthian",
-  "issues": [],
+  "issues": [
+   {
+    "number": 4,
+    "title": "Swashes overlap because of missing kerning pairs",
+    "url": "https://github.com/notofonts/inscriptional-parthian/issues/4"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/inscriptional-parthian",
   "title": "Noto Inscriptional Parthian"
  },
