@@ -11529,6 +11529,11 @@
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
    {
+    "number": 24,
+    "title": "Maybe some errors in your test case.",
+    "url": "https://github.com/notofonts/mongolian/issues/24"
+   },
+   {
     "number": 23,
     "title": "Shaping regression in Mongolian final forms",
     "url": "https://github.com/notofonts/mongolian/issues/23"
