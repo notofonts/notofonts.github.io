@@ -10005,23 +10005,24 @@
   "families": {
    "Noto Sans Sharada": {
     "files": [
-     "fonts/NotoSansSharada/full/ttf/NotoSansSharada-Regular.ttf",
-     "fonts/NotoSansSharada/full/otf/NotoSansSharada-Regular.otf",
-     "fonts/NotoSansSharada/googlefonts/ttf/NotoSansSharada-Regular.ttf",
-     "fonts/NotoSansSharada/unhinted/ttf/NotoSansSharada-Regular.ttf",
+     "fonts/NotoSansSharada/hinted/ttf/NotoSansSharada-Regular.ttf",
      "fonts/NotoSansSharada/unhinted/otf/NotoSansSharada-Regular.otf",
-     "fonts/NotoSansSharada/hinted/ttf/NotoSansSharada-Regular.ttf"
+     "fonts/NotoSansSharada/unhinted/ttf/NotoSansSharada-Regular.ttf",
+     "fonts/NotoSansSharada/full/otf/NotoSansSharada-Regular.otf",
+     "fonts/NotoSansSharada/full/ttf/NotoSansSharada-Regular.ttf",
+     "fonts/NotoSansSharada/googlefonts/ttf/NotoSansSharada-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Sharada v2.005\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes a number of overlapping marks (#5)\n* adds more anchors on short vowel marks (#2)\n* adds more anchors for the jihvamuliya (#1)\n",
-     "published": "2022-09-12T13:42:35",
-     "url": "https://github.com/notofonts/sharada/releases/tag/NotoSansSharada-v2.005",
-     "version": "v2.005"
+     "notes": "Noto Sans Sharada v2.006\n\nThis release fixes an issue where certain marks (in particular the e vowel) did not attach correctly to the base consonant.\n",
+     "published": "2022-10-23T07:04:31",
+     "url": "https://github.com/notofonts/sharada/releases/tag/NotoSansSharada-v2.006",
+     "version": "v2.006"
     }
    }
   },
   "known_releases": [
-   "NotoSansSharada-v2.005"
+   "NotoSansSharada-v2.005",
+   "NotoSansSharada-v2.006"
   ]
  },
  "shavian": {
@@ -11078,23 +11079,24 @@
   "families": {
    "Noto Sans Tai Viet": {
     "files": [
-     "fonts/NotoSansTaiViet/full/ttf/NotoSansTaiViet-Regular.ttf",
-     "fonts/NotoSansTaiViet/full/otf/NotoSansTaiViet-Regular.otf",
-     "fonts/NotoSansTaiViet/googlefonts/ttf/NotoSansTaiViet-Regular.ttf",
-     "fonts/NotoSansTaiViet/unhinted/ttf/NotoSansTaiViet-Regular.ttf",
+     "fonts/NotoSansTaiViet/hinted/ttf/NotoSansTaiViet-Regular.ttf",
      "fonts/NotoSansTaiViet/unhinted/otf/NotoSansTaiViet-Regular.otf",
-     "fonts/NotoSansTaiViet/hinted/ttf/NotoSansTaiViet-Regular.ttf"
+     "fonts/NotoSansTaiViet/unhinted/ttf/NotoSansTaiViet-Regular.ttf",
+     "fonts/NotoSansTaiViet/full/otf/NotoSansTaiViet-Regular.otf",
+     "fonts/NotoSansTaiViet/full/ttf/NotoSansTaiViet-Regular.ttf",
+     "fonts/NotoSansTaiViet/googlefonts/ttf/NotoSansTaiViet-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Tai Viet v2.002\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes the anchors for certain mark glyphs (#1)\n",
-     "published": "2022-09-14T16:13:52",
-     "url": "https://github.com/notofonts/tai-viet/releases/tag/NotoSansTaiViet-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Sans Tai Viet v2.003 This release fixes a number of issues related to mark positioning.\n",
+     "published": "2022-10-23T12:42:12",
+     "url": "https://github.com/notofonts/tai-viet/releases/tag/NotoSansTaiViet-v2.003",
+     "version": "v2.003"
     }
    }
   },
   "known_releases": [
-   "NotoSansTaiViet-v2.002"
+   "NotoSansTaiViet-v2.002",
+   "NotoSansTaiViet-v2.003"
   ]
  },
  "takri": {
