@@ -39,7 +39,7 @@
   "egyptian-hieroglyphs": 5,
   "elbasan": 2,
   "elymaic": 2,
-  "ethiopic": 6,
+  "ethiopic": 7,
   "georgian": 2,
   "glagolitic": 3,
   "gothic": 1,
@@ -51,6 +51,7 @@
   "hanunoo": 1,
   "hebrew": 10,
   "inscriptional-pahlavi": 2,
+  "inscriptional-parthian": 1,
   "javanese": 5,
   "kaithi": 6,
   "kannada": 13,
@@ -77,7 +78,7 @@
   "meroitic": 2,
   "miao": 1,
   "modi": 5,
-  "mongolian": 3,
+  "mongolian": 4,
   "multani": 2,
   "music": 8,
   "myanmar": 39,
@@ -140,7 +141,7 @@
   "7": 20,
   "8": 22,
   "9": 55,
-  "10": 17
+  "10": 20
  },
  "releases_per_month": {
   "6": [
@@ -941,6 +942,10 @@
     "url": "https://github.com/notofonts/elbasan/releases/tag/NotoSansElbasan-v2.004"
    },
    {
+    "tag": "NotoSansInscriptionalParthian-v2.003",
+    "url": "https://github.com/notofonts/inscriptional-parthian/releases/tag/NotoSansInscriptionalParthian-v2.003"
+   },
+   {
     "tag": "NotoSansLepcha-v2.005",
     "url": "https://github.com/notofonts/lepcha/releases/tag/NotoSansLepcha-v2.005"
    },
@@ -973,6 +978,10 @@
     "url": "https://github.com/notofonts/sharada/releases/tag/NotoSansSharada-v2.005"
    },
    {
+    "tag": "NotoSansSharada-v2.006",
+    "url": "https://github.com/notofonts/sharada/releases/tag/NotoSansSharada-v2.006"
+   },
+   {
     "tag": "NotoSansSiddham-v2.004",
     "url": "https://github.com/notofonts/siddham/releases/tag/NotoSansSiddham-v2.004"
    },
@@ -987,6 +996,10 @@
    {
     "tag": "NotoSansSylotiNagri-v2.003",
     "url": "https://github.com/notofonts/syloti-nagri/releases/tag/NotoSansSylotiNagri-v2.003"
+   },
+   {
+    "tag": "NotoSansTaiViet-v2.003",
+    "url": "https://github.com/notofonts/tai-viet/releases/tag/NotoSansTaiViet-v2.003"
    },
    {
     "tag": "NotoSerifTangut-v2.169",
