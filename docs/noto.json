@@ -17902,6 +17902,16 @@
   "gh_url": "https://notofonts.github.io/tifinagh",
   "issues": [
    {
+    "number": 18,
+    "title": "Switch ccmp feature to rlig",
+    "url": "https://github.com/notofonts/tifinagh/pull/18"
+   },
+   {
+    "number": 17,
+    "title": "LTR ligatures work with U+2D7F but not with U+200D; RTL ligatures don't work",
+    "url": "https://github.com/notofonts/tifinagh/issues/17"
+   },
+   {
     "number": 16,
     "title": "U+0309 COMBINING HOOK ABOVE has no anchor point",
     "url": "https://github.com/notofonts/tifinagh/issues/16"
