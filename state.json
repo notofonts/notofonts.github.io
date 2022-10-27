@@ -963,46 +963,47 @@
   "families": {
    "Noto Sans Bamum": {
     "files": [
-     "fonts/NotoSansBamum/full/slim-variable-ttf/NotoSansBamum[wght].ttf",
-     "fonts/NotoSansBamum/full/ttf/NotoSansBamum-Bold.ttf",
-     "fonts/NotoSansBamum/full/ttf/NotoSansBamum-SemiBold.ttf",
-     "fonts/NotoSansBamum/full/ttf/NotoSansBamum-Regular.ttf",
-     "fonts/NotoSansBamum/full/ttf/NotoSansBamum-Medium.ttf",
-     "fonts/NotoSansBamum/full/variable-ttf/NotoSansBamum[wght].ttf",
-     "fonts/NotoSansBamum/full/otf/NotoSansBamum-SemiBold.otf",
-     "fonts/NotoSansBamum/full/otf/NotoSansBamum-Bold.otf",
-     "fonts/NotoSansBamum/full/otf/NotoSansBamum-Medium.otf",
-     "fonts/NotoSansBamum/full/otf/NotoSansBamum-Regular.otf",
-     "fonts/NotoSansBamum/googlefonts/ttf/NotoSansBamum-Bold.ttf",
-     "fonts/NotoSansBamum/googlefonts/ttf/NotoSansBamum-SemiBold.ttf",
-     "fonts/NotoSansBamum/googlefonts/ttf/NotoSansBamum-Regular.ttf",
-     "fonts/NotoSansBamum/googlefonts/ttf/NotoSansBamum-Medium.ttf",
-     "fonts/NotoSansBamum/googlefonts/variable-ttf/NotoSansBamum[wght].ttf",
-     "fonts/NotoSansBamum/unhinted/slim-variable-ttf/NotoSansBamum[wght].ttf",
-     "fonts/NotoSansBamum/unhinted/ttf/NotoSansBamum-Bold.ttf",
-     "fonts/NotoSansBamum/unhinted/ttf/NotoSansBamum-SemiBold.ttf",
-     "fonts/NotoSansBamum/unhinted/ttf/NotoSansBamum-Regular.ttf",
-     "fonts/NotoSansBamum/unhinted/ttf/NotoSansBamum-Medium.ttf",
-     "fonts/NotoSansBamum/unhinted/variable-ttf/NotoSansBamum[wght].ttf",
+     "fonts/NotoSansBamum/hinted/ttf/NotoSansBamum-SemiBold.ttf",
+     "fonts/NotoSansBamum/hinted/ttf/NotoSansBamum-Medium.ttf",
+     "fonts/NotoSansBamum/hinted/ttf/NotoSansBamum-Bold.ttf",
+     "fonts/NotoSansBamum/hinted/ttf/NotoSansBamum-Regular.ttf",
      "fonts/NotoSansBamum/unhinted/otf/NotoSansBamum-SemiBold.otf",
      "fonts/NotoSansBamum/unhinted/otf/NotoSansBamum-Bold.otf",
      "fonts/NotoSansBamum/unhinted/otf/NotoSansBamum-Medium.otf",
      "fonts/NotoSansBamum/unhinted/otf/NotoSansBamum-Regular.otf",
-     "fonts/NotoSansBamum/hinted/ttf/NotoSansBamum-Bold.ttf",
-     "fonts/NotoSansBamum/hinted/ttf/NotoSansBamum-SemiBold.ttf",
-     "fonts/NotoSansBamum/hinted/ttf/NotoSansBamum-Regular.ttf",
-     "fonts/NotoSansBamum/hinted/ttf/NotoSansBamum-Medium.ttf"
+     "fonts/NotoSansBamum/unhinted/variable-ttf/NotoSansBamum[wght].ttf",
+     "fonts/NotoSansBamum/unhinted/ttf/NotoSansBamum-SemiBold.ttf",
+     "fonts/NotoSansBamum/unhinted/ttf/NotoSansBamum-Medium.ttf",
+     "fonts/NotoSansBamum/unhinted/ttf/NotoSansBamum-Bold.ttf",
+     "fonts/NotoSansBamum/unhinted/ttf/NotoSansBamum-Regular.ttf",
+     "fonts/NotoSansBamum/unhinted/slim-variable-ttf/NotoSansBamum[wght].ttf",
+     "fonts/NotoSansBamum/full/otf/NotoSansBamum-SemiBold.otf",
+     "fonts/NotoSansBamum/full/otf/NotoSansBamum-Bold.otf",
+     "fonts/NotoSansBamum/full/otf/NotoSansBamum-Medium.otf",
+     "fonts/NotoSansBamum/full/otf/NotoSansBamum-Regular.otf",
+     "fonts/NotoSansBamum/full/variable-ttf/NotoSansBamum[wght].ttf",
+     "fonts/NotoSansBamum/full/ttf/NotoSansBamum-SemiBold.ttf",
+     "fonts/NotoSansBamum/full/ttf/NotoSansBamum-Medium.ttf",
+     "fonts/NotoSansBamum/full/ttf/NotoSansBamum-Bold.ttf",
+     "fonts/NotoSansBamum/full/ttf/NotoSansBamum-Regular.ttf",
+     "fonts/NotoSansBamum/full/slim-variable-ttf/NotoSansBamum[wght].ttf",
+     "fonts/NotoSansBamum/googlefonts/variable-ttf/NotoSansBamum[wght].ttf",
+     "fonts/NotoSansBamum/googlefonts/ttf/NotoSansBamum-SemiBold.ttf",
+     "fonts/NotoSansBamum/googlefonts/ttf/NotoSansBamum-Medium.ttf",
+     "fonts/NotoSansBamum/googlefonts/ttf/NotoSansBamum-Bold.ttf",
+     "fonts/NotoSansBamum/googlefonts/ttf/NotoSansBamum-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Bamum v2.001\n\nThis is an administrative release which fixes various fontbakery fails.\n",
-     "published": "2022-08-23T14:18:39",
-     "url": "https://github.com/notofonts/bamum/releases/tag/NotoSansBamum-v2.001",
-     "version": "v2.001"
+     "notes": "Noto Sans Bamum v2.002 This release fixes variable font interpolation bugs with letters REE and PI.\n",
+     "published": "2022-10-26T11:27:10",
+     "url": "https://github.com/notofonts/bamum/releases/tag/NotoSansBamum-v2.002",
+     "version": "v2.002"
     }
    }
   },
   "known_releases": [
-   "NotoSansBamum-v2.001"
+   "NotoSansBamum-v2.001",
+   "NotoSansBamum-v2.002"
   ]
  },
  "bassa-vah": {
