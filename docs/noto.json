@@ -327,10 +327,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Naskh Arabic v2.014 This release pairs the full build of this font with Noto Serif.\n",
-     "published": "2022-07-29T12:05:59",
-     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.014",
-     "version": "v2.014"
+     "notes": "Noto Naskh Arabic v2.015 This release improves anchor placement on initial veh and lam-alif ligature.\n",
+     "published": "2022-10-27T09:53:49",
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.015",
+     "version": "v2.015"
     }
    },
    "Noto Naskh Arabic UI": {
@@ -11518,6 +11518,11 @@
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
    {
+    "number": 25,
+    "title": "Shaping errors in Todo writing system",
+    "url": "https://github.com/notofonts/mongolian/issues/25"
+   },
+   {
     "number": 24,
     "title": "Maybe some errors in your test case.",
     "url": "https://github.com/notofonts/mongolian/issues/24"
@@ -16171,6 +16176,11 @@
   "gh_url": "https://notofonts.github.io/tangsa",
   "issues": [
    {
+    "number": 5,
+    "title": "Corrected uiq uexlong mq mx nya ma",
+    "url": "https://github.com/notofonts/tangsa/pull/5"
+   },
+   {
     "number": 4,
     "title": "Version 1.504 lost some kerning pairs",
     "url": "https://github.com/notofonts/tangsa/issues/4"
@@ -17901,11 +17911,6 @@
   },
   "gh_url": "https://notofonts.github.io/tifinagh",
   "issues": [
-   {
-    "number": 18,
-    "title": "Switch ccmp feature to rlig",
-    "url": "https://github.com/notofonts/tifinagh/pull/18"
-   },
    {
     "number": 17,
     "title": "LTR ligatures work with U+2D7F but not with U+200D; RTL ligatures don't work",

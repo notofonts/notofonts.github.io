@@ -114,40 +114,40 @@
   "families": {
    "Noto Naskh Arabic": {
     "files": [
-     "fonts/NotoNaskhArabic/googlefonts/ttf/NotoNaskhArabic-Regular.ttf",
-     "fonts/NotoNaskhArabic/googlefonts/ttf/NotoNaskhArabic-Medium.ttf",
-     "fonts/NotoNaskhArabic/googlefonts/ttf/NotoNaskhArabic-Bold.ttf",
-     "fonts/NotoNaskhArabic/googlefonts/variable-ttf/NotoNaskhArabic[wght].ttf",
-     "fonts/NotoNaskhArabic/full/otf/NotoNaskhArabic-Regular.otf",
-     "fonts/NotoNaskhArabic/full/otf/NotoNaskhArabic-SemiBold.otf",
-     "fonts/NotoNaskhArabic/full/otf/NotoNaskhArabic-Bold.otf",
-     "fonts/NotoNaskhArabic/full/otf/NotoNaskhArabic-Medium.otf",
-     "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-Regular.ttf",
-     "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-Medium.ttf",
-     "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-SemiBold.ttf",
-     "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-Bold.ttf",
-     "fonts/NotoNaskhArabic/full/slim-variable-ttf/NotoNaskhArabic[wght].ttf",
-     "fonts/NotoNaskhArabic/full/variable-ttf/NotoNaskhArabic[wght].ttf",
-     "fonts/NotoNaskhArabic/hinted/ttf/NotoNaskhArabic-Regular.ttf",
-     "fonts/NotoNaskhArabic/hinted/ttf/NotoNaskhArabic-Medium.ttf",
      "fonts/NotoNaskhArabic/hinted/ttf/NotoNaskhArabic-SemiBold.ttf",
      "fonts/NotoNaskhArabic/hinted/ttf/NotoNaskhArabic-Bold.ttf",
+     "fonts/NotoNaskhArabic/hinted/ttf/NotoNaskhArabic-Medium.ttf",
+     "fonts/NotoNaskhArabic/hinted/ttf/NotoNaskhArabic-Regular.ttf",
      "fonts/NotoNaskhArabic/unhinted/otf/NotoNaskhArabic-Regular.otf",
      "fonts/NotoNaskhArabic/unhinted/otf/NotoNaskhArabic-SemiBold.otf",
      "fonts/NotoNaskhArabic/unhinted/otf/NotoNaskhArabic-Bold.otf",
      "fonts/NotoNaskhArabic/unhinted/otf/NotoNaskhArabic-Medium.otf",
-     "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-Regular.ttf",
-     "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-Medium.ttf",
+     "fonts/NotoNaskhArabic/unhinted/variable-ttf/NotoNaskhArabic[wght].ttf",
      "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-SemiBold.ttf",
      "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-Bold.ttf",
+     "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-Medium.ttf",
+     "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-Regular.ttf",
      "fonts/NotoNaskhArabic/unhinted/slim-variable-ttf/NotoNaskhArabic[wght].ttf",
-     "fonts/NotoNaskhArabic/unhinted/variable-ttf/NotoNaskhArabic[wght].ttf"
+     "fonts/NotoNaskhArabic/full/otf/NotoNaskhArabic-Regular.otf",
+     "fonts/NotoNaskhArabic/full/otf/NotoNaskhArabic-SemiBold.otf",
+     "fonts/NotoNaskhArabic/full/otf/NotoNaskhArabic-Bold.otf",
+     "fonts/NotoNaskhArabic/full/otf/NotoNaskhArabic-Medium.otf",
+     "fonts/NotoNaskhArabic/full/variable-ttf/NotoNaskhArabic[wght].ttf",
+     "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-SemiBold.ttf",
+     "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-Bold.ttf",
+     "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-Medium.ttf",
+     "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-Regular.ttf",
+     "fonts/NotoNaskhArabic/full/slim-variable-ttf/NotoNaskhArabic[wght].ttf",
+     "fonts/NotoNaskhArabic/googlefonts/variable-ttf/NotoNaskhArabic[wght].ttf",
+     "fonts/NotoNaskhArabic/googlefonts/ttf/NotoNaskhArabic-Bold.ttf",
+     "fonts/NotoNaskhArabic/googlefonts/ttf/NotoNaskhArabic-Medium.ttf",
+     "fonts/NotoNaskhArabic/googlefonts/ttf/NotoNaskhArabic-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Naskh Arabic v2.014 This release pairs the full build of this font with Noto Serif.\n",
-     "published": "2022-07-29T12:05:59",
-     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.014",
-     "version": "v2.014"
+     "notes": "Noto Naskh Arabic v2.015 This release improves anchor placement on initial veh and lam-alif ligature.\n",
+     "published": "2022-10-27T09:53:49",
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.015",
+     "version": "v2.015"
     }
    },
    "Noto Naskh Arabic UI": {
@@ -397,7 +397,8 @@
    "NotoNaskhArabic-v2.013",
    "NotoSansArabic-v2.010",
    "NotoNaskhArabic-v2.014",
-   "NotoNaskhArabicUI-v2.014"
+   "NotoNaskhArabicUI-v2.014",
+   "NotoNaskhArabic-v2.015"
   ]
  },
  "armenian": {
