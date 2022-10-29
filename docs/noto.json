@@ -8910,6 +8910,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 389,
+    "title": "Fix slash length and angle for two glyphs in NotoSans{Italic,Mono}",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/389"
+   },
+   {
     "number": 387,
     "title": "Add Alternate Glyph Forms for Lowercase L, T, G and A",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/387"
