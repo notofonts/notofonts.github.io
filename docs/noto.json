@@ -7672,6 +7672,11 @@
   "gh_url": "https://notofonts.github.io/khudawadi",
   "issues": [
    {
+    "number": 4,
+    "title": "Could you dub anchoring of virama etc with default anchoring?",
+    "url": "https://github.com/notofonts/khudawadi/issues/4"
+   },
+   {
     "number": 3,
     "title": "U+112E9 KHUDAWADI SIGN NUKTA blocks contextual U+112E7 KHUDAWADI VOWEL SIGN O",
     "url": "https://github.com/notofonts/khudawadi/issues/3"
