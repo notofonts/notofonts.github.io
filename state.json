@@ -6261,36 +6261,37 @@
    },
    "Noto Serif Khojki": {
     "files": [
-     "fonts/NotoSerifKhojki/full/slim-variable-ttf/NotoSerifKhojki[wght].ttf",
-     "fonts/NotoSerifKhojki/full/ttf/NotoSerifKhojki-Regular.ttf",
-     "fonts/NotoSerifKhojki/full/ttf/NotoSerifKhojki-Bold.ttf",
-     "fonts/NotoSerifKhojki/full/variable-ttf/NotoSerifKhojki[wght].ttf",
-     "fonts/NotoSerifKhojki/full/otf/NotoSerifKhojki-Bold.otf",
-     "fonts/NotoSerifKhojki/full/otf/NotoSerifKhojki-Regular.otf",
-     "fonts/NotoSerifKhojki/googlefonts/ttf/NotoSerifKhojki-Regular.ttf",
-     "fonts/NotoSerifKhojki/googlefonts/ttf/NotoSerifKhojki-Bold.ttf",
-     "fonts/NotoSerifKhojki/googlefonts/variable-ttf/NotoSerifKhojki[wght].ttf",
-     "fonts/NotoSerifKhojki/unhinted/slim-variable-ttf/NotoSerifKhojki[wght].ttf",
-     "fonts/NotoSerifKhojki/unhinted/ttf/NotoSerifKhojki-Regular.ttf",
-     "fonts/NotoSerifKhojki/unhinted/ttf/NotoSerifKhojki-Bold.ttf",
-     "fonts/NotoSerifKhojki/unhinted/variable-ttf/NotoSerifKhojki[wght].ttf",
-     "fonts/NotoSerifKhojki/unhinted/otf/NotoSerifKhojki-Bold.otf",
-     "fonts/NotoSerifKhojki/unhinted/otf/NotoSerifKhojki-Regular.otf",
+     "fonts/NotoSerifKhojki/hinted/ttf/NotoSerifKhojki-Bold.ttf",
      "fonts/NotoSerifKhojki/hinted/ttf/NotoSerifKhojki-Regular.ttf",
-     "fonts/NotoSerifKhojki/hinted/ttf/NotoSerifKhojki-Bold.ttf"
+     "fonts/NotoSerifKhojki/unhinted/otf/NotoSerifKhojki-Regular.otf",
+     "fonts/NotoSerifKhojki/unhinted/otf/NotoSerifKhojki-Bold.otf",
+     "fonts/NotoSerifKhojki/unhinted/variable-ttf/NotoSerifKhojki[wght].ttf",
+     "fonts/NotoSerifKhojki/unhinted/ttf/NotoSerifKhojki-Bold.ttf",
+     "fonts/NotoSerifKhojki/unhinted/ttf/NotoSerifKhojki-Regular.ttf",
+     "fonts/NotoSerifKhojki/unhinted/slim-variable-ttf/NotoSerifKhojki[wght].ttf",
+     "fonts/NotoSerifKhojki/full/otf/NotoSerifKhojki-Regular.otf",
+     "fonts/NotoSerifKhojki/full/otf/NotoSerifKhojki-Bold.otf",
+     "fonts/NotoSerifKhojki/full/variable-ttf/NotoSerifKhojki[wght].ttf",
+     "fonts/NotoSerifKhojki/full/ttf/NotoSerifKhojki-Bold.ttf",
+     "fonts/NotoSerifKhojki/full/ttf/NotoSerifKhojki-Regular.ttf",
+     "fonts/NotoSerifKhojki/full/slim-variable-ttf/NotoSerifKhojki[wght].ttf",
+     "fonts/NotoSerifKhojki/googlefonts/variable-ttf/NotoSerifKhojki[wght].ttf",
+     "fonts/NotoSerifKhojki/googlefonts/ttf/NotoSerifKhojki-Bold.ttf",
+     "fonts/NotoSerifKhojki/googlefonts/ttf/NotoSerifKhojki-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Serif Khojki v2.002\n\nThis release:\n* fixes a number of fontbakery fails\n* removes the unnecessary (and wrong) PUNCTUATION SPACE glyph (#3)\n* removes the erroneous GUJARATI VOWEL SIGN VOCALIC R and encodes the (proposed) U+11241 KHOJKI VOWEL SIGN VOCALIC R (#4)\n* fixes overlapping above vowel marks (#5)\n",
-     "published": "2022-08-30T10:33:43",
-     "url": "https://github.com/notofonts/khojki/releases/tag/NotoSerifKhojki-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Serif Khojki v2.003 This release fixes an interpolation issue with the ra_iMatra-khoj glyph.\n",
+     "published": "2022-11-02T12:27:20",
+     "url": "https://github.com/notofonts/khojki/releases/tag/NotoSerifKhojki-v2.003",
+     "version": "v2.003"
     }
    }
   },
   "known_releases": [
    "NotoSerifKhojki-v2.002",
    "NotoSansKhojki-v2.002",
-   "NotoSansKhojki-v2.003"
+   "NotoSansKhojki-v2.003",
+   "NotoSerifKhojki-v2.003"
   ]
  },
  "khudawadi": {

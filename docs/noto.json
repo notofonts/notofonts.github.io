@@ -3948,11 +3948,6 @@
   "gh_url": "https://notofonts.github.io/ethiopic",
   "issues": [
    {
-    "number": 11,
-    "title": "Adding UFO sources with Gurage Additions",
-    "url": "https://github.com/notofonts/ethiopic/pull/11"
-   },
-   {
     "number": 6,
     "title": "Funked up Ethiopic Ex B?",
     "url": "https://github.com/notofonts/ethiopic/issues/6"
@@ -7607,10 +7602,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Khojki v2.002\n\nThis release:\n* fixes a number of fontbakery fails\n* removes the unnecessary (and wrong) PUNCTUATION SPACE glyph (#3)\n* removes the erroneous GUJARATI VOWEL SIGN VOCALIC R and encodes the (proposed) U+11241 KHOJKI VOWEL SIGN VOCALIC R (#4)\n* fixes overlapping above vowel marks (#5)\n",
-     "published": "2022-08-30T10:33:43",
-     "url": "https://github.com/notofonts/khojki/releases/tag/NotoSerifKhojki-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Serif Khojki v2.003 This release fixes an interpolation issue with the ra_iMatra-khoj glyph.\n",
+     "published": "2022-11-02T12:27:20",
+     "url": "https://github.com/notofonts/khojki/releases/tag/NotoSerifKhojki-v2.003",
+     "version": "v2.003"
     }
    }
   },
@@ -17647,11 +17642,6 @@
   },
   "gh_url": "https://notofonts.github.io/thai",
   "issues": [
-   {
-    "number": 22,
-    "title": "Rename Looped Thai to Sans Thai Looped",
-    "url": "https://github.com/notofonts/thai/issues/22"
-   },
    {
     "number": 11,
     "title": "Italic and/or oblique font style",
