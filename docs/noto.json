@@ -3948,6 +3948,11 @@
   "gh_url": "https://notofonts.github.io/ethiopic",
   "issues": [
    {
+    "number": 12,
+    "title": "Update glyphs files with Gurage",
+    "url": "https://github.com/notofonts/ethiopic/pull/12"
+   },
+   {
     "number": 6,
     "title": "Funked up Ethiopic Ex B?",
     "url": "https://github.com/notofonts/ethiopic/issues/6"
@@ -6972,11 +6977,6 @@
   "gh_url": "https://notofonts.github.io/kannada",
   "issues": [
    {
-    "number": 49,
-    "title": "Android UI VF Issues",
-    "url": "https://github.com/notofonts/kannada/issues/49"
-   },
-   {
     "number": 14,
     "title": "The glyphs of some vowel sign combinations of \u0c9f need to be revisited in Serif",
     "url": "https://github.com/notofonts/kannada/issues/14"
@@ -7611,6 +7611,11 @@
   },
   "gh_url": "https://notofonts.github.io/khojki",
   "issues": [
+   {
+    "number": 11,
+    "title": "Need additional anchor on dotted circle",
+    "url": "https://github.com/notofonts/khojki/issues/11"
+   },
    {
     "number": 10,
     "title": "U+1123F KHOJKI LETTER QA was disunified from U+11208 KHOJKI LETTER KA",
@@ -10883,11 +10888,6 @@
   },
   "gh_url": "https://notofonts.github.io/malayalam",
   "issues": [
-   {
-    "number": 18,
-    "title": "Android UI VF Issues",
-    "url": "https://github.com/notofonts/malayalam/issues/18"
-   },
    {
     "number": 6,
     "title": "Sans Malayalam: Wrong glyph shape for: G-MA cluster",
@@ -16092,11 +16092,6 @@
   "gh_url": "https://notofonts.github.io/tamil",
   "issues": [
    {
-    "number": 14,
-    "title": "Android UI VF Issues",
-    "url": "https://github.com/notofonts/tamil/issues/14"
-   },
-   {
     "number": 13,
     "title": "Noto Sans Tamil UI baseline alignment issue in the Android 13 environment",
     "url": "https://github.com/notofonts/tamil/issues/13"
@@ -16682,11 +16677,6 @@
     "number": 10,
     "title": "Vedic accents are not properly placed on a consonant with subscripts",
     "url": "https://github.com/notofonts/telugu/issues/10"
-   },
-   {
-    "number": 9,
-    "title": "Android UI VF issues",
-    "url": "https://github.com/notofonts/telugu/issues/9"
    },
    {
     "number": 3,
