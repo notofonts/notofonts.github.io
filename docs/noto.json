@@ -3738,10 +3738,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Ethiopic v2.101\n\nThis is purely an administrative release.\n",
-     "published": "2022-07-01T12:25:47",
-     "url": "https://github.com/notofonts/ethiopic/releases/tag/NotoSansEthiopic-v2.101",
-     "version": "v2.101"
+     "notes": "Noto Sans Ethiopic v2.102\n\n- Added Unicode 14.0 Gurage characters: U+1E7E0, U+1E7E1, U+1E7E2,\n  U+1E7E3, U+1E7E4, U+1E7E5, U+1E7E6, U+1E7E8, U+1E7E9, U+1E7EA,\n  U+1E7EB, U+1E7ED, U+1E7EE, U+1E7F2, U+1E7F3, U+1E7F4, U+1E7F5,\n  U+1E7F6, U+1E7F7, U+1E7F8, U+1E7F9, U+1E7FA, U+1E7FB, U+1E7FC,\n  U+1E7FD, U+1E7FE.\n",
+     "published": "2022-11-04T15:46:53",
+     "url": "https://github.com/notofonts/ethiopic/releases/tag/NotoSansEthiopic-v2.102",
+     "version": "v2.102"
     }
    },
    "Noto Serif Ethiopic": {
@@ -3938,20 +3938,15 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Ethiopic v2.101\n\nThis is purely an administrative release.\n",
-     "published": "2022-07-01T12:29:51",
-     "url": "https://github.com/notofonts/ethiopic/releases/tag/NotoSerifEthiopic-v2.101",
-     "version": "v2.101"
+     "notes": "Noto Serif Ethiopic v2.102\n\n- Added Unicode 14.0 Gurage characters: U+1E7E0, U+1E7E1, U+1E7E2,\n  U+1E7E3, U+1E7E4, U+1E7E5, U+1E7E6, U+1E7E8, U+1E7E9, U+1E7EA,\n  U+1E7EB, U+1E7ED, U+1E7EE, U+1E7F2, U+1E7F3, U+1E7F4, U+1E7F5,\n  U+1E7F6, U+1E7F7, U+1E7F8, U+1E7F9, U+1E7FA, U+1E7FB, U+1E7FC,\n  U+1E7FD, U+1E7FE.\n",
+     "published": "2022-11-04T15:51:01",
+     "url": "https://github.com/notofonts/ethiopic/releases/tag/NotoSerifEthiopic-v2.102",
+     "version": "v2.102"
     }
    }
   },
   "gh_url": "https://notofonts.github.io/ethiopic",
   "issues": [
-   {
-    "number": 12,
-    "title": "Update glyphs files with Gurage",
-    "url": "https://github.com/notofonts/ethiopic/pull/12"
-   },
    {
     "number": 6,
     "title": "Funked up Ethiopic Ex B?",
