@@ -9,7 +9,8 @@
   "7": 10,
   "8": 32,
   "9": 57,
-  "10": 12
+  "10": 12,
+  "11": 7
  },
  "open_per_repo": {
   "Arimo": 14,
@@ -39,7 +40,7 @@
   "egyptian-hieroglyphs": 5,
   "elbasan": 2,
   "elymaic": 2,
-  "ethiopic": 7,
+  "ethiopic": 6,
   "georgian": 2,
   "glagolitic": 3,
   "gothic": 1,
@@ -54,10 +55,10 @@
   "inscriptional-parthian": 1,
   "javanese": 5,
   "kaithi": 6,
-  "kannada": 13,
+  "kannada": 12,
   "kharoshthi": 2,
   "khmer": 8,
-  "khojki": 5,
+  "khojki": 6,
   "khudawadi": 4,
   "lao": 2,
   "latin-greek-cyrillic": 240,
@@ -66,7 +67,7 @@
   "lisu": 1,
   "lydian": 2,
   "mahajani": 1,
-  "malayalam": 7,
+  "malayalam": 6,
   "mandaic": 3,
   "manichaean": 4,
   "marchen": 2,
@@ -117,11 +118,11 @@
   "tai-tham": 4,
   "tai-viet": 3,
   "takri": 3,
-  "tamil": 8,
+  "tamil": 7,
   "tangsa": 3,
-  "telugu": 5,
+  "telugu": 4,
   "thaana": 1,
-  "thai": 11,
+  "thai": 10,
   "tibetan": 12,
   "tifinagh": 8,
   "tirhuta": 10,
@@ -138,9 +139,10 @@
   "5": 19,
   "6": 21,
   "7": 20,
-  "8": 22,
+  "8": 21,
   "9": 55,
-  "10": 24
+  "10": 19,
+  "11": 1
  },
  "releases_per_month": {
   "6": [
@@ -811,10 +813,6 @@
     "url": "https://github.com/notofonts/siddham/releases/tag/NotoSansSiddham-v2.003"
    },
    {
-    "tag": "NotoSansSignWriting-v2.004",
-    "url": "https://github.com/notofonts/sign-writing/releases/tag/NotoSansSignWriting-v2.004"
-   },
-   {
     "tag": "NotoSansSoraSompeng-v2.101",
     "url": "https://github.com/notofonts/sora-sompeng/releases/tag/NotoSansSoraSompeng-v2.101"
    },
@@ -1001,6 +999,10 @@
     "url": "https://github.com/notofonts/siddham/releases/tag/NotoSansSiddham-v2.004"
    },
    {
+    "tag": "NotoSansSignWriting-v2.004",
+    "url": "https://github.com/notofonts/sign-writing/releases/tag/NotoSansSignWriting-v2.004"
+   },
+   {
     "tag": "NotoSansSogdian-v2.002",
     "url": "https://github.com/notofonts/sogdian/releases/tag/NotoSansSogdian-v2.002"
    },
@@ -1036,18 +1038,33 @@
     "tag": "NotoSansZanabazarSquare-v2.005",
     "url": "https://github.com/notofonts/zanabazar-square/releases/tag/NotoSansZanabazarSquare-v2.005"
    }
+  ],
+  "11": [
+   {
+    "tag": "NotoSansEthiopic-v2.102",
+    "url": "https://github.com/notofonts/ethiopic/releases/tag/NotoSansEthiopic-v2.102"
+   },
+   {
+    "tag": "NotoSerifEthiopic-v2.102",
+    "url": "https://github.com/notofonts/ethiopic/releases/tag/NotoSerifEthiopic-v2.102"
+   },
+   {
+    "tag": "NotoSerifKhojki-v2.003",
+    "url": "https://github.com/notofonts/khojki/releases/tag/NotoSerifKhojki-v2.003"
+   }
   ]
  },
  "totals_per_month": {
-  "1": 1941,
-  "2": 1920,
-  "3": 1886,
-  "4": 1902,
-  "5": 1882,
-  "6": 1900,
-  "7": 1826,
-  "8": 1836,
-  "9": 1826,
-  "10": 1824
+  "1": 1955,
+  "2": 1934,
+  "3": 1900,
+  "4": 1916,
+  "5": 1896,
+  "6": 1914,
+  "7": 1840,
+  "8": 1850,
+  "9": 1839,
+  "10": 1837,
+  "11": 1844
  }
 }
