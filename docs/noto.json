@@ -3948,11 +3948,6 @@
   "gh_url": "https://notofonts.github.io/ethiopic",
   "issues": [
    {
-    "number": 6,
-    "title": "Funked up Ethiopic Ex B?",
-    "url": "https://github.com/notofonts/ethiopic/issues/6"
-   },
-   {
     "number": 5,
     "title": "Some SerifEthiopic letters are too similar",
     "url": "https://github.com/notofonts/ethiopic/issues/5"
