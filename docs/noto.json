@@ -582,19 +582,9 @@
     "url": "https://github.com/notofonts/arabic/issues/181"
    },
    {
-    "number": 179,
-    "title": "Fixed dots in final and isol forms of U+06AD for Naskh and NaskhUI",
-    "url": "https://github.com/notofonts/arabic/pull/179"
-   },
-   {
     "number": 178,
     "title": "Missing Arabic Extended-B Block",
     "url": "https://github.com/notofonts/arabic/issues/178"
-   },
-   {
-    "number": 39,
-    "title": "Fix ARABIC LETTER HIGH HAMZA (U+0674)",
-    "url": "https://github.com/notofonts/arabic/pull/39"
    },
    {
     "number": 35,
@@ -610,11 +600,6 @@
     "number": 33,
     "title": "Incorrect orientation of dots in Noto Sans Arabic",
     "url": "https://github.com/notofonts/arabic/issues/33"
-   },
-   {
-    "number": 32,
-    "title": "Wrong Naskh glyphs for U+06AD ARABIC LETTER NG",
-    "url": "https://github.com/notofonts/arabic/issues/32"
    },
    {
     "number": 31,
