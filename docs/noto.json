@@ -327,10 +327,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Naskh Arabic v2.015 This release improves anchor placement on initial veh and lam-alif ligature.\n",
-     "published": "2022-10-27T09:53:49",
-     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.015",
-     "version": "v2.015"
+     "notes": "Noto Naskh Arabic v2.106\n\nThis release:\n* Fixes an issue with the positioning of the dots on the \"ng\" character (PR#179, thanks to Kazunari Tsuboi)\n* Fixes the positioning of U+0674 HIGH HAMZA (PR#39, thanks to Khaled Hosny)\n",
+     "published": "2022-11-10T15:19:18",
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.016",
+     "version": "v2.016"
     }
    },
    "Noto Naskh Arabic UI": {
