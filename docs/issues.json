@@ -10,7 +10,7 @@
   "8": 32,
   "9": 57,
   "10": 12,
-  "11": 7
+  "11": 11
  },
  "open_per_repo": {
   "Arimo": 14,
@@ -18,7 +18,7 @@
   "Tinos": 3,
   "adlam": 6,
   "ahom": 2,
-  "arabic": 39,
+  "arabic": 36,
   "armenian": 5,
   "avestan": 1,
   "balinese": 16,
@@ -40,7 +40,7 @@
   "egyptian-hieroglyphs": 5,
   "elbasan": 2,
   "elymaic": 2,
-  "ethiopic": 6,
+  "ethiopic": 5,
   "georgian": 2,
   "glagolitic": 3,
   "gothic": 1,
@@ -133,12 +133,12 @@
  },
  "opened_per_month": {
   "1": 2,
-  "2": 14,
+  "2": 13,
   "3": 27,
-  "4": 22,
+  "4": 21,
   "5": 19,
   "6": 21,
-  "7": 20,
+  "7": 18,
   "8": 21,
   "9": 55,
   "10": 19,
@@ -877,10 +877,6 @@
     "url": "https://github.com/notofonts/tifinagh/releases/tag/NotoSansTifinagh-v2.004"
    },
    {
-    "tag": "NotoSansTirhuta-v2.003",
-    "url": "https://github.com/notofonts/tirhuta/releases/tag/NotoSansTirhuta-v2.003"
-   },
-   {
     "tag": "NotoSerifToto-v2.001",
     "url": "https://github.com/notofonts/toto/releases/tag/NotoSerifToto-v2.001"
    },
@@ -1041,6 +1037,10 @@
   ],
   "11": [
    {
+    "tag": "NotoNaskhArabic-v2.016",
+    "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.016"
+   },
+   {
     "tag": "NotoSansEthiopic-v2.102",
     "url": "https://github.com/notofonts/ethiopic/releases/tag/NotoSansEthiopic-v2.102"
    },
@@ -1055,16 +1055,16 @@
   ]
  },
  "totals_per_month": {
-  "1": 1955,
-  "2": 1934,
-  "3": 1900,
-  "4": 1916,
-  "5": 1896,
-  "6": 1914,
-  "7": 1840,
-  "8": 1850,
-  "9": 1839,
-  "10": 1837,
-  "11": 1844
+  "1": 1963,
+  "2": 1942,
+  "3": 1907,
+  "4": 1923,
+  "5": 1902,
+  "6": 1920,
+  "7": 1846,
+  "8": 1854,
+  "9": 1843,
+  "10": 1841,
+  "11": 1848
  }
 }
