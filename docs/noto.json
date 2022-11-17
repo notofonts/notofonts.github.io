@@ -249,6 +249,11 @@
   "gh_url": "https://notofonts.github.io/ahom",
   "issues": [
    {
+    "number": 14,
+    "title": "I+U does not form ligature in certain contexts",
+    "url": "https://github.com/notofonts/ahom/issues/14"
+   },
+   {
     "number": 6,
     "title": "Missing additional Ahom characters",
     "url": "https://github.com/notofonts/ahom/issues/6"
