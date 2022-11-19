@@ -8895,6 +8895,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 390,
+    "title": "Absense of condensed instances",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/390"
+   },
+   {
     "number": 389,
     "title": "Fix slash length and angle for two glyphs in NotoSans{Italic,Mono}",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/389"
@@ -14803,11 +14808,6 @@
   "gh_url": "https://notofonts.github.io/symbols",
   "issues": [
    {
-    "number": 66,
-    "title": "Add Nine Pointed White Star to Symbols2",
-    "url": "https://github.com/notofonts/symbols/pull/66"
-   },
-   {
     "number": 65,
     "title": "\u201cFull\u201d version of Symbols2 \u2014 weight of Latin characters",
     "url": "https://github.com/notofonts/symbols/issues/65"
@@ -17612,6 +17612,11 @@
   },
   "gh_url": "https://notofonts.github.io/thai",
   "issues": [
+   {
+    "number": 23,
+    "title": "update by Cadson Demak",
+    "url": "https://github.com/notofonts/thai/pull/23"
+   },
    {
     "number": 11,
     "title": "Italic and/or oblique font style",
