@@ -11508,6 +11508,11 @@
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
    {
+    "number": 26,
+    "title": "Contextual Form Error for Manchu Final -ko/ho",
+    "url": "https://github.com/notofonts/mongolian/issues/26"
+   },
+   {
     "number": 25,
     "title": "Shaping errors in Todo writing system",
     "url": "https://github.com/notofonts/mongolian/issues/25"
