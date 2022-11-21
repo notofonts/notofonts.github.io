@@ -10,14 +10,14 @@
   "8": 32,
   "9": 57,
   "10": 12,
-  "11": 11
+  "11": 12
  },
  "open_per_repo": {
   "Arimo": 14,
   "Cousine": 3,
   "Tinos": 3,
   "adlam": 6,
-  "ahom": 2,
+  "ahom": 3,
   "arabic": 36,
   "armenian": 5,
   "avestan": 1,
@@ -61,7 +61,7 @@
   "khojki": 6,
   "khudawadi": 4,
   "lao": 2,
-  "latin-greek-cyrillic": 240,
+  "latin-greek-cyrillic": 241,
   "limbu": 2,
   "linear-a": 1,
   "lisu": 1,
@@ -78,7 +78,7 @@
   "meroitic": 2,
   "miao": 1,
   "modi": 5,
-  "mongolian": 5,
+  "mongolian": 6,
   "multani": 2,
   "music": 8,
   "myanmar": 39,
@@ -111,7 +111,7 @@
   "soyombo": 3,
   "sundanese": 4,
   "syloti-nagri": 7,
-  "symbols": 31,
+  "symbols": 30,
   "syriac": 13,
   "tagalog": 3,
   "tai-le": 1,
@@ -122,7 +122,7 @@
   "tangsa": 3,
   "telugu": 4,
   "thaana": 1,
-  "thai": 10,
+  "thai": 11,
   "tibetan": 12,
   "tifinagh": 8,
   "tirhuta": 10,
@@ -140,9 +140,9 @@
   "6": 21,
   "7": 18,
   "8": 21,
-  "9": 55,
+  "9": 54,
   "10": 19,
-  "11": 1
+  "11": 5
  },
  "releases_per_month": {
   "6": [
@@ -877,6 +877,10 @@
     "url": "https://github.com/notofonts/tifinagh/releases/tag/NotoSansTifinagh-v2.004"
    },
    {
+    "tag": "NotoSansTirhuta-v2.003",
+    "url": "https://github.com/notofonts/tirhuta/releases/tag/NotoSansTirhuta-v2.003"
+   },
+   {
     "tag": "NotoSerifToto-v2.001",
     "url": "https://github.com/notofonts/toto/releases/tag/NotoSerifToto-v2.001"
    },
@@ -1055,16 +1059,16 @@
   ]
  },
  "totals_per_month": {
-  "1": 1963,
-  "2": 1942,
-  "3": 1907,
-  "4": 1923,
-  "5": 1902,
-  "6": 1920,
-  "7": 1846,
-  "8": 1854,
-  "9": 1843,
-  "10": 1841,
-  "11": 1848
+  "1": 1965,
+  "2": 1944,
+  "3": 1909,
+  "4": 1925,
+  "5": 1904,
+  "6": 1922,
+  "7": 1848,
+  "8": 1856,
+  "9": 1845,
+  "10": 1842,
+  "11": 1849
  }
 }
