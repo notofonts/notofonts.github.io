@@ -14803,10 +14803,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Symbols2 v2.004 This release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-14T13:22:10",
-     "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols2-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Symbols 2 v2.005\n\nThis release renames the font from \"Noto Sans Symbols2\" to \"Noto Sans Symbols 2\"\n",
+     "published": "2022-11-23T16:23:34",
+     "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols2-v2.005",
+     "version": "v2.005"
     }
    }
   },
@@ -17882,10 +17882,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Tifinagh 2.004\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes a clash between the dot accent and macro (#4)\n* removes stylistically inappropriate yal/yan ligatures (#2)\n",
-     "published": "2022-09-14T11:41:57",
-     "url": "https://github.com/notofonts/tifinagh/releases/tag/NotoSansTifinagh-v2.004",
-     "version": "v2.004"
+     "notes": "NotoSansTifinagh v2.005 - Replace ccmp by rlig feature for ligatures with ZWJ to work with USE (https://github.com/notofonts/tifinagh/issues/17)\n",
+     "published": "2022-11-23T16:42:50",
+     "url": "https://github.com/notofonts/tifinagh/releases/tag/NotoSansTifinagh-v2.005",
+     "version": "v2.005"
     }
    }
   },
