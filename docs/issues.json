@@ -10,7 +10,7 @@
   "8": 32,
   "9": 57,
   "10": 12,
-  "11": 12
+  "11": 13
  },
  "open_per_repo": {
   "Arimo": 14,
@@ -18,7 +18,7 @@
   "Tinos": 3,
   "adlam": 6,
   "ahom": 3,
-  "arabic": 36,
+  "arabic": 37,
   "armenian": 5,
   "avestan": 1,
   "balinese": 16,
@@ -142,7 +142,7 @@
   "8": 21,
   "9": 54,
   "10": 19,
-  "11": 5
+  "11": 6
  },
  "releases_per_month": {
   "6": [
@@ -1055,20 +1055,28 @@
    {
     "tag": "NotoSerifKhojki-v2.003",
     "url": "https://github.com/notofonts/khojki/releases/tag/NotoSerifKhojki-v2.003"
+   },
+   {
+    "tag": "NotoSansSymbols2-v2.005",
+    "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols2-v2.005"
+   },
+   {
+    "tag": "NotoSansTifinagh-v2.005",
+    "url": "https://github.com/notofonts/tifinagh/releases/tag/NotoSansTifinagh-v2.005"
    }
   ]
  },
  "totals_per_month": {
-  "1": 1965,
-  "2": 1944,
-  "3": 1909,
-  "4": 1925,
-  "5": 1904,
-  "6": 1922,
-  "7": 1848,
-  "8": 1856,
-  "9": 1845,
-  "10": 1842,
-  "11": 1849
+  "1": 1967,
+  "2": 1946,
+  "3": 1911,
+  "4": 1927,
+  "5": 1906,
+  "6": 1924,
+  "7": 1850,
+  "8": 1858,
+  "9": 1847,
+  "10": 1844,
+  "11": 1851
  }
 }
