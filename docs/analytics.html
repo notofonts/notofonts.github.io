@@ -21,13 +21,40 @@
 			integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
 			crossorigin="anonymous"
 		></script>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <style>
+      	[data-toggle="collapse"] .material-icons:before {   
+  content: "\e5d6";
+}
+
+[data-toggle="collapse"].collapsed .material-icons:before {
+  content: "\e5d7";
+}
+.material-icons { display:inline-block; vertical-align:middle; text-decoration: none !important;}
+td .material-icons { display:inline-flex; vertical-align: top; font-size:1.1rem; }
+</style>
+
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 			<div class="container-fluid">
-				<div class="mx-auto order-0">
-					<a class="navbar-brand" href="#"> Noto Repository Statistics </a>
+				<div class="order-0 mr-auto">
+					<a class="navbar-brand" href="#"> Noto Dashboard </a>
 				</div>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item">
+			        <a class="nav-link" href="/">Dashboard</a>
+			      </li>
+						<li class="nav-item">
+			        <a class="nav-link" href="/overview">Overview</a>
+			      </li>
+						<li class="nav-item active">
+			        <a class="nav-link" href="/analytics.html">Analytics</a>
+			      </li>
+			    </ul>
+			    </div>
 			</div>
 		</nav>
 		<div class="container mt-2">
@@ -252,8 +279,16 @@
 						</tr>
 						<tr>
 							<td>Jun</td>
-							<td>
-								<ul>
+							<td id="month-Jun">
+								<button
+									class="btn btn-link collapsed"
+									data-toggle="collapse"
+									data-target="#month-Jun .releases"
+								>
+									<span class="material-icons"></span>
+									10 releases
+								</button>
+								<ul class="releases collapse">
 									<li><a href="https://github.com/notofonts/ahom/releases/tag/NotoSerifAhom-v2.005">NotoSerifAhom-v2.005</a></li>
 									<li><a href="https://github.com/notofonts/avestan/releases/tag/NotoSansAvestan-v2.002">NotoSansAvestan-v2.002</a></li>
 									<li><a href="https://github.com/notofonts/buhid/releases/tag/NotoSansBuhid-v2.001">NotoSansBuhid-v2.001</a></li>
@@ -270,8 +305,16 @@
 
 						<tr>
 							<td>Jul</td>
-							<td>
-								<ul>
+							<td id="month-Jul">
+								<button
+									class="btn btn-link collapsed"
+									data-toggle="collapse"
+									data-target="#month-Jul .releases"
+								>
+									<span class="material-icons"></span>
+									62 releases
+								</button>
+								<ul class="releases collapse">
 									<li><a href="https://github.com/notofonts/adlam/releases/tag/NotoSansAdlamUnjoined-v3.001">NotoSansAdlamUnjoined-v3.001</a></li>
 									<li><a href="https://github.com/notofonts/adlam/releases/tag/NotoSansAdlam-v3.001">NotoSansAdlam-v3.001</a></li>
 									<li><a href="https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.013">NotoNaskhArabic-v2.013</a></li>
@@ -340,8 +383,16 @@
 
 						<tr>
 							<td>Aug</td>
-							<td>
-								<ul>
+							<td id="month-Aug">
+								<button
+									class="btn btn-link collapsed"
+									data-toggle="collapse"
+									data-target="#month-Aug .releases"
+								>
+									<span class="material-icons"></span>
+									26 releases
+								</button>
+								<ul class="releases collapse">
 									<li><a href="https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabicUI-v2.014">NotoNaskhArabicUI-v2.014</a></li>
 									<li><a href="https://github.com/notofonts/bamum/releases/tag/NotoSansBamum-v2.001">NotoSansBamum-v2.001</a></li>
 									<li><a href="https://github.com/notofonts/bassa-vah/releases/tag/NotoSansBassaVah-v2.002">NotoSansBassaVah-v2.002</a></li>
@@ -374,8 +425,16 @@
 
 						<tr>
 							<td>Sep</td>
-							<td>
-								<ul>
+							<td id="month-Sep">
+								<button
+									class="btn btn-link collapsed"
+									data-toggle="collapse"
+									data-target="#month-Sep .releases"
+								>
+									<span class="material-icons"></span>
+									93 releases
+								</button>
+								<ul class="releases collapse">
 									<li><a href="https://github.com/notofonts/anatolian-hieroglyphs/releases/tag/NotoSansAnatolianHieroglyphs-v2.001">NotoSansAnatolianHieroglyphs-v2.001</a></li>
 									<li><a href="https://github.com/notofonts/brahmi/releases/tag/NotoSansBrahmi-v2.003">NotoSansBrahmi-v2.003</a></li>
 									<li><a href="https://github.com/notofonts/buginese/releases/tag/NotoSansBuginese-v2.002">NotoSansBuginese-v2.002</a></li>
@@ -475,8 +534,16 @@
 
 						<tr>
 							<td>Oct</td>
-							<td>
-								<ul>
+							<td id="month-Oct">
+								<button
+									class="btn btn-link collapsed"
+									data-toggle="collapse"
+									data-target="#month-Oct .releases"
+								>
+									<span class="material-icons"></span>
+									30 releases
+								</button>
+								<ul class="releases collapse">
 									<li><a href="https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.015">NotoNaskhArabic-v2.015</a></li>
 									<li><a href="https://github.com/notofonts/bamum/releases/tag/NotoSansBamum-v2.002">NotoSansBamum-v2.002</a></li>
 									<li><a href="https://github.com/notofonts/bhaiksuki/releases/tag/NotoSansBhaiksuki-v2.002">NotoSansBhaiksuki-v2.002</a></li>
@@ -513,8 +580,16 @@
 
 						<tr>
 							<td>Nov</td>
-							<td>
-								<ul>
+							<td id="month-Nov">
+								<button
+									class="btn btn-link collapsed"
+									data-toggle="collapse"
+									data-target="#month-Nov .releases"
+								>
+									<span class="material-icons"></span>
+									6 releases
+								</button>
+								<ul class="releases collapse">
 									<li><a href="https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.016">NotoNaskhArabic-v2.016</a></li>
 									<li><a href="https://github.com/notofonts/ethiopic/releases/tag/NotoSansEthiopic-v2.102">NotoSansEthiopic-v2.102</a></li>
 									<li><a href="https://github.com/notofonts/ethiopic/releases/tag/NotoSerifEthiopic-v2.102">NotoSerifEthiopic-v2.102</a></li>
