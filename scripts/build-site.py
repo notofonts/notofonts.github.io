@@ -7,6 +7,7 @@ import os
 import json
 from io import BytesIO
 from pybars import Compiler, strlist
+import humanize
 import re
 import subprocess
 
@@ -16,7 +17,27 @@ results = json.load(open("docs/noto.json"))
 
 def _basename(this, item):
     return strlist([os.path.basename(item)])
-helpers = {"basename": _basename}
+
+def _sizeof(this, item):
+    return strlist([humanize.naturalsize(os.path.getsize(item))])
+
+def _gt1(this, options, context):
+    if hasattr(context, '__call__'):
+        context = context(this)
+    if context > 1:
+        return options['fn'](this)
+    else:
+        return options['inverse'](this)
+
+def _ifslim(this, options, context):
+    if hasattr(context, '__call__'):
+        context = context(this)
+    if "slim-variable-ttf" in context:
+        return options['fn'](this)
+    else:
+        return options['inverse'](this)
+
+helpers = {"basename": _basename, "gt1": _gt1, "sizeof": _sizeof, "ifslim": _ifslim}
 
 compiler = Compiler()
 template = open("scripts/template.html", "r").read()
@@ -29,6 +50,7 @@ for result in results.values():
             result["has_releases"] = True
             break
     result["issue_count"] = len(result["issues"])
+    result["families_count"] = len(result["families"])
 
 for excluded in EXCLUDE_LIST:
     del results[excluded]

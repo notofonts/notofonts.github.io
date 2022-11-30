@@ -3,3 +3,4 @@ gftools
 pybars3
 pygithub
 matplotlib
+humanize
