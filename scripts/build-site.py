@@ -15,29 +15,44 @@ EXCLUDE_LIST = ["Arimo", "Cousine", "Tinos"]
 
 results = json.load(open("docs/noto.json"))
 
+
 def _basename(this, item):
     return strlist([os.path.basename(item)])
+
+
+def _denoto(this, item):
+    return strlist([item.replace("Noto ", "")])
+
 
 def _sizeof(this, item):
     return strlist([humanize.naturalsize(os.path.getsize(item))])
 
+
 def _gt1(this, options, context):
-    if hasattr(context, '__call__'):
+    if hasattr(context, "__call__"):
         context = context(this)
     if context > 1:
-        return options['fn'](this)
+        return options["fn"](this)
     else:
-        return options['inverse'](this)
+        return options["inverse"](this)
+
 
 def _ifslim(this, options, context):
-    if hasattr(context, '__call__'):
+    if hasattr(context, "__call__"):
         context = context(this)
     if "slim-variable-ttf" in context:
-        return options['fn'](this)
+        return options["fn"](this)
     else:
-        return options['inverse'](this)
+        return options["inverse"](this)
 
-helpers = {"basename": _basename, "gt1": _gt1, "sizeof": _sizeof, "ifslim": _ifslim}
+
+helpers = {
+    "basename": _basename,
+    "gt1": _gt1,
+    "sizeof": _sizeof,
+    "ifslim": _ifslim,
+    "denoto": _denoto,
+}
 
 compiler = Compiler()
 template = open("scripts/template.html", "r").read()
