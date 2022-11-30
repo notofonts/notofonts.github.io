@@ -1,6 +1,5 @@
 from github import Github, Repository
 import os
-import tqdm
 import json
 from datetime import datetime
 from collections import Counter
@@ -28,7 +27,7 @@ totals_per_month = {}
 issues_by_age = {}
 
 total = 0
-for repo_name in tqdm.tqdm(sources.keys()):
+for repo_name in sources.keys():
     if repo_name not in org_names:
         continue
     repo = g.get_repo("notofonts/" + repo_name)
