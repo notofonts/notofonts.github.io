@@ -582,6 +582,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 183,
+    "title": "characters missing in Arabic font",
+    "url": "https://github.com/notofonts/arabic/issues/183"
+   },
+   {
     "number": 182,
     "title": "Problems with glyphs \u0601 (U+0601), \u0600 (U+0600), and others\u06d4",
     "url": "https://github.com/notofonts/arabic/issues/182"
