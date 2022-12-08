@@ -12810,7 +12810,13 @@
  "old-hungarian-ui": {
   "families": {},
   "gh_url": "https://notofonts.github.io/old-hungarian-ui",
-  "issues": [],
+  "issues": [
+   {
+    "number": 1,
+    "title": "building error on opensuse Tumbleweed",
+    "url": "https://github.com/notofonts/old-hungarian-ui/issues/1"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/old-hungarian-ui",
   "title": "Noto Old Hungarian Ui"
  },
