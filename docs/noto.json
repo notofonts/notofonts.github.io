@@ -587,11 +587,6 @@
     "url": "https://github.com/notofonts/arabic/issues/183"
    },
    {
-    "number": 182,
-    "title": "Problems with glyphs \u0601 (U+0601), \u0600 (U+0600), and others\u06d4",
-    "url": "https://github.com/notofonts/arabic/issues/182"
-   },
-   {
     "number": 181,
     "title": "Noto Kufi Arabic",
     "url": "https://github.com/notofonts/arabic/issues/181"
@@ -673,28 +668,8 @@
    },
    {
     "number": 20,
-    "title": "Ligatures LAM WITH ALEF with HAMZA/MADDA misposition diacritics",
+    "title": "Naskh: Ligatures LAM WITH ALEF with HAMZA/MADDA misposition diacritics",
     "url": "https://github.com/notofonts/arabic/issues/20"
-   },
-   {
-    "number": 19,
-    "title": "List of all Arabic codepoints missing from NotoNastaliqUrdu 2.000",
-    "url": "https://github.com/notofonts/arabic/issues/19"
-   },
-   {
-    "number": 18,
-    "title": "List of all Arabic codepoints missing from NotoSansArabic and NotoSansArabicUI 2.002",
-    "url": "https://github.com/notofonts/arabic/issues/18"
-   },
-   {
-    "number": 17,
-    "title": "List of all Arabic codepoints missing from NotoNaskhArabic and NotoNaskhArabicUI Version 2.000",
-    "url": "https://github.com/notofonts/arabic/issues/17"
-   },
-   {
-    "number": 16,
-    "title": "List of all Arabic codepoints missing from NotoKufiArabic 2.101",
-    "url": "https://github.com/notofonts/arabic/issues/16"
    },
    {
     "number": 15,
@@ -705,11 +680,6 @@
     "number": 14,
     "title": "Questionable glyph for isolated U+08AC ARABIC LETTER ROHINGYA YEH",
     "url": "https://github.com/notofonts/arabic/issues/14"
-   },
-   {
-    "number": 13,
-    "title": "Bad 'dlig' ligature of Arabic cube root and fourth root",
-    "url": "https://github.com/notofonts/arabic/issues/13"
    },
    {
     "number": 12,
@@ -737,11 +707,6 @@
     "url": "https://github.com/notofonts/arabic/issues/8"
    },
    {
-    "number": 7,
-    "title": "ARABIC THOUSANDS SEPARATOR (U+066C) is in the wrong place for Persian",
-    "url": "https://github.com/notofonts/arabic/issues/7"
-   },
-   {
     "number": 6,
     "title": "Arabic subtending marks doesn\u2019t work under Arabic-Indic digits",
     "url": "https://github.com/notofonts/arabic/issues/6"
@@ -765,11 +730,6 @@
     "number": 2,
     "title": "Naskh Bold: Final Burushaski alefs need adjustments to their designs",
     "url": "https://github.com/notofonts/arabic/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Arabic fonts should respect CGJ",
-    "url": "https://github.com/notofonts/arabic/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/arabic",
@@ -1199,11 +1159,6 @@
     "number": 2,
     "title": "Misplaced diaeresis after Armenian digraphs",
     "url": "https://github.com/notofonts/armenian/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Add test cases for Armenian GPOS/GSUB?",
-    "url": "https://github.com/notofonts/armenian/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/armenian",
