@@ -11,7 +11,7 @@
   "9": 57,
   "10": 12,
   "11": 13,
-  "12": 11
+  "12": 13
  },
  "open_per_repo": {
   "Arimo": 14,
@@ -83,7 +83,7 @@
   "multani": 2,
   "music": 8,
   "myanmar": 39,
-  "nandinagari": 5,
+  "nandinagari": 3,
   "nastaliq": 17,
   "newa": 1,
   "nko": 2,
@@ -136,7 +136,7 @@
  "opened_per_month": {
   "1": 2,
   "2": 13,
-  "3": 27,
+  "3": 26,
   "4": 21,
   "5": 19,
   "6": 21,
@@ -1067,20 +1067,30 @@
     "tag": "NotoSansTifinagh-v2.005",
     "url": "https://github.com/notofonts/tifinagh/releases/tag/NotoSansTifinagh-v2.005"
    }
+  ],
+  "12": [
+   {
+    "tag": "NotoSansGunjalaGondi-v1.003",
+    "url": "https://github.com/notofonts/gunjala-gondi/releases/tag/NotoSansGunjalaGondi-v1.003"
+   },
+   {
+    "tag": "NotoSansNandinagari-v1.001",
+    "url": "https://github.com/notofonts/nandinagari/releases/tag/NotoSansNandinagari-v1.001"
+   }
   ]
  },
  "totals_per_month": {
-  "1": 1979,
-  "2": 1958,
-  "3": 1923,
-  "4": 1939,
-  "5": 1918,
-  "6": 1936,
-  "7": 1862,
-  "8": 1870,
-  "9": 1859,
-  "10": 1856,
-  "11": 1863,
-  "12": 1855
+  "1": 1982,
+  "2": 1961,
+  "3": 1926,
+  "4": 1941,
+  "5": 1920,
+  "6": 1938,
+  "7": 1864,
+  "8": 1872,
+  "9": 1861,
+  "10": 1858,
+  "11": 1865,
+  "12": 1857
  }
 }
