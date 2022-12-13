@@ -1920,7 +1920,29 @@
    "NotoSansCypriot-v2.001"
   ]
  },
- "cypro-minoan": {},
+ "cypro-minoan": {
+  "families": {
+   "Noto Sans Cypro Minoan": {
+    "files": [
+     "fonts/NotoSansCyproMinoan/googlefonts/ttf/NotoSansCyproMinoan-Regular.ttf",
+     "fonts/NotoSansCyproMinoan/unhinted/otf/NotoSansCyproMinoan-Regular.otf",
+     "fonts/NotoSansCyproMinoan/unhinted/ttf/NotoSansCyproMinoan-Regular.ttf",
+     "fonts/NotoSansCyproMinoan/full/otf/NotoSansCyproMinoan-Regular.otf",
+     "fonts/NotoSansCyproMinoan/full/ttf/NotoSansCyproMinoan-Regular.ttf",
+     "fonts/NotoSansCyproMinoan/hinted/ttf/NotoSansCyproMinoan-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Cypro-Minoan v1.503\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-12-12T15:00:25",
+     "url": "https://github.com/notofonts/cypro-minoan/releases/tag/NotoSansCyproMinoan-v1.503",
+     "version": "v1.503"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansCyproMinoan-v1.503"
+  ]
+ },
  "deseret": {
   "families": {
    "Noto Sans Deseret": {
@@ -4112,7 +4134,51 @@
    "NotoSerifGujarati-v2.102"
   ]
  },
- "gunjala-gondi": {},
+ "gunjala-gondi": {
+  "families": {
+   "Noto Sans Gunjala Gondi": {
+    "files": [
+     "fonts/NotoSansGunjalaGondi/googlefonts/variable-ttf/NotoSansGunjalaGondi[wght].ttf",
+     "fonts/NotoSansGunjalaGondi/googlefonts/ttf/NotoSansGunjalaGondi-Regular.ttf",
+     "fonts/NotoSansGunjalaGondi/googlefonts/ttf/NotoSansGunjalaGondi-Bold.ttf",
+     "fonts/NotoSansGunjalaGondi/googlefonts/ttf/NotoSansGunjalaGondi-Medium.ttf",
+     "fonts/NotoSansGunjalaGondi/unhinted/slim-variable-ttf/NotoSansGunjalaGondi[wght].ttf",
+     "fonts/NotoSansGunjalaGondi/unhinted/variable-ttf/NotoSansGunjalaGondi[wght].ttf",
+     "fonts/NotoSansGunjalaGondi/unhinted/otf/NotoSansGunjalaGondi-Regular.otf",
+     "fonts/NotoSansGunjalaGondi/unhinted/otf/NotoSansGunjalaGondi-Bold.otf",
+     "fonts/NotoSansGunjalaGondi/unhinted/otf/NotoSansGunjalaGondi-Medium.otf",
+     "fonts/NotoSansGunjalaGondi/unhinted/otf/NotoSansGunjalaGondi-Semibold.otf",
+     "fonts/NotoSansGunjalaGondi/unhinted/ttf/NotoSansGunjalaGondi-Regular.ttf",
+     "fonts/NotoSansGunjalaGondi/unhinted/ttf/NotoSansGunjalaGondi-Semibold.ttf",
+     "fonts/NotoSansGunjalaGondi/unhinted/ttf/NotoSansGunjalaGondi-Bold.ttf",
+     "fonts/NotoSansGunjalaGondi/unhinted/ttf/NotoSansGunjalaGondi-Medium.ttf",
+     "fonts/NotoSansGunjalaGondi/full/slim-variable-ttf/NotoSansGunjalaGondi[wght].ttf",
+     "fonts/NotoSansGunjalaGondi/full/variable-ttf/NotoSansGunjalaGondi[wght].ttf",
+     "fonts/NotoSansGunjalaGondi/full/otf/NotoSansGunjalaGondi-Regular.otf",
+     "fonts/NotoSansGunjalaGondi/full/otf/NotoSansGunjalaGondi-Bold.otf",
+     "fonts/NotoSansGunjalaGondi/full/otf/NotoSansGunjalaGondi-Medium.otf",
+     "fonts/NotoSansGunjalaGondi/full/otf/NotoSansGunjalaGondi-Semibold.otf",
+     "fonts/NotoSansGunjalaGondi/full/ttf/NotoSansGunjalaGondi-Regular.ttf",
+     "fonts/NotoSansGunjalaGondi/full/ttf/NotoSansGunjalaGondi-Semibold.ttf",
+     "fonts/NotoSansGunjalaGondi/full/ttf/NotoSansGunjalaGondi-Bold.ttf",
+     "fonts/NotoSansGunjalaGondi/full/ttf/NotoSansGunjalaGondi-Medium.ttf",
+     "fonts/NotoSansGunjalaGondi/hinted/ttf/NotoSansGunjalaGondi-Regular.ttf",
+     "fonts/NotoSansGunjalaGondi/hinted/ttf/NotoSansGunjalaGondi-Semibold.ttf",
+     "fonts/NotoSansGunjalaGondi/hinted/ttf/NotoSansGunjalaGondi-Bold.ttf",
+     "fonts/NotoSansGunjalaGondi/hinted/ttf/NotoSansGunjalaGondi-Medium.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Gunjala Gondi v1.003\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-12-12T13:50:39",
+     "url": "https://github.com/notofonts/gunjala-gondi/releases/tag/NotoSansGunjalaGondi-v1.003",
+     "version": "v1.003"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansGunjalaGondi-v1.003"
+  ]
+ },
  "gurmukhi": {
   "families": {
    "Noto Sans Gurmukhi": {
@@ -9149,7 +9215,29 @@
    "NotoSansNabataean-v2.001"
   ]
  },
- "nandinagari": {},
+ "nandinagari": {
+  "families": {
+   "Noto Sans Nandinagari": {
+    "files": [
+     "fonts/NotoSansNandinagari/googlefonts/ttf/NotoSansNandinagari-Regular.ttf",
+     "fonts/NotoSansNandinagari/unhinted/otf/NotoSansNandinagari-Regular.otf",
+     "fonts/NotoSansNandinagari/unhinted/ttf/NotoSansNandinagari-Regular.ttf",
+     "fonts/NotoSansNandinagari/full/otf/NotoSansNandinagari-Regular.otf",
+     "fonts/NotoSansNandinagari/full/ttf/NotoSansNandinagari-Regular.ttf",
+     "fonts/NotoSansNandinagari/hinted/ttf/NotoSansNandinagari-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Nandinagari v1.001\n\nThis release:\n\n* fixes a number of fontbakery fails\n* improves attachment of marks to the dotted circle glyph (#1)\n* fixes an issue with overproduction of half forms (#2)\n",
+     "published": "2022-12-12T13:33:02",
+     "url": "https://github.com/notofonts/nandinagari/releases/tag/NotoSansNandinagari-v1.001",
+     "version": "v1.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansNandinagari-v1.001"
+  ]
+ },
  "nastaliq": {
   "families": {
    "Noto Nastaliq Urdu": {

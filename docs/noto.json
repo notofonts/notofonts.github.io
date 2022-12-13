@@ -1266,6 +1266,11 @@
   "gh_url": "https://notofonts.github.io/balinese",
   "issues": [
    {
+    "number": 31,
+    "title": "Unicode 14.0 glyphs need drawing",
+    "url": "https://github.com/notofonts/balinese/issues/31"
+   },
+   {
     "number": 16,
     "title": "Serif: combinations with dotted circle are bad (regr 2.001 \u2192 2.003)",
     "url": "https://github.com/notofonts/balinese/issues/16"
@@ -2529,7 +2534,29 @@
   "title": "Noto Cypriot"
  },
  "cypro-minoan": {
-  "families": {},
+  "families": {
+   "Noto Sans Cypro Minoan": {
+    "files": {
+     "full": [
+      "fonts/NotoSansCyproMinoan/full/otf/NotoSansCyproMinoan-Regular.otf",
+      "fonts/NotoSansCyproMinoan/full/ttf/NotoSansCyproMinoan-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansCyproMinoan/hinted/ttf/NotoSansCyproMinoan-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansCyproMinoan/unhinted/otf/NotoSansCyproMinoan-Regular.otf",
+      "fonts/NotoSansCyproMinoan/unhinted/ttf/NotoSansCyproMinoan-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Cypro-Minoan v1.503\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-12-12T15:00:25",
+     "url": "https://github.com/notofonts/cypro-minoan/releases/tag/NotoSansCyproMinoan-v1.503",
+     "version": "v1.503"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/cypro-minoan",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/cypro-minoan",
@@ -5041,7 +5068,48 @@
   "title": "Noto Gujarati"
  },
  "gunjala-gondi": {
-  "families": {},
+  "families": {
+   "Noto Sans Gunjala Gondi": {
+    "files": {
+     "full": [
+      "fonts/NotoSansGunjalaGondi/full/otf/NotoSansGunjalaGondi-Bold.otf",
+      "fonts/NotoSansGunjalaGondi/full/otf/NotoSansGunjalaGondi-Medium.otf",
+      "fonts/NotoSansGunjalaGondi/full/otf/NotoSansGunjalaGondi-Regular.otf",
+      "fonts/NotoSansGunjalaGondi/full/otf/NotoSansGunjalaGondi-Semibold.otf",
+      "fonts/NotoSansGunjalaGondi/full/slim-variable-ttf/NotoSansGunjalaGondi[wght].ttf",
+      "fonts/NotoSansGunjalaGondi/full/ttf/NotoSansGunjalaGondi-Bold.ttf",
+      "fonts/NotoSansGunjalaGondi/full/ttf/NotoSansGunjalaGondi-Medium.ttf",
+      "fonts/NotoSansGunjalaGondi/full/ttf/NotoSansGunjalaGondi-Regular.ttf",
+      "fonts/NotoSansGunjalaGondi/full/ttf/NotoSansGunjalaGondi-Semibold.ttf",
+      "fonts/NotoSansGunjalaGondi/full/variable-ttf/NotoSansGunjalaGondi[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansGunjalaGondi/hinted/ttf/NotoSansGunjalaGondi-Bold.ttf",
+      "fonts/NotoSansGunjalaGondi/hinted/ttf/NotoSansGunjalaGondi-Medium.ttf",
+      "fonts/NotoSansGunjalaGondi/hinted/ttf/NotoSansGunjalaGondi-Regular.ttf",
+      "fonts/NotoSansGunjalaGondi/hinted/ttf/NotoSansGunjalaGondi-Semibold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansGunjalaGondi/unhinted/otf/NotoSansGunjalaGondi-Bold.otf",
+      "fonts/NotoSansGunjalaGondi/unhinted/otf/NotoSansGunjalaGondi-Medium.otf",
+      "fonts/NotoSansGunjalaGondi/unhinted/otf/NotoSansGunjalaGondi-Regular.otf",
+      "fonts/NotoSansGunjalaGondi/unhinted/otf/NotoSansGunjalaGondi-Semibold.otf",
+      "fonts/NotoSansGunjalaGondi/unhinted/slim-variable-ttf/NotoSansGunjalaGondi[wght].ttf",
+      "fonts/NotoSansGunjalaGondi/unhinted/ttf/NotoSansGunjalaGondi-Bold.ttf",
+      "fonts/NotoSansGunjalaGondi/unhinted/ttf/NotoSansGunjalaGondi-Medium.ttf",
+      "fonts/NotoSansGunjalaGondi/unhinted/ttf/NotoSansGunjalaGondi-Regular.ttf",
+      "fonts/NotoSansGunjalaGondi/unhinted/ttf/NotoSansGunjalaGondi-Semibold.ttf",
+      "fonts/NotoSansGunjalaGondi/unhinted/variable-ttf/NotoSansGunjalaGondi[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Gunjala Gondi v1.003\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2022-12-12T13:50:39",
+     "url": "https://github.com/notofonts/gunjala-gondi/releases/tag/NotoSansGunjalaGondi-v1.003",
+     "version": "v1.003"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/gunjala-gondi",
   "issues": [
    {
@@ -12269,7 +12337,29 @@
   "title": "Noto Nabataean"
  },
  "nandinagari": {
-  "families": {},
+  "families": {
+   "Noto Sans Nandinagari": {
+    "files": {
+     "full": [
+      "fonts/NotoSansNandinagari/full/otf/NotoSansNandinagari-Regular.otf",
+      "fonts/NotoSansNandinagari/full/ttf/NotoSansNandinagari-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansNandinagari/hinted/ttf/NotoSansNandinagari-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansNandinagari/unhinted/otf/NotoSansNandinagari-Regular.otf",
+      "fonts/NotoSansNandinagari/unhinted/ttf/NotoSansNandinagari-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Nandinagari v1.001\n\nThis release:\n\n* fixes a number of fontbakery fails\n* improves attachment of marks to the dotted circle glyph (#1)\n* fixes an issue with overproduction of half forms (#2)\n",
+     "published": "2022-12-12T13:33:02",
+     "url": "https://github.com/notofonts/nandinagari/releases/tag/NotoSansNandinagari-v1.001",
+     "version": "v1.001"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/nandinagari",
   "issues": [
    {
@@ -12291,11 +12381,6 @@
     "number": 2,
     "title": "Contextually inappropriate half forms in Nandinagari",
     "url": "https://github.com/notofonts/nandinagari/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Nandinagari: bad ligatures 25CC+umlaut",
-    "url": "https://github.com/notofonts/nandinagari/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/nandinagari",
