@@ -12634,7 +12634,29 @@
   "title": "Noto N' Ko"
  },
  "nushu": {
-  "families": {},
+  "families": {
+   "Noto Sans Nushu": {
+    "files": {
+     "full": [
+      "fonts/NotoSansNushu/full/otf/NotoSansNushu-Regular.otf",
+      "fonts/NotoSansNushu/full/ttf/NotoSansNushu-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansNushu/hinted/ttf/NotoSansNushu-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansNushu/unhinted/otf/NotoSansNushu-Regular.otf",
+      "fonts/NotoSansNushu/unhinted/ttf/NotoSansNushu-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Nushu v1.003 This release fixes a number of fontbakery fails.\n",
+     "published": "2022-12-13T09:10:46",
+     "url": "https://github.com/notofonts/nushu/releases/tag/NotoSansNushu-v1.003",
+     "version": "v1.003"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/nushu",
   "issues": [
    {
@@ -12823,6 +12845,11 @@
   },
   "gh_url": "https://notofonts.github.io/old-hungarian",
   "issues": [
+   {
+    "number": 14,
+    "title": "Missing capital ligatures in Old Hungarian script and ltr letters must be removed",
+    "url": "https://github.com/notofonts/old-hungarian/issues/14"
+   },
    {
     "number": 2,
     "title": "Old Hungarian font name and unicode rangebits",
@@ -15335,6 +15362,11 @@
   "gh_url": "https://notofonts.github.io/takri",
   "issues": [
    {
+    "number": 14,
+    "title": "Missing character U+116B9 TAKRI ABBREVIATION SIGN",
+    "url": "https://github.com/notofonts/takri/issues/14"
+   },
+   {
     "number": 13,
     "title": "<U+116AD, U+116AB> lost its kerning",
     "url": "https://github.com/notofonts/takri/issues/13"
@@ -15733,6 +15765,27 @@
      "published": "2022-07-07T06:13:21",
      "url": "https://github.com/notofonts/tamil/releases/tag/NotoSansTamil-v2.003",
      "version": "v2.003"
+    }
+   },
+   "Noto Sans Tamil Supplement": {
+    "files": {
+     "full": [
+      "fonts/NotoSansTamilSupplement/full/otf/NotoSansTamilSupplement-Regular.otf",
+      "fonts/NotoSansTamilSupplement/full/ttf/NotoSansTamilSupplement-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansTamilSupplement/hinted/ttf/NotoSansTamilSupplement-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansTamilSupplement/unhinted/otf/NotoSansTamilSupplement-Regular.otf",
+      "fonts/NotoSansTamilSupplement/unhinted/ttf/NotoSansTamilSupplement-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Tamil Supplement v2.001 This release fixes a number of fontbakery fails.\n",
+     "published": "2022-12-13T14:39:32",
+     "url": "https://github.com/notofonts/tamil/releases/tag/NotoSansTamilSupplement-v2.001",
+     "version": "v2.001"
     }
    },
    "Noto Serif Tamil": {

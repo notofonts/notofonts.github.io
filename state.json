@@ -9368,7 +9368,29 @@
    "NotoSansNKo-v2.003"
   ]
  },
- "nushu": {},
+ "nushu": {
+  "families": {
+   "Noto Sans Nushu": {
+    "files": [
+     "fonts/NotoSansNushu/googlefonts/ttf/NotoSansNushu-Regular.ttf",
+     "fonts/NotoSansNushu/unhinted/otf/NotoSansNushu-Regular.otf",
+     "fonts/NotoSansNushu/unhinted/ttf/NotoSansNushu-Regular.ttf",
+     "fonts/NotoSansNushu/full/otf/NotoSansNushu-Regular.otf",
+     "fonts/NotoSansNushu/full/ttf/NotoSansNushu-Regular.ttf",
+     "fonts/NotoSansNushu/hinted/ttf/NotoSansNushu-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Nushu v1.003 This release fixes a number of fontbakery fails.\n",
+     "published": "2022-12-13T09:10:46",
+     "url": "https://github.com/notofonts/nushu/releases/tag/NotoSansNushu-v1.003",
+     "version": "v1.003"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansNushu-v1.003"
+  ]
+ },
  "nyiakeng-puachue-hmong": {
   "families": {
    "Noto Serif NPHmong": {
@@ -11614,6 +11636,22 @@
      "version": "v2.003"
     }
    },
+   "Noto Sans Tamil Supplement": {
+    "files": [
+     "fonts/NotoSansTamilSupplement/googlefonts/ttf/NotoSansTamilSupplement-Regular.ttf",
+     "fonts/NotoSansTamilSupplement/unhinted/otf/NotoSansTamilSupplement-Regular.otf",
+     "fonts/NotoSansTamilSupplement/unhinted/ttf/NotoSansTamilSupplement-Regular.ttf",
+     "fonts/NotoSansTamilSupplement/full/otf/NotoSansTamilSupplement-Regular.otf",
+     "fonts/NotoSansTamilSupplement/full/ttf/NotoSansTamilSupplement-Regular.ttf",
+     "fonts/NotoSansTamilSupplement/hinted/ttf/NotoSansTamilSupplement-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Tamil Supplement v2.001 This release fixes a number of fontbakery fails.\n",
+     "published": "2022-12-13T14:39:32",
+     "url": "https://github.com/notofonts/tamil/releases/tag/NotoSansTamilSupplement-v2.001",
+     "version": "v2.001"
+    }
+   },
    "Noto Serif Tamil": {
     "files": [
      "fonts/NotoSerifTamil/googlefonts/variable-ttf/NotoSerifTamil[wdth,wght].ttf",
@@ -12069,7 +12107,8 @@
   },
   "known_releases": [
    "NotoSansTamil-v2.003",
-   "NotoSerifTamil-v2.003"
+   "NotoSerifTamil-v2.003",
+   "NotoSansTamilSupplement-v2.001"
   ]
  },
  "tangsa": {
