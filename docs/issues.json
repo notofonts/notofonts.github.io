@@ -22,7 +22,7 @@
   "arabic": 30,
   "armenian": 4,
   "avestan": 1,
-  "balinese": 16,
+  "balinese": 17,
   "bamum": 1,
   "bengali": 9,
   "bhaiksuki": 5,
@@ -62,7 +62,7 @@
   "khojki": 6,
   "khudawadi": 4,
   "lao": 2,
-  "latin-greek-cyrillic": 241,
+  "latin-greek-cyrillic": 242,
   "limbu": 2,
   "linear-a": 1,
   "lisu": 1,
@@ -83,14 +83,14 @@
   "multani": 2,
   "music": 8,
   "myanmar": 39,
-  "nandinagari": 3,
+  "nandinagari": 4,
   "nastaliq": 17,
   "newa": 1,
   "nko": 2,
   "nushu": 3,
   "nyiakeng-puachue-hmong": 3,
-  "old-hungarian": 2,
-  "old-hungarian-ui": 1,
+  "old-hungarian": 3,
+  "old-hungarian-ui": 2,
   "old-italic": 1,
   "old-persian": 1,
   "old-sogdian": 3,
@@ -119,7 +119,7 @@
   "tai-le": 1,
   "tai-tham": 4,
   "tai-viet": 3,
-  "takri": 3,
+  "takri": 4,
   "tamil": 7,
   "tangsa": 3,
   "telugu": 4,
@@ -136,7 +136,7 @@
  "opened_per_month": {
   "1": 2,
   "2": 13,
-  "3": 26,
+  "3": 27,
   "4": 21,
   "5": 19,
   "6": 21,
@@ -145,7 +145,7 @@
   "9": 54,
   "10": 19,
   "11": 5,
-  "12": 2
+  "12": 7
  },
  "releases_per_month": {
   "6": [
@@ -1070,12 +1070,24 @@
   ],
   "12": [
    {
+    "tag": "NotoSansCyproMinoan-v1.503",
+    "url": "https://github.com/notofonts/cypro-minoan/releases/tag/NotoSansCyproMinoan-v1.503"
+   },
+   {
     "tag": "NotoSansGunjalaGondi-v1.003",
     "url": "https://github.com/notofonts/gunjala-gondi/releases/tag/NotoSansGunjalaGondi-v1.003"
    },
    {
     "tag": "NotoSansNandinagari-v1.001",
     "url": "https://github.com/notofonts/nandinagari/releases/tag/NotoSansNandinagari-v1.001"
+   },
+   {
+    "tag": "NotoSansNushu-v1.003",
+    "url": "https://github.com/notofonts/nushu/releases/tag/NotoSansNushu-v1.003"
+   },
+   {
+    "tag": "NotoSansTamilSupplement-v2.001",
+    "url": "https://github.com/notofonts/tamil/releases/tag/NotoSansTamilSupplement-v2.001"
    }
   ]
  },
@@ -1083,14 +1095,14 @@
   "1": 1982,
   "2": 1961,
   "3": 1926,
-  "4": 1941,
-  "5": 1920,
-  "6": 1938,
-  "7": 1864,
-  "8": 1872,
-  "9": 1861,
-  "10": 1858,
-  "11": 1865,
-  "12": 1857
+  "4": 1942,
+  "5": 1921,
+  "6": 1939,
+  "7": 1865,
+  "8": 1873,
+  "9": 1862,
+  "10": 1859,
+  "11": 1866,
+  "12": 1858
  }
 }
