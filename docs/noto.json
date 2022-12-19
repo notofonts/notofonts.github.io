@@ -12874,6 +12874,11 @@
   "gh_url": "https://notofonts.github.io/old-hungarian-ui",
   "issues": [
    {
+    "number": 3,
+    "title": "Possible publish notofonts/old-hungarian-ui?",
+    "url": "https://github.com/notofonts/old-hungarian-ui/issues/3"
+   },
+   {
     "number": 1,
     "title": "building error on opensuse Tumbleweed",
     "url": "https://github.com/notofonts/old-hungarian-ui/issues/1"
