@@ -4,6 +4,11 @@
   "gh_url": "https://notofonts.github.io/Arimo",
   "issues": [
    {
+    "number": 15,
+    "title": "Noto fonts Arimo is failing to build",
+    "url": "https://github.com/notofonts/Arimo/issues/15"
+   },
+   {
     "number": 14,
     "title": "Erroneous \"Italic\" Style on Arimo-BoldItalic.ttf",
     "url": "https://github.com/notofonts/Arimo/issues/14"
