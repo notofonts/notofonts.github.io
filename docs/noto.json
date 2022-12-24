@@ -587,6 +587,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 184,
+    "title": "Noto Sans Arabic UI",
+    "url": "https://github.com/notofonts/arabic/pull/184"
+   },
+   {
     "number": 183,
     "title": "characters missing in Arabic font",
     "url": "https://github.com/notofonts/arabic/issues/183"
