@@ -14,12 +14,12 @@
   "12": 13
  },
  "open_per_repo": {
-  "Arimo": 14,
+  "Arimo": 15,
   "Cousine": 3,
   "Tinos": 3,
   "adlam": 6,
   "ahom": 3,
-  "arabic": 30,
+  "arabic": 31,
   "armenian": 4,
   "avestan": 1,
   "balinese": 17,
@@ -48,7 +48,7 @@
   "grantha": 4,
   "gujarati": 19,
   "gunjala-gondi": 3,
-  "gurmukhi": 8,
+  "gurmukhi": 9,
   "hanifi-rohingya": 2,
   "hanunoo": 1,
   "hebrew": 10,
@@ -145,7 +145,7 @@
   "9": 54,
   "10": 19,
   "11": 5,
-  "12": 7
+  "12": 10
  },
  "releases_per_month": {
   "6": [
