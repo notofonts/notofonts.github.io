@@ -5592,6 +5592,11 @@
   "gh_url": "https://notofonts.github.io/gurmukhi",
   "issues": [
    {
+    "number": 23,
+    "title": "Support <U+0A02 BINDI, U+0A40 VOWEL SIGN II>",
+    "url": "https://github.com/notofonts/gurmukhi/issues/23"
+   },
+   {
     "number": 22,
     "title": "'calt' is inconsistent about which clusters to separate",
     "url": "https://github.com/notofonts/gurmukhi/issues/22"
