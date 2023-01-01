@@ -1435,7 +1435,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/bassa-vah",
-  "issues": [],
+  "issues": [
+   {
+    "number": 2,
+    "title": "Built fonts aren't showing up on notofonts.github.io",
+    "url": "https://github.com/notofonts/bassa-vah/issues/2"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/bassa-vah",
   "title": "Noto Bassa Vah"
  },
@@ -3380,6 +3386,11 @@
   "families": {},
   "gh_url": "https://notofonts.github.io/duployan",
   "issues": [
+   {
+    "number": 4,
+    "title": " Built fonts aren't showing up on notofonts.github.io",
+    "url": "https://github.com/notofonts/duployan/issues/4"
+   },
    {
     "number": 3,
     "title": "Shorthand format Down/Up step glyphs are confused",
@@ -7110,6 +7121,11 @@
   "families": {},
   "gh_url": "https://notofonts.github.io/kharoshthi",
   "issues": [
+   {
+    "number": 12,
+    "title": "Built fonts aren't showing up on notofonts.github.io",
+    "url": "https://github.com/notofonts/kharoshthi/issues/12"
+   },
    {
     "number": 2,
     "title": "Problems with U+10A39 KHAROSHTHI SIGN CAUDA",
@@ -11125,6 +11141,11 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 30,
+    "title": "Built fonts aren't showing up on notofonts.github.io",
+    "url": "https://github.com/notofonts/math/issues/30"
+   },
+   {
     "number": 13,
     "title": "Missing anchors for Combining Diacritic Marks for Symbols",
     "url": "https://github.com/notofonts/math/issues/13"
@@ -12679,6 +12700,11 @@
   },
   "gh_url": "https://notofonts.github.io/nushu",
   "issues": [
+   {
+    "number": 6,
+    "title": "\"Noto Traditional Nushu\" isn't showing up on notofonts.github.io",
+    "url": "https://github.com/notofonts/nushu/issues/6"
+   },
    {
     "number": 2,
     "title": "NotoTraditionalNushu have upem of 1024",
