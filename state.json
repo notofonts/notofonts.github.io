@@ -1008,6 +1008,52 @@
    "NotoSansBamum-v2.002"
   ]
  },
+ "bassa-vah": {
+  "families": {
+   "Noto Sans Bassa Vah": {
+    "files": [
+     "fonts/NotoSansBassaVah/full/slim-variable-ttf/NotoSansBassaVah[wght].ttf",
+     "fonts/NotoSansBassaVah/full/ttf/NotoSansBassaVah-Regular.ttf",
+     "fonts/NotoSansBassaVah/full/ttf/NotoSansBassaVah-SemiBold.ttf",
+     "fonts/NotoSansBassaVah/full/ttf/NotoSansBassaVah-Bold.ttf",
+     "fonts/NotoSansBassaVah/full/ttf/NotoSansBassaVah-Medium.ttf",
+     "fonts/NotoSansBassaVah/full/variable-ttf/NotoSansBassaVah[wght].ttf",
+     "fonts/NotoSansBassaVah/full/otf/NotoSansBassaVah-Bold.otf",
+     "fonts/NotoSansBassaVah/full/otf/NotoSansBassaVah-Regular.otf",
+     "fonts/NotoSansBassaVah/full/otf/NotoSansBassaVah-SemiBold.otf",
+     "fonts/NotoSansBassaVah/full/otf/NotoSansBassaVah-Medium.otf",
+     "fonts/NotoSansBassaVah/googlefonts/ttf/NotoSansBassaVah-Regular.ttf",
+     "fonts/NotoSansBassaVah/googlefonts/ttf/NotoSansBassaVah-SemiBold.ttf",
+     "fonts/NotoSansBassaVah/googlefonts/ttf/NotoSansBassaVah-Bold.ttf",
+     "fonts/NotoSansBassaVah/googlefonts/ttf/NotoSansBassaVah-Medium.ttf",
+     "fonts/NotoSansBassaVah/googlefonts/variable-ttf/NotoSansBassaVah[wght].ttf",
+     "fonts/NotoSansBassaVah/unhinted/slim-variable-ttf/NotoSansBassaVah[wght].ttf",
+     "fonts/NotoSansBassaVah/unhinted/ttf/NotoSansBassaVah-Regular.ttf",
+     "fonts/NotoSansBassaVah/unhinted/ttf/NotoSansBassaVah-SemiBold.ttf",
+     "fonts/NotoSansBassaVah/unhinted/ttf/NotoSansBassaVah-Bold.ttf",
+     "fonts/NotoSansBassaVah/unhinted/ttf/NotoSansBassaVah-Medium.ttf",
+     "fonts/NotoSansBassaVah/unhinted/variable-ttf/NotoSansBassaVah[wght].ttf",
+     "fonts/NotoSansBassaVah/unhinted/otf/NotoSansBassaVah-Bold.otf",
+     "fonts/NotoSansBassaVah/unhinted/otf/NotoSansBassaVah-Regular.otf",
+     "fonts/NotoSansBassaVah/unhinted/otf/NotoSansBassaVah-SemiBold.otf",
+     "fonts/NotoSansBassaVah/unhinted/otf/NotoSansBassaVah-Medium.otf",
+     "fonts/NotoSansBassaVah/hinted/ttf/NotoSansBassaVah-Regular.ttf",
+     "fonts/NotoSansBassaVah/hinted/ttf/NotoSansBassaVah-SemiBold.ttf",
+     "fonts/NotoSansBassaVah/hinted/ttf/NotoSansBassaVah-Bold.ttf",
+     "fonts/NotoSansBassaVah/hinted/ttf/NotoSansBassaVah-Medium.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Bassa Vah v2.002\n\nThis is an administrative release; it fixes a number of fontbakery\nfails.\n",
+     "published": "2022-08-23T13:25:17",
+     "url": "https://github.com/notofonts/bassa-vah/releases/tag/NotoSansBassaVah-v2.002",
+     "version": "v2.002"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansBassaVah-v2.002"
+  ]
+ },
  "batak": {
   "families": {
    "Noto Sans Batak": {
@@ -5878,7 +5924,29 @@
    "NotoSansKayahLi-v2.002"
   ]
  },
- "kharoshthi": {},
+ "kharoshthi": {
+  "families": {
+   "Noto Sans Kharoshthi": {
+    "files": [
+     "fonts/NotoSansKharoshthi/unhinted/ttf/NotoSansKharoshthi-Regular.ttf",
+     "fonts/NotoSansKharoshthi/unhinted/otf/NotoSansKharoshthi-Regular.otf",
+     "fonts/NotoSansKharoshthi/full/ttf/NotoSansKharoshthi-Regular.ttf",
+     "fonts/NotoSansKharoshthi/full/otf/NotoSansKharoshthi-Regular.otf",
+     "fonts/NotoSansKharoshthi/googlefonts/ttf/NotoSansKharoshthi-Regular.ttf",
+     "fonts/NotoSansKharoshthi/hinted/ttf/NotoSansKharoshthi-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Kharoshthi v2.004\n\nThis release:\n* Fixes the shape and positioning of the cauda mark (#2)\n* Fixes a number of fontbakery fails\n",
+     "published": "2023-01-02T11:53:21",
+     "url": "https://github.com/notofonts/kharoshthi/releases/tag/NotoSansKharoshthi-v2.004",
+     "version": "v2.004"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansKharoshthi-v2.004"
+  ]
+ },
  "khmer": {
   "families": {
    "Noto Sans Khmer": {

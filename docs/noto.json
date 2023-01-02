@@ -1422,9 +1422,36 @@
   "families": {
    "Noto Sans Bassa Vah": {
     "files": {
-     "full": [],
-     "hinted": [],
-     "unhinted": []
+     "full": [
+      "fonts/NotoSansBassaVah/full/otf/NotoSansBassaVah-Bold.otf",
+      "fonts/NotoSansBassaVah/full/otf/NotoSansBassaVah-Medium.otf",
+      "fonts/NotoSansBassaVah/full/otf/NotoSansBassaVah-Regular.otf",
+      "fonts/NotoSansBassaVah/full/otf/NotoSansBassaVah-SemiBold.otf",
+      "fonts/NotoSansBassaVah/full/slim-variable-ttf/NotoSansBassaVah[wght].ttf",
+      "fonts/NotoSansBassaVah/full/ttf/NotoSansBassaVah-Bold.ttf",
+      "fonts/NotoSansBassaVah/full/ttf/NotoSansBassaVah-Medium.ttf",
+      "fonts/NotoSansBassaVah/full/ttf/NotoSansBassaVah-Regular.ttf",
+      "fonts/NotoSansBassaVah/full/ttf/NotoSansBassaVah-SemiBold.ttf",
+      "fonts/NotoSansBassaVah/full/variable-ttf/NotoSansBassaVah[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansBassaVah/hinted/ttf/NotoSansBassaVah-Bold.ttf",
+      "fonts/NotoSansBassaVah/hinted/ttf/NotoSansBassaVah-Medium.ttf",
+      "fonts/NotoSansBassaVah/hinted/ttf/NotoSansBassaVah-Regular.ttf",
+      "fonts/NotoSansBassaVah/hinted/ttf/NotoSansBassaVah-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansBassaVah/unhinted/otf/NotoSansBassaVah-Bold.otf",
+      "fonts/NotoSansBassaVah/unhinted/otf/NotoSansBassaVah-Medium.otf",
+      "fonts/NotoSansBassaVah/unhinted/otf/NotoSansBassaVah-Regular.otf",
+      "fonts/NotoSansBassaVah/unhinted/otf/NotoSansBassaVah-SemiBold.otf",
+      "fonts/NotoSansBassaVah/unhinted/slim-variable-ttf/NotoSansBassaVah[wght].ttf",
+      "fonts/NotoSansBassaVah/unhinted/ttf/NotoSansBassaVah-Bold.ttf",
+      "fonts/NotoSansBassaVah/unhinted/ttf/NotoSansBassaVah-Medium.ttf",
+      "fonts/NotoSansBassaVah/unhinted/ttf/NotoSansBassaVah-Regular.ttf",
+      "fonts/NotoSansBassaVah/unhinted/ttf/NotoSansBassaVah-SemiBold.ttf",
+      "fonts/NotoSansBassaVah/unhinted/variable-ttf/NotoSansBassaVah[wght].ttf"
+     ]
     },
     "latest_release": {
      "notes": "Noto Sans Bassa Vah v2.002\n\nThis is an administrative release; it fixes a number of fontbakery\nfails.\n",
@@ -7118,18 +7145,35 @@
   "title": "Noto Kayah Li"
  },
  "kharoshthi": {
-  "families": {},
+  "families": {
+   "Noto Sans Kharoshthi": {
+    "files": {
+     "full": [
+      "fonts/NotoSansKharoshthi/full/otf/NotoSansKharoshthi-Regular.otf",
+      "fonts/NotoSansKharoshthi/full/ttf/NotoSansKharoshthi-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansKharoshthi/hinted/ttf/NotoSansKharoshthi-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansKharoshthi/unhinted/otf/NotoSansKharoshthi-Regular.otf",
+      "fonts/NotoSansKharoshthi/unhinted/ttf/NotoSansKharoshthi-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Kharoshthi v2.004\n\nThis release:\n* Fixes the shape and positioning of the cauda mark (#2)\n* Fixes a number of fontbakery fails\n",
+     "published": "2023-01-02T11:53:21",
+     "url": "https://github.com/notofonts/kharoshthi/releases/tag/NotoSansKharoshthi-v2.004",
+     "version": "v2.004"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/kharoshthi",
   "issues": [
    {
     "number": 12,
     "title": "Built fonts aren't showing up on notofonts.github.io",
     "url": "https://github.com/notofonts/kharoshthi/issues/12"
-   },
-   {
-    "number": 2,
-    "title": "Problems with U+10A39 KHAROSHTHI SIGN CAUDA",
-    "url": "https://github.com/notofonts/kharoshthi/issues/2"
    },
    {
     "number": 1,
@@ -15094,11 +15138,6 @@
   "families": {},
   "gh_url": "https://notofonts.github.io/syriac",
   "issues": [
-   {
-    "number": 13,
-    "title": "Assyrian Syriac fonts need to be broken up - the merged font set is unusable in most situations",
-    "url": "https://github.com/notofonts/syriac/issues/13"
-   },
    {
     "number": 12,
     "title": "Missing U+1DF8 and U+1DFA in Noto Sans Syriac",
