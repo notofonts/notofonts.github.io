@@ -1008,21 +1008,6 @@
    "NotoSansBamum-v2.002"
   ]
  },
- "bassa-vah": {
-  "families": {
-   "Noto Sans Bassa Vah": {
-    "latest_release": {
-     "notes": "Noto Sans Bassa Vah v2.002\n\nThis is an administrative release; it fixes a number of fontbakery\nfails.\n",
-     "published": "2022-08-23T13:25:17",
-     "url": "https://github.com/notofonts/bassa-vah/releases/tag/NotoSansBassaVah-v2.002",
-     "version": "v2.002"
-    }
-   }
-  },
-  "known_releases": [
-   "NotoSansBassaVah-v2.002"
-  ]
- },
  "batak": {
   "families": {
    "Noto Sans Batak": {
