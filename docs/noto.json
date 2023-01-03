@@ -587,11 +587,6 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
-    "number": 184,
-    "title": "Noto Sans Arabic UI",
-    "url": "https://github.com/notofonts/arabic/pull/184"
-   },
-   {
     "number": 183,
     "title": "characters missing in Arabic font",
     "url": "https://github.com/notofonts/arabic/issues/183"
@@ -1462,13 +1457,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/bassa-vah",
-  "issues": [
-   {
-    "number": 2,
-    "title": "Built fonts aren't showing up on notofonts.github.io",
-    "url": "https://github.com/notofonts/bassa-vah/issues/2"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/bassa-vah",
   "title": "Noto Bassa Vah"
  },
@@ -7170,11 +7159,6 @@
   },
   "gh_url": "https://notofonts.github.io/kharoshthi",
   "issues": [
-   {
-    "number": 12,
-    "title": "Built fonts aren't showing up on notofonts.github.io",
-    "url": "https://github.com/notofonts/kharoshthi/issues/12"
-   },
    {
     "number": 1,
     "title": "Missing Kharoshthi conjuncts",
@@ -15164,11 +15148,6 @@
     "url": "https://github.com/notofonts/syriac/issues/8"
    },
    {
-    "number": 7,
-    "title": "NotoSansSyriacEstrangela Vowel U+0735 (Zqapa) does not correctly join letter U+0720 (Lamad)",
-    "url": "https://github.com/notofonts/syriac/issues/7"
-   },
-   {
     "number": 6,
     "title": "Syriac Estrangelo: confusable letter U+0724 (FINAL SEMKATH) confused with U+0723 (SEMKATH)",
     "url": "https://github.com/notofonts/syriac/issues/6"
@@ -15177,16 +15156,6 @@
     "number": 5,
     "title": "Overlapping Syriac glyphs",
     "url": "https://github.com/notofonts/syriac/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Wrong 'med2' glyph for U+0710 SYRIAC LETTER ALAPH",
-    "url": "https://github.com/notofonts/syriac/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Nominal glyph  for U+0740 (Syriac Feminine Dot) is too close to the baseline and can be confused for full-stop",
-    "url": "https://github.com/notofonts/syriac/issues/3"
    },
    {
     "number": 2,
