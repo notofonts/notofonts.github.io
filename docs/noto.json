@@ -1186,21 +1186,15 @@
      ]
     },
     "latest_release": {
-     "notes": "This is purely a maintenance release.\n\nIt brings Noto Sans Avestan up to the recommendations of the Google\nFonts process, for onboarding onto Google Fonts.\n",
-     "published": "2022-06-27T13:47:57",
-     "url": "https://github.com/notofonts/avestan/releases/tag/NotoSansAvestan-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Sans Avestan v2.003\n\nThis release contains no source changes, but rebuilds the font with the latest toolchain, restoring autohinting. (#1)\n",
+     "published": "2023-01-03T09:28:44",
+     "url": "https://github.com/notofonts/avestan/releases/tag/NotoSansAvestan-v2.003",
+     "version": "v2.003"
     }
    }
   },
   "gh_url": "https://notofonts.github.io/avestan",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Hinting has gone",
-    "url": "https://github.com/notofonts/avestan/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/avestan",
   "title": "Noto Avestan"
  },
@@ -2173,21 +2167,15 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Carian v2.001\n\nThis font fixes a number of fontbakery fails.\n",
-     "published": "2022-09-20T16:16:58",
-     "url": "https://github.com/notofonts/carian/releases/tag/NotoSansCarian-v2.001",
-     "version": "v2.001"
+     "notes": "Noto Sans Carian v2.002\n\nThis release fixes the shape of U+102BA CARIAN LETTER E to match paleographic sources. (#1)\n",
+     "published": "2023-01-03T08:33:55",
+     "url": "https://github.com/notofonts/carian/releases/tag/NotoSansCarian-v2.002",
+     "version": "v2.002"
     }
    }
   },
   "gh_url": "https://notofonts.github.io/carian",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Questionable superscript glyph for U+102BA CARIAN LETTER E",
-    "url": "https://github.com/notofonts/carian/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/carian",
   "title": "Noto Carian"
  },
@@ -7734,24 +7722,9 @@
   "gh_url": "https://notofonts.github.io/khudawadi",
   "issues": [
    {
-    "number": 4,
-    "title": "Could you dub anchoring of virama etc with default anchoring?",
-    "url": "https://github.com/notofonts/khudawadi/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "U+112E9 KHUDAWADI SIGN NUKTA blocks contextual U+112E7 KHUDAWADI VOWEL SIGN O",
-    "url": "https://github.com/notofonts/khudawadi/issues/3"
-   },
-   {
     "number": 2,
     "title": "Inconsistent placement of U+112DF KHUDAWADI SIGN ANUSVARA",
     "url": "https://github.com/notofonts/khudawadi/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Misplaced Khudawadi marks on U+25CC DOTTED CIRCLE",
-    "url": "https://github.com/notofonts/khudawadi/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/khudawadi",
@@ -9987,11 +9960,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/156"
    },
    {
-    "number": 193,
-    "title": "Noto Mono, Serif and Sans: Super OpenType/CFF Collection (Super OTC) Release?",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/193"
-   },
-   {
     "number": 157,
     "title": "Feature request: LEFT and RIGHT CORNER BRACKETS in mono space fonts",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/157"
@@ -10070,11 +10038,6 @@
     "number": 170,
     "title": "Combining Cyrillic numbers",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/170"
-   },
-   {
-    "number": 171,
-    "title": "Combine sources for Noto Serif & Noto Serif Display (also Sans)?",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/171"
    },
    {
     "number": 172,
@@ -12724,15 +12687,45 @@
      "url": "https://github.com/notofonts/nushu/releases/tag/NotoSansNushu-v1.003",
      "version": "v1.003"
     }
+   },
+   "Noto Traditional Nushu": {
+    "files": {
+     "full": [
+      "fonts/NotoTraditionalNushu/full/otf/NotoTraditionalNushu-Bold.otf",
+      "fonts/NotoTraditionalNushu/full/otf/NotoTraditionalNushu-Light.otf",
+      "fonts/NotoTraditionalNushu/full/otf/NotoTraditionalNushu-Regular.otf",
+      "fonts/NotoTraditionalNushu/full/slim-variable-ttf/NotoTraditionalNushu[wght].ttf",
+      "fonts/NotoTraditionalNushu/full/ttf/NotoTraditionalNushu-Bold.ttf",
+      "fonts/NotoTraditionalNushu/full/ttf/NotoTraditionalNushu-Light.ttf",
+      "fonts/NotoTraditionalNushu/full/ttf/NotoTraditionalNushu-Regular.ttf",
+      "fonts/NotoTraditionalNushu/full/variable-ttf/NotoTraditionalNushu[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoTraditionalNushu/hinted/ttf/NotoTraditionalNushu-Bold.ttf",
+      "fonts/NotoTraditionalNushu/hinted/ttf/NotoTraditionalNushu-Light.ttf",
+      "fonts/NotoTraditionalNushu/hinted/ttf/NotoTraditionalNushu-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoTraditionalNushu/unhinted/otf/NotoTraditionalNushu-Bold.otf",
+      "fonts/NotoTraditionalNushu/unhinted/otf/NotoTraditionalNushu-Light.otf",
+      "fonts/NotoTraditionalNushu/unhinted/otf/NotoTraditionalNushu-Regular.otf",
+      "fonts/NotoTraditionalNushu/unhinted/slim-variable-ttf/NotoTraditionalNushu[wght].ttf",
+      "fonts/NotoTraditionalNushu/unhinted/ttf/NotoTraditionalNushu-Bold.ttf",
+      "fonts/NotoTraditionalNushu/unhinted/ttf/NotoTraditionalNushu-Light.ttf",
+      "fonts/NotoTraditionalNushu/unhinted/ttf/NotoTraditionalNushu-Regular.ttf",
+      "fonts/NotoTraditionalNushu/unhinted/variable-ttf/NotoTraditionalNushu[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Traditional Nushu v2.003\n\nThis release fixes a number of fontbakery fails.\n",
+     "published": "2023-01-03T08:08:09",
+     "url": "https://github.com/notofonts/nushu/releases/tag/NotoTraditionalNushu-v2.003",
+     "version": "v2.003"
+    }
    }
   },
   "gh_url": "https://notofonts.github.io/nushu",
   "issues": [
-   {
-    "number": 6,
-    "title": "\"Noto Traditional Nushu\" isn't showing up on notofonts.github.io",
-    "url": "https://github.com/notofonts/nushu/issues/6"
-   },
    {
     "number": 2,
     "title": "NotoTraditionalNushu have upem of 1024",
@@ -15119,7 +15112,113 @@
   "title": "Noto Symbols"
  },
  "syriac": {
-  "families": {},
+  "families": {
+   "Noto Sans Syriac": {
+    "files": {
+     "full": [
+      "fonts/NotoSansSyriac/full/otf/NotoSansSyriac-Black.otf",
+      "fonts/NotoSansSyriac/full/otf/NotoSansSyriac-Regular.otf",
+      "fonts/NotoSansSyriac/full/otf/NotoSansSyriac-Thin.otf",
+      "fonts/NotoSansSyriac/full/slim-variable-ttf/NotoSansSyriac[wght].ttf",
+      "fonts/NotoSansSyriac/full/ttf/NotoSansSyriac-Black.ttf",
+      "fonts/NotoSansSyriac/full/ttf/NotoSansSyriac-Regular.ttf",
+      "fonts/NotoSansSyriac/full/ttf/NotoSansSyriac-Thin.ttf",
+      "fonts/NotoSansSyriac/full/variable-ttf/NotoSansSyriac[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansSyriac/hinted/ttf/NotoSansSyriac-Black.ttf",
+      "fonts/NotoSansSyriac/hinted/ttf/NotoSansSyriac-Regular.ttf",
+      "fonts/NotoSansSyriac/hinted/ttf/NotoSansSyriac-Thin.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansSyriac/unhinted/otf/NotoSansSyriac-Black.otf",
+      "fonts/NotoSansSyriac/unhinted/otf/NotoSansSyriac-Regular.otf",
+      "fonts/NotoSansSyriac/unhinted/otf/NotoSansSyriac-Thin.otf",
+      "fonts/NotoSansSyriac/unhinted/slim-variable-ttf/NotoSansSyriac[wght].ttf",
+      "fonts/NotoSansSyriac/unhinted/ttf/NotoSansSyriac-Black.ttf",
+      "fonts/NotoSansSyriac/unhinted/ttf/NotoSansSyriac-Regular.ttf",
+      "fonts/NotoSansSyriac/unhinted/ttf/NotoSansSyriac-Thin.ttf",
+      "fonts/NotoSansSyriac/unhinted/variable-ttf/NotoSansSyriac[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Syriac v3.000\n\nThis release:\n* Comprises only of the Estrangela style of Noto Sans Syriac\n* Interpolates as a variable font\n* Fixes the naming of the stylistic sets (#1)\n* Fixes the shape of U+0724 final semkath (#6)\n* Fixes a problem with the rish-dieresis ligature (#8)\n* Cleans up some of the OpenType layout code\n* and fixes various fontbakery fails.\n",
+     "published": "2023-01-03T13:56:57",
+     "url": "https://github.com/notofonts/syriac/releases/tag/NotoSansSyriac-v3.000",
+     "version": "v3.000"
+    }
+   },
+   "Noto Sans Syriac Eastern": {
+    "files": {
+     "full": [
+      "fonts/NotoSansSyriacEastern/full/otf/NotoSansSyriacEastern-Black.otf",
+      "fonts/NotoSansSyriacEastern/full/otf/NotoSansSyriacEastern-Regular.otf",
+      "fonts/NotoSansSyriacEastern/full/otf/NotoSansSyriacEastern-Thin.otf",
+      "fonts/NotoSansSyriacEastern/full/slim-variable-ttf/NotoSansSyriacEastern[wght].ttf",
+      "fonts/NotoSansSyriacEastern/full/ttf/NotoSansSyriacEastern-Black.ttf",
+      "fonts/NotoSansSyriacEastern/full/ttf/NotoSansSyriacEastern-Regular.ttf",
+      "fonts/NotoSansSyriacEastern/full/ttf/NotoSansSyriacEastern-Thin.ttf",
+      "fonts/NotoSansSyriacEastern/full/variable-ttf/NotoSansSyriacEastern[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansSyriacEastern/hinted/ttf/NotoSansSyriacEastern-Black.ttf",
+      "fonts/NotoSansSyriacEastern/hinted/ttf/NotoSansSyriacEastern-Regular.ttf",
+      "fonts/NotoSansSyriacEastern/hinted/ttf/NotoSansSyriacEastern-Thin.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansSyriacEastern/unhinted/otf/NotoSansSyriacEastern-Black.otf",
+      "fonts/NotoSansSyriacEastern/unhinted/otf/NotoSansSyriacEastern-Regular.otf",
+      "fonts/NotoSansSyriacEastern/unhinted/otf/NotoSansSyriacEastern-Thin.otf",
+      "fonts/NotoSansSyriacEastern/unhinted/slim-variable-ttf/NotoSansSyriacEastern[wght].ttf",
+      "fonts/NotoSansSyriacEastern/unhinted/ttf/NotoSansSyriacEastern-Black.ttf",
+      "fonts/NotoSansSyriacEastern/unhinted/ttf/NotoSansSyriacEastern-Regular.ttf",
+      "fonts/NotoSansSyriacEastern/unhinted/ttf/NotoSansSyriacEastern-Thin.ttf",
+      "fonts/NotoSansSyriacEastern/unhinted/variable-ttf/NotoSansSyriacEastern[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Syriac Eastern v3.000\n\nThis release:\n* Comprises only of the Eastern (Ma\u1e0fn\u1e25\u0101y\u0101) style of Noto Sans Syriac\n* Interpolates as a variable font\n* Fixes the naming of the stylistic sets (#1)\n* Fixes a problem with the rish-dieresis ligature (#8)\n* Cleans up some of the OpenType layout code\n* and fixes various fontbakery fails.\n",
+     "published": "2023-01-03T13:57:45",
+     "url": "https://github.com/notofonts/syriac/releases/tag/NotoSansSyriacEastern-v3.000",
+     "version": "v3.000"
+    }
+   },
+   "Noto Sans Syriac Western": {
+    "files": {
+     "full": [
+      "fonts/NotoSansSyriacWestern/full/otf/NotoSansSyriacWestern-Black.otf",
+      "fonts/NotoSansSyriacWestern/full/otf/NotoSansSyriacWestern-Regular.otf",
+      "fonts/NotoSansSyriacWestern/full/otf/NotoSansSyriacWestern-Thin.otf",
+      "fonts/NotoSansSyriacWestern/full/slim-variable-ttf/NotoSansSyriacWestern[wght].ttf",
+      "fonts/NotoSansSyriacWestern/full/ttf/NotoSansSyriacWestern-Black.ttf",
+      "fonts/NotoSansSyriacWestern/full/ttf/NotoSansSyriacWestern-Regular.ttf",
+      "fonts/NotoSansSyriacWestern/full/ttf/NotoSansSyriacWestern-Thin.ttf",
+      "fonts/NotoSansSyriacWestern/full/variable-ttf/NotoSansSyriacWestern[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansSyriacWestern/hinted/ttf/NotoSansSyriacWestern-Black.ttf",
+      "fonts/NotoSansSyriacWestern/hinted/ttf/NotoSansSyriacWestern-Regular.ttf",
+      "fonts/NotoSansSyriacWestern/hinted/ttf/NotoSansSyriacWestern-Thin.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansSyriacWestern/unhinted/otf/NotoSansSyriacWestern-Black.otf",
+      "fonts/NotoSansSyriacWestern/unhinted/otf/NotoSansSyriacWestern-Regular.otf",
+      "fonts/NotoSansSyriacWestern/unhinted/otf/NotoSansSyriacWestern-Thin.otf",
+      "fonts/NotoSansSyriacWestern/unhinted/slim-variable-ttf/NotoSansSyriacWestern[wght].ttf",
+      "fonts/NotoSansSyriacWestern/unhinted/ttf/NotoSansSyriacWestern-Black.ttf",
+      "fonts/NotoSansSyriacWestern/unhinted/ttf/NotoSansSyriacWestern-Regular.ttf",
+      "fonts/NotoSansSyriacWestern/unhinted/ttf/NotoSansSyriacWestern-Thin.ttf",
+      "fonts/NotoSansSyriacWestern/unhinted/variable-ttf/NotoSansSyriacWestern[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Syriac Western v3.000\n\nThis release:\n* Comprises only of the Western (Ser\u1e6d\u0101) style of Noto Sans Syriac\n* Interpolates as a variable font\n* Fixes the naming of the stylistic sets (#1)\n* Fixes a problem with the rish-dieresis ligature (#8)\n* Cleans up some of the OpenType layout code\n* and fixes various fontbakery fails.\n",
+     "published": "2023-01-03T13:56:39",
+     "url": "https://github.com/notofonts/syriac/releases/tag/NotoSansSyriacWestern-v3.000",
+     "version": "v3.000"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/syriac",
   "issues": [
    {
@@ -15143,16 +15242,6 @@
     "url": "https://github.com/notofonts/syriac/issues/9"
    },
    {
-    "number": 8,
-    "title": "Syriac syame separates from dot over RA when vowel diacritic is used below",
-    "url": "https://github.com/notofonts/syriac/issues/8"
-   },
-   {
-    "number": 6,
-    "title": "Syriac Estrangelo: confusable letter U+0724 (FINAL SEMKATH) confused with U+0723 (SEMKATH)",
-    "url": "https://github.com/notofonts/syriac/issues/6"
-   },
-   {
     "number": 5,
     "title": "Overlapping Syriac glyphs",
     "url": "https://github.com/notofonts/syriac/issues/5"
@@ -15161,11 +15250,6 @@
     "number": 2,
     "title": "Syriac fonts should improve ligatures",
     "url": "https://github.com/notofonts/syriac/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Syriac: Stylistic sets defined with broken name table references",
-    "url": "https://github.com/notofonts/syriac/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/syriac",
@@ -16980,6 +17064,202 @@
  },
  "thai": {
   "families": {
+   "Noto Looped Thai": {
+    "files": {
+     "full": [
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-Black.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-Bold.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-Condensed.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-CondensedBlack.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-CondensedBold.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-CondensedExtraBold.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-CondensedExtraLight.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-CondensedLight.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-CondensedMedium.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-CondensedSemiBold.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-CondensedThin.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-ExtraBold.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-ExtraCondensed.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-ExtraCondensedBlack.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-ExtraCondensedBold.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-ExtraCondensedExtraBold.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-ExtraCondensedExtraLight.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-ExtraCondensedLight.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-ExtraCondensedMedium.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-ExtraCondensedSemiBold.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-ExtraCondensedThin.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-ExtraLight.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-Light.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-Medium.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-Regular.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-SemiBold.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-SemiCondensed.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-SemiCondensedBlack.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-SemiCondensedBold.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-SemiCondensedExtraBold.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-SemiCondensedExtraLight.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-SemiCondensedLight.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-SemiCondensedMedium.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-SemiCondensedSemiBold.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-SemiCondensedThin.otf",
+      "fonts/NotoLoopedThai/full/otf/NotoLoopedThai-Thin.otf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Black.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Bold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Condensed.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedBlack.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedExtraBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedExtraLight.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedLight.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedMedium.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedSemiBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-CondensedThin.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensed.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedBlack.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedLight.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedMedium.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraCondensedThin.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-ExtraLight.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Light.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Medium.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Regular.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensed.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedBlack.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedExtraBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedExtraLight.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedLight.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedMedium.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedSemiBold.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-SemiCondensedThin.ttf",
+      "fonts/NotoLoopedThai/full/ttf/NotoLoopedThai-Thin.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Black.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Bold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Condensed.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedBlack.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedExtraBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedExtraLight.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedLight.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedMedium.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedSemiBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-CondensedThin.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensed.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedBlack.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedLight.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedMedium.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraCondensedThin.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-ExtraLight.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Light.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Medium.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Regular.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensed.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedBlack.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedExtraBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedExtraLight.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedLight.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedMedium.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedSemiBold.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-SemiCondensedThin.ttf",
+      "fonts/NotoLoopedThai/hinted/ttf/NotoLoopedThai-Thin.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-Black.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-Bold.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-Condensed.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-CondensedBlack.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-CondensedBold.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-CondensedExtraBold.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-CondensedExtraLight.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-CondensedLight.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-CondensedMedium.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-CondensedSemiBold.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-CondensedThin.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-ExtraBold.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-ExtraCondensed.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-ExtraCondensedBlack.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-ExtraCondensedBold.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-ExtraCondensedExtraBold.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-ExtraCondensedExtraLight.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-ExtraCondensedLight.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-ExtraCondensedMedium.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-ExtraCondensedSemiBold.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-ExtraCondensedThin.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-ExtraLight.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-Light.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-Medium.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-Regular.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-SemiBold.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-SemiCondensed.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-SemiCondensedBlack.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-SemiCondensedBold.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-SemiCondensedExtraBold.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-SemiCondensedExtraLight.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-SemiCondensedLight.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-SemiCondensedMedium.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-SemiCondensedSemiBold.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-SemiCondensedThin.otf",
+      "fonts/NotoLoopedThai/unhinted/otf/NotoLoopedThai-Thin.otf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Black.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Bold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Condensed.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedBlack.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedExtraBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedExtraLight.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedLight.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedMedium.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedSemiBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-CondensedThin.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensed.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedBlack.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedExtraBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedExtraLight.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedLight.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedMedium.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedSemiBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraCondensedThin.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-ExtraLight.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Light.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Medium.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Regular.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensed.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedBlack.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedExtraBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedExtraLight.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedLight.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedMedium.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedSemiBold.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-SemiCondensedThin.ttf",
+      "fonts/NotoLoopedThai/unhinted/ttf/NotoLoopedThai-Thin.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Looped Thai v1.001\n\nThis is an administrative release, to fix fontbakery fails:\n\n* The Extrabold instance has been renamed to ExtraBold\n* Underline thickness has been set to constant across the family\n",
+     "published": "2022-08-22T09:46:45",
+     "url": "https://github.com/notofonts/thai/releases/tag/NotoLoopedThai-v1.001",
+     "version": "v1.001"
+    }
+   },
    "Noto Sans Thai": {
     "files": {
      "full": [
