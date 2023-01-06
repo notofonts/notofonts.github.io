@@ -254,6 +254,11 @@
   "gh_url": "https://notofonts.github.io/ahom",
   "issues": [
    {
+    "number": 15,
+    "title": "Updates for Unicode 14",
+    "url": "https://github.com/notofonts/ahom/pull/15"
+   },
+   {
     "number": 14,
     "title": "I+U does not form ligature in certain contexts",
     "url": "https://github.com/notofonts/ahom/issues/14"
@@ -14957,6 +14962,11 @@
   },
   "gh_url": "https://notofonts.github.io/symbols",
   "issues": [
+   {
+    "number": 67,
+    "title": "Adds Kaktovik Numerals glyphs to Symbols 2 source",
+    "url": "https://github.com/notofonts/symbols/pull/67"
+   },
    {
     "number": 65,
     "title": "\u201cFull\u201d version of Symbols2 \u2014 weight of Latin characters",
