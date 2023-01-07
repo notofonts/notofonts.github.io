@@ -11229,10 +11229,10 @@
      "fonts/NotoSansSyriacEastern/hinted/ttf/NotoSansSyriacEastern-Black.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Syriac Eastern v3.000\n\nThis release:\n* Comprises only of the Eastern (Ma\u1e0fn\u1e25\u0101y\u0101) style of Noto Sans Syriac\n* Interpolates as a variable font\n* Fixes the naming of the stylistic sets (#1)\n* Fixes a problem with the rish-dieresis ligature (#8)\n* Cleans up some of the OpenType layout code\n* and fixes various fontbakery fails.\n",
-     "published": "2023-01-03T13:57:45",
-     "url": "https://github.com/notofonts/syriac/releases/tag/NotoSansSyriacEastern-v3.000",
-     "version": "v3.000"
+     "notes": "Noto Sans Syriac Eastern v3.001\n\nThis release restores a number of missing ligatures and other shaping rules.\n",
+     "published": "2023-01-06T12:49:41",
+     "url": "https://github.com/notofonts/syriac/releases/tag/NotoSansSyriacEastern-v3.001",
+     "version": "v3.001"
     }
    },
    "Noto Sans Syriac Western": {
@@ -11272,7 +11272,8 @@
   "known_releases": [
    "NotoSansSyriacWestern-v3.000",
    "NotoSansSyriac-v3.000",
-   "NotoSansSyriacEastern-v3.000"
+   "NotoSansSyriacEastern-v3.000",
+   "NotoSansSyriacEastern-v3.001"
   ]
  },
  "tagalog": {

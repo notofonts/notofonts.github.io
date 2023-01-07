@@ -8955,14 +8955,14 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 392,
+    "title": "Unicode 14 update",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/392"
+   },
+   {
     "number": 391,
     "title": "Add Kyrgyzstani som sign \u20c0 (U+20C0)",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/391"
-   },
-   {
-    "number": 390,
-    "title": "Absense of condensed instances",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/390"
    },
    {
     "number": 389,
@@ -8988,11 +8988,6 @@
     "number": 237,
     "title": "Noto Sans Display Italic : adjust modifier letters component position",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/237"
-   },
-   {
-    "number": 236,
-    "title": "Standalone diacritics combine with the next letter in Noto Serif",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/236"
    },
    {
     "number": 234,
@@ -9055,11 +9050,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/8"
    },
    {
-    "number": 71,
-    "title": "Unable to use some Noto fonts on Windows in Visual Studio Code",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/71"
-   },
-   {
     "number": 9,
     "title": "Unable to use some Noto fonts on Windows in Visual Studio Code",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/9"
@@ -9068,11 +9058,6 @@
     "number": 10,
     "title": "Noto Sans Mono rendering on Windows: All static fonts seem to have same weight.",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/10"
-   },
-   {
-    "number": 72,
-    "title": "Out of place back tick (accent grave)",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/72"
    },
    {
     "number": 11,
@@ -9090,11 +9075,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/13"
    },
    {
-    "number": 73,
-    "title": "Wrong fontFamily and fontSubfamily names (v.2.006)",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/73"
-   },
-   {
     "number": 14,
     "title": "Wrong fontFamily and fontSubfamily names (v.2.006)",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/14"
@@ -9105,11 +9085,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/231"
    },
    {
-    "number": 74,
-    "title": "Combining half marks need separate anchors",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/74"
-   },
-   {
     "number": 15,
     "title": "Combining half marks need separate anchors",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/15"
@@ -9118,11 +9093,6 @@
     "number": 224,
     "title": "Serif and Sans 1DD4..1DF4 are stretched in some rendering engines",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/224"
-   },
-   {
-    "number": 16,
-    "title": "U+203F in Noto Serif  should not be combining.",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/16"
    },
    {
     "number": 211,
@@ -9165,11 +9135,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/21"
    },
    {
-    "number": 76,
-    "title": "Double dagger doesn't work in web version",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/76"
-   },
-   {
     "number": 22,
     "title": "Double dagger doesn't work in web version",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/22"
@@ -9178,11 +9143,6 @@
     "number": 23,
     "title": "Noto Sans should be available via the Microsoft Store.",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/23"
-   },
-   {
-    "number": 77,
-    "title": "Combining characters",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/77"
    },
    {
     "number": 24,
@@ -9245,39 +9205,14 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/33"
    },
    {
-    "number": 80,
-    "title": "IPA primary stress symbol overlaps with following glyph in Arimo-Regular",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/80"
-   },
-   {
     "number": 34,
     "title": "IPA primary stress symbol overlaps with following glyph in Arimo-Regular",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/34"
    },
    {
-    "number": 81,
-    "title": "Bad kerning between left single quote mark and some capital letters",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/81"
-   },
-   {
     "number": 35,
     "title": "Bad kerning between left single quote mark and some capital letters",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/35"
-   },
-   {
-    "number": 82,
-    "title": "Missing anchor points in Noto Sans Display",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/82"
-   },
-   {
-    "number": 36,
-    "title": "Missing anchor points in Noto Sans Display",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/36"
-   },
-   {
-    "number": 83,
-    "title": "LGC fonts lack U+10FB GEORGIAN PARAGRAPH SEPARATOR",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/83"
    },
    {
     "number": 37,
@@ -9345,19 +9280,9 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/44"
    },
    {
-    "number": 89,
-    "title": "Italic lowercase glyphs with Cyrillic left descenders",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/89"
-   },
-   {
     "number": 45,
     "title": "Italic lowercase glyphs with Cyrillic left descenders",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/45"
-   },
-   {
-    "number": 90,
-    "title": "Bar of Cyrillic fita should not be wavy",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/90"
    },
    {
     "number": 46,
@@ -9405,19 +9330,9 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/50"
    },
    {
-    "number": 95,
-    "title": "Unlocalized combining Cyrillic letters",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/95"
-   },
-   {
     "number": 51,
     "title": "Unlocalized combining Cyrillic letters",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/51"
-   },
-   {
-    "number": 96,
-    "title": "Inconsistent Cyrillic italics",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/96"
    },
    {
     "number": 52,
@@ -9425,19 +9340,9 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/52"
    },
    {
-    "number": 97,
-    "title": "Inconsistent Cyrillic glyph variants between Noto Sans Italic and Noto Serif Italic",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/97"
-   },
-   {
     "number": 53,
     "title": "Inconsistent Cyrillic glyph variants between Noto Sans Italic and Noto Serif Italic",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/53"
-   },
-   {
-    "number": 98,
-    "title": "U+1C87 CYRILLIC SMALL LETTER TALL YAT has uppercase-style serifs",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/98"
    },
    {
     "number": 54,
@@ -9445,29 +9350,14 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/54"
    },
    {
-    "number": 99,
-    "title": "Inconsistent positioning of U+0328 COMBINING OGONEK",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/99"
-   },
-   {
     "number": 55,
     "title": "Inconsistent positioning of U+0328 COMBINING OGONEK",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/55"
    },
    {
-    "number": 100,
-    "title": "Bad kerning for Cyrillic omega and ot",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/100"
-   },
-   {
     "number": 56,
     "title": "Bad kerning for Cyrillic omega and ot",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/56"
-   },
-   {
-    "number": 101,
-    "title": "Combining Cyrillic letters should be stacked horizontally",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/101"
    },
    {
     "number": 57,
@@ -9585,11 +9475,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/217"
    },
    {
-    "number": 209,
-    "title": "Duplicated Lookup References",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/209"
-   },
-   {
     "number": 104,
     "title": "Latin Extended-C-D-E characters required",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/104"
@@ -9680,24 +9565,9 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/113"
    },
    {
-    "number": 114,
-    "title": "More weights via Embed",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/114"
-   },
-   {
     "number": 115,
     "title": "'Combining low line' doesn't combine for dz and ts combination",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/115"
-   },
-   {
-    "number": 116,
-    "title": "Noto Sans Mono Display as Courier New in Microsoft Word",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/116"
-   },
-   {
-    "number": 117,
-    "title": "U+007E TILDE too similar to hyphen",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/117"
    },
    {
     "number": 207,
@@ -9970,11 +9840,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/157"
    },
    {
-    "number": 158,
-    "title": "Combining diacritics above space characters too much at the left",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/158"
-   },
-   {
     "number": 159,
     "title": "Provide \u201czero\u201d also for combinations with \u201cpnum\u201d and \u201conum\u201d",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/159"
@@ -9998,11 +9863,6 @@
     "number": 163,
     "title": "ftxdumperfuser 347 reports bad `gvar` table in NotoSans-VF.ttf",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/163"
-   },
-   {
-    "number": 188,
-    "title": "Noto Sans Mono's alphabet O and number 0 issue",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/188"
    },
    {
     "number": 164,
@@ -10225,7 +10085,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/limbu",
-  "title": "Noto Limbu (ONLY FOR TESTING)"
+  "title": "Noto Limbu"
  },
  "linear-a": {
   "families": {
@@ -15187,10 +15047,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Syriac Eastern v3.000\n\nThis release:\n* Comprises only of the Eastern (Ma\u1e0fn\u1e25\u0101y\u0101) style of Noto Sans Syriac\n* Interpolates as a variable font\n* Fixes the naming of the stylistic sets (#1)\n* Fixes a problem with the rish-dieresis ligature (#8)\n* Cleans up some of the OpenType layout code\n* and fixes various fontbakery fails.\n",
-     "published": "2023-01-03T13:57:45",
-     "url": "https://github.com/notofonts/syriac/releases/tag/NotoSansSyriacEastern-v3.000",
-     "version": "v3.000"
+     "notes": "Noto Sans Syriac Eastern v3.001\n\nThis release restores a number of missing ligatures and other shaping rules.\n",
+     "published": "2023-01-06T12:49:41",
+     "url": "https://github.com/notofonts/syriac/releases/tag/NotoSansSyriacEastern-v3.001",
+     "version": "v3.001"
     }
    },
    "Noto Sans Syriac Western": {
@@ -16412,11 +16272,6 @@
   },
   "gh_url": "https://notofonts.github.io/tangsa",
   "issues": [
-   {
-    "number": 5,
-    "title": "Corrected uiq uexlong mq mx nya ma",
-    "url": "https://github.com/notofonts/tangsa/pull/5"
-   },
    {
     "number": 4,
     "title": "Version 1.504 lost some kerning pairs",
