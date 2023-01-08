@@ -10997,6 +10997,11 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 31,
+    "title": "Missing variation selector sequences",
+    "url": "https://github.com/notofonts/math/issues/31"
+   },
+   {
     "number": 30,
     "title": "Built fonts aren't showing up on notofonts.github.io",
     "url": "https://github.com/notofonts/math/issues/30"
@@ -13692,6 +13697,11 @@
   },
   "gh_url": "https://notofonts.github.io/sharada",
   "issues": [
+   {
+    "number": 14,
+    "title": "Full version is missing letters",
+    "url": "https://github.com/notofonts/sharada/issues/14"
+   },
    {
     "number": 6,
     "title": "Noto Sharada font needs to be redesigned",
