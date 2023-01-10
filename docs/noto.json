@@ -16771,6 +16771,11 @@
   "gh_url": "https://notofonts.github.io/telugu",
   "issues": [
    {
+    "number": 12,
+    "title": "The subscripts in \u0c15\u0c4d\u0c24\u0c4d\u0c30 are clashing",
+    "url": "https://github.com/notofonts/telugu/issues/12"
+   },
+   {
     "number": 10,
     "title": "Vedic accents are not properly placed on a consonant with subscripts",
     "url": "https://github.com/notofonts/telugu/issues/10"
