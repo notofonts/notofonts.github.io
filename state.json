@@ -902,64 +902,66 @@
   "families": {
    "Noto Sans Balinese": {
     "files": [
-     "fonts/NotoSansBalinese/full/otf/NotoSansBalinese-Bold.otf",
-     "fonts/NotoSansBalinese/full/otf/NotoSansBalinese-SemiBold.otf",
-     "fonts/NotoSansBalinese/full/otf/NotoSansBalinese-Medium.otf",
-     "fonts/NotoSansBalinese/full/otf/NotoSansBalinese-Regular.otf",
-     "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-Medium.ttf",
-     "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-Bold.ttf",
-     "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-SemiBold.ttf",
-     "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-Regular.ttf",
-     "fonts/NotoSansBalinese/full/slim-variable-ttf/NotoSansBalinese[wght].ttf",
-     "fonts/NotoSansBalinese/full/variable-ttf/NotoSansBalinese[wght].ttf",
-     "fonts/NotoSansBalinese/googlefonts/ttf/NotoSansBalinese-Medium.ttf",
-     "fonts/NotoSansBalinese/googlefonts/ttf/NotoSansBalinese-Bold.ttf",
-     "fonts/NotoSansBalinese/googlefonts/ttf/NotoSansBalinese-SemiBold.ttf",
-     "fonts/NotoSansBalinese/googlefonts/ttf/NotoSansBalinese-Regular.ttf",
-     "fonts/NotoSansBalinese/googlefonts/variable-ttf/NotoSansBalinese[wght].ttf",
-     "fonts/NotoSansBalinese/unhinted/otf/NotoSansBalinese-Bold.otf",
-     "fonts/NotoSansBalinese/unhinted/otf/NotoSansBalinese-SemiBold.otf",
-     "fonts/NotoSansBalinese/unhinted/otf/NotoSansBalinese-Medium.otf",
-     "fonts/NotoSansBalinese/unhinted/otf/NotoSansBalinese-Regular.otf",
-     "fonts/NotoSansBalinese/unhinted/ttf/NotoSansBalinese-Medium.ttf",
      "fonts/NotoSansBalinese/unhinted/ttf/NotoSansBalinese-Bold.ttf",
      "fonts/NotoSansBalinese/unhinted/ttf/NotoSansBalinese-SemiBold.ttf",
+     "fonts/NotoSansBalinese/unhinted/ttf/NotoSansBalinese-Medium.ttf",
      "fonts/NotoSansBalinese/unhinted/ttf/NotoSansBalinese-Regular.ttf",
-     "fonts/NotoSansBalinese/unhinted/slim-variable-ttf/NotoSansBalinese[wght].ttf",
      "fonts/NotoSansBalinese/unhinted/variable-ttf/NotoSansBalinese[wght].ttf",
-     "fonts/NotoSansBalinese/hinted/ttf/NotoSansBalinese-Medium.ttf",
+     "fonts/NotoSansBalinese/unhinted/otf/NotoSansBalinese-Bold.otf",
+     "fonts/NotoSansBalinese/unhinted/otf/NotoSansBalinese-Regular.otf",
+     "fonts/NotoSansBalinese/unhinted/otf/NotoSansBalinese-SemiBold.otf",
+     "fonts/NotoSansBalinese/unhinted/otf/NotoSansBalinese-Medium.otf",
+     "fonts/NotoSansBalinese/unhinted/slim-variable-ttf/NotoSansBalinese[wght].ttf",
+     "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-Bold.ttf",
+     "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-SemiBold.ttf",
+     "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-Medium.ttf",
+     "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-Regular.ttf",
+     "fonts/NotoSansBalinese/full/variable-ttf/NotoSansBalinese[wght].ttf",
+     "fonts/NotoSansBalinese/full/otf/NotoSansBalinese-Bold.otf",
+     "fonts/NotoSansBalinese/full/otf/NotoSansBalinese-Regular.otf",
+     "fonts/NotoSansBalinese/full/otf/NotoSansBalinese-SemiBold.otf",
+     "fonts/NotoSansBalinese/full/otf/NotoSansBalinese-Medium.otf",
+     "fonts/NotoSansBalinese/full/slim-variable-ttf/NotoSansBalinese[wght].ttf",
+     "fonts/NotoSansBalinese/googlefonts/ttf/NotoSansBalinese-Bold.ttf",
+     "fonts/NotoSansBalinese/googlefonts/ttf/NotoSansBalinese-SemiBold.ttf",
+     "fonts/NotoSansBalinese/googlefonts/ttf/NotoSansBalinese-Medium.ttf",
+     "fonts/NotoSansBalinese/googlefonts/ttf/NotoSansBalinese-Regular.ttf",
+     "fonts/NotoSansBalinese/googlefonts/variable-ttf/NotoSansBalinese[wght].ttf",
      "fonts/NotoSansBalinese/hinted/ttf/NotoSansBalinese-Bold.ttf",
      "fonts/NotoSansBalinese/hinted/ttf/NotoSansBalinese-SemiBold.ttf",
+     "fonts/NotoSansBalinese/hinted/ttf/NotoSansBalinese-Medium.ttf",
      "fonts/NotoSansBalinese/hinted/ttf/NotoSansBalinese-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Balinese v2.003\n\nThis is a maintenance release.\n",
-     "published": "2022-07-11T18:54:02",
-     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSansBalinese-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Balinese v2.004\n\nThis release:\n\n* Encodes a number of new glyphs introduced in Unicode 14 (see #14)\n* Uses a precomposed glyph for the ma-suku ligature (see #15)\n* Fixes the formation of vowel ligatures with conjuncts (see #12)\n* Fixes a collision when using U+1B6A BALINESE MUSICAL SYMBOL DANG GEDE (see #13)\n",
+     "published": "2023-01-10T14:00:00",
+     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSansBalinese-v2.004",
+     "version": "v2.004"
     }
    },
    "Noto Serif Balinese": {
     "files": [
-     "fonts/NotoSerifBalinese/googlefonts/ttf/NotoSerifBalinese-Regular.ttf",
-     "fonts/NotoSerifBalinese/full/otf/NotoSerifBalinese-Regular.otf",
-     "fonts/NotoSerifBalinese/full/ttf/NotoSerifBalinese-Regular.ttf",
-     "fonts/NotoSerifBalinese/hinted/ttf/NotoSerifBalinese-Regular.ttf",
+     "fonts/NotoSerifBalinese/unhinted/ttf/NotoSerifBalinese-Regular.ttf",
      "fonts/NotoSerifBalinese/unhinted/otf/NotoSerifBalinese-Regular.otf",
-     "fonts/NotoSerifBalinese/unhinted/ttf/NotoSerifBalinese-Regular.ttf"
+     "fonts/NotoSerifBalinese/full/ttf/NotoSerifBalinese-Regular.ttf",
+     "fonts/NotoSerifBalinese/full/otf/NotoSerifBalinese-Regular.otf",
+     "fonts/NotoSerifBalinese/googlefonts/ttf/NotoSerifBalinese-Regular.ttf",
+     "fonts/NotoSerifBalinese/hinted/ttf/NotoSerifBalinese-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Serif Balinese 2.004\n\nThis release fixes the positioning of the sukun and of marks attached\nto the dotted circle glyph.\n",
-     "published": "2022-07-24T15:52:02",
-     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSerifBalinese-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Serif Balinese v2.005\n\nThis release:\n* Fixes the formation of short jha with vowel marks (see #7, #9)\n* Moves certain lookups from the liga feature to the rlig feature (see #11)\n* Fixes the formation of vowel ligatures with conjuncts (see #12)\n",
+     "published": "2023-01-10T13:59:52",
+     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSerifBalinese-v2.005",
+     "version": "v2.005"
     }
    }
   },
   "known_releases": [
    "NotoSerifBalinese-v2.003",
    "NotoSansBalinese-v2.003",
-   "NotoSerifBalinese-v2.004"
+   "NotoSerifBalinese-v2.004",
+   "NotoSerifBalinese-v2.005",
+   "NotoSansBalinese-v2.004"
   ]
  },
  "bamum": {
@@ -2652,7 +2654,33 @@
    "NotoSerifDogra-v1.006"
   ]
  },
- "duployan": {},
+ "duployan": {
+  "families": {
+   "Noto Sans Duployan": {
+    "files": [
+     "fonts/NotoSansDuployan/unhinted/ttf/NotoSansDuployan-Regular.ttf",
+     "fonts/NotoSansDuployan/unhinted/ttf/NotoSansDuployan-Bold.ttf",
+     "fonts/NotoSansDuployan/unhinted/otf/NotoSansDuployan-Bold.otf",
+     "fonts/NotoSansDuployan/unhinted/otf/NotoSansDuployan-Regular.otf",
+     "fonts/NotoSansDuployan/googlefonts/ttf/NotoSansDuployan-Regular.ttf",
+     "fonts/NotoSansDuployan/googlefonts/ttf/NotoSansDuployan-Bold.ttf",
+     "fonts/NotoSansDuployan/hinted/ttf/NotoSansDuployan-Regular.ttf",
+     "fonts/NotoSansDuployan/hinted/ttf/NotoSansDuployan-Bold.ttf",
+     "fonts/NotoSansDuployan/hinted/otf/NotoSansDuployan-Bold.otf",
+     "fonts/NotoSansDuployan/hinted/otf/NotoSansDuployan-Regular.otf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Duployan v3.001\n\nThis is a completely new version of the font, which implements Duployan connections and shaping.\n",
+     "published": "2023-01-10T11:27:10",
+     "url": "https://github.com/notofonts/duployan/releases/tag/NotoSansDuployan-v3.001",
+     "version": "v3.001"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansDuployan-v3.001"
+  ]
+ },
  "egyptian-hieroglyphs": {
   "families": {
    "Noto Sans Egyptian Hieroglyphs": {
