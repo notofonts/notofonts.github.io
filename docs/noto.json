@@ -29,6 +29,11 @@
     "url": "https://github.com/notofonts/Arimo/issues/11"
    },
    {
+    "number": 16,
+    "title": "IPA primary stress symbol overlaps with following glyph in Arimo-Regular",
+    "url": "https://github.com/notofonts/Arimo/issues/16"
+   },
+   {
     "number": 10,
     "title": "Several missing characters from croscore fonts (musical symbols, mathematical characters, small capital Q)",
     "url": "https://github.com/notofonts/Arimo/issues/10"
@@ -8310,6 +8315,11 @@
   "gh_url": "https://notofonts.github.io/lao",
   "issues": [
    {
+    "number": 13,
+    "title": "Yamakkan / Unicode 14 support",
+    "url": "https://github.com/notofonts/lao/pull/13"
+   },
+   {
     "number": 12,
     "title": "'ss03' does not take 'ss01' into account",
     "url": "https://github.com/notofonts/lao/issues/12"
@@ -8924,6 +8934,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 393,
+    "title": "Kerning issues with \u0129 repeated and next to apostrophe and glottal stop.",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/393"
+   },
+   {
     "number": 391,
     "title": "Add Kyrgyzstani som sign \u20c0 (U+20C0)",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/391"
@@ -8937,11 +8952,6 @@
     "number": 387,
     "title": "Add Alternate Glyph Forms for Lowercase L, T, G and A",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/387"
-   },
-   {
-    "number": 386,
-    "title": "Suggestion: \"YOPQ\" axis in Noto Sans sources",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/386"
    },
    {
     "number": 385,
@@ -9039,11 +9049,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/13"
    },
    {
-    "number": 14,
-    "title": "Wrong fontFamily and fontSubfamily names (v.2.006)",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/14"
-   },
-   {
     "number": 231,
     "title": "Please include variable versions of Noto Sans and Noto Serif in Google fonts",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/231"
@@ -9074,16 +9079,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/18"
    },
    {
-    "number": 225,
-    "title": "Noto Sans light, semibold, etc. are not present on Google Fonts",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/225"
-   },
-   {
-    "number": 75,
-    "title": "Add Unicode Variation Sequences to script that use them",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/75"
-   },
-   {
     "number": 19,
     "title": "Add Unicode Variation Sequences to script that use them",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/19"
@@ -9097,11 +9092,6 @@
     "number": 21,
     "title": "Greek 'ccmp' rules don\u2019t match NFC input",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/21"
-   },
-   {
-    "number": 22,
-    "title": "Double dagger doesn't work in web version",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/22"
    },
    {
     "number": 23,
@@ -9129,16 +9119,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/27"
    },
    {
-    "number": 28,
-    "title": "Request for null sign \u2205 U+2205",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/28"
-   },
-   {
-    "number": 78,
-    "title": "Noto serif font transition boundaries introduce extraneous spacing",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/78"
-   },
-   {
     "number": 29,
     "title": "Noto serif font transition boundaries introduce extraneous spacing",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/29"
@@ -9159,19 +9139,9 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/32"
    },
    {
-    "number": 79,
-    "title": "\"Combining comma above right\" at wrong position",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/79"
-   },
-   {
     "number": 33,
     "title": "\"Combining comma above right\" at wrong position",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/33"
-   },
-   {
-    "number": 34,
-    "title": "IPA primary stress symbol overlaps with following glyph in Arimo-Regular",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/34"
    },
    {
     "number": 35,
@@ -9182,11 +9152,6 @@
     "number": 37,
     "title": "LGC fonts lack U+10FB GEORGIAN PARAGRAPH SEPARATOR",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/37"
-   },
-   {
-    "number": 84,
-    "title": "Inconsistent shape of breve in Cyrillic",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/84"
    },
    {
     "number": 38,
@@ -9214,29 +9179,14 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/41"
    },
    {
-    "number": 86,
-    "title": "U+1C86 CYRILLIC SMALL LETTER TALL HARD SIGN in Noto Sans Italic is oblique",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/86"
-   },
-   {
     "number": 42,
     "title": "U+1C86 CYRILLIC SMALL LETTER TALL HARD SIGN in Noto Sans Italic is oblique",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/42"
    },
    {
-    "number": 87,
-    "title": "Bad serifs on italic U+A7F6 LATIN SMALL LETTER REVERSED HALF H",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/87"
-   },
-   {
     "number": 43,
     "title": "Bad serifs on italic U+A7F6 LATIN SMALL LETTER REVERSED HALF H",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/43"
-   },
-   {
-    "number": 88,
-    "title": "U+A66E CYRILLIC LETTER MULTIOCULAR O is not italicized in Noto Serif Italic",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/88"
    },
    {
     "number": 44,
@@ -9254,19 +9204,9 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/46"
    },
    {
-    "number": 91,
-    "title": "Incomplete 'ss02' in Noto Sans Italic and Noto Serif Italic",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/91"
-   },
-   {
     "number": 47,
     "title": "Incomplete 'ss02' in Noto Sans Italic and Noto Serif Italic",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/47"
-   },
-   {
-    "number": 92,
-    "title": "Wrong italic glyph for U+A7AB LATIN CAPITAL LETTER REVERSED OPEN E",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/92"
    },
    {
     "number": 48,
@@ -9274,19 +9214,9 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/48"
    },
    {
-    "number": 93,
-    "title": "Missing serif on U+1D7E LATIN SMALL CAPITAL LETTER U WITH STROKE",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/93"
-   },
-   {
     "number": 49,
     "title": "Missing serif on U+1D7E LATIN SMALL CAPITAL LETTER U WITH STROKE",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/49"
-   },
-   {
-    "number": 94,
-    "title": "Italic Cyrillic iotified a has an extra curl",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/94"
    },
    {
     "number": 50,
@@ -9619,11 +9549,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/129"
    },
    {
-    "number": 130,
-    "title": "NotoSans hinted: badly scaled glyphs for modifier letters at small sizes",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/130"
-   },
-   {
     "number": 202,
     "title": "U+02ED MODIFIER LETTER UNASPIRATED has no side bearings",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/202"
@@ -9779,11 +9704,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/153"
    },
    {
-    "number": 194,
-    "title": "Noto Sans Mono: Glyph for U+2026 HORIZONTAL ELLIPSIS wrong",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/194"
-   },
-   {
     "number": 154,
     "title": "\u200eA7AE is a capital letter not a lowercase letter.",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/154"
@@ -9887,11 +9807,6 @@
     "number": 191,
     "title": "APL support in Monospace font?",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/191"
-   },
-   {
-    "number": 192,
-    "title": "NotoMono has only Regular weight",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/192"
    },
    {
     "number": 174,
@@ -10960,6 +10875,11 @@
   "families": {},
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
+   {
+    "number": 32,
+    "title": "No unhinted/otf fonts generated for Noto Sans Math",
+    "url": "https://github.com/notofonts/math/issues/32"
+   },
    {
     "number": 31,
     "title": "Missing variation selector sequences",
@@ -14948,7 +14868,7 @@
    },
    {
     "number": 4,
-    "title": "Noto Sans Symbols: U+1F1EB loses its cross bar in 15px on Linux",
+    "title": "U+1F1EB and friends have gone missing",
     "url": "https://github.com/notofonts/symbols/issues/4"
    }
   ],
