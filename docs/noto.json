@@ -8315,6 +8315,11 @@
   "gh_url": "https://notofonts.github.io/lao",
   "issues": [
    {
+    "number": 14,
+    "title": "Normalisation with yamakkan 0ECE ",
+    "url": "https://github.com/notofonts/lao/issues/14"
+   },
+   {
     "number": 13,
     "title": "Yamakkan / Unicode 14 support",
     "url": "https://github.com/notofonts/lao/pull/13"
