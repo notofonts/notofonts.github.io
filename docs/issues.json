@@ -1,16 +1,16 @@
 {
  "closed_per_month": {
-  "1": 51
+  "1": 84
  },
  "open_per_repo": {
-  "Arimo": 15,
+  "Arimo": 16,
   "Cousine": 3,
   "Tinos": 3,
   "adlam": 6,
   "ahom": 4,
   "arabic": 29,
   "armenian": 4,
-  "balinese": 17,
+  "balinese": 9,
   "bamum": 1,
   "bengali": 9,
   "bhaiksuki": 5,
@@ -24,7 +24,7 @@
   "devanagari": 13,
   "dives-akuru": 7,
   "dogra": 4,
-  "duployan": 4,
+  "duployan": 2,
   "egyptian-hieroglyphs": 5,
   "elbasan": 2,
   "elymaic": 2,
@@ -48,8 +48,8 @@
   "khmer": 8,
   "khojki": 6,
   "khudawadi": 1,
-  "lao": 2,
-  "latin-greek-cyrillic": 212,
+  "lao": 4,
+  "latin-greek-cyrillic": 192,
   "limbu": 2,
   "linear-a": 1,
   "lisu": 1,
@@ -60,7 +60,7 @@
   "manichaean": 4,
   "marchen": 2,
   "masaram-gondi": 1,
-  "math": 17,
+  "math": 18,
   "meetei-mayek": 1,
   "mende-kikakui": 1,
   "meroitic": 2,
@@ -109,7 +109,7 @@
   "takri": 4,
   "tamil": 7,
   "tangsa": 2,
-  "telugu": 4,
+  "telugu": 5,
   "thaana": 1,
   "thai": 11,
   "tibetan": 12,
@@ -121,7 +121,7 @@
   "zanabazar-square": 2
  },
  "opened_per_month": {
-  "1": 5
+  "1": 12
  },
  "releases_per_month": {
   "1": [
@@ -130,8 +130,20 @@
     "url": "https://github.com/notofonts/avestan/releases/tag/NotoSansAvestan-v2.003"
    },
    {
+    "tag": "NotoSerifBalinese-v2.005",
+    "url": "https://github.com/notofonts/balinese/releases/tag/NotoSerifBalinese-v2.005"
+   },
+   {
+    "tag": "NotoSansBalinese-v2.004",
+    "url": "https://github.com/notofonts/balinese/releases/tag/NotoSansBalinese-v2.004"
+   },
+   {
     "tag": "NotoSansCarian-v2.002",
     "url": "https://github.com/notofonts/carian/releases/tag/NotoSansCarian-v2.002"
+   },
+   {
+    "tag": "NotoSansDuployan-v3.001",
+    "url": "https://github.com/notofonts/duployan/releases/tag/NotoSansDuployan-v3.001"
    },
    {
     "tag": "NotoSansKharoshthi-v2.004",
@@ -1102,6 +1114,6 @@
   ]
  },
  "totals_per_month": {
-  "1": 1913
+  "1": 1947
  }
 }
