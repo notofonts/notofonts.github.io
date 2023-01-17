@@ -7052,6 +7052,19 @@
   "repo_url": "https://www.github.com/notofonts/kannada",
   "title": "Noto Kannada"
  },
+ "kawi": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/kawi",
+  "issues": [
+   {
+    "number": 1,
+    "title": "Why Sans?",
+    "url": "https://github.com/notofonts/kawi/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/kawi",
+  "title": "Noto Sans Kawi"
+ },
  "kayah-li": {
   "families": {
    "Noto Sans Kayah Li": {
@@ -7134,6 +7147,83 @@
   ],
   "repo_url": "https://www.github.com/notofonts/kharoshthi",
   "title": "Noto Kharoshthi"
+ },
+ "khitan-small-script": {
+  "families": {
+   "Noto Fangsong KSSRotated": {
+    "files": {
+     "full": [
+      "fonts/NotoFangsongKSSRotated/full/otf/NotoFangsongKSSRotated-Regular.otf",
+      "fonts/NotoFangsongKSSRotated/full/ttf/NotoFangsongKSSRotated-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoFangsongKSSRotated/hinted/ttf/NotoFangsongKSSRotated-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoFangsongKSSRotated/unhinted/otf/NotoFangsongKSSRotated-Regular.otf",
+      "fonts/NotoFangsongKSSRotated/unhinted/ttf/NotoFangsongKSSRotated-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Fangsong KSS Rotated v1.000 This is a new Noto family, covering the Khitan Small Script introduced in Unicode 13.0. This is a rotated variant of the main font.\n",
+     "published": "2023-01-11T13:44:11",
+     "url": "https://github.com/notofonts/khitan-small-script/releases/tag/NotoFangsongKSSRotated-v1.000",
+     "version": "v1.000"
+    }
+   },
+   "Noto Fangsong KSSVertical": {
+    "files": {
+     "full": [
+      "fonts/NotoFangsongKSSVertical/full/otf/NotoFangsongKSSVertical-Regular.otf",
+      "fonts/NotoFangsongKSSVertical/full/ttf/NotoFangsongKSSVertical-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoFangsongKSSVertical/hinted/ttf/NotoFangsongKSSVertical-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoFangsongKSSVertical/unhinted/otf/NotoFangsongKSSVertical-Regular.otf",
+      "fonts/NotoFangsongKSSVertical/unhinted/ttf/NotoFangsongKSSVertical-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Fangsong KSS Vertical v1.000 This is a new Noto family, covering the Khitan Small Script introduced in Unicode 13.0. This is a variant of the main font designed for vertical typesetting.\n",
+     "published": "2023-01-11T14:29:49",
+     "url": "https://github.com/notofonts/khitan-small-script/releases/tag/NotoFangsongKSSVertical-v1.000",
+     "version": "v1.000"
+    }
+   },
+   "Noto Serif Khitan Small Script": {
+    "files": {
+     "full": [
+      "fonts/NotoSerifKhitanSmallScript/full/otf/NotoSerifKhitanSmallScript-Regular.otf",
+      "fonts/NotoSerifKhitanSmallScript/full/ttf/NotoSerifKhitanSmallScript-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSerifKhitanSmallScript/hinted/ttf/NotoSerifKhitanSmallScript-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSerifKhitanSmallScript/unhinted/otf/NotoSerifKhitanSmallScript-Regular.otf",
+      "fonts/NotoSerifKhitanSmallScript/unhinted/ttf/NotoSerifKhitanSmallScript-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Serif Khitan Small Script v1.000 This is a new Noto family, covering the Khitan Small Script introduced in Unicode 13.0.\n",
+     "published": "2023-01-11T13:25:06",
+     "url": "https://github.com/notofonts/khitan-small-script/releases/tag/NotoSerifKhitanSmallScript-v1.000",
+     "version": "v1.000"
+    }
+   }
+  },
+  "gh_url": "https://notofonts.github.io/khitan-small-script",
+  "issues": [
+   {
+    "number": 1,
+    "title": "U+16FE4 KHITAN SMALL SCRIPT FILLER is invisible",
+    "url": "https://github.com/notofonts/khitan-small-script/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/khitan-small-script",
+  "title": "Noto Khitan Small Script"
  },
  "khmer": {
   "families": {
@@ -12510,6 +12600,13 @@
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/nabataean",
   "title": "Noto Nabataean"
+ },
+ "nag-mundari": {
+  "families": {},
+  "gh_url": "https://notofonts.github.io/nag-mundari",
+  "issues": [],
+  "repo_url": "https://www.github.com/notofonts/nag-mundari",
+  "title": "Noto Sans Nag Mundari"
  },
  "nandinagari": {
   "families": {

@@ -5908,6 +5908,7 @@
    "NotoSansKannada-v2.003"
   ]
  },
+ "kawi": {},
  "kayah-li": {
   "families": {
    "Noto Sans Kayah Li": {
@@ -5975,6 +5976,63 @@
   },
   "known_releases": [
    "NotoSansKharoshthi-v2.004"
+  ]
+ },
+ "khitan-small-script": {
+  "families": {
+   "Noto Fangsong KSSRotated": {
+    "files": [
+     "fonts/NotoFangsongKSSRotated/unhinted/ttf/NotoFangsongKSSRotated-Regular.ttf",
+     "fonts/NotoFangsongKSSRotated/unhinted/otf/NotoFangsongKSSRotated-Regular.otf",
+     "fonts/NotoFangsongKSSRotated/full/ttf/NotoFangsongKSSRotated-Regular.ttf",
+     "fonts/NotoFangsongKSSRotated/full/otf/NotoFangsongKSSRotated-Regular.otf",
+     "fonts/NotoFangsongKSSRotated/googlefonts/ttf/NotoFangsongKSSRotated-Regular.ttf",
+     "fonts/NotoFangsongKSSRotated/hinted/ttf/NotoFangsongKSSRotated-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Fangsong KSS Rotated v1.000 This is a new Noto family, covering the Khitan Small Script introduced in Unicode 13.0. This is a rotated variant of the main font.\n",
+     "published": "2023-01-11T13:44:11",
+     "url": "https://github.com/notofonts/khitan-small-script/releases/tag/NotoFangsongKSSRotated-v1.000",
+     "version": "v1.000"
+    }
+   },
+   "Noto Fangsong KSSVertical": {
+    "files": [
+     "fonts/NotoFangsongKSSVertical/unhinted/ttf/NotoFangsongKSSVertical-Regular.ttf",
+     "fonts/NotoFangsongKSSVertical/unhinted/otf/NotoFangsongKSSVertical-Regular.otf",
+     "fonts/NotoFangsongKSSVertical/full/ttf/NotoFangsongKSSVertical-Regular.ttf",
+     "fonts/NotoFangsongKSSVertical/full/otf/NotoFangsongKSSVertical-Regular.otf",
+     "fonts/NotoFangsongKSSVertical/googlefonts/ttf/NotoFangsongKSSVertical-Regular.ttf",
+     "fonts/NotoFangsongKSSVertical/hinted/ttf/NotoFangsongKSSVertical-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Fangsong KSS Vertical v1.000 This is a new Noto family, covering the Khitan Small Script introduced in Unicode 13.0. This is a variant of the main font designed for vertical typesetting.\n",
+     "published": "2023-01-11T14:29:49",
+     "url": "https://github.com/notofonts/khitan-small-script/releases/tag/NotoFangsongKSSVertical-v1.000",
+     "version": "v1.000"
+    }
+   },
+   "Noto Serif Khitan Small Script": {
+    "files": [
+     "fonts/NotoSerifKhitanSmallScript/googlefonts/ttf/NotoSerifKhitanSmallScript-Regular.ttf",
+     "fonts/NotoSerifKhitanSmallScript/hinted/ttf/NotoSerifKhitanSmallScript-Regular.ttf",
+     "fonts/NotoSerifKhitanSmallScript/unhinted/otf/NotoSerifKhitanSmallScript-Regular.otf",
+     "fonts/NotoSerifKhitanSmallScript/unhinted/ttf/NotoSerifKhitanSmallScript-Regular.ttf",
+     "fonts/NotoSerifKhitanSmallScript/full/otf/NotoSerifKhitanSmallScript-Regular.otf",
+     "fonts/NotoSerifKhitanSmallScript/full/ttf/NotoSerifKhitanSmallScript-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Serif Khitan Small Script v1.000 This is a new Noto family, covering the Khitan Small Script introduced in Unicode 13.0.\n",
+     "published": "2023-01-11T13:25:06",
+     "url": "https://github.com/notofonts/khitan-small-script/releases/tag/NotoSerifKhitanSmallScript-v1.000",
+     "version": "v1.000"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSerifKhitanSmallScript-v1.000",
+   "NotoFangsongKSSRotated-v1.000",
+   "NotoFangsongKSSVertical-v1.000"
   ]
  },
  "khmer": {
@@ -9697,6 +9755,7 @@
    "NotoSansNabataean-v2.001"
   ]
  },
+ "nag-mundari": {},
  "nandinagari": {
   "families": {
    "Noto Sans Nandinagari": {
