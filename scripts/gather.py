@@ -44,7 +44,7 @@ subprocess.run(["git", "config", "user.email", "actions-user@users.noreply.githu
 
 to_push = []
 
-sources = json.load(open("sources.json"))
+fontrepos = json.load(open("fontrepos.json"))
 if os.path.exists("state.json"):
     state = json.load(open("state.json"))
 else:
@@ -52,7 +52,7 @@ else:
 
 results = {}
 
-for repo_name in sources.keys():
+for repo_name in fontrepos:
     if repo_name not in org_names:
         continue
 
