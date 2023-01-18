@@ -15,7 +15,7 @@ g = Github(os.environ["GITHUB_TOKEN"])
 org = g.get_organization("notofonts")
 org_repos = org.get_repos()
 org_names = [r.name for r in org_repos]
-sources = json.load(open("sources.json"))
+sources = json.load(open("fontrepos.json"))
 
 this = datetime.now()
 
@@ -27,14 +27,14 @@ totals_per_month = {}
 issues_by_age = {}
 
 total = 0
-for repo_name in sources.keys():
+for repo_name in sources:
     if repo_name not in org_names:
         continue
     repo = g.get_repo("notofonts/" + repo_name)
     issues = repo.get_issues(state="all")
-    total += len(list(issues))
     for i in issues:
         if i.state == "open":
+            total += 1
             open_per_repo[repo_name] += 1
             if i.created_at.year == this.year:
                 opened_per_month[i.created_at.month] += 1
