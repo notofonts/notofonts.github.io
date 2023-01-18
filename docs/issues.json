@@ -44,7 +44,9 @@
   "javanese": 5,
   "kaithi": 6,
   "kannada": 12,
+  "kawi": 1,
   "kharoshthi": 1,
+  "khitan-small-script": 1,
   "khmer": 8,
   "khojki": 6,
   "khudawadi": 1,
@@ -74,7 +76,7 @@
   "nastaliq": 17,
   "newa": 1,
   "nko": 2,
-  "nushu": 3,
+  "nushu": 4,
   "nyiakeng-puachue-hmong": 3,
   "old-hungarian": 3,
   "old-hungarian-ui": 2,
@@ -121,7 +123,7 @@
   "zanabazar-square": 2
  },
  "opened_per_month": {
-  "1": 12
+  "1": 15
  },
  "releases_per_month": {
   "1": [
@@ -148,6 +150,22 @@
    {
     "tag": "NotoSansKharoshthi-v2.004",
     "url": "https://github.com/notofonts/kharoshthi/releases/tag/NotoSansKharoshthi-v2.004"
+   },
+   {
+    "tag": "NotoSerifKhitanSmallScript-v1.000",
+    "url": "https://github.com/notofonts/khitan-small-script/releases/tag/NotoSerifKhitanSmallScript-v1.000"
+   },
+   {
+    "tag": "NotoFangsongKSSRotated-v1.000",
+    "url": "https://github.com/notofonts/khitan-small-script/releases/tag/NotoFangsongKSSRotated-v1.000"
+   },
+   {
+    "tag": "NotoFangsongKSSVertical-v1.000",
+    "url": "https://github.com/notofonts/khitan-small-script/releases/tag/NotoFangsongKSSVertical-v1.000"
+   },
+   {
+    "tag": "NotoSans-v2.010",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSans-v2.010"
    },
    {
     "tag": "NotoTraditionalNushu-v2.003",
@@ -1114,6 +1132,6 @@
   ]
  },
  "totals_per_month": {
-  "1": 1947
+  "1": 829
  }
 }
