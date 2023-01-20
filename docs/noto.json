@@ -7055,13 +7055,7 @@
  "kawi": {
   "families": {},
   "gh_url": "https://notofonts.github.io/kawi",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Why Sans?",
-    "url": "https://github.com/notofonts/kawi/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/kawi",
   "title": "Noto Sans Kawi"
  },
@@ -9433,11 +9427,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/387"
    },
    {
-    "number": 385,
-    "title": "Noto Sans (LCG) builds missing from https://github.com/notofonts/notofonts.github.io/tree/main/fonts/",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/385"
-   },
-   {
     "number": 237,
     "title": "Noto Sans Display Italic : adjust modifier letters component position",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/237"
@@ -9466,11 +9455,6 @@
     "number": 2,
     "title": "Noto Sans and Noto Sans Bold have differ size while setted as 13 px",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/2"
-   },
-   {
-    "number": 70,
-    "title": "U+1F1D GREEK CAPITAL LETTER EPSILON WITH DASIA AND OXIA left side bearing too negative",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/70"
    },
    {
     "number": 3,
@@ -10273,19 +10257,9 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/172"
    },
    {
-    "number": 190,
-    "title": "NotoSansUIMono-MM.glyphs: 'at' and 'percent' glyphs are double wide",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/190"
-   },
-   {
     "number": 173,
     "title": "Combining enclosing box causes TOFU",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/173"
-   },
-   {
-    "number": 191,
-    "title": "APL support in Monospace font?",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/191"
    },
    {
     "number": 174,
@@ -10298,24 +10272,9 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/175"
    },
    {
-    "number": 176,
-    "title": "monospaced",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/176"
-   },
-   {
-    "number": 230,
-    "title": "Some fonts might need update for USE and default mark zeroing behavior change in HB",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/230"
-   },
-   {
     "number": 226,
     "title": "Combining grapheme joiner (CGJ) with double diacritics",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/226"
-   },
-   {
-    "number": 232,
-    "title": "Musical Flat Symbol",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/232"
    },
    {
     "number": 177,
@@ -10333,34 +10292,9 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/179"
    },
    {
-    "number": 180,
-    "title": "Latin alphas \u0251 U+0251, \u0252 U+0252, \uab64 U+AB64 should have better shapes",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/180"
-   },
-   {
-    "number": 181,
-    "title": "Add <IPPH> and <APPH> (if necessary) to deal with IPA + Greek unification",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/181"
-   },
-   {
-    "number": 182,
-    "title": "Thin space advance width variant for French?",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/182"
-   },
-   {
-    "number": 183,
-    "title": "U+031A COMBINING LEFT ANGLE ABOVE is misplaced",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/183"
-   },
-   {
     "number": 184,
     "title": "u+0268 in NotoSansDisplay Italic missing from soft-dotted GSUB rules",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/184"
-   },
-   {
-    "number": 185,
-    "title": "Numbers blurry.",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/185"
    },
    {
     "number": 186,
