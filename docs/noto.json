@@ -9987,16 +9987,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/124"
    },
    {
-    "number": 125,
-    "title": "Printing Issues with V2.0 Noto Sans .ttf",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/125"
-   },
-   {
-    "number": 126,
-    "title": "Bogus zero kerning data (\u2018y\u2019 + lambda)",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/126"
-   },
-   {
     "number": 127,
     "title": "Missing U+1D102 MUSICAL SYMBOL FINAL BARLINE for Teuthonista",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/127"
@@ -10122,11 +10112,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/146"
    },
    {
-    "number": 196,
-    "title": "Noto Sans Mono doesn't declare spacing property",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/196"
-   },
-   {
     "number": 195,
     "title": "Noto Sans Mono too high",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/195"
@@ -10147,24 +10132,9 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/149"
    },
    {
-    "number": 150,
-    "title": "[Arimo, Tinos, & Cousine] Add more weights",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/150"
-   },
-   {
     "number": 151,
     "title": "Please add Latin Small Ligature",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/151"
-   },
-   {
-    "number": 152,
-    "title": "the glyph for FEFF \"ZERO WIDTH NO-BREAK SPACE\" does not have a 0 advance width for some of the masters in NotoSans-ItalicMM.glyphs and NotoSansDisplay-ItalicMM.glyphs",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/152"
-   },
-   {
-    "number": 153,
-    "title": "Last version of Noto Sans not working with Microsoft Word",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/153"
    },
    {
     "number": 154,
@@ -10202,11 +10172,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/161"
    },
    {
-    "number": 162,
-    "title": "Imporve Dinka langauge support in Noto Sans and Noto Serif families",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/162"
-   },
-   {
     "number": 163,
     "title": "ftxdumperfuser 347 reports bad `gvar` table in NotoSans-VF.ttf",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/163"
@@ -10242,11 +10207,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/168"
    },
    {
-    "number": 169,
-    "title": "Kpelle problems - Full support for latin characters? ",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/169"
-   },
-   {
     "number": 170,
     "title": "Combining Cyrillic numbers",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/170"
@@ -10260,11 +10220,6 @@
     "number": 173,
     "title": "Combining enclosing box causes TOFU",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/173"
-   },
-   {
-    "number": 174,
-    "title": "Check if Noto Sans+Serif covers Twi",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/174"
    },
    {
     "number": 175,
@@ -10292,9 +10247,9 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/179"
    },
    {
-    "number": 184,
-    "title": "u+0268 in NotoSansDisplay Italic missing from soft-dotted GSUB rules",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/184"
+    "number": 181,
+    "title": "Add <IPPH> and <APPH> (if necessary) to deal with IPA + Greek unification",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/181"
    },
    {
     "number": 186,
