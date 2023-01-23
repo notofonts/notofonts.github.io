@@ -9407,6 +9407,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 394,
+    "title": "Combining Diacritical Marks Extended: U+1AC9..U+1ACE display wrong characters' glyphs",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/394"
+   },
+   {
     "number": 393,
     "title": "Kerning issues with \u0129 repeated and next to apostrophe and glottal stop.",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/393"
