@@ -613,7 +613,7 @@
    },
    {
     "number": 34,
-    "title": "Digits over U+0601 (ARABIC SIGN SANAH) are too small in Noto Naskh Arabic",
+    "title": "Various subtending digits issues",
     "url": "https://github.com/notofonts/arabic/issues/34"
    },
    {
@@ -625,11 +625,6 @@
     "number": 31,
     "title": "Lower three dots incorrectly orientated in \"Noto Sans Arabic\" codepoints U+0752 and U+0753",
     "url": "https://github.com/notofonts/arabic/issues/31"
-   },
-   {
-    "number": 38,
-    "title": "Missing glyph \"\u062c\" in not naskh arabic",
-    "url": "https://github.com/notofonts/arabic/issues/38"
    },
    {
     "number": 30,
@@ -657,11 +652,6 @@
     "url": "https://github.com/notofonts/arabic/issues/25"
    },
    {
-    "number": 24,
-    "title": "Better joining behavior should be implemented to U+0600 U+0601 U+0604 in All Arabic fonts",
-    "url": "https://github.com/notofonts/arabic/issues/24"
-   },
-   {
     "number": 23,
     "title": "Bad 'aalt' in Noto Sans Arabic",
     "url": "https://github.com/notofonts/arabic/issues/23"
@@ -670,11 +660,6 @@
     "number": 22,
     "title": "NotoSansArabicUI might truncate the following strings",
     "url": "https://github.com/notofonts/arabic/issues/22"
-   },
-   {
-    "number": 21,
-    "title": " U+0600 U+0601 U+0602 U+0603 overlap the preceding letters in NotoNaskhArabic and NotoNaskhArabicUI",
-    "url": "https://github.com/notofonts/arabic/issues/21"
    },
    {
     "number": 20,
@@ -698,7 +683,7 @@
    },
    {
     "number": 11,
-    "title": "Noto Naskh Arabic / Noto Sans Arabic Arabic decimal and thousands separators",
+    "title": "Noto Sans Arabic Arabic decimal and thousands separators",
     "url": "https://github.com/notofonts/arabic/issues/11"
    },
    {
@@ -717,24 +702,9 @@
     "url": "https://github.com/notofonts/arabic/issues/8"
    },
    {
-    "number": 6,
-    "title": "Arabic subtending marks doesn\u2019t work under Arabic-Indic digits",
-    "url": "https://github.com/notofonts/arabic/issues/6"
-   },
-   {
-    "number": 5,
-    "title": "Noto Sans Arabic needs GSUB for Sindhi digit shapes",
-    "url": "https://github.com/notofonts/arabic/issues/5"
-   },
-   {
     "number": 4,
     "title": "Noto Kufi Arabic doesn't render in Powerpoint on Windows",
     "url": "https://github.com/notofonts/arabic/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "NotoSansArabic-GX and NotoSansArabicUI-GX clip diacritics",
-    "url": "https://github.com/notofonts/arabic/issues/3"
    },
    {
     "number": 2,
@@ -7624,6 +7594,11 @@
   },
   "gh_url": "https://notofonts.github.io/khmer",
   "issues": [
+   {
+    "number": 27,
+    "title": "Some files in Zip file starts with '..'",
+    "url": "https://github.com/notofonts/khmer/issues/27"
+   },
    {
     "number": 9,
     "title": "Khmer glyph error on iOS for \u1796\u17c4\u17c7 (U+1796U+17C4U+17C7)",
