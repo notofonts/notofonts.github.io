@@ -1,0 +1,30 @@
+name: Monthly release/tag
+on:
+  push: # For testing
+  schedule:
+    - cron: '0 0 1 * *'
+
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v2
+
+      - name: Generate release tag
+        id: generate_release_tag
+        uses: amitsingh-007/next-release-tag@v1.0.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          tag_prefix: 'noto-monthly-release-'
+
+      - name: Create Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.generate_release_tag.outputs.release_tag }}
+          release_name: Noto Monthly Release ${{ steps.generate_release_tag.outputs.release_tag }}
+          body: Monthly Noto release for downstream distributions
