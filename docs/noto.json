@@ -627,11 +627,6 @@
     "url": "https://github.com/notofonts/arabic/issues/31"
    },
    {
-    "number": 30,
-    "title": "Arabic: what\u2019s missing from Unicode 13",
-    "url": "https://github.com/notofonts/arabic/issues/30"
-   },
-   {
     "number": 29,
     "title": "Bad ligature of \u27e8\u0644\u0649\u0645\u27e9 in Noto Sans Arabic",
     "url": "https://github.com/notofonts/arabic/issues/29"
@@ -17177,6 +17172,11 @@
   },
   "gh_url": "https://notofonts.github.io/thaana",
   "issues": [
+   {
+    "number": 3,
+    "title": "Best Practices for Merging NotoSansThaana-Regular.ttf with other NotoSans fonts?",
+    "url": "https://github.com/notofonts/thaana/issues/3"
+   },
    {
     "number": 2,
     "title": "a new version of Thaana",
