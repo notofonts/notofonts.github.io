@@ -175,11 +175,10 @@ body { padding-top: 4.5rem }
 										>{{latest_release.version}}</a
 									>
 									{{#if third_party_versions}}
-									&nbsp;&nbsp;&nbsp;(
-									{{#each third_party_versions}}
+									<span class="ml-5 font-weight-normal">{{#each third_party_versions}}
 										{{{icon}}} <span class="up-to-date-{{up_to_date}}">{{{version}}}</span>
 									{{/each}}
-									)
+									</span>
 									{{/if}}
 
 								</h6>
