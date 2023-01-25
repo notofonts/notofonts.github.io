@@ -48,6 +48,8 @@ h6 .material-icons { display:inline-flex; vertical-align: top; font-size:1.1rem;
 .up-to-date-true { background: #f0fff0; }
 html { scroll-padding-top: 60px; }
 body { padding-top: 4.5rem }
+.title { display:inline-block; position:relative; left: -20px;	}
+.title a {font-size: 0.8em; }
       </style>
 	</head>
 	<body>
@@ -107,7 +109,7 @@ body { padding-top: 4.5rem }
 
 			{{#each results}}
 			<div id="{{@key}}">
-				<h3>{{title}}</h3>
+				<h3 class="title"><a href="#{{@key}}" class="text-secondary">#</a> {{title}}</h3>
 				<ul>
 					<li>
 						<a href="{{gh_url}}">Development builds</a>
