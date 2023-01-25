@@ -1,6 +1,5 @@
 name: Monthly release/tag
 on:
-  push: # A simple edit to trigger the push
   schedule:
     - cron: '0 0 1 * *'
 
