@@ -12,6 +12,17 @@ import subprocess
 
 
 TESTING = False
+SPECIAL_REPOS = [
+    "notofonts.github.io",
+    "overview",
+    ".github",
+    ".allstar",
+    "notobuilder",
+    "noto-data-dev",
+    "noto-docs",
+    "noto-project-template",
+    "notoglot-mini",
+]
 
 
 def fonts_from_zip(zipfile, dst=None):
@@ -52,8 +63,14 @@ else:
 
 results = {}
 
-for repo_name in fontrepos:
-    if repo_name not in org_names:
+for repo_name in org_names:
+    if repo_name in SPECIAL_REPOS:
+        continue
+    repo = g.get_repo("notofonts/" + repo_name)
+    if repo.archived:
+        continue
+    if repo_name not in fontrepos:
+        print("Unknown repo %s; is it missing from fontrepos?" % repo_name)
         continue
 
     print(f"Gathering data for {repo_name}")
@@ -61,6 +78,7 @@ for repo_name in fontrepos:
     repo = g.get_repo("notofonts/" + repo_name)
     results[repo_name] = {
         "title": repo.description,
+        "tier": fontrepos[repo_name].get("tier", 3),
         "gh_url": "https://notofonts.github.io/" + repo_name,
         "repo_url": "https://www.github.com/notofonts/" + repo_name,
     }

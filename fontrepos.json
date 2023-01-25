@@ -1,165 +1,483 @@
-[
-  "Arimo",
-  "Cousine",
-  "Tinos",
-  "adlam",
-  "ahom",
-  "anatolian-hieroglyphs",
-  "arabic",
-  "armenian",
-  "avestan",
-  "balinese",
-  "bamum",
-  "bassa-vah",
-  "batak",
-  "bengali",
-  "bhaiksuki",
-  "brahmi",
-  "buginese",
-  "buhid",
-  "canadian-aboriginal",
-  "carian",
-  "caucasian-albanian",
-  "chakma",
-  "cham",
-  "cherokee",
-  "chorasmian",
-  "coptic",
-  "cuneiform",
-  "cypriot",
-  "cypro-minoan",
-  "deseret",
-  "devanagari",
-  "dives-akuru",
-  "dogra",
-  "duployan",
-  "egyptian-hieroglyphs",
-  "elbasan",
-  "elymaic",
-  "ethiopic",
-  "georgian",
-  "glagolitic",
-  "gothic",
-  "grantha",
-  "gujarati",
-  "gunjala-gondi",
-  "gurmukhi",
-  "hanifi-rohingya",
-  "hanunoo",
-  "hatran",
-  "hebrew",
-  "imperial-aramaic",
-  "indic-siyaq-numbers",
-  "inscriptional-pahlavi",
-  "inscriptional-parthian",
-  "javanese",
-  "kaithi",
-  "kawi",
-  "kannada",
-  "kayah-li",
-  "kharoshthi",
-  "khitan-small-script",
-  "khmer",
-  "khojki",
-  "khudawadi",
-  "lao",
-  "latin-greek-cyrillic",
-  "lepcha",
-  "limbu",
-  "linear-a",
-  "linear-b",
-  "lisu",
-  "lycian",
-  "lydian",
-  "mahajani",
-  "makasar",
-  "malayalam",
-  "mandaic",
-  "manichaean",
-  "marchen",
-  "masaram-gondi",
-  "math",
-  "mayan-numerals",
-  "medefaidrin",
-  "meetei-mayek",
-  "mende-kikakui",
-  "meroitic",
-  "miao",
-  "modi",
-  "mongolian",
-  "mro",
-  "multani",
-  "music",
-  "myanmar",
-  "nabataean",
-  "nag-mundari",
-  "nandinagari",
-  "nastaliq",
-  "new-tai-lue",
-  "newa",
-  "nko",
-  "nushu",
-  "nyiakeng-puachue-hmong",
-  "ogham",
-  "ol-chiki",
-  "old-hungarian",
-  "old-hungarian-ui",
-  "old-italic",
-  "old-north-arabian",
-  "old-permic",
-  "old-persian",
-  "old-sogdian",
-  "old-south-arabian",
-  "old-turkic",
-  "old-uyghur",
-  "oriya",
-  "osage",
-  "osmanya",
-  "pahawh-hmong",
-  "palmyrene",
-  "pau-cin-hau",
-  "phags-pa",
-  "phoenician",
-  "psalter-pahlavi",
-  "rejang",
-  "runic",
-  "samaritan",
-  "saurashtra",
-  "sharada",
-  "shavian",
-  "siddham",
-  "sign-writing",
-  "sinhala",
-  "sogdian",
-  "sora-sompeng",
-  "soyombo",
-  "sundanese",
-  "syloti-nagri",
-  "symbols",
-  "syriac",
-  "tagalog",
-  "tagbanwa",
-  "tai-le",
-  "tai-tham",
-  "tai-viet",
-  "takri",
-  "tamil",
-  "tangsa",
-  "tangut",
-  "telugu",
-  "test",
-  "thaana",
-  "thai",
-  "tibetan",
-  "tifinagh",
-  "tirhuta",
-  "toto",
-  "ugaritic",
-  "vai",
-  "vithkuqi",
-  "wancho",
-  "warang-citi",
-  "yezidi",
-  "yi",
-  "zanabazar-square"
-]
+{
+  "adlam": {
+    "tier": 2,
+    "_a_note_to_the_reader": "A tier does not designate how important we think a particular script is; all scripts are important. Tiers only exist because we need to split the Noto project up into manageable chunks when e.g. providing updates to distributors or reporting progress. They're used for planning more than prioritizing."
+  },
+  "ahom": {
+    "tier": 4
+  },
+  "anatolian-hieroglyphs": {
+    "tier": 5
+  },
+  "arabic": {
+    "tier": 1
+  },
+  "armenian": {
+    "tier": 1
+  },
+  "avestan": {
+    "tier": 5
+  },
+  "balinese": {
+    "tier": 2
+  },
+  "bamum": {
+    "tier": 3
+  },
+  "bassa-vah": {
+    "tier": 3
+  },
+  "batak": {
+    "tier": 3
+  },
+  "bengali": {
+    "tier": 1
+  },
+  "bhaiksuki": {
+    "tier": 5
+  },
+  "brahmi": {
+    "tier": 4
+  },
+  "buginese": {
+    "tier": 3
+  },
+  "buhid": {
+    "tier": 3
+  },
+  "canadian-aboriginal": {
+    "tier": 3
+  },
+  "carian": {
+    "tier": 5
+  },
+  "caucasian-albanian": {
+    "tier": 5
+  },
+  "chakma": {
+    "tier": 3
+  },
+  "cham": {
+    "tier": 3
+  },
+  "cherokee": {
+    "tier": 3
+  },
+  "chorasmian": {
+    "tier": 5
+  },
+  "coptic": {
+    "tier": 3
+  },
+  "cuneiform": {
+    "tier": 4
+  },
+  "cypriot": {
+    "tier": 5
+  },
+  "cypro-minoan": {
+    "tier": 5
+  },
+  "deseret": {
+    "tier": 4
+  },
+  "devanagari": {
+    "tier": 1
+  },
+  "dives-akuru": {
+    "tier": 5
+  },
+  "dogra": {
+    "tier": 4
+  },
+  "duployan": {
+    "tier": 3
+  },
+  "egyptian-hieroglyphs": {
+    "tier": 4
+  },
+  "elbasan": {
+    "tier": 5
+  },
+  "elymaic": {
+    "tier": 5
+  },
+  "ethiopic": {
+    "tier": 2
+  },
+  "georgian": {
+    "tier": 2
+  },
+  "glagolitic": {
+    "tier": 4
+  },
+  "gothic": {
+    "tier": 4
+  },
+  "grantha": {
+    "tier": 4
+  },
+  "gujarati": {
+    "tier": 1
+  },
+  "gunjala-gondi": {
+    "tier": 3
+  },
+  "gurmukhi": {
+    "tier": 1
+  },
+  "hanifi-rohingya": {
+    "tier": 3
+  },
+  "hanunoo": {
+    "tier": 3
+  },
+  "hatran": {
+    "tier": 5
+  },
+  "hebrew": {
+    "tier": 1
+  },
+  "imperial-aramaic": {
+    "tier": 5
+  },
+  "indic-siyaq-numbers": {
+    "tier": 5
+  },
+  "inscriptional-pahlavi": {
+    "tier": 5
+  },
+  "inscriptional-parthian": {
+    "tier": 5
+  },
+  "javanese": {
+    "tier": 3
+  },
+  "kaithi": {
+    "tier": 4
+  },
+  "kawi": {
+    "tier": 4
+  },
+  "kannada": {
+    "tier": 1
+  },
+  "kayah-li": {
+    "tier": 3
+  },
+  "kharoshthi": {
+    "tier": 5
+  },
+  "khitan-small-script": {
+    "tier": 5
+  },
+  "khmer": {
+    "tier": 2
+  },
+  "khojki": {
+    "tier": 3
+  },
+  "khudawadi": {
+    "tier": 4
+  },
+  "lao": {
+    "tier": 3
+  },
+  "latin-greek-cyrillic": {
+    "tier": 1
+  },
+  "lepcha": {
+    "tier": 3
+  },
+  "limbu": {
+    "tier": 2
+  },
+  "linear-a": {
+    "tier": 4
+  },
+  "linear-b": {
+    "tier": 4
+  },
+  "lisu": {
+    "tier": 2
+  },
+  "lycian": {
+    "tier": 5
+  },
+  "lydian": {
+    "tier": 4
+  },
+  "mahajani": {
+    "tier": 4
+  },
+  "makasar": {
+    "tier": 4
+  },
+  "malayalam": {
+    "tier": 1
+  },
+  "mandaic": {
+    "tier": 4
+  },
+  "manichaean": {
+    "tier": 4
+  },
+  "marchen": {
+    "tier": 5
+  },
+  "masaram-gondi": {
+    "tier": 3
+  },
+  "math": {
+    "tier": 3
+  },
+  "mayan-numerals": {
+    "tier": 5
+  },
+  "medefaidrin": {
+    "tier": 3
+  },
+  "meetei-mayek": {
+    "tier": 3
+  },
+  "mende-kikakui": {
+    "tier": 3
+  },
+  "meroitic": {
+    "tier": 5
+  },
+  "miao": {
+    "tier": 3
+  },
+  "modi": {
+    "tier": 3
+  },
+  "mongolian": {
+    "tier": 3
+  },
+  "mro": {
+    "tier": 3
+  },
+  "multani": {
+    "tier": 3
+  },
+  "music": {
+    "tier": 3
+  },
+  "myanmar": {
+    "tier": 2
+  },
+  "nabataean": {
+    "tier": 5
+  },
+  "nag-mundari": {
+    "tier": 3
+  },
+  "nandinagari": {
+    "tier": 5
+  },
+  "nastaliq": {
+    "tier": 1
+  },
+  "new-tai-lue": {
+    "tier": 3
+  },
+  "newa": {
+    "tier": 3
+  },
+  "nko": {
+    "tier": 3
+  },
+  "nushu": {
+    "tier": 4
+  },
+  "nyiakeng-puachue-hmong": {
+    "tier": 3
+  },
+  "ogham": {
+    "tier": 4
+  },
+  "ol-chiki": {
+    "tier": 3
+  },
+  "old-hungarian": {
+    "tier": 4
+  },
+  "old-hungarian-ui": {
+    "tier": 4
+  },
+  "old-italic": {
+    "tier": 5
+  },
+  "old-north-arabian": {
+    "tier": 5
+  },
+  "old-permic": {
+    "tier": 5
+  },
+  "old-persian": {
+    "tier": 5
+  },
+  "old-sogdian": {
+    "tier": 5
+  },
+  "old-south-arabian": {
+    "tier": 5
+  },
+  "old-turkic": {
+    "tier": 5
+  },
+  "old-uyghur": {
+    "tier": 5
+  },
+  "oriya": {
+    "tier": 1
+  },
+  "osage": {
+    "tier": 3
+  },
+  "osmanya": {
+    "tier": 3
+  },
+  "pahawh-hmong": {
+    "tier": 3
+  },
+  "palmyrene": {
+    "tier": 5
+  },
+  "pau-cin-hau": {
+    "tier": 3
+  },
+  "phags-pa": {
+    "tier": 4
+  },
+  "phoenician": {
+    "tier": 4
+  },
+  "psalter-pahlavi": {
+    "tier": 5
+  },
+  "rejang": {
+    "tier": 3
+  },
+  "runic": {
+    "tier": 4
+  },
+  "samaritan": {
+    "tier": 5
+  },
+  "saurashtra": {
+    "tier": 3
+  },
+  "sharada": {
+    "tier": 3
+  },
+  "shavian": {
+    "tier": 4
+  },
+  "siddham": {
+    "tier": 3
+  },
+  "sign-writing": {
+    "tier": 3
+  },
+  "sinhala": {
+    "tier": 1
+  },
+  "sogdian": {
+    "tier": 5
+  },
+  "sora-sompeng": {
+    "tier": 3
+  },
+  "soyombo": {
+    "tier": 4
+  },
+  "sundanese": {
+    "tier": 3
+  },
+  "syloti-nagri": {
+    "tier": 3
+  },
+  "symbols": {
+    "tier": 3
+  },
+  "syriac": {
+    "tier": 3
+  },
+  "tagalog": {
+    "tier": 3
+  },
+  "tagbanwa": {
+    "tier": 3
+  },
+  "tai-le": {
+    "tier": 3
+  },
+  "tai-tham": {
+    "tier": 3
+  },
+  "tai-viet": {
+    "tier": 3
+  },
+  "takri": {
+    "tier": 3
+  },
+  "tamil": {
+    "tier": 1
+  },
+  "tangsa": {
+    "tier": 3
+  },
+  "tangut": {
+    "tier": 5
+  },
+  "telugu": {
+    "tier": 1
+  },
+  "test": {
+    "tier": 5
+  },
+  "thaana": {
+    "tier": 3
+  },
+  "thai": {
+    "tier": 2
+  },
+  "tibetan": {
+    "tier": 3
+  },
+  "tifinagh": {
+    "tier": 3
+  },
+  "tirhuta": {
+    "tier": 4
+  },
+  "toto": {
+    "tier": 3
+  },
+  "ugaritic": {
+    "tier": 5
+  },
+  "vai": {
+    "tier": 3
+  },
+  "vithkuqi": {
+    "tier": 4
+  },
+  "wancho": {
+    "tier": 3
+  },
+  "warang-citi": {
+    "tier": 3
+  },
+  "yezidi": {
+    "tier": 4
+  },
+  "yi": {
+    "tier": 3
+  },
+  "zanabazar-square": {
+    "tier": 3
+  }
+}

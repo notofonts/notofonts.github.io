@@ -119,6 +119,30 @@ td .material-icons { display:inline-flex; vertical-align: top; font-size:1.1rem;
 				</tr>
 				{{/each}}
 			</table>
+			<h2>Issues per tier</h2>
+			<div class="row">
+				<div class="col">
+					<table class="table">
+						<tr>
+							<th>Tier</th>
+							<th>Open issues</th>
+						</tr>
+						{{#each tiers}}
+						<tr>
+							<td>{{@key}}</td>
+							<td>{{#each this}}
+									<a href="http://github.com/notofonts/{{repo}}">{{repo}}</a>: {{issues}}{{#unless
+						@last}}, {{/unless}}
+									{{/each}}
+							</td>
+						</tr>
+						{{/each}}
+					</table>
+				</div>
+				<div class="col">
+					<img class="img-fluid" src="per-tier.png" />
+				</div>
+			</div>
 			<h2>Releases</h2>
 			<div class="row">
 				<div class="col">

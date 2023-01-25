@@ -1,138 +1,4 @@
 {
- "Arimo": {
-  "families": {},
-  "gh_url": "https://notofonts.github.io/Arimo",
-  "issues": [
-   {
-    "number": 15,
-    "title": "Noto fonts Arimo is failing to build",
-    "url": "https://github.com/notofonts/Arimo/issues/15"
-   },
-   {
-    "number": 14,
-    "title": "Erroneous \"Italic\" Style on Arimo-BoldItalic.ttf",
-    "url": "https://github.com/notofonts/Arimo/issues/14"
-   },
-   {
-    "number": 13,
-    "title": "Wrong weight value for Arimo-BoldItalic.ttf",
-    "url": "https://github.com/notofonts/Arimo/issues/13"
-   },
-   {
-    "number": 12,
-    "title": "[Arimo, Tinos, & Cousine] The Eng (U+014A) should be N-shaped (as opposed to n-) ",
-    "url": "https://github.com/notofonts/Arimo/issues/12"
-   },
-   {
-    "number": 11,
-    "title": "Questionable glyph for U+1D24 LATIN LETTER VOICED LARYNGEAL SPIRANT",
-    "url": "https://github.com/notofonts/Arimo/issues/11"
-   },
-   {
-    "number": 16,
-    "title": "IPA primary stress symbol overlaps with following glyph in Arimo-Regular",
-    "url": "https://github.com/notofonts/Arimo/issues/16"
-   },
-   {
-    "number": 10,
-    "title": "Several missing characters from croscore fonts (musical symbols, mathematical characters, small capital Q)",
-    "url": "https://github.com/notofonts/Arimo/issues/10"
-   },
-   {
-    "number": 9,
-    "title": "Latin: combining diacritics positioning broken on historical letters",
-    "url": "https://github.com/notofonts/Arimo/issues/9"
-   },
-   {
-    "number": 8,
-    "title": "Latin/IPA vertical bars design issues",
-    "url": "https://github.com/notofonts/Arimo/issues/8"
-   },
-   {
-    "number": 2,
-    "title": "in Arimo, \u1d7c\u1da5 should be based on \u0269",
-    "url": "https://github.com/notofonts/Arimo/issues/2"
-   },
-   {
-    "number": 7,
-    "title": "changes to U+1D7B U+1DA6 U+1DA7 in Arimo and Cousine",
-    "url": "https://github.com/notofonts/Arimo/issues/7"
-   },
-   {
-    "number": 6,
-    "title": "Latin upsilons design issues in Arimo and Cousine",
-    "url": "https://github.com/notofonts/Arimo/issues/6"
-   },
-   {
-    "number": 5,
-    "title": " jumping superscripts of different sizes and different optical weights in Arimo, Cousine and Tinos",
-    "url": "https://github.com/notofonts/Arimo/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "combining cedilla is misplaced w.r.t. a lot of base characters in Arimo, Tinos, Cousine",
-    "url": "https://github.com/notofonts/Arimo/issues/4"
-   },
-   {
-    "number": 3,
-    "title": " \ua7b5 in Tinos which still needs serifs and \u019b should be \u03bb with a stroke in Arimo and Cousine",
-    "url": "https://github.com/notofonts/Arimo/issues/3"
-   },
-   {
-    "number": 1,
-    "title": "Arimo metrics",
-    "url": "https://github.com/notofonts/Arimo/issues/1"
-   }
-  ],
-  "repo_url": "https://www.github.com/notofonts/Arimo",
-  "title": "Noto Arimo"
- },
- "Cousine": {
-  "families": {},
-  "gh_url": "https://notofonts.github.io/Cousine",
-  "issues": [
-   {
-    "number": 2,
-    "title": "Three-character tone letter ligatures not working in Cousine",
-    "url": "https://github.com/notofonts/Cousine/issues/2"
-   },
-   {
-    "number": 3,
-    "title": "Cousine has spacing problems on Hebrew",
-    "url": "https://github.com/notofonts/Cousine/issues/3"
-   },
-   {
-    "number": 1,
-    "title": "Cousine doesn't support combining marks properly?",
-    "url": "https://github.com/notofonts/Cousine/issues/1"
-   }
-  ],
-  "repo_url": "https://www.github.com/notofonts/Cousine",
-  "title": "Noto Cousine"
- },
- "Tinos": {
-  "families": {},
-  "gh_url": "https://notofonts.github.io/Tinos",
-  "issues": [
-   {
-    "number": 3,
-    "title": "in Tinos, \u0264 should have terminals curved downwards",
-    "url": "https://github.com/notofonts/Tinos/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Latin phonetic small cap letters design issues in Tinos",
-    "url": "https://github.com/notofonts/Tinos/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Tinos metrics",
-    "url": "https://github.com/notofonts/Tinos/issues/1"
-   }
-  ],
-  "repo_url": "https://www.github.com/notofonts/Tinos",
-  "title": "Noto Tinos"
- },
  "adlam": {
   "families": {
    "Noto Sans Adlam": {
@@ -230,6 +96,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/adlam",
+  "tier": 2,
   "title": "Noto Adlam"
  },
  "ahom": {
@@ -280,6 +147,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/ahom",
+  "tier": 4,
   "title": "Noto Ahom"
  },
  "anatolian-hieroglyphs": {
@@ -309,6 +177,7 @@
   "gh_url": "https://notofonts.github.io/anatolian-hieroglyphs",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/anatolian-hieroglyphs",
+  "tier": 5,
   "title": "Noto Anatolian Hieroglyphs"
  },
  "arabic": {
@@ -708,6 +577,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/arabic",
+  "tier": 1,
   "title": "Noto Arabic"
  },
  "armenian": {
@@ -1137,6 +1007,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/armenian",
+  "tier": 1,
   "title": "Noto Armenian"
  },
  "avestan": {
@@ -1166,6 +1037,7 @@
   "gh_url": "https://notofonts.github.io/avestan",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/avestan",
+  "tier": 5,
   "title": "Noto Avestan"
  },
  "balinese": {
@@ -1281,6 +1153,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/balinese",
+  "tier": 2,
   "title": "Noto Balinese"
  },
  "bamum": {
@@ -1335,6 +1208,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/bamum",
+  "tier": 3,
   "title": "Noto Bamum"
  },
  "bassa-vah": {
@@ -1383,6 +1257,7 @@
   "gh_url": "https://notofonts.github.io/bassa-vah",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/bassa-vah",
+  "tier": 3,
   "title": "Noto Bassa Vah"
  },
  "batak": {
@@ -1412,6 +1287,7 @@
   "gh_url": "https://notofonts.github.io/batak",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/batak",
+  "tier": 3,
   "title": "Noto Batak"
  },
  "bengali": {
@@ -1806,6 +1682,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/bengali",
+  "tier": 1,
   "title": "Noto Bengali"
  },
  "bhaiksuki": {
@@ -1861,6 +1738,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/bhaiksuki",
+  "tier": 5,
   "title": "Noto Bhaiksuki"
  },
  "brahmi": {
@@ -1921,6 +1799,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/brahmi",
+  "tier": 4,
   "title": "Noto Brahmi"
  },
  "buginese": {
@@ -1950,6 +1829,7 @@
   "gh_url": "https://notofonts.github.io/buginese",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/buginese",
+  "tier": 3,
   "title": "Noto Buginese"
  },
  "buhid": {
@@ -1979,6 +1859,7 @@
   "gh_url": "https://notofonts.github.io/buhid",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/buhid",
+  "tier": 3,
   "title": "Noto Buhid"
  },
  "canadian-aboriginal": {
@@ -2078,6 +1959,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/canadian-aboriginal",
+  "tier": 3,
   "title": "Noto Canadian Aboriginal"
  },
  "carian": {
@@ -2107,6 +1989,7 @@
   "gh_url": "https://notofonts.github.io/carian",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/carian",
+  "tier": 5,
   "title": "Noto Carian"
  },
  "caucasian-albanian": {
@@ -2157,6 +2040,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/caucasian-albanian",
+  "tier": 5,
   "title": "Noto Caucasian Albanian"
  },
  "chakma": {
@@ -2186,6 +2070,7 @@
   "gh_url": "https://notofonts.github.io/chakma",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/chakma",
+  "tier": 3,
   "title": "Noto Chakma"
  },
  "cham": {
@@ -2270,6 +2155,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/cham",
+  "tier": 3,
   "title": "Noto Cham"
  },
  "cherokee": {
@@ -2343,6 +2229,7 @@
   "gh_url": "https://notofonts.github.io/cherokee",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/cherokee",
+  "tier": 3,
   "title": "Noto Cherokee"
  },
  "chorasmian": {
@@ -2383,6 +2270,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/chorasmian",
+  "tier": 5,
   "title": "Noto Chorasmian"
  },
  "coptic": {
@@ -2423,6 +2311,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/coptic",
+  "tier": 3,
   "title": "Noto Coptic"
  },
  "cuneiform": {
@@ -2452,6 +2341,7 @@
   "gh_url": "https://notofonts.github.io/cuneiform",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/cuneiform",
+  "tier": 4,
   "title": "Noto Cuneiform"
  },
  "cypriot": {
@@ -2481,6 +2371,7 @@
   "gh_url": "https://notofonts.github.io/cypriot",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/cypriot",
+  "tier": 5,
   "title": "Noto Cypriot"
  },
  "cypro-minoan": {
@@ -2510,6 +2401,7 @@
   "gh_url": "https://notofonts.github.io/cypro-minoan",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/cypro-minoan",
+  "tier": 5,
   "title": "Noto Cypro Minoan"
  },
  "deseret": {
@@ -2545,6 +2437,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/deseret",
+  "tier": 4,
   "title": "Noto Deseret"
  },
  "devanagari": {
@@ -3199,6 +3092,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/devanagari",
+  "tier": 1,
   "title": "Noto Devanagari"
  },
  "dives-akuru": {
@@ -3264,6 +3158,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/dives-akuru",
+  "tier": 5,
   "title": "Noto Dives Akuru"
  },
  "dogra": {
@@ -3314,6 +3209,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/dogra",
+  "tier": 4,
   "title": "Noto Dogra"
  },
  "duployan": {
@@ -3356,6 +3252,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/duployan",
+  "tier": 3,
   "title": "Noto Duployan"
  },
  "egyptian-hieroglyphs": {
@@ -3411,6 +3308,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/egyptian-hieroglyphs",
+  "tier": 4,
   "title": "Noto Egyptian Hieroglyphs"
  },
  "elbasan": {
@@ -3451,6 +3349,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/elbasan",
+  "tier": 5,
   "title": "Noto Elbasan"
  },
  "elymaic": {
@@ -3491,6 +3390,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/elymaic",
+  "tier": 5,
   "title": "Noto Elymaic"
  },
  "ethiopic": {
@@ -3915,6 +3815,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/ethiopic",
+  "tier": 2,
   "title": "Noto Ethiopic"
  },
  "georgian": {
@@ -4334,6 +4235,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/georgian",
+  "tier": 2,
   "title": "Noto Georgian"
  },
  "glagolitic": {
@@ -4379,6 +4281,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/glagolitic",
+  "tier": 4,
   "title": "Noto Glagolitic"
  },
  "gothic": {
@@ -4414,6 +4317,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/gothic",
+  "tier": 4,
   "title": "Noto Gothic"
  },
  "grantha": {
@@ -4485,6 +4389,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/grantha",
+  "tier": 4,
   "title": "Noto Grantha"
  },
  "gujarati": {
@@ -5034,6 +4939,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/gujarati",
+  "tier": 1,
   "title": "Noto Gujarati"
  },
  "gunjala-gondi": {
@@ -5098,6 +5004,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/gunjala-gondi",
+  "tier": 3,
   "title": "Noto Gunjala Gondi"
  },
  "gurmukhi": {
@@ -5597,6 +5504,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/gurmukhi",
+  "tier": 1,
   "title": "Noto Gurmukhi"
  },
  "hanifi-rohingya": {
@@ -5656,6 +5564,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/hanifi-rohingya",
+  "tier": 3,
   "title": "Noto Hanifi Rohingya"
  },
  "hanunoo": {
@@ -5691,6 +5600,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/hanunoo",
+  "tier": 3,
   "title": "Noto Hanunoo"
  },
  "hatran": {
@@ -5720,6 +5630,7 @@
   "gh_url": "https://notofonts.github.io/hatran",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/hatran",
+  "tier": 5,
   "title": "Noto Hatran"
  },
  "hebrew": {
@@ -6244,6 +6155,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/hebrew",
+  "tier": 1,
   "title": "Noto Hebrew"
  },
  "imperial-aramaic": {
@@ -6273,6 +6185,7 @@
   "gh_url": "https://notofonts.github.io/imperial-aramaic",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/imperial-aramaic",
+  "tier": 5,
   "title": "Noto Imperial Aramaic"
  },
  "indic-siyaq-numbers": {
@@ -6302,6 +6215,7 @@
   "gh_url": "https://notofonts.github.io/indic-siyaq-numbers",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/indic-siyaq-numbers",
+  "tier": 5,
   "title": "Noto Indic Siyaq Numbers"
  },
  "inscriptional-pahlavi": {
@@ -6342,6 +6256,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/inscriptional-pahlavi",
+  "tier": 5,
   "title": "Noto Inscriptional Pahlavi"
  },
  "inscriptional-parthian": {
@@ -6377,6 +6292,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/inscriptional-parthian",
+  "tier": 5,
   "title": "Noto Inscriptional Parthian"
  },
  "javanese": {
@@ -6441,6 +6357,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/javanese",
+  "tier": 3,
   "title": "Noto Javanese"
  },
  "kaithi": {
@@ -6501,6 +6418,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/kaithi",
+  "tier": 4,
   "title": "Noto Kaithi"
  },
  "kannada": {
@@ -7015,6 +6933,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/kannada",
+  "tier": 1,
   "title": "Noto Kannada"
  },
  "kawi": {
@@ -7022,6 +6941,7 @@
   "gh_url": "https://notofonts.github.io/kawi",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/kawi",
+  "tier": 4,
   "title": "Noto Sans Kawi"
  },
  "kayah-li": {
@@ -7070,6 +6990,7 @@
   "gh_url": "https://notofonts.github.io/kayah-li",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/kayah-li",
+  "tier": 3,
   "title": "Noto Kayah Li"
  },
  "kharoshthi": {
@@ -7105,6 +7026,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/kharoshthi",
+  "tier": 5,
   "title": "Noto Kharoshthi"
  },
  "khitan-small-script": {
@@ -7182,6 +7104,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/khitan-small-script",
+  "tier": 5,
   "title": "Noto Khitan Small Script"
  },
  "khmer": {
@@ -7636,6 +7559,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/khmer",
+  "tier": 2,
   "title": "Noto Khmer"
  },
  "khojki": {
@@ -7726,6 +7650,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/khojki",
+  "tier": 3,
   "title": "Noto Khojki"
  },
  "khudawadi": {
@@ -7761,6 +7686,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/khudawadi",
+  "tier": 4,
   "title": "Noto Khudawadi"
  },
  "lao": {
@@ -8390,6 +8316,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/lao",
+  "tier": 3,
   "title": "Noto Lao"
  },
  "latin-greek-cyrillic": {
@@ -10238,6 +10165,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/latin-greek-cyrillic",
+  "tier": 1,
   "title": "Noto Latin,  Greek,  Cyrillic"
  },
  "lepcha": {
@@ -10267,6 +10195,7 @@
   "gh_url": "https://notofonts.github.io/lepcha",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/lepcha",
+  "tier": 3,
   "title": "Noto Lepcha"
  },
  "limbu": {
@@ -10307,6 +10236,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/limbu",
+  "tier": 2,
   "title": "Noto Limbu"
  },
  "linear-a": {
@@ -10342,6 +10272,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/linear-a",
+  "tier": 4,
   "title": "Noto Linear A"
  },
  "linear-b": {
@@ -10371,6 +10302,7 @@
   "gh_url": "https://notofonts.github.io/linear-b",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/linear-b",
+  "tier": 4,
   "title": "Noto Linear B"
  },
  "lisu": {
@@ -10425,6 +10357,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/lisu",
+  "tier": 2,
   "title": "Noto Lisu"
  },
  "lycian": {
@@ -10454,6 +10387,7 @@
   "gh_url": "https://notofonts.github.io/lycian",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/lycian",
+  "tier": 5,
   "title": "Noto Lycian"
  },
  "lydian": {
@@ -10494,6 +10428,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/lydian",
+  "tier": 4,
   "title": "Noto Lydian"
  },
  "mahajani": {
@@ -10529,6 +10464,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/mahajani",
+  "tier": 4,
   "title": "Noto Mahajani"
  },
  "makasar": {
@@ -10558,6 +10494,7 @@
   "gh_url": "https://notofonts.github.io/makasar",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/makasar",
+  "tier": 4,
   "title": "Noto Makasar"
  },
  "malayalam": {
@@ -11042,6 +10979,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/malayalam",
+  "tier": 1,
   "title": "Noto Malayalam"
  },
  "mandaic": {
@@ -11087,6 +11025,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/mandaic",
+  "tier": 4,
   "title": "Noto Mandaic"
  },
  "manichaean": {
@@ -11137,6 +11076,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/manichaean",
+  "tier": 4,
   "title": "Noto Manichaean"
  },
  "marchen": {
@@ -11177,6 +11117,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/marchen",
+  "tier": 5,
   "title": "Noto Marchen"
  },
  "masaram-gondi": {
@@ -11212,6 +11153,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/masaram-gondi",
+  "tier": 3,
   "title": "Noto Masaram Gondi"
  },
  "math": {
@@ -11310,6 +11252,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/math",
+  "tier": 3,
   "title": "Noto Math"
  },
  "mayan-numerals": {
@@ -11339,6 +11282,7 @@
   "gh_url": "https://notofonts.github.io/mayan-numerals",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/mayan-numerals",
+  "tier": 5,
   "title": "Noto Mayan Numerals"
  },
  "medefaidrin": {
@@ -11387,6 +11331,7 @@
   "gh_url": "https://notofonts.github.io/medefaidrin",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/medefaidrin",
+  "tier": 3,
   "title": "Noto Medefaidrin"
  },
  "meetei-mayek": {
@@ -11466,6 +11411,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/meetei-mayek",
+  "tier": 3,
   "title": "Noto Meetei Mayek"
  },
  "mende-kikakui": {
@@ -11501,6 +11447,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/mende-kikakui",
+  "tier": 3,
   "title": "Noto Mende Kikakui"
  },
  "meroitic": {
@@ -11541,6 +11488,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/meroitic",
+  "tier": 5,
   "title": "Noto Meroitic"
  },
  "miao": {
@@ -11576,6 +11524,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/miao",
+  "tier": 3,
   "title": "Noto Miao"
  },
  "modi": {
@@ -11631,6 +11580,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/modi",
+  "tier": 3,
   "title": "Noto Modi"
  },
  "mongolian": {
@@ -11691,6 +11641,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/mongolian",
+  "tier": 3,
   "title": "Noto Mongolian"
  },
  "mro": {
@@ -11720,6 +11671,7 @@
   "gh_url": "https://notofonts.github.io/mro",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/mro",
+  "tier": 3,
   "title": "Noto Mro"
  },
  "multani": {
@@ -11760,6 +11712,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/multani",
+  "tier": 3,
   "title": "Noto Multani"
  },
  "music": {
@@ -11830,6 +11783,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/music",
+  "tier": 3,
   "title": "Noto Music"
  },
  "myanmar": {
@@ -12434,6 +12388,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/myanmar",
+  "tier": 2,
   "title": "Noto Myanmar"
  },
  "nabataean": {
@@ -12463,6 +12418,7 @@
   "gh_url": "https://notofonts.github.io/nabataean",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/nabataean",
+  "tier": 5,
   "title": "Noto Nabataean"
  },
  "nag-mundari": {
@@ -12470,6 +12426,7 @@
   "gh_url": "https://notofonts.github.io/nag-mundari",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/nag-mundari",
+  "tier": 3,
   "title": "Noto Sans Nag Mundari"
  },
  "nandinagari": {
@@ -12520,6 +12477,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/nandinagari",
+  "tier": 5,
   "title": "Noto Nandinagari"
  },
  "nastaliq": {
@@ -12644,6 +12602,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/nastaliq",
+  "tier": 1,
   "title": "Noto Nastaliq"
  },
  "new-tai-lue": {
@@ -12692,6 +12651,7 @@
   "gh_url": "https://notofonts.github.io/new-tai-lue",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/new-tai-lue",
+  "tier": 3,
   "title": "Noto New Tai Lue"
  },
  "newa": {
@@ -12727,6 +12687,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/newa",
+  "tier": 3,
   "title": "Noto Newa"
  },
  "nko": {
@@ -12767,6 +12728,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/nko",
+  "tier": 3,
   "title": "Noto N' Ko"
  },
  "nushu": {
@@ -12852,6 +12814,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/nushu",
+  "tier": 4,
   "title": "Noto Nushu"
  },
  "nyiakeng-puachue-hmong": {
@@ -12916,6 +12879,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/nyiakeng-puachue-hmong",
+  "tier": 3,
   "title": "Noto Nyiakeng Puachue Hmong"
  },
  "ogham": {
@@ -12945,6 +12909,7 @@
   "gh_url": "https://notofonts.github.io/ogham",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/ogham",
+  "tier": 4,
   "title": "Noto Ogham"
  },
  "ol-chiki": {
@@ -12993,6 +12958,7 @@
   "gh_url": "https://notofonts.github.io/ol-chiki",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/ol-chiki",
+  "tier": 3,
   "title": "Noto Ol Chiki"
  },
  "old-hungarian": {
@@ -13038,6 +13004,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/old-hungarian",
+  "tier": 4,
   "title": "Noto Old Hungarian"
  },
  "old-hungarian-ui": {
@@ -13056,6 +13023,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/old-hungarian-ui",
+  "tier": 4,
   "title": "Noto Old Hungarian Ui"
  },
  "old-italic": {
@@ -13091,6 +13059,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/old-italic",
+  "tier": 5,
   "title": "Noto Old Italic"
  },
  "old-north-arabian": {
@@ -13120,6 +13089,7 @@
   "gh_url": "https://notofonts.github.io/old-north-arabian",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/old-north-arabian",
+  "tier": 5,
   "title": "Noto Old North Arabian"
  },
  "old-permic": {
@@ -13149,6 +13119,7 @@
   "gh_url": "https://notofonts.github.io/old-permic",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/old-permic",
+  "tier": 5,
   "title": "Noto Old Permic"
  },
  "old-persian": {
@@ -13184,6 +13155,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/old-persian",
+  "tier": 5,
   "title": "Noto Old Persian"
  },
  "old-sogdian": {
@@ -13229,6 +13201,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/old-sogdian",
+  "tier": 5,
   "title": "Noto Old Sogdian"
  },
  "old-south-arabian": {
@@ -13258,6 +13231,7 @@
   "gh_url": "https://notofonts.github.io/old-south-arabian",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/old-south-arabian",
+  "tier": 5,
   "title": "Noto Old South Arabian"
  },
  "old-turkic": {
@@ -13298,6 +13272,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/old-turkic",
+  "tier": 5,
   "title": "Noto Old Turkic"
  },
  "old-uyghur": {
@@ -13333,6 +13308,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/old-uyghur",
+  "tier": 5,
   "title": "Noto Old Uyghur"
  },
  "oriya": {
@@ -13482,6 +13458,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/oriya",
+  "tier": 1,
   "title": "Noto Oriya"
  },
  "osage": {
@@ -13511,6 +13488,7 @@
   "gh_url": "https://notofonts.github.io/osage",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/osage",
+  "tier": 3,
   "title": "Noto Osage"
  },
  "osmanya": {
@@ -13540,6 +13518,7 @@
   "gh_url": "https://notofonts.github.io/osmanya",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/osmanya",
+  "tier": 3,
   "title": "Noto Osmanya"
  },
  "pahawh-hmong": {
@@ -13580,6 +13559,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/pahawh-hmong",
+  "tier": 3,
   "title": "Noto Pahawh Hmong"
  },
  "palmyrene": {
@@ -13609,6 +13589,7 @@
   "gh_url": "https://notofonts.github.io/palmyrene",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/palmyrene",
+  "tier": 5,
   "title": "Noto Palmyrene"
  },
  "pau-cin-hau": {
@@ -13638,6 +13619,7 @@
   "gh_url": "https://notofonts.github.io/pau-cin-hau",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/pau-cin-hau",
+  "tier": 3,
   "title": "Noto Pau Cin Hau"
  },
  "phags-pa": {
@@ -13678,6 +13660,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/phags-pa",
+  "tier": 4,
   "title": "Noto Phags Pa"
  },
  "phoenician": {
@@ -13713,6 +13696,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/phoenician",
+  "tier": 4,
   "title": "Noto Phoenician"
  },
  "psalter-pahlavi": {
@@ -13753,6 +13737,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/psalter-pahlavi",
+  "tier": 5,
   "title": "Noto Psalter Pahlavi"
  },
  "rejang": {
@@ -13798,6 +13783,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/rejang",
+  "tier": 3,
   "title": "Noto Rejang"
  },
  "runic": {
@@ -13833,6 +13819,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/runic",
+  "tier": 4,
   "title": "Noto Runic"
  },
  "samaritan": {
@@ -13873,6 +13860,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/samaritan",
+  "tier": 5,
   "title": "Noto Samaritan"
  },
  "saurashtra": {
@@ -13908,6 +13896,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/saurashtra",
+  "tier": 3,
   "title": "Noto Saurashtra"
  },
  "sharada": {
@@ -13953,6 +13942,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/sharada",
+  "tier": 3,
   "title": "Noto Sharada"
  },
  "shavian": {
@@ -13982,6 +13972,7 @@
   "gh_url": "https://notofonts.github.io/shavian",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/shavian",
+  "tier": 4,
   "title": "Noto Shavian"
  },
  "siddham": {
@@ -14062,6 +14053,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/siddham",
+  "tier": 3,
   "title": "Noto Siddham"
  },
  "sign-writing": {
@@ -14122,6 +14114,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/sign-writing",
+  "tier": 3,
   "title": "Noto Sign Writing"
  },
  "sinhala": {
@@ -14716,6 +14709,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/sinhala",
+  "tier": 1,
   "title": "Noto Sinhala"
  },
  "sogdian": {
@@ -14751,6 +14745,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/sogdian",
+  "tier": 5,
   "title": "Noto Sogdian"
  },
  "sora-sompeng": {
@@ -14799,6 +14794,7 @@
   "gh_url": "https://notofonts.github.io/sora-sompeng",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/sora-sompeng",
+  "tier": 3,
   "title": "Noto Sora Sompeng"
  },
  "soyombo": {
@@ -14844,6 +14840,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/soyombo",
+  "tier": 4,
   "title": "Noto Soyombo"
  },
  "sundanese": {
@@ -14913,6 +14910,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/sundanese",
+  "tier": 3,
   "title": "Noto Sundanese"
  },
  "syloti-nagri": {
@@ -14978,6 +14976,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/syloti-nagri",
+  "tier": 3,
   "title": "Noto Syloti Nagri"
  },
  "symbols": {
@@ -15228,6 +15227,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/symbols",
+  "tier": 3,
   "title": "Noto Symbols"
  },
  "syriac": {
@@ -15372,6 +15372,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/syriac",
+  "tier": 3,
   "title": "Noto Syriac"
  },
  "tagalog": {
@@ -15417,6 +15418,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/tagalog",
+  "tier": 3,
   "title": "Noto Tagalog"
  },
  "tagbanwa": {
@@ -15446,6 +15448,7 @@
   "gh_url": "https://notofonts.github.io/tagbanwa",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/tagbanwa",
+  "tier": 3,
   "title": "Noto Tagbanwa"
  },
  "tai-le": {
@@ -15481,6 +15484,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/tai-le",
+  "tier": 3,
   "title": "Noto Tai Le"
  },
  "tai-tham": {
@@ -15550,6 +15554,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/tai-tham",
+  "tier": 3,
   "title": "Noto Tai Tham"
  },
  "tai-viet": {
@@ -15595,6 +15600,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/tai-viet",
+  "tier": 3,
   "title": "Noto Tai Viet"
  },
  "takri": {
@@ -15645,6 +15651,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/takri",
+  "tier": 3,
   "title": "Noto Takri"
  },
  "tamil": {
@@ -16474,6 +16481,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/tamil",
+  "tier": 1,
   "title": "Noto Tamil"
  },
  "tangsa": {
@@ -16533,6 +16541,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/tangsa",
+  "tier": 3,
   "title": "Noto Tangsa"
  },
  "tangut": {
@@ -16562,6 +16571,7 @@
   "gh_url": "https://notofonts.github.io/tangut",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/tangut",
+  "tier": 5,
   "title": "Noto Tangut"
  },
  "telugu": {
@@ -17041,6 +17051,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/telugu",
+  "tier": 1,
   "title": "Noto Telugu"
  },
  "test": {
@@ -17100,6 +17111,7 @@
   "gh_url": "https://notofonts.github.io/test",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/test",
+  "tier": 5,
   "title": "Noto Test (ONLY FOR TESTING)"
  },
  "thaana": {
@@ -17184,6 +17196,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/thaana",
+  "tier": 3,
   "title": "Noto Thaana"
  },
  "thai": {
@@ -18040,6 +18053,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/thai",
+  "tier": 2,
   "title": "Noto Thai"
  },
  "tibetan": {
@@ -18174,6 +18188,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/tibetan",
+  "tier": 3,
   "title": "Noto Tibetan"
  },
  "tifinagh": {
@@ -18299,6 +18314,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/tifinagh",
+  "tier": 3,
   "title": "Noto Tifinagh"
  },
  "tirhuta": {
@@ -18379,6 +18395,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/tirhuta",
+  "tier": 4,
   "title": "Noto Tirhuta"
  },
  "toto": {
@@ -18427,6 +18444,7 @@
   "gh_url": "https://notofonts.github.io/toto",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/toto",
+  "tier": 3,
   "title": "Noto Toto"
  },
  "ugaritic": {
@@ -18456,6 +18474,7 @@
   "gh_url": "https://notofonts.github.io/ugaritic",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/ugaritic",
+  "tier": 5,
   "title": "Noto Ugaritic"
  },
  "vai": {
@@ -18485,6 +18504,7 @@
   "gh_url": "https://notofonts.github.io/vai",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/vai",
+  "tier": 3,
   "title": "Noto Vai"
  },
  "vithkuqi": {
@@ -18573,6 +18593,7 @@
   "gh_url": "https://notofonts.github.io/vithkuqi",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/vithkuqi",
+  "tier": 4,
   "title": "Noto Vithkuqi"
  },
  "wancho": {
@@ -18608,6 +18629,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/wancho",
+  "tier": 3,
   "title": "Noto Wancho"
  },
  "warang-citi": {
@@ -18643,6 +18665,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/warang-citi",
+  "tier": 3,
   "title": "Noto Warang Citi"
  },
  "yezidi": {
@@ -18702,6 +18725,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/yezidi",
+  "tier": 4,
   "title": "Noto Yezidi"
  },
  "yi": {
@@ -18731,6 +18755,7 @@
   "gh_url": "https://notofonts.github.io/yi",
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/yi",
+  "tier": 3,
   "title": "Noto Yi"
  },
  "zanabazar-square": {
@@ -18771,6 +18796,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/zanabazar-square",
+  "tier": 3,
   "title": "Noto Zanabazar Square"
  }
 }

@@ -6,15 +6,18 @@ from collections import Counter
 from pybars import Compiler
 import matplotlib
 
+try:
+    import tqdm
+
+    progress = tqdm.tqdm
+except Exception:
+    progress = lambda x: x
+
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 
-print("Fetching existing repos")
 g = Github(os.environ["GITHUB_TOKEN"])
-org = g.get_organization("notofonts")
-org_repos = org.get_repos()
-org_names = [r.name for r in org_repos]
 sources = json.load(open("fontrepos.json"))
 
 this = datetime.now()
@@ -22,20 +25,23 @@ this = datetime.now()
 closed_per_month = Counter()
 opened_per_month = Counter()
 open_per_repo = Counter()
+open_per_tier = Counter()
 releases_per_month = {}
 totals_per_month = {}
 issues_by_age = {}
 
 total = 0
-for repo_name in sources:
-    if repo_name not in org_names:
-        continue
+for repo_name in progress(list(sources.keys())):
+    # if repo_name not in org_names:
+    # continue
     repo = g.get_repo("notofonts/" + repo_name)
     issues = repo.get_issues(state="all")
+    tier = sources[repo_name].get("tier", 3)
     for i in issues:
         if i.state == "open":
             total += 1
             open_per_repo[repo_name] += 1
+            open_per_tier[tier] += 1
             if i.created_at.year == this.year:
                 opened_per_month[i.created_at.month] += 1
         elif i.closed_at.year == this.year:
@@ -64,13 +70,13 @@ json.dump(
         "closed_per_month": closed_per_month,
         "totals_per_month": totals_per_month,
         "open_per_repo": open_per_repo,
+        "open_per_tier": open_per_tier,
         "releases_per_month": releases_per_month,
     },
     open("docs/issues.json", "w"),
     indent=True,
     sort_keys=True,
 )
-
 
 year_to_date = range(1, this.month + 1)
 
@@ -87,7 +93,7 @@ months = [
     "Oct",
     "Nov",
     "Dec",
-][:this.month]
+][: this.month]
 totals = [totals_per_month[i] for i in year_to_date]
 
 fig, ax1 = plt.subplots()
@@ -138,15 +144,31 @@ plt.tight_layout()
 plt.savefig("docs/top-10.png")
 
 
-## Low hanging fruit
+# Low hanging fruit and tiers
 low_hanging = {}
+tiers = {1: [], 2: [], 3: [], 4: [], 5: []}
 for k, v in open_per_repo.items():
-    if v == 0 or v > 10:
+    if v == 0:
+        continue
+    tier = sources[k].get("tier", 3)
+    tiers[tier].append({"repo": k, "issues": v})
+    if v > 10:
         continue
     low_hanging.setdefault(v, []).append(k)
 low_hanging = [
     {"issues": k, "repos": low_hanging[k]} for k in sorted(low_hanging.keys())
 ]
+
+tiers = {k: sorted(v, key=lambda i: -i["issues"]) for k, v in tiers.items()}
+
+labels = [1, 2, 3, 4, 5]
+values = [open_per_tier.get(l, 0) for l in labels]
+fig, ax = plt.subplots()
+bars = ax.bar(labels, values)
+ax.bar_label(bars)
+plt.title("Open issues per tier")
+plt.tight_layout()
+plt.savefig("docs/per-tier.png")
 
 ## Releases per month
 release_count_per_month = [len(releases_per_month.get(i, [])) for i in year_to_date]
@@ -175,6 +197,7 @@ output = template(
         "monthly_stats": monthly_stats,
         "top_10": [{"repo": k, "count": v} for k, v in top_10],
         "low_hanging": low_hanging,
+        "tiers": tiers,
     }
 )
 
