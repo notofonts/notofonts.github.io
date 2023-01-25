@@ -44,6 +44,8 @@ h6 .material-icons { display:inline-flex; vertical-align: top; font-size:1.1rem;
   max-height: 80vh;
   overflow-y: auto;
 }
+.up-to-date-false { background: #fff0f0; }
+.up-to-date-true { background: #f0fff0; }
 html { scroll-padding-top: 60px; }
 body { padding-top: 4.5rem }
       </style>
@@ -170,8 +172,17 @@ body { padding-top: 4.5rem }
 									<a href="{{latest_release.url}}"
 										>{{latest_release.version}}</a
 									>
+									{{#if third_party_versions}}
+									&nbsp;&nbsp;&nbsp;(
+									{{#each third_party_versions}}
+										{{{icon}}} <span class="up-to-date-{{up_to_date}}">{{{version}}}</span>
+									{{/each}}
+									)
+									{{/if}}
+
 								</h6>
 								<pre>{{latest_release.notes}}</pre>
+								
 								{{/if}} {{/each}}
 							</div>
 						</div>

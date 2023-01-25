@@ -1,0 +1,1246 @@
+{
+ "Noto Kufi Arabic": {
+  "Fedora 38": "2.107",
+  "Google Fonts": "2.102"
+ },
+ "Noto Looped Lao": {
+  "Fedora 38": "1.000",
+  "Google Fonts": "n/a"
+ },
+ "Noto Looped Lao UI": {
+  "Fedora 38": "1.000",
+  "Google Fonts": "n/a"
+ },
+ "Noto Looped Thai": {
+  "Fedora 38": "1.000",
+  "Google Fonts": "n/a"
+ },
+ "Noto Looped Thai UI": {
+  "Fedora 38": "1.000",
+  "Google Fonts": "n/a"
+ },
+ "Noto Music": {
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.002"
+ },
+ "Noto Naskh Arabic": {
+  "Android 12": "1.080",
+  "Fedora 38": "2.012",
+  "Google Fonts": "2.016"
+ },
+ "Noto Naskh Arabic UI": {
+  "Android 12": "1.080",
+  "Fedora 38": "2.012",
+  "Google Fonts": "2.015"
+ },
+ "Noto Nastaliq Urdu": {
+  "Fedora 38": "3.003",
+  "Google Fonts": "3.007",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Rashi Hebrew": {
+  "Fedora 38": "1.004",
+  "Google Fonts": "1.006"
+ },
+ "Noto Sans": {
+  "Fedora 38": "2.008",
+  "Google Fonts": "2.007"
+ },
+ "Noto Sans Adlam": {
+  "Android 12": "3.000",
+  "Fedora 38": "3.000",
+  "Google Fonts": "3.001",
+  "iOS 16.1": "3.000",
+  "macOS 13.0": "3.000"
+ },
+ "Noto Sans Adlam Unjoined": {
+  "Fedora 38": "3.000",
+  "Google Fonts": "3.001"
+ },
+ "Noto Sans Anatolian Hieroglyphs": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000"
+ },
+ "Noto Sans Arabic": {
+  "Fedora 38": "2.009",
+  "Google Fonts": "2.004"
+ },
+ "Noto Sans Arabic UI": {
+  "Fedora 38": "2.009",
+  "Google Fonts": "2.004"
+ },
+ "Noto Sans Armenian": {
+  "Android 12": "2.005",
+  "Fedora 38": "2.005",
+  "Google Fonts": "2.007",
+  "iOS 16.1": "2.040",
+  "macOS 13.0": "2.040"
+ },
+ "Noto Sans Avestan": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.002",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Balinese": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.003"
+ },
+ "Noto Sans Bamum": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.002",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Bassa Vah": {
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.002",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Batak": {
+  "Android 12": "1.050",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.002",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Bengali": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.003"
+ },
+ "Noto Sans Bengali UI": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.001"
+ },
+ "Noto Sans Bhaiksuki": {
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.001",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Brahmi": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.001",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Buginese": {
+  "Android 12": "1.050",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.002",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Buhid": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.001",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans CJK JP": {
+  "Android 12": "2.004",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Canadian Aboriginal": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.002"
+ },
+ "Noto Sans Carian": {
+  "Android 12": "1.050",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Caucasian Albanian": {
+  "Fedora 38": "2.003",
+  "Google Fonts": "2.001",
+  "iOS 16.1": "2.001",
+  "macOS 13.0": "2.001"
+ },
+ "Noto Sans Chakma": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.003",
+  "iOS 16.1": "2.001",
+  "macOS 13.0": "2.001"
+ },
+ "Noto Sans Cham": {
+  "Android 12": "1.020",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.002",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Cherokee": {
+  "Android 12": "2.000",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.001"
+ },
+ "Noto Sans Chorasmian": {
+  "Fedora 38": "1.001",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Coptic": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.002",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Cuneiform": {
+  "Android 12": "1.050",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Cypriot": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Cypro Minoan": {
+  "Fedora 38": "1.502",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Deseret": {
+  "Android 12": "1.020",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000"
+ },
+ "Noto Sans Devanagari": {
+  "Android 12": "2.000",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.003"
+ },
+ "Noto Sans Devanagari UI": {
+  "Android 12": "2.000",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.001"
+ },
+ "Noto Sans Display": {
+  "Fedora 38": "2.008",
+  "Google Fonts": "2.003"
+ },
+ "Noto Sans Duployan": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Egyptian Hieroglyphs": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Elbasan": {
+  "Fedora 38": "2.003",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Elymaic": {
+  "Fedora 38": "1.000",
+  "Google Fonts": "1.000"
+ },
+ "Noto Sans Ethiopic": {
+  "Android 12": "2.000",
+  "Fedora 38": "2.100",
+  "Google Fonts": "2.102"
+ },
+ "Noto Sans Georgian": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.002"
+ },
+ "Noto Sans Glagolitic": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Gothic": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Grantha": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.003"
+ },
+ "Noto Sans Gujarati": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.101",
+  "Google Fonts": "2.102"
+ },
+ "Noto Sans Gujarati UI": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.101",
+  "Google Fonts": "2.001"
+ },
+ "Noto Sans Gunjala Gondi": {
+  "Fedora 38": "1.002",
+  "Google Fonts": "1.002"
+ },
+ "Noto Sans Gurmukhi": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.003"
+ },
+ "Noto Sans Gurmukhi UI": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.001"
+ },
+ "Noto Sans Hanifi Rohingya": {
+  "Fedora 38": "2.100",
+  "Google Fonts": "2.101",
+  "iOS 16.1": "2.002",
+  "macOS 13.0": "2.002"
+ },
+ "Noto Sans Hanunoo": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.003",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Hatran": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Hebrew": {
+  "Android 12": "1.040",
+  "Fedora 38": "3.000",
+  "Google Fonts": "2.003"
+ },
+ "Noto Sans Hebrew Droid": {
+  "Fedora 38": "1.100",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Hebrew New": {
+  "Fedora 38": "3.001",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Imperial Aramaic": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Indic Siyaq Numbers": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000"
+ },
+ "Noto Sans Inscriptional Pahlavi": {
+  "Android 12": "1.020",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Inscriptional Parthian": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Javanese": {
+  "Fedora 38": "2.003",
+  "Google Fonts": "2.004"
+ },
+ "Noto Sans Kaithi": {
+  "Android 12": "1.050",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.001",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Kannada": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.003",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Kannada UI": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.001"
+ },
+ "Noto Sans Kayah Li": {
+  "Android 12": "1.020",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.002",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Kharoshthi": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.001",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Khmer": {
+  "Android 12": "1.901",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.003"
+ },
+ "Noto Sans Khmer UI": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.001"
+ },
+ "Noto Sans Khojki": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.003",
+  "iOS 16.1": "2.001",
+  "macOS 13.0": "2.001"
+ },
+ "Noto Sans Khudawadi": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Lao": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.002"
+ },
+ "Noto Sans Lao UI": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000"
+ },
+ "Noto Sans Lepcha": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.003",
+  "Google Fonts": "2.006",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Limbu": {
+  "Android 12": "1.050",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.004",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Linear A": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Linear B": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.001",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Lisu": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.101",
+  "Google Fonts": "2.102",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Lycian": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Lydian": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Mahajani": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Malayalam": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.101",
+  "Google Fonts": "2.103"
+ },
+ "Noto Sans Malayalam UI": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.101",
+  "Google Fonts": "2.001"
+ },
+ "Noto Sans Mandaic": {
+  "Android 12": "1.020",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.001",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Manichaean": {
+  "Fedora 38": "2.003",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Marchen": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.002",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Masaram Gondi": {
+  "Fedora 38": "1.003",
+  "Google Fonts": "1.004"
+ },
+ "Noto Sans Math": {
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.001"
+ },
+ "Noto Sans Mayan Numerals": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000"
+ },
+ "Noto Sans Medefaidrin": {
+  "Android 12": "1.001",
+  "Fedora 38": "1.001",
+  "Google Fonts": "1.002"
+ },
+ "Noto Sans Meetei Mayek": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.002",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Mende Kikakui": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.003",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Meroitic": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Miao": {
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.003",
+  "iOS 16.1": "2.001",
+  "macOS 13.0": "2.001"
+ },
+ "Noto Sans Modi": {
+  "Android 12": "2.000",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.003",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Mongolian": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.003",
+  "iOS 16.1": "2.001",
+  "macOS 13.0": "2.001"
+ },
+ "Noto Sans Mono": {
+  "Fedora 38": "2.007",
+  "Google Fonts": "2.010"
+ },
+ "Noto Sans Mro": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.001",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Multani": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.002",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Myanmar": {
+  "Fedora 38": "2.105",
+  "Google Fonts": "2.001",
+  "iOS 16.1": "2.001",
+  "macOS 13.0": "2.001"
+ },
+ "Noto Sans Myanmar UI": {
+  "Fedora 38": "2.103",
+  "Google Fonts": "2.000"
+ },
+ "Noto Sans NKo": {
+  "Android 12": "1.020",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.003",
+  "iOS 16.1": "2.001",
+  "macOS 13.0": "2.001"
+ },
+ "Noto Sans Nabataean": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Nandinagari": {
+  "Fedora 38": "1.000",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans New Tai Lue": {
+  "Android 12": "1.050",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.003",
+  "iOS 16.1": "2.001",
+  "macOS 13.0": "2.001"
+ },
+ "Noto Sans Newa": {
+  "Fedora 38": "2.004",
+  "Google Fonts": "2.007",
+  "iOS 16.1": "2.002",
+  "macOS 13.0": "2.002"
+ },
+ "Noto Sans Nushu": {
+  "Fedora 38": "1.002",
+  "Google Fonts": "1.002"
+ },
+ "Noto Sans Ogham": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000"
+ },
+ "Noto Sans Ol Chiki": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.003",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Old Hungarian": {
+  "Fedora 38": "2.003",
+  "Google Fonts": "2.002",
+  "iOS 16.1": "2.001",
+  "macOS 13.0": "2.001"
+ },
+ "Noto Sans Old Italic": {
+  "Android 12": "1.020",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.002",
+  "iOS 16.1": "2.002",
+  "macOS 13.0": "2.002"
+ },
+ "Noto Sans Old North Arabian": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Old Permic": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Old Persian": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Old Sogdian": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000"
+ },
+ "Noto Sans Old South Arabian": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Old Turkic": {
+  "Android 12": "1.020",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Oriya": {
+  "Android 12": "1.010",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.003",
+  "iOS 16.1": "1.010",
+  "macOS 13.0": "1.010"
+ },
+ "Noto Sans Oriya UI": {
+  "Android 12": "1.010",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000"
+ },
+ "Noto Sans Osage": {
+  "Android 12": "2.000",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.002",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Osmanya": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.001",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Pahawh Hmong": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.001",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Palmyrene": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Pau Cin Hau": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.002",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Phags Pa": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Phoenician": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Psalter Pahlavi": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Rejang": {
+  "Android 12": "1.050",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.001",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Runic": {
+  "Android 12": "1.020",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000"
+ },
+ "Noto Sans Samaritan": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Saurashtra": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.002",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Sharada": {
+  "Fedora 38": "2.004",
+  "Google Fonts": "2.006",
+  "iOS 16.1": "2.001",
+  "macOS 13.0": "2.001"
+ },
+ "Noto Sans Shavian": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000"
+ },
+ "Noto Sans Siddham": {
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.004",
+  "iOS 16.1": "2.001",
+  "macOS 13.0": "2.001"
+ },
+ "Noto Sans SignWriting": {
+  "Fedora 38": "2.003",
+  "Google Fonts": "2.004"
+ },
+ "Noto Sans Sinhala": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.006"
+ },
+ "Noto Sans Sinhala UI": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.001"
+ },
+ "Noto Sans Sogdian": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000"
+ },
+ "Noto Sans Sora Sompeng": {
+  "Fedora 38": "2.100",
+  "Google Fonts": "2.101",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Soyombo": {
+  "Android 12": "2.000",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000"
+ },
+ "Noto Sans Sundanese": {
+  "Android 12": "1.050",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.003",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Syloti Nagri": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.003",
+  "iOS 16.1": "2.001",
+  "macOS 13.0": "2.001"
+ },
+ "Noto Sans Symbols": {
+  "Android 12": "1.090",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.002"
+ },
+ "Noto Sans Symbols2": {
+  "Fedora 38": "2.003",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Syriac": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Syriac Eastern": {
+  "Android 12": "1.040",
+  "Fedora 38": "1.040",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Syriac Estrangela": {
+  "Android 12": "1.040",
+  "Fedora 38": "1.040",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Syriac Western": {
+  "Android 12": "1.040",
+  "Fedora 38": "1.040",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Tagalog": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.001",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Tagbanwa": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.001",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Tai Le": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.002",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Tai Tham": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.002",
+  "iOS 16.1": "1.040",
+  "macOS 13.0": "1.040"
+ },
+ "Noto Sans Tai Viet": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.003",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Takri": {
+  "Android 12": "2.002",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.003",
+  "iOS 16.1": "2.001",
+  "macOS 13.0": "2.001"
+ },
+ "Noto Sans Tamil": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.003"
+ },
+ "Noto Sans Tamil Supplement": {
+  "Fedora 38": "2.001",
+  "Google Fonts": "1.002"
+ },
+ "Noto Sans Tamil UI": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.001"
+ },
+ "Noto Sans Tangsa": {
+  "Fedora 38": "1.503",
+  "Google Fonts": "1.504"
+ },
+ "Noto Sans Telugu": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.003"
+ },
+ "Noto Sans Telugu UI": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.002",
+  "Google Fonts": "1.04"
+ },
+ "Noto Sans Thaana": {
+  "Android 12": "1.020",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.001",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Thai": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.001"
+ },
+ "Noto Sans Thai UI": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000"
+ },
+ "Noto Sans Tibetan": {
+  "Fedora 38": "1.010",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Tifinagh": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.005",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Tifinagh APT": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Tifinagh Adrar": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Tifinagh Agraw Imazighen": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Tifinagh Ahaggar": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Tifinagh Air": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Tifinagh Azawagh": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Tifinagh Ghat": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Tifinagh Hawad": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Tifinagh Rhissa Ixa": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Tifinagh SIL": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Tifinagh Tawellemmet": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Tirhuta": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.001",
+  "iOS 16.1": "2.001",
+  "macOS 13.0": "2.001"
+ },
+ "Noto Sans Ugaritic": {
+  "Android 12": "1.020",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.000",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Vai": {
+  "Android 12": "1.020",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.001",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Vithkuqi": {
+  "Fedora 38": "1.000",
+  "Google Fonts": "n/a"
+ },
+ "Noto Sans Wancho": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.001",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Warang Citi": {
+  "Fedora 38": "3.000",
+  "Google Fonts": "3.002",
+  "iOS 16.1": "3.000",
+  "macOS 13.0": "3.000"
+ },
+ "Noto Sans Yi": {
+  "Android 12": "1.020",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.002",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Sans Zanabazar Square": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.005"
+ },
+ "Noto Serif": {
+  "Android 12": "1.070",
+  "Fedora 38": "2.007",
+  "Google Fonts": "1.03"
+ },
+ "Noto Serif Ahom": {
+  "Fedora 38": "2.003",
+  "Google Fonts": "2.005",
+  "iOS 16.1": "2.003",
+  "macOS 13.0": "2.003"
+ },
+ "Noto Serif Armenian": {
+  "Android 12": "2.005",
+  "Fedora 38": "2.005",
+  "Google Fonts": "2.007"
+ },
+ "Noto Serif Balinese": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.004",
+  "iOS 16.1": "2.000",
+  "macOS 13.0": "2.000"
+ },
+ "Noto Serif Bengali": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.003"
+ },
+ "Noto Serif CJK JP": {
+  "Android 12": "1.001",
+  "Google Fonts": "n/a"
+ },
+ "Noto Serif Devanagari": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.003"
+ },
+ "Noto Serif Display": {
+  "Fedora 38": "2.007",
+  "Google Fonts": "2.003"
+ },
+ "Noto Serif Dives Akuru": {
+  "Fedora 38": "1.000",
+  "Google Fonts": "n/a"
+ },
+ "Noto Serif Dogra": {
+  "Android 12": "1.002",
+  "Fedora 38": "1.004",
+  "Google Fonts": "1.003"
+ },
+ "Noto Serif Ethiopic": {
+  "Android 12": "2.000",
+  "Fedora 38": "2.100",
+  "Google Fonts": "2.102"
+ },
+ "Noto Serif Georgian": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.002"
+ },
+ "Noto Serif Grantha": {
+  "Fedora 38": "2.003",
+  "Google Fonts": "2.004"
+ },
+ "Noto Serif Gujarati": {
+  "Android 12": "2.002",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.102"
+ },
+ "Noto Serif Gurmukhi": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.003"
+ },
+ "Noto Serif Hebrew": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.003"
+ },
+ "Noto Serif Kannada": {
+  "Android 12": "2.002",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.003"
+ },
+ "Noto Serif Khmer": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.003"
+ },
+ "Noto Serif Khojki": {
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.003"
+ },
+ "Noto Serif Lao": {
+  "Android 12": "1.030",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.002"
+ },
+ "Noto Serif Makasar": {
+  "Fedora 38": "1.000",
+  "Google Fonts": "n/a"
+ },
+ "Noto Serif Malayalam": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.102",
+  "Google Fonts": "2.103"
+ },
+ "Noto Serif Myanmar": {
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.001",
+  "macOS 13.0": "2.001"
+ },
+ "Noto Serif Nyiakeng Puachue Hmong": {
+  "Android 12": "1.000",
+  "Fedora 38": "1.000",
+  "Google Fonts": "1.000",
+  "iOS 16.1": "1.000",
+  "macOS 13.0": "1.000"
+ },
+ "Noto Serif Old Uyghur": {
+  "Fedora 38": "1.001",
+  "Google Fonts": "n/a"
+ },
+ "Noto Serif Oriya": {
+  "Fedora 38": "1.050",
+  "Google Fonts": "1.051"
+ },
+ "Noto Serif Sinhala": {
+  "Android 12": "2.002",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.006"
+ },
+ "Noto Serif Tamil": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.001",
+  "Google Fonts": "2.003"
+ },
+ "Noto Serif Tamil Slanted": {
+  "Fedora 38": "2.001",
+  "Google Fonts": "n/a"
+ },
+ "Noto Serif Tangut": {
+  "Fedora 38": "2.168",
+  "Google Fonts": "2.001"
+ },
+ "Noto Serif Telugu": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.002",
+  "Google Fonts": "2.003"
+ },
+ "Noto Serif Thai": {
+  "Android 12": "1.040",
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.001"
+ },
+ "Noto Serif Tibetan": {
+  "Android 12": "2.001",
+  "Fedora 38": "2.101",
+  "Google Fonts": "2.103"
+ },
+ "Noto Serif Toto": {
+  "Fedora 38": "2.000",
+  "Google Fonts": "2.001"
+ },
+ "Noto Serif Vithkuqi": {
+  "Fedora 38": "1.004",
+  "Google Fonts": "n/a"
+ },
+ "Noto Serif Yezidi": {
+  "Android 12": "1.000",
+  "Fedora 38": "1.000",
+  "Google Fonts": "1.000"
+ },
+ "Noto Traditional Nushu": {
+  "Fedora 38": "2.002",
+  "Google Fonts": "1.001"
+ }
+}
