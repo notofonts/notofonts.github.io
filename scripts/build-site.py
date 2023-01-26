@@ -91,7 +91,8 @@ for result in results.values():
     result["families_count"] = len(result["families"])
 
 for excluded in EXCLUDE_LIST:
-    del results[excluded]
+    if excluded in results:
+        del results[excluded]
 
 output = template({"results": results}, helpers=helpers)
 
