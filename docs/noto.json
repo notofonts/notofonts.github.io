@@ -1938,11 +1938,6 @@
     "url": "https://github.com/notofonts/canadian-aboriginal/issues/5"
    },
    {
-    "number": 4,
-    "title": "Extraneous characters in Noto Sans Canadian Aboriginal",
-    "url": "https://github.com/notofonts/canadian-aboriginal/issues/4"
-   },
-   {
     "number": 3,
     "title": "Identical glyphs for U+144A and U+18F3",
     "url": "https://github.com/notofonts/canadian-aboriginal/issues/3"
@@ -1951,11 +1946,6 @@
     "number": 2,
     "title": "Diacritics onto Noto Sans Canadian Aboriginal, and additional positions for Finals ",
     "url": "https://github.com/notofonts/canadian-aboriginal/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Potential issue with UCAS Cree shapes",
-    "url": "https://github.com/notofonts/canadian-aboriginal/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/canadian-aboriginal",
@@ -4843,54 +4833,14 @@
   "gh_url": "https://notofonts.github.io/gujarati",
   "issues": [
    {
-    "number": 19,
-    "title": "Noto Serif Gujarati has a Mispositioning issue of \u0a9f\u0acd\u0ab0",
-    "url": "https://github.com/notofonts/gujarati/issues/19"
-   },
-   {
-    "number": 18,
-    "title": "Noto Serif Gujarati has a vowel mispositioning issue",
-    "url": "https://github.com/notofonts/gujarati/issues/18"
-   },
-   {
-    "number": 17,
-    "title": "Noto Serif Gujarati: Mispositioned vowel sign",
-    "url": "https://github.com/notofonts/gujarati/issues/17"
-   },
-   {
-    "number": 16,
-    "title": "Noto Serif Gujarati: Collision of second letter of a vertical consonant conjunct with a vowel sign",
-    "url": "https://github.com/notofonts/gujarati/issues/16"
-   },
-   {
     "number": 15,
     "title": "Noto Serif Gujarati: Nuqtas too close",
     "url": "https://github.com/notofonts/gujarati/issues/15"
    },
    {
-    "number": 14,
-    "title": "Misplaced nuqta in Noto Serif Gujarati",
-    "url": "https://github.com/notofonts/gujarati/issues/14"
-   },
-   {
-    "number": 13,
-    "title": "Collision of nuqta and vowel sign in Noto Serif Gujarati",
-    "url": "https://github.com/notofonts/gujarati/issues/13"
-   },
-   {
-    "number": 12,
-    "title": "Mispositioned nuqta in Noto Serif Gujarati",
-    "url": "https://github.com/notofonts/gujarati/issues/12"
-   },
-   {
     "number": 11,
     "title": "Position of anusvara (\u0a82) for Gujarati \u0a87, \u0a88, \u0a89",
     "url": "https://github.com/notofonts/gujarati/issues/11"
-   },
-   {
-    "number": 10,
-    "title": "Anusvara instead of candrabindu in Sans Gujarati",
-    "url": "https://github.com/notofonts/gujarati/issues/10"
    },
    {
     "number": 9,
@@ -4908,33 +4858,13 @@
     "url": "https://github.com/notofonts/gujarati/issues/7"
    },
    {
-    "number": 6,
-    "title": "Gujarati with vedic svara-s : rendering badly on chrome.",
-    "url": "https://github.com/notofonts/gujarati/issues/6"
-   },
-   {
     "number": 5,
     "title": "Question regarding the shape of \u0ab0\u0ac1 (ru) in Gujarati fonts",
     "url": "https://github.com/notofonts/gujarati/issues/5"
    },
    {
-    "number": 4,
-    "title": "Space/Disconnect between letter \u0a9c and vertical matra in Sans Gujarati",
-    "url": "https://github.com/notofonts/gujarati/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Positioning of matras after conjuncts in Gujarati Serif",
-    "url": "https://github.com/notofonts/gujarati/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Some character combinations and decomporse are not consistent",
-    "url": "https://github.com/notofonts/gujarati/issues/2"
-   },
-   {
     "number": 1,
-    "title": "Notos-sans-gujarati issue - Oneindia",
+    "title": "Ja design, and ja-ya ligature",
     "url": "https://github.com/notofonts/gujarati/issues/1"
    }
   ],
@@ -10154,6 +10084,11 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/181"
    },
    {
+    "number": 183,
+    "title": "U+031A COMBINING LEFT ANGLE ABOVE is misplaced",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/183"
+   },
+   {
     "number": 186,
     "title": "Combining commas above are inconsistent with those below",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/186"
@@ -11747,19 +11682,9 @@
     "url": "https://github.com/notofonts/music/issues/9"
    },
    {
-    "number": 8,
-    "title": "Any plans to make the font SMuFL-compatible?",
-    "url": "https://github.com/notofonts/music/issues/8"
-   },
-   {
     "number": 5,
     "title": "U+1D159 MUSICAL SYMBOL NULL NOTEHEAD is invisible",
     "url": "https://github.com/notofonts/music/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Inconsistent accidentals",
-    "url": "https://github.com/notofonts/music/issues/4"
    },
    {
     "number": 3,
@@ -11775,11 +11700,6 @@
     "number": 1,
     "title": "Wrong positions for Byzantine musical symbols with contrasting heights",
     "url": "https://github.com/notofonts/music/issues/1"
-   },
-   {
-    "number": 6,
-    "title": "Eighth note (\u266a, U+266A) size",
-    "url": "https://github.com/notofonts/music/issues/6"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/music",
