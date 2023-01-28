@@ -1933,6 +1933,11 @@
   "gh_url": "https://notofonts.github.io/canadian-aboriginal",
   "issues": [
    {
+    "number": 6,
+    "title": "Fix for issue#5",
+    "url": "https://github.com/notofonts/canadian-aboriginal/pull/6"
+   },
+   {
     "number": 5,
     "title": "Inconsistent spacing of dots in Canadian Aboriginal letters",
     "url": "https://github.com/notofonts/canadian-aboriginal/issues/5"
@@ -12142,11 +12147,6 @@
     "url": "https://github.com/notofonts/myanmar/issues/22"
    },
    {
-    "number": 21,
-    "title": "Myanmar -UU not shifted right after subjoined KA",
-    "url": "https://github.com/notofonts/myanmar/issues/21"
-   },
-   {
     "number": 38,
     "title": "Position Dot(1037) in Sgaw Karen Language on Noto Sans Myanmar Fonts",
     "url": "https://github.com/notofonts/myanmar/issues/38"
@@ -12217,11 +12217,6 @@
     "url": "https://github.com/notofonts/myanmar/issues/8"
    },
    {
-    "number": 7,
-    "title": "Winding errors in Noto Serif Myanmar",
-    "url": "https://github.com/notofonts/myanmar/issues/7"
-   },
-   {
     "number": 6,
     "title": "No dotted forms of subjoined Myanmar letters",
     "url": "https://github.com/notofonts/myanmar/issues/6"
@@ -12252,11 +12247,6 @@
     "url": "https://github.com/notofonts/myanmar/issues/1"
    },
    {
-    "number": 35,
-    "title": "Misplaced U+1036 MYANMAR SIGN ANUSVARA after U+102B",
-    "url": "https://github.com/notofonts/myanmar/issues/35"
-   },
-   {
     "number": 34,
     "title": "Misplaced U+AA7C MYANMAR SIGN TAI LAING TONE-2",
     "url": "https://github.com/notofonts/myanmar/issues/34"
@@ -12265,11 +12255,6 @@
     "number": 33,
     "title": "Misplaced U+108D MYANMAR SIGN SHAN COUNCIL EMPHATIC TONE",
     "url": "https://github.com/notofonts/myanmar/issues/33"
-   },
-   {
-    "number": 32,
-    "title": "Malformed glyphs for wide medial -rw and -rwh in Myanmar",
-    "url": "https://github.com/notofonts/myanmar/issues/32"
    },
    {
     "number": 31,
@@ -12287,24 +12272,9 @@
     "url": "https://github.com/notofonts/myanmar/issues/29"
    },
    {
-    "number": 28,
-    "title": "Noto Serif Myanmar bug",
-    "url": "https://github.com/notofonts/myanmar/issues/28"
-   },
-   {
-    "number": 27,
-    "title": "Add language-specific letterforms for Khamti Shan, Aiton, and Phake",
-    "url": "https://github.com/notofonts/myanmar/issues/27"
-   },
-   {
     "number": 26,
     "title": "Localized letterforms for Myanmar script (add support for Tai Aiton and Tai Phake)",
     "url": "https://github.com/notofonts/myanmar/issues/26"
-   },
-   {
-    "number": 25,
-    "title": "\u1063\u103a 1063 & 103A Noto Sans Myanmar issue still not resolved",
-    "url": "https://github.com/notofonts/myanmar/issues/25"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/myanmar",
@@ -14991,11 +14961,6 @@
   "gh_url": "https://notofonts.github.io/symbols",
   "issues": [
    {
-    "number": 67,
-    "title": "Adds Kaktovik Numerals glyphs to Symbols 2 source",
-    "url": "https://github.com/notofonts/symbols/pull/67"
-   },
-   {
     "number": 65,
     "title": "\u201cFull\u201d version of Symbols2 \u2014 weight of Latin characters",
     "url": "https://github.com/notofonts/symbols/issues/65"
@@ -15006,34 +14971,9 @@
     "url": "https://github.com/notofonts/symbols/issues/64"
    },
    {
-    "number": 3,
-    "title": "Mahjong Tile Designs - Circle Suite",
-    "url": "https://github.com/notofonts/symbols/issues/3"
-   },
-   {
     "number": 2,
     "title": "Inconsistent symbols for metals and ores",
     "url": "https://github.com/notofonts/symbols/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Implement Kaktovik numerals in Symbol or Canadian",
-    "url": "https://github.com/notofonts/symbols/issues/1"
-   },
-   {
-    "number": 31,
-    "title": "Reversed rotated fleuron is larger than other two",
-    "url": "https://github.com/notofonts/symbols/issues/31"
-   },
-   {
-    "number": 30,
-    "title": "Baseline of U+1F6F7..U+1F6FA is too low",
-    "url": "https://github.com/notofonts/symbols/issues/30"
-   },
-   {
-    "number": 33,
-    "title": "missing characters, scripts, and drawing behavior",
-    "url": "https://github.com/notofonts/symbols/issues/33"
    },
    {
     "number": 32,
@@ -15046,19 +14986,9 @@
     "url": "https://github.com/notofonts/symbols/issues/28"
    },
    {
-    "number": 27,
-    "title": "Merge NotoSansSymbols and NotoSansSymbols2",
-    "url": "https://github.com/notofonts/symbols/issues/27"
-   },
-   {
     "number": 26,
     "title": "Height of box characters in \"Symbols for Legacy Computing\" doesn't match height of box characters in \"Block Elements\" block ",
     "url": "https://github.com/notofonts/symbols/issues/26"
-   },
-   {
-    "number": 25,
-    "title": "Multiple U+102E0 COPTIC EPACT THOUSANDS MARKs are too far apart",
-    "url": "https://github.com/notofonts/symbols/issues/25"
    },
    {
     "number": 24,
@@ -15069,21 +14999,6 @@
     "number": 23,
     "title": "Combining enclosing circle is centered on the zero line",
     "url": "https://github.com/notofonts/symbols/issues/23"
-   },
-   {
-    "number": 22,
-    "title": "Questionable hatching for large orange shapes",
-    "url": "https://github.com/notofonts/symbols/issues/22"
-   },
-   {
-    "number": 21,
-    "title": "U+101A0 GREEK SYMBOL TAU RHO is off center",
-    "url": "https://github.com/notofonts/symbols/issues/21"
-   },
-   {
-    "number": 20,
-    "title": "Wrong glyphs for WHITE/BLACK CHESS PAWN ROTATED TWO HUNDRED SEVENTY DEGREES",
-    "url": "https://github.com/notofonts/symbols/issues/20"
    },
    {
     "number": 19,
@@ -15104,11 +15019,6 @@
     "number": 14,
     "title": "Misleading glyph for U+1F93B MODERN PENTATHLON",
     "url": "https://github.com/notofonts/symbols/issues/14"
-   },
-   {
-    "number": 13,
-    "title": "Self-intersecting glyphs with U+20E0",
-    "url": "https://github.com/notofonts/symbols/issues/13"
    },
    {
     "number": 12,
@@ -15134,11 +15044,6 @@
     "number": 7,
     "title": "NotoSansSymbols-Regular is not monospaced",
     "url": "https://github.com/notofonts/symbols/issues/7"
-   },
-   {
-    "number": 6,
-    "title": "Noto Symbols needs variation sequence slashed zero form of empty set",
-    "url": "https://github.com/notofonts/symbols/issues/6"
    },
    {
     "number": 4,
