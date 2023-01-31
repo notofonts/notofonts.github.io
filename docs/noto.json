@@ -6874,7 +6874,23 @@
  "kawi": {
   "families": {},
   "gh_url": "https://notofonts.github.io/kawi",
-  "issues": [],
+  "issues": [
+   {
+    "number": 4,
+    "title": "Development plan (3)",
+    "url": "https://github.com/notofonts/kawi/issues/4"
+   },
+   {
+    "number": 3,
+    "title": "Development plan (2)",
+    "url": "https://github.com/notofonts/kawi/issues/3"
+   },
+   {
+    "number": 2,
+    "title": "Development plan (1)",
+    "url": "https://github.com/notofonts/kawi/issues/2"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/kawi",
   "tier": 4,
   "title": "Noto Sans Kawi"
