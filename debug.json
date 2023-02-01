@@ -594,8 +594,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 22,
+  "issue_count": 23,
   "issues": [
+   {
+    "number": 185,
+    "title": "Naskh re-engineering review",
+    "url": "https://github.com/notofonts/arabic/issues/185"
+   },
    {
     "number": 183,
     "title": "characters missing in Arabic font",

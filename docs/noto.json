@@ -466,6 +466,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 185,
+    "title": "Naskh re-engineering review",
+    "url": "https://github.com/notofonts/arabic/issues/185"
+   },
+   {
     "number": 183,
     "title": "characters missing in Arabic font",
     "url": "https://github.com/notofonts/arabic/issues/183"
