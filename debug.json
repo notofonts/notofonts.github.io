@@ -20307,8 +20307,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tangut",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 2,
+    "title": "Interfering CJK characters",
+    "url": "https://github.com/notofonts/tangut/issues/2"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/tangut",
   "tier": 5,
   "title": "Noto Tangut"
