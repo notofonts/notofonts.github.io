@@ -9270,11 +9270,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/393"
    },
    {
-    "number": 391,
-    "title": "Add Kyrgyzstani som sign \u20c0 (U+20C0)",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/391"
-   },
-   {
     "number": 389,
     "title": "Fix slash length and angle for two glyphs in NotoSans{Italic,Mono}",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/389"
@@ -9315,11 +9310,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/2"
    },
    {
-    "number": 3,
-    "title": "U+1F1D GREEK CAPITAL LETTER EPSILON WITH DASIA AND OXIA left side bearing too negative",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/3"
-   },
-   {
     "number": 4,
     "title": "U+1C80 CYRILLIC SMALL LETTER ROUNDED VE has an ascender",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/4"
@@ -9333,16 +9323,6 @@
     "number": 6,
     "title": "Wrong glyph for U+A66E CYRILLIC LETTER MULTIOCULAR O",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/6"
-   },
-   {
-    "number": 7,
-    "title": "U+018D LATIN SMALL LETTER TURNED DELTA is too high in Noto Sans Display Italic",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/7"
-   },
-   {
-    "number": 8,
-    "title": "Incorrect spacing of U+02D0 (MODIFIER LETTER TRIANGULAR COLON) in Noto Sans family and Noto Serif family ",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/8"
    },
    {
     "number": 9,
@@ -9375,16 +9355,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/231"
    },
    {
-    "number": 15,
-    "title": "Combining half marks need separate anchors",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/15"
-   },
-   {
-    "number": 224,
-    "title": "Serif and Sans 1DD4..1DF4 are stretched in some rendering engines",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/224"
-   },
-   {
     "number": 211,
     "title": "Italic variants and serif uppercase J for Noto Sans Mono",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/211"
@@ -9415,19 +9385,9 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/21"
    },
    {
-    "number": 23,
-    "title": "Noto Sans should be available via the Microsoft Store.",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/23"
-   },
-   {
     "number": 24,
     "title": "Combining characters",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/24"
-   },
-   {
-    "number": 25,
-    "title": "Add new Unicode MODIFIER LETTERs C, F, and Q to Noto Sans Latin",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/25"
    },
    {
     "number": 26,
@@ -9435,24 +9395,9 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/26"
    },
    {
-    "number": 27,
-    "title": "Non-spacing U+2E3C STENOGRAPHIC FULL STOP",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/27"
-   },
-   {
-    "number": 29,
-    "title": "Noto serif font transition boundaries introduce extraneous spacing",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/29"
-   },
-   {
     "number": 30,
     "title": "U+1E23 : LATIN SMALL LETTER H WITH DOT ABOVE (\u1e23) should have the dot in a different place",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/30"
-   },
-   {
-    "number": 31,
-    "title": "Lari sign in Noto Sans is simply wrong. Consider using the Georgian version.",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/31"
    },
    {
     "number": 32,
@@ -9650,11 +9595,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/222"
    },
    {
-    "number": 221,
-    "title": "Diacritics block Latin ligatures",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/221"
-   },
-   {
     "number": 220,
     "title": "Overlapping U+A69E COMBINING CYRILLIC LETTER EF",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/220"
@@ -9698,11 +9638,6 @@
     "number": 216,
     "title": "Inconsistent styling of Chinantec tone marks",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/216"
-   },
-   {
-    "number": 105,
-    "title": "U+0337 & U+0338 Combining Solidus Overlay Misplaced on Many Characters",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/105"
    },
    {
     "number": 215,
@@ -9815,16 +9750,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/121"
    },
    {
-    "number": 205,
-    "title": "Add U+25CC (Dotted circles) to 'Noto Sans Mono'",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/205"
-   },
-   {
-    "number": 204,
-    "title": "Add U+20BF (Bitcoin currency sign) to Noto Sans Mono",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/204"
-   },
-   {
     "number": 122,
     "title": "Noto Mono: consider making various ASCII symbols used in code and the terminal more prominent",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/122"
@@ -9898,11 +9823,6 @@
     "number": 134,
     "title": "Missing and misplaced anchor points in Latin, Greek, and Cyrillic",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/134"
-   },
-   {
-    "number": 135,
-    "title": "Wrong glyph for U+1FBE GREEK PROSGEGRAMMENI",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/135"
    },
    {
     "number": 136,
@@ -10000,11 +9920,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/154"
    },
    {
-    "number": 155,
-    "title": "Inconsistent kerning of pairs ending with a comma",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/155"
-   },
-   {
     "number": 156,
     "title": "Add Navajo letterforms for smallcaps vowels with ogonek",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/156"
@@ -10028,26 +9943,6 @@
     "number": 161,
     "title": "Missing alternates for eng.sc; Eng.alt2 seems redundant",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/161"
-   },
-   {
-    "number": 163,
-    "title": "ftxdumperfuser 347 reports bad `gvar` table in NotoSans-VF.ttf",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/163"
-   },
-   {
-    "number": 164,
-    "title": "Layout shift going from Mac to PC powerpoint 2016",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/164"
-   },
-   {
-    "number": 189,
-    "title": "Mono alpha: bracketleft and bracketright are not vertically aligned",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/189"
-   },
-   {
-    "number": 165,
-    "title": "Noto Sans, Noto Serif: wrong U+A7FA small capital turned m",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/165"
    },
    {
     "number": 166,
