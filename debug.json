@@ -15546,8 +15546,13 @@
   "families_count": 0,
   "gh_url": "https://notofonts.github.io/old-hungarian-ui",
   "has_releases": false,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 4,
+    "title": "Required information succeed",
+    "url": "https://github.com/notofonts/old-hungarian-ui/issues/4"
+   },
    {
     "number": 3,
     "title": "Possible publish notofonts/old-hungarian-ui?",
