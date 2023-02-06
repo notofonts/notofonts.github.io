@@ -1,11 +1,12 @@
 {
  "closed_per_month": {
-  "1": 150
+  "1": 150,
+  "2": 21
  },
  "open_per_repo": {
   "adlam": 6,
   "ahom": 4,
-  "arabic": 22,
+  "arabic": 23,
   "armenian": 4,
   "balinese": 9,
   "bamum": 1,
@@ -21,7 +22,7 @@
   "devanagari": 13,
   "dives-akuru": 7,
   "dogra": 4,
-  "duployan": 2,
+  "duployan": 3,
   "egyptian-hieroglyphs": 5,
   "elbasan": 2,
   "elymaic": 2,
@@ -41,13 +42,14 @@
   "javanese": 5,
   "kaithi": 6,
   "kannada": 12,
+  "kawi": 3,
   "kharoshthi": 1,
   "khitan-small-script": 1,
   "khmer": 9,
   "khojki": 6,
   "khudawadi": 1,
   "lao": 4,
-  "latin-greek-cyrillic": 173,
+  "latin-greek-cyrillic": 152,
   "limbu": 2,
   "linear-a": 1,
   "lisu": 1,
@@ -75,7 +77,7 @@
   "nushu": 4,
   "nyiakeng-puachue-hmong": 3,
   "old-hungarian": 3,
-  "old-hungarian-ui": 2,
+  "old-hungarian-ui": 3,
   "old-italic": 1,
   "old-persian": 1,
   "old-sogdian": 3,
@@ -107,6 +109,7 @@
   "takri": 4,
   "tamil": 7,
   "tangsa": 2,
+  "tangut": 1,
   "telugu": 5,
   "thaana": 2,
   "thai": 11,
@@ -119,14 +122,15 @@
   "zanabazar-square": 2
  },
  "open_per_tier": {
-  "1": 299,
+  "1": 279,
   "2": 75,
-  "3": 181,
-  "4": 74,
-  "5": 48
+  "3": 182,
+  "4": 78,
+  "5": 49
  },
  "opened_per_month": {
-  "1": 17
+  "1": 21,
+  "2": 3
  },
  "releases_per_month": {
   "1": [
@@ -1135,6 +1139,7 @@
   ]
  },
  "totals_per_month": {
-  "1": 810
+  "1": 810,
+  "2": 681
  }
 }
