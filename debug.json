@@ -4112,8 +4112,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/duployan",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 7,
+    "title": "Merge upstream changes as of 2023-02-05",
+    "url": "https://github.com/notofonts/duployan/pull/7"
+   },
    {
     "number": 6,
     "title": "Leave and rename v2",
