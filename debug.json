@@ -4112,22 +4112,12 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/duployan",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 7,
-    "title": "Merge upstream changes as of 2023-02-05",
-    "url": "https://github.com/notofonts/duployan/pull/7"
-   },
    {
     "number": 6,
     "title": "Leave and rename v2",
     "url": "https://github.com/notofonts/duployan/issues/6"
-   },
-   {
-    "number": 5,
-    "title": "Too small dots",
-    "url": "https://github.com/notofonts/duployan/issues/5"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/duployan",
@@ -11040,7 +11030,7 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 152,
+  "issue_count": 151,
   "issues": [
    {
     "number": 394,
@@ -11431,11 +11421,6 @@
     "number": 228,
     "title": "Wrong Turkic small capital i",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/228"
-   },
-   {
-    "number": 235,
-    "title": "Bad small capital versions of combining diacritics",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/235"
    },
    {
     "number": 214,
