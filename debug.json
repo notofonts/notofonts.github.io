@@ -11030,7 +11030,7 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 151,
+  "issue_count": 149,
   "issues": [
    {
     "number": 394,
@@ -11228,11 +11228,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/43"
    },
    {
-    "number": 44,
-    "title": "U+A66E CYRILLIC LETTER MULTIOCULAR O is not italicized in Noto Serif Italic",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/44"
-   },
-   {
     "number": 45,
     "title": "Italic lowercase glyphs with Cyrillic left descenders",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/45"
@@ -11331,11 +11326,6 @@
     "number": 64,
     "title": "Incomplete soft-dotting with intervening marks",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/64"
-   },
-   {
-    "number": 65,
-    "title": "Incomplete unnecessary decomposition of U+0268 LATIN SMALL LETTER I WITH STROKE",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/65"
    },
    {
     "number": 66,
