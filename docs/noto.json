@@ -1938,16 +1938,6 @@
   "gh_url": "https://notofonts.github.io/canadian-aboriginal",
   "issues": [
    {
-    "number": 6,
-    "title": "Fix for issue#5",
-    "url": "https://github.com/notofonts/canadian-aboriginal/pull/6"
-   },
-   {
-    "number": 5,
-    "title": "Inconsistent spacing of dots in Canadian Aboriginal letters",
-    "url": "https://github.com/notofonts/canadian-aboriginal/issues/5"
-   },
-   {
     "number": 3,
     "title": "Identical glyphs for U+144A and U+18F3",
     "url": "https://github.com/notofonts/canadian-aboriginal/issues/3"
@@ -4304,13 +4294,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/gothic",
-  "issues": [
-   {
-    "number": 2,
-    "title": "Marks are applied badly to U+25CC DOTTED CIRCLE",
-    "url": "https://github.com/notofonts/gothic/issues/2"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/gothic",
   "tier": 4,
   "title": "Noto Gothic"
@@ -9275,11 +9259,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/387"
    },
    {
-    "number": 237,
-    "title": "Noto Sans Display Italic : adjust modifier letters component position",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/237"
-   },
-   {
     "number": 234,
     "title": "Noto Mono is not mono. ",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/234"
@@ -9835,11 +9814,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/141"
    },
    {
-    "number": 142,
-    "title": "When using webfonts with noto and latin extended-D characters, tofu appears in an iphone 6 rendering",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/142"
-   },
-   {
     "number": 143,
     "title": "U+1C83 CYRILLIC SMALL LETTER WIDE ES too similar to U+0441 CYRILLIC SMALL LETTER ES",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/143"
@@ -9868,11 +9842,6 @@
     "number": 146,
     "title": "Problems with Teuthonista combining parentheses",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/146"
-   },
-   {
-    "number": 195,
-    "title": "Noto Sans Mono too high",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/195"
    },
    {
     "number": 147,
@@ -10185,13 +10154,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/lisu",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Lisu: the advance width of some tone marks are wrong",
-    "url": "https://github.com/notofonts/lisu/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/lisu",
   "tier": 2,
   "title": "Noto Lisu"
@@ -10292,13 +10255,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/mahajani",
-  "issues": [
-   {
-    "number": 2,
-    "title": "U+11173 MAHAJANI SIGN NUKTA overlaps U+1116A MAHAJANI LETTER BA",
-    "url": "https://github.com/notofonts/mahajani/issues/2"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/mahajani",
   "tier": 4,
   "title": "Noto Mahajani"
@@ -10981,13 +10938,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/masaram-gondi",
-  "issues": [
-   {
-    "number": 3,
-    "title": "Masaram Gondi variant numeral shapes 5 and 6 mismatched",
-    "url": "https://github.com/notofonts/masaram-gondi/issues/3"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/masaram-gondi",
   "tier": 3,
   "title": "Noto Masaram Gondi"
@@ -12465,13 +12416,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/newa",
-  "issues": [
-   {
-    "number": 9,
-    "title": "U+11443 NEWA SIGN CANDRABINDU is too big in \u27e8\ud805\udc2c\ud805\udc42\ud805\udc0e\ud805\udc36\ud805\udc43\u27e9",
-    "url": "https://github.com/notofonts/newa/issues/9"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/newa",
   "tier": 3,
   "title": "Noto Newa"
@@ -12938,13 +12883,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/old-persian",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Old Persian glyphs misaligned to code points",
-    "url": "https://github.com/notofonts/old-persian/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/old-persian",
   "tier": 5,
   "title": "Noto Old Persian"
@@ -13091,13 +13030,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/old-uyghur",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Topographical features do not work for Old Uyghur",
-    "url": "https://github.com/notofonts/old-uyghur/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/old-uyghur",
   "tier": 5,
   "title": "Noto Old Uyghur"
@@ -13479,13 +13412,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/phoenician",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Noto Sans Phoenician Regular missing script tag",
-    "url": "https://github.com/notofonts/phoenician/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/phoenician",
   "tier": 4,
   "title": "Noto Phoenician"
@@ -13602,13 +13529,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/runic",
-  "issues": [
-   {
-    "number": 2,
-    "title": "U+25CC DOTTED CIRCLE\u2019s anchor point is off center",
-    "url": "https://github.com/notofonts/runic/issues/2"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/runic",
   "tier": 4,
   "title": "Noto Runic"
@@ -13638,18 +13559,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/samaritan",
-  "issues": [
-   {
-    "number": 2,
-    "title": "'calt' should probably be 'rclt'",
-    "url": "https://github.com/notofonts/samaritan/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Samaritan has no dotted circle",
-    "url": "https://github.com/notofonts/samaritan/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/samaritan",
   "tier": 5,
   "title": "Noto Samaritan"
@@ -14492,13 +14402,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/sinhala",
-  "issues": [
-   {
-    "number": 4,
-    "title": "Sinhala: sub-optimal placement of repaya in complex conjunct",
-    "url": "https://github.com/notofonts/sinhala/issues/4"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/sinhala",
   "tier": 1,
   "title": "Noto Sinhala"
@@ -14528,13 +14432,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/sogdian",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Noto Sans Sogdian uses unregistered feature tags",
-    "url": "https://github.com/notofonts/sogdian/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/sogdian",
   "tier": 5,
   "title": "Noto Sogdian"
@@ -16295,13 +16193,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/tangut",
-  "issues": [
-   {
-    "number": 2,
-    "title": "Interfering CJK characters",
-    "url": "https://github.com/notofonts/tangut/issues/2"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/tangut",
   "tier": 5,
   "title": "Noto Tangut"
@@ -18353,13 +18245,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/wancho",
-  "issues": [
-   {
-    "number": 2,
-    "title": "Kerning is not applied",
-    "url": "https://github.com/notofonts/wancho/issues/2"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/wancho",
   "tier": 3,
   "title": "Noto Wancho"
@@ -18389,13 +18275,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/warang-citi",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Extra ZWJs interfere with Warang Citi conjuncts",
-    "url": "https://github.com/notofonts/warang-citi/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/warang-citi",
   "tier": 3,
   "title": "Noto Warang Citi"
