@@ -12743,6 +12743,11 @@
   "gh_url": "https://notofonts.github.io/old-hungarian-ui",
   "issues": [
    {
+    "number": 5,
+    "title": "LO need a font in ttf format with bottom aligned feature. This font is very suitable for LibreOffice.",
+    "url": "https://github.com/notofonts/old-hungarian-ui/issues/5"
+   },
+   {
     "number": 4,
     "title": "Required information succeed",
     "url": "https://github.com/notofonts/old-hungarian-ui/issues/4"
