@@ -11014,8 +11014,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 146,
+  "issue_count": 147,
   "issues": [
+   {
+    "number": 396,
+    "title": "Minus sign U+2212 too short and looking like hyphen-minus",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/396"
+   },
    {
     "number": 394,
     "title": "Combining Diacritical Marks Extended: U+1AC9..U+1ACE display wrong characters' glyphs",
