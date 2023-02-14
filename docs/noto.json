@@ -16094,11 +16094,6 @@
     "url": "https://github.com/notofonts/tamil/issues/5"
    },
    {
-    "number": 4,
-    "title": "NotoSerifTamilSlanted-VF.ttf and NotoSerifTamilSlanted-Italic-VF.ttf in tree/main/unhinted/variable-ttf",
-    "url": "https://github.com/notofonts/tamil/issues/4"
-   },
-   {
     "number": 3,
     "title": "Mispositioned nuktas below U+0BC6 TAMIL VOWEL SIGN E",
     "url": "https://github.com/notofonts/tamil/issues/3"
@@ -16677,11 +16672,6 @@
     "number": 8,
     "title": "Telugu Noto sans and serif consonant conjuncts and vowel sign rendering issue",
     "url": "https://github.com/notofonts/telugu/issues/8"
-   },
-   {
-    "number": 1,
-    "title": "The base line for noto sans Telugu is not in line with English and punctuation marks. ",
-    "url": "https://github.com/notofonts/telugu/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/telugu",
