@@ -11014,8 +11014,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 147,
+  "issue_count": 148,
   "issues": [
+   {
+    "number": 397,
+    "title": "Fractions for -thirds are wider than -fourths and -half",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/397"
+   },
    {
     "number": 396,
     "title": "Minus sign U+2212 too short and looking like hyphen-minus",
@@ -19942,9 +19947,9 @@
   "issue_count": 6,
   "issues": [
    {
-    "number": 13,
-    "title": "Noto Sans Tamil UI baseline alignment issue in the Android 13 environment",
-    "url": "https://github.com/notofonts/tamil/issues/13"
+    "number": 15,
+    "title": "Kerning exceptions apply incorrectly, causing clashes (workaround required)",
+    "url": "https://github.com/notofonts/tamil/issues/15"
    },
    {
     "number": 6,
