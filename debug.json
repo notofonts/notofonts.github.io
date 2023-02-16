@@ -3827,7 +3827,7 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/devanagari",
   "has_releases": true,
-  "issue_count": 13,
+  "issue_count": 6,
   "issues": [
    {
     "number": 13,
@@ -3835,44 +3835,14 @@
     "url": "https://github.com/notofonts/devanagari/issues/13"
    },
    {
-    "number": 12,
-    "title": "Noto Serif Devanagari: Consonant conjuncts with U+0919",
-    "url": "https://github.com/notofonts/devanagari/issues/12"
-   },
-   {
-    "number": 11,
-    "title": "Devanagari umlauts are so high that they are unseen",
-    "url": "https://github.com/notofonts/devanagari/issues/11"
-   },
-   {
     "number": 10,
     "title": "A certain sAmaveda accent clash",
     "url": "https://github.com/notofonts/devanagari/issues/10"
    },
    {
-    "number": 9,
-    "title": "Weird spacing effects with ardhavisarga in Noto Serif Devanagari",
-    "url": "https://github.com/notofonts/devanagari/issues/9"
-   },
-   {
-    "number": 8,
-    "title": "ZWJ does not block conjuncts for Devanagari letters without real half forms",
-    "url": "https://github.com/notofonts/devanagari/issues/8"
-   },
-   {
     "number": 7,
     "title": "Add ligature for \u0936\u094d\u0928 (\u015bna) in Devanagari Serif",
     "url": "https://github.com/notofonts/devanagari/issues/7"
-   },
-   {
-    "number": 6,
-    "title": "Inconsistent kerning of U+0979 DEVANAGARI LETTER ZHA",
-    "url": "https://github.com/notofonts/devanagari/issues/6"
-   },
-   {
-    "number": 5,
-    "title": "Positioning of Svarita and anudatta in combination with Visarga in Devanagari ",
-    "url": "https://github.com/notofonts/devanagari/issues/5"
    },
    {
     "number": 4,
@@ -3885,13 +3855,8 @@
     "url": "https://github.com/notofonts/devanagari/issues/3"
    },
    {
-    "number": 2,
-    "title": "LA+UU combination doesn't allocate enough space in Noto Sans Devanagari and UI",
-    "url": "https://github.com/notofonts/devanagari/issues/2"
-   },
-   {
     "number": 1,
-    "title": "Noto Sans Devanagari for Sanskrit Ligatures",
+    "title": "More conjuncts required",
     "url": "https://github.com/notofonts/devanagari/issues/1"
    }
   ],
