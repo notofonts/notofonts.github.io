@@ -1646,29 +1646,9 @@
     "url": "https://github.com/notofonts/bengali/issues/10"
    },
    {
-    "number": 8,
-    "title": "Mispositioned U+0951 DEVANAGARI STRESS SIGN UDATTA in Noto Serif Bengali",
-    "url": "https://github.com/notofonts/bengali/issues/8"
-   },
-   {
-    "number": 7,
-    "title": "Noto Serif Bengali kerns \u27e8\u09aa\u09cd\u099f\u09c7\u27e9 and \u27e8\u09aa\u09cd\u099f\u09cc\u27e9 inconsistently",
-    "url": "https://github.com/notofonts/bengali/issues/7"
-   },
-   {
-    "number": 6,
-    "title": "TTRA in NotoSansBengali does not appear correctly",
-    "url": "https://github.com/notofonts/bengali/issues/6"
-   },
-   {
     "number": 5,
     "title": "Notosans Bengali has interchanged two ligatures \u09b9\u09cd\u09a3 \u09b9\u09cd\u09a8",
     "url": "https://github.com/notofonts/bengali/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Noto Serif Bengali has incorrect AGLFN names",
-    "url": "https://github.com/notofonts/bengali/issues/4"
    },
    {
     "number": 3,
@@ -5342,24 +5322,9 @@
   "gh_url": "https://notofonts.github.io/gurmukhi",
   "issues": [
    {
-    "number": 23,
-    "title": "Support <U+0A02 BINDI, U+0A40 VOWEL SIGN II>",
-    "url": "https://github.com/notofonts/gurmukhi/issues/23"
-   },
-   {
-    "number": 22,
-    "title": "'calt' is inconsistent about which clusters to separate",
-    "url": "https://github.com/notofonts/gurmukhi/issues/22"
-   },
-   {
     "number": 21,
     "title": "Handling of I-matra + tippi",
     "url": "https://github.com/notofonts/gurmukhi/issues/21"
-   },
-   {
-    "number": 20,
-    "title": "Nukta of LLA on wrong side?",
-    "url": "https://github.com/notofonts/gurmukhi/issues/20"
    },
    {
     "number": 6,
@@ -5367,24 +5332,9 @@
     "url": "https://github.com/notofonts/gurmukhi/issues/6"
    },
    {
-    "number": 5,
-    "title": "La ha-ha versus la-ha ha conjunct",
-    "url": "https://github.com/notofonts/gurmukhi/issues/5"
-   },
-   {
     "number": 4,
     "title": " Noto Serif Gurmukhi is not attaching conjuncts correctly",
     "url": "https://github.com/notofonts/gurmukhi/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Gurmukhi fonts need U+02BC 'MODIFIER LETTER APOSTROPHE'",
-    "url": "https://github.com/notofonts/gurmukhi/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Inconsistent kerning in Gurmukhi",
-    "url": "https://github.com/notofonts/gurmukhi/issues/2"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/gurmukhi",
@@ -6767,7 +6717,7 @@
    },
    {
     "number": 11,
-    "title": "The glyphs of \u0c99\u0ccc \u0c9e\u0ccc \u0cde\u0ccc \u0cb1\u0ccc needs to be updated in Serif",
+    "title": "The glyphs of \u0c99\u0ccc \u0c9e\u0ccc \u0cde\u0ccc \u0cb1\u0ccc needs to be updated in Sans",
     "url": "https://github.com/notofonts/kannada/issues/11"
    },
    {
@@ -6776,23 +6726,13 @@
     "url": "https://github.com/notofonts/kannada/issues/10"
    },
    {
-    "number": 9,
-    "title": "Subscript of \u0c95\u0ccd\u0cb7 needs to be corrected in Noto Sans Kannada",
-    "url": "https://github.com/notofonts/kannada/issues/9"
-   },
-   {
-    "number": 8,
-    "title": "Kannada with sAma-vedic accents doesn't render well",
-    "url": "https://github.com/notofonts/kannada/issues/8"
-   },
-   {
     "number": 7,
     "title": "Noto Serif Kannada number height",
     "url": "https://github.com/notofonts/kannada/issues/7"
    },
    {
     "number": 6,
-    "title": "Noto Serif Kannada font issue",
+    "title": "Bad stacking behaviour of upadhmaniya and jihvamuliya",
     "url": "https://github.com/notofonts/kannada/issues/6"
    },
    {
@@ -6801,19 +6741,9 @@
     "url": "https://github.com/notofonts/kannada/issues/5"
    },
    {
-    "number": 4,
-    "title": "Noto Serif Kannada Defect with Double below form consonants, U+0CC3 U+0CC4 U+0CC8",
-    "url": "https://github.com/notofonts/kannada/issues/4"
-   },
-   {
     "number": 3,
     "title": "Kannada letter design issue \u0caa\u0cc1, \u0caa\u0cc2, \u0caa\u0cca, \u0caa\u0ccb, \u0cab\u0cc1, \u0cab\u0cc2, \u0cab\u0cca, \u0cab\u0ccb",
     "url": "https://github.com/notofonts/kannada/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "review of Serif Kannada change proposal",
-    "url": "https://github.com/notofonts/kannada/issues/2"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/kannada",
