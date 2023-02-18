@@ -10912,6 +10912,16 @@
   "issue_count": 148,
   "issues": [
    {
+    "number": 399,
+    "title": "Noto Sans (combining) diacritical marks misaligned when coloured or in bold",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/399"
+   },
+   {
+    "number": 398,
+    "title": "Stylistic alternate to reduce mirroring issues for certain glyphs e.g. bd & pq",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/398"
+   },
+   {
     "number": 397,
     "title": "Fractions for -thirds are wider than -fourths and -half",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/397"
@@ -10920,11 +10930,6 @@
     "number": 396,
     "title": "Minus sign U+2212 too short and looking like hyphen-minus",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/396"
-   },
-   {
-    "number": 394,
-    "title": "Combining Diacritical Marks Extended: U+1AC9..U+1ACE display wrong characters' glyphs",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/394"
    },
    {
     "number": 393,
@@ -11040,11 +11045,6 @@
     "number": 21,
     "title": "Greek 'ccmp' rules don\u2019t match NFC input",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/21"
-   },
-   {
-    "number": 24,
-    "title": "Combining characters",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/24"
    },
    {
     "number": 26,
