@@ -1,7 +1,7 @@
 {
  "closed_per_month": {
   "1": 150,
-  "2": 48
+  "2": 75
  },
  "open_per_repo": {
   "adlam": 6,
@@ -10,7 +10,7 @@
   "armenian": 4,
   "balinese": 9,
   "bamum": 1,
-  "bengali": 9,
+  "bengali": 5,
   "bhaiksuki": 5,
   "brahmi": 6,
   "canadian-aboriginal": 2,
@@ -19,7 +19,7 @@
   "chorasmian": 2,
   "coptic": 2,
   "deseret": 1,
-  "devanagari": 13,
+  "devanagari": 6,
   "dives-akuru": 7,
   "dogra": 4,
   "duployan": 1,
@@ -32,7 +32,7 @@
   "grantha": 4,
   "gujarati": 7,
   "gunjala-gondi": 3,
-  "gurmukhi": 9,
+  "gurmukhi": 3,
   "hanifi-rohingya": 2,
   "hanunoo": 1,
   "hebrew": 10,
@@ -40,7 +40,7 @@
   "inscriptional-parthian": 1,
   "javanese": 5,
   "kaithi": 6,
-  "kannada": 12,
+  "kannada": 8,
   "kawi": 3,
   "kharoshthi": 1,
   "khitan-small-script": 1,
@@ -48,7 +48,7 @@
   "khojki": 6,
   "khudawadi": 1,
   "lao": 4,
-  "latin-greek-cyrillic": 147,
+  "latin-greek-cyrillic": 148,
   "limbu": 2,
   "linear-a": 1,
   "lydian": 2,
@@ -95,9 +95,9 @@
   "tai-tham": 4,
   "tai-viet": 3,
   "takri": 4,
-  "tamil": 7,
+  "tamil": 6,
   "tangsa": 2,
-  "telugu": 5,
+  "telugu": 4,
   "thaana": 2,
   "thai": 11,
   "tibetan": 12,
@@ -107,15 +107,15 @@
   "zanabazar-square": 2
  },
  "open_per_tier": {
-  "1": 273,
+  "1": 251,
   "2": 74,
   "3": 174,
   "4": 75,
   "5": 43
  },
  "opened_per_month": {
-  "1": 19,
-  "2": 3
+  "1": 18,
+  "2": 7
  },
  "releases_per_month": {
   "1": [
@@ -1124,7 +1124,7 @@
   ]
  },
  "totals_per_month": {
-  "1": 815,
-  "2": 684
+  "1": 817,
+  "2": 685
  }
 }
