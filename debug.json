@@ -5399,8 +5399,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/grantha",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 5,
   "issues": [
+   {
+    "number": 20,
+    "title": "Anusvara blocks kerning",
+    "url": "https://github.com/notofonts/grantha/issues/20"
+   },
    {
     "number": 19,
     "title": "Extra space in \u201cAdditional ligatures (jjnya/ shva)\u201d",
@@ -6679,12 +6684,17 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/hanunoo",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
    {
     "number": 2,
     "title": "U+1734 HANUNOO SIGN PAMUDPOD overlaps the following glyph",
     "url": "https://github.com/notofonts/hanunoo/issues/2"
+   },
+   {
+    "number": 1,
+    "title": "U+172D: HANUNOO LETTER RA (\u172d) should be updated to modern Ra.",
+    "url": "https://github.com/notofonts/hanunoo/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/hanunoo",
