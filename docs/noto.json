@@ -1641,6 +1641,11 @@
   "gh_url": "https://notofonts.github.io/bengali",
   "issues": [
    {
+    "number": 21,
+    "title": "TA(U+09A4)+TA+RA \"TTRA\" in NotoSansBengali does not appear correctly ",
+    "url": "https://github.com/notofonts/bengali/issues/21"
+   },
+   {
     "number": 10,
     "title": "Half forms are not to be used in Bengali",
     "url": "https://github.com/notofonts/bengali/issues/10"
@@ -9144,6 +9149,16 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 402,
+    "title": "Adjust U+1DF1A",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/402"
+   },
+   {
+    "number": 401,
+    "title": "Use .glyphspackage",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/401"
+   },
+   {
     "number": 400,
     "title": "Visual ambiguity between left/right quotes",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/400"
@@ -13080,6 +13095,11 @@
   },
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
+   {
+    "number": 16,
+    "title": "Conjunct clashes in >2.000 Sans",
+    "url": "https://github.com/notofonts/oriya/issues/16"
+   },
    {
     "number": 15,
     "title": "Noto Sans Oriya Condensed is not condensed",
