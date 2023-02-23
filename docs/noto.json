@@ -5953,6 +5953,11 @@
   "gh_url": "https://notofonts.github.io/hebrew",
   "issues": [
    {
+    "number": 32,
+    "title": "Serif Waw Holam is mispositioned",
+    "url": "https://github.com/notofonts/hebrew/issues/32"
+   },
+   {
     "number": 13,
     "title": "Noto Sans Hebrew Interpolation issue uniFB25",
     "url": "https://github.com/notofonts/hebrew/issues/13"
@@ -9149,14 +9154,9 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
-    "number": 402,
-    "title": "Adjust U+1DF1A",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/402"
-   },
-   {
-    "number": 401,
-    "title": "Use .glyphspackage",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/401"
+    "number": 404,
+    "title": "Extend latnSoftDot and adjust combining marks",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/404"
    },
    {
     "number": 400,
@@ -12091,7 +12091,13 @@
  "nag-mundari": {
   "families": {},
   "gh_url": "https://notofonts.github.io/nag-mundari",
-  "issues": [],
+  "issues": [
+   {
+    "number": 1,
+    "title": "Completed fonts",
+    "url": "https://github.com/notofonts/nag-mundari/pull/1"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/nag-mundari",
   "tier": 3,
   "title": "Noto Sans Nag Mundari"
