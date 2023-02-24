@@ -1651,6 +1651,11 @@
     "url": "https://github.com/notofonts/bengali/issues/10"
    },
    {
+    "number": 6,
+    "title": "TTRA in NotoSansBengali does not appear correctly",
+    "url": "https://github.com/notofonts/bengali/issues/6"
+   },
+   {
     "number": 5,
     "title": "Notosans Bengali has interchanged two ligatures \u09b9\u09cd\u09a3 \u09b9\u09cd\u09a8",
     "url": "https://github.com/notofonts/bengali/issues/5"
@@ -13102,11 +13107,6 @@
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
    {
-    "number": 16,
-    "title": "Conjunct clashes in >2.000 Sans",
-    "url": "https://github.com/notofonts/oriya/issues/16"
-   },
-   {
     "number": 15,
     "title": "Noto Sans Oriya Condensed is not condensed",
     "url": "https://github.com/notofonts/oriya/issues/15"
@@ -14348,7 +14348,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/sinhala",
-  "issues": [],
+  "issues": [
+   {
+    "number": 6,
+    "title": "Kombu Deka became non-spacing in Serif",
+    "url": "https://github.com/notofonts/sinhala/issues/6"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/sinhala",
   "tier": 1,
   "title": "Noto Sinhala"
@@ -16589,6 +16595,11 @@
   },
   "gh_url": "https://notofonts.github.io/telugu",
   "issues": [
+   {
+    "number": 13,
+    "title": "Lots of regressions",
+    "url": "https://github.com/notofonts/telugu/issues/13"
+   },
    {
     "number": 12,
     "title": "The subscripts in \u0c15\u0c4d\u0c24\u0c4d\u0c30 are clashing",
