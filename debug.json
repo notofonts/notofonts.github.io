@@ -12733,8 +12733,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/malayalam",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 19,
+    "title": "Ensure we support the latest script reform",
+    "url": "https://github.com/notofonts/malayalam/issues/19"
+   },
    {
     "number": 6,
     "title": "Sans Malayalam: Wrong glyph shape for: G-MA cluster",
