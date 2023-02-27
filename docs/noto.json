@@ -3006,6 +3006,11 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
+    "number": 32,
+    "title": "Noto Devanagari : Incorrect rendering of \u0930\u0962 & \u0930\u0963",
+    "url": "https://github.com/notofonts/devanagari/issues/32"
+   },
+   {
     "number": 13,
     "title": "Representation of geminate Devanagari letter NA in Noto Serif Devanagari",
     "url": "https://github.com/notofonts/devanagari/issues/13"
