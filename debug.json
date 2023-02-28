@@ -594,18 +594,8 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 23,
+  "issue_count": 16,
   "issues": [
-   {
-    "number": 185,
-    "title": "Naskh re-engineering review",
-    "url": "https://github.com/notofonts/arabic/issues/185"
-   },
-   {
-    "number": 183,
-    "title": "characters missing in Arabic font",
-    "url": "https://github.com/notofonts/arabic/issues/183"
-   },
    {
     "number": 178,
     "title": "Missing Arabic Extended-B Block",
@@ -615,11 +605,6 @@
     "number": 35,
     "title": "Noto Sans Arabic Font",
     "url": "https://github.com/notofonts/arabic/issues/35"
-   },
-   {
-    "number": 34,
-    "title": "Various subtending digits issues",
-    "url": "https://github.com/notofonts/arabic/issues/34"
    },
    {
     "number": 33,
@@ -647,11 +632,6 @@
     "url": "https://github.com/notofonts/arabic/issues/26"
    },
    {
-    "number": 25,
-    "title": "Redesign Arabic Letter U",
-    "url": "https://github.com/notofonts/arabic/issues/25"
-   },
-   {
     "number": 23,
     "title": "Bad 'aalt' in Noto Sans Arabic",
     "url": "https://github.com/notofonts/arabic/issues/23"
@@ -662,11 +642,6 @@
     "url": "https://github.com/notofonts/arabic/issues/22"
    },
    {
-    "number": 20,
-    "title": "Naskh: Ligatures LAM WITH ALEF with HAMZA/MADDA misposition diacritics",
-    "url": "https://github.com/notofonts/arabic/issues/20"
-   },
-   {
     "number": 15,
     "title": "Add Arabic Extended-A unicode block U+08A0..U+08FF to all Arabic fonts",
     "url": "https://github.com/notofonts/arabic/issues/15"
@@ -675,11 +650,6 @@
     "number": 14,
     "title": "Questionable glyph for isolated U+08AC ARABIC LETTER ROHINGYA YEH",
     "url": "https://github.com/notofonts/arabic/issues/14"
-   },
-   {
-    "number": 12,
-    "title": "Kasra\u2013shadda ligature in Rohingya",
-    "url": "https://github.com/notofonts/arabic/issues/12"
    },
    {
     "number": 11,
@@ -705,11 +675,6 @@
     "number": 4,
     "title": "Noto Kufi Arabic doesn't render in Powerpoint on Windows",
     "url": "https://github.com/notofonts/arabic/issues/4"
-   },
-   {
-    "number": 2,
-    "title": "Naskh Bold: Final Burushaski alefs need adjustments to their designs",
-    "url": "https://github.com/notofonts/arabic/issues/2"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/arabic",
@@ -9874,17 +9839,12 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/lao",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 3,
   "issues": [
    {
     "number": 14,
     "title": "Normalisation with yamakkan 0ECE ",
     "url": "https://github.com/notofonts/lao/issues/14"
-   },
-   {
-    "number": 13,
-    "title": "Yamakkan / Unicode 14 support",
-    "url": "https://github.com/notofonts/lao/pull/13"
    },
    {
     "number": 12,
@@ -14598,14 +14558,8 @@
   "families_count": 0,
   "gh_url": "https://notofonts.github.io/nag-mundari",
   "has_releases": false,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 1,
-    "title": "Completed fonts",
-    "url": "https://github.com/notofonts/nag-mundari/pull/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/nag-mundari",
   "tier": 3,
   "title": "Noto Sans Nag Mundari"
