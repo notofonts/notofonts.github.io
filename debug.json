@@ -594,7 +594,7 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 16,
+  "issue_count": 15,
   "issues": [
    {
     "number": 178,
@@ -635,11 +635,6 @@
     "number": 23,
     "title": "Bad 'aalt' in Noto Sans Arabic",
     "url": "https://github.com/notofonts/arabic/issues/23"
-   },
-   {
-    "number": 22,
-    "title": "NotoSansArabicUI might truncate the following strings",
-    "url": "https://github.com/notofonts/arabic/issues/22"
    },
    {
     "number": 15,
@@ -7253,13 +7248,8 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/hebrew",
   "has_releases": true,
-  "issue_count": 11,
+  "issue_count": 10,
   "issues": [
-   {
-    "number": 32,
-    "title": "Serif Waw Holam is mispositioned",
-    "url": "https://github.com/notofonts/hebrew/issues/32"
-   },
    {
     "number": 13,
     "title": "Noto Sans Hebrew Interpolation issue uniFB25",

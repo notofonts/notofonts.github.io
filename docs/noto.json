@@ -506,11 +506,6 @@
     "url": "https://github.com/notofonts/arabic/issues/23"
    },
    {
-    "number": 22,
-    "title": "NotoSansArabicUI might truncate the following strings",
-    "url": "https://github.com/notofonts/arabic/issues/22"
-   },
-   {
     "number": 15,
     "title": "Add Arabic Extended-A unicode block U+08A0..U+08FF to all Arabic fonts",
     "url": "https://github.com/notofonts/arabic/issues/15"
@@ -5927,11 +5922,6 @@
   },
   "gh_url": "https://notofonts.github.io/hebrew",
   "issues": [
-   {
-    "number": 32,
-    "title": "Serif Waw Holam is mispositioned",
-    "url": "https://github.com/notofonts/hebrew/issues/32"
-   },
    {
     "number": 13,
     "title": "Noto Sans Hebrew Interpolation issue uniFB25",
