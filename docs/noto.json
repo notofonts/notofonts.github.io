@@ -1601,6 +1601,11 @@
   "gh_url": "https://notofonts.github.io/bengali",
   "issues": [
    {
+    "number": 22,
+    "title": "UI font has regressions",
+    "url": "https://github.com/notofonts/bengali/issues/22"
+   },
+   {
     "number": 21,
     "title": "TA(U+09A4)+TA+RA \"TTRA\" in NotoSansBengali does not appear correctly ",
     "url": "https://github.com/notofonts/bengali/issues/21"
@@ -2965,6 +2970,11 @@
   },
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
+   {
+    "number": 33,
+    "title": "UI font has regressions",
+    "url": "https://github.com/notofonts/devanagari/issues/33"
+   },
    {
     "number": 32,
     "title": "Noto Devanagari : Incorrect rendering of \u0930\u0962 & \u0930\u0963",
@@ -6690,6 +6700,11 @@
   },
   "gh_url": "https://notofonts.github.io/kannada",
   "issues": [
+   {
+    "number": 50,
+    "title": "UI font has regressions",
+    "url": "https://github.com/notofonts/kannada/issues/50"
+   },
    {
     "number": 14,
     "title": "The glyphs of some vowel sign combinations of \u0c9f need to be revisited in Serif",
@@ -16549,6 +16564,11 @@
   },
   "gh_url": "https://notofonts.github.io/telugu",
   "issues": [
+   {
+    "number": 14,
+    "title": "Telugu UI regressions",
+    "url": "https://github.com/notofonts/telugu/issues/14"
+   },
    {
     "number": 13,
     "title": "Lots of regressions",
