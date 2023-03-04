@@ -20492,27 +20492,22 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/telugu",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 5,
   "issues": [
    {
-    "number": 14,
-    "title": "Telugu UI regressions",
-    "url": "https://github.com/notofonts/telugu/issues/14"
+    "number": 15,
+    "title": "Telugu UI regression: applying virama to postbase conjuncts",
+    "url": "https://github.com/notofonts/telugu/issues/15"
    },
    {
-    "number": 13,
-    "title": "Lots of regressions",
-    "url": "https://github.com/notofonts/telugu/issues/13"
+    "number": 14,
+    "title": "Telugu UI regression: anchoring",
+    "url": "https://github.com/notofonts/telugu/issues/14"
    },
    {
     "number": 12,
     "title": "The subscripts in \u0c15\u0c4d\u0c24\u0c4d\u0c30 are clashing",
     "url": "https://github.com/notofonts/telugu/issues/12"
-   },
-   {
-    "number": 10,
-    "title": "Vedic accents are not properly placed on a consonant with subscripts",
-    "url": "https://github.com/notofonts/telugu/issues/10"
    },
    {
     "number": 3,
