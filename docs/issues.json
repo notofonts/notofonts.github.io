@@ -1,16 +1,17 @@
 {
  "closed_per_month": {
   "1": 150,
-  "2": 78
+  "2": 90,
+  "3": 2
  },
  "open_per_repo": {
   "adlam": 6,
   "ahom": 4,
-  "arabic": 23,
+  "arabic": 15,
   "armenian": 4,
   "balinese": 9,
   "bamum": 1,
-  "bengali": 7,
+  "bengali": 8,
   "bhaiksuki": 5,
   "brahmi": 6,
   "canadian-aboriginal": 2,
@@ -19,7 +20,7 @@
   "chorasmian": 2,
   "coptic": 2,
   "deseret": 1,
-  "devanagari": 7,
+  "devanagari": 8,
   "dives-akuru": 7,
   "dogra": 4,
   "duployan": 1,
@@ -35,19 +36,19 @@
   "gurmukhi": 3,
   "hanifi-rohingya": 2,
   "hanunoo": 2,
-  "hebrew": 11,
+  "hebrew": 10,
   "inscriptional-pahlavi": 2,
   "inscriptional-parthian": 1,
   "javanese": 5,
   "kaithi": 6,
-  "kannada": 8,
+  "kannada": 9,
   "kawi": 3,
   "kharoshthi": 1,
   "khitan-small-script": 1,
   "khmer": 9,
   "khojki": 6,
   "khudawadi": 1,
-  "lao": 4,
+  "lao": 3,
   "latin-greek-cyrillic": 149,
   "limbu": 2,
   "linear-a": 1,
@@ -66,7 +67,6 @@
   "multani": 2,
   "music": 5,
   "myanmar": 32,
-  "nag-mundari": 1,
   "nandinagari": 4,
   "nastaliq": 17,
   "nko": 2,
@@ -109,15 +109,16 @@
   "zanabazar-square": 2
  },
  "open_per_tier": {
-  "1": 259,
+  "1": 253,
   "2": 74,
-  "3": 176,
+  "3": 174,
   "4": 76,
   "5": 43
  },
  "opened_per_month": {
-  "1": 18,
-  "2": 16
+  "1": 16,
+  "2": 13,
+  "3": 5
  },
  "releases_per_month": {
   "1": [
@@ -1126,7 +1127,8 @@
   ]
  },
  "totals_per_month": {
-  "1": 822,
-  "2": 690
+  "1": 828,
+  "2": 694,
+  "3": 617
  }
 }
