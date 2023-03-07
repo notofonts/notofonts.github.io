@@ -8223,8 +8223,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/kannada",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 10,
   "issues": [
+   {
+    "number": 51,
+    "title": "Add U+0CDD NAKAARA POLLU",
+    "url": "https://github.com/notofonts/kannada/issues/51"
+   },
    {
     "number": 50,
     "title": "UI font has regressions",
@@ -8280,7 +8285,7 @@
   "families_count": 0,
   "gh_url": "https://notofonts.github.io/kawi",
   "has_releases": false,
-  "issue_count": 3,
+  "issue_count": 2,
   "issues": [
    {
     "number": 4,
@@ -8291,11 +8296,6 @@
     "number": 3,
     "title": "Development plan (2)",
     "url": "https://github.com/notofonts/kawi/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Development plan (1)",
-    "url": "https://github.com/notofonts/kawi/issues/2"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/kawi",
@@ -20492,32 +20492,12 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/telugu",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 1,
   "issues": [
    {
-    "number": 15,
-    "title": "Telugu UI regression: applying virama to postbase conjuncts",
-    "url": "https://github.com/notofonts/telugu/issues/15"
-   },
-   {
-    "number": 14,
-    "title": "Telugu UI regression: anchoring",
-    "url": "https://github.com/notofonts/telugu/issues/14"
-   },
-   {
-    "number": 12,
-    "title": "The subscripts in \u0c15\u0c4d\u0c24\u0c4d\u0c30 are clashing",
-    "url": "https://github.com/notofonts/telugu/issues/12"
-   },
-   {
-    "number": 3,
-    "title": "Regression: 0C00 candrabindu above and 0C04 anusvara above are too high",
-    "url": "https://github.com/notofonts/telugu/issues/3"
-   },
-   {
-    "number": 8,
-    "title": "Telugu Noto sans and serif consonant conjuncts and vowel sign rendering issue",
-    "url": "https://github.com/notofonts/telugu/issues/8"
+    "number": 16,
+    "title": "Add U+0C5D NAKAARA POLLU",
+    "url": "https://github.com/notofonts/telugu/issues/16"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/telugu",
