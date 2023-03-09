@@ -1606,29 +1606,14 @@
     "url": "https://github.com/notofonts/bengali/issues/22"
    },
    {
-    "number": 21,
-    "title": "TA(U+09A4)+TA+RA \"TTRA\" in NotoSansBengali does not appear correctly ",
-    "url": "https://github.com/notofonts/bengali/issues/21"
-   },
-   {
     "number": 10,
     "title": "Half forms are not to be used in Bengali",
     "url": "https://github.com/notofonts/bengali/issues/10"
    },
    {
     "number": 6,
-    "title": "TTRA in NotoSansBengali does not appear correctly",
+    "title": "TTA-RA conjunct needs redrawing",
     "url": "https://github.com/notofonts/bengali/issues/6"
-   },
-   {
-    "number": 5,
-    "title": "Notosans Bengali has interchanged two ligatures \u09b9\u09cd\u09a3 \u09b9\u09cd\u09a8",
-    "url": "https://github.com/notofonts/bengali/issues/5"
-   },
-   {
-    "number": 3,
-    "title": "Subjoined Bengali ba + nukta looks like subjoined ra",
-    "url": "https://github.com/notofonts/bengali/issues/3"
    },
    {
     "number": 2,
@@ -2971,24 +2956,9 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
-    "number": 33,
-    "title": "UI font has regressions",
-    "url": "https://github.com/notofonts/devanagari/issues/33"
-   },
-   {
-    "number": 32,
-    "title": "Noto Devanagari : Incorrect rendering of \u0930\u0962 & \u0930\u0963",
-    "url": "https://github.com/notofonts/devanagari/issues/32"
-   },
-   {
     "number": 13,
     "title": "Representation of geminate Devanagari letter NA in Noto Serif Devanagari",
     "url": "https://github.com/notofonts/devanagari/issues/13"
-   },
-   {
-    "number": 10,
-    "title": "A certain sAmaveda accent clash",
-    "url": "https://github.com/notofonts/devanagari/issues/10"
    },
    {
     "number": 7,
@@ -16191,6 +16161,7 @@
       "fonts/NotoSansTelugu/full/otf/NotoSansTeluguUI-SemiCondensedSemiBold.otf",
       "fonts/NotoSansTelugu/full/otf/NotoSansTeluguUI-SemiCondensedThin.otf",
       "fonts/NotoSansTelugu/full/otf/NotoSansTeluguUI-Thin.otf",
+      "fonts/NotoSansTelugu/full/slim-variable-ttf/NotoSansTelugu-UI-VF.ttf",
       "fonts/NotoSansTelugu/full/slim-variable-ttf/NotoSansTelugu[wght].ttf",
       "fonts/NotoSansTelugu/full/ttf/NotoSansTelugu-Black.ttf",
       "fonts/NotoSansTelugu/full/ttf/NotoSansTelugu-Bold.ttf",
@@ -16413,6 +16384,7 @@
       "fonts/NotoSansTelugu/unhinted/otf/NotoSansTeluguUI-SemiCondensedSemiBold.otf",
       "fonts/NotoSansTelugu/unhinted/otf/NotoSansTeluguUI-SemiCondensedThin.otf",
       "fonts/NotoSansTelugu/unhinted/otf/NotoSansTeluguUI-Thin.otf",
+      "fonts/NotoSansTelugu/unhinted/slim-variable-ttf/NotoSansTelugu-UI-VF.ttf",
       "fonts/NotoSansTelugu/unhinted/slim-variable-ttf/NotoSansTelugu[wght].ttf",
       "fonts/NotoSansTelugu/unhinted/ttf/NotoSansTelugu-Black.ttf",
       "fonts/NotoSansTelugu/unhinted/ttf/NotoSansTelugu-Bold.ttf",
@@ -16490,10 +16462,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Telugu v2.003\n\nThis is an administrative release\n",
-     "published": "2022-07-05T16:15:25",
-     "url": "https://github.com/notofonts/telugu/releases/tag/NotoSansTelugu-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Telugu v2.004\n\nThis release:\n* Improves the anchoring of top marks (#3)\n* Improves the display of subscripts ending in -tra (#12)\n* Fixes a regression where subscript -ra was clashing (#13)\n* Allows for the formation of the -jnya ligature (#8)\n* Fixes a number of spacing regressions (#13)\n* Fixes a number of issues in the UI build (#9)\n* Fixes mark categories, allowing for vedic marks on bases with postbase glyphs (#10)\n",
+     "published": "2023-03-08T14:50:23",
+     "url": "https://github.com/notofonts/telugu/releases/tag/NotoSansTelugu-v2.004",
+     "version": "v2.004"
     }
    },
    "Noto Serif Telugu": {
@@ -16555,10 +16527,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Telugu v2.003\n\nThis is an administrative release\n",
-     "published": "2022-07-05T16:06:42",
-     "url": "https://github.com/notofonts/telugu/releases/tag/NotoSerifTelugu-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Serif Telugu v2.004\n\nThis release:\n* improves the display of -tra conjuncts (#12)\n* allows for the formation of -jnya conjuncts (#8)\n",
+     "published": "2023-03-08T14:49:16",
+     "url": "https://github.com/notofonts/telugu/releases/tag/NotoSerifTelugu-v2.004",
+     "version": "v2.004"
     }
    }
   },
