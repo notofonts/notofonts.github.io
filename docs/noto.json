@@ -9099,11 +9099,6 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
-    "number": 404,
-    "title": "Extend latnSoftDot and adjust combining marks",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/404"
-   },
-   {
     "number": 400,
     "title": "Visual ambiguity between left/right quotes",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/400"
