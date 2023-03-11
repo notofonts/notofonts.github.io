@@ -6676,11 +6676,6 @@
     "url": "https://github.com/notofonts/kannada/issues/51"
    },
    {
-    "number": 50,
-    "title": "UI font has regressions",
-    "url": "https://github.com/notofonts/kannada/issues/50"
-   },
-   {
     "number": 14,
     "title": "The glyphs of some vowel sign combinations of \u0c9f need to be revisited in Serif",
     "url": "https://github.com/notofonts/kannada/issues/14"
@@ -6694,11 +6689,6 @@
     "number": 11,
     "title": "The glyphs of \u0c99\u0ccc \u0c9e\u0ccc \u0cde\u0ccc \u0cb1\u0ccc needs to be updated in Sans",
     "url": "https://github.com/notofonts/kannada/issues/11"
-   },
-   {
-    "number": 10,
-    "title": "Spacing issue in clusters having vowel sign vocalic RR [Serif]",
-    "url": "https://github.com/notofonts/kannada/issues/10"
    },
    {
     "number": 7,
@@ -10823,6 +10813,11 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 33,
+    "title": "\u2728Noto Sans Math Update to v2.539\u2728",
+    "url": "https://github.com/notofonts/math/pull/33"
+   },
+   {
     "number": 32,
     "title": "No unhinted/otf fonts generated for Noto Sans Math",
     "url": "https://github.com/notofonts/math/issues/32"
@@ -11101,13 +11096,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/mende-kikakui",
-  "issues": [
-   {
-    "number": 1,
-    "title": "U+25CC DOTTED CIRCLE\u2019s anchor point is misplaced",
-    "url": "https://github.com/notofonts/mende-kikakui/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/mende-kikakui",
   "tier": 3,
   "title": "Noto Mende Kikakui"
@@ -11215,11 +11204,6 @@
   },
   "gh_url": "https://notofonts.github.io/modi",
   "issues": [
-   {
-    "number": 12,
-    "title": "`DNaa` and `DNu` are not used",
-    "url": "https://github.com/notofonts/modi/issues/12"
-   },
    {
     "number": 9,
     "title": "Request for serif style font for Modi script",
@@ -12399,24 +12383,9 @@
   "gh_url": "https://notofonts.github.io/nushu",
   "issues": [
    {
-    "number": 7,
-    "title": "Traditional Nushu VF has interpolation issues in u1B1CE, u1B2F1",
-    "url": "https://github.com/notofonts/nushu/issues/7"
-   },
-   {
     "number": 2,
     "title": "NotoTraditionalNushu have upem of 1024",
     "url": "https://github.com/notofonts/nushu/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Missing \u201cVersion \u201d in version strings",
-    "url": "https://github.com/notofonts/nushu/issues/1"
-   },
-   {
-    "number": 3,
-    "title": "NotoTraditionalNushu-Regular include Latin glyphs from Source Sans",
-    "url": "https://github.com/notofonts/nushu/issues/3"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/nushu",
@@ -13044,16 +13013,6 @@
     "number": 15,
     "title": "Noto Sans Oriya Condensed is not condensed",
     "url": "https://github.com/notofonts/oriya/issues/15"
-   },
-   {
-    "number": 14,
-    "title": "Combine vowels with conjunct consonants in NotoSansOriya",
-    "url": "https://github.com/notofonts/oriya/pull/14"
-   },
-   {
-    "number": 8,
-    "title": "NotoSansOriya does not connect vowels to conjunct consonants",
-    "url": "https://github.com/notofonts/oriya/issues/8"
    },
    {
     "number": 3,
@@ -15143,16 +15102,6 @@
     "number": 14,
     "title": "Missing character U+116B9 TAKRI ABBREVIATION SIGN",
     "url": "https://github.com/notofonts/takri/issues/14"
-   },
-   {
-    "number": 13,
-    "title": "<U+116AD, U+116AB> lost its kerning",
-    "url": "https://github.com/notofonts/takri/issues/13"
-   },
-   {
-    "number": 12,
-    "title": "U+116B7 TAKRI SIGN NUKTA blocks spacing U+116AD TAKRI VOWEL SIGN AA",
-    "url": "https://github.com/notofonts/takri/issues/12"
    },
    {
     "number": 4,
@@ -17765,11 +17714,6 @@
     "url": "https://github.com/notofonts/tifinagh/issues/17"
    },
    {
-    "number": 16,
-    "title": "U+0309 COMBINING HOOK ABOVE has no anchor point",
-    "url": "https://github.com/notofonts/tifinagh/issues/16"
-   },
-   {
     "number": 9,
     "title": "Duplicate Noto Tifininagh fonts for script variants in the main ZIP package containing all fonts",
     "url": "https://github.com/notofonts/tifinagh/issues/9"
@@ -17793,11 +17737,6 @@
     "number": 5,
     "title": "NotoSansTifinagh is graphically a Neo-Tifinagh font, but uses traditional Tifinagh shaping",
     "url": "https://github.com/notofonts/tifinagh/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Bad combination of dot and macron in Tifinagh",
-    "url": "https://github.com/notofonts/tifinagh/issues/4"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/tifinagh",
