@@ -2,7 +2,7 @@
  "closed_per_month": {
   "1": 150,
   "2": 90,
-  "3": 2
+  "3": 29
  },
  "open_per_repo": {
   "adlam": 6,
@@ -11,7 +11,7 @@
   "armenian": 4,
   "balinese": 9,
   "bamum": 1,
-  "bengali": 8,
+  "bengali": 5,
   "bhaiksuki": 5,
   "brahmi": 6,
   "canadian-aboriginal": 2,
@@ -20,7 +20,7 @@
   "chorasmian": 2,
   "coptic": 2,
   "deseret": 1,
-  "devanagari": 8,
+  "devanagari": 5,
   "dives-akuru": 7,
   "dogra": 4,
   "duployan": 1,
@@ -41,8 +41,8 @@
   "inscriptional-parthian": 1,
   "javanese": 5,
   "kaithi": 6,
-  "kannada": 9,
-  "kawi": 3,
+  "kannada": 8,
+  "kawi": 2,
   "kharoshthi": 1,
   "khitan-small-script": 1,
   "khmer": 9,
@@ -57,12 +57,11 @@
   "mandaic": 3,
   "manichaean": 4,
   "marchen": 2,
-  "math": 18,
+  "math": 19,
   "meetei-mayek": 1,
-  "mende-kikakui": 1,
   "meroitic": 2,
   "miao": 1,
-  "modi": 5,
+  "modi": 4,
   "mongolian": 6,
   "multani": 2,
   "music": 5,
@@ -70,14 +69,14 @@
   "nandinagari": 4,
   "nastaliq": 17,
   "nko": 2,
-  "nushu": 4,
+  "nushu": 1,
   "nyiakeng-puachue-hmong": 3,
   "old-hungarian": 3,
   "old-hungarian-ui": 4,
   "old-italic": 1,
   "old-sogdian": 3,
   "old-turkic": 2,
-  "oriya": 4,
+  "oriya": 2,
   "pahawh-hmong": 2,
   "phags-pa": 2,
   "psalter-pahlavi": 2,
@@ -96,28 +95,28 @@
   "tai-le": 1,
   "tai-tham": 4,
   "tai-viet": 3,
-  "takri": 4,
+  "takri": 2,
   "tamil": 6,
   "tangsa": 2,
-  "telugu": 5,
+  "telugu": 1,
   "thaana": 2,
   "thai": 11,
   "tibetan": 12,
-  "tifinagh": 8,
+  "tifinagh": 6,
   "tirhuta": 10,
   "yezidi": 2,
   "zanabazar-square": 2
  },
  "open_per_tier": {
-  "1": 253,
+  "1": 240,
   "2": 74,
-  "3": 174,
-  "4": 76,
+  "3": 169,
+  "4": 72,
   "5": 43
  },
  "opened_per_month": {
-  "1": 16,
-  "2": 13,
+  "1": 13,
+  "2": 10,
   "3": 5
  },
  "releases_per_month": {
@@ -181,6 +180,16 @@
    {
     "tag": "NotoSansSyriacEastern-v3.001",
     "url": "https://github.com/notofonts/syriac/releases/tag/NotoSansSyriacEastern-v3.001"
+   }
+  ],
+  "3": [
+   {
+    "tag": "NotoSerifTelugu-v2.004",
+    "url": "https://github.com/notofonts/telugu/releases/tag/NotoSerifTelugu-v2.004"
+   },
+   {
+    "tag": "NotoSansTelugu-v2.004",
+    "url": "https://github.com/notofonts/telugu/releases/tag/NotoSansTelugu-v2.004"
    }
   ],
   "6": [
@@ -1127,8 +1136,8 @@
   ]
  },
  "totals_per_month": {
-  "1": 828,
-  "2": 694,
-  "3": 617
+  "1": 839,
+  "2": 702,
+  "3": 622
  }
 }
