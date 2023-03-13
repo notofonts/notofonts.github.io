@@ -9089,6 +9089,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 405,
+    "title": "Extraneous glyphs at U+11AB0 and U+11AB1",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/405"
+   },
+   {
     "number": 400,
     "title": "Visual ambiguity between left/right quotes",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/400"

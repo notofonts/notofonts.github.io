@@ -10864,8 +10864,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 148,
+  "issue_count": 149,
   "issues": [
+   {
+    "number": 405,
+    "title": "Extraneous glyphs at U+11AB0 and U+11AB1",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/405"
+   },
    {
     "number": 400,
     "title": "Visual ambiguity between left/right quotes",
