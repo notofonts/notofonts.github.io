@@ -13562,11 +13562,6 @@
     "url": "https://github.com/notofonts/siddham/issues/18"
    },
    {
-    "number": 17,
-    "title": "'kern' should not be used for required positioning",
-    "url": "https://github.com/notofonts/siddham/issues/17"
-   },
-   {
     "number": 16,
     "title": "`seed_ta_h_iiMatra_ma_msidd` uses the wrong vowel sign",
     "url": "https://github.com/notofonts/siddham/issues/16"
@@ -13580,16 +13575,6 @@
     "number": 14,
     "title": "'ss04' takes U+115B0 SIDDHAM VOWEL SIGN I from the following cluster",
     "url": "https://github.com/notofonts/siddham/issues/14"
-   },
-   {
-    "number": 13,
-    "title": "'ss06' ignores `uni115A8.iniThird`",
-    "url": "https://github.com/notofonts/siddham/issues/13"
-   },
-   {
-    "number": 12,
-    "title": "'ss06' strands spacing vowel signs",
-    "url": "https://github.com/notofonts/siddham/issues/12"
    },
    {
     "number": 3,
