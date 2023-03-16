@@ -9174,11 +9174,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/9"
    },
    {
-    "number": 10,
-    "title": "Noto Sans Mono rendering on Windows: All static fonts seem to have same weight.",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/10"
-   },
-   {
     "number": 11,
     "title": "Out of place back tick (accent grave)",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/11"
@@ -10814,33 +10809,36 @@
   "title": "Noto Masaram Gondi"
  },
  "math": {
-  "families": {},
+  "families": {
+   "Noto Sans Math": {
+    "files": {
+     "full": [
+      "fonts/NotoSansMath/full/otf/NotoSansMath-Regular.otf",
+      "fonts/NotoSansMath/full/ttf/NotoSansMath-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansMath/hinted/ttf/NotoSansMath-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansMath/unhinted/otf/NotoSansMath-Regular.otf",
+      "fonts/NotoSansMath/unhinted/slim-otf/NotoSansMath-Regular.otf",
+      "fonts/NotoSansMath/unhinted/ttf/NotoSansMath-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Math v2.539\n\nThis is a new version including many fixes and OpenType MATH table support.\n",
+     "published": "2023-03-15T15:33:32",
+     "url": "https://github.com/notofonts/math/releases/tag/NotoSansMath-v2.539",
+     "version": "v2.539"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
-    "number": 33,
-    "title": "\u2728Noto Sans Math Update to v2.539\u2728",
-    "url": "https://github.com/notofonts/math/pull/33"
-   },
-   {
-    "number": 32,
-    "title": "No unhinted/otf fonts generated for Noto Sans Math",
-    "url": "https://github.com/notofonts/math/issues/32"
-   },
-   {
-    "number": 31,
-    "title": "Missing variation selector sequences",
-    "url": "https://github.com/notofonts/math/issues/31"
-   },
-   {
-    "number": 30,
-    "title": "Built fonts aren't showing up on notofonts.github.io",
-    "url": "https://github.com/notofonts/math/issues/30"
-   },
-   {
-    "number": 13,
-    "title": "Missing anchors for Combining Diacritic Marks for Symbols",
-    "url": "https://github.com/notofonts/math/issues/13"
+    "number": 35,
+    "title": "1D6CD advance width is 0",
+    "url": "https://github.com/notofonts/math/issues/35"
    },
    {
     "number": 12,
@@ -10848,34 +10846,9 @@
     "url": "https://github.com/notofonts/math/issues/12"
    },
    {
-    "number": 11,
-    "title": "U+1D78E MATHEMATICAL SANS-SERIF BOLD RHO SYMBOL is too high",
-    "url": "https://github.com/notofonts/math/issues/11"
-   },
-   {
-    "number": 10,
-    "title": "Wrong glyph for U+2A3F AMALGAMATION OR COPRODUCT",
-    "url": "https://github.com/notofonts/math/issues/10"
-   },
-   {
-    "number": 9,
-    "title": "Mathematical script letters are off center",
-    "url": "https://github.com/notofonts/math/issues/9"
-   },
-   {
-    "number": 8,
-    "title": "Inconsistent vertical bar delimiters",
-    "url": "https://github.com/notofonts/math/issues/8"
-   },
-   {
     "number": 7,
     "title": "Best-fit Bidi_Mirroring_Glyph could be better",
     "url": "https://github.com/notofonts/math/issues/7"
-   },
-   {
-    "number": 6,
-    "title": "Indistinct \ud835\udc5b-ary operators",
-    "url": "https://github.com/notofonts/math/issues/6"
    },
    {
     "number": 5,
@@ -10886,31 +10859,6 @@
     "number": 4,
     "title": "Inconsistent glyphs for horizontal brackets",
     "url": "https://github.com/notofonts/math/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Missing characters in Noto Sans Math",
-    "url": "https://github.com/notofonts/math/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Stylistically inconsistent mathematical alphanumerics",
-    "url": "https://github.com/notofonts/math/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "210E h planck costant doesn't fit in 1D455 mathematical italic small h",
-    "url": "https://github.com/notofonts/math/issues/1"
-   },
-   {
-    "number": 15,
-    "title": "OpenType layout features missing",
-    "url": "https://github.com/notofonts/math/issues/15"
-   },
-   {
-    "number": 14,
-    "title": "Support OpenType math",
-    "url": "https://github.com/notofonts/math/issues/14"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/math",
@@ -12311,6 +12259,11 @@
   },
   "gh_url": "https://notofonts.github.io/nko",
   "issues": [
+   {
+    "number": 7,
+    "title": "Upper diacritic placement should be at the same height for all letters",
+    "url": "https://github.com/notofonts/nko/issues/7"
+   },
    {
     "number": 5,
     "title": "Not enough space for U+07FD NKO DANTAYALAN in some contexts",

@@ -8983,7 +8983,30 @@
    "NotoSansMasaramGondi-v1.004"
   ]
  },
- "math": {},
+ "math": {
+  "families": {
+   "Noto Sans Math": {
+    "files": [
+     "fonts/NotoSansMath/full/otf/NotoSansMath-Regular.otf",
+     "fonts/NotoSansMath/full/ttf/NotoSansMath-Regular.ttf",
+     "fonts/NotoSansMath/googlefonts/ttf/NotoSansMath-Regular.ttf",
+     "fonts/NotoSansMath/hinted/ttf/NotoSansMath-Regular.ttf",
+     "fonts/NotoSansMath/unhinted/otf/NotoSansMath-Regular.otf",
+     "fonts/NotoSansMath/unhinted/ttf/NotoSansMath-Regular.ttf",
+     "fonts/NotoSansMath/unhinted/slim-otf/NotoSansMath-Regular.otf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Math v2.539\n\nThis is a new version including many fixes and OpenType MATH table support.\n",
+     "published": "2023-03-15T15:33:32",
+     "url": "https://github.com/notofonts/math/releases/tag/NotoSansMath-v2.539",
+     "version": "v2.539"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansMath-v2.539"
+  ]
+ },
  "mayan-numerals": {
   "families": {
    "Noto Sans Mayan Numerals": {
