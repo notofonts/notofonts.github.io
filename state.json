@@ -9778,7 +9778,40 @@
    "NotoSansNabataean-v2.001"
   ]
  },
- "nag-mundari": {},
+ "nag-mundari": {
+  "families": {
+   "Noto Sans Nag Mundari": {
+    "files": [
+     "fonts/NotoSansNagMundari/full/slim-variable-ttf/NotoSansNagMundari[wght].ttf",
+     "fonts/NotoSansNagMundari/full/variable-ttf/NotoSansNagMundari[wght].ttf",
+     "fonts/NotoSansNagMundari/full/otf/NotoSansNagMundari-Bold.otf",
+     "fonts/NotoSansNagMundari/full/otf/NotoSansNagMundari-Regular.otf",
+     "fonts/NotoSansNagMundari/full/ttf/NotoSansNagMundari-Regular.ttf",
+     "fonts/NotoSansNagMundari/full/ttf/NotoSansNagMundari-Bold.ttf",
+     "fonts/NotoSansNagMundari/googlefonts/variable-ttf/NotoSansNagMundari[wght].ttf",
+     "fonts/NotoSansNagMundari/googlefonts/ttf/NotoSansNagMundari-Regular.ttf",
+     "fonts/NotoSansNagMundari/googlefonts/ttf/NotoSansNagMundari-Bold.ttf",
+     "fonts/NotoSansNagMundari/hinted/ttf/NotoSansNagMundari-Regular.ttf",
+     "fonts/NotoSansNagMundari/hinted/ttf/NotoSansNagMundari-Bold.ttf",
+     "fonts/NotoSansNagMundari/unhinted/slim-variable-ttf/NotoSansNagMundari[wght].ttf",
+     "fonts/NotoSansNagMundari/unhinted/variable-ttf/NotoSansNagMundari[wght].ttf",
+     "fonts/NotoSansNagMundari/unhinted/otf/NotoSansNagMundari-Bold.otf",
+     "fonts/NotoSansNagMundari/unhinted/otf/NotoSansNagMundari-Regular.otf",
+     "fonts/NotoSansNagMundari/unhinted/ttf/NotoSansNagMundari-Regular.ttf",
+     "fonts/NotoSansNagMundari/unhinted/ttf/NotoSansNagMundari-Bold.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Nag Mundari v1.000 This is the initial Noto release of this family.\n",
+     "published": "2023-03-16T15:46:56",
+     "url": "https://github.com/notofonts/nag-mundari/releases/tag/NotoSansNagMundari-v1.000",
+     "version": "v1.000"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansNagMundari-v1.000"
+  ]
+ },
  "nandinagari": {
   "families": {
    "Noto Sans Nandinagari": {
@@ -10484,6 +10517,30 @@
   },
   "known_releases": [
    "NotoSansOsmanya-v2.001"
+  ]
+ },
+ "ottoman-siyaq-numbers": {
+  "families": {
+   "Noto Serif Ottoman Siyaq": {
+    "files": [
+     "fonts/NotoSerifOttomanSiyaq/googlefonts/ttf/NotoSerifOttomanSiyaq-Regular.ttf",
+     "fonts/NotoSerifOttomanSiyaq/unhinted/ttf/NotoSerifOttomanSiyaq-Regular.ttf",
+     "fonts/NotoSerifOttomanSiyaq/unhinted/slim-otf/NotoSerifOttomanSiyaq-Regular.otf",
+     "fonts/NotoSerifOttomanSiyaq/unhinted/otf/NotoSerifOttomanSiyaq-Regular.otf",
+     "fonts/NotoSerifOttomanSiyaq/full/ttf/NotoSerifOttomanSiyaq-Regular.ttf",
+     "fonts/NotoSerifOttomanSiyaq/full/otf/NotoSerifOttomanSiyaq-Regular.otf",
+     "fonts/NotoSerifOttomanSiyaq/hinted/ttf/NotoSerifOttomanSiyaq-Regular.ttf"
+    ],
+    "latest_release": {
+     "notes": "Noto Serif Ottoman Siyaq Numbers v1.005 This is the initial Noto release of this family.\n",
+     "published": "2023-03-15T11:55:33",
+     "url": "https://github.com/notofonts/ottoman-siyaq-numbers/releases/tag/NotoSerifOttomanSiyaq-v1.005",
+     "version": "v1.005"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSerifOttomanSiyaq-v1.005"
   ]
  },
  "pahawh-hmong": {

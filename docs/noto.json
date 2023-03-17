@@ -2956,6 +2956,11 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
+    "number": 34,
+    "title": "Noto Devanagari : Addition of more alternative gylphs",
+    "url": "https://github.com/notofonts/devanagari/issues/34"
+   },
+   {
     "number": 13,
     "title": "Representation of geminate Devanagari letter NA in Noto Serif Devanagari",
     "url": "https://github.com/notofonts/devanagari/issues/13"
@@ -11971,9 +11976,56 @@
   "title": "Noto Nabataean"
  },
  "nag-mundari": {
-  "families": {},
+  "families": {
+   "Noto Sans Nag Mundari": {
+    "files": {
+     "full": [
+      "fonts/NotoSansNagMundari/full/otf/NotoSansNagMundari-Bold.otf",
+      "fonts/NotoSansNagMundari/full/otf/NotoSansNagMundari-Regular.otf",
+      "fonts/NotoSansNagMundari/full/slim-variable-ttf/NotoSansNagMundari[wght].ttf",
+      "fonts/NotoSansNagMundari/full/ttf/NotoSansNagMundari-Bold.ttf",
+      "fonts/NotoSansNagMundari/full/ttf/NotoSansNagMundari-Regular.ttf",
+      "fonts/NotoSansNagMundari/full/variable-ttf/NotoSansNagMundari[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansNagMundari/hinted/ttf/NotoSansNagMundari-Bold.ttf",
+      "fonts/NotoSansNagMundari/hinted/ttf/NotoSansNagMundari-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansNagMundari/unhinted/otf/NotoSansNagMundari-Bold.otf",
+      "fonts/NotoSansNagMundari/unhinted/otf/NotoSansNagMundari-Regular.otf",
+      "fonts/NotoSansNagMundari/unhinted/slim-variable-ttf/NotoSansNagMundari[wght].ttf",
+      "fonts/NotoSansNagMundari/unhinted/ttf/NotoSansNagMundari-Bold.ttf",
+      "fonts/NotoSansNagMundari/unhinted/ttf/NotoSansNagMundari-Regular.ttf",
+      "fonts/NotoSansNagMundari/unhinted/variable-ttf/NotoSansNagMundari[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Nag Mundari v1.000 This is the initial Noto release of this family.\n",
+     "published": "2023-03-16T15:46:56",
+     "url": "https://github.com/notofonts/nag-mundari/releases/tag/NotoSansNagMundari-v1.000",
+     "version": "v1.000"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/nag-mundari",
-  "issues": [],
+  "issues": [
+   {
+    "number": 4,
+    "title": "Marks block kerning",
+    "url": "https://github.com/notofonts/nag-mundari/issues/4"
+   },
+   {
+    "number": 3,
+    "title": "Kerning only works for language system 'NAG '",
+    "url": "https://github.com/notofonts/nag-mundari/issues/3"
+   },
+   {
+    "number": 2,
+    "title": "Marks U+1E4EE and U+1E4EF are not centered",
+    "url": "https://github.com/notofonts/nag-mundari/issues/2"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/nag-mundari",
   "tier": 3,
   "title": "Noto Sans Nag Mundari"
@@ -13041,6 +13093,43 @@
   "repo_url": "https://www.github.com/notofonts/osmanya",
   "tier": 3,
   "title": "Noto Osmanya"
+ },
+ "ottoman-siyaq-numbers": {
+  "families": {
+   "Noto Serif Ottoman Siyaq": {
+    "files": {
+     "full": [
+      "fonts/NotoSerifOttomanSiyaq/full/otf/NotoSerifOttomanSiyaq-Regular.otf",
+      "fonts/NotoSerifOttomanSiyaq/full/ttf/NotoSerifOttomanSiyaq-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSerifOttomanSiyaq/hinted/ttf/NotoSerifOttomanSiyaq-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSerifOttomanSiyaq/unhinted/otf/NotoSerifOttomanSiyaq-Regular.otf",
+      "fonts/NotoSerifOttomanSiyaq/unhinted/slim-otf/NotoSerifOttomanSiyaq-Regular.otf",
+      "fonts/NotoSerifOttomanSiyaq/unhinted/ttf/NotoSerifOttomanSiyaq-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Serif Ottoman Siyaq Numbers v1.005 This is the initial Noto release of this family.\n",
+     "published": "2023-03-15T11:55:33",
+     "url": "https://github.com/notofonts/ottoman-siyaq-numbers/releases/tag/NotoSerifOttomanSiyaq-v1.005",
+     "version": "v1.005"
+    }
+   }
+  },
+  "gh_url": "https://notofonts.github.io/ottoman-siyaq-numbers",
+  "issues": [
+   {
+    "number": 2,
+    "title": "`u1ED39_u1ED2E.liga` is ligated from the wrong character sequence",
+    "url": "https://github.com/notofonts/ottoman-siyaq-numbers/issues/2"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/ottoman-siyaq-numbers",
+  "tier": 5,
+  "title": "Noto Serif Ottoman Siyaq Numbers"
  },
  "pahawh-hmong": {
   "families": {
