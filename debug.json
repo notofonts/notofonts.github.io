@@ -17710,14 +17710,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/sinhala",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 6,
-    "title": "Kombu Deka became non-spacing in Serif",
-    "url": "https://github.com/notofonts/sinhala/issues/6"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/sinhala",
   "tier": 1,
   "title": "Noto Sinhala"
@@ -19811,37 +19805,17 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/tamil",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 2,
   "issues": [
-   {
-    "number": 15,
-    "title": "Kerning exceptions apply incorrectly, causing clashes (workaround required)",
-    "url": "https://github.com/notofonts/tamil/issues/15"
-   },
-   {
-    "number": 6,
-    "title": "Noto Serif Tamil Slanted is named \u201cNotoSerifTamilSlanted\u201d",
-    "url": "https://github.com/notofonts/tamil/issues/6"
-   },
    {
     "number": 5,
     "title": "Inclusion of original Tamil uyirmeyye\u1e3buttuka\u1e37 no longer used in India?",
     "url": "https://github.com/notofonts/tamil/issues/5"
    },
    {
-    "number": 3,
-    "title": "Mispositioned nuktas below U+0BC6 TAMIL VOWEL SIGN E",
-    "url": "https://github.com/notofonts/tamil/issues/3"
-   },
-   {
     "number": 2,
-    "title": "U+1133C GRANTHA SIGN NUKTA blocks Tamil ligatures",
+    "title": "Positioning of Grantha nukta inconsistent",
     "url": "https://github.com/notofonts/tamil/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Tamil: \"isolated\" form of U+0BC2 is different from the Unicode code charts",
-    "url": "https://github.com/notofonts/tamil/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/tamil",
