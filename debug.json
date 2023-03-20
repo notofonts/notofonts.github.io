@@ -13008,8 +13008,33 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 10,
   "issues": [
+   {
+    "number": 40,
+    "title": "<U+2216, U+FE00> should look the same as U+2216",
+    "url": "https://github.com/notofonts/math/issues/40"
+   },
+   {
+    "number": 39,
+    "title": "Wrong glyph for <U+2205, U+FE00>",
+    "url": "https://github.com/notofonts/math/issues/39"
+   },
+   {
+    "number": 38,
+    "title": "U+2273 and U+2A9D variants have reversed tildes",
+    "url": "https://github.com/notofonts/math/issues/38"
+   },
+   {
+    "number": 37,
+    "title": "Root symbols and integral pieces have inconsistent bidi mirroring",
+    "url": "https://github.com/notofonts/math/issues/37"
+   },
+   {
+    "number": 36,
+    "title": "U+2044 FRACTION SLASH does not create vulgar fractions",
+    "url": "https://github.com/notofonts/math/issues/36"
+   },
    {
     "number": 35,
     "title": "1D6CD advance width is 0",
