@@ -2,7 +2,7 @@
  "closed_per_month": {
   "1": 150,
   "2": 90,
-  "3": 29
+  "3": 55
  },
  "open_per_repo": {
   "adlam": 6,
@@ -20,7 +20,7 @@
   "chorasmian": 2,
   "coptic": 2,
   "deseret": 1,
-  "devanagari": 5,
+  "devanagari": 6,
   "dives-akuru": 7,
   "dogra": 4,
   "duployan": 1,
@@ -49,7 +49,7 @@
   "khojki": 6,
   "khudawadi": 1,
   "lao": 3,
-  "latin-greek-cyrillic": 149,
+  "latin-greek-cyrillic": 148,
   "limbu": 2,
   "linear-a": 1,
   "lydian": 2,
@@ -57,7 +57,7 @@
   "mandaic": 3,
   "manichaean": 4,
   "marchen": 2,
-  "math": 19,
+  "math": 10,
   "meetei-mayek": 1,
   "meroitic": 2,
   "miao": 1,
@@ -66,9 +66,10 @@
   "multani": 2,
   "music": 5,
   "myanmar": 32,
+  "nag-mundari": 3,
   "nandinagari": 4,
   "nastaliq": 17,
-  "nko": 2,
+  "nko": 3,
   "nushu": 1,
   "nyiakeng-puachue-hmong": 3,
   "old-hungarian": 3,
@@ -77,15 +78,15 @@
   "old-sogdian": 3,
   "old-turkic": 2,
   "oriya": 2,
+  "ottoman-siyaq-numbers": 1,
   "pahawh-hmong": 2,
   "phags-pa": 2,
   "psalter-pahlavi": 2,
   "rejang": 3,
   "saurashtra": 1,
   "sharada": 3,
-  "siddham": 10,
+  "siddham": 7,
   "sign-writing": 6,
-  "sinhala": 1,
   "soyombo": 3,
   "sundanese": 4,
   "syloti-nagri": 7,
@@ -96,7 +97,7 @@
   "tai-tham": 4,
   "tai-viet": 3,
   "takri": 2,
-  "tamil": 6,
+  "tamil": 2,
   "tangsa": 2,
   "telugu": 1,
   "thaana": 2,
@@ -108,16 +109,16 @@
   "zanabazar-square": 2
  },
  "open_per_tier": {
-  "1": 240,
+  "1": 235,
   "2": 74,
-  "3": 169,
+  "3": 161,
   "4": 72,
-  "5": 43
+  "5": 44
  },
  "opened_per_month": {
-  "1": 13,
-  "2": 10,
-  "3": 5
+  "1": 11,
+  "2": 8,
+  "3": 16
  },
  "releases_per_month": {
   "1": [
@@ -183,6 +184,18 @@
    }
   ],
   "3": [
+   {
+    "tag": "NotoSansMath-v2.539",
+    "url": "https://github.com/notofonts/math/releases/tag/NotoSansMath-v2.539"
+   },
+   {
+    "tag": "NotoSansNagMundari-v1.000",
+    "url": "https://github.com/notofonts/nag-mundari/releases/tag/NotoSansNagMundari-v1.000"
+   },
+   {
+    "tag": "NotoSerifOttomanSiyaq-v1.005",
+    "url": "https://github.com/notofonts/ottoman-siyaq-numbers/releases/tag/NotoSerifOttomanSiyaq-v1.005"
+   },
    {
     "tag": "NotoSerifTelugu-v2.004",
     "url": "https://github.com/notofonts/telugu/releases/tag/NotoSerifTelugu-v2.004"
@@ -1136,8 +1149,8 @@
   ]
  },
  "totals_per_month": {
-  "1": 839,
-  "2": 702,
-  "3": 622
+  "1": 846,
+  "2": 707,
+  "3": 625
  }
 }
