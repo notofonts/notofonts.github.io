@@ -10616,26 +10616,6 @@
     "url": "https://github.com/notofonts/malayalam/issues/6"
    },
    {
-    "number": 5,
-    "title": "Sans Malayalam: Positioning issue for: SIGN VERTICAL BAR VIRAMA (U+0D3B)",
-    "url": "https://github.com/notofonts/malayalam/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Sans Malayalam: Positioning issue for: SIGN CIRCULAR VIRAMA (U+0D3C)",
-    "url": "https://github.com/notofonts/malayalam/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Sans/Serif Malayalam: Positioning issue for: SIGN CANDRABINDU (U+0D01)",
-    "url": "https://github.com/notofonts/malayalam/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Sans/Serif Malayalam: Positioning issue for: SIGN COMBINING ANUSVARA ABOVE (U+0D00)",
-    "url": "https://github.com/notofonts/malayalam/issues/2"
-   },
-   {
     "number": 1,
     "title": "Request to include optional conjuncts in Noto Sans/Serif Malayalam",
     "url": "https://github.com/notofonts/malayalam/issues/1"
@@ -12337,6 +12317,11 @@
   "gh_url": "https://notofonts.github.io/nko",
   "issues": [
    {
+    "number": 8,
+    "title": "Design of tonal apostrophes are difficult to distinguish on low-res phones",
+    "url": "https://github.com/notofonts/nko/issues/8"
+   },
+   {
     "number": 7,
     "title": "Upper diacritic placement should be at the same height for all letters",
     "url": "https://github.com/notofonts/nko/issues/7"
@@ -13043,18 +13028,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/oriya",
-  "issues": [
-   {
-    "number": 15,
-    "title": "Noto Sans Oriya Condensed is not condensed",
-    "url": "https://github.com/notofonts/oriya/issues/15"
-   },
-   {
-    "number": 3,
-    "title": "Oriya: no anchors on 25CC, no 0B55",
-    "url": "https://github.com/notofonts/oriya/issues/3"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/oriya",
   "tier": 1,
   "title": "Noto Oriya"
@@ -13182,11 +13156,6 @@
   },
   "gh_url": "https://notofonts.github.io/pahawh-hmong",
   "issues": [
-   {
-    "number": 3,
-    "title": "Unnecessary restriction on Pahawh Hmong consonants with marks",
-    "url": "https://github.com/notofonts/pahawh-hmong/issues/3"
-   },
    {
     "number": 2,
     "title": "Noto Sans Pahawh Hmong character U+16B26 is not the original character",
