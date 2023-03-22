@@ -104,37 +104,12 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/adlam",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 11,
-    "title": "U+1E948 ADLAM CONSONANT MODIFIER overlaps U+1E947 ADLAM HAMZA",
-    "url": "https://github.com/notofonts/adlam/issues/11"
-   },
-   {
-    "number": 10,
-    "title": "'case' should be removed",
-    "url": "https://github.com/notofonts/adlam/issues/10"
-   },
-   {
-    "number": 9,
-    "title": "Marks are placed badly on U+25CC DOTTED CIRCLE",
-    "url": "https://github.com/notofonts/adlam/issues/9"
-   },
    {
     "number": 4,
     "title": "Missing medial U+1E94B ADLAM NASALIZATION MARK",
     "url": "https://github.com/notofonts/adlam/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "U+1E94A ADLAM NUKTA blocks capital U+1E945 ADLAM VOWEL LENGTHENER",
-    "url": "https://github.com/notofonts/adlam/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "U+2044 FRACTION SLASH in Noto Sans Adlam",
-    "url": "https://github.com/notofonts/adlam/issues/2"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/adlam",
@@ -10869,7 +10844,7 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 148,
+  "issue_count": 144,
   "issues": [
    {
     "number": 405,
@@ -11012,11 +10987,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/26"
    },
    {
-    "number": 30,
-    "title": "U+1E23 : LATIN SMALL LETTER H WITH DOT ABOVE (\u1e23) should have the dot in a different place",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/30"
-   },
-   {
     "number": 32,
     "title": "Noto Serif: Missing Unicode arrows",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/32"
@@ -11030,11 +11000,6 @@
     "number": 35,
     "title": "Bad kerning between left single quote mark and some capital letters",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/35"
-   },
-   {
-    "number": 37,
-    "title": "LGC fonts lack U+10FB GEORGIAN PARAGRAPH SEPARATOR",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/37"
    },
    {
     "number": 38,
@@ -11380,16 +11345,6 @@
     "number": 128,
     "title": " Duplexed figures(or, at least, numerals) for Sans and Serif",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/128"
-   },
-   {
-    "number": 129,
-    "title": "Sans, Serif, and Sans Mono are missing U+2183 (\u2183)",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/129"
-   },
-   {
-    "number": 202,
-    "title": "U+02ED MODIFIER LETTER UNASPIRATED has no side bearings",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/202"
    },
    {
     "number": 131,
@@ -18186,14 +18141,15 @@
      ],
      "unhinted": [
       "fonts/NotoSansSymbols2/unhinted/otf/NotoSansSymbols2-Regular.otf",
+      "fonts/NotoSansSymbols2/unhinted/slim-otf/NotoSansSymbols2-Regular.otf",
       "fonts/NotoSansSymbols2/unhinted/ttf/NotoSansSymbols2-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Symbols 2 v2.005\n\nThis release renames the font from \"Noto Sans Symbols2\" to \"Noto Sans Symbols 2\"\n",
-     "published": "2022-11-23T16:23:34",
-     "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols2-v2.005",
-     "version": "v2.005"
+     "notes": "Noto Sans Symbols2 v2.006\n\nThis release:\n\n* Adds support for Kaktovik Numerals (thanks to Kevin King)\n* Improves the spacing of tau-rho (#21)\n* Raises the baseline of some transport glyphs (#30)\n* Uses components and rotation to make fleurons consistent (#31)\n* Fixes the heraldic hatching of orange circle/square (#22)\n* Adjusts the anchor on the Coptic epact thousands mark (#25)\n* Improves the design of the Mahjongg circles suit (#3)\n* Fixes an issue where the rotated pawn was not rotated (#20)\n",
+     "published": "2023-03-21T13:21:46",
+     "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols2-v2.006",
+     "version": "v2.006"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -18212,13 +18168,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/symbols",
   "has_releases": true,
-  "issue_count": 18,
+  "issue_count": 17,
   "issues": [
-   {
-    "number": 65,
-    "title": "\u201cFull\u201d version of Symbols2 \u2014 weight of Latin characters",
-    "url": "https://github.com/notofonts/symbols/issues/65"
-   },
    {
     "number": 64,
     "title": "Unicode 15 Addition of U+1F7D9 NINE POINTED WHITE STAR",

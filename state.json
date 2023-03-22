@@ -11712,25 +11712,27 @@
    },
    "Noto Sans Symbols2": {
     "files": [
+     "fonts/NotoSansSymbols2/full/otf/NotoSansSymbols2-Regular.otf",
+     "fonts/NotoSansSymbols2/full/ttf/NotoSansSymbols2-Regular.ttf",
+     "fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf",
      "fonts/NotoSansSymbols2/hinted/ttf/NotoSansSymbols2-Regular.ttf",
      "fonts/NotoSansSymbols2/unhinted/otf/NotoSansSymbols2-Regular.otf",
      "fonts/NotoSansSymbols2/unhinted/ttf/NotoSansSymbols2-Regular.ttf",
-     "fonts/NotoSansSymbols2/full/otf/NotoSansSymbols2-Regular.otf",
-     "fonts/NotoSansSymbols2/full/ttf/NotoSansSymbols2-Regular.ttf",
-     "fonts/NotoSansSymbols2/googlefonts/ttf/NotoSansSymbols2-Regular.ttf"
+     "fonts/NotoSansSymbols2/unhinted/slim-otf/NotoSansSymbols2-Regular.otf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Symbols 2 v2.005\n\nThis release renames the font from \"Noto Sans Symbols2\" to \"Noto Sans Symbols 2\"\n",
-     "published": "2022-11-23T16:23:34",
-     "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols2-v2.005",
-     "version": "v2.005"
+     "notes": "Noto Sans Symbols2 v2.006\n\nThis release:\n\n* Adds support for Kaktovik Numerals (thanks to Kevin King)\n* Improves the spacing of tau-rho (#21)\n* Raises the baseline of some transport glyphs (#30)\n* Uses components and rotation to make fleurons consistent (#31)\n* Fixes the heraldic hatching of orange circle/square (#22)\n* Adjusts the anchor on the Coptic epact thousands mark (#25)\n* Improves the design of the Mahjongg circles suit (#3)\n* Fixes an issue where the rotated pawn was not rotated (#20)\n",
+     "published": "2023-03-21T13:21:46",
+     "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols2-v2.006",
+     "version": "v2.006"
     }
    }
   },
   "known_releases": [
    "NotoSansSymbols-v2.002",
    "NotoSansSymbols2-v2.004",
-   "NotoSansSymbols2-v2.005"
+   "NotoSansSymbols2-v2.005",
+   "NotoSansSymbols2-v2.006"
   ]
  },
  "syriac": {
