@@ -63,13 +63,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/adlam",
-  "issues": [
-   {
-    "number": 4,
-    "title": "Missing medial U+1E94B ADLAM NASALIZATION MARK",
-    "url": "https://github.com/notofonts/adlam/issues/4"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/adlam",
   "tier": 2,
   "title": "Noto Adlam"
@@ -9069,11 +9063,6 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
-    "number": 405,
-    "title": "Extraneous glyphs at U+11AB0 and U+11AB1",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/405"
-   },
-   {
     "number": 400,
     "title": "Visual ambiguity between left/right quotes",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/400"
@@ -9125,7 +9114,7 @@
    },
    {
     "number": 227,
-    "title": "Noto-Sans: some issues",
+    "title": "fsSelection/MacStyle incorrect in Noto Sans?",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/227"
    },
    {
@@ -9162,11 +9151,6 @@
     "number": 12,
     "title": "NotoSans-Regular and NotoSerif-Regular (hinted) appear as italics on Windows 10",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/12"
-   },
-   {
-    "number": 13,
-    "title": "Consider type.today's Cyrillic review",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/13"
    },
    {
     "number": 231,
@@ -9334,11 +9318,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/59"
    },
    {
-    "number": 60,
-    "title": "Marks attach too far below U+1D0A LATIN LETTER SMALL CAPITAL J",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/60"
-   },
-   {
     "number": 61,
     "title": "Fullwidth and halfwidth braces are the same width",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/61"
@@ -9352,11 +9331,6 @@
     "number": 63,
     "title": "Mispositioned mark in <U+2E2B, U+032E>",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/63"
-   },
-   {
-    "number": 64,
-    "title": "Incomplete soft-dotting with intervening marks",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/64"
    },
    {
     "number": 66,
@@ -9574,19 +9548,9 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/131"
    },
    {
-    "number": 201,
-    "title": "Unaligned integral pieces in Noto Sans Mono",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/201"
-   },
-   {
     "number": 132,
     "title": "Misplaced double diacritics",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/132"
-   },
-   {
-    "number": 200,
-    "title": "Mirrored mathematical symbols are not actually mirrored",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/200"
    },
    {
     "number": 133,
@@ -9697,11 +9661,6 @@
     "number": 157,
     "title": "Feature request: LEFT and RIGHT CORNER BRACKETS in mono space fonts",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/157"
-   },
-   {
-    "number": 159,
-    "title": "Provide \u201czero\u201d also for combinations with \u201cpnum\u201d and \u201conum\u201d",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/159"
    },
    {
     "number": 160,
@@ -13075,6 +13034,11 @@
   },
   "gh_url": "https://notofonts.github.io/ottoman-siyaq-numbers",
   "issues": [
+   {
+    "number": 3,
+    "title": "Has Noto Sans glyphs",
+    "url": "https://github.com/notofonts/ottoman-siyaq-numbers/issues/3"
+   },
    {
     "number": 2,
     "title": "`u1ED39_u1ED2E.liga` is ligated from the wrong character sequence",
