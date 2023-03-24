@@ -2106,33 +2106,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/brahmi",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 6,
-    "title": "Brahmi Vocalic R(U+1103E) vowel sign joins/overlap with the previous letter.",
-    "url": "https://github.com/notofonts/brahmi/issues/6"
-   },
-   {
-    "number": 5,
-    "title": "Mispositioned U+11039 BRAHMI VOWEL SIGN BHATTIPROLU AA",
-    "url": "https://github.com/notofonts/brahmi/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Mispositioned U+11043 BRAHMI VOWEL SIGN AI",
-    "url": "https://github.com/notofonts/brahmi/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Wrong glyphs for some Brahmi number ligatures",
-    "url": "https://github.com/notofonts/brahmi/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Combining characters in Noto Sans Brahmi",
-    "url": "https://github.com/notofonts/brahmi/issues/2"
-   },
    {
     "number": 1,
     "title": "Brahmi: conjucts are missing from the font",
@@ -9040,39 +9015,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/khojki",
   "has_releases": true,
-  "issue_count": 6,
-  "issues": [
-   {
-    "number": 11,
-    "title": "Need additional anchor on dotted circle",
-    "url": "https://github.com/notofonts/khojki/issues/11"
-   },
-   {
-    "number": 10,
-    "title": "U+1123F KHOJKI LETTER QA was disunified from U+11208 KHOJKI LETTER KA",
-    "url": "https://github.com/notofonts/khojki/issues/10"
-   },
-   {
-    "number": 9,
-    "title": "Repha is formed in Gujarati",
-    "url": "https://github.com/notofonts/khojki/issues/9"
-   },
-   {
-    "number": 8,
-    "title": "Trailing marks block the k\u1e63a ligature",
-    "url": "https://github.com/notofonts/khojki/issues/8"
-   },
-   {
-    "number": 7,
-    "title": "U+1123E KHOJKI SIGN SUKUN overlaps marks above",
-    "url": "https://github.com/notofonts/khojki/issues/7"
-   },
-   {
-    "number": 1,
-    "title": "Incomplete 'salt' for U+11236 KHOJKI SIGN NUKTA",
-    "url": "https://github.com/notofonts/khojki/issues/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/khojki",
   "tier": 3,
   "title": "Noto Khojki"
@@ -9778,8 +9722,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/lao",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 4,
   "issues": [
+   {
+    "number": 15,
+    "title": "Updates to Sans and Serif sources",
+    "url": "https://github.com/notofonts/lao/pull/15"
+   },
    {
     "number": 14,
     "title": "Normalisation with yamakkan 0ECE ",
@@ -15029,22 +14978,12 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nyiakeng-puachue-hmong",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 1,
   "issues": [
    {
     "number": 3,
     "title": "U+25CC DOTTED CIRCLE\u2019s anchor point is off center",
     "url": "https://github.com/notofonts/nyiakeng-puachue-hmong/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "NP Hmong: dotted circle 25CC is missing",
-    "url": "https://github.com/notofonts/nyiakeng-puachue-hmong/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Completely rename \"Noto Serif Nyiakeng Puachue Hmong\" to \"Noto Serif NP Hmong\"",
-    "url": "https://github.com/notofonts/nyiakeng-puachue-hmong/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/nyiakeng-puachue-hmong",
@@ -16519,18 +16458,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/rejang",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 3,
-    "title": "U+A953 REJANG VIRAMA should be spacing",
-    "url": "https://github.com/notofonts/rejang/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "U+A952 REJANG CONSONANT SIGN H should be spacing",
-    "url": "https://github.com/notofonts/rejang/issues/2"
-   },
    {
     "number": 1,
     "title": "Overlapping marks in Rejang",
