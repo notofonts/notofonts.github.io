@@ -71,20 +71,22 @@
      "fonts/NotoSerifAhom/full/otf/NotoSerifAhom-Regular.otf",
      "fonts/NotoSerifAhom/full/ttf/NotoSerifAhom-Regular.ttf",
      "fonts/NotoSerifAhom/googlefonts/ttf/NotoSerifAhom-Regular.ttf",
+     "fonts/NotoSerifAhom/hinted/ttf/NotoSerifAhom-Regular.ttf",
      "fonts/NotoSerifAhom/unhinted/otf/NotoSerifAhom-Regular.otf",
      "fonts/NotoSerifAhom/unhinted/ttf/NotoSerifAhom-Regular.ttf",
-     "fonts/NotoSerifAhom/hinted/ttf/NotoSerifAhom-Regular.ttf"
+     "fonts/NotoSerifAhom/unhinted/slim-otf/NotoSerifAhom-Regular.otf"
     ],
     "latest_release": {
-     "notes": "",
-     "published": "2022-06-22T12:35:13",
-     "url": "https://github.com/notofonts/ahom/releases/tag/NotoSerifAhom-v2.005",
-     "version": "v2.005"
+     "notes": "Noto Serif Ahom v2.006\n\nThis release adds some new Ahom letters encoded in Unicode 14.0 (#6)\nThanks to Zachary Scheuren.\n",
+     "published": "2023-03-24T16:24:21",
+     "url": "https://github.com/notofonts/ahom/releases/tag/NotoSerifAhom-v2.006",
+     "version": "v2.006"
     }
    }
   },
   "known_releases": [
-   "NotoSerifAhom-v2.005"
+   "NotoSerifAhom-v2.005",
+   "NotoSerifAhom-v2.006"
   ]
  },
  "anatolian-hieroglyphs": {

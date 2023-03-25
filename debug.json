@@ -123,14 +123,15 @@
      ],
      "unhinted": [
       "fonts/NotoSerifAhom/unhinted/otf/NotoSerifAhom-Regular.otf",
+      "fonts/NotoSerifAhom/unhinted/slim-otf/NotoSerifAhom-Regular.otf",
       "fonts/NotoSerifAhom/unhinted/ttf/NotoSerifAhom-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "",
-     "published": "2022-06-22T12:35:13",
-     "url": "https://github.com/notofonts/ahom/releases/tag/NotoSerifAhom-v2.005",
-     "version": "v2.005"
+     "notes": "Noto Serif Ahom v2.006\n\nThis release adds some new Ahom letters encoded in Unicode 14.0 (#6)\nThanks to Zachary Scheuren.\n",
+     "published": "2023-03-24T16:24:21",
+     "url": "https://github.com/notofonts/ahom/releases/tag/NotoSerifAhom-v2.006",
+     "version": "v2.006"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -140,7 +141,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "2.005"
      },
      "iOS 16.1": {
@@ -159,22 +160,17 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/ahom",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 3,
   "issues": [
    {
-    "number": 15,
-    "title": "Updates for Unicode 14",
-    "url": "https://github.com/notofonts/ahom/pull/15"
+    "number": 16,
+    "title": "Ahom i\u2013u ligature is still not always formed",
+    "url": "https://github.com/notofonts/ahom/issues/16"
    },
    {
     "number": 14,
     "title": "I+U does not form ligature in certain contexts",
     "url": "https://github.com/notofonts/ahom/issues/14"
-   },
-   {
-    "number": 6,
-    "title": "Missing additional Ahom characters",
-    "url": "https://github.com/notofonts/ahom/issues/6"
    },
    {
     "number": 5,
@@ -9015,8 +9011,14 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/khojki",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 12,
+    "title": "11240 is still missing",
+    "url": "https://github.com/notofonts/khojki/issues/12"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/khojki",
   "tier": 3,
   "title": "Noto Khojki"
@@ -13449,8 +13451,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mongolian",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 27,
+    "title": "About the wrong rendering of \"\u1869\u185d\",\u201c\u1868\u185d\u201d etc.",
+    "url": "https://github.com/notofonts/mongolian/issues/27"
+   },
    {
     "number": 26,
     "title": "Contextual Form Error for Manchu Final -ko/ho",
@@ -14381,24 +14388,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nag-mundari",
   "has_releases": true,
-  "issue_count": 3,
-  "issues": [
-   {
-    "number": 4,
-    "title": "Marks block kerning",
-    "url": "https://github.com/notofonts/nag-mundari/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Kerning only works for language system 'NAG '",
-    "url": "https://github.com/notofonts/nag-mundari/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Marks U+1E4EE and U+1E4EF are not centered",
-    "url": "https://github.com/notofonts/nag-mundari/issues/2"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/nag-mundari",
   "tier": 3,
   "title": "Noto Sans Nag Mundari"
