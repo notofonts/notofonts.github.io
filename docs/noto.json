@@ -12872,7 +12872,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/oriya",
-  "issues": [],
+  "issues": [
+   {
+    "number": 17,
+    "title": "Noto Sans Oriya font family failing to render properly for Scribus and Firefox",
+    "url": "https://github.com/notofonts/oriya/issues/17"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/oriya",
   "tier": 1,
   "title": "Noto Oriya"
