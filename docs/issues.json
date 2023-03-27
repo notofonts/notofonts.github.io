@@ -2,18 +2,17 @@
  "closed_per_month": {
   "1": 150,
   "2": 90,
-  "3": 55
+  "3": 100
  },
  "open_per_repo": {
-  "adlam": 6,
-  "ahom": 4,
+  "ahom": 3,
   "arabic": 15,
   "armenian": 4,
   "balinese": 9,
   "bamum": 1,
   "bengali": 5,
   "bhaiksuki": 5,
-  "brahmi": 6,
+  "brahmi": 1,
   "canadian-aboriginal": 2,
   "caucasian-albanian": 4,
   "cham": 2,
@@ -46,14 +45,14 @@
   "kharoshthi": 1,
   "khitan-small-script": 1,
   "khmer": 9,
-  "khojki": 6,
+  "khojki": 1,
   "khudawadi": 1,
-  "lao": 3,
-  "latin-greek-cyrillic": 148,
+  "lao": 4,
+  "latin-greek-cyrillic": 137,
   "limbu": 2,
   "linear-a": 1,
   "lydian": 2,
-  "malayalam": 7,
+  "malayalam": 3,
   "mandaic": 3,
   "manichaean": 4,
   "marchen": 2,
@@ -62,27 +61,26 @@
   "meroitic": 2,
   "miao": 1,
   "modi": 4,
-  "mongolian": 6,
+  "mongolian": 7,
   "multani": 2,
   "music": 5,
   "myanmar": 32,
-  "nag-mundari": 3,
   "nandinagari": 4,
   "nastaliq": 17,
-  "nko": 3,
+  "nko": 4,
   "nushu": 1,
-  "nyiakeng-puachue-hmong": 3,
+  "nyiakeng-puachue-hmong": 1,
   "old-hungarian": 3,
   "old-hungarian-ui": 4,
   "old-italic": 1,
   "old-sogdian": 3,
   "old-turkic": 2,
-  "oriya": 2,
-  "ottoman-siyaq-numbers": 1,
-  "pahawh-hmong": 2,
+  "oriya": 1,
+  "ottoman-siyaq-numbers": 2,
+  "pahawh-hmong": 1,
   "phags-pa": 2,
   "psalter-pahlavi": 2,
-  "rejang": 3,
+  "rejang": 1,
   "saurashtra": 1,
   "sharada": 3,
   "siddham": 7,
@@ -90,7 +88,7 @@
   "soyombo": 3,
   "sundanese": 4,
   "syloti-nagri": 7,
-  "symbols": 18,
+  "symbols": 17,
   "syriac": 6,
   "tagalog": 3,
   "tai-le": 1,
@@ -109,16 +107,16 @@
   "zanabazar-square": 2
  },
  "open_per_tier": {
-  "1": 235,
-  "2": 74,
-  "3": 161,
-  "4": 72,
-  "5": 44
+  "1": 219,
+  "2": 68,
+  "3": 150,
+  "4": 66,
+  "5": 45
  },
  "opened_per_month": {
-  "1": 11,
+  "1": 10,
   "2": 8,
-  "3": 16
+  "3": 19
  },
  "releases_per_month": {
   "1": [
@@ -185,6 +183,10 @@
   ],
   "3": [
    {
+    "tag": "NotoSerifAhom-v2.006",
+    "url": "https://github.com/notofonts/ahom/releases/tag/NotoSerifAhom-v2.006"
+   },
+   {
     "tag": "NotoSansMath-v2.539",
     "url": "https://github.com/notofonts/math/releases/tag/NotoSansMath-v2.539"
    },
@@ -195,6 +197,10 @@
    {
     "tag": "NotoSerifOttomanSiyaq-v1.005",
     "url": "https://github.com/notofonts/ottoman-siyaq-numbers/releases/tag/NotoSerifOttomanSiyaq-v1.005"
+   },
+   {
+    "tag": "NotoSansSymbols2-v2.006",
+    "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols2-v2.006"
    },
    {
     "tag": "NotoSerifTelugu-v2.004",
@@ -1149,8 +1155,8 @@
   ]
  },
  "totals_per_month": {
-  "1": 846,
-  "2": 707,
-  "3": 625
+  "1": 851,
+  "2": 711,
+  "3": 629
  }
 }
