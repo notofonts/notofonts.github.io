@@ -4597,10 +4597,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Gujarati v2.102\n\nThis is an administrative release.\n",
-     "published": "2022-07-07T17:14:09",
-     "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSansGujarati-v2.102",
-     "version": "v2.102"
+     "notes": "Noto Sans Gujarati v2.103\n\nThis release:\n* Decomposes vertical matras when forming ligatures (#4)\n* Fixes an issue where candrabindus would turn into anusvaras (#10)\n* Adds an anchor on the AI vowel\n",
+     "published": "2023-03-27T14:20:36",
+     "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSansGujarati-v2.103",
+     "version": "v2.103"
     }
    },
    "Noto Serif Gujarati": {
@@ -4662,10 +4662,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Gujarati v2.102\n\nThis is an administrative release.\n",
-     "published": "2022-07-07T17:24:11",
-     "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSerifGujarati-v2.102",
-     "version": "v2.102"
+     "notes": "Noto Serif Gujarati v2.103\n\nThis release:\n* Improves the positioning of matras on conjunct glyphs (#3)\n* Improves the contextualization of small u-vowel signs with other marks (#13)\n",
+     "published": "2023-03-27T14:26:50",
+     "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSerifGujarati-v2.103",
+     "version": "v2.103"
     }
    }
   },
@@ -5152,10 +5152,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Gurmukhi v2.003\n\nThis is an administrative release\n",
-     "published": "2022-07-07T16:13:31",
-     "url": "https://github.com/notofonts/gurmukhi/releases/tag/NotoSansGurmukhi-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Gurmurkhi v2.004\n\nThis release:\n* Is a bit smaller by removing unnecessary ligatures (#2)\n* Fixes the positioning of bindi before the II matra (#23)\n",
+     "published": "2023-03-27T10:14:38",
+     "url": "https://github.com/notofonts/gurmukhi/releases/tag/NotoSansGurmukhi-v2.004",
+     "version": "v2.004"
     }
    },
    "Noto Serif Gurmukhi": {
@@ -5217,10 +5217,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Gurmukhi v2.003\n\nThis is an administrative release\n",
-     "published": "2022-07-07T16:16:20",
-     "url": "https://github.com/notofonts/gurmukhi/releases/tag/NotoSerifGurmukhi-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Serif Gurmukhi v2.004\n\nThis release:\n* Fixes the positioning of bindi before the II matra (#23)\n",
+     "published": "2023-03-27T10:17:10",
+     "url": "https://github.com/notofonts/gurmukhi/releases/tag/NotoSerifGurmukhi-v2.004",
+     "version": "v2.004"
     }
    }
   },
@@ -6242,6 +6242,7 @@
       "fonts/NotoSansKannada/full/otf/NotoSansKannadaUI-SemiCondensedSemiBold.otf",
       "fonts/NotoSansKannada/full/otf/NotoSansKannadaUI-SemiCondensedThin.otf",
       "fonts/NotoSansKannada/full/otf/NotoSansKannadaUI-Thin.otf",
+      "fonts/NotoSansKannada/full/slim-variable-ttf/NotoSansKannada-UI-VF.ttf",
       "fonts/NotoSansKannada/full/slim-variable-ttf/NotoSansKannada[wght].ttf",
       "fonts/NotoSansKannada/full/ttf/NotoSansKannada-Black.ttf",
       "fonts/NotoSansKannada/full/ttf/NotoSansKannada-Bold.ttf",
@@ -6464,6 +6465,7 @@
       "fonts/NotoSansKannada/unhinted/otf/NotoSansKannadaUI-SemiCondensedSemiBold.otf",
       "fonts/NotoSansKannada/unhinted/otf/NotoSansKannadaUI-SemiCondensedThin.otf",
       "fonts/NotoSansKannada/unhinted/otf/NotoSansKannadaUI-Thin.otf",
+      "fonts/NotoSansKannada/unhinted/slim-variable-ttf/NotoSansKannada-UI-VF.ttf",
       "fonts/NotoSansKannada/unhinted/slim-variable-ttf/NotoSansKannada[wght].ttf",
       "fonts/NotoSansKannada/unhinted/ttf/NotoSansKannada-Black.ttf",
       "fonts/NotoSansKannada/unhinted/ttf/NotoSansKannada-Bold.ttf",
@@ -6541,10 +6543,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Kannada v2.003\n\nThis is a maintenance release\n",
-     "published": "2022-07-07T21:25:30",
-     "url": "https://github.com/notofonts/kannada/releases/tag/NotoSansKannada-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Kannada v2.004\n\nThis release:\n* Adds a UI variable font\n* Allows the KSSA conjunct to work again (#9)\n* Improves kerning\n",
+     "published": "2023-03-27T09:37:12",
+     "url": "https://github.com/notofonts/kannada/releases/tag/NotoSansKannada-v2.004",
+     "version": "v2.004"
     }
    },
    "Noto Serif Kannada": {
@@ -6606,10 +6608,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Kannada v2.003\n\nThis is a maintenance release\n",
-     "published": "2022-07-07T21:23:02",
-     "url": "https://github.com/notofonts/kannada/releases/tag/NotoSerifKannada-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Serif Kannada v2.004\n\nThis release:\n* Fixes the spacing of clusters with vocalic R/RR (#10)\n* Restores some kerning that had gone missing\n",
+     "published": "2023-03-27T09:39:48",
+     "url": "https://github.com/notofonts/kannada/releases/tag/NotoSerifKannada-v2.004",
+     "version": "v2.004"
     }
    }
   },
@@ -10097,6 +10099,7 @@
       "fonts/NotoSansMalayalam/full/otf/NotoSansMalayalamUI-SemiCondensedSemiBold.otf",
       "fonts/NotoSansMalayalam/full/otf/NotoSansMalayalamUI-SemiCondensedThin.otf",
       "fonts/NotoSansMalayalam/full/otf/NotoSansMalayalamUI-Thin.otf",
+      "fonts/NotoSansMalayalam/full/slim-variable-ttf/NotoSansMalayalam-UI-VF.ttf",
       "fonts/NotoSansMalayalam/full/slim-variable-ttf/NotoSansMalayalam[wght].ttf",
       "fonts/NotoSansMalayalam/full/ttf/NotoSansMalayalam-Black.ttf",
       "fonts/NotoSansMalayalam/full/ttf/NotoSansMalayalam-Bold.ttf",
@@ -10319,6 +10322,7 @@
       "fonts/NotoSansMalayalam/unhinted/otf/NotoSansMalayalamUI-SemiCondensedSemiBold.otf",
       "fonts/NotoSansMalayalam/unhinted/otf/NotoSansMalayalamUI-SemiCondensedThin.otf",
       "fonts/NotoSansMalayalam/unhinted/otf/NotoSansMalayalamUI-Thin.otf",
+      "fonts/NotoSansMalayalam/unhinted/slim-variable-ttf/NotoSansMalayalam-UI-VF.ttf",
       "fonts/NotoSansMalayalam/unhinted/slim-variable-ttf/NotoSansMalayalam[wght].ttf",
       "fonts/NotoSansMalayalam/unhinted/ttf/NotoSansMalayalam-Black.ttf",
       "fonts/NotoSansMalayalam/unhinted/ttf/NotoSansMalayalam-Bold.ttf",
@@ -10396,10 +10400,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Malayalam v2.103\n\nThis is an administrative release.\n",
-     "published": "2022-07-07T06:30:02",
-     "url": "https://github.com/notofonts/malayalam/releases/tag/NotoSansMalayalam-v2.103",
-     "version": "v2.103"
+     "notes": "Noto Sans Malayalam v2.104\n\nThis release:\n* Includes a UI variable font, with some issues fixed (#18)\n* Improves the placement of various marks (#2, #3, #4, #5)\n",
+     "published": "2023-03-27T09:22:21",
+     "url": "https://github.com/notofonts/malayalam/releases/tag/NotoSansMalayalam-v2.104",
+     "version": "v2.104"
     }
    },
    "Noto Serif Malayalam": {
@@ -10461,10 +10465,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Malayalam v2.103\n\nThis is an administrative release.\n",
-     "published": "2022-07-07T06:33:46",
-     "url": "https://github.com/notofonts/malayalam/releases/tag/NotoSerifMalayalam-v2.103",
-     "version": "v2.103"
+     "notes": "Noto Serif Malayalam v2.104\n\nThis release improves the placement of various marks (#2, #3, #4, #5)\n",
+     "published": "2023-03-27T09:19:13",
+     "url": "https://github.com/notofonts/malayalam/releases/tag/NotoSerifMalayalam-v2.104",
+     "version": "v2.104"
     }
    }
   },
@@ -12824,10 +12828,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Oriya v2.003\n\nThis release:\n* Fixes some unattached mark issues (#13)\n* Adds nukta anchors to all base glyphs (#10)\n",
-     "published": "2022-08-19T10:37:34",
-     "url": "https://github.com/notofonts/oriya/releases/tag/NotoSansOriya-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Oriya v2.005\n\nThis release:\n* Improves the connection of subscript conjuncts to anchors (#8, thanks to @KazunariTsuboi)\n* Fixes the width axis of the variable font (#15)\n* Supports the U+0B55 ORIYA SIGN OVERLINE character (#3)\n",
+     "published": "2023-03-27T09:09:02",
+     "url": "https://github.com/notofonts/oriya/releases/tag/NotoSansOriya-v2.005",
+     "version": "v2.005"
     }
    },
    "Noto Serif Oriya": {
@@ -12873,6 +12877,21 @@
   },
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
+   {
+    "number": 20,
+    "title": "Stylistic sets for transliteration should be removed",
+    "url": "https://github.com/notofonts/oriya/issues/20"
+   },
+   {
+    "number": 19,
+    "title": "Missing anchor points for nukta and virama",
+    "url": "https://github.com/notofonts/oriya/issues/19"
+   },
+   {
+    "number": 18,
+    "title": "Isn\u2019t that overline too thin?",
+    "url": "https://github.com/notofonts/oriya/issues/18"
+   },
    {
     "number": 17,
     "title": "Noto Sans Oriya font family failing to render properly for Scribus and Firefox",
@@ -14104,10 +14123,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Sinhala v2.006\n\nThis release ensures that the non-breaking space has the same width as the breaking space.\n",
-     "published": "2022-07-27T14:44:15",
-     "url": "https://github.com/notofonts/sinhala/releases/tag/NotoSerifSinhala-v2.006",
-     "version": "v2.006"
+     "notes": "Noto Serif Sinhala v2.007\n\nThis release fixes the category of the KOMBU DEKA vowel sign, fixing some overlaps (#6).\n",
+     "published": "2023-03-27T09:40:35",
+     "url": "https://github.com/notofonts/sinhala/releases/tag/NotoSerifSinhala-v2.007",
+     "version": "v2.007"
     }
    }
   },
@@ -15051,6 +15070,7 @@
       "fonts/NotoSansTamil/full/otf/NotoSansTamilUI-SemiCondensedSemiBold.otf",
       "fonts/NotoSansTamil/full/otf/NotoSansTamilUI-SemiCondensedThin.otf",
       "fonts/NotoSansTamil/full/otf/NotoSansTamilUI-Thin.otf",
+      "fonts/NotoSansTamil/full/slim-variable-ttf/NotoSansTamil-UI-VF.ttf",
       "fonts/NotoSansTamil/full/slim-variable-ttf/NotoSansTamil[wght].ttf",
       "fonts/NotoSansTamil/full/ttf/NotoSansTamil-Black.ttf",
       "fonts/NotoSansTamil/full/ttf/NotoSansTamil-Bold.ttf",
@@ -15273,6 +15293,7 @@
       "fonts/NotoSansTamil/unhinted/otf/NotoSansTamilUI-SemiCondensedSemiBold.otf",
       "fonts/NotoSansTamil/unhinted/otf/NotoSansTamilUI-SemiCondensedThin.otf",
       "fonts/NotoSansTamil/unhinted/otf/NotoSansTamilUI-Thin.otf",
+      "fonts/NotoSansTamil/unhinted/slim-variable-ttf/NotoSansTamil-UI-VF.ttf",
       "fonts/NotoSansTamil/unhinted/slim-variable-ttf/NotoSansTamil[wght].ttf",
       "fonts/NotoSansTamil/unhinted/ttf/NotoSansTamil-Black.ttf",
       "fonts/NotoSansTamil/unhinted/ttf/NotoSansTamil-Bold.ttf",
@@ -15350,10 +15371,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Tamil v2.003\n\nThis is an administrative release\n",
-     "published": "2022-07-07T06:13:21",
-     "url": "https://github.com/notofonts/tamil/releases/tag/NotoSansTamil-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Tamil v2.004\n\nThis release:\n* Includes UI builds\n* Fixes missing kerning (#15)\n* Improves the positioning of nuktas below vowel sign e (#3)\n",
+     "published": "2023-03-27T09:02:29",
+     "url": "https://github.com/notofonts/tamil/releases/tag/NotoSansTamil-v2.004",
+     "version": "v2.004"
     }
    },
    "Noto Sans Tamil Supplement": {
@@ -15755,10 +15776,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Tamil v2.003\n\n* Renamed \"Noto Serif Tamil Slanted\" to \"Noto Serif Tamil\" as part of family\n* Added dotted circle anchors\n* Fixed version, copyright, vertical metrics, production names, etc. to GF standards\n",
-     "published": "2022-07-13T11:20:58",
-     "url": "https://github.com/notofonts/tamil/releases/tag/NotoSerifTamil-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Serif Tamil v2.004 This release: AUTHORS.txt CONTRIBUTORS.txt Makefile OFL.txt README.md dc documentation fontbakery.yml fonts foo.fea master_ttf master_ufo out qa report.html requirements.txt scripts sources subset-files variable_ttf venv Fixes missing kerning (#15) AUTHORS.txt CONTRIBUTORS.txt Makefile OFL.txt README.md dc documentation fontbakery.yml fonts foo.fea master_ttf master_ufo out qa report.html requirements.txt scripts sources subset-files variable_ttf venv Improves the positioning of nuktas below vowel sign e (#3)\n",
+     "published": "2023-03-27T09:54:27",
+     "url": "https://github.com/notofonts/tamil/releases/tag/NotoSerifTamil-v2.004",
+     "version": "v2.004"
     }
    }
   },
