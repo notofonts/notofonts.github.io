@@ -3463,10 +3463,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Devanagari v2.003\n\nThis is an administrative release.\n",
-     "published": "2022-07-08T12:38:48",
-     "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSansDevanagari-v2.003",
-     "version": "v2.003"
+     "notes": "This release: \r\n\r\n*  adds kerning between the UU vowel and punctuation (#2) \r\n*  ensures vedic marks attach to the base instead of any following visarga (#5) \r\n*  makes the kerning of za and zha consistent with ja (#6) \r\n*  blocks conjuncts after ZWJ half forms (#8) \r\n*  uses the reph form of ra + l-vocalic (#32) \r\n*  avoids a clash between some subsequent vedic marks (#10)",
+     "published": "2023-03-29T11:40:37",
+     "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSansDevanagari-v2.004",
+     "version": "v2.004"
     },
     "third_party_versions": {
      "Android 12": {
@@ -3481,7 +3481,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "2.003"
      }
     }
@@ -3680,10 +3680,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Devanagari v2.003\n\nThis is an administrative release.\n",
-     "published": "2022-07-08T12:30:39",
-     "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSerifDevanagari-v2.003",
-     "version": "v2.003"
+     "notes": "This release: \r\n* changes the category of ardhavisarga to fix a spacing issue (#32) \r\n* uses the reph form of ra + l-vocalic (#32) \r\n* avoids a clash between some subsequent vedic marks (#10)",
+     "published": "2023-03-29T11:41:26",
+     "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSerifDevanagari-v2.004",
+     "version": "v2.004"
     },
     "third_party_versions": {
      "Android 12": {
@@ -3698,7 +3698,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "2.003"
      }
     }
@@ -10133,10 +10133,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans v2.010\n\nThis release:\n* Brings support for a large number of new characters defined in Unicode 14.0 (See #392)\n* Fixes a number of variable font interpolation issues\n* Adjusts vertical metrics to meet Google Fonts expectations\n* Adds a Devanagari subset to \"full\" builds, as per Google Fonts\n",
-     "published": "2023-01-17T14:16:51",
-     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSans-v2.010",
-     "version": "v2.010"
+     "notes": "Noto Sans v2.011\n\nThis release:\n* Fixes a layout issue with the embedded Devanagari subset in the Google Fonts builds\n* Fixes soft-dotting of i and j glyphs with accents (#64, thanks to Denis Jacquerye)\n* Improves the position of marks below small capital J (#60)\n* Removes the erroneous U+11AB0/11AB1 glyphs (#405)\n* Adds slashed pnum/onum zeros (#159)\n* Adds the U+10FB GEORGIAN PARAGRAPH SEPARATOR character for medievalists (#37)\n* Adds the U+2183 ROMAN NUMERAL REVERSED ONE HUNDRED character (#129)\n",
+     "published": "2023-03-29T11:59:55",
+     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSans-v2.011",
+     "version": "v2.011"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -10270,10 +10270,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Mono v2.010\n\nThis release:\n\n* Fixes the width of U+AB60 sakhayat to be monospaced.\n",
-     "published": "2022-07-28T08:54:58",
-     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSansMono-v2.010",
-     "version": "v2.010"
+     "notes": "Noto Sans Mono v2.011\r\n\r\nThis release:\r\n* Fixes soft-dotting of i and j glyphs with accents (#64, thanks to Denis Jacquerye)\r\n* Removes the erroneous U+11AB0/11AB1 glyphs (#405)\r\n* Makes integral top and bottom mirrored (#200)\r\n* Aligns integral sign pieces (#201)\r\n* Adds the U+10FB GEORGIAN PARAGRAPH SEPARATOR character for medievalists (#37)\r\n* Adds some sidebearings to MODIFIER LETTER UNASPIRATED (#202)\r\n* Adds the U+2183 ROMAN NUMERAL REVERSED ONE HUNDRED character (#129)",
+     "published": "2023-03-29T17:49:58",
+     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSansMono-v2.011",
+     "version": "v2.011"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -10283,7 +10283,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "2.010"
      }
     }
@@ -10517,10 +10517,10 @@
      ]
     },
     "latest_release": {
-     "notes": "",
-     "published": "2022-07-18T16:47:23",
-     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.009",
-     "version": "v2.009"
+     "notes": "Noto Serif v2.010\n\nThis release:\n* Fixes soft-dotting of i and j glyphs with accents (#64, thanks to Denis Jacquerye)\n* Improves the position of marks below small capital J (#60)\n* Removes the erroneous U+11AB0/11AB1 glyphs (#405)\n* Adds slashed pnum/onum zeros (#159)\n* Adds the U+10FB GEORGIAN PARAGRAPH SEPARATOR character for medievalists (#37)\n* Adds the U+2183 ROMAN NUMERAL REVERSED ONE HUNDRED character (#129)\n",
+     "published": "2023-03-29T17:56:36",
+     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.010",
+     "version": "v2.010"
     },
     "third_party_versions": {
      "Android 12": {
@@ -10791,8 +10791,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 137,
+  "issue_count": 138,
   "issues": [
+   {
+    "number": 406,
+    "title": "Sorry, your som is not right",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/406"
+   },
    {
     "number": 400,
     "title": "Visual ambiguity between left/right quotes",
