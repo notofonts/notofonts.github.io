@@ -9016,6 +9016,16 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 409,
+    "title": "Three obsolete glyphs: amendments to Unicode",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/409"
+   },
+   {
+    "number": 408,
+    "title": "Design inconsistency between \u02a9 (U+02A9) and \ud837\udf00 (U+1DF00)",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/408"
+   },
+   {
     "number": 406,
     "title": "Sorry, your som is not right",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/406"
