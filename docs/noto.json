@@ -9016,6 +9016,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 410,
+    "title": "Update latnSoftDot lookup with UseMarkFilteringSet in Italic",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/410"
+   },
+   {
     "number": 409,
     "title": "Three obsolete glyphs: amendments to Unicode",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/409"
