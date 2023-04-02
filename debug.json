@@ -10794,9 +10794,9 @@
   "issue_count": 141,
   "issues": [
    {
-    "number": 410,
-    "title": "Update latnSoftDot lookup with UseMarkFilteringSet in Italic",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/410"
+    "number": 411,
+    "title": "[Question] Possible to define a standard tadpole-like (or curly) comma/quotation mark for Noto Sans series?",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/411"
    },
    {
     "number": 409,
@@ -12552,8 +12552,28 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/malayalam",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 23,
+    "title": "U+0D4E MALAYALAM LETTER DOT REPH has inconsistent height",
+    "url": "https://github.com/notofonts/malayalam/issues/23"
+   },
+   {
+    "number": 22,
+    "title": "'dist' ignores marks that its rules would otherwise apply to",
+    "url": "https://github.com/notofonts/malayalam/issues/22"
+   },
+   {
+    "number": 21,
+    "title": "U+0D4E MALAYALAM LETTER DOT REPH blocks alternative -i and -\u012b glyphs",
+    "url": "https://github.com/notofonts/malayalam/issues/21"
+   },
+   {
+    "number": 20,
+    "title": "No pre-base ra after ya or \u1e3ba",
+    "url": "https://github.com/notofonts/malayalam/issues/20"
+   },
    {
     "number": 19,
     "title": "Ensure we support the latest script reform",
@@ -13475,13 +13495,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mongolian",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 6,
   "issues": [
-   {
-    "number": 27,
-    "title": "About the wrong rendering of \"\u1869\u185d\",\u201c\u1868\u185d\u201d etc.",
-    "url": "https://github.com/notofonts/mongolian/issues/27"
-   },
    {
     "number": 26,
     "title": "Contextual Form Error for Manchu Final -ko/ho",
@@ -15653,8 +15668,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/old-turkic",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 5,
+    "title": "Own 10C47",
+    "url": "https://github.com/notofonts/old-turkic/pull/5"
+   },
    {
     "number": 2,
     "title": "Wrong glyph for U+10C47 OLD TURKIC LETTER ORKHON OT",
