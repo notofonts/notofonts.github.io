@@ -6423,8 +6423,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/gurmukhi",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 4,
   "issues": [
+   {
+    "number": 24,
+    "title": "Subscripts with longer vertical strokes are implemented incompletely",
+    "url": "https://github.com/notofonts/gurmukhi/issues/24"
+   },
    {
     "number": 21,
     "title": "Handling of I-matra + tippi",
@@ -10791,8 +10796,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 141,
+  "issue_count": 142,
   "issues": [
+   {
+    "number": 412,
+    "title": "Adds refreshed Cyrillic in the NotoSansRoman source",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/412"
+   },
    {
     "number": 411,
     "title": "[Question] Possible to define a standard tadpole-like (or curly) comma/quotation mark for Noto Sans series?",
