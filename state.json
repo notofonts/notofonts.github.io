@@ -4118,10 +4118,10 @@
      "fonts/NotoSansGujarati/unhinted/ttf/NotoSansGujarati-CondensedSemiBold.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Gujarati v2.103\n\nThis release:\n* Decomposes vertical matras when forming ligatures (#4)\n* Fixes an issue where candrabindus would turn into anusvaras (#10)\n* Adds an anchor on the AI vowel\n",
-     "published": "2023-03-27T14:20:36",
-     "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSansGujarati-v2.103",
-     "version": "v2.103"
+     "notes": "Noto Sans Gujarati v2.104 This is a patch release to fix an issue with ra+u/uu+nukta\n",
+     "published": "2023-04-04T13:30:08",
+     "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSansGujarati-v2.104",
+     "version": "v2.104"
     }
    },
    "Noto Serif Gujarati": {
@@ -4187,10 +4187,10 @@
      "fonts/NotoSerifGujarati/unhinted/ttf/NotoSerifGujarati-Black.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Serif Gujarati v2.103\n\nThis release:\n* Improves the positioning of matras on conjunct glyphs (#3)\n* Improves the contextualization of small u-vowel signs with other marks (#13)\n",
-     "published": "2023-03-27T14:26:50",
-     "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSerifGujarati-v2.103",
-     "version": "v2.103"
+     "notes": "Noto Serif Gujarati v2.104 This is a patch release to fix an issue with ra+u/uu+nukta\n",
+     "published": "2023-04-04T13:34:28",
+     "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSerifGujarati-v2.104",
+     "version": "v2.104"
     }
    }
   },
@@ -4198,7 +4198,9 @@
    "NotoSansGujarati-v2.102",
    "NotoSerifGujarati-v2.102",
    "NotoSansGujarati-v2.103",
-   "NotoSerifGujarati-v2.103"
+   "NotoSerifGujarati-v2.103",
+   "NotoSansGujarati-v2.104",
+   "NotoSerifGujarati-v2.104"
   ]
  },
  "gunjala-gondi": {
@@ -7684,10 +7686,10 @@
      "fonts/NotoSansMono/unhinted/ttf/NotoSansMono-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Mono v2.011\r\n\r\nThis release:\r\n* Fixes soft-dotting of i and j glyphs with accents (#64, thanks to Denis Jacquerye)\r\n* Removes the erroneous U+11AB0/11AB1 glyphs (#405)\r\n* Makes integral top and bottom mirrored (#200)\r\n* Aligns integral sign pieces (#201)\r\n* Adds the U+10FB GEORGIAN PARAGRAPH SEPARATOR character for medievalists (#37)\r\n* Adds some sidebearings to MODIFIER LETTER UNASPIRATED (#202)\r\n* Adds the U+2183 ROMAN NUMERAL REVERSED ONE HUNDRED character (#129)",
-     "published": "2023-03-29T17:49:58",
-     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSansMono-v2.011",
-     "version": "v2.011"
+     "notes": "NotoSansMono v2.012\n\nThis is a patch release which fixes the positioning of the slash on some math glyphs.\n",
+     "published": "2023-04-04T15:38:24",
+     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSansMono-v2.012",
+     "version": "v2.012"
     }
    },
    "Noto Serif": {
@@ -8199,7 +8201,8 @@
    "NotoSans-v2.010",
    "NotoSans-v2.011",
    "NotoSansMono-v2.011",
-   "NotoSerif-v2.010"
+   "NotoSerif-v2.010",
+   "NotoSansMono-v2.012"
   ]
  },
  "lepcha": {
