@@ -431,6 +431,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 186,
+    "title": "Kufi re-engineering review",
+    "url": "https://github.com/notofonts/arabic/issues/186"
+   },
+   {
     "number": 178,
     "title": "Missing Arabic Extended-B Block",
     "url": "https://github.com/notofonts/arabic/issues/178"
@@ -4676,6 +4681,16 @@
   },
   "gh_url": "https://notofonts.github.io/gujarati",
   "issues": [
+   {
+    "number": 28,
+    "title": "U+0ABC GUJARATI SIGN NUKTA overlaps below-base marks",
+    "url": "https://github.com/notofonts/gujarati/issues/28"
+   },
+   {
+    "number": 27,
+    "title": "Ja-based clusters are not always ligated with vowel signs\u2019 vertical stems",
+    "url": "https://github.com/notofonts/gujarati/issues/27"
+   },
    {
     "number": 15,
     "title": "Noto Serif Gujarati: Nuqtas too close",
