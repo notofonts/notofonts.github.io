@@ -5826,8 +5826,18 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/gujarati",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 11,
   "issues": [
+   {
+    "number": 30,
+    "title": "<U+0AFD, U+0AFC> is rendered backwards",
+    "url": "https://github.com/notofonts/gujarati/issues/30"
+   },
+   {
+    "number": 29,
+    "title": "Marks without anchor points overlap other glyphs",
+    "url": "https://github.com/notofonts/gujarati/issues/29"
+   },
    {
     "number": 28,
     "title": "U+0ABC GUJARATI SIGN NUKTA overlaps below-base marks",
@@ -8217,8 +8227,13 @@
   "families_count": 0,
   "gh_url": "https://notofonts.github.io/kawi",
   "has_releases": false,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 6,
+    "title": "Too low line height",
+    "url": "https://github.com/notofonts/kawi/issues/6"
+   },
    {
     "number": 4,
     "title": "Development plan (3)",
