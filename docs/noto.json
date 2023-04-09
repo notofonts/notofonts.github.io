@@ -4682,6 +4682,11 @@
   "gh_url": "https://notofonts.github.io/gujarati",
   "issues": [
    {
+    "number": 31,
+    "title": "<U+0AFF, U+0AFA> is too far to the right",
+    "url": "https://github.com/notofonts/gujarati/issues/31"
+   },
+   {
     "number": 30,
     "title": "<U+0AFD, U+0AFC> is rendered backwards",
     "url": "https://github.com/notofonts/gujarati/issues/30"
@@ -16432,6 +16437,16 @@
   },
   "gh_url": "https://notofonts.github.io/telugu",
   "issues": [
+   {
+    "number": 18,
+    "title": "Components of subscript j\u00f1a are positioned inconsistently",
+    "url": "https://github.com/notofonts/telugu/issues/18"
+   },
+   {
+    "number": 17,
+    "title": "U+0C62 and U+0C63 overlap below-base marks",
+    "url": "https://github.com/notofonts/telugu/issues/17"
+   },
    {
     "number": 16,
     "title": "Add U+0C5D NAKAARA POLLU",
