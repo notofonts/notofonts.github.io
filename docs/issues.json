@@ -2,12 +2,12 @@
  "closed_per_month": {
   "1": 150,
   "2": 90,
-  "3": 101,
+  "3": 100,
   "4": 2
  },
  "open_per_repo": {
   "ahom": 3,
-  "arabic": 15,
+  "arabic": 16,
   "armenian": 4,
   "balinese": 9,
   "bamum": 1,
@@ -20,7 +20,7 @@
   "chorasmian": 2,
   "coptic": 2,
   "deseret": 1,
-  "devanagari": 6,
+  "devanagari": 7,
   "dives-akuru": 7,
   "dogra": 4,
   "duployan": 1,
@@ -28,10 +28,10 @@
   "elbasan": 2,
   "elymaic": 2,
   "ethiopic": 3,
-  "georgian": 2,
+  "georgian": 3,
   "glagolitic": 3,
   "grantha": 5,
-  "gujarati": 7,
+  "gujarati": 13,
   "gunjala-gondi": 3,
   "gurmukhi": 4,
   "hanifi-rohingya": 2,
@@ -42,18 +42,18 @@
   "javanese": 5,
   "kaithi": 6,
   "kannada": 8,
-  "kawi": 2,
+  "kawi": 3,
   "kharoshthi": 1,
   "khitan-small-script": 1,
   "khmer": 9,
   "khojki": 1,
   "khudawadi": 1,
   "lao": 4,
-  "latin-greek-cyrillic": 142,
+  "latin-greek-cyrillic": 143,
   "limbu": 2,
   "linear-a": 1,
   "lydian": 2,
-  "malayalam": 7,
+  "malayalam": 8,
   "mandaic": 3,
   "manichaean": 4,
   "marchen": 2,
@@ -98,9 +98,9 @@
   "takri": 2,
   "tamil": 2,
   "tangsa": 2,
-  "telugu": 1,
+  "telugu": 3,
   "thaana": 2,
-  "thai": 11,
+  "thai": 12,
   "tibetan": 12,
   "tifinagh": 6,
   "tirhuta": 10,
@@ -108,17 +108,17 @@
   "zanabazar-square": 2
  },
  "open_per_tier": {
-  "1": 232,
-  "2": 68,
+  "1": 244,
+  "2": 70,
   "3": 149,
-  "4": 66,
+  "4": 67,
   "5": 46
  },
  "opened_per_month": {
   "1": 10,
   "2": 8,
   "3": 24,
-  "4": 8
+  "4": 22
  },
  "releases_per_month": {
   "1": [
@@ -279,6 +279,20 @@
    {
     "tag": "NotoSansTelugu-v2.004",
     "url": "https://github.com/notofonts/telugu/releases/tag/NotoSansTelugu-v2.004"
+   }
+  ],
+  "4": [
+   {
+    "tag": "NotoSansGujarati-v2.104",
+    "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSansGujarati-v2.104"
+   },
+   {
+    "tag": "NotoSerifGujarati-v2.104",
+    "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSerifGujarati-v2.104"
+   },
+   {
+    "tag": "NotoSansMono-v2.012",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSansMono-v2.012"
    }
   ],
   "6": [
@@ -1228,6 +1242,6 @@
   "1": 854,
   "2": 714,
   "3": 632,
-  "4": 555
+  "4": 556
  }
 }
