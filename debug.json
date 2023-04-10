@@ -5826,8 +5826,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/gujarati",
   "has_releases": true,
-  "issue_count": 12,
+  "issue_count": 13,
   "issues": [
+   {
+    "number": 32,
+    "title": "U+0AFD GUJARATI SIGN THREE-DOT NUKTA ABOVE makes -o and -au non-spacing",
+    "url": "https://github.com/notofonts/gujarati/issues/32"
+   },
    {
     "number": 31,
     "title": "<U+0AFF, U+0AFA> is too far to the right",
@@ -12607,8 +12612,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/malayalam",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 8,
   "issues": [
+   {
+    "number": 24,
+    "title": "Many marks overlap other glyphs",
+    "url": "https://github.com/notofonts/malayalam/issues/24"
+   },
    {
     "number": 23,
     "title": "U+0D4E MALAYALAM LETTER DOT REPH has inconsistent height",
