@@ -4064,6 +4064,11 @@
   "gh_url": "https://notofonts.github.io/georgian",
   "issues": [
    {
+    "number": 6,
+    "title": "Proposal to include U+2116 in Noto Georgian Full version",
+    "url": "https://github.com/notofonts/georgian/issues/6"
+   },
+   {
     "number": 4,
     "title": "Georgian Nuskhuri 2D00\u20262D2F is not canonical",
     "url": "https://github.com/notofonts/georgian/issues/4"
@@ -10795,6 +10800,16 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 42,
+    "title": " Incorrect baseline and size for U+2032  (prime)",
+    "url": "https://github.com/notofonts/math/issues/42"
+   },
+   {
+    "number": 41,
+    "title": "Incorrect baseline and size for U+221E (infinity symbol)",
+    "url": "https://github.com/notofonts/math/issues/41"
+   },
+   {
     "number": 40,
     "title": "<U+2216, U+FE00> should look the same as U+2216",
     "url": "https://github.com/notofonts/math/issues/40"
@@ -14663,16 +14678,6 @@
     "number": 9,
     "title": "Webdings and Wingdings are missing from Noto Symbols",
     "url": "https://github.com/notofonts/symbols/issues/9"
-   },
-   {
-    "number": 8,
-    "title": "U+2139 in Noto Symbols should have serifs.",
-    "url": "https://github.com/notofonts/symbols/issues/8"
-   },
-   {
-    "number": 7,
-    "title": "NotoSansSymbols-Regular is not monospaced",
-    "url": "https://github.com/notofonts/symbols/issues/7"
    },
    {
     "number": 4,
