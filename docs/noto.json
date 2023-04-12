@@ -9071,6 +9071,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 413,
+    "title": "Small Caps font for the letter \u1e45 does not show a small cap but rather a lowercase letter",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/413"
+   },
+   {
     "number": 412,
     "title": "Adds refreshed Cyrillic in the NotoSansRoman source",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/412"
