@@ -5831,8 +5831,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/gujarati",
   "has_releases": true,
-  "issue_count": 13,
+  "issue_count": 14,
   "issues": [
+   {
+    "number": 33,
+    "title": "Above-base mark sequences with repha or anusvara are too far to the right",
+    "url": "https://github.com/notofonts/gujarati/issues/33"
+   },
    {
     "number": 32,
     "title": "U+0AFD GUJARATI SIGN THREE-DOT NUKTA ABOVE makes -o and -au non-spacing",
@@ -12972,8 +12977,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 12,
+  "issue_count": 13,
   "issues": [
+   {
+    "number": 43,
+    "title": "Cyrillic glyphs and others missing from published fonts",
+    "url": "https://github.com/notofonts/math/issues/43"
+   },
    {
     "number": 42,
     "title": " Incorrect baseline and size for U+2032  (prime)",
@@ -14922,13 +14932,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nko",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 3,
   "issues": [
-   {
-    "number": 8,
-    "title": "Design of tonal apostrophes are difficult to distinguish on low-res phones",
-    "url": "https://github.com/notofonts/nko/issues/8"
-   },
    {
     "number": 7,
     "title": "Upper diacritic placement should be at the same height for all letters",
@@ -17957,7 +17962,7 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/sundanese",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 3,
   "issues": [
    {
     "number": 6,
@@ -17973,11 +17978,6 @@
     "number": 2,
     "title": "U+1BAB SUNDANESE SIGN VIRAMA does not form conjuncts",
     "url": "https://github.com/notofonts/sundanese/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Noto Sans Sundanese: Double vowel signs messed up ",
-    "url": "https://github.com/notofonts/sundanese/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/sundanese",
