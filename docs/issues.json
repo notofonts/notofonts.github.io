@@ -3,7 +3,7 @@
   "1": 150,
   "2": 90,
   "3": 100,
-  "4": 2
+  "4": 7
  },
  "open_per_repo": {
   "ahom": 3,
@@ -31,7 +31,7 @@
   "georgian": 3,
   "glagolitic": 3,
   "grantha": 5,
-  "gujarati": 13,
+  "gujarati": 14,
   "gunjala-gondi": 3,
   "gurmukhi": 4,
   "hanifi-rohingya": 2,
@@ -42,14 +42,14 @@
   "javanese": 5,
   "kaithi": 6,
   "kannada": 8,
-  "kawi": 3,
+  "kawi": 2,
   "kharoshthi": 1,
   "khitan-small-script": 1,
   "khmer": 9,
   "khojki": 1,
   "khudawadi": 1,
   "lao": 4,
-  "latin-greek-cyrillic": 143,
+  "latin-greek-cyrillic": 149,
   "limbu": 2,
   "linear-a": 1,
   "lydian": 2,
@@ -57,7 +57,7 @@
   "mandaic": 3,
   "manichaean": 4,
   "marchen": 2,
-  "math": 10,
+  "math": 13,
   "meetei-mayek": 1,
   "meroitic": 2,
   "miao": 1,
@@ -68,7 +68,7 @@
   "myanmar": 32,
   "nandinagari": 4,
   "nastaliq": 17,
-  "nko": 4,
+  "nko": 3,
   "nushu": 1,
   "nyiakeng-puachue-hmong": 1,
   "old-hungarian": 3,
@@ -87,9 +87,9 @@
   "siddham": 7,
   "sign-writing": 6,
   "soyombo": 3,
-  "sundanese": 4,
+  "sundanese": 3,
   "syloti-nagri": 7,
-  "symbols": 17,
+  "symbols": 15,
   "syriac": 6,
   "tagalog": 3,
   "tai-le": 1,
@@ -108,17 +108,17 @@
   "zanabazar-square": 2
  },
  "open_per_tier": {
-  "1": 244,
+  "1": 251,
   "2": 70,
-  "3": 149,
-  "4": 67,
+  "3": 148,
+  "4": 66,
   "5": 46
  },
  "opened_per_month": {
-  "1": 10,
+  "1": 9,
   "2": 8,
-  "3": 24,
-  "4": 22
+  "3": 23,
+  "4": 32
  },
  "releases_per_month": {
   "1": [
@@ -1239,9 +1239,9 @@
   ]
  },
  "totals_per_month": {
-  "1": 854,
-  "2": 714,
-  "3": 632,
+  "1": 856,
+  "2": 715,
+  "3": 633,
   "4": 556
  }
 }
