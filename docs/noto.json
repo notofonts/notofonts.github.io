@@ -9071,6 +9071,31 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 418,
+    "title": "U+1ACB COMBINING TRIPLE ACUTE ACCENT has no small-caps variant",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/418"
+   },
+   {
+    "number": 417,
+    "title": "U+10FB, U+2056, U+2058, and U+2059 are too tall",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/417"
+   },
+   {
+    "number": 416,
+    "title": "Hebrew transfinite symbols do not match Noto Serif\u2019s style",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/416"
+   },
+   {
+    "number": 415,
+    "title": "Inconsistent spacing of U+2057 QUADRUPLE PRIME",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/415"
+   },
+   {
+    "number": 414,
+    "title": "U+03D5 \u03d5 /phiSymbol in NotoSansMono should have a stroked glyph",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/414"
+   },
+   {
     "number": 413,
     "title": "Small Caps font for the letter \u1e45 does not show a small cap but rather a lowercase letter",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/413"
