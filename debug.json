@@ -8247,13 +8247,8 @@
   "families_count": 0,
   "gh_url": "https://notofonts.github.io/kawi",
   "has_releases": false,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 6,
-    "title": "Too low line height",
-    "url": "https://github.com/notofonts/kawi/issues/6"
-   },
    {
     "number": 4,
     "title": "Development plan (3)",
@@ -9781,7 +9776,7 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/lao",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 3,
   "issues": [
    {
     "number": 15,
@@ -9792,11 +9787,6 @@
     "number": 14,
     "title": "Normalisation with yamakkan 0ECE ",
     "url": "https://github.com/notofonts/lao/issues/14"
-   },
-   {
-    "number": 12,
-    "title": "'ss03' does not take 'ss01' into account",
-    "url": "https://github.com/notofonts/lao/issues/12"
    },
    {
     "number": 2,
@@ -10572,10 +10562,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif v2.010\n\nThis release:\n* Fixes soft-dotting of i and j glyphs with accents (#64, thanks to Denis Jacquerye)\n* Improves the position of marks below small capital J (#60)\n* Removes the erroneous U+11AB0/11AB1 glyphs (#405)\n* Adds slashed pnum/onum zeros (#159)\n* Adds the U+10FB GEORGIAN PARAGRAPH SEPARATOR character for medievalists (#37)\n* Adds the U+2183 ROMAN NUMERAL REVERSED ONE HUNDRED character (#129)\n",
-     "published": "2023-03-29T17:56:36",
-     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.010",
-     "version": "v2.010"
+     "notes": "Noto Serif v2.011 This is a patch release which AUTHORS.txt CONTRIBUTORS.txt Makefile NotoSans-Bold.ttf NotoSans-Italic[wdth,wght].ttf OFL.txt README.md build.ninja build.stamp changelog changelog.sans deva.log documentation fontbakery.yml fonts foo-sans.fea foo-serif.fea foo.fea foo.ttf jobs-for-denis.txt master_ttf master_ufo out qa report.html requirements.txt scripts sources subset-files test test.html test.ttf variable_ttf venv corrects some anchors on the s and epsilon glyphs in semibold AUTHORS.txt CONTRIBUTORS.txt Makefile NotoSans-Bold.ttf NotoSans-Italic[wdth,wght].ttf OFL.txt README.md build.ninja build.stamp changelog changelog.sans deva.log documentation fontbakery.yml fonts foo-sans.fea foo-serif.fea foo.fea foo.ttf jobs-for-denis.txt master_ttf master_ufo out qa report.html requirements.txt scripts sources subset-files test test.html test.ttf variable_ttf venv and replaces transfinite symbols with serif style variants (#416)\n",
+     "published": "2023-04-17T12:14:03",
+     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.011",
+     "version": "v2.011"
     },
     "third_party_versions": {
      "Android 12": {
@@ -10846,8 +10836,18 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 149,
+  "issue_count": 150,
   "issues": [
+   {
+    "number": 420,
+    "title": "U+03D7 GREEK KAI SYMBOL has a jagged contour",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/420"
+   },
+   {
+    "number": 419,
+    "title": "U+AB66, U+AB67, U+10788, and U+107AD have inconsistent retroflex hooks",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/419"
+   },
    {
     "number": 418,
     "title": "U+1ACB COMBINING TRIPLE ACUTE ACCENT has no small-caps variant",
@@ -10857,11 +10857,6 @@
     "number": 417,
     "title": "U+10FB, U+2056, U+2058, and U+2059 are too tall",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/417"
-   },
-   {
-    "number": 416,
-    "title": "Hebrew transfinite symbols do not match Noto Serif\u2019s style",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/416"
    },
    {
     "number": 415,
@@ -13807,32 +13802,17 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/music",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 2,
   "issues": [
    {
-    "number": 9,
-    "title": "Overlapping U+1D17C MUSICAL SYMBOL COMBINING STACCATO",
-    "url": "https://github.com/notofonts/music/issues/9"
-   },
-   {
-    "number": 5,
-    "title": "U+1D159 MUSICAL SYMBOL NULL NOTEHEAD is invisible",
-    "url": "https://github.com/notofonts/music/issues/5"
+    "number": 10,
+    "title": "Broken in Photoshop",
+    "url": "https://github.com/notofonts/music/issues/10"
    },
    {
     "number": 3,
     "title": "Incomplete coverage of ancient Greek musical notation",
     "url": "https://github.com/notofonts/music/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Wrong glyphs for mensural rests",
-    "url": "https://github.com/notofonts/music/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Wrong positions for Byzantine musical symbols with contrasting heights",
-    "url": "https://github.com/notofonts/music/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/music",
@@ -21619,8 +21599,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tibetan",
   "has_releases": true,
-  "issue_count": 12,
+  "issue_count": 13,
   "issues": [
+   {
+    "number": 45,
+    "title": "Alignment is wrong in Photoshop and Illustrator",
+    "url": "https://github.com/notofonts/tibetan/issues/45"
+   },
    {
     "number": 44,
     "title": "`uni0F4A0FB70FB1` has misplaced anchor points and is vertically compressed",
