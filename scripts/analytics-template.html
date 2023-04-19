@@ -91,7 +91,7 @@ td .material-icons { display:inline-flex; vertical-align: top; font-size:1.1rem;
 						{{#each top_10}}
 						<tr>
 							<td>
-								<a href="http://github.com/notofonts/{{repo}}">{{repo}}</a>
+								<a href="http://github.com/notofonts/{{repo}}/issues">{{repo}}</a>
 							</td>
 							<td>{{count}}</td>
 						</tr>
@@ -113,7 +113,7 @@ td .material-icons { display:inline-flex; vertical-align: top; font-size:1.1rem;
 					<td>{{issues}}</td>
 					<td>
 						{{#each repos}}
-						<a href="http://github.com/notofonts/{{this}}">{{this}}</a>{{#unless
+						<a href="http://github.com/notofonts/{{this}}/issues">{{this}}</a>{{#unless
 						@last}}, {{/unless}} {{/each}}
 					</td>
 				</tr>
@@ -131,7 +131,7 @@ td .material-icons { display:inline-flex; vertical-align: top; font-size:1.1rem;
 						<tr>
 							<td>{{@key}}</td>
 							<td>{{#each this}}
-									<a href="http://github.com/notofonts/{{repo}}">{{repo}}</a>: {{issues}}{{#unless
+									<a href="http://github.com/notofonts/{{repo}}/issues">{{repo}}</a>: {{issues}}{{#unless
 						@last}}, {{/unless}}
 									{{/each}}
 							</td>
