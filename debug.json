@@ -10836,8 +10836,23 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 150,
+  "issue_count": 153,
   "issues": [
+   {
+    "number": 423,
+    "title": "Make consistent HOOK and fullwidth RETROFLEX HOOK",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/423"
+   },
+   {
+    "number": 422,
+    "title": "Wrong glyphs in Latin F/G",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/422"
+   },
+   {
+    "number": 421,
+    "title": "Troubles with basic umlauts (0300+)",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/421"
+   },
    {
     "number": 420,
     "title": "U+03D7 GREEK KAI SYMBOL has a jagged contour",
@@ -14932,8 +14947,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nko",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 4,
   "issues": [
+   {
+    "number": 9,
+    "title": "Unjoined font for N'Ko",
+    "url": "https://github.com/notofonts/nko/issues/9"
+   },
    {
     "number": 7,
     "title": "Upper diacritic placement should be at the same height for all letters",
@@ -15098,14 +15118,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nyiakeng-puachue-hmong",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 3,
-    "title": "U+25CC DOTTED CIRCLE\u2019s anchor point is off center",
-    "url": "https://github.com/notofonts/nyiakeng-puachue-hmong/issues/3"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/nyiakeng-puachue-hmong",
   "tier": 3,
   "title": "Noto Nyiakeng Puachue Hmong"
@@ -16604,14 +16618,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/rejang",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 1,
-    "title": "Overlapping marks in Rejang",
-    "url": "https://github.com/notofonts/rejang/issues/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/rejang",
   "tier": 3,
   "title": "Noto Rejang"
