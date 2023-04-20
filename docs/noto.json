@@ -1826,11 +1826,6 @@
     "number": 3,
     "title": "Identical glyphs for U+144A and U+18F3",
     "url": "https://github.com/notofonts/canadian-aboriginal/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Diacritics onto Noto Sans Canadian Aboriginal, and additional positions for Finals ",
-    "url": "https://github.com/notofonts/canadian-aboriginal/issues/2"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/canadian-aboriginal",
@@ -2018,11 +2013,6 @@
   },
   "gh_url": "https://notofonts.github.io/cham",
   "issues": [
-   {
-    "number": 8,
-    "title": "'calt' should follow 'rlig'",
-    "url": "https://github.com/notofonts/cham/issues/8"
-   },
    {
     "number": 7,
     "title": "Subjoined marks overlap glyphs in following clusters",
@@ -2907,7 +2897,7 @@
    },
    {
     "number": 34,
-    "title": "Noto Devanagari : Addition of more alternative gylphs",
+    "title": "Noto Devanagari : Addition of more alternative glyphs",
     "url": "https://github.com/notofonts/devanagari/issues/34"
    },
    {
@@ -5387,11 +5377,6 @@
   },
   "gh_url": "https://notofonts.github.io/hanunoo",
   "issues": [
-   {
-    "number": 2,
-    "title": "U+1734 HANUNOO SIGN PAMUDPOD overlaps the following glyph",
-    "url": "https://github.com/notofonts/hanunoo/issues/2"
-   },
    {
     "number": 1,
     "title": "U+172D: HANUNOO LETTER RA (\u172d) should be updated to modern Ra.",
@@ -9061,9 +9046,14 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
-    "number": 423,
-    "title": "Make consistent HOOK and fullwidth RETROFLEX HOOK",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/423"
+    "number": 425,
+    "title": "Anchor 2 sits on two chairs",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/425"
+   },
+   {
+    "number": 424,
+    "title": "031B combining horn: is it possible to improve it?",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/424"
    },
    {
     "number": 422,
@@ -13595,19 +13585,9 @@
     "url": "https://github.com/notofonts/siddham/issues/19"
    },
    {
-    "number": 18,
-    "title": "Some seed syllable glyphs are inaccessible",
-    "url": "https://github.com/notofonts/siddham/issues/18"
-   },
-   {
     "number": 16,
     "title": "`seed_ta_h_iiMatra_ma_msidd` uses the wrong vowel sign",
     "url": "https://github.com/notofonts/siddham/issues/16"
-   },
-   {
-    "number": 15,
-    "title": "'ss03' does not affect `seed_va_c_l_m_d_y_aiMatrasidd`",
-    "url": "https://github.com/notofonts/siddham/issues/15"
    },
    {
     "number": 14,
@@ -15967,18 +15947,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/tangsa",
-  "issues": [
-   {
-    "number": 4,
-    "title": "Version 1.504 lost some kerning pairs",
-    "url": "https://github.com/notofonts/tangsa/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Noto Sans Tangsa font - issues for fixing",
-    "url": "https://github.com/notofonts/tangsa/issues/3"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/tangsa",
   "tier": 3,
   "title": "Noto Tangsa"
@@ -18202,18 +18171,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/zanabazar-square",
-  "issues": [
-   {
-    "number": 9,
-    "title": "U+11A33 ZANABAZAR SQUARE FINAL CONSONANT MARK overlaps U+11A3B and U+11A3C",
-    "url": "https://github.com/notofonts/zanabazar-square/issues/9"
-   },
-   {
-    "number": 8,
-    "title": "U+11A3A ZANABAZAR SQUARE CLUSTER-INITIAL LETTER RA reorders",
-    "url": "https://github.com/notofonts/zanabazar-square/issues/8"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/zanabazar-square",
   "tier": 3,
   "title": "Noto Zanabazar Square"
