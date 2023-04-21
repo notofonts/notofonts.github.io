@@ -10300,10 +10300,10 @@
      ]
     },
     "latest_release": {
-     "notes": "NotoSansMono v2.012\n\nThis is a patch release which fixes the positioning of the slash on some math glyphs.\n",
-     "published": "2023-04-04T15:38:24",
-     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSansMono-v2.012",
-     "version": "v2.012"
+     "notes": "Noto Sans Mono v2.013\n\nThis is another patch release to fix more component alignment issues, specifically in U+2288 NEITHER A SUBSET OF NOR EQUAL TO and U+2289 NEITHER A SUPERSET OF NOR EQUAL TO.\n",
+     "published": "2023-04-20T17:52:35",
+     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSansMono-v2.013",
+     "version": "v2.013"
     },
     "third_party_versions": {
      "Fedora 38": {
