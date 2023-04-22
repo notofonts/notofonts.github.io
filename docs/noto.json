@@ -63,7 +63,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/adlam",
-  "issues": [],
+  "issues": [
+   {
+    "number": 12,
+    "title": "Hello",
+    "url": "https://github.com/notofonts/adlam/issues/12"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/adlam",
   "tier": 2,
   "title": "Noto Adlam"
@@ -11794,6 +11800,11 @@
   },
   "gh_url": "https://notofonts.github.io/myanmar",
   "issues": [
+   {
+    "number": 63,
+    "title": "The fix for this PR PR https://github.com/notofonts/myanmar/issues/19",
+    "url": "https://github.com/notofonts/myanmar/pull/63"
+   },
    {
     "number": 62,
     "title": "Instance settings incorrect in Noto Serif Myanmar",
