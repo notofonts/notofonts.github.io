@@ -104,14 +104,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/adlam",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 12,
-    "title": "Hello",
-    "url": "https://github.com/notofonts/adlam/issues/12"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/adlam",
   "tier": 2,
   "title": "Noto Adlam"

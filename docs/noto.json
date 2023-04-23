@@ -63,13 +63,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/adlam",
-  "issues": [
-   {
-    "number": 12,
-    "title": "Hello",
-    "url": "https://github.com/notofonts/adlam/issues/12"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/adlam",
   "tier": 2,
   "title": "Noto Adlam"
