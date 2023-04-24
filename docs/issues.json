@@ -3,7 +3,7 @@
   "1": 150,
   "2": 90,
   "3": 100,
-  "4": 7
+  "4": 28
  },
  "open_per_repo": {
   "ahom": 3,
@@ -14,9 +14,9 @@
   "bengali": 5,
   "bhaiksuki": 5,
   "brahmi": 1,
-  "canadian-aboriginal": 2,
+  "canadian-aboriginal": 1,
   "caucasian-albanian": 4,
-  "cham": 2,
+  "cham": 1,
   "chorasmian": 2,
   "coptic": 2,
   "deseret": 1,
@@ -35,21 +35,21 @@
   "gunjala-gondi": 3,
   "gurmukhi": 4,
   "hanifi-rohingya": 2,
-  "hanunoo": 2,
+  "hanunoo": 1,
   "hebrew": 10,
   "inscriptional-pahlavi": 2,
   "inscriptional-parthian": 1,
   "javanese": 5,
   "kaithi": 6,
   "kannada": 8,
-  "kawi": 2,
+  "kawi": 1,
   "kharoshthi": 1,
   "khitan-small-script": 1,
   "khmer": 9,
   "khojki": 1,
   "khudawadi": 1,
-  "lao": 4,
-  "latin-greek-cyrillic": 149,
+  "lao": 3,
+  "latin-greek-cyrillic": 155,
   "limbu": 2,
   "linear-a": 1,
   "lydian": 2,
@@ -64,13 +64,12 @@
   "modi": 4,
   "mongolian": 6,
   "multani": 2,
-  "music": 5,
+  "music": 2,
   "myanmar": 32,
   "nandinagari": 4,
   "nastaliq": 17,
-  "nko": 3,
+  "nko": 4,
   "nushu": 1,
-  "nyiakeng-puachue-hmong": 1,
   "old-hungarian": 3,
   "old-hungarian-ui": 4,
   "old-italic": 1,
@@ -81,10 +80,9 @@
   "pahawh-hmong": 1,
   "phags-pa": 2,
   "psalter-pahlavi": 2,
-  "rejang": 1,
   "saurashtra": 1,
   "sharada": 3,
-  "siddham": 7,
+  "siddham": 5,
   "sign-writing": 6,
   "soyombo": 3,
   "sundanese": 3,
@@ -97,28 +95,26 @@
   "tai-viet": 3,
   "takri": 2,
   "tamil": 2,
-  "tangsa": 2,
   "telugu": 3,
   "thaana": 2,
   "thai": 12,
-  "tibetan": 12,
+  "tibetan": 13,
   "tifinagh": 6,
   "tirhuta": 10,
-  "yezidi": 2,
-  "zanabazar-square": 2
+  "yezidi": 2
  },
  "open_per_tier": {
-  "1": 251,
+  "1": 257,
   "2": 70,
-  "3": 148,
-  "4": 66,
+  "3": 135,
+  "4": 65,
   "5": 46
  },
  "opened_per_month": {
   "1": 9,
   "2": 8,
   "3": 23,
-  "4": 32
+  "4": 40
  },
  "releases_per_month": {
   "1": [
@@ -293,6 +289,14 @@
    {
     "tag": "NotoSansMono-v2.012",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSansMono-v2.012"
+   },
+   {
+    "tag": "NotoSerif-v2.011",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.011"
+   },
+   {
+    "tag": "NotoSansMono-v2.013",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSansMono-v2.013"
    }
   ],
   "6": [
@@ -1239,9 +1243,9 @@
   ]
  },
  "totals_per_month": {
-  "1": 856,
-  "2": 715,
-  "3": 633,
-  "4": 556
+  "1": 861,
+  "2": 720,
+  "3": 638,
+  "4": 561
  }
 }
