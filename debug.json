@@ -10821,8 +10821,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 154,
+  "issue_count": 155,
   "issues": [
+   {
+    "number": 426,
+    "title": "Arrow umlauts: want thinner lines and wider wings",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/426"
+   },
    {
     "number": 425,
     "title": "Anchor 2 sits on two chairs",
@@ -14269,13 +14274,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/myanmar",
   "has_releases": true,
-  "issue_count": 33,
+  "issue_count": 32,
   "issues": [
-   {
-    "number": 63,
-    "title": "The fix for this PR PR https://github.com/notofonts/myanmar/issues/19",
-    "url": "https://github.com/notofonts/myanmar/pull/63"
-   },
    {
     "number": 62,
     "title": "Instance settings incorrect in Noto Serif Myanmar",

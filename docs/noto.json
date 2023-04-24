@@ -9046,6 +9046,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 426,
+    "title": "Arrow umlauts: want thinner lines and wider wings",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/426"
+   },
+   {
     "number": 425,
     "title": "Anchor 2 sits on two chairs",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/425"
@@ -11794,11 +11799,6 @@
   },
   "gh_url": "https://notofonts.github.io/myanmar",
   "issues": [
-   {
-    "number": 63,
-    "title": "The fix for this PR PR https://github.com/notofonts/myanmar/issues/19",
-    "url": "https://github.com/notofonts/myanmar/pull/63"
-   },
    {
     "number": 62,
     "title": "Instance settings incorrect in Noto Serif Myanmar",
