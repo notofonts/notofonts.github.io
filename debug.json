@@ -13002,8 +13002,18 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 13,
+  "issue_count": 15,
   "issues": [
+   {
+    "number": 45,
+    "title": "2B18 and 19 are swapped",
+    "url": "https://github.com/notofonts/math/issues/45"
+   },
+   {
+    "number": 44,
+    "title": "Wrong symbols for multi-storey brackets",
+    "url": "https://github.com/notofonts/math/issues/44"
+   },
    {
     "number": 43,
     "title": "Cyrillic glyphs and others missing from published fonts",
