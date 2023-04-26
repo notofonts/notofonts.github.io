@@ -11155,7 +11155,7 @@
    },
    {
     "number": 58,
-    "title": "LGC fonts lack U+29DF DOUBLE-ENDED MULTIMAP",
+    "title": "Typicon support",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/58"
    },
    {
@@ -18205,8 +18205,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/symbols",
   "has_releases": true,
-  "issue_count": 15,
+  "issue_count": 6,
   "issues": [
+   {
+    "number": 69,
+    "title": "Missing glyphs (consolidated)",
+    "url": "https://github.com/notofonts/symbols/issues/69"
+   },
    {
     "number": 64,
     "title": "Unicode 15 Addition of U+1F7D9 NINE POINTED WHITE STAR",
@@ -18218,44 +18223,9 @@
     "url": "https://github.com/notofonts/symbols/issues/2"
    },
    {
-    "number": 32,
-    "title": "Language-neutral tofu of Windows 10 + Unicode 13",
-    "url": "https://github.com/notofonts/symbols/issues/32"
-   },
-   {
-    "number": 28,
-    "title": "Language-neutral tofu of Windows 7 base plane",
-    "url": "https://github.com/notofonts/symbols/issues/28"
-   },
-   {
     "number": 26,
     "title": "Height of box characters in \"Symbols for Legacy Computing\" doesn't match height of box characters in \"Block Elements\" block ",
     "url": "https://github.com/notofonts/symbols/issues/26"
-   },
-   {
-    "number": 24,
-    "title": "Missing U+0301 COMBINING ACUTE ACCENT in Noto Sans Symbols2",
-    "url": "https://github.com/notofonts/symbols/issues/24"
-   },
-   {
-    "number": 23,
-    "title": "Combining enclosing circle is centered on the zero line",
-    "url": "https://github.com/notofonts/symbols/issues/23"
-   },
-   {
-    "number": 19,
-    "title": "missing symbols from code page 437 : box drawing and filled boxes characters in Unicode (U+2500..U+25A0)",
-    "url": "https://github.com/notofonts/symbols/issues/19"
-   },
-   {
-    "number": 16,
-    "title": "Missing previously present characters in NotoSansSymbols",
-    "url": "https://github.com/notofonts/symbols/issues/16"
-   },
-   {
-    "number": 15,
-    "title": "Wrong glyphs for circled zero dingbats",
-    "url": "https://github.com/notofonts/symbols/issues/15"
    },
    {
     "number": 14,
@@ -18266,21 +18236,6 @@
     "number": 12,
     "title": "Combining character combines with the following character",
     "url": "https://github.com/notofonts/symbols/issues/12"
-   },
-   {
-    "number": 11,
-    "title": "Inaccurate U+101FD PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE",
-    "url": "https://github.com/notofonts/symbols/issues/11"
-   },
-   {
-    "number": 9,
-    "title": "Webdings and Wingdings are missing from Noto Symbols",
-    "url": "https://github.com/notofonts/symbols/issues/9"
-   },
-   {
-    "number": 4,
-    "title": "U+1F1EB and friends have gone missing",
-    "url": "https://github.com/notofonts/symbols/issues/4"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/symbols",
@@ -18454,7 +18409,7 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/syriac",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 5,
   "issues": [
    {
     "number": 12,
@@ -18470,11 +18425,6 @@
     "number": 10,
     "title": "Assyrian Syriac fonts not found",
     "url": "https://github.com/notofonts/syriac/issues/10"
-   },
-   {
-    "number": 9,
-    "title": "U+2044 FRACTION SLASH in Noto Sans Syriac",
-    "url": "https://github.com/notofonts/syriac/issues/9"
    },
    {
     "number": 5,
