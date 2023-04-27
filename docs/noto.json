@@ -9046,6 +9046,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 427,
+    "title": "Unicode 14.0 fixes",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/427"
+   },
+   {
     "number": 426,
     "title": "Arrow umlauts: want thinner lines and wider wings",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/426"
@@ -13646,34 +13651,9 @@
   "gh_url": "https://notofonts.github.io/sign-writing",
   "issues": [
    {
-    "number": 6,
-    "title": "Modified U+1D9FF SIGNWRITING HEAD glyphs lack anchors",
-    "url": "https://github.com/notofonts/sign-writing/issues/6"
-   },
-   {
-    "number": 5,
-    "title": "SignWriting U+1DA5E + Fill2: who is right?",
-    "url": "https://github.com/notofonts/sign-writing/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Some SignWriting diacritic sequences do not overlay U+1D9FF SIGNWRITING HEAD",
-    "url": "https://github.com/notofonts/sign-writing/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Questionable SignWriting glyphs, different from ISWA 2010",
-    "url": "https://github.com/notofonts/sign-writing/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Can\u2019t use multiple SignWriting diacritics with modifiers",
-    "url": "https://github.com/notofonts/sign-writing/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Wrong glyphs for SignWriting rotation modifiers",
-    "url": "https://github.com/notofonts/sign-writing/issues/1"
+    "number": 7,
+    "title": "Funked up most umlauts\u2019 ligatures?",
+    "url": "https://github.com/notofonts/sign-writing/issues/7"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/sign-writing",
