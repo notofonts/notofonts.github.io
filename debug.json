@@ -559,8 +559,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 16,
+  "issue_count": 17,
   "issues": [
+   {
+    "number": 187,
+    "title": "Review",
+    "url": "https://github.com/notofonts/arabic/issues/187"
+   },
    {
     "number": 186,
     "title": "Kufi re-engineering review",
@@ -7560,17 +7565,12 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/javanese",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 3,
   "issues": [
    {
     "number": 7,
     "title": "Ligatures with U+A9B3 JAVANESE SIGN CECAK TELU block ligatures with U+A9BF JAVANESE CONSONANT SIGN CAKRA",
     "url": "https://github.com/notofonts/javanese/issues/7"
-   },
-   {
-    "number": 6,
-    "title": "Javanese: Vowel or medial consonant under pasangan too large in some cases",
-    "url": "https://github.com/notofonts/javanese/issues/6"
    },
    {
     "number": 5,
@@ -7581,11 +7581,6 @@
     "number": 2,
     "title": "Problems on Pasangans on Noto Sans Javanese ",
     "url": "https://github.com/notofonts/javanese/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Javanese penyangga \ua980 U+A980 and cecak\ua981 U+A981 appears on tarung \ua9b4 U+A9B4 instead of on the previous symbol.  Example: \ua980\ua980 appears on o \ua98e symbol U+A98E when typing \"om\" [\ua98e\ua9b4\ua980] or if you type the penyangga first before tarung, it doesn't fuse [ \ua98e\ua980\ua9b4]",
-    "url": "https://github.com/notofonts/javanese/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/javanese",
@@ -10547,10 +10542,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif v2.011 This is a patch release which AUTHORS.txt CONTRIBUTORS.txt Makefile NotoSans-Bold.ttf NotoSans-Italic[wdth,wght].ttf OFL.txt README.md build.ninja build.stamp changelog changelog.sans deva.log documentation fontbakery.yml fonts foo-sans.fea foo-serif.fea foo.fea foo.ttf jobs-for-denis.txt master_ttf master_ufo out qa report.html requirements.txt scripts sources subset-files test test.html test.ttf variable_ttf venv corrects some anchors on the s and epsilon glyphs in semibold AUTHORS.txt CONTRIBUTORS.txt Makefile NotoSans-Bold.ttf NotoSans-Italic[wdth,wght].ttf OFL.txt README.md build.ninja build.stamp changelog changelog.sans deva.log documentation fontbakery.yml fonts foo-sans.fea foo-serif.fea foo.fea foo.ttf jobs-for-denis.txt master_ttf master_ufo out qa report.html requirements.txt scripts sources subset-files test test.html test.ttf variable_ttf venv and replaces transfinite symbols with serif style variants (#416)\n",
-     "published": "2023-04-17T12:14:03",
-     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.011",
-     "version": "v2.011"
+     "notes": "Noto Serif v2.012\n\nThis is a patch release which restores the old PostScript name of the font to be \"NotoSerif\" once again.\n",
+     "published": "2023-04-27T16:09:05",
+     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.012",
+     "version": "v2.012"
     },
     "third_party_versions": {
      "Android 12": {
@@ -17052,9 +17047,9 @@
   "issue_count": 1,
   "issues": [
    {
-    "number": 7,
-    "title": "Funked up most umlauts\u2019 ligatures?",
-    "url": "https://github.com/notofonts/sign-writing/issues/7"
+    "number": 8,
+    "title": "Is this behaviour OK?",
+    "url": "https://github.com/notofonts/sign-writing/issues/8"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/sign-writing",
@@ -21521,32 +21516,12 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tibetan",
   "has_releases": true,
-  "issue_count": 13,
+  "issue_count": 4,
   "issues": [
-   {
-    "number": 45,
-    "title": "Alignment is wrong in Photoshop and Illustrator",
-    "url": "https://github.com/notofonts/tibetan/issues/45"
-   },
    {
     "number": 44,
     "title": "`uni0F4A0FB70FB1` has misplaced anchor points and is vertically compressed",
     "url": "https://github.com/notofonts/tibetan/issues/44"
-   },
-   {
-    "number": 23,
-    "title": "Noto Serif Tibetan glyphs and line height too large?",
-    "url": "https://github.com/notofonts/tibetan/issues/23"
-   },
-   {
-    "number": 22,
-    "title": "U+0FC6 TIBETAN SYMBOL PADMA GDAN has no anchor",
-    "url": "https://github.com/notofonts/tibetan/issues/22"
-   },
-   {
-    "number": 21,
-    "title": "Noto Serif Tibetan deletes U+25CC DOTTED CIRCLE in certain contexts",
-    "url": "https://github.com/notofonts/tibetan/issues/21"
    },
    {
     "number": 20,
@@ -21554,34 +21529,9 @@
     "url": "https://github.com/notofonts/tibetan/issues/20"
    },
    {
-    "number": 18,
-    "title": "Excessive compression in \u27e8\u0f68\u0f7c\u0f7e\u27e9",
-    "url": "https://github.com/notofonts/tibetan/issues/18"
-   },
-   {
     "number": 10,
     "title": "Actual Noto Sans Tibetan?",
     "url": "https://github.com/notofonts/tibetan/issues/10"
-   },
-   {
-    "number": 9,
-    "title": "Subjoined U+0F39 TIBETAN MARK TSA -PHRU overlaps tsheg",
-    "url": "https://github.com/notofonts/tibetan/issues/9"
-   },
-   {
-    "number": 8,
-    "title": "Inconsistent contextualization of Tibetan vowel signs above tsa \u2019phru",
-    "url": "https://github.com/notofonts/tibetan/issues/8"
-   },
-   {
-    "number": 7,
-    "title": "U+0F39 TIBETAN MARK TSA -PHRU blocks ligatures",
-    "url": "https://github.com/notofonts/tibetan/issues/7"
-   },
-   {
-    "number": 5,
-    "title": "Inconsistent compression in stacks with U+0FB0 TIBETAN SUBJOINED LETTER -A",
-    "url": "https://github.com/notofonts/tibetan/issues/5"
    },
    {
     "number": 1,
