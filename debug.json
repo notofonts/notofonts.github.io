@@ -13002,7 +13002,7 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 15,
+  "issue_count": 13,
   "issues": [
    {
     "number": 45,
@@ -13013,11 +13013,6 @@
     "number": 44,
     "title": "Wrong symbols for multi-storey brackets",
     "url": "https://github.com/notofonts/math/issues/44"
-   },
-   {
-    "number": 43,
-    "title": "Cyrillic glyphs and others missing from published fonts",
-    "url": "https://github.com/notofonts/math/issues/43"
    },
    {
     "number": 42,
@@ -13043,11 +13038,6 @@
     "number": 38,
     "title": "U+2273 and U+2A9D variants have reversed tildes",
     "url": "https://github.com/notofonts/math/issues/38"
-   },
-   {
-    "number": 37,
-    "title": "Root symbols and integral pieces have inconsistent bidi mirroring",
-    "url": "https://github.com/notofonts/math/issues/37"
    },
    {
     "number": 36,
