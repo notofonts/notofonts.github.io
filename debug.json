@@ -559,8 +559,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 17,
+  "issue_count": 18,
   "issues": [
+   {
+    "number": 188,
+    "title": "Naskh: add _top3 anchor to alefabove",
+    "url": "https://github.com/notofonts/arabic/pull/188"
+   },
    {
     "number": 187,
     "title": "Review",
