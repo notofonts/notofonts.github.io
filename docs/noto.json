@@ -431,11 +431,6 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
-    "number": 188,
-    "title": "Naskh: add _top3 anchor to alefabove",
-    "url": "https://github.com/notofonts/arabic/pull/188"
-   },
-   {
     "number": 187,
     "title": "Review",
     "url": "https://github.com/notofonts/arabic/issues/187"
@@ -10840,11 +10835,6 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
-    "number": 45,
-    "title": "2B18 and 19 are swapped [easy]",
-    "url": "https://github.com/notofonts/math/issues/45"
-   },
-   {
     "number": 44,
     "title": "Wrong symbols for multi-storey brackets",
     "url": "https://github.com/notofonts/math/issues/44"
@@ -10860,16 +10850,6 @@
     "url": "https://github.com/notofonts/math/issues/41"
    },
    {
-    "number": 40,
-    "title": "<U+2216, U+FE00> should look the same as U+2216",
-    "url": "https://github.com/notofonts/math/issues/40"
-   },
-   {
-    "number": 39,
-    "title": "Wrong glyph for <U+2205, U+FE00>",
-    "url": "https://github.com/notofonts/math/issues/39"
-   },
-   {
     "number": 38,
     "title": "U+2273 and U+2A9D variants have reversed tildes",
     "url": "https://github.com/notofonts/math/issues/38"
@@ -10878,11 +10858,6 @@
     "number": 36,
     "title": "U+2044 FRACTION SLASH does not create vulgar fractions",
     "url": "https://github.com/notofonts/math/issues/36"
-   },
-   {
-    "number": 35,
-    "title": "1D6CD advance width is 0 [easy]",
-    "url": "https://github.com/notofonts/math/issues/35"
    },
    {
     "number": 12,
