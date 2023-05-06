@@ -12298,21 +12298,6 @@
     "number": 9,
     "title": "Unjoined font for N'Ko",
     "url": "https://github.com/notofonts/nko/issues/9"
-   },
-   {
-    "number": 7,
-    "title": "Upper diacritic placement should be at the same height for all letters",
-    "url": "https://github.com/notofonts/nko/issues/7"
-   },
-   {
-    "number": 5,
-    "title": "Not enough space for U+07FD NKO DANTAYALAN in some contexts",
-    "url": "https://github.com/notofonts/nko/issues/5"
-   },
-   {
-    "number": 3,
-    "title": "Questionable glyphs for N\u2019Ko tone apostrophes",
-    "url": "https://github.com/notofonts/nko/issues/3"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/nko",
