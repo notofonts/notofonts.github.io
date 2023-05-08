@@ -3,7 +3,8 @@
   "1": 150,
   "2": 90,
   "3": 100,
-  "4": 59
+  "4": 59,
+  "5": 10
  },
  "open_per_repo": {
   "ahom": 3,
@@ -49,7 +50,7 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 3,
-  "latin-greek-cyrillic": 156,
+  "latin-greek-cyrillic": 155,
   "limbu": 2,
   "linear-a": 1,
   "lydian": 2,
@@ -57,7 +58,7 @@
   "mandaic": 3,
   "manichaean": 4,
   "marchen": 2,
-  "math": 13,
+  "math": 9,
   "meetei-mayek": 1,
   "meroitic": 2,
   "miao": 1,
@@ -68,7 +69,7 @@
   "myanmar": 32,
   "nandinagari": 4,
   "nastaliq": 17,
-  "nko": 4,
+  "nko": 1,
   "nushu": 1,
   "old-hungarian": 3,
   "old-hungarian-ui": 4,
@@ -104,17 +105,17 @@
   "yezidi": 2
  },
  "open_per_tier": {
-  "1": 259,
+  "1": 258,
   "2": 70,
-  "3": 109,
+  "3": 102,
   "4": 65,
   "5": 46
  },
  "opened_per_month": {
   "1": 9,
   "2": 8,
-  "3": 22,
-  "4": 44
+  "3": 18,
+  "4": 43
  },
  "releases_per_month": {
   "1": [
@@ -1247,10 +1248,10 @@
   ]
  },
  "totals_per_month": {
-  "1": 865,
-  "2": 724,
-  "3": 642,
-  "4": 564,
-  "5": 549
+  "1": 872,
+  "2": 731,
+  "3": 649,
+  "4": 567,
+  "5": 551
  }
 }
