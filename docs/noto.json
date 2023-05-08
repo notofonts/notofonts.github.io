@@ -9511,11 +9511,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/212"
    },
    {
-    "number": 106,
-    "title": "Questionable glyphs for palatalized Komi letters",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/106"
-   },
-   {
     "number": 107,
     "title": "Wrong glyph for U+A71F MODIFIER LETTER LOW INVERTED EXCLAMATION MARK",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/107"

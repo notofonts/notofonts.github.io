@@ -10816,7 +10816,7 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 156,
+  "issue_count": 155,
   "issues": [
    {
     "number": 427,
@@ -11287,11 +11287,6 @@
     "number": 212,
     "title": "Wrong glyph for U+AB5B MODIFIER BREVE WITH INVERTED BREVE",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/212"
-   },
-   {
-    "number": 106,
-    "title": "Questionable glyphs for palatalized Komi letters",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/106"
    },
    {
     "number": 107,
