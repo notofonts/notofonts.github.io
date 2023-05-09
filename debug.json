@@ -10816,8 +10816,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 155,
+  "issue_count": 156,
   "issues": [
+   {
+    "number": 428,
+    "title": "Noto Serif U+0060 does not shape correctly",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/428"
+   },
    {
     "number": 427,
     "title": "Unicode 14.0 fixes",
