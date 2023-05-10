@@ -9041,11 +9041,6 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
-    "number": 428,
-    "title": "Noto Serif U+0060 does not shape correctly",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/428"
-   },
-   {
     "number": 427,
     "title": "Unicode 14.0 fixes",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/427"
