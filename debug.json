@@ -12997,8 +12997,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 10,
   "issues": [
+   {
+    "number": 47,
+    "title": "Isosceles right triangle glyphs aren\u2019t right-angled",
+    "url": "https://github.com/notofonts/math/issues/47"
+   },
    {
     "number": 44,
     "title": "Wrong symbols for multi-storey brackets",
