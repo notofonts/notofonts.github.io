@@ -6653,6 +6653,31 @@
   "gh_url": "https://notofonts.github.io/kannada",
   "issues": [
    {
+    "number": 56,
+    "title": "Position of Nukta U+0CBC with some vowels in Noto Serif Kannada",
+    "url": "https://github.com/notofonts/kannada/issues/56"
+   },
+   {
+    "number": 55,
+    "title": "Position of vowel AI U+0CC8 with Nukta U+0CBC in Noto Serif Kannada",
+    "url": "https://github.com/notofonts/kannada/issues/55"
+   },
+   {
+    "number": 54,
+    "title": "Nukta design U+0CBC of \u0cab\u0cc1\u0cbc \u0cab\u0cc2  in Noto Serif Kannada",
+    "url": "https://github.com/notofonts/kannada/issues/54"
+   },
+   {
+    "number": 53,
+    "title": "Position of Nukta U+0CBC with AI U+0CC8 in Noto Sans Kannada",
+    "url": "https://github.com/notofonts/kannada/issues/53"
+   },
+   {
+    "number": 52,
+    "title": "Start point of vowels U and UU with consonant PHA \u0cab\u0cc1\u0cbc \u0cab\u0cc2\u0cbc in Noto Sans Kannada",
+    "url": "https://github.com/notofonts/kannada/issues/52"
+   },
+   {
     "number": 51,
     "title": "Add U+0CDD NAKAARA POLLU",
     "url": "https://github.com/notofonts/kannada/issues/51"
