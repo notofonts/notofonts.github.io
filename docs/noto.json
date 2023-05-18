@@ -11344,11 +11344,6 @@
   "gh_url": "https://notofonts.github.io/multani",
   "issues": [
    {
-    "number": 2,
-    "title": "Subset of Noto Sans is missing anchors",
-    "url": "https://github.com/notofonts/multani/issues/2"
-   },
-   {
     "number": 1,
     "title": "Wrong glyphs for some Multani digits",
     "url": "https://github.com/notofonts/multani/issues/1"

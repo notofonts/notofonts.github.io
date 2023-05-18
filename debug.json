@@ -13761,13 +13761,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/multani",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 2,
-    "title": "Subset of Noto Sans is missing anchors",
-    "url": "https://github.com/notofonts/multani/issues/2"
-   },
    {
     "number": 1,
     "title": "Wrong glyphs for some Multani digits",
