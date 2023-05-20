@@ -14942,8 +14942,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nko",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 10,
+    "title": "Update NotoSansNKoUnjoined.glyphs",
+    "url": "https://github.com/notofonts/nko/pull/10"
+   },
    {
     "number": 9,
     "title": "Unjoined font for N'Ko",

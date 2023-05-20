@@ -12315,6 +12315,11 @@
   "gh_url": "https://notofonts.github.io/nko",
   "issues": [
    {
+    "number": 10,
+    "title": "Update NotoSansNKoUnjoined.glyphs",
+    "url": "https://github.com/notofonts/nko/pull/10"
+   },
+   {
     "number": 9,
     "title": "Unjoined font for N'Ko",
     "url": "https://github.com/notofonts/nko/issues/9"
