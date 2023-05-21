@@ -431,6 +431,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 189,
+    "title": "Wrong display of Uyghur letter \u06be ?",
+    "url": "https://github.com/notofonts/arabic/issues/189"
+   },
+   {
     "number": 187,
     "title": "Review",
     "url": "https://github.com/notofonts/arabic/issues/187"

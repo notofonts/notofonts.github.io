@@ -559,8 +559,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 17,
+  "issue_count": 18,
   "issues": [
+   {
+    "number": 189,
+    "title": "Wrong display of Uyghur letter \u06be ?",
+    "url": "https://github.com/notofonts/arabic/issues/189"
+   },
    {
     "number": 187,
     "title": "Review",
