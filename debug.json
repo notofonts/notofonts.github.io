@@ -559,17 +559,12 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 20,
+  "issue_count": 19,
   "issues": [
    {
     "number": 191,
     "title": "Noto Kufi Arabic does not contain the period, colon, exclamation mark glyphs so it renders the end my paragraph with empty boxes",
     "url": "https://github.com/notofonts/arabic/issues/191"
-   },
-   {
-    "number": 190,
-    "title": "Noto Kufi Arabic doesn't contain a full stop (all the other versions contain this punctuation mark)",
-    "url": "https://github.com/notofonts/arabic/issues/190"
    },
    {
     "number": 189,
@@ -5976,17 +5971,12 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/gunjala-gondi",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
    {
     "number": 3,
     "title": "GUNJALA GONDI VIRAMA behaves inconsistently with the Unicode Standard\u2019s current definition",
     "url": "https://github.com/notofonts/gunjala-gondi/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "U+11D8A GUNJALA GONDI VOWEL SIGN AA disappears contextually",
-    "url": "https://github.com/notofonts/gunjala-gondi/issues/2"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/gunjala-gondi",
@@ -6573,17 +6563,12 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/hanifi-rohingya",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
    {
     "number": 2,
     "title": "U+10D27 HANIFI ROHINGYA SIGN TASSI overlaps U+10D26 HANIFI ROHINGYA SIGN TANA",
     "url": "https://github.com/notofonts/hanifi-rohingya/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Questionable glyphs for U+10D14 HANIFI ROHINGYA LETTER MA",
-    "url": "https://github.com/notofonts/hanifi-rohingya/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/hanifi-rohingya",
@@ -9796,24 +9781,8 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/lao",
   "has_releases": true,
-  "issue_count": 3,
-  "issues": [
-   {
-    "number": 15,
-    "title": "Updates to Sans and Serif sources",
-    "url": "https://github.com/notofonts/lao/pull/15"
-   },
-   {
-    "number": 14,
-    "title": "Normalisation with yamakkan 0ECE ",
-    "url": "https://github.com/notofonts/lao/issues/14"
-   },
-   {
-    "number": 2,
-    "title": "Lao letters for Sanskrit and Pali",
-    "url": "https://github.com/notofonts/lao/issues/2"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/lao",
   "tier": 3,
   "title": "Noto Lao"
@@ -10856,13 +10825,8 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 155,
+  "issue_count": 153,
   "issues": [
-   {
-    "number": 427,
-    "title": "Unicode 14.0 fixes",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/427"
-   },
    {
     "number": 426,
     "title": "Arrow umlauts: want thinner lines and wider wings",
@@ -10877,11 +10841,6 @@
     "number": 424,
     "title": "031B combining horn: is it possible to improve it?",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/424"
-   },
-   {
-    "number": 422,
-    "title": "Wrong glyphs in Latin F/G",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/422"
    },
    {
     "number": 421,
@@ -18138,8 +18097,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/symbols",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 70,
+    "title": "Support block elements 2580\u20269F in Symbol2",
+    "url": "https://github.com/notofonts/symbols/issues/70"
+   },
    {
     "number": 69,
     "title": "Missing glyphs (consolidated)",
@@ -18806,13 +18770,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/takri",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 14,
-    "title": "Missing character U+116B9 TAKRI ABBREVIATION SIGN",
-    "url": "https://github.com/notofonts/takri/issues/14"
-   },
    {
     "number": 4,
     "title": "Takri conjuncts missing, \"post-form ha\" not attested",
