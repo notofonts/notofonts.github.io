@@ -2949,14 +2949,15 @@
      ],
      "unhinted": [
       "fonts/NotoSansCypriot/unhinted/otf/NotoSansCypriot-Regular.otf",
+      "fonts/NotoSansCypriot/unhinted/slim-otf/NotoSansCypriot-Regular.otf",
       "fonts/NotoSansCypriot/unhinted/ttf/NotoSansCypriot-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Cypriot v2.001\n\nThis release fixse a number of fontbakery fails.\n",
-     "published": "2022-09-20T16:33:23",
-     "url": "https://github.com/notofonts/cypriot/releases/tag/NotoSansCypriot-v2.001",
-     "version": "v2.001"
+     "notes": "Production ready fonts",
+     "published": "2023-05-24T09:56:45",
+     "url": "https://github.com/notofonts/cypriot/releases/tag/NotoSansCypriot-v2.002",
+     "version": "v2.002"
     },
     "third_party_versions": {
      "Android 12": {
@@ -7213,13 +7214,8 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/hebrew",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 6,
   "issues": [
-   {
-    "number": 13,
-    "title": "Noto Sans Hebrew Interpolation issue uniFB25",
-    "url": "https://github.com/notofonts/hebrew/issues/13"
-   },
    {
     "number": 12,
     "title": "Overlapping Hebrew vowel signs",
@@ -7231,19 +7227,9 @@
     "url": "https://github.com/notofonts/hebrew/issues/10"
    },
    {
-    "number": 9,
-    "title": "Hebrew Italics + Range of Variable Axes",
-    "url": "https://github.com/notofonts/hebrew/issues/9"
-   },
-   {
     "number": 8,
     "title": "Misplaced puncta extraordinaria in Rashi",
     "url": "https://github.com/notofonts/hebrew/issues/8"
-   },
-   {
-    "number": 7,
-    "title": "Noto Hebrew Fonts are not displayed",
-    "url": "https://github.com/notofonts/hebrew/issues/7"
    },
    {
     "number": 6,
@@ -7254,11 +7240,6 @@
     "number": 4,
     "title": "Hebrew cantillation marks",
     "url": "https://github.com/notofonts/hebrew/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "U+05C7 HEBREW POINT QAMATS QATAN is too small",
-    "url": "https://github.com/notofonts/hebrew/issues/3"
    },
    {
     "number": 2,
@@ -7500,14 +7481,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/inscriptional-parthian",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 4,
-    "title": "Swashes overlap because of missing kerning pairs",
-    "url": "https://github.com/notofonts/inscriptional-parthian/issues/4"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/inscriptional-parthian",
   "tier": 5,
   "title": "Noto Inscriptional Parthian"
@@ -10167,10 +10142,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans v2.011\n\nThis release:\n* Fixes a layout issue with the embedded Devanagari subset in the Google Fonts builds\n* Fixes soft-dotting of i and j glyphs with accents (#64, thanks to Denis Jacquerye)\n* Improves the position of marks below small capital J (#60)\n* Removes the erroneous U+11AB0/11AB1 glyphs (#405)\n* Adds slashed pnum/onum zeros (#159)\n* Adds the U+10FB GEORGIAN PARAGRAPH SEPARATOR character for medievalists (#37)\n* Adds the U+2183 ROMAN NUMERAL REVERSED ONE HUNDRED character (#129)\n",
-     "published": "2023-03-29T11:59:55",
-     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSans-v2.011",
-     "version": "v2.011"
+     "notes": "This release:\r\n* Improves the handling of Devanagari features in the full build\r\n* Fixes the display of a number of Unicode 14.0 glyphs (Thanks to Denis Moyogo Jacquerye, #427)\r\n* Improves the shapes of U+26D, U+27A, U+27B (Thanks to Denis Moyogo Jacquerye, #427)",
+     "published": "2023-05-24T16:12:42",
+     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSans-v2.012",
+     "version": "v2.012"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -10825,7 +10800,7 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 153,
+  "issue_count": 152,
   "issues": [
    {
     "number": 426,
@@ -10896,11 +10871,6 @@
     "number": 409,
     "title": "Three obsolete glyphs: amendments to Unicode",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/409"
-   },
-   {
-    "number": 408,
-    "title": "Design inconsistency between \u02a9 (U+02A9) and \ud837\udf00 (U+1DF00)",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/408"
    },
    {
     "number": 406,
@@ -11711,19 +11681,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/limbu",
   "has_releases": true,
-  "issue_count": 2,
-  "issues": [
-   {
-    "number": 2,
-    "title": "Overlapping marks in Limbu",
-    "url": "https://github.com/notofonts/limbu/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Misplaced Limbu vowel signs after medial consonants",
-    "url": "https://github.com/notofonts/limbu/issues/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/limbu",
   "tier": 2,
   "title": "Noto Limbu"
@@ -11741,14 +11700,15 @@
      ],
      "unhinted": [
       "fonts/NotoSansLinearA/unhinted/otf/NotoSansLinearA-Regular.otf",
+      "fonts/NotoSansLinearA/unhinted/slim-otf/NotoSansLinearA-Regular.otf",
       "fonts/NotoSansLinearA/unhinted/ttf/NotoSansLinearA-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Linear A v2.001\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-19T08:54:57",
-     "url": "https://github.com/notofonts/linear-a/releases/tag/NotoSansLinearA-v2.001",
-     "version": "v2.001"
+     "notes": "Production ready fonts",
+     "published": "2023-05-24T14:38:50",
+     "url": "https://github.com/notofonts/linear-a/releases/tag/NotoSansLinearA-v2.002",
+     "version": "v2.002"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -11777,14 +11737,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/linear-a",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 1,
-    "title": "Missing numbers and punctuation for Cypriot and Linear A",
-    "url": "https://github.com/notofonts/linear-a/issues/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/linear-a",
   "tier": 4,
   "title": "Noto Linear A"
