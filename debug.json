@@ -559,8 +559,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 19,
+  "issue_count": 20,
   "issues": [
+   {
+    "number": 192,
+    "title": "Noto Naskh Arabic \u0644\u0644\u0647 character sequence including possible diacritic combinations does not ligate",
+    "url": "https://github.com/notofonts/arabic/issues/192"
+   },
    {
     "number": 191,
     "title": "Noto Kufi Arabic does not contain the period, colon, exclamation mark glyphs so it renders the end my paragraph with empty boxes",
@@ -8222,8 +8227,13 @@
   "families_count": 0,
   "gh_url": "https://notofonts.github.io/kawi",
   "has_releases": false,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 7,
+    "title": "Update the js of javanese2kawi.html",
+    "url": "https://github.com/notofonts/kawi/pull/7"
+   },
    {
     "number": 4,
     "title": "Development plan (3)",
@@ -14962,14 +14972,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/nushu",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 2,
-    "title": "NotoTraditionalNushu have upem of 1024",
-    "url": "https://github.com/notofonts/nushu/issues/2"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/nushu",
   "tier": 4,
   "title": "Noto Nushu"
@@ -15538,24 +15542,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/old-sogdian",
   "has_releases": true,
-  "issue_count": 3,
-  "issues": [
-   {
-    "number": 3,
-    "title": "Wrong code point for curved Old Sogdian final sadhe",
-    "url": "https://github.com/notofonts/old-sogdian/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "No stylistic variants of Sogdian contextual forms",
-    "url": "https://github.com/notofonts/old-sogdian/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Wrong code point for truncated Old Sogdian ayin",
-    "url": "https://github.com/notofonts/old-sogdian/issues/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/old-sogdian",
   "tier": 5,
   "title": "Noto Old Sogdian"
@@ -17592,8 +17580,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/sogdian",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 3,
+    "title": "No stylistic variants of Sogdian contextual forms",
+    "url": "https://github.com/notofonts/sogdian/issues/3"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/sogdian",
   "tier": 5,
   "title": "Noto Sogdian"
@@ -18346,13 +18340,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tagalog",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 2,
   "issues": [
-   {
-    "number": 7,
-    "title": "Combining characters alignment with base characters",
-    "url": "https://github.com/notofonts/tagalog/issues/7"
-   },
    {
     "number": 6,
     "title": "U+1715 TAGALOG SIGN PAMUDPOD should be spacing",
@@ -20371,13 +20360,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/thaana",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 3,
-    "title": "Best Practices for Merging NotoSansThaana-Regular.ttf with other NotoSans fonts?",
-    "url": "https://github.com/notofonts/thaana/issues/3"
-   },
    {
     "number": 2,
     "title": "a new version of Thaana",
