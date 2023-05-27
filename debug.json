@@ -10810,7 +10810,7 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 152,
+  "issue_count": 151,
   "issues": [
    {
     "number": 426,
@@ -11156,11 +11156,6 @@
     "number": 63,
     "title": "Mispositioned mark in <U+2E2B, U+032E>",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/63"
-   },
-   {
-    "number": 64,
-    "title": "Incomplete soft-dotting with intervening marks",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/64"
    },
    {
     "number": 66,
