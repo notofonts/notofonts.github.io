@@ -10810,8 +10810,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 151,
+  "issue_count": 152,
   "issues": [
+   {
+    "number": 430,
+    "title": "Replacement character not rendering correctly in Photoshop",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/430"
+   },
    {
     "number": 426,
     "title": "Arrow umlauts: want thinner lines and wider wings",
