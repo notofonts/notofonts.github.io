@@ -4,11 +4,11 @@
   "2": 90,
   "3": 100,
   "4": 59,
-  "5": 14
+  "5": 52
  },
  "open_per_repo": {
   "ahom": 3,
-  "arabic": 18,
+  "arabic": 20,
   "armenian": 4,
   "balinese": 9,
   "bamum": 1,
@@ -33,26 +33,22 @@
   "glagolitic": 3,
   "grantha": 5,
   "gujarati": 14,
-  "gunjala-gondi": 3,
+  "gunjala-gondi": 1,
   "gurmukhi": 4,
-  "hanifi-rohingya": 2,
+  "hanifi-rohingya": 1,
   "hanunoo": 1,
-  "hebrew": 10,
+  "hebrew": 6,
   "inscriptional-pahlavi": 2,
-  "inscriptional-parthian": 1,
   "javanese": 3,
   "kaithi": 6,
   "kannada": 13,
-  "kawi": 1,
+  "kawi": 2,
   "kharoshthi": 1,
   "khitan-small-script": 1,
-  "khmer": 9,
+  "khmer": 10,
   "khojki": 1,
   "khudawadi": 1,
-  "lao": 3,
-  "latin-greek-cyrillic": 155,
-  "limbu": 2,
-  "linear-a": 1,
+  "latin-greek-cyrillic": 152,
   "lydian": 2,
   "malayalam": 8,
   "mandaic": 3,
@@ -69,12 +65,9 @@
   "myanmar": 32,
   "nandinagari": 4,
   "nastaliq": 17,
-  "nko": 1,
-  "nushu": 1,
   "old-hungarian": 3,
   "old-hungarian-ui": 4,
   "old-italic": 1,
-  "old-sogdian": 3,
   "old-turkic": 3,
   "oriya": 4,
   "ottoman-siyaq-numbers": 2,
@@ -83,40 +76,40 @@
   "psalter-pahlavi": 2,
   "saurashtra": 1,
   "sharada": 3,
-  "siddham": 5,
   "sign-writing": 1,
+  "sogdian": 1,
   "soyombo": 3,
   "sundanese": 3,
   "syloti-nagri": 7,
-  "symbols": 6,
+  "symbols": 7,
   "syriac": 5,
-  "tagalog": 3,
+  "tagalog": 2,
   "tai-le": 1,
   "tai-tham": 4,
   "tai-viet": 3,
-  "takri": 2,
+  "takri": 1,
   "tamil": 2,
   "telugu": 3,
-  "thaana": 2,
+  "thaana": 1,
   "thai": 12,
   "tibetan": 4,
-  "tifinagh": 6,
+  "tifinagh": 2,
   "tirhuta": 10,
   "yezidi": 2
  },
  "open_per_tier": {
-  "1": 264,
-  "2": 70,
-  "3": 102,
-  "4": 65,
-  "5": 46
+  "1": 259,
+  "2": 69,
+  "3": 84,
+  "4": 64,
+  "5": 43
  },
  "opened_per_month": {
-  "1": 9,
+  "1": 7,
   "2": 8,
-  "3": 18,
-  "4": 43,
-  "5": 7
+  "3": 16,
+  "4": 40,
+  "5": 13
  },
  "releases_per_month": {
   "1": [
@@ -303,6 +296,20 @@
    {
     "tag": "NotoSerif-v2.012",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.012"
+   }
+  ],
+  "5": [
+   {
+    "tag": "NotoSansCypriot-v2.002",
+    "url": "https://github.com/notofonts/cypriot/releases/tag/NotoSansCypriot-v2.002"
+   },
+   {
+    "tag": "NotoSans-v2.012",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSans-v2.012"
+   },
+   {
+    "tag": "NotoSansLinearA-v2.002",
+    "url": "https://github.com/notofonts/linear-a/releases/tag/NotoSansLinearA-v2.002"
    }
   ],
   "6": [
@@ -1249,10 +1256,10 @@
   ]
  },
  "totals_per_month": {
-  "1": 875,
-  "2": 734,
-  "3": 652,
-  "4": 570,
-  "5": 554
+  "1": 886,
+  "2": 743,
+  "3": 661,
+  "4": 577,
+  "5": 558
  }
 }
