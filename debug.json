@@ -10810,8 +10810,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 152,
+  "issue_count": 153,
   "issues": [
+   {
+    "number": 431,
+    "title": "Apostrophe letter modifiers (U+02BC, U+02BD) overlap the next character in Noto Serif",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/431"
+   },
    {
     "number": 430,
     "title": "Replacement character not rendering correctly in Photoshop",
