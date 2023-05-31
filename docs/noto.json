@@ -9035,11 +9035,6 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
-    "number": 431,
-    "title": "Apostrophe letter modifiers (U+02BC, U+02BD) overlap the next character in Noto Serif",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/431"
-   },
-   {
     "number": 430,
     "title": "Replacement character not rendering correctly in Photoshop",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/430"
@@ -9098,11 +9093,6 @@
     "number": 413,
     "title": "Small Caps font for the letter \u1e45 does not show a small cap but rather a lowercase letter",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/413"
-   },
-   {
-    "number": 412,
-    "title": "Adds refreshed Cyrillic in the NotoSansRoman source",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/412"
    },
    {
     "number": 411,
@@ -9200,19 +9190,9 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/9"
    },
    {
-    "number": 11,
-    "title": "Out of place back tick (accent grave)",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/11"
-   },
-   {
     "number": 12,
     "title": "NotoSans-Regular and NotoSerif-Regular (hinted) appear as italics on Windows 10",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/12"
-   },
-   {
-    "number": 231,
-    "title": "Please include variable versions of Noto Sans and Noto Serif in Google fonts",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/231"
    },
    {
     "number": 211,
