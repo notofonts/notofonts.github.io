@@ -9035,6 +9035,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 432,
+    "title": "U+1DF15 and U+1DF16 have superfluous horizontal strokes before palatal hooks",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/432"
+   },
+   {
     "number": 430,
     "title": "Replacement character not rendering correctly in Photoshop",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/430"
@@ -13008,11 +13013,6 @@
   },
   "gh_url": "https://notofonts.github.io/ottoman-siyaq-numbers",
   "issues": [
-   {
-    "number": 3,
-    "title": "Has Noto Sans glyphs",
-    "url": "https://github.com/notofonts/ottoman-siyaq-numbers/issues/3"
-   },
    {
     "number": 2,
     "title": "`u1ED39_u1ED2E.liga` is ligated from the wrong character sequence",
