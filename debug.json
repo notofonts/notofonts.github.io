@@ -10813,6 +10813,11 @@
   "issue_count": 150,
   "issues": [
    {
+    "number": 433,
+    "title": "Latin fixes",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/433"
+   },
+   {
     "number": 432,
     "title": "U+1DF15 and U+1DF16 have superfluous horizontal strokes before palatal hooks",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/432"
@@ -10989,7 +10994,7 @@
    },
    {
     "number": 18,
-    "title": "Latin, Greek and Cyrillc superscript and subscript modifier letters are scaled composites",
+    "title": "Latin, Greek and Cyrillic superscript and subscript modifier letters are scaled composites",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/18"
    },
    {
@@ -11291,11 +11296,6 @@
     "number": 113,
     "title": "The stylistic sets for non-serifed 'I' and non-descending 'J' should be separate in Noto Sans and Sans Display",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/113"
-   },
-   {
-    "number": 115,
-    "title": "'Combining low line' doesn't combine for dz and ts combination",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/115"
    },
    {
     "number": 207,
@@ -15230,8 +15230,13 @@
   "families_count": 0,
   "gh_url": "https://notofonts.github.io/old-hungarian-ui",
   "has_releases": false,
-  "issue_count": 4,
+  "issue_count": 5,
   "issues": [
+   {
+    "number": 6,
+    "title": "Publication of binary in separate repo",
+    "url": "https://github.com/notofonts/old-hungarian-ui/issues/6"
+   },
    {
     "number": 5,
     "title": "LO need a font in ttf format with bottom aligned feature. This font is very suitable for LibreOffice.",
