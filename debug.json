@@ -4628,7 +4628,7 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/ethiopic",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 2,
   "issues": [
    {
     "number": 5,
@@ -4639,11 +4639,6 @@
     "number": 1,
     "title": "Ethiopic letter \u1325 looks like \u1355",
     "url": "https://github.com/notofonts/ethiopic/issues/1"
-   },
-   {
-    "number": 2,
-    "title": "Ethiopic glyph `uni124C` too large?",
-    "url": "https://github.com/notofonts/ethiopic/issues/2"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/ethiopic",
@@ -8905,7 +8900,7 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/khmer",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 5,
   "issues": [
    {
     "number": 28,
@@ -8931,31 +8926,6 @@
     "number": 7,
     "title": "Khmer Consonant Shifter bugs",
     "url": "https://github.com/notofonts/khmer/issues/7"
-   },
-   {
-    "number": 6,
-    "title": "Noto Sans Khmer: \"2 serious errors were found. Do not use these fonts.\"",
-    "url": "https://github.com/notofonts/khmer/issues/6"
-   },
-   {
-    "number": 5,
-    "title": "NotoSerifKhmer variable font (NotoSerifKhmer-VF.ttf) has slightly different advance widths than that of NotoSerifKhmer phase III static font (NotoSerifKhmer-VF.ttf)",
-    "url": "https://github.com/notofonts/khmer/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Noto Sans Khmer UI variable font & phase III static font has minor string truncation problem",
-    "url": "https://github.com/notofonts/khmer/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "some Khmer character sequences go outside UI box for Noto Sans Khmer UI (by a tiny amount)",
-    "url": "https://github.com/notofonts/khmer/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Baseline of Noto Sans Khmer UI variable font is not aligned with Latin script",
-    "url": "https://github.com/notofonts/khmer/issues/2"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/khmer",
@@ -10810,18 +10780,8 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 150,
+  "issue_count": 142,
   "issues": [
-   {
-    "number": 433,
-    "title": "Latin fixes",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/433"
-   },
-   {
-    "number": 432,
-    "title": "U+1DF15 and U+1DF16 have superfluous horizontal strokes before palatal hooks",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/432"
-   },
    {
     "number": 430,
     "title": "Replacement character not rendering correctly in Photoshop",
@@ -11083,11 +11043,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/47"
    },
    {
-    "number": 48,
-    "title": "Wrong italic glyph for U+A7AB LATIN CAPITAL LETTER REVERSED OPEN E",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/48"
-   },
-   {
     "number": 49,
     "title": "Missing serif on U+1D7E LATIN SMALL CAPITAL LETTER U WITH STROKE",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/49"
@@ -11323,11 +11278,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/120"
    },
    {
-    "number": 121,
-    "title": "Uncentred \"Combining Minus Sign Below\" under \"Latin Small letter Upsilon\"",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/121"
-   },
-   {
     "number": 122,
     "title": "Noto Mono: consider making various ASCII symbols used in code and the terminal more prominent",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/122"
@@ -11448,11 +11398,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/147"
    },
    {
-    "number": 148,
-    "title": "Wrong italic glyphs for turned m",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/148"
-   },
-   {
     "number": 149,
     "title": "Wrong glyphs for yat in Latin and Cyrillic",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/149"
@@ -11461,11 +11406,6 @@
     "number": 151,
     "title": "Please add Latin Small Ligature",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/151"
-   },
-   {
-    "number": 154,
-    "title": "\u200eA7AE is a capital letter not a lowercase letter.",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/154"
    },
    {
     "number": 156,
@@ -11538,19 +11478,9 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/178"
    },
    {
-    "number": 179,
-    "title": "Latin upsilons design issues",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/179"
-   },
-   {
     "number": 181,
     "title": "Add <IPPH> and <APPH> (if necessary) to deal with IPA + Greek unification",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/181"
-   },
-   {
-    "number": 183,
-    "title": "U+031A COMBINING LEFT ANGLE ABOVE is misplaced",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/183"
    },
    {
     "number": 186,
@@ -12950,7 +12880,7 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 9,
   "issues": [
    {
     "number": 47,
@@ -12966,11 +12896,6 @@
     "number": 42,
     "title": " Incorrect baseline and size for U+2032  (prime)",
     "url": "https://github.com/notofonts/math/issues/42"
-   },
-   {
-    "number": 41,
-    "title": "Incorrect baseline and size for U+221E (infinity symbol)",
-    "url": "https://github.com/notofonts/math/issues/41"
    },
    {
     "number": 38,
@@ -15233,9 +15158,14 @@
   "issue_count": 5,
   "issues": [
    {
-    "number": 6,
-    "title": "Publication of binary in separate repo",
-    "url": "https://github.com/notofonts/old-hungarian-ui/issues/6"
+    "number": 8,
+    "title": "Removed non-Unicode conform LTR letters",
+    "url": "https://github.com/notofonts/old-hungarian-ui/pull/8"
+   },
+   {
+    "number": 7,
+    "title": "Non-standard LTR letters in the this Old Hngarian repo",
+    "url": "https://github.com/notofonts/old-hungarian-ui/issues/7"
    },
    {
     "number": 5,
@@ -15246,11 +15176,6 @@
     "number": 4,
     "title": "Required information succeed",
     "url": "https://github.com/notofonts/old-hungarian-ui/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Possible publish notofonts/old-hungarian-ui?",
-    "url": "https://github.com/notofonts/old-hungarian-ui/issues/3"
    },
    {
     "number": 1,
@@ -15889,13 +15814,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/oriya",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 2,
   "issues": [
-   {
-    "number": 20,
-    "title": "Stylistic sets for transliteration should be removed",
-    "url": "https://github.com/notofonts/oriya/issues/20"
-   },
    {
     "number": 19,
     "title": "Missing anchor points for nukta and virama",
@@ -15905,11 +15825,6 @@
     "number": 18,
     "title": "Isn\u2019t that overline too thin?",
     "url": "https://github.com/notofonts/oriya/issues/18"
-   },
-   {
-    "number": 17,
-    "title": "Noto Sans Oriya font family failing to render properly for Scribus and Firefox",
-    "url": "https://github.com/notofonts/oriya/issues/17"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/oriya",
