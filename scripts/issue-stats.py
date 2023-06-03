@@ -1,4 +1,5 @@
 import requests
+import os
 from collections import defaultdict, Counter
 import tqdm
 import json
@@ -6,7 +7,7 @@ from pprint import pprint
 from datetime import datetime, timedelta
 from tqdm.contrib.concurrent import process_map  # or thread_map
 
-headers = {"Authorization": "bearer " + ENV["GITHUB_TOKEN"]}
+headers = {"Authorization": "bearer " + os.environ["GITHUB_TOKEN"]}
 this = datetime.now()
 
 USE_EXISTING = False
