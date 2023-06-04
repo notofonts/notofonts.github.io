@@ -524,11 +524,6 @@
     "number": 8,
     "title": "Broken Arabic lam-alef combinations",
     "url": "https://github.com/notofonts/arabic/issues/8"
-   },
-   {
-    "number": 4,
-    "title": "Noto Kufi Arabic doesn't render in Powerpoint on Windows",
-    "url": "https://github.com/notofonts/arabic/issues/4"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/arabic",
@@ -3653,11 +3648,6 @@
     "number": 5,
     "title": "Some SerifEthiopic letters are too similar",
     "url": "https://github.com/notofonts/ethiopic/issues/5"
-   },
-   {
-    "number": 1,
-    "title": "Ethiopic letter \u1325 looks like \u1355",
-    "url": "https://github.com/notofonts/ethiopic/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/ethiopic",
@@ -4736,11 +4726,6 @@
     "number": 11,
     "title": "Position of anusvara (\u0a82) for Gujarati \u0a87, \u0a88, \u0a89",
     "url": "https://github.com/notofonts/gujarati/issues/11"
-   },
-   {
-    "number": 9,
-    "title": "Position of anusvara (\u0a82) and candrabindu (\u0a81) for Gujarati letters \u0a9b and \u0a9c",
-    "url": "https://github.com/notofonts/gujarati/issues/9"
    },
    {
     "number": 8,
@@ -9005,9 +8990,9 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
-    "number": 430,
-    "title": "Replacement character not rendering correctly in Photoshop",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/430"
+    "number": 434,
+    "title": "Noto Sans Bold not working in Google Docs",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/434"
    },
    {
     "number": 426,
@@ -9225,11 +9210,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/39"
    },
    {
-    "number": 85,
-    "title": "Bad serif on italic U+0507 CYRILLIC SMALL LETTER KOMI DZJE",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/85"
-   },
-   {
     "number": 40,
     "title": "Bad serif on italic U+0507 CYRILLIC SMALL LETTER KOMI DZJE",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/40"
@@ -9378,11 +9358,6 @@
     "number": 219,
     "title": "Below-base diacritics are positioned like ogonek in Noto Serif",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/219"
-   },
-   {
-    "number": 210,
-    "title": "Inconsistent widths of U+1E9A and U+AB60",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/210"
    },
    {
     "number": 218,
@@ -9575,11 +9550,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/139"
    },
    {
-    "number": 140,
-    "title": "Missing anchor points on Cyrillic broad omegas",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/140"
-   },
-   {
     "number": 141,
     "title": "Combining Half Marks are misplaced",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/141"
@@ -9588,11 +9558,6 @@
     "number": 143,
     "title": "U+1C83 CYRILLIC SMALL LETTER WIDE ES too similar to U+0441 CYRILLIC SMALL LETTER ES",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/143"
-   },
-   {
-    "number": 198,
-    "title": "Will there be APIs available for using the whole sets of weights and widths of Noto Sans/Serif since Phase 3?",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/198"
    },
    {
     "number": 144,
@@ -9626,7 +9591,7 @@
    },
    {
     "number": 151,
-    "title": "Please add Latin Small Ligature",
+    "title": "Add more f- ligatures to Serif Italic?",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/151"
    },
    {
@@ -9683,11 +9648,6 @@
     "number": 175,
     "title": "U+0333 and U+0347",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/175"
-   },
-   {
-    "number": 226,
-    "title": "Combining grapheme joiner (CGJ) with double diacritics",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/226"
    },
    {
     "number": 177,
