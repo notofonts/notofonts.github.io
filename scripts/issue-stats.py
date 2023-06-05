@@ -150,7 +150,7 @@ if __name__ == '__main__':
 
 
     def open_at(date, issues):
-        return [x for x in issues if not x["closedAt"] or x["closedAt"] > str(date)]
+        return [x for x in issues if (not x["closedAt"] or x["closedAt"] > str(date)) and x["createdAt"] <= str(date)]
 
 
     def opened_during(start, end, issues):
