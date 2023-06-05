@@ -12375,26 +12375,6 @@
   "gh_url": "https://notofonts.github.io/old-hungarian-ui",
   "issues": [
    {
-    "number": 8,
-    "title": "Removed non-Unicode conform LTR letters",
-    "url": "https://github.com/notofonts/old-hungarian-ui/pull/8"
-   },
-   {
-    "number": 7,
-    "title": "Non-standard LTR letters in the this Old Hngarian repo",
-    "url": "https://github.com/notofonts/old-hungarian-ui/issues/7"
-   },
-   {
-    "number": 5,
-    "title": "LO need a font in ttf format with bottom aligned feature. This font is very suitable for LibreOffice.",
-    "url": "https://github.com/notofonts/old-hungarian-ui/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Required information succeed",
-    "url": "https://github.com/notofonts/old-hungarian-ui/issues/4"
-   },
-   {
     "number": 1,
     "title": "building error on opensuse Tumbleweed",
     "url": "https://github.com/notofonts/old-hungarian-ui/issues/1"
