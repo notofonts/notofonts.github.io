@@ -1,11 +1,9 @@
 import requests
 import os
 from collections import defaultdict, Counter
-import tqdm
 import json
 from pprint import pprint
 from datetime import datetime, timedelta
-from tqdm.contrib.concurrent import process_map  # or thread_map
 
 headers = {"Authorization": "bearer " + os.environ["GITHUB_TOKEN"]}
 this = datetime.now()
@@ -13,6 +11,11 @@ this = datetime.now()
 USE_EXISTING = False
 
 releases_per_month = {}
+
+try:
+    from tqdm.contrib.concurrent import process_map  # or thread_map
+except Exception:
+    process_map = map
 
 
 def run_query(query):
@@ -115,7 +118,7 @@ def get_releases(rpm):
                     continue
                 if "notofonts.github.io" in release["url"]:
                     continue
-                published = datetime.fromisoformat(release["publishedAt"])
+                published = datetime.fromisoformat(release["publishedAt"].replace("Z",""))
                 rpm.setdefault(published.month, []).append(
                     {"tag": release["tagName"], "url": release["url"]}
                 )
