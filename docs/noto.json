@@ -11933,6 +11933,11 @@
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
+    "number": 49,
+    "title": "Adjust the Arabic Thousands Separator (U+066C) to follow the design and position as English",
+    "url": "https://github.com/notofonts/nastaliq/issues/49"
+   },
+   {
     "number": 47,
     "title": "Localized form of digits do not appear when used with a subtending mark",
     "url": "https://github.com/notofonts/nastaliq/issues/47"
