@@ -6663,11 +6663,6 @@
     "url": "https://github.com/notofonts/kannada/issues/6"
    },
    {
-    "number": 5,
-    "title": "AppleCoreText Issue with Kannada text",
-    "url": "https://github.com/notofonts/kannada/issues/5"
-   },
-   {
     "number": 3,
     "title": "Kannada letter design issue \u0caa\u0cc1, \u0caa\u0cc2, \u0caa\u0cca, \u0caa\u0ccb, \u0cab\u0cc1, \u0cab\u0cc2, \u0cab\u0cca, \u0cab\u0ccb",
     "url": "https://github.com/notofonts/kannada/issues/3"
@@ -12356,6 +12351,21 @@
   "gh_url": "https://notofonts.github.io/old-hungarian",
   "issues": [
    {
+    "number": 17,
+    "title": "It might to good thing add syllable like ligatures.",
+    "url": "https://github.com/notofonts/old-hungarian/issues/17"
+   },
+   {
+    "number": 16,
+    "title": "Small and capital letter must be aligned to a baseline.",
+    "url": "https://github.com/notofonts/old-hungarian/issues/16"
+   },
+   {
+    "number": 15,
+    "title": "Old Hungarian font need capital ligatures, and several ligspec must not in the disc regio",
+    "url": "https://github.com/notofonts/old-hungarian/issues/15"
+   },
+   {
     "number": 14,
     "title": "Missing capital ligatures in Old Hungarian script and ltr letters must be removed",
     "url": "https://github.com/notofonts/old-hungarian/issues/14"
@@ -16233,13 +16243,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/thaana",
-  "issues": [
-   {
-    "number": 2,
-    "title": "a new version of Thaana",
-    "url": "https://github.com/notofonts/thaana/pull/2"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/thaana",
   "tier": 3,
   "title": "Noto Thaana"
