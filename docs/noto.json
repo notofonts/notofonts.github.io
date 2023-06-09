@@ -11061,6 +11061,11 @@
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
    {
+    "number": 28,
+    "title": "Wrong shape for Manchu \"ku\"",
+    "url": "https://github.com/notofonts/mongolian/issues/28"
+   },
+   {
     "number": 26,
     "title": "Contextual Form Error for Manchu Final -ko/ho",
     "url": "https://github.com/notofonts/mongolian/issues/26"
