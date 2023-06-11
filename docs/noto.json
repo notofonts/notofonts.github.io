@@ -2183,11 +2183,6 @@
     "number": 2,
     "title": "The appearance of the Middle Dot (U+00B7) should change in Coptic",
     "url": "https://github.com/notofonts/coptic/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Missing U+0605 ARABIC NUMBER MARK ABOVE for Coptic numbers",
-    "url": "https://github.com/notofonts/coptic/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/coptic",
@@ -6078,11 +6073,6 @@
     "number": 7,
     "title": "Ligatures with U+A9B3 JAVANESE SIGN CECAK TELU block ligatures with U+A9BF JAVANESE CONSONANT SIGN CAKRA",
     "url": "https://github.com/notofonts/javanese/issues/7"
-   },
-   {
-    "number": 5,
-    "title": "Problem with subscripts in Noto Sans Javanese",
-    "url": "https://github.com/notofonts/javanese/issues/5"
    },
    {
     "number": 2,
@@ -11933,6 +11923,11 @@
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
+    "number": 50,
+    "title": "Wrong display for Uyghur letter \u201c\u06cb\u201d U+06CB Arabic Letter Ve",
+    "url": "https://github.com/notofonts/nastaliq/issues/50"
+   },
+   {
     "number": 49,
     "title": "Adjust the Arabic Thousands Separator (U+066C) to follow the design and position as English",
     "url": "https://github.com/notofonts/nastaliq/issues/49"
@@ -14462,11 +14457,6 @@
   },
   "gh_url": "https://notofonts.github.io/syriac",
   "issues": [
-   {
-    "number": 12,
-    "title": "Missing U+1DF8 and U+1DFA in Noto Sans Syriac",
-    "url": "https://github.com/notofonts/syriac/issues/12"
-   },
    {
     "number": 11,
     "title": "Malayalam Syriac is missing",
