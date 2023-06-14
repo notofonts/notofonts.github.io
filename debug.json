@@ -17895,7 +17895,7 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/symbols",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 8,
   "issues": [
    {
     "number": 70,
@@ -17906,6 +17906,11 @@
     "number": 69,
     "title": "Missing glyphs (consolidated)",
     "url": "https://github.com/notofonts/symbols/issues/69"
+   },
+   {
+    "number": 66,
+    "title": "Add Nine Pointed White Star to Symbols2",
+    "url": "https://github.com/notofonts/symbols/pull/66"
    },
    {
     "number": 64,
