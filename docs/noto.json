@@ -11923,6 +11923,11 @@
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
+    "number": 51,
+    "title": "Shape of U+066B ARABIC DECIMAL SEPARATOR",
+    "url": "https://github.com/notofonts/nastaliq/issues/51"
+   },
+   {
     "number": 50,
     "title": "Wrong display for Uyghur letter \u201c\u06cb\u201d U+06CB Arabic Letter Ve",
     "url": "https://github.com/notofonts/nastaliq/issues/50"
@@ -12786,6 +12791,21 @@
   },
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
+   {
+    "number": 23,
+    "title": "Enhancements to NotoSansOriya: Improved Nukta Support and Adjustments for DHA/DDHA + Nukta + Vowel, and Consonant + Halant + BA",
+    "url": "https://github.com/notofonts/oriya/pull/23"
+   },
+   {
+    "number": 22,
+    "title": "Issue with Shape of BA in Conjunct Consonants in NotoSansOriya",
+    "url": "https://github.com/notofonts/oriya/issues/22"
+   },
+   {
+    "number": 21,
+    "title": "Vowels not connecting with RHA, RRA in NotoSansOriya",
+    "url": "https://github.com/notofonts/oriya/issues/21"
+   },
    {
     "number": 19,
     "title": "Missing anchor points for nukta and virama",
