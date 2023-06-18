@@ -13418,8 +13418,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mongolian",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 8,
   "issues": [
+   {
+    "number": 29,
+    "title": "Manchu \"de\" and \"du\" have two dots instead of only one",
+    "url": "https://github.com/notofonts/mongolian/issues/29"
+   },
    {
     "number": 28,
     "title": "Wrong shape for Manchu \"ku\"",

@@ -11051,6 +11051,11 @@
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
    {
+    "number": 29,
+    "title": "Manchu \"de\" and \"du\" have two dots instead of only one",
+    "url": "https://github.com/notofonts/mongolian/issues/29"
+   },
+   {
     "number": 28,
     "title": "Wrong shape for Manchu \"ku\"",
     "url": "https://github.com/notofonts/mongolian/issues/28"
