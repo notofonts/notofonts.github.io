@@ -60,17 +60,17 @@
   "meroitic": 2,
   "miao": 1,
   "modi": 4,
-  "mongolian": 7,
+  "mongolian": 8,
   "multani": 1,
   "music": 2,
   "myanmar": 32,
   "nandinagari": 4,
-  "nastaliq": 19,
+  "nastaliq": 20,
   "old-hungarian": 6,
   "old-hungarian-ui": 1,
   "old-italic": 1,
   "old-turkic": 2,
-  "oriya": 2,
+  "oriya": 4,
   "ottoman-siyaq-numbers": 1,
   "pahawh-hmong": 1,
   "phags-pa": 2,
@@ -96,9 +96,9 @@
   "yezidi": 2
  },
  "open_per_tier": {
-  "1": 240,
+  "1": 243,
   "2": 61,
-  "3": 70,
+  "3": 71,
   "4": 63,
   "5": 40
  },
@@ -108,7 +108,7 @@
   "3": 34,
   "4": 48,
   "5": 19,
-  "6": 12
+  "6": 16
  },
  "releases_per_month": {
   "1": [

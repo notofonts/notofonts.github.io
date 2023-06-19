@@ -4516,6 +4516,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2023-06-17T23:40:14Z",
+  "repo": "mongolian",
+  "tier": 3,
+  "url": "https://github.com/notofonts/mongolian/issues/29"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2018-09-24T13:43:50Z",
   "repo": "multani",
   "tier": 3,
@@ -5047,6 +5054,13 @@
   "url": "https://github.com/notofonts/nastaliq/issues/50"
  },
  {
+  "closedAt": null,
+  "createdAt": "2023-06-15T13:24:56Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/51"
+ },
+ {
   "closedAt": "2023-02-09T09:39:26Z",
   "createdAt": "2022-10-14T14:16:07Z",
   "repo": "newa",
@@ -5332,6 +5346,20 @@
   "repo": "oriya",
   "tier": 1,
   "url": "https://github.com/notofonts/oriya/issues/20"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-06-15T07:01:06Z",
+  "repo": "oriya",
+  "tier": 1,
+  "url": "https://github.com/notofonts/oriya/issues/21"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-06-15T07:08:51Z",
+  "repo": "oriya",
+  "tier": 1,
+  "url": "https://github.com/notofonts/oriya/issues/22"
  },
  {
   "closedAt": null,
