@@ -13418,8 +13418,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mongolian",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 9,
   "issues": [
+   {
+    "number": 30,
+    "title": "Medial \"gl\" does not render clearly",
+    "url": "https://github.com/notofonts/mongolian/issues/30"
+   },
    {
     "number": 29,
     "title": "Manchu \"de\" and \"du\" have two dots instead of only one",
