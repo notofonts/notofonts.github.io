@@ -15784,13 +15784,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/oriya",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 4,
   "issues": [
-   {
-    "number": 23,
-    "title": "Enhancements to NotoSansOriya: Improved Nukta Support and Adjustments for DHA/DDHA + Nukta + Vowel, and Consonant + Halant + BA",
-    "url": "https://github.com/notofonts/oriya/pull/23"
-   },
    {
     "number": 22,
     "title": "Issue with Shape of BA in Conjunct Consonants in NotoSansOriya",
