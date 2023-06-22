@@ -1572,75 +1572,76 @@
    "Noto Sans Canadian Aboriginal": {
     "files": [
      "fonts/NotoSansCanadianAboriginal/full/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf",
-     "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf",
-     "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-Bold.ttf",
-     "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-Light.ttf",
-     "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-Black.ttf",
      "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-Regular.ttf",
+     "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-Bold.ttf",
      "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-Thin.ttf",
-     "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf",
      "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-Medium.ttf",
+     "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf",
+     "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-Black.ttf",
+     "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-Light.ttf",
      "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-SemiBold.ttf",
-     "fonts/NotoSansCanadianAboriginal/full/variable-ttf/NotoSansCanadianAboriginal[wght].ttf",
-     "fonts/NotoSansCanadianAboriginal/full/otf/NotoSansCanadianAboriginal-Black.otf",
-     "fonts/NotoSansCanadianAboriginal/full/otf/NotoSansCanadianAboriginal-Thin.otf",
-     "fonts/NotoSansCanadianAboriginal/full/otf/NotoSansCanadianAboriginal-ExtraLight.otf",
+     "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf",
      "fonts/NotoSansCanadianAboriginal/full/otf/NotoSansCanadianAboriginal-Regular.otf",
-     "fonts/NotoSansCanadianAboriginal/full/otf/NotoSansCanadianAboriginal-Light.otf",
-     "fonts/NotoSansCanadianAboriginal/full/otf/NotoSansCanadianAboriginal-Medium.otf",
      "fonts/NotoSansCanadianAboriginal/full/otf/NotoSansCanadianAboriginal-SemiBold.otf",
-     "fonts/NotoSansCanadianAboriginal/full/otf/NotoSansCanadianAboriginal-Bold.otf",
+     "fonts/NotoSansCanadianAboriginal/full/otf/NotoSansCanadianAboriginal-Medium.otf",
+     "fonts/NotoSansCanadianAboriginal/full/otf/NotoSansCanadianAboriginal-Thin.otf",
+     "fonts/NotoSansCanadianAboriginal/full/otf/NotoSansCanadianAboriginal-Light.otf",
+     "fonts/NotoSansCanadianAboriginal/full/otf/NotoSansCanadianAboriginal-ExtraLight.otf",
      "fonts/NotoSansCanadianAboriginal/full/otf/NotoSansCanadianAboriginal-ExtraBold.otf",
-     "fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf",
-     "fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf",
-     "fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf",
-     "fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf",
+     "fonts/NotoSansCanadianAboriginal/full/otf/NotoSansCanadianAboriginal-Bold.otf",
+     "fonts/NotoSansCanadianAboriginal/full/otf/NotoSansCanadianAboriginal-Black.otf",
+     "fonts/NotoSansCanadianAboriginal/full/variable-ttf/NotoSansCanadianAboriginal[wght].ttf",
      "fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Regular.ttf",
+     "fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Bold.ttf",
      "fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Thin.ttf",
-     "fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf",
      "fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Medium.ttf",
+     "fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf",
+     "fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Black.ttf",
+     "fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-Light.ttf",
      "fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-SemiBold.ttf",
+     "fonts/NotoSansCanadianAboriginal/googlefonts/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf",
      "fonts/NotoSansCanadianAboriginal/googlefonts/variable-ttf/NotoSansCanadianAboriginal[wght].ttf",
      "fonts/NotoSansCanadianAboriginal/unhinted/slim-variable-ttf/NotoSansCanadianAboriginal[wght].ttf",
-     "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf",
-     "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-Bold.ttf",
-     "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-Light.ttf",
-     "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-Black.ttf",
      "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-Regular.ttf",
+     "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-Bold.ttf",
      "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-Thin.ttf",
-     "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf",
      "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-Medium.ttf",
+     "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf",
+     "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-Black.ttf",
+     "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-Light.ttf",
      "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-SemiBold.ttf",
-     "fonts/NotoSansCanadianAboriginal/unhinted/variable-ttf/NotoSansCanadianAboriginal[wght].ttf",
-     "fonts/NotoSansCanadianAboriginal/unhinted/otf/NotoSansCanadianAboriginal-Black.otf",
-     "fonts/NotoSansCanadianAboriginal/unhinted/otf/NotoSansCanadianAboriginal-Thin.otf",
-     "fonts/NotoSansCanadianAboriginal/unhinted/otf/NotoSansCanadianAboriginal-ExtraLight.otf",
+     "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf",
      "fonts/NotoSansCanadianAboriginal/unhinted/otf/NotoSansCanadianAboriginal-Regular.otf",
-     "fonts/NotoSansCanadianAboriginal/unhinted/otf/NotoSansCanadianAboriginal-Light.otf",
-     "fonts/NotoSansCanadianAboriginal/unhinted/otf/NotoSansCanadianAboriginal-Medium.otf",
      "fonts/NotoSansCanadianAboriginal/unhinted/otf/NotoSansCanadianAboriginal-SemiBold.otf",
-     "fonts/NotoSansCanadianAboriginal/unhinted/otf/NotoSansCanadianAboriginal-Bold.otf",
+     "fonts/NotoSansCanadianAboriginal/unhinted/otf/NotoSansCanadianAboriginal-Medium.otf",
+     "fonts/NotoSansCanadianAboriginal/unhinted/otf/NotoSansCanadianAboriginal-Thin.otf",
+     "fonts/NotoSansCanadianAboriginal/unhinted/otf/NotoSansCanadianAboriginal-Light.otf",
+     "fonts/NotoSansCanadianAboriginal/unhinted/otf/NotoSansCanadianAboriginal-ExtraLight.otf",
      "fonts/NotoSansCanadianAboriginal/unhinted/otf/NotoSansCanadianAboriginal-ExtraBold.otf",
-     "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf",
-     "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-Bold.ttf",
-     "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-Light.ttf",
-     "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-Black.ttf",
+     "fonts/NotoSansCanadianAboriginal/unhinted/otf/NotoSansCanadianAboriginal-Bold.otf",
+     "fonts/NotoSansCanadianAboriginal/unhinted/otf/NotoSansCanadianAboriginal-Black.otf",
+     "fonts/NotoSansCanadianAboriginal/unhinted/variable-ttf/NotoSansCanadianAboriginal[wght].ttf",
      "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-Regular.ttf",
+     "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-Bold.ttf",
      "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-Thin.ttf",
-     "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf",
      "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-Medium.ttf",
-     "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-SemiBold.ttf"
+     "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-ExtraBold.ttf",
+     "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-Black.ttf",
+     "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-Light.ttf",
+     "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-SemiBold.ttf",
+     "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-ExtraLight.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Canadian Aboriginal v2.002\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-08-30T09:12:51",
-     "url": "https://github.com/notofonts/canadian-aboriginal/releases/tag/NotoSansCanadianAboriginal-v2.002",
-     "version": "v2.002"
+     "notes": "This release:\r\n\r\n* Adds stylistic set support for mid/low finals used in Athabaskan languages (#2)\r\n* Fixes inconsistent dot spacing (#5)",
+     "published": "2023-06-21T14:04:43",
+     "url": "https://github.com/notofonts/canadian-aboriginal/releases/tag/NotoSansCanadianAboriginal-v2.003",
+     "version": "v2.003"
     }
    }
   },
   "known_releases": [
-   "NotoSansCanadianAboriginal-v2.002"
+   "NotoSansCanadianAboriginal-v2.002",
+   "NotoSansCanadianAboriginal-v2.003"
   ]
  },
  "carian": {
@@ -4209,45 +4210,46 @@
   "families": {
    "Noto Sans Gunjala Gondi": {
     "files": [
-     "fonts/NotoSansGunjalaGondi/googlefonts/variable-ttf/NotoSansGunjalaGondi[wght].ttf",
-     "fonts/NotoSansGunjalaGondi/googlefonts/ttf/NotoSansGunjalaGondi-Regular.ttf",
-     "fonts/NotoSansGunjalaGondi/googlefonts/ttf/NotoSansGunjalaGondi-Bold.ttf",
-     "fonts/NotoSansGunjalaGondi/googlefonts/ttf/NotoSansGunjalaGondi-Medium.ttf",
-     "fonts/NotoSansGunjalaGondi/unhinted/slim-variable-ttf/NotoSansGunjalaGondi[wght].ttf",
-     "fonts/NotoSansGunjalaGondi/unhinted/variable-ttf/NotoSansGunjalaGondi[wght].ttf",
-     "fonts/NotoSansGunjalaGondi/unhinted/otf/NotoSansGunjalaGondi-Regular.otf",
-     "fonts/NotoSansGunjalaGondi/unhinted/otf/NotoSansGunjalaGondi-Bold.otf",
-     "fonts/NotoSansGunjalaGondi/unhinted/otf/NotoSansGunjalaGondi-Medium.otf",
-     "fonts/NotoSansGunjalaGondi/unhinted/otf/NotoSansGunjalaGondi-Semibold.otf",
-     "fonts/NotoSansGunjalaGondi/unhinted/ttf/NotoSansGunjalaGondi-Regular.ttf",
-     "fonts/NotoSansGunjalaGondi/unhinted/ttf/NotoSansGunjalaGondi-Semibold.ttf",
-     "fonts/NotoSansGunjalaGondi/unhinted/ttf/NotoSansGunjalaGondi-Bold.ttf",
-     "fonts/NotoSansGunjalaGondi/unhinted/ttf/NotoSansGunjalaGondi-Medium.ttf",
      "fonts/NotoSansGunjalaGondi/full/slim-variable-ttf/NotoSansGunjalaGondi[wght].ttf",
-     "fonts/NotoSansGunjalaGondi/full/variable-ttf/NotoSansGunjalaGondi[wght].ttf",
-     "fonts/NotoSansGunjalaGondi/full/otf/NotoSansGunjalaGondi-Regular.otf",
-     "fonts/NotoSansGunjalaGondi/full/otf/NotoSansGunjalaGondi-Bold.otf",
-     "fonts/NotoSansGunjalaGondi/full/otf/NotoSansGunjalaGondi-Medium.otf",
-     "fonts/NotoSansGunjalaGondi/full/otf/NotoSansGunjalaGondi-Semibold.otf",
-     "fonts/NotoSansGunjalaGondi/full/ttf/NotoSansGunjalaGondi-Regular.ttf",
-     "fonts/NotoSansGunjalaGondi/full/ttf/NotoSansGunjalaGondi-Semibold.ttf",
      "fonts/NotoSansGunjalaGondi/full/ttf/NotoSansGunjalaGondi-Bold.ttf",
+     "fonts/NotoSansGunjalaGondi/full/ttf/NotoSansGunjalaGondi-Semibold.ttf",
+     "fonts/NotoSansGunjalaGondi/full/ttf/NotoSansGunjalaGondi-Regular.ttf",
      "fonts/NotoSansGunjalaGondi/full/ttf/NotoSansGunjalaGondi-Medium.ttf",
-     "fonts/NotoSansGunjalaGondi/hinted/ttf/NotoSansGunjalaGondi-Regular.ttf",
-     "fonts/NotoSansGunjalaGondi/hinted/ttf/NotoSansGunjalaGondi-Semibold.ttf",
+     "fonts/NotoSansGunjalaGondi/full/otf/NotoSansGunjalaGondi-Medium.otf",
+     "fonts/NotoSansGunjalaGondi/full/otf/NotoSansGunjalaGondi-Regular.otf",
+     "fonts/NotoSansGunjalaGondi/full/otf/NotoSansGunjalaGondi-Semibold.otf",
+     "fonts/NotoSansGunjalaGondi/full/otf/NotoSansGunjalaGondi-Bold.otf",
+     "fonts/NotoSansGunjalaGondi/full/variable-ttf/NotoSansGunjalaGondi[wght].ttf",
+     "fonts/NotoSansGunjalaGondi/googlefonts/ttf/NotoSansGunjalaGondi-Bold.ttf",
+     "fonts/NotoSansGunjalaGondi/googlefonts/ttf/NotoSansGunjalaGondi-Regular.ttf",
+     "fonts/NotoSansGunjalaGondi/googlefonts/ttf/NotoSansGunjalaGondi-Medium.ttf",
+     "fonts/NotoSansGunjalaGondi/googlefonts/variable-ttf/NotoSansGunjalaGondi[wght].ttf",
+     "fonts/NotoSansGunjalaGondi/unhinted/slim-variable-ttf/NotoSansGunjalaGondi[wght].ttf",
+     "fonts/NotoSansGunjalaGondi/unhinted/ttf/NotoSansGunjalaGondi-Bold.ttf",
+     "fonts/NotoSansGunjalaGondi/unhinted/ttf/NotoSansGunjalaGondi-Semibold.ttf",
+     "fonts/NotoSansGunjalaGondi/unhinted/ttf/NotoSansGunjalaGondi-Regular.ttf",
+     "fonts/NotoSansGunjalaGondi/unhinted/ttf/NotoSansGunjalaGondi-Medium.ttf",
+     "fonts/NotoSansGunjalaGondi/unhinted/otf/NotoSansGunjalaGondi-Medium.otf",
+     "fonts/NotoSansGunjalaGondi/unhinted/otf/NotoSansGunjalaGondi-Regular.otf",
+     "fonts/NotoSansGunjalaGondi/unhinted/otf/NotoSansGunjalaGondi-Semibold.otf",
+     "fonts/NotoSansGunjalaGondi/unhinted/otf/NotoSansGunjalaGondi-Bold.otf",
+     "fonts/NotoSansGunjalaGondi/unhinted/variable-ttf/NotoSansGunjalaGondi[wght].ttf",
      "fonts/NotoSansGunjalaGondi/hinted/ttf/NotoSansGunjalaGondi-Bold.ttf",
+     "fonts/NotoSansGunjalaGondi/hinted/ttf/NotoSansGunjalaGondi-Semibold.ttf",
+     "fonts/NotoSansGunjalaGondi/hinted/ttf/NotoSansGunjalaGondi-Regular.ttf",
      "fonts/NotoSansGunjalaGondi/hinted/ttf/NotoSansGunjalaGondi-Medium.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Gunjala Gondi v1.003\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-12-12T13:50:39",
-     "url": "https://github.com/notofonts/gunjala-gondi/releases/tag/NotoSansGunjalaGondi-v1.003",
-     "version": "v1.003"
+     "notes": "This release:\r\n\r\n* Fixes matra decomposition where the AA vowel would disappear (#2)\r\n* Fixes some contextual forms of -OO/-AU vowels (#1)",
+     "published": "2023-06-21T15:20:25",
+     "url": "https://github.com/notofonts/gunjala-gondi/releases/tag/NotoSansGunjalaGondi-v1.004",
+     "version": "v1.004"
     }
    }
   },
   "known_releases": [
-   "NotoSansGunjalaGondi-v1.003"
+   "NotoSansGunjalaGondi-v1.003",
+   "NotoSansGunjalaGondi-v1.004"
   ]
  },
  "gurmukhi": {
@@ -9255,24 +9257,26 @@
   "families": {
    "Noto Sans Modi": {
     "files": [
-     "fonts/NotoSansModi/hinted/ttf/NotoSansModi-Regular.ttf",
+     "fonts/NotoSansModi/full/ttf/NotoSansModi-Regular.ttf",
+     "fonts/NotoSansModi/full/otf/NotoSansModi-Regular.otf",
      "fonts/NotoSansModi/googlefonts/ttf/NotoSansModi-Regular.ttf",
+     "fonts/NotoSansModi/unhinted/slim-otf/NotoSansModi-Regular.otf",
      "fonts/NotoSansModi/unhinted/ttf/NotoSansModi-Regular.ttf",
      "fonts/NotoSansModi/unhinted/otf/NotoSansModi-Regular.otf",
-     "fonts/NotoSansModi/full/ttf/NotoSansModi-Regular.ttf",
-     "fonts/NotoSansModi/full/otf/NotoSansModi-Regular.otf"
+     "fonts/NotoSansModi/hinted/ttf/NotoSansModi-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Modi v2.003\n\nThis release adds the Devanagari character DEVANAGARI SIGN AVAGRAHA to the full build.\n",
-     "published": "2022-10-05T10:45:26",
-     "url": "https://github.com/notofonts/modi/releases/tag/NotoSansModi-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Modi v2.004\r\n\r\nThis release uses the additional \"DNaa\" and \"DNu\" conjuncts. (#12)",
+     "published": "2023-06-21T10:40:08",
+     "url": "https://github.com/notofonts/modi/releases/tag/NotoSansModi-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "known_releases": [
    "NotoSansModi-v2.002",
-   "NotoSansModi-v2.003"
+   "NotoSansModi-v2.003",
+   "NotoSansModi-v2.004"
   ]
  },
  "mongolian": {
@@ -9352,20 +9356,22 @@
      "fonts/NotoMusic/full/ttf/NotoMusic-Regular.ttf",
      "fonts/NotoMusic/full/otf/NotoMusic-Regular.otf",
      "fonts/NotoMusic/googlefonts/ttf/NotoMusic-Regular.ttf",
+     "fonts/NotoMusic/unhinted/slim-otf/NotoMusic-Regular.otf",
      "fonts/NotoMusic/unhinted/ttf/NotoMusic-Regular.ttf",
      "fonts/NotoMusic/unhinted/otf/NotoMusic-Regular.otf",
      "fonts/NotoMusic/hinted/ttf/NotoMusic-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Music v2.002\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-11T19:44:14",
-     "url": "https://github.com/notofonts/music/releases/tag/NotoMusic-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Music v2.003\r\n\r\nThis release:\r\n\r\n* Fixes the height and alignment of mensural rests (#2)\r\n* Supports up to four staccato dots (#9)\r\n* Makes null notehead visible when unattached (#5)\r\n* Fixes positions of Byzantine symbols (#1)",
+     "published": "2023-06-21T06:28:11",
+     "url": "https://github.com/notofonts/music/releases/tag/NotoMusic-v2.003",
+     "version": "v2.003"
     }
    }
   },
   "known_releases": [
-   "NotoMusic-v2.002"
+   "NotoMusic-v2.002",
+   "NotoMusic-v2.003"
   ]
  },
  "myanmar": {
@@ -10856,24 +10862,26 @@
   "families": {
    "Noto Sans Siddham": {
     "files": [
+     "fonts/NotoSansSiddham/full/ttf/NotoSansSiddham-Regular.ttf",
+     "fonts/NotoSansSiddham/full/otf/NotoSansSiddham-Regular.otf",
      "fonts/NotoSansSiddham/hinted/ttf/NotoSansSiddham-Regular.ttf",
-     "fonts/NotoSansSiddham/googlefonts/ttf/NotoSansSiddham-Regular.ttf",
+     "fonts/NotoSansSiddham/unhinted/slim-otf/NotoSansSiddham-Regular.otf",
      "fonts/NotoSansSiddham/unhinted/ttf/NotoSansSiddham-Regular.ttf",
      "fonts/NotoSansSiddham/unhinted/otf/NotoSansSiddham-Regular.otf",
-     "fonts/NotoSansSiddham/full/ttf/NotoSansSiddham-Regular.ttf",
-     "fonts/NotoSansSiddham/full/otf/NotoSansSiddham-Regular.otf"
+     "fonts/NotoSansSiddham/googlefonts/ttf/NotoSansSiddham-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Siddham v2.004\n\nThis release fixes an issue where multi-glyph stacks were not being attached to the dotted circle correctly.\n",
-     "published": "2022-10-05T14:25:08",
-     "url": "https://github.com/notofonts/siddham/releases/tag/NotoSansSiddham-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Siddham v2.005\r\n\r\nThis version contains a number of shaping fixes, including:\r\n\r\n* Make alternate j\u00f1a available by +ss05 (#3)\r\n* Do something sensible with ryu+ss05 (#19)\r\n* Fix an issue where ss04 would take the -i vowel from the following cluster (#14)\r\n* Form missing seed syllables (#18)\r\n* Fix an issue with the ta-ha-ii-ma-m seed (#16)\r\n* Fix attachment to dotted circle\r\n* Raise matras when raising ra head (#12)\r\n* Support raising ra head on third-order conjuncts (#13)\r\n* Change kern feature to dist (#17)",
+     "published": "2023-06-21T06:26:18",
+     "url": "https://github.com/notofonts/siddham/releases/tag/NotoSansSiddham-v2.005",
+     "version": "v2.005"
     }
    }
   },
   "known_releases": [
    "NotoSansSiddham-v2.003",
-   "NotoSansSiddham-v2.004"
+   "NotoSansSiddham-v2.004",
+   "NotoSansSiddham-v2.005"
   ]
  },
  "sign-writing": {
@@ -11604,47 +11612,48 @@
   "families": {
    "Noto Sans Sundanese": {
     "files": [
-     "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-SemiBold.ttf",
-     "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-Regular.ttf",
-     "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-Bold.ttf",
-     "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-Medium.ttf",
-     "fonts/NotoSansSundanese/googlefonts/ttf/NotoSansSundanese-SemiBold.ttf",
-     "fonts/NotoSansSundanese/googlefonts/ttf/NotoSansSundanese-Regular.ttf",
-     "fonts/NotoSansSundanese/googlefonts/ttf/NotoSansSundanese-Bold.ttf",
-     "fonts/NotoSansSundanese/googlefonts/ttf/NotoSansSundanese-Medium.ttf",
-     "fonts/NotoSansSundanese/googlefonts/variable-ttf/NotoSansSundanese[wght].ttf",
-     "fonts/NotoSansSundanese/unhinted/slim-variable-ttf/NotoSansSundanese[wght].ttf",
-     "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf",
-     "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf",
-     "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf",
-     "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf",
-     "fonts/NotoSansSundanese/unhinted/otf/NotoSansSundanese-Medium.otf",
-     "fonts/NotoSansSundanese/unhinted/otf/NotoSansSundanese-Bold.otf",
-     "fonts/NotoSansSundanese/unhinted/otf/NotoSansSundanese-SemiBold.otf",
-     "fonts/NotoSansSundanese/unhinted/otf/NotoSansSundanese-Regular.otf",
-     "fonts/NotoSansSundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf",
      "fonts/NotoSansSundanese/full/slim-variable-ttf/NotoSansSundanese[wght].ttf",
-     "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-SemiBold.ttf",
-     "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-Regular.ttf",
-     "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-Bold.ttf",
      "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-Medium.ttf",
-     "fonts/NotoSansSundanese/full/otf/NotoSansSundanese-Medium.otf",
+     "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-Bold.ttf",
+     "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-Regular.ttf",
+     "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-SemiBold.ttf",
      "fonts/NotoSansSundanese/full/otf/NotoSansSundanese-Bold.otf",
      "fonts/NotoSansSundanese/full/otf/NotoSansSundanese-SemiBold.otf",
      "fonts/NotoSansSundanese/full/otf/NotoSansSundanese-Regular.otf",
-     "fonts/NotoSansSundanese/full/variable-ttf/NotoSansSundanese[wght].ttf"
+     "fonts/NotoSansSundanese/full/otf/NotoSansSundanese-Medium.otf",
+     "fonts/NotoSansSundanese/full/variable-ttf/NotoSansSundanese[wght].ttf",
+     "fonts/NotoSansSundanese/googlefonts/ttf/NotoSansSundanese-Medium.ttf",
+     "fonts/NotoSansSundanese/googlefonts/ttf/NotoSansSundanese-Bold.ttf",
+     "fonts/NotoSansSundanese/googlefonts/ttf/NotoSansSundanese-Regular.ttf",
+     "fonts/NotoSansSundanese/googlefonts/ttf/NotoSansSundanese-SemiBold.ttf",
+     "fonts/NotoSansSundanese/googlefonts/variable-ttf/NotoSansSundanese[wght].ttf",
+     "fonts/NotoSansSundanese/unhinted/slim-variable-ttf/NotoSansSundanese[wght].ttf",
+     "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf",
+     "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-Bold.ttf",
+     "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf",
+     "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf",
+     "fonts/NotoSansSundanese/unhinted/otf/NotoSansSundanese-Bold.otf",
+     "fonts/NotoSansSundanese/unhinted/otf/NotoSansSundanese-SemiBold.otf",
+     "fonts/NotoSansSundanese/unhinted/otf/NotoSansSundanese-Regular.otf",
+     "fonts/NotoSansSundanese/unhinted/otf/NotoSansSundanese-Medium.otf",
+     "fonts/NotoSansSundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf",
+     "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-Medium.ttf",
+     "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-Bold.ttf",
+     "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-Regular.ttf",
+     "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-SemiBold.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Sundanese v2.003\n\nThis release fixes an issue with marks not being correctly attached to bases.\n",
-     "published": "2022-10-10T08:32:56",
-     "url": "https://github.com/notofonts/sundanese/releases/tag/NotoSansSundanese-v2.003",
-     "version": "v2.003"
+     "notes": "This release:\r\n\r\n* Ensures spacing marks are adequately spaced (#3)\r\n* Moves anusvara adjacent to base (#1)",
+     "published": "2023-06-21T06:44:18",
+     "url": "https://github.com/notofonts/sundanese/releases/tag/NotoSansSundanese-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "known_releases": [
    "NotoSansSundanese-v2.002",
-   "NotoSansSundanese-v2.003"
+   "NotoSansSundanese-v2.003",
+   "NotoSansSundanese-v2.004"
   ]
  },
  "syloti-nagri": {
@@ -11883,20 +11892,22 @@
      "fonts/NotoSansTagalog/full/ttf/NotoSansTagalog-Regular.ttf",
      "fonts/NotoSansTagalog/full/otf/NotoSansTagalog-Regular.otf",
      "fonts/NotoSansTagalog/googlefonts/ttf/NotoSansTagalog-Regular.ttf",
+     "fonts/NotoSansTagalog/unhinted/slim-otf/NotoSansTagalog-Regular.otf",
      "fonts/NotoSansTagalog/unhinted/ttf/NotoSansTagalog-Regular.ttf",
      "fonts/NotoSansTagalog/unhinted/otf/NotoSansTagalog-Regular.otf",
      "fonts/NotoSansTagalog/hinted/ttf/NotoSansTagalog-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Tagalog v2.001\n\nThis release:\n* Adds support for new glyphs in Unicode 14 (U+170D, U+1715, U+171F); thanks to @Mercury13 (#1, #4)\n* Increases the size of the virama glyph (#2)\n* Allows multiple marks to be applied without overlapping (#1)\n* and fixes a number of fontbakery fails\n",
-     "published": "2022-09-16T10:36:53",
-     "url": "https://github.com/notofonts/tagalog/releases/tag/NotoSansTagalog-v2.001",
-     "version": "v2.001"
+     "notes": "This release:\r\n\r\n* Disables the use of the Universal Shaping Engine, fixing #5\r\n* Makes pamudpod a base, fixing #6",
+     "published": "2023-06-21T12:41:00",
+     "url": "https://github.com/notofonts/tagalog/releases/tag/NotoSansTagalog-v2.002",
+     "version": "v2.002"
     }
    }
   },
   "known_releases": [
-   "NotoSansTagalog-v2.001"
+   "NotoSansTagalog-v2.001",
+   "NotoSansTagalog-v2.002"
   ]
  },
  "tagbanwa": {
@@ -11995,24 +12006,26 @@
   "families": {
    "Noto Sans Tai Viet": {
     "files": [
-     "fonts/NotoSansTaiViet/hinted/ttf/NotoSansTaiViet-Regular.ttf",
-     "fonts/NotoSansTaiViet/unhinted/otf/NotoSansTaiViet-Regular.otf",
-     "fonts/NotoSansTaiViet/unhinted/ttf/NotoSansTaiViet-Regular.ttf",
-     "fonts/NotoSansTaiViet/full/otf/NotoSansTaiViet-Regular.otf",
      "fonts/NotoSansTaiViet/full/ttf/NotoSansTaiViet-Regular.ttf",
-     "fonts/NotoSansTaiViet/googlefonts/ttf/NotoSansTaiViet-Regular.ttf"
+     "fonts/NotoSansTaiViet/full/otf/NotoSansTaiViet-Regular.otf",
+     "fonts/NotoSansTaiViet/googlefonts/ttf/NotoSansTaiViet-Regular.ttf",
+     "fonts/NotoSansTaiViet/unhinted/slim-otf/NotoSansTaiViet-Regular.otf",
+     "fonts/NotoSansTaiViet/unhinted/ttf/NotoSansTaiViet-Regular.ttf",
+     "fonts/NotoSansTaiViet/unhinted/otf/NotoSansTaiViet-Regular.otf",
+     "fonts/NotoSansTaiViet/hinted/ttf/NotoSansTaiViet-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Tai Viet v2.003 This release fixes a number of issues related to mark positioning.\n",
-     "published": "2022-10-23T12:42:12",
-     "url": "https://github.com/notofonts/tai-viet/releases/tag/NotoSansTaiViet-v2.003",
-     "version": "v2.003"
+     "notes": "This release:\r\n\r\n* Adds kerning to avoid mark collisions (#6)\r\n* Removes the saltillo glyphs (#5)\r\n* Fixes mark anchors again (#4)",
+     "published": "2023-06-21T11:15:12",
+     "url": "https://github.com/notofonts/tai-viet/releases/tag/NotoSansTaiViet-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "known_releases": [
    "NotoSansTaiViet-v2.002",
-   "NotoSansTaiViet-v2.003"
+   "NotoSansTaiViet-v2.003",
+   "NotoSansTaiViet-v2.004"
   ]
  },
  "takri": {
@@ -12022,20 +12035,22 @@
      "fonts/NotoSansTakri/full/ttf/NotoSansTakri-Regular.ttf",
      "fonts/NotoSansTakri/full/otf/NotoSansTakri-Regular.otf",
      "fonts/NotoSansTakri/googlefonts/ttf/NotoSansTakri-Regular.ttf",
+     "fonts/NotoSansTakri/unhinted/slim-otf/NotoSansTakri-Regular.otf",
      "fonts/NotoSansTakri/unhinted/ttf/NotoSansTakri-Regular.ttf",
      "fonts/NotoSansTakri/unhinted/otf/NotoSansTakri-Regular.otf",
      "fonts/NotoSansTakri/hinted/ttf/NotoSansTakri-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Takri v2.003\n\nThis release:\n* fixes a number of fontbakery fails\n* stops the nukta blocking kerning (see #5)\n* distinguishes NGA+AA from TA+AA+ANUSVARA (see #2)\n",
-     "published": "2022-09-12T16:39:41",
-     "url": "https://github.com/notofonts/takri/releases/tag/NotoSansTakri-v2.003",
-     "version": "v2.003"
+     "notes": "This version: \r\n\r\n* Encodes U+116B9 TAKRI ABBREVIATION SIGN (#14)\r\n* Fixes kerning after anusvara (#13)\r\n* Fixes the combination -AA + Nukta (#12)",
+     "published": "2023-06-21T20:46:07",
+     "url": "https://github.com/notofonts/takri/releases/tag/NotoSansTakri-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "known_releases": [
-   "NotoSansTakri-v2.003"
+   "NotoSansTakri-v2.003",
+   "NotoSansTakri-v2.004"
   ]
  },
  "tamil": {
