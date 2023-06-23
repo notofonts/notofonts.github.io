@@ -6569,14 +6569,15 @@
      ],
      "unhinted": [
       "fonts/NotoSansHanunoo/unhinted/otf/NotoSansHanunoo-Regular.otf",
+      "fonts/NotoSansHanunoo/unhinted/slim-otf/NotoSansHanunoo-Regular.otf",
       "fonts/NotoSansHanunoo/unhinted/ttf/NotoSansHanunoo-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Hanunoo v2.003\n\nThis release:\n* fixes a number of fontbakery fails\n* replaces the salt feature with a ss01 feature (so it can be named)\n",
-     "published": "2022-08-28T10:19:36",
-     "url": "https://github.com/notofonts/hanunoo/releases/tag/NotoSansHanunoo-v2.003",
-     "version": "v2.003"
+     "notes": "This release makes U+1734 HANUNOO SIGN PAMUDPOD spacing, fixing issue #2",
+     "published": "2023-06-22T12:03:36",
+     "url": "https://github.com/notofonts/hanunoo/releases/tag/NotoSansHanunoo-v2.004",
+     "version": "v2.004"
     },
     "third_party_versions": {
      "Android 12": {
@@ -6591,7 +6592,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "2.003"
      },
      "iOS 16.1": {
@@ -9262,10 +9263,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Lao v2.002\n\nThis is an administrative release.\n",
-     "published": "2022-07-05T06:46:22",
-     "url": "https://github.com/notofonts/lao/releases/tag/NotoSansLao-v2.002",
-     "version": "v2.002"
+     "notes": "This release adds support for Unicode 14.0 characters, thanks to Ben Mitchell (@ohbendy).",
+     "published": "2023-06-22T06:49:43",
+     "url": "https://github.com/notofonts/lao/releases/tag/NotoSansLao-v2.003",
+     "version": "v2.003"
     },
     "third_party_versions": {
      "Android 12": {
@@ -9280,7 +9281,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "2.002"
      }
     }
@@ -9479,10 +9480,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Lao Looped v1.001\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-06T09:45:28",
-     "url": "https://github.com/notofonts/lao/releases/tag/NotoSansLaoLooped-v1.001",
-     "version": "v1.001"
+     "notes": "This release adds support for Unicode 14.0 characters, thanks to Ben Mitchell (@ohbendy).",
+     "published": "2023-06-22T06:54:59",
+     "url": "https://github.com/notofonts/lao/releases/tag/NotoSansLaoLooped-v1.002",
+     "version": "v1.002"
     }
    },
    "Noto Serif Lao": {
@@ -9679,10 +9680,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Lao v2.002\n\nThis is an administrative release.\n",
-     "published": "2022-07-05T06:49:21",
-     "url": "https://github.com/notofonts/lao/releases/tag/NotoSerifLao-v2.002",
-     "version": "v2.002"
+     "notes": "This release adds support for Unicode 14.0 characters, thanks to Ben Mitchell (@ohbendy).",
+     "published": "2023-06-22T06:48:38",
+     "url": "https://github.com/notofonts/lao/releases/tag/NotoSerifLao-v2.003",
+     "version": "v2.003"
     },
     "third_party_versions": {
      "Android 12": {
@@ -9697,7 +9698,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "2.002"
      }
     }
@@ -15513,14 +15514,15 @@
      ],
      "unhinted": [
       "fonts/NotoSansOldTurkic/unhinted/otf/NotoSansOldTurkic-Regular.otf",
+      "fonts/NotoSansOldTurkic/unhinted/slim-otf/NotoSansOldTurkic-Regular.otf",
       "fonts/NotoSansOldTurkic/unhinted/ttf/NotoSansOldTurkic-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Old Turkic v2.002\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-24T14:35:27",
-     "url": "https://github.com/notofonts/old-turkic/releases/tag/NotoSansOldTurkic-v2.002",
-     "version": "v2.002"
+     "notes": "Bump version to 2.003",
+     "published": "2023-06-22T10:06:03",
+     "url": "https://github.com/notofonts/old-turkic/releases/tag/NotoSansOldTurkic-v2.003",
+     "version": "v2.003"
     },
     "third_party_versions": {
      "Android 12": {
@@ -16359,14 +16361,15 @@
      ],
      "unhinted": [
       "fonts/NotoSansRejang/unhinted/otf/NotoSansRejang-Regular.otf",
+      "fonts/NotoSansRejang/unhinted/slim-otf/NotoSansRejang-Regular.otf",
       "fonts/NotoSansRejang/unhinted/ttf/NotoSansRejang-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Rejang v2.001\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes an issue where some mark glyphs overlapped preceding or following bases (#1)\n",
-     "published": "2022-09-02T07:08:26",
-     "url": "https://github.com/notofonts/rejang/releases/tag/NotoSansRejang-v2.001",
-     "version": "v2.001"
+     "notes": "This release fixes a number of overlapping glyphs (#1, #2, #3)",
+     "published": "2023-06-22T12:49:31",
+     "url": "https://github.com/notofonts/rejang/releases/tag/NotoSansRejang-v2.002",
+     "version": "v2.002"
     },
     "third_party_versions": {
      "Android 12": {
@@ -16381,7 +16384,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "2.001"
      },
      "iOS 16.1": {
@@ -16400,8 +16403,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/rejang",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 1,
+    "title": "Overlapping marks in Rejang",
+    "url": "https://github.com/notofonts/rejang/issues/1"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/rejang",
   "tier": 3,
   "title": "Noto Rejang"
@@ -18501,8 +18510,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tai-viet",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 6,
+    "title": "Swashes overlap marks in following clusters",
+    "url": "https://github.com/notofonts/tai-viet/issues/6"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/tai-viet",
   "tier": 3,
   "title": "Noto Tai Viet"
@@ -19466,10 +19481,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Tangsa v1.504\n\nThis release:\n* fixes a number of fontbakery fails\n* corrects the kerning of the PA and XA glyphs (#1)\n",
-     "published": "2022-09-12T09:21:47",
-     "url": "https://github.com/notofonts/tangsa/releases/tag/NotoSansTangsa-v1.504",
-     "version": "v1.504"
+     "notes": "This release:\r\n\r\n* Updates the shape of various letters after community feedback, thanks to David Williams. (#3)\r\n* Restores some missing kerning pairs. (#4)",
+     "published": "2023-06-22T06:22:18",
+     "url": "https://github.com/notofonts/tangsa/releases/tag/NotoSansTangsa-v1.505",
+     "version": "v1.505"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -19479,7 +19494,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "1.504"
      }
     }
@@ -22031,14 +22046,15 @@
      ],
      "unhinted": [
       "fonts/NotoSansZanabazarSquare/unhinted/otf/NotoSansZanabazarSquare-Regular.otf",
+      "fonts/NotoSansZanabazarSquare/unhinted/slim-otf/NotoSansZanabazarSquare-Regular.otf",
       "fonts/NotoSansZanabazarSquare/unhinted/ttf/NotoSansZanabazarSquare-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Zanabazar Square v2.005 This release fixes a critical bug with the GSUB table.\n",
-     "published": "2022-10-12T13:33:09",
-     "url": "https://github.com/notofonts/zanabazar-square/releases/tag/NotoSansZanabazarSquare-v2.005",
-     "version": "v2.005"
+     "notes": "This release:\r\n\r\n* Fixes the display of clusters beginning with initial Ra (#8)\r\n* Ensures that the final consonant mark appears below final Ra/Ya (#9)",
+     "published": "2023-06-22T06:50:52",
+     "url": "https://github.com/notofonts/zanabazar-square/releases/tag/NotoSansZanabazarSquare-v2.006",
+     "version": "v2.006"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -22048,7 +22064,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "2.005"
      }
     }
