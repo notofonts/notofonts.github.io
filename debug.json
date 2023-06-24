@@ -2818,14 +2818,15 @@
      ],
      "unhinted": [
       "fonts/NotoSansCoptic/unhinted/otf/NotoSansCoptic-Regular.otf",
+      "fonts/NotoSansCoptic/unhinted/slim-otf/NotoSansCoptic-Regular.otf",
       "fonts/NotoSansCoptic/unhinted/ttf/NotoSansCoptic-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Coptic v2.002\n\nThis is an administrative release; it fixes a number of fontbakery fails.\n",
-     "published": "2022-08-24T14:36:32",
-     "url": "https://github.com/notofonts/coptic/releases/tag/NotoSansCoptic-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Sans Coptic v2.003\n\nThis release:\n\n- Changes the size of the ARABIC NUMBER MARK ABOVE dependent on the digits below. (#1)\n- Changes the position of the middle dot after capital letters. (#2)\n",
+     "published": "2023-06-23T09:56:35",
+     "url": "https://github.com/notofonts/coptic/releases/tag/NotoSansCoptic-v2.003",
+     "version": "v2.003"
     },
     "third_party_versions": {
      "Android 12": {
@@ -2840,7 +2841,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "2.002"
      },
      "iOS 16.1": {
@@ -2862,9 +2863,9 @@
   "issue_count": 1,
   "issues": [
    {
-    "number": 2,
-    "title": "The appearance of the Middle Dot (U+00B7) should change in Coptic",
-    "url": "https://github.com/notofonts/coptic/issues/2"
+    "number": 14,
+    "title": "U+0605 is extra wide next to U+102E5",
+    "url": "https://github.com/notofonts/coptic/issues/14"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/coptic",
@@ -6512,10 +6513,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Hanifi Rohingya v2.101\n\nThis is an administrative release; it fixes a number of fontbakery\nfails.\n",
-     "published": "2022-08-23T13:42:50",
-     "url": "https://github.com/notofonts/hanifi-rohingya/releases/tag/NotoSansHanifiRohingya-v2.101",
-     "version": "v2.101"
+     "notes": "This release fixes some collisions between tassi and tana marks (#2)",
+     "published": "2023-06-23T08:55:00",
+     "url": "https://github.com/notofonts/hanifi-rohingya/releases/tag/NotoSansHanifiRohingya-v2.102",
+     "version": "v2.102"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -6525,7 +6526,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "2.101"
      },
      "iOS 16.1": {
@@ -6544,14 +6545,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/hanifi-rohingya",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 2,
-    "title": "U+10D27 HANIFI ROHINGYA SIGN TASSI overlaps U+10D26 HANIFI ROHINGYA SIGN TANA",
-    "url": "https://github.com/notofonts/hanifi-rohingya/issues/2"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/hanifi-rohingya",
   "tier": 3,
   "title": "Noto Hanifi Rohingya"
@@ -8916,14 +8911,15 @@
      ],
      "unhinted": [
       "fonts/NotoSansKhojki/unhinted/otf/NotoSansKhojki-Regular.otf",
+      "fonts/NotoSansKhojki/unhinted/slim-otf/NotoSansKhojki-Regular.otf",
       "fonts/NotoSansKhojki/unhinted/ttf/NotoSansKhojki-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Khojki v2.003 This release fixes a bug whereby certain consonants before YA would be erroneously deleted.\n",
-     "published": "2022-09-28T06:28:47",
-     "url": "https://github.com/notofonts/khojki/releases/tag/NotoSansKhojki-v2.003",
-     "version": "v2.003"
+     "notes": "This release:\r\n\r\n* Ensures that the KSA ligature is produced even in the context of other marks (#8)\r\n* Breaks ligatures when using alternate nukta (#1)",
+     "published": "2023-06-23T07:36:06",
+     "url": "https://github.com/notofonts/khojki/releases/tag/NotoSansKhojki-v2.004",
+     "version": "v2.004"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -8933,7 +8929,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "2.003"
      },
      "iOS 16.1": {
@@ -8972,10 +8968,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Khojki v2.003 This release fixes an interpolation issue with the ra_iMatra-khoj glyph.\n",
-     "published": "2022-11-02T12:27:20",
-     "url": "https://github.com/notofonts/khojki/releases/tag/NotoSerifKhojki-v2.003",
-     "version": "v2.003"
+     "notes": "This release:\r\n\r\n* Encodes the letter \"qa\" (#10)\r\n* Allows the nukta to attach to the dotted circle (#11)\r\n* Removes the Gujarati reph (#9)\r\n* Improves anchor positioning, including correct attachment of top matras (#7)\r\n",
+     "published": "2023-06-23T07:32:38",
+     "url": "https://github.com/notofonts/khojki/releases/tag/NotoSerifKhojki-v2.004",
+     "version": "v2.004"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -8985,7 +8981,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "2.003"
      }
     }
@@ -14732,14 +14728,15 @@
      ],
      "unhinted": [
       "fonts/NotoSansNKo/unhinted/otf/NotoSansNKo-Regular.otf",
+      "fonts/NotoSansNKo/unhinted/slim-otf/NotoSansNKo-Regular.otf",
       "fonts/NotoSansNKo/unhinted/ttf/NotoSansNKo-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans NKo v2.003\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-01T14:12:15",
-     "url": "https://github.com/notofonts/nko/releases/tag/NotoSansNKo-v2.003",
-     "version": "v2.003"
+     "notes": "This release:\r\n\r\n* Adjust the size of the dorome, thanks to Neil Patel\r\n* Reshapes the tone marks to make them easily distinguishable (#3)\r\n* Sets above marks at a constant height (#7)\r\n* Add spaces around Dantayalan where necessary (#5)",
+     "published": "2023-06-23T08:45:44",
+     "url": "https://github.com/notofonts/nko/releases/tag/NotoSansNKo-v2.004",
+     "version": "v2.004"
     },
     "third_party_versions": {
      "Android 12": {
@@ -14754,7 +14751,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "2.003"
      },
      "iOS 16.1": {
@@ -14768,9 +14765,39 @@
       "version": "2.001"
      }
     }
+   },
+   "Noto Sans NKo Unjoined": {
+    "files": {
+     "full": [
+      "fonts/NotoSansNKoUnjoined/full/otf/NotoSansNKoUnjoined-Bold.otf",
+      "fonts/NotoSansNKoUnjoined/full/otf/NotoSansNKoUnjoined-Regular.otf",
+      "fonts/NotoSansNKoUnjoined/full/slim-variable-ttf/NotoSansNKoUnjoined[wght].ttf",
+      "fonts/NotoSansNKoUnjoined/full/ttf/NotoSansNKoUnjoined-Bold.ttf",
+      "fonts/NotoSansNKoUnjoined/full/ttf/NotoSansNKoUnjoined-Regular.ttf",
+      "fonts/NotoSansNKoUnjoined/full/variable-ttf/NotoSansNKoUnjoined[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansNKoUnjoined/hinted/ttf/NotoSansNKoUnjoined-Bold.ttf",
+      "fonts/NotoSansNKoUnjoined/hinted/ttf/NotoSansNKoUnjoined-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansNKoUnjoined/unhinted/otf/NotoSansNKoUnjoined-Bold.otf",
+      "fonts/NotoSansNKoUnjoined/unhinted/otf/NotoSansNKoUnjoined-Regular.otf",
+      "fonts/NotoSansNKoUnjoined/unhinted/slim-variable-ttf/NotoSansNKoUnjoined[wght].ttf",
+      "fonts/NotoSansNKoUnjoined/unhinted/ttf/NotoSansNKoUnjoined-Bold.ttf",
+      "fonts/NotoSansNKoUnjoined/unhinted/ttf/NotoSansNKoUnjoined-Regular.ttf",
+      "fonts/NotoSansNKoUnjoined/unhinted/variable-ttf/NotoSansNKoUnjoined[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "This is a new font for display purposes, based on Noto Sans NKo with modifications to add a second weight by myself and Neil Patel.",
+     "published": "2023-06-23T08:45:37",
+     "url": "https://github.com/notofonts/nko/releases/tag/NotoSansNKoUnjoined-v2.004",
+     "version": "v2.004"
+    }
    }
   },
-  "families_count": 1,
+  "families_count": 2,
   "gh_url": "https://notofonts.github.io/nko",
   "has_releases": true,
   "issue_count": 0,
@@ -16772,8 +16799,19 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/siddham",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 2,
+  "issues": [
+   {
+    "number": 23,
+    "title": "Matra is too wide in 'ss05' \u201cj\u00f1\u012b\u201d",
+    "url": "https://github.com/notofonts/siddham/issues/23"
+   },
+   {
+    "number": 22,
+    "title": "Double kerning in 'dist'",
+    "url": "https://github.com/notofonts/siddham/issues/22"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/siddham",
   "tier": 3,
   "title": "Noto Siddham"
@@ -17737,14 +17775,15 @@
      ],
      "unhinted": [
       "fonts/NotoSansSylotiNagri/unhinted/otf/NotoSansSylotiNagri-Regular.otf",
+      "fonts/NotoSansSylotiNagri/unhinted/slim-otf/NotoSansSylotiNagri-Regular.otf",
       "fonts/NotoSansSylotiNagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Syloti Nagri v2.003 This release: AUTHORS.txt CONTRIBUTORS.txt Makefile OFL.txt README.md build.stamp documentation fontbakery.yml fonts qa requirements.txt scripts sources subset-files venv Fixes a problem where postbase vowels collided with subsequent letters. (#6) AUTHORS.txt CONTRIBUTORS.txt Makefile OFL.txt README.md build.stamp documentation fontbakery.yml fonts qa requirements.txt scripts sources subset-files venv Partially fixes the position of some dotted circle anchors. (#7)\n",
-     "published": "2022-10-06T14:28:53",
-     "url": "https://github.com/notofonts/syloti-nagri/releases/tag/NotoSansSylotiNagri-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Syloti Nagri v2.004 This release fixes a number of issues with attachment of accents to the dotted circle glyph. (#7)\n",
+     "published": "2023-06-23T10:58:51",
+     "url": "https://github.com/notofonts/syloti-nagri/releases/tag/NotoSansSylotiNagri-v2.004",
+     "version": "v2.004"
     },
     "third_party_versions": {
      "Android 12": {
@@ -17759,7 +17798,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "2.003"
      },
      "iOS 16.1": {
@@ -17778,18 +17817,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/syloti-nagri",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 5,
   "issues": [
-   {
-    "number": 8,
-    "title": "U+A826 SYLOTI NAGRI VOWEL SIGN E overlaps other glyphs",
-    "url": "https://github.com/notofonts/syloti-nagri/issues/8"
-   },
-   {
-    "number": 7,
-    "title": "Marks are positioned badly above U+25CC DOTTED CIRCLE",
-    "url": "https://github.com/notofonts/syloti-nagri/issues/7"
-   },
    {
     "number": 5,
     "title": "Syloti is poorly hinted in W10/GDI",
@@ -22073,8 +22102,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/zanabazar-square",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 8,
+    "title": "U+11A3A ZANABAZAR SQUARE CLUSTER-INITIAL LETTER RA reorders",
+    "url": "https://github.com/notofonts/zanabazar-square/issues/8"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/zanabazar-square",
   "tier": 3,
   "title": "Noto Zanabazar Square"

@@ -1895,21 +1895,23 @@
     "files": [
      "fonts/NotoSansCoptic/full/ttf/NotoSansCoptic-Regular.ttf",
      "fonts/NotoSansCoptic/full/otf/NotoSansCoptic-Regular.otf",
-     "fonts/NotoSansCoptic/googlefonts/ttf/NotoSansCoptic-Regular.ttf",
+     "fonts/NotoSansCoptic/hinted/ttf/NotoSansCoptic-Regular.ttf",
+     "fonts/NotoSansCoptic/unhinted/slim-otf/NotoSansCoptic-Regular.otf",
      "fonts/NotoSansCoptic/unhinted/ttf/NotoSansCoptic-Regular.ttf",
      "fonts/NotoSansCoptic/unhinted/otf/NotoSansCoptic-Regular.otf",
-     "fonts/NotoSansCoptic/hinted/ttf/NotoSansCoptic-Regular.ttf"
+     "fonts/NotoSansCoptic/googlefonts/ttf/NotoSansCoptic-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Coptic v2.002\n\nThis is an administrative release; it fixes a number of fontbakery fails.\n",
-     "published": "2022-08-24T14:36:32",
-     "url": "https://github.com/notofonts/coptic/releases/tag/NotoSansCoptic-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Sans Coptic v2.003\n\nThis release:\n\n- Changes the size of the ARABIC NUMBER MARK ABOVE dependent on the digits below. (#1)\n- Changes the position of the middle dot after capital letters. (#2)\n",
+     "published": "2023-06-23T09:56:35",
+     "url": "https://github.com/notofonts/coptic/releases/tag/NotoSansCoptic-v2.003",
+     "version": "v2.003"
     }
    }
   },
   "known_releases": [
-   "NotoSansCoptic-v2.002"
+   "NotoSansCoptic-v2.002",
+   "NotoSansCoptic-v2.003"
   ]
  },
  "cuneiform": {
@@ -4728,46 +4730,47 @@
   "families": {
    "Noto Sans Hanifi Rohingya": {
     "files": [
-     "fonts/NotoSansHanifiRohingya/full/slim-variable-ttf/NotoSansHanifiRohingya[wght].ttf",
-     "fonts/NotoSansHanifiRohingya/full/ttf/NotoSansHanifiRohingya-Bold.ttf",
      "fonts/NotoSansHanifiRohingya/full/ttf/NotoSansHanifiRohingya-Medium.ttf",
-     "fonts/NotoSansHanifiRohingya/full/ttf/NotoSansHanifiRohingya-SemiBold.ttf",
+     "fonts/NotoSansHanifiRohingya/full/ttf/NotoSansHanifiRohingya-Bold.ttf",
      "fonts/NotoSansHanifiRohingya/full/ttf/NotoSansHanifiRohingya-Regular.ttf",
-     "fonts/NotoSansHanifiRohingya/full/variable-ttf/NotoSansHanifiRohingya[wght].ttf",
-     "fonts/NotoSansHanifiRohingya/full/otf/NotoSansHanifiRohingya-Medium.otf",
-     "fonts/NotoSansHanifiRohingya/full/otf/NotoSansHanifiRohingya-Bold.otf",
-     "fonts/NotoSansHanifiRohingya/full/otf/NotoSansHanifiRohingya-SemiBold.otf",
+     "fonts/NotoSansHanifiRohingya/full/ttf/NotoSansHanifiRohingya-SemiBold.ttf",
      "fonts/NotoSansHanifiRohingya/full/otf/NotoSansHanifiRohingya-Regular.otf",
-     "fonts/NotoSansHanifiRohingya/googlefonts/ttf/NotoSansHanifiRohingya-Bold.ttf",
-     "fonts/NotoSansHanifiRohingya/googlefonts/ttf/NotoSansHanifiRohingya-Medium.ttf",
-     "fonts/NotoSansHanifiRohingya/googlefonts/ttf/NotoSansHanifiRohingya-SemiBold.ttf",
-     "fonts/NotoSansHanifiRohingya/googlefonts/ttf/NotoSansHanifiRohingya-Regular.ttf",
-     "fonts/NotoSansHanifiRohingya/googlefonts/variable-ttf/NotoSansHanifiRohingya[wght].ttf",
-     "fonts/NotoSansHanifiRohingya/unhinted/slim-variable-ttf/NotoSansHanifiRohingya[wght].ttf",
-     "fonts/NotoSansHanifiRohingya/unhinted/ttf/NotoSansHanifiRohingya-Bold.ttf",
-     "fonts/NotoSansHanifiRohingya/unhinted/ttf/NotoSansHanifiRohingya-Medium.ttf",
-     "fonts/NotoSansHanifiRohingya/unhinted/ttf/NotoSansHanifiRohingya-SemiBold.ttf",
-     "fonts/NotoSansHanifiRohingya/unhinted/ttf/NotoSansHanifiRohingya-Regular.ttf",
-     "fonts/NotoSansHanifiRohingya/unhinted/variable-ttf/NotoSansHanifiRohingya[wght].ttf",
-     "fonts/NotoSansHanifiRohingya/unhinted/otf/NotoSansHanifiRohingya-Medium.otf",
-     "fonts/NotoSansHanifiRohingya/unhinted/otf/NotoSansHanifiRohingya-Bold.otf",
-     "fonts/NotoSansHanifiRohingya/unhinted/otf/NotoSansHanifiRohingya-SemiBold.otf",
-     "fonts/NotoSansHanifiRohingya/unhinted/otf/NotoSansHanifiRohingya-Regular.otf",
-     "fonts/NotoSansHanifiRohingya/hinted/ttf/NotoSansHanifiRohingya-Bold.ttf",
+     "fonts/NotoSansHanifiRohingya/full/otf/NotoSansHanifiRohingya-SemiBold.otf",
+     "fonts/NotoSansHanifiRohingya/full/otf/NotoSansHanifiRohingya-Bold.otf",
+     "fonts/NotoSansHanifiRohingya/full/otf/NotoSansHanifiRohingya-Medium.otf",
+     "fonts/NotoSansHanifiRohingya/full/variable-ttf/NotoSansHanifiRohingya[wght].ttf",
+     "fonts/NotoSansHanifiRohingya/full/slim-variable-ttf/NotoSansHanifiRohingya[wght].ttf",
      "fonts/NotoSansHanifiRohingya/hinted/ttf/NotoSansHanifiRohingya-Medium.ttf",
+     "fonts/NotoSansHanifiRohingya/hinted/ttf/NotoSansHanifiRohingya-Bold.ttf",
+     "fonts/NotoSansHanifiRohingya/hinted/ttf/NotoSansHanifiRohingya-Regular.ttf",
      "fonts/NotoSansHanifiRohingya/hinted/ttf/NotoSansHanifiRohingya-SemiBold.ttf",
-     "fonts/NotoSansHanifiRohingya/hinted/ttf/NotoSansHanifiRohingya-Regular.ttf"
+     "fonts/NotoSansHanifiRohingya/unhinted/ttf/NotoSansHanifiRohingya-Medium.ttf",
+     "fonts/NotoSansHanifiRohingya/unhinted/ttf/NotoSansHanifiRohingya-Bold.ttf",
+     "fonts/NotoSansHanifiRohingya/unhinted/ttf/NotoSansHanifiRohingya-Regular.ttf",
+     "fonts/NotoSansHanifiRohingya/unhinted/ttf/NotoSansHanifiRohingya-SemiBold.ttf",
+     "fonts/NotoSansHanifiRohingya/unhinted/otf/NotoSansHanifiRohingya-Regular.otf",
+     "fonts/NotoSansHanifiRohingya/unhinted/otf/NotoSansHanifiRohingya-SemiBold.otf",
+     "fonts/NotoSansHanifiRohingya/unhinted/otf/NotoSansHanifiRohingya-Bold.otf",
+     "fonts/NotoSansHanifiRohingya/unhinted/otf/NotoSansHanifiRohingya-Medium.otf",
+     "fonts/NotoSansHanifiRohingya/unhinted/variable-ttf/NotoSansHanifiRohingya[wght].ttf",
+     "fonts/NotoSansHanifiRohingya/unhinted/slim-variable-ttf/NotoSansHanifiRohingya[wght].ttf",
+     "fonts/NotoSansHanifiRohingya/googlefonts/ttf/NotoSansHanifiRohingya-Medium.ttf",
+     "fonts/NotoSansHanifiRohingya/googlefonts/ttf/NotoSansHanifiRohingya-Bold.ttf",
+     "fonts/NotoSansHanifiRohingya/googlefonts/ttf/NotoSansHanifiRohingya-Regular.ttf",
+     "fonts/NotoSansHanifiRohingya/googlefonts/ttf/NotoSansHanifiRohingya-SemiBold.ttf",
+     "fonts/NotoSansHanifiRohingya/googlefonts/variable-ttf/NotoSansHanifiRohingya[wght].ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Hanifi Rohingya v2.101\n\nThis is an administrative release; it fixes a number of fontbakery\nfails.\n",
-     "published": "2022-08-23T13:42:50",
-     "url": "https://github.com/notofonts/hanifi-rohingya/releases/tag/NotoSansHanifiRohingya-v2.101",
-     "version": "v2.101"
+     "notes": "This release fixes some collisions between tassi and tana marks (#2)",
+     "published": "2023-06-23T08:55:00",
+     "url": "https://github.com/notofonts/hanifi-rohingya/releases/tag/NotoSansHanifiRohingya-v2.102",
+     "version": "v2.102"
     }
    }
   },
   "known_releases": [
-   "NotoSansHanifiRohingya-v2.101"
+   "NotoSansHanifiRohingya-v2.101",
+   "NotoSansHanifiRohingya-v2.102"
   ]
  },
  "hanunoo": {
@@ -6475,45 +6478,46 @@
   "families": {
    "Noto Sans Khojki": {
     "files": [
+     "fonts/NotoSansKhojki/full/ttf/NotoSansKhojki-Regular.ttf",
+     "fonts/NotoSansKhojki/full/otf/NotoSansKhojki-Regular.otf",
      "fonts/NotoSansKhojki/hinted/ttf/NotoSansKhojki-Regular.ttf",
-     "fonts/NotoSansKhojki/googlefonts/ttf/NotoSansKhojki-Regular.ttf",
+     "fonts/NotoSansKhojki/unhinted/slim-otf/NotoSansKhojki-Regular.otf",
      "fonts/NotoSansKhojki/unhinted/ttf/NotoSansKhojki-Regular.ttf",
      "fonts/NotoSansKhojki/unhinted/otf/NotoSansKhojki-Regular.otf",
-     "fonts/NotoSansKhojki/full/ttf/NotoSansKhojki-Regular.ttf",
-     "fonts/NotoSansKhojki/full/otf/NotoSansKhojki-Regular.otf"
+     "fonts/NotoSansKhojki/googlefonts/ttf/NotoSansKhojki-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Khojki v2.003 This release fixes a bug whereby certain consonants before YA would be erroneously deleted.\n",
-     "published": "2022-09-28T06:28:47",
-     "url": "https://github.com/notofonts/khojki/releases/tag/NotoSansKhojki-v2.003",
-     "version": "v2.003"
+     "notes": "This release:\r\n\r\n* Ensures that the KSA ligature is produced even in the context of other marks (#8)\r\n* Breaks ligatures when using alternate nukta (#1)",
+     "published": "2023-06-23T07:36:06",
+     "url": "https://github.com/notofonts/khojki/releases/tag/NotoSansKhojki-v2.004",
+     "version": "v2.004"
     }
    },
    "Noto Serif Khojki": {
     "files": [
-     "fonts/NotoSerifKhojki/hinted/ttf/NotoSerifKhojki-Bold.ttf",
-     "fonts/NotoSerifKhojki/hinted/ttf/NotoSerifKhojki-Regular.ttf",
-     "fonts/NotoSerifKhojki/unhinted/otf/NotoSerifKhojki-Regular.otf",
-     "fonts/NotoSerifKhojki/unhinted/otf/NotoSerifKhojki-Bold.otf",
-     "fonts/NotoSerifKhojki/unhinted/variable-ttf/NotoSerifKhojki[wght].ttf",
-     "fonts/NotoSerifKhojki/unhinted/ttf/NotoSerifKhojki-Bold.ttf",
-     "fonts/NotoSerifKhojki/unhinted/ttf/NotoSerifKhojki-Regular.ttf",
-     "fonts/NotoSerifKhojki/unhinted/slim-variable-ttf/NotoSerifKhojki[wght].ttf",
+     "fonts/NotoSerifKhojki/full/ttf/NotoSerifKhojki-Bold.ttf",
+     "fonts/NotoSerifKhojki/full/ttf/NotoSerifKhojki-Regular.ttf",
      "fonts/NotoSerifKhojki/full/otf/NotoSerifKhojki-Regular.otf",
      "fonts/NotoSerifKhojki/full/otf/NotoSerifKhojki-Bold.otf",
      "fonts/NotoSerifKhojki/full/variable-ttf/NotoSerifKhojki[wght].ttf",
-     "fonts/NotoSerifKhojki/full/ttf/NotoSerifKhojki-Bold.ttf",
-     "fonts/NotoSerifKhojki/full/ttf/NotoSerifKhojki-Regular.ttf",
      "fonts/NotoSerifKhojki/full/slim-variable-ttf/NotoSerifKhojki[wght].ttf",
-     "fonts/NotoSerifKhojki/googlefonts/variable-ttf/NotoSerifKhojki[wght].ttf",
+     "fonts/NotoSerifKhojki/hinted/ttf/NotoSerifKhojki-Bold.ttf",
+     "fonts/NotoSerifKhojki/hinted/ttf/NotoSerifKhojki-Regular.ttf",
+     "fonts/NotoSerifKhojki/unhinted/ttf/NotoSerifKhojki-Bold.ttf",
+     "fonts/NotoSerifKhojki/unhinted/ttf/NotoSerifKhojki-Regular.ttf",
+     "fonts/NotoSerifKhojki/unhinted/otf/NotoSerifKhojki-Regular.otf",
+     "fonts/NotoSerifKhojki/unhinted/otf/NotoSerifKhojki-Bold.otf",
+     "fonts/NotoSerifKhojki/unhinted/variable-ttf/NotoSerifKhojki[wght].ttf",
+     "fonts/NotoSerifKhojki/unhinted/slim-variable-ttf/NotoSerifKhojki[wght].ttf",
      "fonts/NotoSerifKhojki/googlefonts/ttf/NotoSerifKhojki-Bold.ttf",
-     "fonts/NotoSerifKhojki/googlefonts/ttf/NotoSerifKhojki-Regular.ttf"
+     "fonts/NotoSerifKhojki/googlefonts/ttf/NotoSerifKhojki-Regular.ttf",
+     "fonts/NotoSerifKhojki/googlefonts/variable-ttf/NotoSerifKhojki[wght].ttf"
     ],
     "latest_release": {
-     "notes": "Noto Serif Khojki v2.003 This release fixes an interpolation issue with the ra_iMatra-khoj glyph.\n",
-     "published": "2022-11-02T12:27:20",
-     "url": "https://github.com/notofonts/khojki/releases/tag/NotoSerifKhojki-v2.003",
-     "version": "v2.003"
+     "notes": "This release:\r\n\r\n* Encodes the letter \"qa\" (#10)\r\n* Allows the nukta to attach to the dotted circle (#11)\r\n* Removes the Gujarati reph (#9)\r\n* Improves anchor positioning, including correct attachment of top matras (#7)\r\n",
+     "published": "2023-06-23T07:32:38",
+     "url": "https://github.com/notofonts/khojki/releases/tag/NotoSerifKhojki-v2.004",
+     "version": "v2.004"
     }
    }
   },
@@ -6521,7 +6525,9 @@
    "NotoSerifKhojki-v2.002",
    "NotoSansKhojki-v2.002",
    "NotoSansKhojki-v2.003",
-   "NotoSerifKhojki-v2.003"
+   "NotoSerifKhojki-v2.003",
+   "NotoSerifKhojki-v2.004",
+   "NotoSansKhojki-v2.004"
   ]
  },
  "khudawadi": {
@@ -9989,21 +9995,51 @@
     "files": [
      "fonts/NotoSansNKo/full/ttf/NotoSansNKo-Regular.ttf",
      "fonts/NotoSansNKo/full/otf/NotoSansNKo-Regular.otf",
-     "fonts/NotoSansNKo/googlefonts/ttf/NotoSansNKo-Regular.ttf",
+     "fonts/NotoSansNKo/hinted/ttf/NotoSansNKo-Regular.ttf",
+     "fonts/NotoSansNKo/unhinted/slim-otf/NotoSansNKo-Regular.otf",
      "fonts/NotoSansNKo/unhinted/ttf/NotoSansNKo-Regular.ttf",
      "fonts/NotoSansNKo/unhinted/otf/NotoSansNKo-Regular.otf",
-     "fonts/NotoSansNKo/hinted/ttf/NotoSansNKo-Regular.ttf"
+     "fonts/NotoSansNKo/googlefonts/ttf/NotoSansNKo-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans NKo v2.003\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-01T14:12:15",
-     "url": "https://github.com/notofonts/nko/releases/tag/NotoSansNKo-v2.003",
-     "version": "v2.003"
+     "notes": "This release:\r\n\r\n* Adjust the size of the dorome, thanks to Neil Patel\r\n* Reshapes the tone marks to make them easily distinguishable (#3)\r\n* Sets above marks at a constant height (#7)\r\n* Add spaces around Dantayalan where necessary (#5)",
+     "published": "2023-06-23T08:45:44",
+     "url": "https://github.com/notofonts/nko/releases/tag/NotoSansNKo-v2.004",
+     "version": "v2.004"
+    }
+   },
+   "Noto Sans NKo Unjoined": {
+    "files": [
+     "fonts/NotoSansNKoUnjoined/full/ttf/NotoSansNKoUnjoined-Regular.ttf",
+     "fonts/NotoSansNKoUnjoined/full/ttf/NotoSansNKoUnjoined-Bold.ttf",
+     "fonts/NotoSansNKoUnjoined/full/otf/NotoSansNKoUnjoined-Bold.otf",
+     "fonts/NotoSansNKoUnjoined/full/otf/NotoSansNKoUnjoined-Regular.otf",
+     "fonts/NotoSansNKoUnjoined/full/variable-ttf/NotoSansNKoUnjoined[wght].ttf",
+     "fonts/NotoSansNKoUnjoined/full/slim-variable-ttf/NotoSansNKoUnjoined[wght].ttf",
+     "fonts/NotoSansNKoUnjoined/hinted/ttf/NotoSansNKoUnjoined-Regular.ttf",
+     "fonts/NotoSansNKoUnjoined/hinted/ttf/NotoSansNKoUnjoined-Bold.ttf",
+     "fonts/NotoSansNKoUnjoined/unhinted/ttf/NotoSansNKoUnjoined-Regular.ttf",
+     "fonts/NotoSansNKoUnjoined/unhinted/ttf/NotoSansNKoUnjoined-Bold.ttf",
+     "fonts/NotoSansNKoUnjoined/unhinted/otf/NotoSansNKoUnjoined-Bold.otf",
+     "fonts/NotoSansNKoUnjoined/unhinted/otf/NotoSansNKoUnjoined-Regular.otf",
+     "fonts/NotoSansNKoUnjoined/unhinted/variable-ttf/NotoSansNKoUnjoined[wght].ttf",
+     "fonts/NotoSansNKoUnjoined/unhinted/slim-variable-ttf/NotoSansNKoUnjoined[wght].ttf",
+     "fonts/NotoSansNKoUnjoined/googlefonts/ttf/NotoSansNKoUnjoined-Regular.ttf",
+     "fonts/NotoSansNKoUnjoined/googlefonts/ttf/NotoSansNKoUnjoined-Bold.ttf",
+     "fonts/NotoSansNKoUnjoined/googlefonts/variable-ttf/NotoSansNKoUnjoined[wght].ttf"
+    ],
+    "latest_release": {
+     "notes": "This is a new font for display purposes, based on Noto Sans NKo with modifications to add a second weight by myself and Neil Patel.",
+     "published": "2023-06-23T08:45:37",
+     "url": "https://github.com/notofonts/nko/releases/tag/NotoSansNKoUnjoined-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "known_releases": [
-   "NotoSansNKo-v2.003"
+   "NotoSansNKo-v2.003",
+   "NotoSansNKoUnjoined-v2.004",
+   "NotoSansNKo-v2.004"
   ]
  },
  "nushu": {
@@ -11669,24 +11705,26 @@
   "families": {
    "Noto Sans Syloti Nagri": {
     "files": [
+     "fonts/NotoSansSylotiNagri/full/ttf/NotoSansSylotiNagri-Regular.ttf",
+     "fonts/NotoSansSylotiNagri/full/otf/NotoSansSylotiNagri-Regular.otf",
      "fonts/NotoSansSylotiNagri/hinted/ttf/NotoSansSylotiNagri-Regular.ttf",
-     "fonts/NotoSansSylotiNagri/googlefonts/ttf/NotoSansSylotiNagri-Regular.ttf",
+     "fonts/NotoSansSylotiNagri/unhinted/slim-otf/NotoSansSylotiNagri-Regular.otf",
      "fonts/NotoSansSylotiNagri/unhinted/ttf/NotoSansSylotiNagri-Regular.ttf",
      "fonts/NotoSansSylotiNagri/unhinted/otf/NotoSansSylotiNagri-Regular.otf",
-     "fonts/NotoSansSylotiNagri/full/ttf/NotoSansSylotiNagri-Regular.ttf",
-     "fonts/NotoSansSylotiNagri/full/otf/NotoSansSylotiNagri-Regular.otf"
+     "fonts/NotoSansSylotiNagri/googlefonts/ttf/NotoSansSylotiNagri-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Syloti Nagri v2.003 This release: AUTHORS.txt CONTRIBUTORS.txt Makefile OFL.txt README.md build.stamp documentation fontbakery.yml fonts qa requirements.txt scripts sources subset-files venv Fixes a problem where postbase vowels collided with subsequent letters. (#6) AUTHORS.txt CONTRIBUTORS.txt Makefile OFL.txt README.md build.stamp documentation fontbakery.yml fonts qa requirements.txt scripts sources subset-files venv Partially fixes the position of some dotted circle anchors. (#7)\n",
-     "published": "2022-10-06T14:28:53",
-     "url": "https://github.com/notofonts/syloti-nagri/releases/tag/NotoSansSylotiNagri-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Syloti Nagri v2.004 This release fixes a number of issues with attachment of accents to the dotted circle glyph. (#7)\n",
+     "published": "2023-06-23T10:58:51",
+     "url": "https://github.com/notofonts/syloti-nagri/releases/tag/NotoSansSylotiNagri-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "known_releases": [
    "NotoSansSylotiNagri-v2.002",
-   "NotoSansSylotiNagri-v2.003"
+   "NotoSansSylotiNagri-v2.003",
+   "NotoSansSylotiNagri-v2.004"
   ]
  },
  "symbols": {
