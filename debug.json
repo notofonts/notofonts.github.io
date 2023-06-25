@@ -19532,8 +19532,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tangsa",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 7,
+    "title": "Kerning is still mixed up",
+    "url": "https://github.com/notofonts/tangsa/issues/7"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/tangsa",
   "tier": 3,
   "title": "Noto Tangsa"

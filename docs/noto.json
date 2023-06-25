@@ -15640,7 +15640,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/tangsa",
-  "issues": [],
+  "issues": [
+   {
+    "number": 7,
+    "title": "Kerning is still mixed up",
+    "url": "https://github.com/notofonts/tangsa/issues/7"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/tangsa",
   "tier": 3,
   "title": "Noto Tangsa"
