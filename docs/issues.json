@@ -3,9 +3,9 @@
   "1": 146,
   "2": 79,
   "3": 95,
-  "4": 57,
+  "4": 55,
   "5": 50,
-  "6": 48
+  "6": 54
  },
  "open_per_repo": {
   "ahom": 3,
@@ -36,7 +36,6 @@
   "gujarati": 13,
   "gunjala-gondi": 1,
   "gurmukhi": 4,
-  "hanifi-rohingya": 1,
   "hanunoo": 1,
   "hebrew": 6,
   "inscriptional-pahlavi": 2,
@@ -47,9 +46,9 @@
   "kharoshthi": 1,
   "khitan-small-script": 1,
   "khmer": 5,
-  "khojki": 1,
+  "khojki": 8,
   "khudawadi": 1,
-  "latin-greek-cyrillic": 136,
+  "latin-greek-cyrillic": 135,
   "lydian": 2,
   "malayalam": 8,
   "mandaic": 3,
@@ -60,7 +59,7 @@
   "meroitic": 2,
   "miao": 1,
   "modi": 4,
-  "mongolian": 8,
+  "mongolian": 10,
   "multani": 1,
   "music": 2,
   "myanmar": 32,
@@ -70,35 +69,40 @@
   "old-hungarian-ui": 1,
   "old-italic": 1,
   "old-turkic": 2,
-  "oriya": 4,
+  "oriya": 5,
   "ottoman-siyaq-numbers": 1,
   "pahawh-hmong": 1,
   "phags-pa": 2,
   "psalter-pahlavi": 2,
+  "rejang": 1,
   "saurashtra": 1,
   "sharada": 3,
+  "siddham": 2,
   "sign-writing": 1,
   "sogdian": 1,
   "soyombo": 3,
-  "sundanese": 1,
-  "syloti-nagri": 7,
+  "sundanese": 2,
+  "syloti-nagri": 5,
   "symbols": 7,
   "syriac": 4,
   "tai-le": 1,
   "tai-tham": 1,
+  "tai-viet": 1,
   "takri": 1,
   "tamil": 2,
+  "tangsa": 1,
   "telugu": 3,
   "thai": 11,
   "tibetan": 4,
   "tifinagh": 2,
   "tirhuta": 10,
-  "yezidi": 2
+  "yezidi": 2,
+  "zanabazar-square": 1
  },
  "open_per_tier": {
   "1": 243,
   "2": 61,
-  "3": 71,
+  "3": 84,
   "4": 63,
   "5": 40
  },
@@ -108,7 +112,7 @@
   "3": 34,
   "4": 48,
   "5": 19,
-  "6": 16
+  "6": 33
  },
  "releases_per_month": {
   "1": [
@@ -310,6 +314,104 @@
     "tag": "NotoSansLinearA-v2.002",
     "url": "https://github.com/notofonts/linear-a/releases/tag/NotoSansLinearA-v2.002"
    }
+  ],
+  "6": [
+   {
+    "tag": "NotoSansCanadianAboriginal-v2.003",
+    "url": "https://github.com/notofonts/canadian-aboriginal/releases/tag/NotoSansCanadianAboriginal-v2.003"
+   },
+   {
+    "tag": "NotoSansCoptic-v2.003",
+    "url": "https://github.com/notofonts/coptic/releases/tag/NotoSansCoptic-v2.003"
+   },
+   {
+    "tag": "NotoSansHanifiRohingya-v2.102",
+    "url": "https://github.com/notofonts/hanifi-rohingya/releases/tag/NotoSansHanifiRohingya-v2.102"
+   },
+   {
+    "tag": "NotoSansHanunoo-v2.004",
+    "url": "https://github.com/notofonts/hanunoo/releases/tag/NotoSansHanunoo-v2.004"
+   },
+   {
+    "tag": "NotoSerifKhojki-v2.004",
+    "url": "https://github.com/notofonts/khojki/releases/tag/NotoSerifKhojki-v2.004"
+   },
+   {
+    "tag": "NotoSansKhojki-v2.004",
+    "url": "https://github.com/notofonts/khojki/releases/tag/NotoSansKhojki-v2.004"
+   },
+   {
+    "tag": "NotoSerifLao-v2.003",
+    "url": "https://github.com/notofonts/lao/releases/tag/NotoSerifLao-v2.003"
+   },
+   {
+    "tag": "NotoSansLaoLooped-v1.002",
+    "url": "https://github.com/notofonts/lao/releases/tag/NotoSansLaoLooped-v1.002"
+   },
+   {
+    "tag": "NotoSansLao-v2.003",
+    "url": "https://github.com/notofonts/lao/releases/tag/NotoSansLao-v2.003"
+   },
+   {
+    "tag": "NotoSansModi-v2.004",
+    "url": "https://github.com/notofonts/modi/releases/tag/NotoSansModi-v2.004"
+   },
+   {
+    "tag": "NotoMusic-v2.003",
+    "url": "https://github.com/notofonts/music/releases/tag/NotoMusic-v2.003"
+   },
+   {
+    "tag": "NotoSansNKoUnjoined-v2.004",
+    "url": "https://github.com/notofonts/nko/releases/tag/NotoSansNKoUnjoined-v2.004"
+   },
+   {
+    "tag": "NotoSansNKo-v2.004",
+    "url": "https://github.com/notofonts/nko/releases/tag/NotoSansNKo-v2.004"
+   },
+   {
+    "tag": "NotoSansOldTurkic-v2.003",
+    "url": "https://github.com/notofonts/old-turkic/releases/tag/NotoSansOldTurkic-v2.003"
+   },
+   {
+    "tag": "NotoSansRejang-v2.002",
+    "url": "https://github.com/notofonts/rejang/releases/tag/NotoSansRejang-v2.002"
+   },
+   {
+    "tag": "NotoSansSiddham-v2.005",
+    "url": "https://github.com/notofonts/siddham/releases/tag/NotoSansSiddham-v2.005"
+   },
+   {
+    "tag": "NotoSansGunjalaGondi-v1.004",
+    "url": "https://github.com/notofonts/gunjala-gondi/releases/tag/NotoSansGunjalaGondi-v1.004"
+   },
+   {
+    "tag": "NotoSansSundanese-v2.004",
+    "url": "https://github.com/notofonts/sundanese/releases/tag/NotoSansSundanese-v2.004"
+   },
+   {
+    "tag": "NotoSansSylotiNagri-v2.004",
+    "url": "https://github.com/notofonts/syloti-nagri/releases/tag/NotoSansSylotiNagri-v2.004"
+   },
+   {
+    "tag": "NotoSansTagalog-v2.002",
+    "url": "https://github.com/notofonts/tagalog/releases/tag/NotoSansTagalog-v2.002"
+   },
+   {
+    "tag": "NotoSansTaiViet-v2.004",
+    "url": "https://github.com/notofonts/tai-viet/releases/tag/NotoSansTaiViet-v2.004"
+   },
+   {
+    "tag": "NotoSansTakri-v2.004",
+    "url": "https://github.com/notofonts/takri/releases/tag/NotoSansTakri-v2.004"
+   },
+   {
+    "tag": "NotoSansTangsa-v1.505",
+    "url": "https://github.com/notofonts/tangsa/releases/tag/NotoSansTangsa-v1.505"
+   },
+   {
+    "tag": "NotoSansZanabazarSquare-v2.006",
+    "url": "https://github.com/notofonts/zanabazar-square/releases/tag/NotoSansZanabazarSquare-v2.006"
+   }
   ]
  },
  "totals_per_month": {
@@ -317,7 +419,7 @@
   "2": 673,
   "3": 611,
   "4": 550,
-  "5": 541,
-  "6": 510
+  "5": 543,
+  "6": 512
  }
 }
