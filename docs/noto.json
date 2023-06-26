@@ -7333,6 +7333,41 @@
   "gh_url": "https://notofonts.github.io/khojki",
   "issues": [
    {
+    "number": 19,
+    "title": "Inaccessible glyphs in Noto Serif Khojki",
+    "url": "https://github.com/notofonts/khojki/issues/19"
+   },
+   {
+    "number": 18,
+    "title": "`aiMatra_anusvarakhoj` is a base glyph in Noto Serif Khojki",
+    "url": "https://github.com/notofonts/khojki/issues/18"
+   },
+   {
+    "number": 17,
+    "title": "U+11230 KHOJKI VOWEL SIGN E should use alternative form more often in Noto Serif Khojki",
+    "url": "https://github.com/notofonts/khojki/issues/17"
+   },
+   {
+    "number": 16,
+    "title": "U+11236 KHOJKI SIGN NUKTA blocks conjuncts in Noto Serif Khojki",
+    "url": "https://github.com/notofonts/khojki/issues/16"
+   },
+   {
+    "number": 15,
+    "title": "<U+11236 NUKTA, U+1123E SUKUN> is ordered inconsistently in Noto Serif Khojki",
+    "url": "https://github.com/notofonts/khojki/issues/15"
+   },
+   {
+    "number": 14,
+    "title": "Incomplete 'ss02' for U+11236 KHOJKI SIGN NUKTA in Noto Serif Khojki",
+    "url": "https://github.com/notofonts/khojki/issues/14"
+   },
+   {
+    "number": 13,
+    "title": "Marks block 'dist' in Noto Sans Khojki",
+    "url": "https://github.com/notofonts/khojki/issues/13"
+   },
+   {
     "number": 12,
     "title": "11240 is still missing",
     "url": "https://github.com/notofonts/khojki/issues/12"
