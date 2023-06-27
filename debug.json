@@ -1304,8 +1304,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/balinese",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 10,
   "issues": [
+   {
+    "number": 33,
+    "title": "Characters overlap in Sans: \u1b24\u1b3e\u1b26\u1b44\u1b27\u1b32\u1b03",
+    "url": "https://github.com/notofonts/balinese/issues/33"
+   },
    {
     "number": 32,
     "title": "Serif: still no U14",
@@ -8990,8 +8995,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/khojki",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 9,
   "issues": [
+   {
+    "number": 20,
+    "title": "Below-base ra blocks post-base ya in Noto Serif Khojki",
+    "url": "https://github.com/notofonts/khojki/issues/20"
+   },
    {
     "number": 19,
     "title": "Inaccessible glyphs in Noto Serif Khojki",
@@ -15850,8 +15860,18 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/oriya",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 26,
+    "title": "Serif: 0B55 is still missing",
+    "url": "https://github.com/notofonts/oriya/issues/26"
+   },
+   {
+    "number": 25,
+    "title": "Serif: 0B63 has advance width of 508",
+    "url": "https://github.com/notofonts/oriya/issues/25"
+   },
    {
     "number": 24,
     "title": "Troubles with dotted circle",
@@ -18006,8 +18026,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/symbols",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 71,
+    "title": "Fix build (1F7D9 merge broke build)",
+    "url": "https://github.com/notofonts/symbols/pull/71"
+   },
    {
     "number": 70,
     "title": "Support block elements 2580\u20269F in Symbol2",
@@ -18017,16 +18042,6 @@
     "number": 69,
     "title": "Missing glyphs (consolidated)",
     "url": "https://github.com/notofonts/symbols/issues/69"
-   },
-   {
-    "number": 66,
-    "title": "Add Nine Pointed White Star to Symbols2",
-    "url": "https://github.com/notofonts/symbols/pull/66"
-   },
-   {
-    "number": 64,
-    "title": "Unicode 15 Addition of U+1F7D9 NINE POINTED WHITE STAR",
-    "url": "https://github.com/notofonts/symbols/issues/64"
    },
    {
     "number": 2,
