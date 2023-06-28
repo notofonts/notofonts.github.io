@@ -2024,21 +2024,15 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Cham v2.002\n\nThis release:\n* Fixes a number of fontbakery fails\n* Adds a dotless double danda as a stylistic set. (Fixes #1)\n* Uses locl feature for Cham punctuation. (Fixes #2.\n* Use rlig instead of liga for require features. (Fixes #3.)\n* Fixes a number of mark sequence collisions which were failing to ligate.\n* Adds kerning for mark sequences. (Fixes #4.)\n* Reduces kerning between aa-space-ra. (Fixes #5.)\n",
-     "published": "2022-08-24T12:09:05",
-     "url": "https://github.com/notofonts/cham/releases/tag/NotoSansCham-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Sans Cham v2.003\n\nThis release:\n\n- Fixes many collisions between subjoined marks and following bases (#7)\n- Swaps the order of features to allow the calt feature to apply (#8)\n",
+     "published": "2023-06-27T09:08:37",
+     "url": "https://github.com/notofonts/cham/releases/tag/NotoSansCham-v2.003",
+     "version": "v2.003"
     }
    }
   },
   "gh_url": "https://notofonts.github.io/cham",
-  "issues": [
-   {
-    "number": 7,
-    "title": "Subjoined marks overlap glyphs in following clusters",
-    "url": "https://github.com/notofonts/cham/issues/7"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/cham",
   "tier": 3,
   "title": "Noto Cham"
@@ -7338,6 +7332,11 @@
   "gh_url": "https://notofonts.github.io/khojki",
   "issues": [
    {
+    "number": 21,
+    "title": "U+1123E KHOJKI SIGN SUKUN is placed inconsistently in Noto Serif Khojki",
+    "url": "https://github.com/notofonts/khojki/issues/21"
+   },
+   {
     "number": 20,
     "title": "Below-base ra blocks post-base ya in Noto Serif Khojki",
     "url": "https://github.com/notofonts/khojki/issues/20"
@@ -12216,7 +12215,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/nko",
-  "issues": [],
+  "issues": [
+   {
+    "number": 12,
+    "title": "Italic variants of Noto Sans N'Ko and N'Ko Unjoined are needed",
+    "url": "https://github.com/notofonts/nko/issues/12"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/nko",
   "tier": 3,
   "title": "Noto N' Ko"
@@ -12427,14 +12432,15 @@
      ],
      "unhinted": [
       "fonts/NotoSansOldHungarian/unhinted/otf/NotoSansOldHungarian-Regular.otf",
+      "fonts/NotoSansOldHungarian/unhinted/slim-otf/NotoSansOldHungarian-Regular.otf",
       "fonts/NotoSansOldHungarian/unhinted/ttf/NotoSansOldHungarian-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Old Hungarian v2.004\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-24T14:02:52",
-     "url": "https://github.com/notofonts/old-hungarian/releases/tag/NotoSansOldHungarian-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Old Hungarian v2.005\n\nThis version adds a number of punctuation signs mentioned in the Unicode poposal to full builds of this font.\n",
+     "published": "2023-06-27T09:51:04",
+     "url": "https://github.com/notofonts/old-hungarian/releases/tag/NotoSansOldHungarian-v2.005",
+     "version": "v2.005"
     }
    }
   },
@@ -13486,14 +13492,15 @@
      ],
      "unhinted": [
       "fonts/NotoSansSignWriting/unhinted/otf/NotoSansSignWriting-Regular.otf",
+      "fonts/NotoSansSignWriting/unhinted/slim-otf/NotoSansSignWriting-Regular.otf",
       "fonts/NotoSansSignWriting/unhinted/ttf/NotoSansSignWriting-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans SignWriting 2.004 This release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-12T09:35:42",
-     "url": "https://github.com/notofonts/sign-writing/releases/tag/NotoSansSignWriting-v2.004",
-     "version": "v2.004"
+     "notes": "This release: \r\n\r\n- Allows additional marks on the modified forms of the head (#6) \r\n- Allows multiple modifier marks on the face (#2) \r\n- Ensure that marks correctly overlay onto the head (#4",
+     "published": "2023-06-27T07:07:47",
+     "url": "https://github.com/notofonts/sign-writing/releases/tag/NotoSansSignWriting-v2.005",
+     "version": "v2.005"
     }
    }
   },
@@ -14407,10 +14414,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Symbols v2.002\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-14T12:57:33",
-     "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Sans Symbols v2.003\n\nThis release:\n\n- fixes a number of contour issues due to glyphs having open corners\n- improves the positioning of combining marks (#23)\n- fixes the presentation of circled zeroes (#15)\n",
+     "published": "2023-06-27T13:24:27",
+     "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols-v2.003",
+     "version": "v2.003"
     }
    },
    "Noto Sans Symbols2": {
@@ -14429,25 +14436,15 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Symbols2 v2.006\n\nThis release:\n\n* Adds support for Kaktovik Numerals (thanks to Kevin King)\n* Improves the spacing of tau-rho (#21)\n* Raises the baseline of some transport glyphs (#30)\n* Uses components and rotation to make fleurons consistent (#31)\n* Fixes the heraldic hatching of orange circle/square (#22)\n* Adjusts the anchor on the Coptic epact thousands mark (#25)\n* Improves the design of the Mahjongg circles suit (#3)\n* Fixes an issue where the rotated pawn was not rotated (#20)\n",
-     "published": "2023-03-21T13:21:46",
-     "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols2-v2.006",
-     "version": "v2.006"
+     "notes": "Noto Sans Symbols2 v2.007\n\nThis release:\n\n- Adds U+1F7D9 NINE POINTED WHITE STAR (Thanks to Joop Kiefte, #66)\n- Improve stroke position in Phaistos disc symbols (#11)\n",
+     "published": "2023-06-27T11:38:09",
+     "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols2-v2.007",
+     "version": "v2.007"
     }
    }
   },
   "gh_url": "https://notofonts.github.io/symbols",
   "issues": [
-   {
-    "number": 71,
-    "title": "Fix build (1F7D9 merge broke build)",
-    "url": "https://github.com/notofonts/symbols/pull/71"
-   },
-   {
-    "number": 70,
-    "title": "Support block elements 2580\u20269F in Symbol2",
-    "url": "https://github.com/notofonts/symbols/issues/70"
-   },
    {
     "number": 69,
     "title": "Missing glyphs (consolidated)",
