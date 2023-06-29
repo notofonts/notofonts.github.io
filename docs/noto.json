@@ -3034,19 +3034,9 @@
   "gh_url": "https://notofonts.github.io/dogra",
   "issues": [
    {
-    "number": 13,
-    "title": "\u27e8\ud806\udc0e\ud806\udc2c\u27e9 with 'ss02' has a gap in the headstroke",
-    "url": "https://github.com/notofonts/dogra/issues/13"
-   },
-   {
     "number": 12,
     "title": "U+093D DEVANAGARI SIGN AVAGRAHA is copied from Noto Serif Devanagari",
     "url": "https://github.com/notofonts/dogra/issues/12"
-   },
-   {
-    "number": 11,
-    "title": "'ss02' reorders U+1182D DOGRA VOWEL SIGN I inconsistently in \u27e8\ud806\udc27\ud806\udc39\ud806\udc24\ud806\udc2d\u27e9",
-    "url": "https://github.com/notofonts/dogra/issues/11"
    },
    {
     "number": 7,
@@ -3182,11 +3172,6 @@
     "number": 2,
     "title": "Missing Greek diacritics in Noto Sans Elbasan",
     "url": "https://github.com/notofonts/elbasan/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Misplaced U+0305 COMBINING OVERLINE in Elbasan",
-    "url": "https://github.com/notofonts/elbasan/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/elbasan",
@@ -4196,33 +4181,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/grantha",
-  "issues": [
-   {
-    "number": 20,
-    "title": "Anusvara blocks kerning",
-    "url": "https://github.com/notofonts/grantha/issues/20"
-   },
-   {
-    "number": 19,
-    "title": "Extra space in \u201cAdditional ligatures (jjnya/ shva)\u201d",
-    "url": "https://github.com/notofonts/grantha/issues/19"
-   },
-   {
-    "number": 18,
-    "title": "'ss02' is incomplete",
-    "url": "https://github.com/notofonts/grantha/issues/18"
-   },
-   {
-    "number": 17,
-    "title": "'ss01' is incomplete",
-    "url": "https://github.com/notofonts/grantha/issues/17"
-   },
-   {
-    "number": 4,
-    "title": "Sloppy contextualization of Grantha letters with descenders",
-    "url": "https://github.com/notofonts/grantha/issues/4"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/grantha",
   "tier": 4,
   "title": "Noto Grantha"
@@ -5983,18 +5942,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/inscriptional-pahlavi",
-  "issues": [
-   {
-    "number": 2,
-    "title": "Overlapping U+10B61 INSCRIPTIONAL PAHLAVI LETTER BETH",
-    "url": "https://github.com/notofonts/inscriptional-pahlavi/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Unnecessary kerning in Noto Sans Inscriptional Pahlavi",
-    "url": "https://github.com/notofonts/inscriptional-pahlavi/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/inscriptional-pahlavi",
   "tier": 5,
   "title": "Noto Inscriptional Pahlavi"
@@ -6055,26 +6003,15 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Javanese v2.004\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes an issue where some pasangan forms took a second level instead of first level position (#3)\n* fixes an issue where above mark ligatures were not being formed (#7)\n",
-     "published": "2022-09-06T09:47:37",
-     "url": "https://github.com/notofonts/javanese/releases/tag/NotoSansJavanese-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Javanese 2.005\n\nThis release:\n\n- Adds a second level pasangan stack (#2)\n- Allows cakra ligatures around above marks (#7)\n",
+     "published": "2023-06-28T10:43:24",
+     "url": "https://github.com/notofonts/javanese/releases/tag/NotoSansJavanese-v2.005",
+     "version": "v2.005"
     }
    }
   },
   "gh_url": "https://notofonts.github.io/javanese",
-  "issues": [
-   {
-    "number": 7,
-    "title": "Ligatures with U+A9B3 JAVANESE SIGN CECAK TELU block ligatures with U+A9BF JAVANESE CONSONANT SIGN CAKRA",
-    "url": "https://github.com/notofonts/javanese/issues/7"
-   },
-   {
-    "number": 2,
-    "title": "Problems on Pasangans on Noto Sans Javanese ",
-    "url": "https://github.com/notofonts/javanese/issues/2"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/javanese",
   "tier": 3,
   "title": "Noto Javanese"
@@ -6658,14 +6595,40 @@
   "title": "Noto Kannada"
  },
  "kawi": {
-  "families": {},
+  "families": {
+   "Noto Sans Kawi": {
+    "files": {
+     "full": [
+      "fonts/NotoSansKawi/full/otf/NotoSansKawi-Bold.otf",
+      "fonts/NotoSansKawi/full/otf/NotoSansKawi-Regular.otf",
+      "fonts/NotoSansKawi/full/slim-variable-ttf/NotoSansKawi[wght].ttf",
+      "fonts/NotoSansKawi/full/ttf/NotoSansKawi-Bold.ttf",
+      "fonts/NotoSansKawi/full/ttf/NotoSansKawi-Regular.ttf",
+      "fonts/NotoSansKawi/full/variable-ttf/NotoSansKawi[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansKawi/hinted/ttf/NotoSansKawi-Bold.ttf",
+      "fonts/NotoSansKawi/hinted/ttf/NotoSansKawi-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansKawi/unhinted/otf/NotoSansKawi-Bold.otf",
+      "fonts/NotoSansKawi/unhinted/otf/NotoSansKawi-Regular.otf",
+      "fonts/NotoSansKawi/unhinted/slim-variable-ttf/NotoSansKawi[wght].ttf",
+      "fonts/NotoSansKawi/unhinted/ttf/NotoSansKawi-Bold.ttf",
+      "fonts/NotoSansKawi/unhinted/ttf/NotoSansKawi-Regular.ttf",
+      "fonts/NotoSansKawi/unhinted/variable-ttf/NotoSansKawi[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Kawi v1.000\n\nThis new family supports the Kawi (Old Javanese) script added in Unicode 15.0\n",
+     "published": "2023-06-28T15:30:00",
+     "url": "https://github.com/notofonts/kawi/releases/tag/NotoSansKawi-v1.000",
+     "version": "v1.000"
+    }
+   }
+  },
   "gh_url": "https://notofonts.github.io/kawi",
   "issues": [
-   {
-    "number": 7,
-    "title": "Update the js of javanese2kawi.html",
-    "url": "https://github.com/notofonts/kawi/pull/7"
-   },
    {
     "number": 4,
     "title": "Development plan (3)",
@@ -6828,13 +6791,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/khitan-small-script",
-  "issues": [
-   {
-    "number": 1,
-    "title": "U+16FE4 KHITAN SMALL SCRIPT FILLER is invisible",
-    "url": "https://github.com/notofonts/khitan-small-script/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/khitan-small-script",
   "tier": 5,
   "title": "Noto Khitan Small Script"
@@ -10523,23 +10480,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/mandaic",
-  "issues": [
-   {
-    "number": 4,
-    "title": "Inconsistent left edge of Mandaic U+0640 ARABIC TATWEEL",
-    "url": "https://github.com/notofonts/mandaic/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Three right-joining Mandaic letters don\u2019t join",
-    "url": "https://github.com/notofonts/mandaic/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Contextual U+0848 MANDAIC LETTER ATT in final but not medial position",
-    "url": "https://github.com/notofonts/mandaic/issues/2"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/mandaic",
   "tier": 4,
   "title": "Noto Mandaic"
@@ -10620,18 +10561,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/marchen",
-  "issues": [
-   {
-    "number": 4,
-    "title": "`candrabindu_marc.narrow` is unreachable",
-    "url": "https://github.com/notofonts/marchen/issues/4"
-   },
-   {
-    "number": 1,
-    "title": "Missing anchor points for Marchen a",
-    "url": "https://github.com/notofonts/marchen/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/marchen",
   "tier": 5,
   "title": "Noto Marchen"
@@ -13009,13 +12939,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/ottoman-siyaq-numbers",
-  "issues": [
-   {
-    "number": 2,
-    "title": "`u1ED39_u1ED2E.liga` is ligated from the wrong character sequence",
-    "url": "https://github.com/notofonts/ottoman-siyaq-numbers/issues/2"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/ottoman-siyaq-numbers",
   "tier": 5,
   "title": "Noto Serif Ottoman Siyaq Numbers"
@@ -13141,18 +13065,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/phags-pa",
-  "issues": [
-   {
-    "number": 8,
-    "title": "Transitive mirroring is reversed",
-    "url": "https://github.com/notofonts/phags-pa/issues/8"
-   },
-   {
-    "number": 1,
-    "title": "Incomplete transitive mirroring in \u2019Phags-pa",
-    "url": "https://github.com/notofonts/phags-pa/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/phags-pa",
   "tier": 4,
   "title": "Noto Phags Pa"
@@ -13212,18 +13125,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/psalter-pahlavi",
-  "issues": [
-   {
-    "number": 2,
-    "title": "Overlapping descenders in Psalter Pahlavi",
-    "url": "https://github.com/notofonts/psalter-pahlavi/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Incorrect shaping of Psalter Pahlavi numbers",
-    "url": "https://github.com/notofonts/psalter-pahlavi/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/psalter-pahlavi",
   "tier": 5,
   "title": "Noto Psalter Pahlavi"
@@ -14636,7 +14538,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/tagalog",
-  "issues": [],
+  "issues": [
+   {
+    "number": 8,
+    "title": "May I enlarge virama, and make two or three pamudpods for different letters?",
+    "url": "https://github.com/notofonts/tagalog/issues/8"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/tagalog",
   "tier": 3,
   "title": "Noto Tagalog"
@@ -14788,13 +14696,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/tai-viet",
-  "issues": [
-   {
-    "number": 6,
-    "title": "Swashes overlap marks in following clusters",
-    "url": "https://github.com/notofonts/tai-viet/issues/6"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/tai-viet",
   "tier": 3,
   "title": "Noto Tai Viet"
@@ -16181,6 +16083,11 @@
   "gh_url": "https://notofonts.github.io/telugu",
   "issues": [
    {
+    "number": 19,
+    "title": "Noto Sans Telugu issue with \u0c38\u0c46\u0c30\u0c4d\u0c1a\u0c4d",
+    "url": "https://github.com/notofonts/telugu/issues/19"
+   },
+   {
     "number": 18,
     "title": "Components of subscript j\u00f1a are positioned inconsistently",
     "url": "https://github.com/notofonts/telugu/issues/18"
@@ -17348,6 +17255,18 @@
       "fonts/NotoSansTifinagh/unhinted/otf/NotoSansTifinaghRhissaIxa-Regular.otf",
       "fonts/NotoSansTifinagh/unhinted/otf/NotoSansTifinaghSIL-Regular.otf",
       "fonts/NotoSansTifinagh/unhinted/otf/NotoSansTifinaghTawellemmet-Regular.otf",
+      "fonts/NotoSansTifinagh/unhinted/slim-otf/NotoSansTifinagh-Regular.otf",
+      "fonts/NotoSansTifinagh/unhinted/slim-otf/NotoSansTifinaghAPT-Regular.otf",
+      "fonts/NotoSansTifinagh/unhinted/slim-otf/NotoSansTifinaghAdrar-Regular.otf",
+      "fonts/NotoSansTifinagh/unhinted/slim-otf/NotoSansTifinaghAgrawImazighen-Regular.otf",
+      "fonts/NotoSansTifinagh/unhinted/slim-otf/NotoSansTifinaghAhaggar-Regular.otf",
+      "fonts/NotoSansTifinagh/unhinted/slim-otf/NotoSansTifinaghAir-Regular.otf",
+      "fonts/NotoSansTifinagh/unhinted/slim-otf/NotoSansTifinaghAzawagh-Regular.otf",
+      "fonts/NotoSansTifinagh/unhinted/slim-otf/NotoSansTifinaghGhat-Regular.otf",
+      "fonts/NotoSansTifinagh/unhinted/slim-otf/NotoSansTifinaghHawad-Regular.otf",
+      "fonts/NotoSansTifinagh/unhinted/slim-otf/NotoSansTifinaghRhissaIxa-Regular.otf",
+      "fonts/NotoSansTifinagh/unhinted/slim-otf/NotoSansTifinaghSIL-Regular.otf",
+      "fonts/NotoSansTifinagh/unhinted/slim-otf/NotoSansTifinaghTawellemmet-Regular.otf",
       "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinagh-Regular.ttf",
       "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAPT-Regular.ttf",
       "fonts/NotoSansTifinagh/unhinted/ttf/NotoSansTifinaghAdrar-Regular.ttf",
@@ -17363,10 +17282,10 @@
      ]
     },
     "latest_release": {
-     "notes": "NotoSansTifinagh v2.005 - Replace ccmp by rlig feature for ligatures with ZWJ to work with USE (https://github.com/notofonts/tifinagh/issues/17)\n",
-     "published": "2022-11-23T16:42:50",
-     "url": "https://github.com/notofonts/tifinagh/releases/tag/NotoSansTifinagh-v2.005",
-     "version": "v2.005"
+     "notes": "Noto Sans Tifinagh v2.006\n\nThis release:\n\n- Improves the combination of dot and macron (#4)\n- Anchors COMBINING HOOK ABOVE above letters (#16)\n- Makes ligatures work correctly in right-to-left contexts (#17)\n- Removes the unnecessary caron glyph (#6)\n",
+     "published": "2023-06-28T12:17:37",
+     "url": "https://github.com/notofonts/tifinagh/releases/tag/NotoSansTifinagh-v2.006",
+     "version": "v2.006"
     }
    }
   },
@@ -17770,18 +17689,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/yezidi",
-  "issues": [
-   {
-    "number": 2,
-    "title": "Yezidi: dotted circle 25CC is missing",
-    "url": "https://github.com/notofonts/yezidi/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Missing anchor points in Noto Serif Yezidi",
-    "url": "https://github.com/notofonts/yezidi/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/yezidi",
   "tier": 4,
   "title": "Noto Yezidi"
