@@ -3794,13 +3794,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/dives-akuru",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 6,
   "issues": [
-   {
-    "number": 16,
-    "title": "Noto Serif Dives Akuru Ligating issue",
-    "url": "https://github.com/notofonts/dives-akuru/issues/16"
-   },
    {
     "number": 7,
     "title": "Extraneous Dives Akuru conjuncts without viramas",
@@ -8155,14 +8150,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/kawi",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 4,
-    "title": "Development plan (3)",
-    "url": "https://github.com/notofonts/kawi/issues/4"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/kawi",
   "tier": 4,
   "title": "Noto Sans Kawi"
@@ -12624,7 +12613,7 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/manichaean",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 3,
   "issues": [
    {
     "number": 5,
@@ -12635,11 +12624,6 @@
     "number": 4,
     "title": "Problems with Manichaean diacritics and ligatures",
     "url": "https://github.com/notofonts/manichaean/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "No raised Manichaean numeric tatweel",
-    "url": "https://github.com/notofonts/manichaean/issues/3"
    },
    {
     "number": 2,
@@ -17935,8 +17919,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/symbols",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 6,
   "issues": [
+   {
+    "number": 72,
+    "title": "Enclosing marks overlap adjacent clusters",
+    "url": "https://github.com/notofonts/symbols/issues/72"
+   },
    {
     "number": 69,
     "title": "Missing glyphs (consolidated)",
@@ -20025,13 +20014,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/telugu",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 3,
   "issues": [
-   {
-    "number": 19,
-    "title": "Noto Sans Telugu issue with \u0c38\u0c46\u0c30\u0c4d\u0c1a\u0c4d",
-    "url": "https://github.com/notofonts/telugu/issues/19"
-   },
    {
     "number": 18,
     "title": "Components of subscript j\u00f1a are positioned inconsistently",
@@ -22063,14 +22047,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/zanabazar-square",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 8,
-    "title": "U+11A3A ZANABAZAR SQUARE CLUSTER-INITIAL LETTER RA reorders",
-    "url": "https://github.com/notofonts/zanabazar-square/issues/8"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/zanabazar-square",
   "tier": 3,
   "title": "Noto Zanabazar Square"
