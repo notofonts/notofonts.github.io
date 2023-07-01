@@ -7453,8 +7453,29 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/javanese",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 4,
+  "issues": [
+   {
+    "number": 34,
+    "title": "Contextually unnecessary alternative form of U+A9BF JAVANESE CONSONANT SIGN CAKRA",
+    "url": "https://github.com/notofonts/javanese/issues/34"
+   },
+   {
+    "number": 33,
+    "title": "U+A9BE JAVANESE CONSONANT SIGN PENGKAL blocks above-base mark ligatures",
+    "url": "https://github.com/notofonts/javanese/issues/33"
+   },
+   {
+    "number": 32,
+    "title": "U+25CC is deleted in <U+A98E, U+A980, U+25CC, U+A9B4>",
+    "url": "https://github.com/notofonts/javanese/issues/32"
+   },
+   {
+    "number": 31,
+    "title": "U+A9B3 JAVANESE SIGN CECAK TELU blocks contextual forms",
+    "url": "https://github.com/notofonts/javanese/issues/31"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/javanese",
   "tier": 3,
   "title": "Noto Javanese"
@@ -8150,8 +8171,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/kawi",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 9,
+    "title": "Some more consonant stacks issues",
+    "url": "https://github.com/notofonts/kawi/issues/9"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/kawi",
   "tier": 4,
   "title": "Noto Sans Kawi"
@@ -8935,8 +8962,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/khojki",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 11,
   "issues": [
+   {
+    "number": 22,
+    "title": "U+11236 KHOJKI SIGN NUKTA overlaps matras",
+    "url": "https://github.com/notofonts/khojki/issues/22"
+   },
    {
     "number": 21,
     "title": "U+1123E KHOJKI SIGN SUKUN is placed inconsistently in Noto Serif Khojki",
