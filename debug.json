@@ -8171,8 +8171,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/kawi",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 10,
+    "title": "Reserved code point U+11F3C should not have a glyph",
+    "url": "https://github.com/notofonts/kawi/issues/10"
+   },
    {
     "number": 9,
     "title": "Some more consonant stacks issues",
@@ -8962,8 +8967,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/khojki",
   "has_releases": true,
-  "issue_count": 11,
+  "issue_count": 12,
   "issues": [
+   {
+    "number": 23,
+    "title": "Alternative anusvara overlaps matras in Noto Sans Khojki",
+    "url": "https://github.com/notofonts/khojki/issues/23"
+   },
    {
     "number": 22,
     "title": "U+11236 KHOJKI SIGN NUKTA overlaps matras",
