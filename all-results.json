@@ -498,6 +498,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2023-06-26T18:32:13Z",
+  "repo": "balinese",
+  "tier": 2,
+  "url": "https://github.com/notofonts/balinese/issues/33"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2018-07-01T16:09:24Z",
   "repo": "bamum",
   "tier": 3,
@@ -728,7 +735,7 @@
   "url": "https://github.com/notofonts/caucasian-albanian/issues/5"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-27T06:56:50Z",
   "createdAt": "2022-08-28T19:55:40Z",
   "repo": "cham",
   "tier": 3,
@@ -945,7 +952,7 @@
   "url": "https://github.com/notofonts/dives-akuru/issues/7"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-29T08:05:22Z",
   "createdAt": "2022-08-07T10:27:56Z",
   "repo": "dives-akuru",
   "tier": 5,
@@ -966,7 +973,7 @@
   "url": "https://github.com/notofonts/dogra/issues/7"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T14:14:56Z",
   "createdAt": "2022-10-09T01:21:24Z",
   "repo": "dogra",
   "tier": 4,
@@ -980,7 +987,7 @@
   "url": "https://github.com/notofonts/dogra/issues/12"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T14:07:53Z",
   "createdAt": "2022-10-10T19:24:10Z",
   "repo": "dogra",
   "tier": 4,
@@ -1064,7 +1071,7 @@
   "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/6"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T11:05:00Z",
   "createdAt": "2018-10-29T20:55:20Z",
   "repo": "elbasan",
   "tier": 5,
@@ -1162,35 +1169,35 @@
   "url": "https://github.com/notofonts/gothic/issues/2"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T13:04:05Z",
   "createdAt": "2018-10-06T03:09:36Z",
   "repo": "grantha",
   "tier": 4,
   "url": "https://github.com/notofonts/grantha/issues/4"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T12:51:20Z",
   "createdAt": "2022-08-28T15:47:54Z",
   "repo": "grantha",
   "tier": 4,
   "url": "https://github.com/notofonts/grantha/issues/17"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T12:59:23Z",
   "createdAt": "2022-08-29T02:12:32Z",
   "repo": "grantha",
   "tier": 4,
   "url": "https://github.com/notofonts/grantha/issues/18"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T12:59:57Z",
   "createdAt": "2022-08-29T20:15:31Z",
   "repo": "grantha",
   "tier": 4,
   "url": "https://github.com/notofonts/grantha/issues/19"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T13:10:23Z",
   "createdAt": "2023-02-20T17:10:51Z",
   "repo": "grantha",
   "tier": 4,
@@ -1575,14 +1582,14 @@
   "url": "https://github.com/notofonts/hebrew/issues/32"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T12:08:07Z",
   "createdAt": "2021-04-05T16:16:19Z",
   "repo": "inscriptional-pahlavi",
   "tier": 5,
   "url": "https://github.com/notofonts/inscriptional-pahlavi/issues/1"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T11:59:56Z",
   "createdAt": "2021-04-06T15:01:22Z",
   "repo": "inscriptional-pahlavi",
   "tier": 5,
@@ -1603,7 +1610,7 @@
   "url": "https://github.com/notofonts/javanese/issues/1"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T09:41:06Z",
   "createdAt": "2018-12-19T09:57:51Z",
   "repo": "javanese",
   "tier": 3,
@@ -1624,11 +1631,39 @@
   "url": "https://github.com/notofonts/javanese/issues/6"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T09:41:00Z",
   "createdAt": "2022-04-25T12:02:14Z",
   "repo": "javanese",
   "tier": 3,
   "url": "https://github.com/notofonts/javanese/issues/7"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-06-30T15:39:40Z",
+  "repo": "javanese",
+  "tier": 3,
+  "url": "https://github.com/notofonts/javanese/issues/31"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-06-30T15:46:30Z",
+  "repo": "javanese",
+  "tier": 3,
+  "url": "https://github.com/notofonts/javanese/issues/32"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-06-30T16:04:20Z",
+  "repo": "javanese",
+  "tier": 3,
+  "url": "https://github.com/notofonts/javanese/issues/33"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-06-30T19:36:23Z",
+  "repo": "javanese",
+  "tier": 3,
+  "url": "https://github.com/notofonts/javanese/issues/34"
  },
  {
   "closedAt": null,
@@ -1694,7 +1729,7 @@
   "url": "https://github.com/notofonts/kawi/issues/3"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-29T08:25:18Z",
   "createdAt": "2023-01-30T06:56:58Z",
   "repo": "kawi",
   "tier": 4,
@@ -1713,6 +1748,34 @@
   "repo": "kawi",
   "tier": 4,
   "url": "https://github.com/notofonts/kawi/issues/8"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-06-30T12:05:02Z",
+  "repo": "kawi",
+  "tier": 4,
+  "url": "https://github.com/notofonts/kawi/issues/9"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-07-01T23:37:15Z",
+  "repo": "kawi",
+  "tier": 4,
+  "url": "https://github.com/notofonts/kawi/issues/10"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-07-02T02:19:02Z",
+  "repo": "kawi",
+  "tier": 4,
+  "url": "https://github.com/notofonts/kawi/issues/11"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-07-02T13:58:23Z",
+  "repo": "kawi",
+  "tier": 4,
+  "url": "https://github.com/notofonts/kawi/issues/12"
  },
  {
   "closedAt": "2023-02-16T07:44:37Z",
@@ -1869,7 +1932,7 @@
   "url": "https://github.com/notofonts/kharoshthi/issues/12"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T10:23:52Z",
   "createdAt": "2023-01-16T21:36:54Z",
   "repo": "khitan-small-script",
   "tier": 5,
@@ -2042,6 +2105,34 @@
   "repo": "khojki",
   "tier": 3,
   "url": "https://github.com/notofonts/khojki/issues/19"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-06-26T18:08:54Z",
+  "repo": "khojki",
+  "tier": 3,
+  "url": "https://github.com/notofonts/khojki/issues/20"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-06-27T21:13:52Z",
+  "repo": "khojki",
+  "tier": 3,
+  "url": "https://github.com/notofonts/khojki/issues/21"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-06-30T20:14:20Z",
+  "repo": "khojki",
+  "tier": 3,
+  "url": "https://github.com/notofonts/khojki/issues/22"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-07-01T20:20:49Z",
+  "repo": "khojki",
+  "tier": 3,
+  "url": "https://github.com/notofonts/khojki/issues/23"
  },
  {
   "closedAt": "2023-01-03T12:35:21Z",
@@ -4158,21 +4249,21 @@
   "url": "https://github.com/notofonts/malayalam/issues/24"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T10:29:41Z",
   "createdAt": "2020-03-31T16:56:02Z",
   "repo": "mandaic",
   "tier": 4,
   "url": "https://github.com/notofonts/mandaic/issues/2"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T10:41:32Z",
   "createdAt": "2020-12-20T16:04:05Z",
   "repo": "mandaic",
   "tier": 4,
   "url": "https://github.com/notofonts/mandaic/issues/3"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T10:32:10Z",
   "createdAt": "2021-03-29T15:32:11Z",
   "repo": "mandaic",
   "tier": 4,
@@ -4186,7 +4277,7 @@
   "url": "https://github.com/notofonts/manichaean/issues/2"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-29T08:11:12Z",
   "createdAt": "2019-11-07T21:13:47Z",
   "repo": "manichaean",
   "tier": 4,
@@ -4207,14 +4298,14 @@
   "url": "https://github.com/notofonts/manichaean/issues/5"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T10:55:16Z",
   "createdAt": "2021-01-30T17:36:24Z",
   "repo": "marchen",
   "tier": 5,
   "url": "https://github.com/notofonts/marchen/issues/1"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T10:55:16Z",
   "createdAt": "2022-09-24T22:54:24Z",
   "repo": "marchen",
   "tier": 5,
@@ -5180,6 +5271,13 @@
   "url": "https://github.com/notofonts/nko/issues/9"
  },
  {
+  "closedAt": null,
+  "createdAt": "2023-06-27T16:18:47Z",
+  "repo": "nko",
+  "tier": 3,
+  "url": "https://github.com/notofonts/nko/issues/12"
+ },
+ {
   "closedAt": "2023-03-10T13:28:09Z",
   "createdAt": "2021-12-11T15:28:35Z",
   "repo": "nushu",
@@ -5276,6 +5374,13 @@
   "repo": "old-hungarian",
   "tier": 4,
   "url": "https://github.com/notofonts/old-hungarian/issues/17"
+ },
+ {
+  "closedAt": "2023-06-29T05:47:56Z",
+  "createdAt": "2023-06-29T02:43:07Z",
+  "repo": "old-hungarian",
+  "tier": 4,
+  "url": "https://github.com/notofonts/old-hungarian/issues/18"
  },
  {
   "closedAt": null,
@@ -5447,6 +5552,20 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2023-06-26T13:24:11Z",
+  "repo": "oriya",
+  "tier": 1,
+  "url": "https://github.com/notofonts/oriya/issues/25"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-06-26T13:28:18Z",
+  "repo": "oriya",
+  "tier": 1,
+  "url": "https://github.com/notofonts/oriya/issues/26"
+ },
+ {
+  "closedAt": "2023-06-28T14:00:56Z",
   "createdAt": "2023-03-16T21:00:39Z",
   "repo": "ottoman-siyaq-numbers",
   "tier": 5,
@@ -5474,14 +5593,14 @@
   "url": "https://github.com/notofonts/pahawh-hmong/issues/3"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T11:52:20Z",
   "createdAt": "2022-04-19T23:31:28Z",
   "repo": "phags-pa",
   "tier": 4,
   "url": "https://github.com/notofonts/phags-pa/issues/1"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T11:52:01Z",
   "createdAt": "2022-09-26T15:00:20Z",
   "repo": "phags-pa",
   "tier": 4,
@@ -5495,14 +5614,14 @@
   "url": "https://github.com/notofonts/phoenician/issues/1"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T13:33:30Z",
   "createdAt": "2018-09-23T15:41:52Z",
   "repo": "psalter-pahlavi",
   "tier": 5,
   "url": "https://github.com/notofonts/psalter-pahlavi/issues/1"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T13:46:41Z",
   "createdAt": "2019-10-28T20:56:06Z",
   "repo": "psalter-pahlavi",
   "tier": 5,
@@ -6048,7 +6167,7 @@
   "url": "https://github.com/notofonts/symbols/issues/33"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-26T20:28:13Z",
   "createdAt": "2022-09-13T23:22:46Z",
   "repo": "symbols",
   "tier": 3,
@@ -6076,11 +6195,18 @@
   "url": "https://github.com/notofonts/symbols/issues/69"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-27T11:16:27Z",
   "createdAt": "2023-05-23T04:11:40Z",
   "repo": "symbols",
   "tier": 3,
   "url": "https://github.com/notofonts/symbols/issues/70"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-06-29T02:29:50Z",
+  "repo": "symbols",
+  "tier": 3,
+  "url": "https://github.com/notofonts/symbols/issues/72"
  },
  {
   "closedAt": "2023-01-03T07:09:33Z",
@@ -6196,6 +6322,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2023-06-28T10:04:23Z",
+  "repo": "tagalog",
+  "tier": 3,
+  "url": "https://github.com/notofonts/tagalog/issues/8"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2018-04-04T14:37:08Z",
   "repo": "tai-le",
   "tier": 3,
@@ -6251,7 +6384,7 @@
   "url": "https://github.com/notofonts/tai-viet/issues/5"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T12:18:09Z",
   "createdAt": "2022-09-26T14:31:23Z",
   "repo": "tai-viet",
   "tier": 3,
@@ -6459,6 +6592,13 @@
   "repo": "telugu",
   "tier": 1,
   "url": "https://github.com/notofonts/telugu/issues/18"
+ },
+ {
+  "closedAt": "2023-06-29T05:45:52Z",
+  "createdAt": "2023-06-28T17:48:55Z",
+  "repo": "telugu",
+  "tier": 1,
+  "url": "https://github.com/notofonts/telugu/issues/19"
  },
  {
   "closedAt": "2023-05-25T19:38:07Z",
@@ -6783,21 +6923,21 @@
   "url": "https://github.com/notofonts/warang-citi/issues/1"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T11:23:25Z",
   "createdAt": "2020-12-30T19:39:13Z",
   "repo": "yezidi",
   "tier": 4,
   "url": "https://github.com/notofonts/yezidi/issues/1"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-28T11:19:18Z",
   "createdAt": "2021-09-21T19:18:19Z",
   "repo": "yezidi",
   "tier": 4,
   "url": "https://github.com/notofonts/yezidi/issues/2"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-06-29T08:24:34Z",
   "createdAt": "2022-10-12T21:09:45Z",
   "repo": "zanabazar-square",
   "tier": 3,
