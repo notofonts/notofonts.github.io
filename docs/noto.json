@@ -1703,6 +1703,11 @@
   "gh_url": "https://notofonts.github.io/brahmi",
   "issues": [
    {
+    "number": 12,
+    "title": "\u2013 Added glyphs, brm_shortE  (U+11071) , brm_shortO (U+11072)",
+    "url": "https://github.com/notofonts/brahmi/pull/12"
+   },
+   {
     "number": 1,
     "title": "Brahmi: conjucts are missing from the font",
     "url": "https://github.com/notofonts/brahmi/issues/1"
@@ -6645,6 +6650,16 @@
   },
   "gh_url": "https://notofonts.github.io/kawi",
   "issues": [
+   {
+    "number": 12,
+    "title": "`vowelAakawi.alt`, `repha_vowelAakawi.alt`, and `hakawi.post` lack above-base anchors",
+    "url": "https://github.com/notofonts/kawi/issues/12"
+   },
+   {
+    "number": 11,
+    "title": "Above-base vowel signs disappear before candrabindu",
+    "url": "https://github.com/notofonts/kawi/issues/11"
+   },
    {
     "number": 10,
     "title": "Reserved code point U+11F3C should not have a glyph",
