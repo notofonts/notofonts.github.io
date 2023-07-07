@@ -7539,8 +7539,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/kaithi",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 21,
+    "title": "Glyph addtion and anchor placement",
+    "url": "https://github.com/notofonts/kaithi/pull/21"
+   },
    {
     "number": 20,
     "title": "Nukta position is ambiguous in conjuncts",
@@ -8073,8 +8078,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/kannada",
   "has_releases": true,
-  "issue_count": 12,
+  "issue_count": 13,
   "issues": [
+   {
+    "number": 57,
+    "title": "Added Glyphs and Kerning ",
+    "url": "https://github.com/notofonts/kannada/pull/57"
+   },
    {
     "number": 56,
     "title": "Position of Nukta U+0CBC with some vowels in Noto Serif Kannada",
@@ -8982,8 +8992,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/khojki",
   "has_releases": true,
-  "issue_count": 12,
+  "issue_count": 13,
   "issues": [
+   {
+    "number": 24,
+    "title": "Added Glyphs, Anchors and fixed code ",
+    "url": "https://github.com/notofonts/khojki/pull/24"
+   },
    {
     "number": 23,
     "title": "Alternative anusvara overlaps matras in Noto Sans Khojki",
@@ -18601,8 +18616,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/takri",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 15,
+    "title": "Added glyph: abbreviation-takr (U+116B9)",
+    "url": "https://github.com/notofonts/takri/pull/15"
+   },
    {
     "number": 4,
     "title": "Takri conjuncts missing, \"post-form ha\" not attested",
@@ -20071,8 +20091,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/telugu",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 4,
   "issues": [
+   {
+    "number": 20,
+    "title": "Added glyphs and anchors",
+    "url": "https://github.com/notofonts/telugu/pull/20"
+   },
    {
     "number": 18,
     "title": "Components of subscript j\u00f1a are positioned inconsistently",

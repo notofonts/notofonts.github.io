@@ -6064,6 +6064,11 @@
   "gh_url": "https://notofonts.github.io/kaithi",
   "issues": [
    {
+    "number": 21,
+    "title": "Glyph addtion and anchor placement",
+    "url": "https://github.com/notofonts/kaithi/pull/21"
+   },
+   {
     "number": 20,
     "title": "Nukta position is ambiguous in conjuncts",
     "url": "https://github.com/notofonts/kaithi/issues/20"
@@ -6550,6 +6555,11 @@
   },
   "gh_url": "https://notofonts.github.io/kannada",
   "issues": [
+   {
+    "number": 57,
+    "title": "Added Glyphs and Kerning ",
+    "url": "https://github.com/notofonts/kannada/pull/57"
+   },
    {
     "number": 56,
     "title": "Position of Nukta U+0CBC with some vowels in Noto Serif Kannada",
@@ -7324,6 +7334,11 @@
   },
   "gh_url": "https://notofonts.github.io/khojki",
   "issues": [
+   {
+    "number": 24,
+    "title": "Added Glyphs, Anchors and fixed code ",
+    "url": "https://github.com/notofonts/khojki/pull/24"
+   },
    {
     "number": 23,
     "title": "Alternative anusvara overlaps matras in Noto Sans Khojki",
@@ -14775,6 +14790,11 @@
   "gh_url": "https://notofonts.github.io/takri",
   "issues": [
    {
+    "number": 15,
+    "title": "Added glyph: abbreviation-takr (U+116B9)",
+    "url": "https://github.com/notofonts/takri/pull/15"
+   },
+   {
     "number": 4,
     "title": "Takri conjuncts missing, \"post-form ha\" not attested",
     "url": "https://github.com/notofonts/takri/issues/4"
@@ -16128,6 +16148,11 @@
   },
   "gh_url": "https://notofonts.github.io/telugu",
   "issues": [
+   {
+    "number": 20,
+    "title": "Added glyphs and anchors",
+    "url": "https://github.com/notofonts/telugu/pull/20"
+   },
    {
     "number": 18,
     "title": "Components of subscript j\u00f1a are positioned inconsistently",
