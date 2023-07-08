@@ -1703,11 +1703,6 @@
   "gh_url": "https://notofonts.github.io/brahmi",
   "issues": [
    {
-    "number": 12,
-    "title": "\u2013 Added glyphs, brm_shortE  (U+11071) , brm_shortO (U+11072)",
-    "url": "https://github.com/notofonts/brahmi/pull/12"
-   },
-   {
     "number": 1,
     "title": "Brahmi: conjucts are missing from the font",
     "url": "https://github.com/notofonts/brahmi/issues/1"
@@ -14789,11 +14784,6 @@
   },
   "gh_url": "https://notofonts.github.io/takri",
   "issues": [
-   {
-    "number": 15,
-    "title": "Added glyph: abbreviation-takr (U+116B9)",
-    "url": "https://github.com/notofonts/takri/pull/15"
-   },
    {
     "number": 4,
     "title": "Takri conjuncts missing, \"post-form ha\" not attested",
