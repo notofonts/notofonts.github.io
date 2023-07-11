@@ -1574,8 +1574,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/batak",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 7,
+    "title": "Incorrect glyph for 'u'",
+    "url": "https://github.com/notofonts/batak/issues/7"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/batak",
   "tier": 3,
   "title": "Noto Batak"
@@ -4598,14 +4604,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/ethiopic",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 5,
-    "title": "Some SerifEthiopic letters are too similar",
-    "url": "https://github.com/notofonts/ethiopic/issues/5"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/ethiopic",
   "tier": 2,
   "title": "Noto Ethiopic"
@@ -5050,22 +5050,12 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/georgian",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 6,
-    "title": "Proposal to include U+2116 in Noto Georgian Full version",
-    "url": "https://github.com/notofonts/georgian/issues/6"
-   },
    {
     "number": 4,
     "title": "Georgian Nuskhuri 2D00\u20262D2F is not canonical",
     "url": "https://github.com/notofonts/georgian/issues/4"
-   },
-   {
-    "number": 2,
-    "title": "Bad kerning of U+10B7 GEORGIAN CAPITAL LETTER QAR",
-    "url": "https://github.com/notofonts/georgian/issues/2"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/georgian",
@@ -8073,13 +8063,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/kannada",
   "has_releases": true,
-  "issue_count": 13,
+  "issue_count": 11,
   "issues": [
-   {
-    "number": 57,
-    "title": "Added Glyphs and Kerning ",
-    "url": "https://github.com/notofonts/kannada/pull/57"
-   },
    {
     "number": 56,
     "title": "Position of Nukta U+0CBC with some vowels in Noto Serif Kannada",
@@ -8104,11 +8089,6 @@
     "number": 52,
     "title": "Start point of vowels U and UU with consonant PHA \u0cab\u0cc1\u0cbc \u0cab\u0cc2\u0cbc in Noto Sans Kannada",
     "url": "https://github.com/notofonts/kannada/issues/52"
-   },
-   {
-    "number": 51,
-    "title": "Add U+0CDD NAKAARA POLLU",
-    "url": "https://github.com/notofonts/kannada/issues/51"
    },
    {
     "number": 14,
@@ -8863,27 +8843,12 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/khmer",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 2,
   "issues": [
    {
     "number": 28,
     "title": "Ascent and descent problems in Sans and Serif document fonts",
     "url": "https://github.com/notofonts/khmer/issues/28"
-   },
-   {
-    "number": 27,
-    "title": "Some files in Zip file starts with '..'",
-    "url": "https://github.com/notofonts/khmer/issues/27"
-   },
-   {
-    "number": 9,
-    "title": "Khmer glyph error on iOS for \u1796\u17c4\u17c7 (U+1796U+17C4U+17C7)",
-    "url": "https://github.com/notofonts/khmer/issues/9"
-   },
-   {
-    "number": 8,
-    "title": "Overlapping pre-base U+179A KHMER LETTER RO",
-    "url": "https://github.com/notofonts/khmer/issues/8"
    },
    {
     "number": 7,
@@ -8987,13 +8952,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/khojki",
   "has_releases": true,
-  "issue_count": 13,
+  "issue_count": 11,
   "issues": [
-   {
-    "number": 24,
-    "title": "Added Glyphs, Anchors and fixed code ",
-    "url": "https://github.com/notofonts/khojki/pull/24"
-   },
    {
     "number": 23,
     "title": "Alternative anusvara overlaps matras in Noto Sans Khojki",
@@ -9048,11 +9008,6 @@
     "number": 13,
     "title": "Marks block 'dist' in Noto Sans Khojki",
     "url": "https://github.com/notofonts/khojki/issues/13"
-   },
-   {
-    "number": 12,
-    "title": "11240 is still missing",
-    "url": "https://github.com/notofonts/khojki/issues/12"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/khojki",
@@ -20081,13 +20036,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/telugu",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 2,
   "issues": [
-   {
-    "number": 20,
-    "title": "Added glyphs and anchors",
-    "url": "https://github.com/notofonts/telugu/pull/20"
-   },
    {
     "number": 18,
     "title": "Components of subscript j\u00f1a are positioned inconsistently",
@@ -20097,11 +20047,6 @@
     "number": 17,
     "title": "U+0C62 and U+0C63 overlap below-base marks",
     "url": "https://github.com/notofonts/telugu/issues/17"
-   },
-   {
-    "number": 16,
-    "title": "Add U+0C5D NAKAARA POLLU",
-    "url": "https://github.com/notofonts/telugu/issues/16"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/telugu",
@@ -21119,67 +21064,12 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/thai",
   "has_releases": true,
-  "issue_count": 12,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 24,
-    "title": "Tone mark not working",
-    "url": "https://github.com/notofonts/thai/issues/24"
-   },
-   {
-    "number": 23,
-    "title": "update by Cadson Demak",
-    "url": "https://github.com/notofonts/thai/pull/23"
-   },
    {
     "number": 11,
     "title": "Italic and/or oblique font style",
     "url": "https://github.com/notofonts/thai/issues/11"
-   },
-   {
-    "number": 10,
-    "title": "Looped Thai won't build as a variable font",
-    "url": "https://github.com/notofonts/thai/issues/10"
-   },
-   {
-    "number": 9,
-    "title": "Noto Sans Thai: U+F700 and U+F70F are missing",
-    "url": "https://github.com/notofonts/thai/issues/9"
-   },
-   {
-    "number": 7,
-    "title": "Missing substitution rule for uni0E2C loChula-thai",
-    "url": "https://github.com/notofonts/thai/issues/7"
-   },
-   {
-    "number": 6,
-    "title": "No contextual variants of U+0331 in Thai",
-    "url": "https://github.com/notofonts/thai/issues/6"
-   },
-   {
-    "number": 5,
-    "title": "Misplaced U+0331 COMBINING MACRON BELOW in Thai",
-    "url": "https://github.com/notofonts/thai/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Missing contextual form of U+0E0D THAI CHARACTER YO YING",
-    "url": "https://github.com/notofonts/thai/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "U+0E4D THAI CHARACTER NIKHAHIT is reordered below tone marks",
-    "url": "https://github.com/notofonts/thai/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "NotoSansThaiUI-ttf phase III font's stacked diacritics seems more compressed than the NotoSansThaiUI-VH.ttf's ones",
-    "url": "https://github.com/notofonts/thai/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "some Thai character sequences go outside UI box for Noto Sans Thai UI and they shouldn't",
-    "url": "https://github.com/notofonts/thai/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/thai",
