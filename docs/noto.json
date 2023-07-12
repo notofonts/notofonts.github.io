@@ -11024,6 +11024,11 @@
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
    {
+    "number": 32,
+    "title": "Weights?",
+    "url": "https://github.com/notofonts/mongolian/issues/32"
+   },
+   {
     "number": 31,
     "title": "Wrong shape for Manchu \"f\" before i/o/u",
     "url": "https://github.com/notofonts/mongolian/issues/31"

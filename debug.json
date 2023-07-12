@@ -13391,8 +13391,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mongolian",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 11,
   "issues": [
+   {
+    "number": 32,
+    "title": "Weights?",
+    "url": "https://github.com/notofonts/mongolian/issues/32"
+   },
    {
     "number": 31,
     "title": "Wrong shape for Manchu \"f\" before i/o/u",
