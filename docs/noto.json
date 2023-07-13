@@ -431,6 +431,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 193,
+    "title": "Noto Naskh Arabic uses sans-serif ASCII digits",
+    "url": "https://github.com/notofonts/arabic/issues/193"
+   },
+   {
     "number": 192,
     "title": "Noto Naskh Arabic \u0644\u0644\u0647 character sequence including possible diacritic combinations does not ligate",
     "url": "https://github.com/notofonts/arabic/issues/192"
@@ -3209,11 +3214,6 @@
     "number": 3,
     "title": "u10FF6.ss02 is inaccessible in Noto Sans Elymaic",
     "url": "https://github.com/notofonts/elymaic/issues/3"
-   },
-   {
-    "number": 1,
-    "title": "Bad discretionary ligature of Elymaic yodh and zayin",
-    "url": "https://github.com/notofonts/elymaic/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/elymaic",
@@ -7226,11 +7226,6 @@
     "number": 28,
     "title": "Ascent and descent problems in Sans and Serif document fonts",
     "url": "https://github.com/notofonts/khmer/issues/28"
-   },
-   {
-    "number": 7,
-    "title": "Khmer Consonant Shifter bugs",
-    "url": "https://github.com/notofonts/khmer/issues/7"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/khmer",
@@ -9898,11 +9893,6 @@
     "number": 2,
     "title": "Three inaccurate Lydian glyphs",
     "url": "https://github.com/notofonts/lydian/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Missing U+0323 COMBINING DOT BELOW in Noto Sans Lydian",
-    "url": "https://github.com/notofonts/lydian/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/lydian",
@@ -10523,16 +10513,6 @@
   "gh_url": "https://notofonts.github.io/manichaean",
   "issues": [
    {
-    "number": 5,
-    "title": "No final Manichaean ligatures",
-    "url": "https://github.com/notofonts/manichaean/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Problems with Manichaean diacritics and ligatures",
-    "url": "https://github.com/notofonts/manichaean/issues/4"
-   },
-   {
     "number": 2,
     "title": "Problems with Manichaean swashes and ligatures",
     "url": "https://github.com/notofonts/manichaean/issues/2"
@@ -10894,11 +10874,6 @@
   },
   "gh_url": "https://notofonts.github.io/meroitic",
   "issues": [
-   {
-    "number": 1,
-    "title": "Cursive Meroitic 'dist' is not applied",
-    "url": "https://github.com/notofonts/meroitic/issues/1"
-   },
    {
     "number": 2,
     "title": "Problems with Meroitic punctuation",

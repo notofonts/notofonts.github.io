@@ -559,8 +559,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 19,
+  "issue_count": 20,
   "issues": [
+   {
+    "number": 193,
+    "title": "Noto Naskh Arabic uses sans-serif ASCII digits",
+    "url": "https://github.com/notofonts/arabic/issues/193"
+   },
    {
     "number": 192,
     "title": "Noto Naskh Arabic \u0644\u0644\u0647 character sequence including possible diacritic combinations does not ligate",
@@ -4147,17 +4152,12 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/elymaic",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
    {
     "number": 3,
     "title": "u10FF6.ss02 is inaccessible in Noto Sans Elymaic",
     "url": "https://github.com/notofonts/elymaic/issues/3"
-   },
-   {
-    "number": 1,
-    "title": "Bad discretionary ligature of Elymaic yodh and zayin",
-    "url": "https://github.com/notofonts/elymaic/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/elymaic",
@@ -8843,17 +8843,12 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/khmer",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
    {
     "number": 28,
     "title": "Ascent and descent problems in Sans and Serif document fonts",
     "url": "https://github.com/notofonts/khmer/issues/28"
-   },
-   {
-    "number": 7,
-    "title": "Khmer Consonant Shifter bugs",
-    "url": "https://github.com/notofonts/khmer/issues/7"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/khmer",
@@ -11875,17 +11870,12 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/lydian",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
    {
     "number": 2,
     "title": "Three inaccurate Lydian glyphs",
     "url": "https://github.com/notofonts/lydian/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Missing U+0323 COMBINING DOT BELOW in Noto Sans Lydian",
-    "url": "https://github.com/notofonts/lydian/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/lydian",
@@ -12635,18 +12625,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/manichaean",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 5,
-    "title": "No final Manichaean ligatures",
-    "url": "https://github.com/notofonts/manichaean/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Problems with Manichaean diacritics and ligatures",
-    "url": "https://github.com/notofonts/manichaean/issues/4"
-   },
    {
     "number": 2,
     "title": "Problems with Manichaean swashes and ligatures",
@@ -13177,13 +13157,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/meroitic",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 1,
-    "title": "Cursive Meroitic 'dist' is not applied",
-    "url": "https://github.com/notofonts/meroitic/issues/1"
-   },
    {
     "number": 2,
     "title": "Problems with Meroitic punctuation",
