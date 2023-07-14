@@ -3119,6 +3119,11 @@
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "issues": [
    {
+    "number": 7,
+    "title": "Font sometimes displays shifted ~200 units upwards",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/7"
+   },
+   {
     "number": 6,
     "title": "Add hieroglyphic variants controlled by variation selectors",
     "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/6"

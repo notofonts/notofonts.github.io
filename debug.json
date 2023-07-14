@@ -4020,8 +4020,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 6,
   "issues": [
+   {
+    "number": 7,
+    "title": "Font sometimes displays shifted ~200 units upwards",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/7"
+   },
    {
     "number": 6,
     "title": "Add hieroglyphic variants controlled by variation selectors",
