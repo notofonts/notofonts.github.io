@@ -1579,8 +1579,18 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/batak",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 9,
+    "title": "The result of the first Toba Congress request to modify the \"ba\" character.",
+    "url": "https://github.com/notofonts/batak/issues/9"
+   },
+   {
+    "number": 8,
+    "title": "Consonant sign NG (amisara) should be above the letter, not vowel, in \"letter+vowel+amisara\" combination",
+    "url": "https://github.com/notofonts/batak/issues/8"
+   },
    {
     "number": 7,
     "title": "Incorrect glyph for 'u'",
@@ -20021,8 +20031,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/telugu",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 21,
+    "title": "\u0c28\u0c4d\u0c26\u0c4d\u0c30\u0952 ndra with vedic anudatta overlapping",
+    "url": "https://github.com/notofonts/telugu/issues/21"
+   },
    {
     "number": 18,
     "title": "Components of subscript j\u00f1a are positioned inconsistently",
