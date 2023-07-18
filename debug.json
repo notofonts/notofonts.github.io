@@ -1309,27 +1309,12 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/balinese",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 3,
   "issues": [
    {
-    "number": 33,
-    "title": "Characters overlap in Sans: \u1b24\u1b3e\u1b26\u1b44\u1b27\u1b32\u1b03",
-    "url": "https://github.com/notofonts/balinese/issues/33"
-   },
-   {
-    "number": 32,
-    "title": "Serif: still no U14",
-    "url": "https://github.com/notofonts/balinese/issues/32"
-   },
-   {
-    "number": 16,
-    "title": "Serif: combinations with dotted circle are bad (regr 2.001 \u2192 2.003)",
-    "url": "https://github.com/notofonts/balinese/issues/16"
-   },
-   {
-    "number": 10,
-    "title": "Incorrect rendering of some Balinese conjunct+u/uu combination ",
-    "url": "https://github.com/notofonts/balinese/issues/10"
+    "number": 34,
+    "title": "Third-level la needs drawing",
+    "url": "https://github.com/notofonts/balinese/issues/34"
    },
    {
     "number": 8,
@@ -1337,29 +1322,9 @@
     "url": "https://github.com/notofonts/balinese/issues/8"
    },
    {
-    "number": 6,
-    "title": "Suggestion for BALINESE MUSICAL SYMBOLS in Noto Serif Balinese Phase III",
-    "url": "https://github.com/notofonts/balinese/issues/6"
-   },
-   {
     "number": 5,
     "title": "Various TEDUNG defects in Noto Serif Balinese Phase III",
     "url": "https://github.com/notofonts/balinese/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Various RA conjunct defects in Noto Serif Balinese Phase III ",
-    "url": "https://github.com/notofonts/balinese/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Noto Sans Balinese does not include third-level conjunct stack (tumpuk telu)",
-    "url": "https://github.com/notofonts/balinese/issues/3"
-   },
-   {
-    "number": 1,
-    "title": "Balinese vowel signs overlap U+1B1B",
-    "url": "https://github.com/notofonts/balinese/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/balinese",
@@ -7539,13 +7504,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/kaithi",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 6,
   "issues": [
-   {
-    "number": 21,
-    "title": "Glyph addtion and anchor placement",
-    "url": "https://github.com/notofonts/kaithi/pull/21"
-   },
    {
     "number": 20,
     "title": "Nukta position is ambiguous in conjuncts",
@@ -8176,8 +8136,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/kawi",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 5,
   "issues": [
+   {
+    "number": 13,
+    "title": "Above-base anchors on post-base forms are inconsistent",
+    "url": "https://github.com/notofonts/kawi/issues/13"
+   },
    {
     "number": 12,
     "title": "`vowelAakawi.alt`, `repha_vowelAakawi.alt`, and `hakawi.post` lack above-base anchors",
@@ -14449,7 +14414,7 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 20,
+  "issue_count": 13,
   "issues": [
    {
     "number": 51,
@@ -14467,16 +14432,6 @@
     "url": "https://github.com/notofonts/nastaliq/issues/49"
    },
    {
-    "number": 47,
-    "title": "Localized form of digits do not appear when used with a subtending mark",
-    "url": "https://github.com/notofonts/nastaliq/issues/47"
-   },
-   {
-    "number": 16,
-    "title": "Noto Nastaliq Urdu: Wrong Nuqta and Tah placement in U+0768 ARABIC LETTER NOON WITH SMALL TAH and U+08C7 ARABIC LETTER LAM WITH SMALL ARABIC LETTER TAH ABOVE respectively",
-    "url": "https://github.com/notofonts/nastaliq/issues/16"
-   },
-   {
     "number": 14,
     "title": "Add support for Central Asian Turkic language characters to Noto Nastaliq Urdu",
     "url": "https://github.com/notofonts/nastaliq/issues/14"
@@ -14490,16 +14445,6 @@
     "number": 13,
     "title": "Noto Nastaliq Urdu: Regression in swash seen/sheen",
     "url": "https://github.com/notofonts/nastaliq/issues/13"
-   },
-   {
-    "number": 12,
-    "title": "Incorrect version string of Noto Nastaliq Urdu?",
-    "url": "https://github.com/notofonts/nastaliq/issues/12"
-   },
-   {
-    "number": 11,
-    "title": "U+077A and U+077B disappear in Noto Nastaliq Urdu Bold",
-    "url": "https://github.com/notofonts/nastaliq/issues/11"
    },
    {
     "number": 10,
@@ -14522,29 +14467,14 @@
     "url": "https://github.com/notofonts/nastaliq/issues/7"
    },
    {
-    "number": 6,
-    "title": "Dot of U+0768 too high compared to U+0646 in Noto Nastaliq Urdu",
-    "url": "https://github.com/notofonts/nastaliq/issues/6"
-   },
-   {
     "number": 5,
     "title": "Issue with Arabic sign sanah in Noto Nastaliq Urdu",
     "url": "https://github.com/notofonts/nastaliq/issues/5"
    },
    {
-    "number": 4,
-    "title": "Overproductive theonym lookups in Noto Nastaliq Urdu",
-    "url": "https://github.com/notofonts/nastaliq/issues/4"
-   },
-   {
     "number": 3,
     "title": "Noto Nastaliq support for Balti Graf U+08C8",
     "url": "https://github.com/notofonts/nastaliq/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Noto Nastaleeq should support Arabic Presentation Forms",
-    "url": "https://github.com/notofonts/nastaliq/issues/2"
    },
    {
     "number": 1,
