@@ -1309,8 +1309,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/balinese",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 4,
   "issues": [
+   {
+    "number": 35,
+    "title": "Does not build",
+    "url": "https://github.com/notofonts/balinese/issues/35"
+   },
    {
     "number": 34,
     "title": "Third-level la needs drawing",

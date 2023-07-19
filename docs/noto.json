@@ -1062,6 +1062,11 @@
   "gh_url": "https://notofonts.github.io/balinese",
   "issues": [
    {
+    "number": 35,
+    "title": "Does not build",
+    "url": "https://github.com/notofonts/balinese/issues/35"
+   },
+   {
     "number": 34,
     "title": "Third-level la needs drawing",
     "url": "https://github.com/notofonts/balinese/issues/34"
