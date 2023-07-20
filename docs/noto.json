@@ -11877,6 +11877,11 @@
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
+    "number": 52,
+    "title": "Provide a dedicated font for Kashmiri Language",
+    "url": "https://github.com/notofonts/nastaliq/issues/52"
+   },
+   {
     "number": 51,
     "title": "Shape of U+066B ARABIC DECIMAL SEPARATOR",
     "url": "https://github.com/notofonts/nastaliq/issues/51"
@@ -14480,6 +14485,11 @@
   },
   "gh_url": "https://notofonts.github.io/tagalog",
   "issues": [
+   {
+    "number": 9,
+    "title": "Kudlit Rendering Issue in MS PowerPoint 2016",
+    "url": "https://github.com/notofonts/tagalog/issues/9"
+   },
    {
     "number": 8,
     "title": "May I enlarge virama, and make two or three pamudpods for different letters?",
