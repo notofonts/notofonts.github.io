@@ -2893,6 +2893,11 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
+    "number": 36,
+    "title": "Updated the position of Devanagari Nukta for the Santali language",
+    "url": "https://github.com/notofonts/devanagari/issues/36"
+   },
+   {
     "number": 35,
     "title": "Nukta blocks lowering of U+0956 and U+0957",
     "url": "https://github.com/notofonts/devanagari/issues/35"
