@@ -559,8 +559,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 20,
+  "issue_count": 21,
   "issues": [
+   {
+    "number": 194,
+    "title": "Convert to .glyphspackage format",
+    "url": "https://github.com/notofonts/arabic/pull/194"
+   },
    {
     "number": 193,
     "title": "Noto Naskh Arabic uses sans-serif ASCII digits",
@@ -8932,8 +8937,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/khojki",
   "has_releases": true,
-  "issue_count": 11,
+  "issue_count": 12,
   "issues": [
+   {
+    "number": 25,
+    "title": "Does not compile",
+    "url": "https://github.com/notofonts/khojki/issues/25"
+   },
    {
     "number": 23,
     "title": "Alternative anusvara overlaps matras in Noto Sans Khojki",
