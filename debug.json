@@ -2639,8 +2639,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/cham",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 9,
+    "title": "Dotless U+AA5E CHAM PUNCTUATION DOUBLE DANDA is not kerned",
+    "url": "https://github.com/notofonts/cham/issues/9"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/cham",
   "tier": 3,
   "title": "Noto Cham"
@@ -6383,8 +6389,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/gurmukhi",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 5,
   "issues": [
+   {
+    "number": 26,
+    "title": "Add support for Additional Pairin and Addha Forms in Gurmukhi as per Unicode Standard 15.0.0",
+    "url": "https://github.com/notofonts/gurmukhi/issues/26"
+   },
    {
     "number": 24,
     "title": "Subscripts with longer vertical strokes are implemented incompletely",
@@ -8146,8 +8157,18 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/kawi",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 15,
+    "title": "Anchor point above U+11F09 KAWI LETTER UU is too low",
+    "url": "https://github.com/notofonts/kawi/issues/15"
+   },
+   {
+    "number": 14,
+    "title": "U+11F34 KAWI VOWEL SIGN AA should not become U+11F35 KAWI VOWEL SIGN ALTERNATE AA",
+    "url": "https://github.com/notofonts/kawi/issues/14"
+   },
    {
     "number": 13,
     "title": "Above-base anchors on post-base forms are inconsistent",
