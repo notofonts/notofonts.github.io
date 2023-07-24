@@ -6,13 +6,13 @@
   "4": 55,
   "5": 50,
   "6": 89,
-  "7": 26
+  "7": 42
  },
  "open_per_repo": {
   "ahom": 3,
   "arabic": 20,
   "armenian": 4,
-  "balinese": 10,
+  "balinese": 3,
   "bamum": 1,
   "batak": 3,
   "bengali": 5,
@@ -20,10 +20,11 @@
   "brahmi": 1,
   "canadian-aboriginal": 1,
   "caucasian-albanian": 3,
+  "cham": 1,
   "chorasmian": 2,
   "coptic": 1,
   "deseret": 1,
-  "devanagari": 7,
+  "devanagari": 8,
   "dives-akuru": 6,
   "dogra": 2,
   "duployan": 1,
@@ -34,16 +35,16 @@
   "glagolitic": 3,
   "gujarati": 13,
   "gunjala-gondi": 1,
-  "gurmukhi": 4,
+  "gurmukhi": 5,
   "hanunoo": 1,
   "hebrew": 6,
   "javanese": 4,
   "kaithi": 6,
   "kannada": 11,
-  "kawi": 4,
+  "kawi": 7,
   "kharoshthi": 1,
   "khmer": 1,
-  "khojki": 11,
+  "khojki": 12,
   "khudawadi": 1,
   "latin-greek-cyrillic": 135,
   "lydian": 1,
@@ -59,7 +60,7 @@
   "music": 2,
   "myanmar": 32,
   "nandinagari": 4,
-  "nastaliq": 20,
+  "nastaliq": 14,
   "nko": 1,
   "old-hungarian": 6,
   "old-hungarian-ui": 1,
@@ -78,7 +79,7 @@
   "syloti-nagri": 5,
   "symbols": 6,
   "syriac": 4,
-  "tagalog": 1,
+  "tagalog": 2,
   "tai-le": 1,
   "tai-tham": 1,
   "takri": 1,
@@ -91,10 +92,10 @@
   "tirhuta": 10
  },
  "open_per_tier": {
-  "1": 245,
-  "2": 45,
-  "3": 91,
-  "4": 49,
+  "1": 241,
+  "2": 38,
+  "3": 94,
+  "4": 52,
   "5": 28
  },
  "opened_per_month": {
@@ -104,7 +105,7 @@
   "4": 48,
   "5": 19,
   "6": 43,
-  "7": 12
+  "7": 23
  },
  "releases_per_month": {
   "1": [

@@ -378,7 +378,7 @@
   "url": "https://github.com/notofonts/avestan/issues/1"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-17T09:02:14Z",
   "createdAt": "2018-03-04T20:29:23Z",
   "repo": "balinese",
   "tier": 2,
@@ -392,14 +392,14 @@
   "url": "https://github.com/notofonts/balinese/issues/2"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-17T08:54:08Z",
   "createdAt": "2018-06-01T11:16:43Z",
   "repo": "balinese",
   "tier": 2,
   "url": "https://github.com/notofonts/balinese/issues/3"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-17T08:54:09Z",
   "createdAt": "2018-10-12T07:35:39Z",
   "repo": "balinese",
   "tier": 2,
@@ -413,7 +413,7 @@
   "url": "https://github.com/notofonts/balinese/issues/5"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-17T09:09:30Z",
   "createdAt": "2018-10-12T08:08:03Z",
   "repo": "balinese",
   "tier": 2,
@@ -441,7 +441,7 @@
   "url": "https://github.com/notofonts/balinese/issues/9"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-17T09:44:24Z",
   "createdAt": "2021-08-20T09:59:42Z",
   "repo": "balinese",
   "tier": 2,
@@ -483,7 +483,7 @@
   "url": "https://github.com/notofonts/balinese/issues/15"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-17T09:46:18Z",
   "createdAt": "2022-07-11T23:39:45Z",
   "repo": "balinese",
   "tier": 2,
@@ -497,18 +497,32 @@
   "url": "https://github.com/notofonts/balinese/issues/31"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-17T10:44:44Z",
   "createdAt": "2023-01-10T22:57:03Z",
   "repo": "balinese",
   "tier": 2,
   "url": "https://github.com/notofonts/balinese/issues/32"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-17T09:48:58Z",
   "createdAt": "2023-06-26T18:32:13Z",
   "repo": "balinese",
   "tier": 2,
   "url": "https://github.com/notofonts/balinese/issues/33"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-07-17T09:00:12Z",
+  "repo": "balinese",
+  "tier": 2,
+  "url": "https://github.com/notofonts/balinese/issues/34"
+ },
+ {
+  "closedAt": "2023-07-21T14:20:14Z",
+  "createdAt": "2023-07-18T16:11:27Z",
+  "repo": "balinese",
+  "tier": 2,
+  "url": "https://github.com/notofonts/balinese/issues/35"
  },
  {
   "closedAt": null,
@@ -778,6 +792,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2023-07-24T00:35:05Z",
+  "repo": "cham",
+  "tier": 3,
+  "url": "https://github.com/notofonts/cham/issues/9"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2021-12-23T22:15:38Z",
   "repo": "chorasmian",
   "tier": 5,
@@ -936,6 +957,13 @@
   "repo": "devanagari",
   "tier": 1,
   "url": "https://github.com/notofonts/devanagari/issues/35"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-07-20T23:21:49Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/36"
  },
  {
   "closedAt": null,
@@ -1512,6 +1540,13 @@
   "url": "https://github.com/notofonts/gurmukhi/issues/24"
  },
  {
+  "closedAt": null,
+  "createdAt": "2023-07-23T13:20:41Z",
+  "repo": "gurmukhi",
+  "tier": 1,
+  "url": "https://github.com/notofonts/gurmukhi/issues/26"
+ },
+ {
   "closedAt": "2023-05-23T08:18:48Z",
   "createdAt": "2019-06-26T02:28:04Z",
   "repo": "hanifi-rohingya",
@@ -1811,6 +1846,27 @@
   "repo": "kawi",
   "tier": 4,
   "url": "https://github.com/notofonts/kawi/issues/12"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-07-17T22:41:09Z",
+  "repo": "kawi",
+  "tier": 4,
+  "url": "https://github.com/notofonts/kawi/issues/13"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-07-23T18:57:57Z",
+  "repo": "kawi",
+  "tier": 4,
+  "url": "https://github.com/notofonts/kawi/issues/14"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-07-23T20:37:51Z",
+  "repo": "kawi",
+  "tier": 4,
+  "url": "https://github.com/notofonts/kawi/issues/15"
  },
  {
   "closedAt": "2023-02-16T07:44:37Z",
@@ -2175,6 +2231,13 @@
   "repo": "khojki",
   "tier": 3,
   "url": "https://github.com/notofonts/khojki/issues/23"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-07-22T12:24:41Z",
+  "repo": "khojki",
+  "tier": 3,
+  "url": "https://github.com/notofonts/khojki/issues/25"
  },
  {
   "closedAt": "2023-01-03T12:35:21Z",
@@ -5145,7 +5208,7 @@
   "url": "https://github.com/notofonts/nastaliq/issues/1"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-17T10:50:44Z",
   "createdAt": "2017-04-21T21:08:34Z",
   "repo": "nastaliq",
   "tier": 1,
@@ -5159,7 +5222,7 @@
   "url": "https://github.com/notofonts/nastaliq/issues/3"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-17T11:05:30Z",
   "createdAt": "2022-02-03T22:45:12Z",
   "repo": "nastaliq",
   "tier": 1,
@@ -5173,7 +5236,7 @@
   "url": "https://github.com/notofonts/nastaliq/issues/5"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-17T10:59:20Z",
   "createdAt": "2022-02-05T11:20:14Z",
   "repo": "nastaliq",
   "tier": 1,
@@ -5208,14 +5271,14 @@
   "url": "https://github.com/notofonts/nastaliq/issues/10"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-17T11:00:37Z",
   "createdAt": "2022-03-14T09:10:17Z",
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/11"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-17T11:02:40Z",
   "createdAt": "2022-03-25T15:10:01Z",
   "repo": "nastaliq",
   "tier": 1,
@@ -5243,14 +5306,14 @@
   "url": "https://github.com/notofonts/nastaliq/issues/15"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-17T10:59:21Z",
   "createdAt": "2022-06-30T20:50:18Z",
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/16"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-17T11:11:19Z",
   "createdAt": "2022-08-12T14:59:45Z",
   "repo": "nastaliq",
   "tier": 1,
@@ -5276,6 +5339,13 @@
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/51"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-07-19T13:10:40Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/52"
  },
  {
   "closedAt": "2023-02-09T09:39:26Z",
@@ -6375,6 +6445,13 @@
   "repo": "tagalog",
   "tier": 3,
   "url": "https://github.com/notofonts/tagalog/issues/8"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-07-19T15:07:49Z",
+  "repo": "tagalog",
+  "tier": 3,
+  "url": "https://github.com/notofonts/tagalog/issues/9"
  },
  {
   "closedAt": null,
