@@ -94,23 +94,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/ahom",
-  "issues": [
-   {
-    "number": 16,
-    "title": "Ahom i\u2013u ligature is still not always formed",
-    "url": "https://github.com/notofonts/ahom/issues/16"
-   },
-   {
-    "number": 14,
-    "title": "I+U does not form ligature in certain contexts",
-    "url": "https://github.com/notofonts/ahom/issues/14"
-   },
-   {
-    "number": 5,
-    "title": "\u27e8\ud805\udf05\ud805\udf1e\ud805\udf0a\u27e9 overlaps the next cluster",
-    "url": "https://github.com/notofonts/ahom/issues/5"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/ahom",
   "tier": 4,
   "title": "Noto Ahom"
@@ -432,7 +416,7 @@
   "issues": [
    {
     "number": 194,
-    "title": "Convert to .glyphspackage format",
+    "title": "Naskh: Convert to .glyphspackage format",
     "url": "https://github.com/notofonts/arabic/pull/194"
    },
    {
@@ -949,11 +933,6 @@
     "number": 5,
     "title": "Armenian kerning makes punctuation overlap diaeresis",
     "url": "https://github.com/notofonts/armenian/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Armenian fonts should support U+2019 RIGHT SINGLE QUOTATION MARK",
-    "url": "https://github.com/notofonts/armenian/issues/4"
    },
    {
     "number": 3,
@@ -6055,21 +6034,6 @@
     "url": "https://github.com/notofonts/kaithi/issues/20"
    },
    {
-    "number": 19,
-    "title": "U+110BA KAITHI SIGN NUKTA should block 'rphf'",
-    "url": "https://github.com/notofonts/kaithi/issues/19"
-   },
-   {
-    "number": 18,
-    "title": "Repha is formed in isolation",
-    "url": "https://github.com/notofonts/kaithi/issues/18"
-   },
-   {
-    "number": 3,
-    "title": "Kaithi 'ss01' and 'ss03' sometimes block 'ss02'",
-    "url": "https://github.com/notofonts/kaithi/issues/3"
-   },
-   {
     "number": 2,
     "title": "Kaithi letter \"a\" and other characters having this glyph look wrongly written ",
     "url": "https://github.com/notofonts/kaithi/issues/2"
@@ -7300,11 +7264,6 @@
   },
   "gh_url": "https://notofonts.github.io/khojki",
   "issues": [
-   {
-    "number": 25,
-    "title": "Does not compile",
-    "url": "https://github.com/notofonts/khojki/issues/25"
-   },
    {
     "number": 23,
     "title": "Alternative anusvara overlaps matras in Noto Sans Khojki",
