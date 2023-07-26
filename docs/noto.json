@@ -415,9 +415,9 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
-    "number": 194,
-    "title": "Naskh: Convert to .glyphspackage format",
-    "url": "https://github.com/notofonts/arabic/pull/194"
+    "number": 195,
+    "title": "Naskh improvements",
+    "url": "https://github.com/notofonts/arabic/pull/195"
    },
    {
     "number": 193,
