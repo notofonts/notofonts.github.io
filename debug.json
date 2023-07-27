@@ -7113,8 +7113,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/hebrew",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 33,
+    "title": "Kerning of the letter \u05e6",
+    "url": "https://github.com/notofonts/hebrew/issues/33"
+   },
    {
     "number": 12,
     "title": "Overlapping Hebrew vowel signs",
@@ -10729,7 +10734,7 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 136,
+  "issue_count": 126,
   "issues": [
    {
     "number": 434,
@@ -10937,16 +10942,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/35"
    },
    {
-    "number": 38,
-    "title": "Inconsistent shape of breve in Cyrillic",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/38"
-   },
-   {
-    "number": 39,
-    "title": "'onum' should apply to U+2007 FIGURE SPACE",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/39"
-   },
-   {
     "number": 40,
     "title": "Bad serif on italic U+0507 CYRILLIC SMALL LETTER KOMI DZJE",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/40"
@@ -10980,11 +10975,6 @@
     "number": 47,
     "title": "Incomplete 'ss02' in Noto Sans Italic and Noto Serif Italic",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/47"
-   },
-   {
-    "number": 49,
-    "title": "Missing serif on U+1D7E LATIN SMALL CAPITAL LETTER U WITH STROKE",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/49"
    },
    {
     "number": 50,
@@ -11037,11 +11027,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/59"
    },
    {
-    "number": 61,
-    "title": "Fullwidth and halfwidth braces are the same width",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/61"
-   },
-   {
     "number": 62,
     "title": "Mispositioned off-center typicon marks",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/62"
@@ -11057,21 +11042,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/66"
    },
    {
-    "number": 67,
-    "title": "Mispositioned marks on half o",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/67"
-   },
-   {
-    "number": 68,
-    "title": "Low anchor points on U+03D4, U+047E, and U+047F",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/68"
-   },
-   {
-    "number": 69,
-    "title": "Marks attach too far below U+2C77 LATIN SMALL LETTER TAILLESS PHI",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/69"
-   },
-   {
     "number": 223,
     "title": "U+A72B LATIN SMALL LETTER TRESILLO has a descender",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/223"
@@ -11080,11 +11050,6 @@
     "number": 222,
     "title": "Inconsistent glyphs for crosses patt\u00e9e",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/222"
-   },
-   {
-    "number": 220,
-    "title": "Overlapping U+A69E COMBINING CYRILLIC LETTER EF",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/220"
    },
    {
     "number": 102,
@@ -11105,11 +11070,6 @@
     "number": 103,
     "title": "Latin U+A7BA-A7BF (\ua7ba\ua7bb\ua7bc\ua7bd\ua7be\ua7bf) should not be italic in roman styles",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/103"
-   },
-   {
-    "number": 217,
-    "title": "Wrong glyph for U+A789 MODIFIER LETTER COLON",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/217"
    },
    {
     "number": 104,
@@ -11165,11 +11125,6 @@
     "number": 109,
     "title": "Extraneous anchor points on combining versions of base glyphs",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/109"
-   },
-   {
-    "number": 110,
-    "title": "Ineffective lookups for Greek letters in phonetic notation",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/110"
    },
    {
     "number": 111,
