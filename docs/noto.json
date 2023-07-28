@@ -7275,11 +7275,6 @@
     "url": "https://github.com/notofonts/khojki/issues/23"
    },
    {
-    "number": 22,
-    "title": "U+11236 KHOJKI SIGN NUKTA overlaps matras",
-    "url": "https://github.com/notofonts/khojki/issues/22"
-   },
-   {
     "number": 21,
     "title": "U+1123E KHOJKI SIGN SUKUN is placed inconsistently in Noto Serif Khojki",
     "url": "https://github.com/notofonts/khojki/issues/21"
@@ -7295,34 +7290,9 @@
     "url": "https://github.com/notofonts/khojki/issues/19"
    },
    {
-    "number": 18,
-    "title": "`aiMatra_anusvarakhoj` is a base glyph in Noto Serif Khojki",
-    "url": "https://github.com/notofonts/khojki/issues/18"
-   },
-   {
     "number": 17,
     "title": "U+11230 KHOJKI VOWEL SIGN E should use alternative form more often in Noto Serif Khojki",
     "url": "https://github.com/notofonts/khojki/issues/17"
-   },
-   {
-    "number": 16,
-    "title": "U+11236 KHOJKI SIGN NUKTA blocks conjuncts in Noto Serif Khojki",
-    "url": "https://github.com/notofonts/khojki/issues/16"
-   },
-   {
-    "number": 15,
-    "title": "<U+11236 NUKTA, U+1123E SUKUN> is ordered inconsistently in Noto Serif Khojki",
-    "url": "https://github.com/notofonts/khojki/issues/15"
-   },
-   {
-    "number": 14,
-    "title": "Incomplete 'ss02' for U+11236 KHOJKI SIGN NUKTA in Noto Serif Khojki",
-    "url": "https://github.com/notofonts/khojki/issues/14"
-   },
-   {
-    "number": 13,
-    "title": "Marks block 'dist' in Noto Sans Khojki",
-    "url": "https://github.com/notofonts/khojki/issues/13"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/khojki",
@@ -9776,14 +9746,15 @@
      ],
      "unhinted": [
       "fonts/NotoSansLycian/unhinted/otf/NotoSansLycian-Regular.otf",
+      "fonts/NotoSansLycian/unhinted/slim-otf/NotoSansLycian-Regular.otf",
       "fonts/NotoSansLycian/unhinted/ttf/NotoSansLycian-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Lycian v2.001\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-21T14:48:10",
-     "url": "https://github.com/notofonts/lycian/releases/tag/NotoSansLycian-v2.001",
-     "version": "v2.001"
+     "notes": "Noto Sans Lycian v2.002\n\nThis release adds the two-dot punctuation (U+205A) to full builds\n",
+     "published": "2023-07-27T11:37:48",
+     "url": "https://github.com/notofonts/lycian/releases/tag/NotoSansLycian-v2.002",
+     "version": "v2.002"
     }
    }
   },
