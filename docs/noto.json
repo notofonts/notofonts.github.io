@@ -1196,6 +1196,11 @@
   "gh_url": "https://notofonts.github.io/batak",
   "issues": [
    {
+    "number": 10,
+    "title": "The Mandailing 'na' letter is not correct",
+    "url": "https://github.com/notofonts/batak/issues/10"
+   },
+   {
     "number": 9,
     "title": "The result of the first Toba Congress request to modify the \"ba\" character.",
     "url": "https://github.com/notofonts/batak/issues/9"
