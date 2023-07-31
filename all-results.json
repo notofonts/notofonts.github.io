@@ -49,7 +49,7 @@
   "url": "https://github.com/notofonts/adlam/issues/12"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-24T11:06:59Z",
   "createdAt": "2022-06-22T17:11:54Z",
   "repo": "ahom",
   "tier": 4,
@@ -63,14 +63,14 @@
   "url": "https://github.com/notofonts/ahom/issues/6"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-24T11:04:36Z",
   "createdAt": "2022-11-16T00:03:32Z",
   "repo": "ahom",
   "tier": 4,
   "url": "https://github.com/notofonts/ahom/issues/14"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-24T11:09:23Z",
   "createdAt": "2023-03-24T19:34:56Z",
   "repo": "ahom",
   "tier": 4,
@@ -357,7 +357,7 @@
   "url": "https://github.com/notofonts/armenian/issues/3"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-24T11:00:36Z",
   "createdAt": "2022-04-10T14:48:50Z",
   "repo": "armenian",
   "tier": 1,
@@ -558,6 +558,13 @@
   "repo": "batak",
   "tier": 3,
   "url": "https://github.com/notofonts/batak/issues/9"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-07-28T07:12:59Z",
+  "repo": "batak",
+  "tier": 3,
+  "url": "https://github.com/notofonts/batak/issues/10"
  },
  {
   "closedAt": null,
@@ -1652,6 +1659,13 @@
   "url": "https://github.com/notofonts/hebrew/issues/32"
  },
  {
+  "closedAt": null,
+  "createdAt": "2023-07-26T09:05:28Z",
+  "repo": "hebrew",
+  "tier": 1,
+  "url": "https://github.com/notofonts/hebrew/issues/33"
+ },
+ {
   "closedAt": "2023-06-28T12:08:07Z",
   "createdAt": "2021-04-05T16:16:19Z",
   "repo": "inscriptional-pahlavi",
@@ -1750,21 +1764,21 @@
   "url": "https://github.com/notofonts/kaithi/issues/2"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-24T12:35:21Z",
   "createdAt": "2019-11-02T16:46:34Z",
   "repo": "kaithi",
   "tier": 4,
   "url": "https://github.com/notofonts/kaithi/issues/3"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-24T12:35:20Z",
   "createdAt": "2022-09-24T20:05:33Z",
   "repo": "kaithi",
   "tier": 4,
   "url": "https://github.com/notofonts/kaithi/issues/18"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-24T12:35:20Z",
   "createdAt": "2022-09-24T20:12:48Z",
   "repo": "kaithi",
   "tier": 4,
@@ -2156,28 +2170,28 @@
   "url": "https://github.com/notofonts/khojki/issues/12"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-27T16:18:57Z",
   "createdAt": "2023-06-25T02:35:16Z",
   "repo": "khojki",
   "tier": 3,
   "url": "https://github.com/notofonts/khojki/issues/13"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-27T16:18:58Z",
   "createdAt": "2023-06-25T16:17:00Z",
   "repo": "khojki",
   "tier": 3,
   "url": "https://github.com/notofonts/khojki/issues/14"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-27T16:18:58Z",
   "createdAt": "2023-06-25T17:57:20Z",
   "repo": "khojki",
   "tier": 3,
   "url": "https://github.com/notofonts/khojki/issues/15"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-27T16:18:59Z",
   "createdAt": "2023-06-25T18:02:32Z",
   "repo": "khojki",
   "tier": 3,
@@ -2191,7 +2205,7 @@
   "url": "https://github.com/notofonts/khojki/issues/17"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-27T16:18:59Z",
   "createdAt": "2023-06-25T19:35:50Z",
   "repo": "khojki",
   "tier": 3,
@@ -2219,7 +2233,7 @@
   "url": "https://github.com/notofonts/khojki/issues/21"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-27T16:18:59Z",
   "createdAt": "2023-06-30T20:14:20Z",
   "repo": "khojki",
   "tier": 3,
@@ -2233,7 +2247,7 @@
   "url": "https://github.com/notofonts/khojki/issues/23"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-24T10:48:01Z",
   "createdAt": "2023-07-22T12:24:41Z",
   "repo": "khojki",
   "tier": 3,
@@ -2541,14 +2555,14 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/37"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-26T10:49:26Z",
   "createdAt": "2020-09-06T16:00:35Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/38"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-26T10:04:23Z",
   "createdAt": "2020-09-05T23:53:27Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -2618,7 +2632,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/48"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-26T10:09:30Z",
   "createdAt": "2020-08-26T20:37:56Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -2702,7 +2716,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/60"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-26T10:49:26Z",
   "createdAt": "2020-08-14T00:02:06Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -2744,21 +2758,21 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/66"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-26T09:52:17Z",
   "createdAt": "2020-08-07T17:32:57Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/67"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-26T20:30:57Z",
   "createdAt": "2020-08-06T21:26:30Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/68"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-26T12:05:12Z",
   "createdAt": "2020-08-05T14:22:22Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -3045,7 +3059,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/109"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-26T11:38:10Z",
   "createdAt": "2019-11-01T19:49:37Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -3787,7 +3801,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/216"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-26T10:17:23Z",
   "createdAt": "2020-06-19T13:45:07Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -3808,7 +3822,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/219"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-26T12:05:12Z",
   "createdAt": "2020-08-02T00:57:24Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -4219,6 +4233,13 @@
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/437"
+ },
+ {
+  "closedAt": "2023-07-24T20:05:24Z",
+  "createdAt": "2023-07-24T19:14:18Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/438"
  },
  {
   "closedAt": "2023-05-24T20:06:31Z",

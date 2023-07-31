@@ -6,15 +6,14 @@
   "4": 55,
   "5": 50,
   "6": 89,
-  "7": 42
+  "7": 67
  },
  "open_per_repo": {
-  "ahom": 3,
   "arabic": 20,
-  "armenian": 4,
+  "armenian": 3,
   "balinese": 3,
   "bamum": 1,
-  "batak": 3,
+  "batak": 4,
   "bengali": 5,
   "bhaiksuki": 5,
   "brahmi": 1,
@@ -37,16 +36,16 @@
   "gunjala-gondi": 1,
   "gurmukhi": 5,
   "hanunoo": 1,
-  "hebrew": 6,
+  "hebrew": 7,
   "javanese": 4,
-  "kaithi": 6,
+  "kaithi": 3,
   "kannada": 11,
   "kawi": 7,
   "kharoshthi": 1,
   "khmer": 1,
-  "khojki": 12,
+  "khojki": 5,
   "khudawadi": 1,
-  "latin-greek-cyrillic": 135,
+  "latin-greek-cyrillic": 125,
   "lydian": 1,
   "malayalam": 8,
   "manichaean": 1,
@@ -92,10 +91,10 @@
   "tirhuta": 10
  },
  "open_per_tier": {
-  "1": 241,
+  "1": 231,
   "2": 38,
-  "3": 94,
-  "4": 52,
+  "3": 88,
+  "4": 46,
   "5": 28
  },
  "opened_per_month": {
@@ -105,7 +104,7 @@
   "4": 48,
   "5": 19,
   "6": 43,
-  "7": 23
+  "7": 26
  },
  "releases_per_month": {
   "1": [
@@ -436,6 +435,12 @@
    {
     "tag": "NotoSansKawi-v1.000",
     "url": "https://github.com/notofonts/kawi/releases/tag/NotoSansKawi-v1.000"
+   }
+  ],
+  "7": [
+   {
+    "tag": "NotoSansLycian-v2.002",
+    "url": "https://github.com/notofonts/lycian/releases/tag/NotoSansLycian-v2.002"
    }
   ]
  },
