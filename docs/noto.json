@@ -415,6 +415,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 196,
+    "title": "Naskh: Arabic-Indic digits should default to tabular",
+    "url": "https://github.com/notofonts/arabic/issues/196"
+   },
+   {
     "number": 195,
     "title": "Naskh improvements",
     "url": "https://github.com/notofonts/arabic/pull/195"
@@ -3015,11 +3020,6 @@
   "gh_url": "https://notofonts.github.io/dogra",
   "issues": [
    {
-    "number": 12,
-    "title": "U+093D DEVANAGARI SIGN AVAGRAHA is copied from Noto Serif Devanagari",
-    "url": "https://github.com/notofonts/dogra/issues/12"
-   },
-   {
     "number": 7,
     "title": "Conjuncts are to be added in the Dogra font",
     "url": "https://github.com/notofonts/dogra/issues/7"
@@ -4051,19 +4051,9 @@
   "gh_url": "https://notofonts.github.io/glagolitic",
   "issues": [
    {
-    "number": 5,
-    "title": "1E017 etc lost anchors",
-    "url": "https://github.com/notofonts/glagolitic/issues/5"
-   },
-   {
     "number": 4,
     "title": "U+FE26 COMBINING CONJOINING MACRON is higher than the titlo halves",
     "url": "https://github.com/notofonts/glagolitic/issues/4"
-   },
-   {
-    "number": 2,
-    "title": "Glagolitic: dotted circle 25CC is missing",
-    "url": "https://github.com/notofonts/glagolitic/issues/2"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/glagolitic",
@@ -6606,16 +6596,6 @@
   "gh_url": "https://notofonts.github.io/kawi",
   "issues": [
    {
-    "number": 15,
-    "title": "Anchor point above U+11F09 KAWI LETTER UU is too low",
-    "url": "https://github.com/notofonts/kawi/issues/15"
-   },
-   {
-    "number": 14,
-    "title": "U+11F34 KAWI VOWEL SIGN AA should not become U+11F35 KAWI VOWEL SIGN ALTERNATE AA",
-    "url": "https://github.com/notofonts/kawi/issues/14"
-   },
-   {
     "number": 13,
     "title": "Above-base anchors on post-base forms are inconsistent",
     "url": "https://github.com/notofonts/kawi/issues/13"
@@ -6629,11 +6609,6 @@
     "number": 11,
     "title": "Above-base vowel signs disappear before candrabindu",
     "url": "https://github.com/notofonts/kawi/issues/11"
-   },
-   {
-    "number": 10,
-    "title": "Reserved code point U+11F3C should not have a glyph",
-    "url": "https://github.com/notofonts/kawi/issues/10"
    },
    {
     "number": 9,
