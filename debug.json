@@ -15462,8 +15462,24 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/old-uyghur",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 3,
+  "issues": [
+   {
+    "number": 4,
+    "title": "tatweel does not join to the preceding letter",
+    "url": "https://github.com/notofonts/old-uyghur/issues/4"
+   },
+   {
+    "number": 3,
+    "title": "pe-waw ligature not formed in isolation",
+    "url": "https://github.com/notofonts/old-uyghur/issues/3"
+   },
+   {
+    "number": 2,
+    "title": "Combining marks break joining behaviour",
+    "url": "https://github.com/notofonts/old-uyghur/issues/2"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/old-uyghur",
   "tier": 5,
   "title": "Noto Old Uyghur"
@@ -15813,10 +15829,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Ottoman Siyaq Numbers v1.005 This is the initial Noto release of this family.\n",
-     "published": "2023-03-15T11:55:33",
-     "url": "https://github.com/notofonts/ottoman-siyaq-numbers/releases/tag/NotoSerifOttomanSiyaq-v1.005",
-     "version": "v1.005"
+     "notes": "Noto Serif Ottoman Siyaq v1.006\n\nThis release:\n* Takes the companion latin from Noto Serif, not Noto Sans (#3)\n* Fixes the marratan ligature (#2)\n",
+     "published": "2023-08-01T07:31:49",
+     "url": "https://github.com/notofonts/ottoman-siyaq-numbers/releases/tag/NotoSerifOttomanSiyaq-v1.006",
+     "version": "v1.006"
     }
    }
   },

@@ -10642,24 +10642,25 @@
   "families": {
    "Noto Serif Ottoman Siyaq": {
     "files": [
+     "fonts/NotoSerifOttomanSiyaq/hinted/ttf/NotoSerifOttomanSiyaq-Regular.ttf",
      "fonts/NotoSerifOttomanSiyaq/googlefonts/ttf/NotoSerifOttomanSiyaq-Regular.ttf",
-     "fonts/NotoSerifOttomanSiyaq/unhinted/ttf/NotoSerifOttomanSiyaq-Regular.ttf",
-     "fonts/NotoSerifOttomanSiyaq/unhinted/slim-otf/NotoSerifOttomanSiyaq-Regular.otf",
-     "fonts/NotoSerifOttomanSiyaq/unhinted/otf/NotoSerifOttomanSiyaq-Regular.otf",
      "fonts/NotoSerifOttomanSiyaq/full/ttf/NotoSerifOttomanSiyaq-Regular.ttf",
      "fonts/NotoSerifOttomanSiyaq/full/otf/NotoSerifOttomanSiyaq-Regular.otf",
-     "fonts/NotoSerifOttomanSiyaq/hinted/ttf/NotoSerifOttomanSiyaq-Regular.ttf"
+     "fonts/NotoSerifOttomanSiyaq/unhinted/ttf/NotoSerifOttomanSiyaq-Regular.ttf",
+     "fonts/NotoSerifOttomanSiyaq/unhinted/slim-otf/NotoSerifOttomanSiyaq-Regular.otf",
+     "fonts/NotoSerifOttomanSiyaq/unhinted/otf/NotoSerifOttomanSiyaq-Regular.otf"
     ],
     "latest_release": {
-     "notes": "Noto Serif Ottoman Siyaq Numbers v1.005 This is the initial Noto release of this family.\n",
-     "published": "2023-03-15T11:55:33",
-     "url": "https://github.com/notofonts/ottoman-siyaq-numbers/releases/tag/NotoSerifOttomanSiyaq-v1.005",
-     "version": "v1.005"
+     "notes": "Noto Serif Ottoman Siyaq v1.006\n\nThis release:\n* Takes the companion latin from Noto Serif, not Noto Sans (#3)\n* Fixes the marratan ligature (#2)\n",
+     "published": "2023-08-01T07:31:49",
+     "url": "https://github.com/notofonts/ottoman-siyaq-numbers/releases/tag/NotoSerifOttomanSiyaq-v1.006",
+     "version": "v1.006"
     }
    }
   },
   "known_releases": [
-   "NotoSerifOttomanSiyaq-v1.005"
+   "NotoSerifOttomanSiyaq-v1.005",
+   "NotoSerifOttomanSiyaq-v1.006"
   ]
  },
  "pahawh-hmong": {
