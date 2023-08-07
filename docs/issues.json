@@ -6,10 +6,11 @@
   "4": 55,
   "5": 50,
   "6": 89,
-  "7": 67
+  "7": 67,
+  "8": 1
  },
  "open_per_repo": {
-  "arabic": 20,
+  "arabic": 21,
   "armenian": 3,
   "balinese": 3,
   "bamum": 1,
@@ -25,13 +26,13 @@
   "deseret": 1,
   "devanagari": 8,
   "dives-akuru": 6,
-  "dogra": 2,
+  "dogra": 1,
   "duployan": 1,
   "egyptian-hieroglyphs": 6,
   "elbasan": 1,
   "elymaic": 1,
   "georgian": 1,
-  "glagolitic": 3,
+  "glagolitic": 1,
   "gujarati": 13,
   "gunjala-gondi": 1,
   "gurmukhi": 5,
@@ -40,7 +41,7 @@
   "javanese": 4,
   "kaithi": 3,
   "kannada": 11,
-  "kawi": 7,
+  "kawi": 4,
   "kharoshthi": 1,
   "khmer": 1,
   "khojki": 5,
@@ -65,6 +66,7 @@
   "old-hungarian-ui": 1,
   "old-italic": 1,
   "old-turkic": 2,
+  "old-uyghur": 3,
   "oriya": 7,
   "pahawh-hmong": 1,
   "rejang": 1,
@@ -91,11 +93,11 @@
   "tirhuta": 10
  },
  "open_per_tier": {
-  "1": 231,
+  "1": 232,
   "2": 38,
   "3": 88,
-  "4": 46,
-  "5": 28
+  "4": 40,
+  "5": 31
  },
  "opened_per_month": {
   "1": 20,
@@ -104,7 +106,8 @@
   "4": 48,
   "5": 19,
   "6": 43,
-  "7": 26
+  "7": 26,
+  "8": 4
  },
  "releases_per_month": {
   "1": [
@@ -442,6 +445,12 @@
     "tag": "NotoSansLycian-v2.002",
     "url": "https://github.com/notofonts/lycian/releases/tag/NotoSansLycian-v2.002"
    }
+  ],
+  "8": [
+   {
+    "tag": "NotoSerifOttomanSiyaq-v1.006",
+    "url": "https://github.com/notofonts/ottoman-siyaq-numbers/releases/tag/NotoSerifOttomanSiyaq-v1.006"
+   }
   ]
  },
  "totals_per_month": {
@@ -451,6 +460,7 @@
   "4": 550,
   "5": 543,
   "6": 512,
-  "7": 472
+  "7": 472,
+  "8": 426
  }
 }

@@ -344,6 +344,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2023-07-31T23:09:04Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/196"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2019-11-20T23:51:15Z",
   "repo": "armenian",
   "tier": 1,
@@ -1043,7 +1050,7 @@
   "url": "https://github.com/notofonts/dogra/issues/11"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-31T14:36:51Z",
   "createdAt": "2022-10-10T00:56:56Z",
   "repo": "dogra",
   "tier": 4,
@@ -1211,7 +1218,7 @@
   "url": "https://github.com/notofonts/georgian/issues/6"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-31T13:58:32Z",
   "createdAt": "2021-09-21T17:54:47Z",
   "repo": "glagolitic",
   "tier": 4,
@@ -1225,7 +1232,7 @@
   "url": "https://github.com/notofonts/glagolitic/issues/4"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-31T13:58:32Z",
   "createdAt": "2022-07-04T21:43:46Z",
   "repo": "glagolitic",
   "tier": 4,
@@ -1841,7 +1848,7 @@
   "url": "https://github.com/notofonts/kawi/issues/9"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-31T15:04:14Z",
   "createdAt": "2023-07-01T23:37:15Z",
   "repo": "kawi",
   "tier": 4,
@@ -1869,14 +1876,14 @@
   "url": "https://github.com/notofonts/kawi/issues/13"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-31T15:06:10Z",
   "createdAt": "2023-07-23T18:57:57Z",
   "repo": "kawi",
   "tier": 4,
   "url": "https://github.com/notofonts/kawi/issues/14"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-07-31T15:07:06Z",
   "createdAt": "2023-07-23T20:37:51Z",
   "repo": "kawi",
   "tier": 4,
@@ -5614,6 +5621,27 @@
   "url": "https://github.com/notofonts/old-uyghur/issues/1"
  },
  {
+  "closedAt": null,
+  "createdAt": "2023-08-01T20:47:52Z",
+  "repo": "old-uyghur",
+  "tier": 5,
+  "url": "https://github.com/notofonts/old-uyghur/issues/2"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-08-01T21:29:30Z",
+  "repo": "old-uyghur",
+  "tier": 5,
+  "url": "https://github.com/notofonts/old-uyghur/issues/3"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-08-01T22:24:32Z",
+  "repo": "old-uyghur",
+  "tier": 5,
+  "url": "https://github.com/notofonts/old-uyghur/issues/4"
+ },
+ {
   "closedAt": "2023-03-20T11:03:44Z",
   "createdAt": "2021-09-14T10:59:22Z",
   "repo": "oriya",
@@ -5717,6 +5745,13 @@
   "repo": "ottoman-siyaq-numbers",
   "tier": 5,
   "url": "https://github.com/notofonts/ottoman-siyaq-numbers/issues/3"
+ },
+ {
+  "closedAt": "2023-08-01T07:06:35Z",
+  "createdAt": "2023-08-01T06:52:50Z",
+  "repo": "ottoman-siyaq-numbers",
+  "tier": 5,
+  "url": "https://github.com/notofonts/ottoman-siyaq-numbers/issues/4"
  },
  {
   "closedAt": null,
