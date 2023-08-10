@@ -7260,16 +7260,6 @@
     "url": "https://github.com/notofonts/khojki/issues/21"
    },
    {
-    "number": 20,
-    "title": "Below-base ra blocks post-base ya in Noto Serif Khojki",
-    "url": "https://github.com/notofonts/khojki/issues/20"
-   },
-   {
-    "number": 19,
-    "title": "Inaccessible glyphs in Noto Serif Khojki",
-    "url": "https://github.com/notofonts/khojki/issues/19"
-   },
-   {
     "number": 17,
     "title": "U+11230 KHOJKI VOWEL SIGN E should use alternative form more often in Noto Serif Khojki",
     "url": "https://github.com/notofonts/khojki/issues/17"
@@ -12666,6 +12656,16 @@
   },
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
+   {
+    "number": 28,
+    "title": "Bump cryptography from 41.0.1 to 41.0.3",
+    "url": "https://github.com/notofonts/oriya/pull/28"
+   },
+   {
+    "number": 27,
+    "title": "Bump certifi from 2023.5.7 to 2023.7.22",
+    "url": "https://github.com/notofonts/oriya/pull/27"
+   },
    {
     "number": 26,
     "title": "Serif: 0B55 is still missing",
