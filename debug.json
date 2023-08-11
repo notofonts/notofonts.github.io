@@ -543,8 +543,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 22,
+  "issue_count": 23,
   "issues": [
+   {
+    "number": 197,
+    "title": "Noto Sans Arabic isn't working on Word, is glitched on PowerPoint, but works on Excel",
+    "url": "https://github.com/notofonts/arabic/issues/197"
+   },
    {
     "number": 196,
     "title": "Naskh: Arabic-Indic digits should default to tabular",
@@ -8907,22 +8912,12 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/khojki",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 23,
-    "title": "Alternative anusvara overlaps matras in Noto Sans Khojki",
-    "url": "https://github.com/notofonts/khojki/issues/23"
-   },
    {
     "number": 21,
     "title": "U+1123E KHOJKI SIGN SUKUN is placed inconsistently in Noto Serif Khojki",
     "url": "https://github.com/notofonts/khojki/issues/21"
-   },
-   {
-    "number": 17,
-    "title": "U+11230 KHOJKI VOWEL SIGN E should use alternative form more often in Noto Serif Khojki",
-    "url": "https://github.com/notofonts/khojki/issues/17"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/khojki",
