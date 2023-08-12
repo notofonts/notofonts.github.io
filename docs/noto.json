@@ -415,9 +415,9 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
-    "number": 197,
-    "title": "Noto Sans Arabic isn't working on Word, is glitched on PowerPoint, but works on Excel",
-    "url": "https://github.com/notofonts/arabic/issues/197"
+    "number": 198,
+    "title": "Add Coptic Epact Numbers?",
+    "url": "https://github.com/notofonts/arabic/issues/198"
    },
    {
     "number": 196,
@@ -3194,13 +3194,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/elymaic",
-  "issues": [
-   {
-    "number": 3,
-    "title": "u10FF6.ss02 is inaccessible in Noto Sans Elymaic",
-    "url": "https://github.com/notofonts/elymaic/issues/3"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/elymaic",
   "tier": 5,
   "title": "Noto Elymaic"
@@ -12651,6 +12645,11 @@
   },
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
+   {
+    "number": 29,
+    "title": "Bump gitpython from 3.1.31 to 3.1.32",
+    "url": "https://github.com/notofonts/oriya/pull/29"
+   },
    {
     "number": 28,
     "title": "Bump cryptography from 41.0.1 to 41.0.3",
