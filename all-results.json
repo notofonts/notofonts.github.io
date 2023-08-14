@@ -350,6 +350,20 @@
   "url": "https://github.com/notofonts/arabic/issues/196"
  },
  {
+  "closedAt": "2023-08-11T06:20:02Z",
+  "createdAt": "2023-08-10T22:31:50Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/197"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-08-11T23:07:03Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/198"
+ },
+ {
   "closedAt": null,
   "createdAt": "2019-11-20T23:51:15Z",
   "repo": "armenian",
@@ -1169,7 +1183,7 @@
   "url": "https://github.com/notofonts/elymaic/issues/1"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-08-11T13:49:17Z",
   "createdAt": "2020-04-01T13:56:27Z",
   "repo": "elymaic",
   "tier": 5,
@@ -2205,7 +2219,7 @@
   "url": "https://github.com/notofonts/khojki/issues/16"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-08-10T16:30:14Z",
   "createdAt": "2023-06-25T18:17:23Z",
   "repo": "khojki",
   "tier": 3,
@@ -2219,14 +2233,14 @@
   "url": "https://github.com/notofonts/khojki/issues/18"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-08-09T15:09:36Z",
   "createdAt": "2023-06-25T19:57:04Z",
   "repo": "khojki",
   "tier": 3,
   "url": "https://github.com/notofonts/khojki/issues/19"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-08-09T15:11:03Z",
   "createdAt": "2023-06-26T18:08:54Z",
   "repo": "khojki",
   "tier": 3,
@@ -2247,7 +2261,7 @@
   "url": "https://github.com/notofonts/khojki/issues/22"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-08-10T16:20:15Z",
   "createdAt": "2023-07-01T20:20:49Z",
   "repo": "khojki",
   "tier": 3,
@@ -5374,6 +5388,13 @@
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/52"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-08-13T19:08:45Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/53"
  },
  {
   "closedAt": "2023-02-09T09:39:26Z",
