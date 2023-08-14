@@ -14294,8 +14294,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 14,
+  "issue_count": 15,
   "issues": [
+   {
+    "number": 53,
+    "title": "Support for major Pakistani languages",
+    "url": "https://github.com/notofonts/nastaliq/issues/53"
+   },
    {
     "number": 52,
     "title": "Provide a dedicated font for Kashmiri Language",
