@@ -11767,11 +11767,6 @@
     "url": "https://github.com/notofonts/nastaliq/issues/51"
    },
    {
-    "number": 50,
-    "title": "Wrong display for Uyghur letter \u201c\u06cb\u201d U+06CB Arabic Letter Ve",
-    "url": "https://github.com/notofonts/nastaliq/issues/50"
-   },
-   {
     "number": 49,
     "title": "Adjust the Arabic Thousands Separator (U+066C) to follow the design and position as English",
     "url": "https://github.com/notofonts/nastaliq/issues/49"
@@ -11792,11 +11787,6 @@
     "url": "https://github.com/notofonts/nastaliq/issues/13"
    },
    {
-    "number": 10,
-    "title": "Partial list of missing characters in Noto Nastaliq Urdu",
-    "url": "https://github.com/notofonts/nastaliq/issues/10"
-   },
-   {
     "number": 9,
     "title": "Noto Nastaliq Urdu: Some more sequences ending in U+06D2 ARABIC LETTER YEH BARREE (\u06d2) with incorrect dot positioning",
     "url": "https://github.com/notofonts/nastaliq/issues/9"
@@ -11805,16 +11795,6 @@
     "number": 8,
     "title": "Nastaliq curly vowel signs are not curly enough",
     "url": "https://github.com/notofonts/nastaliq/issues/8"
-   },
-   {
-    "number": 7,
-    "title": "U+08AD ARABIC LETTER LOW ALEF is too high in Noto Nastaliq Urdu",
-    "url": "https://github.com/notofonts/nastaliq/issues/7"
-   },
-   {
-    "number": 5,
-    "title": "Issue with Arabic sign sanah in Noto Nastaliq Urdu",
-    "url": "https://github.com/notofonts/nastaliq/issues/5"
    },
    {
     "number": 3,
