@@ -10643,8 +10643,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 126,
+  "issue_count": 127,
   "issues": [
+   {
+    "number": 439,
+    "title": "Problem with the Swedish letters \u00e5\u00e4\u00f6 and letters as \u00e1, \u00e2 (diacritical marks) in Excel ",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/439"
+   },
    {
     "number": 434,
     "title": "Noto Sans Bold not working in Google Docs",
@@ -17747,8 +17752,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/symbols",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 73,
+    "title": "Incorrect positioning on user interface symbols",
+    "url": "https://github.com/notofonts/symbols/issues/73"
+   },
    {
     "number": 72,
     "title": "Enclosing marks overlap adjacent clusters",
