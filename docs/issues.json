@@ -7,7 +7,7 @@
   "5": 50,
   "6": 89,
   "7": 67,
-  "8": 7
+  "8": 15
  },
  "open_per_repo": {
   "arabic": 22,
@@ -39,13 +39,13 @@
   "hebrew": 7,
   "javanese": 4,
   "kaithi": 3,
-  "kannada": 11,
+  "kannada": 7,
   "kawi": 4,
   "kharoshthi": 1,
   "khmer": 1,
   "khojki": 1,
   "khudawadi": 1,
-  "latin-greek-cyrillic": 125,
+  "latin-greek-cyrillic": 126,
   "lydian": 1,
   "malayalam": 8,
   "manichaean": 1,
@@ -59,7 +59,7 @@
   "music": 2,
   "myanmar": 32,
   "nandinagari": 4,
-  "nastaliq": 15,
+  "nastaliq": 11,
   "nko": 1,
   "old-hungarian": 6,
   "old-hungarian-ui": 1,
@@ -77,7 +77,7 @@
   "soyombo": 3,
   "sundanese": 2,
   "syloti-nagri": 5,
-  "symbols": 6,
+  "symbols": 7,
   "syriac": 4,
   "tagalog": 2,
   "tai-le": 1,
@@ -92,9 +92,9 @@
   "tirhuta": 10
  },
  "open_per_tier": {
-  "1": 234,
+  "1": 227,
   "2": 38,
-  "3": 84,
+  "3": 85,
   "4": 40,
   "5": 30
  },
@@ -106,7 +106,7 @@
   "5": 19,
   "6": 43,
   "7": 26,
-  "8": 7
+  "8": 9
  },
  "releases_per_month": {
   "1": [
@@ -446,6 +446,10 @@
    }
   ],
   "8": [
+   {
+    "tag": "Serif2.002",
+    "url": "https://github.com/notofonts/noto-cjk/releases/tag/Serif2.002"
+   },
    {
     "tag": "NotoSerifOttomanSiyaq-v1.006",
     "url": "https://github.com/notofonts/ottoman-siyaq-numbers/releases/tag/NotoSerifOttomanSiyaq-v1.006"

@@ -2002,28 +2002,28 @@
   "url": "https://github.com/notofonts/kannada/issues/51"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-08-16T05:08:53Z",
   "createdAt": "2023-05-16T00:43:15Z",
   "repo": "kannada",
   "tier": 1,
   "url": "https://github.com/notofonts/kannada/issues/52"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-08-16T05:09:19Z",
   "createdAt": "2023-05-16T00:44:40Z",
   "repo": "kannada",
   "tier": 1,
   "url": "https://github.com/notofonts/kannada/issues/53"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-08-16T05:09:37Z",
   "createdAt": "2023-05-16T00:46:04Z",
   "repo": "kannada",
   "tier": 1,
   "url": "https://github.com/notofonts/kannada/issues/54"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-08-16T05:09:52Z",
   "createdAt": "2023-05-16T00:47:47Z",
   "repo": "kannada",
   "tier": 1,
@@ -4263,6 +4263,13 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/438"
  },
  {
+  "closedAt": null,
+  "createdAt": "2023-08-17T14:01:58Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/439"
+ },
+ {
   "closedAt": "2023-05-24T20:06:31Z",
   "createdAt": "2018-03-06T02:22:11Z",
   "repo": "limbu",
@@ -5271,7 +5278,7 @@
   "url": "https://github.com/notofonts/nastaliq/issues/4"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-08-14T06:13:05Z",
   "createdAt": "2022-02-04T10:02:37Z",
   "repo": "nastaliq",
   "tier": 1,
@@ -5285,7 +5292,7 @@
   "url": "https://github.com/notofonts/nastaliq/issues/6"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-08-14T08:44:11Z",
   "createdAt": "2022-02-05T15:49:41Z",
   "repo": "nastaliq",
   "tier": 1,
@@ -5306,7 +5313,7 @@
   "url": "https://github.com/notofonts/nastaliq/issues/9"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-08-14T08:44:05Z",
   "createdAt": "2022-03-14T09:06:22Z",
   "repo": "nastaliq",
   "tier": 1,
@@ -5369,7 +5376,7 @@
   "url": "https://github.com/notofonts/nastaliq/issues/49"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-08-14T08:44:11Z",
   "createdAt": "2023-06-10T13:40:44Z",
   "repo": "nastaliq",
   "tier": 1,
@@ -6403,6 +6410,13 @@
   "repo": "symbols",
   "tier": 3,
   "url": "https://github.com/notofonts/symbols/issues/72"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-08-17T16:51:20Z",
+  "repo": "symbols",
+  "tier": 3,
+  "url": "https://github.com/notofonts/symbols/issues/73"
  },
  {
   "closedAt": "2023-01-03T07:09:33Z",
