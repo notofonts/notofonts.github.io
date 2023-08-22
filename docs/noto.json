@@ -8868,6 +8868,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 440,
+    "title": "Roman Numerals?",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/440"
+   },
+   {
     "number": 439,
     "title": "Problem with the Swedish letters \u00e5\u00e4\u00f6 and letters as \u00e1, \u00e2 (diacritical marks) in Excel ",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/439"
