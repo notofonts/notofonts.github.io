@@ -4270,6 +4270,13 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/439"
  },
  {
+  "closedAt": null,
+  "createdAt": "2023-08-21T18:54:31Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/440"
+ },
+ {
   "closedAt": "2023-05-24T20:06:31Z",
   "createdAt": "2018-03-06T02:22:11Z",
   "repo": "limbu",
@@ -5369,7 +5376,7 @@
   "url": "https://github.com/notofonts/nastaliq/issues/47"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-08-22T06:03:55Z",
   "createdAt": "2023-06-07T01:21:58Z",
   "repo": "nastaliq",
   "tier": 1,
@@ -5402,6 +5409,20 @@
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/53"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-08-22T06:45:08Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/54"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-08-24T04:29:04Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/55"
  },
  {
   "closedAt": "2023-02-09T09:39:26Z",
@@ -6634,6 +6655,13 @@
   "repo": "takri",
   "tier": 3,
   "url": "https://github.com/notofonts/takri/issues/14"
+ },
+ {
+  "closedAt": "2023-08-25T14:04:59Z",
+  "createdAt": "2023-08-25T13:49:22Z",
+  "repo": "takri",
+  "tier": 3,
+  "url": "https://github.com/notofonts/takri/issues/16"
  },
  {
   "closedAt": "2023-03-17T08:21:53Z",
