@@ -14284,13 +14284,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 12,
+  "issue_count": 11,
   "issues": [
-   {
-    "number": 55,
-    "title": "Add arabic letter \u06ae (U+06AE ARABIC LETTER KAF WITH THREE DOTS BELOW)",
-    "url": "https://github.com/notofonts/nastaliq/issues/55"
-   },
    {
     "number": 54,
     "title": "Some part of glyphs disappearing on Microsoft Word ",
