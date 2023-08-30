@@ -10643,8 +10643,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 128,
+  "issue_count": 129,
   "issues": [
+   {
+    "number": 441,
+    "title": "[Mono ExtraCondensed] Some symbols are displayed at full width",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/441"
+   },
    {
     "number": 440,
     "title": "Roman Numerals?",

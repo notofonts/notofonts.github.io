@@ -8868,6 +8868,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 441,
+    "title": "[Mono ExtraCondensed] Some symbols are displayed at full width",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/441"
+   },
+   {
     "number": 440,
     "title": "Roman Numerals?",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/440"
