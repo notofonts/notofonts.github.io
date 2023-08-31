@@ -415,6 +415,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 199,
+    "title": "Update Naskh to Unicode 15 and more",
+    "url": "https://github.com/notofonts/arabic/pull/199"
+   },
+   {
     "number": 198,
     "title": "Add Coptic Epact Numbers?",
     "url": "https://github.com/notofonts/arabic/issues/198"
