@@ -10648,22 +10648,12 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 129,
+  "issue_count": 126,
   "issues": [
-   {
-    "number": 441,
-    "title": "[Mono ExtraCondensed] Some symbols are displayed at full width",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/441"
-   },
    {
     "number": 440,
     "title": "Roman Numerals?",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/440"
-   },
-   {
-    "number": 439,
-    "title": "Problem with the Swedish letters \u00e5\u00e4\u00f6 and letters as \u00e1, \u00e2 (diacritical marks) in Excel ",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/439"
    },
    {
     "number": 434,
@@ -11069,11 +11059,6 @@
     "number": 113,
     "title": "The stylistic sets for non-serifed 'I' and non-descending 'J' should be separate in Noto Sans and Sans Display",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/113"
-   },
-   {
-    "number": 207,
-    "title": "Inconsistent monospaced glyph for U+2229 INTERSECTION",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/207"
    },
    {
     "number": 118,
