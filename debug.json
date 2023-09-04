@@ -14279,17 +14279,12 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 11,
+  "issue_count": 10,
   "issues": [
    {
     "number": 54,
     "title": "Some part of glyphs disappearing on Microsoft Word ",
     "url": "https://github.com/notofonts/nastaliq/issues/54"
-   },
-   {
-    "number": 53,
-    "title": "Support for major Pakistani languages",
-    "url": "https://github.com/notofonts/nastaliq/issues/53"
    },
    {
     "number": 52,
