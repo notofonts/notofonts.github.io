@@ -7,7 +7,8 @@
   "5": 50,
   "6": 89,
   "7": 67,
-  "8": 17
+  "8": 18,
+  "9": 2
  },
  "open_per_repo": {
   "arabic": 22,
@@ -45,7 +46,7 @@
   "khmer": 1,
   "khojki": 1,
   "khudawadi": 1,
-  "latin-greek-cyrillic": 127,
+  "latin-greek-cyrillic": 125,
   "lydian": 1,
   "malayalam": 8,
   "manichaean": 1,
@@ -59,7 +60,7 @@
   "music": 2,
   "myanmar": 32,
   "nandinagari": 4,
-  "nastaliq": 12,
+  "nastaliq": 10,
   "nko": 1,
   "old-hungarian": 6,
   "old-hungarian-ui": 1,
@@ -92,7 +93,7 @@
   "tirhuta": 10
  },
  "open_per_tier": {
-  "1": 229,
+  "1": 225,
   "2": 38,
   "3": 85,
   "4": 40,
@@ -106,7 +107,8 @@
   "5": 19,
   "6": 43,
   "7": 26,
-  "8": 13
+  "8": 14,
+  "9": 1
  },
  "releases_per_month": {
   "1": [
@@ -464,6 +466,7 @@
   "5": 543,
   "6": 512,
   "7": 472,
-  "8": 426
+  "8": 426,
+  "9": 419
  }
 }

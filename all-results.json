@@ -2275,6 +2275,13 @@
   "url": "https://github.com/notofonts/khojki/issues/25"
  },
  {
+  "closedAt": "2023-09-01T08:00:40Z",
+  "createdAt": "2023-09-01T06:58:58Z",
+  "repo": "khojki",
+  "tier": 3,
+  "url": "https://github.com/notofonts/khojki/issues/26"
+ },
+ {
   "closedAt": "2023-01-03T12:35:21Z",
   "createdAt": "2019-10-29T17:32:50Z",
   "repo": "khudawadi",
@@ -3752,7 +3759,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/206"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-08-31T17:19:08Z",
   "createdAt": "2019-03-01T03:01:27Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -4263,7 +4270,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/438"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-08-31T11:09:33Z",
   "createdAt": "2023-08-17T14:01:58Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -4275,6 +4282,13 @@
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/440"
+ },
+ {
+  "closedAt": "2023-08-31T17:13:46Z",
+  "createdAt": "2023-08-29T16:22:07Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/441"
  },
  {
   "closedAt": "2023-05-24T20:06:31Z",
@@ -5404,7 +5418,7 @@
   "url": "https://github.com/notofonts/nastaliq/issues/52"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-09-03T06:43:49Z",
   "createdAt": "2023-08-13T19:08:45Z",
   "repo": "nastaliq",
   "tier": 1,
@@ -5418,7 +5432,7 @@
   "url": "https://github.com/notofonts/nastaliq/issues/54"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-08-28T16:19:03Z",
   "createdAt": "2023-08-24T04:29:04Z",
   "repo": "nastaliq",
   "tier": 1,
