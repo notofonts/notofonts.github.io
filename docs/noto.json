@@ -14166,6 +14166,11 @@
   "gh_url": "https://notofonts.github.io/symbols",
   "issues": [
    {
+    "number": 74,
+    "title": "U+218A and U+218B don't change weights per \"two\" and \"three\"",
+    "url": "https://github.com/notofonts/symbols/issues/74"
+   },
+   {
     "number": 73,
     "title": "Incorrect positioning on user interface symbols",
     "url": "https://github.com/notofonts/symbols/issues/73"
