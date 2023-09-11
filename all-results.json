@@ -70,7 +70,7 @@
   "url": "https://github.com/notofonts/ahom/issues/14"
  },
  {
-  "closedAt": "2023-07-24T11:09:23Z",
+  "closedAt": null,
   "createdAt": "2023-03-24T19:34:56Z",
   "repo": "ahom",
   "tier": 4,
@@ -6454,6 +6454,13 @@
   "url": "https://github.com/notofonts/symbols/issues/73"
  },
  {
+  "closedAt": null,
+  "createdAt": "2023-09-08T13:50:17Z",
+  "repo": "symbols",
+  "tier": 3,
+  "url": "https://github.com/notofonts/symbols/issues/74"
+ },
+ {
   "closedAt": "2023-01-03T07:09:33Z",
   "createdAt": "2015-08-07T14:12:30Z",
   "repo": "syriac",
@@ -6760,6 +6767,13 @@
   "repo": "tangsa",
   "tier": 3,
   "url": "https://github.com/notofonts/tangsa/issues/7"
+ },
+ {
+  "closedAt": "2023-09-06T14:25:53Z",
+  "createdAt": "2023-09-06T05:33:29Z",
+  "repo": "tangsa",
+  "tier": 3,
+  "url": "https://github.com/notofonts/tangsa/issues/8"
  },
  {
   "closedAt": "2023-02-09T09:02:40Z",
