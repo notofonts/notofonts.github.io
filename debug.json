@@ -10654,7 +10654,7 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 126,
+  "issue_count": 116,
   "issues": [
    {
     "number": 440,
@@ -10762,11 +10762,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/393"
    },
    {
-    "number": 389,
-    "title": "Fix slash length and angle for two glyphs in NotoSans{Italic,Mono}",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/389"
-   },
-   {
     "number": 387,
     "title": "Add Alternate Glyph Forms for Lowercase L, T, G and A",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/387"
@@ -10785,11 +10780,6 @@
     "number": 1,
     "title": "Wrong positioning for diacritics of DIN 91379 in Noto Sans Mono",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/1"
-   },
-   {
-    "number": 227,
-    "title": "fsSelection/MacStyle incorrect in Noto Sans?",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/227"
    },
    {
     "number": 2,
@@ -10947,19 +10937,9 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/58"
    },
    {
-    "number": 59,
-    "title": "Wrong glyph for U+2E49 DOUBLE STACKED COMMA",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/59"
-   },
-   {
     "number": 62,
     "title": "Mispositioned off-center typicon marks",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/62"
-   },
-   {
-    "number": 63,
-    "title": "Mispositioned mark in <U+2E2B, U+032E>",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/63"
    },
    {
     "number": 66,
@@ -10987,11 +10967,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/219"
    },
    {
-    "number": 218,
-    "title": "Anchor below U+A7AF LATIN LETTER SMALL CAPITAL Q is too high",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/218"
-   },
-   {
     "number": 103,
     "title": "Latin U+A7BA-A7BF (\ua7ba\ua7bb\ua7bc\ua7bd\ua7be\ua7bf) should not be italic in roman styles",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/103"
@@ -11015,11 +10990,6 @@
     "number": 228,
     "title": "Wrong Turkic small capital i",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/228"
-   },
-   {
-    "number": 214,
-    "title": "Reordered Romanian diacritic stacks in Noto Sans Mono",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/214"
    },
    {
     "number": 213,
@@ -11055,11 +11025,6 @@
     "number": 111,
     "title": "U+02BC 'Modifier Letter Apostrophe' is similar design as U+201D and U+2019",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/111"
-   },
-   {
-    "number": 112,
-    "title": "Incorrect metrics/positioning of generic combining diacritics associated with a leading space.",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/112"
    },
    {
     "number": 113,
@@ -11102,11 +11067,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/203"
    },
    {
-    "number": 124,
-    "title": "Negative side-bearings on U+1D1E LATIN SMALL LETTER SIDEWAYS DIAERESIZED U",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/124"
-   },
-   {
     "number": 127,
     "title": "Missing U+1D102 MUSICAL SYMBOL FINAL BARLINE for Teuthonista",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/127"
@@ -11120,11 +11080,6 @@
     "number": 131,
     "title": "Overlapping marks on narrow bases",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/131"
-   },
-   {
-    "number": 132,
-    "title": "Misplaced double diacritics",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/132"
    },
    {
     "number": 133,
@@ -11150,11 +11105,6 @@
     "number": 137,
     "title": "Some Cyrillic diacritic combinations should be stacked horizontally",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/137"
-   },
-   {
-    "number": 138,
-    "title": "Misplaced pokrytie above superscript letters",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/138"
    },
    {
     "number": 139,
