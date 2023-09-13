@@ -5746,7 +5746,7 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/gujarati",
   "has_releases": true,
-  "issue_count": 13,
+  "issue_count": 12,
   "issues": [
    {
     "number": 33,
@@ -5782,11 +5782,6 @@
     "number": 27,
     "title": "Ja-based clusters are not always ligated with vowel signs\u2019 vertical stems",
     "url": "https://github.com/notofonts/gujarati/issues/27"
-   },
-   {
-    "number": 15,
-    "title": "Noto Serif Gujarati: Nuqtas too close",
-    "url": "https://github.com/notofonts/gujarati/issues/15"
    },
    {
     "number": 11,
