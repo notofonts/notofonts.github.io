@@ -5746,22 +5746,12 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/gujarati",
   "has_releases": true,
-  "issue_count": 12,
+  "issue_count": 10,
   "issues": [
-   {
-    "number": 33,
-    "title": "Above-base mark sequences with repha or anusvara are too far to the right",
-    "url": "https://github.com/notofonts/gujarati/issues/33"
-   },
    {
     "number": 32,
     "title": "U+0AFD GUJARATI SIGN THREE-DOT NUKTA ABOVE makes -o and -au non-spacing",
     "url": "https://github.com/notofonts/gujarati/issues/32"
-   },
-   {
-    "number": 31,
-    "title": "<U+0AFF, U+0AFA> is too far to the right",
-    "url": "https://github.com/notofonts/gujarati/issues/31"
    },
    {
     "number": 30,
@@ -14145,29 +14135,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nandinagari",
   "has_releases": true,
-  "issue_count": 4,
-  "issues": [
-   {
-    "number": 5,
-    "title": "Excessive kerning of Nandinagari dead consonant s",
-    "url": "https://github.com/notofonts/nandinagari/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Sloppy conjunct glyphs in Nandinagari",
-    "url": "https://github.com/notofonts/nandinagari/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Overlapping vertical conjuncts in Nandinagari",
-    "url": "https://github.com/notofonts/nandinagari/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Contextually inappropriate half forms in Nandinagari",
-    "url": "https://github.com/notofonts/nandinagari/issues/2"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/nandinagari",
   "tier": 5,
   "title": "Noto Nandinagari"
