@@ -5746,27 +5746,12 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/gujarati",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 7,
   "issues": [
-   {
-    "number": 32,
-    "title": "U+0AFD GUJARATI SIGN THREE-DOT NUKTA ABOVE makes -o and -au non-spacing",
-    "url": "https://github.com/notofonts/gujarati/issues/32"
-   },
-   {
-    "number": 30,
-    "title": "<U+0AFD, U+0AFC> is rendered backwards",
-    "url": "https://github.com/notofonts/gujarati/issues/30"
-   },
    {
     "number": 29,
     "title": "Marks without anchor points overlap other glyphs",
     "url": "https://github.com/notofonts/gujarati/issues/29"
-   },
-   {
-    "number": 28,
-    "title": "U+0ABC GUJARATI SIGN NUKTA overlaps below-base marks",
-    "url": "https://github.com/notofonts/gujarati/issues/28"
    },
    {
     "number": 27,
@@ -10713,7 +10698,7 @@
    },
    {
     "number": 409,
-    "title": "Three obsolete glyphs: amendments to Unicode",
+    "title": "Two obsolete glyphs: amendments to Unicode",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/409"
    },
    {
@@ -14292,10 +14277,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans New Tai Lue v2.003\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-12T10:21:19",
-     "url": "https://github.com/notofonts/new-tai-lue/releases/tag/NotoSansNewTaiLue-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans New Tai Lue v2.004\n\nThis release fixes the encoding of U+19D2 (NEW TAI LUE DIGIT TWO). See #2\n",
+     "published": "2023-09-14T12:19:49",
+     "url": "https://github.com/notofonts/new-tai-lue/releases/tag/NotoSansNewTaiLue-v2.004",
+     "version": "v2.004"
     },
     "third_party_versions": {
      "Android 12": {
@@ -14310,7 +14295,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "2.003"
      },
      "iOS 16.1": {
@@ -17667,8 +17652,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/symbols",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 9,
   "issues": [
+   {
+    "number": 75,
+    "title": "Alchemical symbols change in Unicode 15.1",
+    "url": "https://github.com/notofonts/symbols/issues/75"
+   },
    {
     "number": 74,
     "title": "U+218A and U+218B don't change weights per \"two\" and \"three\"",

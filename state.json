@@ -9960,45 +9960,46 @@
   "families": {
    "Noto Sans New Tai Lue": {
     "files": [
-     "fonts/NotoSansNewTaiLue/full/slim-variable-ttf/NotoSansNewTaiLue[wght].ttf",
-     "fonts/NotoSansNewTaiLue/full/ttf/NotoSansNewTaiLue-Semibold.ttf",
-     "fonts/NotoSansNewTaiLue/full/ttf/NotoSansNewTaiLue-Regular.ttf",
-     "fonts/NotoSansNewTaiLue/full/ttf/NotoSansNewTaiLue-Bold.ttf",
-     "fonts/NotoSansNewTaiLue/full/ttf/NotoSansNewTaiLue-Medium.ttf",
-     "fonts/NotoSansNewTaiLue/full/variable-ttf/NotoSansNewTaiLue[wght].ttf",
-     "fonts/NotoSansNewTaiLue/full/otf/NotoSansNewTaiLue-Medium.otf",
-     "fonts/NotoSansNewTaiLue/full/otf/NotoSansNewTaiLue-Regular.otf",
-     "fonts/NotoSansNewTaiLue/full/otf/NotoSansNewTaiLue-Semibold.otf",
-     "fonts/NotoSansNewTaiLue/full/otf/NotoSansNewTaiLue-Bold.otf",
-     "fonts/NotoSansNewTaiLue/googlefonts/ttf/NotoSansNewTaiLue-Regular.ttf",
-     "fonts/NotoSansNewTaiLue/googlefonts/ttf/NotoSansNewTaiLue-Bold.ttf",
-     "fonts/NotoSansNewTaiLue/googlefonts/ttf/NotoSansNewTaiLue-Medium.ttf",
-     "fonts/NotoSansNewTaiLue/googlefonts/variable-ttf/NotoSansNewTaiLue[wght].ttf",
-     "fonts/NotoSansNewTaiLue/unhinted/slim-variable-ttf/NotoSansNewTaiLue[wght].ttf",
-     "fonts/NotoSansNewTaiLue/unhinted/ttf/NotoSansNewTaiLue-Semibold.ttf",
-     "fonts/NotoSansNewTaiLue/unhinted/ttf/NotoSansNewTaiLue-Regular.ttf",
-     "fonts/NotoSansNewTaiLue/unhinted/ttf/NotoSansNewTaiLue-Bold.ttf",
      "fonts/NotoSansNewTaiLue/unhinted/ttf/NotoSansNewTaiLue-Medium.ttf",
+     "fonts/NotoSansNewTaiLue/unhinted/ttf/NotoSansNewTaiLue-Bold.ttf",
+     "fonts/NotoSansNewTaiLue/unhinted/ttf/NotoSansNewTaiLue-Regular.ttf",
+     "fonts/NotoSansNewTaiLue/unhinted/ttf/NotoSansNewTaiLue-Semibold.ttf",
+     "fonts/NotoSansNewTaiLue/unhinted/slim-variable-ttf/NotoSansNewTaiLue[wght].ttf",
      "fonts/NotoSansNewTaiLue/unhinted/variable-ttf/NotoSansNewTaiLue[wght].ttf",
      "fonts/NotoSansNewTaiLue/unhinted/otf/NotoSansNewTaiLue-Medium.otf",
      "fonts/NotoSansNewTaiLue/unhinted/otf/NotoSansNewTaiLue-Regular.otf",
      "fonts/NotoSansNewTaiLue/unhinted/otf/NotoSansNewTaiLue-Semibold.otf",
      "fonts/NotoSansNewTaiLue/unhinted/otf/NotoSansNewTaiLue-Bold.otf",
-     "fonts/NotoSansNewTaiLue/hinted/ttf/NotoSansNewTaiLue-Semibold.ttf",
-     "fonts/NotoSansNewTaiLue/hinted/ttf/NotoSansNewTaiLue-Regular.ttf",
+     "fonts/NotoSansNewTaiLue/full/ttf/NotoSansNewTaiLue-Medium.ttf",
+     "fonts/NotoSansNewTaiLue/full/ttf/NotoSansNewTaiLue-Bold.ttf",
+     "fonts/NotoSansNewTaiLue/full/ttf/NotoSansNewTaiLue-Regular.ttf",
+     "fonts/NotoSansNewTaiLue/full/ttf/NotoSansNewTaiLue-Semibold.ttf",
+     "fonts/NotoSansNewTaiLue/full/slim-variable-ttf/NotoSansNewTaiLue[wght].ttf",
+     "fonts/NotoSansNewTaiLue/full/variable-ttf/NotoSansNewTaiLue[wght].ttf",
+     "fonts/NotoSansNewTaiLue/full/otf/NotoSansNewTaiLue-Medium.otf",
+     "fonts/NotoSansNewTaiLue/full/otf/NotoSansNewTaiLue-Regular.otf",
+     "fonts/NotoSansNewTaiLue/full/otf/NotoSansNewTaiLue-Semibold.otf",
+     "fonts/NotoSansNewTaiLue/full/otf/NotoSansNewTaiLue-Bold.otf",
+     "fonts/NotoSansNewTaiLue/hinted/ttf/NotoSansNewTaiLue-Medium.ttf",
      "fonts/NotoSansNewTaiLue/hinted/ttf/NotoSansNewTaiLue-Bold.ttf",
-     "fonts/NotoSansNewTaiLue/hinted/ttf/NotoSansNewTaiLue-Medium.ttf"
+     "fonts/NotoSansNewTaiLue/hinted/ttf/NotoSansNewTaiLue-Regular.ttf",
+     "fonts/NotoSansNewTaiLue/hinted/ttf/NotoSansNewTaiLue-Semibold.ttf",
+     "fonts/NotoSansNewTaiLue/googlefonts/ttf/NotoSansNewTaiLue-Medium.ttf",
+     "fonts/NotoSansNewTaiLue/googlefonts/ttf/NotoSansNewTaiLue-Bold.ttf",
+     "fonts/NotoSansNewTaiLue/googlefonts/ttf/NotoSansNewTaiLue-Regular.ttf",
+     "fonts/NotoSansNewTaiLue/googlefonts/variable-ttf/NotoSansNewTaiLue[wght].ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans New Tai Lue v2.003\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-12T10:21:19",
-     "url": "https://github.com/notofonts/new-tai-lue/releases/tag/NotoSansNewTaiLue-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans New Tai Lue v2.004\n\nThis release fixes the encoding of U+19D2 (NEW TAI LUE DIGIT TWO). See #2\n",
+     "published": "2023-09-14T12:19:49",
+     "url": "https://github.com/notofonts/new-tai-lue/releases/tag/NotoSansNewTaiLue-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "known_releases": [
-   "NotoSansNewTaiLue-v2.003"
+   "NotoSansNewTaiLue-v2.003",
+   "NotoSansNewTaiLue-v2.004"
   ]
  },
  "newa": {
