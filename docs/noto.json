@@ -1905,21 +1905,6 @@
   "gh_url": "https://notofonts.github.io/caucasian-albanian",
   "issues": [
    {
-    "number": 5,
-    "title": "U+035E COMBINING DOUBLE MACRON looks like a titlo",
-    "url": "https://github.com/notofonts/caucasian-albanian/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Mark attachment fails in DFLT script",
-    "url": "https://github.com/notofonts/caucasian-albanian/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Conjoining macrons do not conjoin",
-    "url": "https://github.com/notofonts/caucasian-albanian/issues/3"
-   },
-   {
     "number": 2,
     "title": "Caucasian Albanian 2.004",
     "url": "https://github.com/notofonts/caucasian-albanian/pull/2"
@@ -2028,13 +2013,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/cham",
-  "issues": [
-   {
-    "number": 9,
-    "title": "Dotless U+AA5E CHAM PUNCTUATION DOUBLE DANDA is not kerned",
-    "url": "https://github.com/notofonts/cham/issues/9"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/cham",
   "tier": 3,
   "title": "Noto Cham"
@@ -2143,11 +2122,6 @@
     "number": 2,
     "title": "Chorasmian cursive joining often fails",
     "url": "https://github.com/notofonts/chorasmian/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "'cv01' has no effect on isolated Chorasmian letters",
-    "url": "https://github.com/notofonts/chorasmian/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/chorasmian",
@@ -2180,13 +2154,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/coptic",
-  "issues": [
-   {
-    "number": 14,
-    "title": "U+0605 is extra wide next to U+102E5",
-    "url": "https://github.com/notofonts/coptic/issues/14"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/coptic",
   "tier": 3,
   "title": "Noto Coptic"
@@ -4059,13 +4027,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/glagolitic",
-  "issues": [
-   {
-    "number": 4,
-    "title": "U+FE26 COMBINING CONJOINING MACRON is higher than the titlo halves",
-    "url": "https://github.com/notofonts/glagolitic/issues/4"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/glagolitic",
   "tier": 4,
   "title": "Noto Glagolitic"
@@ -8849,6 +8811,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 444,
+    "title": "Does not build",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/444"
+   },
+   {
     "number": 440,
     "title": "Roman Numerals?",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/440"
@@ -10644,13 +10611,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/meroitic",
-  "issues": [
-   {
-    "number": 2,
-    "title": "Problems with Meroitic punctuation",
-    "url": "https://github.com/notofonts/meroitic/issues/2"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/meroitic",
   "tier": 5,
   "title": "Noto Meroitic"
@@ -10922,11 +10883,6 @@
   },
   "gh_url": "https://notofonts.github.io/music",
   "issues": [
-   {
-    "number": 10,
-    "title": "Broken in Photoshop",
-    "url": "https://github.com/notofonts/music/issues/10"
-   },
    {
     "number": 3,
     "title": "Incomplete coverage of ancient Greek musical notation",
@@ -12369,23 +12325,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/old-uyghur",
-  "issues": [
-   {
-    "number": 4,
-    "title": "tatweel does not join to the preceding letter",
-    "url": "https://github.com/notofonts/old-uyghur/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "pe-waw ligature not formed in isolation",
-    "url": "https://github.com/notofonts/old-uyghur/issues/3"
-   },
-   {
-    "number": 2,
-    "title": "Combining marks break joining behaviour",
-    "url": "https://github.com/notofonts/old-uyghur/issues/2"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/old-uyghur",
   "tier": 5,
   "title": "Noto Old Uyghur"
