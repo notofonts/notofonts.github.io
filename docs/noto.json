@@ -421,29 +421,14 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
-    "number": 199,
-    "title": "Update Naskh to Unicode 15 and more",
-    "url": "https://github.com/notofonts/arabic/pull/199"
+    "number": 200,
+    "title": "Update Kufi to Unicode 15 and more",
+    "url": "https://github.com/notofonts/arabic/pull/200"
    },
    {
     "number": 198,
     "title": "Add Coptic Epact Numbers?",
     "url": "https://github.com/notofonts/arabic/issues/198"
-   },
-   {
-    "number": 196,
-    "title": "Naskh: Arabic-Indic digits should default to tabular",
-    "url": "https://github.com/notofonts/arabic/issues/196"
-   },
-   {
-    "number": 195,
-    "title": "Naskh improvements",
-    "url": "https://github.com/notofonts/arabic/pull/195"
-   },
-   {
-    "number": 193,
-    "title": "Noto Naskh Arabic uses sans-serif ASCII digits",
-    "url": "https://github.com/notofonts/arabic/issues/193"
    },
    {
     "number": 192,
@@ -1225,11 +1210,6 @@
     "number": 9,
     "title": "The result of the first Toba Congress request to modify the \"ba\" character.",
     "url": "https://github.com/notofonts/batak/issues/9"
-   },
-   {
-    "number": 8,
-    "title": "Consonant sign NG (amisara) should be above the letter, not vowel, in \"letter+vowel+amisara\" combination",
-    "url": "https://github.com/notofonts/batak/issues/8"
    },
    {
     "number": 7,
@@ -10373,11 +10353,6 @@
     "url": "https://github.com/notofonts/math/issues/36"
    },
    {
-    "number": 12,
-    "title": "Soft-dotting is missing from Noto Sans Math",
-    "url": "https://github.com/notofonts/math/issues/12"
-   },
-   {
     "number": 7,
     "title": "Best-fit Bidi_Mirroring_Glyph could be better",
     "url": "https://github.com/notofonts/math/issues/7"
@@ -13840,11 +13815,6 @@
   },
   "gh_url": "https://notofonts.github.io/sundanese",
   "issues": [
-   {
-    "number": 7,
-    "title": "U+1BA1 SUNDANESE CONSONANT SIGN PAMINGKAL is positioned wrong",
-    "url": "https://github.com/notofonts/sundanese/issues/7"
-   },
    {
     "number": 2,
     "title": "U+1BAB SUNDANESE SIGN VIRAMA does not form conjuncts",
