@@ -160,14 +160,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/ahom",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 16,
-    "title": "Ahom i\u2013u ligature is still not always formed",
-    "url": "https://github.com/notofonts/ahom/issues/16"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/ahom",
   "tier": 4,
   "title": "Noto Ahom"
@@ -2748,14 +2742,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/chorasmian",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 2,
-    "title": "Chorasmian cursive joining often fails",
-    "url": "https://github.com/notofonts/chorasmian/issues/2"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/chorasmian",
   "tier": 5,
   "title": "Noto Chorasmian"
@@ -10566,13 +10554,8 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 116,
+  "issue_count": 110,
   "issues": [
-   {
-    "number": 444,
-    "title": "Does not build",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/444"
-   },
    {
     "number": 440,
     "title": "Roman Numerals?",
@@ -10602,11 +10585,6 @@
     "number": 421,
     "title": "Troubles with basic umlauts (0300+)",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/421"
-   },
-   {
-    "number": 420,
-    "title": "U+03D7 GREEK KAI SYMBOL has a jagged contour",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/420"
    },
    {
     "number": 419,
@@ -10639,11 +10617,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/411"
    },
    {
-    "number": 409,
-    "title": "Two obsolete glyphs: amendments to Unicode",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/409"
-   },
-   {
     "number": 406,
     "title": "Sorry, your som is not right",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/406"
@@ -10669,11 +10642,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/396"
    },
    {
-    "number": 393,
-    "title": "Kerning issues with \u0129 repeated and next to apostrophe and glottal stop.",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/393"
-   },
-   {
     "number": 387,
     "title": "Add Alternate Glyph Forms for Lowercase L, T, G and A",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/387"
@@ -10692,11 +10660,6 @@
     "number": 1,
     "title": "Wrong positioning for diacritics of DIN 91379 in Noto Sans Mono",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/1"
-   },
-   {
-    "number": 2,
-    "title": "Noto Sans and Noto Sans Bold have differ size while setted as 13 px",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/2"
    },
    {
     "number": 4,
@@ -10827,11 +10790,6 @@
     "number": 54,
     "title": "U+1C87 CYRILLIC SMALL LETTER TALL YAT has uppercase-style serifs",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/54"
-   },
-   {
-    "number": 55,
-    "title": "Inconsistent positioning of U+0328 COMBINING OGONEK",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/55"
    },
    {
     "number": 56,
