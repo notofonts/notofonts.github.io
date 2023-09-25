@@ -2122,7 +2122,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/coptic",
-  "issues": [],
+  "issues": [
+   {
+    "number": 15,
+    "title": "Variable font with weight axis",
+    "url": "https://github.com/notofonts/coptic/issues/15"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/coptic",
   "tier": 3,
   "title": "Noto Coptic"
