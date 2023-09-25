@@ -70,7 +70,7 @@
   "url": "https://github.com/notofonts/ahom/issues/14"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-09-22T09:29:57Z",
   "createdAt": "2023-03-24T19:34:56Z",
   "repo": "ahom",
   "tier": 4,
@@ -336,14 +336,14 @@
   "url": "https://github.com/notofonts/arabic/issues/192"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-09-18T11:23:14Z",
   "createdAt": "2023-07-12T20:35:59Z",
   "repo": "arabic",
   "tier": 1,
   "url": "https://github.com/notofonts/arabic/issues/193"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-09-18T11:23:15Z",
   "createdAt": "2023-07-31T23:09:04Z",
   "repo": "arabic",
   "tier": 1,
@@ -567,7 +567,7 @@
   "url": "https://github.com/notofonts/batak/issues/7"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-09-18T13:51:57Z",
   "createdAt": "2023-07-14T06:20:26Z",
   "repo": "batak",
   "tier": 3,
@@ -586,6 +586,13 @@
   "repo": "batak",
   "tier": 3,
   "url": "https://github.com/notofonts/batak/issues/10"
+ },
+ {
+  "closedAt": "2023-09-18T14:24:59Z",
+  "createdAt": "2023-09-18T14:14:43Z",
+  "repo": "batak",
+  "tier": 3,
+  "url": "https://github.com/notofonts/batak/issues/11"
  },
  {
   "closedAt": null,
@@ -833,7 +840,7 @@
   "url": "https://github.com/notofonts/chorasmian/issues/1"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-09-22T12:10:49Z",
   "createdAt": "2021-12-25T17:24:26Z",
   "repo": "chorasmian",
   "tier": 5,
@@ -859,6 +866,13 @@
   "repo": "coptic",
   "tier": 3,
   "url": "https://github.com/notofonts/coptic/issues/14"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-09-24T16:10:46Z",
+  "repo": "coptic",
+  "tier": 3,
+  "url": "https://github.com/notofonts/coptic/issues/15"
  },
  {
   "closedAt": null,
@@ -2338,7 +2352,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/1"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-09-22T13:58:02Z",
   "createdAt": "2022-05-25T08:37:13Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -2702,7 +2716,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/54"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-09-22T14:05:44Z",
   "createdAt": "2020-08-20T23:21:07Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -4004,7 +4018,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/391"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-09-22T14:19:24Z",
   "createdAt": "2023-01-11T02:20:35Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -4088,7 +4102,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/408"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-09-22T22:37:38Z",
   "createdAt": "2023-03-30T19:48:35Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -4102,7 +4116,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/411"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-09-21T21:14:27Z",
   "createdAt": "2023-04-11T18:04:53Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -4151,7 +4165,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/419"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-09-22T14:15:57Z",
   "createdAt": "2023-04-17T19:04:28Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -4298,7 +4312,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/442"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-09-22T13:57:40Z",
   "createdAt": "2023-09-15T12:00:36Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -4592,7 +4606,7 @@
   "url": "https://github.com/notofonts/math/issues/11"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-09-18T14:24:20Z",
   "createdAt": "2021-10-02T13:43:17Z",
   "repo": "math",
   "tier": 3,
@@ -4737,6 +4751,13 @@
   "repo": "math",
   "tier": 3,
   "url": "https://github.com/notofonts/math/issues/47"
+ },
+ {
+  "closedAt": "2023-09-19T06:33:11Z",
+  "createdAt": "2023-09-19T06:30:30Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/48"
  },
  {
   "closedAt": null,
@@ -6174,7 +6195,7 @@
   "url": "https://github.com/notofonts/sundanese/issues/6"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-09-18T13:41:25Z",
   "createdAt": "2023-06-21T13:38:23Z",
   "repo": "sundanese",
   "tier": 3,
