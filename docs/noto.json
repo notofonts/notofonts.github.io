@@ -6390,7 +6390,7 @@
       "fonts/NotoSerifKannada/full/ttf/NotoSerifKannada-Regular.ttf",
       "fonts/NotoSerifKannada/full/ttf/NotoSerifKannada-SemiBold.ttf",
       "fonts/NotoSerifKannada/full/ttf/NotoSerifKannada-Thin.ttf",
-      "fonts/NotoSerifKannada/full/variable-ttf/NotoSerifKannada[wght].ttf"
+      "fonts/NotoSerifKannada/full/variable/NotoSerifKannada[wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSerifKannada/hinted/ttf/NotoSerifKannada-Black.ttf",
@@ -6423,14 +6423,14 @@
       "fonts/NotoSerifKannada/unhinted/ttf/NotoSerifKannada-Regular.ttf",
       "fonts/NotoSerifKannada/unhinted/ttf/NotoSerifKannada-SemiBold.ttf",
       "fonts/NotoSerifKannada/unhinted/ttf/NotoSerifKannada-Thin.ttf",
-      "fonts/NotoSerifKannada/unhinted/variable-ttf/NotoSerifKannada[wght].ttf"
+      "fonts/NotoSerifKannada/unhinted/variable/NotoSerifKannada[wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Kannada v2.004\n\nThis release:\n* Fixes the spacing of clusters with vocalic R/RR (#10)\n* Restores some kerning that had gone missing\n",
-     "published": "2023-03-27T09:39:48",
-     "url": "https://github.com/notofonts/kannada/releases/tag/NotoSerifKannada-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Serif Kannada v2.005\n\nThis release adds the Unicode 14 glyph NAKAARA POLLU U+0CDD and Unicode 15 glyph COMBINING ANUSVARA ABOVE RIGHT U+0CF3.\n",
+     "published": "2023-09-26T13:54:04",
+     "url": "https://github.com/notofonts/kannada/releases/tag/NotoSerifKannada-v2.005",
+     "version": "v2.005"
     }
    }
   },
@@ -12264,10 +12264,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Old Uyghur v1.002\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-10-11T16:10:20",
-     "url": "https://github.com/notofonts/old-uyghur/releases/tag/NotoSerifOldUyghur-v1.002",
-     "version": "v1.002"
+     "notes": "Noto Serif Old Uyghur v1.003\n\nThis release:\n\n* Fixes the behaviour of kaf-alef\n* Forms the correct forms of isolated ligatures (#3)\n* Corrects the side-bearing of the kashida glyph (#4)\n* Allows for correct topographic shaping of letters with marks (#2)\n",
+     "published": "2023-09-26T06:57:29",
+     "url": "https://github.com/notofonts/old-uyghur/releases/tag/NotoSerifOldUyghur-v1.003",
+     "version": "v1.003"
     }
    }
   },
@@ -13756,7 +13756,7 @@
       "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-Medium.ttf",
       "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-Regular.ttf",
       "fonts/NotoSansSundanese/full/ttf/NotoSansSundanese-SemiBold.ttf",
-      "fonts/NotoSansSundanese/full/variable-ttf/NotoSansSundanese[wght].ttf"
+      "fonts/NotoSansSundanese/full/variable/NotoSansSundanese[wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSansSundanese/hinted/ttf/NotoSansSundanese-Bold.ttf",
@@ -13774,14 +13774,14 @@
       "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-Medium.ttf",
       "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-Regular.ttf",
       "fonts/NotoSansSundanese/unhinted/ttf/NotoSansSundanese-SemiBold.ttf",
-      "fonts/NotoSansSundanese/unhinted/variable-ttf/NotoSansSundanese[wght].ttf"
+      "fonts/NotoSansSundanese/unhinted/variable/NotoSansSundanese[wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "This release:\r\n\r\n* Ensures spacing marks are adequately spaced (#3)\r\n* Moves anusvara adjacent to base (#1)",
-     "published": "2023-06-21T06:44:18",
-     "url": "https://github.com/notofonts/sundanese/releases/tag/NotoSansSundanese-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Sundanese v2.005\n\nThis release fixes the positioning of the pamingkal. (#7)\n",
+     "published": "2023-09-26T11:23:17",
+     "url": "https://github.com/notofonts/sundanese/releases/tag/NotoSansSundanese-v2.005",
+     "version": "v2.005"
     }
    }
   },
@@ -13946,11 +13946,6 @@
   },
   "gh_url": "https://notofonts.github.io/symbols",
   "issues": [
-   {
-    "number": 78,
-    "title": "Typicon symbols",
-    "url": "https://github.com/notofonts/symbols/pull/78"
-   },
    {
     "number": 75,
     "title": "Alchemical symbols change in Unicode 15.1",
@@ -14343,15 +14338,14 @@
      ],
      "unhinted": [
       "fonts/NotoSansTakri/unhinted/otf/NotoSansTakri-Regular.otf",
-      "fonts/NotoSansTakri/unhinted/slim-otf/NotoSansTakri-Regular.otf",
       "fonts/NotoSansTakri/unhinted/ttf/NotoSansTakri-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "This version: \r\n\r\n* Encodes U+116B9 TAKRI ABBREVIATION SIGN (#14)\r\n* Fixes kerning after anusvara (#13)\r\n* Fixes the combination -AA + Nukta (#12)",
-     "published": "2023-06-21T20:46:07",
-     "url": "https://github.com/notofonts/takri/releases/tag/NotoSansTakri-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Takri v2.005\n\nThis release includes the Unicode 14.0 codepoint U+16B9 (TAKRI ABBREVIATION SIGN).\n",
+     "published": "2023-09-26T11:53:35",
+     "url": "https://github.com/notofonts/takri/releases/tag/NotoSansTakri-v2.005",
+     "version": "v2.005"
     }
    }
   },
@@ -15188,7 +15182,7 @@
       "fonts/NotoSansTangsa/full/ttf/NotoSansTangsa-Medium.ttf",
       "fonts/NotoSansTangsa/full/ttf/NotoSansTangsa-Regular.ttf",
       "fonts/NotoSansTangsa/full/ttf/NotoSansTangsa-SemiBold.ttf",
-      "fonts/NotoSansTangsa/full/variable-ttf/NotoSansTangsa[wght].ttf"
+      "fonts/NotoSansTangsa/full/variable/NotoSansTangsa[wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSansTangsa/hinted/ttf/NotoSansTangsa-Bold.ttf",
@@ -15206,14 +15200,14 @@
       "fonts/NotoSansTangsa/unhinted/ttf/NotoSansTangsa-Medium.ttf",
       "fonts/NotoSansTangsa/unhinted/ttf/NotoSansTangsa-Regular.ttf",
       "fonts/NotoSansTangsa/unhinted/ttf/NotoSansTangsa-SemiBold.ttf",
-      "fonts/NotoSansTangsa/unhinted/variable-ttf/NotoSansTangsa[wght].ttf"
+      "fonts/NotoSansTangsa/unhinted/variable/NotoSansTangsa[wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "This release:\r\n\r\n* Updates the shape of various letters after community feedback, thanks to David Williams. (#3)\r\n* Restores some missing kerning pairs. (#4)",
-     "published": "2023-06-22T06:22:18",
-     "url": "https://github.com/notofonts/tangsa/releases/tag/NotoSansTangsa-v1.505",
-     "version": "v1.505"
+     "notes": "Noto Sans Tangsa v1.506\n\nThis release improves the shape of the final NG after community feedback (#9, thanks to David Williams).\n",
+     "published": "2023-09-26T12:29:23",
+     "url": "https://github.com/notofonts/tangsa/releases/tag/NotoSansTangsa-v1.506",
+     "version": "v1.506"
     }
    }
   },
@@ -15815,7 +15809,7 @@
       "fonts/NotoSansThaana/full/ttf/NotoSansThaana-Regular.ttf",
       "fonts/NotoSansThaana/full/ttf/NotoSansThaana-SemiBold.ttf",
       "fonts/NotoSansThaana/full/ttf/NotoSansThaana-Thin.ttf",
-      "fonts/NotoSansThaana/full/variable-ttf/NotoSansThaana[wght].ttf"
+      "fonts/NotoSansThaana/full/variable/NotoSansThaana[wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSansThaana/hinted/ttf/NotoSansThaana-Black.ttf",
@@ -15848,14 +15842,14 @@
       "fonts/NotoSansThaana/unhinted/ttf/NotoSansThaana-Regular.ttf",
       "fonts/NotoSansThaana/unhinted/ttf/NotoSansThaana-SemiBold.ttf",
       "fonts/NotoSansThaana/unhinted/ttf/NotoSansThaana-Thin.ttf",
-      "fonts/NotoSansThaana/unhinted/variable-ttf/NotoSansThaana[wght].ttf"
+      "fonts/NotoSansThaana/unhinted/variable/NotoSansThaana[wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Thaana v2.001\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-05T08:16:08",
-     "url": "https://github.com/notofonts/thaana/releases/tag/NotoSansThaana-v2.001",
-     "version": "v2.001"
+     "notes": "Noto Sans Thaana v3.000\n\nThis is a redesigned version of Noto Sans Thaana by David Williams\n",
+     "published": "2023-09-26T17:05:22",
+     "url": "https://github.com/notofonts/thaana/releases/tag/NotoSansThaana-v3.000",
+     "version": "v3.000"
     }
    }
   },
@@ -16139,7 +16133,7 @@
       "fonts/NotoSansThai/full/ttf/NotoSansThai-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansThai/full/ttf/NotoSansThai-SemiCondensedThin.ttf",
       "fonts/NotoSansThai/full/ttf/NotoSansThai-Thin.ttf",
-      "fonts/NotoSansThai/full/variable-ttf/NotoSansThai[wdth,wght].ttf"
+      "fonts/NotoSansThai/full/variable/NotoSansThai[wdth,wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSansThai/hinted/ttf/NotoSansThai-Black.ttf",
@@ -16253,14 +16247,14 @@
       "fonts/NotoSansThai/unhinted/ttf/NotoSansThai-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansThai/unhinted/ttf/NotoSansThai-SemiCondensedThin.ttf",
       "fonts/NotoSansThai/unhinted/ttf/NotoSansThai-Thin.ttf",
-      "fonts/NotoSansThai/unhinted/variable-ttf/NotoSansThai[wdth,wght].ttf"
+      "fonts/NotoSansThai/unhinted/variable/NotoSansThai[wdth,wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Thai v2.001\n\nThis is an administrative release.\n",
-     "published": "2022-07-05T17:47:50",
-     "url": "https://github.com/notofonts/thai/releases/tag/NotoSansThai-v2.001",
-     "version": "v2.001"
+     "notes": "Noto Sans Thai v2.002\n\nThis release:\n\n* Fixes the reordering of nikahit after an above mark (#3)\n* Uses the alternate form of loChula when there are both above and below marks (#7)\n* Improves the display of COMBINING MACRON BELOW with various bases (#6)\n* Correctly orders COMBINING MACRON BELOW with another mark below (#5)\n* Adds a stylistic set for tailless tho and yo (#9)\n",
+     "published": "2023-09-26T13:50:18",
+     "url": "https://github.com/notofonts/thai/releases/tag/NotoSansThai-v2.002",
+     "version": "v2.002"
     }
    },
    "Noto Sans Thai Looped": {
@@ -16535,7 +16529,7 @@
       "fonts/NotoSerifThai/full/ttf/NotoSerifThai-SemiCondensedSemiBold.ttf",
       "fonts/NotoSerifThai/full/ttf/NotoSerifThai-SemiCondensedThin.ttf",
       "fonts/NotoSerifThai/full/ttf/NotoSerifThai-Thin.ttf",
-      "fonts/NotoSerifThai/full/variable-ttf/NotoSerifThai[wdth,wght].ttf"
+      "fonts/NotoSerifThai/full/variable/NotoSerifThai[wdth,wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSerifThai/hinted/ttf/NotoSerifThai-Black.ttf",
@@ -16649,14 +16643,14 @@
       "fonts/NotoSerifThai/unhinted/ttf/NotoSerifThai-SemiCondensedSemiBold.ttf",
       "fonts/NotoSerifThai/unhinted/ttf/NotoSerifThai-SemiCondensedThin.ttf",
       "fonts/NotoSerifThai/unhinted/ttf/NotoSerifThai-Thin.ttf",
-      "fonts/NotoSerifThai/unhinted/variable-ttf/NotoSerifThai[wdth,wght].ttf"
+      "fonts/NotoSerifThai/unhinted/variable/NotoSerifThai[wdth,wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Thai v2.001\n\nThis is an administrative release.\n",
-     "published": "2022-07-05T17:46:31",
-     "url": "https://github.com/notofonts/thai/releases/tag/NotoSerifThai-v2.001",
-     "version": "v2.001"
+     "notes": "Noto Serif Thai v2.002\n\nThis release:\n\n* Fixes the reordering of nikahit after an above mark (#3)\n* Uses the alternate form of loChula when there are both above and below marks (#7)\n* Improves the display of COMBINING MACRON BELOW with various bases (#6)\n* Correctly orders COMBINING MACRON BELOW with another mark below (#5)\n* Adds a stylistic set for tailless tho and yo (#9)\n",
+     "published": "2023-09-26T13:44:40",
+     "url": "https://github.com/notofonts/thai/releases/tag/NotoSerifThai-v2.002",
+     "version": "v2.002"
     }
    }
   },
