@@ -93,7 +93,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/ahom",
-  "issues": [],
+  "issues": [
+   {
+    "number": 17,
+    "title": "Marks on U+11705 AHOM LETTER ALTERNATE TA are instead placed on the following U+1170A AHOM LETTER JA",
+    "url": "https://github.com/notofonts/ahom/issues/17"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/ahom",
   "tier": 4,
   "title": "Noto Ahom"
@@ -2082,6 +2088,16 @@
   "gh_url": "https://notofonts.github.io/chorasmian",
   "issues": [
    {
+    "number": 9,
+    "title": "'cv01' and 'cv02' are incomplete",
+    "url": "https://github.com/notofonts/chorasmian/issues/9"
+   },
+   {
+    "number": 8,
+    "title": "Aleph connects at the midpoint under the wrong circumstances",
+    "url": "https://github.com/notofonts/chorasmian/issues/8"
+   },
+   {
     "number": 7,
     "title": "<U+10FC8 FOUR, U+10FC7 THREE> should not be ligated",
     "url": "https://github.com/notofonts/chorasmian/issues/7"
@@ -2137,6 +2153,11 @@
   },
   "gh_url": "https://notofonts.github.io/coptic",
   "issues": [
+   {
+    "number": 16,
+    "title": "Marks block raised middle dot",
+    "url": "https://github.com/notofonts/coptic/issues/16"
+   },
    {
     "number": 15,
     "title": "Variable font with weight axis",
@@ -6061,7 +6082,6 @@
       "fonts/NotoSansKannada/full/otf/NotoSansKannadaUI-SemiCondensedSemiBold.otf",
       "fonts/NotoSansKannada/full/otf/NotoSansKannadaUI-SemiCondensedThin.otf",
       "fonts/NotoSansKannada/full/otf/NotoSansKannadaUI-Thin.otf",
-      "fonts/NotoSansKannada/full/slim-variable-ttf/NotoSansKannada-UI-VF.ttf",
       "fonts/NotoSansKannada/full/slim-variable-ttf/NotoSansKannada[wght].ttf",
       "fonts/NotoSansKannada/full/ttf/NotoSansKannada-Black.ttf",
       "fonts/NotoSansKannada/full/ttf/NotoSansKannada-Bold.ttf",
@@ -6135,7 +6155,7 @@
       "fonts/NotoSansKannada/full/ttf/NotoSansKannadaUI-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansKannada/full/ttf/NotoSansKannadaUI-SemiCondensedThin.ttf",
       "fonts/NotoSansKannada/full/ttf/NotoSansKannadaUI-Thin.ttf",
-      "fonts/NotoSansKannada/full/variable-ttf/NotoSansKannada[wdth,wght].ttf"
+      "fonts/NotoSansKannada/full/variable/NotoSansKannada[wdth,wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSansKannada/hinted/ttf/NotoSansKannada-Black.ttf",
@@ -6284,7 +6304,6 @@
       "fonts/NotoSansKannada/unhinted/otf/NotoSansKannadaUI-SemiCondensedSemiBold.otf",
       "fonts/NotoSansKannada/unhinted/otf/NotoSansKannadaUI-SemiCondensedThin.otf",
       "fonts/NotoSansKannada/unhinted/otf/NotoSansKannadaUI-Thin.otf",
-      "fonts/NotoSansKannada/unhinted/slim-variable-ttf/NotoSansKannada-UI-VF.ttf",
       "fonts/NotoSansKannada/unhinted/slim-variable-ttf/NotoSansKannada[wght].ttf",
       "fonts/NotoSansKannada/unhinted/ttf/NotoSansKannada-Black.ttf",
       "fonts/NotoSansKannada/unhinted/ttf/NotoSansKannada-Bold.ttf",
@@ -6358,14 +6377,15 @@
       "fonts/NotoSansKannada/unhinted/ttf/NotoSansKannadaUI-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansKannada/unhinted/ttf/NotoSansKannadaUI-SemiCondensedThin.ttf",
       "fonts/NotoSansKannada/unhinted/ttf/NotoSansKannadaUI-Thin.ttf",
-      "fonts/NotoSansKannada/unhinted/variable-ttf/NotoSansKannada[wdth,wght].ttf"
+      "fonts/NotoSansKannada/unhinted/variable/NotoSansKannada-UI-VF.ttf",
+      "fonts/NotoSansKannada/unhinted/variable/NotoSansKannada[wdth,wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Kannada v2.004\n\nThis release:\n* Adds a UI variable font\n* Allows the KSSA conjunct to work again (#9)\n* Improves kerning\n",
-     "published": "2023-03-27T09:37:12",
-     "url": "https://github.com/notofonts/kannada/releases/tag/NotoSansKannada-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Kannada v2.005\n\nThis release adds the Unicode 14 glyph NAKAARA POLLU U+0CDD and Unicode 15 glyph COMBINING ANUSVARA ABOVE RIGHT U+0CF3.\n",
+     "published": "2023-09-27T09:10:27",
+     "url": "https://github.com/notofonts/kannada/releases/tag/NotoSansKannada-v2.005",
+     "version": "v2.005"
     }
    },
    "Noto Serif Kannada": {
@@ -11519,7 +11539,7 @@
       "fonts/NotoNastaliqUrdu/full/slim-variable-ttf/NotoNastaliqUrdu[wght].ttf",
       "fonts/NotoNastaliqUrdu/full/ttf/NotoNastaliqUrdu-Bold.ttf",
       "fonts/NotoNastaliqUrdu/full/ttf/NotoNastaliqUrdu-Regular.ttf",
-      "fonts/NotoNastaliqUrdu/full/variable-ttf/NotoNastaliqUrdu[wght].ttf"
+      "fonts/NotoNastaliqUrdu/full/variable/NotoNastaliqUrdu[wght].ttf"
      ],
      "hinted": [
       "fonts/NotoNastaliqUrdu/hinted/ttf/NotoNastaliqUrdu-Bold.ttf",
@@ -11531,14 +11551,14 @@
       "fonts/NotoNastaliqUrdu/unhinted/slim-variable-ttf/NotoNastaliqUrdu[wght].ttf",
       "fonts/NotoNastaliqUrdu/unhinted/ttf/NotoNastaliqUrdu-Bold.ttf",
       "fonts/NotoNastaliqUrdu/unhinted/ttf/NotoNastaliqUrdu-Regular.ttf",
-      "fonts/NotoNastaliqUrdu/unhinted/variable-ttf/NotoNastaliqUrdu[wght].ttf"
+      "fonts/NotoNastaliqUrdu/unhinted/variable/NotoNastaliqUrdu[wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Nastaliq Urdu v3.007 This release replaces the Latin counterpart of the full builds with Noto Serif.\n",
-     "published": "2022-08-01T17:26:14",
-     "url": "https://github.com/notofonts/nastaliq/releases/tag/NotoNastaliqUrdu-v3.007",
-     "version": "v3.007"
+     "notes": "Noto Nastaliq Urdu v3.008\n\nThis release:\n\n* Encodes a number of new characters: U+06B5 LAM WITH SMALL V, U+06AD NG, U+06CB VE (#50), U+0695 RE WITH V BELOW (#53), U+0682, U+0690, U+0692, U+0694, U+0695, U+0697, U+069D, U+069F, U+06A3, U+06A5, U+06AC, U+06AD, U+06AE, U+06B2, U+06B4, U+06B5, U+06B6, U+06B8, U+06B9, U+06BF, U+06C5, U+06C8, U+06C9, U+06CB, U+06D1, U+0764, U+0765, U+0766 (#10)\n* Improves the positioning of the LOW ALEF character (#7)\n* Uses localized form of digits after a subtending mark (#47)\n* Improves the contextualization of the divine name ligature (#4)\n* Improves the display of isolated U+0768 NOON WITH SMALL TAH (#6)\n* Fixes the position of nuktas and tahs ove lam (#16)\n",
+     "published": "2023-09-27T12:34:19",
+     "url": "https://github.com/notofonts/nastaliq/releases/tag/NotoNastaliqUrdu-v3.008",
+     "version": "v3.008"
     }
    }
   },
@@ -15248,7 +15268,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/tangut",
-  "issues": [],
+  "issues": [
+   {
+    "number": 3,
+    "title": "Change six glyphs to U15.1",
+    "url": "https://github.com/notofonts/tangut/issues/3"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/tangut",
   "tier": 5,
   "title": "Noto Tangut"
@@ -15846,10 +15872,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Thaana v3.000\n\nThis is a redesigned version of Noto Sans Thaana by David Williams\n",
-     "published": "2023-09-26T17:05:22",
-     "url": "https://github.com/notofonts/thaana/releases/tag/NotoSansThaana-v3.000",
-     "version": "v3.000"
+     "notes": "Noto Sans Thanna v3.001\n\nThis release:\n\n* Fixes an interpolation issue in the javiyani glyph\n* Re-encodes the ALLAH glyphs\n* Uses Latin comma and semicolon in full builds\n",
+     "published": "2023-09-27T13:34:27",
+     "url": "https://github.com/notofonts/thaana/releases/tag/NotoSansThaana-v3.001",
+     "version": "v3.001"
     }
    }
   },
