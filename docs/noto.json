@@ -95,6 +95,11 @@
   "gh_url": "https://notofonts.github.io/ahom",
   "issues": [
    {
+    "number": 18,
+    "title": "Unicode 14.0 letters do not appear in any OpenType rules",
+    "url": "https://github.com/notofonts/ahom/issues/18"
+   },
+   {
     "number": 17,
     "title": "Marks on U+11705 AHOM LETTER ALTERNATE TA are instead placed on the following U+1170A AHOM LETTER JA",
     "url": "https://github.com/notofonts/ahom/issues/17"
@@ -6791,7 +6796,7 @@
       "fonts/NotoSansKhmer/full/ttf/NotoSansKhmer-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansKhmer/full/ttf/NotoSansKhmer-SemiCondensedThin.ttf",
       "fonts/NotoSansKhmer/full/ttf/NotoSansKhmer-Thin.ttf",
-      "fonts/NotoSansKhmer/full/variable-ttf/NotoSansKhmer[wdth,wght].ttf"
+      "fonts/NotoSansKhmer/full/variable/NotoSansKhmer[wdth,wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSansKhmer/hinted/ttf/NotoSansKhmer-Black.ttf",
@@ -6905,14 +6910,14 @@
       "fonts/NotoSansKhmer/unhinted/ttf/NotoSansKhmer-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansKhmer/unhinted/ttf/NotoSansKhmer-SemiCondensedThin.ttf",
       "fonts/NotoSansKhmer/unhinted/ttf/NotoSansKhmer-Thin.ttf",
-      "fonts/NotoSansKhmer/unhinted/variable-ttf/NotoSansKhmer[wdth,wght].ttf"
+      "fonts/NotoSansKhmer/unhinted/variable/NotoSansKhmer[wdth,wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Khmer v2.003\n\nThis is an administrative release.\n",
-     "published": "2022-07-04T22:08:47",
-     "url": "https://github.com/notofonts/khmer/releases/tag/NotoSansKhmer-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Khmer v2.004\n\nThis release:\n\n* Changes the vertical metrics to match the Google Fonts specification\n* Fixes the handling of some consonant shifters (#7)\n* Better selects the low form of prebase ro in deep stacks (#8)\n",
+     "published": "2023-09-28T14:39:26",
+     "url": "https://github.com/notofonts/khmer/releases/tag/NotoSansKhmer-v2.004",
+     "version": "v2.004"
     }
    },
    "Noto Serif Khmer": {
@@ -6991,7 +6996,7 @@
       "fonts/NotoSerifKhmer/full/ttf/NotoSerifKhmer-SemiCondensedSemiBold.ttf",
       "fonts/NotoSerifKhmer/full/ttf/NotoSerifKhmer-SemiCondensedThin.ttf",
       "fonts/NotoSerifKhmer/full/ttf/NotoSerifKhmer-Thin.ttf",
-      "fonts/NotoSerifKhmer/full/variable-ttf/NotoSerifKhmer[wdth,wght].ttf"
+      "fonts/NotoSerifKhmer/full/variable/NotoSerifKhmer[wdth,wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSerifKhmer/hinted/ttf/NotoSerifKhmer-Black.ttf",
@@ -7105,14 +7110,14 @@
       "fonts/NotoSerifKhmer/unhinted/ttf/NotoSerifKhmer-SemiCondensedSemiBold.ttf",
       "fonts/NotoSerifKhmer/unhinted/ttf/NotoSerifKhmer-SemiCondensedThin.ttf",
       "fonts/NotoSerifKhmer/unhinted/ttf/NotoSerifKhmer-Thin.ttf",
-      "fonts/NotoSerifKhmer/unhinted/variable-ttf/NotoSerifKhmer[wdth,wght].ttf"
+      "fonts/NotoSerifKhmer/unhinted/variable/NotoSerifKhmer[wdth,wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Khmer v2.003\n\nThis is an administrative release.\n",
-     "published": "2022-07-04T22:04:07",
-     "url": "https://github.com/notofonts/khmer/releases/tag/NotoSerifKhmer-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Serif Khmer v2.004\n\nThis release:\n\n* Changes the vertical metrics to match the Google Fonts specification\n* Fixes the handling of some consonant shifters (#7)\n* Better selects the low form of prebase ro in deep stacks (#8)\n",
+     "published": "2023-09-28T16:04:54",
+     "url": "https://github.com/notofonts/khmer/releases/tag/NotoSerifKhmer-v2.004",
+     "version": "v2.004"
     }
    }
   },
@@ -8861,11 +8866,6 @@
     "number": 417,
     "title": "U+10FB, U+2056, U+2058, and U+2059 are too tall",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/417"
-   },
-   {
-    "number": 415,
-    "title": "Inconsistent spacing of U+2057 QUADRUPLE PRIME",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/415"
    },
    {
     "number": 414,
@@ -15356,7 +15356,6 @@
       "fonts/NotoSansTelugu/full/otf/NotoSansTeluguUI-SemiCondensedSemiBold.otf",
       "fonts/NotoSansTelugu/full/otf/NotoSansTeluguUI-SemiCondensedThin.otf",
       "fonts/NotoSansTelugu/full/otf/NotoSansTeluguUI-Thin.otf",
-      "fonts/NotoSansTelugu/full/slim-variable-ttf/NotoSansTelugu-UI-VF.ttf",
       "fonts/NotoSansTelugu/full/slim-variable-ttf/NotoSansTelugu[wght].ttf",
       "fonts/NotoSansTelugu/full/ttf/NotoSansTelugu-Black.ttf",
       "fonts/NotoSansTelugu/full/ttf/NotoSansTelugu-Bold.ttf",
@@ -15430,7 +15429,7 @@
       "fonts/NotoSansTelugu/full/ttf/NotoSansTeluguUI-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansTelugu/full/ttf/NotoSansTeluguUI-SemiCondensedThin.ttf",
       "fonts/NotoSansTelugu/full/ttf/NotoSansTeluguUI-Thin.ttf",
-      "fonts/NotoSansTelugu/full/variable-ttf/NotoSansTelugu[wdth,wght].ttf"
+      "fonts/NotoSansTelugu/full/variable/NotoSansTelugu[wdth,wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSansTelugu/hinted/ttf/NotoSansTelugu-Black.ttf",
@@ -15579,7 +15578,6 @@
       "fonts/NotoSansTelugu/unhinted/otf/NotoSansTeluguUI-SemiCondensedSemiBold.otf",
       "fonts/NotoSansTelugu/unhinted/otf/NotoSansTeluguUI-SemiCondensedThin.otf",
       "fonts/NotoSansTelugu/unhinted/otf/NotoSansTeluguUI-Thin.otf",
-      "fonts/NotoSansTelugu/unhinted/slim-variable-ttf/NotoSansTelugu-UI-VF.ttf",
       "fonts/NotoSansTelugu/unhinted/slim-variable-ttf/NotoSansTelugu[wght].ttf",
       "fonts/NotoSansTelugu/unhinted/ttf/NotoSansTelugu-Black.ttf",
       "fonts/NotoSansTelugu/unhinted/ttf/NotoSansTelugu-Bold.ttf",
@@ -15653,14 +15651,15 @@
       "fonts/NotoSansTelugu/unhinted/ttf/NotoSansTeluguUI-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansTelugu/unhinted/ttf/NotoSansTeluguUI-SemiCondensedThin.ttf",
       "fonts/NotoSansTelugu/unhinted/ttf/NotoSansTeluguUI-Thin.ttf",
-      "fonts/NotoSansTelugu/unhinted/variable-ttf/NotoSansTelugu[wdth,wght].ttf"
+      "fonts/NotoSansTelugu/unhinted/variable/NotoSansTelugu-UI-VF.ttf",
+      "fonts/NotoSansTelugu/unhinted/variable/NotoSansTelugu[wdth,wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Telugu v2.004\n\nThis release:\n* Improves the anchoring of top marks (#3)\n* Improves the display of subscripts ending in -tra (#12)\n* Fixes a regression where subscript -ra was clashing (#13)\n* Allows for the formation of the -jnya ligature (#8)\n* Fixes a number of spacing regressions (#13)\n* Fixes a number of issues in the UI build (#9)\n* Fixes mark categories, allowing for vedic marks on bases with postbase glyphs (#10)\n",
-     "published": "2023-03-08T14:50:23",
-     "url": "https://github.com/notofonts/telugu/releases/tag/NotoSansTelugu-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Telugu v2.005\n\nThis release:\n\n* Fixes a number of fontbakery fails\n* Encodes the new glyphs U+0C5D NAKAARA POLLU and U+0C3C NUKTA\n",
+     "published": "2023-09-28T10:09:27",
+     "url": "https://github.com/notofonts/telugu/releases/tag/NotoSansTelugu-v2.005",
+     "version": "v2.005"
     }
    },
    "Noto Serif Telugu": {
@@ -15685,7 +15684,7 @@
       "fonts/NotoSerifTelugu/full/ttf/NotoSerifTelugu-Regular.ttf",
       "fonts/NotoSerifTelugu/full/ttf/NotoSerifTelugu-SemiBold.ttf",
       "fonts/NotoSerifTelugu/full/ttf/NotoSerifTelugu-Thin.ttf",
-      "fonts/NotoSerifTelugu/full/variable-ttf/NotoSerifTelugu[wght].ttf"
+      "fonts/NotoSerifTelugu/full/variable/NotoSerifTelugu[wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSerifTelugu/hinted/ttf/NotoSerifTelugu-Black.ttf",
@@ -15718,14 +15717,14 @@
       "fonts/NotoSerifTelugu/unhinted/ttf/NotoSerifTelugu-Regular.ttf",
       "fonts/NotoSerifTelugu/unhinted/ttf/NotoSerifTelugu-SemiBold.ttf",
       "fonts/NotoSerifTelugu/unhinted/ttf/NotoSerifTelugu-Thin.ttf",
-      "fonts/NotoSerifTelugu/unhinted/variable-ttf/NotoSerifTelugu[wght].ttf"
+      "fonts/NotoSerifTelugu/unhinted/variable/NotoSerifTelugu[wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Telugu v2.004\n\nThis release:\n* improves the display of -tra conjuncts (#12)\n* allows for the formation of -jnya conjuncts (#8)\n",
-     "published": "2023-03-08T14:49:16",
-     "url": "https://github.com/notofonts/telugu/releases/tag/NotoSerifTelugu-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Serif Telugu v2.005\n\nThis release:\n\n* Fixes a number of fontbakery fails\n* Encodes the new glyphs U+0C5D NAKAARA POLLU and U+0C3C NUKTA\n",
+     "published": "2023-09-28T10:22:27",
+     "url": "https://github.com/notofonts/telugu/releases/tag/NotoSerifTelugu-v2.005",
+     "version": "v2.005"
     }
    }
   },
