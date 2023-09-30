@@ -95,6 +95,16 @@
   "gh_url": "https://notofonts.github.io/ahom",
   "issues": [
    {
+    "number": 20,
+    "title": "<U+11722, U+11724> ligature is closer to the base letter than U+11722",
+    "url": "https://github.com/notofonts/ahom/issues/20"
+   },
+   {
+    "number": 19,
+    "title": "Reduplicated spacing marks are not spacing",
+    "url": "https://github.com/notofonts/ahom/issues/19"
+   },
+   {
     "number": 18,
     "title": "Unicode 14.0 letters do not appear in any OpenType rules",
     "url": "https://github.com/notofonts/ahom/issues/18"
@@ -424,6 +434,11 @@
   },
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
+   {
+    "number": 201,
+    "title": "Add Arabic honorifics (unicode 14)",
+    "url": "https://github.com/notofonts/arabic/issues/201"
+   },
    {
     "number": 200,
     "title": "Update Kufi to Unicode 15 and more",
@@ -11565,6 +11580,26 @@
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
+    "number": 59,
+    "title": "Kerning issues in sequences ending in U+06D2 ARABIC LETTER YEH BARREE (\u06d2) in v3.008",
+    "url": "https://github.com/notofonts/nastaliq/issues/59"
+   },
+   {
+    "number": 58,
+    "title": "Shape of \u06a9 in some sequences has changed in v3.008",
+    "url": "https://github.com/notofonts/nastaliq/issues/58"
+   },
+   {
+    "number": 57,
+    "title": "Dot collisions after v3.008",
+    "url": "https://github.com/notofonts/nastaliq/issues/57"
+   },
+   {
+    "number": 56,
+    "title": "Misplaced diacritics on theonym ligature in v3.008",
+    "url": "https://github.com/notofonts/nastaliq/issues/56"
+   },
+   {
     "number": 54,
     "title": "Some part of glyphs disappearing on Microsoft Word ",
     "url": "https://github.com/notofonts/nastaliq/issues/54"
@@ -11608,11 +11643,6 @@
     "number": 3,
     "title": "Noto Nastaliq support for Balti Graf U+08C8",
     "url": "https://github.com/notofonts/nastaliq/issues/3"
-   },
-   {
-    "number": 1,
-    "title": "Noto Nastaliq Urdu - U+0601..U+0603: incorrect in Firefox & Chrome; weird in IE & Word",
-    "url": "https://github.com/notofonts/nastaliq/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/nastaliq",
@@ -12292,7 +12322,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/old-uyghur",
-  "issues": [],
+  "issues": [
+   {
+    "number": 5,
+    "title": "Combining marks are not positioned properly",
+    "url": "https://github.com/notofonts/old-uyghur/issues/5"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/old-uyghur",
   "tier": 5,
   "title": "Noto Old Uyghur"
@@ -13032,6 +13068,11 @@
   },
   "gh_url": "https://notofonts.github.io/sign-writing",
   "issues": [
+   {
+    "number": 9,
+    "title": "U+1D9C7 can be unreadable for certain fills and rotations",
+    "url": "https://github.com/notofonts/sign-writing/issues/9"
+   },
    {
     "number": 8,
     "title": "Is this behaviour OK?",
