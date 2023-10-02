@@ -12324,6 +12324,16 @@
   "gh_url": "https://notofonts.github.io/old-uyghur",
   "issues": [
    {
+    "number": 7,
+    "title": "Medial <mem, lesh> looks like <lesh, mem>",
+    "url": "https://github.com/notofonts/old-uyghur/issues/7"
+   },
+   {
+    "number": 6,
+    "title": "Letters after kaph and pe try to join them on the baseline",
+    "url": "https://github.com/notofonts/old-uyghur/issues/6"
+   },
+   {
     "number": 5,
     "title": "Combining marks are not positioned properly",
     "url": "https://github.com/notofonts/old-uyghur/issues/5"
