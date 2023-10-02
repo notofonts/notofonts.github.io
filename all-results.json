@@ -77,6 +77,34 @@
   "url": "https://github.com/notofonts/ahom/issues/16"
  },
  {
+  "closedAt": null,
+  "createdAt": "2023-09-27T20:43:19Z",
+  "repo": "ahom",
+  "tier": 4,
+  "url": "https://github.com/notofonts/ahom/issues/17"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-09-28T01:59:53Z",
+  "repo": "ahom",
+  "tier": 4,
+  "url": "https://github.com/notofonts/ahom/issues/18"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-09-29T02:16:56Z",
+  "repo": "ahom",
+  "tier": 4,
+  "url": "https://github.com/notofonts/ahom/issues/19"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-09-29T18:10:45Z",
+  "repo": "ahom",
+  "tier": 4,
+  "url": "https://github.com/notofonts/ahom/issues/20"
+ },
+ {
   "closedAt": "2023-02-27T11:52:42Z",
   "createdAt": "2015-08-05T02:17:19Z",
   "repo": "arabic",
@@ -365,6 +393,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2023-09-29T05:01:24Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/201"
+ },
+ {
+  "closedAt": "2023-09-25T08:47:47Z",
   "createdAt": "2019-11-20T23:51:15Z",
   "repo": "armenian",
   "tier": 1,
@@ -385,7 +420,7 @@
   "url": "https://github.com/notofonts/armenian/issues/4"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-09-25T08:47:47Z",
   "createdAt": "2022-04-10T15:14:10Z",
   "repo": "armenian",
   "tier": 1,
@@ -812,6 +847,13 @@
   "url": "https://github.com/notofonts/caucasian-albanian/issues/5"
  },
  {
+  "closedAt": null,
+  "createdAt": "2023-09-25T13:21:06Z",
+  "repo": "chakma",
+  "tier": 3,
+  "url": "https://github.com/notofonts/chakma/issues/15"
+ },
+ {
   "closedAt": "2023-06-27T06:56:50Z",
   "createdAt": "2022-08-28T19:55:40Z",
   "repo": "cham",
@@ -847,6 +889,55 @@
   "url": "https://github.com/notofonts/chorasmian/issues/2"
  },
  {
+  "closedAt": null,
+  "createdAt": "2023-09-25T20:15:23Z",
+  "repo": "chorasmian",
+  "tier": 5,
+  "url": "https://github.com/notofonts/chorasmian/issues/3"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-09-25T20:29:25Z",
+  "repo": "chorasmian",
+  "tier": 5,
+  "url": "https://github.com/notofonts/chorasmian/issues/4"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-09-25T22:38:58Z",
+  "repo": "chorasmian",
+  "tier": 5,
+  "url": "https://github.com/notofonts/chorasmian/issues/5"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-09-25T22:53:27Z",
+  "repo": "chorasmian",
+  "tier": 5,
+  "url": "https://github.com/notofonts/chorasmian/issues/6"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-09-25T23:10:07Z",
+  "repo": "chorasmian",
+  "tier": 5,
+  "url": "https://github.com/notofonts/chorasmian/issues/7"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-09-27T13:12:22Z",
+  "repo": "chorasmian",
+  "tier": 5,
+  "url": "https://github.com/notofonts/chorasmian/issues/8"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-09-27T19:05:17Z",
+  "repo": "chorasmian",
+  "tier": 5,
+  "url": "https://github.com/notofonts/chorasmian/issues/9"
+ },
+ {
   "closedAt": "2023-06-10T18:57:51Z",
   "createdAt": "2018-04-18T18:20:45Z",
   "repo": "coptic",
@@ -873,6 +964,13 @@
   "repo": "coptic",
   "tier": 3,
   "url": "https://github.com/notofonts/coptic/issues/15"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-09-27T19:38:50Z",
+  "repo": "coptic",
+  "tier": 3,
+  "url": "https://github.com/notofonts/coptic/issues/16"
  },
  {
   "closedAt": null,
@@ -1265,6 +1363,13 @@
   "repo": "glagolitic",
   "tier": 4,
   "url": "https://github.com/notofonts/glagolitic/issues/5"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-09-25T16:54:25Z",
+  "repo": "glagolitic",
+  "tier": 4,
+  "url": "https://github.com/notofonts/glagolitic/issues/6"
  },
  {
   "closedAt": "2023-02-09T09:07:18Z",
@@ -2149,7 +2254,7 @@
   "url": "https://github.com/notofonts/khmer/issues/27"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-09-25T12:26:20Z",
   "createdAt": "2023-05-22T21:06:23Z",
   "repo": "khmer",
   "tier": 2,
@@ -4130,7 +4235,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/414"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-09-28T08:44:55Z",
   "createdAt": "2023-04-16T23:37:05Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -5313,7 +5418,7 @@
   "url": "https://github.com/notofonts/nandinagari/issues/5"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-09-29T13:27:22Z",
   "createdAt": "2015-06-09T10:44:34Z",
   "repo": "nastaliq",
   "tier": 1,
@@ -5479,6 +5584,34 @@
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/55"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-09-29T11:34:38Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/56"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-09-29T11:42:37Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/57"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-09-29T11:56:18Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/58"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-09-29T12:23:47Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/59"
  },
  {
   "closedAt": "2023-02-09T09:39:26Z",
@@ -5745,6 +5878,27 @@
   "repo": "old-uyghur",
   "tier": 5,
   "url": "https://github.com/notofonts/old-uyghur/issues/4"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-09-29T18:59:07Z",
+  "repo": "old-uyghur",
+  "tier": 5,
+  "url": "https://github.com/notofonts/old-uyghur/issues/5"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-10-01T13:03:02Z",
+  "repo": "old-uyghur",
+  "tier": 5,
+  "url": "https://github.com/notofonts/old-uyghur/issues/6"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-10-02T00:07:22Z",
+  "repo": "old-uyghur",
+  "tier": 5,
+  "url": "https://github.com/notofonts/old-uyghur/issues/7"
  },
  {
   "closedAt": "2023-03-20T11:03:44Z",
@@ -6116,6 +6270,13 @@
   "repo": "sign-writing",
   "tier": 3,
   "url": "https://github.com/notofonts/sign-writing/issues/8"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-09-29T23:06:27Z",
+  "repo": "sign-writing",
+  "tier": 3,
+  "url": "https://github.com/notofonts/sign-writing/issues/9"
  },
  {
   "closedAt": "2023-02-09T10:20:52Z",
@@ -6830,6 +6991,13 @@
   "repo": "tangut",
   "tier": 5,
   "url": "https://github.com/notofonts/tangut/issues/2"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-09-27T16:39:12Z",
+  "repo": "tangut",
+  "tier": 5,
+  "url": "https://github.com/notofonts/tangut/issues/3"
  },
  {
   "closedAt": "2023-02-13T12:07:51Z",
