@@ -7481,8 +7481,18 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/kaithi",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 5,
   "issues": [
+   {
+    "number": 23,
+    "title": "Reph is misplaced on U+110AA KAITHI LETTER LA",
+    "url": "https://github.com/notofonts/kaithi/issues/23"
+   },
+   {
+    "number": 22,
+    "title": "Vowel sign -u is misplaced on dotless ya",
+    "url": "https://github.com/notofonts/kaithi/issues/22"
+   },
    {
     "number": 20,
     "title": "Nukta position is ambiguous in conjuncts",
@@ -14090,10 +14100,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Nastaliq Urdu v3.008\n\nThis release:\n\n* Encodes a number of new characters: U+06B5 LAM WITH SMALL V, U+06AD NG, U+06CB VE (#50), U+0695 RE WITH V BELOW (#53), U+0682, U+0690, U+0692, U+0694, U+0695, U+0697, U+069D, U+069F, U+06A3, U+06A5, U+06AC, U+06AD, U+06AE, U+06B2, U+06B4, U+06B5, U+06B6, U+06B8, U+06B9, U+06BF, U+06C5, U+06C8, U+06C9, U+06CB, U+06D1, U+0764, U+0765, U+0766 (#10)\n* Improves the positioning of the LOW ALEF character (#7)\n* Uses localized form of digits after a subtending mark (#47)\n* Improves the contextualization of the divine name ligature (#4)\n* Improves the display of isolated U+0768 NOON WITH SMALL TAH (#6)\n* Fixes the position of nuktas and tahs ove lam (#16)\n",
-     "published": "2023-09-27T12:34:19",
-     "url": "https://github.com/notofonts/nastaliq/releases/tag/NotoNastaliqUrdu-v3.008",
-     "version": "v3.008"
+     "notes": "Noto Nastaliq Urdu v3.009\n\n*Important*: This release replaces the yanked v3.008.\n\nThis release:\n\n* Encodes a number of new characters: U+06B5 LAM WITH SMALL V, U+06AD NG, U+06CB VE (#50), U+0695 RE WITH V BELOW (#53), U+0682, U+0690, U+0692, U+0694, U+0695, U+0697, U+069D, U+069F, U+06A3, U+06A5, U+06AC, U+06AD, U+06AE, U+06B2, U+06B4, U+06B5, U+06B6, U+06B8, U+06B9, U+06BF, U+06C5, U+06C8, U+06C9, U+06CB, U+06D1, U+0764, U+0765, U+0766 (#10)\n* Improves the positioning of the LOW ALEF character (#7)\n* Uses localized form of digits after a subtending mark (#47)\n* Improves the contextualization of the divine name ligature (#4)\n* Improves the display of isolated U+0768 NOON WITH SMALL TAH (#6)\n* Fixes the position of nuktas and tahs ove lam (#16)\n",
+     "published": "2023-10-02T12:00:24+00:00",
+     "url": "https://github.com/notofonts/nastaliq/releases/tag/NotoNastaliqUrdu-v3.009",
+     "version": "v3.009"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -14122,28 +14132,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 13,
+  "issue_count": 9,
   "issues": [
-   {
-    "number": 59,
-    "title": "Kerning issues in sequences ending in U+06D2 ARABIC LETTER YEH BARREE (\u06d2) in v3.008",
-    "url": "https://github.com/notofonts/nastaliq/issues/59"
-   },
-   {
-    "number": 58,
-    "title": "Shape of \u06a9 in some sequences has changed in v3.008",
-    "url": "https://github.com/notofonts/nastaliq/issues/58"
-   },
-   {
-    "number": 57,
-    "title": "Dot collisions after v3.008",
-    "url": "https://github.com/notofonts/nastaliq/issues/57"
-   },
-   {
-    "number": 56,
-    "title": "Misplaced diacritics on theonym ligature in v3.008",
-    "url": "https://github.com/notofonts/nastaliq/issues/56"
-   },
    {
     "number": 54,
     "title": "Some part of glyphs disappearing on Microsoft Word ",
@@ -15451,8 +15441,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/oriya",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 11,
   "issues": [
+   {
+    "number": 32,
+    "title": "Bump urllib3 from 2.0.2 to 2.0.6",
+    "url": "https://github.com/notofonts/oriya/pull/32"
+   },
    {
     "number": 31,
     "title": "Bump cryptography from 41.0.1 to 41.0.4",
