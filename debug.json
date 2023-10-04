@@ -7481,8 +7481,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/kaithi",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 6,
   "issues": [
+   {
+    "number": 24,
+    "title": "Reph blocks 'ss02' form of U+110B3 KAITHI VOWEL SIGN U",
+    "url": "https://github.com/notofonts/kaithi/issues/24"
+   },
    {
     "number": 23,
     "title": "Reph is misplaced on U+110AA KAITHI LETTER LA",
@@ -15441,8 +15446,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/oriya",
   "has_releases": true,
-  "issue_count": 11,
+  "issue_count": 12,
   "issues": [
+   {
+    "number": 33,
+    "title": "Bump pillow from 9.5.0 to 10.0.1",
+    "url": "https://github.com/notofonts/oriya/pull/33"
+   },
    {
     "number": 32,
     "title": "Bump urllib3 from 2.0.2 to 2.0.6",
