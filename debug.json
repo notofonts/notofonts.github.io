@@ -7481,8 +7481,23 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/kaithi",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 9,
   "issues": [
+   {
+    "number": 27,
+    "title": "Above-base marks are duplicated after U+110B1 KAITHI VOWEL SIGN I",
+    "url": "https://github.com/notofonts/kaithi/issues/27"
+   },
+   {
+    "number": 26,
+    "title": "U+200D blocks reph/half form of non-adjacent preceding consonant",
+    "url": "https://github.com/notofonts/kaithi/issues/26"
+   },
+   {
+    "number": 25,
+    "title": "Reph overlaps vowel signs U+110B5..U+110B8",
+    "url": "https://github.com/notofonts/kaithi/issues/25"
+   },
    {
     "number": 24,
     "title": "Reph blocks 'ss02' form of U+110B3 KAITHI VOWEL SIGN U",
@@ -13014,8 +13029,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/modi",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 5,
   "issues": [
+   {
+    "number": 13,
+    "title": "Anusvara obscured after -rd\u0101",
+    "url": "https://github.com/notofonts/modi/issues/13"
+   },
    {
     "number": 9,
     "title": "Request for serif style font for Modi script",
