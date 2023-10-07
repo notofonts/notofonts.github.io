@@ -1211,6 +1211,11 @@
   "gh_url": "https://notofonts.github.io/batak",
   "issues": [
    {
+    "number": 12,
+    "title": "U+1BFF BATAK SYMBOL BINDU PANGOLAT overlaps marks and 'dist' should ignore U+1BE6 BATAK SIGN TOMPI",
+    "url": "https://github.com/notofonts/batak/issues/12"
+   },
+   {
     "number": 10,
     "title": "The Mandailing 'na' letter is not correct",
     "url": "https://github.com/notofonts/batak/issues/10"
@@ -8872,6 +8877,16 @@
   },
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
+   {
+    "number": 447,
+    "title": "Noto latin font not working correctly with tilde diacritic below?",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/447"
+   },
+   {
+    "number": 446,
+    "title": "Design inconsistency in Cyrillic",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/446"
+   },
    {
     "number": 440,
     "title": "Roman Numerals?",
