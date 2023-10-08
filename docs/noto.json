@@ -435,6 +435,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 202,
+    "title": "Update Sans to Unicode 15 and more",
+    "url": "https://github.com/notofonts/arabic/pull/202"
+   },
+   {
     "number": 201,
     "title": "Add Arabic honorifics (unicode 14)",
     "url": "https://github.com/notofonts/arabic/issues/201"
