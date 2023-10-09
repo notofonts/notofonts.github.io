@@ -12405,8 +12405,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/manichaean",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 7,
+    "title": "Ligatures are missing anchor points",
+    "url": "https://github.com/notofonts/manichaean/issues/7"
+   },
    {
     "number": 2,
     "title": "Problems with Manichaean swashes and ligatures",
