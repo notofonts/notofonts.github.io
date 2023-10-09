@@ -631,6 +631,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2023-10-06T20:11:38Z",
+  "repo": "batak",
+  "tier": 3,
+  "url": "https://github.com/notofonts/batak/issues/12"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2017-12-01T08:17:07Z",
   "repo": "bengali",
   "tier": 1,
@@ -1930,6 +1937,55 @@
   "repo": "kaithi",
   "tier": 4,
   "url": "https://github.com/notofonts/kaithi/issues/20"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-10-02T17:23:44Z",
+  "repo": "kaithi",
+  "tier": 4,
+  "url": "https://github.com/notofonts/kaithi/issues/22"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-10-02T17:40:51Z",
+  "repo": "kaithi",
+  "tier": 4,
+  "url": "https://github.com/notofonts/kaithi/issues/23"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-10-03T19:35:18Z",
+  "repo": "kaithi",
+  "tier": 4,
+  "url": "https://github.com/notofonts/kaithi/issues/24"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-10-04T18:13:13Z",
+  "repo": "kaithi",
+  "tier": 4,
+  "url": "https://github.com/notofonts/kaithi/issues/25"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-10-04T19:07:16Z",
+  "repo": "kaithi",
+  "tier": 4,
+  "url": "https://github.com/notofonts/kaithi/issues/26"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-10-04T19:33:59Z",
+  "repo": "kaithi",
+  "tier": 4,
+  "url": "https://github.com/notofonts/kaithi/issues/27"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-10-05T13:46:36Z",
+  "repo": "kaithi",
+  "tier": 4,
+  "url": "https://github.com/notofonts/kaithi/issues/28"
  },
  {
   "closedAt": "2023-01-19T18:55:40Z",
@@ -4431,6 +4487,20 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/445"
  },
  {
+  "closedAt": null,
+  "createdAt": "2023-10-06T12:17:52Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/446"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-10-06T19:41:24Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/447"
+ },
+ {
   "closedAt": "2023-05-24T20:06:31Z",
   "createdAt": "2018-03-06T02:22:11Z",
   "repo": "limbu",
@@ -4611,6 +4681,13 @@
   "repo": "manichaean",
   "tier": 4,
   "url": "https://github.com/notofonts/manichaean/issues/5"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-10-08T13:57:25Z",
+  "repo": "manichaean",
+  "tier": 4,
+  "url": "https://github.com/notofonts/manichaean/issues/7"
  },
  {
   "closedAt": "2023-06-28T10:55:16Z",
@@ -4933,6 +5010,13 @@
   "repo": "modi",
   "tier": 3,
   "url": "https://github.com/notofonts/modi/issues/12"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-10-04T23:03:05Z",
+  "repo": "modi",
+  "tier": 3,
+  "url": "https://github.com/notofonts/modi/issues/13"
  },
  {
   "closedAt": null,
@@ -5586,28 +5670,28 @@
   "url": "https://github.com/notofonts/nastaliq/issues/55"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-02T11:05:56Z",
   "createdAt": "2023-09-29T11:34:38Z",
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/56"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-02T11:29:41Z",
   "createdAt": "2023-09-29T11:42:37Z",
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/57"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-02T11:29:25Z",
   "createdAt": "2023-09-29T11:56:18Z",
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/58"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-02T11:29:16Z",
   "createdAt": "2023-09-29T12:23:47Z",
   "repo": "nastaliq",
   "tier": 1,
