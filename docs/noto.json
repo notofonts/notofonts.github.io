@@ -2911,6 +2911,11 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
+    "number": 37,
+    "title": "Incorrect rendering in Photoshop/Illustrator",
+    "url": "https://github.com/notofonts/devanagari/issues/37"
+   },
+   {
     "number": 36,
     "title": "Updated the position of Devanagari Nukta for the Santali language",
     "url": "https://github.com/notofonts/devanagari/issues/36"
@@ -3116,6 +3121,11 @@
   },
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "issues": [
+   {
+    "number": 8,
+    "title": "U14 pilot PR",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/pull/8"
+   },
    {
     "number": 7,
     "title": "Font sometimes displays shifted ~200 units upwards",
@@ -11604,7 +11614,23 @@
    }
   },
   "gh_url": "https://notofonts.github.io/nandinagari",
-  "issues": [],
+  "issues": [
+   {
+    "number": 8,
+    "title": "ZWNJ does not always block half forms of j\u00f1a, ta, na, and ma",
+    "url": "https://github.com/notofonts/nandinagari/issues/8"
+   },
+   {
+    "number": 7,
+    "title": "Reph is not formed before ga, gha, or na",
+    "url": "https://github.com/notofonts/nandinagari/issues/7"
+   },
+   {
+    "number": 6,
+    "title": "Broken conjunct glyphs in version 1.002",
+    "url": "https://github.com/notofonts/nandinagari/issues/6"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/nandinagari",
   "tier": 5,
   "title": "Noto Nandinagari"
