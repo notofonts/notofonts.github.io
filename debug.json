@@ -4018,8 +4018,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 8,
   "issues": [
+   {
+    "number": 9,
+    "title": "May I make counting rods 3FA\u202640C thicker?",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/9"
+   },
    {
     "number": 8,
     "title": "U14 pilot PR",
@@ -10663,13 +10668,8 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 111,
+  "issue_count": 110,
   "issues": [
-   {
-    "number": 447,
-    "title": "Noto latin font not working correctly with tilde diacritic below?",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/447"
-   },
    {
     "number": 446,
     "title": "Design inconsistency in Cyrillic",
@@ -12410,8 +12410,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/manichaean",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 8,
+    "title": "U+10ACF MANICHAEAN LETTER YODH has two shapes: curl and dot",
+    "url": "https://github.com/notofonts/manichaean/issues/8"
+   },
    {
     "number": 7,
     "title": "Ligatures are missing anchor points",
