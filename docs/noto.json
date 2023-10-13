@@ -151,6 +151,71 @@
  },
  "arabic": {
   "families": {
+   "Noto Kufi Arabic": {
+    "files": {
+     "full": [
+      "fonts/NotoKufiArabic/full/otf/NotoKufiArabic-Black.otf",
+      "fonts/NotoKufiArabic/full/otf/NotoKufiArabic-Bold.otf",
+      "fonts/NotoKufiArabic/full/otf/NotoKufiArabic-ExtraBold.otf",
+      "fonts/NotoKufiArabic/full/otf/NotoKufiArabic-ExtraLight.otf",
+      "fonts/NotoKufiArabic/full/otf/NotoKufiArabic-Light.otf",
+      "fonts/NotoKufiArabic/full/otf/NotoKufiArabic-Medium.otf",
+      "fonts/NotoKufiArabic/full/otf/NotoKufiArabic-Regular.otf",
+      "fonts/NotoKufiArabic/full/otf/NotoKufiArabic-SemiBold.otf",
+      "fonts/NotoKufiArabic/full/otf/NotoKufiArabic-Thin.otf",
+      "fonts/NotoKufiArabic/full/slim-variable-ttf/NotoKufiArabic[wght].ttf",
+      "fonts/NotoKufiArabic/full/ttf/NotoKufiArabic-Black.ttf",
+      "fonts/NotoKufiArabic/full/ttf/NotoKufiArabic-Bold.ttf",
+      "fonts/NotoKufiArabic/full/ttf/NotoKufiArabic-ExtraBold.ttf",
+      "fonts/NotoKufiArabic/full/ttf/NotoKufiArabic-ExtraLight.ttf",
+      "fonts/NotoKufiArabic/full/ttf/NotoKufiArabic-Light.ttf",
+      "fonts/NotoKufiArabic/full/ttf/NotoKufiArabic-Medium.ttf",
+      "fonts/NotoKufiArabic/full/ttf/NotoKufiArabic-Regular.ttf",
+      "fonts/NotoKufiArabic/full/ttf/NotoKufiArabic-SemiBold.ttf",
+      "fonts/NotoKufiArabic/full/ttf/NotoKufiArabic-Thin.ttf",
+      "fonts/NotoKufiArabic/full/variable/NotoKufiArabic[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoKufiArabic/hinted/ttf/NotoKufiArabic-Black.ttf",
+      "fonts/NotoKufiArabic/hinted/ttf/NotoKufiArabic-Bold.ttf",
+      "fonts/NotoKufiArabic/hinted/ttf/NotoKufiArabic-ExtraBold.ttf",
+      "fonts/NotoKufiArabic/hinted/ttf/NotoKufiArabic-ExtraLight.ttf",
+      "fonts/NotoKufiArabic/hinted/ttf/NotoKufiArabic-Light.ttf",
+      "fonts/NotoKufiArabic/hinted/ttf/NotoKufiArabic-Medium.ttf",
+      "fonts/NotoKufiArabic/hinted/ttf/NotoKufiArabic-Regular.ttf",
+      "fonts/NotoKufiArabic/hinted/ttf/NotoKufiArabic-SemiBold.ttf",
+      "fonts/NotoKufiArabic/hinted/ttf/NotoKufiArabic-Thin.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoKufiArabic/unhinted/otf/NotoKufiArabic-Black.otf",
+      "fonts/NotoKufiArabic/unhinted/otf/NotoKufiArabic-Bold.otf",
+      "fonts/NotoKufiArabic/unhinted/otf/NotoKufiArabic-ExtraBold.otf",
+      "fonts/NotoKufiArabic/unhinted/otf/NotoKufiArabic-ExtraLight.otf",
+      "fonts/NotoKufiArabic/unhinted/otf/NotoKufiArabic-Light.otf",
+      "fonts/NotoKufiArabic/unhinted/otf/NotoKufiArabic-Medium.otf",
+      "fonts/NotoKufiArabic/unhinted/otf/NotoKufiArabic-Regular.otf",
+      "fonts/NotoKufiArabic/unhinted/otf/NotoKufiArabic-SemiBold.otf",
+      "fonts/NotoKufiArabic/unhinted/otf/NotoKufiArabic-Thin.otf",
+      "fonts/NotoKufiArabic/unhinted/slim-variable-ttf/NotoKufiArabic[wght].ttf",
+      "fonts/NotoKufiArabic/unhinted/ttf/NotoKufiArabic-Black.ttf",
+      "fonts/NotoKufiArabic/unhinted/ttf/NotoKufiArabic-Bold.ttf",
+      "fonts/NotoKufiArabic/unhinted/ttf/NotoKufiArabic-ExtraBold.ttf",
+      "fonts/NotoKufiArabic/unhinted/ttf/NotoKufiArabic-ExtraLight.ttf",
+      "fonts/NotoKufiArabic/unhinted/ttf/NotoKufiArabic-Light.ttf",
+      "fonts/NotoKufiArabic/unhinted/ttf/NotoKufiArabic-Medium.ttf",
+      "fonts/NotoKufiArabic/unhinted/ttf/NotoKufiArabic-Regular.ttf",
+      "fonts/NotoKufiArabic/unhinted/ttf/NotoKufiArabic-SemiBold.ttf",
+      "fonts/NotoKufiArabic/unhinted/ttf/NotoKufiArabic-Thin.ttf",
+      "fonts/NotoKufiArabic/unhinted/variable/NotoKufiArabic[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Kufi Arabic v2.108\n\nThis release:\n\n* Brings codepoint support up to Unicode 14\n* Includes extensive re-engineering to fix bugs (particularly in minority languages), reduce glyphset size, and increase consistency with other Noto Arabic families\n",
+     "published": "2023-10-13T09:33:56+00:00",
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoKufiArabic-v2.108",
+     "version": "v2.108"
+    }
+   },
    "Noto Naskh Arabic": {
     "files": {
      "full": [
@@ -163,7 +228,7 @@
       "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-Medium.ttf",
       "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-Regular.ttf",
       "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-SemiBold.ttf",
-      "fonts/NotoNaskhArabic/full/variable-ttf/NotoNaskhArabic[wght].ttf"
+      "fonts/NotoNaskhArabic/full/variable/NotoNaskhArabic[wght].ttf"
      ],
      "hinted": [
       "fonts/NotoNaskhArabic/hinted/ttf/NotoNaskhArabic-Bold.ttf",
@@ -181,14 +246,14 @@
       "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-Medium.ttf",
       "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-Regular.ttf",
       "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-SemiBold.ttf",
-      "fonts/NotoNaskhArabic/unhinted/variable-ttf/NotoNaskhArabic[wght].ttf"
+      "fonts/NotoNaskhArabic/unhinted/variable/NotoNaskhArabic[wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Naskh Arabic v2.106\n\nThis release:\n* Fixes an issue with the positioning of the dots on the \"ng\" character (PR#179, thanks to Kazunari Tsuboi)\n* Fixes the positioning of U+0674 HIGH HAMZA (PR#39, thanks to Khaled Hosny)\n",
-     "published": "2022-11-10T15:19:18",
-     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.016",
-     "version": "v2.016"
+     "notes": "Noto Naskh Arabic v2.017\n\nThis release:\n\n* Brings codepoint support up to Unicode 14\n* Includes extensive re-engineering to fix bugs (particularly in minority languages), reduce glyphset size, and increase consistency with other Noto Arabic families\n",
+     "published": "2023-10-13T09:17:01+00:00",
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.017",
+     "version": "v2.017"
     }
    },
    "Noto Naskh Arabic UI": {
@@ -307,7 +372,7 @@
       "fonts/NotoSansArabic/full/ttf/NotoSansArabic-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansArabic/full/ttf/NotoSansArabic-SemiCondensedThin.ttf",
       "fonts/NotoSansArabic/full/ttf/NotoSansArabic-Thin.ttf",
-      "fonts/NotoSansArabic/full/variable-ttf/NotoSansArabic[wdth,wght].ttf"
+      "fonts/NotoSansArabic/full/variable/NotoSansArabic[wdth,wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSansArabic/hinted/ttf/NotoSansArabic-Black.ttf",
@@ -421,24 +486,19 @@
       "fonts/NotoSansArabic/unhinted/ttf/NotoSansArabic-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansArabic/unhinted/ttf/NotoSansArabic-SemiCondensedThin.ttf",
       "fonts/NotoSansArabic/unhinted/ttf/NotoSansArabic-Thin.ttf",
-      "fonts/NotoSansArabic/unhinted/variable-ttf/NotoSansArabic[wdth,wght].ttf"
+      "fonts/NotoSansArabic/unhinted/variable/NotoSansArabic[wdth,wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Arabic v2.010\n\nThis is an administrative release.\n",
-     "published": "2022-07-05T05:59:11",
-     "url": "https://github.com/notofonts/arabic/releases/tag/NotoSansArabic-v2.010",
-     "version": "v2.010"
+     "notes": "Noto Sans Arabic v2.011\n\nThis release:\n\n* Brings codepoint support up to Unicode 14\n* Includes extensive re-engineering to fix bugs (particularly in minority languages), reduce glyphset size, and increase consistency with other Noto Arabic families\n",
+     "published": "2023-10-13T09:26:06+00:00",
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoSansArabic-v2.011",
+     "version": "v2.011"
     }
    }
   },
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
-   {
-    "number": 204,
-    "title": "Fix a couple missing positional substitutions",
-    "url": "https://github.com/notofonts/arabic/pull/204"
-   },
    {
     "number": 203,
     "title": "should there a version with a looped kyrgyz oe?",
@@ -448,56 +508,6 @@
     "number": 198,
     "title": "Add Coptic Epact Numbers?",
     "url": "https://github.com/notofonts/arabic/issues/198"
-   },
-   {
-    "number": 192,
-    "title": "Noto Naskh Arabic \u0644\u0644\u0647 character sequence including possible diacritic combinations does not ligate",
-    "url": "https://github.com/notofonts/arabic/issues/192"
-   },
-   {
-    "number": 191,
-    "title": "Noto Kufi Arabic does not contain the period, colon, exclamation mark glyphs so it renders the end my paragraph with empty boxes",
-    "url": "https://github.com/notofonts/arabic/issues/191"
-   },
-   {
-    "number": 187,
-    "title": "Review",
-    "url": "https://github.com/notofonts/arabic/issues/187"
-   },
-   {
-    "number": 186,
-    "title": "Kufi re-engineering review",
-    "url": "https://github.com/notofonts/arabic/issues/186"
-   },
-   {
-    "number": 35,
-    "title": "Noto Sans Arabic Font",
-    "url": "https://github.com/notofonts/arabic/issues/35"
-   },
-   {
-    "number": 33,
-    "title": "Incorrect orientation of dots in Noto Sans Arabic",
-    "url": "https://github.com/notofonts/arabic/issues/33"
-   },
-   {
-    "number": 31,
-    "title": "Lower three dots incorrectly orientated in \"Noto Sans Arabic\" codepoints U+0752 and U+0753",
-    "url": "https://github.com/notofonts/arabic/issues/31"
-   },
-   {
-    "number": 28,
-    "title": "Noto Naskh Arabic font does not work in Word, but yes in Excel and PowerPoint",
-    "url": "https://github.com/notofonts/arabic/issues/28"
-   },
-   {
-    "number": 23,
-    "title": "Bad 'aalt' in Noto Sans Arabic",
-    "url": "https://github.com/notofonts/arabic/issues/23"
-   },
-   {
-    "number": 10,
-    "title": "Many missing Arabic positional glyphs",
-    "url": "https://github.com/notofonts/arabic/issues/10"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/arabic",
@@ -14034,15 +14044,14 @@
      ],
      "unhinted": [
       "fonts/NotoSansSymbols2/unhinted/otf/NotoSansSymbols2-Regular.otf",
-      "fonts/NotoSansSymbols2/unhinted/slim-otf/NotoSansSymbols2-Regular.otf",
       "fonts/NotoSansSymbols2/unhinted/ttf/NotoSansSymbols2-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Symbols2 v2.007\n\nThis release:\n\n- Adds U+1F7D9 NINE POINTED WHITE STAR (Thanks to Joop Kiefte, #66)\n- Improve stroke position in Phaistos disc symbols (#11)\n",
-     "published": "2023-06-27T11:38:09",
-     "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols2-v2.007",
-     "version": "v2.007"
+     "notes": "Noto Sans Symbols 2 v2.008\n\nThis release includes new symbols U+1F1AD, U+1F10D-U+1F10F, U+1F16D-U+1F16F, U+1F774-1F776, U+1F77B-1F77F, U+1F900-1F90B (thanks to Emma Marichal!)\n",
+     "published": "2023-10-13T11:08:22+00:00",
+     "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols2-v2.008",
+     "version": "v2.008"
     }
    }
   },
