@@ -435,19 +435,14 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
-    "number": 202,
-    "title": "Update Sans to Unicode 15 and more",
-    "url": "https://github.com/notofonts/arabic/pull/202"
+    "number": 204,
+    "title": "Fix a couple missing positional substitutions",
+    "url": "https://github.com/notofonts/arabic/pull/204"
    },
    {
-    "number": 201,
-    "title": "Add Arabic honorifics (unicode 14)",
-    "url": "https://github.com/notofonts/arabic/issues/201"
-   },
-   {
-    "number": 200,
-    "title": "Update Kufi to Unicode 15 and more",
-    "url": "https://github.com/notofonts/arabic/pull/200"
+    "number": 203,
+    "title": "should there a version with a looped kyrgyz oe?",
+    "url": "https://github.com/notofonts/arabic/issues/203"
    },
    {
     "number": 198,
@@ -465,11 +460,6 @@
     "url": "https://github.com/notofonts/arabic/issues/191"
    },
    {
-    "number": 189,
-    "title": "Wrong display of Uyghur letter \u06be ?",
-    "url": "https://github.com/notofonts/arabic/issues/189"
-   },
-   {
     "number": 187,
     "title": "Review",
     "url": "https://github.com/notofonts/arabic/issues/187"
@@ -478,11 +468,6 @@
     "number": 186,
     "title": "Kufi re-engineering review",
     "url": "https://github.com/notofonts/arabic/issues/186"
-   },
-   {
-    "number": 178,
-    "title": "Missing Arabic Extended-B Block",
-    "url": "https://github.com/notofonts/arabic/issues/178"
    },
    {
     "number": 35,
@@ -500,19 +485,9 @@
     "url": "https://github.com/notofonts/arabic/issues/31"
    },
    {
-    "number": 29,
-    "title": "Bad ligature of \u27e8\u0644\u0649\u0645\u27e9 in Noto Sans Arabic",
-    "url": "https://github.com/notofonts/arabic/issues/29"
-   },
-   {
     "number": 28,
     "title": "Noto Naskh Arabic font does not work in Word, but yes in Excel and PowerPoint",
     "url": "https://github.com/notofonts/arabic/issues/28"
-   },
-   {
-    "number": 26,
-    "title": "U+0644,U+0621 and U+0627 should ligate",
-    "url": "https://github.com/notofonts/arabic/issues/26"
    },
    {
     "number": 23,
@@ -520,34 +495,9 @@
     "url": "https://github.com/notofonts/arabic/issues/23"
    },
    {
-    "number": 15,
-    "title": "Add Arabic Extended-A unicode block U+08A0..U+08FF to all Arabic fonts",
-    "url": "https://github.com/notofonts/arabic/issues/15"
-   },
-   {
-    "number": 14,
-    "title": "Questionable glyph for isolated U+08AC ARABIC LETTER ROHINGYA YEH",
-    "url": "https://github.com/notofonts/arabic/issues/14"
-   },
-   {
-    "number": 11,
-    "title": "Noto Sans Arabic Arabic decimal and thousands separators",
-    "url": "https://github.com/notofonts/arabic/issues/11"
-   },
-   {
     "number": 10,
     "title": "Many missing Arabic positional glyphs",
     "url": "https://github.com/notofonts/arabic/issues/10"
-   },
-   {
-    "number": 9,
-    "title": "Wrong glyph for U+08E2 ARABIC DISPUTED END OF AYAH",
-    "url": "https://github.com/notofonts/arabic/issues/9"
-   },
-   {
-    "number": 8,
-    "title": "Broken Arabic lam-alef combinations",
-    "url": "https://github.com/notofonts/arabic/issues/8"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/arabic",
