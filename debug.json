@@ -10640,8 +10640,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 110,
+  "issue_count": 111,
   "issues": [
+   {
+    "number": 449,
+    "title": "Noto Sans renders \"not equal to\" glyph (\u2260) incorrectly",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/449"
+   },
    {
     "number": 446,
     "title": "Design inconsistency in Cyrillic",
@@ -14105,8 +14110,18 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nandinagari",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 9,
   "issues": [
+   {
+    "number": 14,
+    "title": "Stylistic sets are incomplete",
+    "url": "https://github.com/notofonts/nandinagari/issues/14"
+   },
+   {
+    "number": 13,
+    "title": "\u201cPsa\u201d component is inconsistent between conjuncts",
+    "url": "https://github.com/notofonts/nandinagari/issues/13"
+   },
    {
     "number": 12,
     "title": "Some conjuncts lack anchor points",
@@ -19796,8 +19811,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/telugu",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 4,
   "issues": [
+   {
+    "number": 22,
+    "title": "U+0C3C TELUGU SIGN NUKTA overlaps marks and blocks ligation",
+    "url": "https://github.com/notofonts/telugu/issues/22"
+   },
    {
     "number": 21,
     "title": "\u0c28\u0c4d\u0c26\u0c4d\u0c30\u0952 ndra with vedic anudatta overlapping",
