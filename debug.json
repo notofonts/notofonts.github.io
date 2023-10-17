@@ -159,7 +159,7 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/ahom",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 3,
   "issues": [
    {
     "number": 20,
@@ -175,11 +175,6 @@
     "number": 18,
     "title": "Unicode 14.0 letters do not appear in any OpenType rules",
     "url": "https://github.com/notofonts/ahom/issues/18"
-   },
-   {
-    "number": 17,
-    "title": "Marks on U+11705 AHOM LETTER ALTERNATE TA are instead placed on the following U+1170A AHOM LETTER JA",
-    "url": "https://github.com/notofonts/ahom/issues/17"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/ahom",
@@ -7473,7 +7468,7 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/kaithi",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 7,
   "issues": [
    {
     "number": 28,
@@ -7499,21 +7494,6 @@
     "number": 24,
     "title": "Reph blocks 'ss02' form of U+110B3 KAITHI VOWEL SIGN U",
     "url": "https://github.com/notofonts/kaithi/issues/24"
-   },
-   {
-    "number": 23,
-    "title": "Reph is misplaced on U+110AA KAITHI LETTER LA",
-    "url": "https://github.com/notofonts/kaithi/issues/23"
-   },
-   {
-    "number": 22,
-    "title": "Vowel sign -u is misplaced on dotless ya",
-    "url": "https://github.com/notofonts/kaithi/issues/22"
-   },
-   {
-    "number": 20,
-    "title": "Nukta position is ambiguous in conjuncts",
-    "url": "https://github.com/notofonts/kaithi/issues/20"
    },
    {
     "number": 2,
@@ -14110,7 +14090,7 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nandinagari",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 3,
   "issues": [
    {
     "number": 14,
@@ -14123,39 +14103,9 @@
     "url": "https://github.com/notofonts/nandinagari/issues/13"
    },
    {
-    "number": 12,
-    "title": "Some conjuncts lack anchor points",
-    "url": "https://github.com/notofonts/nandinagari/issues/12"
-   },
-   {
     "number": 11,
     "title": "\u1e6ca and ya are not connected properly",
     "url": "https://github.com/notofonts/nandinagari/issues/11"
-   },
-   {
-    "number": 10,
-    "title": "U+119E4 NANDINAGARI VOWEL SIGN PRISHTHAMATRA E does not touch U+119B7 NANDINAGARI LETTER NYA",
-    "url": "https://github.com/notofonts/nandinagari/issues/10"
-   },
-   {
-    "number": 9,
-    "title": "'ss04' does not reposition reph and vowel signs after dha and pha",
-    "url": "https://github.com/notofonts/nandinagari/issues/9"
-   },
-   {
-    "number": 8,
-    "title": "ZWNJ does not always block half forms of j\u00f1a, ta, na, and ma",
-    "url": "https://github.com/notofonts/nandinagari/issues/8"
-   },
-   {
-    "number": 7,
-    "title": "Half forms and reph are not formed before ga, gha, or na",
-    "url": "https://github.com/notofonts/nandinagari/issues/7"
-   },
-   {
-    "number": 6,
-    "title": "Broken conjunct glyphs in version 1.002",
-    "url": "https://github.com/notofonts/nandinagari/issues/6"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/nandinagari",
