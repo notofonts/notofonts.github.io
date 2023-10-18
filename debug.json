@@ -15482,6 +15482,11 @@
   "issue_count": 12,
   "issues": [
    {
+    "number": 35,
+    "title": "Bump urllib3 from 2.0.2 to 2.0.7",
+    "url": "https://github.com/notofonts/oriya/pull/35"
+   },
+   {
     "number": 34,
     "title": "Bump gitpython from 3.1.31 to 3.1.37",
     "url": "https://github.com/notofonts/oriya/pull/34"
@@ -15490,11 +15495,6 @@
     "number": 33,
     "title": "Bump pillow from 9.5.0 to 10.0.1",
     "url": "https://github.com/notofonts/oriya/pull/33"
-   },
-   {
-    "number": 32,
-    "title": "Bump urllib3 from 2.0.2 to 2.0.6",
-    "url": "https://github.com/notofonts/oriya/pull/32"
    },
    {
     "number": 31,
