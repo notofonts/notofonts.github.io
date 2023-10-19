@@ -1280,8 +1280,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/balinese",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 4,
   "issues": [
+   {
+    "number": 36,
+    "title": "\"Unhinted\" Balinese Sans TTF seems to be hinted",
+    "url": "https://github.com/notofonts/balinese/issues/36"
+   },
    {
     "number": 34,
     "title": "Third-level la needs drawing",
