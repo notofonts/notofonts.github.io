@@ -77,7 +77,7 @@
   "url": "https://github.com/notofonts/ahom/issues/16"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-16T10:31:26Z",
   "createdAt": "2023-09-27T20:43:19Z",
   "repo": "ahom",
   "tier": 4,
@@ -593,6 +593,13 @@
   "repo": "balinese",
   "tier": 2,
   "url": "https://github.com/notofonts/balinese/issues/35"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-10-18T18:21:57Z",
+  "repo": "balinese",
+  "tier": 2,
+  "url": "https://github.com/notofonts/balinese/issues/36"
  },
  {
   "closedAt": null,
@@ -1960,21 +1967,21 @@
   "url": "https://github.com/notofonts/kaithi/issues/19"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-16T14:23:05Z",
   "createdAt": "2022-09-24T20:39:33Z",
   "repo": "kaithi",
   "tier": 4,
   "url": "https://github.com/notofonts/kaithi/issues/20"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-16T14:27:52Z",
   "createdAt": "2023-10-02T17:23:44Z",
   "repo": "kaithi",
   "tier": 4,
   "url": "https://github.com/notofonts/kaithi/issues/22"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-16T14:29:47Z",
   "createdAt": "2023-10-02T17:40:51Z",
   "repo": "kaithi",
   "tier": 4,
@@ -5551,35 +5558,35 @@
   "url": "https://github.com/notofonts/nandinagari/issues/5"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-16T13:31:24Z",
   "createdAt": "2023-10-09T22:23:48Z",
   "repo": "nandinagari",
   "tier": 5,
   "url": "https://github.com/notofonts/nandinagari/issues/6"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-16T13:37:53Z",
   "createdAt": "2023-10-10T00:37:12Z",
   "repo": "nandinagari",
   "tier": 5,
   "url": "https://github.com/notofonts/nandinagari/issues/7"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-16T14:13:04Z",
   "createdAt": "2023-10-10T01:30:44Z",
   "repo": "nandinagari",
   "tier": 5,
   "url": "https://github.com/notofonts/nandinagari/issues/8"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-16T14:13:04Z",
   "createdAt": "2023-10-13T17:40:27Z",
   "repo": "nandinagari",
   "tier": 5,
   "url": "https://github.com/notofonts/nandinagari/issues/9"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-16T14:13:05Z",
   "createdAt": "2023-10-13T18:04:25Z",
   "repo": "nandinagari",
   "tier": 5,
@@ -5593,7 +5600,7 @@
   "url": "https://github.com/notofonts/nandinagari/issues/11"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-16T14:13:06Z",
   "createdAt": "2023-10-14T01:22:47Z",
   "repo": "nandinagari",
   "tier": 5,
@@ -7649,5 +7656,19 @@
   "repo": "zanabazar-square",
   "tier": 3,
   "url": "https://github.com/notofonts/zanabazar-square/issues/9"
+ },
+ {
+  "closedAt": "2023-10-19T10:10:35Z",
+  "createdAt": "2023-10-19T10:05:16Z",
+  "repo": "zanabazar-square",
+  "tier": 3,
+  "url": "https://github.com/notofonts/zanabazar-square/issues/10"
+ },
+ {
+  "closedAt": "2023-10-19T10:52:55Z",
+  "createdAt": "2023-10-19T10:47:07Z",
+  "repo": "zanabazar-square",
+  "tier": 3,
+  "url": "https://github.com/notofonts/zanabazar-square/issues/11"
  }
 ]

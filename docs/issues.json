@@ -9,13 +9,13 @@
   "7": 66,
   "8": 18,
   "9": 57,
-  "10": 28
+  "10": 40
  },
  "open_per_repo": {
-  "ahom": 4,
+  "ahom": 3,
   "arabic": 2,
   "armenian": 1,
-  "balinese": 3,
+  "balinese": 4,
   "bamum": 1,
   "batak": 4,
   "bengali": 5,
@@ -40,7 +40,7 @@
   "hanunoo": 1,
   "hebrew": 7,
   "javanese": 4,
-  "kaithi": 10,
+  "kaithi": 7,
   "kannada": 7,
   "kawi": 4,
   "kharoshthi": 1,
@@ -58,7 +58,7 @@
   "multani": 1,
   "music": 1,
   "myanmar": 32,
-  "nandinagari": 9,
+  "nandinagari": 3,
   "nastaliq": 9,
   "nko": 1,
   "old-hungarian": 6,
@@ -94,10 +94,10 @@
  },
  "open_per_tier": {
   "1": 183,
-  "2": 37,
+  "2": 38,
   "3": 87,
-  "4": 54,
-  "5": 37
+  "4": 50,
+  "5": 31
  },
  "opened_per_month": {
   "1": 20,
@@ -109,7 +109,7 @@
   "7": 26,
   "8": 14,
   "9": 32,
-  "10": 31
+  "10": 34
  },
  "releases_per_month": {
   "1": [
