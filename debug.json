@@ -5830,14 +5830,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/gunjala-gondi",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 3,
-    "title": "GUNJALA GONDI VIRAMA behaves inconsistently with the Unicode Standard\u2019s current definition",
-    "url": "https://github.com/notofonts/gunjala-gondi/issues/3"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/gunjala-gondi",
   "tier": 3,
   "title": "Noto Gunjala Gondi"
@@ -10620,8 +10614,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 111,
+  "issue_count": 112,
   "issues": [
+   {
+    "number": 450,
+    "title": "OpenType features do not work in Adobe programs",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/450"
+   },
    {
     "number": 449,
     "title": "Noto Sans renders \"not equal to\" glyph (\u2260) incorrectly",
