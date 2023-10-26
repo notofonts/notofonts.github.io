@@ -15291,24 +15291,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/old-uyghur",
   "has_releases": true,
-  "issue_count": 3,
-  "issues": [
-   {
-    "number": 7,
-    "title": "Medial <mem, lesh> looks like <lesh, mem>",
-    "url": "https://github.com/notofonts/old-uyghur/issues/7"
-   },
-   {
-    "number": 6,
-    "title": "Letters after kaph and pe try to join them on the baseline",
-    "url": "https://github.com/notofonts/old-uyghur/issues/6"
-   },
-   {
-    "number": 5,
-    "title": "Combining marks are not positioned properly",
-    "url": "https://github.com/notofonts/old-uyghur/issues/5"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/old-uyghur",
   "tier": 5,
   "title": "Noto Old Uyghur"
@@ -15478,23 +15462,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/oriya",
   "has_releases": true,
-  "issue_count": 12,
+  "issue_count": 3,
   "issues": [
-   {
-    "number": 35,
-    "title": "Bump urllib3 from 2.0.2 to 2.0.7",
-    "url": "https://github.com/notofonts/oriya/pull/35"
-   },
-   {
-    "number": 34,
-    "title": "Bump gitpython from 3.1.31 to 3.1.37",
-    "url": "https://github.com/notofonts/oriya/pull/34"
-   },
-   {
-    "number": 33,
-    "title": "Bump pillow from 9.5.0 to 10.0.1",
-    "url": "https://github.com/notofonts/oriya/pull/33"
-   },
    {
     "number": 31,
     "title": "Bump cryptography from 41.0.1 to 41.0.4",
@@ -15509,36 +15478,6 @@
     "number": 26,
     "title": "Serif: 0B55 is still missing",
     "url": "https://github.com/notofonts/oriya/issues/26"
-   },
-   {
-    "number": 25,
-    "title": "Serif: 0B63 has advance width of 508",
-    "url": "https://github.com/notofonts/oriya/issues/25"
-   },
-   {
-    "number": 24,
-    "title": "Troubles with dotted circle",
-    "url": "https://github.com/notofonts/oriya/issues/24"
-   },
-   {
-    "number": 22,
-    "title": "Issue with Shape of BA in Conjunct Consonants in NotoSansOriya",
-    "url": "https://github.com/notofonts/oriya/issues/22"
-   },
-   {
-    "number": 21,
-    "title": "Vowels not connecting with RHA, RRA in NotoSansOriya",
-    "url": "https://github.com/notofonts/oriya/issues/21"
-   },
-   {
-    "number": 19,
-    "title": "Missing anchor points for nukta and virama",
-    "url": "https://github.com/notofonts/oriya/issues/19"
-   },
-   {
-    "number": 18,
-    "title": "Isn\u2019t that overline too thin?",
-    "url": "https://github.com/notofonts/oriya/issues/18"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/oriya",
