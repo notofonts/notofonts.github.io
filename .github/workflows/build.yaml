@@ -11,6 +11,8 @@ jobs:
         with:
             ref: main
       - uses: actions/setup-python@v2
+        with:
+          python-version: "3.11"
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
       - name: Gather information
