@@ -5621,10 +5621,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Gujarati v2.105\n\nThis release:\n\n* Fixes the position of nukta below other marks (#28)\n* Reorders the sequence U+0AFD, U+0AFC (#30)\n* Improves the display of the sequence U+0AFF U+0AFA (#31)\n* Improves the positioning of ligated marks with repha or anusvara (#33)\n",
-     "published": "2023-09-25T14:47:08",
-     "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSansGujarati-v2.105",
-     "version": "v2.105"
+     "notes": "Noto Sans Gujarati v2.106\n\nThis release re-exports the danda/double danda glyphs and fixes an interpolation issue in uuvowelsignnuktagujr.\n",
+     "published": "2023-10-26T10:08:16+00:00",
+     "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSansGujarati-v2.106",
+     "version": "v2.106"
     },
     "third_party_versions": {
      "Android 12": {
@@ -5703,10 +5703,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Gujarati v2.105\n\nThis release:\n\n* Fixes the position of nukta below other marks (#28)\n* Reorders the sequence U+0AFD, U+0AFC (#30)\n* Allows JA-A to form a ligature in the presence of other marks (#27)\n* Positions nuktas correctly on half forms (#15)\n",
-     "published": "2023-09-25T14:47:09",
-     "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSerifGujarati-v2.105",
-     "version": "v2.105"
+     "notes": "Noto Serif Gujarati v2.106\n\nThis release:\n\n* fixes an interpolation issue in k_ss_r\n* restores the ra-u and ra-uu ligatures\n",
+     "published": "2023-10-26T10:36:11+00:00",
+     "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSerifGujarati-v2.106",
+     "version": "v2.106"
     },
     "third_party_versions": {
      "Android 12": {
@@ -20737,8 +20737,18 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/thai",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 27,
+    "title": "'aalt' contains invalid substitutions",
+    "url": "https://github.com/notofonts/thai/issues/27"
+   },
+   {
+    "number": 26,
+    "title": "U+0E38 overlaps U+0331 after U+0E0D",
+    "url": "https://github.com/notofonts/thai/issues/26"
+   },
    {
     "number": 11,
     "title": "Italic and/or oblique font style",
