@@ -3990,8 +3990,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 8,
   "issues": [
+   {
+    "number": 10,
+    "title": "U14 cows etc",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/pull/10"
+   },
    {
     "number": 9,
     "title": "May I make counting rods 3FA\u202640C thicker?",
@@ -13111,8 +13116,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mongolian",
   "has_releases": true,
-  "issue_count": 11,
+  "issue_count": 12,
   "issues": [
+   {
+    "number": 33,
+    "title": "Re-engineer the font to achieve compatibility with the requirements on Mongolian encoding",
+    "url": "https://github.com/notofonts/mongolian/pull/33"
+   },
    {
     "number": 32,
     "title": "Weights?",

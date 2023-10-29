@@ -3077,6 +3077,11 @@
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "issues": [
    {
+    "number": 10,
+    "title": "U14 cows etc",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/pull/10"
+   },
+   {
     "number": 9,
     "title": "May I make counting rods 3FA\u202640C thicker?",
     "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/9"
@@ -10731,6 +10736,11 @@
   },
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
+   {
+    "number": 33,
+    "title": "Re-engineer the font to achieve compatibility with the requirements on Mongolian encoding",
+    "url": "https://github.com/notofonts/mongolian/pull/33"
+   },
    {
     "number": 32,
     "title": "Weights?",
