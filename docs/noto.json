@@ -495,6 +495,26 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 209,
+    "title": "Noto Sans Arabic: ARABIC LETTER ZAIN WITH INVERTED V ABOVE `U+08B2` -- V collides with Zain dot",
+    "url": "https://github.com/notofonts/arabic/issues/209"
+   },
+   {
+    "number": 208,
+    "title": "Noto Sans Arabic: ARABIC LETTER TCHEHEH FINAL FORM `U+FB7F` -- Dots colliding with main `hah-ar` outline",
+    "url": "https://github.com/notofonts/arabic/issues/208"
+   },
+   {
+    "number": 207,
+    "title": "Fix U+FEE9 shape",
+    "url": "https://github.com/notofonts/arabic/pull/207"
+   },
+   {
+    "number": 206,
+    "title": "Wrong display of U+FEE9\u201c\u0647\u201d(looks like U+FBAA\u201c\ufbaa\u201d)?",
+    "url": "https://github.com/notofonts/arabic/issues/206"
+   },
+   {
     "number": 203,
     "title": "should there a version with a looped kyrgyz oe?",
     "url": "https://github.com/notofonts/arabic/issues/203"
