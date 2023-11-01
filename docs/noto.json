@@ -495,24 +495,29 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 212,
+    "title": "Sans fixes",
+    "url": "https://github.com/notofonts/arabic/pull/212"
+   },
+   {
+    "number": 211,
+    "title": "maybe there exist some problems with glyphs U+06C1\u201c\u06c1\u201d~U+06C3\u201c\u06c3\u201d, and others\u2026",
+    "url": "https://github.com/notofonts/arabic/issues/211"
+   },
+   {
+    "number": 210,
+    "title": "Noto Sans Arabic Black v2.011: regression with Arabic Letter Reh with Stroke `U+075B` in the black weight",
+    "url": "https://github.com/notofonts/arabic/issues/210"
+   },
+   {
     "number": 209,
-    "title": "Noto Sans Arabic: ARABIC LETTER ZAIN WITH INVERTED V ABOVE `U+08B2` -- V collides with Zain dot",
+    "title": "Noto Sans Arabic v2.011: ARABIC LETTER ZAIN WITH INVERTED V ABOVE `U+08B2` -- V collides with Zain dot",
     "url": "https://github.com/notofonts/arabic/issues/209"
    },
    {
     "number": 208,
-    "title": "Noto Sans Arabic: ARABIC LETTER TCHEHEH FINAL FORM `U+FB7F` -- Dots colliding with main `hah-ar` outline",
+    "title": "Noto Sans Arabic v2.011: ARABIC LETTER TCHEHEH FINAL FORM `U+FB7F` -- Dots colliding with main `hah-ar` outline",
     "url": "https://github.com/notofonts/arabic/issues/208"
-   },
-   {
-    "number": 207,
-    "title": "Fix U+FEE9 shape",
-    "url": "https://github.com/notofonts/arabic/pull/207"
-   },
-   {
-    "number": 206,
-    "title": "Wrong display of U+FEE9\u201c\u0647\u201d(looks like U+FBAA\u201c\ufbaa\u201d)?",
-    "url": "https://github.com/notofonts/arabic/issues/206"
    },
    {
     "number": 203,
@@ -2890,6 +2895,11 @@
   },
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
+   {
+    "number": 38,
+    "title": "Noto Serif Devanagari, several improvements as below",
+    "url": "https://github.com/notofonts/devanagari/pull/38"
+   },
    {
     "number": 36,
     "title": "Updated the position of Devanagari Nukta for the Santali language",
@@ -10757,64 +10767,14 @@
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
    {
-    "number": 33,
-    "title": "Re-engineer the font to achieve compatibility with the requirements on Mongolian encoding",
-    "url": "https://github.com/notofonts/mongolian/pull/33"
+    "number": 34,
+    "title": "18A9 is partly below line",
+    "url": "https://github.com/notofonts/mongolian/issues/34"
    },
    {
     "number": 32,
     "title": "Weights?",
     "url": "https://github.com/notofonts/mongolian/issues/32"
-   },
-   {
-    "number": 31,
-    "title": "Wrong shape for Manchu \"f\" before i/o/u",
-    "url": "https://github.com/notofonts/mongolian/issues/31"
-   },
-   {
-    "number": 30,
-    "title": "Medial \"gl\" does not render clearly",
-    "url": "https://github.com/notofonts/mongolian/issues/30"
-   },
-   {
-    "number": 29,
-    "title": "Manchu \"de\" and \"du\" have two dots instead of only one",
-    "url": "https://github.com/notofonts/mongolian/issues/29"
-   },
-   {
-    "number": 28,
-    "title": "Wrong shape for Manchu \"ku\"",
-    "url": "https://github.com/notofonts/mongolian/issues/28"
-   },
-   {
-    "number": 26,
-    "title": "Contextual Form Error for Manchu Final -ko/ho",
-    "url": "https://github.com/notofonts/mongolian/issues/26"
-   },
-   {
-    "number": 25,
-    "title": "Shaping errors in Todo writing system",
-    "url": "https://github.com/notofonts/mongolian/issues/25"
-   },
-   {
-    "number": 24,
-    "title": "Maybe some errors in your test case.",
-    "url": "https://github.com/notofonts/mongolian/issues/24"
-   },
-   {
-    "number": 23,
-    "title": "Shaping regression in Mongolian final forms",
-    "url": "https://github.com/notofonts/mongolian/issues/23"
-   },
-   {
-    "number": 4,
-    "title": "Mongol 18A9 is anchored badly",
-    "url": "https://github.com/notofonts/mongolian/issues/4"
-   },
-   {
-    "number": 2,
-    "title": "NotoSansMongolian Unfamiliar glyph U+1837 RA ",
-    "url": "https://github.com/notofonts/mongolian/issues/2"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/mongolian",
