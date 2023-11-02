@@ -495,6 +495,46 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 221,
+    "title": "Noto Sans Arabic v2.011: FontBakery QA FAIL: OS/2.usWinAscent value should be equal or greater than 1431",
+    "url": "https://github.com/notofonts/arabic/issues/221"
+   },
+   {
+    "number": 219,
+    "title": "Wrong display of U+FB96\u201c\ufb96\u201d(\u2248<isolated>U+06B3)",
+    "url": "https://github.com/notofonts/arabic/issues/219"
+   },
+   {
+    "number": 218,
+    "title": "Noto Sans Arabic v2.011: inconsistent Gaf (\u06af) top line",
+    "url": "https://github.com/notofonts/arabic/issues/218"
+   },
+   {
+    "number": 217,
+    "title": "Noto Sans Arabic v2.011: numerals on subtending marks are too light in weight",
+    "url": "https://github.com/notofonts/arabic/issues/217"
+   },
+   {
+    "number": 216,
+    "title": "Noto Sans Arabic v2.011: regression with RTL Kerning",
+    "url": "https://github.com/notofonts/arabic/issues/216"
+   },
+   {
+    "number": 215,
+    "title": "Noto Sans Arabic Thin v2.011: regression with Small Arabic Letter Tah and Small V",
+    "url": "https://github.com/notofonts/arabic/issues/215"
+   },
+   {
+    "number": 214,
+    "title": "Noto Sans Arabic Thin v2.011: regression with legibility of Arabic Letter Keheh with Three Dots Above \u0763 `U+0763`",
+    "url": "https://github.com/notofonts/arabic/issues/214"
+   },
+   {
+    "number": 213,
+    "title": "Noto Sans Arabic Thin v2.011: regression with legibility of Gaf (\u06af)",
+    "url": "https://github.com/notofonts/arabic/issues/213"
+   },
+   {
     "number": 212,
     "title": "Sans fixes",
     "url": "https://github.com/notofonts/arabic/pull/212"
