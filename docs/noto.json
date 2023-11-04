@@ -536,7 +536,7 @@
    },
    {
     "number": 212,
-    "title": "Sans fixes",
+    "title": "Misc. fixes",
     "url": "https://github.com/notofonts/arabic/pull/212"
    },
    {
@@ -11644,6 +11644,11 @@
   },
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
+   {
+    "number": 60,
+    "title": "Add support for Uyghur language.",
+    "url": "https://github.com/notofonts/nastaliq/issues/60"
+   },
    {
     "number": 54,
     "title": "Some part of glyphs disappearing on Microsoft Word ",
