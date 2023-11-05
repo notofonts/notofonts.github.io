@@ -9322,23 +9322,24 @@
   "families": {
    "Noto Sans Mongolian": {
     "files": [
-     "fonts/NotoSansMongolian/full/ttf/NotoSansMongolian-Regular.ttf",
-     "fonts/NotoSansMongolian/full/otf/NotoSansMongolian-Regular.otf",
+     "fonts/NotoSansMongolian/hinted/ttf/NotoSansMongolian-Regular.ttf",
      "fonts/NotoSansMongolian/googlefonts/ttf/NotoSansMongolian-Regular.ttf",
      "fonts/NotoSansMongolian/unhinted/ttf/NotoSansMongolian-Regular.ttf",
      "fonts/NotoSansMongolian/unhinted/otf/NotoSansMongolian-Regular.otf",
-     "fonts/NotoSansMongolian/hinted/ttf/NotoSansMongolian-Regular.ttf"
+     "fonts/NotoSansMongolian/full/ttf/NotoSansMongolian-Regular.ttf",
+     "fonts/NotoSansMongolian/full/otf/NotoSansMongolian-Regular.otf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Mongolian v2.003\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-16T10:55:45",
-     "url": "https://github.com/notofonts/mongolian/releases/tag/NotoSansMongolian-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Mongolian v3.000\n\nThis release is a completely re-engineered font, bringing the shaping behaviour into compliance with the draft UTN for Mongolian shaping by Kushim Jiang.\n",
+     "published": "2023-11-04T17:05:28+00:00",
+     "url": "https://github.com/notofonts/mongolian/releases/tag/NotoSansMongolian-v3.000",
+     "version": "v3.000"
     }
    }
   },
   "known_releases": [
-   "NotoSansMongolian-v2.003"
+   "NotoSansMongolian-v2.003",
+   "NotoSansMongolian-v3.000"
   ]
  },
  "mro": {

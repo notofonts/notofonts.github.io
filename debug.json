@@ -635,72 +635,17 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 15,
+  "issue_count": 4,
   "issues": [
-   {
-    "number": 221,
-    "title": "Noto Sans Arabic v2.011: FontBakery QA FAIL: OS/2.usWinAscent value should be equal or greater than 1431",
-    "url": "https://github.com/notofonts/arabic/issues/221"
-   },
-   {
-    "number": 219,
-    "title": "Wrong display of U+FB96\u201c\ufb96\u201d(\u2248<isolated>U+06B3)",
-    "url": "https://github.com/notofonts/arabic/issues/219"
-   },
-   {
-    "number": 218,
-    "title": "Noto Sans Arabic v2.011: inconsistent Gaf (\u06af) top line",
-    "url": "https://github.com/notofonts/arabic/issues/218"
-   },
    {
     "number": 217,
     "title": "Noto Sans Arabic v2.011: numerals on subtending marks are too light in weight",
     "url": "https://github.com/notofonts/arabic/issues/217"
    },
    {
-    "number": 216,
-    "title": "Noto Sans Arabic v2.011: regression with RTL Kerning",
-    "url": "https://github.com/notofonts/arabic/issues/216"
-   },
-   {
-    "number": 215,
-    "title": "Noto Sans Arabic Thin v2.011: regression with Small Arabic Letter Tah and Small V",
-    "url": "https://github.com/notofonts/arabic/issues/215"
-   },
-   {
-    "number": 214,
-    "title": "Noto Sans Arabic Thin v2.011: regression with legibility of Arabic Letter Keheh with Three Dots Above \u0763 `U+0763`",
-    "url": "https://github.com/notofonts/arabic/issues/214"
-   },
-   {
-    "number": 213,
-    "title": "Noto Sans Arabic Thin v2.011: regression with legibility of Gaf (\u06af)",
-    "url": "https://github.com/notofonts/arabic/issues/213"
-   },
-   {
-    "number": 212,
-    "title": "Misc. fixes",
-    "url": "https://github.com/notofonts/arabic/pull/212"
-   },
-   {
     "number": 211,
-    "title": "maybe there exist some problems with glyphs U+06C1\u201c\u06c1\u201d~U+06C3\u201c\u06c3\u201d, and others\u2026",
+    "title": "maybe there exist some problems with these glyphs, and others\u2026",
     "url": "https://github.com/notofonts/arabic/issues/211"
-   },
-   {
-    "number": 210,
-    "title": "Noto Sans Arabic Black v2.011: regression with Arabic Letter Reh with Stroke `U+075B` in the black weight",
-    "url": "https://github.com/notofonts/arabic/issues/210"
-   },
-   {
-    "number": 209,
-    "title": "Noto Sans Arabic v2.011: ARABIC LETTER ZAIN WITH INVERTED V ABOVE `U+08B2` -- V collides with Zain dot",
-    "url": "https://github.com/notofonts/arabic/issues/209"
-   },
-   {
-    "number": 208,
-    "title": "Noto Sans Arabic v2.011: ARABIC LETTER TCHEHEH FINAL FORM `U+FB7F` -- Dots colliding with main `hah-ar` outline",
-    "url": "https://github.com/notofonts/arabic/issues/208"
    },
    {
     "number": 203,
@@ -13149,10 +13094,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Mongolian v2.003\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-16T10:55:45",
-     "url": "https://github.com/notofonts/mongolian/releases/tag/NotoSansMongolian-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Mongolian v3.000\n\nThis release is a completely re-engineered font, bringing the shaping behaviour into compliance with the draft UTN for Mongolian shaping by Kushim Jiang.\n",
+     "published": "2023-11-04T17:05:28+00:00",
+     "url": "https://github.com/notofonts/mongolian/releases/tag/NotoSansMongolian-v3.000",
+     "version": "v3.000"
     },
     "third_party_versions": {
      "Android 12": {
@@ -13167,7 +13112,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "2.003"
      },
      "iOS 16.1": {
@@ -13186,13 +13131,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mongolian",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 34,
-    "title": "18A9 is partly below line",
-    "url": "https://github.com/notofonts/mongolian/issues/34"
-   },
    {
     "number": 32,
     "title": "Weights?",
