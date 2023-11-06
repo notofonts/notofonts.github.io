@@ -42,13 +42,6 @@
   "url": "https://github.com/notofonts/adlam/issues/11"
  },
  {
-  "closedAt": "2023-04-22T17:02:27Z",
-  "createdAt": "2023-04-21T20:25:18Z",
-  "repo": "adlam",
-  "tier": 2,
-  "url": "https://github.com/notofonts/adlam/issues/12"
- },
- {
   "closedAt": "2023-07-24T11:06:59Z",
   "createdAt": "2022-06-22T17:11:54Z",
   "repo": "ahom",
@@ -411,6 +404,104 @@
   "repo": "arabic",
   "tier": 1,
   "url": "https://github.com/notofonts/arabic/issues/205"
+ },
+ {
+  "closedAt": "2023-10-31T07:42:59Z",
+  "createdAt": "2023-10-30T16:50:04Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/206"
+ },
+ {
+  "closedAt": "2023-11-04T17:08:39Z",
+  "createdAt": "2023-10-31T01:16:32Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/208"
+ },
+ {
+  "closedAt": "2023-11-04T17:08:39Z",
+  "createdAt": "2023-10-31T01:25:20Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/209"
+ },
+ {
+  "closedAt": "2023-11-04T17:08:39Z",
+  "createdAt": "2023-10-31T02:44:54Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/210"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-10-31T03:34:35Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/211"
+ },
+ {
+  "closedAt": "2023-11-04T17:08:40Z",
+  "createdAt": "2023-11-01T07:36:16Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/213"
+ },
+ {
+  "closedAt": "2023-11-04T17:08:40Z",
+  "createdAt": "2023-11-01T08:15:45Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/214"
+ },
+ {
+  "closedAt": "2023-11-04T17:08:40Z",
+  "createdAt": "2023-11-01T09:03:05Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/215"
+ },
+ {
+  "closedAt": "2023-11-04T17:08:41Z",
+  "createdAt": "2023-11-01T17:23:53Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/216"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-11-01T17:31:05Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/217"
+ },
+ {
+  "closedAt": "2023-11-04T17:08:41Z",
+  "createdAt": "2023-11-01T17:50:56Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/218"
+ },
+ {
+  "closedAt": "2023-11-04T17:08:41Z",
+  "createdAt": "2023-11-01T20:17:55Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/219"
+ },
+ {
+  "closedAt": "2023-11-01T20:52:37Z",
+  "createdAt": "2023-11-01T20:32:44Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/220"
+ },
+ {
+  "closedAt": "2023-11-04T17:08:42Z",
+  "createdAt": "2023-11-01T20:48:15Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/221"
  },
  {
   "closedAt": "2023-09-25T08:47:47Z",
@@ -1652,7 +1743,7 @@
   "url": "https://github.com/notofonts/gunjala-gondi/issues/2"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-24T20:44:34Z",
   "createdAt": "2020-06-01T16:17:05Z",
   "repo": "gunjala-gondi",
   "tier": 3,
@@ -4550,6 +4641,20 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/449"
  },
  {
+  "closedAt": null,
+  "createdAt": "2023-10-24T08:18:23Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/450"
+ },
+ {
+  "closedAt": "2023-11-02T11:13:34Z",
+  "createdAt": "2023-11-02T03:40:31Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/451"
+ },
+ {
   "closedAt": "2023-05-24T20:06:31Z",
   "createdAt": "2018-03-06T02:22:11Z",
   "repo": "limbu",
@@ -5075,42 +5180,42 @@
   "url": "https://github.com/notofonts/modi/issues/13"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-31T09:28:33Z",
   "createdAt": "2019-07-11T05:59:06Z",
   "repo": "mongolian",
   "tier": 3,
   "url": "https://github.com/notofonts/mongolian/issues/2"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-31T09:28:21Z",
   "createdAt": "2021-08-08T11:14:44Z",
   "repo": "mongolian",
   "tier": 3,
   "url": "https://github.com/notofonts/mongolian/issues/4"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-31T09:28:07Z",
   "createdAt": "2022-10-15T07:39:07Z",
   "repo": "mongolian",
   "tier": 3,
   "url": "https://github.com/notofonts/mongolian/issues/23"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-31T09:28:15Z",
   "createdAt": "2022-10-21T13:57:47Z",
   "repo": "mongolian",
   "tier": 3,
   "url": "https://github.com/notofonts/mongolian/issues/24"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-31T09:27:58Z",
   "createdAt": "2022-10-27T13:03:30Z",
   "repo": "mongolian",
   "tier": 3,
   "url": "https://github.com/notofonts/mongolian/issues/25"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-31T09:27:21Z",
   "createdAt": "2022-11-19T06:51:34Z",
   "repo": "mongolian",
   "tier": 3,
@@ -5124,28 +5229,28 @@
   "url": "https://github.com/notofonts/mongolian/issues/27"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-31T09:27:33Z",
   "createdAt": "2023-06-08T20:14:44Z",
   "repo": "mongolian",
   "tier": 3,
   "url": "https://github.com/notofonts/mongolian/issues/28"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-31T09:27:00Z",
   "createdAt": "2023-06-17T23:40:14Z",
   "repo": "mongolian",
   "tier": 3,
   "url": "https://github.com/notofonts/mongolian/issues/29"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-31T09:26:47Z",
   "createdAt": "2023-06-19T07:28:56Z",
   "repo": "mongolian",
   "tier": 3,
   "url": "https://github.com/notofonts/mongolian/issues/30"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-31T09:26:38Z",
   "createdAt": "2023-06-21T18:52:54Z",
   "repo": "mongolian",
   "tier": 3,
@@ -5157,6 +5262,13 @@
   "repo": "mongolian",
   "tier": 3,
   "url": "https://github.com/notofonts/mongolian/issues/32"
+ },
+ {
+  "closedAt": "2023-11-04T16:55:55Z",
+  "createdAt": "2023-10-31T21:02:34Z",
+  "repo": "mongolian",
+  "tier": 3,
+  "url": "https://github.com/notofonts/mongolian/issues/34"
  },
  {
   "closedAt": null,
@@ -5817,6 +5929,13 @@
   "url": "https://github.com/notofonts/nastaliq/issues/59"
  },
  {
+  "closedAt": null,
+  "createdAt": "2023-11-03T02:48:13Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/60"
+ },
+ {
   "closedAt": "2023-02-09T09:39:26Z",
   "createdAt": "2022-10-14T14:16:07Z",
   "repo": "newa",
@@ -6083,21 +6202,21 @@
   "url": "https://github.com/notofonts/old-uyghur/issues/4"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-25T12:51:12Z",
   "createdAt": "2023-09-29T18:59:07Z",
   "repo": "old-uyghur",
   "tier": 5,
   "url": "https://github.com/notofonts/old-uyghur/issues/5"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-25T13:16:04Z",
   "createdAt": "2023-10-01T13:03:02Z",
   "repo": "old-uyghur",
   "tier": 5,
   "url": "https://github.com/notofonts/old-uyghur/issues/6"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-25T13:24:15Z",
   "createdAt": "2023-10-02T00:07:22Z",
   "repo": "old-uyghur",
   "tier": 5,
@@ -6139,14 +6258,14 @@
   "url": "https://github.com/notofonts/oriya/issues/17"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-25T14:12:17Z",
   "createdAt": "2023-03-27T11:54:54Z",
   "repo": "oriya",
   "tier": 1,
   "url": "https://github.com/notofonts/oriya/issues/18"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-25T14:25:18Z",
   "createdAt": "2023-03-27T17:29:33Z",
   "repo": "oriya",
   "tier": 1,
@@ -6160,28 +6279,28 @@
   "url": "https://github.com/notofonts/oriya/issues/20"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-25T14:25:43Z",
   "createdAt": "2023-06-15T07:01:06Z",
   "repo": "oriya",
   "tier": 1,
   "url": "https://github.com/notofonts/oriya/issues/21"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-25T14:26:25Z",
   "createdAt": "2023-06-15T07:08:51Z",
   "repo": "oriya",
   "tier": 1,
   "url": "https://github.com/notofonts/oriya/issues/22"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-25T14:22:57Z",
   "createdAt": "2023-06-21T12:23:49Z",
   "repo": "oriya",
   "tier": 1,
   "url": "https://github.com/notofonts/oriya/issues/24"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-10-25T14:28:31Z",
   "createdAt": "2023-06-26T13:24:11Z",
   "repo": "oriya",
   "tier": 1,
@@ -7397,6 +7516,20 @@
   "repo": "thai",
   "tier": 2,
   "url": "https://github.com/notofonts/thai/issues/25"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-10-27T20:11:54Z",
+  "repo": "thai",
+  "tier": 2,
+  "url": "https://github.com/notofonts/thai/issues/26"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-10-27T20:24:10Z",
+  "repo": "thai",
+  "tier": 2,
+  "url": "https://github.com/notofonts/thai/issues/27"
  },
  {
   "closedAt": null,

@@ -3,17 +3,18 @@
   "1": 146,
   "2": 79,
   "3": 95,
-  "4": 55,
+  "4": 54,
   "5": 50,
   "6": 89,
   "7": 66,
   "8": 18,
   "9": 57,
-  "10": 40
+  "10": 50,
+  "11": 13
  },
  "open_per_repo": {
   "ahom": 3,
-  "arabic": 2,
+  "arabic": 4,
   "armenian": 1,
   "balinese": 4,
   "bamum": 1,
@@ -35,7 +36,6 @@
   "georgian": 1,
   "glagolitic": 1,
   "gujarati": 7,
-  "gunjala-gondi": 1,
   "gurmukhi": 5,
   "hanunoo": 1,
   "hebrew": 7,
@@ -46,7 +46,7 @@
   "kharoshthi": 1,
   "khojki": 1,
   "khudawadi": 1,
-  "latin-greek-cyrillic": 111,
+  "latin-greek-cyrillic": 112,
   "lydian": 1,
   "malayalam": 8,
   "manichaean": 3,
@@ -54,19 +54,18 @@
   "meetei-mayek": 1,
   "miao": 1,
   "modi": 5,
-  "mongolian": 11,
+  "mongolian": 1,
   "multani": 1,
   "music": 1,
   "myanmar": 32,
   "nandinagari": 3,
-  "nastaliq": 9,
+  "nastaliq": 10,
   "nko": 1,
   "old-hungarian": 6,
   "old-hungarian-ui": 1,
   "old-italic": 1,
   "old-turkic": 2,
-  "old-uyghur": 3,
-  "oriya": 7,
+  "oriya": 1,
   "pahawh-hmong": 1,
   "rejang": 1,
   "saurashtra": 1,
@@ -87,29 +86,30 @@
   "tangsa": 1,
   "tangut": 1,
   "telugu": 4,
-  "thai": 1,
+  "thai": 3,
   "tibetan": 4,
   "tifinagh": 2,
   "tirhuta": 10
  },
  "open_per_tier": {
-  "1": 183,
-  "2": 38,
-  "3": 87,
+  "1": 181,
+  "2": 40,
+  "3": 76,
   "4": 50,
-  "5": 31
+  "5": 28
  },
  "opened_per_month": {
   "1": 20,
   "2": 19,
   "3": 34,
-  "4": 48,
+  "4": 47,
   "5": 19,
   "6": 43,
   "7": 26,
   "8": 14,
   "9": 32,
-  "10": 34
+  "10": 38,
+  "11": 11
  },
  "releases_per_month": {
   "1": [
@@ -638,12 +638,26 @@
     "url": "https://github.com/notofonts/arabic/releases/tag/NotoKufiArabic-v2.108"
    },
    {
+    "tag": "NotoSerifGujarati-v2.106",
+    "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSerifGujarati-v2.106"
+   },
+   {
+    "tag": "NotoSansGujarati-v2.106",
+    "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSansGujarati-v2.106"
+   },
+   {
     "tag": "NotoNastaliqUrdu-v3.009",
     "url": "https://github.com/notofonts/nastaliq/releases/tag/NotoNastaliqUrdu-v3.009"
    },
    {
     "tag": "NotoSansSymbols2-v2.008",
     "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols2-v2.008"
+   }
+  ],
+  "11": [
+   {
+    "tag": "NotoSansMongolian-v3.000",
+    "url": "https://github.com/notofonts/mongolian/releases/tag/NotoSansMongolian-v3.000"
    }
   ]
  },
@@ -657,6 +671,7 @@
   "7": 472,
   "8": 427,
   "9": 420,
-  "10": 395
+  "10": 395,
+  "11": 377
  }
 }
