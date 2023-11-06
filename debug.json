@@ -635,8 +635,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 5,
   "issues": [
+   {
+    "number": 222,
+    "title": "Naskh: Fix footnotemarker-ar interpolation compatibility issue",
+    "url": "https://github.com/notofonts/arabic/pull/222"
+   },
    {
     "number": 217,
     "title": "Noto Sans Arabic v2.011: numerals on subtending marks are too light in weight",
