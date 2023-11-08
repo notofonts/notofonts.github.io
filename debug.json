@@ -613,10 +613,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Arabic v2.011\n\nThis release:\n\n* Brings codepoint support up to Unicode 14\n* Includes extensive re-engineering to fix bugs (particularly in minority languages), reduce glyphset size, and increase consistency with other Noto Arabic families\n",
-     "published": "2023-10-13T09:26:06+00:00",
-     "url": "https://github.com/notofonts/arabic/releases/tag/NotoSansArabic-v2.011",
-     "version": "v2.011"
+     "notes": "Noto Sans Arabic v2.012\n\nThis release:\n\n* Fixes the shape of U+FEE9 (#206)\n* Improves the positioning of the dots in TCHEHEH FINAL FORM (#208)\n* Improves the positioning of marks on ZAIN WITH INVERTED V ABOVE (#209)\n* Improves the positioning of the bar on REH WITH STROKE (#210)\n* Fixes the position of marks on KAF/GAF (#213, #214, #218)\n* Improves the positioning of marks on TAH (#215)\n* Restores kerning which had gone missing (#216)\n* Corrects the dots under GUEH (#219)\n* Fixes the vertical metrics (#221)\n",
+     "published": "2023-11-07T09:43:46+00:00",
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoSansArabic-v2.012",
+     "version": "v2.012"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -5073,10 +5073,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Glagolitic v2.003\n\nThis release:\n\n* Adds a dotted circle (#2)\n* Rationalizes height/anchors of titlos and macrons (#4)\n* Restores some more missing anchors (#5)\n",
-     "published": "2023-09-25T11:46:46",
-     "url": "https://github.com/notofonts/glagolitic/releases/tag/NotoSansGlagolitic-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Glagolitic v2.004\n\nThis release fixes a problem with the anchoring of glyphs to the dotted circle.\n",
+     "published": "2023-11-07T13:24:34+00:00",
+     "url": "https://github.com/notofonts/glagolitic/releases/tag/NotoSansGlagolitic-v2.004",
+     "version": "v2.004"
     },
     "third_party_versions": {
      "Android 12": {
@@ -13094,10 +13094,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Mongolian v3.000\n\nThis release is a completely re-engineered font, bringing the shaping behaviour into compliance with the draft UTN for Mongolian shaping by Kushim Jiang.\n",
-     "published": "2023-11-04T17:05:28+00:00",
-     "url": "https://github.com/notofonts/mongolian/releases/tag/NotoSansMongolian-v3.000",
-     "version": "v3.000"
+     "notes": "Noto Sans Mongolian 3.001\n\nThis release upgrades the embedded Latin subset in full builds to GF Latin Core.\n",
+     "published": "2023-11-07T08:59:56+00:00",
+     "url": "https://github.com/notofonts/mongolian/releases/tag/NotoSansMongolian-v3.001",
+     "version": "v3.001"
     },
     "third_party_versions": {
      "Android 12": {
