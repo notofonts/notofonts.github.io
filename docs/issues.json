@@ -656,6 +656,18 @@
   ],
   "11": [
    {
+    "tag": "NotoSansArabic-v2.012",
+    "url": "https://github.com/notofonts/arabic/releases/tag/NotoSansArabic-v2.012"
+   },
+   {
+    "tag": "NotoSansGlagolitic-v2.004",
+    "url": "https://github.com/notofonts/glagolitic/releases/tag/NotoSansGlagolitic-v2.004"
+   },
+   {
+    "tag": "NotoSansMongolian-v3.001",
+    "url": "https://github.com/notofonts/mongolian/releases/tag/NotoSansMongolian-v3.001"
+   },
+   {
     "tag": "NotoSansMongolian-v3.000",
     "url": "https://github.com/notofonts/mongolian/releases/tag/NotoSansMongolian-v3.000"
    }
