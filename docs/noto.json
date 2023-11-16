@@ -11585,6 +11585,11 @@
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
+    "number": 61,
+    "title": "Issue with Nastaliq Font in Android",
+    "url": "https://github.com/notofonts/nastaliq/issues/61"
+   },
+   {
     "number": 60,
     "title": "Add support for Uyghur language.",
     "url": "https://github.com/notofonts/nastaliq/issues/60"
