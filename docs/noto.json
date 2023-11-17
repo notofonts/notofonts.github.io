@@ -2881,11 +2881,6 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
-    "number": 38,
-    "title": "Noto Serif Devanagari, several improvements as below",
-    "url": "https://github.com/notofonts/devanagari/pull/38"
-   },
-   {
     "number": 36,
     "title": "Updated the position of Devanagari Nukta for the Santali language",
     "url": "https://github.com/notofonts/devanagari/issues/36"
