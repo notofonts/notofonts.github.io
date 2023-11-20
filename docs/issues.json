@@ -59,7 +59,7 @@
   "music": 1,
   "myanmar": 32,
   "nandinagari": 3,
-  "nastaliq": 10,
+  "nastaliq": 11,
   "nko": 1,
   "old-hungarian": 6,
   "old-hungarian-ui": 1,
@@ -92,7 +92,7 @@
   "tirhuta": 10
  },
  "open_per_tier": {
-  "1": 181,
+  "1": 182,
   "2": 40,
   "3": 76,
   "4": 50,
@@ -109,7 +109,7 @@
   "8": 14,
   "9": 32,
   "10": 38,
-  "11": 11
+  "11": 12
  },
  "releases_per_month": {
   "1": [
