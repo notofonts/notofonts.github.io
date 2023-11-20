@@ -10747,6 +10747,11 @@
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
    {
+    "number": 35,
+    "title": "Merge original design, fix OTL",
+    "url": "https://github.com/notofonts/mongolian/pull/35"
+   },
+   {
     "number": 32,
     "title": "Weights?",
     "url": "https://github.com/notofonts/mongolian/issues/32"
