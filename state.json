@@ -185,41 +185,41 @@
    },
    "Noto Naskh Arabic": {
     "files": [
-     "fonts/NotoNaskhArabic/googlefonts/variable/NotoNaskhArabic[wght].ttf",
-     "fonts/NotoNaskhArabic/googlefonts/ttf/NotoNaskhArabic-Bold.ttf",
-     "fonts/NotoNaskhArabic/googlefonts/ttf/NotoNaskhArabic-Regular.ttf",
-     "fonts/NotoNaskhArabic/googlefonts/ttf/NotoNaskhArabic-SemiBold.ttf",
-     "fonts/NotoNaskhArabic/googlefonts/ttf/NotoNaskhArabic-Medium.ttf",
-     "fonts/NotoNaskhArabic/full/variable/NotoNaskhArabic[wght].ttf",
-     "fonts/NotoNaskhArabic/full/otf/NotoNaskhArabic-Regular.otf",
-     "fonts/NotoNaskhArabic/full/otf/NotoNaskhArabic-Medium.otf",
-     "fonts/NotoNaskhArabic/full/otf/NotoNaskhArabic-Bold.otf",
-     "fonts/NotoNaskhArabic/full/otf/NotoNaskhArabic-SemiBold.otf",
-     "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-Bold.ttf",
-     "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-Regular.ttf",
-     "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-SemiBold.ttf",
-     "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-Medium.ttf",
-     "fonts/NotoNaskhArabic/full/slim-variable-ttf/NotoNaskhArabic[wght].ttf",
+     "fonts/NotoNaskhArabic/unhinted/slim-variable-ttf/NotoNaskhArabic[wght].ttf",
      "fonts/NotoNaskhArabic/unhinted/variable/NotoNaskhArabic[wght].ttf",
-     "fonts/NotoNaskhArabic/unhinted/otf/NotoNaskhArabic-Regular.otf",
      "fonts/NotoNaskhArabic/unhinted/otf/NotoNaskhArabic-Medium.otf",
-     "fonts/NotoNaskhArabic/unhinted/otf/NotoNaskhArabic-Bold.otf",
+     "fonts/NotoNaskhArabic/unhinted/otf/NotoNaskhArabic-Regular.otf",
      "fonts/NotoNaskhArabic/unhinted/otf/NotoNaskhArabic-SemiBold.otf",
+     "fonts/NotoNaskhArabic/unhinted/otf/NotoNaskhArabic-Bold.otf",
+     "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-Medium.ttf",
      "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-Bold.ttf",
      "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-Regular.ttf",
      "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-SemiBold.ttf",
-     "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-Medium.ttf",
-     "fonts/NotoNaskhArabic/unhinted/slim-variable-ttf/NotoNaskhArabic[wght].ttf",
+     "fonts/NotoNaskhArabic/googlefonts/variable/NotoNaskhArabic[wght].ttf",
+     "fonts/NotoNaskhArabic/googlefonts/ttf/NotoNaskhArabic-Medium.ttf",
+     "fonts/NotoNaskhArabic/googlefonts/ttf/NotoNaskhArabic-Bold.ttf",
+     "fonts/NotoNaskhArabic/googlefonts/ttf/NotoNaskhArabic-Regular.ttf",
+     "fonts/NotoNaskhArabic/googlefonts/ttf/NotoNaskhArabic-SemiBold.ttf",
+     "fonts/NotoNaskhArabic/hinted/ttf/NotoNaskhArabic-Medium.ttf",
      "fonts/NotoNaskhArabic/hinted/ttf/NotoNaskhArabic-Bold.ttf",
      "fonts/NotoNaskhArabic/hinted/ttf/NotoNaskhArabic-Regular.ttf",
      "fonts/NotoNaskhArabic/hinted/ttf/NotoNaskhArabic-SemiBold.ttf",
-     "fonts/NotoNaskhArabic/hinted/ttf/NotoNaskhArabic-Medium.ttf"
+     "fonts/NotoNaskhArabic/full/slim-variable-ttf/NotoNaskhArabic[wght].ttf",
+     "fonts/NotoNaskhArabic/full/variable/NotoNaskhArabic[wght].ttf",
+     "fonts/NotoNaskhArabic/full/otf/NotoNaskhArabic-Medium.otf",
+     "fonts/NotoNaskhArabic/full/otf/NotoNaskhArabic-Regular.otf",
+     "fonts/NotoNaskhArabic/full/otf/NotoNaskhArabic-SemiBold.otf",
+     "fonts/NotoNaskhArabic/full/otf/NotoNaskhArabic-Bold.otf",
+     "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-Medium.ttf",
+     "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-Bold.ttf",
+     "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-Regular.ttf",
+     "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-SemiBold.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Naskh Arabic v2.017\n\nThis release:\n\n* Brings codepoint support up to Unicode 14\n* Includes extensive re-engineering to fix bugs (particularly in minority languages), reduce glyphset size, and increase consistency with other Noto Arabic families\n",
-     "published": "2023-10-13T09:17:01+00:00",
-     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.017",
-     "version": "v2.017"
+     "notes": "Noto Naskh Arabic v2.018\n\nThis release:\n\n* Fixes an interpolation issue with the footnote marker\n* Updates the OS/2 usWinAscent vertical metrics\n* Fixes U+FB96 dots\n* Fixes U+FEE9 shape\n\n(All changes thanks to Khaled Hosny)\n",
+     "published": "2023-11-22T14:05:21+00:00",
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.018",
+     "version": "v2.018"
     }
    },
    "Noto Naskh Arabic UI": {
@@ -475,7 +475,8 @@
    "NotoNaskhArabic-v2.017",
    "NotoSansArabic-v2.011",
    "NotoKufiArabic-v2.108",
-   "NotoSansArabic-v2.012"
+   "NotoSansArabic-v2.012",
+   "NotoNaskhArabic-v2.018"
   ]
  },
  "armenian": {

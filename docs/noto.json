@@ -245,10 +245,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Naskh Arabic v2.017\n\nThis release:\n\n* Brings codepoint support up to Unicode 14\n* Includes extensive re-engineering to fix bugs (particularly in minority languages), reduce glyphset size, and increase consistency with other Noto Arabic families\n",
-     "published": "2023-10-13T09:17:01+00:00",
-     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.017",
-     "version": "v2.017"
+     "notes": "Noto Naskh Arabic v2.018\n\nThis release:\n\n* Fixes an interpolation issue with the footnote marker\n* Updates the OS/2 usWinAscent vertical metrics\n* Fixes U+FB96 dots\n* Fixes U+FEE9 shape\n\n(All changes thanks to Khaled Hosny)\n",
+     "published": "2023-11-22T14:05:21+00:00",
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.018",
+     "version": "v2.018"
     }
    },
    "Noto Naskh Arabic UI": {
@@ -10746,11 +10746,6 @@
   },
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
-   {
-    "number": 35,
-    "title": "Merge original design, fix OTL",
-    "url": "https://github.com/notofonts/mongolian/pull/35"
-   },
    {
     "number": 32,
     "title": "Weights?",
