@@ -635,8 +635,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 5,
   "issues": [
+   {
+    "number": 223,
+    "title": "Does Noto Sans Arabic support English?",
+    "url": "https://github.com/notofonts/arabic/issues/223"
+   },
    {
     "number": 217,
     "title": "Noto Sans Arabic v2.011: numerals on subtending marks are too light in weight",
@@ -1937,8 +1942,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/bengali",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 6,
   "issues": [
+   {
+    "number": 23,
+    "title": "Interpolation problems in `NotoSerifBengali[wdth,wght].ttf`",
+    "url": "https://github.com/notofonts/bengali/issues/23"
+   },
    {
     "number": 22,
     "title": "UI font has regressions",
@@ -4593,8 +4603,14 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/ethiopic",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 13,
+    "title": "Interpolation problems in `NotoSansEthiopic[wdth,wght].ttf`",
+    "url": "https://github.com/notofonts/ethiopic/issues/13"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/ethiopic",
   "tier": 2,
   "title": "Noto Ethiopic"
@@ -13751,7 +13767,7 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/myanmar",
   "has_releases": true,
-  "issue_count": 32,
+  "issue_count": 31,
   "issues": [
    {
     "number": 62,
@@ -13837,11 +13853,6 @@
     "number": 11,
     "title": "Wrong form of U+103F MYANMAR LETTER GREAT SA in Mon",
     "url": "https://github.com/notofonts/myanmar/issues/11"
-   },
-   {
-    "number": 10,
-    "title": "U+1068 MYANMAR VOWEL SIGN WESTERN PWO KAREN UE is combining",
-    "url": "https://github.com/notofonts/myanmar/issues/10"
    },
    {
     "number": 9,
