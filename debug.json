@@ -638,9 +638,9 @@
   "issue_count": 5,
   "issues": [
    {
-    "number": 223,
-    "title": "Does Noto Sans Arabic support English?",
-    "url": "https://github.com/notofonts/arabic/issues/223"
+    "number": 224,
+    "title": "Add anchor to space and thinspace glyphs",
+    "url": "https://github.com/notofonts/arabic/pull/224"
    },
    {
     "number": 217,
