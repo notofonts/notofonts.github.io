@@ -10,7 +10,7 @@
   "8": 18,
   "9": 57,
   "10": 50,
-  "11": 13
+  "11": 38
  },
  "open_per_repo": {
   "ahom": 3,
@@ -19,7 +19,7 @@
   "balinese": 4,
   "bamum": 1,
   "batak": 4,
-  "bengali": 5,
+  "bengali": 6,
   "bhaiksuki": 5,
   "brahmi": 1,
   "canadian-aboriginal": 1,
@@ -33,6 +33,7 @@
   "duployan": 1,
   "egyptian-hieroglyphs": 7,
   "elbasan": 1,
+  "ethiopic": 1,
   "georgian": 1,
   "glagolitic": 1,
   "gujarati": 7,
@@ -46,7 +47,7 @@
   "kharoshthi": 1,
   "khojki": 1,
   "khudawadi": 1,
-  "latin-greek-cyrillic": 112,
+  "latin-greek-cyrillic": 113,
   "lydian": 1,
   "malayalam": 8,
   "manichaean": 3,
@@ -57,9 +58,9 @@
   "mongolian": 1,
   "multani": 1,
   "music": 1,
-  "myanmar": 32,
+  "myanmar": 31,
   "nandinagari": 3,
-  "nastaliq": 11,
+  "nastaliq": 7,
   "nko": 1,
   "old-hungarian": 6,
   "old-hungarian-ui": 1,
@@ -92,7 +93,7 @@
   "tirhuta": 10
  },
  "open_per_tier": {
-  "1": 182,
+  "1": 180,
   "2": 40,
   "3": 76,
   "4": 50,
@@ -109,7 +110,7 @@
   "8": 14,
   "9": 32,
   "10": 38,
-  "11": 12
+  "11": 35
  },
  "releases_per_month": {
   "1": [
@@ -655,6 +656,10 @@
    }
   ],
   "11": [
+   {
+    "tag": "NotoNaskhArabic-v2.018",
+    "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.018"
+   },
    {
     "tag": "NotoSansArabic-v2.012",
     "url": "https://github.com/notofonts/arabic/releases/tag/NotoSansArabic-v2.012"
