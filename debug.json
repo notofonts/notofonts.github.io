@@ -14150,8 +14150,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 8,
   "issues": [
+   {
+    "number": 63,
+    "title": "Collision between U+0650 ARABIC KASRA ARABIC KASRAH(\u25cc\u0650) and U+0628 ARABIC LETTER BEH(\u0628)",
+    "url": "https://github.com/notofonts/nastaliq/issues/63"
+   },
    {
     "number": 51,
     "title": "Shape of U+066B ARABIC DECIMAL SEPARATOR",
@@ -17551,8 +17556,18 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/symbols",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 11,
   "issues": [
+   {
+    "number": 81,
+    "title": "U+1D377 \"\ud834\udf77\" TALLY MARK ONE is spaced improperly",
+    "url": "https://github.com/notofonts/symbols/issues/81"
+   },
+   {
+    "number": 80,
+    "title": "U+2FFC-2FFF, U+31EF: Five additional \"Ideographic description characters\", newly assigned in Unicode 15.1.0 (September, 2023)",
+    "url": "https://github.com/notofonts/symbols/issues/80"
+   },
    {
     "number": 75,
     "title": "Alchemical symbols change in Unicode 15.1",
