@@ -10645,17 +10645,12 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 113,
+  "issue_count": 111,
   "issues": [
    {
     "number": 454,
     "title": "Combining Dot Below (U+0323) with Greek",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/454"
-   },
-   {
-    "number": 450,
-    "title": "OpenType features do not work in Adobe programs",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/450"
    },
    {
     "number": 449,
@@ -10666,11 +10661,6 @@
     "number": 446,
     "title": "Design inconsistency in Cyrillic",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/446"
-   },
-   {
-    "number": 440,
-    "title": "Roman Numerals?",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/440"
    },
    {
     "number": 434,

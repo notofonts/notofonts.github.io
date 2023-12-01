@@ -8863,11 +8863,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/454"
    },
    {
-    "number": 450,
-    "title": "OpenType features do not work in Adobe programs",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/450"
-   },
-   {
     "number": 449,
     "title": "Noto Sans renders \"not equal to\" glyph (\u2260) incorrectly",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/449"
@@ -8876,11 +8871,6 @@
     "number": 446,
     "title": "Design inconsistency in Cyrillic",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/446"
-   },
-   {
-    "number": 440,
-    "title": "Roman Numerals?",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/440"
    },
    {
     "number": 434,
