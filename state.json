@@ -1897,24 +1897,25 @@
   "families": {
    "Noto Sans Chorasmian": {
     "files": [
-     "fonts/NotoSansChorasmian/unhinted/ttf/NotoSansChorasmian-Regular.ttf",
      "fonts/NotoSansChorasmian/unhinted/otf/NotoSansChorasmian-Regular.otf",
-     "fonts/NotoSansChorasmian/full/ttf/NotoSansChorasmian-Regular.ttf",
-     "fonts/NotoSansChorasmian/full/otf/NotoSansChorasmian-Regular.otf",
+     "fonts/NotoSansChorasmian/unhinted/ttf/NotoSansChorasmian-Regular.ttf",
+     "fonts/NotoSansChorasmian/googlefonts/ttf/NotoSansChorasmian-Regular.ttf",
      "fonts/NotoSansChorasmian/hinted/ttf/NotoSansChorasmian-Regular.ttf",
-     "fonts/NotoSansChorasmian/googlefonts/ttf/NotoSansChorasmian-Regular.ttf"
+     "fonts/NotoSansChorasmian/full/otf/NotoSansChorasmian-Regular.otf",
+     "fonts/NotoSansChorasmian/full/ttf/NotoSansChorasmian-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Chorasmian v1.003\n\nThis release:\n\n* Improves cursive joining (#2)\n* Improves the character variation of isolated glyphs (#1)\n",
-     "published": "2023-09-25T10:33:22",
-     "url": "https://github.com/notofonts/chorasmian/releases/tag/NotoSansChorasmian-v1.003",
-     "version": "v1.003"
+     "notes": "Noto Sans Chorasmian v1.004\n\nThis release:\n\n* Fixes the joining behaviour of aleph (#3, #5, #8)\n* Improves the spacing between various pairs (#3, #4)\n* Makes positional substitutions required, not optional (#6)\n* Removes a ligature between the digits FOUR and THREE (#7)\n",
+     "published": "2023-12-01T13:17:29+00:00",
+     "url": "https://github.com/notofonts/chorasmian/releases/tag/NotoSansChorasmian-v1.004",
+     "version": "v1.004"
     }
    }
   },
   "known_releases": [
    "NotoSansChorasmian-v1.002",
-   "NotoSansChorasmian-v1.003"
+   "NotoSansChorasmian-v1.003",
+   "NotoSansChorasmian-v1.004"
   ]
  },
  "coptic": {
@@ -10737,23 +10738,24 @@
   "families": {
    "Noto Sans Phags Pa": {
     "files": [
-     "fonts/NotoSansPhagsPa/full/ttf/NotoSansPhags-Pa-Regular.ttf",
-     "fonts/NotoSansPhagsPa/full/otf/NotoSansPhags-Pa-Regular.otf",
-     "fonts/NotoSansPhagsPa/googlefonts/ttf/NotoSansPhags-Pa-Regular.ttf",
-     "fonts/NotoSansPhagsPa/unhinted/ttf/NotoSansPhags-Pa-Regular.ttf",
-     "fonts/NotoSansPhagsPa/unhinted/otf/NotoSansPhags-Pa-Regular.otf",
-     "fonts/NotoSansPhagsPa/hinted/ttf/NotoSansPhags-Pa-Regular.ttf"
+     "fonts/NotoSansPhagsPa/unhinted/otf/NotoSansPhagsPa-Regular.otf",
+     "fonts/NotoSansPhagsPa/unhinted/ttf/NotoSansPhagsPa-Regular.ttf",
+     "fonts/NotoSansPhagsPa/googlefonts/ttf/NotoSansPhagsPa-Regular.ttf",
+     "fonts/NotoSansPhagsPa/hinted/ttf/NotoSansPhagsPa-Regular.ttf",
+     "fonts/NotoSansPhagsPa/full/otf/NotoSansPhagsPa-Regular.otf",
+     "fonts/NotoSansPhagsPa/full/ttf/NotoSansPhagsPa-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Phags Pa v2.003 This release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-24T14:03:36",
-     "url": "https://github.com/notofonts/phags-pa/releases/tag/NotoSansPhagsPa-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Phags-Pa v2.004\n\nThis version fixes a number of issues (#8, #9) with transitive mirroring.\n",
+     "published": "2023-12-01T09:51:20+00:00",
+     "url": "https://github.com/notofonts/phags-pa/releases/tag/NotoSansPhagsPa-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "known_releases": [
-   "NotoSansPhagsPa-v2.003"
+   "NotoSansPhagsPa-v2.003",
+   "NotoSansPhagsPa-v2.004"
   ]
  },
  "phoenician": {

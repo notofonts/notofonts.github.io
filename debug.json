@@ -2737,10 +2737,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Chorasmian v1.003\n\nThis release:\n\n* Improves cursive joining (#2)\n* Improves the character variation of isolated glyphs (#1)\n",
-     "published": "2023-09-25T10:33:22",
-     "url": "https://github.com/notofonts/chorasmian/releases/tag/NotoSansChorasmian-v1.003",
-     "version": "v1.003"
+     "notes": "Noto Sans Chorasmian v1.004\n\nThis release:\n\n* Fixes the joining behaviour of aleph (#3, #5, #8)\n* Improves the spacing between various pairs (#3, #4)\n* Makes positional substitutions required, not optional (#6)\n* Removes a ligature between the digits FOUR and THREE (#7)\n",
+     "published": "2023-12-01T13:17:29+00:00",
+     "url": "https://github.com/notofonts/chorasmian/releases/tag/NotoSansChorasmian-v1.004",
+     "version": "v1.004"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -2759,42 +2759,12 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/chorasmian",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 1,
   "issues": [
    {
     "number": 9,
     "title": "'cv01' and 'cv02' are incomplete",
     "url": "https://github.com/notofonts/chorasmian/issues/9"
-   },
-   {
-    "number": 8,
-    "title": "Aleph connects at the midpoint under the wrong circumstances",
-    "url": "https://github.com/notofonts/chorasmian/issues/8"
-   },
-   {
-    "number": 7,
-    "title": "<U+10FC8 FOUR, U+10FC7 THREE> should not be ligated",
-    "url": "https://github.com/notofonts/chorasmian/issues/7"
-   },
-   {
-    "number": 6,
-    "title": "'calt' should be 'rclt'",
-    "url": "https://github.com/notofonts/chorasmian/issues/6"
-   },
-   {
-    "number": 5,
-    "title": "Wrong final and isolated aleph glyphs",
-    "url": "https://github.com/notofonts/chorasmian/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Horizontal-tailed nun should be kerned with aleph",
-    "url": "https://github.com/notofonts/chorasmian/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Cursive joining has gaps",
-    "url": "https://github.com/notofonts/chorasmian/issues/3"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/chorasmian",
@@ -13051,8 +13021,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/modi",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 6,
   "issues": [
+   {
+    "number": 14,
+    "title": "go-re and go-ro only show one VOWEL SIGN E mark",
+    "url": "https://github.com/notofonts/modi/issues/14"
+   },
    {
     "number": 13,
     "title": "Anusvara obscured after -rd\u0101",
@@ -15780,22 +15755,22 @@
    "Noto Sans Phags Pa": {
     "files": {
      "full": [
-      "fonts/NotoSansPhagsPa/full/otf/NotoSansPhags-Pa-Regular.otf",
-      "fonts/NotoSansPhagsPa/full/ttf/NotoSansPhags-Pa-Regular.ttf"
+      "fonts/NotoSansPhagsPa/full/otf/NotoSansPhagsPa-Regular.otf",
+      "fonts/NotoSansPhagsPa/full/ttf/NotoSansPhagsPa-Regular.ttf"
      ],
      "hinted": [
-      "fonts/NotoSansPhagsPa/hinted/ttf/NotoSansPhags-Pa-Regular.ttf"
+      "fonts/NotoSansPhagsPa/hinted/ttf/NotoSansPhagsPa-Regular.ttf"
      ],
      "unhinted": [
-      "fonts/NotoSansPhagsPa/unhinted/otf/NotoSansPhags-Pa-Regular.otf",
-      "fonts/NotoSansPhagsPa/unhinted/ttf/NotoSansPhags-Pa-Regular.ttf"
+      "fonts/NotoSansPhagsPa/unhinted/otf/NotoSansPhagsPa-Regular.otf",
+      "fonts/NotoSansPhagsPa/unhinted/ttf/NotoSansPhagsPa-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Phags Pa v2.003 This release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-24T14:03:36",
-     "url": "https://github.com/notofonts/phags-pa/releases/tag/NotoSansPhagsPa-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Phags-Pa v2.004\n\nThis version fixes a number of issues (#8, #9) with transitive mirroring.\n",
+     "published": "2023-12-01T09:51:20+00:00",
+     "url": "https://github.com/notofonts/phags-pa/releases/tag/NotoSansPhagsPa-v2.004",
+     "version": "v2.004"
     },
     "third_party_versions": {
      "Android 12": {
