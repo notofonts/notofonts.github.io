@@ -15804,8 +15804,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/phags-pa",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 9,
+    "title": "U+FE00 VARIATION SELECTOR-1 is ignored after a transitively mirrored glyph",
+    "url": "https://github.com/notofonts/phags-pa/issues/9"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/phags-pa",
   "tier": 4,
   "title": "Noto Phags Pa"
