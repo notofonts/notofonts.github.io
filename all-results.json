@@ -1036,42 +1036,42 @@
   "url": "https://github.com/notofonts/chorasmian/issues/2"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-12-01T13:10:14Z",
   "createdAt": "2023-09-25T20:15:23Z",
   "repo": "chorasmian",
   "tier": 5,
   "url": "https://github.com/notofonts/chorasmian/issues/3"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-12-01T11:55:32Z",
   "createdAt": "2023-09-25T20:29:25Z",
   "repo": "chorasmian",
   "tier": 5,
   "url": "https://github.com/notofonts/chorasmian/issues/4"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-12-01T11:55:33Z",
   "createdAt": "2023-09-25T22:38:58Z",
   "repo": "chorasmian",
   "tier": 5,
   "url": "https://github.com/notofonts/chorasmian/issues/5"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-12-01T11:59:52Z",
   "createdAt": "2023-09-25T22:53:27Z",
   "repo": "chorasmian",
   "tier": 5,
   "url": "https://github.com/notofonts/chorasmian/issues/6"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-12-01T11:59:53Z",
   "createdAt": "2023-09-25T23:10:07Z",
   "repo": "chorasmian",
   "tier": 5,
   "url": "https://github.com/notofonts/chorasmian/issues/7"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-12-01T11:55:32Z",
   "createdAt": "2023-09-27T13:12:22Z",
   "repo": "chorasmian",
   "tier": 5,
@@ -4648,7 +4648,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/439"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-11-30T12:41:05Z",
   "createdAt": "2023-08-21T18:54:31Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -4711,7 +4711,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/449"
  },
  {
-  "closedAt": null,
+  "closedAt": "2023-11-30T12:36:40Z",
   "createdAt": "2023-10-24T08:18:23Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -5269,6 +5269,13 @@
   "repo": "modi",
   "tier": 3,
   "url": "https://github.com/notofonts/modi/issues/13"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-12-01T05:08:44Z",
+  "repo": "modi",
+  "tier": 3,
+  "url": "https://github.com/notofonts/modi/issues/14"
  },
  {
   "closedAt": "2023-10-31T09:28:33Z",
@@ -6055,6 +6062,13 @@
   "url": "https://github.com/notofonts/nastaliq/issues/62"
  },
  {
+  "closedAt": null,
+  "createdAt": "2023-11-28T00:48:52Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/63"
+ },
+ {
   "closedAt": "2023-11-23T12:57:20Z",
   "createdAt": "2023-11-23T02:43:59Z",
   "repo": "new-tai-lue",
@@ -6515,6 +6529,13 @@
   "repo": "phags-pa",
   "tier": 4,
   "url": "https://github.com/notofonts/phags-pa/issues/8"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-12-03T01:18:19Z",
+  "repo": "phags-pa",
+  "tier": 4,
+  "url": "https://github.com/notofonts/phags-pa/issues/9"
  },
  {
   "closedAt": "2023-02-09T07:05:14Z",
@@ -7152,6 +7173,20 @@
   "repo": "symbols",
   "tier": 3,
   "url": "https://github.com/notofonts/symbols/issues/79"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-11-27T09:12:15Z",
+  "repo": "symbols",
+  "tier": 3,
+  "url": "https://github.com/notofonts/symbols/issues/80"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-11-27T09:59:35Z",
+  "repo": "symbols",
+  "tier": 3,
+  "url": "https://github.com/notofonts/symbols/issues/81"
  },
  {
   "closedAt": "2023-01-03T07:09:33Z",
