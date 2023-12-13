@@ -10615,8 +10615,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 111,
+  "issue_count": 112,
   "issues": [
+   {
+    "number": 455,
+    "title": "Less vertical slashed zero bar for Noto Sans Mono",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/455"
+   },
    {
     "number": 454,
     "title": "Combining Dot Below (U+0323) with Greek",
