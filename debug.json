@@ -17761,8 +17761,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/syriac",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 5,
   "issues": [
+   {
+    "number": 22,
+    "title": "[fonts.google.com user feedback] Dot and mark positioning",
+    "url": "https://github.com/notofonts/syriac/issues/22"
+   },
    {
     "number": 11,
     "title": "Malayalam Syriac is missing",

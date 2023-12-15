@@ -14103,6 +14103,11 @@
   "gh_url": "https://notofonts.github.io/syriac",
   "issues": [
    {
+    "number": 22,
+    "title": "[fonts.google.com user feedback] Dot and mark positioning",
+    "url": "https://github.com/notofonts/syriac/issues/22"
+   },
+   {
     "number": 11,
     "title": "Malayalam Syriac is missing",
     "url": "https://github.com/notofonts/syriac/issues/11"
