@@ -12016,6 +12016,11 @@
   "gh_url": "https://notofonts.github.io/old-hungarian-ui",
   "issues": [
    {
+    "number": 9,
+    "title": "Missing fonts in binary fonts [ttf,otf]",
+    "url": "https://github.com/notofonts/old-hungarian-ui/issues/9"
+   },
+   {
     "number": 1,
     "title": "building error on opensuse Tumbleweed",
     "url": "https://github.com/notofonts/old-hungarian-ui/issues/1"
