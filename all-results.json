@@ -4746,6 +4746,13 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/454"
  },
  {
+  "closedAt": null,
+  "createdAt": "2023-12-12T16:36:21Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/455"
+ },
+ {
   "closedAt": "2023-05-24T20:06:31Z",
   "createdAt": "2018-03-06T02:22:11Z",
   "repo": "limbu",
@@ -6287,6 +6294,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2023-12-16T12:16:21Z",
+  "repo": "old-hungarian-ui",
+  "tier": 4,
+  "url": "https://github.com/notofonts/old-hungarian-ui/issues/9"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2015-08-17T21:42:12Z",
   "repo": "old-italic",
   "tier": 5,
@@ -7285,6 +7299,13 @@
   "repo": "syriac",
   "tier": 3,
   "url": "https://github.com/notofonts/syriac/issues/21"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-12-14T19:51:58Z",
+  "repo": "syriac",
+  "tier": 3,
+  "url": "https://github.com/notofonts/syriac/issues/22"
  },
  {
   "closedAt": "2023-06-09T11:14:09Z",

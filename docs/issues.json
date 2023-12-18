@@ -48,7 +48,7 @@
   "kharoshthi": 1,
   "khojki": 1,
   "khudawadi": 1,
-  "latin-greek-cyrillic": 111,
+  "latin-greek-cyrillic": 112,
   "lydian": 1,
   "malayalam": 8,
   "manichaean": 3,
@@ -64,7 +64,7 @@
   "nastaliq": 8,
   "nko": 1,
   "old-hungarian": 6,
-  "old-hungarian-ui": 1,
+  "old-hungarian-ui": 2,
   "old-italic": 1,
   "old-turkic": 2,
   "oriya": 1,
@@ -80,7 +80,7 @@
   "sundanese": 1,
   "syloti-nagri": 5,
   "symbols": 11,
-  "syriac": 4,
+  "syriac": 5,
   "tagalog": 2,
   "tai-le": 1,
   "tai-tham": 1,
@@ -95,10 +95,10 @@
   "tirhuta": 10
  },
  "open_per_tier": {
-  "1": 179,
+  "1": 180,
   "2": 40,
-  "3": 79,
-  "4": 51,
+  "3": 80,
+  "4": 52,
   "5": 22
  },
  "opened_per_month": {
@@ -113,7 +113,7 @@
   "9": 32,
   "10": 38,
   "11": 38,
-  "12": 2
+  "12": 5
  },
  "releases_per_month": {
   "1": [
@@ -688,6 +688,10 @@
    {
     "tag": "NotoSansPhagsPa-v2.004",
     "url": "https://github.com/notofonts/phags-pa/releases/tag/NotoSansPhagsPa-v2.004"
+   },
+   {
+    "tag": "NotoZnamennyMusicalNotation-v1.003",
+    "url": "https://github.com/notofonts/znamenny/releases/tag/NotoZnamennyMusicalNotation-v1.003"
    }
   ]
  },
