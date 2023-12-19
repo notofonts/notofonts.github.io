@@ -14768,8 +14768,13 @@
   "families_count": 0,
   "gh_url": "https://notofonts.github.io/old-hungarian-ui",
   "has_releases": false,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 10,
+    "title": "Add ttf binary",
+    "url": "https://github.com/notofonts/old-hungarian-ui/pull/10"
+   },
    {
     "number": 9,
     "title": "Missing fonts in binary fonts [ttf,otf]",

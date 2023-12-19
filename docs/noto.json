@@ -12016,6 +12016,11 @@
   "gh_url": "https://notofonts.github.io/old-hungarian-ui",
   "issues": [
    {
+    "number": 10,
+    "title": "Add ttf binary",
+    "url": "https://github.com/notofonts/old-hungarian-ui/pull/10"
+   },
+   {
     "number": 9,
     "title": "Missing fonts in binary fonts [ttf,otf]",
     "url": "https://github.com/notofonts/old-hungarian-ui/issues/9"
