@@ -12016,14 +12016,9 @@
   "gh_url": "https://notofonts.github.io/old-hungarian-ui",
   "issues": [
    {
-    "number": 10,
-    "title": "Add ttf binary",
-    "url": "https://github.com/notofonts/old-hungarian-ui/pull/10"
-   },
-   {
-    "number": 9,
-    "title": "Missing fonts in binary fonts [ttf,otf]",
-    "url": "https://github.com/notofonts/old-hungarian-ui/issues/9"
+    "number": 11,
+    "title": "Deprecate this repo?",
+    "url": "https://github.com/notofonts/old-hungarian-ui/issues/11"
    },
    {
     "number": 1,
@@ -12656,6 +12651,11 @@
   },
   "gh_url": "https://notofonts.github.io/phags-pa",
   "issues": [
+   {
+    "number": 10,
+    "title": "Proof sheets on Homepage are 404",
+    "url": "https://github.com/notofonts/phags-pa/issues/10"
+   },
    {
     "number": 9,
     "title": "U+FE00 VARIATION SELECTOR-1 is ignored after a transitively mirrored glyph",
