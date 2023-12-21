@@ -12652,11 +12652,6 @@
   "gh_url": "https://notofonts.github.io/phags-pa",
   "issues": [
    {
-    "number": 10,
-    "title": "Proof sheets on Homepage are 404",
-    "url": "https://github.com/notofonts/phags-pa/issues/10"
-   },
-   {
     "number": 9,
     "title": "U+FE00 VARIATION SELECTOR-1 is ignored after a transitively mirrored glyph",
     "url": "https://github.com/notofonts/phags-pa/issues/9"
