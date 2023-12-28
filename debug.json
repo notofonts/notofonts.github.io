@@ -21143,14 +21143,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/toto",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 3,
-    "title": "TOTO LETTER WA (U+1E29C): incorrect dot below to be replaced by a breathy accent below",
-    "url": "https://github.com/notofonts/toto/issues/3"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/toto",
   "tier": 3,
   "title": "Noto Toto"
