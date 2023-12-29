@@ -17020,7 +17020,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/toto",
-  "issues": [],
+  "issues": [
+   {
+    "number": 4,
+    "title": "Lack of meta table, missing version update after fixing and closing bug #3 (and converting glyph data to the new format)..",
+    "url": "https://github.com/notofonts/toto/issues/4"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/toto",
   "tier": 3,
   "title": "Noto Toto"
