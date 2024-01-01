@@ -5240,8 +5240,24 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/grantha",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 3,
+  "issues": [
+   {
+    "number": 23,
+    "title": "No advance width for repha breaked out of a cluster",
+    "url": "https://github.com/notofonts/grantha/issues/23"
+   },
+   {
+    "number": 22,
+    "title": "Number of -ya in clusters indistinguishable",
+    "url": "https://github.com/notofonts/grantha/issues/22"
+   },
+   {
+    "number": 21,
+    "title": "No advance width for vocalic R",
+    "url": "https://github.com/notofonts/grantha/issues/21"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/grantha",
   "tier": 4,
   "title": "Noto Grantha"
