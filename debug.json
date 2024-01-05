@@ -635,8 +635,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 6,
   "issues": [
+   {
+    "number": 226,
+    "title": "Interpolation problems in `NotoNaskhArabic[wght].ttf`",
+    "url": "https://github.com/notofonts/arabic/issues/226"
+   },
    {
     "number": 224,
     "title": "Add anchor to space and thinspace glyphs",
@@ -5747,8 +5752,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/gujarati",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 8,
   "issues": [
+   {
+    "number": 34,
+    "title": "Interpolation problems in `NotoSerifGujarati[wght].ttf`",
+    "url": "https://github.com/notofonts/gujarati/issues/34"
+   },
    {
     "number": 29,
     "title": "Marks without anchor points overlap other glyphs",
@@ -8874,8 +8884,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/khojki",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 27,
+    "title": "Interpolation problems in `NotoSerifKhojki[wght].ttf`",
+    "url": "https://github.com/notofonts/khojki/issues/27"
+   },
    {
     "number": 21,
     "title": "U+1123E KHOJKI SIGN SUKUN is placed inconsistently in Noto Serif Khojki",
@@ -10631,8 +10646,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 112,
+  "issue_count": 113,
   "issues": [
+   {
+    "number": 456,
+    "title": "Interpolation problems in `NotoSerif-Italic[wdth,wght].ttf`",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/456"
+   },
    {
     "number": 455,
     "title": "Less vertical slashed zero bar for Noto Sans Mono",
@@ -12227,8 +12247,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/malayalam",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 9,
   "issues": [
+   {
+    "number": 25,
+    "title": "Interpolation problems in `NotoSansMalayalam[wdth,wght].ttf`",
+    "url": "https://github.com/notofonts/malayalam/issues/25"
+   },
    {
     "number": 24,
     "title": "Many marks overlap other glyphs",
@@ -17782,8 +17807,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/syriac",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 6,
   "issues": [
+   {
+    "number": 24,
+    "title": "Interpolation problems in `NotoSansSyriac[wght].ttf`",
+    "url": "https://github.com/notofonts/syriac/issues/24"
+   },
    {
     "number": 22,
     "title": "[fonts.google.com user feedback] Dot and mark positioning",
