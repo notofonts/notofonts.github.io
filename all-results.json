@@ -525,6 +525,13 @@
   "url": "https://github.com/notofonts/arabic/issues/223"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-01-04T15:19:28Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/226"
+ },
+ {
   "closedAt": "2023-09-25T08:47:47Z",
   "createdAt": "2019-11-20T23:51:15Z",
   "repo": "armenian",
@@ -1785,6 +1792,13 @@
   "url": "https://github.com/notofonts/gujarati/issues/33"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-01-04T15:19:26Z",
+  "repo": "gujarati",
+  "tier": 1,
+  "url": "https://github.com/notofonts/gujarati/issues/34"
+ },
+ {
   "closedAt": "2023-05-22T14:59:51Z",
   "createdAt": "2019-10-25T16:11:15Z",
   "repo": "gunjala-gondi",
@@ -2672,6 +2686,13 @@
   "repo": "khojki",
   "tier": 3,
   "url": "https://github.com/notofonts/khojki/issues/26"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-01-04T15:19:37Z",
+  "repo": "khojki",
+  "tier": 3,
+  "url": "https://github.com/notofonts/khojki/issues/27"
  },
  {
   "closedAt": "2023-01-03T12:35:21Z",
@@ -4774,6 +4795,13 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/455"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-01-04T15:19:01Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/456"
+ },
+ {
   "closedAt": "2023-05-24T20:06:31Z",
   "createdAt": "2018-03-06T02:22:11Z",
   "repo": "limbu",
@@ -4905,6 +4933,13 @@
   "repo": "malayalam",
   "tier": 1,
   "url": "https://github.com/notofonts/malayalam/issues/24"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-01-04T15:19:17Z",
+  "repo": "malayalam",
+  "tier": 1,
+  "url": "https://github.com/notofonts/malayalam/issues/25"
  },
  {
   "closedAt": "2023-06-28T10:29:41Z",
@@ -7341,6 +7376,13 @@
   "repo": "syriac",
   "tier": 3,
   "url": "https://github.com/notofonts/syriac/issues/22"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-01-04T15:19:45Z",
+  "repo": "syriac",
+  "tier": 3,
+  "url": "https://github.com/notofonts/syriac/issues/24"
  },
  {
   "closedAt": "2023-06-09T11:14:09Z",
