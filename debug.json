@@ -5245,7 +5245,7 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/grantha",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 2,
   "issues": [
    {
     "number": 23,
@@ -5256,11 +5256,6 @@
     "number": 22,
     "title": "Number of -ya in clusters indistinguishable",
     "url": "https://github.com/notofonts/grantha/issues/22"
-   },
-   {
-    "number": 21,
-    "title": "No advance width for vocalic R",
-    "url": "https://github.com/notofonts/grantha/issues/21"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/grantha",
@@ -21189,14 +21184,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/toto",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 4,
-    "title": "Lack of meta table, missing version update after fixing and closing bug #3 (and converting glyph data to the new format)..",
-    "url": "https://github.com/notofonts/toto/issues/4"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/toto",
   "tier": 3,
   "title": "Noto Toto"
