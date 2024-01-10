@@ -4,7 +4,7 @@
     "_a_note_to_the_reader": "A tier does not designate how important we think a particular script is; all scripts are important. Tiers only exist because we need to split the Noto project up into manageable chunks when e.g. providing updates to distributors or reporting progress. They're used for planning more than prioritizing."
   },
   "ahom": {
-    "tier": 4
+    "tier": 3
   },
   "anatolian-hieroglyphs": {
     "tier": 5
