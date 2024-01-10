@@ -2,12 +2,13 @@ import json
 import os
 from fontTools.ttLib import TTFont
 from fontTools.merge import Merger, Options
+from gftools.fix import rename_font
 
 tiers = json.load(open('../fontrepos.json'))
 state = json.load(open('../state.json'))
 warnings = []
 
-def megamerge(final_target, base_font, tier_predicate, banned, modulation):
+def megamerge(newname, base_font, tier_predicate, banned, modulation):
     glyph_count = len(TTFont(base_font).getGlyphOrder())
     selected_repos = [k for k, v in tiers.items() if tier_predicate(v.get("tier", 4))]
     selected_repos = [k for k in selected_repos if k not in banned]
@@ -38,7 +39,7 @@ def megamerge(final_target, base_font, tier_predicate, banned, modulation):
         target_font = TTFont("../"+target)
         glyph_count += len(target_font.getGlyphOrder())
         if glyph_count > 65535:
-            warnings.append(f"Too many glyphs while building {final_target}, stopped at {repo}")
+            warnings.append(f"Too many glyphs while building {newname}, stopped at {repo}")
             break
         mergelist.append("../"+target)
     print("Merging: ")
@@ -46,20 +47,21 @@ def megamerge(final_target, base_font, tier_predicate, banned, modulation):
         print("  "+os.path.basename(x))
     merger = Merger(options=Options(drop_tables=["vmtx", "vhea", "MATH"]))
     merged = merger.merge(mergelist)
-    merged.save(final_target)
+    rename_font(merged, newname)
+    merged.save(newname.replace(" ","")+"-Regular.ttf")
 
 
 for modulation in ["Sans", "Serif"]:
     banned = ["duployan", "latin-greek-cyrillic", "sign-writing", "test"]
     if modulation == "sans":
         banned.append("devanagari")  # Already included
-    megamerge(f"Noto{modulation}Living-Regular.ttf", 
+    megamerge(f"Noto {modulation} Living", 
             base_font=f"../fonts/Noto{modulation}/googlefonts/ttf/Noto{modulation}-Regular.ttf",
             tier_predicate= lambda x: x <= 3,
             banned=banned,
             modulation=modulation,
             )
-    megamerge(f"Noto{modulation}Historical-Regular.ttf", 
+    megamerge(f"Noto {modulation} Historical", 
             base_font=f"../fonts/Noto{modulation}/googlefonts/ttf/Noto{modulation}-Regular.ttf",
             tier_predicate= lambda x: x > 3,
             banned=banned,
