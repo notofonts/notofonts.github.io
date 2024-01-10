@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-3.1.0">
+<indexdiv><title>B</title>
+<indexentry><primaryie linkends="hb-buffer-get-not-found-glyph"><link linkend="hb-buffer-get-not-found-glyph">hb_buffer_get_not_found_glyph</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-set-not-found-glyph"><link linkend="hb-buffer-set-not-found-glyph">hb_buffer_set_not_found_glyph</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

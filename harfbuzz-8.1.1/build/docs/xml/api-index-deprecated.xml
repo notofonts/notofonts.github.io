@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-deprecated">
+<indexdiv><title>B</title>
+<indexentry><primaryie linkends="HB-BUFFER-FLAGS-DEFAULT:CAPS"><link linkend="HB-BUFFER-FLAGS-DEFAULT:CAPS">HB_BUFFER_FLAGS_DEFAULT</link>, macro in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HB-BUFFER-SERIALIZE-FLAGS-DEFAULT:CAPS"><link linkend="HB-BUFFER-SERIALIZE-FLAGS-DEFAULT:CAPS">HB_BUFFER_SERIALIZE_FLAGS_DEFAULT</link>, macro in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="hb-font-funcs-set-glyph-func"><link linkend="hb-font-funcs-set-glyph-func">hb_font_funcs_set_glyph_func</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-set-glyph-shape-func"><link linkend="hb-font-funcs-set-glyph-shape-func">hb_font_funcs_set_glyph_shape_func</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-set-glyph-v-kerning-func"><link linkend="hb-font-funcs-set-glyph-v-kerning-func">hb_font_funcs_set_glyph_v_kerning_func</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-func-t"><link linkend="hb-font-get-glyph-func-t">hb_font_get_glyph_func_t</link>, user_function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-shape"><link linkend="hb-font-get-glyph-shape">hb_font_get_glyph_shape</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-shape-func-t"><link linkend="hb-font-get-glyph-shape-func-t">hb_font_get_glyph_shape_func_t</link>, user_function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-v-kerning"><link linkend="hb-font-get-glyph-v-kerning">hb_font_get_glyph_v_kerning</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-v-kerning-func-t"><link linkend="hb-font-get-glyph-v-kerning-func-t">hb_font_get_glyph_v_kerning_func_t</link>, typedef in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>G</title>
+<indexentry><primaryie linkends="hb-graphite2-font-get-gr-font"><link linkend="hb-graphite2-font-get-gr-font">hb_graphite2_font_get_gr_font</link>, function in <link linkend="harfbuzz-hb-graphite2">hb-graphite2</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>M</title>
+<indexentry><primaryie linkends="HB-MATH-GLYPH-PART-FLAG-EXTENDER:CAPS"><link linkend="HB-MATH-GLYPH-PART-FLAG-EXTENDER:CAPS">HB_MATH_GLYPH_PART_FLAG_EXTENDER</link>, macro in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>O</title>
+<indexentry><primaryie linkends="hb-ot-layout-script-find-language"><link linkend="hb-ot-layout-script-find-language">hb_ot_layout_script_find_language</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-layout-table-choose-script"><link linkend="hb-ot-layout-table-choose-script">hb_ot_layout_table_choose_script</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HB-OT-MATH-SCRIPT:CAPS"><link linkend="HB-OT-MATH-SCRIPT:CAPS">HB_OT_MATH_SCRIPT</link>, macro in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-tags-from-script"><link linkend="hb-ot-tags-from-script">hb_ot_tags_from_script</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-tag-from-language"><link linkend="hb-ot-tag-from-language">hb_ot_tag_from_language</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-var-axis-t"><link linkend="hb-ot-var-axis-t">hb_ot_var_axis_t</link>, struct in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-var-find-axis"><link linkend="hb-ot-var-find-axis">hb_ot_var_find_axis</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-var-get-axes"><link linkend="hb-ot-var-get-axes">hb_ot_var_get_axes</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HB-OT-VAR-NO-AXIS-INDEX:CAPS"><link linkend="HB-OT-VAR-NO-AXIS-INDEX:CAPS">HB_OT_VAR_NO_AXIS_INDEX</link>, macro in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>S</title>
+<indexentry><primaryie linkends="HB-SCRIPT-CANADIAN-ABORIGINAL:CAPS"><link linkend="HB-SCRIPT-CANADIAN-ABORIGINAL:CAPS">HB_SCRIPT_CANADIAN_ABORIGINAL</link>, macro in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>U</title>
+<indexentry><primaryie linkends="HB-UNICODE-COMBINING-CLASS-CCC133:CAPS"><link linkend="HB-UNICODE-COMBINING-CLASS-CCC133:CAPS">HB_UNICODE_COMBINING_CLASS_CCC133</link>, macro in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-decompose-compatibility"><link linkend="hb-unicode-decompose-compatibility">hb_unicode_decompose_compatibility</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-decompose-compatibility-func-t"><link linkend="hb-unicode-decompose-compatibility-func-t">hb_unicode_decompose_compatibility_func_t</link>, user_function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-eastasian-width"><link linkend="hb-unicode-eastasian-width">hb_unicode_eastasian_width</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-eastasian-width-func-t"><link linkend="hb-unicode-eastasian-width-func-t">hb_unicode_eastasian_width_func_t</link>, user_function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-set-decompose-compatibility-func"><link linkend="hb-unicode-funcs-set-decompose-compatibility-func">hb_unicode_funcs_set_decompose_compatibility_func</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-set-eastasian-width-func"><link linkend="hb-unicode-funcs-set-eastasian-width-func">hb_unicode_funcs_set_eastasian_width_func</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HB-UNICODE-MAX-DECOMPOSITION-LEN:CAPS"><link linkend="HB-UNICODE-MAX-DECOMPOSITION-LEN:CAPS">HB_UNICODE_MAX_DECOMPOSITION_LEN</link>, macro in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

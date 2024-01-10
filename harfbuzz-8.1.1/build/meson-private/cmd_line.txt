@@ -1,0 +1,10 @@
+[options]
+auto_features = enabled
+chafa = disabled
+graphite = enabled
+optimization = 2
+b_coverage = true
+ragel_subproject = true
+
+[properties]
+

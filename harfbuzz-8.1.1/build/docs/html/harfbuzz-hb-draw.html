@@ -1,0 +1,1378 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>hb-draw: HarfBuzz Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="HarfBuzz Manual">
+<link rel="up" href="core-api.html" title="Core API">
+<link rel="prev" href="harfbuzz-hb-features.html" title="hb-features">
+<link rel="next" href="harfbuzz-hb-paint.html" title="hb-paint">
+<meta name="generator" content="GTK-Doc V1.33.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#harfbuzz-hb-draw.description" class="shortcut">Description</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="core-api.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="harfbuzz-hb-features.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="harfbuzz-hb-paint.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="harfbuzz-hb-draw"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="harfbuzz-hb-draw.top_of_page"></a>hb-draw</span></h2>
+<p>hb-draw — Glyph drawing</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="harfbuzz-hb-draw.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="returnvalue">hb_draw_funcs_t</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-create" title="hb_draw_funcs_create ()">hb_draw_funcs_create</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="returnvalue">hb_draw_funcs_t</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-get-empty" title="hb_draw_funcs_get_empty ()">hb_draw_funcs_get_empty</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="returnvalue">hb_draw_funcs_t</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-reference" title="hb_draw_funcs_reference ()">hb_draw_funcs_reference</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-destroy" title="hb_draw_funcs_destroy ()">hb_draw_funcs_destroy</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="returnvalue">hb_bool_t</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-set-user-data" title="hb_draw_funcs_set_user_data ()">hb_draw_funcs_set_user_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span> *
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-get-user-data" title="hb_draw_funcs_get_user_data ()">hb_draw_funcs_get_user_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-make-immutable" title="hb_draw_funcs_make_immutable ()">hb_draw_funcs_make_immutable</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="returnvalue">hb_bool_t</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-is-immutable" title="hb_draw_funcs_is_immutable ()">hb_draw_funcs_is_immutable</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-draw.html#hb-draw-move-to-func-t" title="hb_draw_move_to_func_t ()">*hb_draw_move_to_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-set-move-to-func" title="hb_draw_funcs_set_move_to_func ()">hb_draw_funcs_set_move_to_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-draw.html#hb-draw-line-to-func-t" title="hb_draw_line_to_func_t ()">*hb_draw_line_to_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-set-line-to-func" title="hb_draw_funcs_set_line_to_func ()">hb_draw_funcs_set_line_to_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-draw.html#hb-draw-quadratic-to-func-t" title="hb_draw_quadratic_to_func_t ()">*hb_draw_quadratic_to_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-set-quadratic-to-func" title="hb_draw_funcs_set_quadratic_to_func ()">hb_draw_funcs_set_quadratic_to_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-draw.html#hb-draw-cubic-to-func-t" title="hb_draw_cubic_to_func_t ()">*hb_draw_cubic_to_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-set-cubic-to-func" title="hb_draw_funcs_set_cubic_to_func ()">hb_draw_funcs_set_cubic_to_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-draw.html#hb-draw-close-path-func-t" title="hb_draw_close_path_func_t ()">*hb_draw_close_path_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-set-close-path-func" title="hb_draw_funcs_set_close_path_func ()">hb_draw_funcs_set_close_path_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-move-to" title="hb_draw_move_to ()">hb_draw_move_to</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-line-to" title="hb_draw_line_to ()">hb_draw_line_to</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-quadratic-to" title="hb_draw_quadratic_to ()">hb_draw_quadratic_to</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-cubic-to" title="hb_draw_cubic_to ()">hb_draw_cubic_to</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-close-path" title="hb_draw_close_path ()">hb_draw_close_path</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-draw.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-draw.html#HB-DRAW-STATE-DEFAULT:CAPS" title="HB_DRAW_STATE_DEFAULT">HB_DRAW_STATE_DEFAULT</a></td>
+</tr>
+<tr>
+<td class="typedef_keyword">typedef</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t">hb_draw_funcs_t</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-draw.html#hb-draw-state-t" title="hb_draw_state_t">hb_draw_state_t</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-draw.includes"></a><h2>Includes</h2>
+<pre class="synopsis">#include &lt;hb.h&gt;
+</pre>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-draw.description"></a><h2>Description</h2>
+<p>Functions for drawing (extracting) glyph shapes.</p>
+<p>The <a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> struct can be used with <a class="link" href="harfbuzz-hb-font.html#hb-font-draw-glyph" title="hb_font_draw_glyph ()"><code class="function">hb_font_draw_glyph()</code></a>.</p>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-draw.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="hb-draw-funcs-create"></a><h3>hb_draw_funcs_create ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="returnvalue">hb_draw_funcs_t</span></a> *
+hb_draw_funcs_create (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>Creates a new draw callbacks object.</p>
+<div class="refsect3">
+<a name="hb-draw-funcs-create.returns"></a><h4>Returns</h4>
+<p>A newly allocated <a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> with a reference count of 1. The initial
+reference count should be released with hb_draw_funcs_destroy when you are
+done using the <a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a>. This function never returns <code class="literal">NULL</code>. If
+memory cannot be allocated, a special singleton <a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> object will
+be returned. </p>
+<p><span class="annotation">[<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-funcs-get-empty"></a><h3>hb_draw_funcs_get_empty ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="returnvalue">hb_draw_funcs_t</span></a> *
+hb_draw_funcs_get_empty (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>Fetches the singleton empty draw-functions structure.</p>
+<div class="refsect3">
+<a name="hb-draw-funcs-get-empty.returns"></a><h4>Returns</h4>
+<p>The empty draw-functions structure. </p>
+<p><span class="annotation">[<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-funcs-reference"></a><h3>hb_draw_funcs_reference ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="returnvalue">hb_draw_funcs_t</span></a> *
+hb_draw_funcs_reference (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>);</pre>
+<p>Increases the reference count on <em class="parameter"><code>dfuncs</code></em>
+ by one.</p>
+<p>This prevents <em class="parameter"><code>dfuncs</code></em>
+ from being destroyed until a matching
+call to <a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-destroy" title="hb_draw_funcs_destroy ()"><code class="function">hb_draw_funcs_destroy()</code></a> is made.</p>
+<p><span class="annotation">[<acronym title="Exposed in C code, not necessarily available in other languages."><span class="acronym">skip</span></acronym>]</span></p>
+<div class="refsect3">
+<a name="hb-draw-funcs-reference.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>draw functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-draw-funcs-reference.returns"></a><h4>Returns</h4>
+<p>The referenced <a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a>. </p>
+<p><span class="annotation">[<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-funcs-destroy"></a><h3>hb_draw_funcs_destroy ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_draw_funcs_destroy (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>);</pre>
+<p>Deallocate the <em class="parameter"><code>dfuncs</code></em>
+.
+Decreases the reference count on <em class="parameter"><code>dfuncs</code></em>
+ by one. If the result is zero, then
+<em class="parameter"><code>dfuncs</code></em>
+ and all associated resources are freed. See <a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-reference" title="hb_draw_funcs_reference ()"><code class="function">hb_draw_funcs_reference()</code></a>.</p>
+<p><span class="annotation">[<acronym title="Exposed in C code, not necessarily available in other languages."><span class="acronym">skip</span></acronym>]</span></p>
+<div class="refsect3">
+<a name="hb-draw-funcs-destroy.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>draw functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-funcs-set-user-data"></a><h3>hb_draw_funcs_set_user_data ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="returnvalue">hb_bool_t</span></a>
+hb_draw_funcs_set_user_data (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>,
+                             <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-user-data-key-t" title="hb_user_data_key_t"><span class="type">hb_user_data_key_t</span></a> *key</code></em>,
+                             <em class="parameter"><code><span class="type">void</span> *data</code></em>,
+                             <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>,
+                             <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="type">hb_bool_t</span></a> replace</code></em>);</pre>
+<p>Attaches a user-data key/data pair to the specified draw-functions structure.</p>
+<p><span class="annotation">[<acronym title="Exposed in C code, not necessarily available in other languages."><span class="acronym">skip</span></acronym>]</span></p>
+<div class="refsect3">
+<a name="hb-draw-funcs-set-user-data.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>The draw-functions structure</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>key</p></td>
+<td class="parameter_description"><p>The user-data key</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>data</p></td>
+<td class="parameter_description"><p>A pointer to the user data</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>A callback to call when <em class="parameter"><code>data</code></em>
+is not needed anymore. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>replace</p></td>
+<td class="parameter_description"><p>Whether to replace an existing data with the same key</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-draw-funcs-set-user-data.returns"></a><h4>Returns</h4>
+<p> <code class="literal">true</code> if success, <code class="literal">false</code> otherwise</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-funcs-get-user-data"></a><h3>hb_draw_funcs_get_user_data ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span> *
+hb_draw_funcs_get_user_data (<em class="parameter"><code>const <a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>,
+                             <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-user-data-key-t" title="hb_user_data_key_t"><span class="type">hb_user_data_key_t</span></a> *key</code></em>);</pre>
+<p>Fetches the user-data associated with the specified key,
+attached to the specified draw-functions structure.</p>
+<p><span class="annotation">[<acronym title="Exposed in C code, not necessarily available in other languages."><span class="acronym">skip</span></acronym>]</span></p>
+<div class="refsect3">
+<a name="hb-draw-funcs-get-user-data.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>The draw-functions structure</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>key</p></td>
+<td class="parameter_description"><p>The user-data key to query</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-draw-funcs-get-user-data.returns"></a><h4>Returns</h4>
+<p>A pointer to the user data. </p>
+<p><span class="annotation">[<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-funcs-make-immutable"></a><h3>hb_draw_funcs_make_immutable ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_draw_funcs_make_immutable (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>);</pre>
+<p>Makes <em class="parameter"><code>dfuncs</code></em>
+ object immutable.</p>
+<div class="refsect3">
+<a name="hb-draw-funcs-make-immutable.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>draw functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-funcs-is-immutable"></a><h3>hb_draw_funcs_is_immutable ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="returnvalue">hb_bool_t</span></a>
+hb_draw_funcs_is_immutable (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>);</pre>
+<p>Checks whether <em class="parameter"><code>dfuncs</code></em>
+ is immutable.</p>
+<div class="refsect3">
+<a name="hb-draw-funcs-is-immutable.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>draw functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-draw-funcs-is-immutable.returns"></a><h4>Returns</h4>
+<p> <code class="literal">true</code> if <em class="parameter"><code>dfuncs</code></em>
+is immutable, <code class="literal">false</code> otherwise</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-move-to-func-t"></a><h3>hb_draw_move_to_func_t ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*hb_draw_move_to_func_t<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>,
+                           <em class="parameter"><code><span class="type">void</span> *draw_data</code></em>,
+                           <em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-state-t" title="hb_draw_state_t"><span class="type">hb_draw_state_t</span></a> *st</code></em>,
+                           <em class="parameter"><code><span class="type">float</span> to_x</code></em>,
+                           <em class="parameter"><code><span class="type">float</span> to_y</code></em>,
+                           <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> to perform a "move-to" draw
+operation.</p>
+<div class="refsect3">
+<a name="hb-draw-move-to-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>draw functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>draw_data</p></td>
+<td class="parameter_description"><p>The data accompanying the draw functions in <a class="link" href="harfbuzz-hb-font.html#hb-font-draw-glyph" title="hb_font_draw_glyph ()"><code class="function">hb_font_draw_glyph()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>st</p></td>
+<td class="parameter_description"><p>current draw state</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>to_x</p></td>
+<td class="parameter_description"><p>X component of target point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>to_y</p></td>
+<td class="parameter_description"><p>Y component of target point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data pointer passed to <a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-set-move-to-func" title="hb_draw_funcs_set_move_to_func ()"><code class="function">hb_draw_funcs_set_move_to_func()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-funcs-set-move-to-func"></a><h3>hb_draw_funcs_set_move_to_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_draw_funcs_set_move_to_func (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-move-to-func-t" title="hb_draw_move_to_func_t ()"><span class="type">hb_draw_move_to_func_t</span></a> func</code></em>,
+                                <em class="parameter"><code><span class="type">void</span> *user_data</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>);</pre>
+<p>Sets move-to callback to the draw functions object.</p>
+<div class="refsect3">
+<a name="hb-draw-funcs-set-move-to-func.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>draw functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>move-to callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="This parameter is a 'user_data', for callbacks; many bindings can pass NULL here."><span class="acronym">closure</span></acronym> user_data][<acronym title="This parameter is a 'destroy_data', for callbacks."><span class="acronym">destroy</span></acronym> destroy][<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>Data to pass to <em class="parameter"><code>func</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>The function to call when <em class="parameter"><code>user_data</code></em>
+is not needed anymore. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-line-to-func-t"></a><h3>hb_draw_line_to_func_t ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*hb_draw_line_to_func_t<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>,
+                           <em class="parameter"><code><span class="type">void</span> *draw_data</code></em>,
+                           <em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-state-t" title="hb_draw_state_t"><span class="type">hb_draw_state_t</span></a> *st</code></em>,
+                           <em class="parameter"><code><span class="type">float</span> to_x</code></em>,
+                           <em class="parameter"><code><span class="type">float</span> to_y</code></em>,
+                           <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> to perform a "line-to" draw
+operation.</p>
+<div class="refsect3">
+<a name="hb-draw-line-to-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>draw functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>draw_data</p></td>
+<td class="parameter_description"><p>The data accompanying the draw functions in <a class="link" href="harfbuzz-hb-font.html#hb-font-draw-glyph" title="hb_font_draw_glyph ()"><code class="function">hb_font_draw_glyph()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>st</p></td>
+<td class="parameter_description"><p>current draw state</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>to_x</p></td>
+<td class="parameter_description"><p>X component of target point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>to_y</p></td>
+<td class="parameter_description"><p>Y component of target point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data pointer passed to <a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-set-line-to-func" title="hb_draw_funcs_set_line_to_func ()"><code class="function">hb_draw_funcs_set_line_to_func()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-funcs-set-line-to-func"></a><h3>hb_draw_funcs_set_line_to_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_draw_funcs_set_line_to_func (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-line-to-func-t" title="hb_draw_line_to_func_t ()"><span class="type">hb_draw_line_to_func_t</span></a> func</code></em>,
+                                <em class="parameter"><code><span class="type">void</span> *user_data</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>);</pre>
+<p>Sets line-to callback to the draw functions object.</p>
+<div class="refsect3">
+<a name="hb-draw-funcs-set-line-to-func.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>draw functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>line-to callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="This parameter is a 'user_data', for callbacks; many bindings can pass NULL here."><span class="acronym">closure</span></acronym> user_data][<acronym title="This parameter is a 'destroy_data', for callbacks."><span class="acronym">destroy</span></acronym> destroy][<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>Data to pass to <em class="parameter"><code>func</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>The function to call when <em class="parameter"><code>user_data</code></em>
+is not needed anymore. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-quadratic-to-func-t"></a><h3>hb_draw_quadratic_to_func_t ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*hb_draw_quadratic_to_func_t<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>,
+                                <em class="parameter"><code><span class="type">void</span> *draw_data</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-state-t" title="hb_draw_state_t"><span class="type">hb_draw_state_t</span></a> *st</code></em>,
+                                <em class="parameter"><code><span class="type">float</span> control_x</code></em>,
+                                <em class="parameter"><code><span class="type">float</span> control_y</code></em>,
+                                <em class="parameter"><code><span class="type">float</span> to_x</code></em>,
+                                <em class="parameter"><code><span class="type">float</span> to_y</code></em>,
+                                <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> to perform a "quadratic-to" draw
+operation.</p>
+<div class="refsect3">
+<a name="hb-draw-quadratic-to-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>draw functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>draw_data</p></td>
+<td class="parameter_description"><p>The data accompanying the draw functions in <a class="link" href="harfbuzz-hb-font.html#hb-font-draw-glyph" title="hb_font_draw_glyph ()"><code class="function">hb_font_draw_glyph()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>st</p></td>
+<td class="parameter_description"><p>current draw state</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>control_x</p></td>
+<td class="parameter_description"><p>X component of control point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>control_y</p></td>
+<td class="parameter_description"><p>Y component of control point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>to_x</p></td>
+<td class="parameter_description"><p>X component of target point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>to_y</p></td>
+<td class="parameter_description"><p>Y component of target point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data pointer passed to <a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-set-quadratic-to-func" title="hb_draw_funcs_set_quadratic_to_func ()"><code class="function">hb_draw_funcs_set_quadratic_to_func()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-funcs-set-quadratic-to-func"></a><h3>hb_draw_funcs_set_quadratic_to_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_draw_funcs_set_quadratic_to_func (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>,
+                                     <em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-quadratic-to-func-t" title="hb_draw_quadratic_to_func_t ()"><span class="type">hb_draw_quadratic_to_func_t</span></a> func</code></em>,
+                                     <em class="parameter"><code><span class="type">void</span> *user_data</code></em>,
+                                     <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>);</pre>
+<p>Sets quadratic-to callback to the draw functions object.</p>
+<div class="refsect3">
+<a name="hb-draw-funcs-set-quadratic-to-func.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>draw functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>quadratic-to callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="This parameter is a 'user_data', for callbacks; many bindings can pass NULL here."><span class="acronym">closure</span></acronym> user_data][<acronym title="This parameter is a 'destroy_data', for callbacks."><span class="acronym">destroy</span></acronym> destroy][<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>Data to pass to <em class="parameter"><code>func</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>The function to call when <em class="parameter"><code>user_data</code></em>
+is not needed anymore. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-cubic-to-func-t"></a><h3>hb_draw_cubic_to_func_t ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*hb_draw_cubic_to_func_t<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>,
+                            <em class="parameter"><code><span class="type">void</span> *draw_data</code></em>,
+                            <em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-state-t" title="hb_draw_state_t"><span class="type">hb_draw_state_t</span></a> *st</code></em>,
+                            <em class="parameter"><code><span class="type">float</span> control1_x</code></em>,
+                            <em class="parameter"><code><span class="type">float</span> control1_y</code></em>,
+                            <em class="parameter"><code><span class="type">float</span> control2_x</code></em>,
+                            <em class="parameter"><code><span class="type">float</span> control2_y</code></em>,
+                            <em class="parameter"><code><span class="type">float</span> to_x</code></em>,
+                            <em class="parameter"><code><span class="type">float</span> to_y</code></em>,
+                            <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> to perform a "cubic-to" draw
+operation.</p>
+<div class="refsect3">
+<a name="hb-draw-cubic-to-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>draw functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>draw_data</p></td>
+<td class="parameter_description"><p>The data accompanying the draw functions in <a class="link" href="harfbuzz-hb-font.html#hb-font-draw-glyph" title="hb_font_draw_glyph ()"><code class="function">hb_font_draw_glyph()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>st</p></td>
+<td class="parameter_description"><p>current draw state</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>control1_x</p></td>
+<td class="parameter_description"><p>X component of first control point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>control1_y</p></td>
+<td class="parameter_description"><p>Y component of first control point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>control2_x</p></td>
+<td class="parameter_description"><p>X component of second control point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>control2_y</p></td>
+<td class="parameter_description"><p>Y component of second control point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>to_x</p></td>
+<td class="parameter_description"><p>X component of target point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>to_y</p></td>
+<td class="parameter_description"><p>Y component of target point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data pointer passed to <a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-set-cubic-to-func" title="hb_draw_funcs_set_cubic_to_func ()"><code class="function">hb_draw_funcs_set_cubic_to_func()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-funcs-set-cubic-to-func"></a><h3>hb_draw_funcs_set_cubic_to_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_draw_funcs_set_cubic_to_func (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>,
+                                 <em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-cubic-to-func-t" title="hb_draw_cubic_to_func_t ()"><span class="type">hb_draw_cubic_to_func_t</span></a> func</code></em>,
+                                 <em class="parameter"><code><span class="type">void</span> *user_data</code></em>,
+                                 <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>);</pre>
+<p>Sets cubic-to callback to the draw functions object.</p>
+<div class="refsect3">
+<a name="hb-draw-funcs-set-cubic-to-func.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>draw functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>cubic-to callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="This parameter is a 'user_data', for callbacks; many bindings can pass NULL here."><span class="acronym">closure</span></acronym> user_data][<acronym title="This parameter is a 'destroy_data', for callbacks."><span class="acronym">destroy</span></acronym> destroy][<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>Data to pass to <em class="parameter"><code>func</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>The function to call when <em class="parameter"><code>user_data</code></em>
+is not needed anymore. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-close-path-func-t"></a><h3>hb_draw_close_path_func_t ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*hb_draw_close_path_func_t<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>,
+                              <em class="parameter"><code><span class="type">void</span> *draw_data</code></em>,
+                              <em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-state-t" title="hb_draw_state_t"><span class="type">hb_draw_state_t</span></a> *st</code></em>,
+                              <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> to perform a "close-path" draw
+operation.</p>
+<div class="refsect3">
+<a name="hb-draw-close-path-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>draw functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>draw_data</p></td>
+<td class="parameter_description"><p>The data accompanying the draw functions in <a class="link" href="harfbuzz-hb-font.html#hb-font-draw-glyph" title="hb_font_draw_glyph ()"><code class="function">hb_font_draw_glyph()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>st</p></td>
+<td class="parameter_description"><p>current draw state</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data pointer passed to <a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-set-close-path-func" title="hb_draw_funcs_set_close_path_func ()"><code class="function">hb_draw_funcs_set_close_path_func()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-funcs-set-close-path-func"></a><h3>hb_draw_funcs_set_close_path_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_draw_funcs_set_close_path_func (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>,
+                                   <em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-close-path-func-t" title="hb_draw_close_path_func_t ()"><span class="type">hb_draw_close_path_func_t</span></a> func</code></em>,
+                                   <em class="parameter"><code><span class="type">void</span> *user_data</code></em>,
+                                   <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>);</pre>
+<p>Sets close-path callback to the draw functions object.</p>
+<div class="refsect3">
+<a name="hb-draw-funcs-set-close-path-func.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>draw functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>close-path callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="This parameter is a 'user_data', for callbacks; many bindings can pass NULL here."><span class="acronym">closure</span></acronym> user_data][<acronym title="This parameter is a 'destroy_data', for callbacks."><span class="acronym">destroy</span></acronym> destroy][<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>Data to pass to <em class="parameter"><code>func</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>The function to call when <em class="parameter"><code>user_data</code></em>
+is not needed anymore. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-move-to"></a><h3>hb_draw_move_to ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_draw_move_to (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>,
+                 <em class="parameter"><code><span class="type">void</span> *draw_data</code></em>,
+                 <em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-state-t" title="hb_draw_state_t"><span class="type">hb_draw_state_t</span></a> *st</code></em>,
+                 <em class="parameter"><code><span class="type">float</span> to_x</code></em>,
+                 <em class="parameter"><code><span class="type">float</span> to_y</code></em>);</pre>
+<p>Perform a "move-to" draw operation.</p>
+<div class="refsect3">
+<a name="hb-draw-move-to.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>draw functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>draw_data</p></td>
+<td class="parameter_description"><p>associated draw data passed by the caller</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>st</p></td>
+<td class="parameter_description"><p>current draw state</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>to_x</p></td>
+<td class="parameter_description"><p>X component of target point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>to_y</p></td>
+<td class="parameter_description"><p>Y component of target point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-line-to"></a><h3>hb_draw_line_to ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_draw_line_to (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>,
+                 <em class="parameter"><code><span class="type">void</span> *draw_data</code></em>,
+                 <em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-state-t" title="hb_draw_state_t"><span class="type">hb_draw_state_t</span></a> *st</code></em>,
+                 <em class="parameter"><code><span class="type">float</span> to_x</code></em>,
+                 <em class="parameter"><code><span class="type">float</span> to_y</code></em>);</pre>
+<p>Perform a "line-to" draw operation.</p>
+<div class="refsect3">
+<a name="hb-draw-line-to.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>draw functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>draw_data</p></td>
+<td class="parameter_description"><p>associated draw data passed by the caller</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>st</p></td>
+<td class="parameter_description"><p>current draw state</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>to_x</p></td>
+<td class="parameter_description"><p>X component of target point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>to_y</p></td>
+<td class="parameter_description"><p>Y component of target point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-quadratic-to"></a><h3>hb_draw_quadratic_to ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_draw_quadratic_to (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>,
+                      <em class="parameter"><code><span class="type">void</span> *draw_data</code></em>,
+                      <em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-state-t" title="hb_draw_state_t"><span class="type">hb_draw_state_t</span></a> *st</code></em>,
+                      <em class="parameter"><code><span class="type">float</span> control_x</code></em>,
+                      <em class="parameter"><code><span class="type">float</span> control_y</code></em>,
+                      <em class="parameter"><code><span class="type">float</span> to_x</code></em>,
+                      <em class="parameter"><code><span class="type">float</span> to_y</code></em>);</pre>
+<p>Perform a "quadratic-to" draw operation.</p>
+<div class="refsect3">
+<a name="hb-draw-quadratic-to.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>draw functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>draw_data</p></td>
+<td class="parameter_description"><p>associated draw data passed by the caller</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>st</p></td>
+<td class="parameter_description"><p>current draw state</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>control_x</p></td>
+<td class="parameter_description"><p>X component of control point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>control_y</p></td>
+<td class="parameter_description"><p>Y component of control point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>to_x</p></td>
+<td class="parameter_description"><p>X component of target point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>to_y</p></td>
+<td class="parameter_description"><p>Y component of target point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-cubic-to"></a><h3>hb_draw_cubic_to ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_draw_cubic_to (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>,
+                  <em class="parameter"><code><span class="type">void</span> *draw_data</code></em>,
+                  <em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-state-t" title="hb_draw_state_t"><span class="type">hb_draw_state_t</span></a> *st</code></em>,
+                  <em class="parameter"><code><span class="type">float</span> control1_x</code></em>,
+                  <em class="parameter"><code><span class="type">float</span> control1_y</code></em>,
+                  <em class="parameter"><code><span class="type">float</span> control2_x</code></em>,
+                  <em class="parameter"><code><span class="type">float</span> control2_y</code></em>,
+                  <em class="parameter"><code><span class="type">float</span> to_x</code></em>,
+                  <em class="parameter"><code><span class="type">float</span> to_y</code></em>);</pre>
+<p>Perform a "cubic-to" draw operation.</p>
+<div class="refsect3">
+<a name="hb-draw-cubic-to.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>draw functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>draw_data</p></td>
+<td class="parameter_description"><p>associated draw data passed by the caller</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>st</p></td>
+<td class="parameter_description"><p>current draw state</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>control1_x</p></td>
+<td class="parameter_description"><p>X component of first control point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>control1_y</p></td>
+<td class="parameter_description"><p>Y component of first control point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>control2_x</p></td>
+<td class="parameter_description"><p>X component of second control point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>control2_y</p></td>
+<td class="parameter_description"><p>Y component of second control point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>to_x</p></td>
+<td class="parameter_description"><p>X component of target point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>to_y</p></td>
+<td class="parameter_description"><p>Y component of target point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-close-path"></a><h3>hb_draw_close_path ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_draw_close_path (<em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-funcs-t" title="hb_draw_funcs_t"><span class="type">hb_draw_funcs_t</span></a> *dfuncs</code></em>,
+                    <em class="parameter"><code><span class="type">void</span> *draw_data</code></em>,
+                    <em class="parameter"><code><a class="link" href="harfbuzz-hb-draw.html#hb-draw-state-t" title="hb_draw_state_t"><span class="type">hb_draw_state_t</span></a> *st</code></em>);</pre>
+<p>Perform a "close-path" draw operation.</p>
+<div class="refsect3">
+<a name="hb-draw-close-path.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>dfuncs</p></td>
+<td class="parameter_description"><p>draw functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>draw_data</p></td>
+<td class="parameter_description"><p>associated draw data passed by the caller</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>st</p></td>
+<td class="parameter_description"><p>current draw state</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-draw.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="HB-DRAW-STATE-DEFAULT:CAPS"></a><h3>HB_DRAW_STATE_DEFAULT</h3>
+<pre class="programlisting">#define HB_DRAW_STATE_DEFAULT {0, 0.f, 0.f, 0.f, 0.f, {0.}, {0.}, {0.}}
+</pre>
+<p>The default <a class="link" href="harfbuzz-hb-draw.html#hb-draw-state-t" title="hb_draw_state_t"><span class="type">hb_draw_state_t</span></a> at the start of glyph drawing.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-funcs-t"></a><h3>hb_draw_funcs_t</h3>
+<pre class="programlisting">typedef struct hb_draw_funcs_t hb_draw_funcs_t;
+</pre>
+<p>Glyph draw callbacks.</p>
+<p><a class="link" href="harfbuzz-hb-draw.html#hb-draw-move-to-func-t" title="hb_draw_move_to_func_t ()"><span class="type">hb_draw_move_to_func_t</span></a>, <a class="link" href="harfbuzz-hb-draw.html#hb-draw-line-to-func-t" title="hb_draw_line_to_func_t ()"><span class="type">hb_draw_line_to_func_t</span></a> and
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-cubic-to-func-t" title="hb_draw_cubic_to_func_t ()"><span class="type">hb_draw_cubic_to_func_t</span></a> calls are necessary to be defined but we translate
+<a class="link" href="harfbuzz-hb-draw.html#hb-draw-quadratic-to-func-t" title="hb_draw_quadratic_to_func_t ()"><span class="type">hb_draw_quadratic_to_func_t</span></a> calls to <a class="link" href="harfbuzz-hb-draw.html#hb-draw-cubic-to-func-t" title="hb_draw_cubic_to_func_t ()"><span class="type">hb_draw_cubic_to_func_t</span></a> if the
+callback isn't defined.</p>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-draw-state-t"></a><h3>hb_draw_state_t</h3>
+<pre class="programlisting">typedef struct {
+  hb_bool_t path_open;
+
+  float path_start_x;
+  float path_start_y;
+
+  float current_x;
+  float current_y;
+} hb_draw_state_t;
+</pre>
+<p>Current drawing state.</p>
+<div class="refsect3">
+<a name="hb-draw-state-t.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="type">hb_bool_t</span></a> <em class="structfield"><code><a name="hb-draw-state-t.path-open"></a>path_open</code></em>;</p></td>
+<td class="struct_member_description"><p>Whether there is an open path</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">float</span> <em class="structfield"><code><a name="hb-draw-state-t.path-start-x"></a>path_start_x</code></em>;</p></td>
+<td class="struct_member_description"><p>X component of the start of current path</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">float</span> <em class="structfield"><code><a name="hb-draw-state-t.path-start-y"></a>path_start_y</code></em>;</p></td>
+<td class="struct_member_description"><p>Y component of the start of current path</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">float</span> <em class="structfield"><code><a name="hb-draw-state-t.current-x"></a>current_x</code></em>;</p></td>
+<td class="struct_member_description"><p>X component of current point</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><span class="type">float</span> <em class="structfield"><code><a name="hb-draw-state-t.current-y"></a>current_y</code></em>;</p></td>
+<td class="struct_member_description"><p>Y component of current point</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.33.1</div>
+</body>
+</html>

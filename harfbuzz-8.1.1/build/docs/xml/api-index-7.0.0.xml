@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-7.0.0">
+<indexdiv><title>C</title>
+<indexentry><primaryie linkends="hb-cairo-font-face-create-for-face"><link linkend="hb-cairo-font-face-create-for-face">hb_cairo_font_face_create_for_face</link>, function in <link linkend="harfbuzz-hb-cairo">hb-cairo</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-cairo-font-face-create-for-font"><link linkend="hb-cairo-font-face-create-for-font">hb_cairo_font_face_create_for_font</link>, function in <link linkend="harfbuzz-hb-cairo">hb-cairo</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-cairo-font-face-get-face"><link linkend="hb-cairo-font-face-get-face">hb_cairo_font_face_get_face</link>, function in <link linkend="harfbuzz-hb-cairo">hb-cairo</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-cairo-font-face-get-font"><link linkend="hb-cairo-font-face-get-font">hb_cairo_font_face_get_font</link>, function in <link linkend="harfbuzz-hb-cairo">hb-cairo</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-cairo-font-face-get-scale-factor"><link linkend="hb-cairo-font-face-get-scale-factor">hb_cairo_font_face_get_scale_factor</link>, function in <link linkend="harfbuzz-hb-cairo">hb-cairo</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-cairo-font-face-set-font-init-func"><link linkend="hb-cairo-font-face-set-font-init-func">hb_cairo_font_face_set_font_init_func</link>, function in <link linkend="harfbuzz-hb-cairo">hb-cairo</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-cairo-font-face-set-scale-factor"><link linkend="hb-cairo-font-face-set-scale-factor">hb_cairo_font_face_set_scale_factor</link>, function in <link linkend="harfbuzz-hb-cairo">hb-cairo</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-cairo-font-init-func-t"><link linkend="hb-cairo-font-init-func-t">hb_cairo_font_init_func_t</link>, user_function in <link linkend="harfbuzz-hb-cairo">hb-cairo</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-cairo-glyphs-from-buffer"><link linkend="hb-cairo-glyphs-from-buffer">hb_cairo_glyphs_from_buffer</link>, function in <link linkend="harfbuzz-hb-cairo">hb-cairo</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-cairo-scaled-font-get-font"><link linkend="hb-cairo-scaled-font-get-font">hb_cairo_scaled_font_get_font</link>, function in <link linkend="harfbuzz-hb-cairo">hb-cairo</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-color-line-get-color-stops"><link linkend="hb-color-line-get-color-stops">hb_color_line_get_color_stops</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-color-line-get-color-stops-func-t"><link linkend="hb-color-line-get-color-stops-func-t">hb_color_line_get_color_stops_func_t</link>, user_function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-color-line-get-extend"><link linkend="hb-color-line-get-extend">hb_color_line_get_extend</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-color-line-get-extend-func-t"><link linkend="hb-color-line-get-extend-func-t">hb_color_line_get_extend_func_t</link>, user_function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-color-line-t"><link linkend="hb-color-line-t">hb_color_line_t</link>, typedef in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-color-stop-t"><link linkend="hb-color-stop-t">hb_color_stop_t</link>, struct in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>D</title>
+<indexentry><primaryie linkends="hb-draw-funcs-get-empty"><link linkend="hb-draw-funcs-get-empty">hb_draw_funcs_get_empty</link>, function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-funcs-get-user-data"><link linkend="hb-draw-funcs-get-user-data">hb_draw_funcs_get_user_data</link>, function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-funcs-set-user-data"><link linkend="hb-draw-funcs-set-user-data">hb_draw_funcs_set_user_data</link>, function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="hb-face-collect-nominal-glyph-mapping"><link linkend="hb-face-collect-nominal-glyph-mapping">hb_face_collect_nominal_glyph_mapping</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-draw-glyph"><link linkend="hb-font-draw-glyph">hb_font_draw_glyph</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-draw-glyph-func-t"><link linkend="hb-font-draw-glyph-func-t">hb_font_draw_glyph_func_t</link>, user_function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-set-draw-glyph-func"><link linkend="hb-font-funcs-set-draw-glyph-func">hb_font_funcs_set_draw_glyph_func</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-set-paint-glyph-func"><link linkend="hb-font-funcs-set-paint-glyph-func">hb_font_funcs_set_paint_glyph_func</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-synthetic-bold"><link linkend="hb-font-get-synthetic-bold">hb_font_get_synthetic_bold</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-var-named-instance"><link linkend="hb-font-get-var-named-instance">hb_font_get_var_named_instance</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HB-FONT-NO-VAR-NAMED-INSTANCE:CAPS"><link linkend="HB-FONT-NO-VAR-NAMED-INSTANCE:CAPS">HB_FONT_NO_VAR_NAMED_INSTANCE</link>, macro in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-paint-glyph"><link linkend="hb-font-paint-glyph">hb_font_paint_glyph</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-paint-glyph-func-t"><link linkend="hb-font-paint-glyph-func-t">hb_font_paint_glyph_func_t</link>, user_function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-set-synthetic-bold"><link linkend="hb-font-set-synthetic-bold">hb_font_set_synthetic_bold</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>M</title>
+<indexentry><primaryie linkends="hb-map-keys"><link linkend="hb-map-keys">hb_map_keys</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-map-next"><link linkend="hb-map-next">hb_map_next</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-map-update"><link linkend="hb-map-update">hb_map_update</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-map-values"><link linkend="hb-map-values">hb_map_values</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>O</title>
+<indexentry><primaryie linkends="hb-ot-color-glyph-has-paint"><link linkend="hb-ot-color-glyph-has-paint">hb_ot_color_glyph_has_paint</link>, function in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-color-has-paint"><link linkend="hb-ot-color-has-paint">hb_ot_color_has_paint</link>, function in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-layout-script-select-language2"><link linkend="hb-ot-layout-script-select-language2">hb_ot_layout_script_select_language2</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-name-id-predefined-t"><link linkend="hb-ot-name-id-predefined-t">hb_ot_name_id_predefined_t</link>, enum in <link linkend="harfbuzz-hb-ot-name">hb-ot-name</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>P</title>
+<indexentry><primaryie linkends="hb-paint-color"><link linkend="hb-paint-color">hb_paint_color</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-color-func-t"><link linkend="hb-paint-color-func-t">hb_paint_color_func_t</link>, user_function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-composite-mode-t"><link linkend="hb-paint-composite-mode-t">hb_paint_composite_mode_t</link>, enum in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-custom-palette-color"><link linkend="hb-paint-custom-palette-color">hb_paint_custom_palette_color</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-custom-palette-color-func-t"><link linkend="hb-paint-custom-palette-color-func-t">hb_paint_custom_palette_color_func_t</link>, user_function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-extend-t"><link linkend="hb-paint-extend-t">hb_paint_extend_t</link>, enum in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-create"><link linkend="hb-paint-funcs-create">hb_paint_funcs_create</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-destroy"><link linkend="hb-paint-funcs-destroy">hb_paint_funcs_destroy</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-get-empty"><link linkend="hb-paint-funcs-get-empty">hb_paint_funcs_get_empty</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-get-user-data"><link linkend="hb-paint-funcs-get-user-data">hb_paint_funcs_get_user_data</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-is-immutable"><link linkend="hb-paint-funcs-is-immutable">hb_paint_funcs_is_immutable</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-make-immutable"><link linkend="hb-paint-funcs-make-immutable">hb_paint_funcs_make_immutable</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-reference"><link linkend="hb-paint-funcs-reference">hb_paint_funcs_reference</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-set-color-func"><link linkend="hb-paint-funcs-set-color-func">hb_paint_funcs_set_color_func</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-set-custom-palette-color-func"><link linkend="hb-paint-funcs-set-custom-palette-color-func">hb_paint_funcs_set_custom_palette_color_func</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-set-image-func"><link linkend="hb-paint-funcs-set-image-func">hb_paint_funcs_set_image_func</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-set-linear-gradient-func"><link linkend="hb-paint-funcs-set-linear-gradient-func">hb_paint_funcs_set_linear_gradient_func</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-set-pop-clip-func"><link linkend="hb-paint-funcs-set-pop-clip-func">hb_paint_funcs_set_pop_clip_func</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-set-pop-group-func"><link linkend="hb-paint-funcs-set-pop-group-func">hb_paint_funcs_set_pop_group_func</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-set-pop-transform-func"><link linkend="hb-paint-funcs-set-pop-transform-func">hb_paint_funcs_set_pop_transform_func</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-set-push-clip-glyph-func"><link linkend="hb-paint-funcs-set-push-clip-glyph-func">hb_paint_funcs_set_push_clip_glyph_func</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-set-push-clip-rectangle-func"><link linkend="hb-paint-funcs-set-push-clip-rectangle-func">hb_paint_funcs_set_push_clip_rectangle_func</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-set-push-group-func"><link linkend="hb-paint-funcs-set-push-group-func">hb_paint_funcs_set_push_group_func</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-set-push-transform-func"><link linkend="hb-paint-funcs-set-push-transform-func">hb_paint_funcs_set_push_transform_func</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-set-radial-gradient-func"><link linkend="hb-paint-funcs-set-radial-gradient-func">hb_paint_funcs_set_radial_gradient_func</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-set-sweep-gradient-func"><link linkend="hb-paint-funcs-set-sweep-gradient-func">hb_paint_funcs_set_sweep_gradient_func</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-set-user-data"><link linkend="hb-paint-funcs-set-user-data">hb_paint_funcs_set_user_data</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-funcs-t"><link linkend="hb-paint-funcs-t">hb_paint_funcs_t</link>, typedef in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-image"><link linkend="hb-paint-image">hb_paint_image</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HB-PAINT-IMAGE-FORMAT-BGRA:CAPS"><link linkend="HB-PAINT-IMAGE-FORMAT-BGRA:CAPS">HB_PAINT_IMAGE_FORMAT_BGRA</link>, macro in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HB-PAINT-IMAGE-FORMAT-PNG:CAPS"><link linkend="HB-PAINT-IMAGE-FORMAT-PNG:CAPS">HB_PAINT_IMAGE_FORMAT_PNG</link>, macro in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HB-PAINT-IMAGE-FORMAT-SVG:CAPS"><link linkend="HB-PAINT-IMAGE-FORMAT-SVG:CAPS">HB_PAINT_IMAGE_FORMAT_SVG</link>, macro in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-image-func-t"><link linkend="hb-paint-image-func-t">hb_paint_image_func_t</link>, user_function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-linear-gradient"><link linkend="hb-paint-linear-gradient">hb_paint_linear_gradient</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-linear-gradient-func-t"><link linkend="hb-paint-linear-gradient-func-t">hb_paint_linear_gradient_func_t</link>, user_function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-pop-clip"><link linkend="hb-paint-pop-clip">hb_paint_pop_clip</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-pop-clip-func-t"><link linkend="hb-paint-pop-clip-func-t">hb_paint_pop_clip_func_t</link>, user_function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-pop-group"><link linkend="hb-paint-pop-group">hb_paint_pop_group</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-pop-group-func-t"><link linkend="hb-paint-pop-group-func-t">hb_paint_pop_group_func_t</link>, user_function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-pop-transform"><link linkend="hb-paint-pop-transform">hb_paint_pop_transform</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-pop-transform-func-t"><link linkend="hb-paint-pop-transform-func-t">hb_paint_pop_transform_func_t</link>, user_function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-push-clip-glyph"><link linkend="hb-paint-push-clip-glyph">hb_paint_push_clip_glyph</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-push-clip-glyph-func-t"><link linkend="hb-paint-push-clip-glyph-func-t">hb_paint_push_clip_glyph_func_t</link>, user_function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-push-clip-rectangle"><link linkend="hb-paint-push-clip-rectangle">hb_paint_push_clip_rectangle</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-push-clip-rectangle-func-t"><link linkend="hb-paint-push-clip-rectangle-func-t">hb_paint_push_clip_rectangle_func_t</link>, user_function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-push-group"><link linkend="hb-paint-push-group">hb_paint_push_group</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-push-group-func-t"><link linkend="hb-paint-push-group-func-t">hb_paint_push_group_func_t</link>, user_function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-push-transform"><link linkend="hb-paint-push-transform">hb_paint_push_transform</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-push-transform-func-t"><link linkend="hb-paint-push-transform-func-t">hb_paint_push_transform_func_t</link>, user_function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-radial-gradient"><link linkend="hb-paint-radial-gradient">hb_paint_radial_gradient</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-radial-gradient-func-t"><link linkend="hb-paint-radial-gradient-func-t">hb_paint_radial_gradient_func_t</link>, user_function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-sweep-gradient"><link linkend="hb-paint-sweep-gradient">hb_paint_sweep_gradient</link>, function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-paint-sweep-gradient-func-t"><link linkend="hb-paint-sweep-gradient-func-t">hb_paint_sweep_gradient_func_t</link>, user_function in <link linkend="harfbuzz-hb-paint">hb-paint</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>S</title>
+<indexentry><primaryie linkends="hb-set-is-inverted"><link linkend="hb-set-is-inverted">hb_set_is_inverted</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-subset-input-keep-everything"><link linkend="hb-subset-input-keep-everything">hb_subset_input_keep_everything</link>, function in <link linkend="harfbuzz-hb-subset">hb-subset</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

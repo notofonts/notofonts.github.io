@@ -1,0 +1,640 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-blob">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-blob.top_of_page">hb-blob</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-blob</refname>
+<refpurpose>Binary data containers</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-blob.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-blob-create">hb_blob_create</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-blob-create-or-fail">hb_blob_create_or_fail</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-blob-create-from-file">hb_blob_create_from_file</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-blob-create-from-file-or-fail">hb_blob_create_from_file_or_fail</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-blob-create-sub-blob">hb_blob_create_sub_blob</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-blob-copy-writable-or-fail">hb_blob_copy_writable_or_fail</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-blob-get-empty">hb_blob_get_empty</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-blob-reference">hb_blob_reference</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-blob-destroy">hb_blob_destroy</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-blob-set-user-data">hb_blob_set_user_data</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-blob-get-user-data">hb_blob_get_user_data</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-blob-make-immutable">hb_blob_make_immutable</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-blob-is-immutable">hb_blob_is_immutable</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">const <link linkend="char"><returnvalue>char</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-blob-get-data">hb_blob_get_data</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="char"><returnvalue>char</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-blob-get-data-writable">hb_blob_get_data_writable</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-blob-get-length">hb_blob_get_length</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="harfbuzz-hb-blob.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="typedef_keyword">typedef</entry><entry role="function_name"><link linkend="hb-blob-t">hb_blob_t</link></entry></row>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-memory-mode-t">hb_memory_mode_t</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-blob.includes"><title>Includes</title><synopsis>#include &lt;hb.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-blob.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Blobs wrap a chunk of binary data to handle lifecycle management of data
+while it is passed between client and HarfBuzz.  Blobs are primarily used
+to create font faces, but also to access font face tables, as well as
+pass around other binary data.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-blob.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-blob-create" role="function" condition="since:0.9.2">
+<title>hb_blob_create&#160;()</title>
+<indexterm zone="hb-blob-create" role="0.9.2"><primary>hb_blob_create</primary></indexterm>
+<programlisting language="C"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+hb_blob_create (<parameter>const <link linkend="char"><type>char</type></link> *data</parameter>,
+                <parameter>unsigned <link linkend="int"><type>int</type></link> length</parameter>,
+                <parameter><link linkend="hb-memory-mode-t"><type>hb_memory_mode_t</type></link> mode</parameter>,
+                <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<para>Creates a new "blob" object wrapping <parameter>data</parameter>
+.  The <parameter>mode</parameter>
+ parameter is used
+to negotiate ownership and lifecycle of <parameter>data</parameter>
+.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-blob-create.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>data</para></entry>
+<entry role="parameter_description"><para>Pointer to blob data.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>length</para></entry>
+<entry role="parameter_description"><para>Length of <parameter>data</parameter>
+in bytes.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>mode</para></entry>
+<entry role="parameter_description"><para>Memory mode for <parameter>data</parameter>
+.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>Data parameter to pass to <parameter>destroy</parameter>
+.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>Callback to call when <parameter>data</parameter>
+is not needed anymore. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-blob-create.returns" role="returns">
+<title>Returns</title>
+<para> New blob, or the empty blob if something failed or if <parameter>length</parameter>
+is
+zero.  Destroy with <link linkend="hb-blob-destroy"><function>hb_blob_destroy()</function></link>.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-blob-create-or-fail" role="function" condition="since:2.8.2">
+<title>hb_blob_create_or_fail&#160;()</title>
+<indexterm zone="hb-blob-create-or-fail" role="2.8.2"><primary>hb_blob_create_or_fail</primary></indexterm>
+<programlisting language="C"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+hb_blob_create_or_fail (<parameter>const <link linkend="char"><type>char</type></link> *data</parameter>,
+                        <parameter>unsigned <link linkend="int"><type>int</type></link> length</parameter>,
+                        <parameter><link linkend="hb-memory-mode-t"><type>hb_memory_mode_t</type></link> mode</parameter>,
+                        <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                        <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<para>Creates a new "blob" object wrapping <parameter>data</parameter>
+.  The <parameter>mode</parameter>
+ parameter is used
+to negotiate ownership and lifecycle of <parameter>data</parameter>
+.</para>
+<para>Note that this function returns a freshly-allocated empty blob even if <parameter>length</parameter>
+
+is zero. This is in contrast to <link linkend="hb-blob-create"><function>hb_blob_create()</function></link>, which returns the singleton
+empty blob (as returned by <link linkend="hb-blob-get-empty"><function>hb_blob_get_empty()</function></link>) if <parameter>length</parameter>
+ is zero.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-blob-create-or-fail.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>data</para></entry>
+<entry role="parameter_description"><para>Pointer to blob data.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>length</para></entry>
+<entry role="parameter_description"><para>Length of <parameter>data</parameter>
+in bytes.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>mode</para></entry>
+<entry role="parameter_description"><para>Memory mode for <parameter>data</parameter>
+.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>Data parameter to pass to <parameter>destroy</parameter>
+.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>Callback to call when <parameter>data</parameter>
+is not needed anymore. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-blob-create-or-fail.returns" role="returns">
+<title>Returns</title>
+<para> New blob, or <literal>NULL</literal> if failed.  Destroy with <link linkend="hb-blob-destroy"><function>hb_blob_destroy()</function></link>.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.8.2">2.8.2</link></para></refsect2>
+<refsect2 id="hb-blob-create-from-file" role="function" condition="since:1.7.7">
+<title>hb_blob_create_from_file&#160;()</title>
+<indexterm zone="hb-blob-create-from-file" role="1.7.7"><primary>hb_blob_create_from_file</primary></indexterm>
+<programlisting language="C"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+hb_blob_create_from_file (<parameter>const <link linkend="char"><type>char</type></link> *file_name</parameter>);</programlisting>
+<para>Creates a new blob containing the data from the
+specified binary font file.</para>
+<refsect3 id="hb-blob-create-from-file.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>file_name</para></entry>
+<entry role="parameter_description"><para>A font filename</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-blob-create-from-file.returns" role="returns">
+<title>Returns</title>
+<para> An <link linkend="hb-blob-t"><type>hb_blob_t</type></link> pointer with the content of the file,
+or <link linkend="hb-blob-get-empty"><function>hb_blob_get_empty()</function></link> if failed.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.7.7">1.7.7</link></para></refsect2>
+<refsect2 id="hb-blob-create-from-file-or-fail" role="function" condition="since:2.8.2">
+<title>hb_blob_create_from_file_or_fail&#160;()</title>
+<indexterm zone="hb-blob-create-from-file-or-fail" role="2.8.2"><primary>hb_blob_create_from_file_or_fail</primary></indexterm>
+<programlisting language="C"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+hb_blob_create_from_file_or_fail (<parameter>const <link linkend="char"><type>char</type></link> *file_name</parameter>);</programlisting>
+<para>Creates a new blob containing the data from the
+specified binary font file.</para>
+<refsect3 id="hb-blob-create-from-file-or-fail.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>file_name</para></entry>
+<entry role="parameter_description"><para>A font filename</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-blob-create-from-file-or-fail.returns" role="returns">
+<title>Returns</title>
+<para> An <link linkend="hb-blob-t"><type>hb_blob_t</type></link> pointer with the content of the file,
+or <literal>NULL</literal> if failed.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.8.2">2.8.2</link></para></refsect2>
+<refsect2 id="hb-blob-create-sub-blob" role="function" condition="since:0.9.2">
+<title>hb_blob_create_sub_blob&#160;()</title>
+<indexterm zone="hb-blob-create-sub-blob" role="0.9.2"><primary>hb_blob_create_sub_blob</primary></indexterm>
+<programlisting language="C"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+hb_blob_create_sub_blob (<parameter><link linkend="hb-blob-t"><type>hb_blob_t</type></link> *parent</parameter>,
+                         <parameter>unsigned <link linkend="int"><type>int</type></link> offset</parameter>,
+                         <parameter>unsigned <link linkend="int"><type>int</type></link> length</parameter>);</programlisting>
+<para>Returns a blob that represents a range of bytes in <parameter>parent</parameter>
+.  The new
+blob is always created with <link linkend="HB-MEMORY-MODE-READONLY:CAPS"><type>HB_MEMORY_MODE_READONLY</type></link>, meaning that it
+will never modify data in the parent blob.  The parent data is not
+expected to be modified, and will result in undefined behavior if it
+is.</para>
+<para>Makes <parameter>parent</parameter>
+ immutable.</para>
+<refsect3 id="hb-blob-create-sub-blob.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>parent</para></entry>
+<entry role="parameter_description"><para>Parent blob.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>offset</para></entry>
+<entry role="parameter_description"><para>Start offset of sub-blob within <parameter>parent</parameter>
+, in bytes.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>length</para></entry>
+<entry role="parameter_description"><para>Length of sub-blob.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-blob-create-sub-blob.returns" role="returns">
+<title>Returns</title>
+<para> New blob, or the empty blob if something failed or if
+<parameter>length</parameter>
+is zero or <parameter>offset</parameter>
+is beyond the end of <parameter>parent</parameter>
+'s data.  Destroy
+with <link linkend="hb-blob-destroy"><function>hb_blob_destroy()</function></link>.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-blob-copy-writable-or-fail" role="function" condition="since:1.8.0">
+<title>hb_blob_copy_writable_or_fail&#160;()</title>
+<indexterm zone="hb-blob-copy-writable-or-fail" role="1.8.0"><primary>hb_blob_copy_writable_or_fail</primary></indexterm>
+<programlisting language="C"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+hb_blob_copy_writable_or_fail (<parameter><link linkend="hb-blob-t"><type>hb_blob_t</type></link> *blob</parameter>);</programlisting>
+<para>Makes a writable copy of <parameter>blob</parameter>
+.</para>
+<refsect3 id="hb-blob-copy-writable-or-fail.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>blob</para></entry>
+<entry role="parameter_description"><para>A blob.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-blob-copy-writable-or-fail.returns" role="returns">
+<title>Returns</title>
+<para> The new blob, or nullptr if allocation failed</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.8.0">1.8.0</link></para></refsect2>
+<refsect2 id="hb-blob-get-empty" role="function" condition="since:0.9.2">
+<title>hb_blob_get_empty&#160;()</title>
+<indexterm zone="hb-blob-get-empty" role="0.9.2"><primary>hb_blob_get_empty</primary></indexterm>
+<programlisting language="C"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+hb_blob_get_empty (<parameter><type>void</type></parameter>);</programlisting>
+<para>Returns the singleton empty blob.</para>
+<para>See TODO:link object types for more information.</para>
+<refsect3 id="hb-blob-get-empty.returns" role="returns">
+<title>Returns</title>
+<para>The empty blob. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-blob-reference" role="function" condition="since:0.9.2">
+<title>hb_blob_reference&#160;()</title>
+<indexterm zone="hb-blob-reference" role="0.9.2"><primary>hb_blob_reference</primary></indexterm>
+<programlisting language="C"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+hb_blob_reference (<parameter><link linkend="hb-blob-t"><type>hb_blob_t</type></link> *blob</parameter>);</programlisting>
+<para>Increases the reference count on <parameter>blob</parameter>
+.</para>
+<para>See TODO:link object types for more information.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-blob-reference.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>blob</para></entry>
+<entry role="parameter_description"><para>a blob.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-blob-reference.returns" role="returns">
+<title>Returns</title>
+<para> <parameter>blob</parameter>
+.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-blob-destroy" role="function" condition="since:0.9.2">
+<title>hb_blob_destroy&#160;()</title>
+<indexterm zone="hb-blob-destroy" role="0.9.2"><primary>hb_blob_destroy</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_blob_destroy (<parameter><link linkend="hb-blob-t"><type>hb_blob_t</type></link> *blob</parameter>);</programlisting>
+<para>Decreases the reference count on <parameter>blob</parameter>
+, and if it reaches zero, destroys
+<parameter>blob</parameter>
+, freeing all memory, possibly calling the destroy-callback the blob
+was created for if it has not been called already.</para>
+<para>See TODO:link object types for more information.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-blob-destroy.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>blob</para></entry>
+<entry role="parameter_description"><para>a blob.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-blob-set-user-data" role="function" condition="since:0.9.2">
+<title>hb_blob_set_user_data&#160;()</title>
+<indexterm zone="hb-blob-set-user-data" role="0.9.2"><primary>hb_blob_set_user_data</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_blob_set_user_data (<parameter><link linkend="hb-blob-t"><type>hb_blob_t</type></link> *blob</parameter>,
+                       <parameter><link linkend="hb-user-data-key-t"><type>hb_user_data_key_t</type></link> *key</parameter>,
+                       <parameter><link linkend="void"><type>void</type></link> *data</parameter>,
+                       <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>,
+                       <parameter><link linkend="hb-bool-t"><type>hb_bool_t</type></link> replace</parameter>);</programlisting>
+<para>Attaches a user-data key/data pair to the specified blob.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-blob-set-user-data.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>blob</para></entry>
+<entry role="parameter_description"><para>An <link linkend="hb-blob-t"><type>hb_blob_t</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>key</para></entry>
+<entry role="parameter_description"><para>The user-data key to set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>data</para></entry>
+<entry role="parameter_description"><para>A pointer to the user data to set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>A callback to call when <parameter>data</parameter>
+is not needed anymore. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>replace</para></entry>
+<entry role="parameter_description"><para>Whether to replace an existing data with the same key</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-blob-set-user-data.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if success, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-blob-get-user-data" role="function" condition="since:0.9.2">
+<title>hb_blob_get_user_data&#160;()</title>
+<indexterm zone="hb-blob-get-user-data" role="0.9.2"><primary>hb_blob_get_user_data</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>&#160;*
+hb_blob_get_user_data (<parameter>const <link linkend="hb-blob-t"><type>hb_blob_t</type></link> *blob</parameter>,
+                       <parameter><link linkend="hb-user-data-key-t"><type>hb_user_data_key_t</type></link> *key</parameter>);</programlisting>
+<para>Fetches the user data associated with the specified key,
+attached to the specified font-functions structure.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-blob-get-user-data.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>blob</para></entry>
+<entry role="parameter_description"><para>a blob</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>key</para></entry>
+<entry role="parameter_description"><para>The user-data key to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-blob-get-user-data.returns" role="returns">
+<title>Returns</title>
+<para>A pointer to the user data. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-blob-make-immutable" role="function" condition="since:0.9.2">
+<title>hb_blob_make_immutable&#160;()</title>
+<indexterm zone="hb-blob-make-immutable" role="0.9.2"><primary>hb_blob_make_immutable</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_blob_make_immutable (<parameter><link linkend="hb-blob-t"><type>hb_blob_t</type></link> *blob</parameter>);</programlisting>
+<para>Makes a blob immutable.</para>
+<refsect3 id="hb-blob-make-immutable.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>blob</para></entry>
+<entry role="parameter_description"><para>a blob</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-blob-is-immutable" role="function" condition="since:0.9.2">
+<title>hb_blob_is_immutable&#160;()</title>
+<indexterm zone="hb-blob-is-immutable" role="0.9.2"><primary>hb_blob_is_immutable</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_blob_is_immutable (<parameter><link linkend="hb-blob-t"><type>hb_blob_t</type></link> *blob</parameter>);</programlisting>
+<para>Tests whether a blob is immutable.</para>
+<refsect3 id="hb-blob-is-immutable.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>blob</para></entry>
+<entry role="parameter_description"><para>a blob.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-blob-is-immutable.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if <parameter>blob</parameter>
+is immutable, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-blob-get-data" role="function" condition="since:0.9.2">
+<title>hb_blob_get_data&#160;()</title>
+<indexterm zone="hb-blob-get-data" role="0.9.2"><primary>hb_blob_get_data</primary></indexterm>
+<programlisting language="C">const <link linkend="char"><returnvalue>char</returnvalue></link>&#160;*
+hb_blob_get_data (<parameter><link linkend="hb-blob-t"><type>hb_blob_t</type></link> *blob</parameter>,
+                  <parameter>unsigned <link linkend="int"><type>int</type></link> *length</parameter>);</programlisting>
+<para>Fetches the data from a blob.</para>
+<refsect3 id="hb-blob-get-data.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>blob</para></entry>
+<entry role="parameter_description"><para>a blob.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>length</para></entry>
+<entry role="parameter_description"><para>The length in bytes of the data retrieved. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-blob-get-data.returns" role="returns">
+<title>Returns</title>
+<para>the byte data of <parameter>blob</parameter>
+. </para>
+<para><emphasis role="annotation">[<acronym>nullable</acronym>][<acronym>transfer none</acronym>][<acronym>array</acronym> length=length]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-blob-get-data-writable" role="function" condition="since:0.9.2">
+<title>hb_blob_get_data_writable&#160;()</title>
+<indexterm zone="hb-blob-get-data-writable" role="0.9.2"><primary>hb_blob_get_data_writable</primary></indexterm>
+<programlisting language="C"><link linkend="char"><returnvalue>char</returnvalue></link>&#160;*
+hb_blob_get_data_writable (<parameter><link linkend="hb-blob-t"><type>hb_blob_t</type></link> *blob</parameter>,
+                           <parameter>unsigned <link linkend="int"><type>int</type></link> *length</parameter>);</programlisting>
+<para>Tries to make blob data writable (possibly copying it) and
+return pointer to data.</para>
+<para>Fails if blob has been made immutable, or if memory allocation
+fails.</para>
+<refsect3 id="hb-blob-get-data-writable.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>blob</para></entry>
+<entry role="parameter_description"><para>a blob.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>length</para></entry>
+<entry role="parameter_description"><para>output length of the writable data. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-blob-get-data-writable.returns" role="returns">
+<title>Returns</title>
+<para>Writable blob data,
+or <literal>NULL</literal> if failed. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>][<acronym>array</acronym> length=length]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-blob-get-length" role="function" condition="since:0.9.2">
+<title>hb_blob_get_length&#160;()</title>
+<indexterm zone="hb-blob-get-length" role="0.9.2"><primary>hb_blob_get_length</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_blob_get_length (<parameter><link linkend="hb-blob-t"><type>hb_blob_t</type></link> *blob</parameter>);</programlisting>
+<para>Fetches the length of a blob's data.</para>
+<refsect3 id="hb-blob-get-length.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>blob</para></entry>
+<entry role="parameter_description"><para>a blob.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-blob-get-length.returns" role="returns">
+<title>Returns</title>
+<para> the length of <parameter>blob</parameter>
+data in bytes.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-blob.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="hb-blob-t" role="typedef">
+<title>hb_blob_t</title>
+<indexterm zone="hb-blob-t"><primary>hb_blob_t</primary></indexterm>
+<programlisting language="C">typedef struct hb_blob_t hb_blob_t;
+</programlisting>
+<para>Data type for blobs. A blob wraps a chunk of binary
+data and facilitates its lifecycle management between
+a client program and HarfBuzz.</para>
+</refsect2>
+<refsect2 id="hb-memory-mode-t" role="enum">
+<title>enum hb_memory_mode_t</title>
+<indexterm zone="hb-memory-mode-t"><primary>hb_memory_mode_t</primary></indexterm>
+<para>Data type holding the memory modes available to
+client programs.</para>
+<para>Regarding these various memory-modes:</para>
+<itemizedlist>
+<listitem>
+<para>In no case shall the HarfBuzz client modify memory
+that is passed to HarfBuzz in a blob.  If there is
+any such possibility, <parameter>HB_MEMORY_MODE_DUPLICATE</parameter>
+ should be used
+such that HarfBuzz makes a copy immediately,</para>
+</listitem>
+<listitem>
+<para>Use <parameter>HB_MEMORY_MODE_READONLY</parameter>
+ otherwise, unless you really really
+really know what you are doing,</para>
+</listitem>
+<listitem>
+<para><parameter>HB_MEMORY_MODE_WRITABLE</parameter>
+ is appropriate if you really made a
+copy of data solely for the purpose of passing to
+HarfBuzz and doing that just once (no reuse!),</para>
+</listitem>
+<listitem><para>If the font is <link linkend="mmap"><function>mmap()</function></link>ed, it's okay to use
+<parameter>HB_MEMORY_MODE_READONLY_MAY_MAKE_WRITABLE</parameter>
+, however, using that mode
+correctly is very tricky.  Use <parameter>HB_MEMORY_MODE_READONLY</parameter>
+ instead.</para></listitem>
+</itemizedlist>
+<refsect3 id="hb-memory-mode-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-MEMORY-MODE-DUPLICATE:CAPS">HB_MEMORY_MODE_DUPLICATE</para></entry>
+<entry role="enum_member_description"><para>HarfBuzz immediately makes a copy of the data.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-MEMORY-MODE-READONLY:CAPS">HB_MEMORY_MODE_READONLY</para></entry>
+<entry role="enum_member_description"><para>HarfBuzz client will never modify the data,
+and HarfBuzz will never modify the data.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-MEMORY-MODE-WRITABLE:CAPS">HB_MEMORY_MODE_WRITABLE</para></entry>
+<entry role="enum_member_description"><para>HarfBuzz client made a copy of the data solely
+for HarfBuzz, so HarfBuzz may modify the data.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-MEMORY-MODE-READONLY-MAY-MAKE-WRITABLE:CAPS">HB_MEMORY_MODE_READONLY_MAY_MAKE_WRITABLE</para></entry>
+<entry role="enum_member_description"><para>See above</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3></refsect2>
+
+</refsect1>
+
+</refentry>

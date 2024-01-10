@@ -1,0 +1,13 @@
+prefix=/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build
+srcdir=/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+Name: harfbuzz-cairo
+Description: HarfBuzz cairo support
+Version: 8.1.1
+Requires: harfbuzz =  8.1.1
+Requires.private: freetype2, glib-2.0, graphite2, cairo
+Libs: -L${prefix}/src -lharfbuzz-cairo
+Libs.private: -lm -L${prefix}/src -lharfbuzz -pthread
+Cflags: -I${prefix}/src -I${srcdir}/src -I${prefix}/. -I${srcdir}/.

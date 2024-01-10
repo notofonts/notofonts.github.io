@@ -1,0 +1,687 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-ot-color">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-ot-color.top_of_page">hb-ot-color</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-ot-color</refname>
+<refpurpose>OpenType Color Fonts</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-ot-color.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-COLOR:CAPS">HB_COLOR</link><phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="uint8-t"><returnvalue>uint8_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-color-get-alpha">hb_color_get_alpha</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="uint8-t"><returnvalue>uint8_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-color-get-blue">hb_color_get_blue</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="uint8-t"><returnvalue>uint8_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-color-get-green">hb_color_get_green</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="uint8-t"><returnvalue>uint8_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-color-get-red">hb_color_get_red</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-color-glyph-get-layers">hb_ot_color_glyph_get_layers</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-ot-color-glyph-reference-png">hb_ot_color_glyph_reference_png</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-ot-color-glyph-reference-svg">hb_ot_color_glyph_reference_svg</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-color-has-layers">hb_ot_color_has_layers</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-color-has-paint">hb_ot_color_has_paint</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-color-glyph-has-paint">hb_ot_color_glyph_has_paint</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-color-has-palettes">hb_ot_color_has_palettes</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-color-has-png">hb_ot_color_has_png</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-color-has-svg">hb_ot_color_has_svg</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-ot-name-id-t"><returnvalue>hb_ot_name_id_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-color-palette-color-get-name-id">hb_ot_color_palette_color_get_name_id</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-color-palette-get-colors">hb_ot_color_palette_get_colors</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-color-palette-get-count">hb_ot_color_palette_get_count</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-ot-color-palette-flags-t"><returnvalue>hb_ot_color_palette_flags_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-color-palette-get-flags">hb_ot_color_palette_get_flags</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-ot-name-id-t"><returnvalue>hb_ot_name_id_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-color-palette-get-name-id">hb_ot_color_palette_get_name_id</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-color.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="typedef_keyword">typedef</entry><entry role="function_name"><link linkend="hb-color-t">hb_color_t</link></entry></row>
+<row><entry role="datatype_keyword"></entry><entry role="function_name"><link linkend="hb-ot-color-layer-t">hb_ot_color_layer_t</link></entry></row>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-ot-color-palette-flags-t">hb_ot_color_palette_flags_t</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-ot-color.includes"><title>Includes</title><synopsis>#include &lt;hb-ot.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-ot-color.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Functions for fetching color-font information from OpenType font faces.</para>
+<para>HarfBuzz supports <literal>COLR</literal>/<literal>CPAL</literal>, <literal>sbix</literal>, <literal>CBDT</literal>, and <literal>SVG</literal> color fonts.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-color.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="HB-COLOR:CAPS" role="macro" condition="since:2.1.0">
+<title>HB_COLOR()</title>
+<indexterm zone="HB-COLOR:CAPS" role="2.1.0"><primary>HB_COLOR</primary></indexterm>
+<programlisting language="C">#define HB_COLOR(b,g,r,a) ((hb_color_t) HB_TAG ((b),(g),(r),(a)))
+</programlisting>
+<para>Constructs an <link linkend="hb-color-t"><type>hb_color_t</type></link> from four integers.</para>
+<refsect3 id="HB-COLOR.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>b</para></entry>
+<entry role="parameter_description"><para>blue channel value</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>g</para></entry>
+<entry role="parameter_description"><para>green channel value</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>r</para></entry>
+<entry role="parameter_description"><para>red channel value</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>a</para></entry>
+<entry role="parameter_description"><para>alpha channel value</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-color-get-alpha" role="function" condition="since:2.1.0">
+<title>hb_color_get_alpha&#160;()</title>
+<indexterm zone="hb-color-get-alpha" role="2.1.0"><primary>hb_color_get_alpha</primary></indexterm>
+<programlisting language="C"><link linkend="uint8-t"><returnvalue>uint8_t</returnvalue></link>
+hb_color_get_alpha (<parameter><link linkend="hb-color-t"><type>hb_color_t</type></link> color</parameter>);</programlisting>
+<para>Fetches the alpha channel of the given <parameter>color</parameter>
+.</para>
+<refsect3 id="hb-color-get-alpha.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>color</para></entry>
+<entry role="parameter_description"><para>an <link linkend="hb-color-t"><type>hb_color_t</type></link> we are interested in its channels.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-color-get-alpha.returns" role="returns">
+<title>Returns</title>
+<para> Alpha channel value</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-color-get-blue" role="function" condition="since:2.1.0">
+<title>hb_color_get_blue&#160;()</title>
+<indexterm zone="hb-color-get-blue" role="2.1.0"><primary>hb_color_get_blue</primary></indexterm>
+<programlisting language="C"><link linkend="uint8-t"><returnvalue>uint8_t</returnvalue></link>
+hb_color_get_blue (<parameter><link linkend="hb-color-t"><type>hb_color_t</type></link> color</parameter>);</programlisting>
+<para>Fetches the blue channel of the given <parameter>color</parameter>
+.</para>
+<refsect3 id="hb-color-get-blue.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>color</para></entry>
+<entry role="parameter_description"><para>an <link linkend="hb-color-t"><type>hb_color_t</type></link> we are interested in its channels.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-color-get-blue.returns" role="returns">
+<title>Returns</title>
+<para> Blue channel value</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-color-get-green" role="function" condition="since:2.1.0">
+<title>hb_color_get_green&#160;()</title>
+<indexterm zone="hb-color-get-green" role="2.1.0"><primary>hb_color_get_green</primary></indexterm>
+<programlisting language="C"><link linkend="uint8-t"><returnvalue>uint8_t</returnvalue></link>
+hb_color_get_green (<parameter><link linkend="hb-color-t"><type>hb_color_t</type></link> color</parameter>);</programlisting>
+<para>Fetches the green channel of the given <parameter>color</parameter>
+.</para>
+<refsect3 id="hb-color-get-green.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>color</para></entry>
+<entry role="parameter_description"><para>an <link linkend="hb-color-t"><type>hb_color_t</type></link> we are interested in its channels.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-color-get-green.returns" role="returns">
+<title>Returns</title>
+<para> Green channel value</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-color-get-red" role="function" condition="since:2.1.0">
+<title>hb_color_get_red&#160;()</title>
+<indexterm zone="hb-color-get-red" role="2.1.0"><primary>hb_color_get_red</primary></indexterm>
+<programlisting language="C"><link linkend="uint8-t"><returnvalue>uint8_t</returnvalue></link>
+hb_color_get_red (<parameter><link linkend="hb-color-t"><type>hb_color_t</type></link> color</parameter>);</programlisting>
+<para>Fetches the red channel of the given <parameter>color</parameter>
+.</para>
+<refsect3 id="hb-color-get-red.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>color</para></entry>
+<entry role="parameter_description"><para>an <link linkend="hb-color-t"><type>hb_color_t</type></link> we are interested in its channels.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-color-get-red.returns" role="returns">
+<title>Returns</title>
+<para> Red channel value</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-ot-color-glyph-get-layers" role="function" condition="since:2.1.0">
+<title>hb_ot_color_glyph_get_layers&#160;()</title>
+<indexterm zone="hb-ot-color-glyph-get-layers" role="2.1.0"><primary>hb_ot_color_glyph_get_layers</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_color_glyph_get_layers (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                              <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>,
+                              <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                              <parameter>unsigned <link linkend="int"><type>int</type></link> *layer_count</parameter>,
+                              <parameter><link linkend="hb-ot-color-layer-t"><type>hb_ot_color_layer_t</type></link> *layers</parameter>);</programlisting>
+<para>Fetches a list of all color layers for the specified glyph index in the specified
+face. The list returned will begin at the offset provided.</para>
+<refsect3 id="hb-ot-color-glyph-get-layers.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>The glyph index to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>offset of the first layer to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>layer_count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of layers to return;
+Output = the actual number of layers returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>layers</para></entry>
+<entry role="parameter_description"><para>The array of layers found. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>array</acronym> length=layer_count][<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-color-glyph-get-layers.returns" role="returns">
+<title>Returns</title>
+<para> Total number of layers available for the glyph index queried</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-ot-color-glyph-reference-png" role="function" condition="since:2.1.0">
+<title>hb_ot_color_glyph_reference_png&#160;()</title>
+<indexterm zone="hb-ot-color-glyph-reference-png" role="2.1.0"><primary>hb_ot_color_glyph_reference_png</primary></indexterm>
+<programlisting language="C"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+hb_ot_color_glyph_reference_png (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                                 <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>);</programlisting>
+<para>Fetches the PNG image for a glyph. This function takes a font object, not a face object,
+as input. To get an optimally sized PNG blob, the PPEM values must be set on the <parameter>font</parameter>
+
+object. If PPEM is unset, the blob returned will be the largest PNG available.</para>
+<para>If the glyph has no PNG image, the singleton empty blob is returned.</para>
+<refsect3 id="hb-ot-color-glyph-reference-png.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>a glyph index</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-color-glyph-reference-png.returns" role="returns">
+<title>Returns</title>
+<para>An <link linkend="hb-blob-t"><type>hb_blob_t</type></link> containing the PNG image for the glyph, if available. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-ot-color-glyph-reference-svg" role="function" condition="since:2.1.0">
+<title>hb_ot_color_glyph_reference_svg&#160;()</title>
+<indexterm zone="hb-ot-color-glyph-reference-svg" role="2.1.0"><primary>hb_ot_color_glyph_reference_svg</primary></indexterm>
+<programlisting language="C"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+hb_ot_color_glyph_reference_svg (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                 <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>);</programlisting>
+<para>Fetches the SVG document for a glyph. The blob may be either plain text or gzip-encoded.</para>
+<para>If the glyph has no SVG document, the singleton empty blob is returned.</para>
+<refsect3 id="hb-ot-color-glyph-reference-svg.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>a svg glyph index</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-color-glyph-reference-svg.returns" role="returns">
+<title>Returns</title>
+<para>An <link linkend="hb-blob-t"><type>hb_blob_t</type></link> containing the SVG document of the glyph, if available. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-ot-color-has-layers" role="function" condition="since:2.1.0">
+<title>hb_ot_color_has_layers&#160;()</title>
+<indexterm zone="hb-ot-color-has-layers" role="2.1.0"><primary>hb_ot_color_has_layers</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_color_has_layers (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Tests whether a face includes a <literal>COLR</literal> table
+with data according to COLRv0.</para>
+<refsect3 id="hb-ot-color-has-layers.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-color-has-layers.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if data found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-ot-color-has-paint" role="function" condition="since:7.0.0">
+<title>hb_ot_color_has_paint&#160;()</title>
+<indexterm zone="hb-ot-color-has-paint" role="7.0.0"><primary>hb_ot_color_has_paint</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_color_has_paint (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Tests where a face includes a <literal>COLR</literal> table
+with data according to COLRv1.</para>
+<refsect3 id="hb-ot-color-has-paint.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-color-has-paint.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if data found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-ot-color-glyph-has-paint" role="function" condition="since:7.0.0">
+<title>hb_ot_color_glyph_has_paint&#160;()</title>
+<indexterm zone="hb-ot-color-glyph-has-paint" role="7.0.0"><primary>hb_ot_color_glyph_has_paint</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_color_glyph_has_paint (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                             <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>);</programlisting>
+<para>Tests where a face includes COLRv1 paint
+data for <parameter>glyph</parameter>
+.</para>
+<refsect3 id="hb-ot-color-glyph-has-paint.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>The glyph index to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-color-glyph-has-paint.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if data found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-ot-color-has-palettes" role="function" condition="since:2.1.0">
+<title>hb_ot_color_has_palettes&#160;()</title>
+<indexterm zone="hb-ot-color-has-palettes" role="2.1.0"><primary>hb_ot_color_has_palettes</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_color_has_palettes (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Tests whether a face includes a <literal>CPAL</literal> color-palette table.</para>
+<refsect3 id="hb-ot-color-has-palettes.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-color-has-palettes.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if data found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-ot-color-has-png" role="function" condition="since:2.1.0">
+<title>hb_ot_color_has_png&#160;()</title>
+<indexterm zone="hb-ot-color-has-png" role="2.1.0"><primary>hb_ot_color_has_png</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_color_has_png (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Tests whether a face has PNG glyph images (either in <literal>CBDT</literal> or <literal>sbix</literal> tables).</para>
+<refsect3 id="hb-ot-color-has-png.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-color-has-png.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if data found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-ot-color-has-svg" role="function" condition="since:2.1.0">
+<title>hb_ot_color_has_svg&#160;()</title>
+<indexterm zone="hb-ot-color-has-svg" role="2.1.0"><primary>hb_ot_color_has_svg</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_color_has_svg (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Tests whether a face includes any <literal>SVG</literal> glyph images.</para>
+<refsect3 id="hb-ot-color-has-svg.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-color-has-svg.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if data found, <literal>false</literal> otherwise.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-ot-color-palette-color-get-name-id" role="function" condition="since:2.1.0">
+<title>hb_ot_color_palette_color_get_name_id&#160;()</title>
+<indexterm zone="hb-ot-color-palette-color-get-name-id" role="2.1.0"><primary>hb_ot_color_palette_color_get_name_id</primary></indexterm>
+<programlisting language="C"><link linkend="hb-ot-name-id-t"><returnvalue>hb_ot_name_id_t</returnvalue></link>
+hb_ot_color_palette_color_get_name_id (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                       <parameter>unsigned <link linkend="int"><type>int</type></link> color_index</parameter>);</programlisting>
+<para>Fetches the <literal>name</literal> table Name ID that provides display names for
+the specified color in a face's <literal>CPAL</literal> color palette.</para>
+<para>Display names can be generic (e.g., "Background") or specific
+(e.g., "Eye color").</para>
+<refsect3 id="hb-ot-color-palette-color-get-name-id.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>color_index</para></entry>
+<entry role="parameter_description"><para>The index of the color</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-color-palette-color-get-name-id.returns" role="returns">
+<title>Returns</title>
+<para> the Name ID found for the color.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-ot-color-palette-get-colors" role="function" condition="since:2.1.0">
+<title>hb_ot_color_palette_get_colors&#160;()</title>
+<indexterm zone="hb-ot-color-palette-get-colors" role="2.1.0"><primary>hb_ot_color_palette_get_colors</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_color_palette_get_colors (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> palette_index</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> *color_count</parameter>,
+                                <parameter><link linkend="hb-color-t"><type>hb_color_t</type></link> *colors</parameter>);</programlisting>
+<para>Fetches a list of the colors in a color palette.</para>
+<para>After calling this function, <parameter>colors</parameter>
+ will be filled with the palette
+colors. If <parameter>colors</parameter>
+ is NULL, the function will just return the number
+of total colors without storing any actual colors; this can be used
+for allocating a buffer of suitable size before calling
+<link linkend="hb-ot-color-palette-get-colors"><function>hb_ot_color_palette_get_colors()</function></link> a second time.</para>
+<para>The RGBA values in the palette are unpremultiplied. See the
+OpenType spec <ulink url="https://learn.microsoft.com/en-us/typography/opentype/spec/cpal">CPAL</ulink>
+section for details.</para>
+<refsect3 id="hb-ot-color-palette-get-colors.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>palette_index</para></entry>
+<entry role="parameter_description"><para>the index of the color palette to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>offset of the first color to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>color_count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of colors to return;
+Output = the actual number of colors returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>colors</para></entry>
+<entry role="parameter_description"><para>The array of <link linkend="hb-color-t"><type>hb_color_t</type></link> records found. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>array</acronym> length=color_count][<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-color-palette-get-colors.returns" role="returns">
+<title>Returns</title>
+<para> the total number of colors in the palette</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-ot-color-palette-get-count" role="function" condition="since:2.1.0">
+<title>hb_ot_color_palette_get_count&#160;()</title>
+<indexterm zone="hb-ot-color-palette-get-count" role="2.1.0"><primary>hb_ot_color_palette_get_count</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_color_palette_get_count (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Fetches the number of color palettes in a face.</para>
+<refsect3 id="hb-ot-color-palette-get-count.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-color-palette-get-count.returns" role="returns">
+<title>Returns</title>
+<para> the number of palettes found</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-ot-color-palette-get-flags" role="function" condition="since:2.1.0">
+<title>hb_ot_color_palette_get_flags&#160;()</title>
+<indexterm zone="hb-ot-color-palette-get-flags" role="2.1.0"><primary>hb_ot_color_palette_get_flags</primary></indexterm>
+<programlisting language="C"><link linkend="hb-ot-color-palette-flags-t"><returnvalue>hb_ot_color_palette_flags_t</returnvalue></link>
+hb_ot_color_palette_get_flags (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                               <parameter>unsigned <link linkend="int"><type>int</type></link> palette_index</parameter>);</programlisting>
+<para>Fetches the flags defined for a color palette.</para>
+<refsect3 id="hb-ot-color-palette-get-flags.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>palette_index</para></entry>
+<entry role="parameter_description"><para>The index of the color palette</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-color-palette-get-flags.returns" role="returns">
+<title>Returns</title>
+<para> the <link linkend="hb-ot-color-palette-flags-t"><type>hb_ot_color_palette_flags_t</type></link> of the requested color palette</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-ot-color-palette-get-name-id" role="function" condition="since:2.1.0">
+<title>hb_ot_color_palette_get_name_id&#160;()</title>
+<indexterm zone="hb-ot-color-palette-get-name-id" role="2.1.0"><primary>hb_ot_color_palette_get_name_id</primary></indexterm>
+<programlisting language="C"><link linkend="hb-ot-name-id-t"><returnvalue>hb_ot_name_id_t</returnvalue></link>
+hb_ot_color_palette_get_name_id (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                 <parameter>unsigned <link linkend="int"><type>int</type></link> palette_index</parameter>);</programlisting>
+<para>Fetches the <literal>name</literal> table Name ID that provides display names for
+a <literal>CPAL</literal> color palette.</para>
+<para>Palette display names can be generic (e.g., "Default") or provide
+specific, themed names (e.g., "Spring", "Summer", "Fall", and "Winter").</para>
+<refsect3 id="hb-ot-color-palette-get-name-id.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>palette_index</para></entry>
+<entry role="parameter_description"><para>The index of the color palette</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-color-palette-get-name-id.returns" role="returns">
+<title>Returns</title>
+<para> the Named ID found for the palette.
+If the requested palette has no name the result is <link linkend="HB-OT-NAME-ID-INVALID:CAPS"><type>HB_OT_NAME_ID_INVALID</type></link>.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-color.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="hb-color-t" role="typedef" condition="since:2.1.0">
+<title>hb_color_t</title>
+<indexterm zone="hb-color-t" role="2.1.0"><primary>hb_color_t</primary></indexterm>
+<programlisting language="C">typedef uint32_t hb_color_t;
+</programlisting>
+<para>Data type for holding color values. Colors are eight bits per
+channel RGB plus alpha transparency.</para>
+<para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-ot-color-layer-t" role="struct" condition="since:2.1.0">
+<title>hb_ot_color_layer_t</title>
+<indexterm zone="hb-ot-color-layer-t" role="2.1.0"><primary>hb_ot_color_layer_t</primary></indexterm>
+<programlisting language="C">typedef struct {
+  hb_codepoint_t glyph;
+  unsigned int   color_index;
+} hb_ot_color_layer_t;
+</programlisting>
+<para>Pairs of glyph and color index.</para>
+<para>A color index of 0xFFFF does not refer to a palette
+color, but indicates that the foreground color should
+be used.</para>
+<refsect3 id="hb-ot-color-layer-t.members" role="struct_members">
+<title>Members</title>
+<informaltable role="struct_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="struct_members_name" colwidth="300px"/>
+<colspec colname="struct_members_description"/>
+<colspec colname="struct_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link>&#160;<structfield id="hb-ot-color-layer-t.glyph">glyph</structfield>;</para></entry>
+<entry role="struct_member_description"><para>the glyph ID of the layer</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para>unsigned&#160;<link linkend="int"><type>int</type></link>&#160;<structfield id="hb-ot-color-layer-t.color-index">color_index</structfield>;</para></entry>
+<entry role="struct_member_description"><para>the palette color index of the layer</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3>
+<para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-ot-color-palette-flags-t" role="enum" condition="since:2.1.0">
+<title>enum hb_ot_color_palette_flags_t</title>
+<indexterm zone="hb-ot-color-palette-flags-t" role="2.1.0"><primary>hb_ot_color_palette_flags_t</primary></indexterm>
+<para>Flags that describe the properties of color palette.</para>
+<refsect3 id="hb-ot-color-palette-flags-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-COLOR-PALETTE-FLAG-DEFAULT:CAPS">HB_OT_COLOR_PALETTE_FLAG_DEFAULT</para></entry>
+<entry role="enum_member_description"><para>Default indicating that there is nothing special
+to note about a color palette.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-COLOR-PALETTE-FLAG-USABLE-WITH-LIGHT-BACKGROUND:CAPS">HB_OT_COLOR_PALETTE_FLAG_USABLE_WITH_LIGHT_BACKGROUND</para></entry>
+<entry role="enum_member_description"><para>Flag indicating that the color
+palette is appropriate to use when displaying the font on a light background such as white.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-COLOR-PALETTE-FLAG-USABLE-WITH-DARK-BACKGROUND:CAPS">HB_OT_COLOR_PALETTE_FLAG_USABLE_WITH_DARK_BACKGROUND</para></entry>
+<entry role="enum_member_description"><para>Flag indicating that the color
+palette is appropriate to use when displaying the font on a dark background such as black.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+
+</refsect1>
+
+</refentry>

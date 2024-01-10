@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<!DOCTYPE glossary PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<glossary id="annotation-glossary">
+  <title>Annotation Glossary</title>
+<glossdiv><title>A</title>
+    <glossentry>
+      <glossterm><anchor id="annotation-glossterm-array"/>array</glossterm>
+      <glossdef>
+        <para>Parameter points to an array of items.</para>
+      </glossdef>
+    </glossentry>
+</glossdiv>
+<glossdiv><title>C</title>
+    <glossentry>
+      <glossterm><anchor id="annotation-glossterm-closure"/>closure</glossterm>
+      <glossdef>
+        <para>This parameter is a 'user_data', for callbacks; many bindings can pass NULL here.</para>
+      </glossdef>
+    </glossentry>
+</glossdiv>
+<glossdiv><title>D</title>
+    <glossentry>
+      <glossterm><anchor id="annotation-glossterm-destroy"/>destroy</glossterm>
+      <glossdef>
+        <para>This parameter is a 'destroy_data', for callbacks.</para>
+      </glossdef>
+    </glossentry>
+</glossdiv>
+<glossdiv><title>E</title>
+    <glossentry>
+      <glossterm><anchor id="annotation-glossterm-element-type"/>element-type</glossterm>
+      <glossdef>
+        <para>Generics and defining elements of containers and arrays.</para>
+      </glossdef>
+    </glossentry>
+</glossdiv>
+<glossdiv><title>I</title>
+    <glossentry>
+      <glossterm><anchor id="annotation-glossterm-inout"/>inout</glossterm>
+      <glossdef>
+        <para>Parameter for input and for returning results. Default is <acronym>transfer full</acronym>.</para>
+      </glossdef>
+    </glossentry>
+</glossdiv>
+<glossdiv><title>N</title>
+    <glossentry>
+      <glossterm><anchor id="annotation-glossterm-nullable"/>nullable</glossterm>
+      <glossdef>
+        <para>NULL may be passed as the value in, out, in-out; or as a return value.</para>
+      </glossdef>
+    </glossentry>
+</glossdiv>
+<glossdiv><title>O</title>
+    <glossentry>
+      <glossterm><anchor id="annotation-glossterm-optional"/>optional</glossterm>
+      <glossdef>
+        <para>NULL may be passed instead of a pointer to a location.</para>
+      </glossdef>
+    </glossentry>
+    <glossentry>
+      <glossterm><anchor id="annotation-glossterm-out"/>out</glossterm>
+      <glossdef>
+        <para>Parameter for returning results. Default is <acronym>transfer full</acronym>.</para>
+      </glossdef>
+    </glossentry>
+    <glossentry>
+      <glossterm><anchor id="annotation-glossterm-out caller-allocates"/>out caller-allocates</glossterm>
+      <glossdef>
+        <para>Out parameter, where caller must allocate storage.</para>
+      </glossdef>
+    </glossentry>
+</glossdiv>
+<glossdiv><title>S</title>
+    <glossentry>
+      <glossterm><anchor id="annotation-glossterm-scope notified"/>scope notified</glossterm>
+      <glossdef>
+        <para>The callback is valid until the GDestroyNotify argument is called.</para>
+      </glossdef>
+    </glossentry>
+    <glossentry>
+      <glossterm><anchor id="annotation-glossterm-skip"/>skip</glossterm>
+      <glossdef>
+        <para>Exposed in C code, not necessarily available in other languages.</para>
+      </glossdef>
+    </glossentry>
+</glossdiv>
+<glossdiv><title>T</title>
+    <glossentry>
+      <glossterm><anchor id="annotation-glossterm-transfer full"/>transfer full</glossterm>
+      <glossdef>
+        <para>The caller owns the data, and is responsible for free it.</para>
+      </glossdef>
+    </glossentry>
+    <glossentry>
+      <glossterm><anchor id="annotation-glossterm-transfer none"/>transfer none</glossterm>
+      <glossdef>
+        <para>The data is owned by the callee, which is responsible of freeing it.</para>
+      </glossdef>
+    </glossentry>
+</glossdiv>
+</glossary>

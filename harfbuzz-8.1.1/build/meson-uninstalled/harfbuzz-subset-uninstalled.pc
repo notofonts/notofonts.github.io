@@ -1,0 +1,12 @@
+prefix=/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build
+srcdir=/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+Name: harfbuzz-subset
+Description: HarfBuzz font subsetter
+Version: 8.1.1
+Requires: harfbuzz =  8.1.1
+Libs: -L${prefix}/src -lharfbuzz-subset
+Libs.private: -lm
+Cflags: -I${prefix}/src -I${srcdir}/src -I${prefix}/. -I${srcdir}/.

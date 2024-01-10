@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-ot-meta">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-ot-meta.top_of_page">hb-ot-meta</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-ot-meta</refname>
+<refpurpose>OpenType Metadata</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-ot-meta.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-meta-get-entry-tags">hb_ot_meta_get_entry_tags</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-ot-meta-reference-entry">hb_ot_meta_reference_entry</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-meta.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-ot-meta-tag-t">hb_ot_meta_tag_t</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-ot-meta.includes"><title>Includes</title><synopsis>#include &lt;hb-ot.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-ot-meta.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Functions for fetching metadata from fonts.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-meta.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-ot-meta-get-entry-tags" role="function" condition="since:2.6.0">
+<title>hb_ot_meta_get_entry_tags&#160;()</title>
+<indexterm zone="hb-ot-meta-get-entry-tags" role="2.6.0"><primary>hb_ot_meta_get_entry_tags</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_meta_get_entry_tags (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                           <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                           <parameter>unsigned <link linkend="int"><type>int</type></link> *entries_count</parameter>,
+                           <parameter><link linkend="hb-ot-meta-tag-t"><type>hb_ot_meta_tag_t</type></link> *entries</parameter>);</programlisting>
+<para>Fetches all available feature types.</para>
+<refsect3 id="hb-ot-meta-get-entry-tags.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>a face object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>iteration's start offset</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>entries_count</para></entry>
+<entry role="parameter_description"><para>buffer size as input, filled size as output. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>entries</para></entry>
+<entry role="parameter_description"><para>entries tags buffer. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out caller-allocates</acronym>][<acronym>array</acronym> length=entries_count]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-meta-get-entry-tags.returns" role="returns">
+<title>Returns</title>
+<para> Number of all available feature types.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.6.0">2.6.0</link></para></refsect2>
+<refsect2 id="hb-ot-meta-reference-entry" role="function" condition="since:2.6.0">
+<title>hb_ot_meta_reference_entry&#160;()</title>
+<indexterm zone="hb-ot-meta-reference-entry" role="2.6.0"><primary>hb_ot_meta_reference_entry</primary></indexterm>
+<programlisting language="C"><link linkend="hb-blob-t"><returnvalue>hb_blob_t</returnvalue></link>&#160;*
+hb_ot_meta_reference_entry (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                            <parameter><link linkend="hb-ot-meta-tag-t"><type>hb_ot_meta_tag_t</type></link> meta_tag</parameter>);</programlisting>
+<para>It fetches metadata entry of a given tag from a font.</para>
+<refsect3 id="hb-ot-meta-reference-entry.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-face-t"><type>hb_face_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>meta_tag</para></entry>
+<entry role="parameter_description"><para>tag of metadata you like to have.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-meta-reference-entry.returns" role="returns">
+<title>Returns</title>
+<para>A blob containing the blob. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.6.0">2.6.0</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-meta.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="hb-ot-meta-tag-t" role="enum" condition="since:2.6.0">
+<title>enum hb_ot_meta_tag_t</title>
+<indexterm zone="hb-ot-meta-tag-t" role="2.6.0"><primary>hb_ot_meta_tag_t</primary></indexterm>
+<para>Known metadata tags from https://docs.microsoft.com/en-us/typography/opentype/spec/meta</para>
+<refsect3 id="hb-ot-meta-tag-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-META-TAG-DESIGN-LANGUAGES:CAPS">HB_OT_META_TAG_DESIGN_LANGUAGES</para></entry>
+<entry role="enum_member_description"><para>Design languages. Text, using only
+Basic Latin (ASCII) characters. Indicates languages and/or scripts
+for the user audiences that the font was primarily designed for.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-META-TAG-SUPPORTED-LANGUAGES:CAPS">HB_OT_META_TAG_SUPPORTED_LANGUAGES</para></entry>
+<entry role="enum_member_description"><para>Supported languages. Text, using
+only Basic Latin (ASCII) characters. Indicates languages and/or scripts
+that the font is declared to be capable of supporting.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-2.6.0">2.6.0</link></para></refsect2>
+
+</refsect1>
+
+</refentry>

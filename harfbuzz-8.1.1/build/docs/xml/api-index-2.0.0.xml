@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-2.0.0">
+<indexdiv><title>B</title>
+<indexentry><primaryie linkends="hb-buffer-get-invisible-glyph"><link linkend="hb-buffer-get-invisible-glyph">hb_buffer_get_invisible_glyph</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-set-invisible-glyph"><link linkend="hb-buffer-set-invisible-glyph">hb_buffer_set_invisible_glyph</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="HB-FEATURE-GLOBAL-END:CAPS"><link linkend="HB-FEATURE-GLOBAL-END:CAPS">HB_FEATURE_GLOBAL_END</link>, macro in <link linkend="harfbuzz-hb-common">hb-common</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HB-FEATURE-GLOBAL-START:CAPS"><link linkend="HB-FEATURE-GLOBAL-START:CAPS">HB_FEATURE_GLOBAL_START</link>, macro in <link linkend="harfbuzz-hb-common">hb-common</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-set-nominal-glyphs-func"><link linkend="hb-font-funcs-set-nominal-glyphs-func">hb_font_funcs_set_nominal_glyphs_func</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>O</title>
+<indexentry><primaryie linkends="hb-ot-layout-feature-get-characters"><link linkend="hb-ot-layout-feature-get-characters">hb_ot_layout_feature_get_characters</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-layout-feature-get-name-ids"><link linkend="hb-ot-layout-feature-get-name-ids">hb_ot_layout_feature_get_name_ids</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-layout-script-select-language"><link linkend="hb-ot-layout-script-select-language">hb_ot_layout_script_select_language</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-layout-table-select-script"><link linkend="hb-ot-layout-table-select-script">hb_ot_layout_table_select_script</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HB-OT-MAX-TAGS-PER-LANGUAGE:CAPS"><link linkend="HB-OT-MAX-TAGS-PER-LANGUAGE:CAPS">HB_OT_MAX_TAGS_PER_LANGUAGE</link>, macro in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HB-OT-MAX-TAGS-PER-SCRIPT:CAPS"><link linkend="HB-OT-MAX-TAGS-PER-SCRIPT:CAPS">HB_OT_MAX_TAGS_PER_SCRIPT</link>, macro in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-name-id-t"><link linkend="hb-ot-name-id-t">hb_ot_name_id_t</link>, typedef in <link linkend="harfbuzz-hb-ot-name">hb-ot-name</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-tags-from-script-and-language"><link linkend="hb-ot-tags-from-script-and-language">hb_ot_tags_from_script_and_language</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-tags-to-script-and-language"><link linkend="hb-ot-tags-to-script-and-language">hb_ot_tags_to_script_and_language</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

@@ -1,0 +1,1859 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-common">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-common.top_of_page">hb-common</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-common</refname>
+<refpurpose>Common data types</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-common.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-TAG:CAPS">HB_TAG</link><phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-UNTAG:CAPS">HB_UNTAG</link><phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-tag-t"><returnvalue>hb_tag_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-tag-from-string">hb_tag_from_string</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-tag-to-string">hb_tag_to_string</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-direction-t"><returnvalue>hb_direction_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-direction-from-string">hb_direction_from_string</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">const <link linkend="char"><returnvalue>char</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-direction-to-string">hb_direction_to_string</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-DIRECTION-REVERSE:CAPS">HB_DIRECTION_REVERSE</link><phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-DIRECTION-IS-BACKWARD:CAPS">HB_DIRECTION_IS_BACKWARD</link><phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-DIRECTION-IS-FORWARD:CAPS">HB_DIRECTION_IS_FORWARD</link><phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-DIRECTION-IS-HORIZONTAL:CAPS">HB_DIRECTION_IS_HORIZONTAL</link><phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-DIRECTION-IS-VALID:CAPS">HB_DIRECTION_IS_VALID</link><phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-DIRECTION-IS-VERTICAL:CAPS">HB_DIRECTION_IS_VERTICAL</link><phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-script-t"><returnvalue>hb_script_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-script-from-iso15924-tag">hb_script_from_iso15924_tag</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-tag-t"><returnvalue>hb_tag_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-script-to-iso15924-tag">hb_script_to_iso15924_tag</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-script-t"><returnvalue>hb_script_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-script-from-string">hb_script_from_string</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-direction-t"><returnvalue>hb_direction_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-script-get-horizontal-direction">hb_script_get_horizontal_direction</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-language-t"><returnvalue>hb_language_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-language-from-string">hb_language_from_string</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">const <link linkend="char"><returnvalue>char</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-language-to-string">hb_language_to_string</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-language-t"><returnvalue>hb_language_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-language-get-default">hb_language_get_default</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-language-matches">hb_language_matches</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-feature-from-string">hb_feature_from_string</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-feature-to-string">hb_feature_to_string</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-variation-from-string">hb_variation_from_string</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-variation-to-string">hb_variation_to_string</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-destroy-func-t">*hb_destroy_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="harfbuzz-hb-common.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="typedef_keyword">typedef</entry><entry role="function_name"><link linkend="hb-bool-t">hb_bool_t</link></entry></row>
+<row><entry role="typedef_keyword">typedef</entry><entry role="function_name"><link linkend="hb-codepoint-t">hb_codepoint_t</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-CODEPOINT-INVALID:CAPS">HB_CODEPOINT_INVALID</link></entry></row>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-direction-t">hb_direction_t</link></entry></row>
+<row><entry role="typedef_keyword">typedef</entry><entry role="function_name"><link linkend="hb-language-t">hb_language_t</link></entry></row>
+<row><entry role="datatype_keyword"></entry><entry role="function_name"><link linkend="hb-feature-t">hb_feature_t</link></entry></row>
+<row><entry role="datatype_keyword"></entry><entry role="function_name"><link linkend="hb-variation-t">hb_variation_t</link></entry></row>
+<row><entry role="typedef_keyword">typedef</entry><entry role="function_name"><link linkend="hb-mask-t">hb_mask_t</link></entry></row>
+<row><entry role="typedef_keyword">typedef</entry><entry role="function_name"><link linkend="hb-position-t">hb_position_t</link></entry></row>
+<row><entry role="typedef_keyword">typedef</entry><entry role="function_name"><link linkend="hb-tag-t">hb_tag_t</link></entry></row>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-script-t">hb_script_t</link></entry></row>
+<row><entry role="datatype_keyword"></entry><entry role="function_name"><link linkend="hb-user-data-key-t">hb_user_data_key_t</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-TAG-NONE:CAPS">HB_TAG_NONE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-TAG-MAX:CAPS">HB_TAG_MAX</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-TAG-MAX-SIGNED:CAPS">HB_TAG_MAX_SIGNED</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-LANGUAGE-INVALID:CAPS">HB_LANGUAGE_INVALID</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-FEATURE-GLOBAL-END:CAPS">HB_FEATURE_GLOBAL_END</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-FEATURE-GLOBAL-START:CAPS">HB_FEATURE_GLOBAL_START</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-common.includes"><title>Includes</title><synopsis>#include &lt;hb.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-common.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Common data types used across HarfBuzz are defined here.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-common.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="HB-TAG:CAPS" role="macro">
+<title>HB_TAG()</title>
+<indexterm zone="HB-TAG:CAPS"><primary>HB_TAG</primary></indexterm>
+<programlisting language="C">#define HB_TAG(c1,c2,c3,c4) ((hb_tag_t)((((uint32_t)(c1)&amp;0xFF)&lt;&lt;24)|(((uint32_t)(c2)&amp;0xFF)&lt;&lt;16)|(((uint32_t)(c3)&amp;0xFF)&lt;&lt;8)|((uint32_t)(c4)&amp;0xFF)))
+</programlisting>
+<para>Constructs an <link linkend="hb-tag-t"><type>hb_tag_t</type></link> from four character literals.</para>
+<refsect3 id="HB-TAG.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>c1</para></entry>
+<entry role="parameter_description"><para>1st character of the tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>c2</para></entry>
+<entry role="parameter_description"><para>2nd character of the tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>c3</para></entry>
+<entry role="parameter_description"><para>3rd character of the tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>c4</para></entry>
+<entry role="parameter_description"><para>4th character of the tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3></refsect2>
+<refsect2 id="HB-UNTAG:CAPS" role="macro" condition="since:0.6.0">
+<title>HB_UNTAG()</title>
+<indexterm zone="HB-UNTAG:CAPS" role="0.6.0"><primary>HB_UNTAG</primary></indexterm>
+<programlisting language="C">#define HB_UNTAG(tag)   (uint8_t)(((tag)&gt;&gt;24)&amp;0xFF), (uint8_t)(((tag)&gt;&gt;16)&amp;0xFF), (uint8_t)(((tag)&gt;&gt;8)&amp;0xFF), (uint8_t)((tag)&amp;0xFF)
+</programlisting>
+<para>Extracts four character literals from an <link linkend="hb-tag-t"><type>hb_tag_t</type></link>.</para>
+<refsect3 id="HB-UNTAG.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>tag</para></entry>
+<entry role="parameter_description"><para>an <link linkend="hb-tag-t"><type>hb_tag_t</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.6.0">0.6.0</link></para></refsect2>
+<refsect2 id="hb-tag-from-string" role="function" condition="since:0.9.2">
+<title>hb_tag_from_string&#160;()</title>
+<indexterm zone="hb-tag-from-string" role="0.9.2"><primary>hb_tag_from_string</primary></indexterm>
+<programlisting language="C"><link linkend="hb-tag-t"><returnvalue>hb_tag_t</returnvalue></link>
+hb_tag_from_string (<parameter>const <link linkend="char"><type>char</type></link> *str</parameter>,
+                    <parameter><link linkend="int"><type>int</type></link> len</parameter>);</programlisting>
+<para>Converts a string into an <link linkend="hb-tag-t"><type>hb_tag_t</type></link>. Valid tags
+are four characters. Shorter input strings will be
+padded with spaces. Longer input strings will be
+truncated.</para>
+<refsect3 id="hb-tag-from-string.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>str</para></entry>
+<entry role="parameter_description"><para>String to convert. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> length=len][<acronym>element-type</acronym> uint8_t]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>len</para></entry>
+<entry role="parameter_description"><para>Length of <parameter>str</parameter>
+, or -1 if it is <literal>NULL</literal>-terminated</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-tag-from-string.returns" role="returns">
+<title>Returns</title>
+<para> The <link linkend="hb-tag-t"><type>hb_tag_t</type></link> corresponding to <parameter>str</parameter>
+</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-tag-to-string" role="function" condition="since:0.9.5">
+<title>hb_tag_to_string&#160;()</title>
+<indexterm zone="hb-tag-to-string" role="0.9.5"><primary>hb_tag_to_string</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_tag_to_string (<parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> tag</parameter>,
+                  <parameter><link linkend="char"><type>char</type></link> *buf</parameter>);</programlisting>
+<para>Converts an <link linkend="hb-tag-t"><type>hb_tag_t</type></link> to a string and returns it in <parameter>buf</parameter>
+.
+Strings will be four characters long.</para>
+<refsect3 id="hb-tag-to-string.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>tag</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-tag-t"><type>hb_tag_t</type></link> to convert</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>buf</para></entry>
+<entry role="parameter_description"><para>Converted string. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out caller-allocates</acronym>][<acronym>array</acronym> fixed-size=4][<acronym>element-type</acronym> uint8_t]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.5">0.9.5</link></para></refsect2>
+<refsect2 id="hb-direction-from-string" role="function" condition="since:0.9.2">
+<title>hb_direction_from_string&#160;()</title>
+<indexterm zone="hb-direction-from-string" role="0.9.2"><primary>hb_direction_from_string</primary></indexterm>
+<programlisting language="C"><link linkend="hb-direction-t"><returnvalue>hb_direction_t</returnvalue></link>
+hb_direction_from_string (<parameter>const <link linkend="char"><type>char</type></link> *str</parameter>,
+                          <parameter><link linkend="int"><type>int</type></link> len</parameter>);</programlisting>
+<para>Converts a string to an <link linkend="hb-direction-t"><type>hb_direction_t</type></link>.</para>
+<para>Matching is loose and applies only to the first letter. For
+examples, "LTR" and "left-to-right" will both return <link linkend="HB-DIRECTION-LTR:CAPS"><type>HB_DIRECTION_LTR</type></link>.</para>
+<para>Unmatched strings will return <link linkend="HB-DIRECTION-INVALID:CAPS"><type>HB_DIRECTION_INVALID</type></link>.</para>
+<refsect3 id="hb-direction-from-string.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>str</para></entry>
+<entry role="parameter_description"><para>String to convert. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> length=len][<acronym>element-type</acronym> uint8_t]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>len</para></entry>
+<entry role="parameter_description"><para>Length of <parameter>str</parameter>
+, or -1 if it is <literal>NULL</literal>-terminated</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-direction-from-string.returns" role="returns">
+<title>Returns</title>
+<para> The <link linkend="hb-direction-t"><type>hb_direction_t</type></link> matching <parameter>str</parameter>
+</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-direction-to-string" role="function" condition="since:0.9.2">
+<title>hb_direction_to_string&#160;()</title>
+<indexterm zone="hb-direction-to-string" role="0.9.2"><primary>hb_direction_to_string</primary></indexterm>
+<programlisting language="C">const <link linkend="char"><returnvalue>char</returnvalue></link>&#160;*
+hb_direction_to_string (<parameter><link linkend="hb-direction-t"><type>hb_direction_t</type></link> direction</parameter>);</programlisting>
+<para>Converts an <link linkend="hb-direction-t"><type>hb_direction_t</type></link> to a string.</para>
+<refsect3 id="hb-direction-to-string.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>direction</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-direction-t"><type>hb_direction_t</type></link> to convert</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-direction-to-string.returns" role="returns">
+<title>Returns</title>
+<para>The string corresponding to <parameter>direction</parameter>
+. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="HB-DIRECTION-REVERSE:CAPS" role="macro">
+<title>HB_DIRECTION_REVERSE()</title>
+<indexterm zone="HB-DIRECTION-REVERSE:CAPS"><primary>HB_DIRECTION_REVERSE</primary></indexterm>
+<programlisting language="C">#define HB_DIRECTION_REVERSE(dir)&#160;((hb_direction_t) (((unsigned int) (dir)) ^ 1))
+</programlisting>
+<para>Reverses a text direction. Requires that the direction
+be valid.</para>
+<refsect3 id="HB-DIRECTION-REVERSE.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>dir</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-direction-t"><type>hb_direction_t</type></link> to reverse</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3></refsect2>
+<refsect2 id="HB-DIRECTION-IS-BACKWARD:CAPS" role="macro">
+<title>HB_DIRECTION_IS_BACKWARD()</title>
+<indexterm zone="HB-DIRECTION-IS-BACKWARD:CAPS"><primary>HB_DIRECTION_IS_BACKWARD</primary></indexterm>
+<programlisting language="C">#define HB_DIRECTION_IS_BACKWARD(dir)&#160;((((unsigned int) (dir)) &amp; ~2U) == 5)
+</programlisting>
+<para>Tests whether a text direction moves backward (from right to left, or from
+bottom to top). Requires that the direction be valid.</para>
+<refsect3 id="HB-DIRECTION-IS-BACKWARD.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>dir</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-direction-t"><type>hb_direction_t</type></link> to test</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3></refsect2>
+<refsect2 id="HB-DIRECTION-IS-FORWARD:CAPS" role="macro">
+<title>HB_DIRECTION_IS_FORWARD()</title>
+<indexterm zone="HB-DIRECTION-IS-FORWARD:CAPS"><primary>HB_DIRECTION_IS_FORWARD</primary></indexterm>
+<programlisting language="C">#define HB_DIRECTION_IS_FORWARD(dir)&#160;((((unsigned int) (dir)) &amp; ~2U) == 4)
+</programlisting>
+<para>Tests whether a text direction moves forward (from left to right, or from
+top to bottom). Requires that the direction be valid.</para>
+<refsect3 id="HB-DIRECTION-IS-FORWARD.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>dir</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-direction-t"><type>hb_direction_t</type></link> to test</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3></refsect2>
+<refsect2 id="HB-DIRECTION-IS-HORIZONTAL:CAPS" role="macro">
+<title>HB_DIRECTION_IS_HORIZONTAL()</title>
+<indexterm zone="HB-DIRECTION-IS-HORIZONTAL:CAPS"><primary>HB_DIRECTION_IS_HORIZONTAL</primary></indexterm>
+<programlisting language="C">#define HB_DIRECTION_IS_HORIZONTAL(dir)&#160;((((unsigned int) (dir)) &amp; ~1U) == 4)
+</programlisting>
+<para>Tests whether a text direction is horizontal. Requires
+that the direction be valid.</para>
+<refsect3 id="HB-DIRECTION-IS-HORIZONTAL.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>dir</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-direction-t"><type>hb_direction_t</type></link> to test</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3></refsect2>
+<refsect2 id="HB-DIRECTION-IS-VALID:CAPS" role="macro">
+<title>HB_DIRECTION_IS_VALID()</title>
+<indexterm zone="HB-DIRECTION-IS-VALID:CAPS"><primary>HB_DIRECTION_IS_VALID</primary></indexterm>
+<programlisting language="C">#define HB_DIRECTION_IS_VALID(dir)&#160;((((unsigned int) (dir)) &amp; ~3U) == 4)
+</programlisting>
+<para>Tests whether a text direction is valid.</para>
+<refsect3 id="HB-DIRECTION-IS-VALID.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>dir</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-direction-t"><type>hb_direction_t</type></link> to test</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3></refsect2>
+<refsect2 id="HB-DIRECTION-IS-VERTICAL:CAPS" role="macro">
+<title>HB_DIRECTION_IS_VERTICAL()</title>
+<indexterm zone="HB-DIRECTION-IS-VERTICAL:CAPS"><primary>HB_DIRECTION_IS_VERTICAL</primary></indexterm>
+<programlisting language="C">#define HB_DIRECTION_IS_VERTICAL(dir)&#160;((((unsigned int) (dir)) &amp; ~1U) == 6)
+</programlisting>
+<para>Tests whether a text direction is vertical. Requires
+that the direction be valid.</para>
+<refsect3 id="HB-DIRECTION-IS-VERTICAL.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>dir</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-direction-t"><type>hb_direction_t</type></link> to test</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3></refsect2>
+<refsect2 id="hb-script-from-iso15924-tag" role="function" condition="since:0.9.2">
+<title>hb_script_from_iso15924_tag&#160;()</title>
+<indexterm zone="hb-script-from-iso15924-tag" role="0.9.2"><primary>hb_script_from_iso15924_tag</primary></indexterm>
+<programlisting language="C"><link linkend="hb-script-t"><returnvalue>hb_script_t</returnvalue></link>
+hb_script_from_iso15924_tag (<parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> tag</parameter>);</programlisting>
+<para>Converts an ISO 15924 script tag to a corresponding <link linkend="hb-script-t"><type>hb_script_t</type></link>.</para>
+<refsect3 id="hb-script-from-iso15924-tag.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>tag</para></entry>
+<entry role="parameter_description"><para>an <link linkend="hb-tag-t"><type>hb_tag_t</type></link> representing an ISO 15924 tag.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-script-from-iso15924-tag.returns" role="returns">
+<title>Returns</title>
+<para>An <link linkend="hb-script-t"><type>hb_script_t</type></link> corresponding to the ISO 15924 tag.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-script-to-iso15924-tag" role="function" condition="since:0.9.2">
+<title>hb_script_to_iso15924_tag&#160;()</title>
+<indexterm zone="hb-script-to-iso15924-tag" role="0.9.2"><primary>hb_script_to_iso15924_tag</primary></indexterm>
+<programlisting language="C"><link linkend="hb-tag-t"><returnvalue>hb_tag_t</returnvalue></link>
+hb_script_to_iso15924_tag (<parameter><link linkend="hb-script-t"><type>hb_script_t</type></link> script</parameter>);</programlisting>
+<para>Converts an <link linkend="hb-script-t"><type>hb_script_t</type></link> to a corresponding ISO 15924 script tag.</para>
+<refsect3 id="hb-script-to-iso15924-tag.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>script</para></entry>
+<entry role="parameter_description"><para>an <link linkend="hb-script-t"><type>hb_script_t</type></link> to convert.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-script-to-iso15924-tag.returns" role="returns">
+<title>Returns</title>
+<para>An <link linkend="hb-tag-t"><type>hb_tag_t</type></link> representing an ISO 15924 script tag.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-script-from-string" role="function" condition="since:0.9.2">
+<title>hb_script_from_string&#160;()</title>
+<indexterm zone="hb-script-from-string" role="0.9.2"><primary>hb_script_from_string</primary></indexterm>
+<programlisting language="C"><link linkend="hb-script-t"><returnvalue>hb_script_t</returnvalue></link>
+hb_script_from_string (<parameter>const <link linkend="char"><type>char</type></link> *str</parameter>,
+                       <parameter><link linkend="int"><type>int</type></link> len</parameter>);</programlisting>
+<para>Converts a string <parameter>str</parameter>
+ representing an ISO 15924 script tag to a
+corresponding <link linkend="hb-script-t"><type>hb_script_t</type></link>. Shorthand for <link linkend="hb-tag-from-string"><function>hb_tag_from_string()</function></link> then
+<link linkend="hb-script-from-iso15924-tag"><function>hb_script_from_iso15924_tag()</function></link>.</para>
+<refsect3 id="hb-script-from-string.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>str</para></entry>
+<entry role="parameter_description"><para>a string representing an
+ISO 15924 tag. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> length=len][<acronym>element-type</acronym> uint8_t]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>len</para></entry>
+<entry role="parameter_description"><para>length of the <parameter>str</parameter>
+, or -1 if it is <literal>NULL</literal>-terminated.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-script-from-string.returns" role="returns">
+<title>Returns</title>
+<para>An <link linkend="hb-script-t"><type>hb_script_t</type></link> corresponding to the ISO 15924 tag.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-script-get-horizontal-direction" role="function" condition="since:0.9.2">
+<title>hb_script_get_horizontal_direction&#160;()</title>
+<indexterm zone="hb-script-get-horizontal-direction" role="0.9.2"><primary>hb_script_get_horizontal_direction</primary></indexterm>
+<programlisting language="C"><link linkend="hb-direction-t"><returnvalue>hb_direction_t</returnvalue></link>
+hb_script_get_horizontal_direction (<parameter><link linkend="hb-script-t"><type>hb_script_t</type></link> script</parameter>);</programlisting>
+<para>Fetches the <link linkend="hb-direction-t"><type>hb_direction_t</type></link> of a script when it is
+set horizontally. All right-to-left scripts will return
+<link linkend="HB-DIRECTION-RTL:CAPS"><type>HB_DIRECTION_RTL</type></link>. All left-to-right scripts will return
+<link linkend="HB-DIRECTION-LTR:CAPS"><type>HB_DIRECTION_LTR</type></link>.  Scripts that can be written either
+horizontally or vertically will return <link linkend="HB-DIRECTION-INVALID:CAPS"><type>HB_DIRECTION_INVALID</type></link>.
+Unknown scripts will return <link linkend="HB-DIRECTION-LTR:CAPS"><type>HB_DIRECTION_LTR</type></link>.</para>
+<refsect3 id="hb-script-get-horizontal-direction.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>script</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-script-t"><type>hb_script_t</type></link> to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-script-get-horizontal-direction.returns" role="returns">
+<title>Returns</title>
+<para> The horizontal <link linkend="hb-direction-t"><type>hb_direction_t</type></link> of <parameter>script</parameter>
+</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-language-from-string" role="function" condition="since:0.9.2">
+<title>hb_language_from_string&#160;()</title>
+<indexterm zone="hb-language-from-string" role="0.9.2"><primary>hb_language_from_string</primary></indexterm>
+<programlisting language="C"><link linkend="hb-language-t"><returnvalue>hb_language_t</returnvalue></link>
+hb_language_from_string (<parameter>const <link linkend="char"><type>char</type></link> *str</parameter>,
+                         <parameter><link linkend="int"><type>int</type></link> len</parameter>);</programlisting>
+<para>Converts <parameter>str</parameter>
+ representing a BCP 47 language tag to the corresponding
+<link linkend="hb-language-t"><type>hb_language_t</type></link>.</para>
+<refsect3 id="hb-language-from-string.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>str</para></entry>
+<entry role="parameter_description"><para>a string representing
+a BCP 47 language tag. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> length=len][<acronym>element-type</acronym> uint8_t]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>len</para></entry>
+<entry role="parameter_description"><para>length of the <parameter>str</parameter>
+, or -1 if it is <literal>NULL</literal>-terminated.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-language-from-string.returns" role="returns">
+<title>Returns</title>
+<para>The <link linkend="hb-language-t"><type>hb_language_t</type></link> corresponding to the BCP 47 language tag. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-language-to-string" role="function" condition="since:0.9.2">
+<title>hb_language_to_string&#160;()</title>
+<indexterm zone="hb-language-to-string" role="0.9.2"><primary>hb_language_to_string</primary></indexterm>
+<programlisting language="C">const <link linkend="char"><returnvalue>char</returnvalue></link>&#160;*
+hb_language_to_string (<parameter><link linkend="hb-language-t"><type>hb_language_t</type></link> language</parameter>);</programlisting>
+<para>Converts an <link linkend="hb-language-t"><type>hb_language_t</type></link> to a string.</para>
+<refsect3 id="hb-language-to-string.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>language</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-language-t"><type>hb_language_t</type></link> to convert</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-language-to-string.returns" role="returns">
+<title>Returns</title>
+<para>A <literal>NULL</literal>-terminated string representing the <parameter>language</parameter>
+. Must not be freed by
+the caller. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-language-get-default" role="function" condition="since:0.9.2">
+<title>hb_language_get_default&#160;()</title>
+<indexterm zone="hb-language-get-default" role="0.9.2"><primary>hb_language_get_default</primary></indexterm>
+<programlisting language="C"><link linkend="hb-language-t"><returnvalue>hb_language_t</returnvalue></link>
+hb_language_get_default (<parameter><type>void</type></parameter>);</programlisting>
+<para>Fetch the default language from current locale.</para>
+<note>Note that the first time this function is called, it calls
+"setlocale (LC_CTYPE, nullptr)" to fetch current locale.  The underlying
+setlocale function is, in many implementations, NOT threadsafe.  To avoid
+problems, call this function once before multiple threads can call it.
+This function is only used from <link linkend="hb-buffer-guess-segment-properties"><function>hb_buffer_guess_segment_properties()</function></link> by
+HarfBuzz itself.</note>
+<refsect3 id="hb-language-get-default.returns" role="returns">
+<title>Returns</title>
+<para>The default language of the locale as
+an <link linkend="hb-language-t"><type>hb_language_t</type></link>. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-language-matches" role="function" condition="since:5.0.0">
+<title>hb_language_matches&#160;()</title>
+<indexterm zone="hb-language-matches" role="5.0.0"><primary>hb_language_matches</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_language_matches (<parameter><link linkend="hb-language-t"><type>hb_language_t</type></link> language</parameter>,
+                     <parameter><link linkend="hb-language-t"><type>hb_language_t</type></link> specific</parameter>);</programlisting>
+<para>Check whether a second language tag is the same or a more
+specific version of the provided language tag.  For example,
+"fa_IR.utf8" is a more specific tag for "fa" or for "fa_IR".</para>
+<refsect3 id="hb-language-matches.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>language</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-language-t"><type>hb_language_t</type></link> to work on</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>specific</para></entry>
+<entry role="parameter_description"><para>Another <link linkend="hb-language-t"><type>hb_language_t</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-language-matches.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if languages match, <literal>false</literal> otherwise.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-5.0.0">5.0.0</link></para></refsect2>
+<refsect2 id="hb-feature-from-string" role="function" condition="since:0.9.5">
+<title>hb_feature_from_string&#160;()</title>
+<indexterm zone="hb-feature-from-string" role="0.9.5"><primary>hb_feature_from_string</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_feature_from_string (<parameter>const <link linkend="char"><type>char</type></link> *str</parameter>,
+                        <parameter><link linkend="int"><type>int</type></link> len</parameter>,
+                        <parameter><link linkend="hb-feature-t"><type>hb_feature_t</type></link> *feature</parameter>);</programlisting>
+<para>Parses a string into a <link linkend="hb-feature-t"><type>hb_feature_t</type></link>.</para>
+<para>The format for specifying feature strings follows. All valid CSS
+font-feature-settings values other than 'normal' and the global values are
+also accepted, though not documented below. CSS string escapes are not
+supported.</para>
+<para>The range indices refer to the positions between Unicode characters. The
+position before the first character is always 0.</para>
+<para>The format is Python-esque.  Here is how it all works:</para>
+<informaltable pgwide='1' align='left' frame='none'>
+<tgroup cols='5'>
+<thead>
+<row><entry>Syntax</entry>    <entry>Value</entry> <entry>Start</entry> <entry>End</entry></row>
+</thead>
+<tbody>
+<row><entry>Setting value:</entry></row>
+<row><entry>kern</entry>      <entry>1</entry>     <entry>0</entry>      <entry>∞</entry>   <entry>Turn feature on</entry></row>
+<row><entry>+kern</entry>     <entry>1</entry>     <entry>0</entry>      <entry>∞</entry>   <entry>Turn feature on</entry></row>
+<row><entry>-kern</entry>     <entry>0</entry>     <entry>0</entry>      <entry>∞</entry>   <entry>Turn feature off</entry></row>
+<row><entry>kern=0</entry>    <entry>0</entry>     <entry>0</entry>      <entry>∞</entry>   <entry>Turn feature off</entry></row>
+<row><entry>kern=1</entry>    <entry>1</entry>     <entry>0</entry>      <entry>∞</entry>   <entry>Turn feature on</entry></row>
+<row><entry>aalt=2</entry>    <entry>2</entry>     <entry>0</entry>      <entry>∞</entry>   <entry>Choose 2nd alternate</entry></row>
+<row><entry>Setting index:</entry></row>
+<row><entry>kern[]</entry>    <entry>1</entry>     <entry>0</entry>      <entry>∞</entry>   <entry>Turn feature on</entry></row>
+<row><entry>kern[:]</entry>   <entry>1</entry>     <entry>0</entry>      <entry>∞</entry>   <entry>Turn feature on</entry></row>
+<row><entry>kern[5:]</entry>  <entry>1</entry>     <entry>5</entry>      <entry>∞</entry>   <entry>Turn feature on, partial</entry></row>
+<row><entry>kern[:5]</entry>  <entry>1</entry>     <entry>0</entry>      <entry>5</entry>   <entry>Turn feature on, partial</entry></row>
+<row><entry>kern[3:5]</entry> <entry>1</entry>     <entry>3</entry>      <entry>5</entry>   <entry>Turn feature on, range</entry></row>
+<row><entry>kern[3]</entry>   <entry>1</entry>     <entry>3</entry>      <entry>3+1</entry> <entry>Turn feature on, single char</entry></row>
+<row><entry>Mixing it all:</entry></row>
+<row><entry>aalt[3:5]=2</entry> <entry>2</entry>   <entry>3</entry>      <entry>5</entry>   <entry>Turn 2nd alternate on for range</entry></row>
+</tbody>
+</tgroup>
+</informaltable>
+<refsect3 id="hb-feature-from-string.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>str</para></entry>
+<entry role="parameter_description"><para>a string to parse. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> length=len][<acronym>element-type</acronym> uint8_t]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>len</para></entry>
+<entry role="parameter_description"><para>length of <parameter>str</parameter>
+, or -1 if string is <literal>NULL</literal> terminated</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>feature</para></entry>
+<entry role="parameter_description"><para>the <link linkend="hb-feature-t"><type>hb_feature_t</type></link> to initialize with the parsed values. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-feature-from-string.returns" role="returns">
+<title>Returns</title>
+<para><literal>true</literal> if <parameter>str</parameter>
+is successfully parsed, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.5">0.9.5</link></para></refsect2>
+<refsect2 id="hb-feature-to-string" role="function" condition="since:0.9.5">
+<title>hb_feature_to_string&#160;()</title>
+<indexterm zone="hb-feature-to-string" role="0.9.5"><primary>hb_feature_to_string</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_feature_to_string (<parameter><link linkend="hb-feature-t"><type>hb_feature_t</type></link> *feature</parameter>,
+                      <parameter><link linkend="char"><type>char</type></link> *buf</parameter>,
+                      <parameter>unsigned <link linkend="int"><type>int</type></link> size</parameter>);</programlisting>
+<para>Converts a <link linkend="hb-feature-t"><type>hb_feature_t</type></link> into a <literal>NULL</literal>-terminated string in the format
+understood by <link linkend="hb-feature-from-string"><function>hb_feature_from_string()</function></link>. The client in responsible for
+allocating big enough size for <parameter>buf</parameter>
+, 128 bytes is more than enough.</para>
+<refsect3 id="hb-feature-to-string.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>feature</para></entry>
+<entry role="parameter_description"><para>an <link linkend="hb-feature-t"><type>hb_feature_t</type></link> to convert</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>buf</para></entry>
+<entry role="parameter_description"><para>output string. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> length=size][<acronym>out</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>size</para></entry>
+<entry role="parameter_description"><para>the allocated size of <parameter>buf</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.5">0.9.5</link></para></refsect2>
+<refsect2 id="hb-variation-from-string" role="function" condition="since:1.4.2">
+<title>hb_variation_from_string&#160;()</title>
+<indexterm zone="hb-variation-from-string" role="1.4.2"><primary>hb_variation_from_string</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_variation_from_string (<parameter>const <link linkend="char"><type>char</type></link> *str</parameter>,
+                          <parameter><link linkend="int"><type>int</type></link> len</parameter>,
+                          <parameter><link linkend="hb-variation-t"><type>hb_variation_t</type></link> *variation</parameter>);</programlisting>
+<para>Parses a string into a <link linkend="hb-variation-t"><type>hb_variation_t</type></link>.</para>
+<para>The format for specifying variation settings follows. All valid CSS
+font-variation-settings values other than 'normal' and 'inherited' are also
+accepted, though, not documented below.</para>
+<para>The format is a tag, optionally followed by an equals sign, followed by a
+number. For example <literal>wght=500</literal>, or <literal>slnt=-7.5</literal>.</para>
+<refsect3 id="hb-variation-from-string.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>str</para></entry>
+<entry role="parameter_description"><para>a string to parse. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> length=len][<acronym>element-type</acronym> uint8_t]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>len</para></entry>
+<entry role="parameter_description"><para>length of <parameter>str</parameter>
+, or -1 if string is <literal>NULL</literal> terminated</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>variation</para></entry>
+<entry role="parameter_description"><para>the <link linkend="hb-variation-t"><type>hb_variation_t</type></link> to initialize with the parsed values. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-variation-from-string.returns" role="returns">
+<title>Returns</title>
+<para><literal>true</literal> if <parameter>str</parameter>
+is successfully parsed, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.4.2">1.4.2</link></para></refsect2>
+<refsect2 id="hb-variation-to-string" role="function" condition="since:1.4.2">
+<title>hb_variation_to_string&#160;()</title>
+<indexterm zone="hb-variation-to-string" role="1.4.2"><primary>hb_variation_to_string</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_variation_to_string (<parameter><link linkend="hb-variation-t"><type>hb_variation_t</type></link> *variation</parameter>,
+                        <parameter><link linkend="char"><type>char</type></link> *buf</parameter>,
+                        <parameter>unsigned <link linkend="int"><type>int</type></link> size</parameter>);</programlisting>
+<para>Converts an <link linkend="hb-variation-t"><type>hb_variation_t</type></link> into a <literal>NULL</literal>-terminated string in the format
+understood by <link linkend="hb-variation-from-string"><function>hb_variation_from_string()</function></link>. The client in responsible for
+allocating big enough size for <parameter>buf</parameter>
+, 128 bytes is more than enough.</para>
+<refsect3 id="hb-variation-to-string.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>variation</para></entry>
+<entry role="parameter_description"><para>an <link linkend="hb-variation-t"><type>hb_variation_t</type></link> to convert</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>buf</para></entry>
+<entry role="parameter_description"><para>output string. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> length=size][<acronym>out caller-allocates</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>size</para></entry>
+<entry role="parameter_description"><para>the allocated size of <parameter>buf</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.4.2">1.4.2</link></para></refsect2>
+<refsect2 id="hb-destroy-func-t" role="function">
+<title>hb_destroy_func_t&#160;()</title>
+<indexterm zone="hb-destroy-func-t"><primary>hb_destroy_func_t</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_destroy_func_t<phrase role="c_punctuation">)</phrase> (<parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<para>A virtual method for destroy user-data callbacks.</para>
+<refsect3 id="hb-destroy-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>the data to be destroyed</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3></refsect2>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-common.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="hb-bool-t" role="typedef">
+<title>hb_bool_t</title>
+<indexterm zone="hb-bool-t"><primary>hb_bool_t</primary></indexterm>
+<programlisting language="C">typedef int hb_bool_t;
+</programlisting>
+<para>Data type for booleans.</para>
+</refsect2>
+<refsect2 id="hb-codepoint-t" role="typedef">
+<title>hb_codepoint_t</title>
+<indexterm zone="hb-codepoint-t"><primary>hb_codepoint_t</primary></indexterm>
+<programlisting language="C">typedef uint32_t hb_codepoint_t;
+</programlisting>
+<para>Data type for holding Unicode codepoints. Also
+used to hold glyph IDs.</para>
+</refsect2>
+<refsect2 id="HB-CODEPOINT-INVALID:CAPS" role="macro" condition="since:8.0.0">
+<title>HB_CODEPOINT_INVALID</title>
+<indexterm zone="HB-CODEPOINT-INVALID:CAPS" role="8.0.0"><primary>HB_CODEPOINT_INVALID</primary></indexterm>
+<programlisting language="C">#define HB_CODEPOINT_INVALID ((hb_codepoint_t) -1)
+</programlisting>
+<para>Unused <link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> value.</para>
+<para role="since">Since: <link linkend="api-index-8.0.0">8.0.0</link></para></refsect2>
+<refsect2 id="hb-direction-t" role="enum">
+<title>enum hb_direction_t</title>
+<indexterm zone="hb-direction-t"><primary>hb_direction_t</primary></indexterm>
+<para>The direction of a text segment or buffer.</para>
+<para>A segment can also be tested for horizontal or vertical
+orientation (irrespective of specific direction) with
+
+<link linkend="HB-DIRECTION-IS-HORIZONTAL:CAPS"><function>HB_DIRECTION_IS_HORIZONTAL()</function></link> or <link linkend="HB-DIRECTION-IS-VERTICAL:CAPS"><function>HB_DIRECTION_IS_VERTICAL()</function></link>.</para>
+<refsect3 id="hb-direction-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-DIRECTION-INVALID:CAPS">HB_DIRECTION_INVALID</para></entry>
+<entry role="enum_member_description"><para>Initial, unset direction.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-DIRECTION-LTR:CAPS">HB_DIRECTION_LTR</para></entry>
+<entry role="enum_member_description"><para>Text is set horizontally from left to right.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-DIRECTION-RTL:CAPS">HB_DIRECTION_RTL</para></entry>
+<entry role="enum_member_description"><para>Text is set horizontally from right to left.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-DIRECTION-TTB:CAPS">HB_DIRECTION_TTB</para></entry>
+<entry role="enum_member_description"><para>Text is set vertically from top to bottom.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-DIRECTION-BTT:CAPS">HB_DIRECTION_BTT</para></entry>
+<entry role="enum_member_description"><para>Text is set vertically from bottom to top.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3></refsect2>
+<refsect2 id="hb-language-t" role="typedef">
+<title>hb_language_t</title>
+<indexterm zone="hb-language-t"><primary>hb_language_t</primary></indexterm>
+<programlisting language="C">typedef const struct hb_language_impl_t *hb_language_t;
+</programlisting>
+<para>Data type for languages. Each <link linkend="hb-language-t"><type>hb_language_t</type></link> corresponds to a BCP 47
+language tag.</para>
+</refsect2>
+<refsect2 id="hb-feature-t" role="struct">
+<title>hb_feature_t</title>
+<indexterm zone="hb-feature-t"><primary>hb_feature_t</primary></indexterm>
+<programlisting language="C">typedef struct {
+  hb_tag_t      tag;
+  uint32_t      value;
+  unsigned int  start;
+  unsigned int  end;
+} hb_feature_t;
+</programlisting>
+<para>The <link linkend="hb-feature-t"><type>hb_feature_t</type></link> is the structure that holds information about requested
+feature application. The feature will be applied with the given value to all
+glyphs which are in clusters between <parameter>start</parameter>
+ (inclusive) and <parameter>end</parameter>
+ (exclusive).
+Setting start to <link linkend="HB-FEATURE-GLOBAL-START:CAPS"><type>HB_FEATURE_GLOBAL_START</type></link> and end to <link linkend="HB-FEATURE-GLOBAL-END:CAPS"><type>HB_FEATURE_GLOBAL_END</type></link>
+specifies that the feature always applies to the entire buffer.</para>
+<refsect3 id="hb-feature-t.members" role="struct_members">
+<title>Members</title>
+<informaltable role="struct_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="struct_members_name" colwidth="300px"/>
+<colspec colname="struct_members_description"/>
+<colspec colname="struct_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-tag-t"><type>hb_tag_t</type></link>&#160;<structfield id="hb-feature-t.tag">tag</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The <link linkend="hb-tag-t"><type>hb_tag_t</type></link> tag of the feature</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="uint32-t"><type>uint32_t</type></link>&#160;<structfield id="hb-feature-t.value">value</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The value of the feature. 0 disables the feature, non-zero (usually
+1) enables the feature.  For features implemented as lookup type 3 (like
+'salt') the <parameter>value</parameter>
+is a one based index into the alternates.</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para>unsigned&#160;<link linkend="int"><type>int</type></link>&#160;<structfield id="hb-feature-t.start">start</structfield>;</para></entry>
+<entry role="struct_member_description"><para>the cluster to start applying this feature setting (inclusive).</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para>unsigned&#160;<link linkend="int"><type>int</type></link>&#160;<structfield id="hb-feature-t.end">end</structfield>;</para></entry>
+<entry role="struct_member_description"><para>the cluster to end applying this feature setting (exclusive).</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3>
+</refsect2>
+<refsect2 id="hb-variation-t" role="struct" condition="since:1.4.2">
+<title>hb_variation_t</title>
+<indexterm zone="hb-variation-t" role="1.4.2"><primary>hb_variation_t</primary></indexterm>
+<programlisting language="C">typedef struct {
+  hb_tag_t tag;
+  float    value;
+} hb_variation_t;
+</programlisting>
+<para>Data type for holding variation data. Registered OpenType
+variation-axis tags are listed in
+<ulink url="https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg">OpenType Axis Tag Registry</ulink>.</para>
+<refsect3 id="hb-variation-t.members" role="struct_members">
+<title>Members</title>
+<informaltable role="struct_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="struct_members_name" colwidth="300px"/>
+<colspec colname="struct_members_description"/>
+<colspec colname="struct_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-tag-t"><type>hb_tag_t</type></link>&#160;<structfield id="hb-variation-t.tag">tag</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The <link linkend="hb-tag-t"><type>hb_tag_t</type></link> tag of the variation-axis name</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="float"><type>float</type></link>&#160;<structfield id="hb-variation-t.value">value</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The value of the variation axis</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3>
+<para role="since">Since: <link linkend="api-index-1.4.2">1.4.2</link></para></refsect2>
+<refsect2 id="hb-mask-t" role="typedef">
+<title>hb_mask_t</title>
+<indexterm zone="hb-mask-t"><primary>hb_mask_t</primary></indexterm>
+<programlisting language="C">typedef uint32_t hb_mask_t;
+</programlisting>
+<para>Data type for bitmasks.</para>
+</refsect2>
+<refsect2 id="hb-position-t" role="typedef">
+<title>hb_position_t</title>
+<indexterm zone="hb-position-t"><primary>hb_position_t</primary></indexterm>
+<programlisting language="C">typedef int32_t hb_position_t;
+</programlisting>
+<para>Data type for holding a single coordinate value.
+Contour points and other multi-dimensional data are
+stored as tuples of <link linkend="hb-position-t"><type>hb_position_t</type></link>'s.</para>
+</refsect2>
+<refsect2 id="hb-tag-t" role="typedef">
+<title>hb_tag_t</title>
+<indexterm zone="hb-tag-t"><primary>hb_tag_t</primary></indexterm>
+<programlisting language="C">typedef uint32_t hb_tag_t;
+</programlisting>
+<para>Data type for tag identifiers. Tags are four
+byte integers, each byte representing a character.</para>
+<para>Tags are used to identify tables, design-variation axes,
+scripts, languages, font features, and baselines with
+human-readable names.</para>
+</refsect2>
+<refsect2 id="hb-script-t" role="enum">
+<title>enum hb_script_t</title>
+<indexterm zone="hb-script-t"><primary>hb_script_t</primary></indexterm>
+<para>Data type for scripts. Each <link linkend="hb-script-t"><type>hb_script_t</type></link>'s value is an <link linkend="hb-tag-t"><type>hb_tag_t</type></link> corresponding
+to the four-letter values defined by <ulink url="https://unicode.org/iso15924/">ISO 15924</ulink>.</para>
+<para>See also the Script (sc) property of the Unicode Character Database.</para>
+<refsect3 id="hb-script-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-COMMON:CAPS">HB_SCRIPT_COMMON</para></entry>
+<entry role="enum_member_description"><para><literal>Zyyy</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-INHERITED:CAPS">HB_SCRIPT_INHERITED</para></entry>
+<entry role="enum_member_description"><para><literal>Zinh</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-UNKNOWN:CAPS">HB_SCRIPT_UNKNOWN</para></entry>
+<entry role="enum_member_description"><para><literal>Zzzz</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-ARABIC:CAPS">HB_SCRIPT_ARABIC</para></entry>
+<entry role="enum_member_description"><para><literal>Arab</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-ARMENIAN:CAPS">HB_SCRIPT_ARMENIAN</para></entry>
+<entry role="enum_member_description"><para><literal>Armn</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-BENGALI:CAPS">HB_SCRIPT_BENGALI</para></entry>
+<entry role="enum_member_description"><para><literal>Beng</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-CYRILLIC:CAPS">HB_SCRIPT_CYRILLIC</para></entry>
+<entry role="enum_member_description"><para><literal>Cyrl</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-DEVANAGARI:CAPS">HB_SCRIPT_DEVANAGARI</para></entry>
+<entry role="enum_member_description"><para><literal>Deva</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-GEORGIAN:CAPS">HB_SCRIPT_GEORGIAN</para></entry>
+<entry role="enum_member_description"><para><literal>Geor</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-GREEK:CAPS">HB_SCRIPT_GREEK</para></entry>
+<entry role="enum_member_description"><para><literal>Grek</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-GUJARATI:CAPS">HB_SCRIPT_GUJARATI</para></entry>
+<entry role="enum_member_description"><para><literal>Gujr</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-GURMUKHI:CAPS">HB_SCRIPT_GURMUKHI</para></entry>
+<entry role="enum_member_description"><para><literal>Guru</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-HANGUL:CAPS">HB_SCRIPT_HANGUL</para></entry>
+<entry role="enum_member_description"><para><literal>Hang</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-HAN:CAPS">HB_SCRIPT_HAN</para></entry>
+<entry role="enum_member_description"><para><literal>Hani</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-HEBREW:CAPS">HB_SCRIPT_HEBREW</para></entry>
+<entry role="enum_member_description"><para><literal>Hebr</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-HIRAGANA:CAPS">HB_SCRIPT_HIRAGANA</para></entry>
+<entry role="enum_member_description"><para><literal>Hira</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-KANNADA:CAPS">HB_SCRIPT_KANNADA</para></entry>
+<entry role="enum_member_description"><para><literal>Knda</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-KATAKANA:CAPS">HB_SCRIPT_KATAKANA</para></entry>
+<entry role="enum_member_description"><para><literal>Kana</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-LAO:CAPS">HB_SCRIPT_LAO</para></entry>
+<entry role="enum_member_description"><para><literal>Laoo</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-LATIN:CAPS">HB_SCRIPT_LATIN</para></entry>
+<entry role="enum_member_description"><para><literal>Latn</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-MALAYALAM:CAPS">HB_SCRIPT_MALAYALAM</para></entry>
+<entry role="enum_member_description"><para><literal>Mlym</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-ORIYA:CAPS">HB_SCRIPT_ORIYA</para></entry>
+<entry role="enum_member_description"><para><literal>Orya</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-TAMIL:CAPS">HB_SCRIPT_TAMIL</para></entry>
+<entry role="enum_member_description"><para><literal>Taml</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-TELUGU:CAPS">HB_SCRIPT_TELUGU</para></entry>
+<entry role="enum_member_description"><para><literal>Telu</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-THAI:CAPS">HB_SCRIPT_THAI</para></entry>
+<entry role="enum_member_description"><para><literal>Thai</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-TIBETAN:CAPS">HB_SCRIPT_TIBETAN</para></entry>
+<entry role="enum_member_description"><para><literal>Tibt</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-BOPOMOFO:CAPS">HB_SCRIPT_BOPOMOFO</para></entry>
+<entry role="enum_member_description"><para><literal>Bopo</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-BRAILLE:CAPS">HB_SCRIPT_BRAILLE</para></entry>
+<entry role="enum_member_description"><para><literal>Brai</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-CANADIAN-SYLLABICS:CAPS">HB_SCRIPT_CANADIAN_SYLLABICS</para></entry>
+<entry role="enum_member_description"><para><literal>Cans</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-CHEROKEE:CAPS">HB_SCRIPT_CHEROKEE</para></entry>
+<entry role="enum_member_description"><para><literal>Cher</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-ETHIOPIC:CAPS">HB_SCRIPT_ETHIOPIC</para></entry>
+<entry role="enum_member_description"><para><literal>Ethi</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-KHMER:CAPS">HB_SCRIPT_KHMER</para></entry>
+<entry role="enum_member_description"><para><literal>Khmr</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-MONGOLIAN:CAPS">HB_SCRIPT_MONGOLIAN</para></entry>
+<entry role="enum_member_description"><para><literal>Mong</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-MYANMAR:CAPS">HB_SCRIPT_MYANMAR</para></entry>
+<entry role="enum_member_description"><para><literal>Mymr</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-OGHAM:CAPS">HB_SCRIPT_OGHAM</para></entry>
+<entry role="enum_member_description"><para><literal>Ogam</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-RUNIC:CAPS">HB_SCRIPT_RUNIC</para></entry>
+<entry role="enum_member_description"><para><literal>Runr</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-SINHALA:CAPS">HB_SCRIPT_SINHALA</para></entry>
+<entry role="enum_member_description"><para><literal>Sinh</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-SYRIAC:CAPS">HB_SCRIPT_SYRIAC</para></entry>
+<entry role="enum_member_description"><para><literal>Syrc</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-THAANA:CAPS">HB_SCRIPT_THAANA</para></entry>
+<entry role="enum_member_description"><para><literal>Thaa</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-YI:CAPS">HB_SCRIPT_YI</para></entry>
+<entry role="enum_member_description"><para><literal>Yiii</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-DESERET:CAPS">HB_SCRIPT_DESERET</para></entry>
+<entry role="enum_member_description"><para><literal>Dsrt</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-GOTHIC:CAPS">HB_SCRIPT_GOTHIC</para></entry>
+<entry role="enum_member_description"><para><literal>Goth</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-OLD-ITALIC:CAPS">HB_SCRIPT_OLD_ITALIC</para></entry>
+<entry role="enum_member_description"><para><literal>Ital</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-BUHID:CAPS">HB_SCRIPT_BUHID</para></entry>
+<entry role="enum_member_description"><para><literal>Buhd</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-HANUNOO:CAPS">HB_SCRIPT_HANUNOO</para></entry>
+<entry role="enum_member_description"><para><literal>Hano</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-TAGALOG:CAPS">HB_SCRIPT_TAGALOG</para></entry>
+<entry role="enum_member_description"><para><literal>Tglg</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-TAGBANWA:CAPS">HB_SCRIPT_TAGBANWA</para></entry>
+<entry role="enum_member_description"><para><literal>Tagb</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-CYPRIOT:CAPS">HB_SCRIPT_CYPRIOT</para></entry>
+<entry role="enum_member_description"><para><literal>Cprt</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-LIMBU:CAPS">HB_SCRIPT_LIMBU</para></entry>
+<entry role="enum_member_description"><para><literal>Limb</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-LINEAR-B:CAPS">HB_SCRIPT_LINEAR_B</para></entry>
+<entry role="enum_member_description"><para><literal>Linb</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-OSMANYA:CAPS">HB_SCRIPT_OSMANYA</para></entry>
+<entry role="enum_member_description"><para><literal>Osma</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-SHAVIAN:CAPS">HB_SCRIPT_SHAVIAN</para></entry>
+<entry role="enum_member_description"><para><literal>Shaw</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-TAI-LE:CAPS">HB_SCRIPT_TAI_LE</para></entry>
+<entry role="enum_member_description"><para><literal>Tale</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-UGARITIC:CAPS">HB_SCRIPT_UGARITIC</para></entry>
+<entry role="enum_member_description"><para><literal>Ugar</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-BUGINESE:CAPS">HB_SCRIPT_BUGINESE</para></entry>
+<entry role="enum_member_description"><para><literal>Bugi</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-COPTIC:CAPS">HB_SCRIPT_COPTIC</para></entry>
+<entry role="enum_member_description"><para><literal>Copt</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-GLAGOLITIC:CAPS">HB_SCRIPT_GLAGOLITIC</para></entry>
+<entry role="enum_member_description"><para><literal>Glag</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-KHAROSHTHI:CAPS">HB_SCRIPT_KHAROSHTHI</para></entry>
+<entry role="enum_member_description"><para><literal>Khar</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-NEW-TAI-LUE:CAPS">HB_SCRIPT_NEW_TAI_LUE</para></entry>
+<entry role="enum_member_description"><para><literal>Talu</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-OLD-PERSIAN:CAPS">HB_SCRIPT_OLD_PERSIAN</para></entry>
+<entry role="enum_member_description"><para><literal>Xpeo</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-SYLOTI-NAGRI:CAPS">HB_SCRIPT_SYLOTI_NAGRI</para></entry>
+<entry role="enum_member_description"><para><literal>Sylo</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-TIFINAGH:CAPS">HB_SCRIPT_TIFINAGH</para></entry>
+<entry role="enum_member_description"><para><literal>Tfng</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-BALINESE:CAPS">HB_SCRIPT_BALINESE</para></entry>
+<entry role="enum_member_description"><para><literal>Bali</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-CUNEIFORM:CAPS">HB_SCRIPT_CUNEIFORM</para></entry>
+<entry role="enum_member_description"><para><literal>Xsux</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-NKO:CAPS">HB_SCRIPT_NKO</para></entry>
+<entry role="enum_member_description"><para><literal>Nkoo</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-PHAGS-PA:CAPS">HB_SCRIPT_PHAGS_PA</para></entry>
+<entry role="enum_member_description"><para><literal>Phag</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-PHOENICIAN:CAPS">HB_SCRIPT_PHOENICIAN</para></entry>
+<entry role="enum_member_description"><para><literal>Phnx</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-CARIAN:CAPS">HB_SCRIPT_CARIAN</para></entry>
+<entry role="enum_member_description"><para><literal>Cari</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-CHAM:CAPS">HB_SCRIPT_CHAM</para></entry>
+<entry role="enum_member_description"><para><literal>Cham</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-KAYAH-LI:CAPS">HB_SCRIPT_KAYAH_LI</para></entry>
+<entry role="enum_member_description"><para><literal>Kali</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-LEPCHA:CAPS">HB_SCRIPT_LEPCHA</para></entry>
+<entry role="enum_member_description"><para><literal>Lepc</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-LYCIAN:CAPS">HB_SCRIPT_LYCIAN</para></entry>
+<entry role="enum_member_description"><para><literal>Lyci</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-LYDIAN:CAPS">HB_SCRIPT_LYDIAN</para></entry>
+<entry role="enum_member_description"><para><literal>Lydi</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-OL-CHIKI:CAPS">HB_SCRIPT_OL_CHIKI</para></entry>
+<entry role="enum_member_description"><para><literal>Olck</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-REJANG:CAPS">HB_SCRIPT_REJANG</para></entry>
+<entry role="enum_member_description"><para><literal>Rjng</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-SAURASHTRA:CAPS">HB_SCRIPT_SAURASHTRA</para></entry>
+<entry role="enum_member_description"><para><literal>Saur</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-SUNDANESE:CAPS">HB_SCRIPT_SUNDANESE</para></entry>
+<entry role="enum_member_description"><para><literal>Sund</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-VAI:CAPS">HB_SCRIPT_VAI</para></entry>
+<entry role="enum_member_description"><para><literal>Vaii</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-AVESTAN:CAPS">HB_SCRIPT_AVESTAN</para></entry>
+<entry role="enum_member_description"><para><literal>Avst</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-BAMUM:CAPS">HB_SCRIPT_BAMUM</para></entry>
+<entry role="enum_member_description"><para><literal>Bamu</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-EGYPTIAN-HIEROGLYPHS:CAPS">HB_SCRIPT_EGYPTIAN_HIEROGLYPHS</para></entry>
+<entry role="enum_member_description"><para><literal>Egyp</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-IMPERIAL-ARAMAIC:CAPS">HB_SCRIPT_IMPERIAL_ARAMAIC</para></entry>
+<entry role="enum_member_description"><para><literal>Armi</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-INSCRIPTIONAL-PAHLAVI:CAPS">HB_SCRIPT_INSCRIPTIONAL_PAHLAVI</para></entry>
+<entry role="enum_member_description"><para><literal>Phli</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-INSCRIPTIONAL-PARTHIAN:CAPS">HB_SCRIPT_INSCRIPTIONAL_PARTHIAN</para></entry>
+<entry role="enum_member_description"><para><literal>Prti</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-JAVANESE:CAPS">HB_SCRIPT_JAVANESE</para></entry>
+<entry role="enum_member_description"><para><literal>Java</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-KAITHI:CAPS">HB_SCRIPT_KAITHI</para></entry>
+<entry role="enum_member_description"><para><literal>Kthi</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-LISU:CAPS">HB_SCRIPT_LISU</para></entry>
+<entry role="enum_member_description"><para><literal>Lisu</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-MEETEI-MAYEK:CAPS">HB_SCRIPT_MEETEI_MAYEK</para></entry>
+<entry role="enum_member_description"><para><literal>Mtei</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-OLD-SOUTH-ARABIAN:CAPS">HB_SCRIPT_OLD_SOUTH_ARABIAN</para></entry>
+<entry role="enum_member_description"><para><literal>Sarb</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-OLD-TURKIC:CAPS">HB_SCRIPT_OLD_TURKIC</para></entry>
+<entry role="enum_member_description"><para><literal>Orkh</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-SAMARITAN:CAPS">HB_SCRIPT_SAMARITAN</para></entry>
+<entry role="enum_member_description"><para><literal>Samr</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-TAI-THAM:CAPS">HB_SCRIPT_TAI_THAM</para></entry>
+<entry role="enum_member_description"><para><literal>Lana</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-TAI-VIET:CAPS">HB_SCRIPT_TAI_VIET</para></entry>
+<entry role="enum_member_description"><para><literal>Tavt</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-BATAK:CAPS">HB_SCRIPT_BATAK</para></entry>
+<entry role="enum_member_description"><para><literal>Batk</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-BRAHMI:CAPS">HB_SCRIPT_BRAHMI</para></entry>
+<entry role="enum_member_description"><para><literal>Brah</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-MANDAIC:CAPS">HB_SCRIPT_MANDAIC</para></entry>
+<entry role="enum_member_description"><para><literal>Mand</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-CHAKMA:CAPS">HB_SCRIPT_CHAKMA</para></entry>
+<entry role="enum_member_description"><para><literal>Cakm</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-MEROITIC-CURSIVE:CAPS">HB_SCRIPT_MEROITIC_CURSIVE</para></entry>
+<entry role="enum_member_description"><para><literal>Merc</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-MEROITIC-HIEROGLYPHS:CAPS">HB_SCRIPT_MEROITIC_HIEROGLYPHS</para></entry>
+<entry role="enum_member_description"><para><literal>Mero</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-MIAO:CAPS">HB_SCRIPT_MIAO</para></entry>
+<entry role="enum_member_description"><para><literal>Plrd</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-SHARADA:CAPS">HB_SCRIPT_SHARADA</para></entry>
+<entry role="enum_member_description"><para><literal>Shrd</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-SORA-SOMPENG:CAPS">HB_SCRIPT_SORA_SOMPENG</para></entry>
+<entry role="enum_member_description"><para><literal>Sora</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-TAKRI:CAPS">HB_SCRIPT_TAKRI</para></entry>
+<entry role="enum_member_description"><para><literal>Takr</literal></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-BASSA-VAH:CAPS">HB_SCRIPT_BASSA_VAH</para></entry>
+<entry role="enum_member_description"><para><literal>Bass</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-CAUCASIAN-ALBANIAN:CAPS">HB_SCRIPT_CAUCASIAN_ALBANIAN</para></entry>
+<entry role="enum_member_description"><para><literal>Aghb</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-DUPLOYAN:CAPS">HB_SCRIPT_DUPLOYAN</para></entry>
+<entry role="enum_member_description"><para><literal>Dupl</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-ELBASAN:CAPS">HB_SCRIPT_ELBASAN</para></entry>
+<entry role="enum_member_description"><para><literal>Elba</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-GRANTHA:CAPS">HB_SCRIPT_GRANTHA</para></entry>
+<entry role="enum_member_description"><para><literal>Gran</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-KHOJKI:CAPS">HB_SCRIPT_KHOJKI</para></entry>
+<entry role="enum_member_description"><para><literal>Khoj</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-KHUDAWADI:CAPS">HB_SCRIPT_KHUDAWADI</para></entry>
+<entry role="enum_member_description"><para><literal>Sind</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-LINEAR-A:CAPS">HB_SCRIPT_LINEAR_A</para></entry>
+<entry role="enum_member_description"><para><literal>Lina</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-MAHAJANI:CAPS">HB_SCRIPT_MAHAJANI</para></entry>
+<entry role="enum_member_description"><para><literal>Mahj</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-MANICHAEAN:CAPS">HB_SCRIPT_MANICHAEAN</para></entry>
+<entry role="enum_member_description"><para><literal>Mani</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-MENDE-KIKAKUI:CAPS">HB_SCRIPT_MENDE_KIKAKUI</para></entry>
+<entry role="enum_member_description"><para><literal>Mend</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-MODI:CAPS">HB_SCRIPT_MODI</para></entry>
+<entry role="enum_member_description"><para><literal>Modi</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-MRO:CAPS">HB_SCRIPT_MRO</para></entry>
+<entry role="enum_member_description"><para><literal>Mroo</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-NABATAEAN:CAPS">HB_SCRIPT_NABATAEAN</para></entry>
+<entry role="enum_member_description"><para><literal>Nbat</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-OLD-NORTH-ARABIAN:CAPS">HB_SCRIPT_OLD_NORTH_ARABIAN</para></entry>
+<entry role="enum_member_description"><para><literal>Narb</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-OLD-PERMIC:CAPS">HB_SCRIPT_OLD_PERMIC</para></entry>
+<entry role="enum_member_description"><para><literal>Perm</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-PAHAWH-HMONG:CAPS">HB_SCRIPT_PAHAWH_HMONG</para></entry>
+<entry role="enum_member_description"><para><literal>Hmng</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-PALMYRENE:CAPS">HB_SCRIPT_PALMYRENE</para></entry>
+<entry role="enum_member_description"><para><literal>Palm</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-PAU-CIN-HAU:CAPS">HB_SCRIPT_PAU_CIN_HAU</para></entry>
+<entry role="enum_member_description"><para><literal>Pauc</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-PSALTER-PAHLAVI:CAPS">HB_SCRIPT_PSALTER_PAHLAVI</para></entry>
+<entry role="enum_member_description"><para><literal>Phlp</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-SIDDHAM:CAPS">HB_SCRIPT_SIDDHAM</para></entry>
+<entry role="enum_member_description"><para><literal>Sidd</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-TIRHUTA:CAPS">HB_SCRIPT_TIRHUTA</para></entry>
+<entry role="enum_member_description"><para><literal>Tirh</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-WARANG-CITI:CAPS">HB_SCRIPT_WARANG_CITI</para></entry>
+<entry role="enum_member_description"><para><literal>Wara</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-AHOM:CAPS">HB_SCRIPT_AHOM</para></entry>
+<entry role="enum_member_description"><para><literal>Ahom</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-ANATOLIAN-HIEROGLYPHS:CAPS">HB_SCRIPT_ANATOLIAN_HIEROGLYPHS</para></entry>
+<entry role="enum_member_description"><para><literal>Hluw</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-HATRAN:CAPS">HB_SCRIPT_HATRAN</para></entry>
+<entry role="enum_member_description"><para><literal>Hatr</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-MULTANI:CAPS">HB_SCRIPT_MULTANI</para></entry>
+<entry role="enum_member_description"><para><literal>Mult</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-OLD-HUNGARIAN:CAPS">HB_SCRIPT_OLD_HUNGARIAN</para></entry>
+<entry role="enum_member_description"><para><literal>Hung</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-SIGNWRITING:CAPS">HB_SCRIPT_SIGNWRITING</para></entry>
+<entry role="enum_member_description"><para><literal>Sgnw</literal>, Since: 0.9.30</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-ADLAM:CAPS">HB_SCRIPT_ADLAM</para></entry>
+<entry role="enum_member_description"><para><literal>Adlm</literal>, Since: 1.3.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-BHAIKSUKI:CAPS">HB_SCRIPT_BHAIKSUKI</para></entry>
+<entry role="enum_member_description"><para><literal>Bhks</literal>, Since: 1.3.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-MARCHEN:CAPS">HB_SCRIPT_MARCHEN</para></entry>
+<entry role="enum_member_description"><para><literal>Marc</literal>, Since: 1.3.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-OSAGE:CAPS">HB_SCRIPT_OSAGE</para></entry>
+<entry role="enum_member_description"><para><literal>Osge</literal>, Since: 1.3.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-TANGUT:CAPS">HB_SCRIPT_TANGUT</para></entry>
+<entry role="enum_member_description"><para><literal>Tang</literal>, Since: 1.3.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-NEWA:CAPS">HB_SCRIPT_NEWA</para></entry>
+<entry role="enum_member_description"><para><literal>Newa</literal>, Since: 1.3.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-MASARAM-GONDI:CAPS">HB_SCRIPT_MASARAM_GONDI</para></entry>
+<entry role="enum_member_description"><para><literal>Gonm</literal>, Since: 1.6.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-NUSHU:CAPS">HB_SCRIPT_NUSHU</para></entry>
+<entry role="enum_member_description"><para><literal>Nshu</literal>, Since: 1.6.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-SOYOMBO:CAPS">HB_SCRIPT_SOYOMBO</para></entry>
+<entry role="enum_member_description"><para><literal>Soyo</literal>, Since: 1.6.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-ZANABAZAR-SQUARE:CAPS">HB_SCRIPT_ZANABAZAR_SQUARE</para></entry>
+<entry role="enum_member_description"><para><literal>Zanb</literal>, Since: 1.6.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-DOGRA:CAPS">HB_SCRIPT_DOGRA</para></entry>
+<entry role="enum_member_description"><para><literal>Dogr</literal>, Since: 1.8.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-GUNJALA-GONDI:CAPS">HB_SCRIPT_GUNJALA_GONDI</para></entry>
+<entry role="enum_member_description"><para><literal>Gong</literal>, Since: 1.8.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-HANIFI-ROHINGYA:CAPS">HB_SCRIPT_HANIFI_ROHINGYA</para></entry>
+<entry role="enum_member_description"><para><literal>Rohg</literal>, Since: 1.8.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-MAKASAR:CAPS">HB_SCRIPT_MAKASAR</para></entry>
+<entry role="enum_member_description"><para><literal>Maka</literal>, Since: 1.8.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-MEDEFAIDRIN:CAPS">HB_SCRIPT_MEDEFAIDRIN</para></entry>
+<entry role="enum_member_description"><para><literal>Medf</literal>, Since: 1.8.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-OLD-SOGDIAN:CAPS">HB_SCRIPT_OLD_SOGDIAN</para></entry>
+<entry role="enum_member_description"><para><literal>Sogo</literal>, Since: 1.8.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-SOGDIAN:CAPS">HB_SCRIPT_SOGDIAN</para></entry>
+<entry role="enum_member_description"><para><literal>Sogd</literal>, Since: 1.8.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-ELYMAIC:CAPS">HB_SCRIPT_ELYMAIC</para></entry>
+<entry role="enum_member_description"><para><literal>Elym</literal>, Since: 2.4.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-NANDINAGARI:CAPS">HB_SCRIPT_NANDINAGARI</para></entry>
+<entry role="enum_member_description"><para><literal>Nand</literal>, Since: 2.4.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-NYIAKENG-PUACHUE-HMONG:CAPS">HB_SCRIPT_NYIAKENG_PUACHUE_HMONG</para></entry>
+<entry role="enum_member_description"><para><literal>Hmnp</literal>, Since: 2.4.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-WANCHO:CAPS">HB_SCRIPT_WANCHO</para></entry>
+<entry role="enum_member_description"><para><literal>Wcho</literal>, Since: 2.4.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-CHORASMIAN:CAPS">HB_SCRIPT_CHORASMIAN</para></entry>
+<entry role="enum_member_description"><para><literal>Chrs</literal>, Since: 2.6.7</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-DIVES-AKURU:CAPS">HB_SCRIPT_DIVES_AKURU</para></entry>
+<entry role="enum_member_description"><para><literal>Diak</literal>, Since: 2.6.7</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-KHITAN-SMALL-SCRIPT:CAPS">HB_SCRIPT_KHITAN_SMALL_SCRIPT</para></entry>
+<entry role="enum_member_description"><para><literal>Kits</literal>, Since: 2.6.7</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-YEZIDI:CAPS">HB_SCRIPT_YEZIDI</para></entry>
+<entry role="enum_member_description"><para><literal>Yezi</literal>, Since: 2.6.7</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-CYPRO-MINOAN:CAPS">HB_SCRIPT_CYPRO_MINOAN</para></entry>
+<entry role="enum_member_description"><para><literal>Cpmn</literal>, Since: 3.0.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-OLD-UYGHUR:CAPS">HB_SCRIPT_OLD_UYGHUR</para></entry>
+<entry role="enum_member_description"><para><literal>Ougr</literal>, Since: 3.0.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-TANGSA:CAPS">HB_SCRIPT_TANGSA</para></entry>
+<entry role="enum_member_description"><para><literal>Tnsa</literal>, Since: 3.0.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-TOTO:CAPS">HB_SCRIPT_TOTO</para></entry>
+<entry role="enum_member_description"><para><literal>Toto</literal>, Since: 3.0.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-VITHKUQI:CAPS">HB_SCRIPT_VITHKUQI</para></entry>
+<entry role="enum_member_description"><para><literal>Vith</literal>, Since: 3.0.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-MATH:CAPS">HB_SCRIPT_MATH</para></entry>
+<entry role="enum_member_description"><para><literal>Zmth</literal>, Since: 3.4.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-KAWI:CAPS">HB_SCRIPT_KAWI</para></entry>
+<entry role="enum_member_description"><para><literal>Kawi</literal>, Since: 5.2.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-NAG-MUNDARI:CAPS">HB_SCRIPT_NAG_MUNDARI</para></entry>
+<entry role="enum_member_description"><para><literal>Nagm</literal>, Since: 5.2.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SCRIPT-INVALID:CAPS">HB_SCRIPT_INVALID</para></entry>
+<entry role="enum_member_description"><para>No script set</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3></refsect2>
+<refsect2 id="hb-user-data-key-t" role="struct">
+<title>hb_user_data_key_t</title>
+<indexterm zone="hb-user-data-key-t"><primary>hb_user_data_key_t</primary></indexterm>
+<programlisting language="C">typedef struct {
+} hb_user_data_key_t;
+</programlisting>
+<para>Data structure for holding user-data keys.</para>
+</refsect2>
+<refsect2 id="HB-TAG-NONE:CAPS" role="macro">
+<title>HB_TAG_NONE</title>
+<indexterm zone="HB-TAG-NONE:CAPS"><primary>HB_TAG_NONE</primary></indexterm>
+<programlisting language="C">#define HB_TAG_NONE HB_TAG(0,0,0,0)
+</programlisting>
+<para>Unset <link linkend="hb-tag-t"><type>hb_tag_t</type></link>.</para>
+</refsect2>
+<refsect2 id="HB-TAG-MAX:CAPS" role="macro" condition="since:0.9.26">
+<title>HB_TAG_MAX</title>
+<indexterm zone="HB-TAG-MAX:CAPS" role="0.9.26"><primary>HB_TAG_MAX</primary></indexterm>
+<programlisting language="C">#define HB_TAG_MAX HB_TAG(0xff,0xff,0xff,0xff)
+</programlisting>
+<para>Maximum possible unsigned <link linkend="hb-tag-t"><type>hb_tag_t</type></link>.</para>
+<para role="since">Since: <link linkend="api-index-0.9.26">0.9.26</link></para></refsect2>
+<refsect2 id="HB-TAG-MAX-SIGNED:CAPS" role="macro" condition="since:0.9.33">
+<title>HB_TAG_MAX_SIGNED</title>
+<indexterm zone="HB-TAG-MAX-SIGNED:CAPS" role="0.9.33"><primary>HB_TAG_MAX_SIGNED</primary></indexterm>
+<programlisting language="C">#define HB_TAG_MAX_SIGNED HB_TAG(0x7f,0xff,0xff,0xff)
+</programlisting>
+<para>Maximum possible signed <link linkend="hb-tag-t"><type>hb_tag_t</type></link>.</para>
+<para role="since">Since: <link linkend="api-index-0.9.33">0.9.33</link></para></refsect2>
+<refsect2 id="HB-LANGUAGE-INVALID:CAPS" role="macro" condition="since:0.6.0">
+<title>HB_LANGUAGE_INVALID</title>
+<indexterm zone="HB-LANGUAGE-INVALID:CAPS" role="0.6.0"><primary>HB_LANGUAGE_INVALID</primary></indexterm>
+<programlisting language="C">#define HB_LANGUAGE_INVALID ((hb_language_t) 0)
+</programlisting>
+<para>An unset <link linkend="hb-language-t"><type>hb_language_t</type></link>.</para>
+<para role="since">Since: <link linkend="api-index-0.6.0">0.6.0</link></para></refsect2>
+<refsect2 id="HB-FEATURE-GLOBAL-END:CAPS" role="macro" condition="since:2.0.0">
+<title>HB_FEATURE_GLOBAL_END</title>
+<indexterm zone="HB-FEATURE-GLOBAL-END:CAPS" role="2.0.0"><primary>HB_FEATURE_GLOBAL_END</primary></indexterm>
+<programlisting language="C">#define HB_FEATURE_GLOBAL_END&#160;((unsigned int) -1)
+</programlisting>
+<para>Special setting for <link linkend="hb-feature-t.end"><type>hb_feature_t.end</type></link> to apply the feature from to the end
+of the buffer.</para>
+<para role="since">Since: <link linkend="api-index-2.0.0">2.0.0</link></para></refsect2>
+<refsect2 id="HB-FEATURE-GLOBAL-START:CAPS" role="macro" condition="since:2.0.0">
+<title>HB_FEATURE_GLOBAL_START</title>
+<indexterm zone="HB-FEATURE-GLOBAL-START:CAPS" role="2.0.0"><primary>HB_FEATURE_GLOBAL_START</primary></indexterm>
+<programlisting language="C">#define HB_FEATURE_GLOBAL_START&#160;0
+</programlisting>
+<para>Special setting for <link linkend="hb-feature-t.start"><type>hb_feature_t.start</type></link> to apply the feature from the start
+of the buffer.</para>
+<para role="since">Since: <link linkend="api-index-2.0.0">2.0.0</link></para></refsect2>
+
+</refsect1>
+
+</refentry>

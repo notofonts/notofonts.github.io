@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-1.7.7">
+<indexdiv><title>B</title>
+<indexentry><primaryie linkends="hb-blob-create-from-file"><link linkend="hb-blob-create-from-file">hb_blob_create_from_file</link>, function in <link linkend="harfbuzz-hb-blob">hb-blob</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="hb-face-count"><link linkend="hb-face-count">hb_face_count</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>M</title>
+<indexentry><primaryie linkends="hb-map-allocation-successful"><link linkend="hb-map-allocation-successful">hb_map_allocation_successful</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-map-clear"><link linkend="hb-map-clear">hb_map_clear</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-map-create"><link linkend="hb-map-create">hb_map_create</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-map-del"><link linkend="hb-map-del">hb_map_del</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-map-destroy"><link linkend="hb-map-destroy">hb_map_destroy</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-map-get"><link linkend="hb-map-get">hb_map_get</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-map-get-empty"><link linkend="hb-map-get-empty">hb_map_get_empty</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-map-get-population"><link linkend="hb-map-get-population">hb_map_get_population</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-map-get-user-data"><link linkend="hb-map-get-user-data">hb_map_get_user_data</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-map-has"><link linkend="hb-map-has">hb_map_has</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-map-is-empty"><link linkend="hb-map-is-empty">hb_map_is_empty</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-map-reference"><link linkend="hb-map-reference">hb_map_reference</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-map-set"><link linkend="hb-map-set">hb_map_set</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-map-set-user-data"><link linkend="hb-map-set-user-data">hb_map_set_user_data</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HB-MAP-VALUE-INVALID:CAPS"><link linkend="HB-MAP-VALUE-INVALID:CAPS">HB_MAP_VALUE_INVALID</link>, macro in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

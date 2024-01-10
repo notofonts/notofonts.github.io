@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-1.1.3">
+<indexdiv><title>B</title>
+<indexentry><primaryie linkends="hb-buffer-message-func-t"><link linkend="hb-buffer-message-func-t">hb_buffer_message_func_t</link>, user_function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-set-message-func"><link linkend="hb-buffer-set-message-func">hb_buffer_set_message_func</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="hb-font-get-extents-for-direction"><link linkend="hb-font-get-extents-for-direction">hb_font_get_extents_for_direction</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-h-extents"><link linkend="hb-font-get-h-extents">hb_font_get_h_extents</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-v-extents"><link linkend="hb-font-get-v-extents">hb_font_get_v_extents</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

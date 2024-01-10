@@ -1,0 +1,462 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-cairo">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-cairo.top_of_page">hb-cairo</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-cairo</refname>
+<refpurpose>Cairo integration</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-cairo.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="cairo-font-face-t"><returnvalue>cairo_font_face_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-cairo-font-face-create-for-font">hb_cairo_font_face_create_for_font</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-font-t"><returnvalue>hb_font_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-cairo-font-face-get-font">hb_cairo_font_face_get_font</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="cairo-font-face-t"><returnvalue>cairo_font_face_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-cairo-font-face-create-for-face">hb_cairo_font_face_create_for_face</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-cairo-font-face-get-face">hb_cairo_font_face_get_face</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-font-t"><returnvalue>hb_font_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-cairo-font-init-func-t">*hb_cairo_font_init_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-cairo-font-face-set-font-init-func">hb_cairo_font_face_set_font_init_func</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-font-t"><returnvalue>hb_font_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-cairo-scaled-font-get-font">hb_cairo_scaled_font_get_font</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-cairo-font-face-set-scale-factor">hb_cairo_font_face_set_scale_factor</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-cairo-font-face-get-scale-factor">hb_cairo_font_face_get_scale_factor</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-cairo-glyphs-from-buffer">hb_cairo_glyphs_from_buffer</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-cairo.includes"><title>Includes</title><synopsis>#include &lt;hb-cairo.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-cairo.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Functions for using HarfBuzz with the cairo library.</para>
+<para>HarfBuzz supports using cairo for rendering.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-cairo.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-cairo-font-face-create-for-font" role="function" condition="since:7.0.0">
+<title>hb_cairo_font_face_create_for_font&#160;()</title>
+<indexterm zone="hb-cairo-font-face-create-for-font" role="7.0.0"><primary>hb_cairo_font_face_create_for_font</primary></indexterm>
+<programlisting language="C"><link linkend="cairo-font-face-t"><returnvalue>cairo_font_face_t</returnvalue></link>&#160;*
+hb_cairo_font_face_create_for_font (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>);</programlisting>
+<para>Creates a <link linkend="cairo-font-face-t"><type>cairo_font_face_t</type></link> for rendering text according
+to <parameter>font</parameter>
+.</para>
+<para>Note that the scale of <parameter>font</parameter>
+ does not affect the rendering,
+but the variations and slant that are set on <parameter>font</parameter>
+ do.</para>
+<refsect3 id="hb-cairo-font-face-create-for-font.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-font-t"><type>hb_font_t</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-cairo-font-face-create-for-font.returns" role="returns">
+<title>Returns</title>
+<para>a newly created <link linkend="cairo-font-face-t"><type>cairo_font_face_t</type></link>. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-cairo-font-face-get-font" role="function" condition="since:7.0.0">
+<title>hb_cairo_font_face_get_font&#160;()</title>
+<indexterm zone="hb-cairo-font-face-get-font" role="7.0.0"><primary>hb_cairo_font_face_get_font</primary></indexterm>
+<programlisting language="C"><link linkend="hb-font-t"><returnvalue>hb_font_t</returnvalue></link>&#160;*
+hb_cairo_font_face_get_font (<parameter><link linkend="cairo-font-face-t"><type>cairo_font_face_t</type></link> *font_face</parameter>);</programlisting>
+<para>Gets the <link linkend="hb-font-t"><type>hb_font_t</type></link> that <parameter>font_face</parameter>
+ was created from.</para>
+<refsect3 id="hb-cairo-font-face-get-font.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font_face</para></entry>
+<entry role="parameter_description"><para>a <link linkend="cairo-font-face-t"><type>cairo_font_face_t</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-cairo-font-face-get-font.returns" role="returns">
+<title>Returns</title>
+<para>the <link linkend="hb-font-t"><type>hb_font_t</type></link> that <parameter>font_face</parameter>
+was created from. </para>
+<para><emphasis role="annotation">[<acronym>nullable</acronym>][<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-cairo-font-face-create-for-face" role="function" condition="since:7.0.0">
+<title>hb_cairo_font_face_create_for_face&#160;()</title>
+<indexterm zone="hb-cairo-font-face-create-for-face" role="7.0.0"><primary>hb_cairo_font_face_create_for_face</primary></indexterm>
+<programlisting language="C"><link linkend="cairo-font-face-t"><returnvalue>cairo_font_face_t</returnvalue></link>&#160;*
+hb_cairo_font_face_create_for_face (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Creates a <link linkend="cairo-font-face-t"><type>cairo_font_face_t</type></link> for rendering text according
+to <parameter>face</parameter>
+.</para>
+<refsect3 id="hb-cairo-font-face-create-for-face.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-face-t"><type>hb_face_t</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-cairo-font-face-create-for-face.returns" role="returns">
+<title>Returns</title>
+<para>a newly created <link linkend="cairo-font-face-t"><type>cairo_font_face_t</type></link>. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-cairo-font-face-get-face" role="function" condition="since:7.0.0">
+<title>hb_cairo_font_face_get_face&#160;()</title>
+<indexterm zone="hb-cairo-font-face-get-face" role="7.0.0"><primary>hb_cairo_font_face_get_face</primary></indexterm>
+<programlisting language="C"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+hb_cairo_font_face_get_face (<parameter><link linkend="cairo-font-face-t"><type>cairo_font_face_t</type></link> *font_face</parameter>);</programlisting>
+<para>Gets the <link linkend="hb-face-t"><type>hb_face_t</type></link> associated with <parameter>font_face</parameter>
+.</para>
+<refsect3 id="hb-cairo-font-face-get-face.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font_face</para></entry>
+<entry role="parameter_description"><para>a <link linkend="cairo-font-face-t"><type>cairo_font_face_t</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-cairo-font-face-get-face.returns" role="returns">
+<title>Returns</title>
+<para>the <link linkend="hb-face-t"><type>hb_face_t</type></link> associated with <parameter>font_face</parameter>
+. </para>
+<para><emphasis role="annotation">[<acronym>nullable</acronym>][<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-cairo-font-init-func-t" role="function" condition="since:7.0.0">
+<title>hb_cairo_font_init_func_t&#160;()</title>
+<indexterm zone="hb-cairo-font-init-func-t" role="7.0.0"><primary>hb_cairo_font_init_func_t</primary></indexterm>
+<programlisting language="C"><link linkend="hb-font-t"><returnvalue>hb_font_t</returnvalue></link>&#160;*
+<phrase role="c_punctuation">(</phrase>*hb_cairo_font_init_func_t<phrase role="c_punctuation">)</phrase> (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                              <parameter><link linkend="cairo-scaled-font-t"><type>cairo_scaled_font_t</type></link> *scaled_font</parameter>,
+                              <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<para>The type of a virtual method to be called when a cairo
+face created using <link linkend="hb-cairo-font-face-create-for-face"><function>hb_cairo_font_face_create_for_face()</function></link>
+creates an <link linkend="hb-font-t"><type>hb_font_t</type></link> for a <link linkend="cairo-scaled-font-t"><type>cairo_scaled_font_t</type></link>.</para>
+<refsect3 id="hb-cairo-font-init-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-font-t"><type>hb_font_t</type></link> being created</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>scaled_font</para></entry>
+<entry role="parameter_description"><para>The respective <link linkend="cairo-scaled-font-t"><type>cairo_scaled_font_t</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>User data accompanying this method</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-cairo-font-init-func-t.returns" role="returns">
+<title>Returns</title>
+<para> the <link linkend="hb-font-t"><type>hb_font_t</type></link> value to use; in most cases same as <parameter>font</parameter>
+</para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-cairo-font-face-set-font-init-func" role="function" condition="since:7.0.0">
+<title>hb_cairo_font_face_set_font_init_func&#160;()</title>
+<indexterm zone="hb-cairo-font-face-set-font-init-func" role="7.0.0"><primary>hb_cairo_font_face_set_font_init_func</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_cairo_font_face_set_font_init_func (<parameter><link linkend="cairo-font-face-t"><type>cairo_font_face_t</type></link> *font_face</parameter>,
+                                       <parameter><link linkend="hb-cairo-font-init-func-t"><type>hb_cairo_font_init_func_t</type></link> func</parameter>,
+                                       <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                                       <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<para>Set the virtual method to be called when a cairo
+face created using <link linkend="hb-cairo-font-face-create-for-face"><function>hb_cairo_font_face_create_for_face()</function></link>
+creates an <link linkend="hb-font-t"><type>hb_font_t</type></link> for a <link linkend="cairo-scaled-font-t"><type>cairo_scaled_font_t</type></link>.</para>
+<refsect3 id="hb-cairo-font-face-set-font-init-func.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font_face</para></entry>
+<entry role="parameter_description"><para>a <link linkend="cairo-font-face-t"><type>cairo_font_face_t</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>func</para></entry>
+<entry role="parameter_description"><para>The virtual method to use</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>user data accompanying the method</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>function to call when <parameter>user_data</parameter>
+is not needed anymore</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-cairo-scaled-font-get-font" role="function" condition="since:7.0.0">
+<title>hb_cairo_scaled_font_get_font&#160;()</title>
+<indexterm zone="hb-cairo-scaled-font-get-font" role="7.0.0"><primary>hb_cairo_scaled_font_get_font</primary></indexterm>
+<programlisting language="C"><link linkend="hb-font-t"><returnvalue>hb_font_t</returnvalue></link>&#160;*
+hb_cairo_scaled_font_get_font (<parameter><link linkend="cairo-scaled-font-t"><type>cairo_scaled_font_t</type></link> *scaled_font</parameter>);</programlisting>
+<para>Gets the <link linkend="hb-font-t"><type>hb_font_t</type></link> associated with <parameter>scaled_font</parameter>
+.</para>
+<refsect3 id="hb-cairo-scaled-font-get-font.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>scaled_font</para></entry>
+<entry role="parameter_description"><para>a <link linkend="cairo-scaled-font-t"><type>cairo_scaled_font_t</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-cairo-scaled-font-get-font.returns" role="returns">
+<title>Returns</title>
+<para>the <link linkend="hb-font-t"><type>hb_font_t</type></link> associated with <parameter>scaled_font</parameter>
+. </para>
+<para><emphasis role="annotation">[<acronym>nullable</acronym>][<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-cairo-font-face-set-scale-factor" role="function" condition="since:7.0.0">
+<title>hb_cairo_font_face_set_scale_factor&#160;()</title>
+<indexterm zone="hb-cairo-font-face-set-scale-factor" role="7.0.0"><primary>hb_cairo_font_face_set_scale_factor</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_cairo_font_face_set_scale_factor (<parameter><link linkend="cairo-font-face-t"><type>cairo_font_face_t</type></link> *font_face</parameter>,
+                                     <parameter>unsigned <link linkend="int"><type>int</type></link> scale_factor</parameter>);</programlisting>
+<para>Sets the scale factor of the <parameter>font_face</parameter>
+. Default scale
+factor is zero.</para>
+<para>When a <link linkend="cairo-font-face-t"><type>cairo_font_face_t</type></link> is created from a <link linkend="hb-face-t"><type>hb_face_t</type></link> using
+<link linkend="hb-cairo-font-face-create-for-face"><function>hb_cairo_font_face_create_for_face()</function></link>, such face will create
+<link linkend="hb-font-t"><type>hb_font_t</type></link> objects during scaled-font creation.  The scale
+factor defines how the scale set on such <link linkend="hb-font-t"><type>hb_font_t</type></link> objects
+relates to the font-matrix (as such font size) of the cairo
+scaled-font.</para>
+<para>If the scale-factor is zero (default), then the scale of the
+<link linkend="hb-font-t"><type>hb_font_t</type></link> object will be left at default, which is the UPEM
+value of the respective <link linkend="hb-face-t"><type>hb_face_t</type></link>.</para>
+<para>If the scale-factor is set to non-zero, then the X and Y scale
+of the <link linkend="hb-font-t"><type>hb_font_t</type></link> object will be respectively set to the
+<parameter>scale_factor</parameter>
+ times the xx and yy elements of the scale-matrix
+of the cairo scaled-font being created.</para>
+<para>When using the <link linkend="hb-cairo-glyphs-from-buffer"><function>hb_cairo_glyphs_from_buffer()</function></link> API to convert the
+HarfBuzz glyph buffer that resulted from shaping with such a <link linkend="hb-font-t"><type>hb_font_t</type></link>,
+if the scale-factor was non-zero, you can pass it directly to
+that API as both X and Y scale factors.</para>
+<para>If the scale-factor was zero however, or the cairo face was
+created using the alternative constructor
+<link linkend="hb-cairo-font-face-create-for-font"><function>hb_cairo_font_face_create_for_font()</function></link>, you need to calculate the
+correct X/Y scale-factors to pass to <link linkend="hb-cairo-glyphs-from-buffer"><function>hb_cairo_glyphs_from_buffer()</function></link>
+by dividing the <link linkend="hb-font-t"><type>hb_font_t</type></link> X/Y scale-factors by the
+cairo scaled-font's scale-matrix XX/YY components respectively
+and use those values.  Or if you know that relationship offhand
+(because you set the scale of the <link linkend="hb-font-t"><type>hb_font_t</type></link> yourself), use
+the conversion rate involved.</para>
+<refsect3 id="hb-cairo-font-face-set-scale-factor.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>scale_factor</para></entry>
+<entry role="parameter_description"><para>The scale factor to use. See below</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>font_face</para></entry>
+<entry role="parameter_description"><para>a <link linkend="cairo-font-face-t"><type>cairo_font_face_t</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-cairo-font-face-get-scale-factor" role="function" condition="since:7.0.0">
+<title>hb_cairo_font_face_get_scale_factor&#160;()</title>
+<indexterm zone="hb-cairo-font-face-get-scale-factor" role="7.0.0"><primary>hb_cairo_font_face_get_scale_factor</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_cairo_font_face_get_scale_factor (<parameter><link linkend="cairo-font-face-t"><type>cairo_font_face_t</type></link> *font_face</parameter>);</programlisting>
+<para>Gets the scale factor set on the <parameter>font_face</parameter>
+. Defaults to zero.
+See <link linkend="hb-cairo-font-face-set-scale-factor"><function>hb_cairo_font_face_set_scale_factor()</function></link> for details.</para>
+<refsect3 id="hb-cairo-font-face-get-scale-factor.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font_face</para></entry>
+<entry role="parameter_description"><para>a <link linkend="cairo-font-face-t"><type>cairo_font_face_t</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-cairo-font-face-get-scale-factor.returns" role="returns">
+<title>Returns</title>
+<para> the scale factor of <parameter>font_face</parameter>
+</para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-cairo-glyphs-from-buffer" role="function" condition="since:7.0.0">
+<title>hb_cairo_glyphs_from_buffer&#160;()</title>
+<indexterm zone="hb-cairo-glyphs-from-buffer" role="7.0.0"><primary>hb_cairo_glyphs_from_buffer</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_cairo_glyphs_from_buffer (<parameter><link linkend="hb-buffer-t"><type>hb_buffer_t</type></link> *buffer</parameter>,
+                             <parameter><link linkend="hb-bool-t"><type>hb_bool_t</type></link> utf8_clusters</parameter>,
+                             <parameter><link linkend="double"><type>double</type></link> x_scale_factor</parameter>,
+                             <parameter><link linkend="double"><type>double</type></link> y_scale_factor</parameter>,
+                             <parameter><link linkend="double"><type>double</type></link> x</parameter>,
+                             <parameter><link linkend="double"><type>double</type></link> y</parameter>,
+                             <parameter>const <link linkend="char"><type>char</type></link> *utf8</parameter>,
+                             <parameter><link linkend="int"><type>int</type></link> utf8_len</parameter>,
+                             <parameter><link linkend="cairo-glyph-t"><type>cairo_glyph_t</type></link> **glyphs</parameter>,
+                             <parameter>unsigned <link linkend="int"><type>int</type></link> *num_glyphs</parameter>,
+                             <parameter><link linkend="cairo-text-cluster-t"><type>cairo_text_cluster_t</type></link> **clusters</parameter>,
+                             <parameter>unsigned <link linkend="int"><type>int</type></link> *num_clusters</parameter>,
+                             <parameter><link linkend="cairo-text-cluster-flags-t"><type>cairo_text_cluster_flags_t</type></link> *cluster_flags</parameter>);</programlisting>
+<para>Extracts information from <parameter>buffer</parameter>
+ in a form that can be
+passed to <link linkend="cairo-show-text-glyphs"><function>cairo_show_text_glyphs()</function></link> or <link linkend="cairo-show-glyphs"><function>cairo_show_glyphs()</function></link>.
+This API is modeled after <link linkend="cairo-scaled-font-text-to-glyphs"><function>cairo_scaled_font_text_to_glyphs()</function></link> and
+cairo_user_scaled_font_text_to_glyphs_func_t.</para>
+<para>The <parameter>num_glyphs</parameter>
+ argument should be preset to the number of glyph entries available
+in the <parameter>glyphs</parameter>
+ buffer. If the <parameter>glyphs</parameter>
+ buffer is <literal>NULL</literal>, the value of
+<parameter>num_glyphs</parameter>
+ must be zero.  If the provided glyph array is too short for
+the conversion (or for convenience), a new glyph array may be allocated
+using <link linkend="cairo-glyph-allocate"><function>cairo_glyph_allocate()</function></link> and placed in <parameter>glyphs</parameter>
+.  Upon return,
+<parameter>num_glyphs</parameter>
+ should contain the number of generated glyphs.  If the value
+<parameter>glyphs</parameter>
+ points at has changed after the call, the caller will free the
+allocated glyph array using <link linkend="cairo-glyph-free"><function>cairo_glyph_free()</function></link>.  The caller will also free
+the original value of <parameter>glyphs</parameter>
+, so this function shouldn't do so.</para>
+<para>If <parameter>clusters</parameter>
+ is not <literal>NULL</literal>, then <parameter>num_clusters</parameter>
+ and <parameter>cluster_flags</parameter>
+
+should not be either, and <parameter>utf8</parameter>
+ must be provided, and cluster
+mapping will be computed. The semantics of how
+cluster array allocation works is similar to the glyph array.  That is,
+if <parameter>clusters</parameter>
+ initially points to a non-<literal>NULL</literal> value, that array may be used
+as a cluster buffer, and <parameter>num_clusters</parameter>
+ points to the number of cluster
+entries available there.  If the provided cluster array is too short for
+the conversion (or for convenience), a new cluster array may be allocated
+using <link linkend="cairo-text-cluster-allocate"><function>cairo_text_cluster_allocate()</function></link> and placed in <parameter>clusters</parameter>
+.  In this case,
+the original value of <parameter>clusters</parameter>
+ will still be freed by the caller.  Upon
+return, <parameter>num_clusters</parameter>
+ will contain the number of generated clusters.
+If the value <parameter>clusters</parameter>
+ points at has changed after the call, the caller
+will free the allocated cluster array using <link linkend="cairo-text-cluster-free"><function>cairo_text_cluster_free()</function></link>.</para>
+<para>See <link linkend="hb-cairo-font-face-set-scale-factor"><function>hb_cairo_font_face_set_scale_factor()</function></link> for the details of
+the <parameter>scale_factor</parameter>
+ argument.</para>
+<para>The returned <parameter>glyphs</parameter>
+ vector actually has <literal>@num_glyphs + 1</literal> entries in
+it and the x,y values of the extra entry at the end add up the advance
+x,y of all the glyphs in the <parameter>buffer</parameter>
+.</para>
+<refsect3 id="hb-cairo-glyphs-from-buffer.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>buffer</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-buffer-t"><type>hb_buffer_t</type></link> containing glyphs</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>utf8_clusters</para></entry>
+<entry role="parameter_description"><para><literal>true</literal> if <parameter>buffer</parameter>
+clusters are in bytes, instead of characters</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>x_scale_factor</para></entry>
+<entry role="parameter_description"><para>scale factor to divide <link linkend="hb-position-t"><type>hb_position_t</type></link> Y values by</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>y_scale_factor</para></entry>
+<entry role="parameter_description"><para>scale factor to divide <link linkend="hb-position-t"><type>hb_position_t</type></link> X values by</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>x</para></entry>
+<entry role="parameter_description"><para>X position to place first glyph</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>y</para></entry>
+<entry role="parameter_description"><para>Y position to place first glyph</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>utf8</para></entry>
+<entry role="parameter_description"><para>the text that was shaped in <parameter>buffer</parameter>
+. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>utf8_len</para></entry>
+<entry role="parameter_description"><para>the length of <parameter>utf8</parameter>
+in bytes</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyphs</para></entry>
+<entry role="parameter_description"><para>return location for an array of <link linkend="cairo-glyph-t"><type>cairo_glyph_t</type></link>. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>num_glyphs</para></entry>
+<entry role="parameter_description"><para>return location for the length of <parameter>glyphs</parameter>
+. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>clusters</para></entry>
+<entry role="parameter_description"><para>return location for an array of cluster positions. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>nullable</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>num_clusters</para></entry>
+<entry role="parameter_description"><para>return location for the length of <parameter>clusters</parameter>
+. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>nullable</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>cluster_flags</para></entry>
+<entry role="parameter_description"><para>return location for cluster flags. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+
+</refsect1>
+
+</refentry>

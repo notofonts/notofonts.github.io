@@ -1,0 +1,2235 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-ot-layout">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-ot-layout.top_of_page">hb-ot-layout</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-ot-layout</refname>
+<refpurpose>OpenType Layout</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-ot-layout.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="hb-language-t"><returnvalue>hb_language_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-tag-to-language">hb_ot_tag_to_language</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-script-t"><returnvalue>hb_script_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-tag-to-script">hb_ot_tag_to_script</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-tags-from-script-and-language">hb_ot_tags_from_script_and_language</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-tags-to-script-and-language">hb_ot_tags_to_script_and_language</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-collect-lookups">hb_ot_layout_collect_lookups</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-collect-features">hb_ot_layout_collect_features</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-collect-features-map">hb_ot_layout_collect_features_map</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-feature-get-characters">hb_ot_layout_feature_get_characters</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-feature-get-lookups">hb_ot_layout_feature_get_lookups</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-feature-get-name-ids">hb_ot_layout_feature_get_name_ids</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-feature-with-variations-get-lookups">hb_ot_layout_feature_with_variations_get_lookups</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-get-attach-points">hb_ot_layout_get_attach_points</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-get-font-extents">hb_ot_layout_get_font_extents</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-get-font-extents2">hb_ot_layout_get_font_extents2</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-ot-layout-baseline-tag-t"><returnvalue>hb_ot_layout_baseline_tag_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-get-horizontal-baseline-tag-for-script">hb_ot_layout_get_horizontal_baseline_tag_for_script</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-get-baseline">hb_ot_layout_get_baseline</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-get-baseline2">hb_ot_layout_get_baseline2</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-get-baseline-with-fallback">hb_ot_layout_get_baseline_with_fallback</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-get-baseline-with-fallback2">hb_ot_layout_get_baseline_with_fallback2</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-ot-layout-glyph-class-t"><returnvalue>hb_ot_layout_glyph_class_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-get-glyph-class">hb_ot_layout_get_glyph_class</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-get-glyphs-in-class">hb_ot_layout_get_glyphs_in_class</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-get-ligature-carets">hb_ot_layout_get_ligature_carets</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-get-size-params">hb_ot_layout_get_size_params</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-has-glyph-classes">hb_ot_layout_has_glyph_classes</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-has-positioning">hb_ot_layout_has_positioning</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-has-substitution">hb_ot_layout_has_substitution</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-language-find-feature">hb_ot_layout_language_find_feature</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-language-get-feature-indexes">hb_ot_layout_language_get_feature_indexes</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-language-get-feature-tags">hb_ot_layout_language_get_feature_tags</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-language-get-required-feature">hb_ot_layout_language_get_required_feature</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-lookup-collect-glyphs">hb_ot_layout_lookup_collect_glyphs</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="unsigned"><returnvalue>unsigned</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-lookup-get-glyph-alternates">hb_ot_layout_lookup_get_glyph_alternates</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-position-t"><returnvalue>hb_position_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-lookup-get-optical-bound">hb_ot_layout_lookup_get_optical_bound</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-lookup-substitute-closure">hb_ot_layout_lookup_substitute_closure</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-lookups-substitute-closure">hb_ot_layout_lookups_substitute_closure</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-lookup-would-substitute">hb_ot_layout_lookup_would_substitute</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-script-find-language">hb_ot_layout_script_find_language</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-script-get-language-tags">hb_ot_layout_script_get_language_tags</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-script-select-language">hb_ot_layout_script_select_language</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-script-select-language2">hb_ot_layout_script_select_language2</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-table-find-feature-variations">hb_ot_layout_table_find_feature_variations</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-table-get-feature-tags">hb_ot_layout_table_get_feature_tags</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-table-get-script-tags">hb_ot_layout_table_get_script_tags</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-table-get-lookup-count">hb_ot_layout_table_get_lookup_count</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-table-select-script">hb_ot_layout_table_select_script</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-shape-plan-collect-lookups">hb_ot_shape_plan_collect_lookups</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-language-get-required-feature-index">hb_ot_layout_language_get_required_feature_index</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-layout.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-MAX-TAGS-PER-LANGUAGE:CAPS">HB_OT_MAX_TAGS_PER_LANGUAGE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-MAX-TAGS-PER-SCRIPT:CAPS">HB_OT_MAX_TAGS_PER_SCRIPT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-TAG-DEFAULT-LANGUAGE:CAPS">HB_OT_TAG_DEFAULT_LANGUAGE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-TAG-DEFAULT-SCRIPT:CAPS">HB_OT_TAG_DEFAULT_SCRIPT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-LAYOUT-DEFAULT-LANGUAGE-INDEX:CAPS">HB_OT_LAYOUT_DEFAULT_LANGUAGE_INDEX</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-LAYOUT-NO-FEATURE-INDEX:CAPS">HB_OT_LAYOUT_NO_FEATURE_INDEX</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-LAYOUT-NO-SCRIPT-INDEX:CAPS">HB_OT_LAYOUT_NO_SCRIPT_INDEX</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-LAYOUT-NO-VARIATIONS-INDEX:CAPS">HB_OT_LAYOUT_NO_VARIATIONS_INDEX</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-TAG-BASE:CAPS">HB_OT_TAG_BASE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-TAG-GDEF:CAPS">HB_OT_TAG_GDEF</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-TAG-GPOS:CAPS">HB_OT_TAG_GPOS</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-TAG-GSUB:CAPS">HB_OT_TAG_GSUB</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-TAG-JSTF:CAPS">HB_OT_TAG_JSTF</link></entry></row>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-ot-layout-baseline-tag-t">hb_ot_layout_baseline_tag_t</link></entry></row>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-ot-layout-glyph-class-t">hb_ot_layout_glyph_class_t</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-ot-layout.includes"><title>Includes</title><synopsis>#include &lt;hb-ot.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-ot-layout.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Functions for querying OpenType Layout features in the font face.
+See the <ulink url="http://www.microsoft.com/typography/otspec/">OpenType specification</ulink>
+for details.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-layout.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-ot-tag-to-language" role="function" condition="since:0.9.2">
+<title>hb_ot_tag_to_language&#160;()</title>
+<indexterm zone="hb-ot-tag-to-language" role="0.9.2"><primary>hb_ot_tag_to_language</primary></indexterm>
+<programlisting language="C"><link linkend="hb-language-t"><returnvalue>hb_language_t</returnvalue></link>
+hb_ot_tag_to_language (<parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> tag</parameter>);</programlisting>
+<para>Converts a language tag to an <link linkend="hb-language-t"><type>hb_language_t</type></link>.</para>
+<refsect3 id="hb-ot-tag-to-language.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>tag</para></entry>
+<entry role="parameter_description"><para>an language tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-tag-to-language.returns" role="returns">
+<title>Returns</title>
+<para>The <link linkend="hb-language-t"><type>hb_language_t</type></link> corresponding to <parameter>tag</parameter>
+. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>][<acronym>nullable</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-ot-tag-to-script" role="function">
+<title>hb_ot_tag_to_script&#160;()</title>
+<indexterm zone="hb-ot-tag-to-script"><primary>hb_ot_tag_to_script</primary></indexterm>
+<programlisting language="C"><link linkend="hb-script-t"><returnvalue>hb_script_t</returnvalue></link>
+hb_ot_tag_to_script (<parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> tag</parameter>);</programlisting>
+<para>Converts a script tag to an <link linkend="hb-script-t"><type>hb_script_t</type></link>.</para>
+<refsect3 id="hb-ot-tag-to-script.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>tag</para></entry>
+<entry role="parameter_description"><para>a script tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-tag-to-script.returns" role="returns">
+<title>Returns</title>
+<para> The <link linkend="hb-script-t"><type>hb_script_t</type></link> corresponding to <parameter>tag</parameter>
+.</para>
+</refsect3></refsect2>
+<refsect2 id="hb-ot-tags-from-script-and-language" role="function" condition="since:2.0.0">
+<title>hb_ot_tags_from_script_and_language&#160;()</title>
+<indexterm zone="hb-ot-tags-from-script-and-language" role="2.0.0"><primary>hb_ot_tags_from_script_and_language</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ot_tags_from_script_and_language (<parameter><link linkend="hb-script-t"><type>hb_script_t</type></link> script</parameter>,
+                                     <parameter><link linkend="hb-language-t"><type>hb_language_t</type></link> language</parameter>,
+                                     <parameter>unsigned <link linkend="int"><type>int</type></link> *script_count</parameter>,
+                                     <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> *script_tags</parameter>,
+                                     <parameter>unsigned <link linkend="int"><type>int</type></link> *language_count</parameter>,
+                                     <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> *language_tags</parameter>);</programlisting>
+<para>Converts an <link linkend="hb-script-t"><type>hb_script_t</type></link> and an <link linkend="hb-language-t"><type>hb_language_t</type></link> to script and language tags.</para>
+<refsect3 id="hb-ot-tags-from-script-and-language.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>script</para></entry>
+<entry role="parameter_description"><para>an <link linkend="hb-script-t"><type>hb_script_t</type></link> to convert.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language</para></entry>
+<entry role="parameter_description"><para>an <link linkend="hb-language-t"><type>hb_language_t</type></link> to convert. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>script_count</para></entry>
+<entry role="parameter_description"><para>maximum number of script tags to retrieve (IN)
+and actual number of script tags retrieved (OUT). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>script_tags</para></entry>
+<entry role="parameter_description"><para>array of size at least <parameter>script_count</parameter>
+to store the
+script tag results. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>language_count</para></entry>
+<entry role="parameter_description"><para>maximum number of language tags to retrieve
+(IN) and actual number of language tags retrieved (OUT). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>language_tags</para></entry>
+<entry role="parameter_description"><para>array of size at least <parameter>language_count</parameter>
+to store
+the language tag results. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-2.0.0">2.0.0</link></para></refsect2>
+<refsect2 id="hb-ot-tags-to-script-and-language" role="function" condition="since:2.0.0">
+<title>hb_ot_tags_to_script_and_language&#160;()</title>
+<indexterm zone="hb-ot-tags-to-script-and-language" role="2.0.0"><primary>hb_ot_tags_to_script_and_language</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ot_tags_to_script_and_language (<parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> script_tag</parameter>,
+                                   <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> language_tag</parameter>,
+                                   <parameter><link linkend="hb-script-t"><type>hb_script_t</type></link> *script</parameter>,
+                                   <parameter><link linkend="hb-language-t"><type>hb_language_t</type></link> *language</parameter>);</programlisting>
+<para>Converts a script tag and a language tag to an <link linkend="hb-script-t"><type>hb_script_t</type></link> and an
+<link linkend="hb-language-t"><type>hb_language_t</type></link>.</para>
+<refsect3 id="hb-ot-tags-to-script-and-language.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>script_tag</para></entry>
+<entry role="parameter_description"><para>a script tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language_tag</para></entry>
+<entry role="parameter_description"><para>a language tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script</para></entry>
+<entry role="parameter_description"><para>the <link linkend="hb-script-t"><type>hb_script_t</type></link> corresponding to <parameter>script_tag</parameter>
+. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>language</para></entry>
+<entry role="parameter_description"><para>the <link linkend="hb-language-t"><type>hb_language_t</type></link> corresponding to <parameter>script_tag</parameter>
+and
+<parameter>language_tag</parameter>
+. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-2.0.0">2.0.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-collect-lookups" role="function" condition="since:0.9.8">
+<title>hb_ot_layout_collect_lookups&#160;()</title>
+<indexterm zone="hb-ot-layout-collect-lookups" role="0.9.8"><primary>hb_ot_layout_collect_lookups</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ot_layout_collect_lookups (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                              <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                              <parameter>const <link linkend="hb-tag-t"><type>hb_tag_t</type></link> *scripts</parameter>,
+                              <parameter>const <link linkend="hb-tag-t"><type>hb_tag_t</type></link> *languages</parameter>,
+                              <parameter>const <link linkend="hb-tag-t"><type>hb_tag_t</type></link> *features</parameter>,
+                              <parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *lookup_indexes</parameter>);</programlisting>
+<para>Fetches a list of all feature-lookup indexes in the specified face's GSUB
+table or GPOS table, underneath the specified scripts, languages, and
+features. If no list of scripts is provided, all scripts will be queried.
+If no list of languages is provided, all languages will be queried. If no
+list of features is provided, all features will be queried.</para>
+<refsect3 id="hb-ot-layout-collect-lookups.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>scripts</para></entry>
+<entry role="parameter_description"><para>The array of scripts to collect lookups for,
+terminated by <link linkend="HB-TAG-NONE:CAPS"><literal>HB_TAG_NONE</literal></link>. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>][<acronym>array</acronym> zero-terminated=1]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>languages</para></entry>
+<entry role="parameter_description"><para>The array of languages to collect lookups for,
+terminated by <link linkend="HB-TAG-NONE:CAPS"><literal>HB_TAG_NONE</literal></link>. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>][<acronym>array</acronym> zero-terminated=1]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>features</para></entry>
+<entry role="parameter_description"><para>The array of features to collect lookups for,
+terminated by <link linkend="HB-TAG-NONE:CAPS"><literal>HB_TAG_NONE</literal></link>. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>][<acronym>array</acronym> zero-terminated=1]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>lookup_indexes</para></entry>
+<entry role="parameter_description"><para>The array of lookup indexes found for the query. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.8">0.9.8</link></para></refsect2>
+<refsect2 id="hb-ot-layout-collect-features" role="function" condition="since:1.8.5">
+<title>hb_ot_layout_collect_features&#160;()</title>
+<indexterm zone="hb-ot-layout-collect-features" role="1.8.5"><primary>hb_ot_layout_collect_features</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ot_layout_collect_features (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                               <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                               <parameter>const <link linkend="hb-tag-t"><type>hb_tag_t</type></link> *scripts</parameter>,
+                               <parameter>const <link linkend="hb-tag-t"><type>hb_tag_t</type></link> *languages</parameter>,
+                               <parameter>const <link linkend="hb-tag-t"><type>hb_tag_t</type></link> *features</parameter>,
+                               <parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *feature_indexes</parameter>);</programlisting>
+<para>Fetches a list of all feature indexes in the specified face's GSUB table
+or GPOS table, underneath the specified scripts, languages, and features.
+If no list of scripts is provided, all scripts will be queried. If no list
+of languages is provided, all languages will be queried. If no list of
+features is provided, all features will be queried.</para>
+<refsect3 id="hb-ot-layout-collect-features.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>scripts</para></entry>
+<entry role="parameter_description"><para>The array of scripts to collect features for,
+terminated by <link linkend="HB-TAG-NONE:CAPS"><literal>HB_TAG_NONE</literal></link>. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>][<acronym>array</acronym> zero-terminated=1]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>languages</para></entry>
+<entry role="parameter_description"><para>The array of languages to collect features for,
+terminated by <link linkend="HB-TAG-NONE:CAPS"><literal>HB_TAG_NONE</literal></link>. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>][<acronym>array</acronym> zero-terminated=1]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>features</para></entry>
+<entry role="parameter_description"><para>The array of features to collect,
+terminated by <link linkend="HB-TAG-NONE:CAPS"><literal>HB_TAG_NONE</literal></link>. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>][<acronym>array</acronym> zero-terminated=1]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>feature_indexes</para></entry>
+<entry role="parameter_description"><para>The set of feature indexes found for the query. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.8.5">1.8.5</link></para></refsect2>
+<refsect2 id="hb-ot-layout-collect-features-map" role="function" condition="since:8.1.0">
+<title>hb_ot_layout_collect_features_map&#160;()</title>
+<indexterm zone="hb-ot-layout-collect-features-map" role="8.1.0"><primary>hb_ot_layout_collect_features_map</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ot_layout_collect_features_map (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                   <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                   <parameter><link linkend="unsigned"><type>unsigned </type></link> script_index</parameter>,
+                                   <parameter><link linkend="unsigned"><type>unsigned </type></link> language_index</parameter>,
+                                   <parameter><link linkend="hb-map-t"><type>hb_map_t</type></link> *feature_map</parameter>);</programlisting>
+<para>Fetches the mapping from feature tags to feature indexes for
+the specified script and language.</para>
+<refsect3 id="hb-ot-layout-collect-features-map.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested script tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested language tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>feature_map</para></entry>
+<entry role="parameter_description"><para>The map of feature tag to feature index. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-8.1.0">8.1.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-feature-get-characters" role="function" condition="since:2.0.0">
+<title>hb_ot_layout_feature_get_characters&#160;()</title>
+<indexterm zone="hb-ot-layout-feature-get-characters" role="2.0.0"><primary>hb_ot_layout_feature_get_characters</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_layout_feature_get_characters (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                     <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                     <parameter>unsigned <link linkend="int"><type>int</type></link> feature_index</parameter>,
+                                     <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                                     <parameter>unsigned <link linkend="int"><type>int</type></link> *char_count</parameter>,
+                                     <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> *characters</parameter>);</programlisting>
+<para>Fetches a list of the characters defined as having a variant under the specified
+"Character Variant" ("cvXX") feature tag.</para>
+<refsect3 id="hb-ot-layout-feature-get-characters.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para>table tag to query, "GSUB" or "GPOS".</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>feature_index</para></entry>
+<entry role="parameter_description"><para>index of feature to query.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>offset of the first character to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>char_count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of characters to return;
+Output = the actual number of characters returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>characters</para></entry>
+<entry role="parameter_description"><para>A buffer pointer.
+The Unicode codepoints of the characters for which this feature provides
+glyph variants. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out caller-allocates</acronym>][<acronym>array</acronym> length=char_count]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-feature-get-characters.returns" role="returns">
+<title>Returns</title>
+<para> Number of total sample characters in the cvXX feature.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.0.0">2.0.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-feature-get-lookups" role="function" condition="since:0.9.7">
+<title>hb_ot_layout_feature_get_lookups&#160;()</title>
+<indexterm zone="hb-ot-layout-feature-get-lookups" role="0.9.7"><primary>hb_ot_layout_feature_get_lookups</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_layout_feature_get_lookups (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                  <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                  <parameter>unsigned <link linkend="int"><type>int</type></link> feature_index</parameter>,
+                                  <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                                  <parameter>unsigned <link linkend="int"><type>int</type></link> *lookup_count</parameter>,
+                                  <parameter>unsigned <link linkend="int"><type>int</type></link> *lookup_indexes</parameter>);</programlisting>
+<para>Fetches a list of all lookups enumerated for the specified feature, in
+the specified face's GSUB table or GPOS table. The list returned will
+begin at the offset provided.</para>
+<refsect3 id="hb-ot-layout-feature-get-lookups.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>feature_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested feature</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>offset of the first lookup to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>lookup_count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of lookups to return;
+Output = the actual number of lookups returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>lookup_indexes</para></entry>
+<entry role="parameter_description"><para>The array of lookup indexes found for the query. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>array</acronym> length=lookup_count]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-feature-get-lookups.returns" role="returns">
+<title>Returns</title>
+<para> Total number of lookups.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-ot-layout-feature-get-name-ids" role="function" condition="since:2.0.0">
+<title>hb_ot_layout_feature_get_name_ids&#160;()</title>
+<indexterm zone="hb-ot-layout-feature-get-name-ids" role="2.0.0"><primary>hb_ot_layout_feature_get_name_ids</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_feature_get_name_ids (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                   <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                   <parameter>unsigned <link linkend="int"><type>int</type></link> feature_index</parameter>,
+                                   <parameter><link linkend="hb-ot-name-id-t"><type>hb_ot_name_id_t</type></link> *label_id</parameter>,
+                                   <parameter><link linkend="hb-ot-name-id-t"><type>hb_ot_name_id_t</type></link> *tooltip_id</parameter>,
+                                   <parameter><link linkend="hb-ot-name-id-t"><type>hb_ot_name_id_t</type></link> *sample_id</parameter>,
+                                   <parameter>unsigned <link linkend="int"><type>int</type></link> *num_named_parameters</parameter>,
+                                   <parameter><link linkend="hb-ot-name-id-t"><type>hb_ot_name_id_t</type></link> *first_param_id</parameter>);</programlisting>
+<para>Fetches name indices from feature parameters for "Stylistic Set" ('ssXX') or
+"Character Variant" ('cvXX') features.</para>
+<refsect3 id="hb-ot-layout-feature-get-name-ids.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para>table tag to query, "GSUB" or "GPOS".</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>feature_index</para></entry>
+<entry role="parameter_description"><para>index of feature to query.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>label_id</para></entry>
+<entry role="parameter_description"><para>The ‘name’ table name ID that specifies a string
+for a user-interface label for this feature. (May be NULL.). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>tooltip_id</para></entry>
+<entry role="parameter_description"><para>The ‘name’ table name ID that specifies a string
+that an application can use for tooltip text for this
+feature. (May be NULL.). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>sample_id</para></entry>
+<entry role="parameter_description"><para>The ‘name’ table name ID that specifies sample text
+that illustrates the effect of this feature. (May be NULL.). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>num_named_parameters</para></entry>
+<entry role="parameter_description"><para>Number of named parameters. (May be zero.). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>first_param_id</para></entry>
+<entry role="parameter_description"><para>The first ‘name’ table name ID used to specify
+strings for user-interface labels for the feature
+parameters. (Must be zero if numParameters is zero.). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-feature-get-name-ids.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if data found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.0.0">2.0.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-feature-with-variations-get-lookups" role="function" condition="since:1.4.0">
+<title>hb_ot_layout_feature_with_variations_get_lookups&#160;()</title>
+<indexterm zone="hb-ot-layout-feature-with-variations-get-lookups" role="1.4.0"><primary>hb_ot_layout_feature_with_variations_get_lookups</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_layout_feature_with_variations_get_lookups
+                               (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> feature_index</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> variations_index</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> *lookup_count</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> *lookup_indexes</parameter>);</programlisting>
+<para>Fetches a list of all lookups enumerated for the specified feature, in
+the specified face's GSUB table or GPOS table, enabled at the specified
+variations index. The list returned will begin at the offset provided.</para>
+<refsect3 id="hb-ot-layout-feature-with-variations-get-lookups.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>feature_index</para></entry>
+<entry role="parameter_description"><para>The index of the feature to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>variations_index</para></entry>
+<entry role="parameter_description"><para>The index of the feature variation to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>offset of the first lookup to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>lookup_count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of lookups to return;
+Output = the actual number of lookups returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>lookup_indexes</para></entry>
+<entry role="parameter_description"><para>The array of lookups found for the query. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>array</acronym> length=lookup_count]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-feature-with-variations-get-lookups.returns" role="returns">
+<title>Returns</title>
+<para> Total number of lookups.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.4.0">1.4.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-get-attach-points" role="function">
+<title>hb_ot_layout_get_attach_points&#160;()</title>
+<indexterm zone="hb-ot-layout-get-attach-points"><primary>hb_ot_layout_get_attach_points</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_layout_get_attach_points (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> *point_count</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> *point_array</parameter>);</programlisting>
+<para>Fetches a list of all attachment points for the specified glyph in the GDEF
+table of the face. The list returned will begin at the offset provided.</para>
+<para>Useful if the client program wishes to cache the list.</para>
+<refsect3 id="hb-ot-layout-get-attach-points.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-face-t"><type>hb_face_t</type></link> to work on</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> code point to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>offset of the first attachment point to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>point_count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of attachment points to return;
+Output = the actual number of attachment points returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>point_array</para></entry>
+<entry role="parameter_description"><para>The array of attachment points found for the query. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>array</acronym> length=point_count]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-get-attach-points.returns" role="returns">
+<title>Returns</title>
+<para> Total number of attachment points for <parameter>glyph</parameter>
+.</para>
+</refsect3></refsect2>
+<refsect2 id="hb-ot-layout-get-font-extents" role="function" condition="since:8.0.0">
+<title>hb_ot_layout_get_font_extents&#160;()</title>
+<indexterm zone="hb-ot-layout-get-font-extents" role="8.0.0"><primary>hb_ot_layout_get_font_extents</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_get_font_extents (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                               <parameter><link linkend="hb-direction-t"><type>hb_direction_t</type></link> direction</parameter>,
+                               <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> script_tag</parameter>,
+                               <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> language_tag</parameter>,
+                               <parameter><link linkend="hb-font-extents-t"><type>hb_font_extents_t</type></link> *extents</parameter>);</programlisting>
+<para>Fetches script/language-specific font extents.  These values are
+looked up in the <literal>BASE</literal> table's <literal>MinMax</literal> records.</para>
+<para>If no such extents are found, the default extents for the font are
+fetched. As such, the return value of this function can for the
+most part be ignored.  Note that the per-script/language extents
+do not have a line-gap value, and the line-gap is set to zero in
+that case.</para>
+<refsect3 id="hb-ot-layout-get-font-extents.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>a font</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>direction</para></entry>
+<entry role="parameter_description"><para>text direction.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_tag</para></entry>
+<entry role="parameter_description"><para>script tag.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language_tag</para></entry>
+<entry role="parameter_description"><para>language tag.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>extents</para></entry>
+<entry role="parameter_description"><para>font extents if found. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-get-font-extents.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if found script/language-specific font extents.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-8.0.0">8.0.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-get-font-extents2" role="function" condition="since:8.0.0">
+<title>hb_ot_layout_get_font_extents2&#160;()</title>
+<indexterm zone="hb-ot-layout-get-font-extents2" role="8.0.0"><primary>hb_ot_layout_get_font_extents2</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_get_font_extents2 (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                                <parameter><link linkend="hb-direction-t"><type>hb_direction_t</type></link> direction</parameter>,
+                                <parameter><link linkend="hb-script-t"><type>hb_script_t</type></link> script</parameter>,
+                                <parameter><link linkend="hb-language-t"><type>hb_language_t</type></link> language</parameter>,
+                                <parameter><link linkend="hb-font-extents-t"><type>hb_font_extents_t</type></link> *extents</parameter>);</programlisting>
+<para>Fetches script/language-specific font extents.  These values are
+looked up in the <literal>BASE</literal> table's <literal>MinMax</literal> records.</para>
+<para>If no such extents are found, the default extents for the font are
+fetched. As such, the return value of this function can for the
+most part be ignored.  Note that the per-script/language extents
+do not have a line-gap value, and the line-gap is set to zero in
+that case.</para>
+<para>This function is like <link linkend="hb-ot-layout-get-font-extents"><function>hb_ot_layout_get_font_extents()</function></link> but takes
+<link linkend="hb-script-t"><type>hb_script_t</type></link> and <link linkend="hb-language-t"><type>hb_language_t</type></link> instead of OpenType <link linkend="hb-tag-t"><type>hb_tag_t</type></link>.</para>
+<refsect3 id="hb-ot-layout-get-font-extents2.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>a font</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>direction</para></entry>
+<entry role="parameter_description"><para>text direction.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script</para></entry>
+<entry role="parameter_description"><para>script.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language</para></entry>
+<entry role="parameter_description"><para>language. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>extents</para></entry>
+<entry role="parameter_description"><para>font extents if found. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-get-font-extents2.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if found script/language-specific font extents.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-8.0.0">8.0.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-get-horizontal-baseline-tag-for-script" role="function" condition="since:4.0.0">
+<title>hb_ot_layout_get_horizontal_baseline_tag_for_script&#160;()</title>
+<indexterm zone="hb-ot-layout-get-horizontal-baseline-tag-for-script" role="4.0.0"><primary>hb_ot_layout_get_horizontal_baseline_tag_for_script</primary></indexterm>
+<programlisting language="C"><link linkend="hb-ot-layout-baseline-tag-t"><returnvalue>hb_ot_layout_baseline_tag_t</returnvalue></link>
+hb_ot_layout_get_horizontal_baseline_tag_for_script
+                               (<parameter><link linkend="hb-script-t"><type>hb_script_t</type></link> script</parameter>);</programlisting>
+<para>Fetches the dominant horizontal baseline tag used by <parameter>script</parameter>
+.</para>
+<refsect3 id="hb-ot-layout-get-horizontal-baseline-tag-for-script.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>script</para></entry>
+<entry role="parameter_description"><para>a script tag.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-get-horizontal-baseline-tag-for-script.returns" role="returns">
+<title>Returns</title>
+<para> dominant baseline tag for the <parameter>script</parameter>
+.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-4.0.0">4.0.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-get-baseline" role="function" condition="since:2.6.0">
+<title>hb_ot_layout_get_baseline&#160;()</title>
+<indexterm zone="hb-ot-layout-get-baseline" role="2.6.0"><primary>hb_ot_layout_get_baseline</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_get_baseline (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                           <parameter><link linkend="hb-ot-layout-baseline-tag-t"><type>hb_ot_layout_baseline_tag_t</type></link> baseline_tag</parameter>,
+                           <parameter><link linkend="hb-direction-t"><type>hb_direction_t</type></link> direction</parameter>,
+                           <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> script_tag</parameter>,
+                           <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> language_tag</parameter>,
+                           <parameter><link linkend="hb-position-t"><type>hb_position_t</type></link> *coord</parameter>);</programlisting>
+<para>Fetches a baseline value from the face.</para>
+<refsect3 id="hb-ot-layout-get-baseline.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>a font</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>baseline_tag</para></entry>
+<entry role="parameter_description"><para>a baseline tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>direction</para></entry>
+<entry role="parameter_description"><para>text direction.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_tag</para></entry>
+<entry role="parameter_description"><para>script tag.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language_tag</para></entry>
+<entry role="parameter_description"><para>language tag, currently unused.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>coord</para></entry>
+<entry role="parameter_description"><para>baseline value if found. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-get-baseline.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if found baseline value in the font.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.6.0">2.6.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-get-baseline2" role="function" condition="since:8.0.0">
+<title>hb_ot_layout_get_baseline2&#160;()</title>
+<indexterm zone="hb-ot-layout-get-baseline2" role="8.0.0"><primary>hb_ot_layout_get_baseline2</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_get_baseline2 (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                            <parameter><link linkend="hb-ot-layout-baseline-tag-t"><type>hb_ot_layout_baseline_tag_t</type></link> baseline_tag</parameter>,
+                            <parameter><link linkend="hb-direction-t"><type>hb_direction_t</type></link> direction</parameter>,
+                            <parameter><link linkend="hb-script-t"><type>hb_script_t</type></link> script</parameter>,
+                            <parameter><link linkend="hb-language-t"><type>hb_language_t</type></link> language</parameter>,
+                            <parameter><link linkend="hb-position-t"><type>hb_position_t</type></link> *coord</parameter>);</programlisting>
+<para>Fetches a baseline value from the face.</para>
+<para>This function is like <link linkend="hb-ot-layout-get-baseline"><function>hb_ot_layout_get_baseline()</function></link> but takes
+<link linkend="hb-script-t"><type>hb_script_t</type></link> and <link linkend="hb-language-t"><type>hb_language_t</type></link> instead of OpenType <link linkend="hb-tag-t"><type>hb_tag_t</type></link>.</para>
+<refsect3 id="hb-ot-layout-get-baseline2.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>a font</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>baseline_tag</para></entry>
+<entry role="parameter_description"><para>a baseline tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>direction</para></entry>
+<entry role="parameter_description"><para>text direction.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script</para></entry>
+<entry role="parameter_description"><para>script.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language</para></entry>
+<entry role="parameter_description"><para>language, currently unused. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>coord</para></entry>
+<entry role="parameter_description"><para>baseline value if found. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-get-baseline2.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if found baseline value in the font.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-8.0.0">8.0.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-get-baseline-with-fallback" role="function" condition="since:4.0.0">
+<title>hb_ot_layout_get_baseline_with_fallback&#160;()</title>
+<indexterm zone="hb-ot-layout-get-baseline-with-fallback" role="4.0.0"><primary>hb_ot_layout_get_baseline_with_fallback</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ot_layout_get_baseline_with_fallback
+                               (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                                <parameter><link linkend="hb-ot-layout-baseline-tag-t"><type>hb_ot_layout_baseline_tag_t</type></link> baseline_tag</parameter>,
+                                <parameter><link linkend="hb-direction-t"><type>hb_direction_t</type></link> direction</parameter>,
+                                <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> script_tag</parameter>,
+                                <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> language_tag</parameter>,
+                                <parameter><link linkend="hb-position-t"><type>hb_position_t</type></link> *coord</parameter>);</programlisting>
+<para>Fetches a baseline value from the face, and synthesizes
+it if the font does not have it.</para>
+<refsect3 id="hb-ot-layout-get-baseline-with-fallback.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>a font</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>baseline_tag</para></entry>
+<entry role="parameter_description"><para>a baseline tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>direction</para></entry>
+<entry role="parameter_description"><para>text direction.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_tag</para></entry>
+<entry role="parameter_description"><para>script tag.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language_tag</para></entry>
+<entry role="parameter_description"><para>language tag, currently unused.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>coord</para></entry>
+<entry role="parameter_description"><para>baseline value if found. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-4.0.0">4.0.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-get-baseline-with-fallback2" role="function" condition="since:8.0.0">
+<title>hb_ot_layout_get_baseline_with_fallback2&#160;()</title>
+<indexterm zone="hb-ot-layout-get-baseline-with-fallback2" role="8.0.0"><primary>hb_ot_layout_get_baseline_with_fallback2</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ot_layout_get_baseline_with_fallback2
+                               (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                                <parameter><link linkend="hb-ot-layout-baseline-tag-t"><type>hb_ot_layout_baseline_tag_t</type></link> baseline_tag</parameter>,
+                                <parameter><link linkend="hb-direction-t"><type>hb_direction_t</type></link> direction</parameter>,
+                                <parameter><link linkend="hb-script-t"><type>hb_script_t</type></link> script</parameter>,
+                                <parameter><link linkend="hb-language-t"><type>hb_language_t</type></link> language</parameter>,
+                                <parameter><link linkend="hb-position-t"><type>hb_position_t</type></link> *coord</parameter>);</programlisting>
+<para>Fetches a baseline value from the face, and synthesizes
+it if the font does not have it.</para>
+<para>This function is like <link linkend="hb-ot-layout-get-baseline-with-fallback"><function>hb_ot_layout_get_baseline_with_fallback()</function></link> but takes
+<link linkend="hb-script-t"><type>hb_script_t</type></link> and <link linkend="hb-language-t"><type>hb_language_t</type></link> instead of OpenType <link linkend="hb-tag-t"><type>hb_tag_t</type></link>.</para>
+<refsect3 id="hb-ot-layout-get-baseline-with-fallback2.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>a font</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>baseline_tag</para></entry>
+<entry role="parameter_description"><para>a baseline tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>direction</para></entry>
+<entry role="parameter_description"><para>text direction.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script</para></entry>
+<entry role="parameter_description"><para>script.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language</para></entry>
+<entry role="parameter_description"><para>language, currently unused. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>coord</para></entry>
+<entry role="parameter_description"><para>baseline value if found. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-8.0.0">8.0.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-get-glyph-class" role="function" condition="since:0.9.7">
+<title>hb_ot_layout_get_glyph_class&#160;()</title>
+<indexterm zone="hb-ot-layout-get-glyph-class" role="0.9.7"><primary>hb_ot_layout_get_glyph_class</primary></indexterm>
+<programlisting language="C"><link linkend="hb-ot-layout-glyph-class-t"><returnvalue>hb_ot_layout_glyph_class_t</returnvalue></link>
+hb_ot_layout_get_glyph_class (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                              <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>);</programlisting>
+<para>Fetches the GDEF class of the requested glyph in the specified face.</para>
+<refsect3 id="hb-ot-layout-get-glyph-class.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-face-t"><type>hb_face_t</type></link> to work on</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> code point to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-get-glyph-class.returns" role="returns">
+<title>Returns</title>
+<para> The <link linkend="hb-ot-layout-glyph-class-t"><type>hb_ot_layout_glyph_class_t</type></link> glyph class of the given code
+point in the GDEF table of the face.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-ot-layout-get-glyphs-in-class" role="function" condition="since:0.9.7">
+<title>hb_ot_layout_get_glyphs_in_class&#160;()</title>
+<indexterm zone="hb-ot-layout-get-glyphs-in-class" role="0.9.7"><primary>hb_ot_layout_get_glyphs_in_class</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ot_layout_get_glyphs_in_class (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                  <parameter><link linkend="hb-ot-layout-glyph-class-t"><type>hb_ot_layout_glyph_class_t</type></link> klass</parameter>,
+                                  <parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *glyphs</parameter>);</programlisting>
+<para>Retrieves the set of all glyphs from the face that belong to the requested
+glyph class in the face's GDEF table.</para>
+<refsect3 id="hb-ot-layout-get-glyphs-in-class.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-face-t"><type>hb_face_t</type></link> to work on</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>klass</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-ot-layout-glyph-class-t"><type>hb_ot_layout_glyph_class_t</type></link> GDEF class to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyphs</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-set-t"><type>hb_set_t</type></link> set of all glyphs belonging to the requested
+class. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-ot-layout-get-ligature-carets" role="function">
+<title>hb_ot_layout_get_ligature_carets&#160;()</title>
+<indexterm zone="hb-ot-layout-get-ligature-carets"><primary>hb_ot_layout_get_ligature_carets</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_layout_get_ligature_carets (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                                  <parameter><link linkend="hb-direction-t"><type>hb_direction_t</type></link> direction</parameter>,
+                                  <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>,
+                                  <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                                  <parameter>unsigned <link linkend="int"><type>int</type></link> *caret_count</parameter>,
+                                  <parameter><link linkend="hb-position-t"><type>hb_position_t</type></link> *caret_array</parameter>);</programlisting>
+<para>Fetches a list of the caret positions defined for a ligature glyph in the GDEF
+table of the font. The list returned will begin at the offset provided.</para>
+<para>Note that a ligature that is formed from n characters will have n-1
+caret positions. The first character is not represented in the array,
+since its caret position is the glyph position.</para>
+<para>The positions returned by this function are 'unshaped', and will have to
+be fixed up for kerning that may be applied to the ligature glyph.</para>
+<refsect3 id="hb-ot-layout-get-ligature-carets.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-font-t"><type>hb_font_t</type></link> to work on</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>direction</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-direction-t"><type>hb_direction_t</type></link> text direction to use</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> code point to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>offset of the first caret position to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>caret_count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of caret positions to return;
+Output = the actual number of caret positions returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>caret_array</para></entry>
+<entry role="parameter_description"><para>The array of caret positions found for the query. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>array</acronym> length=caret_count]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-get-ligature-carets.returns" role="returns">
+<title>Returns</title>
+<para> Total number of ligature caret positions for <parameter>glyph</parameter>
+.</para>
+</refsect3></refsect2>
+<refsect2 id="hb-ot-layout-get-size-params" role="function" condition="since:0.9.10">
+<title>hb_ot_layout_get_size_params&#160;()</title>
+<indexterm zone="hb-ot-layout-get-size-params" role="0.9.10"><primary>hb_ot_layout_get_size_params</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_get_size_params (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                              <parameter>unsigned <link linkend="int"><type>int</type></link> *design_size</parameter>,
+                              <parameter>unsigned <link linkend="int"><type>int</type></link> *subfamily_id</parameter>,
+                              <parameter><link linkend="hb-ot-name-id-t"><type>hb_ot_name_id_t</type></link> *subfamily_name_id</parameter>,
+                              <parameter>unsigned <link linkend="int"><type>int</type></link> *range_start</parameter>,
+                              <parameter>unsigned <link linkend="int"><type>int</type></link> *range_end</parameter>);</programlisting>
+<para>Fetches optical-size feature data (i.e., the <literal>size</literal> feature from GPOS). Note that
+the subfamily_id and the subfamily name string (accessible via the subfamily_name_id)
+as used here are defined as pertaining only to fonts within a font family that differ
+specifically in their respective size ranges; other ways to differentiate fonts within
+a subfamily are not covered by the <literal>size</literal> feature.</para>
+<para>For more information on this distinction, see the <ulink url="
+https://docs.microsoft.com/en-us/typography/opentype/spec/features_pt#tag-size"><literal>size</literal> feature documentation</ulink>.</para>
+<refsect3 id="hb-ot-layout-get-size-params.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>design_size</para></entry>
+<entry role="parameter_description"><para>The design size of the face. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>subfamily_id</para></entry>
+<entry role="parameter_description"><para>The identifier of the face within the font subfamily. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>subfamily_name_id</para></entry>
+<entry role="parameter_description"><para>The ‘name’ table name ID of the face within the font subfamily. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>range_start</para></entry>
+<entry role="parameter_description"><para>The minimum size of the recommended size range for the face. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>range_end</para></entry>
+<entry role="parameter_description"><para>The maximum size of the recommended size range for the face. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-get-size-params.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if data found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.10">0.9.10</link></para></refsect2>
+<refsect2 id="hb-ot-layout-has-glyph-classes" role="function">
+<title>hb_ot_layout_has_glyph_classes&#160;()</title>
+<indexterm zone="hb-ot-layout-has-glyph-classes"><primary>hb_ot_layout_has_glyph_classes</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_has_glyph_classes (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Tests whether a face has any glyph classes defined in its GDEF table.</para>
+<refsect3 id="hb-ot-layout-has-glyph-classes.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-has-glyph-classes.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if data found, <literal>false</literal> otherwise</para>
+</refsect3></refsect2>
+<refsect2 id="hb-ot-layout-has-positioning" role="function">
+<title>hb_ot_layout_has_positioning&#160;()</title>
+<indexterm zone="hb-ot-layout-has-positioning"><primary>hb_ot_layout_has_positioning</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_has_positioning (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Tests whether the specified face includes any GPOS positioning.</para>
+<refsect3 id="hb-ot-layout-has-positioning.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-has-positioning.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if the face has GPOS data, <literal>false</literal> otherwise</para>
+</refsect3></refsect2>
+<refsect2 id="hb-ot-layout-has-substitution" role="function" condition="since:0.6.0">
+<title>hb_ot_layout_has_substitution&#160;()</title>
+<indexterm zone="hb-ot-layout-has-substitution" role="0.6.0"><primary>hb_ot_layout_has_substitution</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_has_substitution (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Tests whether the specified face includes any GSUB substitutions.</para>
+<refsect3 id="hb-ot-layout-has-substitution.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-has-substitution.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if data found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.6.0">0.6.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-language-find-feature" role="function" condition="since:0.6.0">
+<title>hb_ot_layout_language_find_feature&#160;()</title>
+<indexterm zone="hb-ot-layout-language-find-feature" role="0.6.0"><primary>hb_ot_layout_language_find_feature</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_language_find_feature (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                    <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                    <parameter>unsigned <link linkend="int"><type>int</type></link> script_index</parameter>,
+                                    <parameter>unsigned <link linkend="int"><type>int</type></link> language_index</parameter>,
+                                    <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> feature_tag</parameter>,
+                                    <parameter>unsigned <link linkend="int"><type>int</type></link> *feature_index</parameter>);</programlisting>
+<para>Fetches the index of a given feature tag in the specified face's GSUB table
+or GPOS table, underneath the specified script and language.</para>
+<refsect3 id="hb-ot-layout-language-find-feature.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested script tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested language tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>feature_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-tag-t"><type>hb_tag_t</type></link> of the feature tag requested</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>feature_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested feature. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-language-find-feature.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if the feature is found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.6.0">0.6.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-language-get-feature-indexes" role="function" condition="since:0.6.0">
+<title>hb_ot_layout_language_get_feature_indexes&#160;()</title>
+<indexterm zone="hb-ot-layout-language-get-feature-indexes" role="0.6.0"><primary>hb_ot_layout_language_get_feature_indexes</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_layout_language_get_feature_indexes
+                               (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> script_index</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> language_index</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> *feature_count</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> *feature_indexes</parameter>);</programlisting>
+<para>Fetches a list of all features in the specified face's GSUB table
+or GPOS table, underneath the specified script and language. The list
+returned will begin at the offset provided.</para>
+<refsect3 id="hb-ot-layout-language-get-feature-indexes.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested script tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested language tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>offset of the first feature tag to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>feature_count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of feature tags to return;
+Output: the actual number of feature tags returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>feature_indexes</para></entry>
+<entry role="parameter_description"><para>The array of feature indexes found for the query. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>array</acronym> length=feature_count]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-language-get-feature-indexes.returns" role="returns">
+<title>Returns</title>
+<para> Total number of features.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.6.0">0.6.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-language-get-feature-tags" role="function" condition="since:0.6.0">
+<title>hb_ot_layout_language_get_feature_tags&#160;()</title>
+<indexterm zone="hb-ot-layout-language-get-feature-tags" role="0.6.0"><primary>hb_ot_layout_language_get_feature_tags</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_layout_language_get_feature_tags
+                               (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> script_index</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> language_index</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> *feature_count</parameter>,
+                                <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> *feature_tags</parameter>);</programlisting>
+<para>Fetches a list of all features in the specified face's GSUB table
+or GPOS table, underneath the specified script and language. The list
+returned will begin at the offset provided.</para>
+<refsect3 id="hb-ot-layout-language-get-feature-tags.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested script tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested language tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>offset of the first feature tag to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>feature_count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of feature tags to return;
+Output = the actual number of feature tags returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>feature_tags</para></entry>
+<entry role="parameter_description"><para>The array of <link linkend="hb-tag-t"><type>hb_tag_t</type></link> feature tags found for the query. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>array</acronym> length=feature_count]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-language-get-feature-tags.returns" role="returns">
+<title>Returns</title>
+<para> Total number of feature tags.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.6.0">0.6.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-language-get-required-feature" role="function" condition="since:0.9.30">
+<title>hb_ot_layout_language_get_required_feature&#160;()</title>
+<indexterm zone="hb-ot-layout-language-get-required-feature" role="0.9.30"><primary>hb_ot_layout_language_get_required_feature</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_language_get_required_feature
+                               (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> script_index</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> language_index</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> *feature_index</parameter>,
+                                <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> *feature_tag</parameter>);</programlisting>
+<para>Fetches the tag of a requested feature index in the given face's GSUB or GPOS table,
+underneath the specified script and language.</para>
+<refsect3 id="hb-ot-layout-language-get-required-feature.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested script tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested language tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>feature_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested feature. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>feature_tag</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-tag-t"><type>hb_tag_t</type></link> of the requested feature. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-language-get-required-feature.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if the feature is found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.30">0.9.30</link></para></refsect2>
+<refsect2 id="hb-ot-layout-lookup-collect-glyphs" role="function" condition="since:0.9.7">
+<title>hb_ot_layout_lookup_collect_glyphs&#160;()</title>
+<indexterm zone="hb-ot-layout-lookup-collect-glyphs" role="0.9.7"><primary>hb_ot_layout_lookup_collect_glyphs</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ot_layout_lookup_collect_glyphs (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                    <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                    <parameter>unsigned <link linkend="int"><type>int</type></link> lookup_index</parameter>,
+                                    <parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *glyphs_before</parameter>,
+                                    <parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *glyphs_input</parameter>,
+                                    <parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *glyphs_after</parameter>,
+                                    <parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *glyphs_output</parameter>);</programlisting>
+<para>Fetches a list of all glyphs affected by the specified lookup in the
+specified face's GSUB table or GPOS table.</para>
+<refsect3 id="hb-ot-layout-lookup-collect-glyphs.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>lookup_index</para></entry>
+<entry role="parameter_description"><para>The index of the feature lookup to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyphs_before</para></entry>
+<entry role="parameter_description"><para>Array of glyphs preceding the substitution range. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>glyphs_input</para></entry>
+<entry role="parameter_description"><para>Array of input glyphs that would be substituted by the lookup. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>glyphs_after</para></entry>
+<entry role="parameter_description"><para>Array of glyphs following the substitution range. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>glyphs_output</para></entry>
+<entry role="parameter_description"><para>Array of glyphs that would be the substituted output of the lookup. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-ot-layout-lookup-get-glyph-alternates" role="function" condition="since:2.6.8">
+<title>hb_ot_layout_lookup_get_glyph_alternates&#160;()</title>
+<indexterm zone="hb-ot-layout-lookup-get-glyph-alternates" role="2.6.8"><primary>hb_ot_layout_lookup_get_glyph_alternates</primary></indexterm>
+<programlisting language="C"><link linkend="unsigned"><returnvalue>unsigned</returnvalue></link>
+hb_ot_layout_lookup_get_glyph_alternates
+                               (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                <parameter><link linkend="unsigned"><type>unsigned </type></link> lookup_index</parameter>,
+                                <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>,
+                                <parameter><link linkend="unsigned"><type>unsigned </type></link> start_offset</parameter>,
+                                <parameter><link linkend="unsigned"><type>unsigned</type></link> *alternate_count</parameter>,
+                                <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> *alternate_glyphs</parameter>);</programlisting>
+<para>Fetches alternates of a glyph from a given GSUB lookup index.</para>
+<refsect3 id="hb-ot-layout-lookup-get-glyph-alternates.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>a face.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>lookup_index</para></entry>
+<entry role="parameter_description"><para>index of the feature lookup to query.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>a glyph id.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>starting offset.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>alternate_count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of alternate glyphs to return;
+Output = the actual number of alternate glyphs returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>alternate_glyphs</para></entry>
+<entry role="parameter_description"><para>A glyphs buffer.
+Alternate glyphs associated with the glyph id. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out caller-allocates</acronym>][<acronym>array</acronym> length=alternate_count]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-lookup-get-glyph-alternates.returns" role="returns">
+<title>Returns</title>
+<para> Total number of alternates found in the specific lookup index for the given glyph id.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.6.8">2.6.8</link></para></refsect2>
+<refsect2 id="hb-ot-layout-lookup-get-optical-bound" role="function" condition="since:5.3.0">
+<title>hb_ot_layout_lookup_get_optical_bound&#160;()</title>
+<indexterm zone="hb-ot-layout-lookup-get-optical-bound" role="5.3.0"><primary>hb_ot_layout_lookup_get_optical_bound</primary></indexterm>
+<programlisting language="C"><link linkend="hb-position-t"><returnvalue>hb_position_t</returnvalue></link>
+hb_ot_layout_lookup_get_optical_bound (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                                       <parameter><link linkend="unsigned"><type>unsigned </type></link> lookup_index</parameter>,
+                                       <parameter><link linkend="hb-direction-t"><type>hb_direction_t</type></link> direction</parameter>,
+                                       <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>);</programlisting>
+<para>Fetches the optical bound of a glyph positioned at the margin of text.
+The direction identifies which edge of the glyph to query.</para>
+<refsect3 id="hb-ot-layout-lookup-get-optical-bound.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>a font.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>lookup_index</para></entry>
+<entry role="parameter_description"><para>index of the feature lookup to query.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>direction</para></entry>
+<entry role="parameter_description"><para>edge of the glyph to query.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>a glyph id.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-lookup-get-optical-bound.returns" role="returns">
+<title>Returns</title>
+<para> Adjustment value. Negative values mean the glyph will stick out of the margin.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-5.3.0">5.3.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-lookup-substitute-closure" role="function" condition="since:0.9.7">
+<title>hb_ot_layout_lookup_substitute_closure&#160;()</title>
+<indexterm zone="hb-ot-layout-lookup-substitute-closure" role="0.9.7"><primary>hb_ot_layout_lookup_substitute_closure</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ot_layout_lookup_substitute_closure
+                               (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> lookup_index</parameter>,
+                                <parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *glyphs</parameter>);</programlisting>
+<para>Compute the transitive closure of glyphs needed for a
+specified lookup.</para>
+<refsect3 id="hb-ot-layout-lookup-substitute-closure.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>lookup_index</para></entry>
+<entry role="parameter_description"><para>index of the feature lookup to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyphs</para></entry>
+<entry role="parameter_description"><para>Array of glyphs comprising the transitive closure of the lookup. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-ot-layout-lookups-substitute-closure" role="function" condition="since:1.8.1">
+<title>hb_ot_layout_lookups_substitute_closure&#160;()</title>
+<indexterm zone="hb-ot-layout-lookups-substitute-closure" role="1.8.1"><primary>hb_ot_layout_lookups_substitute_closure</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ot_layout_lookups_substitute_closure
+                               (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                <parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *lookups</parameter>,
+                                <parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *glyphs</parameter>);</programlisting>
+<para>Compute the transitive closure of glyphs needed for all of the
+provided lookups.</para>
+<refsect3 id="hb-ot-layout-lookups-substitute-closure.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>lookups</para></entry>
+<entry role="parameter_description"><para>The set of lookups to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyphs</para></entry>
+<entry role="parameter_description"><para>Array of glyphs comprising the transitive closure of the lookups. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.8.1">1.8.1</link></para></refsect2>
+<refsect2 id="hb-ot-layout-lookup-would-substitute" role="function" condition="since:0.9.7">
+<title>hb_ot_layout_lookup_would_substitute&#160;()</title>
+<indexterm zone="hb-ot-layout-lookup-would-substitute" role="0.9.7"><primary>hb_ot_layout_lookup_would_substitute</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_lookup_would_substitute (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                      <parameter>unsigned <link linkend="int"><type>int</type></link> lookup_index</parameter>,
+                                      <parameter>const <link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> *glyphs</parameter>,
+                                      <parameter>unsigned <link linkend="int"><type>int</type></link> glyphs_length</parameter>,
+                                      <parameter><link linkend="hb-bool-t"><type>hb_bool_t</type></link> zero_context</parameter>);</programlisting>
+<para>Tests whether a specified lookup in the specified face would
+trigger a substitution on the given glyph sequence.</para>
+<refsect3 id="hb-ot-layout-lookup-would-substitute.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>lookup_index</para></entry>
+<entry role="parameter_description"><para>The index of the lookup to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyphs</para></entry>
+<entry role="parameter_description"><para>The sequence of glyphs to query for substitution</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyphs_length</para></entry>
+<entry role="parameter_description"><para>The length of the glyph sequence</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>zero_context</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-bool-t"><type>hb_bool_t</type></link> indicating whether pre-/post-context are disallowed
+in substitutions</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-lookup-would-substitute.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if a substitution would be triggered, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-ot-layout-script-find-language" role="function" condition="deprecated:2.0.0|since:0.6.0">
+<title>hb_ot_layout_script_find_language&#160;()</title>
+<indexterm zone="hb-ot-layout-script-find-language" role="deprecated"><primary>hb_ot_layout_script_find_language</primary></indexterm><indexterm zone="hb-ot-layout-script-find-language" role="0.6.0"><primary>hb_ot_layout_script_find_language</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_script_find_language (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                   <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                   <parameter>unsigned <link linkend="int"><type>int</type></link> script_index</parameter>,
+                                   <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> language_tag</parameter>,
+                                   <parameter>unsigned <link linkend="int"><type>int</type></link> *language_index</parameter>);</programlisting>
+<warning><para><literal>hb_ot_layout_script_find_language</literal> has been deprecated since version 2.0.0 and should not be used in newly-written code.</para></warning>
+<para>Fetches the index of a given language tag in the specified face's GSUB table
+or GPOS table, underneath the specified script tag.</para>
+<refsect3 id="hb-ot-layout-script-find-language.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested script tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language_tag</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-tag-t"><type>hb_tag_t</type></link> of the requested language</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested language</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-script-find-language.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if the language tag is found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.6.0">0.6.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-script-get-language-tags" role="function" condition="since:0.6.0">
+<title>hb_ot_layout_script_get_language_tags&#160;()</title>
+<indexterm zone="hb-ot-layout-script-get-language-tags" role="0.6.0"><primary>hb_ot_layout_script_get_language_tags</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_layout_script_get_language_tags (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                       <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                       <parameter>unsigned <link linkend="int"><type>int</type></link> script_index</parameter>,
+                                       <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                                       <parameter>unsigned <link linkend="int"><type>int</type></link> *language_count</parameter>,
+                                       <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> *language_tags</parameter>);</programlisting>
+<para>Fetches a list of language tags in the given face's GSUB or GPOS table, underneath
+the specified script index. The list returned will begin at the offset provided.</para>
+<refsect3 id="hb-ot-layout-script-get-language-tags.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested script tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>offset of the first language tag to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language_count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of language tags to return;
+Output = the actual number of language tags returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>language_tags</para></entry>
+<entry role="parameter_description"><para>Array of language tags found in the table. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>array</acronym> length=language_count]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-script-get-language-tags.returns" role="returns">
+<title>Returns</title>
+<para> Total number of language tags.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.6.0">0.6.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-script-select-language" role="function" condition="since:2.0.0">
+<title>hb_ot_layout_script_select_language&#160;()</title>
+<indexterm zone="hb-ot-layout-script-select-language" role="2.0.0"><primary>hb_ot_layout_script_select_language</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_script_select_language (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                     <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                     <parameter>unsigned <link linkend="int"><type>int</type></link> script_index</parameter>,
+                                     <parameter>unsigned <link linkend="int"><type>int</type></link> language_count</parameter>,
+                                     <parameter>const <link linkend="hb-tag-t"><type>hb_tag_t</type></link> *language_tags</parameter>,
+                                     <parameter>unsigned <link linkend="int"><type>int</type></link> *language_index</parameter>);</programlisting>
+<para>Fetches the index of the first language tag fom <parameter>language_tags</parameter>
+ that is present
+in the specified face's GSUB or GPOS table, underneath the specified script
+index.</para>
+<para>If none of the given language tags is found, <literal>false</literal> is returned and
+<parameter>language_index</parameter>
+ is set to the default language index.</para>
+<refsect3 id="hb-ot-layout-script-select-language.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested script tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language_count</para></entry>
+<entry role="parameter_description"><para>The number of languages in the specified script</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language_tags</para></entry>
+<entry role="parameter_description"><para>The array of language tags</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested language. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-script-select-language.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if one of the given language tags is found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.0.0">2.0.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-script-select-language2" role="function" condition="since:7.0.0">
+<title>hb_ot_layout_script_select_language2&#160;()</title>
+<indexterm zone="hb-ot-layout-script-select-language2" role="7.0.0"><primary>hb_ot_layout_script_select_language2</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_script_select_language2 (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                      <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                      <parameter>unsigned <link linkend="int"><type>int</type></link> script_index</parameter>,
+                                      <parameter>unsigned <link linkend="int"><type>int</type></link> language_count</parameter>,
+                                      <parameter>const <link linkend="hb-tag-t"><type>hb_tag_t</type></link> *language_tags</parameter>,
+                                      <parameter>unsigned <link linkend="int"><type>int</type></link> *language_index</parameter>,
+                                      <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> *chosen_language</parameter>);</programlisting>
+<para>Fetches the index of the first language tag fom <parameter>language_tags</parameter>
+ that is present
+in the specified face's GSUB or GPOS table, underneath the specified script
+index.</para>
+<para>If none of the given language tags is found, <literal>false</literal> is returned and
+<parameter>language_index</parameter>
+ is set to <link linkend="HB-OT-LAYOUT-DEFAULT-LANGUAGE-INDEX:CAPS"><type>HB_OT_LAYOUT_DEFAULT_LANGUAGE_INDEX</type></link> and
+<parameter>chosen_language</parameter>
+ is set to <link linkend="HB-TAG-NONE:CAPS"><type>HB_TAG_NONE</type></link>.</para>
+<refsect3 id="hb-ot-layout-script-select-language2.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested script tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language_count</para></entry>
+<entry role="parameter_description"><para>The number of languages in the specified script</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language_tags</para></entry>
+<entry role="parameter_description"><para>The array of language tags</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language_index</para></entry>
+<entry role="parameter_description"><para>The index of the chosen language. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>chosen_language</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-tag-t"><type>hb_tag_t</type></link> of the chosen language. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-script-select-language2.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if one of the given language tags is found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-table-find-feature-variations" role="function" condition="since:1.4.0">
+<title>hb_ot_layout_table_find_feature_variations&#160;()</title>
+<indexterm zone="hb-ot-layout-table-find-feature-variations" role="1.4.0"><primary>hb_ot_layout_table_find_feature_variations</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_table_find_feature_variations
+                               (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                <parameter>const <link linkend="int"><type>int</type></link> *coords</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> num_coords</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> *variations_index</parameter>);</programlisting>
+<para>Fetches a list of feature variations in the specified face's GSUB table
+or GPOS table, at the specified variation coordinates.</para>
+<refsect3 id="hb-ot-layout-table-find-feature-variations.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>coords</para></entry>
+<entry role="parameter_description"><para>The variation coordinates to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>num_coords</para></entry>
+<entry role="parameter_description"><para>The number of variation coordinates</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>variations_index</para></entry>
+<entry role="parameter_description"><para>The array of feature variations found for the query. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-table-find-feature-variations.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if feature variations were found, <literal>false</literal> otherwise.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.4.0">1.4.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-table-get-feature-tags" role="function" condition="since:0.6.0">
+<title>hb_ot_layout_table_get_feature_tags&#160;()</title>
+<indexterm zone="hb-ot-layout-table-get-feature-tags" role="0.6.0"><primary>hb_ot_layout_table_get_feature_tags</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_layout_table_get_feature_tags (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                     <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                     <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                                     <parameter>unsigned <link linkend="int"><type>int</type></link> *feature_count</parameter>,
+                                     <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> *feature_tags</parameter>);</programlisting>
+<para>Fetches a list of all feature tags in the given face's GSUB or GPOS table.
+Note that there might be duplicate feature tags, belonging to different
+script/language-system pairs of the table.</para>
+<refsect3 id="hb-ot-layout-table-get-feature-tags.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>offset of the first feature tag to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>feature_count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of feature tags to return;
+Output = the actual number of feature tags returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>feature_tags</para></entry>
+<entry role="parameter_description"><para>Array of feature tags found in the table. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>array</acronym> length=feature_count]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-table-get-feature-tags.returns" role="returns">
+<title>Returns</title>
+<para> Total number of feature tags.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.6.0">0.6.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-table-get-script-tags" role="function">
+<title>hb_ot_layout_table_get_script_tags&#160;()</title>
+<indexterm zone="hb-ot-layout-table-get-script-tags"><primary>hb_ot_layout_table_get_script_tags</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_layout_table_get_script_tags (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                    <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                    <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                                    <parameter>unsigned <link linkend="int"><type>int</type></link> *script_count</parameter>,
+                                    <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> *script_tags</parameter>);</programlisting>
+<para>Fetches a list of all scripts enumerated in the specified face's GSUB table
+or GPOS table. The list returned will begin at the offset provided.</para>
+<refsect3 id="hb-ot-layout-table-get-script-tags.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>offset of the first script tag to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of script tags to return;
+Output = the actual number of script tags returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>script_tags</para></entry>
+<entry role="parameter_description"><para>The array of <link linkend="hb-tag-t"><type>hb_tag_t</type></link> script tags found for the query. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>array</acronym> length=script_count]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-table-get-script-tags.returns" role="returns">
+<title>Returns</title>
+<para> Total number of script tags.</para>
+</refsect3></refsect2>
+<refsect2 id="hb-ot-layout-table-get-lookup-count" role="function" condition="since:0.9.22">
+<title>hb_ot_layout_table_get_lookup_count&#160;()</title>
+<indexterm zone="hb-ot-layout-table-get-lookup-count" role="0.9.22"><primary>hb_ot_layout_table_get_lookup_count</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_layout_table_get_lookup_count (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                     <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>);</programlisting>
+<para>Fetches the total number of lookups enumerated in the specified
+face's GSUB table or GPOS table.</para>
+<refsect3 id="hb-ot-layout-table-get-lookup-count.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-table-get-lookup-count.returns" role="returns">
+<title>Returns</title>
+<para> Total number of lookups.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.22">0.9.22</link></para></refsect2>
+<refsect2 id="hb-ot-layout-table-select-script" role="function" condition="since:2.0.0">
+<title>hb_ot_layout_table_select_script&#160;()</title>
+<indexterm zone="hb-ot-layout-table-select-script" role="2.0.0"><primary>hb_ot_layout_table_select_script</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_table_select_script (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                  <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                  <parameter>unsigned <link linkend="int"><type>int</type></link> script_count</parameter>,
+                                  <parameter>const <link linkend="hb-tag-t"><type>hb_tag_t</type></link> *script_tags</parameter>,
+                                  <parameter>unsigned <link linkend="int"><type>int</type></link> *script_index</parameter>,
+                                  <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> *chosen_script</parameter>);</programlisting>
+<para>Selects an OpenType script for <parameter>table_tag</parameter>
+ from the <parameter>script_tags</parameter>
+ array.</para>
+<para>If the table does not have any of the requested scripts, then <literal>DFLT</literal>,
+<literal>dflt</literal>, and <literal>latn</literal> tags are tried in that order. If the table still does not
+have any of these scripts, <parameter>script_index</parameter>
+ is set to
+<link linkend="HB-OT-LAYOUT-NO-SCRIPT-INDEX:CAPS"><type>HB_OT_LAYOUT_NO_SCRIPT_INDEX</type></link> and <parameter>chosen_script</parameter>
+ is set to <link linkend="HB-TAG-NONE:CAPS"><type>HB_TAG_NONE</type></link>.</para>
+<refsect3 id="hb-ot-layout-table-select-script.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_count</para></entry>
+<entry role="parameter_description"><para>Number of script tags in the array</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_tags</para></entry>
+<entry role="parameter_description"><para>Array of <link linkend="hb-tag-t"><type>hb_tag_t</type></link> script tags</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested script. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>chosen_script</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-tag-t"><type>hb_tag_t</type></link> of the requested script. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-table-select-script.returns" role="returns">
+<title>Returns</title>
+<para><literal>true</literal> if one of the requested scripts is selected, <literal>false</literal> if a fallback
+script is selected or if no scripts are selected.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.0.0">2.0.0</link></para></refsect2>
+<refsect2 id="hb-ot-shape-plan-collect-lookups" role="function" condition="since:0.9.7">
+<title>hb_ot_shape_plan_collect_lookups&#160;()</title>
+<indexterm zone="hb-ot-shape-plan-collect-lookups" role="0.9.7"><primary>hb_ot_shape_plan_collect_lookups</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ot_shape_plan_collect_lookups (<parameter><link linkend="hb-shape-plan-t"><type>hb_shape_plan_t</type></link> *shape_plan</parameter>,
+                                  <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                  <parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *lookup_indexes</parameter>);</programlisting>
+<para>Computes the complete set of GSUB or GPOS lookups that are applicable
+under a given <parameter>shape_plan</parameter>
+.</para>
+<refsect3 id="hb-ot-shape-plan-collect-lookups.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>shape_plan</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-shape-plan-t"><type>hb_shape_plan_t</type></link> to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para>GSUB or GPOS</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>lookup_indexes</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-set-t"><type>hb_set_t</type></link> set of lookups returned. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-ot-layout-language-get-required-feature-index" role="function" condition="since:0.6.0">
+<title>hb_ot_layout_language_get_required_feature_index&#160;()</title>
+<indexterm zone="hb-ot-layout-language-get-required-feature-index" role="0.6.0"><primary>hb_ot_layout_language_get_required_feature_index</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_language_get_required_feature_index
+                               (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> script_index</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> language_index</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> *feature_index</parameter>);</programlisting>
+<para>Fetches the index of a requested feature in the given face's GSUB or GPOS table,
+underneath the specified script and language.</para>
+<refsect3 id="hb-ot-layout-language-get-required-feature-index.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested script tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested language tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>feature_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested feature. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-language-get-required-feature-index.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if the feature is found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.6.0">0.6.0</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-layout.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="HB-OT-MAX-TAGS-PER-LANGUAGE:CAPS" role="macro" condition="since:2.0.0">
+<title>HB_OT_MAX_TAGS_PER_LANGUAGE</title>
+<indexterm zone="HB-OT-MAX-TAGS-PER-LANGUAGE:CAPS" role="2.0.0"><primary>HB_OT_MAX_TAGS_PER_LANGUAGE</primary></indexterm>
+<programlisting language="C">#define HB_OT_MAX_TAGS_PER_LANGUAGE&#160;3u
+</programlisting>
+<para>Maximum number of OpenType tags that can correspond to a give <link linkend="hb-language-t"><type>hb_language_t</type></link>.</para>
+<para role="since">Since: <link linkend="api-index-2.0.0">2.0.0</link></para></refsect2>
+<refsect2 id="HB-OT-MAX-TAGS-PER-SCRIPT:CAPS" role="macro" condition="since:2.0.0">
+<title>HB_OT_MAX_TAGS_PER_SCRIPT</title>
+<indexterm zone="HB-OT-MAX-TAGS-PER-SCRIPT:CAPS" role="2.0.0"><primary>HB_OT_MAX_TAGS_PER_SCRIPT</primary></indexterm>
+<programlisting language="C">#define HB_OT_MAX_TAGS_PER_SCRIPT&#160;3u
+</programlisting>
+<para>Maximum number of OpenType tags that can correspond to a give <link linkend="hb-script-t"><type>hb_script_t</type></link>.</para>
+<para role="since">Since: <link linkend="api-index-2.0.0">2.0.0</link></para></refsect2>
+<refsect2 id="HB-OT-TAG-DEFAULT-LANGUAGE:CAPS" role="macro">
+<title>HB_OT_TAG_DEFAULT_LANGUAGE</title>
+<indexterm zone="HB-OT-TAG-DEFAULT-LANGUAGE:CAPS"><primary>HB_OT_TAG_DEFAULT_LANGUAGE</primary></indexterm>
+<programlisting language="C">#define HB_OT_TAG_DEFAULT_LANGUAGE&#160;HB_TAG ('d', 'f', 'l', 't')
+</programlisting>
+<para>OpenType language tag, <literal>dflt</literal>. Not a valid language tag, but some fonts
+mistakenly use it.</para>
+</refsect2>
+<refsect2 id="HB-OT-TAG-DEFAULT-SCRIPT:CAPS" role="macro">
+<title>HB_OT_TAG_DEFAULT_SCRIPT</title>
+<indexterm zone="HB-OT-TAG-DEFAULT-SCRIPT:CAPS"><primary>HB_OT_TAG_DEFAULT_SCRIPT</primary></indexterm>
+<programlisting language="C">#define HB_OT_TAG_DEFAULT_SCRIPT&#160;HB_TAG ('D', 'F', 'L', 'T')
+</programlisting>
+<para>OpenType script tag, <literal>DFLT</literal>, for features that are not script-specific.</para>
+</refsect2>
+<refsect2 id="HB-OT-LAYOUT-DEFAULT-LANGUAGE-INDEX:CAPS" role="macro">
+<title>HB_OT_LAYOUT_DEFAULT_LANGUAGE_INDEX</title>
+<indexterm zone="HB-OT-LAYOUT-DEFAULT-LANGUAGE-INDEX:CAPS"><primary>HB_OT_LAYOUT_DEFAULT_LANGUAGE_INDEX</primary></indexterm>
+<programlisting language="C">#define HB_OT_LAYOUT_DEFAULT_LANGUAGE_INDEX&#160;0xFFFFu
+</programlisting>
+<para>Special value for language index indicating default or unsupported language.</para>
+</refsect2>
+<refsect2 id="HB-OT-LAYOUT-NO-FEATURE-INDEX:CAPS" role="macro">
+<title>HB_OT_LAYOUT_NO_FEATURE_INDEX</title>
+<indexterm zone="HB-OT-LAYOUT-NO-FEATURE-INDEX:CAPS"><primary>HB_OT_LAYOUT_NO_FEATURE_INDEX</primary></indexterm>
+<programlisting language="C">#define HB_OT_LAYOUT_NO_FEATURE_INDEX		0xFFFFu
+</programlisting>
+<para>Special value for feature index indicating unsupported feature.</para>
+</refsect2>
+<refsect2 id="HB-OT-LAYOUT-NO-SCRIPT-INDEX:CAPS" role="macro">
+<title>HB_OT_LAYOUT_NO_SCRIPT_INDEX</title>
+<indexterm zone="HB-OT-LAYOUT-NO-SCRIPT-INDEX:CAPS"><primary>HB_OT_LAYOUT_NO_SCRIPT_INDEX</primary></indexterm>
+<programlisting language="C">#define HB_OT_LAYOUT_NO_SCRIPT_INDEX		0xFFFFu
+</programlisting>
+<para>Special value for script index indicating unsupported script.</para>
+</refsect2>
+<refsect2 id="HB-OT-LAYOUT-NO-VARIATIONS-INDEX:CAPS" role="macro">
+<title>HB_OT_LAYOUT_NO_VARIATIONS_INDEX</title>
+<indexterm zone="HB-OT-LAYOUT-NO-VARIATIONS-INDEX:CAPS"><primary>HB_OT_LAYOUT_NO_VARIATIONS_INDEX</primary></indexterm>
+<programlisting language="C">#define HB_OT_LAYOUT_NO_VARIATIONS_INDEX&#160;0xFFFFFFFFu
+</programlisting>
+<para>Special value for variations index indicating unsupported variation.</para>
+</refsect2>
+<refsect2 id="HB-OT-TAG-BASE:CAPS" role="macro">
+<title>HB_OT_TAG_BASE</title>
+<indexterm zone="HB-OT-TAG-BASE:CAPS"><primary>HB_OT_TAG_BASE</primary></indexterm>
+<programlisting language="C">#define HB_OT_TAG_BASE HB_TAG('B','A','S','E')
+</programlisting>
+<para>OpenType <ulink url="https://docs.microsoft.com/en-us/typography/opentype/spec/base">Baseline Table</ulink>.</para>
+</refsect2>
+<refsect2 id="HB-OT-TAG-GDEF:CAPS" role="macro">
+<title>HB_OT_TAG_GDEF</title>
+<indexterm zone="HB-OT-TAG-GDEF:CAPS"><primary>HB_OT_TAG_GDEF</primary></indexterm>
+<programlisting language="C">#define HB_OT_TAG_GDEF HB_TAG('G','D','E','F')
+</programlisting>
+<para>OpenType <ulink url="https://docs.microsoft.com/en-us/typography/opentype/spec/gdef">Glyph Definition Table</ulink>.</para>
+</refsect2>
+<refsect2 id="HB-OT-TAG-GPOS:CAPS" role="macro">
+<title>HB_OT_TAG_GPOS</title>
+<indexterm zone="HB-OT-TAG-GPOS:CAPS"><primary>HB_OT_TAG_GPOS</primary></indexterm>
+<programlisting language="C">#define HB_OT_TAG_GPOS HB_TAG('G','P','O','S')
+</programlisting>
+<para>OpenType <ulink url="https://docs.microsoft.com/en-us/typography/opentype/spec/gpos">Glyph Positioning Table</ulink>.</para>
+</refsect2>
+<refsect2 id="HB-OT-TAG-GSUB:CAPS" role="macro">
+<title>HB_OT_TAG_GSUB</title>
+<indexterm zone="HB-OT-TAG-GSUB:CAPS"><primary>HB_OT_TAG_GSUB</primary></indexterm>
+<programlisting language="C">#define HB_OT_TAG_GSUB HB_TAG('G','S','U','B')
+</programlisting>
+<para>OpenType <ulink url="https://docs.microsoft.com/en-us/typography/opentype/spec/gsub">Glyph Substitution Table</ulink>.</para>
+</refsect2>
+<refsect2 id="HB-OT-TAG-JSTF:CAPS" role="macro">
+<title>HB_OT_TAG_JSTF</title>
+<indexterm zone="HB-OT-TAG-JSTF:CAPS"><primary>HB_OT_TAG_JSTF</primary></indexterm>
+<programlisting language="C">#define HB_OT_TAG_JSTF HB_TAG('J','S','T','F')
+</programlisting>
+<para>OpenType <ulink url="https://docs.microsoft.com/en-us/typography/opentype/spec/jstf">Justification Table</ulink>.</para>
+</refsect2>
+<refsect2 id="hb-ot-layout-baseline-tag-t" role="enum" condition="since:2.6.0">
+<title>enum hb_ot_layout_baseline_tag_t</title>
+<indexterm zone="hb-ot-layout-baseline-tag-t" role="2.6.0"><primary>hb_ot_layout_baseline_tag_t</primary></indexterm>
+<para>Baseline tags from <ulink url="https://docs.microsoft.com/en-us/typography/opentype/spec/baselinetags">Baseline Tags</ulink> registry.</para>
+<refsect3 id="hb-ot-layout-baseline-tag-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-LAYOUT-BASELINE-TAG-ROMAN:CAPS">HB_OT_LAYOUT_BASELINE_TAG_ROMAN</para></entry>
+<entry role="enum_member_description"><para>The baseline used by alphabetic scripts such as Latin, Cyrillic and Greek.
+In vertical writing mode, the alphabetic baseline for characters rotated 90 degrees clockwise.
+(This would not apply to alphabetic characters that remain upright in vertical writing mode, since these
+characters are not rotated.)</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-LAYOUT-BASELINE-TAG-HANGING:CAPS">HB_OT_LAYOUT_BASELINE_TAG_HANGING</para></entry>
+<entry role="enum_member_description"><para>The hanging baseline. In horizontal direction, this is the horizontal
+line from which syllables seem, to hang in Tibetan and other similar scripts. In vertical writing mode,
+for Tibetan (or some other similar script) characters rotated 90 degrees clockwise.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-LAYOUT-BASELINE-TAG-IDEO-FACE-BOTTOM-OR-LEFT:CAPS">HB_OT_LAYOUT_BASELINE_TAG_IDEO_FACE_BOTTOM_OR_LEFT</para></entry>
+<entry role="enum_member_description"><para>Ideographic character face bottom or left edge,
+if the direction is horizontal or vertical, respectively.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-LAYOUT-BASELINE-TAG-IDEO-FACE-TOP-OR-RIGHT:CAPS">HB_OT_LAYOUT_BASELINE_TAG_IDEO_FACE_TOP_OR_RIGHT</para></entry>
+<entry role="enum_member_description"><para>Ideographic character face top or right edge,
+if the direction is horizontal or vertical, respectively.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-LAYOUT-BASELINE-TAG-IDEO-FACE-CENTRAL:CAPS">HB_OT_LAYOUT_BASELINE_TAG_IDEO_FACE_CENTRAL</para></entry>
+<entry role="enum_member_description"><para>The center of the ideographic character face. Since: 4.0.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-LAYOUT-BASELINE-TAG-IDEO-EMBOX-BOTTOM-OR-LEFT:CAPS">HB_OT_LAYOUT_BASELINE_TAG_IDEO_EMBOX_BOTTOM_OR_LEFT</para></entry>
+<entry role="enum_member_description"><para>Ideographic em-box bottom or left edge,
+if the direction is horizontal or vertical, respectively.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-LAYOUT-BASELINE-TAG-IDEO-EMBOX-TOP-OR-RIGHT:CAPS">HB_OT_LAYOUT_BASELINE_TAG_IDEO_EMBOX_TOP_OR_RIGHT</para></entry>
+<entry role="enum_member_description"><para>Ideographic em-box top or right edge baseline,</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-LAYOUT-BASELINE-TAG-IDEO-EMBOX-CENTRAL:CAPS">HB_OT_LAYOUT_BASELINE_TAG_IDEO_EMBOX_CENTRAL</para></entry>
+<entry role="enum_member_description"><para>The center of the ideographic em-box. Since: 4.0.0
+if the direction is horizontal or vertical, respectively.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-LAYOUT-BASELINE-TAG-MATH:CAPS">HB_OT_LAYOUT_BASELINE_TAG_MATH</para></entry>
+<entry role="enum_member_description"><para>The baseline about which mathematical characters are centered.
+In vertical writing mode when mathematical characters rotated 90 degrees clockwise, are centered.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-2.6.0">2.6.0</link></para></refsect2>
+<refsect2 id="hb-ot-layout-glyph-class-t" role="enum">
+<title>enum hb_ot_layout_glyph_class_t</title>
+<indexterm zone="hb-ot-layout-glyph-class-t"><primary>hb_ot_layout_glyph_class_t</primary></indexterm>
+<para>The GDEF classes defined for glyphs.</para>
+<refsect3 id="hb-ot-layout-glyph-class-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-LAYOUT-GLYPH-CLASS-UNCLASSIFIED:CAPS">HB_OT_LAYOUT_GLYPH_CLASS_UNCLASSIFIED</para></entry>
+<entry role="enum_member_description"><para>Glyphs not matching the other classifications</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-LAYOUT-GLYPH-CLASS-BASE-GLYPH:CAPS">HB_OT_LAYOUT_GLYPH_CLASS_BASE_GLYPH</para></entry>
+<entry role="enum_member_description"><para>Spacing, single characters, capable of accepting marks</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-LAYOUT-GLYPH-CLASS-LIGATURE:CAPS">HB_OT_LAYOUT_GLYPH_CLASS_LIGATURE</para></entry>
+<entry role="enum_member_description"><para>Glyphs that represent ligation of multiple characters</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-LAYOUT-GLYPH-CLASS-MARK:CAPS">HB_OT_LAYOUT_GLYPH_CLASS_MARK</para></entry>
+<entry role="enum_member_description"><para>Non-spacing, combining glyphs that represent marks</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-LAYOUT-GLYPH-CLASS-COMPONENT:CAPS">HB_OT_LAYOUT_GLYPH_CLASS_COMPONENT</para></entry>
+<entry role="enum_member_description"><para>Spacing glyphs that represent part of a single character</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3></refsect2>
+
+</refsect1>
+
+</refentry>

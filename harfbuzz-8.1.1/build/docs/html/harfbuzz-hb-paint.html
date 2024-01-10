@@ -1,0 +1,3398 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>hb-paint: HarfBuzz Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="HarfBuzz Manual">
+<link rel="up" href="core-api.html" title="Core API">
+<link rel="prev" href="harfbuzz-hb-draw.html" title="hb-draw">
+<link rel="next" href="harfbuzz-hb-deprecated.html" title="hb-deprecated">
+<meta name="generator" content="GTK-Doc V1.33.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#harfbuzz-hb-paint.description" class="shortcut">Description</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="core-api.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="harfbuzz-hb-draw.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="harfbuzz-hb-deprecated.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="harfbuzz-hb-paint"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="harfbuzz-hb-paint.top_of_page"></a>hb-paint</span></h2>
+<p>hb-paint — Glyph painting</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="harfbuzz-hb-paint.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="returnvalue">hb_paint_funcs_t</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-create" title="hb_paint_funcs_create ()">hb_paint_funcs_create</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="returnvalue">hb_paint_funcs_t</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-get-empty" title="hb_paint_funcs_get_empty ()">hb_paint_funcs_get_empty</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="returnvalue">hb_paint_funcs_t</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-reference" title="hb_paint_funcs_reference ()">hb_paint_funcs_reference</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-destroy" title="hb_paint_funcs_destroy ()">hb_paint_funcs_destroy</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="returnvalue">hb_bool_t</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-user-data" title="hb_paint_funcs_set_user_data ()">hb_paint_funcs_set_user_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span> *
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-get-user-data" title="hb_paint_funcs_get_user_data ()">hb_paint_funcs_get_user_data</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-make-immutable" title="hb_paint_funcs_make_immutable ()">hb_paint_funcs_make_immutable</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="returnvalue">hb_bool_t</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-is-immutable" title="hb_paint_funcs_is_immutable ()">hb_paint_funcs_is_immutable</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-paint.html#hb-paint-push-transform-func-t" title="hb_paint_push_transform_func_t ()">*hb_paint_push_transform_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-push-transform-func" title="hb_paint_funcs_set_push_transform_func ()">hb_paint_funcs_set_push_transform_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-paint.html#hb-paint-pop-transform-func-t" title="hb_paint_pop_transform_func_t ()">*hb_paint_pop_transform_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-pop-transform-func" title="hb_paint_funcs_set_pop_transform_func ()">hb_paint_funcs_set_pop_transform_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-paint.html#hb-paint-push-clip-glyph-func-t" title="hb_paint_push_clip_glyph_func_t ()">*hb_paint_push_clip_glyph_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-push-clip-glyph-func" title="hb_paint_funcs_set_push_clip_glyph_func ()">hb_paint_funcs_set_push_clip_glyph_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-paint.html#hb-paint-push-clip-rectangle-func-t" title="hb_paint_push_clip_rectangle_func_t ()">*hb_paint_push_clip_rectangle_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-push-clip-rectangle-func" title="hb_paint_funcs_set_push_clip_rectangle_func ()">hb_paint_funcs_set_push_clip_rectangle_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-paint.html#hb-paint-pop-clip-func-t" title="hb_paint_pop_clip_func_t ()">*hb_paint_pop_clip_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-pop-clip-func" title="hb_paint_funcs_set_pop_clip_func ()">hb_paint_funcs_set_pop_clip_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-paint.html#hb-paint-color-func-t" title="hb_paint_color_func_t ()">*hb_paint_color_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-color-func" title="hb_paint_funcs_set_color_func ()">hb_paint_funcs_set_color_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="returnvalue">hb_bool_t</span></a>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-paint.html#hb-paint-image-func-t" title="hb_paint_image_func_t ()">*hb_paint_image_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-image-func" title="hb_paint_funcs_set_image_func ()">hb_paint_funcs_set_image_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">unsigned <span class="returnvalue">int</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-paint.html#hb-color-line-get-color-stops-func-t" title="hb_color_line_get_color_stops_func_t ()">*hb_color_line_get_color_stops_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">unsigned <span class="returnvalue">int</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-color-line-get-color-stops" title="hb_color_line_get_color_stops ()">hb_color_line_get_color_stops</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-extend-t" title="enum hb_paint_extend_t"><span class="returnvalue">hb_paint_extend_t</span></a>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-paint.html#hb-color-line-get-extend-func-t" title="hb_color_line_get_extend_func_t ()">*hb_color_line_get_extend_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-extend-t" title="enum hb_paint_extend_t"><span class="returnvalue">hb_paint_extend_t</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-color-line-get-extend" title="hb_color_line_get_extend ()">hb_color_line_get_extend</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-paint.html#hb-paint-linear-gradient-func-t" title="hb_paint_linear_gradient_func_t ()">*hb_paint_linear_gradient_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-linear-gradient-func" title="hb_paint_funcs_set_linear_gradient_func ()">hb_paint_funcs_set_linear_gradient_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-paint.html#hb-paint-radial-gradient-func-t" title="hb_paint_radial_gradient_func_t ()">*hb_paint_radial_gradient_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-radial-gradient-func" title="hb_paint_funcs_set_radial_gradient_func ()">hb_paint_funcs_set_radial_gradient_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-paint.html#hb-paint-sweep-gradient-func-t" title="hb_paint_sweep_gradient_func_t ()">*hb_paint_sweep_gradient_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-sweep-gradient-func" title="hb_paint_funcs_set_sweep_gradient_func ()">hb_paint_funcs_set_sweep_gradient_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-paint.html#hb-paint-push-group-func-t" title="hb_paint_push_group_func_t ()">*hb_paint_push_group_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-push-group-func" title="hb_paint_funcs_set_push_group_func ()">hb_paint_funcs_set_push_group_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-paint.html#hb-paint-pop-group-func-t" title="hb_paint_pop_group_func_t ()">*hb_paint_pop_group_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-pop-group-func" title="hb_paint_funcs_set_pop_group_func ()">hb_paint_funcs_set_pop_group_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="returnvalue">hb_bool_t</span></a>
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-paint.html#hb-paint-custom-palette-color-func-t" title="hb_paint_custom_palette_color_func_t ()">*hb_paint_custom_palette_color_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-custom-palette-color-func" title="hb_paint_funcs_set_custom_palette_color_func ()">hb_paint_funcs_set_custom_palette_color_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-push-transform" title="hb_paint_push_transform ()">hb_paint_push_transform</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-pop-transform" title="hb_paint_pop_transform ()">hb_paint_pop_transform</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-push-clip-glyph" title="hb_paint_push_clip_glyph ()">hb_paint_push_clip_glyph</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-push-clip-rectangle" title="hb_paint_push_clip_rectangle ()">hb_paint_push_clip_rectangle</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-pop-clip" title="hb_paint_pop_clip ()">hb_paint_pop_clip</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-color" title="hb_paint_color ()">hb_paint_color</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-image" title="hb_paint_image ()">hb_paint_image</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-linear-gradient" title="hb_paint_linear_gradient ()">hb_paint_linear_gradient</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-radial-gradient" title="hb_paint_radial_gradient ()">hb_paint_radial_gradient</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-sweep-gradient" title="hb_paint_sweep_gradient ()">hb_paint_sweep_gradient</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-push-group" title="hb_paint_push_group ()">hb_paint_push_group</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-pop-group" title="hb_paint_pop_group ()">hb_paint_pop_group</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="returnvalue">hb_bool_t</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-paint.html#hb-paint-custom-palette-color" title="hb_paint_custom_palette_color ()">hb_paint_custom_palette_color</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-paint.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="typedef_keyword">typedef</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t">hb_paint_funcs_t</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-paint.html#HB-PAINT-IMAGE-FORMAT-PNG:CAPS" title="HB_PAINT_IMAGE_FORMAT_PNG">HB_PAINT_IMAGE_FORMAT_PNG</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-paint.html#HB-PAINT-IMAGE-FORMAT-SVG:CAPS" title="HB_PAINT_IMAGE_FORMAT_SVG">HB_PAINT_IMAGE_FORMAT_SVG</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-paint.html#HB-PAINT-IMAGE-FORMAT-BGRA:CAPS" title="HB_PAINT_IMAGE_FORMAT_BGRA">HB_PAINT_IMAGE_FORMAT_BGRA</a></td>
+</tr>
+<tr>
+<td class="typedef_keyword">typedef</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-paint.html#hb-color-line-t" title="hb_color_line_t">hb_color_line_t</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-paint.html#hb-color-stop-t" title="hb_color_stop_t">hb_color_stop_t</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-paint.html#hb-paint-extend-t" title="enum hb_paint_extend_t">hb_paint_extend_t</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-paint.html#hb-paint-composite-mode-t" title="enum hb_paint_composite_mode_t">hb_paint_composite_mode_t</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-paint.includes"></a><h2>Includes</h2>
+<pre class="synopsis">#include &lt;hb.h&gt;
+</pre>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-paint.description"></a><h2>Description</h2>
+<p>Functions for painting glyphs.</p>
+<p>The main purpose of these functions is to paint (extract) color glyph layers
+from the COLRv1 table, but the API works for drawing ordinary outlines and
+images as well.</p>
+<p>The <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> struct can be used with <a class="link" href="harfbuzz-hb-font.html#hb-font-paint-glyph" title="hb_font_paint_glyph ()"><code class="function">hb_font_paint_glyph()</code></a>.</p>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-paint.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="hb-paint-funcs-create"></a><h3>hb_paint_funcs_create ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="returnvalue">hb_paint_funcs_t</span></a> *
+hb_paint_funcs_create (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>Creates a new <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> structure of paint functions.</p>
+<p>The initial reference count of 1 should be released with <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-destroy" title="hb_paint_funcs_destroy ()"><code class="function">hb_paint_funcs_destroy()</code></a>
+when you are done using the <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a>. This function never returns
+<code class="literal">NULL</code>. If memory cannot be allocated, a special singleton <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a>
+object will be returned.</p>
+<p>Returns value: (transfer full): the paint-functions structure</p>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-get-empty"></a><h3>hb_paint_funcs_get_empty ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="returnvalue">hb_paint_funcs_t</span></a> *
+hb_paint_funcs_get_empty (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>Fetches the singleton empty paint-functions structure.</p>
+<div class="refsect3">
+<a name="hb-paint-funcs-get-empty.returns"></a><h4>Returns</h4>
+<p>The empty paint-functions structure. </p>
+<p><span class="annotation">[<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-reference"></a><h3>hb_paint_funcs_reference ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="returnvalue">hb_paint_funcs_t</span></a> *
+hb_paint_funcs_reference (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>);</pre>
+<p>Increases the reference count on a paint-functions structure.</p>
+<p>This prevents <em class="parameter"><code>funcs</code></em>
+ from being destroyed until a matching
+call to <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-destroy" title="hb_paint_funcs_destroy ()"><code class="function">hb_paint_funcs_destroy()</code></a> is made.</p>
+<p><span class="annotation">[<acronym title="Exposed in C code, not necessarily available in other languages."><span class="acronym">skip</span></acronym>]</span></p>
+<div class="refsect3">
+<a name="hb-paint-funcs-reference.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>The paint-functions structure</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-paint-funcs-reference.returns"></a><h4>Returns</h4>
+<p> The paint-functions structure</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-destroy"></a><h3>hb_paint_funcs_destroy ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_funcs_destroy (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>);</pre>
+<p>Decreases the reference count on a paint-functions structure.</p>
+<p>When the reference count reaches zero, the structure
+is destroyed, freeing all memory.</p>
+<p><span class="annotation">[<acronym title="Exposed in C code, not necessarily available in other languages."><span class="acronym">skip</span></acronym>]</span></p>
+<div class="refsect3">
+<a name="hb-paint-funcs-destroy.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>The paint-functions structure</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-set-user-data"></a><h3>hb_paint_funcs_set_user_data ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="returnvalue">hb_bool_t</span></a>
+hb_paint_funcs_set_user_data (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                              <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-user-data-key-t" title="hb_user_data_key_t"><span class="type">hb_user_data_key_t</span></a> *key</code></em>,
+                              <em class="parameter"><code><span class="type">void</span> *data</code></em>,
+                              <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>,
+                              <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="type">hb_bool_t</span></a> replace</code></em>);</pre>
+<p>Attaches a user-data key/data pair to the specified paint-functions structure.</p>
+<p><span class="annotation">[<acronym title="Exposed in C code, not necessarily available in other languages."><span class="acronym">skip</span></acronym>]</span></p>
+<div class="refsect3">
+<a name="hb-paint-funcs-set-user-data.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>The paint-functions structure</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>key</p></td>
+<td class="parameter_description"><p>The user-data key</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>data</p></td>
+<td class="parameter_description"><p>A pointer to the user data</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>A callback to call when <em class="parameter"><code>data</code></em>
+is not needed anymore. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>replace</p></td>
+<td class="parameter_description"><p>Whether to replace an existing data with the same key</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-paint-funcs-set-user-data.returns"></a><h4>Returns</h4>
+<p> <code class="literal">true</code> if success, <code class="literal">false</code> otherwise</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-get-user-data"></a><h3>hb_paint_funcs_get_user_data ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span> *
+hb_paint_funcs_get_user_data (<em class="parameter"><code>const <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                              <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-user-data-key-t" title="hb_user_data_key_t"><span class="type">hb_user_data_key_t</span></a> *key</code></em>);</pre>
+<p>Fetches the user-data associated with the specified key,
+attached to the specified paint-functions structure.</p>
+<p><span class="annotation">[<acronym title="Exposed in C code, not necessarily available in other languages."><span class="acronym">skip</span></acronym>]</span></p>
+<div class="refsect3">
+<a name="hb-paint-funcs-get-user-data.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>The paint-functions structure</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>key</p></td>
+<td class="parameter_description"><p>The user-data key to query</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-paint-funcs-get-user-data.returns"></a><h4>Returns</h4>
+<p>A pointer to the user data. </p>
+<p><span class="annotation">[<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-make-immutable"></a><h3>hb_paint_funcs_make_immutable ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_funcs_make_immutable (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>);</pre>
+<p>Makes a paint-functions structure immutable.</p>
+<p>After this call, all attempts to set one of the callbacks
+on <em class="parameter"><code>funcs</code></em>
+ will fail.</p>
+<div class="refsect3">
+<a name="hb-paint-funcs-make-immutable.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>The paint-functions structure</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-is-immutable"></a><h3>hb_paint_funcs_is_immutable ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="returnvalue">hb_bool_t</span></a>
+hb_paint_funcs_is_immutable (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>);</pre>
+<p>Tests whether a paint-functions structure is immutable.</p>
+<div class="refsect3">
+<a name="hb-paint-funcs-is-immutable.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>The paint-functions structure</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-paint-funcs-is-immutable.returns"></a><h4>Returns</h4>
+<p> <code class="literal">true</code> if <em class="parameter"><code>funcs</code></em>
+is immutable, <code class="literal">false</code> otherwise</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-push-transform-func-t"></a><h3>hb_paint_push_transform_func_t ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*hb_paint_push_transform_func_t<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                                   <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                                   <em class="parameter"><code><span class="type">float</span> xx</code></em>,
+                                   <em class="parameter"><code><span class="type">float</span> yx</code></em>,
+                                   <em class="parameter"><code><span class="type">float</span> xy</code></em>,
+                                   <em class="parameter"><code><span class="type">float</span> yy</code></em>,
+                                   <em class="parameter"><code><span class="type">float</span> dx</code></em>,
+                                   <em class="parameter"><code><span class="type">float</span> dy</code></em>,
+                                   <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> to apply
+a transform to subsequent paint calls.</p>
+<p>This transform is applied after the current transform,
+and remains in effect until a matching call to
+the <span class="type">hb_paint_funcs_pop_transform_func_t</span> vfunc.</p>
+<div class="refsect3">
+<a name="hb-paint-push-transform-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>The data accompanying the paint functions in <a class="link" href="harfbuzz-hb-font.html#hb-font-paint-glyph" title="hb_font_paint_glyph ()"><code class="function">hb_font_paint_glyph()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>xx</p></td>
+<td class="parameter_description"><p>xx component of the transform matrix</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>yx</p></td>
+<td class="parameter_description"><p>yx component of the transform matrix</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>xy</p></td>
+<td class="parameter_description"><p>xy component of the transform matrix</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>yy</p></td>
+<td class="parameter_description"><p>yy component of the transform matrix</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>dx</p></td>
+<td class="parameter_description"><p>dx component of the transform matrix</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>dy</p></td>
+<td class="parameter_description"><p>dy component of the transform matrix</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data pointer passed to <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-push-transform-func" title="hb_paint_funcs_set_push_transform_func ()"><code class="function">hb_paint_funcs_set_push_transform_func()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-set-push-transform-func"></a><h3>hb_paint_funcs_set_push_transform_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_funcs_set_push_transform_func
+                               (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-push-transform-func-t" title="hb_paint_push_transform_func_t ()"><span class="type">hb_paint_push_transform_func_t</span></a> func</code></em>,
+                                <em class="parameter"><code><span class="type">void</span> *user_data</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>);</pre>
+<p>Sets the push-transform callback on the paint functions struct.</p>
+<div class="refsect3">
+<a name="hb-paint-funcs-set-push-transform-func.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>A paint functions struct</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>The push-transform callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="This parameter is a 'user_data', for callbacks; many bindings can pass NULL here."><span class="acronym">closure</span></acronym> user_data][<acronym title="This parameter is a 'destroy_data', for callbacks."><span class="acronym">destroy</span></acronym> destroy][<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>Data to pass to <em class="parameter"><code>func</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>Function to call when <em class="parameter"><code>user_data</code></em>
+is no longer needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-pop-transform-func-t"></a><h3>hb_paint_pop_transform_func_t ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*hb_paint_pop_transform_func_t<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                                  <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                                  <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> to undo
+the effect of a prior call to the <span class="type">hb_paint_funcs_push_transform_func_t</span>
+vfunc.</p>
+<div class="refsect3">
+<a name="hb-paint-pop-transform-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>The data accompanying the paint functions in <a class="link" href="harfbuzz-hb-font.html#hb-font-paint-glyph" title="hb_font_paint_glyph ()"><code class="function">hb_font_paint_glyph()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data pointer passed to <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-pop-transform-func" title="hb_paint_funcs_set_pop_transform_func ()"><code class="function">hb_paint_funcs_set_pop_transform_func()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-set-pop-transform-func"></a><h3>hb_paint_funcs_set_pop_transform_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_funcs_set_pop_transform_func (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                                       <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-pop-transform-func-t" title="hb_paint_pop_transform_func_t ()"><span class="type">hb_paint_pop_transform_func_t</span></a> func</code></em>,
+                                       <em class="parameter"><code><span class="type">void</span> *user_data</code></em>,
+                                       <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>);</pre>
+<p>Sets the pop-transform callback on the paint functions struct.</p>
+<div class="refsect3">
+<a name="hb-paint-funcs-set-pop-transform-func.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>A paint functions struct</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>The pop-transform callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="This parameter is a 'user_data', for callbacks; many bindings can pass NULL here."><span class="acronym">closure</span></acronym> user_data][<acronym title="This parameter is a 'destroy_data', for callbacks."><span class="acronym">destroy</span></acronym> destroy][<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>Data to pass to <em class="parameter"><code>func</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>Function to call when <em class="parameter"><code>user_data</code></em>
+is no longer needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-push-clip-glyph-func-t"></a><h3>hb_paint_push_clip_glyph_func_t ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*hb_paint_push_clip_glyph_func_t<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                                    <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                                    <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-codepoint-t" title="hb_codepoint_t"><span class="type">hb_codepoint_t</span></a> glyph</code></em>,
+                                    <em class="parameter"><code><a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> *font</code></em>,
+                                    <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> to clip
+subsequent paint calls to the outline of a glyph.</p>
+<p>The coordinates of the glyph outline are interpreted according
+to the current transform.</p>
+<p>This clip is applied in addition to the current clip,
+and remains in effect until a matching call to
+the <span class="type">hb_paint_funcs_pop_clip_func_t</span> vfunc.</p>
+<div class="refsect3">
+<a name="hb-paint-push-clip-glyph-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>The data accompanying the paint functions in <a class="link" href="harfbuzz-hb-font.html#hb-font-paint-glyph" title="hb_font_paint_glyph ()"><code class="function">hb_font_paint_glyph()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>glyph</p></td>
+<td class="parameter_description"><p>the glyph ID</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>font</p></td>
+<td class="parameter_description"><p>the font</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data pointer passed to <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-push-clip-glyph-func" title="hb_paint_funcs_set_push_clip_glyph_func ()"><code class="function">hb_paint_funcs_set_push_clip_glyph_func()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-set-push-clip-glyph-func"></a><h3>hb_paint_funcs_set_push_clip_glyph_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_funcs_set_push_clip_glyph_func
+                               (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-push-clip-glyph-func-t" title="hb_paint_push_clip_glyph_func_t ()"><span class="type">hb_paint_push_clip_glyph_func_t</span></a> func</code></em>,
+                                <em class="parameter"><code><span class="type">void</span> *user_data</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>);</pre>
+<p>Sets the push-clip-glyph callback on the paint functions struct.</p>
+<div class="refsect3">
+<a name="hb-paint-funcs-set-push-clip-glyph-func.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>A paint functions struct</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>The push-clip-glyph callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="This parameter is a 'user_data', for callbacks; many bindings can pass NULL here."><span class="acronym">closure</span></acronym> user_data][<acronym title="This parameter is a 'destroy_data', for callbacks."><span class="acronym">destroy</span></acronym> destroy][<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>Data to pass to <em class="parameter"><code>func</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>Function to call when <em class="parameter"><code>user_data</code></em>
+is no longer needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-push-clip-rectangle-func-t"></a><h3>hb_paint_push_clip_rectangle_func_t ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*hb_paint_push_clip_rectangle_func_t<span class="c_punctuation">)</span>
+                               (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                                <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                                <em class="parameter"><code><span class="type">float</span> xmin</code></em>,
+                                <em class="parameter"><code><span class="type">float</span> ymin</code></em>,
+                                <em class="parameter"><code><span class="type">float</span> xmax</code></em>,
+                                <em class="parameter"><code><span class="type">float</span> ymax</code></em>,
+                                <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> to clip
+subsequent paint calls to a rectangle.</p>
+<p>The coordinates of the rectangle are interpreted according
+to the current transform.</p>
+<p>This clip is applied in addition to the current clip,
+and remains in effect until a matching call to
+the <span class="type">hb_paint_funcs_pop_clip_func_t</span> vfunc.</p>
+<div class="refsect3">
+<a name="hb-paint-push-clip-rectangle-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>The data accompanying the paint functions in <a class="link" href="harfbuzz-hb-font.html#hb-font-paint-glyph" title="hb_font_paint_glyph ()"><code class="function">hb_font_paint_glyph()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>xmin</p></td>
+<td class="parameter_description"><p>min X for the rectangle</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>ymin</p></td>
+<td class="parameter_description"><p>min Y for the rectangle</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>xmax</p></td>
+<td class="parameter_description"><p>max X for the rectangle</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>ymax</p></td>
+<td class="parameter_description"><p>max Y for the rectangle</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data pointer passed to <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-push-clip-rectangle-func" title="hb_paint_funcs_set_push_clip_rectangle_func ()"><code class="function">hb_paint_funcs_set_push_clip_rectangle_func()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-set-push-clip-rectangle-func"></a><h3>hb_paint_funcs_set_push_clip_rectangle_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_funcs_set_push_clip_rectangle_func
+                               (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-push-clip-rectangle-func-t" title="hb_paint_push_clip_rectangle_func_t ()"><span class="type">hb_paint_push_clip_rectangle_func_t</span></a> func</code></em>,
+                                <em class="parameter"><code><span class="type">void</span> *user_data</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>);</pre>
+<p>Sets the push-clip-rect callback on the paint functions struct.</p>
+<div class="refsect3">
+<a name="hb-paint-funcs-set-push-clip-rectangle-func.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>A paint functions struct</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>The push-clip-rectangle callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="This parameter is a 'user_data', for callbacks; many bindings can pass NULL here."><span class="acronym">closure</span></acronym> user_data][<acronym title="This parameter is a 'destroy_data', for callbacks."><span class="acronym">destroy</span></acronym> destroy][<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>Data to pass to <em class="parameter"><code>func</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>Function to call when <em class="parameter"><code>user_data</code></em>
+is no longer needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-pop-clip-func-t"></a><h3>hb_paint_pop_clip_func_t ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*hb_paint_pop_clip_func_t<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                             <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                             <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> to undo
+the effect of a prior call to the <span class="type">hb_paint_funcs_push_clip_glyph_func_t</span>
+or <span class="type">hb_paint_funcs_push_clip_rectangle_func_t</span> vfuncs.</p>
+<div class="refsect3">
+<a name="hb-paint-pop-clip-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>The data accompanying the paint functions in <a class="link" href="harfbuzz-hb-font.html#hb-font-paint-glyph" title="hb_font_paint_glyph ()"><code class="function">hb_font_paint_glyph()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data pointer passed to <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-pop-clip-func" title="hb_paint_funcs_set_pop_clip_func ()"><code class="function">hb_paint_funcs_set_pop_clip_func()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-set-pop-clip-func"></a><h3>hb_paint_funcs_set_pop_clip_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_funcs_set_pop_clip_func (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                                  <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-pop-clip-func-t" title="hb_paint_pop_clip_func_t ()"><span class="type">hb_paint_pop_clip_func_t</span></a> func</code></em>,
+                                  <em class="parameter"><code><span class="type">void</span> *user_data</code></em>,
+                                  <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>);</pre>
+<p>Sets the pop-clip callback on the paint functions struct.</p>
+<div class="refsect3">
+<a name="hb-paint-funcs-set-pop-clip-func.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>A paint functions struct</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>The pop-clip callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="This parameter is a 'user_data', for callbacks; many bindings can pass NULL here."><span class="acronym">closure</span></acronym> user_data][<acronym title="This parameter is a 'destroy_data', for callbacks."><span class="acronym">destroy</span></acronym> destroy][<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>Data to pass to <em class="parameter"><code>func</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>Function to call when <em class="parameter"><code>user_data</code></em>
+is no longer needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-color-func-t"></a><h3>hb_paint_color_func_t ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*hb_paint_color_func_t<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                          <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                          <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="type">hb_bool_t</span></a> is_foreground</code></em>,
+                          <em class="parameter"><code><a class="link" href="harfbuzz-hb-ot-color.html#hb-color-t" title="hb_color_t"><span class="type">hb_color_t</span></a> color</code></em>,
+                          <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> to paint a
+color everywhere within the current clip.</p>
+<div class="refsect3">
+<a name="hb-paint-color-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>The data accompanying the paint functions in <a class="link" href="harfbuzz-hb-font.html#hb-font-paint-glyph" title="hb_font_paint_glyph ()"><code class="function">hb_font_paint_glyph()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>is_foreground</p></td>
+<td class="parameter_description"><p>whether the color is the foreground</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>color</p></td>
+<td class="parameter_description"><p>The color to use, unpremultiplied</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data pointer passed to <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-color-func" title="hb_paint_funcs_set_color_func ()"><code class="function">hb_paint_funcs_set_color_func()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-set-color-func"></a><h3>hb_paint_funcs_set_color_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_funcs_set_color_func (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                               <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-color-func-t" title="hb_paint_color_func_t ()"><span class="type">hb_paint_color_func_t</span></a> func</code></em>,
+                               <em class="parameter"><code><span class="type">void</span> *user_data</code></em>,
+                               <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>);</pre>
+<p>Sets the paint-color callback on the paint functions struct.</p>
+<div class="refsect3">
+<a name="hb-paint-funcs-set-color-func.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>A paint functions struct</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>The paint-color callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="This parameter is a 'user_data', for callbacks; many bindings can pass NULL here."><span class="acronym">closure</span></acronym> user_data][<acronym title="This parameter is a 'destroy_data', for callbacks."><span class="acronym">destroy</span></acronym> destroy][<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>Data to pass to <em class="parameter"><code>func</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>Function to call when <em class="parameter"><code>user_data</code></em>
+is no longer needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-image-func-t"></a><h3>hb_paint_image_func_t ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="returnvalue">hb_bool_t</span></a>
+<span class="c_punctuation">(</span>*hb_paint_image_func_t<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                          <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                          <em class="parameter"><code><a class="link" href="harfbuzz-hb-blob.html#hb-blob-t" title="hb_blob_t"><span class="type">hb_blob_t</span></a> *image</code></em>,
+                          <em class="parameter"><code>unsigned <span class="type">int</span> width</code></em>,
+                          <em class="parameter"><code>unsigned <span class="type">int</span> height</code></em>,
+                          <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-tag-t" title="hb_tag_t"><span class="type">hb_tag_t</span></a> format</code></em>,
+                          <em class="parameter"><code><span class="type">float</span> slant</code></em>,
+                          <em class="parameter"><code><a class="link" href="harfbuzz-hb-font.html#hb-glyph-extents-t" title="hb_glyph_extents_t"><span class="type">hb_glyph_extents_t</span></a> *extents</code></em>,
+                          <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> to paint a glyph image.</p>
+<p>This method is called for glyphs with image blobs in the CBDT,
+sbix or SVG tables. The <em class="parameter"><code>format</code></em>
+ identifies the kind of data that
+is contained in <em class="parameter"><code>image</code></em>
+. Possible values include <a class="link" href="harfbuzz-hb-paint.html#HB-PAINT-IMAGE-FORMAT-PNG:CAPS" title="HB_PAINT_IMAGE_FORMAT_PNG"><span class="type">HB_PAINT_IMAGE_FORMAT_PNG</span></a>,
+<a class="link" href="harfbuzz-hb-paint.html#HB-PAINT-IMAGE-FORMAT-SVG:CAPS" title="HB_PAINT_IMAGE_FORMAT_SVG"><span class="type">HB_PAINT_IMAGE_FORMAT_SVG</span></a> and <a class="link" href="harfbuzz-hb-paint.html#HB-PAINT-IMAGE-FORMAT-BGRA:CAPS" title="HB_PAINT_IMAGE_FORMAT_BGRA"><span class="type">HB_PAINT_IMAGE_FORMAT_BGRA</span></a>.</p>
+<p>The image dimensions and glyph extents are provided if available,
+and should be used to size and position the image.</p>
+<div class="refsect3">
+<a name="hb-paint-image-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>The data accompanying the paint functions in <a class="link" href="harfbuzz-hb-font.html#hb-font-paint-glyph" title="hb_font_paint_glyph ()"><code class="function">hb_font_paint_glyph()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>image</p></td>
+<td class="parameter_description"><p>the image data</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>width</p></td>
+<td class="parameter_description"><p>width of the raster image in pixels, or 0</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>height</p></td>
+<td class="parameter_description"><p>height of the raster image in pixels, or 0</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>format</p></td>
+<td class="parameter_description"><p>the image format as a tag</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>slant</p></td>
+<td class="parameter_description"><p>the synthetic slant ratio to be applied to the image during rendering</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>extents</p></td>
+<td class="parameter_description"><p>glyph extents for desired rendering. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data pointer passed to <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-image-func" title="hb_paint_funcs_set_image_func ()"><code class="function">hb_paint_funcs_set_image_func()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-paint-image-func-t.returns"></a><h4>Returns</h4>
+<p> Whether the operation was successful.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-set-image-func"></a><h3>hb_paint_funcs_set_image_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_funcs_set_image_func (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                               <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-image-func-t" title="hb_paint_image_func_t ()"><span class="type">hb_paint_image_func_t</span></a> func</code></em>,
+                               <em class="parameter"><code><span class="type">void</span> *user_data</code></em>,
+                               <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>);</pre>
+<p>Sets the paint-image callback on the paint functions struct.</p>
+<div class="refsect3">
+<a name="hb-paint-funcs-set-image-func.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>A paint functions struct</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>The paint-image callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="This parameter is a 'user_data', for callbacks; many bindings can pass NULL here."><span class="acronym">closure</span></acronym> user_data][<acronym title="This parameter is a 'destroy_data', for callbacks."><span class="acronym">destroy</span></acronym> destroy][<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>Data to pass to <em class="parameter"><code>func</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>Function to call when <em class="parameter"><code>user_data</code></em>
+is no longer needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-color-line-get-color-stops-func-t"></a><h3>hb_color_line_get_color_stops_func_t ()</h3>
+<pre class="programlisting">unsigned <span class="returnvalue">int</span>
+<span class="c_punctuation">(</span>*hb_color_line_get_color_stops_func_t<span class="c_punctuation">)</span>
+                               (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-color-line-t" title="hb_color_line_t"><span class="type">hb_color_line_t</span></a> *color_line</code></em>,
+                                <em class="parameter"><code><span class="type">void</span> *color_line_data</code></em>,
+                                <em class="parameter"><code>unsigned <span class="type">int</span> start</code></em>,
+                                <em class="parameter"><code>unsigned <span class="type">int</span> *count</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-color-stop-t" title="hb_color_stop_t"><span class="type">hb_color_stop_t</span></a> *color_stops</code></em>,
+                                <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <a class="link" href="harfbuzz-hb-paint.html#hb-color-line-t" title="hb_color_line_t"><span class="type">hb_color_line_t</span></a> to fetch color stops.</p>
+<div class="refsect3">
+<a name="hb-color-line-get-color-stops-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>color_line</p></td>
+<td class="parameter_description"><p>a <a class="link" href="harfbuzz-hb-paint.html#hb-color-line-t" title="hb_color_line_t"><span class="type">hb_color_line_t</span></a> object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>color_line_data</p></td>
+<td class="parameter_description"><p>the data accompanying <em class="parameter"><code>color_line</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>start</p></td>
+<td class="parameter_description"><p>the index of the first color stop to return</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>count</p></td>
+<td class="parameter_description"><p>Input = the maximum number of feature tags to return;
+Output = the actual number of feature tags returned (may be zero). </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for input and for returning results. Default is transfer full."><span class="acronym">inout</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>color_stops</p></td>
+<td class="parameter_description"><p>Array of <a class="link" href="harfbuzz-hb-paint.html#hb-color-stop-t" title="hb_color_stop_t"><span class="type">hb_color_stop_t</span></a> to populate. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="Parameter points to an array of items."><span class="acronym">array</span></acronym> length=count][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>the data accompanying this method</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-color-line-get-color-stops-func-t.returns"></a><h4>Returns</h4>
+<p> the total number of color stops in <em class="parameter"><code>color_line</code></em>
+</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-color-line-get-color-stops"></a><h3>hb_color_line_get_color_stops ()</h3>
+<pre class="programlisting">unsigned <span class="returnvalue">int</span>
+hb_color_line_get_color_stops (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-color-line-t" title="hb_color_line_t"><span class="type">hb_color_line_t</span></a> *color_line</code></em>,
+                               <em class="parameter"><code>unsigned <span class="type">int</span> start</code></em>,
+                               <em class="parameter"><code>unsigned <span class="type">int</span> *count</code></em>,
+                               <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-color-stop-t" title="hb_color_stop_t"><span class="type">hb_color_stop_t</span></a> *color_stops</code></em>);</pre>
+<p>Fetches a list of color stops from the given color line object.</p>
+<p>Note that due to variations being applied, the returned color stops
+may be out of order. It is the callers responsibility to ensure that
+color stops are sorted by their offset before they are used.</p>
+<div class="refsect3">
+<a name="hb-color-line-get-color-stops.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>color_line</p></td>
+<td class="parameter_description"><p>a <a class="link" href="harfbuzz-hb-paint.html#hb-color-line-t" title="hb_color_line_t"><span class="type">hb_color_line_t</span></a> object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>start</p></td>
+<td class="parameter_description"><p>the index of the first color stop to return</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>count</p></td>
+<td class="parameter_description"><p>Input = the maximum number of feature tags to return;
+Output = the actual number of feature tags returned (may be zero). </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for input and for returning results. Default is transfer full."><span class="acronym">inout</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>color_stops</p></td>
+<td class="parameter_description"><p>Array of <a class="link" href="harfbuzz-hb-paint.html#hb-color-stop-t" title="hb_color_stop_t"><span class="type">hb_color_stop_t</span></a> to populate. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="Parameter points to an array of items."><span class="acronym">array</span></acronym> length=count][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-color-line-get-color-stops.returns"></a><h4>Returns</h4>
+<p> the total number of color stops in <em class="parameter"><code>color_line</code></em>
+</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-color-line-get-extend-func-t"></a><h3>hb_color_line_get_extend_func_t ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-paint.html#hb-paint-extend-t" title="enum hb_paint_extend_t"><span class="returnvalue">hb_paint_extend_t</span></a>
+<span class="c_punctuation">(</span>*hb_color_line_get_extend_func_t<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-color-line-t" title="hb_color_line_t"><span class="type">hb_color_line_t</span></a> *color_line</code></em>,
+                                    <em class="parameter"><code><span class="type">void</span> *color_line_data</code></em>,
+                                    <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <em class="parameter"><code>hb_color_line_t</code></em>
+ to fetches the extend mode.</p>
+<div class="refsect3">
+<a name="hb-color-line-get-extend-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>color_line</p></td>
+<td class="parameter_description"><p>a <a class="link" href="harfbuzz-hb-paint.html#hb-color-line-t" title="hb_color_line_t"><span class="type">hb_color_line_t</span></a> object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>color_line_data</p></td>
+<td class="parameter_description"><p>the data accompanying <em class="parameter"><code>color_line</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>the data accompanying this method</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-color-line-get-extend-func-t.returns"></a><h4>Returns</h4>
+<p> the extend mode of <em class="parameter"><code>color_line</code></em>
+</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-color-line-get-extend"></a><h3>hb_color_line_get_extend ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-paint.html#hb-paint-extend-t" title="enum hb_paint_extend_t"><span class="returnvalue">hb_paint_extend_t</span></a>
+hb_color_line_get_extend (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-color-line-t" title="hb_color_line_t"><span class="type">hb_color_line_t</span></a> *color_line</code></em>);</pre>
+<p>Fetches the extend mode of the color line object.</p>
+<div class="refsect3">
+<a name="hb-color-line-get-extend.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>color_line</p></td>
+<td class="parameter_description"><p>a <a class="link" href="harfbuzz-hb-paint.html#hb-color-line-t" title="hb_color_line_t"><span class="type">hb_color_line_t</span></a> object</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-color-line-get-extend.returns"></a><h4>Returns</h4>
+<p> the extend mode of <em class="parameter"><code>color_line</code></em>
+</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-linear-gradient-func-t"></a><h3>hb_paint_linear_gradient_func_t ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*hb_paint_linear_gradient_func_t<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                                    <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                                    <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-color-line-t" title="hb_color_line_t"><span class="type">hb_color_line_t</span></a> *color_line</code></em>,
+                                    <em class="parameter"><code><span class="type">float</span> x0</code></em>,
+                                    <em class="parameter"><code><span class="type">float</span> y0</code></em>,
+                                    <em class="parameter"><code><span class="type">float</span> x1</code></em>,
+                                    <em class="parameter"><code><span class="type">float</span> y1</code></em>,
+                                    <em class="parameter"><code><span class="type">float</span> x2</code></em>,
+                                    <em class="parameter"><code><span class="type">float</span> y2</code></em>,
+                                    <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> to paint a linear
+gradient everywhere within the current clip.</p>
+<p>The <em class="parameter"><code>color_line</code></em>
+ object contains information about the colors of the gradients.
+It is only valid for the duration of the callback, you cannot keep it around.</p>
+<p>The coordinates of the points are interpreted according
+to the current transform.</p>
+<p>See the OpenType spec <a class="ulink" href="https://learn.microsoft.com/en-us/typography/opentype/spec/colr" target="_top">COLR</a>
+section for details on how the points define the direction
+of the gradient, and how to interpret the <em class="parameter"><code>color_line</code></em>
+.</p>
+<div class="refsect3">
+<a name="hb-paint-linear-gradient-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>The data accompanying the paint functions in <a class="link" href="harfbuzz-hb-font.html#hb-font-paint-glyph" title="hb_font_paint_glyph ()"><code class="function">hb_font_paint_glyph()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>color_line</p></td>
+<td class="parameter_description"><p>Color information for the gradient</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x0</p></td>
+<td class="parameter_description"><p>X coordinate of the first point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y0</p></td>
+<td class="parameter_description"><p>Y coordinate of the first point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x1</p></td>
+<td class="parameter_description"><p>X coordinate of the second point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y1</p></td>
+<td class="parameter_description"><p>Y coordinate of the second point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x2</p></td>
+<td class="parameter_description"><p>X coordinate of the third point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y2</p></td>
+<td class="parameter_description"><p>Y coordinate of the third point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data pointer passed to <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-linear-gradient-func" title="hb_paint_funcs_set_linear_gradient_func ()"><code class="function">hb_paint_funcs_set_linear_gradient_func()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-set-linear-gradient-func"></a><h3>hb_paint_funcs_set_linear_gradient_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_funcs_set_linear_gradient_func
+                               (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-linear-gradient-func-t" title="hb_paint_linear_gradient_func_t ()"><span class="type">hb_paint_linear_gradient_func_t</span></a> func</code></em>,
+                                <em class="parameter"><code><span class="type">void</span> *user_data</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>);</pre>
+<p>Sets the linear-gradient callback on the paint functions struct.</p>
+<div class="refsect3">
+<a name="hb-paint-funcs-set-linear-gradient-func.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>A paint functions struct</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>The linear-gradient callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="This parameter is a 'user_data', for callbacks; many bindings can pass NULL here."><span class="acronym">closure</span></acronym> user_data][<acronym title="This parameter is a 'destroy_data', for callbacks."><span class="acronym">destroy</span></acronym> destroy][<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>Data to pass to <em class="parameter"><code>func</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>Function to call when <em class="parameter"><code>user_data</code></em>
+is no longer needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-radial-gradient-func-t"></a><h3>hb_paint_radial_gradient_func_t ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*hb_paint_radial_gradient_func_t<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                                    <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                                    <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-color-line-t" title="hb_color_line_t"><span class="type">hb_color_line_t</span></a> *color_line</code></em>,
+                                    <em class="parameter"><code><span class="type">float</span> x0</code></em>,
+                                    <em class="parameter"><code><span class="type">float</span> y0</code></em>,
+                                    <em class="parameter"><code><span class="type">float</span> r0</code></em>,
+                                    <em class="parameter"><code><span class="type">float</span> x1</code></em>,
+                                    <em class="parameter"><code><span class="type">float</span> y1</code></em>,
+                                    <em class="parameter"><code><span class="type">float</span> r1</code></em>,
+                                    <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> to paint a radial
+gradient everywhere within the current clip.</p>
+<p>The <em class="parameter"><code>color_line</code></em>
+ object contains information about the colors of the gradients.
+It is only valid for the duration of the callback, you cannot keep it around.</p>
+<p>The coordinates of the points are interpreted according
+to the current transform.</p>
+<p>See the OpenType spec <a class="ulink" href="https://learn.microsoft.com/en-us/typography/opentype/spec/colr" target="_top">COLR</a>
+section for details on how the points define the direction
+of the gradient, and how to interpret the <em class="parameter"><code>color_line</code></em>
+.</p>
+<div class="refsect3">
+<a name="hb-paint-radial-gradient-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>The data accompanying the paint functions in <a class="link" href="harfbuzz-hb-font.html#hb-font-paint-glyph" title="hb_font_paint_glyph ()"><code class="function">hb_font_paint_glyph()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>color_line</p></td>
+<td class="parameter_description"><p>Color information for the gradient</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x0</p></td>
+<td class="parameter_description"><p>X coordinate of the first circle's center</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y0</p></td>
+<td class="parameter_description"><p>Y coordinate of the first circle's center</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>r0</p></td>
+<td class="parameter_description"><p>radius of the first circle</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x1</p></td>
+<td class="parameter_description"><p>X coordinate of the second circle's center</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y1</p></td>
+<td class="parameter_description"><p>Y coordinate of the second circle's center</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>r1</p></td>
+<td class="parameter_description"><p>radius of the second circle</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data pointer passed to <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-radial-gradient-func" title="hb_paint_funcs_set_radial_gradient_func ()"><code class="function">hb_paint_funcs_set_radial_gradient_func()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-set-radial-gradient-func"></a><h3>hb_paint_funcs_set_radial_gradient_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_funcs_set_radial_gradient_func
+                               (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-radial-gradient-func-t" title="hb_paint_radial_gradient_func_t ()"><span class="type">hb_paint_radial_gradient_func_t</span></a> func</code></em>,
+                                <em class="parameter"><code><span class="type">void</span> *user_data</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>);</pre>
+<p>Sets the radial-gradient callback on the paint functions struct.</p>
+<div class="refsect3">
+<a name="hb-paint-funcs-set-radial-gradient-func.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>A paint functions struct</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>The radial-gradient callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="This parameter is a 'user_data', for callbacks; many bindings can pass NULL here."><span class="acronym">closure</span></acronym> user_data][<acronym title="This parameter is a 'destroy_data', for callbacks."><span class="acronym">destroy</span></acronym> destroy][<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>Data to pass to <em class="parameter"><code>func</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>Function to call when <em class="parameter"><code>user_data</code></em>
+is no longer needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-sweep-gradient-func-t"></a><h3>hb_paint_sweep_gradient_func_t ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*hb_paint_sweep_gradient_func_t<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                                   <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                                   <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-color-line-t" title="hb_color_line_t"><span class="type">hb_color_line_t</span></a> *color_line</code></em>,
+                                   <em class="parameter"><code><span class="type">float</span> x0</code></em>,
+                                   <em class="parameter"><code><span class="type">float</span> y0</code></em>,
+                                   <em class="parameter"><code><span class="type">float</span> start_angle</code></em>,
+                                   <em class="parameter"><code><span class="type">float</span> end_angle</code></em>,
+                                   <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> to paint a sweep
+gradient everywhere within the current clip.</p>
+<p>The <em class="parameter"><code>color_line</code></em>
+ object contains information about the colors of the gradients.
+It is only valid for the duration of the callback, you cannot keep it around.</p>
+<p>The coordinates of the points are interpreted according
+to the current transform.</p>
+<p>See the OpenType spec <a class="ulink" href="https://learn.microsoft.com/en-us/typography/opentype/spec/colr" target="_top">COLR</a>
+section for details on how the points define the direction
+of the gradient, and how to interpret the <em class="parameter"><code>color_line</code></em>
+.</p>
+<div class="refsect3">
+<a name="hb-paint-sweep-gradient-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>The data accompanying the paint functions in <a class="link" href="harfbuzz-hb-font.html#hb-font-paint-glyph" title="hb_font_paint_glyph ()"><code class="function">hb_font_paint_glyph()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>color_line</p></td>
+<td class="parameter_description"><p>Color information for the gradient</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x0</p></td>
+<td class="parameter_description"><p>X coordinate of the circle's center</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y0</p></td>
+<td class="parameter_description"><p>Y coordinate of the circle's center</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>start_angle</p></td>
+<td class="parameter_description"><p>the start angle, in radians</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>end_angle</p></td>
+<td class="parameter_description"><p>the end angle, in radians</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data pointer passed to <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-sweep-gradient-func" title="hb_paint_funcs_set_sweep_gradient_func ()"><code class="function">hb_paint_funcs_set_sweep_gradient_func()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-set-sweep-gradient-func"></a><h3>hb_paint_funcs_set_sweep_gradient_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_funcs_set_sweep_gradient_func
+                               (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-sweep-gradient-func-t" title="hb_paint_sweep_gradient_func_t ()"><span class="type">hb_paint_sweep_gradient_func_t</span></a> func</code></em>,
+                                <em class="parameter"><code><span class="type">void</span> *user_data</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>);</pre>
+<p>Sets the sweep-gradient callback on the paint functions struct.</p>
+<div class="refsect3">
+<a name="hb-paint-funcs-set-sweep-gradient-func.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>A paint functions struct</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>The sweep-gradient callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="This parameter is a 'user_data', for callbacks; many bindings can pass NULL here."><span class="acronym">closure</span></acronym> user_data][<acronym title="This parameter is a 'destroy_data', for callbacks."><span class="acronym">destroy</span></acronym> destroy][<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>Data to pass to <em class="parameter"><code>func</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>Function to call when <em class="parameter"><code>user_data</code></em>
+is no longer needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-push-group-func-t"></a><h3>hb_paint_push_group_func_t ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*hb_paint_push_group_func_t<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                               <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                               <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> to use
+an intermediate surface for subsequent paint calls.</p>
+<p>The drawing will be redirected to an intermediate surface
+until a matching call to the <span class="type">hb_paint_funcs_pop_group_func_t</span>
+vfunc.</p>
+<div class="refsect3">
+<a name="hb-paint-push-group-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>The data accompanying the paint functions in <a class="link" href="harfbuzz-hb-font.html#hb-font-paint-glyph" title="hb_font_paint_glyph ()"><code class="function">hb_font_paint_glyph()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data pointer passed to <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-push-group-func" title="hb_paint_funcs_set_push_group_func ()"><code class="function">hb_paint_funcs_set_push_group_func()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-set-push-group-func"></a><h3>hb_paint_funcs_set_push_group_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_funcs_set_push_group_func (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                                    <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-push-group-func-t" title="hb_paint_push_group_func_t ()"><span class="type">hb_paint_push_group_func_t</span></a> func</code></em>,
+                                    <em class="parameter"><code><span class="type">void</span> *user_data</code></em>,
+                                    <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>);</pre>
+<p>Sets the push-group callback on the paint functions struct.</p>
+<div class="refsect3">
+<a name="hb-paint-funcs-set-push-group-func.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>A paint functions struct</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>The push-group callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="This parameter is a 'user_data', for callbacks; many bindings can pass NULL here."><span class="acronym">closure</span></acronym> user_data][<acronym title="This parameter is a 'destroy_data', for callbacks."><span class="acronym">destroy</span></acronym> destroy][<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>Data to pass to <em class="parameter"><code>func</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>Function to call when <em class="parameter"><code>user_data</code></em>
+is no longer needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-pop-group-func-t"></a><h3>hb_paint_pop_group_func_t ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+<span class="c_punctuation">(</span>*hb_paint_pop_group_func_t<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                              <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                              <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-composite-mode-t" title="enum hb_paint_composite_mode_t"><span class="type">hb_paint_composite_mode_t</span></a> mode</code></em>,
+                              <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> to undo
+the effect of a prior call to the <span class="type">hb_paint_funcs_push_group_func_t</span>
+vfunc.</p>
+<p>This call stops the redirection to the intermediate surface,
+and then composites it on the previous surface, using the
+compositing mode passed to this call.</p>
+<div class="refsect3">
+<a name="hb-paint-pop-group-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>The data accompanying the paint functions in <a class="link" href="harfbuzz-hb-font.html#hb-font-paint-glyph" title="hb_font_paint_glyph ()"><code class="function">hb_font_paint_glyph()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>mode</p></td>
+<td class="parameter_description"><p>the compositing mode to use</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data pointer passed to <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-pop-group-func" title="hb_paint_funcs_set_pop_group_func ()"><code class="function">hb_paint_funcs_set_pop_group_func()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-set-pop-group-func"></a><h3>hb_paint_funcs_set_pop_group_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_funcs_set_pop_group_func (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                                   <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-pop-group-func-t" title="hb_paint_pop_group_func_t ()"><span class="type">hb_paint_pop_group_func_t</span></a> func</code></em>,
+                                   <em class="parameter"><code><span class="type">void</span> *user_data</code></em>,
+                                   <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>);</pre>
+<p>Sets the pop-group callback on the paint functions struct.</p>
+<div class="refsect3">
+<a name="hb-paint-funcs-set-pop-group-func.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>A paint functions struct</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>The pop-group callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="This parameter is a 'user_data', for callbacks; many bindings can pass NULL here."><span class="acronym">closure</span></acronym> user_data][<acronym title="This parameter is a 'destroy_data', for callbacks."><span class="acronym">destroy</span></acronym> destroy][<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>Data to pass to <em class="parameter"><code>func</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>Function to call when <em class="parameter"><code>user_data</code></em>
+is no longer needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-custom-palette-color-func-t"></a><h3>hb_paint_custom_palette_color_func_t ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="returnvalue">hb_bool_t</span></a>
+<span class="c_punctuation">(</span>*hb_paint_custom_palette_color_func_t<span class="c_punctuation">)</span>
+                               (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                                <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                                <em class="parameter"><code>unsigned <span class="type">int</span> color_index</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-ot-color.html#hb-color-t" title="hb_color_t"><span class="type">hb_color_t</span></a> *color</code></em>,
+                                <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>A virtual method for the <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> to fetch a color from the custom
+color palette.</p>
+<p>Custom palette colors override the colors from the fonts selected color
+palette. It is not necessary to override all palette entries; for entries
+that should be taken from the font palette, return <code class="literal">false</code>.</p>
+<p>This function might get called multiple times, but the custom palette is
+expected to remain unchanged for duration of a <a class="link" href="harfbuzz-hb-font.html#hb-font-paint-glyph" title="hb_font_paint_glyph ()"><code class="function">hb_font_paint_glyph()</code></a> call.</p>
+<div class="refsect3">
+<a name="hb-paint-custom-palette-color-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>The data accompanying the paint functions in <a class="link" href="harfbuzz-hb-font.html#hb-font-paint-glyph" title="hb_font_paint_glyph ()"><code class="function">hb_font_paint_glyph()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>color_index</p></td>
+<td class="parameter_description"><p>the color index</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>color</p></td>
+<td class="parameter_description"><p>fetched color. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data pointer passed to <a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-set-pop-group-func" title="hb_paint_funcs_set_pop_group_func ()"><code class="function">hb_paint_funcs_set_pop_group_func()</code></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-paint-custom-palette-color-func-t.returns"></a><h4>Returns</h4>
+<p> <code class="literal">true</code> if found, <code class="literal">false</code> otherwise</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-funcs-set-custom-palette-color-func"></a><h3>hb_paint_funcs_set_custom_palette_color_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_funcs_set_custom_palette_color_func
+                               (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-custom-palette-color-func-t" title="hb_paint_custom_palette_color_func_t ()"><span class="type">hb_paint_custom_palette_color_func_t</span></a> func</code></em>,
+                                <em class="parameter"><code><span class="type">void</span> *user_data</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>);</pre>
+<p>Sets the custom-palette-color callback on the paint functions struct.</p>
+<div class="refsect3">
+<a name="hb-paint-funcs-set-custom-palette-color-func.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>A paint functions struct</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>The custom-palette-color callback. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="This parameter is a 'user_data', for callbacks; many bindings can pass NULL here."><span class="acronym">closure</span></acronym> user_data][<acronym title="This parameter is a 'destroy_data', for callbacks."><span class="acronym">destroy</span></acronym> destroy][<acronym title="The callback is valid until the GDestroyNotify argument is called."><span class="acronym">scope notified</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>Data to pass to <em class="parameter"><code>func</code></em>
+</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>Function to call when <em class="parameter"><code>user_data</code></em>
+is no longer needed. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-push-transform"></a><h3>hb_paint_push_transform ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_push_transform (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                         <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                         <em class="parameter"><code><span class="type">float</span> xx</code></em>,
+                         <em class="parameter"><code><span class="type">float</span> yx</code></em>,
+                         <em class="parameter"><code><span class="type">float</span> xy</code></em>,
+                         <em class="parameter"><code><span class="type">float</span> yy</code></em>,
+                         <em class="parameter"><code><span class="type">float</span> dx</code></em>,
+                         <em class="parameter"><code><span class="type">float</span> dy</code></em>);</pre>
+<p>Perform a "push-transform" paint operation.</p>
+<div class="refsect3">
+<a name="hb-paint-push-transform.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>associated data passed by the caller</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>xx</p></td>
+<td class="parameter_description"><p>xx component of the transform matrix</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>yx</p></td>
+<td class="parameter_description"><p>yx component of the transform matrix</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>xy</p></td>
+<td class="parameter_description"><p>xy component of the transform matrix</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>yy</p></td>
+<td class="parameter_description"><p>yy component of the transform matrix</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>dx</p></td>
+<td class="parameter_description"><p>dx component of the transform matrix</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>dy</p></td>
+<td class="parameter_description"><p>dy component of the transform matrix</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-pop-transform"></a><h3>hb_paint_pop_transform ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_pop_transform (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                        <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>);</pre>
+<p>Perform a "pop-transform" paint operation.</p>
+<div class="refsect3">
+<a name="hb-paint-pop-transform.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>associated data passed by the caller</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-push-clip-glyph"></a><h3>hb_paint_push_clip_glyph ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_push_clip_glyph (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                          <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                          <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-codepoint-t" title="hb_codepoint_t"><span class="type">hb_codepoint_t</span></a> glyph</code></em>,
+                          <em class="parameter"><code><a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> *font</code></em>);</pre>
+<p>Perform a "push-clip-glyph" paint operation.</p>
+<div class="refsect3">
+<a name="hb-paint-push-clip-glyph.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>associated data passed by the caller</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>glyph</p></td>
+<td class="parameter_description"><p>the glyph ID</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>font</p></td>
+<td class="parameter_description"><p>the font</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-push-clip-rectangle"></a><h3>hb_paint_push_clip_rectangle ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_push_clip_rectangle (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                              <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                              <em class="parameter"><code><span class="type">float</span> xmin</code></em>,
+                              <em class="parameter"><code><span class="type">float</span> ymin</code></em>,
+                              <em class="parameter"><code><span class="type">float</span> xmax</code></em>,
+                              <em class="parameter"><code><span class="type">float</span> ymax</code></em>);</pre>
+<p>Perform a "push-clip-rect" paint operation.</p>
+<div class="refsect3">
+<a name="hb-paint-push-clip-rectangle.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>associated data passed by the caller</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>xmin</p></td>
+<td class="parameter_description"><p>min X for the rectangle</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>ymin</p></td>
+<td class="parameter_description"><p>min Y for the rectangle</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>xmax</p></td>
+<td class="parameter_description"><p>max X for the rectangle</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>ymax</p></td>
+<td class="parameter_description"><p>max Y for the rectangle</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-pop-clip"></a><h3>hb_paint_pop_clip ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_pop_clip (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                   <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>);</pre>
+<p>Perform a "pop-clip" paint operation.</p>
+<div class="refsect3">
+<a name="hb-paint-pop-clip.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>associated data passed by the caller</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-color"></a><h3>hb_paint_color ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_color (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="type">hb_bool_t</span></a> is_foreground</code></em>,
+                <em class="parameter"><code><a class="link" href="harfbuzz-hb-ot-color.html#hb-color-t" title="hb_color_t"><span class="type">hb_color_t</span></a> color</code></em>);</pre>
+<p>Perform a "color" paint operation.</p>
+<div class="refsect3">
+<a name="hb-paint-color.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>associated data passed by the caller</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>is_foreground</p></td>
+<td class="parameter_description"><p>whether the color is the foreground</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>color</p></td>
+<td class="parameter_description"><p>The color to use</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-image"></a><h3>hb_paint_image ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_image (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                <em class="parameter"><code><a class="link" href="harfbuzz-hb-blob.html#hb-blob-t" title="hb_blob_t"><span class="type">hb_blob_t</span></a> *image</code></em>,
+                <em class="parameter"><code>unsigned <span class="type">int</span> width</code></em>,
+                <em class="parameter"><code>unsigned <span class="type">int</span> height</code></em>,
+                <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-tag-t" title="hb_tag_t"><span class="type">hb_tag_t</span></a> format</code></em>,
+                <em class="parameter"><code><span class="type">float</span> slant</code></em>,
+                <em class="parameter"><code><a class="link" href="harfbuzz-hb-font.html#hb-glyph-extents-t" title="hb_glyph_extents_t"><span class="type">hb_glyph_extents_t</span></a> *extents</code></em>);</pre>
+<p>Perform a "image" paint operation.</p>
+<div class="refsect3">
+<a name="hb-paint-image.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>associated data passed by the caller</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>image</p></td>
+<td class="parameter_description"><p>image data</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>width</p></td>
+<td class="parameter_description"><p>width of the raster image in pixels, or 0</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>height</p></td>
+<td class="parameter_description"><p>height of the raster image in pixels, or 0</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>format</p></td>
+<td class="parameter_description"><p>the image format as a tag</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>slant</p></td>
+<td class="parameter_description"><p>the synthetic slant ratio to be applied to the image during rendering</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>extents</p></td>
+<td class="parameter_description"><p>the extents of the glyph. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-linear-gradient"></a><h3>hb_paint_linear_gradient ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_linear_gradient (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                          <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                          <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-color-line-t" title="hb_color_line_t"><span class="type">hb_color_line_t</span></a> *color_line</code></em>,
+                          <em class="parameter"><code><span class="type">float</span> x0</code></em>,
+                          <em class="parameter"><code><span class="type">float</span> y0</code></em>,
+                          <em class="parameter"><code><span class="type">float</span> x1</code></em>,
+                          <em class="parameter"><code><span class="type">float</span> y1</code></em>,
+                          <em class="parameter"><code><span class="type">float</span> x2</code></em>,
+                          <em class="parameter"><code><span class="type">float</span> y2</code></em>);</pre>
+<p>Perform a "linear-gradient" paint operation.</p>
+<div class="refsect3">
+<a name="hb-paint-linear-gradient.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>associated data passed by the caller</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>color_line</p></td>
+<td class="parameter_description"><p>Color information for the gradient</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x0</p></td>
+<td class="parameter_description"><p>X coordinate of the first point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y0</p></td>
+<td class="parameter_description"><p>Y coordinate of the first point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x1</p></td>
+<td class="parameter_description"><p>X coordinate of the second point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y1</p></td>
+<td class="parameter_description"><p>Y coordinate of the second point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x2</p></td>
+<td class="parameter_description"><p>X coordinate of the third point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y2</p></td>
+<td class="parameter_description"><p>Y coordinate of the third point</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-radial-gradient"></a><h3>hb_paint_radial_gradient ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_radial_gradient (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                          <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                          <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-color-line-t" title="hb_color_line_t"><span class="type">hb_color_line_t</span></a> *color_line</code></em>,
+                          <em class="parameter"><code><span class="type">float</span> x0</code></em>,
+                          <em class="parameter"><code><span class="type">float</span> y0</code></em>,
+                          <em class="parameter"><code><span class="type">float</span> r0</code></em>,
+                          <em class="parameter"><code><span class="type">float</span> x1</code></em>,
+                          <em class="parameter"><code><span class="type">float</span> y1</code></em>,
+                          <em class="parameter"><code><span class="type">float</span> r1</code></em>);</pre>
+<p>Perform a "radial-gradient" paint operation.</p>
+<div class="refsect3">
+<a name="hb-paint-radial-gradient.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>associated data passed by the caller</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>color_line</p></td>
+<td class="parameter_description"><p>Color information for the gradient</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x0</p></td>
+<td class="parameter_description"><p>X coordinate of the first circle's center</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y0</p></td>
+<td class="parameter_description"><p>Y coordinate of the first circle's center</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>r0</p></td>
+<td class="parameter_description"><p>radius of the first circle</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x1</p></td>
+<td class="parameter_description"><p>X coordinate of the second circle's center</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y1</p></td>
+<td class="parameter_description"><p>Y coordinate of the second circle's center</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>r1</p></td>
+<td class="parameter_description"><p>radius of the second circle</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-sweep-gradient"></a><h3>hb_paint_sweep_gradient ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_sweep_gradient (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                         <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                         <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-color-line-t" title="hb_color_line_t"><span class="type">hb_color_line_t</span></a> *color_line</code></em>,
+                         <em class="parameter"><code><span class="type">float</span> x0</code></em>,
+                         <em class="parameter"><code><span class="type">float</span> y0</code></em>,
+                         <em class="parameter"><code><span class="type">float</span> start_angle</code></em>,
+                         <em class="parameter"><code><span class="type">float</span> end_angle</code></em>);</pre>
+<p>Perform a "sweep-gradient" paint operation.</p>
+<div class="refsect3">
+<a name="hb-paint-sweep-gradient.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>associated data passed by the caller</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>color_line</p></td>
+<td class="parameter_description"><p>Color information for the gradient</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x0</p></td>
+<td class="parameter_description"><p>X coordinate of the circle's center</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y0</p></td>
+<td class="parameter_description"><p>Y coordinate of the circle's center</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>start_angle</p></td>
+<td class="parameter_description"><p>the start angle</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>end_angle</p></td>
+<td class="parameter_description"><p>the end angle</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-push-group"></a><h3>hb_paint_push_group ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_push_group (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                     <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>);</pre>
+<p>Perform a "push-group" paint operation.</p>
+<div class="refsect3">
+<a name="hb-paint-push-group.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>associated data passed by the caller</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-pop-group"></a><h3>hb_paint_pop_group ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_paint_pop_group (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                    <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                    <em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-composite-mode-t" title="enum hb_paint_composite_mode_t"><span class="type">hb_paint_composite_mode_t</span></a> mode</code></em>);</pre>
+<p>Perform a "pop-group" paint operation.</p>
+<div class="refsect3">
+<a name="hb-paint-pop-group.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>associated data passed by the caller</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>mode</p></td>
+<td class="parameter_description"><p>the compositing mode to use</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-custom-palette-color"></a><h3>hb_paint_custom_palette_color ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="returnvalue">hb_bool_t</span></a>
+hb_paint_custom_palette_color (<em class="parameter"><code><a class="link" href="harfbuzz-hb-paint.html#hb-paint-funcs-t" title="hb_paint_funcs_t"><span class="type">hb_paint_funcs_t</span></a> *funcs</code></em>,
+                               <em class="parameter"><code><span class="type">void</span> *paint_data</code></em>,
+                               <em class="parameter"><code>unsigned <span class="type">int</span> color_index</code></em>,
+                               <em class="parameter"><code><a class="link" href="harfbuzz-hb-ot-color.html#hb-color-t" title="hb_color_t"><span class="type">hb_color_t</span></a> *color</code></em>);</pre>
+<p>Gets the custom palette color for <em class="parameter"><code>color_index</code></em>
+.</p>
+<div class="refsect3">
+<a name="hb-paint-custom-palette-color.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>funcs</p></td>
+<td class="parameter_description"><p>paint functions</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>paint_data</p></td>
+<td class="parameter_description"><p>associated data passed by the caller</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>color_index</p></td>
+<td class="parameter_description"><p>color index</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>color</p></td>
+<td class="parameter_description"><p>fetched color. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-paint-custom-palette-color.returns"></a><h4>Returns</h4>
+<p> <code class="literal">true</code> if found, <code class="literal">false</code> otherwise</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-paint.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="hb-paint-funcs-t"></a><h3>hb_paint_funcs_t</h3>
+<pre class="programlisting">typedef struct hb_paint_funcs_t hb_paint_funcs_t;
+</pre>
+<p>Glyph paint callbacks.</p>
+<p>The callbacks assume that the caller maintains a stack
+of current transforms, clips and intermediate surfaces,
+as evidenced by the pairs of push/pop callbacks. The
+push/pop calls will be properly nested, so it is fine
+to store the different kinds of object on a single stack.</p>
+<p>Not all callbacks are required for all kinds of glyphs.
+For rendering COLRv0 or non-color outline glyphs, the
+gradient callbacks are not needed, and the composite
+callback only needs to handle simple alpha compositing
+(<a class="link" href="harfbuzz-hb-paint.html#HB-PAINT-COMPOSITE-MODE-SRC-OVER:CAPS"><span class="type">HB_PAINT_COMPOSITE_MODE_SRC_OVER</span></a>).</p>
+<p>The paint-image callback is only needed for glyphs
+with image blobs in the CBDT, sbix or SVG tables.</p>
+<p>The custom-palette-color callback is only necessary if
+you want to override colors from the font palette with
+custom colors.</p>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="HB-PAINT-IMAGE-FORMAT-PNG:CAPS"></a><h3>HB_PAINT_IMAGE_FORMAT_PNG</h3>
+<pre class="programlisting">#define HB_PAINT_IMAGE_FORMAT_PNG HB_TAG('p','n','g',' ')
+</pre>
+<p>Tag identifying PNG images in <a class="link" href="harfbuzz-hb-paint.html#hb-paint-image-func-t" title="hb_paint_image_func_t ()"><span class="type">hb_paint_image_func_t</span></a> callbacks.</p>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="HB-PAINT-IMAGE-FORMAT-SVG:CAPS"></a><h3>HB_PAINT_IMAGE_FORMAT_SVG</h3>
+<pre class="programlisting">#define HB_PAINT_IMAGE_FORMAT_SVG HB_TAG('s','v','g',' ')
+</pre>
+<p>Tag identifying SVG images in <a class="link" href="harfbuzz-hb-paint.html#hb-paint-image-func-t" title="hb_paint_image_func_t ()"><span class="type">hb_paint_image_func_t</span></a> callbacks.</p>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="HB-PAINT-IMAGE-FORMAT-BGRA:CAPS"></a><h3>HB_PAINT_IMAGE_FORMAT_BGRA</h3>
+<pre class="programlisting">#define HB_PAINT_IMAGE_FORMAT_BGRA HB_TAG('B','G','R','A')
+</pre>
+<p>Tag identifying raw pixel-data images in <a class="link" href="harfbuzz-hb-paint.html#hb-paint-image-func-t" title="hb_paint_image_func_t ()"><span class="type">hb_paint_image_func_t</span></a> callbacks.
+The data is in BGRA pre-multiplied sRGBA color-space format.</p>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-color-line-t"></a><h3>hb_color_line_t</h3>
+<pre class="programlisting">typedef struct hb_color_line_t hb_color_line_t;
+</pre>
+<p>A struct containing color information for a gradient.</p>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-color-stop-t"></a><h3>hb_color_stop_t</h3>
+<pre class="programlisting">typedef struct {
+  float offset;
+  hb_bool_t is_foreground;
+  hb_color_t color;
+} hb_color_stop_t;
+</pre>
+<p>Information about a color stop on a color line.</p>
+<p>Color lines typically have offsets ranging between 0 and 1,
+but that is not required.</p>
+<p>Note: despite <em class="parameter"><code>color</code></em>
+ being unpremultiplied here, interpolation in
+gradients shall happen in premultiplied space. See the OpenType spec
+<a class="ulink" href="https://learn.microsoft.com/en-us/typography/opentype/spec/colr" target="_top">COLR</a>
+section for details.</p>
+<div class="refsect3">
+<a name="hb-color-stop-t.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><span class="type">float</span> <em class="structfield"><code><a name="hb-color-stop-t.offset"></a>offset</code></em>;</p></td>
+<td class="struct_member_description"><p>the offset of the color stop</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="type">hb_bool_t</span></a> <em class="structfield"><code><a name="hb-color-stop-t.is-foreground"></a>is_foreground</code></em>;</p></td>
+<td class="struct_member_description"><p>whether the color is the foreground</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="harfbuzz-hb-ot-color.html#hb-color-t" title="hb_color_t"><span class="type">hb_color_t</span></a> <em class="structfield"><code><a name="hb-color-stop-t.color"></a>color</code></em>;</p></td>
+<td class="struct_member_description"><p>the color, unpremultiplied</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-extend-t"></a><h3>enum hb_paint_extend_t</h3>
+<p>The values of this enumeration determine how color values
+outside the minimum and maximum defined offset on a <a class="link" href="harfbuzz-hb-paint.html#hb-color-line-t" title="hb_color_line_t"><span class="type">hb_color_line_t</span></a>
+are determined.</p>
+<p>See the OpenType spec <a class="ulink" href="https://learn.microsoft.com/en-us/typography/opentype/spec/colr" target="_top">COLR</a>
+section for details.</p>
+<div class="refsect3">
+<a name="hb-paint-extend-t.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-EXTEND-PAD:CAPS"></a>HB_PAINT_EXTEND_PAD</p></td>
+<td class="enum_member_description">
+<p>Outside the defined interval,
+the color of the closest color stop is used.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-EXTEND-REPEAT:CAPS"></a>HB_PAINT_EXTEND_REPEAT</p></td>
+<td class="enum_member_description">
+<p>The color line is repeated over
+repeated multiples of the defined interval</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-EXTEND-REFLECT:CAPS"></a>HB_PAINT_EXTEND_REFLECT</p></td>
+<td class="enum_member_description">
+<p>The color line is repeated over
+repeated intervals, as for the repeat mode.
+However, in each repeated interval, the ordering of
+color stops is the reverse of the adjacent interval.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-paint-composite-mode-t"></a><h3>enum hb_paint_composite_mode_t</h3>
+<p>The values of this enumeration describe the compositing modes
+that can be used when combining temporary redirected drawing
+with the backdrop.</p>
+<p>See the OpenType spec <a class="ulink" href="https://learn.microsoft.com/en-us/typography/opentype/spec/colr" target="_top">COLR</a>
+section for details.</p>
+<div class="refsect3">
+<a name="hb-paint-composite-mode-t.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-CLEAR:CAPS"></a>HB_PAINT_COMPOSITE_MODE_CLEAR</p></td>
+<td class="enum_member_description">
+<p>clear destination layer (bounded)</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-SRC:CAPS"></a>HB_PAINT_COMPOSITE_MODE_SRC</p></td>
+<td class="enum_member_description">
+<p>replace destination layer (bounded)</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-DEST:CAPS"></a>HB_PAINT_COMPOSITE_MODE_DEST</p></td>
+<td class="enum_member_description">
+<p>ignore the source</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-SRC-OVER:CAPS"></a>HB_PAINT_COMPOSITE_MODE_SRC_OVER</p></td>
+<td class="enum_member_description">
+<p>draw source layer on top of destination layer
+(bounded)</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-DEST-OVER:CAPS"></a>HB_PAINT_COMPOSITE_MODE_DEST_OVER</p></td>
+<td class="enum_member_description">
+<p>draw destination on top of source</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-SRC-IN:CAPS"></a>HB_PAINT_COMPOSITE_MODE_SRC_IN</p></td>
+<td class="enum_member_description">
+<p>draw source where there was destination content
+(unbounded)</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-DEST-IN:CAPS"></a>HB_PAINT_COMPOSITE_MODE_DEST_IN</p></td>
+<td class="enum_member_description">
+<p>leave destination only where there was
+source content (unbounded)</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-SRC-OUT:CAPS"></a>HB_PAINT_COMPOSITE_MODE_SRC_OUT</p></td>
+<td class="enum_member_description">
+<p>draw source where there was no destination
+content (unbounded)</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-DEST-OUT:CAPS"></a>HB_PAINT_COMPOSITE_MODE_DEST_OUT</p></td>
+<td class="enum_member_description">
+<p>leave destination only where there was no
+source content</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-SRC-ATOP:CAPS"></a>HB_PAINT_COMPOSITE_MODE_SRC_ATOP</p></td>
+<td class="enum_member_description">
+<p>draw source on top of destination content and
+only there</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-DEST-ATOP:CAPS"></a>HB_PAINT_COMPOSITE_MODE_DEST_ATOP</p></td>
+<td class="enum_member_description">
+<p>leave destination on top of source content
+and only there (unbounded)</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-XOR:CAPS"></a>HB_PAINT_COMPOSITE_MODE_XOR</p></td>
+<td class="enum_member_description">
+<p>source and destination are shown where there is only
+one of them</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-PLUS:CAPS"></a>HB_PAINT_COMPOSITE_MODE_PLUS</p></td>
+<td class="enum_member_description">
+<p>source and destination layers are accumulated</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-SCREEN:CAPS"></a>HB_PAINT_COMPOSITE_MODE_SCREEN</p></td>
+<td class="enum_member_description">
+<p>source and destination are complemented and
+multiplied. This causes the result to be at least as light as the lighter
+inputs.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-OVERLAY:CAPS"></a>HB_PAINT_COMPOSITE_MODE_OVERLAY</p></td>
+<td class="enum_member_description">
+<p>multiplies or screens, depending on the
+lightness of the destination color.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-DARKEN:CAPS"></a>HB_PAINT_COMPOSITE_MODE_DARKEN</p></td>
+<td class="enum_member_description">
+<p>replaces the destination with the source if it
+is darker, otherwise keeps the source.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-LIGHTEN:CAPS"></a>HB_PAINT_COMPOSITE_MODE_LIGHTEN</p></td>
+<td class="enum_member_description">
+<p>replaces the destination with the source if it
+is lighter, otherwise keeps the source.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-COLOR-DODGE:CAPS"></a>HB_PAINT_COMPOSITE_MODE_COLOR_DODGE</p></td>
+<td class="enum_member_description">
+<p>brightens the destination color to reflect
+the source color.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-COLOR-BURN:CAPS"></a>HB_PAINT_COMPOSITE_MODE_COLOR_BURN</p></td>
+<td class="enum_member_description">
+<p>darkens the destination color to reflect
+the source color.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-HARD-LIGHT:CAPS"></a>HB_PAINT_COMPOSITE_MODE_HARD_LIGHT</p></td>
+<td class="enum_member_description">
+<p>Multiplies or screens, dependent on source
+color.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-SOFT-LIGHT:CAPS"></a>HB_PAINT_COMPOSITE_MODE_SOFT_LIGHT</p></td>
+<td class="enum_member_description">
+<p>Darkens or lightens, dependent on source
+color.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-DIFFERENCE:CAPS"></a>HB_PAINT_COMPOSITE_MODE_DIFFERENCE</p></td>
+<td class="enum_member_description">
+<p>Takes the difference of the source and
+destination color.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-EXCLUSION:CAPS"></a>HB_PAINT_COMPOSITE_MODE_EXCLUSION</p></td>
+<td class="enum_member_description">
+<p>Produces an effect similar to difference, but
+with lower contrast.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-MULTIPLY:CAPS"></a>HB_PAINT_COMPOSITE_MODE_MULTIPLY</p></td>
+<td class="enum_member_description">
+<p>source and destination layers are multiplied.
+This causes the result to be at least as dark as the darker inputs.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-HSL-HUE:CAPS"></a>HB_PAINT_COMPOSITE_MODE_HSL_HUE</p></td>
+<td class="enum_member_description">
+<p>Creates a color with the hue of the source
+and the saturation and luminosity of the target.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-HSL-SATURATION:CAPS"></a>HB_PAINT_COMPOSITE_MODE_HSL_SATURATION</p></td>
+<td class="enum_member_description">
+<p>Creates a color with the saturation
+of the source and the hue and luminosity of the target. Painting with
+this mode onto a gray area produces no change.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-HSL-COLOR:CAPS"></a>HB_PAINT_COMPOSITE_MODE_HSL_COLOR</p></td>
+<td class="enum_member_description">
+<p>Creates a color with the hue and saturation
+of the source and the luminosity of the target. This preserves the gray
+levels of the target and is useful for coloring monochrome images or
+tinting color images.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-PAINT-COMPOSITE-MODE-HSL-LUMINOSITY:CAPS"></a>HB_PAINT_COMPOSITE_MODE_HSL_LUMINOSITY</p></td>
+<td class="enum_member_description">
+<p>Creates a color with the luminosity of
+the source and the hue and saturation of the target. This produces an
+inverse effect to <em class="parameter"><code>HB_PAINT_COMPOSITE_MODE_HSL_COLOR</code></em>
+.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.33.1</div>
+</body>
+</html>

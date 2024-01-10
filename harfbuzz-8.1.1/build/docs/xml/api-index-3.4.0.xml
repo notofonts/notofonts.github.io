@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-3.4.0">
+<indexdiv><title>O</title>
+<indexentry><primaryie linkends="hb-ot-math-get-glyph-kernings"><link linkend="hb-ot-math-get-glyph-kernings">hb_ot_math_get_glyph_kernings</link>, function in <link linkend="harfbuzz-hb-ot-math">hb-ot-math</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-math-kern-entry-t"><link linkend="hb-ot-math-kern-entry-t">hb_ot_math_kern_entry_t</link>, struct in <link linkend="harfbuzz-hb-ot-math">hb-ot-math</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HB-OT-TAG-MATH-SCRIPT:CAPS"><link linkend="HB-OT-TAG-MATH-SCRIPT:CAPS">HB_OT_TAG_MATH_SCRIPT</link>, macro in <link linkend="harfbuzz-hb-ot-math">hb-ot-math</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

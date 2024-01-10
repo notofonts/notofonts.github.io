@@ -1,0 +1,11 @@
+prefix=/usr/local
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+Name: harfbuzz
+Description: HarfBuzz text shaping library
+Version: 8.1.1
+Requires.private: freetype2, glib-2.0, graphite2
+Libs: -L${libdir} -lharfbuzz
+Libs.private: -pthread -lm
+Cflags: -I${includedir}/harfbuzz

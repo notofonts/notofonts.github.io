@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-2.3.0">
+<indexdiv><title>A</title>
+<indexentry><primaryie linkends="hb-aat-layout-has-positioning"><link linkend="hb-aat-layout-has-positioning">hb_aat_layout_has_positioning</link>, function in <link linkend="harfbuzz-hb-aat-layout">hb-aat-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-aat-layout-has-substitution"><link linkend="hb-aat-layout-has-substitution">hb_aat_layout_has_substitution</link>, function in <link linkend="harfbuzz-hb-aat-layout">hb-aat-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-aat-layout-has-tracking"><link linkend="hb-aat-layout-has-tracking">hb_aat_layout_has_tracking</link>, function in <link linkend="harfbuzz-hb-aat-layout">hb-aat-layout</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

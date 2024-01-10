@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-2.6.3">
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="hb-font-get-nominal-glyphs"><link linkend="hb-font-get-nominal-glyphs">hb_font_get_nominal_glyphs</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

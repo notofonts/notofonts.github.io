@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>hb-glib: HarfBuzz Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="HarfBuzz Manual">
+<link rel="up" href="integration-api.html" title="Integration API">
+<link rel="prev" href="harfbuzz-hb-ft.html" title="hb-ft">
+<link rel="next" href="harfbuzz-hb-graphite2.html" title="hb-graphite2">
+<meta name="generator" content="GTK-Doc V1.33.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#harfbuzz-hb-glib.description" class="shortcut">Description</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="integration-api.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="harfbuzz-hb-ft.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="harfbuzz-hb-graphite2.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="harfbuzz-hb-glib"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="harfbuzz-hb-glib.top_of_page"></a>hb-glib</span></h2>
+<p>hb-glib — GLib integration</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="harfbuzz-hb-glib.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-unicode.html#hb-unicode-funcs-t" title="hb_unicode_funcs_t"><span class="returnvalue">hb_unicode_funcs_t</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-glib.html#hb-glib-get-unicode-funcs" title="hb_glib_get_unicode_funcs ()">hb_glib_get_unicode_funcs</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">GUnicodeScript</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-glib.html#hb-glib-script-from-script" title="hb_glib_script_from_script ()">hb_glib_script_from_script</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-common.html#hb-script-t" title="enum hb_script_t"><span class="returnvalue">hb_script_t</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-glib.html#hb-glib-script-to-script" title="hb_glib_script_to_script ()">hb_glib_script_to_script</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-blob.html#hb-blob-t" title="hb_blob_t"><span class="returnvalue">hb_blob_t</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-glib.html#hb-glib-blob-create" title="hb_glib_blob_create ()">hb_glib_blob_create</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-glib.includes"></a><h2>Includes</h2>
+<pre class="synopsis">#include &lt;hb-glib.h&gt;
+</pre>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-glib.description"></a><h2>Description</h2>
+<p>Functions for using HarfBuzz with the GLib library.</p>
+<p>HarfBuzz supports using GLib to provide Unicode data, by attaching
+GLib functions to the virtual methods in a <a class="link" href="harfbuzz-hb-unicode.html#hb-unicode-funcs-t" title="hb_unicode_funcs_t"><span class="type">hb_unicode_funcs_t</span></a> function
+structure.</p>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-glib.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="hb-glib-get-unicode-funcs"></a><h3>hb_glib_get_unicode_funcs ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-unicode.html#hb-unicode-funcs-t" title="hb_unicode_funcs_t"><span class="returnvalue">hb_unicode_funcs_t</span></a> *
+hb_glib_get_unicode_funcs (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>Fetches a Unicode-functions structure that is populated
+with the appropriate GLib function for each method.</p>
+<div class="refsect3">
+<a name="hb-glib-get-unicode-funcs.returns"></a><h4>Returns</h4>
+<p>a pointer to the <a class="link" href="harfbuzz-hb-unicode.html#hb-unicode-funcs-t" title="hb_unicode_funcs_t"><span class="type">hb_unicode_funcs_t</span></a> Unicode-functions structure. </p>
+<p><span class="annotation">[<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-0-9-38.html#api-index-0.9.38">0.9.38</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-glib-script-from-script"></a><h3>hb_glib_script_from_script ()</h3>
+<pre class="programlisting"><span class="returnvalue">GUnicodeScript</span>
+hb_glib_script_from_script (<em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-script-t" title="enum hb_script_t"><span class="type">hb_script_t</span></a> script</code></em>);</pre>
+<p>Fetches the GUnicodeScript identifier that corresponds to the
+specified <a class="link" href="harfbuzz-hb-common.html#hb-script-t" title="enum hb_script_t"><span class="type">hb_script_t</span></a> script.</p>
+<div class="refsect3">
+<a name="hb-glib-script-from-script.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>script</p></td>
+<td class="parameter_description"><p>The <a class="link" href="harfbuzz-hb-common.html#hb-script-t" title="enum hb_script_t"><span class="type">hb_script_t</span></a> to query</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-glib-script-from-script.returns"></a><h4>Returns</h4>
+<p> the GUnicodeScript identifier found</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-0-9-38.html#api-index-0.9.38">0.9.38</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-glib-script-to-script"></a><h3>hb_glib_script_to_script ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-common.html#hb-script-t" title="enum hb_script_t"><span class="returnvalue">hb_script_t</span></a>
+hb_glib_script_to_script (<em class="parameter"><code><span class="type">GUnicodeScript</span> script</code></em>);</pre>
+<p>Fetches the <a class="link" href="harfbuzz-hb-common.html#hb-script-t" title="enum hb_script_t"><span class="type">hb_script_t</span></a> script that corresponds to the
+specified GUnicodeScript identifier.</p>
+<div class="refsect3">
+<a name="hb-glib-script-to-script.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>script</p></td>
+<td class="parameter_description"><p>The GUnicodeScript identifier to query</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-glib-script-to-script.returns"></a><h4>Returns</h4>
+<p> the <a class="link" href="harfbuzz-hb-common.html#hb-script-t" title="enum hb_script_t"><span class="type">hb_script_t</span></a> script found</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-0-9-38.html#api-index-0.9.38">0.9.38</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-glib-blob-create"></a><h3>hb_glib_blob_create ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-blob.html#hb-blob-t" title="hb_blob_t"><span class="returnvalue">hb_blob_t</span></a> *
+hb_glib_blob_create (<em class="parameter"><code><span class="type">GBytes</span> *gbytes</code></em>);</pre>
+<p>Creates an <a class="link" href="harfbuzz-hb-blob.html#hb-blob-t" title="hb_blob_t"><span class="type">hb_blob_t</span></a> blob from the specified
+GBytes data structure.</p>
+<div class="refsect3">
+<a name="hb-glib-blob-create.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>gbytes</p></td>
+<td class="parameter_description"><p>the GBytes structure to work upon</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-glib-blob-create.returns"></a><h4>Returns</h4>
+<p>the new <a class="link" href="harfbuzz-hb-blob.html#hb-blob-t" title="hb_blob_t"><span class="type">hb_blob_t</span></a> blob object. </p>
+<p><span class="annotation">[<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-0-9-38.html#api-index-0.9.38">0.9.38</a></p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.33.1</div>
+</body>
+</html>

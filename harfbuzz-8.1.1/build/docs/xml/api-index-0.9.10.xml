@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-0.9.10">
+<indexdiv><title>C</title>
+<indexentry><primaryie linkends="hb-coretext-face-create"><link linkend="hb-coretext-face-create">hb_coretext_face_create</link>, function in <link linkend="harfbuzz-hb-coretext">hb-coretext</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-coretext-face-get-cg-font"><link linkend="hb-coretext-face-get-cg-font">hb_coretext_face_get_cg_font</link>, function in <link linkend="harfbuzz-hb-coretext">hb-coretext</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-coretext-font-get-ct-font"><link linkend="hb-coretext-font-get-ct-font">hb_coretext_font_get_ct_font</link>, function in <link linkend="harfbuzz-hb-coretext">hb-coretext</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>G</title>
+<indexentry><primaryie linkends="hb-graphite2-face-get-gr-face"><link linkend="hb-graphite2-face-get-gr-face">hb_graphite2_face_get_gr_face</link>, function in <link linkend="harfbuzz-hb-graphite2">hb-graphite2</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-graphite2-font-get-gr-font"><link linkend="hb-graphite2-font-get-gr-font">hb_graphite2_font_get_gr_font</link>, function in <link linkend="harfbuzz-hb-graphite2">hb-graphite2</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>O</title>
+<indexentry><primaryie linkends="hb-ot-layout-get-size-params"><link linkend="hb-ot-layout-get-size-params">hb_ot_layout_get_size_params</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

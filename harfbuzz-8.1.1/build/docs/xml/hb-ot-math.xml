@@ -1,0 +1,935 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-ot-math">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-ot-math.top_of_page">hb-ot-math</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-ot-math</refname>
+<refpurpose>OpenType Math information</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-ot-math.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-math-has-data">hb_ot_math_has_data</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-position-t"><returnvalue>hb_position_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-math-get-constant">hb_ot_math_get_constant</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-position-t"><returnvalue>hb_position_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-math-get-glyph-italics-correction">hb_ot_math_get_glyph_italics_correction</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-position-t"><returnvalue>hb_position_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-math-get-glyph-top-accent-attachment">hb_ot_math_get_glyph_top_accent_attachment</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-position-t"><returnvalue>hb_position_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-math-get-glyph-kerning">hb_ot_math_get_glyph_kerning</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-math-get-glyph-kernings">hb_ot_math_get_glyph_kernings</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-math-is-glyph-extended-shape">hb_ot_math_is_glyph_extended_shape</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-math-get-glyph-variants">hb_ot_math_get_glyph_variants</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-position-t"><returnvalue>hb_position_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-math-get-min-connector-overlap">hb_ot_math_get_min_connector_overlap</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-math-get-glyph-assembly">hb_ot_math_get_glyph_assembly</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-math.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-TAG-MATH:CAPS">HB_OT_TAG_MATH</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-TAG-MATH-SCRIPT:CAPS">HB_OT_TAG_MATH_SCRIPT</link></entry></row>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-ot-math-constant-t">hb_ot_math_constant_t</link></entry></row>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-ot-math-kern-t">hb_ot_math_kern_t</link></entry></row>
+<row><entry role="datatype_keyword"></entry><entry role="function_name"><link linkend="hb-ot-math-kern-entry-t">hb_ot_math_kern_entry_t</link></entry></row>
+<row><entry role="datatype_keyword"></entry><entry role="function_name"><link linkend="hb-ot-math-glyph-variant-t">hb_ot_math_glyph_variant_t</link></entry></row>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-ot-math-glyph-part-flags-t">hb_ot_math_glyph_part_flags_t</link></entry></row>
+<row><entry role="datatype_keyword"></entry><entry role="function_name"><link linkend="hb-ot-math-glyph-part-t">hb_ot_math_glyph_part_t</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-ot-math.includes"><title>Includes</title><synopsis>#include &lt;hb-ot.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-ot-math.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Functions for fetching mathematics layout data from OpenType fonts.</para>
+<para>HarfBuzz itself does not implement a math layout solution. The
+functions and types provided can be used by client programs to access
+the font data necessary for typesetting OpenType Math layout.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-math.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-ot-math-has-data" role="function" condition="since:1.3.3">
+<title>hb_ot_math_has_data&#160;()</title>
+<indexterm zone="hb-ot-math-has-data" role="1.3.3"><primary>hb_ot_math_has_data</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_math_has_data (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Tests whether a face has a <literal>MATH</literal> table.</para>
+<refsect3 id="hb-ot-math-has-data.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to test</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-math-has-data.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if the table is found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.3.3">1.3.3</link></para></refsect2>
+<refsect2 id="hb-ot-math-get-constant" role="function" condition="since:1.3.3">
+<title>hb_ot_math_get_constant&#160;()</title>
+<indexterm zone="hb-ot-math-get-constant" role="1.3.3"><primary>hb_ot_math_get_constant</primary></indexterm>
+<programlisting language="C"><link linkend="hb-position-t"><returnvalue>hb_position_t</returnvalue></link>
+hb_ot_math_get_constant (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                         <parameter><link linkend="hb-ot-math-constant-t"><type>hb_ot_math_constant_t</type></link> constant</parameter>);</programlisting>
+<para>Fetches the specified math constant. For most constants, the value returned
+is an <link linkend="hb-position-t"><type>hb_position_t</type></link>.</para>
+<para>However, if the requested constant is <link linkend="HB-OT-MATH-CONSTANT-SCRIPT-PERCENT-SCALE-DOWN:CAPS"><type>HB_OT_MATH_CONSTANT_SCRIPT_PERCENT_SCALE_DOWN</type></link>,
+<link linkend="HB-OT-MATH-CONSTANT-SCRIPT-SCRIPT-PERCENT-SCALE-DOWN:CAPS"><type>HB_OT_MATH_CONSTANT_SCRIPT_SCRIPT_PERCENT_SCALE_DOWN</type></link> or
+<link linkend="HB-OT-MATH-CONSTANT-RADICAL-DEGREE-BOTTOM-RAISE-PERCENT:CAPS"><type>HB_OT_MATH_CONSTANT_RADICAL_DEGREE_BOTTOM_RAISE_PERCENT</type></link>, then the return value is
+an integer between 0 and 100 representing that percentage.</para>
+<refsect3 id="hb-ot-math-get-constant.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>constant</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-ot-math-constant-t"><type>hb_ot_math_constant_t</type></link> the constant to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-math-get-constant.returns" role="returns">
+<title>Returns</title>
+<para> the requested constant or zero</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.3.3">1.3.3</link></para></refsect2>
+<refsect2 id="hb-ot-math-get-glyph-italics-correction" role="function" condition="since:1.3.3">
+<title>hb_ot_math_get_glyph_italics_correction&#160;()</title>
+<indexterm zone="hb-ot-math-get-glyph-italics-correction" role="1.3.3"><primary>hb_ot_math_get_glyph_italics_correction</primary></indexterm>
+<programlisting language="C"><link linkend="hb-position-t"><returnvalue>hb_position_t</returnvalue></link>
+hb_ot_math_get_glyph_italics_correction
+                               (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                                <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>);</programlisting>
+<para>Fetches an italics-correction value (if one exists) for the specified
+glyph index.</para>
+<refsect3 id="hb-ot-math-get-glyph-italics-correction.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>The glyph index from which to retrieve the value</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-math-get-glyph-italics-correction.returns" role="returns">
+<title>Returns</title>
+<para> the italics correction of the glyph or zero</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.3.3">1.3.3</link></para></refsect2>
+<refsect2 id="hb-ot-math-get-glyph-top-accent-attachment" role="function" condition="since:1.3.3">
+<title>hb_ot_math_get_glyph_top_accent_attachment&#160;()</title>
+<indexterm zone="hb-ot-math-get-glyph-top-accent-attachment" role="1.3.3"><primary>hb_ot_math_get_glyph_top_accent_attachment</primary></indexterm>
+<programlisting language="C"><link linkend="hb-position-t"><returnvalue>hb_position_t</returnvalue></link>
+hb_ot_math_get_glyph_top_accent_attachment
+                               (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                                <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>);</programlisting>
+<para>Fetches a top-accent-attachment value (if one exists) for the specified
+glyph index.</para>
+<para>For any glyph that does not have a top-accent-attachment value - that is,
+a glyph not covered by the <literal>MathTopAccentAttachment</literal> table (or, when
+<parameter>font</parameter>
+ has no <literal>MathTopAccentAttachment</literal> table or no <literal>MATH</literal> table, any
+glyph) - the function synthesizes a value, returning the position at
+one-half the glyph's advance width.</para>
+<refsect3 id="hb-ot-math-get-glyph-top-accent-attachment.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>The glyph index from which to retrieve the value</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-math-get-glyph-top-accent-attachment.returns" role="returns">
+<title>Returns</title>
+<para> the top accent attachment of the glyph or 0.5 * the advance
+width of <parameter>glyph</parameter>
+</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.3.3">1.3.3</link></para></refsect2>
+<refsect2 id="hb-ot-math-get-glyph-kerning" role="function" condition="since:1.3.3">
+<title>hb_ot_math_get_glyph_kerning&#160;()</title>
+<indexterm zone="hb-ot-math-get-glyph-kerning" role="1.3.3"><primary>hb_ot_math_get_glyph_kerning</primary></indexterm>
+<programlisting language="C"><link linkend="hb-position-t"><returnvalue>hb_position_t</returnvalue></link>
+hb_ot_math_get_glyph_kerning (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                              <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>,
+                              <parameter><link linkend="hb-ot-math-kern-t"><type>hb_ot_math_kern_t</type></link> kern</parameter>,
+                              <parameter><link linkend="hb-position-t"><type>hb_position_t</type></link> correction_height</parameter>);</programlisting>
+<para>Fetches the math kerning (cut-ins) value for the specified font, glyph index, and
+<parameter>kern</parameter>
+. </para>
+<para>If the MathKern table is found, the function examines it to find a height
+value that is greater or equal to <parameter>correction_height</parameter>
+. If such a height
+value is found, corresponding kerning value from the table is returned. If
+no such height value is found, the last kerning value is returned.</para>
+<refsect3 id="hb-ot-math-get-glyph-kerning.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>The glyph index from which to retrieve the value</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>kern</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-ot-math-kern-t"><type>hb_ot_math_kern_t</type></link> from which to retrieve the value</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>correction_height</para></entry>
+<entry role="parameter_description"><para>the correction height to use to determine the kerning.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-math-get-glyph-kerning.returns" role="returns">
+<title>Returns</title>
+<para> requested kerning value or zero</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.3.3">1.3.3</link></para></refsect2>
+<refsect2 id="hb-ot-math-get-glyph-kernings" role="function" condition="since:3.4.0">
+<title>hb_ot_math_get_glyph_kernings&#160;()</title>
+<indexterm zone="hb-ot-math-get-glyph-kernings" role="3.4.0"><primary>hb_ot_math_get_glyph_kernings</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_math_get_glyph_kernings (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                               <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>,
+                               <parameter><link linkend="hb-ot-math-kern-t"><type>hb_ot_math_kern_t</type></link> kern</parameter>,
+                               <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                               <parameter>unsigned <link linkend="int"><type>int</type></link> *entries_count</parameter>,
+                               <parameter><link linkend="hb-ot-math-kern-entry-t"><type>hb_ot_math_kern_entry_t</type></link> *kern_entries</parameter>);</programlisting>
+<para>Fetches the raw MathKern (cut-in) data for the specified font, glyph index,
+and <parameter>kern</parameter>
+. The corresponding list of kern values and correction heights is
+returned as a list of <link linkend="hb-ot-math-kern-entry-t"><type>hb_ot_math_kern_entry_t</type></link> structs.</para>
+<para>See also <link linkend="hb-ot-math-get-glyph-kerning"><type>hb_ot_math_get_glyph_kerning</type></link>, which handles selecting the
+appropriate kern value for a given correction height.</para>
+<note>For a glyph with <parameter>n</parameter> defined kern values (where <parameter>n</parameter> &gt; 0), there are only
+<parameter>n</parameter>−1 defined correction heights, as each correction height defines a boundary
+past which the next kern value should be selected. Therefore, only the
+<link linkend="hb-ot-math-kern-entry-t.kern-value"><type>hb_ot_math_kern_entry_t.kern_value</type></link> of the uppermost <link linkend="hb-ot-math-kern-entry-t"><type>hb_ot_math_kern_entry_t</type></link>
+actually comes from the font; its corresponding
+<link linkend="hb-ot-math-kern-entry-t.max-correction-height"><type>hb_ot_math_kern_entry_t.max_correction_height</type></link> is always set to
+<code>INT32_MAX</code>.</note>
+<refsect3 id="hb-ot-math-get-glyph-kernings.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>The glyph index from which to retrieve the kernings</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>kern</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-ot-math-kern-t"><type>hb_ot_math_kern_t</type></link> from which to retrieve the kernings</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>offset of the first kern entry to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>entries_count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of kern entries to return;
+Output = the actual number of kern entries returned. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>kern_entries</para></entry>
+<entry role="parameter_description"><para>array of kern entries returned. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out caller-allocates</acronym>][<acronym>array</acronym> length=entries_count]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-math-get-glyph-kernings.returns" role="returns">
+<title>Returns</title>
+<para> the total number of kern values available or zero</para>
+</refsect3><para role="since">Since: <link linkend="api-index-3.4.0">3.4.0</link></para></refsect2>
+<refsect2 id="hb-ot-math-is-glyph-extended-shape" role="function" condition="since:1.3.3">
+<title>hb_ot_math_is_glyph_extended_shape&#160;()</title>
+<indexterm zone="hb-ot-math-is-glyph-extended-shape" role="1.3.3"><primary>hb_ot_math_is_glyph_extended_shape</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_math_is_glyph_extended_shape (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                    <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>);</programlisting>
+<para>Tests whether the given glyph index is an extended shape in the face.</para>
+<refsect3 id="hb-ot-math-is-glyph-extended-shape.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>The glyph index to test</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-math-is-glyph-extended-shape.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if the glyph is an extended shape, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.3.3">1.3.3</link></para></refsect2>
+<refsect2 id="hb-ot-math-get-glyph-variants" role="function" condition="since:1.3.3">
+<title>hb_ot_math_get_glyph_variants&#160;()</title>
+<indexterm zone="hb-ot-math-get-glyph-variants" role="1.3.3"><primary>hb_ot_math_get_glyph_variants</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_math_get_glyph_variants (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                               <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>,
+                               <parameter><link linkend="hb-direction-t"><type>hb_direction_t</type></link> direction</parameter>,
+                               <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                               <parameter>unsigned <link linkend="int"><type>int</type></link> *variants_count</parameter>,
+                               <parameter><link linkend="hb-ot-math-glyph-variant-t"><type>hb_ot_math_glyph_variant_t</type></link> *variants</parameter>);</programlisting>
+<para>Fetches the MathGlyphConstruction for the specified font, glyph index, and
+direction. The corresponding list of size variants is returned as a list of
+<link linkend="hb-ot-math-glyph-variant-t"><type>hb_ot_math_glyph_variant_t</type></link> structs.</para>
+<note>The <parameter>direction</parameter> parameter is only used to select between horizontal
+or vertical directions for the construction. Even though all <link linkend="hb-direction-t"><type>hb_direction_t</type></link>
+values are accepted, only the result of <link linkend="HB-DIRECTION-IS-HORIZONTAL:CAPS"><type>HB_DIRECTION_IS_HORIZONTAL</type></link> is
+considered.</note>
+<refsect3 id="hb-ot-math-get-glyph-variants.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>The index of the glyph to stretch</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>direction</para></entry>
+<entry role="parameter_description"><para>The direction of the stretching (horizontal or vertical)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>offset of the first variant to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>variants_count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of variants to return;
+Output = the actual number of variants returned. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>variants</para></entry>
+<entry role="parameter_description"><para>array of variants returned. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>array</acronym> length=variants_count]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-math-get-glyph-variants.returns" role="returns">
+<title>Returns</title>
+<para> the total number of size variants available or zero</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.3.3">1.3.3</link></para></refsect2>
+<refsect2 id="hb-ot-math-get-min-connector-overlap" role="function" condition="since:1.3.3">
+<title>hb_ot_math_get_min_connector_overlap&#160;()</title>
+<indexterm zone="hb-ot-math-get-min-connector-overlap" role="1.3.3"><primary>hb_ot_math_get_min_connector_overlap</primary></indexterm>
+<programlisting language="C"><link linkend="hb-position-t"><returnvalue>hb_position_t</returnvalue></link>
+hb_ot_math_get_min_connector_overlap (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                                      <parameter><link linkend="hb-direction-t"><type>hb_direction_t</type></link> direction</parameter>);</programlisting>
+<para>Fetches the MathVariants table for the specified font and returns the
+minimum overlap of connecting glyphs that are required to draw a glyph
+assembly in the specified direction.</para>
+<note>The <parameter>direction</parameter> parameter is only used to select between horizontal
+or vertical directions for the construction. Even though all <link linkend="hb-direction-t"><type>hb_direction_t</type></link>
+values are accepted, only the result of <link linkend="HB-DIRECTION-IS-HORIZONTAL:CAPS"><type>HB_DIRECTION_IS_HORIZONTAL</type></link> is
+considered.</note>
+<refsect3 id="hb-ot-math-get-min-connector-overlap.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>direction</para></entry>
+<entry role="parameter_description"><para>direction of the stretching (horizontal or vertical)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-math-get-min-connector-overlap.returns" role="returns">
+<title>Returns</title>
+<para> requested minimum connector overlap or zero</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.3.3">1.3.3</link></para></refsect2>
+<refsect2 id="hb-ot-math-get-glyph-assembly" role="function" condition="since:1.3.3">
+<title>hb_ot_math_get_glyph_assembly&#160;()</title>
+<indexterm zone="hb-ot-math-get-glyph-assembly" role="1.3.3"><primary>hb_ot_math_get_glyph_assembly</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_math_get_glyph_assembly (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                               <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>,
+                               <parameter><link linkend="hb-direction-t"><type>hb_direction_t</type></link> direction</parameter>,
+                               <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                               <parameter>unsigned <link linkend="int"><type>int</type></link> *parts_count</parameter>,
+                               <parameter><link linkend="hb-ot-math-glyph-part-t"><type>hb_ot_math_glyph_part_t</type></link> *parts</parameter>,
+                               <parameter><link linkend="hb-position-t"><type>hb_position_t</type></link> *italics_correction</parameter>);</programlisting>
+<para>Fetches the GlyphAssembly for the specified font, glyph index, and direction.
+Returned are a list of <link linkend="hb-ot-math-glyph-part-t"><type>hb_ot_math_glyph_part_t</type></link> glyph parts that can be
+used to draw the glyph and an italics-correction value (if one is defined
+in the font).</para>
+<note>The <parameter>direction</parameter> parameter is only used to select between horizontal
+or vertical directions for the construction. Even though all <link linkend="hb-direction-t"><type>hb_direction_t</type></link>
+values are accepted, only the result of <link linkend="HB-DIRECTION-IS-HORIZONTAL:CAPS"><type>HB_DIRECTION_IS_HORIZONTAL</type></link> is
+considered.</note>
+<refsect3 id="hb-ot-math-get-glyph-assembly.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>The index of the glyph to stretch</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>direction</para></entry>
+<entry role="parameter_description"><para>direction of the stretching (horizontal or vertical)</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>offset of the first glyph part to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>parts_count</para></entry>
+<entry role="parameter_description"><para>Input = maximum number of glyph parts to return;
+Output = actual number of parts returned. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>parts</para></entry>
+<entry role="parameter_description"><para>the glyph parts returned. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>array</acronym> length=parts_count]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>italics_correction</para></entry>
+<entry role="parameter_description"><para>italics correction of the glyph assembly. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-math-get-glyph-assembly.returns" role="returns">
+<title>Returns</title>
+<para> the total number of parts in the glyph assembly</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.3.3">1.3.3</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-math.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="HB-OT-TAG-MATH:CAPS" role="macro" condition="since:1.3.3">
+<title>HB_OT_TAG_MATH</title>
+<indexterm zone="HB-OT-TAG-MATH:CAPS" role="1.3.3"><primary>HB_OT_TAG_MATH</primary></indexterm>
+<programlisting language="C">#define HB_OT_TAG_MATH HB_TAG('M','A','T','H')
+</programlisting>
+<para>OpenType <ulink url="https://docs.microsoft.com/en-us/typography/opentype/spec/math">Mathematical Typesetting Table</ulink>.</para>
+<para role="since">Since: <link linkend="api-index-1.3.3">1.3.3</link></para></refsect2>
+<refsect2 id="HB-OT-TAG-MATH-SCRIPT:CAPS" role="macro" condition="since:3.4.0">
+<title>HB_OT_TAG_MATH_SCRIPT</title>
+<indexterm zone="HB-OT-TAG-MATH-SCRIPT:CAPS" role="3.4.0"><primary>HB_OT_TAG_MATH_SCRIPT</primary></indexterm>
+<programlisting language="C">#define HB_OT_TAG_MATH_SCRIPT HB_TAG('m','a','t','h')
+</programlisting>
+<para>OpenType script tag, <literal>math</literal>, for features specific to math shaping.</para>
+<note><link linkend="HB-OT-TAG-MATH-SCRIPT:CAPS"><type>HB_OT_TAG_MATH_SCRIPT</type></link> is not a valid <link linkend="hb-script-t"><type>hb_script_t</type></link> and should only be
+used with functions that accept raw OpenType script tags, such as
+<link linkend="hb-ot-layout-collect-features"><type>hb_ot_layout_collect_features</type></link>. In other cases, <link linkend="HB-SCRIPT-MATH:CAPS"><type>HB_SCRIPT_MATH</type></link> should be
+used instead.</note>
+<para role="since">Since: <link linkend="api-index-3.4.0">3.4.0</link></para></refsect2>
+<refsect2 id="hb-ot-math-constant-t" role="enum" condition="since:1.3.3">
+<title>enum hb_ot_math_constant_t</title>
+<indexterm zone="hb-ot-math-constant-t" role="1.3.3"><primary>hb_ot_math_constant_t</primary></indexterm>
+<para>The 'MATH' table constants, refer to
+<ulink url="https://docs.microsoft.com/en-us/typography/opentype/spec/math#mathconstants-table">OpenType documentation</ulink>
+For more explanations.</para>
+<refsect3 id="hb-ot-math-constant-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-SCRIPT-PERCENT-SCALE-DOWN:CAPS">HB_OT_MATH_CONSTANT_SCRIPT_PERCENT_SCALE_DOWN</para></entry>
+<entry role="enum_member_description"><para>scriptPercentScaleDown</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-SCRIPT-SCRIPT-PERCENT-SCALE-DOWN:CAPS">HB_OT_MATH_CONSTANT_SCRIPT_SCRIPT_PERCENT_SCALE_DOWN</para></entry>
+<entry role="enum_member_description"><para>scriptScriptPercentScaleDown</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-DELIMITED-SUB-FORMULA-MIN-HEIGHT:CAPS">HB_OT_MATH_CONSTANT_DELIMITED_SUB_FORMULA_MIN_HEIGHT</para></entry>
+<entry role="enum_member_description"><para>delimitedSubFormulaMinHeight</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-DISPLAY-OPERATOR-MIN-HEIGHT:CAPS">HB_OT_MATH_CONSTANT_DISPLAY_OPERATOR_MIN_HEIGHT</para></entry>
+<entry role="enum_member_description"><para>displayOperatorMinHeight</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-MATH-LEADING:CAPS">HB_OT_MATH_CONSTANT_MATH_LEADING</para></entry>
+<entry role="enum_member_description"><para>mathLeading</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-AXIS-HEIGHT:CAPS">HB_OT_MATH_CONSTANT_AXIS_HEIGHT</para></entry>
+<entry role="enum_member_description"><para>axisHeight</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-ACCENT-BASE-HEIGHT:CAPS">HB_OT_MATH_CONSTANT_ACCENT_BASE_HEIGHT</para></entry>
+<entry role="enum_member_description"><para>accentBaseHeight</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-FLATTENED-ACCENT-BASE-HEIGHT:CAPS">HB_OT_MATH_CONSTANT_FLATTENED_ACCENT_BASE_HEIGHT</para></entry>
+<entry role="enum_member_description"><para>flattenedAccentBaseHeight</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-SUBSCRIPT-SHIFT-DOWN:CAPS">HB_OT_MATH_CONSTANT_SUBSCRIPT_SHIFT_DOWN</para></entry>
+<entry role="enum_member_description"><para>subscriptShiftDown</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-SUBSCRIPT-TOP-MAX:CAPS">HB_OT_MATH_CONSTANT_SUBSCRIPT_TOP_MAX</para></entry>
+<entry role="enum_member_description"><para>subscriptTopMax</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-SUBSCRIPT-BASELINE-DROP-MIN:CAPS">HB_OT_MATH_CONSTANT_SUBSCRIPT_BASELINE_DROP_MIN</para></entry>
+<entry role="enum_member_description"><para>subscriptBaselineDropMin</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-SUPERSCRIPT-SHIFT-UP:CAPS">HB_OT_MATH_CONSTANT_SUPERSCRIPT_SHIFT_UP</para></entry>
+<entry role="enum_member_description"><para>superscriptShiftUp</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-SUPERSCRIPT-SHIFT-UP-CRAMPED:CAPS">HB_OT_MATH_CONSTANT_SUPERSCRIPT_SHIFT_UP_CRAMPED</para></entry>
+<entry role="enum_member_description"><para>superscriptShiftUpCramped</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-SUPERSCRIPT-BOTTOM-MIN:CAPS">HB_OT_MATH_CONSTANT_SUPERSCRIPT_BOTTOM_MIN</para></entry>
+<entry role="enum_member_description"><para>superscriptBottomMin</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-SUPERSCRIPT-BASELINE-DROP-MAX:CAPS">HB_OT_MATH_CONSTANT_SUPERSCRIPT_BASELINE_DROP_MAX</para></entry>
+<entry role="enum_member_description"><para>superscriptBaselineDropMax</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-SUB-SUPERSCRIPT-GAP-MIN:CAPS">HB_OT_MATH_CONSTANT_SUB_SUPERSCRIPT_GAP_MIN</para></entry>
+<entry role="enum_member_description"><para>subSuperscriptGapMin</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-SUPERSCRIPT-BOTTOM-MAX-WITH-SUBSCRIPT:CAPS">HB_OT_MATH_CONSTANT_SUPERSCRIPT_BOTTOM_MAX_WITH_SUBSCRIPT</para></entry>
+<entry role="enum_member_description"><para>superscriptBottomMaxWithSubscript</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-SPACE-AFTER-SCRIPT:CAPS">HB_OT_MATH_CONSTANT_SPACE_AFTER_SCRIPT</para></entry>
+<entry role="enum_member_description"><para>spaceAfterScript</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-UPPER-LIMIT-GAP-MIN:CAPS">HB_OT_MATH_CONSTANT_UPPER_LIMIT_GAP_MIN</para></entry>
+<entry role="enum_member_description"><para>upperLimitGapMin</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-UPPER-LIMIT-BASELINE-RISE-MIN:CAPS">HB_OT_MATH_CONSTANT_UPPER_LIMIT_BASELINE_RISE_MIN</para></entry>
+<entry role="enum_member_description"><para>upperLimitBaselineRiseMin</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-LOWER-LIMIT-GAP-MIN:CAPS">HB_OT_MATH_CONSTANT_LOWER_LIMIT_GAP_MIN</para></entry>
+<entry role="enum_member_description"><para>lowerLimitGapMin</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-LOWER-LIMIT-BASELINE-DROP-MIN:CAPS">HB_OT_MATH_CONSTANT_LOWER_LIMIT_BASELINE_DROP_MIN</para></entry>
+<entry role="enum_member_description"><para>lowerLimitBaselineDropMin</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-STACK-TOP-SHIFT-UP:CAPS">HB_OT_MATH_CONSTANT_STACK_TOP_SHIFT_UP</para></entry>
+<entry role="enum_member_description"><para>stackTopShiftUp</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-STACK-TOP-DISPLAY-STYLE-SHIFT-UP:CAPS">HB_OT_MATH_CONSTANT_STACK_TOP_DISPLAY_STYLE_SHIFT_UP</para></entry>
+<entry role="enum_member_description"><para>stackTopDisplayStyleShiftUp</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-STACK-BOTTOM-SHIFT-DOWN:CAPS">HB_OT_MATH_CONSTANT_STACK_BOTTOM_SHIFT_DOWN</para></entry>
+<entry role="enum_member_description"><para>stackBottomShiftDown</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-STACK-BOTTOM-DISPLAY-STYLE-SHIFT-DOWN:CAPS">HB_OT_MATH_CONSTANT_STACK_BOTTOM_DISPLAY_STYLE_SHIFT_DOWN</para></entry>
+<entry role="enum_member_description"><para>stackBottomDisplayStyleShiftDown</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-STACK-GAP-MIN:CAPS">HB_OT_MATH_CONSTANT_STACK_GAP_MIN</para></entry>
+<entry role="enum_member_description"><para>stackGapMin</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-STACK-DISPLAY-STYLE-GAP-MIN:CAPS">HB_OT_MATH_CONSTANT_STACK_DISPLAY_STYLE_GAP_MIN</para></entry>
+<entry role="enum_member_description"><para>stackDisplayStyleGapMin</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-STRETCH-STACK-TOP-SHIFT-UP:CAPS">HB_OT_MATH_CONSTANT_STRETCH_STACK_TOP_SHIFT_UP</para></entry>
+<entry role="enum_member_description"><para>stretchStackTopShiftUp</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-STRETCH-STACK-BOTTOM-SHIFT-DOWN:CAPS">HB_OT_MATH_CONSTANT_STRETCH_STACK_BOTTOM_SHIFT_DOWN</para></entry>
+<entry role="enum_member_description"><para>stretchStackBottomShiftDown</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-STRETCH-STACK-GAP-ABOVE-MIN:CAPS">HB_OT_MATH_CONSTANT_STRETCH_STACK_GAP_ABOVE_MIN</para></entry>
+<entry role="enum_member_description"><para>stretchStackGapAboveMin</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-STRETCH-STACK-GAP-BELOW-MIN:CAPS">HB_OT_MATH_CONSTANT_STRETCH_STACK_GAP_BELOW_MIN</para></entry>
+<entry role="enum_member_description"><para>stretchStackGapBelowMin</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-FRACTION-NUMERATOR-SHIFT-UP:CAPS">HB_OT_MATH_CONSTANT_FRACTION_NUMERATOR_SHIFT_UP</para></entry>
+<entry role="enum_member_description"><para>fractionNumeratorShiftUp</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-FRACTION-NUMERATOR-DISPLAY-STYLE-SHIFT-UP:CAPS">HB_OT_MATH_CONSTANT_FRACTION_NUMERATOR_DISPLAY_STYLE_SHIFT_UP</para></entry>
+<entry role="enum_member_description"><para>fractionNumeratorDisplayStyleShiftUp</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-FRACTION-DENOMINATOR-SHIFT-DOWN:CAPS">HB_OT_MATH_CONSTANT_FRACTION_DENOMINATOR_SHIFT_DOWN</para></entry>
+<entry role="enum_member_description"><para>fractionDenominatorShiftDown</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-FRACTION-DENOMINATOR-DISPLAY-STYLE-SHIFT-DOWN:CAPS">HB_OT_MATH_CONSTANT_FRACTION_DENOMINATOR_DISPLAY_STYLE_SHIFT_DOWN</para></entry>
+<entry role="enum_member_description"><para>fractionDenominatorDisplayStyleShiftDown</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-FRACTION-NUMERATOR-GAP-MIN:CAPS">HB_OT_MATH_CONSTANT_FRACTION_NUMERATOR_GAP_MIN</para></entry>
+<entry role="enum_member_description"><para>fractionNumeratorGapMin</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-FRACTION-NUM-DISPLAY-STYLE-GAP-MIN:CAPS">HB_OT_MATH_CONSTANT_FRACTION_NUM_DISPLAY_STYLE_GAP_MIN</para></entry>
+<entry role="enum_member_description"><para>fractionNumDisplayStyleGapMin</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-FRACTION-RULE-THICKNESS:CAPS">HB_OT_MATH_CONSTANT_FRACTION_RULE_THICKNESS</para></entry>
+<entry role="enum_member_description"><para>fractionRuleThickness</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-FRACTION-DENOMINATOR-GAP-MIN:CAPS">HB_OT_MATH_CONSTANT_FRACTION_DENOMINATOR_GAP_MIN</para></entry>
+<entry role="enum_member_description"><para>fractionDenominatorGapMin</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-FRACTION-DENOM-DISPLAY-STYLE-GAP-MIN:CAPS">HB_OT_MATH_CONSTANT_FRACTION_DENOM_DISPLAY_STYLE_GAP_MIN</para></entry>
+<entry role="enum_member_description"><para>fractionDenomDisplayStyleGapMin</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-SKEWED-FRACTION-HORIZONTAL-GAP:CAPS">HB_OT_MATH_CONSTANT_SKEWED_FRACTION_HORIZONTAL_GAP</para></entry>
+<entry role="enum_member_description"><para>skewedFractionHorizontalGap</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-SKEWED-FRACTION-VERTICAL-GAP:CAPS">HB_OT_MATH_CONSTANT_SKEWED_FRACTION_VERTICAL_GAP</para></entry>
+<entry role="enum_member_description"><para>skewedFractionVerticalGap</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-OVERBAR-VERTICAL-GAP:CAPS">HB_OT_MATH_CONSTANT_OVERBAR_VERTICAL_GAP</para></entry>
+<entry role="enum_member_description"><para>overbarVerticalGap</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-OVERBAR-RULE-THICKNESS:CAPS">HB_OT_MATH_CONSTANT_OVERBAR_RULE_THICKNESS</para></entry>
+<entry role="enum_member_description"><para>overbarRuleThickness</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-OVERBAR-EXTRA-ASCENDER:CAPS">HB_OT_MATH_CONSTANT_OVERBAR_EXTRA_ASCENDER</para></entry>
+<entry role="enum_member_description"><para>overbarExtraAscender</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-UNDERBAR-VERTICAL-GAP:CAPS">HB_OT_MATH_CONSTANT_UNDERBAR_VERTICAL_GAP</para></entry>
+<entry role="enum_member_description"><para>underbarVerticalGap</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-UNDERBAR-RULE-THICKNESS:CAPS">HB_OT_MATH_CONSTANT_UNDERBAR_RULE_THICKNESS</para></entry>
+<entry role="enum_member_description"><para>underbarRuleThickness</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-UNDERBAR-EXTRA-DESCENDER:CAPS">HB_OT_MATH_CONSTANT_UNDERBAR_EXTRA_DESCENDER</para></entry>
+<entry role="enum_member_description"><para>underbarExtraDescender</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-RADICAL-VERTICAL-GAP:CAPS">HB_OT_MATH_CONSTANT_RADICAL_VERTICAL_GAP</para></entry>
+<entry role="enum_member_description"><para>radicalVerticalGap</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-RADICAL-DISPLAY-STYLE-VERTICAL-GAP:CAPS">HB_OT_MATH_CONSTANT_RADICAL_DISPLAY_STYLE_VERTICAL_GAP</para></entry>
+<entry role="enum_member_description"><para>radicalDisplayStyleVerticalGap</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-RADICAL-RULE-THICKNESS:CAPS">HB_OT_MATH_CONSTANT_RADICAL_RULE_THICKNESS</para></entry>
+<entry role="enum_member_description"><para>radicalRuleThickness</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-RADICAL-EXTRA-ASCENDER:CAPS">HB_OT_MATH_CONSTANT_RADICAL_EXTRA_ASCENDER</para></entry>
+<entry role="enum_member_description"><para>radicalExtraAscender</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-RADICAL-KERN-BEFORE-DEGREE:CAPS">HB_OT_MATH_CONSTANT_RADICAL_KERN_BEFORE_DEGREE</para></entry>
+<entry role="enum_member_description"><para>radicalKernBeforeDegree</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-RADICAL-KERN-AFTER-DEGREE:CAPS">HB_OT_MATH_CONSTANT_RADICAL_KERN_AFTER_DEGREE</para></entry>
+<entry role="enum_member_description"><para>radicalKernAfterDegree</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-CONSTANT-RADICAL-DEGREE-BOTTOM-RAISE-PERCENT:CAPS">HB_OT_MATH_CONSTANT_RADICAL_DEGREE_BOTTOM_RAISE_PERCENT</para></entry>
+<entry role="enum_member_description"><para>radicalDegreeBottomRaisePercent</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.3.3">1.3.3</link></para></refsect2>
+<refsect2 id="hb-ot-math-kern-t" role="enum" condition="since:1.3.3">
+<title>enum hb_ot_math_kern_t</title>
+<indexterm zone="hb-ot-math-kern-t" role="1.3.3"><primary>hb_ot_math_kern_t</primary></indexterm>
+<para>The math kerning-table types defined for the four corners
+of a glyph.</para>
+<refsect3 id="hb-ot-math-kern-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-KERN-TOP-RIGHT:CAPS">HB_OT_MATH_KERN_TOP_RIGHT</para></entry>
+<entry role="enum_member_description"><para>The top right corner of the glyph.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-KERN-TOP-LEFT:CAPS">HB_OT_MATH_KERN_TOP_LEFT</para></entry>
+<entry role="enum_member_description"><para>The top left corner of the glyph.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-KERN-BOTTOM-RIGHT:CAPS">HB_OT_MATH_KERN_BOTTOM_RIGHT</para></entry>
+<entry role="enum_member_description"><para>The bottom right corner of the glyph.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-KERN-BOTTOM-LEFT:CAPS">HB_OT_MATH_KERN_BOTTOM_LEFT</para></entry>
+<entry role="enum_member_description"><para>The bottom left corner of the glyph.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.3.3">1.3.3</link></para></refsect2>
+<refsect2 id="hb-ot-math-kern-entry-t" role="struct" condition="since:3.4.0">
+<title>hb_ot_math_kern_entry_t</title>
+<indexterm zone="hb-ot-math-kern-entry-t" role="3.4.0"><primary>hb_ot_math_kern_entry_t</primary></indexterm>
+<programlisting language="C">typedef struct {
+  hb_position_t max_correction_height;
+  hb_position_t kern_value;
+} hb_ot_math_kern_entry_t;
+</programlisting>
+<para>Data type to hold math kerning (cut-in) information for a glyph.</para>
+<refsect3 id="hb-ot-math-kern-entry-t.members" role="struct_members">
+<title>Members</title>
+<informaltable role="struct_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="struct_members_name" colwidth="300px"/>
+<colspec colname="struct_members_description"/>
+<colspec colname="struct_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-position-t"><type>hb_position_t</type></link>&#160;<structfield id="hb-ot-math-kern-entry-t.max-correction-height">max_correction_height</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The maximum height at which this entry should be used</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-position-t"><type>hb_position_t</type></link>&#160;<structfield id="hb-ot-math-kern-entry-t.kern-value">kern_value</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The kern value of the entry</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3>
+<para role="since">Since: <link linkend="api-index-3.4.0">3.4.0</link></para></refsect2>
+<refsect2 id="hb-ot-math-glyph-variant-t" role="struct" condition="since:1.3.3">
+<title>hb_ot_math_glyph_variant_t</title>
+<indexterm zone="hb-ot-math-glyph-variant-t" role="1.3.3"><primary>hb_ot_math_glyph_variant_t</primary></indexterm>
+<programlisting language="C">typedef struct {
+  hb_codepoint_t glyph;
+  hb_position_t advance;
+} hb_ot_math_glyph_variant_t;
+</programlisting>
+<para>Data type to hold math-variant information for a glyph.</para>
+<refsect3 id="hb-ot-math-glyph-variant-t.members" role="struct_members">
+<title>Members</title>
+<informaltable role="struct_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="struct_members_name" colwidth="300px"/>
+<colspec colname="struct_members_description"/>
+<colspec colname="struct_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link>&#160;<structfield id="hb-ot-math-glyph-variant-t.glyph">glyph</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The glyph index of the variant</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-position-t"><type>hb_position_t</type></link>&#160;<structfield id="hb-ot-math-glyph-variant-t.advance">advance</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The advance width of the variant</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3>
+<para role="since">Since: <link linkend="api-index-1.3.3">1.3.3</link></para></refsect2>
+<refsect2 id="hb-ot-math-glyph-part-flags-t" role="enum" condition="since:1.3.3">
+<title>enum hb_ot_math_glyph_part_flags_t</title>
+<indexterm zone="hb-ot-math-glyph-part-flags-t" role="1.3.3"><primary>hb_ot_math_glyph_part_flags_t</primary></indexterm>
+<para>Flags for math glyph parts.</para>
+<refsect3 id="hb-ot-math-glyph-part-flags-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-MATH-GLYPH-PART-FLAG-EXTENDER:CAPS">HB_OT_MATH_GLYPH_PART_FLAG_EXTENDER</para></entry>
+<entry role="enum_member_description"><para>This is an extender glyph part that
+can be repeated to reach the desired length.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.3.3">1.3.3</link></para></refsect2>
+<refsect2 id="hb-ot-math-glyph-part-t" role="struct" condition="since:1.3.3">
+<title>hb_ot_math_glyph_part_t</title>
+<indexterm zone="hb-ot-math-glyph-part-t" role="1.3.3"><primary>hb_ot_math_glyph_part_t</primary></indexterm>
+<programlisting language="C">typedef struct {
+  hb_codepoint_t glyph;
+  hb_position_t start_connector_length;
+  hb_position_t end_connector_length;
+  hb_position_t full_advance;
+  hb_ot_math_glyph_part_flags_t flags;
+} hb_ot_math_glyph_part_t;
+</programlisting>
+<para>Data type to hold information for a "part" component of a math-variant glyph.
+Large variants for stretchable math glyphs (such as parentheses) can be constructed
+on the fly from parts.</para>
+<refsect3 id="hb-ot-math-glyph-part-t.members" role="struct_members">
+<title>Members</title>
+<informaltable role="struct_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="struct_members_name" colwidth="300px"/>
+<colspec colname="struct_members_description"/>
+<colspec colname="struct_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link>&#160;<structfield id="hb-ot-math-glyph-part-t.glyph">glyph</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The glyph index of the variant part</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-position-t"><type>hb_position_t</type></link>&#160;<structfield id="hb-ot-math-glyph-part-t.start-connector-length">start_connector_length</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The length of the connector on the starting side of the variant part</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-position-t"><type>hb_position_t</type></link>&#160;<structfield id="hb-ot-math-glyph-part-t.end-connector-length">end_connector_length</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The length of the connector on the ending side of the variant part</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-position-t"><type>hb_position_t</type></link>&#160;<structfield id="hb-ot-math-glyph-part-t.full-advance">full_advance</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The total advance of the part</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-ot-math-glyph-part-flags-t"><type>hb_ot_math_glyph_part_flags_t</type></link>&#160;<structfield id="hb-ot-math-glyph-part-t.flags">flags</structfield>;</para></entry>
+<entry role="struct_member_description"><para><link linkend="hb-ot-math-glyph-part-flags-t"><type>hb_ot_math_glyph_part_flags_t</type></link> flags for the part</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3>
+<para role="since">Since: <link linkend="api-index-1.3.3">1.3.3</link></para></refsect2>
+
+</refsect1>
+
+</refentry>

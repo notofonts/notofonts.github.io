@@ -1,0 +1,1784 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-aat-layout">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-aat-layout.top_of_page">hb-aat-layout</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-aat-layout</refname>
+<refpurpose>Apple Advanced Typography Layout</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-aat-layout.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="hb-ot-name-id-t"><returnvalue>hb_ot_name_id_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-aat-layout-feature-type-get-name-id">hb_aat_layout_feature_type_get_name_id</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-aat-layout-feature-type-get-selector-infos">hb_aat_layout_feature_type_get_selector_infos</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-aat-layout-get-feature-types">hb_aat_layout_get_feature_types</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-aat-layout-has-positioning">hb_aat_layout_has_positioning</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-aat-layout-has-substitution">hb_aat_layout_has_substitution</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-aat-layout-has-tracking">hb_aat_layout_has_tracking</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="harfbuzz-hb-aat-layout.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-AAT-LAYOUT-NO-SELECTOR-INDEX:CAPS">HB_AAT_LAYOUT_NO_SELECTOR_INDEX</link></entry></row>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-aat-layout-feature-type-t">hb_aat_layout_feature_type_t</link></entry></row>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-aat-layout-feature-selector-t">hb_aat_layout_feature_selector_t</link></entry></row>
+<row><entry role="datatype_keyword"></entry><entry role="function_name"><link linkend="hb-aat-layout-feature-selector-info-t">hb_aat_layout_feature_selector_info_t</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-aat-layout.includes"><title>Includes</title><synopsis>#include &lt;hb-aat.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-aat-layout.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Functions for querying AAT Layout features in the font face.</para>
+<para>HarfBuzz supports all of the AAT tables used to implement shaping. Other
+AAT tables and their associated features are not supported.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-aat-layout.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-aat-layout-feature-type-get-name-id" role="function" condition="since:2.2.0">
+<title>hb_aat_layout_feature_type_get_name_id&#160;()</title>
+<indexterm zone="hb-aat-layout-feature-type-get-name-id" role="2.2.0"><primary>hb_aat_layout_feature_type_get_name_id</primary></indexterm>
+<programlisting language="C"><link linkend="hb-ot-name-id-t"><returnvalue>hb_ot_name_id_t</returnvalue></link>
+hb_aat_layout_feature_type_get_name_id
+                               (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                <parameter><link linkend="hb-aat-layout-feature-type-t"><type>hb_aat_layout_feature_type_t</type></link> feature_type</parameter>);</programlisting>
+<para>Fetches the name identifier of the specified feature type in the face's <literal>name</literal> table.</para>
+<refsect3 id="hb-aat-layout-feature-type-get-name-id.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>feature_type</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-aat-layout-feature-type-t"><type>hb_aat_layout_feature_type_t</type></link> of the requested feature type</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-aat-layout-feature-type-get-name-id.returns" role="returns">
+<title>Returns</title>
+<para> Name identifier of the requested feature type</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.2.0">2.2.0</link></para></refsect2>
+<refsect2 id="hb-aat-layout-feature-type-get-selector-infos" role="function" condition="since:2.2.0">
+<title>hb_aat_layout_feature_type_get_selector_infos&#160;()</title>
+<indexterm zone="hb-aat-layout-feature-type-get-selector-infos" role="2.2.0"><primary>hb_aat_layout_feature_type_get_selector_infos</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_aat_layout_feature_type_get_selector_infos
+                               (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                <parameter><link linkend="hb-aat-layout-feature-type-t"><type>hb_aat_layout_feature_type_t</type></link> feature_type</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> *selector_count</parameter>,
+                                <parameter><link linkend="hb-aat-layout-feature-selector-info-t"><type>hb_aat_layout_feature_selector_info_t</type></link> *selectors</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> *default_index</parameter>);</programlisting>
+<para>Fetches a list of the selectors available for the specified feature in the given face.</para>
+<para>If upon return, <parameter>default_index</parameter>
+ is set to <link linkend="HB-AAT-LAYOUT-NO-SELECTOR-INDEX:CAPS"><type>HB_AAT_LAYOUT_NO_SELECTOR_INDEX</type></link>, then
+the feature type is non-exclusive.  Otherwise, <parameter>default_index</parameter>
+ is the index of
+the selector that is selected by default.</para>
+<refsect3 id="hb-aat-layout-feature-type-get-selector-infos.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>feature_type</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-aat-layout-feature-type-t"><type>hb_aat_layout_feature_type_t</type></link> of the requested feature type</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>offset of the first feature type to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>selector_count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of selectors to return;
+Output = the actual number of selectors returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>selectors</para></entry>
+<entry role="parameter_description"><para>A buffer pointer. The selectors available for the feature type queries. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out caller-allocates</acronym>][<acronym>array</acronym> length=selector_count][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>default_index</para></entry>
+<entry role="parameter_description"><para>The index of the feature's default selector, if any. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-aat-layout-feature-type-get-selector-infos.returns" role="returns">
+<title>Returns</title>
+<para> Number of all available feature selectors</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.2.0">2.2.0</link></para></refsect2>
+<refsect2 id="hb-aat-layout-get-feature-types" role="function" condition="since:2.2.0">
+<title>hb_aat_layout_get_feature_types&#160;()</title>
+<indexterm zone="hb-aat-layout-get-feature-types" role="2.2.0"><primary>hb_aat_layout_get_feature_types</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_aat_layout_get_feature_types (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                 <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                                 <parameter>unsigned <link linkend="int"><type>int</type></link> *feature_count</parameter>,
+                                 <parameter><link linkend="hb-aat-layout-feature-type-t"><type>hb_aat_layout_feature_type_t</type></link> *features</parameter>);</programlisting>
+<para>Fetches a list of the AAT feature types included in the specified face.</para>
+<refsect3 id="hb-aat-layout-get-feature-types.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>offset of the first feature type to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>feature_count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of feature types to return;
+Output = the actual number of feature types returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>features</para></entry>
+<entry role="parameter_description"><para>Array of feature types found. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out caller-allocates</acronym>][<acronym>array</acronym> length=feature_count]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-aat-layout-get-feature-types.returns" role="returns">
+<title>Returns</title>
+<para> Number of all available feature types.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.2.0">2.2.0</link></para></refsect2>
+<refsect2 id="hb-aat-layout-has-positioning" role="function" condition="since:2.3.0">
+<title>hb_aat_layout_has_positioning&#160;()</title>
+<indexterm zone="hb-aat-layout-has-positioning" role="2.3.0"><primary>hb_aat_layout_has_positioning</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_aat_layout_has_positioning (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Tests whether the specified face includes any positioning information
+in the <literal>kerx</literal> table.</para>
+<note>Note: does not examine the `GPOS` table.</note>
+<refsect3 id="hb-aat-layout-has-positioning.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-aat-layout-has-positioning.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if data found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.3.0">2.3.0</link></para></refsect2>
+<refsect2 id="hb-aat-layout-has-substitution" role="function" condition="since:2.3.0">
+<title>hb_aat_layout_has_substitution&#160;()</title>
+<indexterm zone="hb-aat-layout-has-substitution" role="2.3.0"><primary>hb_aat_layout_has_substitution</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_aat_layout_has_substitution (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Tests whether the specified face includes any substitutions in the
+<literal>morx</literal> or <literal>mort</literal> tables.</para>
+<note>Note: does not examine the `GSUB` table.</note>
+<refsect3 id="hb-aat-layout-has-substitution.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-aat-layout-has-substitution.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if data found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.3.0">2.3.0</link></para></refsect2>
+<refsect2 id="hb-aat-layout-has-tracking" role="function" condition="since:2.3.0">
+<title>hb_aat_layout_has_tracking&#160;()</title>
+<indexterm zone="hb-aat-layout-has-tracking" role="2.3.0"><primary>hb_aat_layout_has_tracking</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_aat_layout_has_tracking (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Tests whether the specified face includes any tracking information
+in the <literal>trak</literal> table.</para>
+<refsect3 id="hb-aat-layout-has-tracking.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>: <link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-aat-layout-has-tracking.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if data found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.3.0">2.3.0</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-aat-layout.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="HB-AAT-LAYOUT-NO-SELECTOR-INDEX:CAPS" role="macro">
+<title>HB_AAT_LAYOUT_NO_SELECTOR_INDEX</title>
+<indexterm zone="HB-AAT-LAYOUT-NO-SELECTOR-INDEX:CAPS"><primary>HB_AAT_LAYOUT_NO_SELECTOR_INDEX</primary></indexterm>
+<programlisting language="C">#define HB_AAT_LAYOUT_NO_SELECTOR_INDEX		0xFFFFu
+</programlisting>
+<para>Used when getting or setting AAT feature selectors. Indicates that
+there is no selector index corresponding to the selector of interest.</para>
+</refsect2>
+<refsect2 id="hb-aat-layout-feature-type-t" role="enum" condition="since:2.2.0">
+<title>enum hb_aat_layout_feature_type_t</title>
+<indexterm zone="hb-aat-layout-feature-type-t" role="2.2.0"><primary>hb_aat_layout_feature_type_t</primary></indexterm>
+<para>The possible feature types defined for AAT shaping, from Apple <ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html">Font Feature Registry</ulink>.</para>
+<refsect3 id="hb-aat-layout-feature-type-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-INVALID:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_INVALID</para></entry>
+<entry role="enum_member_description"><para>Initial, unset feature type</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-ALL-TYPOGRAPHIC:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_ALL_TYPOGRAPHIC</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type0">All Typographic Features</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type1">Ligatures</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-CURISVE-CONNECTION:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_CURISVE_CONNECTION</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type2">Cursive Connection</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-LETTER-CASE:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_LETTER_CASE</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type3">Letter Case</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-VERTICAL-SUBSTITUTION:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_VERTICAL_SUBSTITUTION</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type4">Vertical Substitution</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-LINGUISTIC-REARRANGEMENT:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_LINGUISTIC_REARRANGEMENT</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type5">Linguistic Rearrangement</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-NUMBER-SPACING:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_NUMBER_SPACING</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type6">Number Spacing</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-SMART-SWASH-TYPE:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_SMART_SWASH_TYPE</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type8">Smart Swash</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-DIACRITICS-TYPE:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_DIACRITICS_TYPE</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type9">Diacritics</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-VERTICAL-POSITION:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_VERTICAL_POSITION</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type10">Vertical Position</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-FRACTIONS:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_FRACTIONS</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type11">Fractions</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-OVERLAPPING-CHARACTERS-TYPE:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_OVERLAPPING_CHARACTERS_TYPE</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type13">Overlapping Characters</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-TYPOGRAPHIC-EXTRAS:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_TYPOGRAPHIC_EXTRAS</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type14">Typographic Extras</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-MATHEMATICAL-EXTRAS:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_MATHEMATICAL_EXTRAS</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type15">Mathematical Extras</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-ORNAMENT-SETS-TYPE:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_ORNAMENT_SETS_TYPE</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type16">Ornament Sets</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-CHARACTER-ALTERNATIVES:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_CHARACTER_ALTERNATIVES</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type17">Character Alternatives</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-DESIGN-COMPLEXITY-TYPE:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_DESIGN_COMPLEXITY_TYPE</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type18">Design Complexity</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-STYLE-OPTIONS:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_STYLE_OPTIONS</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type19">Style Options</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-CHARACTER-SHAPE:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_CHARACTER_SHAPE</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type20">Character Shape</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-NUMBER-CASE:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_NUMBER_CASE</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type21">Number Case</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-TEXT-SPACING:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_TEXT_SPACING</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type22">Text Spacing</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-TRANSLITERATION:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_TRANSLITERATION</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type23">Transliteration</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-ANNOTATION-TYPE:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_ANNOTATION_TYPE</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type24">Annotation</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-KANA-SPACING-TYPE:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_KANA_SPACING_TYPE</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type25">Kana Spacing</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-IDEOGRAPHIC-SPACING-TYPE:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_IDEOGRAPHIC_SPACING_TYPE</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type26">Ideographic Spacing</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-UNICODE-DECOMPOSITION-TYPE:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_UNICODE_DECOMPOSITION_TYPE</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type27">Unicode Decomposition</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-RUBY-KANA:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_RUBY_KANA</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type28">Ruby Kana</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-CJK-SYMBOL-ALTERNATIVES-TYPE:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_CJK_SYMBOL_ALTERNATIVES_TYPE</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type29">CJK Symbol Alternatives</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-IDEOGRAPHIC-ALTERNATIVES-TYPE:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_IDEOGRAPHIC_ALTERNATIVES_TYPE</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type30">Ideographic Alternatives</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-CJK-VERTICAL-ROMAN-PLACEMENT-TYPE:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_CJK_VERTICAL_ROMAN_PLACEMENT_TYPE</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type31">CJK Vertical Roman Placement</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-ITALIC-CJK-ROMAN:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_ITALIC_CJK_ROMAN</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type32">Italic CJK Roman</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-CASE-SENSITIVE-LAYOUT:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_CASE_SENSITIVE_LAYOUT</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type33">Case Sensitive Layout</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-ALTERNATE-KANA:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_ALTERNATE_KANA</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type34">Alternate Kana</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type35">Stylistic Alternatives</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-CONTEXTUAL-ALTERNATIVES:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_CONTEXTUAL_ALTERNATIVES</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type36">Contextual Alternatives</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-LOWER-CASE:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_LOWER_CASE</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type37">Lower Case</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-UPPER-CASE:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_UPPER_CASE</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type38">Upper Case</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-LANGUAGE-TAG-TYPE:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_LANGUAGE_TAG_TYPE</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type39">Language Tag</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-TYPE-CJK-ROMAN-SPACING-TYPE:CAPS">HB_AAT_LAYOUT_FEATURE_TYPE_CJK_ROMAN_SPACING_TYPE</para></entry>
+<entry role="enum_member_description"><para><ulink url="https://developer.apple.com/fonts/TrueType-Reference-Manual/RM09/AppendixF.html#Type103">CJK Roman Spacing</ulink></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-2.2.0">2.2.0</link></para></refsect2>
+<refsect2 id="hb-aat-layout-feature-selector-t" role="enum" condition="since:2.2.0">
+<title>enum hb_aat_layout_feature_selector_t</title>
+<indexterm zone="hb-aat-layout-feature-selector-t" role="2.2.0"><primary>hb_aat_layout_feature_selector_t</primary></indexterm>
+<para>The selectors defined for specifying AAT feature settings.</para>
+<refsect3 id="hb-aat-layout-feature-selector-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-INVALID:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_INVALID</para></entry>
+<entry role="enum_member_description"><para>Initial, unset feature selector</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ALL-TYPE-FEATURES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ALL_TYPE_FEATURES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ALL-TYPOGRAPHIC:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ALL_TYPOGRAPHIC</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ALL-TYPE-FEATURES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ALL_TYPE_FEATURES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ALL-TYPOGRAPHIC:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ALL_TYPOGRAPHIC</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-REQUIRED-LIGATURES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_REQUIRED_LIGATURES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-REQUIRED-LIGATURES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_REQUIRED_LIGATURES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-COMMON-LIGATURES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_COMMON_LIGATURES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-COMMON-LIGATURES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_COMMON_LIGATURES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-RARE-LIGATURES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_RARE_LIGATURES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-RARE-LIGATURES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_RARE_LIGATURES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-LOGOS-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_LOGOS_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-LOGOS-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_LOGOS_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-REBUS-PICTURES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_REBUS_PICTURES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-REBUS-PICTURES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_REBUS_PICTURES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-DIPHTHONG-LIGATURES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_DIPHTHONG_LIGATURES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-DIPHTHONG-LIGATURES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_DIPHTHONG_LIGATURES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-SQUARED-LIGATURES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_SQUARED_LIGATURES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-SQUARED-LIGATURES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_SQUARED_LIGATURES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ABBREV-SQUARED-LIGATURES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ABBREV_SQUARED_LIGATURES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ABBREV-SQUARED-LIGATURES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ABBREV_SQUARED_LIGATURES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-SYMBOL-LIGATURES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_SYMBOL_LIGATURES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-SYMBOL-LIGATURES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_SYMBOL_LIGATURES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CONTEXTUAL-LIGATURES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CONTEXTUAL_LIGATURES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CONTEXTUAL-LIGATURES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CONTEXTUAL_LIGATURES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-HISTORICAL-LIGATURES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_HISTORICAL_LIGATURES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-HISTORICAL-LIGATURES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_HISTORICAL_LIGATURES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-UNCONNECTED:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_UNCONNECTED</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-PARTIALLY-CONNECTED:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_PARTIALLY_CONNECTED</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CURSIVE:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CURSIVE</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LIGATURES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LIGATURES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-UPPER-AND-LOWER-CASE:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_UPPER_AND_LOWER_CASE</para></entry>
+<entry role="enum_member_description"><para>Deprecated</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ALL-CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ALL_CAPS</para></entry>
+<entry role="enum_member_description"><para>Deprecated</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ALL-LOWER-CASE:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ALL_LOWER_CASE</para></entry>
+<entry role="enum_member_description"><para>Deprecated</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-SMALL-CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_SMALL_CAPS</para></entry>
+<entry role="enum_member_description"><para>Deprecated</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-INITIAL-CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_INITIAL_CAPS</para></entry>
+<entry role="enum_member_description"><para>Deprecated</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-INITIAL-CAPS-AND-SMALL-CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_INITIAL_CAPS_AND_SMALL_CAPS</para></entry>
+<entry role="enum_member_description"><para>Deprecated</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-SUBSTITUTE-VERTICAL-FORMS-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_SUBSTITUTE_VERTICAL_FORMS_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-VERTICAL-SUBSTITUTION:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_VERTICAL_SUBSTITUTION</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-SUBSTITUTE-VERTICAL-FORMS-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_SUBSTITUTE_VERTICAL_FORMS_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-VERTICAL-SUBSTITUTION:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_VERTICAL_SUBSTITUTION</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-LINGUISTIC-REARRANGEMENT-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_LINGUISTIC_REARRANGEMENT_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LINGUISTIC-REARRANGEMENT:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LINGUISTIC_REARRANGEMENT</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-LINGUISTIC-REARRANGEMENT-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_LINGUISTIC_REARRANGEMENT_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LINGUISTIC-REARRANGEMENT:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LINGUISTIC_REARRANGEMENT</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-MONOSPACED-NUMBERS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_MONOSPACED_NUMBERS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-NUMBER-SPACING:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_NUMBER_SPACING</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-PROPORTIONAL-NUMBERS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_PROPORTIONAL_NUMBERS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-NUMBER-SPACING:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_NUMBER_SPACING</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-THIRD-WIDTH-NUMBERS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_THIRD_WIDTH_NUMBERS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-NUMBER-SPACING:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_NUMBER_SPACING</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-QUARTER-WIDTH-NUMBERS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_QUARTER_WIDTH_NUMBERS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-NUMBER-SPACING:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_NUMBER_SPACING</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-WORD-INITIAL-SWASHES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_WORD_INITIAL_SWASHES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-SMART-SWASH-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_SMART_SWASH_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-WORD-INITIAL-SWASHES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_WORD_INITIAL_SWASHES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-SMART-SWASH-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_SMART_SWASH_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-WORD-FINAL-SWASHES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_WORD_FINAL_SWASHES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-SMART-SWASH-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_SMART_SWASH_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-WORD-FINAL-SWASHES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_WORD_FINAL_SWASHES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-SMART-SWASH-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_SMART_SWASH_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-LINE-INITIAL-SWASHES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_LINE_INITIAL_SWASHES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-SMART-SWASH-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_SMART_SWASH_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-LINE-INITIAL-SWASHES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_LINE_INITIAL_SWASHES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-SMART-SWASH-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_SMART_SWASH_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-LINE-FINAL-SWASHES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_LINE_FINAL_SWASHES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-SMART-SWASH-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_SMART_SWASH_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-LINE-FINAL-SWASHES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_LINE_FINAL_SWASHES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-SMART-SWASH-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_SMART_SWASH_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-NON-FINAL-SWASHES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_NON_FINAL_SWASHES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-SMART-SWASH-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_SMART_SWASH_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-NON-FINAL-SWASHES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_NON_FINAL_SWASHES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-SMART-SWASH-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_SMART_SWASH_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-SHOW-DIACRITICS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_SHOW_DIACRITICS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-DIACRITICS-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_DIACRITICS_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-HIDE-DIACRITICS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_HIDE_DIACRITICS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-DIACRITICS-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_DIACRITICS_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-DECOMPOSE-DIACRITICS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_DECOMPOSE_DIACRITICS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-DIACRITICS-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_DIACRITICS_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-NORMAL-POSITION:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_NORMAL_POSITION</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-VERTICAL-POSITION:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_VERTICAL_POSITION</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-SUPERIORS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_SUPERIORS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-VERTICAL-POSITION:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_VERTICAL_POSITION</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-INFERIORS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_INFERIORS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-VERTICAL-POSITION:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_VERTICAL_POSITION</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ORDINALS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ORDINALS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-VERTICAL-POSITION:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_VERTICAL_POSITION</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-SCIENTIFIC-INFERIORS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_SCIENTIFIC_INFERIORS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-VERTICAL-POSITION:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_VERTICAL_POSITION</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-NO-FRACTIONS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_NO_FRACTIONS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-FRACTIONS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_FRACTIONS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-VERTICAL-FRACTIONS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_VERTICAL_FRACTIONS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-FRACTIONS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_FRACTIONS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-DIAGONAL-FRACTIONS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_DIAGONAL_FRACTIONS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-FRACTIONS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_FRACTIONS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-PREVENT-OVERLAP-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_PREVENT_OVERLAP_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-OVERLAPPING-CHARACTERS-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_OVERLAPPING_CHARACTERS_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-PREVENT-OVERLAP-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_PREVENT_OVERLAP_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-OVERLAPPING-CHARACTERS-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_OVERLAPPING_CHARACTERS_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-HYPHENS-TO-EM-DASH-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_HYPHENS_TO_EM_DASH_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TYPOGRAPHIC-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TYPOGRAPHIC_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-HYPHENS-TO-EM-DASH-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_HYPHENS_TO_EM_DASH_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TYPOGRAPHIC-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TYPOGRAPHIC_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-HYPHEN-TO-EN-DASH-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_HYPHEN_TO_EN_DASH_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TYPOGRAPHIC-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TYPOGRAPHIC_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-HYPHEN-TO-EN-DASH-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_HYPHEN_TO_EN_DASH_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TYPOGRAPHIC-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TYPOGRAPHIC_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-SLASHED-ZERO-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_SLASHED_ZERO_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TYPOGRAPHIC-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TYPOGRAPHIC_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-SLASHED-ZERO-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_SLASHED_ZERO_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TYPOGRAPHIC-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TYPOGRAPHIC_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-FORM-INTERROBANG-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_FORM_INTERROBANG_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TYPOGRAPHIC-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TYPOGRAPHIC_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-FORM-INTERROBANG-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_FORM_INTERROBANG_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TYPOGRAPHIC-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TYPOGRAPHIC_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-SMART-QUOTES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_SMART_QUOTES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TYPOGRAPHIC-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TYPOGRAPHIC_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-SMART-QUOTES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_SMART_QUOTES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TYPOGRAPHIC-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TYPOGRAPHIC_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-PERIODS-TO-ELLIPSIS-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_PERIODS_TO_ELLIPSIS_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TYPOGRAPHIC-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TYPOGRAPHIC_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-PERIODS-TO-ELLIPSIS-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_PERIODS_TO_ELLIPSIS_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TYPOGRAPHIC-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TYPOGRAPHIC_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-HYPHEN-TO-MINUS-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_HYPHEN_TO_MINUS_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-MATHEMATICAL-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_MATHEMATICAL_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-HYPHEN-TO-MINUS-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_HYPHEN_TO_MINUS_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-MATHEMATICAL-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_MATHEMATICAL_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ASTERISK-TO-MULTIPLY-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ASTERISK_TO_MULTIPLY_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-MATHEMATICAL-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_MATHEMATICAL_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ASTERISK-TO-MULTIPLY-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ASTERISK_TO_MULTIPLY_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-MATHEMATICAL-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_MATHEMATICAL_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-SLASH-TO-DIVIDE-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_SLASH_TO_DIVIDE_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-MATHEMATICAL-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_MATHEMATICAL_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-SLASH-TO-DIVIDE-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_SLASH_TO_DIVIDE_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-MATHEMATICAL-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_MATHEMATICAL_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-INEQUALITY-LIGATURES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_INEQUALITY_LIGATURES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-MATHEMATICAL-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_MATHEMATICAL_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-INEQUALITY-LIGATURES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_INEQUALITY_LIGATURES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-MATHEMATICAL-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_MATHEMATICAL_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-EXPONENTS-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_EXPONENTS_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-MATHEMATICAL-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_MATHEMATICAL_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-EXPONENTS-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_EXPONENTS_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-MATHEMATICAL-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_MATHEMATICAL_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-MATHEMATICAL-GREEK-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_MATHEMATICAL_GREEK_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-MATHEMATICAL-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_MATHEMATICAL_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-MATHEMATICAL-GREEK-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_MATHEMATICAL_GREEK_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-MATHEMATICAL-EXTRAS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_MATHEMATICAL_EXTRAS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-NO-ORNAMENTS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_NO_ORNAMENTS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ORNAMENT-SETS-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ORNAMENT_SETS_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-DINGBATS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_DINGBATS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ORNAMENT-SETS-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ORNAMENT_SETS_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-PI-CHARACTERS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_PI_CHARACTERS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ORNAMENT-SETS-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ORNAMENT_SETS_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-FLEURONS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_FLEURONS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ORNAMENT-SETS-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ORNAMENT_SETS_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-DECORATIVE-BORDERS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_DECORATIVE_BORDERS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ORNAMENT-SETS-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ORNAMENT_SETS_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-INTERNATIONAL-SYMBOLS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_INTERNATIONAL_SYMBOLS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ORNAMENT-SETS-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ORNAMENT_SETS_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-MATH-SYMBOLS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_MATH_SYMBOLS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ORNAMENT-SETS-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ORNAMENT_SETS_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-NO-ALTERNATES:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_NO_ALTERNATES</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CHARACTER-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CHARACTER_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-DESIGN-LEVEL1:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_DESIGN_LEVEL1</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-DESIGN-COMPLEXITY-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_DESIGN_COMPLEXITY_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-DESIGN-LEVEL2:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_DESIGN_LEVEL2</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-DESIGN-COMPLEXITY-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_DESIGN_COMPLEXITY_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-DESIGN-LEVEL3:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_DESIGN_LEVEL3</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-DESIGN-COMPLEXITY-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_DESIGN_COMPLEXITY_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-DESIGN-LEVEL4:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_DESIGN_LEVEL4</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-DESIGN-COMPLEXITY-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_DESIGN_COMPLEXITY_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-DESIGN-LEVEL5:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_DESIGN_LEVEL5</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-DESIGN-COMPLEXITY-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_DESIGN_COMPLEXITY_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-NO-STYLE-OPTIONS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_NO_STYLE_OPTIONS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLE-OPTIONS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLE_OPTIONS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-DISPLAY-TEXT:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_DISPLAY_TEXT</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLE-OPTIONS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLE_OPTIONS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ENGRAVED-TEXT:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ENGRAVED_TEXT</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLE-OPTIONS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLE_OPTIONS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ILLUMINATED-CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ILLUMINATED_CAPS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLE-OPTIONS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLE_OPTIONS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-TITLING-CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_TITLING_CAPS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLE-OPTIONS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLE_OPTIONS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-TALL-CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_TALL_CAPS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLE-OPTIONS:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLE_OPTIONS</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-TRADITIONAL-CHARACTERS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_TRADITIONAL_CHARACTERS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CHARACTER-SHAPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CHARACTER_SHAPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-SIMPLIFIED-CHARACTERS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_SIMPLIFIED_CHARACTERS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CHARACTER-SHAPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CHARACTER_SHAPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-JIS1978-CHARACTERS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_JIS1978_CHARACTERS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CHARACTER-SHAPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CHARACTER_SHAPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-JIS1983-CHARACTERS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_JIS1983_CHARACTERS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CHARACTER-SHAPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CHARACTER_SHAPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-JIS1990-CHARACTERS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_JIS1990_CHARACTERS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CHARACTER-SHAPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CHARACTER_SHAPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-TRADITIONAL-ALT-ONE:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_TRADITIONAL_ALT_ONE</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CHARACTER-SHAPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CHARACTER_SHAPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-TRADITIONAL-ALT-TWO:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_TRADITIONAL_ALT_TWO</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CHARACTER-SHAPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CHARACTER_SHAPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-TRADITIONAL-ALT-THREE:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_TRADITIONAL_ALT_THREE</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CHARACTER-SHAPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CHARACTER_SHAPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-TRADITIONAL-ALT-FOUR:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_TRADITIONAL_ALT_FOUR</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CHARACTER-SHAPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CHARACTER_SHAPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-TRADITIONAL-ALT-FIVE:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_TRADITIONAL_ALT_FIVE</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CHARACTER-SHAPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CHARACTER_SHAPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-EXPERT-CHARACTERS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_EXPERT_CHARACTERS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CHARACTER-SHAPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CHARACTER_SHAPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-JIS2004-CHARACTERS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_JIS2004_CHARACTERS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CHARACTER-SHAPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CHARACTER_SHAPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-HOJO-CHARACTERS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_HOJO_CHARACTERS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CHARACTER-SHAPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CHARACTER_SHAPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-NLCCHARACTERS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_NLCCHARACTERS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CHARACTER-SHAPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CHARACTER_SHAPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-TRADITIONAL-NAMES-CHARACTERS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_TRADITIONAL_NAMES_CHARACTERS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CHARACTER-SHAPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CHARACTER_SHAPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-LOWER-CASE-NUMBERS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_LOWER_CASE_NUMBERS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-NUMBER-CASE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_NUMBER_CASE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-UPPER-CASE-NUMBERS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_UPPER_CASE_NUMBERS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-NUMBER-CASE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_NUMBER_CASE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-PROPORTIONAL-TEXT:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_PROPORTIONAL_TEXT</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TEXT-SPACING:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TEXT_SPACING</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-MONOSPACED-TEXT:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_MONOSPACED_TEXT</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TEXT-SPACING:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TEXT_SPACING</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-HALF-WIDTH-TEXT:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_HALF_WIDTH_TEXT</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TEXT-SPACING:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TEXT_SPACING</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-THIRD-WIDTH-TEXT:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_THIRD_WIDTH_TEXT</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TEXT-SPACING:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TEXT_SPACING</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-QUARTER-WIDTH-TEXT:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_QUARTER_WIDTH_TEXT</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TEXT-SPACING:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TEXT_SPACING</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ALT-PROPORTIONAL-TEXT:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ALT_PROPORTIONAL_TEXT</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TEXT-SPACING:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TEXT_SPACING</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ALT-HALF-WIDTH-TEXT:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ALT_HALF_WIDTH_TEXT</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TEXT-SPACING:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TEXT_SPACING</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-NO-TRANSLITERATION:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_NO_TRANSLITERATION</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TRANSLITERATION:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TRANSLITERATION</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-HANJA-TO-HANGUL:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_HANJA_TO_HANGUL</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TRANSLITERATION:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TRANSLITERATION</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-HIRAGANA-TO-KATAKANA:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_HIRAGANA_TO_KATAKANA</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TRANSLITERATION:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TRANSLITERATION</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-KATAKANA-TO-HIRAGANA:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_KATAKANA_TO_HIRAGANA</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TRANSLITERATION:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TRANSLITERATION</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-KANA-TO-ROMANIZATION:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_KANA_TO_ROMANIZATION</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TRANSLITERATION:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TRANSLITERATION</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ROMANIZATION-TO-HIRAGANA:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ROMANIZATION_TO_HIRAGANA</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TRANSLITERATION:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TRANSLITERATION</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ROMANIZATION-TO-KATAKANA:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ROMANIZATION_TO_KATAKANA</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TRANSLITERATION:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TRANSLITERATION</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-HANJA-TO-HANGUL-ALT-ONE:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_HANJA_TO_HANGUL_ALT_ONE</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TRANSLITERATION:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TRANSLITERATION</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-HANJA-TO-HANGUL-ALT-TWO:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_HANJA_TO_HANGUL_ALT_TWO</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TRANSLITERATION:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TRANSLITERATION</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-HANJA-TO-HANGUL-ALT-THREE:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_HANJA_TO_HANGUL_ALT_THREE</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-TRANSLITERATION:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_TRANSLITERATION</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-NO-ANNOTATION:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_NO_ANNOTATION</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ANNOTATION-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ANNOTATION_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-BOX-ANNOTATION:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_BOX_ANNOTATION</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ANNOTATION-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ANNOTATION_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ROUNDED-BOX-ANNOTATION:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ROUNDED_BOX_ANNOTATION</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ANNOTATION-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ANNOTATION_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CIRCLE-ANNOTATION:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CIRCLE_ANNOTATION</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ANNOTATION-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ANNOTATION_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-INVERTED-CIRCLE-ANNOTATION:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_INVERTED_CIRCLE_ANNOTATION</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ANNOTATION-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ANNOTATION_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-PARENTHESIS-ANNOTATION:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_PARENTHESIS_ANNOTATION</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ANNOTATION-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ANNOTATION_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-PERIOD-ANNOTATION:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_PERIOD_ANNOTATION</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ANNOTATION-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ANNOTATION_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ROMAN-NUMERAL-ANNOTATION:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ROMAN_NUMERAL_ANNOTATION</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ANNOTATION-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ANNOTATION_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-DIAMOND-ANNOTATION:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_DIAMOND_ANNOTATION</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ANNOTATION-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ANNOTATION_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-INVERTED-BOX-ANNOTATION:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_INVERTED_BOX_ANNOTATION</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ANNOTATION-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ANNOTATION_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-INVERTED-ROUNDED-BOX-ANNOTATION:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_INVERTED_ROUNDED_BOX_ANNOTATION</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ANNOTATION-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ANNOTATION_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-FULL-WIDTH-KANA:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_FULL_WIDTH_KANA</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-KANA-SPACING-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_KANA_SPACING_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-PROPORTIONAL-KANA:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_PROPORTIONAL_KANA</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-KANA-SPACING-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_KANA_SPACING_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-FULL-WIDTH-IDEOGRAPHS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_FULL_WIDTH_IDEOGRAPHS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-IDEOGRAPHIC-SPACING-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_IDEOGRAPHIC_SPACING_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-PROPORTIONAL-IDEOGRAPHS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_PROPORTIONAL_IDEOGRAPHS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-IDEOGRAPHIC-SPACING-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_IDEOGRAPHIC_SPACING_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-HALF-WIDTH-IDEOGRAPHS:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_HALF_WIDTH_IDEOGRAPHS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-IDEOGRAPHIC-SPACING-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_IDEOGRAPHIC_SPACING_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CANONICAL-COMPOSITION-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CANONICAL_COMPOSITION_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-UNICODE-DECOMPOSITION-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_UNICODE_DECOMPOSITION_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CANONICAL-COMPOSITION-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CANONICAL_COMPOSITION_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-UNICODE-DECOMPOSITION-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_UNICODE_DECOMPOSITION_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-COMPATIBILITY-COMPOSITION-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_COMPATIBILITY_COMPOSITION_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-UNICODE-DECOMPOSITION-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_UNICODE_DECOMPOSITION_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-COMPATIBILITY-COMPOSITION-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_COMPATIBILITY_COMPOSITION_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-UNICODE-DECOMPOSITION-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_UNICODE_DECOMPOSITION_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-TRANSCODING-COMPOSITION-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_TRANSCODING_COMPOSITION_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-UNICODE-DECOMPOSITION-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_UNICODE_DECOMPOSITION_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-TRANSCODING-COMPOSITION-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_TRANSCODING_COMPOSITION_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-UNICODE-DECOMPOSITION-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_UNICODE_DECOMPOSITION_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-NO-RUBY-KANA:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_NO_RUBY_KANA</para></entry>
+<entry role="enum_member_description"><para>Deprecated; use <link linkend="HB-AAT-LAYOUT-FEATURE-SELECTOR-RUBY-KANA-OFF:CAPS"><type>HB_AAT_LAYOUT_FEATURE_SELECTOR_RUBY_KANA_OFF</type></link> instead</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-RUBY-KANA:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_RUBY_KANA</para></entry>
+<entry role="enum_member_description"><para>Deprecated; use <link linkend="HB-AAT-LAYOUT-FEATURE-SELECTOR-RUBY-KANA-ON:CAPS"><type>HB_AAT_LAYOUT_FEATURE_SELECTOR_RUBY_KANA_ON</type></link> instead</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-RUBY-KANA-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_RUBY_KANA_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-RUBY-KANA:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_RUBY_KANA</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-RUBY-KANA-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_RUBY_KANA_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-RUBY-KANA:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_RUBY_KANA</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-NO-CJK-SYMBOL-ALTERNATIVES:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_NO_CJK_SYMBOL_ALTERNATIVES</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CJK-SYMBOL-ALTERNATIVES-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CJK_SYMBOL_ALTERNATIVES_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CJK-SYMBOL-ALT-ONE:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CJK_SYMBOL_ALT_ONE</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CJK-SYMBOL-ALTERNATIVES-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CJK_SYMBOL_ALTERNATIVES_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CJK-SYMBOL-ALT-TWO:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CJK_SYMBOL_ALT_TWO</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CJK-SYMBOL-ALTERNATIVES-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CJK_SYMBOL_ALTERNATIVES_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CJK-SYMBOL-ALT-THREE:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CJK_SYMBOL_ALT_THREE</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CJK-SYMBOL-ALTERNATIVES-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CJK_SYMBOL_ALTERNATIVES_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CJK-SYMBOL-ALT-FOUR:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CJK_SYMBOL_ALT_FOUR</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CJK-SYMBOL-ALTERNATIVES-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CJK_SYMBOL_ALTERNATIVES_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CJK-SYMBOL-ALT-FIVE:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CJK_SYMBOL_ALT_FIVE</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CJK-SYMBOL-ALTERNATIVES-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CJK_SYMBOL_ALTERNATIVES_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-NO-IDEOGRAPHIC-ALTERNATIVES:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_NO_IDEOGRAPHIC_ALTERNATIVES</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-IDEOGRAPHIC-ALTERNATIVES-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_IDEOGRAPHIC_ALTERNATIVES_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-IDEOGRAPHIC-ALT-ONE:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_IDEOGRAPHIC_ALT_ONE</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-IDEOGRAPHIC-ALTERNATIVES-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_IDEOGRAPHIC_ALTERNATIVES_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-IDEOGRAPHIC-ALT-TWO:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_IDEOGRAPHIC_ALT_TWO</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-IDEOGRAPHIC-ALTERNATIVES-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_IDEOGRAPHIC_ALTERNATIVES_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-IDEOGRAPHIC-ALT-THREE:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_IDEOGRAPHIC_ALT_THREE</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-IDEOGRAPHIC-ALTERNATIVES-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_IDEOGRAPHIC_ALTERNATIVES_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-IDEOGRAPHIC-ALT-FOUR:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_IDEOGRAPHIC_ALT_FOUR</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-IDEOGRAPHIC-ALTERNATIVES-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_IDEOGRAPHIC_ALTERNATIVES_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-IDEOGRAPHIC-ALT-FIVE:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_IDEOGRAPHIC_ALT_FIVE</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-IDEOGRAPHIC-ALTERNATIVES-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_IDEOGRAPHIC_ALTERNATIVES_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CJK-VERTICAL-ROMAN-CENTERED:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CJK_VERTICAL_ROMAN_CENTERED</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CJK-VERTICAL-ROMAN-PLACEMENT-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CJK_VERTICAL_ROMAN_PLACEMENT_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CJK-VERTICAL-ROMAN-HBASELINE:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CJK_VERTICAL_ROMAN_HBASELINE</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CJK-VERTICAL-ROMAN-PLACEMENT-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CJK_VERTICAL_ROMAN_PLACEMENT_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-NO-CJK-ITALIC-ROMAN:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_NO_CJK_ITALIC_ROMAN</para></entry>
+<entry role="enum_member_description"><para>Deprecated; use <link linkend="HB-AAT-LAYOUT-FEATURE-SELECTOR-CJK-ITALIC-ROMAN-OFF:CAPS"><type>HB_AAT_LAYOUT_FEATURE_SELECTOR_CJK_ITALIC_ROMAN_OFF</type></link> instead</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CJK-ITALIC-ROMAN:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CJK_ITALIC_ROMAN</para></entry>
+<entry role="enum_member_description"><para>Deprecated; use <link linkend="HB-AAT-LAYOUT-FEATURE-SELECTOR-CJK-ITALIC-ROMAN-ON:CAPS"><type>HB_AAT_LAYOUT_FEATURE_SELECTOR_CJK_ITALIC_ROMAN_ON</type></link> instead</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CJK-ITALIC-ROMAN-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CJK_ITALIC_ROMAN_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ITALIC-CJK-ROMAN:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ITALIC_CJK_ROMAN</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CJK-ITALIC-ROMAN-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CJK_ITALIC_ROMAN_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ITALIC-CJK-ROMAN:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ITALIC_CJK_ROMAN</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CASE-SENSITIVE-LAYOUT-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CASE_SENSITIVE_LAYOUT_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CASE-SENSITIVE-LAYOUT:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CASE_SENSITIVE_LAYOUT</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CASE-SENSITIVE-LAYOUT-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CASE_SENSITIVE_LAYOUT_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CASE-SENSITIVE-LAYOUT:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CASE_SENSITIVE_LAYOUT</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CASE-SENSITIVE-SPACING-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CASE_SENSITIVE_SPACING_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CASE-SENSITIVE-LAYOUT:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CASE_SENSITIVE_LAYOUT</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CASE-SENSITIVE-SPACING-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CASE_SENSITIVE_SPACING_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CASE-SENSITIVE-LAYOUT:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CASE_SENSITIVE_LAYOUT</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ALTERNATE-HORIZ-KANA-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ALTERNATE_HORIZ_KANA_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ALTERNATE-KANA:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ALTERNATE_KANA</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ALTERNATE-HORIZ-KANA-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ALTERNATE_HORIZ_KANA_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ALTERNATE-KANA:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ALTERNATE_KANA</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ALTERNATE-VERT-KANA-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ALTERNATE_VERT_KANA_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ALTERNATE-KANA:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ALTERNATE_KANA</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-ALTERNATE-VERT-KANA-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_ALTERNATE_VERT_KANA_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-ALTERNATE-KANA:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_ALTERNATE_KANA</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-NO-STYLISTIC-ALTERNATES:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_NO_STYLISTIC_ALTERNATES</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-ONE-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_ONE_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-ONE-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_ONE_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-TWO-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_TWO_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-TWO-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_TWO_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-THREE-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_THREE_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-THREE-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_THREE_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-FOUR-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_FOUR_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-FOUR-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_FOUR_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-FIVE-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_FIVE_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-FIVE-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_FIVE_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-SIX-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_SIX_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-SIX-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_SIX_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-SEVEN-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_SEVEN_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-SEVEN-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_SEVEN_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-EIGHT-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_EIGHT_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-EIGHT-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_EIGHT_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-NINE-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_NINE_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-NINE-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_NINE_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-TEN-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_TEN_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-TEN-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_TEN_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-ELEVEN-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_ELEVEN_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-ELEVEN-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_ELEVEN_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-TWELVE-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_TWELVE_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-TWELVE-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_TWELVE_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-THIRTEEN-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_THIRTEEN_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-THIRTEEN-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_THIRTEEN_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-FOURTEEN-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_FOURTEEN_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-FOURTEEN-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_FOURTEEN_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-FIFTEEN-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_FIFTEEN_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-FIFTEEN-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_FIFTEEN_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-SIXTEEN-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_SIXTEEN_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-SIXTEEN-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_SIXTEEN_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-SEVENTEEN-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_SEVENTEEN_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-SEVENTEEN-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_SEVENTEEN_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-EIGHTEEN-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_EIGHTEEN_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-EIGHTEEN-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_EIGHTEEN_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-NINETEEN-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_NINETEEN_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-NINETEEN-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_NINETEEN_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-TWENTY-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_TWENTY_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-STYLISTIC-ALT-TWENTY-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_STYLISTIC_ALT_TWENTY_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-STYLISTIC-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_STYLISTIC_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CONTEXTUAL-ALTERNATES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CONTEXTUAL_ALTERNATES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CONTEXTUAL-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CONTEXTUAL_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CONTEXTUAL-ALTERNATES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CONTEXTUAL_ALTERNATES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CONTEXTUAL-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CONTEXTUAL_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-SWASH-ALTERNATES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_SWASH_ALTERNATES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CONTEXTUAL-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CONTEXTUAL_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-SWASH-ALTERNATES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_SWASH_ALTERNATES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CONTEXTUAL-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CONTEXTUAL_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CONTEXTUAL-SWASH-ALTERNATES-ON:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CONTEXTUAL_SWASH_ALTERNATES_ON</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CONTEXTUAL-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CONTEXTUAL_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-CONTEXTUAL-SWASH-ALTERNATES-OFF:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_CONTEXTUAL_SWASH_ALTERNATES_OFF</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CONTEXTUAL-ALTERNATIVES:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CONTEXTUAL_ALTERNATIVES</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-DEFAULT-LOWER-CASE:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_DEFAULT_LOWER_CASE</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LOWER-CASE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LOWER_CASE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-LOWER-CASE-SMALL-CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_LOWER_CASE_SMALL_CAPS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LOWER-CASE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LOWER_CASE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-LOWER-CASE-PETITE-CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_LOWER_CASE_PETITE_CAPS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-LOWER-CASE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_LOWER_CASE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-DEFAULT-UPPER-CASE:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_DEFAULT_UPPER_CASE</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-UPPER-CASE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_UPPER_CASE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-UPPER-CASE-SMALL-CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_UPPER_CASE_SMALL_CAPS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-UPPER-CASE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_UPPER_CASE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-UPPER-CASE-PETITE-CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_UPPER_CASE_PETITE_CAPS</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-UPPER-CASE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_UPPER_CASE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-HALF-WIDTH-CJK-ROMAN:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_HALF_WIDTH_CJK_ROMAN</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CJK-ROMAN-SPACING-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CJK_ROMAN_SPACING_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-PROPORTIONAL-CJK-ROMAN:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_PROPORTIONAL_CJK_ROMAN</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CJK-ROMAN-SPACING-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CJK_ROMAN_SPACING_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-DEFAULT-CJK-ROMAN:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_DEFAULT_CJK_ROMAN</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CJK-ROMAN-SPACING-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CJK_ROMAN_SPACING_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-AAT-LAYOUT-FEATURE-SELECTOR-FULL-WIDTH-CJK-ROMAN:CAPS">HB_AAT_LAYOUT_FEATURE_SELECTOR_FULL_WIDTH_CJK_ROMAN</para></entry>
+<entry role="enum_member_description"><para>for <link linkend="HB-AAT-LAYOUT-FEATURE-TYPE-CJK-ROMAN-SPACING-TYPE:CAPS"><type>HB_AAT_LAYOUT_FEATURE_TYPE_CJK_ROMAN_SPACING_TYPE</type></link></para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-2.2.0">2.2.0</link></para></refsect2>
+<refsect2 id="hb-aat-layout-feature-selector-info-t" role="struct">
+<title>hb_aat_layout_feature_selector_info_t</title>
+<indexterm zone="hb-aat-layout-feature-selector-info-t"><primary>hb_aat_layout_feature_selector_info_t</primary></indexterm>
+<programlisting language="C">typedef struct {
+  hb_ot_name_id_t			name_id;
+  hb_aat_layout_feature_selector_t&#160;enable;
+  hb_aat_layout_feature_selector_t&#160;disable;
+} hb_aat_layout_feature_selector_info_t;
+</programlisting>
+<para>Structure representing a setting for an <link linkend="hb-aat-layout-feature-type-t"><type>hb_aat_layout_feature_type_t</type></link>.</para>
+<refsect3 id="hb-aat-layout-feature-selector-info-t.members" role="struct_members">
+<title>Members</title>
+<informaltable role="struct_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="struct_members_name" colwidth="300px"/>
+<colspec colname="struct_members_description"/>
+<colspec colname="struct_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-ot-name-id-t"><type>hb_ot_name_id_t</type></link>&#160;<structfield id="hb-aat-layout-feature-selector-info-t.name-id">name_id</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The selector's name identifier</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-aat-layout-feature-selector-t"><type>hb_aat_layout_feature_selector_t</type></link>&#160;<structfield id="hb-aat-layout-feature-selector-info-t.enable">enable</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The value to turn the selector on</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-aat-layout-feature-selector-t"><type>hb_aat_layout_feature_selector_t</type></link>&#160;<structfield id="hb-aat-layout-feature-selector-info-t.disable">disable</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The value to turn the selector off</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3>
+</refsect2>
+
+</refsect1>
+
+</refentry>

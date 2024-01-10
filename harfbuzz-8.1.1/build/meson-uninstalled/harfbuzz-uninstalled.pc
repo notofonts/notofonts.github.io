@@ -1,0 +1,12 @@
+prefix=/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build
+srcdir=/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+Name: harfbuzz
+Description: HarfBuzz text shaping library
+Version: 8.1.1
+Requires.private: freetype2, glib-2.0, graphite2
+Libs: -L${prefix}/src -lharfbuzz
+Libs.private: -pthread -lm
+Cflags: -I${prefix}/src -I${srcdir}/src -I${prefix}/. -I${srcdir}/.

@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-coretext">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-coretext.top_of_page">hb-coretext</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-coretext</refname>
+<refpurpose>CoreText integration</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-coretext.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-coretext-face-create">hb_coretext_face_create</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-font-t"><returnvalue>hb_font_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-coretext-font-create">hb_coretext_font_create</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="CGFontRef"><returnvalue>CGFontRef</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-coretext-face-get-cg-font">hb_coretext_face_get_cg_font</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="CTFontRef"><returnvalue>CTFontRef</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-coretext-font-get-ct-font">hb_coretext_font_get_ct_font</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="harfbuzz-hb-coretext.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-CORETEXT-TAG-KERX:CAPS">HB_CORETEXT_TAG_KERX</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-CORETEXT-TAG-MORT:CAPS">HB_CORETEXT_TAG_MORT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-CORETEXT-TAG-MORX:CAPS">HB_CORETEXT_TAG_MORX</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-coretext.includes"><title>Includes</title><synopsis>#include &lt;hb-coretext.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-coretext.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Functions for using HarfBuzz with the CoreText fonts.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-coretext.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-coretext-face-create" role="function" condition="since:0.9.10">
+<title>hb_coretext_face_create&#160;()</title>
+<indexterm zone="hb-coretext-face-create" role="0.9.10"><primary>hb_coretext_face_create</primary></indexterm>
+<programlisting language="C"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+hb_coretext_face_create (<parameter><link linkend="CGFontRef"><type>CGFontRef</type></link> cg_font</parameter>);</programlisting>
+<para>Creates an <link linkend="hb-face-t"><type>hb_face_t</type></link> face object from the specified
+CGFontRef.</para>
+<refsect3 id="hb-coretext-face-create.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>cg_font</para></entry>
+<entry role="parameter_description"><para>The CGFontRef to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-coretext-face-create.returns" role="returns">
+<title>Returns</title>
+<para> the new <link linkend="hb-face-t"><type>hb_face_t</type></link> face object</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.10">0.9.10</link></para></refsect2>
+<refsect2 id="hb-coretext-font-create" role="function" condition="since:1.7.2">
+<title>hb_coretext_font_create&#160;()</title>
+<indexterm zone="hb-coretext-font-create" role="1.7.2"><primary>hb_coretext_font_create</primary></indexterm>
+<programlisting language="C"><link linkend="hb-font-t"><returnvalue>hb_font_t</returnvalue></link>&#160;*
+hb_coretext_font_create (<parameter><link linkend="CTFontRef"><type>CTFontRef</type></link> ct_font</parameter>);</programlisting>
+<para>Creates an <link linkend="hb-font-t"><type>hb_font_t</type></link> font object from the specified
+CTFontRef.</para>
+<refsect3 id="hb-coretext-font-create.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>ct_font</para></entry>
+<entry role="parameter_description"><para>The CTFontRef to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-coretext-font-create.returns" role="returns">
+<title>Returns</title>
+<para> the new <link linkend="hb-font-t"><type>hb_font_t</type></link> font object</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.7.2">1.7.2</link></para></refsect2>
+<refsect2 id="hb-coretext-face-get-cg-font" role="function" condition="since:0.9.10">
+<title>hb_coretext_face_get_cg_font&#160;()</title>
+<indexterm zone="hb-coretext-face-get-cg-font" role="0.9.10"><primary>hb_coretext_face_get_cg_font</primary></indexterm>
+<programlisting language="C"><link linkend="CGFontRef"><returnvalue>CGFontRef</returnvalue></link>
+hb_coretext_face_get_cg_font (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Fetches the CGFontRef associated with an <link linkend="hb-face-t"><type>hb_face_t</type></link>
+face object</para>
+<refsect3 id="hb-coretext-face-get-cg-font.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-coretext-face-get-cg-font.returns" role="returns">
+<title>Returns</title>
+<para> the CGFontRef found</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.10">0.9.10</link></para></refsect2>
+<refsect2 id="hb-coretext-font-get-ct-font" role="function" condition="since:0.9.10">
+<title>hb_coretext_font_get_ct_font&#160;()</title>
+<indexterm zone="hb-coretext-font-get-ct-font" role="0.9.10"><primary>hb_coretext_font_get_ct_font</primary></indexterm>
+<programlisting language="C"><link linkend="CTFontRef"><returnvalue>CTFontRef</returnvalue></link>
+hb_coretext_font_get_ct_font (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>);</programlisting>
+<para>Fetches the CTFontRef associated with the specified
+<link linkend="hb-font-t"><type>hb_font_t</type></link> font object.</para>
+<refsect3 id="hb-coretext-font-get-ct-font.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-coretext-font-get-ct-font.returns" role="returns">
+<title>Returns</title>
+<para> the CTFontRef found</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.10">0.9.10</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-coretext.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="HB-CORETEXT-TAG-KERX:CAPS" role="macro">
+<title>HB_CORETEXT_TAG_KERX</title>
+<indexterm zone="HB-CORETEXT-TAG-KERX:CAPS"><primary>HB_CORETEXT_TAG_KERX</primary></indexterm>
+<programlisting language="C">#define HB_CORETEXT_TAG_KERX HB_TAG('k','e','r','x')
+</programlisting>
+<para>The <link linkend="hb-tag-t"><type>hb_tag_t</type></link> tag for the <literal>kerx</literal> (extended kerning) table, which
+holds AAT kerning information. </para>
+<para>For more information, see
+
+https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6kerx.html</para>
+</refsect2>
+<refsect2 id="HB-CORETEXT-TAG-MORT:CAPS" role="macro">
+<title>HB_CORETEXT_TAG_MORT</title>
+<indexterm zone="HB-CORETEXT-TAG-MORT:CAPS"><primary>HB_CORETEXT_TAG_MORT</primary></indexterm>
+<programlisting language="C">#define HB_CORETEXT_TAG_MORT HB_TAG('m','o','r','t')
+</programlisting>
+<para>The <link linkend="hb-tag-t"><type>hb_tag_t</type></link> tag for the <literal>mort</literal> (glyph metamorphosis) table,
+which holds AAT features. </para>
+<para>For more information, see
+
+https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6mort.html</para>
+</refsect2>
+<refsect2 id="HB-CORETEXT-TAG-MORX:CAPS" role="macro">
+<title>HB_CORETEXT_TAG_MORX</title>
+<indexterm zone="HB-CORETEXT-TAG-MORX:CAPS"><primary>HB_CORETEXT_TAG_MORX</primary></indexterm>
+<programlisting language="C">#define HB_CORETEXT_TAG_MORX HB_TAG('m','o','r','x')
+</programlisting>
+<para>The <link linkend="hb-tag-t"><type>hb_tag_t</type></link> tag for the <literal>morx</literal> (extended glyph metamorphosis)
+table, which holds AAT features. </para>
+<para>For more information, see
+https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6morx.html</para>
+</refsect2>
+
+</refsect1>
+
+</refentry>

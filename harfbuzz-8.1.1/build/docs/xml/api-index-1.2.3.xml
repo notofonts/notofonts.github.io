@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-1.2.3">
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="hb-font-funcs-set-nominal-glyph-func"><link linkend="hb-font-funcs-set-nominal-glyph-func">hb_font_funcs_set_nominal_glyph_func</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-set-variation-glyph-func"><link linkend="hb-font-funcs-set-variation-glyph-func">hb_font_funcs_set_variation_glyph_func</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-nominal-glyph"><link linkend="hb-font-get-nominal-glyph">hb_font_get_nominal_glyph</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-variation-glyph"><link linkend="hb-font-get-variation-glyph">hb_font_get_variation_glyph</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

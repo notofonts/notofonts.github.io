@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>FreeType integration: HarfBuzz Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="HarfBuzz Manual">
+<link rel="up" href="integration.html" title="Platform Integration Guide">
+<link rel="prev" href="integration.html" title="Platform Integration Guide">
+<link rel="next" href="integration-cairo.html" title="Cairo integration">
+<meta name="generator" content="GTK-Doc V1.33.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts"></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="integration.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="integration.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="integration-cairo.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="section">
+<div class="titlepage"><div><div><h2 class="title" style="clear: both">
+<a name="integration-freetype"></a>FreeType integration</h2></div></div></div>
+<p>
+      FreeType is the free-software font-rendering engine included in
+      desktop Linux distributions, Android, ChromeOS, iOS, and multiple Unix
+      operating systems, and used by cross-platform programs like
+      Chrome, Java, and GhostScript. Used together, HarfBuzz can
+      perform shaping on Unicode text segments, outputting the glyph
+      IDs that FreeType should rasterize from the active font as well
+      as the positions at which those glyphs should be drawn.
+    </p>
+<p>
+      HarfBuzz provides integration points with FreeType at the
+      face-object and font-object level and for the font-functions
+      virtual-method structure of a font object. These functions
+      make it easy for clients that use FreeType for rasterization
+      or font-loading, to use HarfBuzz for shaping. To use the
+      FreeType-integration API, include the
+      <code class="filename">hb-ft.h</code> header.
+    </p>
+<p>
+      In a typical client program, you will create your
+      <span class="type">hb_face_t</span> face object and <span class="type">hb_font_t</span>
+      font object from a FreeType <span class="type">FT_Face</span>. HarfBuzz
+      provides a suite of functions for doing this.
+    </p>
+<p>
+      In the most common case, you will want to use
+      <code class="function">hb_ft_font_create_referenced()</code>, which
+      creates both an <span class="type">hb_face_t</span> face object and
+      <span class="type">hb_font_t</span> font object (linked to that face object),
+      and provides lifecycle management.
+    </p>
+<p>
+      It is important to note,
+      though, that while HarfBuzz makes a distinction between its face and
+      font objects, FreeType's <span class="type">FT_Face</span> does not. After
+      you create your <span class="type">FT_Face</span>, you must set its size
+      parameter using <code class="function">FT_Set_Char_Size()</code>, because
+      an <span class="type">hb_font_t</span> is defined as an instance of an
+      <span class="type">hb_face_t</span> with size specified.
+    </p>
+<pre class="programlisting">
+      #include &lt;hb-ft.h&gt;
+      ...
+      FT_New_Face(ft_library, font_path, index, &amp;face);
+      FT_Set_Char_Size(face, 0, 1000, 0, 0);
+      hb_font_t *font = hb_ft_font_create(face);
+    </pre>
+<p>
+      <code class="function">hb_ft_font_create_referenced()</code> is
+      the recommended function for creating an <span class="type">hb_face_t</span> face
+      object. This function calls <code class="function">FT_Reference_Face()</code>
+      before using the <span class="type">FT_Face</span> and calls 
+      <code class="function">FT_Done_Face()</code> when it is finished using the
+      <span class="type">FT_Face</span>. Consequently, your client program does not need
+      to worry about destroying the <span class="type">FT_Face</span> while HarfBuzz
+      is still using it.
+    </p>
+<p>
+      Although <code class="function">hb_ft_font_create_referenced()</code> is
+      the recommended function, there is another variant for client code
+      where special circumstances make it necessary. The simpler
+      version of the function is <code class="function">hb_ft_font_create()</code>,
+      which takes an <span class="type">FT_Face</span> and an optional destroy callback 
+      as its arguments. Because <code class="function">hb_ft_font_create()</code> 
+      does not offer lifecycle management, however, your client code will
+      be responsible for tracking references to the <span class="type">FT_Face</span>
+      objects and destroying them when they are no longer needed. If you
+      do not have a valid reason for doing this, use
+      <code class="function">hb_ft_font_create_referenced()</code>. 
+    </p>
+<p>
+      After you have created your font object from your
+      <span class="type">FT_Face</span>, you can set or retrieve the
+      <em class="structfield"><code>load_flags</code></em> of the
+      <span class="type">FT_Face</span> through the <span class="type">hb_font_t</span>
+      object. HarfBuzz provides
+      <code class="function">hb_ft_font_set_load_flags()</code> and
+      <code class="function">hb_ft_font_get_load_flags()</code> for this
+      purpose. The ability to set the
+      <em class="structfield"><code>load_flags</code></em> through the font object
+      could be useful for enabling or disabling hinting, for example,
+      or to activate vertical layout.
+    </p>
+<p>
+      HarfBuzz also provides a utility function called
+      <code class="function">hb_ft_font_has_changed()</code> that you should
+      call whenever you have altered the properties of your underlying
+      <span class="type">FT_Face</span>, as well as a
+      <code class="function">hb_ft_get_face()</code> that you can call on an
+      <span class="type">hb_font_t</span> font object to fetch its underlying <span class="type">FT_Face</span>.
+    </p>
+<p>
+      With an <span class="type">hb_face_t</span> and <span class="type">hb_font_t</span> both linked
+      to your <span class="type">FT_Face</span>, you will typically also want to
+      use FreeType for the <em class="structfield"><code>font_funcs</code></em>
+      vtable of your <span class="type">hb_font_t</span>. As a reminder, this
+      font-functions structure is the set of methods that HarfBuzz
+      will use to fetch important information from the font, such as
+      the advances and extents of individual glyphs. 
+    </p>
+<p>
+      All you need to do is call
+    </p>
+<pre class="programlisting">
+      hb_ft_font_set_funcs(font);
+    </pre>
+<p>
+      and HarfBuzz will use FreeType for the font-functions in
+      <code class="literal">font</code>. 
+    </p>
+<p>
+      As we noted above, an <span class="type">hb_font_t</span> is derived from an
+      <span class="type">hb_face_t</span> with size (and, perhaps, other
+      parameters, such as variation-axis coordinates)
+      specified. Consequently, you can reuse an <span class="type">hb_face_t</span>
+      with several <span class="type">hb_font_t</span> objects, and HarfBuzz
+      provides functions to simplify this.
+    </p>
+<p>
+      The <code class="function">hb_ft_face_create_referenced()</code>
+      function creates just an <span class="type">hb_face_t</span> from a FreeType
+      <span class="type">FT_Face</span> and, as with
+      <code class="function">hb_ft_font_create_referenced()</code> above,
+      provides lifecycle management for the <span class="type">FT_Face</span>.
+    </p>
+<p>
+      Similarly, there is an <code class="function">hb_ft_face_create()</code>
+      function variant that does not provide the lifecycle-management
+      feature. As with the font-object case, if you use this version
+      of the function, it will be your client code's respsonsibility
+      to track usage of the <span class="type">FT_Face</span> objects.
+    </p>
+<p>
+      A third variant of this function is
+      <code class="function">hb_ft_face_create_cached()</code>, which is the
+      same as <code class="function">hb_ft_face_create()</code> except that it
+      also uses the <em class="structfield"><code>generic</code></em> field of the
+      <span class="type">FT_Face</span> structure to save a pointer to the newly
+      created <span class="type">hb_face_t</span>. Subsequently, function calls
+      that pass the same <span class="type">FT_Face</span> will get the same
+      <span class="type">hb_face_t</span> returned — and the
+      <span class="type">hb_face_t</span> will be correctly reference
+      counted. Still, as with
+      <code class="function">hb_ft_face_create()</code>, your client code must
+      track references to the <span class="type">FT_Face</span> itself, and destroy
+      it when it is unneeded.
+    </p>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.33.1</div>
+</body>
+</html>

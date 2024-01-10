@@ -1,0 +1,890 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-deprecated">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-deprecated.top_of_page">hb-deprecated</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-deprecated</refname>
+<refpurpose>Deprecated API</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-deprecated.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-font-funcs-set-glyph-func">hb_font_funcs_set_glyph_func</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-font-get-glyph-func-t">*hb_font_get_glyph_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-table-choose-script">hb_ot_layout_table_choose_script</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-layout-table-find-script">hb_ot_layout_table_find_script</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-tag-t"><returnvalue>hb_tag_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-tag-from-language">hb_ot_tag_from_language</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-tags-from-script">hb_ot_tags_from_script</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-var-find-axis">hb_ot_var_find_axis</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-var-get-axes">hb_ot_var_get_axes</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-unicode-eastasian-width-func-t">*hb_unicode_eastasian_width_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-unicode-eastasian-width">hb_unicode_eastasian_width</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-unicode-funcs-set-eastasian-width-func">hb_unicode_funcs_set_eastasian_width_func</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-unicode-decompose-compatibility-func-t">*hb_unicode_decompose_compatibility_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-unicode-decompose-compatibility">hb_unicode_decompose_compatibility</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-unicode-funcs-set-decompose-compatibility-func">hb_unicode_funcs_set_decompose_compatibility_func</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-font-funcs-set-glyph-v-kerning-func">hb_font_funcs_set_glyph_v_kerning_func</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-font-get-glyph-shape">hb_font_get_glyph_shape</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-font-get-glyph-shape-func-t">*hb_font_get_glyph_shape_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-font-funcs-set-glyph-shape-func">hb_font_funcs_set_glyph_shape_func</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-position-t"><returnvalue>hb_position_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-font-get-glyph-v-kerning">hb_font_get_glyph_v_kerning</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="harfbuzz-hb-deprecated.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-BUFFER-FLAGS-DEFAULT:CAPS">HB_BUFFER_FLAGS_DEFAULT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-BUFFER-SERIALIZE-FLAGS-DEFAULT:CAPS">HB_BUFFER_SERIALIZE_FLAGS_DEFAULT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-SCRIPT-CANADIAN-ABORIGINAL:CAPS">HB_SCRIPT_CANADIAN_ABORIGINAL</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-MATH-GLYPH-PART-FLAG-EXTENDER:CAPS">HB_MATH_GLYPH_PART_FLAG_EXTENDER</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-MATH-SCRIPT:CAPS">HB_OT_MATH_SCRIPT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-VAR-NO-AXIS-INDEX:CAPS">HB_OT_VAR_NO_AXIS_INDEX</link></entry></row>
+<row><entry role="datatype_keyword"></entry><entry role="function_name"><link linkend="hb-ot-var-axis-t">hb_ot_var_axis_t</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-UNICODE-MAX-DECOMPOSITION-LEN:CAPS">HB_UNICODE_MAX_DECOMPOSITION_LEN</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-UNICODE-COMBINING-CLASS-CCC133:CAPS">HB_UNICODE_COMBINING_CLASS_CCC133</link></entry></row>
+<row><entry role="typedef_keyword">typedef</entry><entry role="function_name"><link linkend="hb-font-get-glyph-v-kerning-func-t">hb_font_get_glyph_v_kerning_func_t</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-deprecated.includes"><title>Includes</title><synopsis>#include &lt;hb.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-deprecated.description" role="desc">
+<title role="desc.title">Description</title>
+<para>These API have been deprecated in favor of newer API, or because they
+were deemed unnecessary.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-deprecated.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-font-funcs-set-glyph-func" role="function" condition="deprecated:1.2.3|since:0.9.2">
+<title>hb_font_funcs_set_glyph_func&#160;()</title>
+<indexterm zone="hb-font-funcs-set-glyph-func" role="deprecated"><primary>hb_font_funcs_set_glyph_func</primary></indexterm><indexterm zone="hb-font-funcs-set-glyph-func" role="0.9.2"><primary>hb_font_funcs_set_glyph_func</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_font_funcs_set_glyph_func (<parameter><link linkend="hb-font-funcs-t"><type>hb_font_funcs_t</type></link> *ffuncs</parameter>,
+                              <parameter><link linkend="hb-font-get-glyph-func-t"><type>hb_font_get_glyph_func_t</type></link> func</parameter>,
+                              <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                              <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<warning><para><literal>hb_font_funcs_set_glyph_func</literal> has been deprecated since version 1.2.3 and should not be used in newly-written code.</para></warning>
+<para>Deprecated.  Use <link linkend="hb-font-funcs-set-nominal-glyph-func"><function>hb_font_funcs_set_nominal_glyph_func()</function></link> and
+<link linkend="hb-font-funcs-set-variation-glyph-func"><function>hb_font_funcs_set_variation_glyph_func()</function></link> instead.</para>
+<refsect3 id="hb-font-funcs-set-glyph-func.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>ffuncs</para></entry>
+<entry role="parameter_description"><para>The font-functions structure</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>func</para></entry>
+<entry role="parameter_description"><para>callback function. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>closure</acronym> user_data][<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>data to pass to <parameter>func</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>function to call when <parameter>user_data</parameter>
+is not needed anymore. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-font-get-glyph-func-t" role="function" condition="deprecated:1.2.3">
+<title>hb_font_get_glyph_func_t&#160;()</title>
+<indexterm zone="hb-font-get-glyph-func-t" role="deprecated"><primary>hb_font_get_glyph_func_t</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_font_get_glyph_func_t<phrase role="c_punctuation">)</phrase> (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                             <parameter><link linkend="void"><type>void</type></link> *font_data</parameter>,
+                             <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> unicode</parameter>,
+                             <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> variation_selector</parameter>,
+                             <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> *glyph</parameter>,
+                             <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<warning><para><literal>hb_font_get_glyph_func_t</literal> has been deprecated since version 1.2.3 and should not be used in newly-written code.</para></warning>
+<para>A virtual method for the <link linkend="hb-font-funcs-t"><type>hb_font_funcs_t</type></link> of an <link linkend="hb-font-t"><type>hb_font_t</type></link> object.</para>
+<para>This method should retrieve the glyph ID for a specified Unicode code point
+font, with an optional variation selector.</para>
+<refsect3 id="hb-font-get-glyph-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>font_data</para></entry>
+<entry role="parameter_description"><para><parameter>font</parameter>
+user data pointer</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>unicode</para></entry>
+<entry role="parameter_description"><para>The Unicode code point to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>variation_selector</para></entry>
+<entry role="parameter_description"><para>The  variation-selector code point to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>The glyph ID retrieved. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>User data pointer passed by the caller</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-font-get-glyph-func-t.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if data found, <literal>false</literal> otherwise</para>
+</refsect3></refsect2>
+<refsect2 id="hb-ot-layout-table-choose-script" role="function" condition="deprecated:">
+<title>hb_ot_layout_table_choose_script&#160;()</title>
+<indexterm zone="hb-ot-layout-table-choose-script" role="deprecated"><primary>hb_ot_layout_table_choose_script</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_table_choose_script (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                  <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                  <parameter>const <link linkend="hb-tag-t"><type>hb_tag_t</type></link> *script_tags</parameter>,
+                                  <parameter>unsigned <link linkend="int"><type>int</type></link> *script_index</parameter>,
+                                  <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> *chosen_script</parameter>);</programlisting>
+<warning><para><literal>hb_ot_layout_table_choose_script</literal> is deprecated and should not be used in newly-written code.</para></warning>
+<para>Deprecated since 2.0.0</para>
+<refsect3 id="hb-ot-layout-table-choose-script.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_tags</para></entry>
+<entry role="parameter_description"><para>Array of <link linkend="hb-tag-t"><type>hb_tag_t</type></link> script tags</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_index</para></entry>
+<entry role="parameter_description"><para>The index of the chosen script. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>chosen_script</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-tag-t"><type>hb_tag_t</type></link> of the chosen script. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3></refsect2>
+<refsect2 id="hb-ot-layout-table-find-script" role="function">
+<title>hb_ot_layout_table_find_script&#160;()</title>
+<indexterm zone="hb-ot-layout-table-find-script"><primary>hb_ot_layout_table_find_script</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_layout_table_find_script (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> table_tag</parameter>,
+                                <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> script_tag</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> *script_index</parameter>);</programlisting>
+<para>Fetches the index if a given script tag in the specified face's GSUB table
+or GPOS table.</para>
+<refsect3 id="hb-ot-layout-table-find-script.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>table_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="HB-OT-TAG-GSUB:CAPS"><type>HB_OT_TAG_GSUB</type></link> or <link linkend="HB-OT-TAG-GPOS:CAPS"><type>HB_OT_TAG_GPOS</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_tag</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-tag-t"><type>hb_tag_t</type></link> of the script tag requested</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_index</para></entry>
+<entry role="parameter_description"><para>The index of the requested script tag. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-layout-table-find-script.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if the script is found, <literal>false</literal> otherwise</para>
+</refsect3></refsect2>
+<refsect2 id="hb-ot-tag-from-language" role="function" condition="deprecated:2.0.0: use hb_ot_tags_from_script_and_language() instead|since:0.6.0">
+<title>hb_ot_tag_from_language&#160;()</title>
+<indexterm zone="hb-ot-tag-from-language" role="deprecated"><primary>hb_ot_tag_from_language</primary></indexterm><indexterm zone="hb-ot-tag-from-language" role="0.6.0"><primary>hb_ot_tag_from_language</primary></indexterm>
+<programlisting language="C"><link linkend="hb-tag-t"><returnvalue>hb_tag_t</returnvalue></link>
+hb_ot_tag_from_language (<parameter><link linkend="hb-language-t"><type>hb_language_t</type></link> language</parameter>);</programlisting>
+<warning><para><literal>hb_ot_tag_from_language</literal> has been deprecated since version 2.0.0 and should not be used in newly-written code.</para> <para>use <link linkend="hb-ot-tags-from-script-and-language"><function>hb_ot_tags_from_script_and_language()</function></link> instead</para>
+</warning>
+<para>Converts an <link linkend="hb-language-t"><type>hb_language_t</type></link> to an <link linkend="hb-tag-t"><type>hb_tag_t</type></link>.</para>
+<refsect3 id="hb-ot-tag-from-language.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>language</para></entry>
+<entry role="parameter_description"><para>an <link linkend="hb-language-t"><type>hb_language_t</type></link> to convert.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.6.0">0.6.0</link></para></refsect2>
+<refsect2 id="hb-ot-tags-from-script" role="function" condition="deprecated:2.0.0: use hb_ot_tags_from_script_and_language() instead|since:0.6.0">
+<title>hb_ot_tags_from_script&#160;()</title>
+<indexterm zone="hb-ot-tags-from-script" role="deprecated"><primary>hb_ot_tags_from_script</primary></indexterm><indexterm zone="hb-ot-tags-from-script" role="0.6.0"><primary>hb_ot_tags_from_script</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ot_tags_from_script (<parameter><link linkend="hb-script-t"><type>hb_script_t</type></link> script</parameter>,
+                        <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> *script_tag_1</parameter>,
+                        <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> *script_tag_2</parameter>);</programlisting>
+<warning><para><literal>hb_ot_tags_from_script</literal> has been deprecated since version 2.0.0 and should not be used in newly-written code.</para> <para>use <link linkend="hb-ot-tags-from-script-and-language"><function>hb_ot_tags_from_script_and_language()</function></link> instead</para>
+</warning>
+<para>Converts an <link linkend="hb-script-t"><type>hb_script_t</type></link> to script tags.</para>
+<refsect3 id="hb-ot-tags-from-script.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>script</para></entry>
+<entry role="parameter_description"><para>an <link linkend="hb-script-t"><type>hb_script_t</type></link> to convert.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>script_tag_1</para></entry>
+<entry role="parameter_description"><para>output <link linkend="hb-tag-t"><type>hb_tag_t</type></link>. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>script_tag_2</para></entry>
+<entry role="parameter_description"><para>output <link linkend="hb-tag-t"><type>hb_tag_t</type></link>. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.6.0">0.6.0</link></para></refsect2>
+<refsect2 id="hb-ot-var-find-axis" role="function" condition="deprecated:2.2.0 - use hb_ot_var_find_axis_info() instead|since:1.4.2">
+<title>hb_ot_var_find_axis&#160;()</title>
+<indexterm zone="hb-ot-var-find-axis" role="deprecated"><primary>hb_ot_var_find_axis</primary></indexterm><indexterm zone="hb-ot-var-find-axis" role="1.4.2"><primary>hb_ot_var_find_axis</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_var_find_axis (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                     <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> axis_tag</parameter>,
+                     <parameter>unsigned <link linkend="int"><type>int</type></link> *axis_index</parameter>,
+                     <parameter><link linkend="hb-ot-var-axis-t"><type>hb_ot_var_axis_t</type></link> *axis_info</parameter>);</programlisting>
+<warning><para><literal>hb_ot_var_find_axis</literal> has been deprecated since version 2.2.0 and should not be used in newly-written code.</para> <itemizedlist>
+<listitem><para>use <link linkend="hb-ot-var-find-axis-info"><function>hb_ot_var_find_axis_info()</function></link> instead</para></listitem>
+</itemizedlist>
+</warning>
+<para>Fetches the variation-axis information corresponding to the specified axis tag
+in the specified face.</para>
+<refsect3 id="hb-ot-var-find-axis.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>axis_tag</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-tag-t"><type>hb_tag_t</type></link> of the variation axis to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>axis_index</para></entry>
+<entry role="parameter_description"><para>The index of the variation axis</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>axis_info</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-ot-var-axis-info-t"><type>hb_ot_var_axis_info_t</type></link> of the axis tag queried. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.4.2">1.4.2</link></para></refsect2>
+<refsect2 id="hb-ot-var-get-axes" role="function" condition="deprecated:2.2.0: use hb_ot_var_get_axis_infos() instead|since:1.4.2">
+<title>hb_ot_var_get_axes&#160;()</title>
+<indexterm zone="hb-ot-var-get-axes" role="deprecated"><primary>hb_ot_var_get_axes</primary></indexterm><indexterm zone="hb-ot-var-get-axes" role="1.4.2"><primary>hb_ot_var_get_axes</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_var_get_axes (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                    <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                    <parameter>unsigned <link linkend="int"><type>int</type></link> *axes_count</parameter>,
+                    <parameter><link linkend="hb-ot-var-axis-t"><type>hb_ot_var_axis_t</type></link> *axes_array</parameter>);</programlisting>
+<warning><para><literal>hb_ot_var_get_axes</literal> has been deprecated since version 2.2.0 and should not be used in newly-written code.</para> <para>use <link linkend="hb-ot-var-get-axis-infos"><function>hb_ot_var_get_axis_infos()</function></link> instead</para>
+</warning>
+<para>Fetches a list of all variation axes in the specified face. The list returned will begin
+at the offset provided.</para>
+<refsect3 id="hb-ot-var-get-axes.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>offset of the first lookup to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>axes_count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of variation axes to return;
+Output = the actual number of variation axes returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>axes_array</para></entry>
+<entry role="parameter_description"><para>The array of variation axes found. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out caller-allocates</acronym>][<acronym>array</acronym> length=axes_count]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.4.2">1.4.2</link></para></refsect2>
+<refsect2 id="hb-unicode-eastasian-width-func-t" role="function" condition="deprecated:2.0.0">
+<title>hb_unicode_eastasian_width_func_t&#160;()</title>
+<indexterm zone="hb-unicode-eastasian-width-func-t" role="deprecated"><primary>hb_unicode_eastasian_width_func_t</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_unicode_eastasian_width_func_t<phrase role="c_punctuation">)</phrase> (<parameter><link linkend="hb-unicode-funcs-t"><type>hb_unicode_funcs_t</type></link> *ufuncs</parameter>,
+                                      <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> unicode</parameter>,
+                                      <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<warning><para><literal>hb_unicode_eastasian_width_func_t</literal> has been deprecated since version 2.0.0 and should not be used in newly-written code.</para></warning>
+<para>A virtual method for the <link linkend="hb-unicode-funcs-t"><type>hb_unicode_funcs_t</type></link> structure.</para>
+<refsect3 id="hb-unicode-eastasian-width-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>ufuncs</para></entry>
+<entry role="parameter_description"><para>A Unicode-functions structure</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>unicode</para></entry>
+<entry role="parameter_description"><para>The code point to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>User data pointer passed by the caller</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3></refsect2>
+<refsect2 id="hb-unicode-eastasian-width" role="function" condition="deprecated:2.0.0|since:0.9.2">
+<title>hb_unicode_eastasian_width&#160;()</title>
+<indexterm zone="hb-unicode-eastasian-width" role="deprecated"><primary>hb_unicode_eastasian_width</primary></indexterm><indexterm zone="hb-unicode-eastasian-width" role="0.9.2"><primary>hb_unicode_eastasian_width</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_unicode_eastasian_width (<parameter><link linkend="hb-unicode-funcs-t"><type>hb_unicode_funcs_t</type></link> *ufuncs</parameter>,
+                            <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> unicode</parameter>);</programlisting>
+<warning><para><literal>hb_unicode_eastasian_width</literal> has been deprecated since version 2.0.0 and should not be used in newly-written code.</para></warning>
+<para>Don't use. Not used by HarfBuzz.</para>
+<refsect3 id="hb-unicode-eastasian-width.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>ufuncs</para></entry>
+<entry role="parameter_description"><para>a Unicode-function structure</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>unicode</para></entry>
+<entry role="parameter_description"><para>The code point to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-unicode-funcs-set-eastasian-width-func" role="function" condition="deprecated:2.0.0|since:0.9.2">
+<title>hb_unicode_funcs_set_eastasian_width_func&#160;()</title>
+<indexterm zone="hb-unicode-funcs-set-eastasian-width-func" role="deprecated"><primary>hb_unicode_funcs_set_eastasian_width_func</primary></indexterm><indexterm zone="hb-unicode-funcs-set-eastasian-width-func" role="0.9.2"><primary>hb_unicode_funcs_set_eastasian_width_func</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_unicode_funcs_set_eastasian_width_func
+                               (<parameter><link linkend="hb-unicode-funcs-t"><type>hb_unicode_funcs_t</type></link> *ufuncs</parameter>,
+                                <parameter><link linkend="hb-unicode-eastasian-width-func-t"><type>hb_unicode_eastasian_width_func_t</type></link> func</parameter>,
+                                <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                                <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<warning><para><literal>hb_unicode_funcs_set_eastasian_width_func</literal> has been deprecated since version 2.0.0 and should not be used in newly-written code.</para></warning>
+<para>Sets the implementation function for <link linkend="hb-unicode-eastasian-width-func-t"><type>hb_unicode_eastasian_width_func_t</type></link>.</para>
+<refsect3 id="hb-unicode-funcs-set-eastasian-width-func.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>ufuncs</para></entry>
+<entry role="parameter_description"><para>a Unicode-function structure</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>func</para></entry>
+<entry role="parameter_description"><para>The callback function to assign. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>closure</acronym> user_data][<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>Data to pass to <parameter>func</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>The function to call when <parameter>user_data</parameter>
+is not needed anymore. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-unicode-decompose-compatibility-func-t" role="function" condition="deprecated:2.0.0">
+<title>hb_unicode_decompose_compatibility_func_t&#160;()</title>
+<indexterm zone="hb-unicode-decompose-compatibility-func-t" role="deprecated"><primary>hb_unicode_decompose_compatibility_func_t</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_unicode_decompose_compatibility_func_t<phrase role="c_punctuation">)</phrase>
+                               (<parameter><link linkend="hb-unicode-funcs-t"><type>hb_unicode_funcs_t</type></link> *ufuncs</parameter>,
+                                <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> u</parameter>,
+                                <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> *decomposed</parameter>,
+                                <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<warning><para><literal>hb_unicode_decompose_compatibility_func_t</literal> has been deprecated since version 2.0.0 and should not be used in newly-written code.</para></warning>
+<para>Fully decompose <parameter>u</parameter>
+ to its Unicode compatibility decomposition. The codepoints of the decomposition will be written to <parameter>decomposed</parameter>
+.
+The complete length of the decomposition will be returned.</para>
+<para>If <parameter>u</parameter>
+ has no compatibility decomposition, zero should be returned.</para>
+<para>The Unicode standard guarantees that a buffer of length <link linkend="HB-UNICODE-MAX-DECOMPOSITION-LEN:CAPS"><type>HB_UNICODE_MAX_DECOMPOSITION_LEN</type></link> codepoints will always be sufficient for any
+compatibility decomposition plus an terminating value of 0.  Consequently, <parameter>decompose</parameter>
+ must be allocated by the caller to be at least this length.  Implementations
+of this function type must ensure that they do not write past the provided array.</para>
+<refsect3 id="hb-unicode-decompose-compatibility-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>ufuncs</para></entry>
+<entry role="parameter_description"><para>a Unicode function structure</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>u</para></entry>
+<entry role="parameter_description"><para>codepoint to decompose</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>decomposed</para></entry>
+<entry role="parameter_description"><para>address of codepoint array (of length <link linkend="HB-UNICODE-MAX-DECOMPOSITION-LEN:CAPS"><type>HB_UNICODE_MAX_DECOMPOSITION_LEN</type></link>) to write decomposition into</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>user data pointer as passed to <link linkend="hb-unicode-funcs-set-decompose-compatibility-func"><function>hb_unicode_funcs_set_decompose_compatibility_func()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-unicode-decompose-compatibility-func-t.returns" role="returns">
+<title>Returns</title>
+<para> number of codepoints in the full compatibility decomposition of <parameter>u</parameter>
+, or 0 if no decomposition available.</para>
+</refsect3></refsect2>
+<refsect2 id="hb-unicode-decompose-compatibility" role="function" condition="deprecated:2.0.0|since:0.9.2">
+<title>hb_unicode_decompose_compatibility&#160;()</title>
+<indexterm zone="hb-unicode-decompose-compatibility" role="deprecated"><primary>hb_unicode_decompose_compatibility</primary></indexterm><indexterm zone="hb-unicode-decompose-compatibility" role="0.9.2"><primary>hb_unicode_decompose_compatibility</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_unicode_decompose_compatibility (<parameter><link linkend="hb-unicode-funcs-t"><type>hb_unicode_funcs_t</type></link> *ufuncs</parameter>,
+                                    <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> u</parameter>,
+                                    <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> *decomposed</parameter>);</programlisting>
+<warning><para><literal>hb_unicode_decompose_compatibility</literal> has been deprecated since version 2.0.0 and should not be used in newly-written code.</para></warning>
+<para>Fetches the compatibility decomposition of a Unicode
+code point. Deprecated.</para>
+<refsect3 id="hb-unicode-decompose-compatibility.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>ufuncs</para></entry>
+<entry role="parameter_description"><para>The Unicode-functions structure</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>u</para></entry>
+<entry role="parameter_description"><para>Code point to decompose</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>decomposed</para></entry>
+<entry role="parameter_description"><para>Compatibility decomposition of <parameter>u</parameter>
+. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-unicode-decompose-compatibility.returns" role="returns">
+<title>Returns</title>
+<para> length of <parameter>decomposed</parameter>
+.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-unicode-funcs-set-decompose-compatibility-func" role="function" condition="deprecated:2.0.0|since:0.9.2">
+<title>hb_unicode_funcs_set_decompose_compatibility_func&#160;()</title>
+<indexterm zone="hb-unicode-funcs-set-decompose-compatibility-func" role="deprecated"><primary>hb_unicode_funcs_set_decompose_compatibility_func</primary></indexterm><indexterm zone="hb-unicode-funcs-set-decompose-compatibility-func" role="0.9.2"><primary>hb_unicode_funcs_set_decompose_compatibility_func</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_unicode_funcs_set_decompose_compatibility_func
+                               (<parameter><link linkend="hb-unicode-funcs-t"><type>hb_unicode_funcs_t</type></link> *ufuncs</parameter>,
+                                <parameter><link linkend="hb-unicode-decompose-compatibility-func-t"><type>hb_unicode_decompose_compatibility_func_t</type></link> func</parameter>,
+                                <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                                <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<warning><para><literal>hb_unicode_funcs_set_decompose_compatibility_func</literal> has been deprecated since version 2.0.0 and should not be used in newly-written code.</para></warning>
+<para>Sets the implementation function for <link linkend="hb-unicode-decompose-compatibility-func-t"><type>hb_unicode_decompose_compatibility_func_t</type></link>.</para>
+<refsect3 id="hb-unicode-funcs-set-decompose-compatibility-func.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>ufuncs</para></entry>
+<entry role="parameter_description"><para>A Unicode-functions structure</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>func</para></entry>
+<entry role="parameter_description"><para>The callback function to assign. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>closure</acronym> user_data][<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>Data to pass to <parameter>func</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>The function to call when <parameter>user_data</parameter>
+is not needed anymore. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-font-funcs-set-glyph-v-kerning-func" role="function" condition="deprecated:2.0.0|since:0.9.2">
+<title>hb_font_funcs_set_glyph_v_kerning_func&#160;()</title>
+<indexterm zone="hb-font-funcs-set-glyph-v-kerning-func" role="deprecated"><primary>hb_font_funcs_set_glyph_v_kerning_func</primary></indexterm><indexterm zone="hb-font-funcs-set-glyph-v-kerning-func" role="0.9.2"><primary>hb_font_funcs_set_glyph_v_kerning_func</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_font_funcs_set_glyph_v_kerning_func
+                               (<parameter><link linkend="hb-font-funcs-t"><type>hb_font_funcs_t</type></link> *ffuncs</parameter>,
+                                <parameter><link linkend="hb-font-get-glyph-v-kerning-func-t"><type>hb_font_get_glyph_v_kerning_func_t</type></link> func</parameter>,
+                                <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                                <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<warning><para><literal>hb_font_funcs_set_glyph_v_kerning_func</literal> has been deprecated since version 2.0.0 and should not be used in newly-written code.</para></warning>
+<para>Sets the implementation function for <link linkend="hb-font-get-glyph-v-kerning-func-t"><type>hb_font_get_glyph_v_kerning_func_t</type></link>.</para>
+<refsect3 id="hb-font-funcs-set-glyph-v-kerning-func.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>ffuncs</para></entry>
+<entry role="parameter_description"><para>A font-function structure</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>func</para></entry>
+<entry role="parameter_description"><para>The callback function to assign. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>closure</acronym> user_data][<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>Data to pass to <parameter>func</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>The function to call when <parameter>user_data</parameter>
+is not needed anymore. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-font-get-glyph-shape" role="function" condition="deprecated:7.0.0: Use hb_font_draw_glyph() instead|since:4.0.0">
+<title>hb_font_get_glyph_shape&#160;()</title>
+<indexterm zone="hb-font-get-glyph-shape" role="deprecated"><primary>hb_font_get_glyph_shape</primary></indexterm><indexterm zone="hb-font-get-glyph-shape" role="4.0.0"><primary>hb_font_get_glyph_shape</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_font_get_glyph_shape (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                         <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>,
+                         <parameter><link linkend="hb-draw-funcs-t"><type>hb_draw_funcs_t</type></link> *dfuncs</parameter>,
+                         <parameter><link linkend="void"><type>void</type></link> *draw_data</parameter>);</programlisting>
+<warning><para><literal>hb_font_get_glyph_shape</literal> has been deprecated since version 7.0.0 and should not be used in newly-written code.</para> <para>Use <link linkend="hb-font-draw-glyph"><function>hb_font_draw_glyph()</function></link> instead</para>
+</warning>
+<para>Fetches the glyph shape that corresponds to a glyph in the specified <parameter>font</parameter>
+.
+The shape is returned by way of calls to the callbacks of the <parameter>dfuncs</parameter>
+
+objects, with <parameter>draw_data</parameter>
+ passed to them.</para>
+<refsect3 id="hb-font-get-glyph-shape.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>The glyph ID</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>dfuncs</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-draw-funcs-t"><type>hb_draw_funcs_t</type></link> to draw to</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>draw_data</para></entry>
+<entry role="parameter_description"><para>User data to pass to draw callbacks</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-4.0.0">4.0.0</link></para></refsect2>
+<refsect2 id="hb-font-get-glyph-shape-func-t" role="function" condition="deprecated:7.0.0: Use #hb_font_draw_glyph_func_t instead|since:4.0.0">
+<title>hb_font_get_glyph_shape_func_t&#160;()</title>
+<indexterm zone="hb-font-get-glyph-shape-func-t" role="deprecated"><primary>hb_font_get_glyph_shape_func_t</primary></indexterm><indexterm zone="hb-font-get-glyph-shape-func-t" role="4.0.0"><primary>hb_font_get_glyph_shape_func_t</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_font_get_glyph_shape_func_t<phrase role="c_punctuation">)</phrase> (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                                   <parameter><link linkend="void"><type>void</type></link> *font_data</parameter>,
+                                   <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>,
+                                   <parameter><link linkend="hb-draw-funcs-t"><type>hb_draw_funcs_t</type></link> *draw_funcs</parameter>,
+                                   <parameter><link linkend="void"><type>void</type></link> *draw_data</parameter>,
+                                   <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<warning><para><literal>hb_font_get_glyph_shape_func_t</literal> has been deprecated since version 7.0.0 and should not be used in newly-written code.</para> <para>Use <link linkend="hb-font-draw-glyph-func-t"><type>hb_font_draw_glyph_func_t</type></link> instead</para>
+</warning>
+<para>A virtual method for the <link linkend="hb-font-funcs-t"><type>hb_font_funcs_t</type></link> of an <link linkend="hb-font-t"><type>hb_font_t</type></link> object.</para>
+<refsect3 id="hb-font-get-glyph-shape-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>font_data</para></entry>
+<entry role="parameter_description"><para><parameter>font</parameter>
+user data pointer</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>The glyph ID to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>draw_funcs</para></entry>
+<entry role="parameter_description"><para>The draw functions to send the shape data to</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>draw_data</para></entry>
+<entry role="parameter_description"><para>The data accompanying the draw functions</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>User data pointer passed by the caller</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-4.0.0">4.0.0</link></para></refsect2>
+<refsect2 id="hb-font-funcs-set-glyph-shape-func" role="function" condition="deprecated:7.0.0: Use hb_font_funcs_set_draw_glyph_func() instead|since:4.0.0">
+<title>hb_font_funcs_set_glyph_shape_func&#160;()</title>
+<indexterm zone="hb-font-funcs-set-glyph-shape-func" role="deprecated"><primary>hb_font_funcs_set_glyph_shape_func</primary></indexterm><indexterm zone="hb-font-funcs-set-glyph-shape-func" role="4.0.0"><primary>hb_font_funcs_set_glyph_shape_func</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_font_funcs_set_glyph_shape_func (<parameter><link linkend="hb-font-funcs-t"><type>hb_font_funcs_t</type></link> *ffuncs</parameter>,
+                                    <parameter><link linkend="hb-font-get-glyph-shape-func-t"><type>hb_font_get_glyph_shape_func_t</type></link> func</parameter>,
+                                    <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                                    <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<warning><para><literal>hb_font_funcs_set_glyph_shape_func</literal> has been deprecated since version 7.0.0 and should not be used in newly-written code.</para> <para>Use <link linkend="hb-font-funcs-set-draw-glyph-func"><function>hb_font_funcs_set_draw_glyph_func()</function></link> instead</para>
+</warning>
+<para>Sets the implementation function for <link linkend="hb-font-get-glyph-shape-func-t"><type>hb_font_get_glyph_shape_func_t</type></link>,
+which is the same as <link linkend="hb-font-draw-glyph-func-t"><type>hb_font_draw_glyph_func_t</type></link>.</para>
+<refsect3 id="hb-font-funcs-set-glyph-shape-func.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>ffuncs</para></entry>
+<entry role="parameter_description"><para>A font-function structure</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>func</para></entry>
+<entry role="parameter_description"><para>The callback function to assign. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>closure</acronym> user_data][<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>Data to pass to <parameter>func</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>The function to call when <parameter>user_data</parameter>
+is not needed anymore. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-4.0.0">4.0.0</link></para></refsect2>
+<refsect2 id="hb-font-get-glyph-v-kerning" role="function" condition="deprecated:2.0.0|since:0.9.2">
+<title>hb_font_get_glyph_v_kerning&#160;()</title>
+<indexterm zone="hb-font-get-glyph-v-kerning" role="deprecated"><primary>hb_font_get_glyph_v_kerning</primary></indexterm><indexterm zone="hb-font-get-glyph-v-kerning" role="0.9.2"><primary>hb_font_get_glyph_v_kerning</primary></indexterm>
+<programlisting language="C"><link linkend="hb-position-t"><returnvalue>hb_position_t</returnvalue></link>
+hb_font_get_glyph_v_kerning (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                             <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> top_glyph</parameter>,
+                             <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> bottom_glyph</parameter>);</programlisting>
+<warning><para><literal>hb_font_get_glyph_v_kerning</literal> has been deprecated since version 2.0.0 and should not be used in newly-written code.</para></warning>
+<para>Fetches the kerning-adjustment value for a glyph-pair in
+the specified font, for vertical text segments.</para>
+<note>It handles legacy kerning only (as returned by the corresponding
+<link linkend="hb-font-funcs-t"><type>hb_font_funcs_t</type></link> function).</note>
+<refsect3 id="hb-font-get-glyph-v-kerning.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>top_glyph</para></entry>
+<entry role="parameter_description"><para>The glyph ID of the top glyph in the glyph pair</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>bottom_glyph</para></entry>
+<entry role="parameter_description"><para>The glyph ID of the bottom glyph in the glyph pair</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-font-get-glyph-v-kerning.returns" role="returns">
+<title>Returns</title>
+<para> The kerning adjustment value</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-deprecated.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="HB-BUFFER-FLAGS-DEFAULT:CAPS" role="macro" condition="deprecated:0.9.20">
+<title>HB_BUFFER_FLAGS_DEFAULT</title>
+<indexterm zone="HB-BUFFER-FLAGS-DEFAULT:CAPS" role="deprecated"><primary>HB_BUFFER_FLAGS_DEFAULT</primary></indexterm>
+<programlisting language="C">#define HB_BUFFER_FLAGS_DEFAULT			HB_BUFFER_FLAG_DEFAULT
+</programlisting>
+<warning><para><literal>HB_BUFFER_FLAGS_DEFAULT</literal> has been deprecated since version 0.9.20 and should not be used in newly-written code.</para></warning>
+<para>Use <link linkend="HB-BUFFER-FLAG-DEFAULT:CAPS"><type>HB_BUFFER_FLAG_DEFAULT</type></link> instead.</para>
+</refsect2>
+<refsect2 id="HB-BUFFER-SERIALIZE-FLAGS-DEFAULT:CAPS" role="macro" condition="deprecated:0.9.20">
+<title>HB_BUFFER_SERIALIZE_FLAGS_DEFAULT</title>
+<indexterm zone="HB-BUFFER-SERIALIZE-FLAGS-DEFAULT:CAPS" role="deprecated"><primary>HB_BUFFER_SERIALIZE_FLAGS_DEFAULT</primary></indexterm>
+<programlisting language="C">#define HB_BUFFER_SERIALIZE_FLAGS_DEFAULT&#160;HB_BUFFER_SERIALIZE_FLAG_DEFAULT
+</programlisting>
+<warning><para><literal>HB_BUFFER_SERIALIZE_FLAGS_DEFAULT</literal> has been deprecated since version 0.9.20 and should not be used in newly-written code.</para></warning>
+<para>Use <link linkend="HB-BUFFER-SERIALIZE-FLAG-DEFAULT:CAPS"><type>HB_BUFFER_SERIALIZE_FLAG_DEFAULT</type></link> instead.</para>
+</refsect2>
+<refsect2 id="HB-SCRIPT-CANADIAN-ABORIGINAL:CAPS" role="macro" condition="deprecated:0.9.20">
+<title>HB_SCRIPT_CANADIAN_ABORIGINAL</title>
+<indexterm zone="HB-SCRIPT-CANADIAN-ABORIGINAL:CAPS" role="deprecated"><primary>HB_SCRIPT_CANADIAN_ABORIGINAL</primary></indexterm>
+<programlisting language="C">#define HB_SCRIPT_CANADIAN_ABORIGINAL		HB_SCRIPT_CANADIAN_SYLLABICS
+</programlisting>
+<warning><para><literal>HB_SCRIPT_CANADIAN_ABORIGINAL</literal> has been deprecated since version 0.9.20 and should not be used in newly-written code.</para></warning>
+<para>Use <link linkend="HB-SCRIPT-CANADIAN-SYLLABICS:CAPS"><type>HB_SCRIPT_CANADIAN_SYLLABICS</type></link> instead:</para>
+</refsect2>
+<refsect2 id="HB-MATH-GLYPH-PART-FLAG-EXTENDER:CAPS" role="macro" condition="deprecated:2.5.1">
+<title>HB_MATH_GLYPH_PART_FLAG_EXTENDER</title>
+<indexterm zone="HB-MATH-GLYPH-PART-FLAG-EXTENDER:CAPS" role="deprecated"><primary>HB_MATH_GLYPH_PART_FLAG_EXTENDER</primary></indexterm>
+<programlisting language="C">#define HB_MATH_GLYPH_PART_FLAG_EXTENDER HB_OT_MATH_GLYPH_PART_FLAG_EXTENDER
+</programlisting>
+<warning><para><literal>HB_MATH_GLYPH_PART_FLAG_EXTENDER</literal> has been deprecated since version 2.5.1 and should not be used in newly-written code.</para></warning>
+<para>Use <link linkend="HB-OT-MATH-GLYPH-PART-FLAG-EXTENDER:CAPS"><type>HB_OT_MATH_GLYPH_PART_FLAG_EXTENDER</type></link> instead.</para>
+</refsect2>
+<refsect2 id="HB-OT-MATH-SCRIPT:CAPS" role="macro" condition="deprecated:3.4.0|since:1.3.3">
+<title>HB_OT_MATH_SCRIPT</title>
+<indexterm zone="HB-OT-MATH-SCRIPT:CAPS" role="deprecated"><primary>HB_OT_MATH_SCRIPT</primary></indexterm><indexterm zone="HB-OT-MATH-SCRIPT:CAPS" role="1.3.3"><primary>HB_OT_MATH_SCRIPT</primary></indexterm>
+<programlisting language="C">#define HB_OT_MATH_SCRIPT HB_OT_TAG_MATH_SCRIPT
+</programlisting>
+<warning><para><literal>HB_OT_MATH_SCRIPT</literal> has been deprecated since version 3.4.0 and should not be used in newly-written code.</para></warning>
+<para>Use <link linkend="HB-SCRIPT-MATH:CAPS"><type>HB_SCRIPT_MATH</type></link> or <link linkend="HB-OT-TAG-MATH-SCRIPT:CAPS"><type>HB_OT_TAG_MATH_SCRIPT</type></link> instead.</para>
+<note>Previous versions of this documentation recommended passing
+<link linkend="HB-OT-MATH-SCRIPT:CAPS"><type>HB_OT_MATH_SCRIPT</type></link> to <link linkend="hb-buffer-set-script"><function>hb_buffer_set_script()</function></link> to enable math shaping, but this
+usage is no longer supported. Use <link linkend="HB-SCRIPT-MATH:CAPS"><type>HB_SCRIPT_MATH</type></link> instead.</note>
+<para role="since">Since: <link linkend="api-index-1.3.3">1.3.3</link></para></refsect2>
+<refsect2 id="HB-OT-VAR-NO-AXIS-INDEX:CAPS" role="macro" condition="deprecated:2.2.0|since:1.4.2">
+<title>HB_OT_VAR_NO_AXIS_INDEX</title>
+<indexterm zone="HB-OT-VAR-NO-AXIS-INDEX:CAPS" role="deprecated"><primary>HB_OT_VAR_NO_AXIS_INDEX</primary></indexterm><indexterm zone="HB-OT-VAR-NO-AXIS-INDEX:CAPS" role="1.4.2"><primary>HB_OT_VAR_NO_AXIS_INDEX</primary></indexterm>
+<programlisting language="C">#define HB_OT_VAR_NO_AXIS_INDEX		0xFFFFFFFFu
+</programlisting>
+<warning><para><literal>HB_OT_VAR_NO_AXIS_INDEX</literal> has been deprecated since version 2.2.0 and should not be used in newly-written code.</para></warning>
+<para>Do not use.</para>
+<para role="since">Since: <link linkend="api-index-1.4.2">1.4.2</link></para></refsect2>
+<refsect2 id="hb-ot-var-axis-t" role="struct" condition="deprecated:2.2.0|since:1.4.2">
+<title>hb_ot_var_axis_t</title>
+<indexterm zone="hb-ot-var-axis-t" role="deprecated"><primary>hb_ot_var_axis_t</primary></indexterm><indexterm zone="hb-ot-var-axis-t" role="1.4.2"><primary>hb_ot_var_axis_t</primary></indexterm>
+<programlisting language="C">typedef struct {
+  hb_tag_t tag;
+  hb_ot_name_id_t name_id;
+  float min_value;
+  float default_value;
+  float max_value;
+} hb_ot_var_axis_t;
+</programlisting>
+<warning><para><literal>hb_ot_var_axis_t</literal> has been deprecated since version 2.2.0 and should not be used in newly-written code.</para></warning>
+<para>Use <link linkend="hb-ot-var-axis-info-t"><type>hb_ot_var_axis_info_t</type></link> instead.</para>
+<refsect3 id="hb-ot-var-axis-t.members" role="struct_members">
+<title>Members</title>
+<informaltable role="struct_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="struct_members_name" colwidth="300px"/>
+<colspec colname="struct_members_description"/>
+<colspec colname="struct_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-tag-t"><type>hb_tag_t</type></link>&#160;<structfield id="hb-ot-var-axis-t.tag">tag</structfield>;</para></entry>
+<entry role="struct_member_description"><para>axis tag</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-ot-name-id-t"><type>hb_ot_name_id_t</type></link>&#160;<structfield id="hb-ot-var-axis-t.name-id">name_id</structfield>;</para></entry>
+<entry role="struct_member_description"><para>axis name identifier</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="float"><type>float</type></link>&#160;<structfield id="hb-ot-var-axis-t.min-value">min_value</structfield>;</para></entry>
+<entry role="struct_member_description"><para>minimum value of the axis</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="float"><type>float</type></link>&#160;<structfield id="hb-ot-var-axis-t.default-value">default_value</structfield>;</para></entry>
+<entry role="struct_member_description"><para>default value of the axis</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="float"><type>float</type></link>&#160;<structfield id="hb-ot-var-axis-t.max-value">max_value</structfield>;</para></entry>
+<entry role="struct_member_description"><para>maximum value of the axis</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3>
+<para role="since">Since: <link linkend="api-index-1.4.2">1.4.2</link></para></refsect2>
+<refsect2 id="HB-UNICODE-MAX-DECOMPOSITION-LEN:CAPS" role="macro" condition="deprecated:2.0.0">
+<title>HB_UNICODE_MAX_DECOMPOSITION_LEN</title>
+<indexterm zone="HB-UNICODE-MAX-DECOMPOSITION-LEN:CAPS" role="deprecated"><primary>HB_UNICODE_MAX_DECOMPOSITION_LEN</primary></indexterm>
+<programlisting language="C">#define HB_UNICODE_MAX_DECOMPOSITION_LEN (18+1) /* codepoints */
+</programlisting>
+<warning><para><literal>HB_UNICODE_MAX_DECOMPOSITION_LEN</literal> has been deprecated since version 2.0.0 and should not be used in newly-written code.</para></warning>
+<para>See Unicode 6.1 for details on the maximum decomposition length.</para>
+</refsect2>
+<refsect2 id="HB-UNICODE-COMBINING-CLASS-CCC133:CAPS" role="macro" condition="deprecated:7.2.0">
+<title>HB_UNICODE_COMBINING_CLASS_CCC133</title>
+<indexterm zone="HB-UNICODE-COMBINING-CLASS-CCC133:CAPS" role="deprecated"><primary>HB_UNICODE_COMBINING_CLASS_CCC133</primary></indexterm>
+<programlisting language="C">#define HB_UNICODE_COMBINING_CLASS_CCC133 133
+</programlisting>
+<warning><para><literal>HB_UNICODE_COMBINING_CLASS_CCC133</literal> has been deprecated since version 7.2.0 and should not be used in newly-written code.</para></warning>
+<para>[Tibetan]</para>
+</refsect2>
+<refsect2 id="hb-font-get-glyph-v-kerning-func-t" role="typedef" condition="deprecated:">
+<title>hb_font_get_glyph_v_kerning_func_t</title>
+<indexterm zone="hb-font-get-glyph-v-kerning-func-t" role="deprecated"><primary>hb_font_get_glyph_v_kerning_func_t</primary></indexterm>
+<programlisting language="C">typedef hb_font_get_glyph_kerning_func_t hb_font_get_glyph_v_kerning_func_t;
+</programlisting>
+<warning><para><literal>hb_font_get_glyph_v_kerning_func_t</literal> is deprecated and should not be used in newly-written code.</para></warning>
+<para>A virtual method for the <link linkend="hb-font-funcs-t"><type>hb_font_funcs_t</type></link> of an <link linkend="hb-font-t"><type>hb_font_t</type></link> object.</para>
+<para>This method should retrieve the kerning-adjustment value for a glyph-pair in
+the specified font, for vertical text segments.</para>
+</refsect2>
+
+</refsect1>
+
+</refentry>

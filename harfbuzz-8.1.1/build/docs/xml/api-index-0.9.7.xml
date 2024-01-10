@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-0.9.7">
+<indexdiv><title>B</title>
+<indexentry><primaryie linkends="hb-buffer-add"><link linkend="hb-buffer-add">hb_buffer_add</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-deserialize-glyphs"><link linkend="hb-buffer-deserialize-glyphs">hb_buffer_deserialize_glyphs</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-get-flags"><link linkend="hb-buffer-get-flags">hb_buffer_get_flags</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-get-segment-properties"><link linkend="hb-buffer-get-segment-properties">hb_buffer_get_segment_properties</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-guess-segment-properties"><link linkend="hb-buffer-guess-segment-properties">hb_buffer_guess_segment_properties</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-serialize-format-from-string"><link linkend="hb-buffer-serialize-format-from-string">hb_buffer_serialize_format_from_string</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-serialize-format-to-string"><link linkend="hb-buffer-serialize-format-to-string">hb_buffer_serialize_format_to_string</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-serialize-glyphs"><link linkend="hb-buffer-serialize-glyphs">hb_buffer_serialize_glyphs</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-serialize-list-formats"><link linkend="hb-buffer-serialize-list-formats">hb_buffer_serialize_list_formats</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-set-flags"><link linkend="hb-buffer-set-flags">hb_buffer_set_flags</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-set-segment-properties"><link linkend="hb-buffer-set-segment-properties">hb_buffer_set_segment_properties</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="hb-face-get-glyph-count"><link linkend="hb-face-get-glyph-count">hb_face_get_glyph_count</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-face-set-glyph-count"><link linkend="hb-face-set-glyph-count">hb_face_set_glyph_count</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>O</title>
+<indexentry><primaryie linkends="hb-ot-layout-feature-get-lookups"><link linkend="hb-ot-layout-feature-get-lookups">hb_ot_layout_feature_get_lookups</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-layout-get-glyphs-in-class"><link linkend="hb-ot-layout-get-glyphs-in-class">hb_ot_layout_get_glyphs_in_class</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-layout-get-glyph-class"><link linkend="hb-ot-layout-get-glyph-class">hb_ot_layout_get_glyph_class</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-layout-lookup-collect-glyphs"><link linkend="hb-ot-layout-lookup-collect-glyphs">hb_ot_layout_lookup_collect_glyphs</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-layout-lookup-substitute-closure"><link linkend="hb-ot-layout-lookup-substitute-closure">hb_ot_layout_lookup_substitute_closure</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-layout-lookup-would-substitute"><link linkend="hb-ot-layout-lookup-would-substitute">hb_ot_layout_lookup_would_substitute</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-shape-plan-collect-lookups"><link linkend="hb-ot-shape-plan-collect-lookups">hb_ot_shape_plan_collect_lookups</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>S</title>
+<indexentry><primaryie linkends="hb-segment-properties-equal"><link linkend="hb-segment-properties-equal">hb_segment_properties_equal</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-segment-properties-hash"><link linkend="hb-segment-properties-hash">hb_segment_properties_hash</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-add-range"><link linkend="hb-set-add-range">hb_set_add_range</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-del-range"><link linkend="hb-set-del-range">hb_set_del_range</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-get-max"><link linkend="hb-set-get-max">hb_set_get_max</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-get-min"><link linkend="hb-set-get-min">hb_set_get_min</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-get-population"><link linkend="hb-set-get-population">hb_set_get_population</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-is-empty"><link linkend="hb-set-is-empty">hb_set_is_empty</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-is-equal"><link linkend="hb-set-is-equal">hb_set_is_equal</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-next-range"><link linkend="hb-set-next-range">hb_set_next_range</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-shape-plan-create"><link linkend="hb-shape-plan-create">hb_shape_plan_create</link>, function in <link linkend="harfbuzz-hb-shape-plan">hb-shape-plan</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-shape-plan-create-cached"><link linkend="hb-shape-plan-create-cached">hb_shape_plan_create_cached</link>, function in <link linkend="harfbuzz-hb-shape-plan">hb-shape-plan</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-shape-plan-destroy"><link linkend="hb-shape-plan-destroy">hb_shape_plan_destroy</link>, function in <link linkend="harfbuzz-hb-shape-plan">hb-shape-plan</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-shape-plan-execute"><link linkend="hb-shape-plan-execute">hb_shape_plan_execute</link>, function in <link linkend="harfbuzz-hb-shape-plan">hb-shape-plan</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-shape-plan-get-empty"><link linkend="hb-shape-plan-get-empty">hb_shape_plan_get_empty</link>, function in <link linkend="harfbuzz-hb-shape-plan">hb-shape-plan</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-shape-plan-get-shaper"><link linkend="hb-shape-plan-get-shaper">hb_shape_plan_get_shaper</link>, function in <link linkend="harfbuzz-hb-shape-plan">hb-shape-plan</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-shape-plan-get-user-data"><link linkend="hb-shape-plan-get-user-data">hb_shape_plan_get_user_data</link>, function in <link linkend="harfbuzz-hb-shape-plan">hb-shape-plan</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-shape-plan-reference"><link linkend="hb-shape-plan-reference">hb_shape_plan_reference</link>, function in <link linkend="harfbuzz-hb-shape-plan">hb-shape-plan</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-shape-plan-set-user-data"><link linkend="hb-shape-plan-set-user-data">hb_shape_plan_set_user_data</link>, function in <link linkend="harfbuzz-hb-shape-plan">hb-shape-plan</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

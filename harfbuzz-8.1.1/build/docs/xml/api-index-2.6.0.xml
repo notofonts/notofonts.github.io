@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-2.6.0">
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="hb-font-set-var-named-instance"><link linkend="hb-font-set-var-named-instance">hb_font_set_var_named_instance</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>G</title>
+<indexentry><primaryie linkends="hb-gdi-face-create"><link linkend="hb-gdi-face-create">hb_gdi_face_create</link>, function in <link linkend="harfbuzz-hb-gdi">hb-gdi</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>O</title>
+<indexentry><primaryie linkends="hb-ot-layout-baseline-tag-t"><link linkend="hb-ot-layout-baseline-tag-t">hb_ot_layout_baseline_tag_t</link>, enum in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-layout-get-baseline"><link linkend="hb-ot-layout-get-baseline">hb_ot_layout_get_baseline</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-meta-get-entry-tags"><link linkend="hb-ot-meta-get-entry-tags">hb_ot_meta_get_entry_tags</link>, function in <link linkend="harfbuzz-hb-ot-meta">hb-ot-meta</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-meta-reference-entry"><link linkend="hb-ot-meta-reference-entry">hb_ot_meta_reference_entry</link>, function in <link linkend="harfbuzz-hb-ot-meta">hb-ot-meta</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-meta-tag-t"><link linkend="hb-ot-meta-tag-t">hb_ot_meta_tag_t</link>, enum in <link linkend="harfbuzz-hb-ot-meta">hb-ot-meta</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-metrics-get-position"><link linkend="hb-ot-metrics-get-position">hb_ot_metrics_get_position</link>, function in <link linkend="harfbuzz-hb-ot-metrics">hb-ot-metrics</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-metrics-get-variation"><link linkend="hb-ot-metrics-get-variation">hb_ot_metrics_get_variation</link>, function in <link linkend="harfbuzz-hb-ot-metrics">hb-ot-metrics</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-metrics-get-x-variation"><link linkend="hb-ot-metrics-get-x-variation">hb_ot_metrics_get_x_variation</link>, function in <link linkend="harfbuzz-hb-ot-metrics">hb-ot-metrics</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-metrics-get-y-variation"><link linkend="hb-ot-metrics-get-y-variation">hb_ot_metrics_get_y_variation</link>, function in <link linkend="harfbuzz-hb-ot-metrics">hb-ot-metrics</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-metrics-tag-t"><link linkend="hb-ot-metrics-tag-t">hb_ot_metrics_tag_t</link>, enum in <link linkend="harfbuzz-hb-ot-metrics">hb-ot-metrics</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

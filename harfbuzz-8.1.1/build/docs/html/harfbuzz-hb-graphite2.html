@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>hb-graphite2: HarfBuzz Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="HarfBuzz Manual">
+<link rel="up" href="integration-api.html" title="Integration API">
+<link rel="prev" href="harfbuzz-hb-glib.html" title="hb-glib">
+<link rel="next" href="harfbuzz-hb-icu.html" title="hb-icu">
+<meta name="generator" content="GTK-Doc V1.33.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#harfbuzz-hb-graphite2.description" class="shortcut">Description</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="integration-api.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="harfbuzz-hb-glib.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="harfbuzz-hb-icu.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="harfbuzz-hb-graphite2"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="harfbuzz-hb-graphite2.top_of_page"></a>hb-graphite2</span></h2>
+<p>hb-graphite2 — Graphite2 integration</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="harfbuzz-hb-graphite2.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gr_face</span> *
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-graphite2.html#hb-graphite2-face-get-gr-face" title="hb_graphite2_face_get_gr_face ()">hb_graphite2_face_get_gr_face</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">gr_font</span> *
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-graphite2.html#hb-graphite2-font-get-gr-font" title="hb_graphite2_font_get_gr_font ()">hb_graphite2_font_get_gr_font</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-graphite2.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody><tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-graphite2.html#HB-GRAPHITE2-TAG-SILF:CAPS" title="HB_GRAPHITE2_TAG_SILF">HB_GRAPHITE2_TAG_SILF</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-graphite2.includes"></a><h2>Includes</h2>
+<pre class="synopsis">#include &lt;hb-graphite2.h&gt;
+</pre>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-graphite2.description"></a><h2>Description</h2>
+<p>Functions for using HarfBuzz with fonts that include Graphite features.</p>
+<p>For Graphite features to work, you must be sure that HarfBuzz was compiled
+with the <code class="literal">graphite2</code> shaping engine enabled. Currently, the default is to
+not enable <code class="literal">graphite2</code> shaping.</p>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-graphite2.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="hb-graphite2-face-get-gr-face"></a><h3>hb_graphite2_face_get_gr_face ()</h3>
+<pre class="programlisting"><span class="returnvalue">gr_face</span> *
+hb_graphite2_face_get_gr_face (<em class="parameter"><code><a class="link" href="harfbuzz-hb-face.html#hb-face-t" title="hb_face_t"><span class="type">hb_face_t</span></a> *face</code></em>);</pre>
+<p>Fetches the Graphite2 gr_face corresponding to the specified
+<a class="link" href="harfbuzz-hb-face.html#hb-face-t" title="hb_face_t"><span class="type">hb_face_t</span></a> face object.</p>
+<p><span class="annotation">[<acronym title="Exposed in C code, not necessarily available in other languages."><span class="acronym">skip</span></acronym>]</span></p>
+<div class="refsect3">
+<a name="hb-graphite2-face-get-gr-face.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>face</p></td>
+<td class="parameter_description"><p><em class="parameter"><code>hb_face_t</code></em>
+to query</p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-graphite2-face-get-gr-face.returns"></a><h4>Returns</h4>
+<p> the gr_face found</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-0-9-10.html#api-index-0.9.10">0.9.10</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-graphite2-font-get-gr-font"></a><h3>hb_graphite2_font_get_gr_font ()</h3>
+<pre class="programlisting"><span class="returnvalue">gr_font</span> *
+hb_graphite2_font_get_gr_font (<em class="parameter"><code><a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> *font</code></em>);</pre>
+<div class="warning"><p><code class="literal">hb_graphite2_font_get_gr_font</code> has been deprecated since version 1.4.2 and should not be used in newly-written code.</p></div>
+<p>Always returns <code class="literal">NULL</code>. Use <a class="link" href="harfbuzz-hb-graphite2.html#hb-graphite2-face-get-gr-face" title="hb_graphite2_face_get_gr_face ()"><code class="function">hb_graphite2_face_get_gr_face()</code></a> instead.</p>
+<p><span class="annotation">[<acronym title="Exposed in C code, not necessarily available in other languages."><span class="acronym">skip</span></acronym>]</span></p>
+<div class="refsect3">
+<a name="hb-graphite2-font-get-gr-font.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>font</p></td>
+<td class="parameter_description"><p>An <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-graphite2-font-get-gr-font.returns"></a><h4>Returns</h4>
+<p>Graphite2 font associated with <em class="parameter"><code>font</code></em>
+. </p>
+<p><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-0-9-10.html#api-index-0.9.10">0.9.10</a></p>
+</div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-graphite2.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="HB-GRAPHITE2-TAG-SILF:CAPS"></a><h3>HB_GRAPHITE2_TAG_SILF</h3>
+<pre class="programlisting">#define HB_GRAPHITE2_TAG_SILF HB_TAG('S','i','l','f')
+</pre>
+<p>The <a class="link" href="harfbuzz-hb-common.html#hb-tag-t" title="hb_tag_t"><span class="type">hb_tag_t</span></a> tag for the <code class="literal">Silf</code> table, which holds Graphite
+features. </p>
+<p>For more information, see http://graphite.sil.org/</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.33.1</div>
+</body>
+</html>

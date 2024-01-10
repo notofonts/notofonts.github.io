@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Uniscribe integration: HarfBuzz Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="HarfBuzz Manual">
+<link rel="up" href="integration.html" title="Platform Integration Guide">
+<link rel="prev" href="integration-cairo.html" title="Cairo integration">
+<link rel="next" href="integration-coretext.html" title="Core Text integration">
+<meta name="generator" content="GTK-Doc V1.33.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts"></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="integration.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="integration-cairo.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="integration-coretext.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="section">
+<div class="titlepage"><div><div><h2 class="title" style="clear: both">
+<a name="integration-uniscribe"></a>Uniscribe integration</h2></div></div></div>
+<p>
+      If your client program is running on Windows, HarfBuzz offers
+      an additional API that can help integrate with Microsoft's
+      Uniscribe engine and the Windows GDI.
+    </p>
+<p>
+      Overall, the Uniscribe API covers a broader set of typographic
+      layout functions than HarfBuzz implements, but HarfBuzz's
+      shaping API can serve as a drop-in replacement for Uniscribe's shaping
+      functionality. In fact, one of HarfBuzz's design goals is to
+      accurately reproduce the same output for shaping a given text
+      segment that Uniscribe produces — even to the point of
+      duplicating known shaping bugs or deviations from the
+      specification — so you can be confident that your users'
+      documents with their existing fonts will not be affected adversely by
+      switching to HarfBuzz.
+    </p>
+<p>
+      At a basic level, HarfBuzz's <code class="function">hb_shape()</code>
+      function replaces both the <a class="ulink" href="" target="_top"><code class="function">ScriptShape()</code></a>
+      and <a class="ulink" href="https://docs.microsoft.com/en-us/windows/desktop/api/Usp10/nf-usp10-scriptplace" target="_top"><code class="function">ScriptPlace()</code></a>
+      functions from Uniscribe. 
+    </p>
+<p>
+      However, whereas <code class="function">ScriptShape()</code> returns the
+      glyphs and clusters for a shaped sequence and
+      <code class="function">ScriptPlace()</code> returns the advances and
+      offsets for those glyphs, <code class="function">hb_shape()</code>
+      handles both. After <code class="function">hb_shape()</code> shapes a
+      buffer, the output glyph IDs and cluster IDs are returned as
+      an array of <span class="structname">hb_glyph_info_t</span> structures, and the
+      glyph advances and offsets are returned as an array of
+      <span class="structname">hb_glyph_position_t</span> structures. 
+    </p>
+<p>
+      Your client program only needs to ensure that it converts
+      correctly between HarfBuzz's low-level data types (such as
+      <span class="type">hb_position_t</span>) and Windows's corresponding types
+      (such as <span class="type">GOFFSET</span> and <span class="type">ABC</span>). Be sure you
+      read the <a class="xref" href="buffers-language-script-and-direction.html" title="Buffers, language, script and direction"><i>Buffers, language, script and direction</i></a> 
+      chapter for a full explanation of how HarfBuzz input buffers are
+      used, and see <a class="xref" href="shaping-and-shape-plans.html#shaping-buffer-output" title="Shaping and buffer output">the section called “Shaping and buffer output”</a> for the
+      details of what <code class="function">hb_shape()</code> returns in the
+      output buffer when shaping is complete. 
+    </p>
+<p>
+      Although <code class="function">hb_shape()</code> itself is functionally
+      equivalent to Uniscribe's shaping routines, there are two
+      additional HarfBuzz functions you may want to use to integrate
+      the libraries in your code. Both are used to link HarfBuzz font
+      objects to the equivalent Windows structures.
+    </p>
+<p>
+      The <code class="function">hb_uniscribe_font_get_logfontw()</code>
+      function takes a <span class="type">hb_font_t</span> font object and returns
+      a pointer to the <a class="ulink" href="https://docs.microsoft.com/en-us/windows/desktop/api/wingdi/ns-wingdi-logfontw" target="_top"><span class="type">LOGFONTW</span></a>
+      "logical font" that corresponds to it. A <span class="type">LOGFONTW</span>
+      structure holds font-wide attributes, including metrics, size,
+      and style information.
+    </p>
+<p>
+      The <code class="function">hb_uniscribe_font_get_hfont()</code> function
+      also takes a <span class="type">hb_font_t</span> font object, but it returns
+      an <span class="type">HFONT</span> — a handle to the underlying logical
+      font — instead.
+    </p>
+<p>
+      <span class="type">LOGFONTW</span>s and <span class="type">HFONT</span>s are both needed
+      by other Uniscribe functions.
+    </p>
+<p>
+      As a final note, you may notice a reference to an optional
+      <code class="literal">uniscribe</code> shaper back-end in the <a class="xref" href="building.html#configuration" title="Configuration options">the section called “Configuration options”</a> section of the HarfBuzz manual. This
+      option is not a Uniscribe-integration facility.
+    </p>
+<p>
+      Instead, it is a internal code path used in the
+      <span class="command"><strong>hb-shape</strong></span> command-line utility, which hands
+      shaping functionality over to Uniscribe entirely, when run on a
+      Windows system. That allows testing HarfBuzz's native output
+      against the Uniscribe engine, for tracking compatibility and
+      debugging.
+    </p>
+<p>
+      Because this back-end is only used when testing HarfBuzz
+      functionality, it is disabled by default when building the
+      HarfBuzz binaries.
+    </p>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.33.1</div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-0.9.31">
+<indexdiv><title>B</title>
+<indexentry><primaryie linkends="hb-buffer-add-codepoints"><link linkend="hb-buffer-add-codepoints">hb_buffer_add_codepoints</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-get-replacement-codepoint"><link linkend="hb-buffer-get-replacement-codepoint">hb_buffer_get_replacement_codepoint</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HB-BUFFER-REPLACEMENT-CODEPOINT-DEFAULT:CAPS"><link linkend="HB-BUFFER-REPLACEMENT-CODEPOINT-DEFAULT:CAPS">HB_BUFFER_REPLACEMENT_CODEPOINT_DEFAULT</link>, macro in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-set-replacement-codepoint"><link linkend="hb-buffer-set-replacement-codepoint">hb_buffer_set_replacement_codepoint</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

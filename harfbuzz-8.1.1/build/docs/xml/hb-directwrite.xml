@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-directwrite">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-directwrite.top_of_page">hb-directwrite</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-directwrite</refname>
+<refpurpose>DirectWrite integration</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-directwrite.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-directwrite-face-create">hb_directwrite_face_create</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="IDWriteFontFace"><returnvalue>IDWriteFontFace</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-directwrite-face-get-font-face">hb_directwrite_face_get_font_face</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-directwrite.includes"><title>Includes</title><synopsis>#include &lt;hb-directwrite.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-directwrite.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Functions for using HarfBuzz with DirectWrite fonts.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-directwrite.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-directwrite-face-create" role="function" condition="since:2.4.0">
+<title>hb_directwrite_face_create&#160;()</title>
+<indexterm zone="hb-directwrite-face-create" role="2.4.0"><primary>hb_directwrite_face_create</primary></indexterm>
+<programlisting language="C"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+hb_directwrite_face_create (<parameter><link linkend="IDWriteFontFace"><type>IDWriteFontFace</type></link> *font_face</parameter>);</programlisting>
+<para>Constructs a new face object from the specified DirectWrite IDWriteFontFace.</para>
+<refsect3 id="hb-directwrite-face-create.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font_face</para></entry>
+<entry role="parameter_description"><para>a DirectWrite IDWriteFontFace object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-directwrite-face-create.returns" role="returns">
+<title>Returns</title>
+<para> <link linkend="hb-face-t"><type>hb_face_t</type></link> object corresponding to the given input</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.4.0">2.4.0</link></para></refsect2>
+<refsect2 id="hb-directwrite-face-get-font-face" role="function" condition="since:2.5.0">
+<title>hb_directwrite_face_get_font_face&#160;()</title>
+<indexterm zone="hb-directwrite-face-get-font-face" role="2.5.0"><primary>hb_directwrite_face_get_font_face</primary></indexterm>
+<programlisting language="C"><link linkend="IDWriteFontFace"><returnvalue>IDWriteFontFace</returnvalue></link>&#160;*
+hb_directwrite_face_get_font_face (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Gets the DirectWrite IDWriteFontFace associated with <parameter>face</parameter>
+.</para>
+<refsect3 id="hb-directwrite-face-get-font-face.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-face-t"><type>hb_face_t</type></link> object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-directwrite-face-get-font-face.returns" role="returns">
+<title>Returns</title>
+<para> DirectWrite IDWriteFontFace object corresponding to the given input</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.5.0">2.5.0</link></para></refsect2>
+
+</refsect1>
+
+</refentry>

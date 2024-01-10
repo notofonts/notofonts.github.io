@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-1.0.5">
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="hb-font-set-parent"><link linkend="hb-font-set-parent">hb_font_set_parent</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ft-font-changed"><link linkend="hb-ft-font-changed">hb_ft_font_changed</link>, function in <link linkend="harfbuzz-hb-ft">hb-ft</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ft-font-get-load-flags"><link linkend="hb-ft-font-get-load-flags">hb_ft_font_get_load_flags</link>, function in <link linkend="harfbuzz-hb-ft">hb-ft</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ft-font-set-funcs"><link linkend="hb-ft-font-set-funcs">hb_ft_font_set_funcs</link>, function in <link linkend="harfbuzz-hb-ft">hb-ft</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ft-font-set-load-flags"><link linkend="hb-ft-font-set-load-flags">hb_ft_font_set_load_flags</link>, function in <link linkend="harfbuzz-hb-ft">hb-ft</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

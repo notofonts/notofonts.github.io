@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-1.4.2">
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="hb-font-get-var-coords-normalized"><link linkend="hb-font-get-var-coords-normalized">hb_font_get_var_coords_normalized</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-set-variations"><link linkend="hb-font-set-variations">hb_font_set_variations</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-set-var-coords-design"><link linkend="hb-font-set-var-coords-design">hb_font_set_var_coords_design</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-set-var-coords-normalized"><link linkend="hb-font-set-var-coords-normalized">hb_font_set_var_coords_normalized</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>O</title>
+<indexentry><primaryie linkends="hb-ot-var-axis-t"><link linkend="hb-ot-var-axis-t">hb_ot_var_axis_t</link>, struct in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-var-find-axis"><link linkend="hb-ot-var-find-axis">hb_ot_var_find_axis</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-var-get-axes"><link linkend="hb-ot-var-get-axes">hb_ot_var_get_axes</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-var-get-axis-count"><link linkend="hb-ot-var-get-axis-count">hb_ot_var_get_axis_count</link>, function in <link linkend="harfbuzz-hb-ot-var">hb-ot-var</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-var-has-data"><link linkend="hb-ot-var-has-data">hb_ot_var_has_data</link>, function in <link linkend="harfbuzz-hb-ot-var">hb-ot-var</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-var-normalize-coords"><link linkend="hb-ot-var-normalize-coords">hb_ot_var_normalize_coords</link>, function in <link linkend="harfbuzz-hb-ot-var">hb-ot-var</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-var-normalize-variations"><link linkend="hb-ot-var-normalize-variations">hb_ot_var_normalize_variations</link>, function in <link linkend="harfbuzz-hb-ot-var">hb-ot-var</link></primaryie></indexentry>
+<indexentry><primaryie linkends="HB-OT-VAR-NO-AXIS-INDEX:CAPS"><link linkend="HB-OT-VAR-NO-AXIS-INDEX:CAPS">HB_OT_VAR_NO_AXIS_INDEX</link>, macro in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>V</title>
+<indexentry><primaryie linkends="hb-variation-from-string"><link linkend="hb-variation-from-string">hb_variation_from_string</link>, function in <link linkend="harfbuzz-hb-common">hb-common</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-variation-t"><link linkend="hb-variation-t">hb_variation_t</link>, struct in <link linkend="harfbuzz-hb-common">hb-common</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-variation-to-string"><link linkend="hb-variation-to-string">hb_variation_to_string</link>, function in <link linkend="harfbuzz-hb-common">hb-common</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

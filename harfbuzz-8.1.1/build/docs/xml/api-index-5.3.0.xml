@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-5.3.0">
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="hb-face-builder-sort-tables"><link linkend="hb-face-builder-sort-tables">hb_face_builder_sort_tables</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>O</title>
+<indexentry><primaryie linkends="hb-ot-layout-lookup-get-optical-bound"><link linkend="hb-ot-layout-lookup-get-optical-bound">hb_ot_layout_lookup_get_optical_bound</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

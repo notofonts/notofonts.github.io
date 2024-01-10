@@ -1,0 +1,496 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-ot-var">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-ot-var.top_of_page">hb-ot-var</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-ot-var</refname>
+<refpurpose>OpenType Font Variations</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-ot-var.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-var-has-data">hb_ot_var_has_data</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-var-find-axis-info">hb_ot_var_find_axis_info</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-var-get-axis-count">hb_ot_var_get_axis_count</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-var-get-axis-infos">hb_ot_var_get_axis_infos</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-var-get-named-instance-count">hb_ot_var_get_named_instance_count</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-ot-name-id-t"><returnvalue>hb_ot_name_id_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-var-named-instance-get-subfamily-name-id">hb_ot_var_named_instance_get_subfamily_name_id</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-ot-name-id-t"><returnvalue>hb_ot_name_id_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-var-named-instance-get-postscript-name-id">hb_ot_var_named_instance_get_postscript_name_id</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-var-named-instance-get-design-coords">hb_ot_var_named_instance_get_design_coords</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-var-normalize-variations">hb_ot_var_normalize_variations</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-var-normalize-coords">hb_ot_var_normalize_coords</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-var.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-TAG-VAR-AXIS-ITALIC:CAPS">HB_OT_TAG_VAR_AXIS_ITALIC</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-TAG-VAR-AXIS-OPTICAL-SIZE:CAPS">HB_OT_TAG_VAR_AXIS_OPTICAL_SIZE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-TAG-VAR-AXIS-SLANT:CAPS">HB_OT_TAG_VAR_AXIS_SLANT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-TAG-VAR-AXIS-WEIGHT:CAPS">HB_OT_TAG_VAR_AXIS_WEIGHT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-OT-TAG-VAR-AXIS-WIDTH:CAPS">HB_OT_TAG_VAR_AXIS_WIDTH</link></entry></row>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-ot-var-axis-flags-t">hb_ot_var_axis_flags_t</link></entry></row>
+<row><entry role="datatype_keyword"></entry><entry role="function_name"><link linkend="hb-ot-var-axis-info-t">hb_ot_var_axis_info_t</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-ot-var.includes"><title>Includes</title><synopsis>#include &lt;hb-ot.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-ot-var.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Functions for fetching information about OpenType Variable Fonts.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-var.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-ot-var-has-data" role="function" condition="since:1.4.2">
+<title>hb_ot_var_has_data&#160;()</title>
+<indexterm zone="hb-ot-var-has-data" role="1.4.2"><primary>hb_ot_var_has_data</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_var_has_data (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Tests whether a face includes any OpenType variation data in the <literal>fvar</literal> table.</para>
+<refsect3 id="hb-ot-var-has-data.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-face-t"><type>hb_face_t</type></link> to work on</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-var-has-data.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if data found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.4.2">1.4.2</link></para></refsect2>
+<refsect2 id="hb-ot-var-find-axis-info" role="function" condition="since:2.2.0">
+<title>hb_ot_var_find_axis_info&#160;()</title>
+<indexterm zone="hb-ot-var-find-axis-info" role="2.2.0"><primary>hb_ot_var_find_axis_info</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_var_find_axis_info (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                          <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> axis_tag</parameter>,
+                          <parameter><link linkend="hb-ot-var-axis-info-t"><type>hb_ot_var_axis_info_t</type></link> *axis_info</parameter>);</programlisting>
+<para>Fetches the variation-axis information corresponding to the specified axis tag
+in the specified face.</para>
+<refsect3 id="hb-ot-var-find-axis-info.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>axis_tag</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-tag-t"><type>hb_tag_t</type></link> of the variation axis to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>axis_info</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-ot-var-axis-info-t"><type>hb_ot_var_axis_info_t</type></link> of the axis tag queried. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-var-find-axis-info.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if data found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.2.0">2.2.0</link></para></refsect2>
+<refsect2 id="hb-ot-var-get-axis-count" role="function" condition="since:1.4.2">
+<title>hb_ot_var_get_axis_count&#160;()</title>
+<indexterm zone="hb-ot-var-get-axis-count" role="1.4.2"><primary>hb_ot_var_get_axis_count</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_var_get_axis_count (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Fetches the number of OpenType variation axes included in the face.</para>
+<refsect3 id="hb-ot-var-get-axis-count.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-face-t"><type>hb_face_t</type></link> to work on</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-var-get-axis-count.returns" role="returns">
+<title>Returns</title>
+<para> the number of variation axes defined</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.4.2">1.4.2</link></para></refsect2>
+<refsect2 id="hb-ot-var-get-axis-infos" role="function" condition="since:2.2.0">
+<title>hb_ot_var_get_axis_infos&#160;()</title>
+<indexterm zone="hb-ot-var-get-axis-infos" role="2.2.0"><primary>hb_ot_var_get_axis_infos</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_var_get_axis_infos (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                          <parameter>unsigned <link linkend="int"><type>int</type></link> start_offset</parameter>,
+                          <parameter>unsigned <link linkend="int"><type>int</type></link> *axes_count</parameter>,
+                          <parameter><link linkend="hb-ot-var-axis-info-t"><type>hb_ot_var_axis_info_t</type></link> *axes_array</parameter>);</programlisting>
+<para>Fetches a list of all variation axes in the specified face. The list returned will begin
+at the offset provided.</para>
+<refsect3 id="hb-ot-var-get-axis-infos.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_offset</para></entry>
+<entry role="parameter_description"><para>offset of the first lookup to retrieve</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>axes_count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of variation axes to return;
+Output = the actual number of variation axes returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>axes_array</para></entry>
+<entry role="parameter_description"><para>The array of variation axes found. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out caller-allocates</acronym>][<acronym>array</acronym> length=axes_count]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-var-get-axis-infos.returns" role="returns">
+<title>Returns</title>
+<para> the number of variation axes in the face</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.2.0">2.2.0</link></para></refsect2>
+<refsect2 id="hb-ot-var-get-named-instance-count" role="function" condition="since:2.2.0">
+<title>hb_ot_var_get_named_instance_count&#160;()</title>
+<indexterm zone="hb-ot-var-get-named-instance-count" role="2.2.0"><primary>hb_ot_var_get_named_instance_count</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_var_get_named_instance_count (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Fetches the number of named instances included in the face.</para>
+<refsect3 id="hb-ot-var-get-named-instance-count.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-face-t"><type>hb_face_t</type></link> to work on</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-var-get-named-instance-count.returns" role="returns">
+<title>Returns</title>
+<para> the number of named instances defined</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.2.0">2.2.0</link></para></refsect2>
+<refsect2 id="hb-ot-var-named-instance-get-subfamily-name-id" role="function" condition="since:2.2.0">
+<title>hb_ot_var_named_instance_get_subfamily_name_id&#160;()</title>
+<indexterm zone="hb-ot-var-named-instance-get-subfamily-name-id" role="2.2.0"><primary>hb_ot_var_named_instance_get_subfamily_name_id</primary></indexterm>
+<programlisting language="C"><link linkend="hb-ot-name-id-t"><returnvalue>hb_ot_name_id_t</returnvalue></link>
+hb_ot_var_named_instance_get_subfamily_name_id
+                               (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> instance_index</parameter>);</programlisting>
+<para>Fetches the <literal>name</literal> table Name ID that provides display names for
+the "Subfamily name" defined for the given named instance in the face.</para>
+<refsect3 id="hb-ot-var-named-instance-get-subfamily-name-id.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-face-t"><type>hb_face_t</type></link> to work on</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>instance_index</para></entry>
+<entry role="parameter_description"><para>The index of the named instance to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-var-named-instance-get-subfamily-name-id.returns" role="returns">
+<title>Returns</title>
+<para> the Name ID found for the Subfamily name</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.2.0">2.2.0</link></para></refsect2>
+<refsect2 id="hb-ot-var-named-instance-get-postscript-name-id" role="function" condition="since:2.2.0">
+<title>hb_ot_var_named_instance_get_postscript_name_id&#160;()</title>
+<indexterm zone="hb-ot-var-named-instance-get-postscript-name-id" role="2.2.0"><primary>hb_ot_var_named_instance_get_postscript_name_id</primary></indexterm>
+<programlisting language="C"><link linkend="hb-ot-name-id-t"><returnvalue>hb_ot_name_id_t</returnvalue></link>
+hb_ot_var_named_instance_get_postscript_name_id
+                               (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> instance_index</parameter>);</programlisting>
+<para>Fetches the <literal>name</literal> table Name ID that provides display names for
+the "PostScript name" defined for the given named instance in the face.</para>
+<refsect3 id="hb-ot-var-named-instance-get-postscript-name-id.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-face-t"><type>hb_face_t</type></link> to work on</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>instance_index</para></entry>
+<entry role="parameter_description"><para>The index of the named instance to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-var-named-instance-get-postscript-name-id.returns" role="returns">
+<title>Returns</title>
+<para> the Name ID found for the PostScript name</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.2.0">2.2.0</link></para></refsect2>
+<refsect2 id="hb-ot-var-named-instance-get-design-coords" role="function" condition="since:2.2.0">
+<title>hb_ot_var_named_instance_get_design_coords&#160;()</title>
+<indexterm zone="hb-ot-var-named-instance-get-design-coords" role="2.2.0"><primary>hb_ot_var_named_instance_get_design_coords</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_var_named_instance_get_design_coords
+                               (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> instance_index</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> *coords_length</parameter>,
+                                <parameter><link linkend="float"><type>float</type></link> *coords</parameter>);</programlisting>
+<para>Fetches the design-space coordinates corresponding to the given
+named instance in the face.</para>
+<refsect3 id="hb-ot-var-named-instance-get-design-coords.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-face-t"><type>hb_face_t</type></link> to work on</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>instance_index</para></entry>
+<entry role="parameter_description"><para>The index of the named instance to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>coords_length</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of coordinates to return;
+Output = the actual number of coordinates returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>coords</para></entry>
+<entry role="parameter_description"><para>The array of coordinates found for the query. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>array</acronym> length=coords_length]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-var-named-instance-get-design-coords.returns" role="returns">
+<title>Returns</title>
+<para> the number of variation axes in the face</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.2.0">2.2.0</link></para></refsect2>
+<refsect2 id="hb-ot-var-normalize-variations" role="function" condition="since:1.4.2">
+<title>hb_ot_var_normalize_variations&#160;()</title>
+<indexterm zone="hb-ot-var-normalize-variations" role="1.4.2"><primary>hb_ot_var_normalize_variations</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ot_var_normalize_variations (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                <parameter>const <link linkend="hb-variation-t"><type>hb_variation_t</type></link> *variations</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> variations_length</parameter>,
+                                <parameter><link linkend="int"><type>int</type></link> *coords</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> coords_length</parameter>);</programlisting>
+<para>Normalizes all of the coordinates in the given list of variation axes.</para>
+<refsect3 id="hb-ot-var-normalize-variations.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-face-t"><type>hb_face_t</type></link> to work on</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>variations</para></entry>
+<entry role="parameter_description"><para>The array of variations to normalize</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>variations_length</para></entry>
+<entry role="parameter_description"><para>The number of variations to normalize</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>coords</para></entry>
+<entry role="parameter_description"><para>The array of normalized coordinates. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>array</acronym> length=coords_length]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>coords_length</para></entry>
+<entry role="parameter_description"><para>The length of the coordinate array</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.4.2">1.4.2</link></para></refsect2>
+<refsect2 id="hb-ot-var-normalize-coords" role="function" condition="since:1.4.2">
+<title>hb_ot_var_normalize_coords&#160;()</title>
+<indexterm zone="hb-ot-var-normalize-coords" role="1.4.2"><primary>hb_ot_var_normalize_coords</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ot_var_normalize_coords (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                            <parameter>unsigned <link linkend="int"><type>int</type></link> coords_length</parameter>,
+                            <parameter>const <link linkend="float"><type>float</type></link> *design_coords</parameter>,
+                            <parameter><link linkend="int"><type>int</type></link> *normalized_coords</parameter>);</programlisting>
+<para>Normalizes the given design-space coordinates. The minimum and maximum
+values for the axis are mapped to the interval [-1,1], with the default
+axis value mapped to 0.</para>
+<para>The normalized values have 14 bits of fixed-point sub-integer precision as per
+OpenType specification.</para>
+<para>Any additional scaling defined in the face's <literal>avar</literal> table is also
+applied, as described at https://docs.microsoft.com/en-us/typography/opentype/spec/avar</para>
+<refsect3 id="hb-ot-var-normalize-coords.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-face-t"><type>hb_face_t</type></link> to work on</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>coords_length</para></entry>
+<entry role="parameter_description"><para>The length of the coordinate array</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>design_coords</para></entry>
+<entry role="parameter_description"><para>The design-space coordinates to normalize</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>normalized_coords</para></entry>
+<entry role="parameter_description"><para>The normalized coordinates. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.4.2">1.4.2</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-var.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="HB-OT-TAG-VAR-AXIS-ITALIC:CAPS" role="macro">
+<title>HB_OT_TAG_VAR_AXIS_ITALIC</title>
+<indexterm zone="HB-OT-TAG-VAR-AXIS-ITALIC:CAPS"><primary>HB_OT_TAG_VAR_AXIS_ITALIC</primary></indexterm>
+<programlisting language="C">#define HB_OT_TAG_VAR_AXIS_ITALIC&#160;HB_TAG('i','t','a','l')
+</programlisting>
+<para>Registered tag for the roman/italic axis.</para>
+</refsect2>
+<refsect2 id="HB-OT-TAG-VAR-AXIS-OPTICAL-SIZE:CAPS" role="macro">
+<title>HB_OT_TAG_VAR_AXIS_OPTICAL_SIZE</title>
+<indexterm zone="HB-OT-TAG-VAR-AXIS-OPTICAL-SIZE:CAPS"><primary>HB_OT_TAG_VAR_AXIS_OPTICAL_SIZE</primary></indexterm>
+<programlisting language="C">#define HB_OT_TAG_VAR_AXIS_OPTICAL_SIZE&#160;HB_TAG('o','p','s','z')
+</programlisting>
+<para>Registered tag for the optical-size axis.</para>
+<note>Note: The optical-size axis supersedes the OpenType `size` feature.</note>
+</refsect2>
+<refsect2 id="HB-OT-TAG-VAR-AXIS-SLANT:CAPS" role="macro">
+<title>HB_OT_TAG_VAR_AXIS_SLANT</title>
+<indexterm zone="HB-OT-TAG-VAR-AXIS-SLANT:CAPS"><primary>HB_OT_TAG_VAR_AXIS_SLANT</primary></indexterm>
+<programlisting language="C">#define HB_OT_TAG_VAR_AXIS_SLANT&#160;HB_TAG('s','l','n','t')
+</programlisting>
+<para>Registered tag for the slant axis</para>
+</refsect2>
+<refsect2 id="HB-OT-TAG-VAR-AXIS-WEIGHT:CAPS" role="macro">
+<title>HB_OT_TAG_VAR_AXIS_WEIGHT</title>
+<indexterm zone="HB-OT-TAG-VAR-AXIS-WEIGHT:CAPS"><primary>HB_OT_TAG_VAR_AXIS_WEIGHT</primary></indexterm>
+<programlisting language="C">#define HB_OT_TAG_VAR_AXIS_WEIGHT&#160;HB_TAG('w','g','h','t')
+</programlisting>
+<para>Registered tag for the weight axis.</para>
+</refsect2>
+<refsect2 id="HB-OT-TAG-VAR-AXIS-WIDTH:CAPS" role="macro">
+<title>HB_OT_TAG_VAR_AXIS_WIDTH</title>
+<indexterm zone="HB-OT-TAG-VAR-AXIS-WIDTH:CAPS"><primary>HB_OT_TAG_VAR_AXIS_WIDTH</primary></indexterm>
+<programlisting language="C">#define HB_OT_TAG_VAR_AXIS_WIDTH&#160;HB_TAG('w','d','t','h')
+</programlisting>
+<para>Registered tag for the width axis.</para>
+</refsect2>
+<refsect2 id="hb-ot-var-axis-flags-t" role="enum" condition="since:2.2.0">
+<title>enum hb_ot_var_axis_flags_t</title>
+<indexterm zone="hb-ot-var-axis-flags-t" role="2.2.0"><primary>hb_ot_var_axis_flags_t</primary></indexterm>
+<para>Flags for <link linkend="hb-ot-var-axis-info-t"><type>hb_ot_var_axis_info_t</type></link>.</para>
+<refsect3 id="hb-ot-var-axis-flags-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-VAR-AXIS-FLAG-HIDDEN:CAPS">HB_OT_VAR_AXIS_FLAG_HIDDEN</para></entry>
+<entry role="enum_member_description"><para>The axis should not be exposed directly in user interfaces.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-2.2.0">2.2.0</link></para></refsect2>
+<refsect2 id="hb-ot-var-axis-info-t" role="struct" condition="since:2.2.0">
+<title>hb_ot_var_axis_info_t</title>
+<indexterm zone="hb-ot-var-axis-info-t" role="2.2.0"><primary>hb_ot_var_axis_info_t</primary></indexterm>
+<programlisting language="C">typedef struct {
+  unsigned int			axis_index;
+  hb_tag_t			tag;
+  hb_ot_name_id_t		name_id;
+  hb_ot_var_axis_flags_t&#160;flags;
+  float				min_value;
+  float				default_value;
+  float				max_value;
+} hb_ot_var_axis_info_t;
+</programlisting>
+<para>Data type for holding variation-axis values.</para>
+<para>The minimum, default, and maximum values are in un-normalized, user scales.</para>
+<note>Note: at present, the only flag defined for <parameter>flags</parameter> is
+<link linkend="HB-OT-VAR-AXIS-FLAG-HIDDEN:CAPS"><type>HB_OT_VAR_AXIS_FLAG_HIDDEN</type></link>.</note>
+<refsect3 id="hb-ot-var-axis-info-t.members" role="struct_members">
+<title>Members</title>
+<informaltable role="struct_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="struct_members_name" colwidth="300px"/>
+<colspec colname="struct_members_description"/>
+<colspec colname="struct_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="member"><entry role="struct_member_name"><para>unsigned&#160;<link linkend="int"><type>int</type></link>&#160;<structfield id="hb-ot-var-axis-info-t.axis-index">axis_index</structfield>;</para></entry>
+<entry role="struct_member_description"><para>Index of the axis in the variation-axis array</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-tag-t"><type>hb_tag_t</type></link>&#160;<structfield id="hb-ot-var-axis-info-t.tag">tag</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The <link linkend="hb-tag-t"><type>hb_tag_t</type></link> tag identifying the design variation of the axis</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-ot-name-id-t"><type>hb_ot_name_id_t</type></link>&#160;<structfield id="hb-ot-var-axis-info-t.name-id">name_id</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The <literal>name</literal> table Name ID that provides display names for the axis</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-ot-var-axis-flags-t"><type>hb_ot_var_axis_flags_t</type></link>&#160;<structfield id="hb-ot-var-axis-info-t.flags">flags</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The <link linkend="hb-ot-var-axis-flags-t"><type>hb_ot_var_axis_flags_t</type></link> flags for the axis</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="float"><type>float</type></link>&#160;<structfield id="hb-ot-var-axis-info-t.min-value">min_value</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The minimum value on the variation axis that the font covers</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="float"><type>float</type></link>&#160;<structfield id="hb-ot-var-axis-info-t.default-value">default_value</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The position on the variation axis corresponding to the font's defaults</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="float"><type>float</type></link>&#160;<structfield id="hb-ot-var-axis-info-t.max-value">max_value</structfield>;</para></entry>
+<entry role="struct_member_description"><para>The maximum value on the variation axis that the font covers</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3>
+<para role="since">Since: <link linkend="api-index-2.2.0">2.2.0</link></para></refsect2>
+
+</refsect1>
+
+</refentry>

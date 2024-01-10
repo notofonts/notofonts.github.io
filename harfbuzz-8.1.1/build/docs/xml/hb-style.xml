@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-style">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-style.top_of_page">hb-style</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-style</refname>
+<refpurpose>Font Styles</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-style.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="float"><returnvalue>float</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-style-get-value">hb_style_get_value</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="harfbuzz-hb-style.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-style-tag-t">hb_style_tag_t</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-style.includes"><title>Includes</title><synopsis>#include &lt;hb.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-style.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Functions for fetching style information from fonts.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-style.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-style-get-value" role="function" condition="since:3.0.0">
+<title>hb_style_get_value&#160;()</title>
+<indexterm zone="hb-style-get-value" role="3.0.0"><primary>hb_style_get_value</primary></indexterm>
+<programlisting language="C"><link linkend="float"><returnvalue>float</returnvalue></link>
+hb_style_get_value (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                    <parameter><link linkend="hb-style-tag-t"><type>hb_style_tag_t</type></link> style_tag</parameter>);</programlisting>
+<para>Searches variation axes of a <link linkend="hb-font-t"><type>hb_font_t</type></link> object for a specific axis first,
+if not set, then tries to get default style values from different
+tables of the font.</para>
+<refsect3 id="hb-style-get-value.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-font-t"><type>hb_font_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>style_tag</para></entry>
+<entry role="parameter_description"><para>a style tag.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-style-get-value.returns" role="returns">
+<title>Returns</title>
+<para> Corresponding axis or default value to a style tag.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-3.0.0">3.0.0</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-style.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="hb-style-tag-t" role="enum" condition="since:3.0.0">
+<title>enum hb_style_tag_t</title>
+<indexterm zone="hb-style-tag-t" role="3.0.0"><primary>hb_style_tag_t</primary></indexterm>
+<para>Defined by <ulink url="https://docs.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg">OpenType Design-Variation Axis Tag Registry</ulink>.</para>
+<refsect3 id="hb-style-tag-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-STYLE-TAG-ITALIC:CAPS">HB_STYLE_TAG_ITALIC</para></entry>
+<entry role="enum_member_description"><para>Used to vary between non-italic and italic.
+A value of 0 can be interpreted as "Roman" (non-italic); a value of 1 can
+be interpreted as (fully) italic.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-STYLE-TAG-OPTICAL-SIZE:CAPS">HB_STYLE_TAG_OPTICAL_SIZE</para></entry>
+<entry role="enum_member_description"><para>Used to vary design to suit different text sizes.
+Non-zero. Values can be interpreted as text size, in points.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-STYLE-TAG-SLANT-ANGLE:CAPS">HB_STYLE_TAG_SLANT_ANGLE</para></entry>
+<entry role="enum_member_description"><para>Used to vary between upright and slanted text. Values
+must be greater than -90 and less than +90. Values can be interpreted as
+the angle, in counter-clockwise degrees, of oblique slant from whatever the
+designer considers to be upright for that font design. Typical right-leaning
+Italic fonts have a negative slant angle (typically around -12)</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-STYLE-TAG-SLANT-RATIO:CAPS">HB_STYLE_TAG_SLANT_RATIO</para></entry>
+<entry role="enum_member_description"><para>same as <parameter>HB_STYLE_TAG_SLANT_ANGLE</parameter>
+ expression as ratio.
+Typical right-leaning Italic fonts have a positive slant ratio (typically around 0.2)</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-STYLE-TAG-WIDTH:CAPS">HB_STYLE_TAG_WIDTH</para></entry>
+<entry role="enum_member_description"><para>Used to vary width of text from narrower to wider.
+Non-zero. Values can be interpreted as a percentage of whatever the font
+designer considers “normal width” for that font design.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-STYLE-TAG-WEIGHT:CAPS">HB_STYLE_TAG_WEIGHT</para></entry>
+<entry role="enum_member_description"><para>Used to vary stroke thicknesses or other design details
+to give variation from lighter to blacker. Values can be interpreted in direct
+comparison to values for usWeightClass in the OS/2 table,
+or the CSS font-weight property.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-3.0.0">3.0.0</link></para></refsect2>
+
+</refsect1>
+
+</refentry>

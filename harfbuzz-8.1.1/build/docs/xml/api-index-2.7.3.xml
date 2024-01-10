@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-2.7.3">
+<indexdiv><title>B</title>
+<indexentry><primaryie linkends="hb-buffer-deserialize-unicode"><link linkend="hb-buffer-deserialize-unicode">hb_buffer_deserialize_unicode</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-has-positions"><link linkend="hb-buffer-has-positions">hb_buffer_has_positions</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-serialize"><link linkend="hb-buffer-serialize">hb_buffer_serialize</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-serialize-unicode"><link linkend="hb-buffer-serialize-unicode">hb_buffer_serialize_unicode</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

@@ -1,0 +1,376 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-ot-metrics">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-ot-metrics.top_of_page">hb-ot-metrics</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-ot-metrics</refname>
+<refpurpose>OpenType Metrics</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-ot-metrics.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-metrics-get-position">hb_ot_metrics_get_position</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-metrics-get-position-with-fallback">hb_ot_metrics_get_position_with_fallback</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="float"><returnvalue>float</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-metrics-get-variation">hb_ot_metrics_get_variation</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-position-t"><returnvalue>hb_position_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-metrics-get-x-variation">hb_ot_metrics_get_x_variation</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-position-t"><returnvalue>hb_position_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-metrics-get-y-variation">hb_ot_metrics_get_y_variation</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-metrics.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-ot-metrics-tag-t">hb_ot_metrics_tag_t</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-ot-metrics.includes"><title>Includes</title><synopsis>#include &lt;hb-ot.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-ot-metrics.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Functions for fetching metrics from fonts.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-metrics.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-ot-metrics-get-position" role="function" condition="since:2.6.0">
+<title>hb_ot_metrics_get_position&#160;()</title>
+<indexterm zone="hb-ot-metrics-get-position" role="2.6.0"><primary>hb_ot_metrics_get_position</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ot_metrics_get_position (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                            <parameter><link linkend="hb-ot-metrics-tag-t"><type>hb_ot_metrics_tag_t</type></link> metrics_tag</parameter>,
+                            <parameter><link linkend="hb-position-t"><type>hb_position_t</type></link> *position</parameter>);</programlisting>
+<para>Fetches metrics value corresponding to <parameter>metrics_tag</parameter>
+ from <parameter>font</parameter>
+.</para>
+<refsect3 id="hb-ot-metrics-get-position.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>an <link linkend="hb-font-t"><type>hb_font_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>metrics_tag</para></entry>
+<entry role="parameter_description"><para>tag of metrics value you like to fetch.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>position</para></entry>
+<entry role="parameter_description"><para>result of metrics value from the font. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-metrics-get-position.returns" role="returns">
+<title>Returns</title>
+<para> Whether found the requested metrics in the font.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.6.0">2.6.0</link></para></refsect2>
+<refsect2 id="hb-ot-metrics-get-position-with-fallback" role="function" condition="since:4.0.0">
+<title>hb_ot_metrics_get_position_with_fallback&#160;()</title>
+<indexterm zone="hb-ot-metrics-get-position-with-fallback" role="4.0.0"><primary>hb_ot_metrics_get_position_with_fallback</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ot_metrics_get_position_with_fallback
+                               (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                                <parameter><link linkend="hb-ot-metrics-tag-t"><type>hb_ot_metrics_tag_t</type></link> metrics_tag</parameter>,
+                                <parameter><link linkend="hb-position-t"><type>hb_position_t</type></link> *position</parameter>);</programlisting>
+<para>Fetches metrics value corresponding to <parameter>metrics_tag</parameter>
+ from <parameter>font</parameter>
+,
+and synthesizes a value if it the value is missing in the font.</para>
+<refsect3 id="hb-ot-metrics-get-position-with-fallback.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>an <link linkend="hb-font-t"><type>hb_font_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>metrics_tag</para></entry>
+<entry role="parameter_description"><para>tag of metrics value you like to fetch.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>position</para></entry>
+<entry role="parameter_description"><para>result of metrics value from the font. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-4.0.0">4.0.0</link></para></refsect2>
+<refsect2 id="hb-ot-metrics-get-variation" role="function" condition="since:2.6.0">
+<title>hb_ot_metrics_get_variation&#160;()</title>
+<indexterm zone="hb-ot-metrics-get-variation" role="2.6.0"><primary>hb_ot_metrics_get_variation</primary></indexterm>
+<programlisting language="C"><link linkend="float"><returnvalue>float</returnvalue></link>
+hb_ot_metrics_get_variation (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                             <parameter><link linkend="hb-ot-metrics-tag-t"><type>hb_ot_metrics_tag_t</type></link> metrics_tag</parameter>);</programlisting>
+<para>Fetches metrics value corresponding to <parameter>metrics_tag</parameter>
+ from <parameter>font</parameter>
+ with the
+current font variation settings applied.</para>
+<refsect3 id="hb-ot-metrics-get-variation.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>an <link linkend="hb-font-t"><type>hb_font_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>metrics_tag</para></entry>
+<entry role="parameter_description"><para>tag of metrics value you like to fetch.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-metrics-get-variation.returns" role="returns">
+<title>Returns</title>
+<para> The requested metric value.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.6.0">2.6.0</link></para></refsect2>
+<refsect2 id="hb-ot-metrics-get-x-variation" role="function" condition="since:2.6.0">
+<title>hb_ot_metrics_get_x_variation&#160;()</title>
+<indexterm zone="hb-ot-metrics-get-x-variation" role="2.6.0"><primary>hb_ot_metrics_get_x_variation</primary></indexterm>
+<programlisting language="C"><link linkend="hb-position-t"><returnvalue>hb_position_t</returnvalue></link>
+hb_ot_metrics_get_x_variation (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                               <parameter><link linkend="hb-ot-metrics-tag-t"><type>hb_ot_metrics_tag_t</type></link> metrics_tag</parameter>);</programlisting>
+<para>Fetches horizontal metrics value corresponding to <parameter>metrics_tag</parameter>
+ from <parameter>font</parameter>
+
+with the current font variation settings applied.</para>
+<refsect3 id="hb-ot-metrics-get-x-variation.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>an <link linkend="hb-font-t"><type>hb_font_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>metrics_tag</para></entry>
+<entry role="parameter_description"><para>tag of metrics value you like to fetch.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-metrics-get-x-variation.returns" role="returns">
+<title>Returns</title>
+<para> The requested metric value.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.6.0">2.6.0</link></para></refsect2>
+<refsect2 id="hb-ot-metrics-get-y-variation" role="function" condition="since:2.6.0">
+<title>hb_ot_metrics_get_y_variation&#160;()</title>
+<indexterm zone="hb-ot-metrics-get-y-variation" role="2.6.0"><primary>hb_ot_metrics_get_y_variation</primary></indexterm>
+<programlisting language="C"><link linkend="hb-position-t"><returnvalue>hb_position_t</returnvalue></link>
+hb_ot_metrics_get_y_variation (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                               <parameter><link linkend="hb-ot-metrics-tag-t"><type>hb_ot_metrics_tag_t</type></link> metrics_tag</parameter>);</programlisting>
+<para>Fetches vertical metrics value corresponding to <parameter>metrics_tag</parameter>
+ from <parameter>font</parameter>
+ with
+the current font variation settings applied.</para>
+<refsect3 id="hb-ot-metrics-get-y-variation.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>an <link linkend="hb-font-t"><type>hb_font_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>metrics_tag</para></entry>
+<entry role="parameter_description"><para>tag of metrics value you like to fetch.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-metrics-get-y-variation.returns" role="returns">
+<title>Returns</title>
+<para> The requested metric value.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.6.0">2.6.0</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-metrics.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="hb-ot-metrics-tag-t" role="enum" condition="since:2.6.0">
+<title>enum hb_ot_metrics_tag_t</title>
+<indexterm zone="hb-ot-metrics-tag-t" role="2.6.0"><primary>hb_ot_metrics_tag_t</primary></indexterm>
+<para>Metric tags corresponding to <ulink url="https://docs.microsoft.com/en-us/typography/opentype/spec/mvar#value-tags">MVAR Value
+Tags</ulink></para>
+<refsect3 id="hb-ot-metrics-tag-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-HORIZONTAL-ASCENDER:CAPS">HB_OT_METRICS_TAG_HORIZONTAL_ASCENDER</para></entry>
+<entry role="enum_member_description"><para>horizontal ascender.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-HORIZONTAL-DESCENDER:CAPS">HB_OT_METRICS_TAG_HORIZONTAL_DESCENDER</para></entry>
+<entry role="enum_member_description"><para>horizontal descender.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-HORIZONTAL-LINE-GAP:CAPS">HB_OT_METRICS_TAG_HORIZONTAL_LINE_GAP</para></entry>
+<entry role="enum_member_description"><para>horizontal line gap.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-HORIZONTAL-CLIPPING-ASCENT:CAPS">HB_OT_METRICS_TAG_HORIZONTAL_CLIPPING_ASCENT</para></entry>
+<entry role="enum_member_description"><para>horizontal clipping ascent.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-HORIZONTAL-CLIPPING-DESCENT:CAPS">HB_OT_METRICS_TAG_HORIZONTAL_CLIPPING_DESCENT</para></entry>
+<entry role="enum_member_description"><para>horizontal clipping descent.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-VERTICAL-ASCENDER:CAPS">HB_OT_METRICS_TAG_VERTICAL_ASCENDER</para></entry>
+<entry role="enum_member_description"><para>vertical ascender.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-VERTICAL-DESCENDER:CAPS">HB_OT_METRICS_TAG_VERTICAL_DESCENDER</para></entry>
+<entry role="enum_member_description"><para>vertical descender.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-VERTICAL-LINE-GAP:CAPS">HB_OT_METRICS_TAG_VERTICAL_LINE_GAP</para></entry>
+<entry role="enum_member_description"><para>vertical line gap.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-HORIZONTAL-CARET-RISE:CAPS">HB_OT_METRICS_TAG_HORIZONTAL_CARET_RISE</para></entry>
+<entry role="enum_member_description"><para>horizontal caret rise.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-HORIZONTAL-CARET-RUN:CAPS">HB_OT_METRICS_TAG_HORIZONTAL_CARET_RUN</para></entry>
+<entry role="enum_member_description"><para>horizontal caret run.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-HORIZONTAL-CARET-OFFSET:CAPS">HB_OT_METRICS_TAG_HORIZONTAL_CARET_OFFSET</para></entry>
+<entry role="enum_member_description"><para>horizontal caret offset.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-VERTICAL-CARET-RISE:CAPS">HB_OT_METRICS_TAG_VERTICAL_CARET_RISE</para></entry>
+<entry role="enum_member_description"><para>vertical caret rise.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-VERTICAL-CARET-RUN:CAPS">HB_OT_METRICS_TAG_VERTICAL_CARET_RUN</para></entry>
+<entry role="enum_member_description"><para>vertical caret run.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-VERTICAL-CARET-OFFSET:CAPS">HB_OT_METRICS_TAG_VERTICAL_CARET_OFFSET</para></entry>
+<entry role="enum_member_description"><para>vertical caret offset.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-X-HEIGHT:CAPS">HB_OT_METRICS_TAG_X_HEIGHT</para></entry>
+<entry role="enum_member_description"><para>x height.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-CAP-HEIGHT:CAPS">HB_OT_METRICS_TAG_CAP_HEIGHT</para></entry>
+<entry role="enum_member_description"><para>cap height.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-SUBSCRIPT-EM-X-SIZE:CAPS">HB_OT_METRICS_TAG_SUBSCRIPT_EM_X_SIZE</para></entry>
+<entry role="enum_member_description"><para>subscript em x size.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-SUBSCRIPT-EM-Y-SIZE:CAPS">HB_OT_METRICS_TAG_SUBSCRIPT_EM_Y_SIZE</para></entry>
+<entry role="enum_member_description"><para>subscript em y size.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-SUBSCRIPT-EM-X-OFFSET:CAPS">HB_OT_METRICS_TAG_SUBSCRIPT_EM_X_OFFSET</para></entry>
+<entry role="enum_member_description"><para>subscript em x offset.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-SUBSCRIPT-EM-Y-OFFSET:CAPS">HB_OT_METRICS_TAG_SUBSCRIPT_EM_Y_OFFSET</para></entry>
+<entry role="enum_member_description"><para>subscript em y offset.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-SUPERSCRIPT-EM-X-SIZE:CAPS">HB_OT_METRICS_TAG_SUPERSCRIPT_EM_X_SIZE</para></entry>
+<entry role="enum_member_description"><para>superscript em x size.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-SUPERSCRIPT-EM-Y-SIZE:CAPS">HB_OT_METRICS_TAG_SUPERSCRIPT_EM_Y_SIZE</para></entry>
+<entry role="enum_member_description"><para>superscript em y size.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-SUPERSCRIPT-EM-X-OFFSET:CAPS">HB_OT_METRICS_TAG_SUPERSCRIPT_EM_X_OFFSET</para></entry>
+<entry role="enum_member_description"><para>superscript em x offset.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-SUPERSCRIPT-EM-Y-OFFSET:CAPS">HB_OT_METRICS_TAG_SUPERSCRIPT_EM_Y_OFFSET</para></entry>
+<entry role="enum_member_description"><para>superscript em y offset.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-STRIKEOUT-SIZE:CAPS">HB_OT_METRICS_TAG_STRIKEOUT_SIZE</para></entry>
+<entry role="enum_member_description"><para>strikeout size.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-STRIKEOUT-OFFSET:CAPS">HB_OT_METRICS_TAG_STRIKEOUT_OFFSET</para></entry>
+<entry role="enum_member_description"><para>strikeout offset.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-UNDERLINE-SIZE:CAPS">HB_OT_METRICS_TAG_UNDERLINE_SIZE</para></entry>
+<entry role="enum_member_description"><para>underline size.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-METRICS-TAG-UNDERLINE-OFFSET:CAPS">HB_OT_METRICS_TAG_UNDERLINE_OFFSET</para></entry>
+<entry role="enum_member_description"><para>underline offset.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-2.6.0">2.6.0</link></para></refsect2>
+
+</refsect1>
+
+</refentry>

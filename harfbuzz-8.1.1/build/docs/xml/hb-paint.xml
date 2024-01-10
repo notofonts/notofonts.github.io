@@ -1,0 +1,2324 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-paint">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-paint.top_of_page">hb-paint</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-paint</refname>
+<refpurpose>Glyph painting</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-paint.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="hb-paint-funcs-t"><returnvalue>hb_paint_funcs_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-create">hb_paint_funcs_create</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-paint-funcs-t"><returnvalue>hb_paint_funcs_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-get-empty">hb_paint_funcs_get_empty</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-paint-funcs-t"><returnvalue>hb_paint_funcs_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-reference">hb_paint_funcs_reference</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-destroy">hb_paint_funcs_destroy</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-set-user-data">hb_paint_funcs_set_user_data</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-get-user-data">hb_paint_funcs_get_user_data</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-make-immutable">hb_paint_funcs_make_immutable</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-is-immutable">hb_paint_funcs_is_immutable</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-paint-push-transform-func-t">*hb_paint_push_transform_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-set-push-transform-func">hb_paint_funcs_set_push_transform_func</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-paint-pop-transform-func-t">*hb_paint_pop_transform_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-set-pop-transform-func">hb_paint_funcs_set_pop_transform_func</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-paint-push-clip-glyph-func-t">*hb_paint_push_clip_glyph_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-set-push-clip-glyph-func">hb_paint_funcs_set_push_clip_glyph_func</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-paint-push-clip-rectangle-func-t">*hb_paint_push_clip_rectangle_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-set-push-clip-rectangle-func">hb_paint_funcs_set_push_clip_rectangle_func</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-paint-pop-clip-func-t">*hb_paint_pop_clip_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-set-pop-clip-func">hb_paint_funcs_set_pop_clip_func</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-paint-color-func-t">*hb_paint_color_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-set-color-func">hb_paint_funcs_set_color_func</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-paint-image-func-t">*hb_paint_image_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-set-image-func">hb_paint_funcs_set_image_func</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-color-line-get-color-stops-func-t">*hb_color_line_get_color_stops_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-color-line-get-color-stops">hb_color_line_get_color_stops</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-paint-extend-t"><returnvalue>hb_paint_extend_t</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-color-line-get-extend-func-t">*hb_color_line_get_extend_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-paint-extend-t"><returnvalue>hb_paint_extend_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-color-line-get-extend">hb_color_line_get_extend</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-paint-linear-gradient-func-t">*hb_paint_linear_gradient_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-set-linear-gradient-func">hb_paint_funcs_set_linear_gradient_func</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-paint-radial-gradient-func-t">*hb_paint_radial_gradient_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-set-radial-gradient-func">hb_paint_funcs_set_radial_gradient_func</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-paint-sweep-gradient-func-t">*hb_paint_sweep_gradient_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-set-sweep-gradient-func">hb_paint_funcs_set_sweep_gradient_func</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-paint-push-group-func-t">*hb_paint_push_group_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-set-push-group-func">hb_paint_funcs_set_push_group_func</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-paint-pop-group-func-t">*hb_paint_pop_group_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-set-pop-group-func">hb_paint_funcs_set_pop_group_func</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><phrase role="c_punctuation">(</phrase><link linkend="hb-paint-custom-palette-color-func-t">*hb_paint_custom_palette_color_func_t</link><phrase role="c_punctuation">)</phrase>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-funcs-set-custom-palette-color-func">hb_paint_funcs_set_custom_palette_color_func</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-push-transform">hb_paint_push_transform</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-pop-transform">hb_paint_pop_transform</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-push-clip-glyph">hb_paint_push_clip_glyph</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-push-clip-rectangle">hb_paint_push_clip_rectangle</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-pop-clip">hb_paint_pop_clip</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-color">hb_paint_color</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-image">hb_paint_image</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-linear-gradient">hb_paint_linear_gradient</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-radial-gradient">hb_paint_radial_gradient</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-sweep-gradient">hb_paint_sweep_gradient</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-push-group">hb_paint_push_group</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-pop-group">hb_paint_pop_group</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-paint-custom-palette-color">hb_paint_custom_palette_color</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="harfbuzz-hb-paint.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="typedef_keyword">typedef</entry><entry role="function_name"><link linkend="hb-paint-funcs-t">hb_paint_funcs_t</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-PAINT-IMAGE-FORMAT-PNG:CAPS">HB_PAINT_IMAGE_FORMAT_PNG</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-PAINT-IMAGE-FORMAT-SVG:CAPS">HB_PAINT_IMAGE_FORMAT_SVG</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-PAINT-IMAGE-FORMAT-BGRA:CAPS">HB_PAINT_IMAGE_FORMAT_BGRA</link></entry></row>
+<row><entry role="typedef_keyword">typedef</entry><entry role="function_name"><link linkend="hb-color-line-t">hb_color_line_t</link></entry></row>
+<row><entry role="datatype_keyword"></entry><entry role="function_name"><link linkend="hb-color-stop-t">hb_color_stop_t</link></entry></row>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-paint-extend-t">hb_paint_extend_t</link></entry></row>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-paint-composite-mode-t">hb_paint_composite_mode_t</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-paint.includes"><title>Includes</title><synopsis>#include &lt;hb.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-paint.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Functions for painting glyphs.</para>
+<para>The main purpose of these functions is to paint (extract) color glyph layers
+from the COLRv1 table, but the API works for drawing ordinary outlines and
+images as well.</para>
+<para>The <link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> struct can be used with <link linkend="hb-font-paint-glyph"><function>hb_font_paint_glyph()</function></link>.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-paint.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-paint-funcs-create" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_create&#160;()</title>
+<indexterm zone="hb-paint-funcs-create" role="7.0.0"><primary>hb_paint_funcs_create</primary></indexterm>
+<programlisting language="C"><link linkend="hb-paint-funcs-t"><returnvalue>hb_paint_funcs_t</returnvalue></link>&#160;*
+hb_paint_funcs_create (<parameter><type>void</type></parameter>);</programlisting>
+<para>Creates a new <link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> structure of paint functions.</para>
+<para>The initial reference count of 1 should be released with <link linkend="hb-paint-funcs-destroy"><function>hb_paint_funcs_destroy()</function></link>
+when you are done using the <link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link>. This function never returns
+<literal>NULL</literal>. If memory cannot be allocated, a special singleton <link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link>
+object will be returned.</para>
+<para>Returns value: (transfer full): the paint-functions structure</para>
+<para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-get-empty" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_get_empty&#160;()</title>
+<indexterm zone="hb-paint-funcs-get-empty" role="7.0.0"><primary>hb_paint_funcs_get_empty</primary></indexterm>
+<programlisting language="C"><link linkend="hb-paint-funcs-t"><returnvalue>hb_paint_funcs_t</returnvalue></link>&#160;*
+hb_paint_funcs_get_empty (<parameter><type>void</type></parameter>);</programlisting>
+<para>Fetches the singleton empty paint-functions structure.</para>
+<refsect3 id="hb-paint-funcs-get-empty.returns" role="returns">
+<title>Returns</title>
+<para>The empty paint-functions structure. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-reference" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_reference&#160;()</title>
+<indexterm zone="hb-paint-funcs-reference" role="7.0.0"><primary>hb_paint_funcs_reference</primary></indexterm>
+<programlisting language="C"><link linkend="hb-paint-funcs-t"><returnvalue>hb_paint_funcs_t</returnvalue></link>&#160;*
+hb_paint_funcs_reference (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>);</programlisting>
+<para>Increases the reference count on a paint-functions structure.</para>
+<para>This prevents <parameter>funcs</parameter>
+ from being destroyed until a matching
+call to <link linkend="hb-paint-funcs-destroy"><function>hb_paint_funcs_destroy()</function></link> is made.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-paint-funcs-reference.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>The paint-functions structure</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-paint-funcs-reference.returns" role="returns">
+<title>Returns</title>
+<para> The paint-functions structure</para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-destroy" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_destroy&#160;()</title>
+<indexterm zone="hb-paint-funcs-destroy" role="7.0.0"><primary>hb_paint_funcs_destroy</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_funcs_destroy (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>);</programlisting>
+<para>Decreases the reference count on a paint-functions structure.</para>
+<para>When the reference count reaches zero, the structure
+is destroyed, freeing all memory.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-paint-funcs-destroy.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>The paint-functions structure</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-set-user-data" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_set_user_data&#160;()</title>
+<indexterm zone="hb-paint-funcs-set-user-data" role="7.0.0"><primary>hb_paint_funcs_set_user_data</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_paint_funcs_set_user_data (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                              <parameter><link linkend="hb-user-data-key-t"><type>hb_user_data_key_t</type></link> *key</parameter>,
+                              <parameter><link linkend="void"><type>void</type></link> *data</parameter>,
+                              <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>,
+                              <parameter><link linkend="hb-bool-t"><type>hb_bool_t</type></link> replace</parameter>);</programlisting>
+<para>Attaches a user-data key/data pair to the specified paint-functions structure.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-paint-funcs-set-user-data.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>The paint-functions structure</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>key</para></entry>
+<entry role="parameter_description"><para>The user-data key</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>data</para></entry>
+<entry role="parameter_description"><para>A pointer to the user data</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>A callback to call when <parameter>data</parameter>
+is not needed anymore. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>replace</para></entry>
+<entry role="parameter_description"><para>Whether to replace an existing data with the same key</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-paint-funcs-set-user-data.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if success, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-get-user-data" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_get_user_data&#160;()</title>
+<indexterm zone="hb-paint-funcs-get-user-data" role="7.0.0"><primary>hb_paint_funcs_get_user_data</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>&#160;*
+hb_paint_funcs_get_user_data (<parameter>const <link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                              <parameter><link linkend="hb-user-data-key-t"><type>hb_user_data_key_t</type></link> *key</parameter>);</programlisting>
+<para>Fetches the user-data associated with the specified key,
+attached to the specified paint-functions structure.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-paint-funcs-get-user-data.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>The paint-functions structure</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>key</para></entry>
+<entry role="parameter_description"><para>The user-data key to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-paint-funcs-get-user-data.returns" role="returns">
+<title>Returns</title>
+<para>A pointer to the user data. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-make-immutable" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_make_immutable&#160;()</title>
+<indexterm zone="hb-paint-funcs-make-immutable" role="7.0.0"><primary>hb_paint_funcs_make_immutable</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_funcs_make_immutable (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>);</programlisting>
+<para>Makes a paint-functions structure immutable.</para>
+<para>After this call, all attempts to set one of the callbacks
+on <parameter>funcs</parameter>
+ will fail.</para>
+<refsect3 id="hb-paint-funcs-make-immutable.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>The paint-functions structure</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-is-immutable" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_is_immutable&#160;()</title>
+<indexterm zone="hb-paint-funcs-is-immutable" role="7.0.0"><primary>hb_paint_funcs_is_immutable</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_paint_funcs_is_immutable (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>);</programlisting>
+<para>Tests whether a paint-functions structure is immutable.</para>
+<refsect3 id="hb-paint-funcs-is-immutable.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>The paint-functions structure</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-paint-funcs-is-immutable.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if <parameter>funcs</parameter>
+is immutable, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-push-transform-func-t" role="function" condition="since:7.0.0">
+<title>hb_paint_push_transform_func_t&#160;()</title>
+<indexterm zone="hb-paint-push-transform-func-t" role="7.0.0"><primary>hb_paint_push_transform_func_t</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_paint_push_transform_func_t<phrase role="c_punctuation">)</phrase> (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                                   <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                                   <parameter><link linkend="float"><type>float</type></link> xx</parameter>,
+                                   <parameter><link linkend="float"><type>float</type></link> yx</parameter>,
+                                   <parameter><link linkend="float"><type>float</type></link> xy</parameter>,
+                                   <parameter><link linkend="float"><type>float</type></link> yy</parameter>,
+                                   <parameter><link linkend="float"><type>float</type></link> dx</parameter>,
+                                   <parameter><link linkend="float"><type>float</type></link> dy</parameter>,
+                                   <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<para>A virtual method for the <link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> to apply
+a transform to subsequent paint calls.</para>
+<para>This transform is applied after the current transform,
+and remains in effect until a matching call to
+the <link linkend="hb-paint-funcs-pop-transform-func-t"><type>hb_paint_funcs_pop_transform_func_t</type></link> vfunc.</para>
+<refsect3 id="hb-paint-push-transform-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>The data accompanying the paint functions in <link linkend="hb-font-paint-glyph"><function>hb_font_paint_glyph()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>xx</para></entry>
+<entry role="parameter_description"><para>xx component of the transform matrix</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>yx</para></entry>
+<entry role="parameter_description"><para>yx component of the transform matrix</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>xy</para></entry>
+<entry role="parameter_description"><para>xy component of the transform matrix</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>yy</para></entry>
+<entry role="parameter_description"><para>yy component of the transform matrix</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>dx</para></entry>
+<entry role="parameter_description"><para>dx component of the transform matrix</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>dy</para></entry>
+<entry role="parameter_description"><para>dy component of the transform matrix</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>User data pointer passed to <link linkend="hb-paint-funcs-set-push-transform-func"><function>hb_paint_funcs_set_push_transform_func()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-set-push-transform-func" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_set_push_transform_func&#160;()</title>
+<indexterm zone="hb-paint-funcs-set-push-transform-func" role="7.0.0"><primary>hb_paint_funcs_set_push_transform_func</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_funcs_set_push_transform_func
+                               (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                                <parameter><link linkend="hb-paint-push-transform-func-t"><type>hb_paint_push_transform_func_t</type></link> func</parameter>,
+                                <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                                <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<para>Sets the push-transform callback on the paint functions struct.</para>
+<refsect3 id="hb-paint-funcs-set-push-transform-func.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>A paint functions struct</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>func</para></entry>
+<entry role="parameter_description"><para>The push-transform callback. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>closure</acronym> user_data][<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>Data to pass to <parameter>func</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>Function to call when <parameter>user_data</parameter>
+is no longer needed. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-pop-transform-func-t" role="function" condition="since:7.0.0">
+<title>hb_paint_pop_transform_func_t&#160;()</title>
+<indexterm zone="hb-paint-pop-transform-func-t" role="7.0.0"><primary>hb_paint_pop_transform_func_t</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_paint_pop_transform_func_t<phrase role="c_punctuation">)</phrase> (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                                  <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                                  <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<para>A virtual method for the <link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> to undo
+the effect of a prior call to the <link linkend="hb-paint-funcs-push-transform-func-t"><type>hb_paint_funcs_push_transform_func_t</type></link>
+vfunc.</para>
+<refsect3 id="hb-paint-pop-transform-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>The data accompanying the paint functions in <link linkend="hb-font-paint-glyph"><function>hb_font_paint_glyph()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>User data pointer passed to <link linkend="hb-paint-funcs-set-pop-transform-func"><function>hb_paint_funcs_set_pop_transform_func()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-set-pop-transform-func" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_set_pop_transform_func&#160;()</title>
+<indexterm zone="hb-paint-funcs-set-pop-transform-func" role="7.0.0"><primary>hb_paint_funcs_set_pop_transform_func</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_funcs_set_pop_transform_func (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                                       <parameter><link linkend="hb-paint-pop-transform-func-t"><type>hb_paint_pop_transform_func_t</type></link> func</parameter>,
+                                       <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                                       <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<para>Sets the pop-transform callback on the paint functions struct.</para>
+<refsect3 id="hb-paint-funcs-set-pop-transform-func.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>A paint functions struct</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>func</para></entry>
+<entry role="parameter_description"><para>The pop-transform callback. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>closure</acronym> user_data][<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>Data to pass to <parameter>func</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>Function to call when <parameter>user_data</parameter>
+is no longer needed. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-push-clip-glyph-func-t" role="function" condition="since:7.0.0">
+<title>hb_paint_push_clip_glyph_func_t&#160;()</title>
+<indexterm zone="hb-paint-push-clip-glyph-func-t" role="7.0.0"><primary>hb_paint_push_clip_glyph_func_t</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_paint_push_clip_glyph_func_t<phrase role="c_punctuation">)</phrase> (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                                    <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                                    <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>,
+                                    <parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                                    <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<para>A virtual method for the <link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> to clip
+subsequent paint calls to the outline of a glyph.</para>
+<para>The coordinates of the glyph outline are interpreted according
+to the current transform.</para>
+<para>This clip is applied in addition to the current clip,
+and remains in effect until a matching call to
+the <link linkend="hb-paint-funcs-pop-clip-func-t"><type>hb_paint_funcs_pop_clip_func_t</type></link> vfunc.</para>
+<refsect3 id="hb-paint-push-clip-glyph-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>The data accompanying the paint functions in <link linkend="hb-font-paint-glyph"><function>hb_font_paint_glyph()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>the glyph ID</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>the font</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>User data pointer passed to <link linkend="hb-paint-funcs-set-push-clip-glyph-func"><function>hb_paint_funcs_set_push_clip_glyph_func()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-set-push-clip-glyph-func" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_set_push_clip_glyph_func&#160;()</title>
+<indexterm zone="hb-paint-funcs-set-push-clip-glyph-func" role="7.0.0"><primary>hb_paint_funcs_set_push_clip_glyph_func</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_funcs_set_push_clip_glyph_func
+                               (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                                <parameter><link linkend="hb-paint-push-clip-glyph-func-t"><type>hb_paint_push_clip_glyph_func_t</type></link> func</parameter>,
+                                <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                                <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<para>Sets the push-clip-glyph callback on the paint functions struct.</para>
+<refsect3 id="hb-paint-funcs-set-push-clip-glyph-func.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>A paint functions struct</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>func</para></entry>
+<entry role="parameter_description"><para>The push-clip-glyph callback. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>closure</acronym> user_data][<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>Data to pass to <parameter>func</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>Function to call when <parameter>user_data</parameter>
+is no longer needed. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-push-clip-rectangle-func-t" role="function" condition="since:7.0.0">
+<title>hb_paint_push_clip_rectangle_func_t&#160;()</title>
+<indexterm zone="hb-paint-push-clip-rectangle-func-t" role="7.0.0"><primary>hb_paint_push_clip_rectangle_func_t</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_paint_push_clip_rectangle_func_t<phrase role="c_punctuation">)</phrase>
+                               (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                                <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                                <parameter><link linkend="float"><type>float</type></link> xmin</parameter>,
+                                <parameter><link linkend="float"><type>float</type></link> ymin</parameter>,
+                                <parameter><link linkend="float"><type>float</type></link> xmax</parameter>,
+                                <parameter><link linkend="float"><type>float</type></link> ymax</parameter>,
+                                <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<para>A virtual method for the <link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> to clip
+subsequent paint calls to a rectangle.</para>
+<para>The coordinates of the rectangle are interpreted according
+to the current transform.</para>
+<para>This clip is applied in addition to the current clip,
+and remains in effect until a matching call to
+the <link linkend="hb-paint-funcs-pop-clip-func-t"><type>hb_paint_funcs_pop_clip_func_t</type></link> vfunc.</para>
+<refsect3 id="hb-paint-push-clip-rectangle-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>The data accompanying the paint functions in <link linkend="hb-font-paint-glyph"><function>hb_font_paint_glyph()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>xmin</para></entry>
+<entry role="parameter_description"><para>min X for the rectangle</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>ymin</para></entry>
+<entry role="parameter_description"><para>min Y for the rectangle</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>xmax</para></entry>
+<entry role="parameter_description"><para>max X for the rectangle</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>ymax</para></entry>
+<entry role="parameter_description"><para>max Y for the rectangle</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>User data pointer passed to <link linkend="hb-paint-funcs-set-push-clip-rectangle-func"><function>hb_paint_funcs_set_push_clip_rectangle_func()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-set-push-clip-rectangle-func" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_set_push_clip_rectangle_func&#160;()</title>
+<indexterm zone="hb-paint-funcs-set-push-clip-rectangle-func" role="7.0.0"><primary>hb_paint_funcs_set_push_clip_rectangle_func</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_funcs_set_push_clip_rectangle_func
+                               (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                                <parameter><link linkend="hb-paint-push-clip-rectangle-func-t"><type>hb_paint_push_clip_rectangle_func_t</type></link> func</parameter>,
+                                <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                                <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<para>Sets the push-clip-rect callback on the paint functions struct.</para>
+<refsect3 id="hb-paint-funcs-set-push-clip-rectangle-func.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>A paint functions struct</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>func</para></entry>
+<entry role="parameter_description"><para>The push-clip-rectangle callback. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>closure</acronym> user_data][<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>Data to pass to <parameter>func</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>Function to call when <parameter>user_data</parameter>
+is no longer needed. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-pop-clip-func-t" role="function" condition="since:7.0.0">
+<title>hb_paint_pop_clip_func_t&#160;()</title>
+<indexterm zone="hb-paint-pop-clip-func-t" role="7.0.0"><primary>hb_paint_pop_clip_func_t</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_paint_pop_clip_func_t<phrase role="c_punctuation">)</phrase> (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                             <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                             <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<para>A virtual method for the <link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> to undo
+the effect of a prior call to the <link linkend="hb-paint-funcs-push-clip-glyph-func-t"><type>hb_paint_funcs_push_clip_glyph_func_t</type></link>
+or <link linkend="hb-paint-funcs-push-clip-rectangle-func-t"><type>hb_paint_funcs_push_clip_rectangle_func_t</type></link> vfuncs.</para>
+<refsect3 id="hb-paint-pop-clip-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>The data accompanying the paint functions in <link linkend="hb-font-paint-glyph"><function>hb_font_paint_glyph()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>User data pointer passed to <link linkend="hb-paint-funcs-set-pop-clip-func"><function>hb_paint_funcs_set_pop_clip_func()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-set-pop-clip-func" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_set_pop_clip_func&#160;()</title>
+<indexterm zone="hb-paint-funcs-set-pop-clip-func" role="7.0.0"><primary>hb_paint_funcs_set_pop_clip_func</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_funcs_set_pop_clip_func (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                                  <parameter><link linkend="hb-paint-pop-clip-func-t"><type>hb_paint_pop_clip_func_t</type></link> func</parameter>,
+                                  <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                                  <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<para>Sets the pop-clip callback on the paint functions struct.</para>
+<refsect3 id="hb-paint-funcs-set-pop-clip-func.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>A paint functions struct</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>func</para></entry>
+<entry role="parameter_description"><para>The pop-clip callback. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>closure</acronym> user_data][<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>Data to pass to <parameter>func</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>Function to call when <parameter>user_data</parameter>
+is no longer needed. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-color-func-t" role="function" condition="since:7.0.0">
+<title>hb_paint_color_func_t&#160;()</title>
+<indexterm zone="hb-paint-color-func-t" role="7.0.0"><primary>hb_paint_color_func_t</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_paint_color_func_t<phrase role="c_punctuation">)</phrase> (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                          <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                          <parameter><link linkend="hb-bool-t"><type>hb_bool_t</type></link> is_foreground</parameter>,
+                          <parameter><link linkend="hb-color-t"><type>hb_color_t</type></link> color</parameter>,
+                          <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<para>A virtual method for the <link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> to paint a
+color everywhere within the current clip.</para>
+<refsect3 id="hb-paint-color-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>The data accompanying the paint functions in <link linkend="hb-font-paint-glyph"><function>hb_font_paint_glyph()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>is_foreground</para></entry>
+<entry role="parameter_description"><para>whether the color is the foreground</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>color</para></entry>
+<entry role="parameter_description"><para>The color to use, unpremultiplied</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>User data pointer passed to <link linkend="hb-paint-funcs-set-color-func"><function>hb_paint_funcs_set_color_func()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-set-color-func" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_set_color_func&#160;()</title>
+<indexterm zone="hb-paint-funcs-set-color-func" role="7.0.0"><primary>hb_paint_funcs_set_color_func</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_funcs_set_color_func (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                               <parameter><link linkend="hb-paint-color-func-t"><type>hb_paint_color_func_t</type></link> func</parameter>,
+                               <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                               <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<para>Sets the paint-color callback on the paint functions struct.</para>
+<refsect3 id="hb-paint-funcs-set-color-func.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>A paint functions struct</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>func</para></entry>
+<entry role="parameter_description"><para>The paint-color callback. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>closure</acronym> user_data][<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>Data to pass to <parameter>func</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>Function to call when <parameter>user_data</parameter>
+is no longer needed. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-image-func-t" role="function" condition="since:7.0.0">
+<title>hb_paint_image_func_t&#160;()</title>
+<indexterm zone="hb-paint-image-func-t" role="7.0.0"><primary>hb_paint_image_func_t</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_paint_image_func_t<phrase role="c_punctuation">)</phrase> (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                          <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                          <parameter><link linkend="hb-blob-t"><type>hb_blob_t</type></link> *image</parameter>,
+                          <parameter>unsigned <link linkend="int"><type>int</type></link> width</parameter>,
+                          <parameter>unsigned <link linkend="int"><type>int</type></link> height</parameter>,
+                          <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> format</parameter>,
+                          <parameter><link linkend="float"><type>float</type></link> slant</parameter>,
+                          <parameter><link linkend="hb-glyph-extents-t"><type>hb_glyph_extents_t</type></link> *extents</parameter>,
+                          <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<para>A virtual method for the <link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> to paint a glyph image.</para>
+<para>This method is called for glyphs with image blobs in the CBDT,
+sbix or SVG tables. The <parameter>format</parameter>
+ identifies the kind of data that
+is contained in <parameter>image</parameter>
+. Possible values include <link linkend="HB-PAINT-IMAGE-FORMAT-PNG:CAPS"><type>HB_PAINT_IMAGE_FORMAT_PNG</type></link>,
+<link linkend="HB-PAINT-IMAGE-FORMAT-SVG:CAPS"><type>HB_PAINT_IMAGE_FORMAT_SVG</type></link> and <link linkend="HB-PAINT-IMAGE-FORMAT-BGRA:CAPS"><type>HB_PAINT_IMAGE_FORMAT_BGRA</type></link>.</para>
+<para>The image dimensions and glyph extents are provided if available,
+and should be used to size and position the image.</para>
+<refsect3 id="hb-paint-image-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>The data accompanying the paint functions in <link linkend="hb-font-paint-glyph"><function>hb_font_paint_glyph()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>image</para></entry>
+<entry role="parameter_description"><para>the image data</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>width</para></entry>
+<entry role="parameter_description"><para>width of the raster image in pixels, or 0</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>height</para></entry>
+<entry role="parameter_description"><para>height of the raster image in pixels, or 0</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>format</para></entry>
+<entry role="parameter_description"><para>the image format as a tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>slant</para></entry>
+<entry role="parameter_description"><para>the synthetic slant ratio to be applied to the image during rendering</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>extents</para></entry>
+<entry role="parameter_description"><para>glyph extents for desired rendering. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>User data pointer passed to <link linkend="hb-paint-funcs-set-image-func"><function>hb_paint_funcs_set_image_func()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-paint-image-func-t.returns" role="returns">
+<title>Returns</title>
+<para> Whether the operation was successful.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-set-image-func" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_set_image_func&#160;()</title>
+<indexterm zone="hb-paint-funcs-set-image-func" role="7.0.0"><primary>hb_paint_funcs_set_image_func</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_funcs_set_image_func (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                               <parameter><link linkend="hb-paint-image-func-t"><type>hb_paint_image_func_t</type></link> func</parameter>,
+                               <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                               <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<para>Sets the paint-image callback on the paint functions struct.</para>
+<refsect3 id="hb-paint-funcs-set-image-func.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>A paint functions struct</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>func</para></entry>
+<entry role="parameter_description"><para>The paint-image callback. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>closure</acronym> user_data][<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>Data to pass to <parameter>func</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>Function to call when <parameter>user_data</parameter>
+is no longer needed. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-color-line-get-color-stops-func-t" role="function" condition="since:7.0.0">
+<title>hb_color_line_get_color_stops_func_t&#160;()</title>
+<indexterm zone="hb-color-line-get-color-stops-func-t" role="7.0.0"><primary>hb_color_line_get_color_stops_func_t</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_color_line_get_color_stops_func_t<phrase role="c_punctuation">)</phrase>
+                               (<parameter><link linkend="hb-color-line-t"><type>hb_color_line_t</type></link> *color_line</parameter>,
+                                <parameter><link linkend="void"><type>void</type></link> *color_line_data</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> start</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> *count</parameter>,
+                                <parameter><link linkend="hb-color-stop-t"><type>hb_color_stop_t</type></link> *color_stops</parameter>,
+                                <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<para>A virtual method for the <link linkend="hb-color-line-t"><type>hb_color_line_t</type></link> to fetch color stops.</para>
+<refsect3 id="hb-color-line-get-color-stops-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>color_line</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-color-line-t"><type>hb_color_line_t</type></link> object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>color_line_data</para></entry>
+<entry role="parameter_description"><para>the data accompanying <parameter>color_line</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start</para></entry>
+<entry role="parameter_description"><para>the index of the first color stop to return</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of feature tags to return;
+Output = the actual number of feature tags returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>color_stops</para></entry>
+<entry role="parameter_description"><para>Array of <link linkend="hb-color-stop-t"><type>hb_color_stop_t</type></link> to populate. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>array</acronym> length=count][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>the data accompanying this method</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-color-line-get-color-stops-func-t.returns" role="returns">
+<title>Returns</title>
+<para> the total number of color stops in <parameter>color_line</parameter>
+</para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-color-line-get-color-stops" role="function" condition="since:7.0.0">
+<title>hb_color_line_get_color_stops&#160;()</title>
+<indexterm zone="hb-color-line-get-color-stops" role="7.0.0"><primary>hb_color_line_get_color_stops</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_color_line_get_color_stops (<parameter><link linkend="hb-color-line-t"><type>hb_color_line_t</type></link> *color_line</parameter>,
+                               <parameter>unsigned <link linkend="int"><type>int</type></link> start</parameter>,
+                               <parameter>unsigned <link linkend="int"><type>int</type></link> *count</parameter>,
+                               <parameter><link linkend="hb-color-stop-t"><type>hb_color_stop_t</type></link> *color_stops</parameter>);</programlisting>
+<para>Fetches a list of color stops from the given color line object.</para>
+<para>Note that due to variations being applied, the returned color stops
+may be out of order. It is the callers responsibility to ensure that
+color stops are sorted by their offset before they are used.</para>
+<refsect3 id="hb-color-line-get-color-stops.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>color_line</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-color-line-t"><type>hb_color_line_t</type></link> object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start</para></entry>
+<entry role="parameter_description"><para>the index of the first color stop to return</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>count</para></entry>
+<entry role="parameter_description"><para>Input = the maximum number of feature tags to return;
+Output = the actual number of feature tags returned (may be zero). </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>color_stops</para></entry>
+<entry role="parameter_description"><para>Array of <link linkend="hb-color-stop-t"><type>hb_color_stop_t</type></link> to populate. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>array</acronym> length=count][<acronym>optional</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-color-line-get-color-stops.returns" role="returns">
+<title>Returns</title>
+<para> the total number of color stops in <parameter>color_line</parameter>
+</para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-color-line-get-extend-func-t" role="function" condition="since:7.0.0">
+<title>hb_color_line_get_extend_func_t&#160;()</title>
+<indexterm zone="hb-color-line-get-extend-func-t" role="7.0.0"><primary>hb_color_line_get_extend_func_t</primary></indexterm>
+<programlisting language="C"><link linkend="hb-paint-extend-t"><returnvalue>hb_paint_extend_t</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_color_line_get_extend_func_t<phrase role="c_punctuation">)</phrase> (<parameter><link linkend="hb-color-line-t"><type>hb_color_line_t</type></link> *color_line</parameter>,
+                                    <parameter><link linkend="void"><type>void</type></link> *color_line_data</parameter>,
+                                    <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<para>A virtual method for the <parameter>hb_color_line_t</parameter>
+ to fetches the extend mode.</para>
+<refsect3 id="hb-color-line-get-extend-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>color_line</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-color-line-t"><type>hb_color_line_t</type></link> object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>color_line_data</para></entry>
+<entry role="parameter_description"><para>the data accompanying <parameter>color_line</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>the data accompanying this method</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-color-line-get-extend-func-t.returns" role="returns">
+<title>Returns</title>
+<para> the extend mode of <parameter>color_line</parameter>
+</para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-color-line-get-extend" role="function" condition="since:7.0.0">
+<title>hb_color_line_get_extend&#160;()</title>
+<indexterm zone="hb-color-line-get-extend" role="7.0.0"><primary>hb_color_line_get_extend</primary></indexterm>
+<programlisting language="C"><link linkend="hb-paint-extend-t"><returnvalue>hb_paint_extend_t</returnvalue></link>
+hb_color_line_get_extend (<parameter><link linkend="hb-color-line-t"><type>hb_color_line_t</type></link> *color_line</parameter>);</programlisting>
+<para>Fetches the extend mode of the color line object.</para>
+<refsect3 id="hb-color-line-get-extend.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>color_line</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-color-line-t"><type>hb_color_line_t</type></link> object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-color-line-get-extend.returns" role="returns">
+<title>Returns</title>
+<para> the extend mode of <parameter>color_line</parameter>
+</para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-linear-gradient-func-t" role="function" condition="since:7.0.0">
+<title>hb_paint_linear_gradient_func_t&#160;()</title>
+<indexterm zone="hb-paint-linear-gradient-func-t" role="7.0.0"><primary>hb_paint_linear_gradient_func_t</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_paint_linear_gradient_func_t<phrase role="c_punctuation">)</phrase> (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                                    <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                                    <parameter><link linkend="hb-color-line-t"><type>hb_color_line_t</type></link> *color_line</parameter>,
+                                    <parameter><link linkend="float"><type>float</type></link> x0</parameter>,
+                                    <parameter><link linkend="float"><type>float</type></link> y0</parameter>,
+                                    <parameter><link linkend="float"><type>float</type></link> x1</parameter>,
+                                    <parameter><link linkend="float"><type>float</type></link> y1</parameter>,
+                                    <parameter><link linkend="float"><type>float</type></link> x2</parameter>,
+                                    <parameter><link linkend="float"><type>float</type></link> y2</parameter>,
+                                    <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<para>A virtual method for the <link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> to paint a linear
+gradient everywhere within the current clip.</para>
+<para>The <parameter>color_line</parameter>
+ object contains information about the colors of the gradients.
+It is only valid for the duration of the callback, you cannot keep it around.</para>
+<para>The coordinates of the points are interpreted according
+to the current transform.</para>
+<para>See the OpenType spec <ulink url="https://learn.microsoft.com/en-us/typography/opentype/spec/colr">COLR</ulink>
+section for details on how the points define the direction
+of the gradient, and how to interpret the <parameter>color_line</parameter>
+.</para>
+<refsect3 id="hb-paint-linear-gradient-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>The data accompanying the paint functions in <link linkend="hb-font-paint-glyph"><function>hb_font_paint_glyph()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>color_line</para></entry>
+<entry role="parameter_description"><para>Color information for the gradient</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>x0</para></entry>
+<entry role="parameter_description"><para>X coordinate of the first point</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>y0</para></entry>
+<entry role="parameter_description"><para>Y coordinate of the first point</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>x1</para></entry>
+<entry role="parameter_description"><para>X coordinate of the second point</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>y1</para></entry>
+<entry role="parameter_description"><para>Y coordinate of the second point</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>x2</para></entry>
+<entry role="parameter_description"><para>X coordinate of the third point</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>y2</para></entry>
+<entry role="parameter_description"><para>Y coordinate of the third point</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>User data pointer passed to <link linkend="hb-paint-funcs-set-linear-gradient-func"><function>hb_paint_funcs_set_linear_gradient_func()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-set-linear-gradient-func" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_set_linear_gradient_func&#160;()</title>
+<indexterm zone="hb-paint-funcs-set-linear-gradient-func" role="7.0.0"><primary>hb_paint_funcs_set_linear_gradient_func</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_funcs_set_linear_gradient_func
+                               (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                                <parameter><link linkend="hb-paint-linear-gradient-func-t"><type>hb_paint_linear_gradient_func_t</type></link> func</parameter>,
+                                <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                                <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<para>Sets the linear-gradient callback on the paint functions struct.</para>
+<refsect3 id="hb-paint-funcs-set-linear-gradient-func.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>A paint functions struct</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>func</para></entry>
+<entry role="parameter_description"><para>The linear-gradient callback. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>closure</acronym> user_data][<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>Data to pass to <parameter>func</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>Function to call when <parameter>user_data</parameter>
+is no longer needed. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-radial-gradient-func-t" role="function" condition="since:7.0.0">
+<title>hb_paint_radial_gradient_func_t&#160;()</title>
+<indexterm zone="hb-paint-radial-gradient-func-t" role="7.0.0"><primary>hb_paint_radial_gradient_func_t</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_paint_radial_gradient_func_t<phrase role="c_punctuation">)</phrase> (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                                    <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                                    <parameter><link linkend="hb-color-line-t"><type>hb_color_line_t</type></link> *color_line</parameter>,
+                                    <parameter><link linkend="float"><type>float</type></link> x0</parameter>,
+                                    <parameter><link linkend="float"><type>float</type></link> y0</parameter>,
+                                    <parameter><link linkend="float"><type>float</type></link> r0</parameter>,
+                                    <parameter><link linkend="float"><type>float</type></link> x1</parameter>,
+                                    <parameter><link linkend="float"><type>float</type></link> y1</parameter>,
+                                    <parameter><link linkend="float"><type>float</type></link> r1</parameter>,
+                                    <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<para>A virtual method for the <link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> to paint a radial
+gradient everywhere within the current clip.</para>
+<para>The <parameter>color_line</parameter>
+ object contains information about the colors of the gradients.
+It is only valid for the duration of the callback, you cannot keep it around.</para>
+<para>The coordinates of the points are interpreted according
+to the current transform.</para>
+<para>See the OpenType spec <ulink url="https://learn.microsoft.com/en-us/typography/opentype/spec/colr">COLR</ulink>
+section for details on how the points define the direction
+of the gradient, and how to interpret the <parameter>color_line</parameter>
+.</para>
+<refsect3 id="hb-paint-radial-gradient-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>The data accompanying the paint functions in <link linkend="hb-font-paint-glyph"><function>hb_font_paint_glyph()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>color_line</para></entry>
+<entry role="parameter_description"><para>Color information for the gradient</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>x0</para></entry>
+<entry role="parameter_description"><para>X coordinate of the first circle's center</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>y0</para></entry>
+<entry role="parameter_description"><para>Y coordinate of the first circle's center</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>r0</para></entry>
+<entry role="parameter_description"><para>radius of the first circle</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>x1</para></entry>
+<entry role="parameter_description"><para>X coordinate of the second circle's center</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>y1</para></entry>
+<entry role="parameter_description"><para>Y coordinate of the second circle's center</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>r1</para></entry>
+<entry role="parameter_description"><para>radius of the second circle</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>User data pointer passed to <link linkend="hb-paint-funcs-set-radial-gradient-func"><function>hb_paint_funcs_set_radial_gradient_func()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-set-radial-gradient-func" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_set_radial_gradient_func&#160;()</title>
+<indexterm zone="hb-paint-funcs-set-radial-gradient-func" role="7.0.0"><primary>hb_paint_funcs_set_radial_gradient_func</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_funcs_set_radial_gradient_func
+                               (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                                <parameter><link linkend="hb-paint-radial-gradient-func-t"><type>hb_paint_radial_gradient_func_t</type></link> func</parameter>,
+                                <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                                <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<para>Sets the radial-gradient callback on the paint functions struct.</para>
+<refsect3 id="hb-paint-funcs-set-radial-gradient-func.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>A paint functions struct</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>func</para></entry>
+<entry role="parameter_description"><para>The radial-gradient callback. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>closure</acronym> user_data][<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>Data to pass to <parameter>func</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>Function to call when <parameter>user_data</parameter>
+is no longer needed. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-sweep-gradient-func-t" role="function" condition="since:7.0.0">
+<title>hb_paint_sweep_gradient_func_t&#160;()</title>
+<indexterm zone="hb-paint-sweep-gradient-func-t" role="7.0.0"><primary>hb_paint_sweep_gradient_func_t</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_paint_sweep_gradient_func_t<phrase role="c_punctuation">)</phrase> (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                                   <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                                   <parameter><link linkend="hb-color-line-t"><type>hb_color_line_t</type></link> *color_line</parameter>,
+                                   <parameter><link linkend="float"><type>float</type></link> x0</parameter>,
+                                   <parameter><link linkend="float"><type>float</type></link> y0</parameter>,
+                                   <parameter><link linkend="float"><type>float</type></link> start_angle</parameter>,
+                                   <parameter><link linkend="float"><type>float</type></link> end_angle</parameter>,
+                                   <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<para>A virtual method for the <link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> to paint a sweep
+gradient everywhere within the current clip.</para>
+<para>The <parameter>color_line</parameter>
+ object contains information about the colors of the gradients.
+It is only valid for the duration of the callback, you cannot keep it around.</para>
+<para>The coordinates of the points are interpreted according
+to the current transform.</para>
+<para>See the OpenType spec <ulink url="https://learn.microsoft.com/en-us/typography/opentype/spec/colr">COLR</ulink>
+section for details on how the points define the direction
+of the gradient, and how to interpret the <parameter>color_line</parameter>
+.</para>
+<refsect3 id="hb-paint-sweep-gradient-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>The data accompanying the paint functions in <link linkend="hb-font-paint-glyph"><function>hb_font_paint_glyph()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>color_line</para></entry>
+<entry role="parameter_description"><para>Color information for the gradient</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>x0</para></entry>
+<entry role="parameter_description"><para>X coordinate of the circle's center</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>y0</para></entry>
+<entry role="parameter_description"><para>Y coordinate of the circle's center</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_angle</para></entry>
+<entry role="parameter_description"><para>the start angle, in radians</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>end_angle</para></entry>
+<entry role="parameter_description"><para>the end angle, in radians</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>User data pointer passed to <link linkend="hb-paint-funcs-set-sweep-gradient-func"><function>hb_paint_funcs_set_sweep_gradient_func()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-set-sweep-gradient-func" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_set_sweep_gradient_func&#160;()</title>
+<indexterm zone="hb-paint-funcs-set-sweep-gradient-func" role="7.0.0"><primary>hb_paint_funcs_set_sweep_gradient_func</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_funcs_set_sweep_gradient_func
+                               (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                                <parameter><link linkend="hb-paint-sweep-gradient-func-t"><type>hb_paint_sweep_gradient_func_t</type></link> func</parameter>,
+                                <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                                <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<para>Sets the sweep-gradient callback on the paint functions struct.</para>
+<refsect3 id="hb-paint-funcs-set-sweep-gradient-func.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>A paint functions struct</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>func</para></entry>
+<entry role="parameter_description"><para>The sweep-gradient callback. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>closure</acronym> user_data][<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>Data to pass to <parameter>func</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>Function to call when <parameter>user_data</parameter>
+is no longer needed. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-push-group-func-t" role="function" condition="since:7.0.0">
+<title>hb_paint_push_group_func_t&#160;()</title>
+<indexterm zone="hb-paint-push-group-func-t" role="7.0.0"><primary>hb_paint_push_group_func_t</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_paint_push_group_func_t<phrase role="c_punctuation">)</phrase> (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                               <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                               <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<para>A virtual method for the <link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> to use
+an intermediate surface for subsequent paint calls.</para>
+<para>The drawing will be redirected to an intermediate surface
+until a matching call to the <link linkend="hb-paint-funcs-pop-group-func-t"><type>hb_paint_funcs_pop_group_func_t</type></link>
+vfunc.</para>
+<refsect3 id="hb-paint-push-group-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>The data accompanying the paint functions in <link linkend="hb-font-paint-glyph"><function>hb_font_paint_glyph()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>User data pointer passed to <link linkend="hb-paint-funcs-set-push-group-func"><function>hb_paint_funcs_set_push_group_func()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-set-push-group-func" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_set_push_group_func&#160;()</title>
+<indexterm zone="hb-paint-funcs-set-push-group-func" role="7.0.0"><primary>hb_paint_funcs_set_push_group_func</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_funcs_set_push_group_func (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                                    <parameter><link linkend="hb-paint-push-group-func-t"><type>hb_paint_push_group_func_t</type></link> func</parameter>,
+                                    <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                                    <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<para>Sets the push-group callback on the paint functions struct.</para>
+<refsect3 id="hb-paint-funcs-set-push-group-func.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>A paint functions struct</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>func</para></entry>
+<entry role="parameter_description"><para>The push-group callback. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>closure</acronym> user_data][<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>Data to pass to <parameter>func</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>Function to call when <parameter>user_data</parameter>
+is no longer needed. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-pop-group-func-t" role="function" condition="since:7.0.0">
+<title>hb_paint_pop_group_func_t&#160;()</title>
+<indexterm zone="hb-paint-pop-group-func-t" role="7.0.0"><primary>hb_paint_pop_group_func_t</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_paint_pop_group_func_t<phrase role="c_punctuation">)</phrase> (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                              <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                              <parameter><link linkend="hb-paint-composite-mode-t"><type>hb_paint_composite_mode_t</type></link> mode</parameter>,
+                              <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<para>A virtual method for the <link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> to undo
+the effect of a prior call to the <link linkend="hb-paint-funcs-push-group-func-t"><type>hb_paint_funcs_push_group_func_t</type></link>
+vfunc.</para>
+<para>This call stops the redirection to the intermediate surface,
+and then composites it on the previous surface, using the
+compositing mode passed to this call.</para>
+<refsect3 id="hb-paint-pop-group-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>The data accompanying the paint functions in <link linkend="hb-font-paint-glyph"><function>hb_font_paint_glyph()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>mode</para></entry>
+<entry role="parameter_description"><para>the compositing mode to use</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>User data pointer passed to <link linkend="hb-paint-funcs-set-pop-group-func"><function>hb_paint_funcs_set_pop_group_func()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-set-pop-group-func" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_set_pop_group_func&#160;()</title>
+<indexterm zone="hb-paint-funcs-set-pop-group-func" role="7.0.0"><primary>hb_paint_funcs_set_pop_group_func</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_funcs_set_pop_group_func (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                                   <parameter><link linkend="hb-paint-pop-group-func-t"><type>hb_paint_pop_group_func_t</type></link> func</parameter>,
+                                   <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                                   <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<para>Sets the pop-group callback on the paint functions struct.</para>
+<refsect3 id="hb-paint-funcs-set-pop-group-func.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>A paint functions struct</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>func</para></entry>
+<entry role="parameter_description"><para>The pop-group callback. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>closure</acronym> user_data][<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>Data to pass to <parameter>func</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>Function to call when <parameter>user_data</parameter>
+is no longer needed. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-custom-palette-color-func-t" role="function" condition="since:7.0.0">
+<title>hb_paint_custom_palette_color_func_t&#160;()</title>
+<indexterm zone="hb-paint-custom-palette-color-func-t" role="7.0.0"><primary>hb_paint_custom_palette_color_func_t</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+<phrase role="c_punctuation">(</phrase>*hb_paint_custom_palette_color_func_t<phrase role="c_punctuation">)</phrase>
+                               (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                                <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                                <parameter>unsigned <link linkend="int"><type>int</type></link> color_index</parameter>,
+                                <parameter><link linkend="hb-color-t"><type>hb_color_t</type></link> *color</parameter>,
+                                <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>);</programlisting>
+<para>A virtual method for the <link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> to fetch a color from the custom
+color palette.</para>
+<para>Custom palette colors override the colors from the fonts selected color
+palette. It is not necessary to override all palette entries; for entries
+that should be taken from the font palette, return <literal>false</literal>.</para>
+<para>This function might get called multiple times, but the custom palette is
+expected to remain unchanged for duration of a <link linkend="hb-font-paint-glyph"><function>hb_font_paint_glyph()</function></link> call.</para>
+<refsect3 id="hb-paint-custom-palette-color-func-t.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>The data accompanying the paint functions in <link linkend="hb-font-paint-glyph"><function>hb_font_paint_glyph()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>color_index</para></entry>
+<entry role="parameter_description"><para>the color index</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>color</para></entry>
+<entry role="parameter_description"><para>fetched color. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>User data pointer passed to <link linkend="hb-paint-funcs-set-pop-group-func"><function>hb_paint_funcs_set_pop_group_func()</function></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-paint-custom-palette-color-func-t.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-funcs-set-custom-palette-color-func" role="function" condition="since:7.0.0">
+<title>hb_paint_funcs_set_custom_palette_color_func&#160;()</title>
+<indexterm zone="hb-paint-funcs-set-custom-palette-color-func" role="7.0.0"><primary>hb_paint_funcs_set_custom_palette_color_func</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_funcs_set_custom_palette_color_func
+                               (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                                <parameter><link linkend="hb-paint-custom-palette-color-func-t"><type>hb_paint_custom_palette_color_func_t</type></link> func</parameter>,
+                                <parameter><link linkend="void"><type>void</type></link> *user_data</parameter>,
+                                <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<para>Sets the custom-palette-color callback on the paint functions struct.</para>
+<refsect3 id="hb-paint-funcs-set-custom-palette-color-func.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>A paint functions struct</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>func</para></entry>
+<entry role="parameter_description"><para>The custom-palette-color callback. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>closure</acronym> user_data][<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>user_data</para></entry>
+<entry role="parameter_description"><para>Data to pass to <parameter>func</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>Function to call when <parameter>user_data</parameter>
+is no longer needed. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-push-transform" role="function" condition="since:7.0.0">
+<title>hb_paint_push_transform&#160;()</title>
+<indexterm zone="hb-paint-push-transform" role="7.0.0"><primary>hb_paint_push_transform</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_push_transform (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                         <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                         <parameter><link linkend="float"><type>float</type></link> xx</parameter>,
+                         <parameter><link linkend="float"><type>float</type></link> yx</parameter>,
+                         <parameter><link linkend="float"><type>float</type></link> xy</parameter>,
+                         <parameter><link linkend="float"><type>float</type></link> yy</parameter>,
+                         <parameter><link linkend="float"><type>float</type></link> dx</parameter>,
+                         <parameter><link linkend="float"><type>float</type></link> dy</parameter>);</programlisting>
+<para>Perform a "push-transform" paint operation.</para>
+<refsect3 id="hb-paint-push-transform.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>associated data passed by the caller</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>xx</para></entry>
+<entry role="parameter_description"><para>xx component of the transform matrix</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>yx</para></entry>
+<entry role="parameter_description"><para>yx component of the transform matrix</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>xy</para></entry>
+<entry role="parameter_description"><para>xy component of the transform matrix</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>yy</para></entry>
+<entry role="parameter_description"><para>yy component of the transform matrix</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>dx</para></entry>
+<entry role="parameter_description"><para>dx component of the transform matrix</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>dy</para></entry>
+<entry role="parameter_description"><para>dy component of the transform matrix</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-pop-transform" role="function" condition="since:7.0.0">
+<title>hb_paint_pop_transform&#160;()</title>
+<indexterm zone="hb-paint-pop-transform" role="7.0.0"><primary>hb_paint_pop_transform</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_pop_transform (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                        <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>);</programlisting>
+<para>Perform a "pop-transform" paint operation.</para>
+<refsect3 id="hb-paint-pop-transform.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>associated data passed by the caller</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-push-clip-glyph" role="function" condition="since:7.0.0">
+<title>hb_paint_push_clip_glyph&#160;()</title>
+<indexterm zone="hb-paint-push-clip-glyph" role="7.0.0"><primary>hb_paint_push_clip_glyph</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_push_clip_glyph (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                          <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                          <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> glyph</parameter>,
+                          <parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>);</programlisting>
+<para>Perform a "push-clip-glyph" paint operation.</para>
+<refsect3 id="hb-paint-push-clip-glyph.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>associated data passed by the caller</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>glyph</para></entry>
+<entry role="parameter_description"><para>the glyph ID</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>the font</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-push-clip-rectangle" role="function" condition="since:7.0.0">
+<title>hb_paint_push_clip_rectangle&#160;()</title>
+<indexterm zone="hb-paint-push-clip-rectangle" role="7.0.0"><primary>hb_paint_push_clip_rectangle</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_push_clip_rectangle (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                              <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                              <parameter><link linkend="float"><type>float</type></link> xmin</parameter>,
+                              <parameter><link linkend="float"><type>float</type></link> ymin</parameter>,
+                              <parameter><link linkend="float"><type>float</type></link> xmax</parameter>,
+                              <parameter><link linkend="float"><type>float</type></link> ymax</parameter>);</programlisting>
+<para>Perform a "push-clip-rect" paint operation.</para>
+<refsect3 id="hb-paint-push-clip-rectangle.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>associated data passed by the caller</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>xmin</para></entry>
+<entry role="parameter_description"><para>min X for the rectangle</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>ymin</para></entry>
+<entry role="parameter_description"><para>min Y for the rectangle</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>xmax</para></entry>
+<entry role="parameter_description"><para>max X for the rectangle</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>ymax</para></entry>
+<entry role="parameter_description"><para>max Y for the rectangle</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-pop-clip" role="function" condition="since:7.0.0">
+<title>hb_paint_pop_clip&#160;()</title>
+<indexterm zone="hb-paint-pop-clip" role="7.0.0"><primary>hb_paint_pop_clip</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_pop_clip (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                   <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>);</programlisting>
+<para>Perform a "pop-clip" paint operation.</para>
+<refsect3 id="hb-paint-pop-clip.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>associated data passed by the caller</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-color" role="function" condition="since:7.0.0">
+<title>hb_paint_color&#160;()</title>
+<indexterm zone="hb-paint-color" role="7.0.0"><primary>hb_paint_color</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_color (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                <parameter><link linkend="hb-bool-t"><type>hb_bool_t</type></link> is_foreground</parameter>,
+                <parameter><link linkend="hb-color-t"><type>hb_color_t</type></link> color</parameter>);</programlisting>
+<para>Perform a "color" paint operation.</para>
+<refsect3 id="hb-paint-color.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>associated data passed by the caller</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>is_foreground</para></entry>
+<entry role="parameter_description"><para>whether the color is the foreground</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>color</para></entry>
+<entry role="parameter_description"><para>The color to use</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-image" role="function" condition="since:7.0.0">
+<title>hb_paint_image&#160;()</title>
+<indexterm zone="hb-paint-image" role="7.0.0"><primary>hb_paint_image</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_image (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                <parameter><link linkend="hb-blob-t"><type>hb_blob_t</type></link> *image</parameter>,
+                <parameter>unsigned <link linkend="int"><type>int</type></link> width</parameter>,
+                <parameter>unsigned <link linkend="int"><type>int</type></link> height</parameter>,
+                <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> format</parameter>,
+                <parameter><link linkend="float"><type>float</type></link> slant</parameter>,
+                <parameter><link linkend="hb-glyph-extents-t"><type>hb_glyph_extents_t</type></link> *extents</parameter>);</programlisting>
+<para>Perform a "image" paint operation.</para>
+<refsect3 id="hb-paint-image.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>associated data passed by the caller</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>image</para></entry>
+<entry role="parameter_description"><para>image data</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>width</para></entry>
+<entry role="parameter_description"><para>width of the raster image in pixels, or 0</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>height</para></entry>
+<entry role="parameter_description"><para>height of the raster image in pixels, or 0</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>format</para></entry>
+<entry role="parameter_description"><para>the image format as a tag</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>slant</para></entry>
+<entry role="parameter_description"><para>the synthetic slant ratio to be applied to the image during rendering</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>extents</para></entry>
+<entry role="parameter_description"><para>the extents of the glyph. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-linear-gradient" role="function" condition="since:7.0.0">
+<title>hb_paint_linear_gradient&#160;()</title>
+<indexterm zone="hb-paint-linear-gradient" role="7.0.0"><primary>hb_paint_linear_gradient</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_linear_gradient (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                          <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                          <parameter><link linkend="hb-color-line-t"><type>hb_color_line_t</type></link> *color_line</parameter>,
+                          <parameter><link linkend="float"><type>float</type></link> x0</parameter>,
+                          <parameter><link linkend="float"><type>float</type></link> y0</parameter>,
+                          <parameter><link linkend="float"><type>float</type></link> x1</parameter>,
+                          <parameter><link linkend="float"><type>float</type></link> y1</parameter>,
+                          <parameter><link linkend="float"><type>float</type></link> x2</parameter>,
+                          <parameter><link linkend="float"><type>float</type></link> y2</parameter>);</programlisting>
+<para>Perform a "linear-gradient" paint operation.</para>
+<refsect3 id="hb-paint-linear-gradient.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>associated data passed by the caller</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>color_line</para></entry>
+<entry role="parameter_description"><para>Color information for the gradient</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>x0</para></entry>
+<entry role="parameter_description"><para>X coordinate of the first point</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>y0</para></entry>
+<entry role="parameter_description"><para>Y coordinate of the first point</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>x1</para></entry>
+<entry role="parameter_description"><para>X coordinate of the second point</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>y1</para></entry>
+<entry role="parameter_description"><para>Y coordinate of the second point</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>x2</para></entry>
+<entry role="parameter_description"><para>X coordinate of the third point</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>y2</para></entry>
+<entry role="parameter_description"><para>Y coordinate of the third point</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-radial-gradient" role="function" condition="since:7.0.0">
+<title>hb_paint_radial_gradient&#160;()</title>
+<indexterm zone="hb-paint-radial-gradient" role="7.0.0"><primary>hb_paint_radial_gradient</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_radial_gradient (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                          <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                          <parameter><link linkend="hb-color-line-t"><type>hb_color_line_t</type></link> *color_line</parameter>,
+                          <parameter><link linkend="float"><type>float</type></link> x0</parameter>,
+                          <parameter><link linkend="float"><type>float</type></link> y0</parameter>,
+                          <parameter><link linkend="float"><type>float</type></link> r0</parameter>,
+                          <parameter><link linkend="float"><type>float</type></link> x1</parameter>,
+                          <parameter><link linkend="float"><type>float</type></link> y1</parameter>,
+                          <parameter><link linkend="float"><type>float</type></link> r1</parameter>);</programlisting>
+<para>Perform a "radial-gradient" paint operation.</para>
+<refsect3 id="hb-paint-radial-gradient.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>associated data passed by the caller</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>color_line</para></entry>
+<entry role="parameter_description"><para>Color information for the gradient</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>x0</para></entry>
+<entry role="parameter_description"><para>X coordinate of the first circle's center</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>y0</para></entry>
+<entry role="parameter_description"><para>Y coordinate of the first circle's center</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>r0</para></entry>
+<entry role="parameter_description"><para>radius of the first circle</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>x1</para></entry>
+<entry role="parameter_description"><para>X coordinate of the second circle's center</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>y1</para></entry>
+<entry role="parameter_description"><para>Y coordinate of the second circle's center</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>r1</para></entry>
+<entry role="parameter_description"><para>radius of the second circle</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-sweep-gradient" role="function" condition="since:7.0.0">
+<title>hb_paint_sweep_gradient&#160;()</title>
+<indexterm zone="hb-paint-sweep-gradient" role="7.0.0"><primary>hb_paint_sweep_gradient</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_sweep_gradient (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                         <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                         <parameter><link linkend="hb-color-line-t"><type>hb_color_line_t</type></link> *color_line</parameter>,
+                         <parameter><link linkend="float"><type>float</type></link> x0</parameter>,
+                         <parameter><link linkend="float"><type>float</type></link> y0</parameter>,
+                         <parameter><link linkend="float"><type>float</type></link> start_angle</parameter>,
+                         <parameter><link linkend="float"><type>float</type></link> end_angle</parameter>);</programlisting>
+<para>Perform a "sweep-gradient" paint operation.</para>
+<refsect3 id="hb-paint-sweep-gradient.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>associated data passed by the caller</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>color_line</para></entry>
+<entry role="parameter_description"><para>Color information for the gradient</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>x0</para></entry>
+<entry role="parameter_description"><para>X coordinate of the circle's center</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>y0</para></entry>
+<entry role="parameter_description"><para>Y coordinate of the circle's center</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>start_angle</para></entry>
+<entry role="parameter_description"><para>the start angle</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>end_angle</para></entry>
+<entry role="parameter_description"><para>the end angle</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-push-group" role="function" condition="since:7.0.0">
+<title>hb_paint_push_group&#160;()</title>
+<indexterm zone="hb-paint-push-group" role="7.0.0"><primary>hb_paint_push_group</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_push_group (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                     <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>);</programlisting>
+<para>Perform a "push-group" paint operation.</para>
+<refsect3 id="hb-paint-push-group.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>associated data passed by the caller</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-pop-group" role="function" condition="since:7.0.0">
+<title>hb_paint_pop_group&#160;()</title>
+<indexterm zone="hb-paint-pop-group" role="7.0.0"><primary>hb_paint_pop_group</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_paint_pop_group (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                    <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                    <parameter><link linkend="hb-paint-composite-mode-t"><type>hb_paint_composite_mode_t</type></link> mode</parameter>);</programlisting>
+<para>Perform a "pop-group" paint operation.</para>
+<refsect3 id="hb-paint-pop-group.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>associated data passed by the caller</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>mode</para></entry>
+<entry role="parameter_description"><para>the compositing mode to use</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-custom-palette-color" role="function" condition="since:7.0.0">
+<title>hb_paint_custom_palette_color&#160;()</title>
+<indexterm zone="hb-paint-custom-palette-color" role="7.0.0"><primary>hb_paint_custom_palette_color</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_paint_custom_palette_color (<parameter><link linkend="hb-paint-funcs-t"><type>hb_paint_funcs_t</type></link> *funcs</parameter>,
+                               <parameter><link linkend="void"><type>void</type></link> *paint_data</parameter>,
+                               <parameter>unsigned <link linkend="int"><type>int</type></link> color_index</parameter>,
+                               <parameter><link linkend="hb-color-t"><type>hb_color_t</type></link> *color</parameter>);</programlisting>
+<para>Gets the custom palette color for <parameter>color_index</parameter>
+.</para>
+<refsect3 id="hb-paint-custom-palette-color.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>funcs</para></entry>
+<entry role="parameter_description"><para>paint functions</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>paint_data</para></entry>
+<entry role="parameter_description"><para>associated data passed by the caller</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>color_index</para></entry>
+<entry role="parameter_description"><para>color index</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>color</para></entry>
+<entry role="parameter_description"><para>fetched color. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-paint-custom-palette-color.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if found, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-paint.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="hb-paint-funcs-t" role="typedef" condition="since:7.0.0">
+<title>hb_paint_funcs_t</title>
+<indexterm zone="hb-paint-funcs-t" role="7.0.0"><primary>hb_paint_funcs_t</primary></indexterm>
+<programlisting language="C">typedef struct hb_paint_funcs_t hb_paint_funcs_t;
+</programlisting>
+<para>Glyph paint callbacks.</para>
+<para>The callbacks assume that the caller maintains a stack
+of current transforms, clips and intermediate surfaces,
+as evidenced by the pairs of push/pop callbacks. The
+push/pop calls will be properly nested, so it is fine
+to store the different kinds of object on a single stack.</para>
+<para>Not all callbacks are required for all kinds of glyphs.
+For rendering COLRv0 or non-color outline glyphs, the
+gradient callbacks are not needed, and the composite
+callback only needs to handle simple alpha compositing
+(<link linkend="HB-PAINT-COMPOSITE-MODE-SRC-OVER:CAPS"><type>HB_PAINT_COMPOSITE_MODE_SRC_OVER</type></link>).</para>
+<para>The paint-image callback is only needed for glyphs
+with image blobs in the CBDT, sbix or SVG tables.</para>
+<para>The custom-palette-color callback is only necessary if
+you want to override colors from the font palette with
+custom colors.</para>
+<para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="HB-PAINT-IMAGE-FORMAT-PNG:CAPS" role="macro" condition="since:7.0.0">
+<title>HB_PAINT_IMAGE_FORMAT_PNG</title>
+<indexterm zone="HB-PAINT-IMAGE-FORMAT-PNG:CAPS" role="7.0.0"><primary>HB_PAINT_IMAGE_FORMAT_PNG</primary></indexterm>
+<programlisting language="C">#define HB_PAINT_IMAGE_FORMAT_PNG HB_TAG('p','n','g',' ')
+</programlisting>
+<para>Tag identifying PNG images in <link linkend="hb-paint-image-func-t"><type>hb_paint_image_func_t</type></link> callbacks.</para>
+<para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="HB-PAINT-IMAGE-FORMAT-SVG:CAPS" role="macro" condition="since:7.0.0">
+<title>HB_PAINT_IMAGE_FORMAT_SVG</title>
+<indexterm zone="HB-PAINT-IMAGE-FORMAT-SVG:CAPS" role="7.0.0"><primary>HB_PAINT_IMAGE_FORMAT_SVG</primary></indexterm>
+<programlisting language="C">#define HB_PAINT_IMAGE_FORMAT_SVG HB_TAG('s','v','g',' ')
+</programlisting>
+<para>Tag identifying SVG images in <link linkend="hb-paint-image-func-t"><type>hb_paint_image_func_t</type></link> callbacks.</para>
+<para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="HB-PAINT-IMAGE-FORMAT-BGRA:CAPS" role="macro" condition="since:7.0.0">
+<title>HB_PAINT_IMAGE_FORMAT_BGRA</title>
+<indexterm zone="HB-PAINT-IMAGE-FORMAT-BGRA:CAPS" role="7.0.0"><primary>HB_PAINT_IMAGE_FORMAT_BGRA</primary></indexterm>
+<programlisting language="C">#define HB_PAINT_IMAGE_FORMAT_BGRA HB_TAG('B','G','R','A')
+</programlisting>
+<para>Tag identifying raw pixel-data images in <link linkend="hb-paint-image-func-t"><type>hb_paint_image_func_t</type></link> callbacks.
+The data is in BGRA pre-multiplied sRGBA color-space format.</para>
+<para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-color-line-t" role="typedef" condition="since:7.0.0">
+<title>hb_color_line_t</title>
+<indexterm zone="hb-color-line-t" role="7.0.0"><primary>hb_color_line_t</primary></indexterm>
+<programlisting language="C">typedef struct hb_color_line_t hb_color_line_t;
+</programlisting>
+<para>A struct containing color information for a gradient.</para>
+<para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-color-stop-t" role="struct" condition="since:7.0.0">
+<title>hb_color_stop_t</title>
+<indexterm zone="hb-color-stop-t" role="7.0.0"><primary>hb_color_stop_t</primary></indexterm>
+<programlisting language="C">typedef struct {
+  float offset;
+  hb_bool_t is_foreground;
+  hb_color_t color;
+} hb_color_stop_t;
+</programlisting>
+<para>Information about a color stop on a color line.</para>
+<para>Color lines typically have offsets ranging between 0 and 1,
+but that is not required.</para>
+<para>Note: despite <parameter>color</parameter>
+ being unpremultiplied here, interpolation in
+gradients shall happen in premultiplied space. See the OpenType spec
+<ulink url="https://learn.microsoft.com/en-us/typography/opentype/spec/colr">COLR</ulink>
+section for details.</para>
+<refsect3 id="hb-color-stop-t.members" role="struct_members">
+<title>Members</title>
+<informaltable role="struct_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="struct_members_name" colwidth="300px"/>
+<colspec colname="struct_members_description"/>
+<colspec colname="struct_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="member"><entry role="struct_member_name"><para><link linkend="float"><type>float</type></link>&#160;<structfield id="hb-color-stop-t.offset">offset</structfield>;</para></entry>
+<entry role="struct_member_description"><para>the offset of the color stop</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-bool-t"><type>hb_bool_t</type></link>&#160;<structfield id="hb-color-stop-t.is-foreground">is_foreground</structfield>;</para></entry>
+<entry role="struct_member_description"><para>whether the color is the foreground</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-color-t"><type>hb_color_t</type></link>&#160;<structfield id="hb-color-stop-t.color">color</structfield>;</para></entry>
+<entry role="struct_member_description"><para>the color, unpremultiplied</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3>
+<para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-extend-t" role="enum" condition="since:7.0.0">
+<title>enum hb_paint_extend_t</title>
+<indexterm zone="hb-paint-extend-t" role="7.0.0"><primary>hb_paint_extend_t</primary></indexterm>
+<para>The values of this enumeration determine how color values
+outside the minimum and maximum defined offset on a <link linkend="hb-color-line-t"><type>hb_color_line_t</type></link>
+are determined.</para>
+<para>See the OpenType spec <ulink url="https://learn.microsoft.com/en-us/typography/opentype/spec/colr">COLR</ulink>
+section for details.</para>
+<refsect3 id="hb-paint-extend-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-EXTEND-PAD:CAPS">HB_PAINT_EXTEND_PAD</para></entry>
+<entry role="enum_member_description"><para>Outside the defined interval,
+the color of the closest color stop is used.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-EXTEND-REPEAT:CAPS">HB_PAINT_EXTEND_REPEAT</para></entry>
+<entry role="enum_member_description"><para>The color line is repeated over
+repeated multiples of the defined interval</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-EXTEND-REFLECT:CAPS">HB_PAINT_EXTEND_REFLECT</para></entry>
+<entry role="enum_member_description"><para>The color line is repeated over
+repeated intervals, as for the repeat mode.
+However, in each repeated interval, the ordering of
+color stops is the reverse of the adjacent interval.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-paint-composite-mode-t" role="enum" condition="since:7.0.0">
+<title>enum hb_paint_composite_mode_t</title>
+<indexterm zone="hb-paint-composite-mode-t" role="7.0.0"><primary>hb_paint_composite_mode_t</primary></indexterm>
+<para>The values of this enumeration describe the compositing modes
+that can be used when combining temporary redirected drawing
+with the backdrop.</para>
+<para>See the OpenType spec <ulink url="https://learn.microsoft.com/en-us/typography/opentype/spec/colr">COLR</ulink>
+section for details.</para>
+<refsect3 id="hb-paint-composite-mode-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-CLEAR:CAPS">HB_PAINT_COMPOSITE_MODE_CLEAR</para></entry>
+<entry role="enum_member_description"><para>clear destination layer (bounded)</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-SRC:CAPS">HB_PAINT_COMPOSITE_MODE_SRC</para></entry>
+<entry role="enum_member_description"><para>replace destination layer (bounded)</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-DEST:CAPS">HB_PAINT_COMPOSITE_MODE_DEST</para></entry>
+<entry role="enum_member_description"><para>ignore the source</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-SRC-OVER:CAPS">HB_PAINT_COMPOSITE_MODE_SRC_OVER</para></entry>
+<entry role="enum_member_description"><para>draw source layer on top of destination layer
+(bounded)</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-DEST-OVER:CAPS">HB_PAINT_COMPOSITE_MODE_DEST_OVER</para></entry>
+<entry role="enum_member_description"><para>draw destination on top of source</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-SRC-IN:CAPS">HB_PAINT_COMPOSITE_MODE_SRC_IN</para></entry>
+<entry role="enum_member_description"><para>draw source where there was destination content
+(unbounded)</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-DEST-IN:CAPS">HB_PAINT_COMPOSITE_MODE_DEST_IN</para></entry>
+<entry role="enum_member_description"><para>leave destination only where there was
+source content (unbounded)</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-SRC-OUT:CAPS">HB_PAINT_COMPOSITE_MODE_SRC_OUT</para></entry>
+<entry role="enum_member_description"><para>draw source where there was no destination
+content (unbounded)</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-DEST-OUT:CAPS">HB_PAINT_COMPOSITE_MODE_DEST_OUT</para></entry>
+<entry role="enum_member_description"><para>leave destination only where there was no
+source content</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-SRC-ATOP:CAPS">HB_PAINT_COMPOSITE_MODE_SRC_ATOP</para></entry>
+<entry role="enum_member_description"><para>draw source on top of destination content and
+only there</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-DEST-ATOP:CAPS">HB_PAINT_COMPOSITE_MODE_DEST_ATOP</para></entry>
+<entry role="enum_member_description"><para>leave destination on top of source content
+and only there (unbounded)</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-XOR:CAPS">HB_PAINT_COMPOSITE_MODE_XOR</para></entry>
+<entry role="enum_member_description"><para>source and destination are shown where there is only
+one of them</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-PLUS:CAPS">HB_PAINT_COMPOSITE_MODE_PLUS</para></entry>
+<entry role="enum_member_description"><para>source and destination layers are accumulated</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-SCREEN:CAPS">HB_PAINT_COMPOSITE_MODE_SCREEN</para></entry>
+<entry role="enum_member_description"><para>source and destination are complemented and
+multiplied. This causes the result to be at least as light as the lighter
+inputs.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-OVERLAY:CAPS">HB_PAINT_COMPOSITE_MODE_OVERLAY</para></entry>
+<entry role="enum_member_description"><para>multiplies or screens, depending on the
+lightness of the destination color.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-DARKEN:CAPS">HB_PAINT_COMPOSITE_MODE_DARKEN</para></entry>
+<entry role="enum_member_description"><para>replaces the destination with the source if it
+is darker, otherwise keeps the source.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-LIGHTEN:CAPS">HB_PAINT_COMPOSITE_MODE_LIGHTEN</para></entry>
+<entry role="enum_member_description"><para>replaces the destination with the source if it
+is lighter, otherwise keeps the source.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-COLOR-DODGE:CAPS">HB_PAINT_COMPOSITE_MODE_COLOR_DODGE</para></entry>
+<entry role="enum_member_description"><para>brightens the destination color to reflect
+the source color.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-COLOR-BURN:CAPS">HB_PAINT_COMPOSITE_MODE_COLOR_BURN</para></entry>
+<entry role="enum_member_description"><para>darkens the destination color to reflect
+the source color.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-HARD-LIGHT:CAPS">HB_PAINT_COMPOSITE_MODE_HARD_LIGHT</para></entry>
+<entry role="enum_member_description"><para>Multiplies or screens, dependent on source
+color.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-SOFT-LIGHT:CAPS">HB_PAINT_COMPOSITE_MODE_SOFT_LIGHT</para></entry>
+<entry role="enum_member_description"><para>Darkens or lightens, dependent on source
+color.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-DIFFERENCE:CAPS">HB_PAINT_COMPOSITE_MODE_DIFFERENCE</para></entry>
+<entry role="enum_member_description"><para>Takes the difference of the source and
+destination color.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-EXCLUSION:CAPS">HB_PAINT_COMPOSITE_MODE_EXCLUSION</para></entry>
+<entry role="enum_member_description"><para>Produces an effect similar to difference, but
+with lower contrast.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-MULTIPLY:CAPS">HB_PAINT_COMPOSITE_MODE_MULTIPLY</para></entry>
+<entry role="enum_member_description"><para>source and destination layers are multiplied.
+This causes the result to be at least as dark as the darker inputs.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-HSL-HUE:CAPS">HB_PAINT_COMPOSITE_MODE_HSL_HUE</para></entry>
+<entry role="enum_member_description"><para>Creates a color with the hue of the source
+and the saturation and luminosity of the target.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-HSL-SATURATION:CAPS">HB_PAINT_COMPOSITE_MODE_HSL_SATURATION</para></entry>
+<entry role="enum_member_description"><para>Creates a color with the saturation
+of the source and the hue and luminosity of the target. Painting with
+this mode onto a gray area produces no change.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-HSL-COLOR:CAPS">HB_PAINT_COMPOSITE_MODE_HSL_COLOR</para></entry>
+<entry role="enum_member_description"><para>Creates a color with the hue and saturation
+of the source and the luminosity of the target. This preserves the gray
+levels of the target and is useful for coloring monochrome images or
+tinting color images.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-PAINT-COMPOSITE-MODE-HSL-LUMINOSITY:CAPS">HB_PAINT_COMPOSITE_MODE_HSL_LUMINOSITY</para></entry>
+<entry role="enum_member_description"><para>Creates a color with the luminosity of
+the source and the hue and saturation of the target. This produces an
+inverse effect to <parameter>HB_PAINT_COMPOSITE_MODE_HSL_COLOR</parameter>
+.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+
+</refsect1>
+
+</refentry>
