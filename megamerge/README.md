@@ -10,3 +10,4 @@ the following caveats:
 * Only the Regular weight is included.
 * The fonts are merged with `fontTools.merger`, which *might* work well enough for your use case. Equally, it might not.
 * Vertical metrics are removed.
+* No monster scripts. (CJK, Duployan, SignWriting)
