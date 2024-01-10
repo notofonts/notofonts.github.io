@@ -1,0 +1,24 @@
+name: Megamerge
+on:
+  push:
+  schedule:
+    - cron: '12 1 * * *'
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+            ref: main
+      - uses: actions/setup-python@v2
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install fontTools
+      - name: Build
+        run: cd megamerge; python3 megamerge.py
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        name: Commit downloaded fonts and data
