@@ -44,13 +44,13 @@ def megamerge(final_target, base_font, tier_predicate, banned, modulation):
     print("Merging: ")
     for x in mergelist:
         print("  "+os.path.basename(x))
-    merger = Merger(options=Options(drop_tables=["vmtx", "vhea"]))
+    merger = Merger(options=Options(drop_tables=["vmtx", "vhea", "MATH"]))
     merged = merger.merge(mergelist)
     merged.save(final_target)
 
 
 for modulation in ["Sans", "Serif"]:
-    banned = ["duployan", "math", "latin-greek-cyrillic", "sign-writing", "test"]
+    banned = ["duployan", "latin-greek-cyrillic", "sign-writing", "test"]
     if modulation == "sans":
         banned.append("devanagari")  # Already included
     megamerge(f"Noto{modulation}Living-Regular.ttf", 
