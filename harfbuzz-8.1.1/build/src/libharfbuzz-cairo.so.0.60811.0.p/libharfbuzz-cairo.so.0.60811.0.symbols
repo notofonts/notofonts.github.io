@@ -1,0 +1,17 @@
+ 0x000000000000000e (SONAME)             Library soname: [libharfbuzz-cairo.so.0]
+__gcov_error_file B 8
+__gcov_kvp_dynamic_pool B 8
+__gcov_kvp_dynamic_pool_index B 4
+__gcov_kvp_dynamic_pool_size B 4
+__gcov_master D 10
+__gcov_var B 1028
+hb_cairo_font_face_create_for_face T
+hb_cairo_font_face_create_for_font T
+hb_cairo_font_face_get_face T
+hb_cairo_font_face_get_font T
+hb_cairo_font_face_get_scale_factor T
+hb_cairo_font_face_set_font_init_func T
+hb_cairo_font_face_set_scale_factor T
+hb_cairo_glyphs_from_buffer T
+hb_cairo_scaled_font_get_font T
+mangle_path T

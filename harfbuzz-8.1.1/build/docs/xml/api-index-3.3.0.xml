@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-3.3.0">
+<indexdiv><title>B</title>
+<indexentry><primaryie linkends="hb-buffer-create-similar"><link linkend="hb-buffer-create-similar">hb_buffer_create_similar</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="hb-font-get-synthetic-slant"><link linkend="hb-font-get-synthetic-slant">hb_font_get_synthetic_slant</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-var-coords-design"><link linkend="hb-font-get-var-coords-design">hb_font_get_var_coords_design</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-set-synthetic-slant"><link linkend="hb-font-set-synthetic-slant">hb_font_set_synthetic_slant</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>S</title>
+<indexentry><primaryie linkends="hb-segment-properties-overlay"><link linkend="hb-segment-properties-overlay">hb_segment_properties_overlay</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

@@ -1,0 +1,1775 @@
+Build started at 2024-01-10T10:32:34.855332
+Main binary: /usr/bin/python3
+Build Options: -Dauto_features=enabled -Dchafa=disabled -Dgraphite=enabled -Doptimization=2 -Db_coverage=true -Dragel_subproject=true
+Python system: Linux
+The Meson build system
+Version: 0.56.0
+Source dir: /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1
+Build dir: /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build
+Build type: native build
+Project name: harfbuzz
+Project version: 8.1.1
+None of 'CC' are defined in the environment, not changing global flags.
+None of 'CFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: ccache cc
+Is cross compiler: False.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: ccache cc /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/sanitycheckc.c -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/sanitycheckc.exe
+C compiler for the host machine: ccache cc (gcc 11.4.0 "cc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+C linker for the host machine: cc ld.bfd 2.38
+None of 'AR' are defined in the environment, not changing global flags.
+None of 'CXX' are defined in the environment, not changing global flags.
+None of 'CXXFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity testing C++ compiler: ccache c++
+Is cross compiler: False.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/sanitycheckcpp.cc -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: ccache c++ (gcc 11.4.0 "c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+C++ linker for the host machine: c++ ld.bfd 2.38
+None of 'CC' are defined in the environment, not changing global flags.
+None of 'CFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity testing C compiler: ccache cc
+Is cross compiler: False.
+None of 'CC_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: ccache cc /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/sanitycheckc.c -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: ccache cc (gcc 11.4.0 "cc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+C linker for the build machine: cc ld.bfd 2.38
+None of 'AR' are defined in the environment, not changing global flags.
+None of 'CXX' are defined in the environment, not changing global flags.
+None of 'CXXFLAGS' are defined in the environment, not changing global flags.
+None of 'LDFLAGS' are defined in the environment, not changing global flags.
+None of 'CPPFLAGS' are defined in the environment, not changing global flags.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity testing C++ compiler: ccache c++
+Is cross compiler: False.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Sanity check compiler command line: ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/sanitycheckcpp.cc -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/sanitycheckcpp.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the build machine: ccache c++ (gcc 11.4.0 "c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+C++ linker for the build machine: c++ ld.bfd 2.38
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpaszrdjns
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpaszrdjns/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpaszrdjns/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--fatal-warnings -Bsymbolic-functions 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C++ supports link arguments -Bsymbolic-functions: YES 
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpqc0napmp
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpqc0napmp/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpqc0napmp/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -fno-exceptions 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C++ supports arguments -fno-exceptions: YES 
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpg1sl6efv
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpg1sl6efv/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpg1sl6efv/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -fno-rtti 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C++ supports arguments -fno-rtti: YES 
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp6m7_68ca
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp6m7_68ca/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp6m7_68ca/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -fno-threadsafe-statics 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C++ supports arguments -fno-threadsafe-statics: YES 
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpma2vibi2
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpma2vibi2/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpma2vibi2/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -fvisibility-inlines-hidden 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C++ supports arguments -fvisibility-inlines-hidden: YES 
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp0dk54l_q
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp0dk54l_q/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp0dk54l_q/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library m found: YES
+Pkg-config binary for MachineChoice.HOST is not cached.
+None of 'PKG_CONFIG' are defined in the environment, not changing global flags.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: /usr/bin/pkg-config (0.29.2)
+Determining dependency 'freetype2' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion freetype2` -> 0
+24.1.18
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags freetype2` -> 0
+-I/usr/include/freetype2 -I/usr/include/libpng16
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config freetype2 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lfreetype
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config freetype2 --libs` -> 0
+-lfreetype
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmphm15bc1p
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmphm15bc1p/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmphm15bc1p/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpnpaf0c5t
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpnpaf0c5t/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpnpaf0c5t/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/11/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/11/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/11/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Run-time dependency freetype2 found: YES 24.1.18
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'glib-2.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion glib-2.0` -> 0
+2.72.4
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags glib-2.0` -> 0
+-I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config glib-2.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config glib-2.0 --libs` -> 0
+-lglib-2.0
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency glib-2.0 found: YES 2.72.4
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gobject-2.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gobject-2.0` -> 0
+2.72.4
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gobject-2.0` -> 0
+-I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gobject-2.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gobject-2.0 --libs` -> 0
+-lgobject-2.0 -lglib-2.0
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency gobject-2.0 found: YES 2.72.4
+Dependency graphite2 skipped: feature graphite2 disabled
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'graphite2' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion graphite2` -> 0
+3.0.1
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags graphite2` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config graphite2 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgraphite2
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config graphite2 --libs` -> 0
+-lgraphite2
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency graphite2 found: YES 3.0.1
+Library iwasm skipped: feature wasm disabled
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'icu-uc' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion icu-uc` -> 0
+70.1
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags icu-uc` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config icu-uc --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -licuuc -licudata
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config icu-uc --libs` -> 0
+-licuuc -licudata
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency icu-uc found: YES 70.1
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=DEFS icu-uc` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --print-variables icu-uc` -> 0
+CFLAGS
+CXXFLAGS
+DEFS
+ICUDATA_NAME
+ICUDESC
+ICULIBSUFFIX
+ICUPREFIX
+LIBICU
+UNICODE_VERSION
+baselibs
+exec_prefix
+includedir
+libdir
+pcfiledir
+pkglibdir
+prefix
+Got pkgconfig variable DEFS : 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'cairo' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion cairo` -> 0
+1.16.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags cairo` -> 0
+-I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config cairo --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lcairo
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config cairo --libs` -> 0
+-lcairo
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency cairo found: YES 1.16.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'cairo-ft' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion cairo-ft` -> 0
+1.16.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags cairo-ft` -> 0
+-I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config cairo-ft --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lcairo -lfreetype
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config cairo-ft --libs` -> 0
+-lcairo -lfreetype
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+Run-time dependency cairo-ft found: YES 1.16.0
+Dependency chafa skipped: feature chafa disabled
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpbeip2tsw
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpbeip2tsw/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpbeip2tsw/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wnon-virtual-dtor -Wno-non-virtual-dtor 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C++ supports arguments -Wno-non-virtual-dtor: YES 
+Run-time dependency threads found: YES
+Running compile:
+Working directory:  /tmp/tmp0bxcfawx
+Command line:  ccache c++ /tmp/tmp0bxcfawx/testfile.cpp -o /tmp/tmp0bxcfawx/output.obj -pipe -D_FILE_OFFSET_BITS=64 -c -std=c++11 
+
+Code:
+ int i = static_cast<int>(0);
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler accepts -std=c++11: YES
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpilnj2xw0
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpilnj2xw0/testfile.cpp -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("unistd.h")
+          #error "Header 'unistd.h' could not be found"
+         #endif
+        #else
+         #include <unistd.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "unistd.h" : YES 
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpogv9la4q
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpogv9la4q/testfile.cpp -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/mman.h")
+          #error "Header 'sys/mman.h' could not be found"
+         #endif
+        #else
+         #include <sys/mman.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "sys/mman.h" : YES 
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpxbhdjycv
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpxbhdjycv/testfile.cpp -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("stdbool.h")
+          #error "Header 'stdbool.h' could not be found"
+         #endif
+        #else
+         #include <stdbool.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "stdbool.h" : YES 
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp8o2rn_jr
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp8o2rn_jr/testfile.cpp -pipe -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("xlocale.h")
+          #error "Header 'xlocale.h' could not be found"
+         #endif
+        #else
+         #include <xlocale.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp8o2rn_jr/testfile.cpp:4:12: error: #error "Header 'xlocale.h' could not be found"
+    4 |           #error "Header 'xlocale.h' could not be found"
+      |            ^~~~~
+
+Has header "xlocale.h" : NO 
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpxmygvvg3
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpxmygvvg3/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpxmygvvg3/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti 
+
+Code:
+ 
+        #define atexit meson_disable_define_of_atexit
+        
+        #include <limits.h>
+        #undef atexit
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char atexit (void);
+        
+        #if defined __stub_atexit || defined __stub___atexit
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return atexit ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "atexit" : YES 
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp0v153vkb
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp0v153vkb/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp0v153vkb/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti 
+
+Code:
+ 
+        #define mprotect meson_disable_define_of_mprotect
+        
+        #include <limits.h>
+        #undef mprotect
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char mprotect (void);
+        
+        #if defined __stub_mprotect || defined __stub___mprotect
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return mprotect ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "mprotect" : YES 
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpyz27myf0
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpyz27myf0/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpyz27myf0/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti 
+
+Code:
+ 
+        #define sysconf meson_disable_define_of_sysconf
+        
+        #include <limits.h>
+        #undef sysconf
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char sysconf (void);
+        
+        #if defined __stub_sysconf || defined __stub___sysconf
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return sysconf ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "sysconf" : YES 
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmps0vkx693
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmps0vkx693/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmps0vkx693/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti 
+
+Code:
+ 
+        #define getpagesize meson_disable_define_of_getpagesize
+        
+        #include <limits.h>
+        #undef getpagesize
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char getpagesize (void);
+        
+        #if defined __stub_getpagesize || defined __stub___getpagesize
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return getpagesize ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "getpagesize" : YES 
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp6vxojiit
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp6vxojiit/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp6vxojiit/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti 
+
+Code:
+ 
+        #define mmap meson_disable_define_of_mmap
+        
+        #include <limits.h>
+        #undef mmap
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char mmap (void);
+        
+        #if defined __stub_mmap || defined __stub___mmap
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return mmap ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "mmap" : YES 
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpqnyqzmer
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpqnyqzmer/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpqnyqzmer/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti 
+
+Code:
+ 
+        #define isatty meson_disable_define_of_isatty
+        
+        #include <limits.h>
+        #undef isatty
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char isatty (void);
+        
+        #if defined __stub_isatty || defined __stub___isatty
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return isatty ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "isatty" : YES 
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp0z_y2sfr
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp0z_y2sfr/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp0z_y2sfr/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti 
+
+Code:
+ 
+        #define uselocale meson_disable_define_of_uselocale
+        
+        #include <limits.h>
+        #undef uselocale
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char uselocale (void);
+        
+        #if defined __stub_uselocale || defined __stub___uselocale
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return uselocale ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "uselocale" : YES 
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpi0320wvf
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpi0320wvf/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpi0320wvf/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti 
+
+Code:
+ 
+        #define newlocale meson_disable_define_of_newlocale
+        
+        #include <limits.h>
+        #undef newlocale
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char newlocale (void);
+        
+        #if defined __stub_newlocale || defined __stub___newlocale
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return newlocale ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "newlocale" : YES 
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpbe79swdx
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpbe79swdx/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpbe79swdx/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti 
+
+Code:
+ 
+        #define sincosf meson_disable_define_of_sincosf
+        
+        #include <limits.h>
+        #undef sincosf
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char sincosf (void);
+        
+        #if defined __stub_sincosf || defined __stub___sincosf
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return sincosf ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "sincosf" : YES 
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpq1uxklc8
+Command line:  ccache c++ -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpq1uxklc8/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpq1uxklc8/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti -Wl,--start-group /usr/lib/x86_64-linux-gnu/libcairo.so -Wl,--end-group 
+
+Code:
+ 
+        #define cairo_user_font_face_set_render_color_glyph_func meson_disable_define_of_cairo_user_font_face_set_render_color_glyph_func
+        
+        #include <limits.h>
+        #undef cairo_user_font_face_set_render_color_glyph_func
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char cairo_user_font_face_set_render_color_glyph_func (void);
+        
+        #if defined __stub_cairo_user_font_face_set_render_color_glyph_func || defined __stub___cairo_user_font_face_set_render_color_glyph_func
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return cairo_user_font_face_set_render_color_glyph_func ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: /tmp/ccZ1YIvM.o: in function `main':
+testfile.cpp:(.text+0x9): undefined reference to `cairo_user_font_face_set_render_color_glyph_func'
+collect2: error: ld returned 1 exit status
+
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp87u3msvn
+Command line:  ccache c++ -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp87u3msvn/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp87u3msvn/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti -Wl,--start-group /usr/lib/x86_64-linux-gnu/libcairo.so -Wl,--end-group 
+
+Code:
+ 
+        int main(void) {
+
+        /* With some toolchains (MSYS2/mingw for example) the compiler
+         * provides various builtins which are not really implemented and
+         * fall back to the stdlib where they aren't provided and fail at
+         * build/link time. In case the user provides a header, including
+         * the header didn't lead to the function being defined, and the
+         * function we are checking isn't a builtin itself we assume the
+         * builtin is not functional and we just error out. */
+        #if !1 && !defined(cairo_user_font_face_set_render_color_glyph_func) && !0
+            #error "No definition for __builtin_cairo_user_font_face_set_render_color_glyph_func found in the prefix"
+        #endif
+
+        #ifdef __has_builtin
+            #if !__has_builtin(__builtin_cairo_user_font_face_set_render_color_glyph_func)
+                #error "__builtin_cairo_user_font_face_set_render_color_glyph_func not found"
+            #endif
+        #elif ! defined(cairo_user_font_face_set_render_color_glyph_func)
+            __builtin_cairo_user_font_face_set_render_color_glyph_func;
+        #endif
+        return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp87u3msvn/testfile.cpp:17:18: error: #error "__builtin_cairo_user_font_face_set_render_color_glyph_func not found"
+   17 |                 #error "__builtin_cairo_user_font_face_set_render_color_glyph_func not found"
+      |                  ^~~~~
+
+Checking for function "cairo_user_font_face_set_render_color_glyph_func" with dependency cairo: NO 
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpkq9jn08g
+Command line:  ccache c++ -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpkq9jn08g/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpkq9jn08g/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti -Wl,--start-group /usr/lib/x86_64-linux-gnu/libcairo.so -Wl,--end-group 
+
+Code:
+ 
+        #define cairo_font_options_get_custom_palette_color meson_disable_define_of_cairo_font_options_get_custom_palette_color
+        
+        #include <limits.h>
+        #undef cairo_font_options_get_custom_palette_color
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char cairo_font_options_get_custom_palette_color (void);
+        
+        #if defined __stub_cairo_font_options_get_custom_palette_color || defined __stub___cairo_font_options_get_custom_palette_color
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return cairo_font_options_get_custom_palette_color ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: /tmp/cc6bqjjm.o: in function `main':
+testfile.cpp:(.text+0x9): undefined reference to `cairo_font_options_get_custom_palette_color'
+collect2: error: ld returned 1 exit status
+
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpb6_ns9u6
+Command line:  ccache c++ -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpb6_ns9u6/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpb6_ns9u6/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti -Wl,--start-group /usr/lib/x86_64-linux-gnu/libcairo.so -Wl,--end-group 
+
+Code:
+ 
+        int main(void) {
+
+        /* With some toolchains (MSYS2/mingw for example) the compiler
+         * provides various builtins which are not really implemented and
+         * fall back to the stdlib where they aren't provided and fail at
+         * build/link time. In case the user provides a header, including
+         * the header didn't lead to the function being defined, and the
+         * function we are checking isn't a builtin itself we assume the
+         * builtin is not functional and we just error out. */
+        #if !1 && !defined(cairo_font_options_get_custom_palette_color) && !0
+            #error "No definition for __builtin_cairo_font_options_get_custom_palette_color found in the prefix"
+        #endif
+
+        #ifdef __has_builtin
+            #if !__has_builtin(__builtin_cairo_font_options_get_custom_palette_color)
+                #error "__builtin_cairo_font_options_get_custom_palette_color not found"
+            #endif
+        #elif ! defined(cairo_font_options_get_custom_palette_color)
+            __builtin_cairo_font_options_get_custom_palette_color;
+        #endif
+        return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpb6_ns9u6/testfile.cpp:17:18: error: #error "__builtin_cairo_font_options_get_custom_palette_color not found"
+   17 |                 #error "__builtin_cairo_font_options_get_custom_palette_color not found"
+      |                  ^~~~~
+
+Checking for function "cairo_font_options_get_custom_palette_color" with dependency cairo: NO 
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpd8soxrzx
+Command line:  ccache c++ -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpd8soxrzx/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpd8soxrzx/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti -Wl,--start-group /usr/lib/x86_64-linux-gnu/libcairo.so -Wl,--end-group 
+
+Code:
+ 
+        #define cairo_user_scaled_font_get_foreground_source meson_disable_define_of_cairo_user_scaled_font_get_foreground_source
+        
+        #include <limits.h>
+        #undef cairo_user_scaled_font_get_foreground_source
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char cairo_user_scaled_font_get_foreground_source (void);
+        
+        #if defined __stub_cairo_user_scaled_font_get_foreground_source || defined __stub___cairo_user_scaled_font_get_foreground_source
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return cairo_user_scaled_font_get_foreground_source ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: /tmp/ccIOsmtF.o: in function `main':
+testfile.cpp:(.text+0x9): undefined reference to `cairo_user_scaled_font_get_foreground_source'
+collect2: error: ld returned 1 exit status
+
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp0d0pts02
+Command line:  ccache c++ -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp0d0pts02/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp0d0pts02/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti -Wl,--start-group /usr/lib/x86_64-linux-gnu/libcairo.so -Wl,--end-group 
+
+Code:
+ 
+        int main(void) {
+
+        /* With some toolchains (MSYS2/mingw for example) the compiler
+         * provides various builtins which are not really implemented and
+         * fall back to the stdlib where they aren't provided and fail at
+         * build/link time. In case the user provides a header, including
+         * the header didn't lead to the function being defined, and the
+         * function we are checking isn't a builtin itself we assume the
+         * builtin is not functional and we just error out. */
+        #if !1 && !defined(cairo_user_scaled_font_get_foreground_source) && !0
+            #error "No definition for __builtin_cairo_user_scaled_font_get_foreground_source found in the prefix"
+        #endif
+
+        #ifdef __has_builtin
+            #if !__has_builtin(__builtin_cairo_user_scaled_font_get_foreground_source)
+                #error "__builtin_cairo_user_scaled_font_get_foreground_source not found"
+            #endif
+        #elif ! defined(cairo_user_scaled_font_get_foreground_source)
+            __builtin_cairo_user_scaled_font_get_foreground_source;
+        #endif
+        return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp0d0pts02/testfile.cpp:17:18: error: #error "__builtin_cairo_user_scaled_font_get_foreground_source not found"
+   17 |                 #error "__builtin_cairo_user_scaled_font_get_foreground_source not found"
+      |                  ^~~~~
+
+Checking for function "cairo_user_scaled_font_get_foreground_source" with dependency cairo: NO 
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpt3_sct0_
+Command line:  ccache c++ -I/usr/include/freetype2 -I/usr/include/libpng16 /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpt3_sct0_/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpt3_sct0_/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti -Wl,--start-group /usr/lib/x86_64-linux-gnu/libfreetype.so -Wl,--end-group 
+
+Code:
+ 
+        #define FT_Get_Var_Blend_Coordinates meson_disable_define_of_FT_Get_Var_Blend_Coordinates
+        
+        #include <limits.h>
+        #undef FT_Get_Var_Blend_Coordinates
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char FT_Get_Var_Blend_Coordinates (void);
+        
+        #if defined __stub_FT_Get_Var_Blend_Coordinates || defined __stub___FT_Get_Var_Blend_Coordinates
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return FT_Get_Var_Blend_Coordinates ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "FT_Get_Var_Blend_Coordinates" with dependency freetype2: YES 
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpsmksxedk
+Command line:  ccache c++ -I/usr/include/freetype2 -I/usr/include/libpng16 /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpsmksxedk/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpsmksxedk/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti -Wl,--start-group /usr/lib/x86_64-linux-gnu/libfreetype.so -Wl,--end-group 
+
+Code:
+ 
+        #define FT_Set_Var_Blend_Coordinates meson_disable_define_of_FT_Set_Var_Blend_Coordinates
+        
+        #include <limits.h>
+        #undef FT_Set_Var_Blend_Coordinates
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char FT_Set_Var_Blend_Coordinates (void);
+        
+        #if defined __stub_FT_Set_Var_Blend_Coordinates || defined __stub___FT_Set_Var_Blend_Coordinates
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return FT_Set_Var_Blend_Coordinates ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "FT_Set_Var_Blend_Coordinates" with dependency freetype2: YES 
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpkjfjirg6
+Command line:  ccache c++ -I/usr/include/freetype2 -I/usr/include/libpng16 /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpkjfjirg6/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpkjfjirg6/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti -Wl,--start-group /usr/lib/x86_64-linux-gnu/libfreetype.so -Wl,--end-group 
+
+Code:
+ 
+        #define FT_Done_MM_Var meson_disable_define_of_FT_Done_MM_Var
+        
+        #include <limits.h>
+        #undef FT_Done_MM_Var
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char FT_Done_MM_Var (void);
+        
+        #if defined __stub_FT_Done_MM_Var || defined __stub___FT_Done_MM_Var
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return FT_Done_MM_Var ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "FT_Done_MM_Var" with dependency freetype2: YES 
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpmgbfwane
+Command line:  ccache c++ -I/usr/include/freetype2 -I/usr/include/libpng16 /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpmgbfwane/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpmgbfwane/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -std=c++11 -fno-exceptions -fno-rtti -Wl,--start-group /usr/lib/x86_64-linux-gnu/libfreetype.so -Wl,--end-group 
+
+Code:
+ 
+        #define FT_Get_Transform meson_disable_define_of_FT_Get_Transform
+        
+        #include <limits.h>
+        #undef FT_Get_Transform
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char FT_Get_Transform (void);
+        
+        #if defined __stub_FT_Get_Transform || defined __stub___FT_Get_Transform
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return FT_Get_Transform ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "FT_Get_Transform" with dependency freetype2: YES 
+Program gen-hb-version.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/src/gen-hb-version.py)
+Configuring hb-version.h with command
+Running command: /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/src/gen-hb-version.py 8.1.1 /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/src/hb-version.h /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/src/hb-version.h.in
+--- stdout ---
+
+--- stderr ---
+
+
+Program ragel found: NO
+Downloading ragel source from https://www.colm.net/files/ragel/ragel-6.10.tar.gz
+
+Executing subproject ragel method meson 
+
+Project name: ragel
+Project version: 6.10
+C compiler for the host machine: ccache cc (gcc 11.4.0 "cc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+C linker for the host machine: cc ld.bfd 2.38
+C++ compiler for the host machine: ccache c++ (gcc 11.4.0 "c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+C++ linker for the host machine: c++ ld.bfd 2.38
+C compiler for the build machine: ccache cc (gcc 11.4.0 "cc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+C linker for the build machine: cc ld.bfd 2.38
+C++ compiler for the build machine: ccache c++ (gcc 11.4.0 "c++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+C++ linker for the build machine: c++ ld.bfd 2.38
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpdikg6w7a
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpdikg6w7a/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpdikg6w7a/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -fexceptions 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C++ supports arguments -fexceptions: YES 
+Configuring config.h using configuration
+Build targets in project: 1
+Subproject ragel finished.
+
+Program gen-ragel-artifacts.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/src/gen-ragel-artifacts.py)
+Program gen-harfbuzzcc.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/src/gen-harfbuzzcc.py)
+Configuring hb-features.h using configuration
+Configuring hb-supported-features.h using configuration
+Program gen-def.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/src/gen-def.py)
+Program gen-harfbuzzcc.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/src/gen-harfbuzzcc.py)
+Dependency cairo found: YES 1.16.0 (cached)
+Adding test "test-algs"
+Adding test "test-array"
+Adding test "test-iter"
+Adding test "test-machinery"
+Adding test "test-map"
+Adding test "test-multimap"
+Adding test "test-number"
+Adding test "test-ot-tag"
+Adding test "test-priority-queue"
+Adding test "test-repacker"
+Adding test "test-classdef-graph"
+Adding test "test-set"
+Adding test "test-serialize"
+Adding test "test-unicode-ranges"
+Adding test "test-vector"
+Adding test "test-bimap"
+Adding test "test-instancer-solver"
+Adding test "test-tuple-varstore"
+Configuring harfbuzz-config.cmake using configuration
+src/meson.build:797: WARNING: The variable(s) 'default_library' in the input file 'src/harfbuzz-config.cmake.in' are not present in the given configuration data.
+Program glib-mkenums found: YES (/usr/bin/glib-mkenums)
+Program fix_get_types.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/src/fix_get_types.py)
+Program fix_get_types.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/src/fix_get_types.py)
+Program g-ir-scanner found: YES (/usr/bin/g-ir-scanner)
+Pkg-config binary for MachineChoice.BUILD is not cached.
+None of 'PKG_CONFIG' are defined in the environment, not changing global flags.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: /usr/bin/pkg-config (0.29.2)
+Determining dependency 'gobject-introspection-1.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gobject-introspection-1.0` -> 0
+1.72.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gobject-introspection-1.0` -> 0
+-I/usr/include/gobject-introspection-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gobject-introspection-1.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgirepository-1.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gobject-introspection-1.0 --libs` -> 0
+-lgirepository-1.0 -lgobject-2.0 -lglib-2.0
+None of 'PKG_CONFIG_PATH' are defined in the environment, not changing global flags.
+None of 'CXX_LD' are defined in the environment, not changing global flags.
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpp4x5q__1
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpp4x5q__1/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmpp4x5q__1/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp7egzj57e
+Command line:  ccache c++ /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp7egzj57e/testfile.cpp -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp7egzj57e/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/11/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/11/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/11/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Build-time dependency gobject-introspection-1.0 found: YES 1.72.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=g_ir_scanner gobject-introspection-1.0` -> 0
+/usr/bin/g-ir-scanner
+Got pkgconfig variable g_ir_scanner : /usr/bin/g-ir-scanner
+Program g_ir_scanner found: YES (/usr/bin/g-ir-scanner)
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=g_ir_compiler gobject-introspection-1.0` -> 0
+/usr/bin/g-ir-compiler
+Got pkgconfig variable g_ir_compiler : /usr/bin/g-ir-compiler
+Program g_ir_compiler found: YES (/usr/bin/g-ir-compiler)
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir glib-2.0` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --print-variables glib-2.0` -> 0
+bindir
+glib_genmarshal
+glib_mkenums
+gobject_query
+includedir
+libdir
+pcfiledir
+prefix
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir gobject-2.0` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --print-variables gobject-2.0` -> 0
+includedir
+libdir
+pcfiledir
+prefix
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir freetype2` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --print-variables freetype2` -> 0
+exec_prefix
+includedir
+libdir
+pcfiledir
+prefix
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir graphite2` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --print-variables graphite2` -> 0
+pcfiledir
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --variable=girdir gobject-introspection-1.0` -> 0
+/usr/share/gir-1.0
+Got pkgconfig variable girdir : /usr/share/gir-1.0
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : /usr/share/gir-1.0
+Running compile:
+Working directory:  /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp8oa4fcb8
+Command line:  ccache cc /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp8oa4fcb8/testfile.c -o /home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/meson-private/tmp8oa4fcb8/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/11/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/11/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/11/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Program check-c-linkage-decls.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/src/check-c-linkage-decls.py)
+Adding test "check-c-linkage-decls"
+Program check-externs.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/src/check-externs.py)
+Adding test "check-externs"
+Program check-header-guards.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/src/check-header-guards.py)
+Adding test "check-header-guards"
+Program check-includes.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/src/check-includes.py)
+Adding test "check-includes"
+Program check-static-inits.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/src/check-static-inits.py)
+Adding test "check-static-inits"
+Program check-symbols.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/src/check-symbols.py)
+Adding test "check-symbols"
+Program check-libstdc++.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/src/check-libstdc++.py)
+Adding test "check-libstdc++"
+Adding test "test-aat-layout"
+Adding test "test-baseline"
+Adding test "test-base-minmax"
+Adding test "test-be-glyph-advance"
+Adding test "test-be-num-glyphs"
+Adding test "test-blob"
+Adding test "test-buffer"
+Adding test "test-c"
+Adding test "test-collect-unicodes"
+Adding test "test-cplusplus"
+Adding test "test-common"
+Adding test "test-draw"
+Adding test "test-extents"
+Adding test "test-font"
+Adding test "test-font-scale"
+Adding test "test-glyph-names"
+Adding test "test-instance-cff2"
+Adding test "test-map"
+Adding test "test-object"
+Adding test "test-ot-alternates"
+Adding test "test-ot-collect-glyphs"
+Adding test "test-ot-color"
+Adding test "test-ot-face"
+Adding test "test-ot-glyphname"
+Adding test "test-ot-layout"
+Adding test "test-ot-ligature-carets"
+Adding test "test-ot-name"
+Adding test "test-ot-meta"
+Adding test "test-ot-metrics"
+Adding test "test-ot-tag"
+Adding test "test-ot-extents-cff"
+Adding test "test-ot-metrics-tt-var"
+Adding test "test-paint"
+Adding test "test-subset-repacker"
+Adding test "test-set"
+Adding test "test-shape"
+Adding test "test-style"
+Adding test "test-subset"
+Adding test "test-subset-cmap"
+Adding test "test-subset-drop-tables"
+Adding test "test-subset-glyf"
+Adding test "test-subset-hdmx"
+Adding test "test-subset-hmtx"
+Adding test "test-subset-nameids"
+Adding test "test-subset-os2"
+Adding test "test-subset-post"
+Adding test "test-subset-vmtx"
+Adding test "test-subset-cff1"
+Adding test "test-subset-cff2"
+Adding test "test-subset-gvar"
+Adding test "test-subset-hvar"
+Adding test "test-subset-vvar"
+Adding test "test-subset-sbix"
+Adding test "test-subset-gpos"
+Adding test "test-subset-colr"
+Adding test "test-subset-cbdt"
+Adding test "test-unicode"
+Adding test "test-var-coords"
+Adding test "test-version"
+Adding test "test-ot-math"
+Adding test "test-ft"
+Adding test "test-multithread"
+Program run-tests.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/test/shape/run-tests.py)
+Adding test "aat-morx"
+Adding test "aat-trak"
+Adding test "arabic-fallback-shaping"
+Adding test "arabic-feature-order"
+Adding test "arabic-like-joining"
+Adding test "arabic-mark-order"
+Adding test "arabic-normalization"
+Adding test "arabic-phags-pa"
+Adding test "arabic-stch"
+Adding test "automatic-fractions"
+Adding test "cluster"
+Adding test "collections"
+Adding test "color-fonts"
+Adding test "context-matching"
+Adding test "coretext"
+Adding test "cursive-positioning"
+Adding test "default-ignorables"
+Adding test "digits"
+Adding test "directwrite"
+Adding test "emoji"
+Adding test "emoji-clusters"
+Adding test "fallback-positioning"
+Adding test "glyph-props-no-gdef"
+Adding test "hangul-jamo"
+Adding test "hebrew-diacritics"
+Adding test "hyphens"
+Adding test "indic-consonant-with-stacker"
+Adding test "indic-decompose"
+Adding test "indic-feature-order"
+Adding test "indic-init"
+Adding test "indic-joiner-candrabindu"
+Adding test "indic-joiners"
+Adding test "indic-malayalam-dot-reph"
+Adding test "indic-old-spec"
+Adding test "indic-pref-blocking"
+Adding test "indic-script-extensions"
+Adding test "indic-special-cases"
+Adding test "indic-syllable"
+Adding test "indic-vowel-letter-spoofing"
+Adding test "item-context"
+Adding test "kern-format2"
+Adding test "khmer-mark-order"
+Adding test "khmer-misc"
+Adding test "language-tags"
+Adding test "ligature-id"
+Adding test "macos"
+Adding test "mark-attachment"
+Adding test "mark-filtering-sets"
+Adding test "mongolian-variation-selector"
+Adding test "myanmar-misc"
+Adding test "myanmar-syllable"
+Adding test "myanmar-zawgyi"
+Adding test "nested-mark-filtering-sets"
+Adding test "none-directional"
+Adding test "positioning-features"
+Adding test "rand"
+Adding test "reverse-sub"
+Adding test "rotation"
+Adding test "sara-am"
+Adding test "simple"
+Adding test "sinhala"
+Adding test "spaces"
+Adding test "tibetan-contractions-1"
+Adding test "tibetan-contractions-2"
+Adding test "tibetan-vowels"
+Adding test "tt-kern-gpos"
+Adding test "uniscribe"
+Adding test "unsafe-to-concat"
+Adding test "use-indic3"
+Adding test "use-javanese"
+Adding test "use-marchen"
+Adding test "use-syllable"
+Adding test "use-vowel-letter-spoofing"
+Adding test "use"
+Adding test "variations"
+Adding test "variations-rvrn"
+Adding test "vertical"
+Adding test "zero-width-marks"
+Adding test "classdef1_empty"
+Adding test "classdef1_multiple"
+Adding test "classdef1_single"
+Adding test "classdef1"
+Adding test "classdef2_empty"
+Adding test "classdef2_multiple"
+Adding test "classdef2_single"
+Adding test "classdef2"
+Adding test "cmap0"
+Adding test "cmap10"
+Adding test "cmap12"
+Adding test "cmap2"
+Adding test "cmap4"
+Adding test "cmap6"
+Adding test "cmap8"
+Adding test "gpos_chaining1_boundary"
+Adding test "gpos_chaining1_lookupflag"
+Adding test "gpos_chaining1_multiple_subrules"
+Adding test "gpos_chaining1_next_glyph"
+Adding test "gpos_chaining1_simple"
+Adding test "gpos_chaining1_successive"
+Adding test "gpos_chaining2_boundary"
+Adding test "gpos_chaining2_lookupflag"
+Adding test "gpos_chaining2_multiple_subrules"
+Adding test "gpos_chaining2_next_glyph"
+Adding test "gpos_chaining2_simple"
+Adding test "gpos_chaining2_successive"
+Adding test "gpos_chaining3_boundary"
+Adding test "gpos_chaining3_lookupflag"
+Adding test "gpos_chaining3_next_glyph"
+Adding test "gpos_chaining3_simple"
+Adding test "gpos_chaining3_successive"
+Adding test "gpos_context1_boundary"
+Adding test "gpos_context1_expansion"
+Adding test "gpos_context1_lookupflag"
+Adding test "gpos_context1_multiple_subrules"
+Adding test "gpos_context1_next_glyph"
+Adding test "gpos_context1_simple"
+Adding test "gpos_context1_successive"
+Adding test "gpos_context2_boundary"
+Adding test "gpos_context2_classes"
+Adding test "gpos_context2_expansion"
+Adding test "gpos_context2_lookupflag"
+Adding test "gpos_context2_multiple_subrules"
+Adding test "gpos_context2_next_glyph"
+Adding test "gpos_context2_simple"
+Adding test "gpos_context2_successive"
+Adding test "gpos_context3_boundary"
+Adding test "gpos_context3_lookupflag"
+Adding test "gpos_context3_next_glyph"
+Adding test "gpos_context3_simple"
+Adding test "gpos_context3_successive"
+Adding test "gpos1_1_lookupflag"
+Adding test "gpos1_1_simple"
+Adding test "gpos1_2_lookupflag"
+Adding test "gpos1_2"
+Adding test "gpos2_1_lookupflag"
+Adding test "gpos2_1_next_glyph"
+Adding test "gpos2_1_simple"
+Adding test "gpos2_1"
+Adding test "gpos2_2"
+Adding test "gpos3_lookupflag"
+Adding test "gpos3"
+Adding test "gpos4_lookupflag"
+Adding test "gpos4_multiple_anchors"
+Adding test "gpos4_simple"
+Adding test "gpos5"
+Adding test "gpos6"
+Adding test "gpos7_1"
+Adding test "gpos9"
+Adding test "gsub_chaining1_boundary"
+Adding test "gsub_chaining1_lookupflag"
+Adding test "gsub_chaining1_multiple_subrules"
+Adding test "gsub_chaining1_next_glyph"
+Adding test "gsub_chaining1_simple"
+Adding test "gsub_chaining1_successive"
+Adding test "gsub_chaining2_boundary"
+Adding test "gsub_chaining2_lookupflag"
+Adding test "gsub_chaining2_multiple_subrules"
+Adding test "gsub_chaining2_next_glyph"
+Adding test "gsub_chaining2_simple"
+Adding test "gsub_chaining2_successive"
+Adding test "gsub_chaining3_boundary"
+Adding test "gsub_chaining3_lookupflag"
+Adding test "gsub_chaining3_next_glyph"
+Adding test "gsub_chaining3_simple"
+Adding test "gsub_chaining3_successive"
+Adding test "gsub_context1_boundary"
+Adding test "gsub_context1_expansion"
+Adding test "gsub_context1_lookupflag"
+Adding test "gsub_context1_multiple_subrules"
+Adding test "gsub_context1_next_glyph"
+Adding test "gsub_context1_simple"
+Adding test "gsub_context1_successive"
+Adding test "gsub_context2_boundary"
+Adding test "gsub_context2_classes"
+Adding test "gsub_context2_expansion"
+Adding test "gsub_context2_lookupflag"
+Adding test "gsub_context2_multiple_subrules"
+Adding test "gsub_context2_next_glyph"
+Adding test "gsub_context2_simple"
+Adding test "gsub_context2_successive"
+Adding test "gsub_context3_boundary"
+Adding test "gsub_context3_lookupflag"
+Adding test "gsub_context3_next_glyph"
+Adding test "gsub_context3_simple"
+Adding test "gsub_context3_successive"
+Adding test "gsub1_1_lookupflag"
+Adding test "gsub1_1_modulo"
+Adding test "gsub1_1_simple"
+Adding test "gsub1_2_lookupflag"
+Adding test "gsub1_2_simple"
+Adding test "gsub2_1_lookupflag"
+Adding test "gsub2_1_multiple_sequences"
+Adding test "gsub2_1_simple"
+Adding test "gsub3_1_lookupflag"
+Adding test "gsub3_1_multiple"
+Adding test "gsub3_1_simple"
+Adding test "gsub4_1_lookupflag"
+Adding test "gsub4_1_multiple_ligatures"
+Adding test "gsub4_1_multiple_ligsets"
+Adding test "gsub4_1_simple"
+Adding test "gsub7"
+Adding test "lookupflag_ignore_attach"
+Adding test "lookupflag_ignore_base"
+Adding test "lookupflag_ignore_combination"
+Adding test "lookupflag_ignore_ligatures"
+Adding test "lookupflag_ignore_marks"
+Adding test "AVAR-1"
+Adding test "CFF-1"
+Adding test "CFF-2"
+Adding test "CFF2-1"
+Adding test "CMAP-1"
+Adding test "CMAP-2"
+Adding test "CVAR-1"
+Adding test "CVAR-2"
+Adding test "GLYF-1"
+Adding test "GPOS-1"
+Adding test "GPOS-2"
+Adding test "GPOS-3"
+Adding test "GPOS-4"
+Adding test "GPOS-5"
+Adding test "GSUB-1"
+Adding test "GSUB-2"
+Adding test "GSUB-3"
+Adding test "GVAR-1"
+Adding test "GVAR-2"
+Adding test "GVAR-3"
+Adding test "GVAR-4"
+Adding test "GVAR-5"
+Adding test "GVAR-6"
+Adding test "GVAR-7"
+Adding test "GVAR-8"
+Adding test "GVAR-9"
+Adding test "HVAR-1"
+Adding test "HVAR-2"
+Adding test "KERN-1"
+Adding test "KERN-2"
+Adding test "MORX-1"
+Adding test "MORX-10"
+Adding test "MORX-11"
+Adding test "MORX-12"
+Adding test "MORX-13"
+Adding test "MORX-14"
+Adding test "MORX-16"
+Adding test "MORX-17"
+Adding test "MORX-18"
+Adding test "MORX-19"
+Adding test "MORX-2"
+Adding test "MORX-20"
+Adding test "MORX-21"
+Adding test "MORX-22"
+Adding test "MORX-23"
+Adding test "MORX-24"
+Adding test "MORX-25"
+Adding test "MORX-26"
+Adding test "MORX-27"
+Adding test "MORX-28"
+Adding test "MORX-29"
+Adding test "MORX-3"
+Adding test "MORX-30"
+Adding test "MORX-31"
+Adding test "MORX-32"
+Adding test "MORX-33"
+Adding test "MORX-34"
+Adding test "MORX-35"
+Adding test "MORX-36"
+Adding test "MORX-37"
+Adding test "MORX-38"
+Adding test "MORX-39"
+Adding test "MORX-4"
+Adding test "MORX-40"
+Adding test "MORX-41"
+Adding test "MORX-5"
+Adding test "MORX-6"
+Adding test "MORX-7"
+Adding test "MORX-8"
+Adding test "MORX-9"
+Adding test "SFNT-1"
+Adding test "SFNT-2"
+Adding test "SHBALI-3"
+Adding test "SHKNDA-1"
+Program run-tests.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/test/subset/run-tests.py)
+Adding test "basics"
+Adding test "preprocess"
+Adding test "full-font"
+Adding test "cff-full-font"
+Adding test "japanese"
+Adding test "cff-japanese"
+Adding test "cff.notoserifmyanmar"
+Adding test "glyf_bug_3131"
+Adding test "layout"
+Adding test "layout.gpos"
+Adding test "layout.gpos2"
+Adding test "layout.gpos3"
+Adding test "layout.gpos4"
+Adding test "layout.gpos5"
+Adding test "layout.gpos6"
+Adding test "layout.gpos8"
+Adding test "layout.gpos8.amiri"
+Adding test "layout.gpos9"
+Adding test "layout.gsub3"
+Adding test "layout.gsub5"
+Adding test "layout.gsub5_format2"
+Adding test "layout.gsub6"
+Adding test "layout.gsub8"
+Adding test "layout.gdef"
+Adding test "layout.gdef.glyphset"
+Adding test "layout.khmer"
+Adding test "layout.context"
+Adding test "layout.context_format2"
+Adding test "layout.gdef-varstore"
+Adding test "layout.gdef-attachlist"
+Adding test "layout.notonastaliqurdu"
+Adding test "layout.tinos"
+Adding test "layout.duplicate_features"
+Adding test "layout.unsorted_featurelist"
+Adding test "layout.drop_feature"
+Adding test "no_layout_closure"
+Adding test "cmap"
+Adding test "cmap14"
+Adding test "sbix"
+Adding test "colr"
+Adding test "colr_glyphs"
+Adding test "math"
+Adding test "math_coverage_offset"
+Adding test "colrv1"
+Adding test "colrv1_copy_varstore"
+Adding test "colr_with_components"
+Adding test "cbdt"
+Adding test "variable"
+Adding test "glyph_names"
+Adding test "post"
+Adding test "32bit_var_store"
+Adding test "pin_all_at_default"
+Adding test "instantiate_glyf"
+Adding test "instantiate_cff2"
+Adding test "full_instance"
+Adding test "instance_feature_variations"
+Adding test "instance_no_double_free"
+Adding test "mvar_full_instance"
+Adding test "instance_comp_glyph_empty_child"
+Adding test "post_apply_mvar_delta"
+Adding test "apply_cvar_delta"
+Adding test "collect_name_ids"
+Adding test "instantiate_colrv1"
+Adding test "instantiate_cff2_update_metrics"
+Program run-repack-tests.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/test/subset/run-repack-tests.py)
+Adding test "basic"
+Adding test "prioritization"
+Adding test "table_duplication"
+Adding test "isolation"
+Adding test "advanced_prioritization"
+Adding test "space_splitting"
+Program run-shape-fuzzer-tests.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/test/fuzzing/run-shape-fuzzer-tests.py)
+Adding test "shape_fuzzer"
+Program run-subset-fuzzer-tests.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/test/fuzzing/run-subset-fuzzer-tests.py)
+Adding test "subset_fuzzer"
+Program run-draw-fuzzer-tests.py found: YES (/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/test/fuzzing/run-draw-fuzzer-tests.py)
+Adding test "draw_fuzzer"
+Adding test "shape_threads"
+Adding test "subset_threads"
+Program gtkdoc-scan found: YES (/usr/bin/gtkdoc-scan)
+Configuring version.xml using configuration
+Program gtkdoc-scan found: YES (/usr/bin/gtkdoc-scan)
+Program gtkdoc-scangobj found: YES (/usr/bin/gtkdoc-scangobj)
+Program gtkdoc-mkdb found: YES (/usr/bin/gtkdoc-mkdb)
+Program gtkdoc-mkhtml found: YES (/usr/bin/gtkdoc-mkhtml)
+Program gtkdoc-fixxref found: YES (/usr/bin/gtkdoc-fixxref)
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+PKG_CONFIG_PATH: 
+PKG_CONFIG_PATH: 
+Got pkgconfig variable girdir : 
+Configuring config.h using configuration
+Build targets in project: 132
+
+harfbuzz 8.1.1
+
+  Directories
+                        prefix: /usr/local
+                        bindir: bin
+                        libdir: lib/x86_64-linux-gnu
+                    includedir: include
+                       datadir: share
+
+  Unicode callbacks (you want at least one)
+                       Builtin: YES
+                          Glib: YES
+                           ICU: YES
+
+  Font callbacks (the more the merrier)
+                       Builtin: YES
+                      FreeType: YES
+
+  Dependencies used for command-line utilities
+                         Cairo: YES
+                         Chafa: NO
+
+  Additional shapers
+                     Graphite2: YES
+    WebAssembly (experimental): NO
+
+  Platform shapers (not normally needed)
+                      CoreText: NO
+    DirectWrite (experimental): NO
+                 GDI/Uniscribe: NO
+
+  Other features
+                 Documentation: YES
+              GObject bindings: YES
+             Cairo integration: YES
+                 Introspection: YES
+             Experimental APIs: NO
+
+  Testing
+                         Tests: YES
+                     Benchmark: NO
+
+  Subprojects
+                         ragel: YES
+
+Found ninja-1.10.1 at /usr/bin/ninja
+None of 'STRIP' are defined in the environment, not changing global flags.
+!meson_ci!/ci_include "/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build/build.ninja"
+None of 'STRIP' are defined in the environment, not changing global flags.

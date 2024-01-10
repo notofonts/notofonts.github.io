@@ -1,0 +1,476 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-ft">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-ft.top_of_page">hb-ft</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-ft</refname>
+<refpurpose>FreeType integration</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-ft.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-ft-face-create">hb_ft_face_create</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-ft-face-create-cached">hb_ft_face_create_cached</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-ft-face-create-referenced">hb_ft_face_create_referenced</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-font-t"><returnvalue>hb_font_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-ft-font-create">hb_ft_font_create</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-font-t"><returnvalue>hb_font_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-ft-font-create-referenced">hb_ft_font_create_referenced</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ft-font-changed">hb_ft_font_changed</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="FT-Face"><returnvalue>FT_Face</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ft-font-get-face">hb_ft_font_get_face</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="FT-Face"><returnvalue>FT_Face</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ft-font-lock-face">hb_ft_font_lock_face</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ft-font-unlock-face">hb_ft_font_unlock_face</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ft-font-set-load-flags">hb_ft_font_set_load_flags</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ft-font-get-load-flags">hb_ft_font_get_load_flags</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ft-font-set-funcs">hb_ft_font_set_funcs</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ft-hb-font-changed">hb_ft_hb_font_changed</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-ft.includes"><title>Includes</title><synopsis>#include &lt;hb-ft.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-ft.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Functions for using HarfBuzz with the FreeType library.</para>
+<para>HarfBuzz supports using FreeType to provide face and
+font data.</para>
+<note>Note that FreeType is not thread-safe, therefore these
+functions are not thread-safe either.</note>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-ft.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-ft-face-create" role="function" condition="since:0.9.2">
+<title>hb_ft_face_create&#160;()</title>
+<indexterm zone="hb-ft-face-create" role="0.9.2"><primary>hb_ft_face_create</primary></indexterm>
+<programlisting language="C"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+hb_ft_face_create (<parameter><link linkend="FT-Face"><type>FT_Face</type></link> ft_face</parameter>,
+                   <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<para>Creates an <link linkend="hb-face-t"><type>hb_face_t</type></link> face object from the specified FT_Face.</para>
+<para>Note that this is using the FT_Face object just to get at the underlying
+font data, and fonts created from the returned <link linkend="hb-face-t"><type>hb_face_t</type></link> will use the native
+HarfBuzz font implementation, unless you call <link linkend="hb-ft-font-set-funcs"><function>hb_ft_font_set_funcs()</function></link> on them.</para>
+<para>This variant of the function does not provide any life-cycle management.</para>
+<para>Most client programs should use <link linkend="hb-ft-face-create-referenced"><function>hb_ft_face_create_referenced()</function></link>
+(or, perhaps, <link linkend="hb-ft-face-create-cached"><function>hb_ft_face_create_cached()</function></link>) instead. </para>
+<para>If you know you have valid reasons not to use <link linkend="hb-ft-face-create-referenced"><function>hb_ft_face_create_referenced()</function></link>,
+then it is the client program's responsibility to destroy <parameter>ft_face</parameter>
+ 
+after the <link linkend="hb-face-t"><type>hb_face_t</type></link> face object has been destroyed.</para>
+<refsect3 id="hb-ft-face-create.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>ft_face</para></entry>
+<entry role="parameter_description"><para>FT_Face to work upon. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>A callback to call when the face object is not needed anymore. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ft-face-create.returns" role="returns">
+<title>Returns</title>
+<para>the new <link linkend="hb-face-t"><type>hb_face_t</type></link> face object. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-ft-face-create-cached" role="function" condition="since:0.9.2">
+<title>hb_ft_face_create_cached&#160;()</title>
+<indexterm zone="hb-ft-face-create-cached" role="0.9.2"><primary>hb_ft_face_create_cached</primary></indexterm>
+<programlisting language="C"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+hb_ft_face_create_cached (<parameter><link linkend="FT-Face"><type>FT_Face</type></link> ft_face</parameter>);</programlisting>
+<para>Creates an <link linkend="hb-face-t"><type>hb_face_t</type></link> face object from the specified FT_Face.</para>
+<para>Note that this is using the FT_Face object just to get at the underlying
+font data, and fonts created from the returned <link linkend="hb-face-t"><type>hb_face_t</type></link> will use the native
+HarfBuzz font implementation, unless you call <link linkend="hb-ft-font-set-funcs"><function>hb_ft_font_set_funcs()</function></link> on them.</para>
+<para>This variant of the function caches the newly created <link linkend="hb-face-t"><type>hb_face_t</type></link>
+face object, using the <parameter>generic</parameter>
+ pointer of <parameter>ft_face</parameter>
+. Subsequent function
+calls that are passed the same <parameter>ft_face</parameter>
+ parameter will have the same
+<link linkend="hb-face-t"><type>hb_face_t</type></link> returned to them, and that <link linkend="hb-face-t"><type>hb_face_t</type></link> will be correctly
+reference counted.</para>
+<para>However, client programs are still responsible for destroying
+<parameter>ft_face</parameter>
+ after the last <link linkend="hb-face-t"><type>hb_face_t</type></link> face object has been destroyed.</para>
+<refsect3 id="hb-ft-face-create-cached.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>ft_face</para></entry>
+<entry role="parameter_description"><para>FT_Face to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ft-face-create-cached.returns" role="returns">
+<title>Returns</title>
+<para>the new <link linkend="hb-face-t"><type>hb_face_t</type></link> face object. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-ft-face-create-referenced" role="function" condition="since:0.9.38">
+<title>hb_ft_face_create_referenced&#160;()</title>
+<indexterm zone="hb-ft-face-create-referenced" role="0.9.38"><primary>hb_ft_face_create_referenced</primary></indexterm>
+<programlisting language="C"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+hb_ft_face_create_referenced (<parameter><link linkend="FT-Face"><type>FT_Face</type></link> ft_face</parameter>);</programlisting>
+<para>Creates an <link linkend="hb-face-t"><type>hb_face_t</type></link> face object from the specified FT_Face.</para>
+<para>Note that this is using the FT_Face object just to get at the underlying
+font data, and fonts created from the returned <link linkend="hb-face-t"><type>hb_face_t</type></link> will use the native
+HarfBuzz font implementation, unless you call <link linkend="hb-ft-font-set-funcs"><function>hb_ft_font_set_funcs()</function></link> on them.</para>
+<para>This is the preferred variant of the hb_ft_face_create*
+function family, because it calls <link linkend="FT-Reference-Face"><function>FT_Reference_Face()</function></link> on <parameter>ft_face</parameter>
+,
+ensuring that <parameter>ft_face</parameter>
+ remains alive as long as the resulting
+<link linkend="hb-face-t"><type>hb_face_t</type></link> face object remains alive. Also calls <link linkend="FT-Done-Face"><function>FT_Done_Face()</function></link>
+when the <link linkend="hb-face-t"><type>hb_face_t</type></link> face object is destroyed.</para>
+<para>Use this version unless you know you have good reasons not to.</para>
+<refsect3 id="hb-ft-face-create-referenced.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>ft_face</para></entry>
+<entry role="parameter_description"><para>FT_Face to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ft-face-create-referenced.returns" role="returns">
+<title>Returns</title>
+<para>the new <link linkend="hb-face-t"><type>hb_face_t</type></link> face object. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.38">0.9.38</link></para></refsect2>
+<refsect2 id="hb-ft-font-create" role="function" condition="since:0.9.2">
+<title>hb_ft_font_create&#160;()</title>
+<indexterm zone="hb-ft-font-create" role="0.9.2"><primary>hb_ft_font_create</primary></indexterm>
+<programlisting language="C"><link linkend="hb-font-t"><returnvalue>hb_font_t</returnvalue></link>&#160;*
+hb_ft_font_create (<parameter><link linkend="FT-Face"><type>FT_Face</type></link> ft_face</parameter>,
+                   <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>);</programlisting>
+<para>Creates an <link linkend="hb-font-t"><type>hb_font_t</type></link> font object from the specified FT_Face.</para>
+<note>Note: You must set the face size on <parameter>ft_face</parameter> before calling
+<link linkend="hb-ft-font-create"><function>hb_ft_font_create()</function></link> on it. HarfBuzz assumes size is always set and will
+access `size` member of FT_Face unconditionally.</note>
+<para>This variant of the function does not provide any life-cycle management.</para>
+<para>Most client programs should use <link linkend="hb-ft-font-create-referenced"><function>hb_ft_font_create_referenced()</function></link>
+instead. </para>
+<para>If you know you have valid reasons not to use <link linkend="hb-ft-font-create-referenced"><function>hb_ft_font_create_referenced()</function></link>,
+then it is the client program's responsibility to destroy <parameter>ft_face</parameter>
+ 
+after the <link linkend="hb-font-t"><type>hb_font_t</type></link> font object has been destroyed.</para>
+<para>HarfBuzz will use the <parameter>destroy</parameter>
+ callback on the <link linkend="hb-font-t"><type>hb_font_t</type></link> font object 
+if it is supplied when you use this function. However, even if <parameter>destroy</parameter>
+
+is provided, it is the client program's responsibility to destroy <parameter>ft_face</parameter>
+,
+and it is the client program's responsibility to ensure that <parameter>ft_face</parameter>
+ is
+destroyed only after the <link linkend="hb-font-t"><type>hb_font_t</type></link> font object has been destroyed.</para>
+<refsect3 id="hb-ft-font-create.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>ft_face</para></entry>
+<entry role="parameter_description"><para>FT_Face to work upon. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>destroy</acronym> destroy][<acronym>scope notified</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>A callback to call when the font object is not needed anymore. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ft-font-create.returns" role="returns">
+<title>Returns</title>
+<para>the new <link linkend="hb-font-t"><type>hb_font_t</type></link> font object. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-ft-font-create-referenced" role="function" condition="since:0.9.38">
+<title>hb_ft_font_create_referenced&#160;()</title>
+<indexterm zone="hb-ft-font-create-referenced" role="0.9.38"><primary>hb_ft_font_create_referenced</primary></indexterm>
+<programlisting language="C"><link linkend="hb-font-t"><returnvalue>hb_font_t</returnvalue></link>&#160;*
+hb_ft_font_create_referenced (<parameter><link linkend="FT-Face"><type>FT_Face</type></link> ft_face</parameter>);</programlisting>
+<para>Creates an <link linkend="hb-font-t"><type>hb_font_t</type></link> font object from the specified FT_Face.</para>
+<note>Note: You must set the face size on <parameter>ft_face</parameter> before calling
+<link linkend="hb-ft-font-create-referenced"><function>hb_ft_font_create_referenced()</function></link> on it. HarfBuzz assumes size is always set
+and will access `size` member of FT_Face unconditionally.</note>
+<para>This is the preferred variant of the hb_ft_font_create*
+function family, because it calls <link linkend="FT-Reference-Face"><function>FT_Reference_Face()</function></link> on <parameter>ft_face</parameter>
+,
+ensuring that <parameter>ft_face</parameter>
+ remains alive as long as the resulting
+<link linkend="hb-font-t"><type>hb_font_t</type></link> font object remains alive.</para>
+<para>Use this version unless you know you have good reasons not to.</para>
+<refsect3 id="hb-ft-font-create-referenced.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>ft_face</para></entry>
+<entry role="parameter_description"><para>FT_Face to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ft-font-create-referenced.returns" role="returns">
+<title>Returns</title>
+<para>the new <link linkend="hb-font-t"><type>hb_font_t</type></link> font object. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.38">0.9.38</link></para></refsect2>
+<refsect2 id="hb-ft-font-changed" role="function" condition="since:1.0.5">
+<title>hb_ft_font_changed&#160;()</title>
+<indexterm zone="hb-ft-font-changed" role="1.0.5"><primary>hb_ft_font_changed</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ft_font_changed (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>);</programlisting>
+<para>Refreshes the state of <parameter>font</parameter>
+ when the underlying FT_Face has changed.
+This function should be called after changing the size or
+variation-axis settings on the FT_Face.</para>
+<refsect3 id="hb-ft-font-changed.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.0.5">1.0.5</link></para></refsect2>
+<refsect2 id="hb-ft-font-get-face" role="function" condition="since:0.9.2">
+<title>hb_ft_font_get_face&#160;()</title>
+<indexterm zone="hb-ft-font-get-face" role="0.9.2"><primary>hb_ft_font_get_face</primary></indexterm>
+<programlisting language="C"><link linkend="FT-Face"><returnvalue>FT_Face</returnvalue></link>
+hb_ft_font_get_face (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>);</programlisting>
+<para>Fetches the FT_Face associated with the specified <link linkend="hb-font-t"><type>hb_font_t</type></link>
+font object.</para>
+<para>This function works with <link linkend="hb-font-t"><type>hb_font_t</type></link> objects created by
+<link linkend="hb-ft-font-create"><function>hb_ft_font_create()</function></link> or <link linkend="hb-ft-font-create-referenced"><function>hb_ft_font_create_referenced()</function></link>.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-ft-font-get-face.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ft-font-get-face.returns" role="returns">
+<title>Returns</title>
+<para>the FT_Face found or <literal>NULL</literal>. </para>
+<para><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-ft-font-lock-face" role="function" condition="since:2.6.5">
+<title>hb_ft_font_lock_face&#160;()</title>
+<indexterm zone="hb-ft-font-lock-face" role="2.6.5"><primary>hb_ft_font_lock_face</primary></indexterm>
+<programlisting language="C"><link linkend="FT-Face"><returnvalue>FT_Face</returnvalue></link>
+hb_ft_font_lock_face (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>);</programlisting>
+<para>Gets the FT_Face associated with <parameter>font</parameter>
+.</para>
+<para>This face will be kept around and access to the FT_Face object
+from other HarfBuzz API wil be blocked until you call <link linkend="hb-ft-font-unlock-face"><function>hb_ft_font_unlock_face()</function></link>.</para>
+<para>This function works with <link linkend="hb-font-t"><type>hb_font_t</type></link> objects created by
+<link linkend="hb-ft-font-create"><function>hb_ft_font_create()</function></link> or <link linkend="hb-ft-font-create-referenced"><function>hb_ft_font_create_referenced()</function></link>.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-ft-font-lock-face.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ft-font-lock-face.returns" role="returns">
+<title>Returns</title>
+<para>the FT_Face associated with <parameter>font</parameter>
+or <literal>NULL</literal>. </para>
+<para><emphasis role="annotation">[<acronym>nullable</acronym>][<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.6.5">2.6.5</link></para></refsect2>
+<refsect2 id="hb-ft-font-unlock-face" role="function" condition="since:2.6.5">
+<title>hb_ft_font_unlock_face&#160;()</title>
+<indexterm zone="hb-ft-font-unlock-face" role="2.6.5"><primary>hb_ft_font_unlock_face</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ft_font_unlock_face (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>);</programlisting>
+<para>Releases an FT_Face previously obtained with <link linkend="hb-ft-font-lock-face"><function>hb_ft_font_lock_face()</function></link>.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-ft-font-unlock-face.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-2.6.5">2.6.5</link></para></refsect2>
+<refsect2 id="hb-ft-font-set-load-flags" role="function" condition="since:1.0.5">
+<title>hb_ft_font_set_load_flags&#160;()</title>
+<indexterm zone="hb-ft-font-set-load-flags" role="1.0.5"><primary>hb_ft_font_set_load_flags</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ft_font_set_load_flags (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                           <parameter><link linkend="int"><type>int</type></link> load_flags</parameter>);</programlisting>
+<para>Sets the FT_Load_Glyph load flags for the specified <link linkend="hb-font-t"><type>hb_font_t</type></link>.</para>
+<para>For more information, see 
+https://www.freetype.org/freetype2/docs/reference/ft2-base_interface.html<link linkend="ft-load-xxx"><type>ft_load_xxx</type></link></para>
+<para>This function works with <link linkend="hb-font-t"><type>hb_font_t</type></link> objects created by
+<link linkend="hb-ft-font-create"><function>hb_ft_font_create()</function></link> or <link linkend="hb-ft-font-create-referenced"><function>hb_ft_font_create_referenced()</function></link>.</para>
+<refsect3 id="hb-ft-font-set-load-flags.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>load_flags</para></entry>
+<entry role="parameter_description"><para>The FreeType load flags to set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.0.5">1.0.5</link></para></refsect2>
+<refsect2 id="hb-ft-font-get-load-flags" role="function" condition="since:1.0.5">
+<title>hb_ft_font_get_load_flags&#160;()</title>
+<indexterm zone="hb-ft-font-get-load-flags" role="1.0.5"><primary>hb_ft_font_get_load_flags</primary></indexterm>
+<programlisting language="C"><link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ft_font_get_load_flags (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>);</programlisting>
+<para>Fetches the FT_Load_Glyph load flags of the specified <link linkend="hb-font-t"><type>hb_font_t</type></link>.</para>
+<para>For more information, see 
+https://www.freetype.org/freetype2/docs/reference/ft2-base_interface.html<link linkend="ft-load-xxx"><type>ft_load_xxx</type></link></para>
+<para>This function works with <link linkend="hb-font-t"><type>hb_font_t</type></link> objects created by
+<link linkend="hb-ft-font-create"><function>hb_ft_font_create()</function></link> or <link linkend="hb-ft-font-create-referenced"><function>hb_ft_font_create_referenced()</function></link>.</para>
+<refsect3 id="hb-ft-font-get-load-flags.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ft-font-get-load-flags.returns" role="returns">
+<title>Returns</title>
+<para> FT_Load_Glyph flags found, or 0</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.0.5">1.0.5</link></para></refsect2>
+<refsect2 id="hb-ft-font-set-funcs" role="function" condition="since:1.0.5">
+<title>hb_ft_font_set_funcs&#160;()</title>
+<indexterm zone="hb-ft-font-set-funcs" role="1.0.5"><primary>hb_ft_font_set_funcs</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ft_font_set_funcs (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>);</programlisting>
+<para>Configures the font-functions structure of the specified
+<link linkend="hb-font-t"><type>hb_font_t</type></link> font object to use FreeType font functions.</para>
+<para>In particular, you can use this function to configure an
+existing <link linkend="hb-face-t"><type>hb_face_t</type></link> face object for use with FreeType font
+functions even if that <link linkend="hb-face-t"><type>hb_face_t</type></link> face object was initially
+created with <link linkend="hb-face-create"><function>hb_face_create()</function></link>, and therefore was not
+initially configured to use FreeType font functions.</para>
+<para>An <link linkend="hb-font-t"><type>hb_font_t</type></link> object created with <link linkend="hb-ft-font-create"><function>hb_ft_font_create()</function></link>
+is preconfigured for FreeType font functions and does not
+require this function to be used.</para>
+<para>Note that if you modify the underlying <link linkend="hb-font-t"><type>hb_font_t</type></link> after
+calling this function, you need to call <link linkend="hb-ft-hb-font-changed"><function>hb_ft_hb_font_changed()</function></link>
+to update the underlying FT_Face.</para>
+<note>Note: Internally, this function creates an FT_Face.
+</note>
+<refsect3 id="hb-ft-font-set-funcs.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.0.5">1.0.5</link></para></refsect2>
+<refsect2 id="hb-ft-hb-font-changed" role="function" condition="since:4.4.0">
+<title>hb_ft_hb_font_changed&#160;()</title>
+<indexterm zone="hb-ft-hb-font-changed" role="4.4.0"><primary>hb_ft_hb_font_changed</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_ft_hb_font_changed (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>);</programlisting>
+<para>Refreshes the state of the underlying FT_Face of <parameter>font</parameter>
+ when the hb_font_t
+<parameter>font</parameter>
+ has changed.
+This function should be called after changing the size or
+variation-axis settings on the <parameter>font</parameter>
+.
+This call is fast if nothing has changed on <parameter>font</parameter>
+.</para>
+<refsect3 id="hb-ft-hb-font-changed.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ft-hb-font-changed.returns" role="returns">
+<title>Returns</title>
+<para> true if changed, false otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-4.4.0">4.4.0</link></para></refsect2>
+
+</refsect1>
+
+</refentry>

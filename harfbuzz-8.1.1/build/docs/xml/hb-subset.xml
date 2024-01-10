@@ -1,0 +1,958 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-subset">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-subset.top_of_page">hb-subset</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-subset</refname>
+<refpurpose>Subsets font files.</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-subset.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="hb-subset-input-t"><returnvalue>hb_subset_input_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-subset-input-create-or-fail">hb_subset_input_create_or_fail</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-subset-input-t"><returnvalue>hb_subset_input_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-subset-input-reference">hb_subset_input_reference</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-subset-input-destroy">hb_subset_input_destroy</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-subset-input-set-user-data">hb_subset_input_set_user_data</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-subset-input-get-user-data">hb_subset_input_get_user_data</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-subset-input-keep-everything">hb_subset_input_keep_everything</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-subset-input-set-flags">hb_subset_input_set_flags</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-subset-flags-t"><returnvalue>hb_subset_flags_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-subset-input-get-flags">hb_subset_input_get_flags</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-set-t"><returnvalue>hb_set_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-subset-input-unicode-set">hb_subset_input_unicode_set</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-set-t"><returnvalue>hb_set_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-subset-input-glyph-set">hb_subset_input_glyph_set</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-set-t"><returnvalue>hb_set_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-subset-input-set">hb_subset_input_set</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-map-t"><returnvalue>hb_map_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-subset-input-old-to-new-glyph-mapping">hb_subset_input_old_to_new_glyph_mapping</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-subset-input-pin-axis-location">hb_subset_input_pin_axis_location</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-subset-input-pin-axis-to-default">hb_subset_input_pin_axis_to_default</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-subset-or-fail">hb_subset_or_fail</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-subset-plan-t"><returnvalue>hb_subset_plan_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-subset-plan-create-or-fail">hb_subset_plan_create_or_fail</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-subset-plan-t"><returnvalue>hb_subset_plan_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-subset-plan-reference">hb_subset_plan_reference</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-subset-plan-destroy">hb_subset_plan_destroy</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-subset-plan-set-user-data">hb_subset_plan_set_user_data</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-subset-plan-get-user-data">hb_subset_plan_get_user_data</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-subset-plan-execute-or-fail">hb_subset_plan_execute_or_fail</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-map-t"><returnvalue>hb_map_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-subset-plan-unicode-to-old-glyph-mapping">hb_subset_plan_unicode_to_old_glyph_mapping</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-map-t"><returnvalue>hb_map_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-subset-plan-new-to-old-glyph-mapping">hb_subset_plan_new_to_old_glyph_mapping</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-map-t"><returnvalue>hb_map_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-subset-plan-old-to-new-glyph-mapping">hb_subset_plan_old_to_new_glyph_mapping</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-subset-preprocess">hb_subset_preprocess</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="harfbuzz-hb-subset.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-subset-flags-t">hb_subset_flags_t</link></entry></row>
+<row><entry role="typedef_keyword">typedef</entry><entry role="function_name"><link linkend="hb-subset-input-t">hb_subset_input_t</link></entry></row>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-subset-sets-t">hb_subset_sets_t</link></entry></row>
+<row><entry role="typedef_keyword">typedef</entry><entry role="function_name"><link linkend="hb-subset-plan-t">hb_subset_plan_t</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-subset.includes"><title>Includes</title><synopsis>#include &lt;hb-subset.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-subset.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Subsetting reduces the codepoint coverage of font files and removes all data
+that is no longer needed. A subset input describes the desired subset. The input is
+provided along with a font to the subsetting operation. Output is a new font file
+containing only the data specified in the input.</para>
+<para>Currently most outline and bitmap tables are supported: glyf, CFF, CFF2, sbix,
+COLR, and CBDT/CBLC. This also includes fonts with variable outlines via OpenType
+variations. Notably EBDT/EBLC and SVG are not supported. Layout subsetting is supported
+only for OpenType Layout tables (GSUB, GPOS, GDEF). Notably subsetting of graphite or AAT tables
+is not yet supported.</para>
+<para>Fonts with graphite or AAT tables may still be subsetted but will likely need to use the
+retain glyph ids option and configure the subset to pass through the layout tables untouched.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-subset.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-subset-input-create-or-fail" role="function" condition="since:1.8.0">
+<title>hb_subset_input_create_or_fail&#160;()</title>
+<indexterm zone="hb-subset-input-create-or-fail" role="1.8.0"><primary>hb_subset_input_create_or_fail</primary></indexterm>
+<programlisting language="C"><link linkend="hb-subset-input-t"><returnvalue>hb_subset_input_t</returnvalue></link>&#160;*
+hb_subset_input_create_or_fail (<parameter><type>void</type></parameter>);</programlisting>
+<para>Creates a new subset input object.</para>
+<refsect3 id="hb-subset-input-create-or-fail.returns" role="returns">
+<title>Returns</title>
+<para>New subset input, or <literal>NULL</literal> if failed. Destroy
+with <link linkend="hb-subset-input-destroy"><function>hb_subset_input_destroy()</function></link>. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.8.0">1.8.0</link></para></refsect2>
+<refsect2 id="hb-subset-input-reference" role="function" condition="since:1.8.0">
+<title>hb_subset_input_reference&#160;()</title>
+<indexterm zone="hb-subset-input-reference" role="1.8.0"><primary>hb_subset_input_reference</primary></indexterm>
+<programlisting language="C"><link linkend="hb-subset-input-t"><returnvalue>hb_subset_input_t</returnvalue></link>&#160;*
+hb_subset_input_reference (<parameter><link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> *input</parameter>);</programlisting>
+<para>Increases the reference count on <parameter>input</parameter>
+.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-subset-input-reference.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>input</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-subset-input-reference.returns" role="returns">
+<title>Returns</title>
+<para> <parameter>input</parameter>
+.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.8.0">1.8.0</link></para></refsect2>
+<refsect2 id="hb-subset-input-destroy" role="function" condition="since:1.8.0">
+<title>hb_subset_input_destroy&#160;()</title>
+<indexterm zone="hb-subset-input-destroy" role="1.8.0"><primary>hb_subset_input_destroy</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_subset_input_destroy (<parameter><link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> *input</parameter>);</programlisting>
+<para>Decreases the reference count on <parameter>input</parameter>
+, and if it reaches zero, destroys
+<parameter>input</parameter>
+, freeing all memory.</para>
+<refsect3 id="hb-subset-input-destroy.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>input</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.8.0">1.8.0</link></para></refsect2>
+<refsect2 id="hb-subset-input-set-user-data" role="function" condition="since:2.9.0">
+<title>hb_subset_input_set_user_data&#160;()</title>
+<indexterm zone="hb-subset-input-set-user-data" role="2.9.0"><primary>hb_subset_input_set_user_data</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_subset_input_set_user_data (<parameter><link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> *input</parameter>,
+                               <parameter><link linkend="hb-user-data-key-t"><type>hb_user_data_key_t</type></link> *key</parameter>,
+                               <parameter><link linkend="void"><type>void</type></link> *data</parameter>,
+                               <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>,
+                               <parameter><link linkend="hb-bool-t"><type>hb_bool_t</type></link> replace</parameter>);</programlisting>
+<para>Attaches a user-data key/data pair to the given subset input object.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-subset-input-set-user-data.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>input</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>key</para></entry>
+<entry role="parameter_description"><para>The user-data key to set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>data</para></entry>
+<entry role="parameter_description"><para>A pointer to the user data</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>A callback to call when <parameter>data</parameter>
+is not needed anymore. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>replace</para></entry>
+<entry role="parameter_description"><para>Whether to replace an existing data with the same key</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-subset-input-set-user-data.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if success, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.9.0">2.9.0</link></para></refsect2>
+<refsect2 id="hb-subset-input-get-user-data" role="function" condition="since:2.9.0">
+<title>hb_subset_input_get_user_data&#160;()</title>
+<indexterm zone="hb-subset-input-get-user-data" role="2.9.0"><primary>hb_subset_input_get_user_data</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>&#160;*
+hb_subset_input_get_user_data (<parameter>const <link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> *input</parameter>,
+                               <parameter><link linkend="hb-user-data-key-t"><type>hb_user_data_key_t</type></link> *key</parameter>);</programlisting>
+<para>Fetches the user data associated with the specified key,
+attached to the specified subset input object.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-subset-input-get-user-data.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>input</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>key</para></entry>
+<entry role="parameter_description"><para>The user-data key to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-subset-input-get-user-data.returns" role="returns">
+<title>Returns</title>
+<para>A pointer to the user data. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.9.0">2.9.0</link></para></refsect2>
+<refsect2 id="hb-subset-input-keep-everything" role="function" condition="since:7.0.0">
+<title>hb_subset_input_keep_everything&#160;()</title>
+<indexterm zone="hb-subset-input-keep-everything" role="7.0.0"><primary>hb_subset_input_keep_everything</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_subset_input_keep_everything (<parameter><link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> *input</parameter>);</programlisting>
+<para>Configure input object to keep everything in the font face.
+That is, all Unicodes, glyphs, names, layout items,
+glyph names, etc.</para>
+<para>The input can be tailored afterwards by the caller.</para>
+<refsect3 id="hb-subset-input-keep-everything.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>input</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> object</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-subset-input-set-flags" role="function" condition="since:2.9.0">
+<title>hb_subset_input_set_flags&#160;()</title>
+<indexterm zone="hb-subset-input-set-flags" role="2.9.0"><primary>hb_subset_input_set_flags</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_subset_input_set_flags (<parameter><link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> *input</parameter>,
+                           <parameter><link linkend="unsigned"><type>unsigned </type></link> value</parameter>);</programlisting>
+<para>Sets all of the flags in the input object to the values specified by the bit
+field.</para>
+<refsect3 id="hb-subset-input-set-flags.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>input</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>value</para></entry>
+<entry role="parameter_description"><para>bit field of flags</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-2.9.0">2.9.0</link></para></refsect2>
+<refsect2 id="hb-subset-input-get-flags" role="function" condition="since:2.9.0">
+<title>hb_subset_input_get_flags&#160;()</title>
+<indexterm zone="hb-subset-input-get-flags" role="2.9.0"><primary>hb_subset_input_get_flags</primary></indexterm>
+<programlisting language="C"><link linkend="hb-subset-flags-t"><returnvalue>hb_subset_flags_t</returnvalue></link>
+hb_subset_input_get_flags (<parameter><link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> *input</parameter>);</programlisting>
+<para>Gets all of the subsetting flags in the input object.</para>
+<refsect3 id="hb-subset-input-get-flags.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>input</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-subset-input-get-flags.returns" role="returns">
+<title>Returns</title>
+<para> the subsetting flags bit field.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.9.0">2.9.0</link></para></refsect2>
+<refsect2 id="hb-subset-input-unicode-set" role="function" condition="since:1.8.0">
+<title>hb_subset_input_unicode_set&#160;()</title>
+<indexterm zone="hb-subset-input-unicode-set" role="1.8.0"><primary>hb_subset_input_unicode_set</primary></indexterm>
+<programlisting language="C"><link linkend="hb-set-t"><returnvalue>hb_set_t</returnvalue></link>&#160;*
+hb_subset_input_unicode_set (<parameter><link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> *input</parameter>);</programlisting>
+<para>Gets the set of Unicode code points to retain, the caller should modify the
+set as needed.</para>
+<refsect3 id="hb-subset-input-unicode-set.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>input</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-subset-input-unicode-set.returns" role="returns">
+<title>Returns</title>
+<para>pointer to the <link linkend="hb-set-t"><type>hb_set_t</type></link> of Unicode code
+points. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.8.0">1.8.0</link></para></refsect2>
+<refsect2 id="hb-subset-input-glyph-set" role="function" condition="since:1.8.0">
+<title>hb_subset_input_glyph_set&#160;()</title>
+<indexterm zone="hb-subset-input-glyph-set" role="1.8.0"><primary>hb_subset_input_glyph_set</primary></indexterm>
+<programlisting language="C"><link linkend="hb-set-t"><returnvalue>hb_set_t</returnvalue></link>&#160;*
+hb_subset_input_glyph_set (<parameter><link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> *input</parameter>);</programlisting>
+<para>Gets the set of glyph IDs to retain, the caller should modify the set as
+needed.</para>
+<refsect3 id="hb-subset-input-glyph-set.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>input</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-subset-input-glyph-set.returns" role="returns">
+<title>Returns</title>
+<para>pointer to the <link linkend="hb-set-t"><type>hb_set_t</type></link> of glyph IDs. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.8.0">1.8.0</link></para></refsect2>
+<refsect2 id="hb-subset-input-set" role="function" condition="since:2.9.1">
+<title>hb_subset_input_set&#160;()</title>
+<indexterm zone="hb-subset-input-set" role="2.9.1"><primary>hb_subset_input_set</primary></indexterm>
+<programlisting language="C"><link linkend="hb-set-t"><returnvalue>hb_set_t</returnvalue></link>&#160;*
+hb_subset_input_set (<parameter><link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> *input</parameter>,
+                     <parameter><link linkend="hb-subset-sets-t"><type>hb_subset_sets_t</type></link> set_type</parameter>);</programlisting>
+<para>Gets the set of the specified type.</para>
+<refsect3 id="hb-subset-input-set.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>input</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>set_type</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-subset-sets-t"><type>hb_subset_sets_t</type></link> set type.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-subset-input-set.returns" role="returns">
+<title>Returns</title>
+<para>pointer to the <link linkend="hb-set-t"><type>hb_set_t</type></link> of the specified type. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.9.1">2.9.1</link></para></refsect2>
+<refsect2 id="hb-subset-input-old-to-new-glyph-mapping" role="function" condition="since:7.3.0">
+<title>hb_subset_input_old_to_new_glyph_mapping&#160;()</title>
+<indexterm zone="hb-subset-input-old-to-new-glyph-mapping" role="7.3.0"><primary>hb_subset_input_old_to_new_glyph_mapping</primary></indexterm>
+<programlisting language="C"><link linkend="hb-map-t"><returnvalue>hb_map_t</returnvalue></link>&#160;*
+hb_subset_input_old_to_new_glyph_mapping
+                               (<parameter><link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> *input</parameter>);</programlisting>
+<para>Returns a map which can be used to provide an explicit mapping from old to new glyph
+id's in the produced subset. The caller should populate the map as desired.
+If this map is left empty then glyph ids will be automatically mapped to new
+values by the subsetter. If populated, the mapping must be unique. That
+is no two original glyph ids can be mapped to the same new id.
+Additionally, if a mapping is provided then the retain gids option cannot
+be enabled.</para>
+<para>Any glyphs that are retained in the subset which are not specified
+in this mapping will be assigned glyph ids after the highest glyph
+id in the mapping.</para>
+<para>Note: this will accept and apply non-monotonic mappings, however this
+may result in unsorted Coverage tables. Such fonts may not work for all
+use cases (for example ots will reject unsorted coverage tables). So it's
+recommended, if possible, to supply a monotonic mapping.</para>
+<refsect3 id="hb-subset-input-old-to-new-glyph-mapping.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>input</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-subset-input-old-to-new-glyph-mapping.returns" role="returns">
+<title>Returns</title>
+<para>pointer to the <link linkend="hb-map-t"><type>hb_map_t</type></link> of the custom glyphs ID map. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.3.0">7.3.0</link></para></refsect2>
+<refsect2 id="hb-subset-input-pin-axis-location" role="function" condition="since:6.0.0">
+<title>hb_subset_input_pin_axis_location&#160;()</title>
+<indexterm zone="hb-subset-input-pin-axis-location" role="6.0.0"><primary>hb_subset_input_pin_axis_location</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_subset_input_pin_axis_location (<parameter><link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> *input</parameter>,
+                                   <parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                   <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> axis_tag</parameter>,
+                                   <parameter><link linkend="float"><type>float</type></link> axis_value</parameter>);</programlisting>
+<para>Pin an axis to a fixed location in the given subset input object.</para>
+<para>All axes in a font must be pinned. Additionally, <literal>CFF2</literal> table, if present,
+will be de-subroutinized.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-subset-input-pin-axis-location.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>input</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-face-t"><type>hb_face_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>axis_tag</para></entry>
+<entry role="parameter_description"><para>Tag of the axis to be pinned</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>axis_value</para></entry>
+<entry role="parameter_description"><para>Location on the axis to be pinned at</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-subset-input-pin-axis-location.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if success, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-6.0.0">6.0.0</link></para></refsect2>
+<refsect2 id="hb-subset-input-pin-axis-to-default" role="function" condition="since:6.0.0">
+<title>hb_subset_input_pin_axis_to_default&#160;()</title>
+<indexterm zone="hb-subset-input-pin-axis-to-default" role="6.0.0"><primary>hb_subset_input_pin_axis_to_default</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_subset_input_pin_axis_to_default (<parameter><link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> *input</parameter>,
+                                     <parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                                     <parameter><link linkend="hb-tag-t"><type>hb_tag_t</type></link> axis_tag</parameter>);</programlisting>
+<para>Pin an axis to its default location in the given subset input object.</para>
+<para>All axes in a font must be pinned. Additionally, <literal>CFF2</literal> table, if present,
+will be de-subroutinized.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-subset-input-pin-axis-to-default.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>input</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-face-t"><type>hb_face_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>axis_tag</para></entry>
+<entry role="parameter_description"><para>Tag of the axis to be pinned</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-subset-input-pin-axis-to-default.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if success, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-6.0.0">6.0.0</link></para></refsect2>
+<refsect2 id="hb-subset-or-fail" role="function" condition="since:2.9.0">
+<title>hb_subset_or_fail&#160;()</title>
+<indexterm zone="hb-subset-or-fail" role="2.9.0"><primary>hb_subset_or_fail</primary></indexterm>
+<programlisting language="C"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+hb_subset_or_fail (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *source</parameter>,
+                   <parameter>const <link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> *input</parameter>);</programlisting>
+<para>Subsets a font according to provided input. Returns nullptr
+if the subset operation fails.</para>
+<refsect3 id="hb-subset-or-fail.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>source</para></entry>
+<entry role="parameter_description"><para>font face data to be subset.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>input</para></entry>
+<entry role="parameter_description"><para>input to use for the subsetting.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-2.9.0">2.9.0</link></para></refsect2>
+<refsect2 id="hb-subset-plan-create-or-fail" role="function" condition="since:4.0.0">
+<title>hb_subset_plan_create_or_fail&#160;()</title>
+<indexterm zone="hb-subset-plan-create-or-fail" role="4.0.0"><primary>hb_subset_plan_create_or_fail</primary></indexterm>
+<programlisting language="C"><link linkend="hb-subset-plan-t"><returnvalue>hb_subset_plan_t</returnvalue></link>&#160;*
+hb_subset_plan_create_or_fail (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                               <parameter>const <link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> *input</parameter>);</programlisting>
+<para>Computes a plan for subsetting the supplied face according
+to a provided input. The plan describes
+which tables and glyphs should be retained.</para>
+<refsect3 id="hb-subset-plan-create-or-fail.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>font face to create the plan for.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>input</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-subset-input-t"><type>hb_subset_input_t</type></link> input.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-subset-plan-create-or-fail.returns" role="returns">
+<title>Returns</title>
+<para>New subset plan. Destroy with
+<link linkend="hb-subset-plan-destroy"><function>hb_subset_plan_destroy()</function></link>. If there is a failure creating the plan
+nullptr will be returned. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-4.0.0">4.0.0</link></para></refsect2>
+<refsect2 id="hb-subset-plan-reference" role="function" condition="since:4.0.0">
+<title>hb_subset_plan_reference&#160;()</title>
+<indexterm zone="hb-subset-plan-reference" role="4.0.0"><primary>hb_subset_plan_reference</primary></indexterm>
+<programlisting language="C"><link linkend="hb-subset-plan-t"><returnvalue>hb_subset_plan_t</returnvalue></link>&#160;*
+hb_subset_plan_reference (<parameter><link linkend="hb-subset-plan-t"><type>hb_subset_plan_t</type></link> *plan</parameter>);</programlisting>
+<para>Increases the reference count on <parameter>plan</parameter>
+.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-subset-plan-reference.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>plan</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-subset-plan-t"><type>hb_subset_plan_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-subset-plan-reference.returns" role="returns">
+<title>Returns</title>
+<para> <parameter>plan</parameter>
+.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-4.0.0">4.0.0</link></para></refsect2>
+<refsect2 id="hb-subset-plan-destroy" role="function" condition="since:4.0.0">
+<title>hb_subset_plan_destroy&#160;()</title>
+<indexterm zone="hb-subset-plan-destroy" role="4.0.0"><primary>hb_subset_plan_destroy</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_subset_plan_destroy (<parameter><link linkend="hb-subset-plan-t"><type>hb_subset_plan_t</type></link> *plan</parameter>);</programlisting>
+<para>Decreases the reference count on <parameter>plan</parameter>
+, and if it reaches zero, destroys
+<parameter>plan</parameter>
+, freeing all memory.</para>
+<refsect3 id="hb-subset-plan-destroy.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>plan</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-subset-plan-t"><type>hb_subset_plan_t</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-4.0.0">4.0.0</link></para></refsect2>
+<refsect2 id="hb-subset-plan-set-user-data" role="function" condition="since:4.0.0">
+<title>hb_subset_plan_set_user_data&#160;()</title>
+<indexterm zone="hb-subset-plan-set-user-data" role="4.0.0"><primary>hb_subset_plan_set_user_data</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_subset_plan_set_user_data (<parameter><link linkend="hb-subset-plan-t"><type>hb_subset_plan_t</type></link> *plan</parameter>,
+                              <parameter><link linkend="hb-user-data-key-t"><type>hb_user_data_key_t</type></link> *key</parameter>,
+                              <parameter><link linkend="void"><type>void</type></link> *data</parameter>,
+                              <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>,
+                              <parameter><link linkend="hb-bool-t"><type>hb_bool_t</type></link> replace</parameter>);</programlisting>
+<para>Attaches a user-data key/data pair to the given subset plan object.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-subset-plan-set-user-data.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>plan</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-subset-plan-t"><type>hb_subset_plan_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>key</para></entry>
+<entry role="parameter_description"><para>The user-data key to set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>data</para></entry>
+<entry role="parameter_description"><para>A pointer to the user data</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>A callback to call when <parameter>data</parameter>
+is not needed anymore. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>replace</para></entry>
+<entry role="parameter_description"><para>Whether to replace an existing data with the same key</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-subset-plan-set-user-data.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if success, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-4.0.0">4.0.0</link></para></refsect2>
+<refsect2 id="hb-subset-plan-get-user-data" role="function" condition="since:4.0.0">
+<title>hb_subset_plan_get_user_data&#160;()</title>
+<indexterm zone="hb-subset-plan-get-user-data" role="4.0.0"><primary>hb_subset_plan_get_user_data</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>&#160;*
+hb_subset_plan_get_user_data (<parameter>const <link linkend="hb-subset-plan-t"><type>hb_subset_plan_t</type></link> *plan</parameter>,
+                              <parameter><link linkend="hb-user-data-key-t"><type>hb_user_data_key_t</type></link> *key</parameter>);</programlisting>
+<para>Fetches the user data associated with the specified key,
+attached to the specified subset plan object.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-subset-plan-get-user-data.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>plan</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-subset-plan-t"><type>hb_subset_plan_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>key</para></entry>
+<entry role="parameter_description"><para>The user-data key to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-subset-plan-get-user-data.returns" role="returns">
+<title>Returns</title>
+<para>A pointer to the user data. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-4.0.0">4.0.0</link></para></refsect2>
+<refsect2 id="hb-subset-plan-execute-or-fail" role="function" condition="since:4.0.0">
+<title>hb_subset_plan_execute_or_fail&#160;()</title>
+<indexterm zone="hb-subset-plan-execute-or-fail" role="4.0.0"><primary>hb_subset_plan_execute_or_fail</primary></indexterm>
+<programlisting language="C"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+hb_subset_plan_execute_or_fail (<parameter><link linkend="hb-subset-plan-t"><type>hb_subset_plan_t</type></link> *plan</parameter>);</programlisting>
+<para>Executes the provided subsetting <parameter>plan</parameter>
+.</para>
+<refsect3 id="hb-subset-plan-execute-or-fail.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>plan</para></entry>
+<entry role="parameter_description"><para>a subsetting plan.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-subset-plan-execute-or-fail.returns" role="returns">
+<title>Returns</title>
+<para>on success returns a reference to generated font subset. If the subsetting operation fails
+returns nullptr.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-4.0.0">4.0.0</link></para></refsect2>
+<refsect2 id="hb-subset-plan-unicode-to-old-glyph-mapping" role="function" condition="since:4.0.0">
+<title>hb_subset_plan_unicode_to_old_glyph_mapping&#160;()</title>
+<indexterm zone="hb-subset-plan-unicode-to-old-glyph-mapping" role="4.0.0"><primary>hb_subset_plan_unicode_to_old_glyph_mapping</primary></indexterm>
+<programlisting language="C"><link linkend="hb-map-t"><returnvalue>hb_map_t</returnvalue></link>&#160;*
+hb_subset_plan_unicode_to_old_glyph_mapping
+                               (<parameter>const <link linkend="hb-subset-plan-t"><type>hb_subset_plan_t</type></link> *plan</parameter>);</programlisting>
+<para>Returns the mapping between codepoints in the original font and the
+associated glyph id in the original font.</para>
+<refsect3 id="hb-subset-plan-unicode-to-old-glyph-mapping.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>plan</para></entry>
+<entry role="parameter_description"><para>a subsetting plan.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-subset-plan-unicode-to-old-glyph-mapping.returns" role="returns">
+<title>Returns</title>
+<para>A pointer to the <link linkend="hb-map-t"><type>hb_map_t</type></link> of the mapping. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-4.0.0">4.0.0</link></para></refsect2>
+<refsect2 id="hb-subset-plan-new-to-old-glyph-mapping" role="function" condition="since:4.0.0">
+<title>hb_subset_plan_new_to_old_glyph_mapping&#160;()</title>
+<indexterm zone="hb-subset-plan-new-to-old-glyph-mapping" role="4.0.0"><primary>hb_subset_plan_new_to_old_glyph_mapping</primary></indexterm>
+<programlisting language="C"><link linkend="hb-map-t"><returnvalue>hb_map_t</returnvalue></link>&#160;*
+hb_subset_plan_new_to_old_glyph_mapping
+                               (<parameter>const <link linkend="hb-subset-plan-t"><type>hb_subset_plan_t</type></link> *plan</parameter>);</programlisting>
+<para>Returns the mapping between glyphs in the subset that will be produced by
+<parameter>plan</parameter>
+ and the glyph in the original font.</para>
+<refsect3 id="hb-subset-plan-new-to-old-glyph-mapping.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>plan</para></entry>
+<entry role="parameter_description"><para>a subsetting plan.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-subset-plan-new-to-old-glyph-mapping.returns" role="returns">
+<title>Returns</title>
+<para>A pointer to the <link linkend="hb-map-t"><type>hb_map_t</type></link> of the mapping. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-4.0.0">4.0.0</link></para></refsect2>
+<refsect2 id="hb-subset-plan-old-to-new-glyph-mapping" role="function" condition="since:4.0.0">
+<title>hb_subset_plan_old_to_new_glyph_mapping&#160;()</title>
+<indexterm zone="hb-subset-plan-old-to-new-glyph-mapping" role="4.0.0"><primary>hb_subset_plan_old_to_new_glyph_mapping</primary></indexterm>
+<programlisting language="C"><link linkend="hb-map-t"><returnvalue>hb_map_t</returnvalue></link>&#160;*
+hb_subset_plan_old_to_new_glyph_mapping
+                               (<parameter>const <link linkend="hb-subset-plan-t"><type>hb_subset_plan_t</type></link> *plan</parameter>);</programlisting>
+<para>Returns the mapping between glyphs in the original font to glyphs in the
+subset that will be produced by <parameter>plan</parameter>
+</para>
+<refsect3 id="hb-subset-plan-old-to-new-glyph-mapping.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>plan</para></entry>
+<entry role="parameter_description"><para>a subsetting plan.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-subset-plan-old-to-new-glyph-mapping.returns" role="returns">
+<title>Returns</title>
+<para>A pointer to the <link linkend="hb-map-t"><type>hb_map_t</type></link> of the mapping. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-4.0.0">4.0.0</link></para></refsect2>
+<refsect2 id="hb-subset-preprocess" role="function" condition="since:6.0.0">
+<title>hb_subset_preprocess&#160;()</title>
+<indexterm zone="hb-subset-preprocess" role="6.0.0"><primary>hb_subset_preprocess</primary></indexterm>
+<programlisting language="C"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+hb_subset_preprocess (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *source</parameter>);</programlisting>
+<para>Preprocesses the face and attaches data that will be needed by the
+subsetter. Future subsetting operations can then use the precomputed data
+to speed up the subsetting operation.</para>
+<para>See <ulink url="https://github.com/harfbuzz/harfbuzz/blob/main/docs/subset-preprocessing.md">subset-preprocessing</ulink>
+for more information.</para>
+<para>Note: the preprocessed face may contain sub-blobs that reference the memory
+backing the source <link linkend="hb-face-t"><type>hb_face_t</type></link>. Therefore in the case that this memory is not
+owned by the source face you will need to ensure that memory lives
+as long as the returned <link linkend="hb-face-t"><type>hb_face_t</type></link>.</para>
+<refsect3 id="hb-subset-preprocess.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>source</para></entry>
+<entry role="parameter_description"><para>a <link linkend="hb-face-t"><type>hb_face_t</type></link> object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-subset-preprocess.returns" role="returns">
+<title>Returns</title>
+<para> a new <link linkend="hb-face-t"><type>hb_face_t</type></link>.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-6.0.0">6.0.0</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-subset.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="hb-subset-flags-t" role="enum" condition="since:2.9.0">
+<title>enum hb_subset_flags_t</title>
+<indexterm zone="hb-subset-flags-t" role="2.9.0"><primary>hb_subset_flags_t</primary></indexterm>
+<para>List of boolean properties that can be configured on the subset input.</para>
+<refsect3 id="hb-subset-flags-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SUBSET-FLAGS-DEFAULT:CAPS">HB_SUBSET_FLAGS_DEFAULT</para></entry>
+<entry role="enum_member_description"><para>all flags at their default value of false.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SUBSET-FLAGS-NO-HINTING:CAPS">HB_SUBSET_FLAGS_NO_HINTING</para></entry>
+<entry role="enum_member_description"><para>If set hinting instructions will be dropped in
+the produced subset. Otherwise hinting instructions will be retained.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SUBSET-FLAGS-RETAIN-GIDS:CAPS">HB_SUBSET_FLAGS_RETAIN_GIDS</para></entry>
+<entry role="enum_member_description"><para>If set glyph indices will not be modified in
+the produced subset. If glyphs are dropped their indices will be retained
+as an empty glyph.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SUBSET-FLAGS-DESUBROUTINIZE:CAPS">HB_SUBSET_FLAGS_DESUBROUTINIZE</para></entry>
+<entry role="enum_member_description"><para>If set and subsetting a CFF font the
+subsetter will attempt to remove subroutines from the CFF glyphs.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SUBSET-FLAGS-NAME-LEGACY:CAPS">HB_SUBSET_FLAGS_NAME_LEGACY</para></entry>
+<entry role="enum_member_description"><para>If set non-unicode name records will be
+retained in the subset.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SUBSET-FLAGS-SET-OVERLAPS-FLAG:CAPS">HB_SUBSET_FLAGS_SET_OVERLAPS_FLAG</para></entry>
+<entry role="enum_member_description"><para>If set the subsetter will set the
+OVERLAP_SIMPLE flag on each simple glyph.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SUBSET-FLAGS-PASSTHROUGH-UNRECOGNIZED:CAPS">HB_SUBSET_FLAGS_PASSTHROUGH_UNRECOGNIZED</para></entry>
+<entry role="enum_member_description"><para>If set the subsetter will not
+drop unrecognized tables and instead pass them through untouched.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SUBSET-FLAGS-NOTDEF-OUTLINE:CAPS">HB_SUBSET_FLAGS_NOTDEF_OUTLINE</para></entry>
+<entry role="enum_member_description"><para>If set the notdef glyph outline will be
+retained in the final subset.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SUBSET-FLAGS-GLYPH-NAMES:CAPS">HB_SUBSET_FLAGS_GLYPH_NAMES</para></entry>
+<entry role="enum_member_description"><para>If set the PS glyph names will be retained
+in the final subset.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SUBSET-FLAGS-NO-PRUNE-UNICODE-RANGES:CAPS">HB_SUBSET_FLAGS_NO_PRUNE_UNICODE_RANGES</para></entry>
+<entry role="enum_member_description"><para>If set then the unicode ranges in
+OS/2 will not be recalculated.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SUBSET-FLAGS-NO-LAYOUT-CLOSURE:CAPS">HB_SUBSET_FLAGS_NO_LAYOUT_CLOSURE</para></entry>
+<entry role="enum_member_description"><para>If set don't perform glyph closure on layout
+substitution rules (GSUB). Since: 7.2.0.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-2.9.0">2.9.0</link></para></refsect2>
+<refsect2 id="hb-subset-input-t" role="typedef">
+<title>hb_subset_input_t</title>
+<indexterm zone="hb-subset-input-t"><primary>hb_subset_input_t</primary></indexterm>
+<programlisting language="C">typedef struct hb_subset_input_t hb_subset_input_t;
+</programlisting>
+<para>Things that change based on the input. Characters to keep, etc.</para>
+</refsect2>
+<refsect2 id="hb-subset-sets-t" role="enum" condition="since:2.9.1">
+<title>enum hb_subset_sets_t</title>
+<indexterm zone="hb-subset-sets-t" role="2.9.1"><primary>hb_subset_sets_t</primary></indexterm>
+<para>List of sets that can be configured on the subset input.</para>
+<refsect3 id="hb-subset-sets-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SUBSET-SETS-GLYPH-INDEX:CAPS">HB_SUBSET_SETS_GLYPH_INDEX</para></entry>
+<entry role="enum_member_description"><para>the set of glyph indexes to retain in the subset.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SUBSET-SETS-UNICODE:CAPS">HB_SUBSET_SETS_UNICODE</para></entry>
+<entry role="enum_member_description"><para>the set of unicode codepoints to retain in the subset.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SUBSET-SETS-NO-SUBSET-TABLE-TAG:CAPS">HB_SUBSET_SETS_NO_SUBSET_TABLE_TAG</para></entry>
+<entry role="enum_member_description"><para>the set of table tags which specifies tables that should not be
+subsetted.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SUBSET-SETS-DROP-TABLE-TAG:CAPS">HB_SUBSET_SETS_DROP_TABLE_TAG</para></entry>
+<entry role="enum_member_description"><para>the set of table tags which specifies tables which will be dropped
+in the subset.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SUBSET-SETS-NAME-ID:CAPS">HB_SUBSET_SETS_NAME_ID</para></entry>
+<entry role="enum_member_description"><para>the set of name ids that will be retained.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SUBSET-SETS-NAME-LANG-ID:CAPS">HB_SUBSET_SETS_NAME_LANG_ID</para></entry>
+<entry role="enum_member_description"><para>the set of name lang ids that will be retained.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SUBSET-SETS-LAYOUT-FEATURE-TAG:CAPS">HB_SUBSET_SETS_LAYOUT_FEATURE_TAG</para></entry>
+<entry role="enum_member_description"><para>the set of layout feature tags that will be retained
+in the subset.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-SUBSET-SETS-LAYOUT-SCRIPT-TAG:CAPS">HB_SUBSET_SETS_LAYOUT_SCRIPT_TAG</para></entry>
+<entry role="enum_member_description"><para>the set of layout script tags that will be retained
+in the subset. Defaults to all tags. Since: 5.0.0</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-2.9.1">2.9.1</link></para></refsect2>
+<refsect2 id="hb-subset-plan-t" role="typedef">
+<title>hb_subset_plan_t</title>
+<indexterm zone="hb-subset-plan-t"><primary>hb_subset_plan_t</primary></indexterm>
+<programlisting language="C">typedef struct hb_subset_plan_t hb_subset_plan_t;
+</programlisting>
+<para>Contains information about how the subset operation will be executed.
+Such as mappings from the old glyph ids to the new ones in the subset.</para>
+</refsect2>
+
+</refsect1>
+
+</refentry>

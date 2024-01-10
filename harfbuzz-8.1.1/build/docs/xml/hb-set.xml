@@ -1,0 +1,1060 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-set">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-set.top_of_page">hb-set</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-set</refname>
+<refpurpose>Objects representing a set of integers</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-set.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="hb-set-t"><returnvalue>hb_set_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-set-create">hb_set_create</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-allocation-successful">hb_set_allocation_successful</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-set-t"><returnvalue>hb_set_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-set-copy">hb_set_copy</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-set-t"><returnvalue>hb_set_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-set-get-empty">hb_set_get_empty</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-set-t"><returnvalue>hb_set_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-set-reference">hb_set_reference</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-destroy">hb_set_destroy</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-set-user-data">hb_set_set_user_data</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-set-get-user-data">hb_set_get_user_data</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-clear">hb_set_clear</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-set">hb_set_set</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-has">hb_set_has</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-add">hb_set_add</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-add-range">hb_set_add_range</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-add-sorted-array">hb_set_add_sorted_array</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-del">hb_set_del</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-del-range">hb_set_del_range</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-codepoint-t"><returnvalue>hb_codepoint_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-get-max">hb_set_get_max</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-codepoint-t"><returnvalue>hb_codepoint_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-get-min">hb_set_get_min</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-get-population">hb_set_get_population</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-is-empty">hb_set_is_empty</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-hash">hb_set_hash</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-subtract">hb_set_subtract</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-intersect">hb_set_intersect</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-union">hb_set_union</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-symmetric-difference">hb_set_symmetric_difference</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-invert">hb_set_invert</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-is-inverted">hb_set_is_inverted</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-is-equal">hb_set_is_equal</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-is-subset">hb_set_is_subset</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-next">hb_set_next</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-next-range">hb_set_next_range</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-next-many">hb_set_next_many</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-previous">hb_set_previous</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-set-previous-range">hb_set_previous_range</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="harfbuzz-hb-set.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-SET-VALUE-INVALID:CAPS">HB_SET_VALUE_INVALID</link></entry></row>
+<row><entry role="typedef_keyword">typedef</entry><entry role="function_name"><link linkend="hb-set-t">hb_set_t</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-set.includes"><title>Includes</title><synopsis>#include &lt;hb.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-set.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Set objects represent a mathematical set of integer values.  They are
+used in non-shaping APIs to query certain sets of characters or glyphs,
+or other integer values.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-set.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-set-create" role="function" condition="since:0.9.2">
+<title>hb_set_create&#160;()</title>
+<indexterm zone="hb-set-create" role="0.9.2"><primary>hb_set_create</primary></indexterm>
+<programlisting language="C"><link linkend="hb-set-t"><returnvalue>hb_set_t</returnvalue></link>&#160;*
+hb_set_create (<parameter><type>void</type></parameter>);</programlisting>
+<para>Creates a new, initially empty set.</para>
+<refsect3 id="hb-set-create.returns" role="returns">
+<title>Returns</title>
+<para>The new <link linkend="hb-set-t"><type>hb_set_t</type></link>. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-set-allocation-successful" role="function" condition="since:0.9.2">
+<title>hb_set_allocation_successful&#160;()</title>
+<indexterm zone="hb-set-allocation-successful" role="0.9.2"><primary>hb_set_allocation_successful</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_set_allocation_successful (<parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>);</programlisting>
+<para>Tests whether memory allocation for a set was successful.</para>
+<refsect3 id="hb-set-allocation-successful.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-set-allocation-successful.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if allocation succeeded, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-set-copy" role="function" condition="since:2.8.2">
+<title>hb_set_copy&#160;()</title>
+<indexterm zone="hb-set-copy" role="2.8.2"><primary>hb_set_copy</primary></indexterm>
+<programlisting language="C"><link linkend="hb-set-t"><returnvalue>hb_set_t</returnvalue></link>&#160;*
+hb_set_copy (<parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>);</programlisting>
+<para>Allocate a copy of <parameter>set</parameter>
+.</para>
+<refsect3 id="hb-set-copy.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-set-copy.returns" role="returns">
+<title>Returns</title>
+<para>Newly-allocated set. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.8.2">2.8.2</link></para></refsect2>
+<refsect2 id="hb-set-get-empty" role="function" condition="since:0.9.2">
+<title>hb_set_get_empty&#160;()</title>
+<indexterm zone="hb-set-get-empty" role="0.9.2"><primary>hb_set_get_empty</primary></indexterm>
+<programlisting language="C"><link linkend="hb-set-t"><returnvalue>hb_set_t</returnvalue></link>&#160;*
+hb_set_get_empty (<parameter><type>void</type></parameter>);</programlisting>
+<para>Fetches the singleton empty <link linkend="hb-set-t"><type>hb_set_t</type></link>.</para>
+<refsect3 id="hb-set-get-empty.returns" role="returns">
+<title>Returns</title>
+<para>The empty <link linkend="hb-set-t"><type>hb_set_t</type></link>. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-set-reference" role="function" condition="since:0.9.2">
+<title>hb_set_reference&#160;()</title>
+<indexterm zone="hb-set-reference" role="0.9.2"><primary>hb_set_reference</primary></indexterm>
+<programlisting language="C"><link linkend="hb-set-t"><returnvalue>hb_set_t</returnvalue></link>&#160;*
+hb_set_reference (<parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>);</programlisting>
+<para>Increases the reference count on a set.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-set-reference.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-set-reference.returns" role="returns">
+<title>Returns</title>
+<para>The set. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-set-destroy" role="function" condition="since:0.9.2">
+<title>hb_set_destroy&#160;()</title>
+<indexterm zone="hb-set-destroy" role="0.9.2"><primary>hb_set_destroy</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_set_destroy (<parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>);</programlisting>
+<para>Decreases the reference count on a set. When
+the reference count reaches zero, the set is
+destroyed, freeing all memory.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-set-destroy.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-set-set-user-data" role="function" condition="since:0.9.2">
+<title>hb_set_set_user_data&#160;()</title>
+<indexterm zone="hb-set-set-user-data" role="0.9.2"><primary>hb_set_set_user_data</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_set_set_user_data (<parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+                      <parameter><link linkend="hb-user-data-key-t"><type>hb_user_data_key_t</type></link> *key</parameter>,
+                      <parameter><link linkend="void"><type>void</type></link> *data</parameter>,
+                      <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>,
+                      <parameter><link linkend="hb-bool-t"><type>hb_bool_t</type></link> replace</parameter>);</programlisting>
+<para>Attaches a user-data key/data pair to the specified set.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-set-set-user-data.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>key</para></entry>
+<entry role="parameter_description"><para>The user-data key to set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>data</para></entry>
+<entry role="parameter_description"><para>A pointer to the user data to set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>A callback to call when <parameter>data</parameter>
+is not needed anymore. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>replace</para></entry>
+<entry role="parameter_description"><para>Whether to replace an existing data with the same key</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-set-set-user-data.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if success, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-set-get-user-data" role="function" condition="since:0.9.2">
+<title>hb_set_get_user_data&#160;()</title>
+<indexterm zone="hb-set-get-user-data" role="0.9.2"><primary>hb_set_get_user_data</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>&#160;*
+hb_set_get_user_data (<parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+                      <parameter><link linkend="hb-user-data-key-t"><type>hb_user_data_key_t</type></link> *key</parameter>);</programlisting>
+<para>Fetches the user data associated with the specified key,
+attached to the specified set.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-set-get-user-data.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>key</para></entry>
+<entry role="parameter_description"><para>The user-data key to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-set-get-user-data.returns" role="returns">
+<title>Returns</title>
+<para>A pointer to the user data. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-set-clear" role="function" condition="since:0.9.2">
+<title>hb_set_clear&#160;()</title>
+<indexterm zone="hb-set-clear" role="0.9.2"><primary>hb_set_clear</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_set_clear (<parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>);</programlisting>
+<para>Clears out the contents of a set.</para>
+<refsect3 id="hb-set-clear.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-set-set" role="function" condition="since:0.9.2">
+<title>hb_set_set&#160;()</title>
+<indexterm zone="hb-set-set" role="0.9.2"><primary>hb_set_set</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_set_set (<parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+            <parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *other</parameter>);</programlisting>
+<para>Makes the contents of <parameter>set</parameter>
+ equal to the contents of <parameter>other</parameter>
+.</para>
+<refsect3 id="hb-set-set.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>other</para></entry>
+<entry role="parameter_description"><para>Another set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-set-has" role="function" condition="since:0.9.2">
+<title>hb_set_has&#160;()</title>
+<indexterm zone="hb-set-has" role="0.9.2"><primary>hb_set_has</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_set_has (<parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+            <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> codepoint</parameter>);</programlisting>
+<para>Tests whether <parameter>codepoint</parameter>
+ belongs to <parameter>set</parameter>
+.</para>
+<refsect3 id="hb-set-has.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>codepoint</para></entry>
+<entry role="parameter_description"><para>The element to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-set-has.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if <parameter>codepoint</parameter>
+is in <parameter>set</parameter>
+, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-set-add" role="function" condition="since:0.9.2">
+<title>hb_set_add&#160;()</title>
+<indexterm zone="hb-set-add" role="0.9.2"><primary>hb_set_add</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_set_add (<parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+            <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> codepoint</parameter>);</programlisting>
+<para>Adds <parameter>codepoint</parameter>
+ to <parameter>set</parameter>
+.</para>
+<refsect3 id="hb-set-add.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>codepoint</para></entry>
+<entry role="parameter_description"><para>The element to add to <parameter>set</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-set-add-range" role="function" condition="since:0.9.7">
+<title>hb_set_add_range&#160;()</title>
+<indexterm zone="hb-set-add-range" role="0.9.7"><primary>hb_set_add_range</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_set_add_range (<parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+                  <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> first</parameter>,
+                  <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> last</parameter>);</programlisting>
+<para>Adds all of the elements from <parameter>first</parameter>
+ to <parameter>last</parameter>
+
+(inclusive) to <parameter>set</parameter>
+.</para>
+<refsect3 id="hb-set-add-range.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>first</para></entry>
+<entry role="parameter_description"><para>The first element to add to <parameter>set</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>last</para></entry>
+<entry role="parameter_description"><para>The final element to add to <parameter>set</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-set-add-sorted-array" role="function" condition="since:4.1.0">
+<title>hb_set_add_sorted_array&#160;()</title>
+<indexterm zone="hb-set-add-sorted-array" role="4.1.0"><primary>hb_set_add_sorted_array</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_set_add_sorted_array (<parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+                         <parameter>const <link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> *sorted_codepoints</parameter>,
+                         <parameter>unsigned <link linkend="int"><type>int</type></link> num_codepoints</parameter>);</programlisting>
+<para>Adds <parameter>num_codepoints</parameter>
+ codepoints to a set at once.
+The codepoints array must be in increasing order,
+with size at least <parameter>num_codepoints</parameter>
+.</para>
+<refsect3 id="hb-set-add-sorted-array.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>sorted_codepoints</para></entry>
+<entry role="parameter_description"><para>Array of codepoints to add. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> length=num_codepoints]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>num_codepoints</para></entry>
+<entry role="parameter_description"><para>Length of <parameter>sorted_codepoints</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-4.1.0">4.1.0</link></para></refsect2>
+<refsect2 id="hb-set-del" role="function" condition="since:0.9.2">
+<title>hb_set_del&#160;()</title>
+<indexterm zone="hb-set-del" role="0.9.2"><primary>hb_set_del</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_set_del (<parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+            <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> codepoint</parameter>);</programlisting>
+<para>Removes <parameter>codepoint</parameter>
+ from <parameter>set</parameter>
+.</para>
+<refsect3 id="hb-set-del.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>codepoint</para></entry>
+<entry role="parameter_description"><para>Removes <parameter>codepoint</parameter>
+from <parameter>set</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-set-del-range" role="function" condition="since:0.9.7">
+<title>hb_set_del_range&#160;()</title>
+<indexterm zone="hb-set-del-range" role="0.9.7"><primary>hb_set_del_range</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_set_del_range (<parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+                  <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> first</parameter>,
+                  <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> last</parameter>);</programlisting>
+<para>Removes all of the elements from <parameter>first</parameter>
+ to <parameter>last</parameter>
+
+(inclusive) from <parameter>set</parameter>
+.</para>
+<para>If <parameter>last</parameter>
+ is <link linkend="HB-SET-VALUE-INVALID:CAPS"><type>HB_SET_VALUE_INVALID</type></link>, then all values
+greater than or equal to <parameter>first</parameter>
+ are removed.</para>
+<refsect3 id="hb-set-del-range.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>first</para></entry>
+<entry role="parameter_description"><para>The first element to remove from <parameter>set</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>last</para></entry>
+<entry role="parameter_description"><para>The final element to remove from <parameter>set</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-set-get-max" role="function" condition="since:0.9.7">
+<title>hb_set_get_max&#160;()</title>
+<indexterm zone="hb-set-get-max" role="0.9.7"><primary>hb_set_get_max</primary></indexterm>
+<programlisting language="C"><link linkend="hb-codepoint-t"><returnvalue>hb_codepoint_t</returnvalue></link>
+hb_set_get_max (<parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>);</programlisting>
+<para>Finds the largest element in the set.</para>
+<refsect3 id="hb-set-get-max.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-set-get-max.returns" role="returns">
+<title>Returns</title>
+<para> maximum of <parameter>set</parameter>
+, or <link linkend="HB-SET-VALUE-INVALID:CAPS"><type>HB_SET_VALUE_INVALID</type></link> if <parameter>set</parameter>
+is empty.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-set-get-min" role="function" condition="since:0.9.7">
+<title>hb_set_get_min&#160;()</title>
+<indexterm zone="hb-set-get-min" role="0.9.7"><primary>hb_set_get_min</primary></indexterm>
+<programlisting language="C"><link linkend="hb-codepoint-t"><returnvalue>hb_codepoint_t</returnvalue></link>
+hb_set_get_min (<parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>);</programlisting>
+<para>Finds the smallest element in the set.</para>
+<refsect3 id="hb-set-get-min.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-set-get-min.returns" role="returns">
+<title>Returns</title>
+<para> minimum of <parameter>set</parameter>
+, or <link linkend="HB-SET-VALUE-INVALID:CAPS"><type>HB_SET_VALUE_INVALID</type></link> if <parameter>set</parameter>
+is empty.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-set-get-population" role="function" condition="since:0.9.7">
+<title>hb_set_get_population&#160;()</title>
+<indexterm zone="hb-set-get-population" role="0.9.7"><primary>hb_set_get_population</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_set_get_population (<parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>);</programlisting>
+<para>Returns the number of elements in the set.</para>
+<refsect3 id="hb-set-get-population.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-set-get-population.returns" role="returns">
+<title>Returns</title>
+<para> The population of <parameter>set</parameter>
+</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-set-is-empty" role="function" condition="since:0.9.7">
+<title>hb_set_is_empty&#160;()</title>
+<indexterm zone="hb-set-is-empty" role="0.9.7"><primary>hb_set_is_empty</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_set_is_empty (<parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>);</programlisting>
+<para>Tests whether a set is empty (contains no elements).</para>
+<refsect3 id="hb-set-is-empty.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>a set.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-set-is-empty.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if <parameter>set</parameter>
+is empty</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-set-hash" role="function" condition="since:4.4.0">
+<title>hb_set_hash&#160;()</title>
+<indexterm zone="hb-set-hash" role="4.4.0"><primary>hb_set_hash</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_set_hash (<parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>);</programlisting>
+<para>Creates a hash representing <parameter>set</parameter>
+.</para>
+<refsect3 id="hb-set-hash.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-set-hash.returns" role="returns">
+<title>Returns</title>
+<para>A hash of <parameter>set</parameter>
+.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-4.4.0">4.4.0</link></para></refsect2>
+<refsect2 id="hb-set-subtract" role="function" condition="since:0.9.2">
+<title>hb_set_subtract&#160;()</title>
+<indexterm zone="hb-set-subtract" role="0.9.2"><primary>hb_set_subtract</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_set_subtract (<parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+                 <parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *other</parameter>);</programlisting>
+<para>Subtracts the contents of <parameter>other</parameter>
+ from <parameter>set</parameter>
+.</para>
+<refsect3 id="hb-set-subtract.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>other</para></entry>
+<entry role="parameter_description"><para>Another set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-set-intersect" role="function" condition="since:0.9.2">
+<title>hb_set_intersect&#160;()</title>
+<indexterm zone="hb-set-intersect" role="0.9.2"><primary>hb_set_intersect</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_set_intersect (<parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+                  <parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *other</parameter>);</programlisting>
+<para>Makes <parameter>set</parameter>
+ the intersection of <parameter>set</parameter>
+ and <parameter>other</parameter>
+.</para>
+<refsect3 id="hb-set-intersect.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>other</para></entry>
+<entry role="parameter_description"><para>Another set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-set-union" role="function" condition="since:0.9.2">
+<title>hb_set_union&#160;()</title>
+<indexterm zone="hb-set-union" role="0.9.2"><primary>hb_set_union</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_set_union (<parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+              <parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *other</parameter>);</programlisting>
+<para>Makes <parameter>set</parameter>
+ the union of <parameter>set</parameter>
+ and <parameter>other</parameter>
+.</para>
+<refsect3 id="hb-set-union.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>other</para></entry>
+<entry role="parameter_description"><para>Another set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-set-symmetric-difference" role="function" condition="since:0.9.2">
+<title>hb_set_symmetric_difference&#160;()</title>
+<indexterm zone="hb-set-symmetric-difference" role="0.9.2"><primary>hb_set_symmetric_difference</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_set_symmetric_difference (<parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+                             <parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *other</parameter>);</programlisting>
+<para>Makes <parameter>set</parameter>
+ the symmetric difference of <parameter>set</parameter>
+
+and <parameter>other</parameter>
+.</para>
+<refsect3 id="hb-set-symmetric-difference.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>other</para></entry>
+<entry role="parameter_description"><para>Another set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-set-invert" role="function" condition="since:3.0.0">
+<title>hb_set_invert&#160;()</title>
+<indexterm zone="hb-set-invert" role="3.0.0"><primary>hb_set_invert</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_set_invert (<parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>);</programlisting>
+<para>Inverts the contents of <parameter>set</parameter>
+.</para>
+<refsect3 id="hb-set-invert.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-3.0.0">3.0.0</link></para></refsect2>
+<refsect2 id="hb-set-is-inverted" role="function" condition="since:7.0.0">
+<title>hb_set_is_inverted&#160;()</title>
+<indexterm zone="hb-set-is-inverted" role="7.0.0"><primary>hb_set_is_inverted</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_set_is_inverted (<parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>);</programlisting>
+<para>Returns whether the set is inverted.</para>
+<refsect3 id="hb-set-is-inverted.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-set-is-inverted.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if the set is inverted, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-set-is-equal" role="function" condition="since:0.9.7">
+<title>hb_set_is_equal&#160;()</title>
+<indexterm zone="hb-set-is-equal" role="0.9.7"><primary>hb_set_is_equal</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_set_is_equal (<parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+                 <parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *other</parameter>);</programlisting>
+<para>Tests whether <parameter>set</parameter>
+ and <parameter>other</parameter>
+ are equal (contain the same
+elements).</para>
+<refsect3 id="hb-set-is-equal.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>other</para></entry>
+<entry role="parameter_description"><para>Another set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-set-is-equal.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if the two sets are equal, <literal>false</literal> otherwise.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-set-is-subset" role="function" condition="since:1.8.1">
+<title>hb_set_is_subset&#160;()</title>
+<indexterm zone="hb-set-is-subset" role="1.8.1"><primary>hb_set_is_subset</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_set_is_subset (<parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+                  <parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *larger_set</parameter>);</programlisting>
+<para>Tests whether <parameter>set</parameter>
+ is a subset of <parameter>larger_set</parameter>
+.</para>
+<refsect3 id="hb-set-is-subset.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>larger_set</para></entry>
+<entry role="parameter_description"><para>Another set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-set-is-subset.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if the <parameter>set</parameter>
+is a subset of (or equal to) <parameter>larger_set</parameter>
+, <literal>false</literal> otherwise.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.8.1">1.8.1</link></para></refsect2>
+<refsect2 id="hb-set-next" role="function" condition="since:0.9.2">
+<title>hb_set_next&#160;()</title>
+<indexterm zone="hb-set-next" role="0.9.2"><primary>hb_set_next</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_set_next (<parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+             <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> *codepoint</parameter>);</programlisting>
+<para>Fetches the next element in <parameter>set</parameter>
+ that is greater than current value of <parameter>codepoint</parameter>
+.</para>
+<para>Set <parameter>codepoint</parameter>
+ to <link linkend="HB-SET-VALUE-INVALID:CAPS"><type>HB_SET_VALUE_INVALID</type></link> to get started.</para>
+<refsect3 id="hb-set-next.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>codepoint</para></entry>
+<entry role="parameter_description"><para>Input = Code point to query
+Output = Code point retrieved. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-set-next.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if there was a next value, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.2">0.9.2</link></para></refsect2>
+<refsect2 id="hb-set-next-range" role="function" condition="since:0.9.7">
+<title>hb_set_next_range&#160;()</title>
+<indexterm zone="hb-set-next-range" role="0.9.7"><primary>hb_set_next_range</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_set_next_range (<parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+                   <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> *first</parameter>,
+                   <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> *last</parameter>);</programlisting>
+<para>Fetches the next consecutive range of elements in <parameter>set</parameter>
+ that
+are greater than current value of <parameter>last</parameter>
+.</para>
+<para>Set <parameter>last</parameter>
+ to <link linkend="HB-SET-VALUE-INVALID:CAPS"><type>HB_SET_VALUE_INVALID</type></link> to get started.</para>
+<refsect3 id="hb-set-next-range.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>first</para></entry>
+<entry role="parameter_description"><para>The first code point in the range. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>last</para></entry>
+<entry role="parameter_description"><para>Input = The current last code point in the range
+Output = The last code point in the range. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-set-next-range.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if there was a next range, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-set-next-many" role="function" condition="since:4.2.0">
+<title>hb_set_next_many&#160;()</title>
+<indexterm zone="hb-set-next-many" role="4.2.0"><primary>hb_set_next_many</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_set_next_many (<parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+                  <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> codepoint</parameter>,
+                  <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> *out</parameter>,
+                  <parameter>unsigned <link linkend="int"><type>int</type></link> size</parameter>);</programlisting>
+<para>Finds the next element in <parameter>set</parameter>
+ that is greater than <parameter>codepoint</parameter>
+. Writes out
+codepoints to <parameter>out</parameter>
+, until either the set runs out of elements, or <parameter>size</parameter>
+
+codepoints are written, whichever comes first.</para>
+<refsect3 id="hb-set-next-many.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>codepoint</para></entry>
+<entry role="parameter_description"><para>Outputting codepoints starting after this one.
+Use <link linkend="HB-SET-VALUE-INVALID:CAPS"><type>HB_SET_VALUE_INVALID</type></link> to get started.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>out</para></entry>
+<entry role="parameter_description"><para>An array of codepoints to write to. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> length=size]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>size</para></entry>
+<entry role="parameter_description"><para>The maximum number of codepoints to write out.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-set-next-many.returns" role="returns">
+<title>Returns</title>
+<para> the number of values written.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-4.2.0">4.2.0</link></para></refsect2>
+<refsect2 id="hb-set-previous" role="function" condition="since:1.8.0">
+<title>hb_set_previous&#160;()</title>
+<indexterm zone="hb-set-previous" role="1.8.0"><primary>hb_set_previous</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_set_previous (<parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+                 <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> *codepoint</parameter>);</programlisting>
+<para>Fetches the previous element in <parameter>set</parameter>
+ that is lower than current value of <parameter>codepoint</parameter>
+.</para>
+<para>Set <parameter>codepoint</parameter>
+ to <link linkend="HB-SET-VALUE-INVALID:CAPS"><type>HB_SET_VALUE_INVALID</type></link> to get started.</para>
+<refsect3 id="hb-set-previous.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>codepoint</para></entry>
+<entry role="parameter_description"><para>Input = Code point to query
+Output = Code point retrieved. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-set-previous.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if there was a previous value, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.8.0">1.8.0</link></para></refsect2>
+<refsect2 id="hb-set-previous-range" role="function" condition="since:1.8.0">
+<title>hb_set_previous_range&#160;()</title>
+<indexterm zone="hb-set-previous-range" role="1.8.0"><primary>hb_set_previous_range</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_set_previous_range (<parameter>const <link linkend="hb-set-t"><type>hb_set_t</type></link> *set</parameter>,
+                       <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> *first</parameter>,
+                       <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> *last</parameter>);</programlisting>
+<para>Fetches the previous consecutive range of elements in <parameter>set</parameter>
+ that
+are greater than current value of <parameter>last</parameter>
+.</para>
+<para>Set <parameter>first</parameter>
+ to <link linkend="HB-SET-VALUE-INVALID:CAPS"><type>HB_SET_VALUE_INVALID</type></link> to get started.</para>
+<refsect3 id="hb-set-previous-range.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>set</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>first</para></entry>
+<entry role="parameter_description"><para>Input = The current first code point in the range
+Output = The first code point in the range. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>last</para></entry>
+<entry role="parameter_description"><para>The last code point in the range. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-set-previous-range.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if there was a previous range, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.8.0">1.8.0</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-set.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="HB-SET-VALUE-INVALID:CAPS" role="macro" condition="since:0.9.21">
+<title>HB_SET_VALUE_INVALID</title>
+<indexterm zone="HB-SET-VALUE-INVALID:CAPS" role="0.9.21"><primary>HB_SET_VALUE_INVALID</primary></indexterm>
+<programlisting language="C">#define HB_SET_VALUE_INVALID HB_CODEPOINT_INVALID
+</programlisting>
+<para>Unset <link linkend="hb-set-t"><type>hb_set_t</type></link> value.</para>
+<para role="since">Since: <link linkend="api-index-0.9.21">0.9.21</link></para></refsect2>
+<refsect2 id="hb-set-t" role="typedef">
+<title>hb_set_t</title>
+<indexterm zone="hb-set-t"><primary>hb_set_t</primary></indexterm>
+<programlisting language="C">typedef struct hb_set_t hb_set_t;
+</programlisting>
+<para>Data type for holding a set of integers. <link linkend="hb-set-t"><type>hb_set_t</type></link>'s are
+used to gather and contain glyph IDs, Unicode code
+points, and various other collections of discrete
+
+values.</para>
+</refsect2>
+
+</refsect1>
+
+</refentry>

@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Core Text integration: HarfBuzz Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="HarfBuzz Manual">
+<link rel="up" href="integration.html" title="Platform Integration Guide">
+<link rel="prev" href="integration-uniscribe.html" title="Uniscribe integration">
+<link rel="next" href="integration-icu.html" title="ICU integration">
+<meta name="generator" content="GTK-Doc V1.33.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts"></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="integration.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="integration-uniscribe.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="integration-icu.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="section">
+<div class="titlepage"><div><div><h2 class="title" style="clear: both">
+<a name="integration-coretext"></a>Core Text integration</h2></div></div></div>
+<p>
+      If your client program is running on macOS or iOS, HarfBuzz offers
+      an additional API that can help integrate with Apple's
+      Core Text engine and the underlying Core Graphics
+      framework. HarfBuzz does not attempt to offer the same
+      drop-in-replacement functionality for Core Text that it strives
+      for with Uniscribe on Windows, but you can still use HarfBuzz
+      to perform text shaping in native macOS and iOS applications.
+    </p>
+<p>
+      Note, though, that if your interest is just in using fonts that
+      contain Apple Advanced Typography (AAT) features, then you do
+      not need to add Core Text integration. HarfBuzz natively
+      supports AAT features and will shape AAT fonts (on any platform)
+      automatically, without requiring additional work on your
+      part. This includes support for AAT-specific TrueType tables
+      such as <code class="literal">mort</code>, <code class="literal">morx</code>, and
+      <code class="literal">kerx</code>, which AAT fonts use instead of
+      <code class="literal">GSUB</code> and <code class="literal">GPOS</code>.
+    </p>
+<p>
+      On a macOS or iOS system, the primary integration points offered
+      by HarfBuzz are for face objects and font objects. 
+    </p>
+<p>
+      The Apple APIs offer a pair of data structures that map well to
+      HarfBuzz's face and font objects. The Core Graphics API, which
+      is slightly lower-level than Core Text, provides
+      <a class="ulink" href="https://developer.apple.com/documentation/coregraphics/cgfontref" target="_top"><span class="type">CGFontRef</span></a>, which enables access to typeface
+      properties, but does not include size information. Core Text's
+      <a class="ulink" href="https://developer.apple.com/documentation/coretext/ctfont-q6r" target="_top"><span class="type">CTFontRef</span></a> is analogous to a HarfBuzz font object,
+      with all of the properties required to render text at a specific
+      size and configuration.
+      Consequently, a HarfBuzz <span class="type">hb_font_t</span> font object can
+      be hooked up to a Core Text <span class="type">CTFontRef</span>, and a HarfBuzz
+      <span class="type">hb_face_t</span> face object can be hooked up to a
+      <span class="type">CGFontRef</span>.
+    </p>
+<p>
+      You can create a <span class="type">hb_face_t</span> from a
+      <span class="type">CGFontRef</span> by using the
+      <code class="function">hb_coretext_face_create()</code>. Subsequently,
+      you can retrieve the <span class="type">CGFontRef</span> from a
+      <span class="type">hb_face_t</span> with <code class="function">hb_coretext_face_get_cg_font()</code>.
+    </p>
+<p>
+      Likewise, you create a <span class="type">hb_font_t</span> from a
+      <span class="type">CTFontRef</span> by calling
+      <code class="function">hb_coretext_font_create()</code>, and you can
+      fetch the associated <span class="type">CTFontRef</span> from a
+      <span class="type">hb_font_t</span> font object with
+      <code class="function">hb_coretext_face_get_ct_font()</code>. 
+    </p>
+<p>
+      HarfBuzz also offers a <code class="function">hb_font_set_ptem()</code>
+      that you an use to set the nominal point size on any
+      <span class="type">hb_font_t</span> font object. Core Text uses this value to
+      implement optical scaling. 
+    </p>
+<p>
+      When integrating your client code with Core Text, it is
+      important to recognize that Core Text <code class="literal">points</code>
+      are not typographic points (standardized at 72 per inch) as the
+      term is used elsewhere in OpenType. Instead, Core Text points
+      are CSS points, which are standardized at 96 per inch.
+    </p>
+<p>
+      HarfBuzz's font functions take this distinction into account,
+      but it can be an easy detail to miss in cross-platform
+      code. 
+    </p>
+<p>
+      As a final note, you may notice a reference to an optional
+      <code class="literal">coretext</code> shaper back-end in the <a class="xref" href="building.html#configuration" title="Configuration options">the section called “Configuration options”</a> section of the HarfBuzz manual. This
+      option is not a Core Text-integration facility.
+    </p>
+<p>
+      Instead, it is a internal code path used in the
+      <span class="command"><strong>hb-shape</strong></span> command-line utility, which hands
+      shaping functionality over to Core Text entirely, when run on a
+      macOS system. That allows testing HarfBuzz's native output
+      against the Core Text engine, for tracking compatibility and debugging.
+    </p>
+<p>
+      Because this back-end is only used when testing HarfBuzz
+      functionality, it is disabled by default when building the
+      HarfBuzz binaries.
+    </p>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.33.1</div>
+</body>
+</html>

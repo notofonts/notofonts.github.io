@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-gdi">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-gdi.top_of_page">hb-gdi</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-gdi</refname>
+<refpurpose>GDI integration</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-gdi.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-gdi-face-create">hb_gdi_face_create</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-gdi.includes"><title>Includes</title><synopsis>#include &lt;hb-gdi.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-gdi.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Functions for using HarfBuzz with GDI fonts.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-gdi.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-gdi-face-create" role="function" condition="since:2.6.0">
+<title>hb_gdi_face_create&#160;()</title>
+<indexterm zone="hb-gdi-face-create" role="2.6.0"><primary>hb_gdi_face_create</primary></indexterm>
+<programlisting language="C"><link linkend="hb-face-t"><returnvalue>hb_face_t</returnvalue></link>&#160;*
+hb_gdi_face_create (<parameter><link linkend="HFONT:CAPS"><type>HFONT</type></link> hfont</parameter>);</programlisting>
+<para>Constructs a new face object from the specified GDI HFONT.</para>
+<refsect3 id="hb-gdi-face-create.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>hfont</para></entry>
+<entry role="parameter_description"><para>a HFONT object.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-gdi-face-create.returns" role="returns">
+<title>Returns</title>
+<para> <link linkend="hb-face-t"><type>hb_face_t</type></link> object corresponding to the given input</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.6.0">2.6.0</link></para></refsect2>
+
+</refsect1>
+
+</refentry>

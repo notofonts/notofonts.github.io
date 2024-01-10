@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-2.8.2">
+<indexdiv><title>B</title>
+<indexentry><primaryie linkends="hb-blob-create-from-file-or-fail"><link linkend="hb-blob-create-from-file-or-fail">hb_blob_create_from_file_or_fail</link>, function in <link linkend="harfbuzz-hb-blob">hb-blob</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-blob-create-or-fail"><link linkend="hb-blob-create-or-fail">hb_blob_create_or_fail</link>, function in <link linkend="harfbuzz-hb-blob">hb-blob</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>S</title>
+<indexentry><primaryie linkends="hb-set-copy"><link linkend="hb-set-copy">hb_set_copy</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

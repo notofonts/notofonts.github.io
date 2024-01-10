@@ -1,0 +1,580 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>hb-ot-name: HarfBuzz Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="HarfBuzz Manual">
+<link rel="up" href="opentype-api.html" title="OpenType API">
+<link rel="prev" href="harfbuzz-hb-ot-metrics.html" title="hb-ot-metrics">
+<link rel="next" href="harfbuzz-hb-ot-shape.html" title="hb-ot-shape">
+<meta name="generator" content="GTK-Doc V1.33.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#harfbuzz-hb-ot-name.description" class="shortcut">Description</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="opentype-api.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="harfbuzz-hb-ot-metrics.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="harfbuzz-hb-ot-shape.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="harfbuzz-hb-ot-name"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="harfbuzz-hb-ot-name.top_of_page"></a>hb-ot-name</span></h2>
+<p>hb-ot-name — OpenType font name information</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="harfbuzz-hb-ot-name.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">const <a class="link" href="harfbuzz-hb-ot-name.html#hb-ot-name-entry-t" title="hb_ot_name_entry_t"><span class="returnvalue">hb_ot_name_entry_t</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-ot-name.html#hb-ot-name-list-names" title="hb_ot_name_list_names ()">hb_ot_name_list_names</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">unsigned <span class="returnvalue">int</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-ot-name.html#hb-ot-name-get-utf16" title="hb_ot_name_get_utf16 ()">hb_ot_name_get_utf16</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">unsigned <span class="returnvalue">int</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-ot-name.html#hb-ot-name-get-utf32" title="hb_ot_name_get_utf32 ()">hb_ot_name_get_utf32</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">unsigned <span class="returnvalue">int</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-ot-name.html#hb-ot-name-get-utf8" title="hb_ot_name_get_utf8 ()">hb_ot_name_get_utf8</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-ot-name.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="typedef_keyword">typedef</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-ot-name.html#hb-ot-name-id-t" title="hb_ot_name_id_t">hb_ot_name_id_t</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-ot-name.html#hb-ot-name-id-predefined-t" title="enum hb_ot_name_id_predefined_t">hb_ot_name_id_predefined_t</a></td>
+</tr>
+<tr>
+<td class="datatype_keyword"> </td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-ot-name.html#hb-ot-name-entry-t" title="hb_ot_name_entry_t">hb_ot_name_entry_t</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-ot-name.includes"></a><h2>Includes</h2>
+<pre class="synopsis">#include &lt;hb-ot.h&gt;
+</pre>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-ot-name.description"></a><h2>Description</h2>
+<p>Functions for fetching name strings from OpenType fonts.</p>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-ot-name.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="hb-ot-name-list-names"></a><h3>hb_ot_name_list_names ()</h3>
+<pre class="programlisting">const <a class="link" href="harfbuzz-hb-ot-name.html#hb-ot-name-entry-t" title="hb_ot_name_entry_t"><span class="returnvalue">hb_ot_name_entry_t</span></a> *
+hb_ot_name_list_names (<em class="parameter"><code><a class="link" href="harfbuzz-hb-face.html#hb-face-t" title="hb_face_t"><span class="type">hb_face_t</span></a> *face</code></em>,
+                       <em class="parameter"><code>unsigned <span class="type">int</span> *num_entries</code></em>);</pre>
+<p>Enumerates all available name IDs and language combinations. Returned
+array is owned by the <em class="parameter"><code>face</code></em>
+ and should not be modified.  It can be
+used as long as <em class="parameter"><code>face</code></em>
+ is alive.</p>
+<div class="refsect3">
+<a name="hb-ot-name-list-names.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>face</p></td>
+<td class="parameter_description"><p>font face.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>num_entries</p></td>
+<td class="parameter_description"><p>number of returned entries. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-ot-name-list-names.returns"></a><h4>Returns</h4>
+<p>Array of available name entries. </p>
+<p><span class="annotation">[<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>][<acronym title="Parameter points to an array of items."><span class="acronym">array</span></acronym> length=num_entries]</span></p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-2-1-0.html#api-index-2.1.0">2.1.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-ot-name-get-utf16"></a><h3>hb_ot_name_get_utf16 ()</h3>
+<pre class="programlisting">unsigned <span class="returnvalue">int</span>
+hb_ot_name_get_utf16 (<em class="parameter"><code><a class="link" href="harfbuzz-hb-face.html#hb-face-t" title="hb_face_t"><span class="type">hb_face_t</span></a> *face</code></em>,
+                      <em class="parameter"><code><a class="link" href="harfbuzz-hb-ot-name.html#hb-ot-name-id-t" title="hb_ot_name_id_t"><span class="type">hb_ot_name_id_t</span></a> name_id</code></em>,
+                      <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-language-t" title="hb_language_t"><span class="type">hb_language_t</span></a> language</code></em>,
+                      <em class="parameter"><code>unsigned <span class="type">int</span> *text_size</code></em>,
+                      <em class="parameter"><code><span class="type">uint16_t</span> *text</code></em>);</pre>
+<p>Fetches a font name from the OpenType 'name' table.
+If <em class="parameter"><code>language</code></em>
+ is <a class="link" href="harfbuzz-hb-common.html#HB-LANGUAGE-INVALID:CAPS" title="HB_LANGUAGE_INVALID"><span class="type">HB_LANGUAGE_INVALID</span></a>, English ("en") is assumed.
+Returns string in UTF-16 encoding. A NUL terminator is always written
+for convenience, and isn't included in the output <em class="parameter"><code>text_size</code></em>
+.</p>
+<div class="refsect3">
+<a name="hb-ot-name-get-utf16.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>face</p></td>
+<td class="parameter_description"><p>font face.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>name_id</p></td>
+<td class="parameter_description"><p>OpenType name identifier to fetch.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>language</p></td>
+<td class="parameter_description"><p>language to fetch the name for.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>text_size</p></td>
+<td class="parameter_description"><p>input size of <em class="parameter"><code>text</code></em>
+buffer, and output size of
+text written to buffer. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for input and for returning results. Default is transfer full."><span class="acronym">inout</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>text</p></td>
+<td class="parameter_description"><p>buffer to write fetched name into. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Out parameter, where caller must allocate storage."><span class="acronym">out caller-allocates</span></acronym>][<acronym title="Parameter points to an array of items."><span class="acronym">array</span></acronym> length=text_size]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-ot-name-get-utf16.returns"></a><h4>Returns</h4>
+<p> full length of the requested string, or 0 if not found.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-2-1-0.html#api-index-2.1.0">2.1.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-ot-name-get-utf32"></a><h3>hb_ot_name_get_utf32 ()</h3>
+<pre class="programlisting">unsigned <span class="returnvalue">int</span>
+hb_ot_name_get_utf32 (<em class="parameter"><code><a class="link" href="harfbuzz-hb-face.html#hb-face-t" title="hb_face_t"><span class="type">hb_face_t</span></a> *face</code></em>,
+                      <em class="parameter"><code><a class="link" href="harfbuzz-hb-ot-name.html#hb-ot-name-id-t" title="hb_ot_name_id_t"><span class="type">hb_ot_name_id_t</span></a> name_id</code></em>,
+                      <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-language-t" title="hb_language_t"><span class="type">hb_language_t</span></a> language</code></em>,
+                      <em class="parameter"><code>unsigned <span class="type">int</span> *text_size</code></em>,
+                      <em class="parameter"><code><span class="type">uint32_t</span> *text</code></em>);</pre>
+<p>Fetches a font name from the OpenType 'name' table.
+If <em class="parameter"><code>language</code></em>
+ is <a class="link" href="harfbuzz-hb-common.html#HB-LANGUAGE-INVALID:CAPS" title="HB_LANGUAGE_INVALID"><span class="type">HB_LANGUAGE_INVALID</span></a>, English ("en") is assumed.
+Returns string in UTF-32 encoding. A NUL terminator is always written
+for convenience, and isn't included in the output <em class="parameter"><code>text_size</code></em>
+.</p>
+<div class="refsect3">
+<a name="hb-ot-name-get-utf32.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>face</p></td>
+<td class="parameter_description"><p>font face.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>name_id</p></td>
+<td class="parameter_description"><p>OpenType name identifier to fetch.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>language</p></td>
+<td class="parameter_description"><p>language to fetch the name for.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>text_size</p></td>
+<td class="parameter_description"><p>input size of <em class="parameter"><code>text</code></em>
+buffer, and output size of
+text written to buffer. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for input and for returning results. Default is transfer full."><span class="acronym">inout</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>text</p></td>
+<td class="parameter_description"><p>buffer to write fetched name into. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Out parameter, where caller must allocate storage."><span class="acronym">out caller-allocates</span></acronym>][<acronym title="Parameter points to an array of items."><span class="acronym">array</span></acronym> length=text_size]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-ot-name-get-utf32.returns"></a><h4>Returns</h4>
+<p> full length of the requested string, or 0 if not found.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-2-1-0.html#api-index-2.1.0">2.1.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-ot-name-get-utf8"></a><h3>hb_ot_name_get_utf8 ()</h3>
+<pre class="programlisting">unsigned <span class="returnvalue">int</span>
+hb_ot_name_get_utf8 (<em class="parameter"><code><a class="link" href="harfbuzz-hb-face.html#hb-face-t" title="hb_face_t"><span class="type">hb_face_t</span></a> *face</code></em>,
+                     <em class="parameter"><code><a class="link" href="harfbuzz-hb-ot-name.html#hb-ot-name-id-t" title="hb_ot_name_id_t"><span class="type">hb_ot_name_id_t</span></a> name_id</code></em>,
+                     <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-language-t" title="hb_language_t"><span class="type">hb_language_t</span></a> language</code></em>,
+                     <em class="parameter"><code>unsigned <span class="type">int</span> *text_size</code></em>,
+                     <em class="parameter"><code><span class="type">char</span> *text</code></em>);</pre>
+<p>Fetches a font name from the OpenType 'name' table.
+If <em class="parameter"><code>language</code></em>
+ is <a class="link" href="harfbuzz-hb-common.html#HB-LANGUAGE-INVALID:CAPS" title="HB_LANGUAGE_INVALID"><span class="type">HB_LANGUAGE_INVALID</span></a>, English ("en") is assumed.
+Returns string in UTF-8 encoding. A NUL terminator is always written
+for convenience, and isn't included in the output <em class="parameter"><code>text_size</code></em>
+.</p>
+<div class="refsect3">
+<a name="hb-ot-name-get-utf8.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>face</p></td>
+<td class="parameter_description"><p>font face.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>name_id</p></td>
+<td class="parameter_description"><p>OpenType name identifier to fetch.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>language</p></td>
+<td class="parameter_description"><p>language to fetch the name for.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>text_size</p></td>
+<td class="parameter_description"><p>input size of <em class="parameter"><code>text</code></em>
+buffer, and output size of
+text written to buffer. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for input and for returning results. Default is transfer full."><span class="acronym">inout</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>text</p></td>
+<td class="parameter_description"><p>buffer to write fetched name into. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Out parameter, where caller must allocate storage."><span class="acronym">out caller-allocates</span></acronym>][<acronym title="Parameter points to an array of items."><span class="acronym">array</span></acronym> length=text_size]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-ot-name-get-utf8.returns"></a><h4>Returns</h4>
+<p> full length of the requested string, or 0 if not found.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-2-1-0.html#api-index-2.1.0">2.1.0</a></p>
+</div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-ot-name.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="hb-ot-name-id-t"></a><h3>hb_ot_name_id_t</h3>
+<pre class="programlisting">typedef unsigned int hb_ot_name_id_t;
+</pre>
+<p>An integral type representing an OpenType 'name' table name identifier.
+There are predefined name IDs, as well as name IDs return from other
+API.  These can be used to fetch name strings from a font face.</p>
+<p class="since">Since: <a class="link" href="api-index-2-0-0.html#api-index-2.0.0">2.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-ot-name-id-predefined-t"></a><h3>enum hb_ot_name_id_predefined_t</h3>
+<p>An enum type representing the pre-defined name IDs.</p>
+<p>For more information on these fields, see the
+<a class="ulink" href="https://docs.microsoft.com/en-us/typography/opentype/spec/name#name-ids" target="_top">OpenType spec</a>.</p>
+<div class="refsect3">
+<a name="hb-ot-name-id-predefined-t.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-COPYRIGHT:CAPS"></a>HB_OT_NAME_ID_COPYRIGHT</p></td>
+<td class="enum_member_description">
+<p>Copyright notice</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-FONT-FAMILY:CAPS"></a>HB_OT_NAME_ID_FONT_FAMILY</p></td>
+<td class="enum_member_description">
+<p>Font Family name</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-FONT-SUBFAMILY:CAPS"></a>HB_OT_NAME_ID_FONT_SUBFAMILY</p></td>
+<td class="enum_member_description">
+<p>Font Subfamily name</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-UNIQUE-ID:CAPS"></a>HB_OT_NAME_ID_UNIQUE_ID</p></td>
+<td class="enum_member_description">
+<p>Unique font identifier</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-FULL-NAME:CAPS"></a>HB_OT_NAME_ID_FULL_NAME</p></td>
+<td class="enum_member_description">
+<p>Full font name that reflects
+all family and relevant subfamily descriptors</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-VERSION-STRING:CAPS"></a>HB_OT_NAME_ID_VERSION_STRING</p></td>
+<td class="enum_member_description">
+<p>Version string</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-POSTSCRIPT-NAME:CAPS"></a>HB_OT_NAME_ID_POSTSCRIPT_NAME</p></td>
+<td class="enum_member_description">
+<p>PostScript name for the font</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-TRADEMARK:CAPS"></a>HB_OT_NAME_ID_TRADEMARK</p></td>
+<td class="enum_member_description">
+<p>Trademark</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-MANUFACTURER:CAPS"></a>HB_OT_NAME_ID_MANUFACTURER</p></td>
+<td class="enum_member_description">
+<p>Manufacturer Name</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-DESIGNER:CAPS"></a>HB_OT_NAME_ID_DESIGNER</p></td>
+<td class="enum_member_description">
+<p>Designer</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-DESCRIPTION:CAPS"></a>HB_OT_NAME_ID_DESCRIPTION</p></td>
+<td class="enum_member_description">
+<p>Description</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-VENDOR-URL:CAPS"></a>HB_OT_NAME_ID_VENDOR_URL</p></td>
+<td class="enum_member_description">
+<p>URL of font vendor</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-DESIGNER-URL:CAPS"></a>HB_OT_NAME_ID_DESIGNER_URL</p></td>
+<td class="enum_member_description">
+<p>URL of typeface designer</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-LICENSE:CAPS"></a>HB_OT_NAME_ID_LICENSE</p></td>
+<td class="enum_member_description">
+<p>License Description</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-LICENSE-URL:CAPS"></a>HB_OT_NAME_ID_LICENSE_URL</p></td>
+<td class="enum_member_description">
+<p>URL where additional licensing
+information can be found</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-TYPOGRAPHIC-FAMILY:CAPS"></a>HB_OT_NAME_ID_TYPOGRAPHIC_FAMILY</p></td>
+<td class="enum_member_description">
+<p>Typographic Family name</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-TYPOGRAPHIC-SUBFAMILY:CAPS"></a>HB_OT_NAME_ID_TYPOGRAPHIC_SUBFAMILY</p></td>
+<td class="enum_member_description">
+<p>Typographic Subfamily name</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-MAC-FULL-NAME:CAPS"></a>HB_OT_NAME_ID_MAC_FULL_NAME</p></td>
+<td class="enum_member_description">
+<p>Compatible Full Name for MacOS</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-SAMPLE-TEXT:CAPS"></a>HB_OT_NAME_ID_SAMPLE_TEXT</p></td>
+<td class="enum_member_description">
+<p>Sample text</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-CID-FINDFONT-NAME:CAPS"></a>HB_OT_NAME_ID_CID_FINDFONT_NAME</p></td>
+<td class="enum_member_description">
+<p>PostScript CID findfont name</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-WWS-FAMILY:CAPS"></a>HB_OT_NAME_ID_WWS_FAMILY</p></td>
+<td class="enum_member_description">
+<p>WWS Family Name</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-WWS-SUBFAMILY:CAPS"></a>HB_OT_NAME_ID_WWS_SUBFAMILY</p></td>
+<td class="enum_member_description">
+<p>WWS Subfamily Name</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-LIGHT-BACKGROUND:CAPS"></a>HB_OT_NAME_ID_LIGHT_BACKGROUND</p></td>
+<td class="enum_member_description">
+<p>Light Background Palette</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-DARK-BACKGROUND:CAPS"></a>HB_OT_NAME_ID_DARK_BACKGROUND</p></td>
+<td class="enum_member_description">
+<p>Dark Background Palette</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-VARIATIONS-PS-PREFIX:CAPS"></a>HB_OT_NAME_ID_VARIATIONS_PS_PREFIX</p></td>
+<td class="enum_member_description">
+<p>Variations PostScript Name Prefix</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-NAME-ID-INVALID:CAPS"></a>HB_OT_NAME_ID_INVALID</p></td>
+<td class="enum_member_description">
+<p>Value to represent a nonexistent name ID.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-ot-name-entry-t"></a><h3>hb_ot_name_entry_t</h3>
+<pre class="programlisting">typedef struct {
+  hb_ot_name_id_t name_id;
+  hb_language_t   language;
+} hb_ot_name_entry_t;
+</pre>
+<p>Structure representing a name ID in a particular language.</p>
+<div class="refsect3">
+<a name="hb-ot-name-entry-t.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="struct_members_name">
+<col class="struct_members_description">
+<col width="200px" class="struct_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="harfbuzz-hb-ot-name.html#hb-ot-name-id-t" title="hb_ot_name_id_t"><span class="type">hb_ot_name_id_t</span></a> <em class="structfield"><code><a name="hb-ot-name-entry-t.name-id"></a>name_id</code></em>;</p></td>
+<td class="struct_member_description"><p>name ID</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+<tr>
+<td class="struct_member_name"><p><a class="link" href="harfbuzz-hb-common.html#hb-language-t" title="hb_language_t"><span class="type">hb_language_t</span></a> <em class="structfield"><code><a name="hb-ot-name-entry-t.language"></a>language</code></em>;</p></td>
+<td class="struct_member_description"><p>language</p></td>
+<td class="struct_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-2-1-0.html#api-index-2.1.0">2.1.0</a></p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.33.1</div>
+</body>
+</html>

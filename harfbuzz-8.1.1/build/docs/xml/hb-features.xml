@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-features">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-features.top_of_page">hb-features</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-features</refname>
+<refpurpose>Feature detection</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-features.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-HAS-CAIRO:CAPS">HB_HAS_CAIRO</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-HAS-CORETEXT:CAPS">HB_HAS_CORETEXT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-HAS-DIRECTWRITE:CAPS">HB_HAS_DIRECTWRITE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-HAS-FREETYPE:CAPS">HB_HAS_FREETYPE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-HAS-GDI:CAPS">HB_HAS_GDI</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-HAS-GLIB:CAPS">HB_HAS_GLIB</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-HAS-GOBJECT:CAPS">HB_HAS_GOBJECT</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-HAS-GRAPHITE:CAPS">HB_HAS_GRAPHITE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-HAS-ICU:CAPS">HB_HAS_ICU</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-HAS-UNISCRIBE:CAPS">HB_HAS_UNISCRIBE</link></entry></row>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-HAS-WASM:CAPS">HB_HAS_WASM</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-features.includes"><title>Includes</title><synopsis>#include &lt;hb-features.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-features.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Macros for detecting optional HarfBuzz features at build time.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-features.functions_details" role="details">
+<title role="details.title">Functions</title>
+<para />
+</refsect1>
+<refsect1 id="harfbuzz-hb-features.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="HB-HAS-CAIRO:CAPS" role="macro">
+<title>HB_HAS_CAIRO</title>
+<indexterm zone="HB-HAS-CAIRO:CAPS"><primary>HB_HAS_CAIRO</primary></indexterm>
+<programlisting language="C">#define HB_HAS_CAIRO 1
+</programlisting>
+<para>Defined if Harfbuzz has been built with cairo support.</para>
+</refsect2>
+<refsect2 id="HB-HAS-CORETEXT:CAPS" role="macro">
+<title>HB_HAS_CORETEXT</title>
+<indexterm zone="HB-HAS-CORETEXT:CAPS"><primary>HB_HAS_CORETEXT</primary></indexterm>
+<programlisting language="C">#define HB_HAS_CORETEXT 1
+</programlisting>
+<para>Defined if Harfbuzz has been built with CoreText support.</para>
+</refsect2>
+<refsect2 id="HB-HAS-DIRECTWRITE:CAPS" role="macro">
+<title>HB_HAS_DIRECTWRITE</title>
+<indexterm zone="HB-HAS-DIRECTWRITE:CAPS"><primary>HB_HAS_DIRECTWRITE</primary></indexterm>
+<programlisting language="C">#define HB_HAS_DIRECTWRITE 1
+</programlisting>
+<para>Defined if Harfbuzz has been built with DirectWrite support.</para>
+</refsect2>
+<refsect2 id="HB-HAS-FREETYPE:CAPS" role="macro">
+<title>HB_HAS_FREETYPE</title>
+<indexterm zone="HB-HAS-FREETYPE:CAPS"><primary>HB_HAS_FREETYPE</primary></indexterm>
+<programlisting language="C">#define HB_HAS_FREETYPE 1
+</programlisting>
+<para>Defined if Harfbuzz has been built with Freetype support.</para>
+</refsect2>
+<refsect2 id="HB-HAS-GDI:CAPS" role="macro">
+<title>HB_HAS_GDI</title>
+<indexterm zone="HB-HAS-GDI:CAPS"><primary>HB_HAS_GDI</primary></indexterm>
+<programlisting language="C">#define HB_HAS_GDI 1
+</programlisting>
+<para>Defined if Harfbuzz has been built with GDI support.</para>
+</refsect2>
+<refsect2 id="HB-HAS-GLIB:CAPS" role="macro">
+<title>HB_HAS_GLIB</title>
+<indexterm zone="HB-HAS-GLIB:CAPS"><primary>HB_HAS_GLIB</primary></indexterm>
+<programlisting language="C">#define HB_HAS_GLIB 1
+</programlisting>
+<para>Defined if Harfbuzz has been built with GLib support.</para>
+</refsect2>
+<refsect2 id="HB-HAS-GOBJECT:CAPS" role="macro">
+<title>HB_HAS_GOBJECT</title>
+<indexterm zone="HB-HAS-GOBJECT:CAPS"><primary>HB_HAS_GOBJECT</primary></indexterm>
+<programlisting language="C">#define HB_HAS_GOBJECT 1
+</programlisting>
+<para>Defined if Harfbuzz has been built with GObject support.</para>
+</refsect2>
+<refsect2 id="HB-HAS-GRAPHITE:CAPS" role="macro">
+<title>HB_HAS_GRAPHITE</title>
+<indexterm zone="HB-HAS-GRAPHITE:CAPS"><primary>HB_HAS_GRAPHITE</primary></indexterm>
+<programlisting language="C">#define HB_HAS_GRAPHITE 1
+</programlisting>
+<para>Defined if Harfbuzz has been built with Graphite support.</para>
+</refsect2>
+<refsect2 id="HB-HAS-ICU:CAPS" role="macro">
+<title>HB_HAS_ICU</title>
+<indexterm zone="HB-HAS-ICU:CAPS"><primary>HB_HAS_ICU</primary></indexterm>
+<programlisting language="C">#define HB_HAS_ICU 1
+</programlisting>
+<para>Defined if Harfbuzz has been built with ICU support.</para>
+</refsect2>
+<refsect2 id="HB-HAS-UNISCRIBE:CAPS" role="macro">
+<title>HB_HAS_UNISCRIBE</title>
+<indexterm zone="HB-HAS-UNISCRIBE:CAPS"><primary>HB_HAS_UNISCRIBE</primary></indexterm>
+<programlisting language="C">#define HB_HAS_UNISCRIBE 1
+</programlisting>
+<para>Defined if Harfbuzz has been built with Uniscribe support.</para>
+</refsect2>
+<refsect2 id="HB-HAS-WASM:CAPS" role="macro">
+<title>HB_HAS_WASM</title>
+<indexterm zone="HB-HAS-WASM:CAPS"><primary>HB_HAS_WASM</primary></indexterm>
+<programlisting language="C">#define HB_HAS_WASM 1
+</programlisting>
+<para>Defined if Harfbuzz has been built with WebAssembly support.</para>
+</refsect2>
+
+</refsect1>
+
+</refentry>

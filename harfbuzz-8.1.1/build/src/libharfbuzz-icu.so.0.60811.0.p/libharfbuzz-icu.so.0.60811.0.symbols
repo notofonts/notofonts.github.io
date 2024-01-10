@@ -1,0 +1,11 @@
+ 0x000000000000000e (SONAME)             Library soname: [libharfbuzz-icu.so.0]
+__gcov_error_file B 8
+__gcov_kvp_dynamic_pool B 8
+__gcov_kvp_dynamic_pool_index B 4
+__gcov_kvp_dynamic_pool_size B 4
+__gcov_master D 10
+__gcov_var B 1028
+hb_icu_get_unicode_funcs T
+hb_icu_script_from_script T
+hb_icu_script_to_script T
+mangle_path T

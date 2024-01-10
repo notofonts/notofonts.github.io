@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-1.8.6">
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="hb-font-funcs-set-glyph-h-advances-func"><link linkend="hb-font-funcs-set-glyph-h-advances-func">hb_font_funcs_set_glyph_h_advances_func</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-set-glyph-v-advances-func"><link linkend="hb-font-funcs-set-glyph-v-advances-func">hb_font_funcs_set_glyph_v_advances_func</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-advances-for-direction"><link linkend="hb-font-get-glyph-advances-for-direction">hb_font_get_glyph_advances_for_direction</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-h-advances"><link linkend="hb-font-get-glyph-h-advances">hb_font_get_glyph_h_advances</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-v-advances"><link linkend="hb-font-get-glyph-v-advances">hb_font_get_glyph_v_advances</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

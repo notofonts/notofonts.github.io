@@ -1,0 +1,1 @@
+{"version": "8.1.1", "descriptive_name": "harfbuzz", "subproject_dir": "subprojects", "subprojects": [{"name": "ragel", "version": "6.10", "descriptive_name": "ragel"}]}

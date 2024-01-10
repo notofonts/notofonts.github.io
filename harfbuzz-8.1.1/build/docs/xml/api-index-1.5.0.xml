@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-1.5.0">
+<indexdiv><title>B</title>
+<indexentry><primaryie linkends="hb-buffer-append"><link linkend="hb-buffer-append">hb_buffer_append</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-diff"><link linkend="hb-buffer-diff">hb_buffer_diff</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-diff-flags-t"><link linkend="hb-buffer-diff-flags-t">hb_buffer_diff_flags_t</link>, enum in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>G</title>
+<indexentry><primaryie linkends="hb-glyph-flags-t"><link linkend="hb-glyph-flags-t">hb_glyph_flags_t</link>, enum in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-glyph-info-get-glyph-flags"><link linkend="hb-glyph-info-get-glyph-flags">hb_glyph_info_get_glyph_flags</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

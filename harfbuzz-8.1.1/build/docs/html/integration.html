@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Platform Integration Guide: HarfBuzz Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="HarfBuzz Manual">
+<link rel="up" href="user-manual.html" title="Part I. User's manual">
+<link rel="prev" href="utilities-common-types-apis.html" title="Common data types and APIs">
+<link rel="next" href="integration-freetype.html" title="FreeType integration">
+<meta name="generator" content="GTK-Doc V1.33.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts"></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="user-manual.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="utilities-common-types-apis.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="integration-freetype.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="chapter">
+<div class="titlepage"><div><div><h2 class="title">
+<a name="integration"></a>Platform Integration Guide</h2></div></div></div>
+<div class="toc"><dl class="toc">
+<dt><span class="section"><a href="integration.html#integration-glib">GNOME integration, GLib, and GObject</a></span></dt>
+<dt><span class="section"><a href="integration-freetype.html">FreeType integration</a></span></dt>
+<dt><span class="section"><a href="integration-cairo.html">Cairo integration</a></span></dt>
+<dt><span class="section"><a href="integration-uniscribe.html">Uniscribe integration</a></span></dt>
+<dt><span class="section"><a href="integration-coretext.html">Core Text integration</a></span></dt>
+<dt><span class="section"><a href="integration-icu.html">ICU integration</a></span></dt>
+<dt><span class="section"><a href="integration-python.html">Python bindings</a></span></dt>
+</dl></div>
+<p>
+    HarfBuzz was first developed for use with the GNOME and GTK
+    software stack commonly found in desktop Linux
+    distributions. Nevertheless, it can be used on other operating
+    systems and platforms, from iOS and macOS to Windows. It can also
+    be used with other application frameworks and components, such as
+    Android, Qt, or application-specific widget libraries.
+  </p>
+<p>
+    This chapter will look at how HarfBuzz fits into a typical
+    text-rendering pipeline, and will discuss the APIs available to
+    integrate HarfBuzz with contemporary Linux, Mac, and Windows
+    software. It will also show how HarfBuzz integrates with popular
+    external libraries like FreeType and International Components for
+    Unicode (ICU) and describe the HarfBuzz language bindings for
+    Python.
+  </p>
+<p>
+    On a GNOME system, HarfBuzz is designed to tie in with several
+    other common system libraries. The most common architecture uses
+    Pango at the layer directly "above" HarfBuzz; Pango is responsible
+    for text segmentation and for ensuring that each input
+    <span class="type">hb_buffer_t</span> passed to HarfBuzz for shaping contains
+    Unicode code points that share the same segment properties
+    (namely, direction, language, and script, but also higher-level
+    properties like the active font, font style, and so on).
+  </p>
+<p>
+    The layer directly "below" HarfBuzz is typically FreeType, which
+    is used to rasterize glyph outlines at the necessary optical size,
+    hinting settings, and pixel resolution. FreeType provides APIs for
+    accessing font and face information, so HarfBuzz includes
+    functions to create <span class="type">hb_face_t</span> and
+    <span class="type">hb_font_t</span> objects directly from FreeType
+    objects. HarfBuzz can use FreeType's built-in functions for
+    <em class="structfield"><code>font_funcs</code></em> vtable in an <span class="type">hb_font_t</span>.
+  </p>
+<p>
+    FreeType's output is bitmaps of the rasterized glyphs; on a
+    typical Linux system these will then be drawn by a graphics
+    library like Cairo, but those details are beyond HarfBuzz's
+    control. On the other hand, at the top end of the stack, Pango is
+    part of the larger GNOME framework, and HarfBuzz does include APIs
+    for working with key components of GNOME's higher-level libraries
+    — most notably GLib.
+  </p>
+<p>
+    For other operating systems or application frameworks, the
+    critical integration points are where HarfBuzz gets font and face
+    information about the font used for shaping and where HarfBuzz
+    gets Unicode data about the input-buffer code points.
+  </p>
+<p>
+    The font and face information is necessary for text shaping
+    because HarfBuzz needs to retrieve the glyph indices for
+    particular code points, and to know the extents and advances of
+    glyphs. Note that, in an OpenType variable font, both of those
+    types of information can change with different variation-axis
+    settings.
+  </p>
+<p>
+    The Unicode information is necessary for shaping because the
+    properties of a code point (such as its General Category (gc),
+    Canonical Combining Class (ccc), and decomposition) can directly
+    impact the shaping moves that HarfBuzz performs.
+  </p>
+<div class="section">
+<div class="titlepage"><div><div><h2 class="title" style="clear: both">
+<a name="integration-glib"></a>GNOME integration, GLib, and GObject</h2></div></div></div>
+<p>
+      As mentioned in the preceding section, HarfBuzz offers
+      integration APIs to help client programs using the
+      GNOME and GTK framework commonly found in desktop Linux
+      distributions. 
+    </p>
+<p>
+      GLib is the main utility library for GNOME applications. It
+      provides basic data types and conversions, file abstractions,
+      string manipulation, and macros, as well as facilities like
+      memory allocation and the main event loop.
+    </p>
+<p>
+      Where text shaping is concerned, GLib provides several utilities
+      that HarfBuzz can take advantage of, including a set of
+      Unicode-data functions and a data type for script
+      information. Both are useful when working with HarfBuzz
+      buffers. To make use of them, you will need to include the
+      <code class="filename">hb-glib.h</code> header file.
+    </p>
+<p>
+      GLib's <a class="ulink" href="https://developer.gnome.org/glib/stable/glib-Unicode-Manipulation.html" target="_top">Unicode
+      manipulation API</a> includes all the functionality
+      necessary to retrieve Unicode data for the
+      <em class="structfield"><code>unicode_funcs</code></em> structure of a HarfBuzz
+      <span class="type">hb_buffer_t</span>. 
+    </p>
+<p>
+      The function <code class="function">hb_glib_get_unicode_funcs()</code>
+      sets up a <span class="type">hb_unicode_funcs_t</span> structure configured
+      with the GLib Unicode functions and returns a pointer to it.
+    </p>
+<p>
+      You can attach this Unicode-functions structure to your buffer,
+      and it will be ready for use with GLib:
+    </p>
+<pre class="programlisting">
+      #include &lt;hb-glib.h&gt;
+      ...
+      hb_unicode_funcs_t *glibufunctions;
+      glibufunctions = hb_glib_get_unicode_funcs();
+      hb_buffer_set_unicode_funcs(buf, glibufunctions);
+    </pre>
+<p>
+      For script information, GLib uses the
+      <span class="type">GUnicodeScript</span> type. Like HarfBuzz's own
+      <span class="type">hb_script_t</span>, this data type is an enumeration
+      of Unicode scripts, but text segments passed in from GLib code
+      will be tagged with a <span class="type">GUnicodeScript</span>. Therefore,
+      when setting the script property on a <span class="type">hb_buffer_t</span>,
+      you will need to convert between the <span class="type">GUnicodeScript</span>
+      of the input provided by GLib and HarfBuzz's
+      <span class="type">hb_script_t</span> type.
+    </p>
+<p>
+      The <code class="function">hb_glib_script_to_script()</code> function
+      takes an <span class="type">GUnicodeScript</span> script identifier as its
+      sole argument and returns the corresponding <span class="type">hb_script_t</span>.
+      The <code class="function">hb_glib_script_from_script()</code> does the
+      reverse, taking an <span class="type">hb_script_t</span> and returning the
+      <span class="type">GUnicodeScript</span> identifier for GLib.
+    </p>
+<p>
+      Finally, GLib also provides a reference-counted object type called <a class="ulink" href="https://developer.gnome.org/glib/stable/glib-Byte-Arrays.html#GBytes" target="_top"><span class="type">GBytes</span></a>
+      that is used for accessing raw memory segments with the benefits
+      of GLib's lifecycle management. HarfBuzz provides a
+      <code class="function">hb_glib_blob_create()</code> function that lets
+      you create an <span class="type">hb_blob_t</span> directly from a
+      <span class="type">GBytes</span> object. This function takes only the
+      <span class="type">GBytes</span> object as its input; HarfBuzz registers the
+      GLib <code class="function">destroy</code> callback automatically.
+    </p>
+<p>
+      The GNOME platform also features an object system called
+      GObject. For HarfBuzz, the main advantage of GObject is a
+      feature called <a class="ulink" href="https://gi.readthedocs.io/en/latest/" target="_top">GObject
+      Introspection</a>. This is a middleware facility that can be
+      used to generate language bindings for C libraries. HarfBuzz uses it
+      to build its Python bindings, which we will look at in a separate section.
+    </p>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.33.1</div>
+</body>
+</html>

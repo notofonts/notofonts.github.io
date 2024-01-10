@@ -1,0 +1,647 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-map">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-map.top_of_page">hb-map</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-map</refname>
+<refpurpose>Object representing integer to integer mapping</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-map.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="hb-map-t"><returnvalue>hb_map_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-map-create">hb_map_create</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-map-allocation-successful">hb_map_allocation_successful</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-map-t"><returnvalue>hb_map_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-map-copy">hb_map_copy</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-map-clear">hb_map_clear</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-map-t"><returnvalue>hb_map_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-map-get-empty">hb_map_get_empty</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-map-t"><returnvalue>hb_map_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-map-reference">hb_map_reference</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-map-destroy">hb_map_destroy</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-map-set-user-data">hb_map_set_user_data</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-map-get-user-data">hb_map_get_user_data</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-map-set">hb_map_set</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-codepoint-t"><returnvalue>hb_codepoint_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-map-get">hb_map_get</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-map-del">hb_map_del</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-map-has">hb_map_has</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-map-get-population">hb_map_get_population</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-map-is-empty">hb_map_is_empty</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-map-is-equal">hb_map_is_equal</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-map-hash">hb_map_hash</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-map-update">hb_map_update</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-map-next">hb_map_next</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-map-keys">hb_map_keys</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-map-values">hb_map_values</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="harfbuzz-hb-map.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-MAP-VALUE-INVALID:CAPS">HB_MAP_VALUE_INVALID</link></entry></row>
+<row><entry role="typedef_keyword">typedef</entry><entry role="function_name"><link linkend="hb-map-t">hb_map_t</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-map.includes"><title>Includes</title><synopsis>#include &lt;hb.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-map.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Map objects are integer-to-integer hash-maps.  Currently they are
+not used in the HarfBuzz public API, but are provided for client's
+use if desired.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-map.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-map-create" role="function" condition="since:1.7.7">
+<title>hb_map_create&#160;()</title>
+<indexterm zone="hb-map-create" role="1.7.7"><primary>hb_map_create</primary></indexterm>
+<programlisting language="C"><link linkend="hb-map-t"><returnvalue>hb_map_t</returnvalue></link>&#160;*
+hb_map_create (<parameter><type>void</type></parameter>);</programlisting>
+<para>Creates a new, initially empty map.</para>
+<refsect3 id="hb-map-create.returns" role="returns">
+<title>Returns</title>
+<para>The new <link linkend="hb-map-t"><type>hb_map_t</type></link>. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.7.7">1.7.7</link></para></refsect2>
+<refsect2 id="hb-map-allocation-successful" role="function" condition="since:1.7.7">
+<title>hb_map_allocation_successful&#160;()</title>
+<indexterm zone="hb-map-allocation-successful" role="1.7.7"><primary>hb_map_allocation_successful</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_map_allocation_successful (<parameter>const <link linkend="hb-map-t"><type>hb_map_t</type></link> *map</parameter>);</programlisting>
+<para>Tests whether memory allocation for a set was successful.</para>
+<refsect3 id="hb-map-allocation-successful.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>map</para></entry>
+<entry role="parameter_description"><para>A map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-map-allocation-successful.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if allocation succeeded, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.7.7">1.7.7</link></para></refsect2>
+<refsect2 id="hb-map-copy" role="function" condition="since:4.4.0">
+<title>hb_map_copy&#160;()</title>
+<indexterm zone="hb-map-copy" role="4.4.0"><primary>hb_map_copy</primary></indexterm>
+<programlisting language="C"><link linkend="hb-map-t"><returnvalue>hb_map_t</returnvalue></link>&#160;*
+hb_map_copy (<parameter>const <link linkend="hb-map-t"><type>hb_map_t</type></link> *map</parameter>);</programlisting>
+<para>Allocate a copy of <parameter>map</parameter>
+.</para>
+<refsect3 id="hb-map-copy.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>map</para></entry>
+<entry role="parameter_description"><para>A map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-map-copy.returns" role="returns">
+<title>Returns</title>
+<para>Newly-allocated map. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-4.4.0">4.4.0</link></para></refsect2>
+<refsect2 id="hb-map-clear" role="function" condition="since:1.7.7">
+<title>hb_map_clear&#160;()</title>
+<indexterm zone="hb-map-clear" role="1.7.7"><primary>hb_map_clear</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_map_clear (<parameter><link linkend="hb-map-t"><type>hb_map_t</type></link> *map</parameter>);</programlisting>
+<para>Clears out the contents of <parameter>map</parameter>
+.</para>
+<refsect3 id="hb-map-clear.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>map</para></entry>
+<entry role="parameter_description"><para>A map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.7.7">1.7.7</link></para></refsect2>
+<refsect2 id="hb-map-get-empty" role="function" condition="since:1.7.7">
+<title>hb_map_get_empty&#160;()</title>
+<indexterm zone="hb-map-get-empty" role="1.7.7"><primary>hb_map_get_empty</primary></indexterm>
+<programlisting language="C"><link linkend="hb-map-t"><returnvalue>hb_map_t</returnvalue></link>&#160;*
+hb_map_get_empty (<parameter><type>void</type></parameter>);</programlisting>
+<para>Fetches the singleton empty <link linkend="hb-map-t"><type>hb_map_t</type></link>.</para>
+<refsect3 id="hb-map-get-empty.returns" role="returns">
+<title>Returns</title>
+<para>The empty <link linkend="hb-map-t"><type>hb_map_t</type></link>. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.7.7">1.7.7</link></para></refsect2>
+<refsect2 id="hb-map-reference" role="function" condition="since:1.7.7">
+<title>hb_map_reference&#160;()</title>
+<indexterm zone="hb-map-reference" role="1.7.7"><primary>hb_map_reference</primary></indexterm>
+<programlisting language="C"><link linkend="hb-map-t"><returnvalue>hb_map_t</returnvalue></link>&#160;*
+hb_map_reference (<parameter><link linkend="hb-map-t"><type>hb_map_t</type></link> *map</parameter>);</programlisting>
+<para>Increases the reference count on a map.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-map-reference.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>map</para></entry>
+<entry role="parameter_description"><para>A map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-map-reference.returns" role="returns">
+<title>Returns</title>
+<para>The map. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.7.7">1.7.7</link></para></refsect2>
+<refsect2 id="hb-map-destroy" role="function" condition="since:1.7.7">
+<title>hb_map_destroy&#160;()</title>
+<indexterm zone="hb-map-destroy" role="1.7.7"><primary>hb_map_destroy</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_map_destroy (<parameter><link linkend="hb-map-t"><type>hb_map_t</type></link> *map</parameter>);</programlisting>
+<para>Decreases the reference count on a map. When
+the reference count reaches zero, the map is
+destroyed, freeing all memory.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-map-destroy.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>map</para></entry>
+<entry role="parameter_description"><para>A map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.7.7">1.7.7</link></para></refsect2>
+<refsect2 id="hb-map-set-user-data" role="function" condition="since:1.7.7">
+<title>hb_map_set_user_data&#160;()</title>
+<indexterm zone="hb-map-set-user-data" role="1.7.7"><primary>hb_map_set_user_data</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_map_set_user_data (<parameter><link linkend="hb-map-t"><type>hb_map_t</type></link> *map</parameter>,
+                      <parameter><link linkend="hb-user-data-key-t"><type>hb_user_data_key_t</type></link> *key</parameter>,
+                      <parameter><link linkend="void"><type>void</type></link> *data</parameter>,
+                      <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>,
+                      <parameter><link linkend="hb-bool-t"><type>hb_bool_t</type></link> replace</parameter>);</programlisting>
+<para>Attaches a user-data key/data pair to the specified map.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-map-set-user-data.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>map</para></entry>
+<entry role="parameter_description"><para>A map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>key</para></entry>
+<entry role="parameter_description"><para>The user-data key to set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>data</para></entry>
+<entry role="parameter_description"><para>A pointer to the user data to set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>A callback to call when <parameter>data</parameter>
+is not needed anymore. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>replace</para></entry>
+<entry role="parameter_description"><para>Whether to replace an existing data with the same key</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-map-set-user-data.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if success, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.7.7">1.7.7</link></para></refsect2>
+<refsect2 id="hb-map-get-user-data" role="function" condition="since:1.7.7">
+<title>hb_map_get_user_data&#160;()</title>
+<indexterm zone="hb-map-get-user-data" role="1.7.7"><primary>hb_map_get_user_data</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>&#160;*
+hb_map_get_user_data (<parameter>const <link linkend="hb-map-t"><type>hb_map_t</type></link> *map</parameter>,
+                      <parameter><link linkend="hb-user-data-key-t"><type>hb_user_data_key_t</type></link> *key</parameter>);</programlisting>
+<para>Fetches the user data associated with the specified key,
+attached to the specified map.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-map-get-user-data.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>map</para></entry>
+<entry role="parameter_description"><para>A map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>key</para></entry>
+<entry role="parameter_description"><para>The user-data key to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-map-get-user-data.returns" role="returns">
+<title>Returns</title>
+<para>A pointer to the user data. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.7.7">1.7.7</link></para></refsect2>
+<refsect2 id="hb-map-set" role="function" condition="since:1.7.7">
+<title>hb_map_set&#160;()</title>
+<indexterm zone="hb-map-set" role="1.7.7"><primary>hb_map_set</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_map_set (<parameter><link linkend="hb-map-t"><type>hb_map_t</type></link> *map</parameter>,
+            <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> key</parameter>,
+            <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> value</parameter>);</programlisting>
+<para>Stores <parameter>key</parameter>
+:<parameter>value</parameter>
+ in the map.</para>
+<refsect3 id="hb-map-set.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>map</para></entry>
+<entry role="parameter_description"><para>A map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>key</para></entry>
+<entry role="parameter_description"><para>The key to store in the map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>value</para></entry>
+<entry role="parameter_description"><para>The value to store for <parameter>key</parameter>
+</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.7.7">1.7.7</link></para></refsect2>
+<refsect2 id="hb-map-get" role="function" condition="since:1.7.7">
+<title>hb_map_get&#160;()</title>
+<indexterm zone="hb-map-get" role="1.7.7"><primary>hb_map_get</primary></indexterm>
+<programlisting language="C"><link linkend="hb-codepoint-t"><returnvalue>hb_codepoint_t</returnvalue></link>
+hb_map_get (<parameter>const <link linkend="hb-map-t"><type>hb_map_t</type></link> *map</parameter>,
+            <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> key</parameter>);</programlisting>
+<para>Fetches the value stored for <parameter>key</parameter>
+ in <parameter>map</parameter>
+.</para>
+<refsect3 id="hb-map-get.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>map</para></entry>
+<entry role="parameter_description"><para>A map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>key</para></entry>
+<entry role="parameter_description"><para>The key to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.7.7">1.7.7</link></para></refsect2>
+<refsect2 id="hb-map-del" role="function" condition="since:1.7.7">
+<title>hb_map_del&#160;()</title>
+<indexterm zone="hb-map-del" role="1.7.7"><primary>hb_map_del</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_map_del (<parameter><link linkend="hb-map-t"><type>hb_map_t</type></link> *map</parameter>,
+            <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> key</parameter>);</programlisting>
+<para>Removes <parameter>key</parameter>
+ and its stored value from <parameter>map</parameter>
+.</para>
+<refsect3 id="hb-map-del.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>map</para></entry>
+<entry role="parameter_description"><para>A map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>key</para></entry>
+<entry role="parameter_description"><para>The key to delete</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-1.7.7">1.7.7</link></para></refsect2>
+<refsect2 id="hb-map-has" role="function" condition="since:1.7.7">
+<title>hb_map_has&#160;()</title>
+<indexterm zone="hb-map-has" role="1.7.7"><primary>hb_map_has</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_map_has (<parameter>const <link linkend="hb-map-t"><type>hb_map_t</type></link> *map</parameter>,
+            <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> key</parameter>);</programlisting>
+<para>Tests whether <parameter>key</parameter>
+ is an element of <parameter>map</parameter>
+.</para>
+<refsect3 id="hb-map-has.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>map</para></entry>
+<entry role="parameter_description"><para>A map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>key</para></entry>
+<entry role="parameter_description"><para>The key to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-map-has.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if <parameter>key</parameter>
+is found in <parameter>map</parameter>
+, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.7.7">1.7.7</link></para></refsect2>
+<refsect2 id="hb-map-get-population" role="function" condition="since:1.7.7">
+<title>hb_map_get_population&#160;()</title>
+<indexterm zone="hb-map-get-population" role="1.7.7"><primary>hb_map_get_population</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_map_get_population (<parameter>const <link linkend="hb-map-t"><type>hb_map_t</type></link> *map</parameter>);</programlisting>
+<para>Returns the number of key-value pairs in the map.</para>
+<refsect3 id="hb-map-get-population.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>map</para></entry>
+<entry role="parameter_description"><para>A map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-map-get-population.returns" role="returns">
+<title>Returns</title>
+<para> The population of <parameter>map</parameter>
+</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.7.7">1.7.7</link></para></refsect2>
+<refsect2 id="hb-map-is-empty" role="function" condition="since:1.7.7">
+<title>hb_map_is_empty&#160;()</title>
+<indexterm zone="hb-map-is-empty" role="1.7.7"><primary>hb_map_is_empty</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_map_is_empty (<parameter>const <link linkend="hb-map-t"><type>hb_map_t</type></link> *map</parameter>);</programlisting>
+<para>Tests whether <parameter>map</parameter>
+ is empty (contains no elements).</para>
+<refsect3 id="hb-map-is-empty.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>map</para></entry>
+<entry role="parameter_description"><para>A map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-map-is-empty.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if <parameter>map</parameter>
+is empty</para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.7.7">1.7.7</link></para></refsect2>
+<refsect2 id="hb-map-is-equal" role="function" condition="since:4.3.0">
+<title>hb_map_is_equal&#160;()</title>
+<indexterm zone="hb-map-is-equal" role="4.3.0"><primary>hb_map_is_equal</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_map_is_equal (<parameter>const <link linkend="hb-map-t"><type>hb_map_t</type></link> *map</parameter>,
+                 <parameter>const <link linkend="hb-map-t"><type>hb_map_t</type></link> *other</parameter>);</programlisting>
+<para>Tests whether <parameter>map</parameter>
+ and <parameter>other</parameter>
+ are equal (contain the same
+elements).</para>
+<refsect3 id="hb-map-is-equal.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>map</para></entry>
+<entry role="parameter_description"><para>A map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>other</para></entry>
+<entry role="parameter_description"><para>Another map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-map-is-equal.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if the two maps are equal, <literal>false</literal> otherwise.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-4.3.0">4.3.0</link></para></refsect2>
+<refsect2 id="hb-map-hash" role="function" condition="since:4.4.0">
+<title>hb_map_hash&#160;()</title>
+<indexterm zone="hb-map-hash" role="4.4.0"><primary>hb_map_hash</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_map_hash (<parameter>const <link linkend="hb-map-t"><type>hb_map_t</type></link> *map</parameter>);</programlisting>
+<para>Creates a hash representing <parameter>map</parameter>
+.</para>
+<refsect3 id="hb-map-hash.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>map</para></entry>
+<entry role="parameter_description"><para>A map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-map-hash.returns" role="returns">
+<title>Returns</title>
+<para>A hash of <parameter>map</parameter>
+.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-4.4.0">4.4.0</link></para></refsect2>
+<refsect2 id="hb-map-update" role="function" condition="since:7.0.0">
+<title>hb_map_update&#160;()</title>
+<indexterm zone="hb-map-update" role="7.0.0"><primary>hb_map_update</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_map_update (<parameter><link linkend="hb-map-t"><type>hb_map_t</type></link> *map</parameter>,
+               <parameter>const <link linkend="hb-map-t"><type>hb_map_t</type></link> *other</parameter>);</programlisting>
+<para>Add the contents of <parameter>other</parameter>
+ to <parameter>map</parameter>
+.</para>
+<refsect3 id="hb-map-update.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>map</para></entry>
+<entry role="parameter_description"><para>A map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>other</para></entry>
+<entry role="parameter_description"><para>Another map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-map-next" role="function" condition="since:7.0.0">
+<title>hb_map_next&#160;()</title>
+<indexterm zone="hb-map-next" role="7.0.0"><primary>hb_map_next</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_map_next (<parameter>const <link linkend="hb-map-t"><type>hb_map_t</type></link> *map</parameter>,
+             <parameter><link linkend="int"><type>int</type></link> *idx</parameter>,
+             <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> *key</parameter>,
+             <parameter><link linkend="hb-codepoint-t"><type>hb_codepoint_t</type></link> *value</parameter>);</programlisting>
+<para>Fetches the next key/value paire in <parameter>map</parameter>
+.</para>
+<para>Set <parameter>idx</parameter>
+ to -1 to get started.</para>
+<para>If the map is modified during iteration, the behavior is undefined.</para>
+<para>The order in which the key/values are returned is undefined.</para>
+<refsect3 id="hb-map-next.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>map</para></entry>
+<entry role="parameter_description"><para>A map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>idx</para></entry>
+<entry role="parameter_description"><para>Iterator internal state. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>key</para></entry>
+<entry role="parameter_description"><para>Key retrieved. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>value</para></entry>
+<entry role="parameter_description"><para>Value retrieved. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-map-next.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if there was a next value, <literal>false</literal> otherwise</para>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-map-keys" role="function" condition="since:7.0.0">
+<title>hb_map_keys&#160;()</title>
+<indexterm zone="hb-map-keys" role="7.0.0"><primary>hb_map_keys</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_map_keys (<parameter>const <link linkend="hb-map-t"><type>hb_map_t</type></link> *map</parameter>,
+             <parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *keys</parameter>);</programlisting>
+<para>Add the keys of <parameter>map</parameter>
+ to <parameter>keys</parameter>
+.</para>
+<refsect3 id="hb-map-keys.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>map</para></entry>
+<entry role="parameter_description"><para>A map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>keys</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-map-values" role="function" condition="since:7.0.0">
+<title>hb_map_values&#160;()</title>
+<indexterm zone="hb-map-values" role="7.0.0"><primary>hb_map_values</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_map_values (<parameter>const <link linkend="hb-map-t"><type>hb_map_t</type></link> *map</parameter>,
+               <parameter><link linkend="hb-set-t"><type>hb_set_t</type></link> *values</parameter>);</programlisting>
+<para>Add the values of <parameter>map</parameter>
+ to <parameter>values</parameter>
+.</para>
+<refsect3 id="hb-map-values.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>map</para></entry>
+<entry role="parameter_description"><para>A map</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>values</para></entry>
+<entry role="parameter_description"><para>A set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-map.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="HB-MAP-VALUE-INVALID:CAPS" role="macro" condition="since:1.7.7">
+<title>HB_MAP_VALUE_INVALID</title>
+<indexterm zone="HB-MAP-VALUE-INVALID:CAPS" role="1.7.7"><primary>HB_MAP_VALUE_INVALID</primary></indexterm>
+<programlisting language="C">#define HB_MAP_VALUE_INVALID HB_CODEPOINT_INVALID
+</programlisting>
+<para>Unset <link linkend="hb-map-t"><type>hb_map_t</type></link> value.</para>
+<para role="since">Since: <link linkend="api-index-1.7.7">1.7.7</link></para></refsect2>
+<refsect2 id="hb-map-t" role="typedef">
+<title>hb_map_t</title>
+<indexterm zone="hb-map-t"><primary>hb_map_t</primary></indexterm>
+<programlisting language="C">typedef struct hb_map_t hb_map_t;
+</programlisting>
+<para>Data type for holding integer-to-integer hash maps.</para>
+</refsect2>
+
+</refsect1>
+
+</refentry>

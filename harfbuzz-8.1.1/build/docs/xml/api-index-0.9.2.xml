@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-0.9.2">
+<indexdiv><title>B</title>
+<indexentry><primaryie linkends="hb-blob-create"><link linkend="hb-blob-create">hb_blob_create</link>, function in <link linkend="harfbuzz-hb-blob">hb-blob</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-blob-create-sub-blob"><link linkend="hb-blob-create-sub-blob">hb_blob_create_sub_blob</link>, function in <link linkend="harfbuzz-hb-blob">hb-blob</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-blob-destroy"><link linkend="hb-blob-destroy">hb_blob_destroy</link>, function in <link linkend="harfbuzz-hb-blob">hb-blob</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-blob-get-data"><link linkend="hb-blob-get-data">hb_blob_get_data</link>, function in <link linkend="harfbuzz-hb-blob">hb-blob</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-blob-get-data-writable"><link linkend="hb-blob-get-data-writable">hb_blob_get_data_writable</link>, function in <link linkend="harfbuzz-hb-blob">hb-blob</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-blob-get-empty"><link linkend="hb-blob-get-empty">hb_blob_get_empty</link>, function in <link linkend="harfbuzz-hb-blob">hb-blob</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-blob-get-length"><link linkend="hb-blob-get-length">hb_blob_get_length</link>, function in <link linkend="harfbuzz-hb-blob">hb-blob</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-blob-get-user-data"><link linkend="hb-blob-get-user-data">hb_blob_get_user_data</link>, function in <link linkend="harfbuzz-hb-blob">hb-blob</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-blob-is-immutable"><link linkend="hb-blob-is-immutable">hb_blob_is_immutable</link>, function in <link linkend="harfbuzz-hb-blob">hb-blob</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-blob-make-immutable"><link linkend="hb-blob-make-immutable">hb_blob_make_immutable</link>, function in <link linkend="harfbuzz-hb-blob">hb-blob</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-blob-reference"><link linkend="hb-blob-reference">hb_blob_reference</link>, function in <link linkend="harfbuzz-hb-blob">hb-blob</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-blob-set-user-data"><link linkend="hb-blob-set-user-data">hb_blob_set_user_data</link>, function in <link linkend="harfbuzz-hb-blob">hb-blob</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-add-utf16"><link linkend="hb-buffer-add-utf16">hb_buffer_add_utf16</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-add-utf32"><link linkend="hb-buffer-add-utf32">hb_buffer_add_utf32</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-add-utf8"><link linkend="hb-buffer-add-utf8">hb_buffer_add_utf8</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-allocation-successful"><link linkend="hb-buffer-allocation-successful">hb_buffer_allocation_successful</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-create"><link linkend="hb-buffer-create">hb_buffer_create</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-destroy"><link linkend="hb-buffer-destroy">hb_buffer_destroy</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-get-direction"><link linkend="hb-buffer-get-direction">hb_buffer_get_direction</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-get-empty"><link linkend="hb-buffer-get-empty">hb_buffer_get_empty</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-get-glyph-infos"><link linkend="hb-buffer-get-glyph-infos">hb_buffer_get_glyph_infos</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-get-glyph-positions"><link linkend="hb-buffer-get-glyph-positions">hb_buffer_get_glyph_positions</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-get-language"><link linkend="hb-buffer-get-language">hb_buffer_get_language</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-get-length"><link linkend="hb-buffer-get-length">hb_buffer_get_length</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-get-script"><link linkend="hb-buffer-get-script">hb_buffer_get_script</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-get-unicode-funcs"><link linkend="hb-buffer-get-unicode-funcs">hb_buffer_get_unicode_funcs</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-get-user-data"><link linkend="hb-buffer-get-user-data">hb_buffer_get_user_data</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-normalize-glyphs"><link linkend="hb-buffer-normalize-glyphs">hb_buffer_normalize_glyphs</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-pre-allocate"><link linkend="hb-buffer-pre-allocate">hb_buffer_pre_allocate</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-reference"><link linkend="hb-buffer-reference">hb_buffer_reference</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-reset"><link linkend="hb-buffer-reset">hb_buffer_reset</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-reverse"><link linkend="hb-buffer-reverse">hb_buffer_reverse</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-reverse-clusters"><link linkend="hb-buffer-reverse-clusters">hb_buffer_reverse_clusters</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-serialize-format-t"><link linkend="hb-buffer-serialize-format-t">hb_buffer_serialize_format_t</link>, enum in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-set-direction"><link linkend="hb-buffer-set-direction">hb_buffer_set_direction</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-set-language"><link linkend="hb-buffer-set-language">hb_buffer_set_language</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-set-length"><link linkend="hb-buffer-set-length">hb_buffer_set_length</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-set-script"><link linkend="hb-buffer-set-script">hb_buffer_set_script</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-set-unicode-funcs"><link linkend="hb-buffer-set-unicode-funcs">hb_buffer_set_unicode_funcs</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-set-user-data"><link linkend="hb-buffer-set-user-data">hb_buffer_set_user_data</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>D</title>
+<indexentry><primaryie linkends="hb-direction-from-string"><link linkend="hb-direction-from-string">hb_direction_from_string</link>, function in <link linkend="harfbuzz-hb-common">hb-common</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-direction-to-string"><link linkend="hb-direction-to-string">hb_direction_to_string</link>, function in <link linkend="harfbuzz-hb-common">hb-common</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="hb-face-create"><link linkend="hb-face-create">hb_face_create</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-face-create-for-tables"><link linkend="hb-face-create-for-tables">hb_face_create_for_tables</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-face-destroy"><link linkend="hb-face-destroy">hb_face_destroy</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-face-get-empty"><link linkend="hb-face-get-empty">hb_face_get_empty</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-face-get-index"><link linkend="hb-face-get-index">hb_face_get_index</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-face-get-upem"><link linkend="hb-face-get-upem">hb_face_get_upem</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-face-get-user-data"><link linkend="hb-face-get-user-data">hb_face_get_user_data</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-face-is-immutable"><link linkend="hb-face-is-immutable">hb_face_is_immutable</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-face-make-immutable"><link linkend="hb-face-make-immutable">hb_face_make_immutable</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-face-reference"><link linkend="hb-face-reference">hb_face_reference</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-face-reference-blob"><link linkend="hb-face-reference-blob">hb_face_reference_blob</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-face-reference-table"><link linkend="hb-face-reference-table">hb_face_reference_table</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-face-set-index"><link linkend="hb-face-set-index">hb_face_set_index</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-face-set-upem"><link linkend="hb-face-set-upem">hb_face_set_upem</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-face-set-user-data"><link linkend="hb-face-set-user-data">hb_face_set_user_data</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-add-glyph-origin-for-direction"><link linkend="hb-font-add-glyph-origin-for-direction">hb_font_add_glyph_origin_for_direction</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-create"><link linkend="hb-font-create">hb_font_create</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-create-sub-font"><link linkend="hb-font-create-sub-font">hb_font_create_sub_font</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-destroy"><link linkend="hb-font-destroy">hb_font_destroy</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-create"><link linkend="hb-font-funcs-create">hb_font_funcs_create</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-destroy"><link linkend="hb-font-funcs-destroy">hb_font_funcs_destroy</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-get-empty"><link linkend="hb-font-funcs-get-empty">hb_font_funcs_get_empty</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-get-user-data"><link linkend="hb-font-funcs-get-user-data">hb_font_funcs_get_user_data</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-is-immutable"><link linkend="hb-font-funcs-is-immutable">hb_font_funcs_is_immutable</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-make-immutable"><link linkend="hb-font-funcs-make-immutable">hb_font_funcs_make_immutable</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-reference"><link linkend="hb-font-funcs-reference">hb_font_funcs_reference</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-set-glyph-contour-point-func"><link linkend="hb-font-funcs-set-glyph-contour-point-func">hb_font_funcs_set_glyph_contour_point_func</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-set-glyph-extents-func"><link linkend="hb-font-funcs-set-glyph-extents-func">hb_font_funcs_set_glyph_extents_func</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-set-glyph-from-name-func"><link linkend="hb-font-funcs-set-glyph-from-name-func">hb_font_funcs_set_glyph_from_name_func</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-set-glyph-func"><link linkend="hb-font-funcs-set-glyph-func">hb_font_funcs_set_glyph_func</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-set-glyph-h-advance-func"><link linkend="hb-font-funcs-set-glyph-h-advance-func">hb_font_funcs_set_glyph_h_advance_func</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-set-glyph-h-kerning-func"><link linkend="hb-font-funcs-set-glyph-h-kerning-func">hb_font_funcs_set_glyph_h_kerning_func</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-set-glyph-h-origin-func"><link linkend="hb-font-funcs-set-glyph-h-origin-func">hb_font_funcs_set_glyph_h_origin_func</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-set-glyph-name-func"><link linkend="hb-font-funcs-set-glyph-name-func">hb_font_funcs_set_glyph_name_func</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-set-glyph-v-advance-func"><link linkend="hb-font-funcs-set-glyph-v-advance-func">hb_font_funcs_set_glyph_v_advance_func</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-set-glyph-v-kerning-func"><link linkend="hb-font-funcs-set-glyph-v-kerning-func">hb_font_funcs_set_glyph_v_kerning_func</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-set-glyph-v-origin-func"><link linkend="hb-font-funcs-set-glyph-v-origin-func">hb_font_funcs_set_glyph_v_origin_func</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-funcs-set-user-data"><link linkend="hb-font-funcs-set-user-data">hb_font_funcs_set_user_data</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-empty"><link linkend="hb-font-get-empty">hb_font_get_empty</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-face"><link linkend="hb-font-get-face">hb_font_get_face</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph"><link linkend="hb-font-get-glyph">hb_font_get_glyph</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-advance-for-direction"><link linkend="hb-font-get-glyph-advance-for-direction">hb_font_get_glyph_advance_for_direction</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-contour-point"><link linkend="hb-font-get-glyph-contour-point">hb_font_get_glyph_contour_point</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-contour-point-for-origin"><link linkend="hb-font-get-glyph-contour-point-for-origin">hb_font_get_glyph_contour_point_for_origin</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-extents"><link linkend="hb-font-get-glyph-extents">hb_font_get_glyph_extents</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-extents-for-origin"><link linkend="hb-font-get-glyph-extents-for-origin">hb_font_get_glyph_extents_for_origin</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-from-name"><link linkend="hb-font-get-glyph-from-name">hb_font_get_glyph_from_name</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-h-advance"><link linkend="hb-font-get-glyph-h-advance">hb_font_get_glyph_h_advance</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-h-kerning"><link linkend="hb-font-get-glyph-h-kerning">hb_font_get_glyph_h_kerning</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-h-origin"><link linkend="hb-font-get-glyph-h-origin">hb_font_get_glyph_h_origin</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-kerning-for-direction"><link linkend="hb-font-get-glyph-kerning-for-direction">hb_font_get_glyph_kerning_for_direction</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-name"><link linkend="hb-font-get-glyph-name">hb_font_get_glyph_name</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-origin-for-direction"><link linkend="hb-font-get-glyph-origin-for-direction">hb_font_get_glyph_origin_for_direction</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-v-advance"><link linkend="hb-font-get-glyph-v-advance">hb_font_get_glyph_v_advance</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-v-kerning"><link linkend="hb-font-get-glyph-v-kerning">hb_font_get_glyph_v_kerning</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-v-origin"><link linkend="hb-font-get-glyph-v-origin">hb_font_get_glyph_v_origin</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-parent"><link linkend="hb-font-get-parent">hb_font_get_parent</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-ppem"><link linkend="hb-font-get-ppem">hb_font_get_ppem</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-scale"><link linkend="hb-font-get-scale">hb_font_get_scale</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-user-data"><link linkend="hb-font-get-user-data">hb_font_get_user_data</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-glyph-from-string"><link linkend="hb-font-glyph-from-string">hb_font_glyph_from_string</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-glyph-to-string"><link linkend="hb-font-glyph-to-string">hb_font_glyph_to_string</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-is-immutable"><link linkend="hb-font-is-immutable">hb_font_is_immutable</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-make-immutable"><link linkend="hb-font-make-immutable">hb_font_make_immutable</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-reference"><link linkend="hb-font-reference">hb_font_reference</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-set-funcs"><link linkend="hb-font-set-funcs">hb_font_set_funcs</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-set-funcs-data"><link linkend="hb-font-set-funcs-data">hb_font_set_funcs_data</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-set-ppem"><link linkend="hb-font-set-ppem">hb_font_set_ppem</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-set-scale"><link linkend="hb-font-set-scale">hb_font_set_scale</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-set-user-data"><link linkend="hb-font-set-user-data">hb_font_set_user_data</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-subtract-glyph-origin-for-direction"><link linkend="hb-font-subtract-glyph-origin-for-direction">hb_font_subtract_glyph_origin_for_direction</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ft-face-create"><link linkend="hb-ft-face-create">hb_ft_face_create</link>, function in <link linkend="harfbuzz-hb-ft">hb-ft</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ft-face-create-cached"><link linkend="hb-ft-face-create-cached">hb_ft_face_create_cached</link>, function in <link linkend="harfbuzz-hb-ft">hb-ft</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ft-font-create"><link linkend="hb-ft-font-create">hb_ft_font_create</link>, function in <link linkend="harfbuzz-hb-ft">hb-ft</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ft-font-get-face"><link linkend="hb-ft-font-get-face">hb_ft_font_get_face</link>, function in <link linkend="harfbuzz-hb-ft">hb-ft</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>L</title>
+<indexentry><primaryie linkends="hb-language-from-string"><link linkend="hb-language-from-string">hb_language_from_string</link>, function in <link linkend="harfbuzz-hb-common">hb-common</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-language-get-default"><link linkend="hb-language-get-default">hb_language_get_default</link>, function in <link linkend="harfbuzz-hb-common">hb-common</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-language-to-string"><link linkend="hb-language-to-string">hb_language_to_string</link>, function in <link linkend="harfbuzz-hb-common">hb-common</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>O</title>
+<indexentry><primaryie linkends="hb-ot-shape-glyphs-closure"><link linkend="hb-ot-shape-glyphs-closure">hb_ot_shape_glyphs_closure</link>, function in <link linkend="harfbuzz-hb-ot-shape">hb-ot-shape</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-tag-to-language"><link linkend="hb-ot-tag-to-language">hb_ot_tag_to_language</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>R</title>
+<indexentry><primaryie linkends="hb-reference-table-func-t"><link linkend="hb-reference-table-func-t">hb_reference_table_func_t</link>, user_function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>S</title>
+<indexentry><primaryie linkends="hb-script-from-iso15924-tag"><link linkend="hb-script-from-iso15924-tag">hb_script_from_iso15924_tag</link>, function in <link linkend="harfbuzz-hb-common">hb-common</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-script-from-string"><link linkend="hb-script-from-string">hb_script_from_string</link>, function in <link linkend="harfbuzz-hb-common">hb-common</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-script-get-horizontal-direction"><link linkend="hb-script-get-horizontal-direction">hb_script_get_horizontal_direction</link>, function in <link linkend="harfbuzz-hb-common">hb-common</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-script-to-iso15924-tag"><link linkend="hb-script-to-iso15924-tag">hb_script_to_iso15924_tag</link>, function in <link linkend="harfbuzz-hb-common">hb-common</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-add"><link linkend="hb-set-add">hb_set_add</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-allocation-successful"><link linkend="hb-set-allocation-successful">hb_set_allocation_successful</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-clear"><link linkend="hb-set-clear">hb_set_clear</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-create"><link linkend="hb-set-create">hb_set_create</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-del"><link linkend="hb-set-del">hb_set_del</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-destroy"><link linkend="hb-set-destroy">hb_set_destroy</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-get-empty"><link linkend="hb-set-get-empty">hb_set_get_empty</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-get-user-data"><link linkend="hb-set-get-user-data">hb_set_get_user_data</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-has"><link linkend="hb-set-has">hb_set_has</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-intersect"><link linkend="hb-set-intersect">hb_set_intersect</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-next"><link linkend="hb-set-next">hb_set_next</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-reference"><link linkend="hb-set-reference">hb_set_reference</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-set"><link linkend="hb-set-set">hb_set_set</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-set-user-data"><link linkend="hb-set-set-user-data">hb_set_set_user_data</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-subtract"><link linkend="hb-set-subtract">hb_set_subtract</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-symmetric-difference"><link linkend="hb-set-symmetric-difference">hb_set_symmetric_difference</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-set-union"><link linkend="hb-set-union">hb_set_union</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-shape"><link linkend="hb-shape">hb_shape</link>, function in <link linkend="harfbuzz-hb-shape">hb-shape</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-shape-full"><link linkend="hb-shape-full">hb_shape_full</link>, function in <link linkend="harfbuzz-hb-shape">hb-shape</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-shape-list-shapers"><link linkend="hb-shape-list-shapers">hb_shape_list_shapers</link>, function in <link linkend="harfbuzz-hb-shape">hb-shape</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>T</title>
+<indexentry><primaryie linkends="hb-tag-from-string"><link linkend="hb-tag-from-string">hb_tag_from_string</link>, function in <link linkend="harfbuzz-hb-common">hb-common</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>U</title>
+<indexentry><primaryie linkends="hb-unicode-combining-class"><link linkend="hb-unicode-combining-class">hb_unicode_combining_class</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-compose"><link linkend="hb-unicode-compose">hb_unicode_compose</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-decompose"><link linkend="hb-unicode-decompose">hb_unicode_decompose</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-decompose-compatibility"><link linkend="hb-unicode-decompose-compatibility">hb_unicode_decompose_compatibility</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-eastasian-width"><link linkend="hb-unicode-eastasian-width">hb_unicode_eastasian_width</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-create"><link linkend="hb-unicode-funcs-create">hb_unicode_funcs_create</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-destroy"><link linkend="hb-unicode-funcs-destroy">hb_unicode_funcs_destroy</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-get-default"><link linkend="hb-unicode-funcs-get-default">hb_unicode_funcs_get_default</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-get-empty"><link linkend="hb-unicode-funcs-get-empty">hb_unicode_funcs_get_empty</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-get-parent"><link linkend="hb-unicode-funcs-get-parent">hb_unicode_funcs_get_parent</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-get-user-data"><link linkend="hb-unicode-funcs-get-user-data">hb_unicode_funcs_get_user_data</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-is-immutable"><link linkend="hb-unicode-funcs-is-immutable">hb_unicode_funcs_is_immutable</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-make-immutable"><link linkend="hb-unicode-funcs-make-immutable">hb_unicode_funcs_make_immutable</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-reference"><link linkend="hb-unicode-funcs-reference">hb_unicode_funcs_reference</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-set-combining-class-func"><link linkend="hb-unicode-funcs-set-combining-class-func">hb_unicode_funcs_set_combining_class_func</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-set-compose-func"><link linkend="hb-unicode-funcs-set-compose-func">hb_unicode_funcs_set_compose_func</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-set-decompose-compatibility-func"><link linkend="hb-unicode-funcs-set-decompose-compatibility-func">hb_unicode_funcs_set_decompose_compatibility_func</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-set-decompose-func"><link linkend="hb-unicode-funcs-set-decompose-func">hb_unicode_funcs_set_decompose_func</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-set-eastasian-width-func"><link linkend="hb-unicode-funcs-set-eastasian-width-func">hb_unicode_funcs_set_eastasian_width_func</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-set-general-category-func"><link linkend="hb-unicode-funcs-set-general-category-func">hb_unicode_funcs_set_general_category_func</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-set-mirroring-func"><link linkend="hb-unicode-funcs-set-mirroring-func">hb_unicode_funcs_set_mirroring_func</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-set-script-func"><link linkend="hb-unicode-funcs-set-script-func">hb_unicode_funcs_set_script_func</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-funcs-set-user-data"><link linkend="hb-unicode-funcs-set-user-data">hb_unicode_funcs_set_user_data</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-general-category"><link linkend="hb-unicode-general-category">hb_unicode_general_category</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-mirroring"><link linkend="hb-unicode-mirroring">hb_unicode_mirroring</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-unicode-script"><link linkend="hb-unicode-script">hb_unicode_script</link>, function in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>V</title>
+<indexentry><primaryie linkends="hb-version"><link linkend="hb-version">hb_version</link>, function in <link linkend="harfbuzz-hb-version">hb-version</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-version-string"><link linkend="hb-version-string">hb_version_string</link>, function in <link linkend="harfbuzz-hb-version">hb-version</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

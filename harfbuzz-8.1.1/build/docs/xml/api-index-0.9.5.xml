@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-0.9.5">
+<indexdiv><title>B</title>
+<indexentry><primaryie linkends="hb-buffer-get-content-type"><link linkend="hb-buffer-get-content-type">hb_buffer_get_content_type</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-buffer-set-content-type"><link linkend="hb-buffer-set-content-type">hb_buffer_set_content_type</link>, function in <link linkend="harfbuzz-hb-buffer">hb-buffer</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="hb-feature-from-string"><link linkend="hb-feature-from-string">hb_feature_from_string</link>, function in <link linkend="harfbuzz-hb-common">hb-common</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-feature-to-string"><link linkend="hb-feature-to-string">hb_feature_to_string</link>, function in <link linkend="harfbuzz-hb-common">hb-common</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>T</title>
+<indexentry><primaryie linkends="hb-tag-to-string"><link linkend="hb-tag-to-string">hb_tag_to_string</link>, function in <link linkend="harfbuzz-hb-common">hb-common</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

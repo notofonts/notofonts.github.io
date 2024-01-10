@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>hb-features: HarfBuzz Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="HarfBuzz Manual">
+<link rel="up" href="core-api.html" title="Core API">
+<link rel="prev" href="harfbuzz-hb-common.html" title="hb-common">
+<link rel="next" href="harfbuzz-hb-draw.html" title="hb-draw">
+<meta name="generator" content="GTK-Doc V1.33.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#harfbuzz-hb-features.description" class="shortcut">Description</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="core-api.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="harfbuzz-hb-common.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="harfbuzz-hb-draw.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="harfbuzz-hb-features"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="harfbuzz-hb-features.top_of_page"></a>hb-features</span></h2>
+<p>hb-features — Feature detection</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="harfbuzz-hb-features.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-features.html#HB-HAS-CAIRO:CAPS" title="HB_HAS_CAIRO">HB_HAS_CAIRO</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-features.html#HB-HAS-CORETEXT:CAPS" title="HB_HAS_CORETEXT">HB_HAS_CORETEXT</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-features.html#HB-HAS-DIRECTWRITE:CAPS" title="HB_HAS_DIRECTWRITE">HB_HAS_DIRECTWRITE</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-features.html#HB-HAS-FREETYPE:CAPS" title="HB_HAS_FREETYPE">HB_HAS_FREETYPE</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-features.html#HB-HAS-GDI:CAPS" title="HB_HAS_GDI">HB_HAS_GDI</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-features.html#HB-HAS-GLIB:CAPS" title="HB_HAS_GLIB">HB_HAS_GLIB</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-features.html#HB-HAS-GOBJECT:CAPS" title="HB_HAS_GOBJECT">HB_HAS_GOBJECT</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-features.html#HB-HAS-GRAPHITE:CAPS" title="HB_HAS_GRAPHITE">HB_HAS_GRAPHITE</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-features.html#HB-HAS-ICU:CAPS" title="HB_HAS_ICU">HB_HAS_ICU</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-features.html#HB-HAS-UNISCRIBE:CAPS" title="HB_HAS_UNISCRIBE">HB_HAS_UNISCRIBE</a></td>
+</tr>
+<tr>
+<td class="define_keyword">#define</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-features.html#HB-HAS-WASM:CAPS" title="HB_HAS_WASM">HB_HAS_WASM</a></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-features.includes"></a><h2>Includes</h2>
+<pre class="synopsis">#include &lt;hb-features.h&gt;
+</pre>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-features.description"></a><h2>Description</h2>
+<p>Macros for detecting optional HarfBuzz features at build time.</p>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-features.functions_details"></a><h2>Functions</h2>
+<p></p>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-features.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="HB-HAS-CAIRO:CAPS"></a><h3>HB_HAS_CAIRO</h3>
+<pre class="programlisting">#define HB_HAS_CAIRO 1
+</pre>
+<p>Defined if Harfbuzz has been built with cairo support.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="HB-HAS-CORETEXT:CAPS"></a><h3>HB_HAS_CORETEXT</h3>
+<pre class="programlisting">#define HB_HAS_CORETEXT 1
+</pre>
+<p>Defined if Harfbuzz has been built with CoreText support.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="HB-HAS-DIRECTWRITE:CAPS"></a><h3>HB_HAS_DIRECTWRITE</h3>
+<pre class="programlisting">#define HB_HAS_DIRECTWRITE 1
+</pre>
+<p>Defined if Harfbuzz has been built with DirectWrite support.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="HB-HAS-FREETYPE:CAPS"></a><h3>HB_HAS_FREETYPE</h3>
+<pre class="programlisting">#define HB_HAS_FREETYPE 1
+</pre>
+<p>Defined if Harfbuzz has been built with Freetype support.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="HB-HAS-GDI:CAPS"></a><h3>HB_HAS_GDI</h3>
+<pre class="programlisting">#define HB_HAS_GDI 1
+</pre>
+<p>Defined if Harfbuzz has been built with GDI support.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="HB-HAS-GLIB:CAPS"></a><h3>HB_HAS_GLIB</h3>
+<pre class="programlisting">#define HB_HAS_GLIB 1
+</pre>
+<p>Defined if Harfbuzz has been built with GLib support.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="HB-HAS-GOBJECT:CAPS"></a><h3>HB_HAS_GOBJECT</h3>
+<pre class="programlisting">#define HB_HAS_GOBJECT 1
+</pre>
+<p>Defined if Harfbuzz has been built with GObject support.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="HB-HAS-GRAPHITE:CAPS"></a><h3>HB_HAS_GRAPHITE</h3>
+<pre class="programlisting">#define HB_HAS_GRAPHITE 1
+</pre>
+<p>Defined if Harfbuzz has been built with Graphite support.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="HB-HAS-ICU:CAPS"></a><h3>HB_HAS_ICU</h3>
+<pre class="programlisting">#define HB_HAS_ICU 1
+</pre>
+<p>Defined if Harfbuzz has been built with ICU support.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="HB-HAS-UNISCRIBE:CAPS"></a><h3>HB_HAS_UNISCRIBE</h3>
+<pre class="programlisting">#define HB_HAS_UNISCRIBE 1
+</pre>
+<p>Defined if Harfbuzz has been built with Uniscribe support.</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="HB-HAS-WASM:CAPS"></a><h3>HB_HAS_WASM</h3>
+<pre class="programlisting">#define HB_HAS_WASM 1
+</pre>
+<p>Defined if Harfbuzz has been built with WebAssembly support.</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.33.1</div>
+</body>
+</html>

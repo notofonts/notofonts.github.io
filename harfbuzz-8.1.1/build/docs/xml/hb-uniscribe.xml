@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-uniscribe">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-uniscribe.top_of_page">hb-uniscribe</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-uniscribe</refname>
+<refpurpose>Windows integration</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-uniscribe.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="HFONT:CAPS"><returnvalue>HFONT</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-uniscribe-font-get-hfont">hb_uniscribe_font_get_hfont</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="LOGFONTW:CAPS"><returnvalue>LOGFONTW</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-uniscribe-font-get-logfontw">hb_uniscribe_font_get_logfontw</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-uniscribe.includes"><title>Includes</title><synopsis>#include &lt;hb-uniscribe.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-uniscribe.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Functions for using HarfBuzz with Windows fonts.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-uniscribe.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-uniscribe-font-get-hfont" role="function">
+<title>hb_uniscribe_font_get_hfont&#160;()</title>
+<indexterm zone="hb-uniscribe-font-get-hfont"><primary>hb_uniscribe_font_get_hfont</primary></indexterm>
+<programlisting language="C"><link linkend="HFONT:CAPS"><returnvalue>HFONT</returnvalue></link>
+hb_uniscribe_font_get_hfont (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>);</programlisting>
+<para>Fetches the HFONT handle that corresponds to the
+specified <link linkend="hb-font-t"><type>hb_font_t</type></link> font.</para>
+<refsect3 id="hb-uniscribe-font-get-hfont.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-uniscribe-font-get-hfont.returns" role="returns">
+<title>Returns</title>
+<para> the HFONT retreieved</para>
+</refsect3></refsect2>
+<refsect2 id="hb-uniscribe-font-get-logfontw" role="function">
+<title>hb_uniscribe_font_get_logfontw&#160;()</title>
+<indexterm zone="hb-uniscribe-font-get-logfontw"><primary>hb_uniscribe_font_get_logfontw</primary></indexterm>
+<programlisting language="C"><link linkend="LOGFONTW:CAPS"><returnvalue>LOGFONTW</returnvalue></link>&#160;*
+hb_uniscribe_font_get_logfontw (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>);</programlisting>
+<para>Fetches the LOGFONTW structure that corresponds to the
+specified <link linkend="hb-font-t"><type>hb_font_t</type></link> font.</para>
+<refsect3 id="hb-uniscribe-font-get-logfontw.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-uniscribe-font-get-logfontw.returns" role="returns">
+<title>Returns</title>
+<para> a pointer to the LOGFONTW retrieved</para>
+</refsect3></refsect2>
+
+</refsect1>
+
+</refentry>

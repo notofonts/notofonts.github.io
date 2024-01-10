@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-1.9.0">
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="hb-face-builder-add-table"><link linkend="hb-face-builder-add-table">hb_face_builder_add_table</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-face-builder-create"><link linkend="hb-face-builder-create">hb_face_builder_create</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-face-collect-unicodes"><link linkend="hb-face-collect-unicodes">hb_face_collect_unicodes</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-face-collect-variation-selectors"><link linkend="hb-face-collect-variation-selectors">hb_face_collect_variation_selectors</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-face-collect-variation-unicodes"><link linkend="hb-face-collect-variation-unicodes">hb_face_collect_variation_unicodes</link>, function in <link linkend="harfbuzz-hb-face">hb-face</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>U</title>
+<indexentry><primaryie linkends="HB-UNICODE-MAX:CAPS"><link linkend="HB-UNICODE-MAX:CAPS">HB_UNICODE_MAX</link>, macro in <link linkend="harfbuzz-hb-unicode">hb-unicode</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

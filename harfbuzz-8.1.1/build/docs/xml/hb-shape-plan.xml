@@ -1,0 +1,492 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-shape-plan">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-shape-plan.top_of_page">hb-shape-plan</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-shape-plan</refname>
+<refpurpose>Object representing a shaping plan</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-shape-plan.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="hb-shape-plan-t"><returnvalue>hb_shape_plan_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-shape-plan-create">hb_shape_plan_create</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-shape-plan-t"><returnvalue>hb_shape_plan_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-shape-plan-create-cached">hb_shape_plan_create_cached</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-shape-plan-t"><returnvalue>hb_shape_plan_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-shape-plan-create2">hb_shape_plan_create2</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-shape-plan-t"><returnvalue>hb_shape_plan_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-shape-plan-create-cached2">hb_shape_plan_create_cached2</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-shape-plan-t"><returnvalue>hb_shape_plan_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-shape-plan-get-empty">hb_shape_plan_get_empty</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-shape-plan-t"><returnvalue>hb_shape_plan_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-shape-plan-reference">hb_shape_plan_reference</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-shape-plan-destroy">hb_shape_plan_destroy</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-shape-plan-set-user-data">hb_shape_plan_set_user_data</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-shape-plan-get-user-data">hb_shape_plan_get_user_data</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-shape-plan-execute">hb_shape_plan_execute</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">const <link linkend="char"><returnvalue>char</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-shape-plan-get-shaper">hb_shape_plan_get_shaper</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="harfbuzz-hb-shape-plan.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="typedef_keyword">typedef</entry><entry role="function_name"><link linkend="hb-shape-plan-t">hb_shape_plan_t</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-shape-plan.includes"><title>Includes</title><synopsis>#include &lt;hb.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-shape-plan.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Shape plans are an internal mechanism. Each plan contains state
+describing how HarfBuzz will shape a particular text segment, based on
+the combination of segment properties and the capabilities in the
+font face in use.</para>
+<para>Shape plans are not used for shaping directly, but can be queried to
+access certain information about how shaping will perform, given a set
+of specific input parameters (script, language, direction, features,
+etc.).</para>
+<para>Most client programs will not need to deal with shape plans directly.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-shape-plan.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-shape-plan-create" role="function" condition="since:0.9.7">
+<title>hb_shape_plan_create&#160;()</title>
+<indexterm zone="hb-shape-plan-create" role="0.9.7"><primary>hb_shape_plan_create</primary></indexterm>
+<programlisting language="C"><link linkend="hb-shape-plan-t"><returnvalue>hb_shape_plan_t</returnvalue></link>&#160;*
+hb_shape_plan_create (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                      <parameter>const <link linkend="hb-segment-properties-t"><type>hb_segment_properties_t</type></link> *props</parameter>,
+                      <parameter>const <link linkend="hb-feature-t"><type>hb_feature_t</type></link> *user_features</parameter>,
+                      <parameter>unsigned <link linkend="int"><type>int</type></link> num_user_features</parameter>,
+                      <parameter>const <link linkend="char"><type>char</type></link> * const *shaper_list</parameter>);</programlisting>
+<para>Constructs a shaping plan for a combination of <parameter>face</parameter>
+, <parameter>user_features</parameter>
+, <parameter>props</parameter>
+,
+and <parameter>shaper_list</parameter>
+.</para>
+<refsect3 id="hb-shape-plan-create.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to use</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>props</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-segment-properties-t"><type>hb_segment_properties_t</type></link> of the segment</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_features</para></entry>
+<entry role="parameter_description"><para>The list of user-selected features. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> length=num_user_features]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>num_user_features</para></entry>
+<entry role="parameter_description"><para>The number of user-selected features</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>shaper_list</para></entry>
+<entry role="parameter_description"><para>List of shapers to try. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> zero-terminated=1]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-shape-plan-create.returns" role="returns">
+<title>Returns</title>
+<para>The shaping plan. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-shape-plan-create-cached" role="function" condition="since:0.9.7">
+<title>hb_shape_plan_create_cached&#160;()</title>
+<indexterm zone="hb-shape-plan-create-cached" role="0.9.7"><primary>hb_shape_plan_create_cached</primary></indexterm>
+<programlisting language="C"><link linkend="hb-shape-plan-t"><returnvalue>hb_shape_plan_t</returnvalue></link>&#160;*
+hb_shape_plan_create_cached (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                             <parameter>const <link linkend="hb-segment-properties-t"><type>hb_segment_properties_t</type></link> *props</parameter>,
+                             <parameter>const <link linkend="hb-feature-t"><type>hb_feature_t</type></link> *user_features</parameter>,
+                             <parameter>unsigned <link linkend="int"><type>int</type></link> num_user_features</parameter>,
+                             <parameter>const <link linkend="char"><type>char</type></link> * const *shaper_list</parameter>);</programlisting>
+<para>Creates a cached shaping plan suitable for reuse, for a combination
+of <parameter>face</parameter>
+, <parameter>user_features</parameter>
+, <parameter>props</parameter>
+, and <parameter>shaper_list</parameter>
+.</para>
+<refsect3 id="hb-shape-plan-create-cached.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to use</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>props</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-segment-properties-t"><type>hb_segment_properties_t</type></link> of the segment</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_features</para></entry>
+<entry role="parameter_description"><para>The list of user-selected features. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> length=num_user_features]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>num_user_features</para></entry>
+<entry role="parameter_description"><para>The number of user-selected features</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>shaper_list</para></entry>
+<entry role="parameter_description"><para>List of shapers to try. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> zero-terminated=1]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-shape-plan-create-cached.returns" role="returns">
+<title>Returns</title>
+<para>The shaping plan. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-shape-plan-create2" role="function" condition="since:1.4.0">
+<title>hb_shape_plan_create2&#160;()</title>
+<indexterm zone="hb-shape-plan-create2" role="1.4.0"><primary>hb_shape_plan_create2</primary></indexterm>
+<programlisting language="C"><link linkend="hb-shape-plan-t"><returnvalue>hb_shape_plan_t</returnvalue></link>&#160;*
+hb_shape_plan_create2 (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                       <parameter>const <link linkend="hb-segment-properties-t"><type>hb_segment_properties_t</type></link> *props</parameter>,
+                       <parameter>const <link linkend="hb-feature-t"><type>hb_feature_t</type></link> *user_features</parameter>,
+                       <parameter>unsigned <link linkend="int"><type>int</type></link> num_user_features</parameter>,
+                       <parameter>const <link linkend="int"><type>int</type></link> *coords</parameter>,
+                       <parameter>unsigned <link linkend="int"><type>int</type></link> num_coords</parameter>,
+                       <parameter>const <link linkend="char"><type>char</type></link> * const *shaper_list</parameter>);</programlisting>
+<para>The variable-font version of <link linkend="hb-shape-plan-create"><type>hb_shape_plan_create</type></link>. 
+Constructs a shaping plan for a combination of <parameter>face</parameter>
+, <parameter>user_features</parameter>
+, <parameter>props</parameter>
+,
+and <parameter>shaper_list</parameter>
+, plus the variation-space coordinates <parameter>coords</parameter>
+.</para>
+<refsect3 id="hb-shape-plan-create2.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to use</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>props</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-segment-properties-t"><type>hb_segment_properties_t</type></link> of the segment</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_features</para></entry>
+<entry role="parameter_description"><para>The list of user-selected features. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> length=num_user_features]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>num_user_features</para></entry>
+<entry role="parameter_description"><para>The number of user-selected features</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>coords</para></entry>
+<entry role="parameter_description"><para>The list of variation-space coordinates. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> length=num_coords]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>num_coords</para></entry>
+<entry role="parameter_description"><para>The number of variation-space coordinates</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>shaper_list</para></entry>
+<entry role="parameter_description"><para>List of shapers to try. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> zero-terminated=1]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-shape-plan-create2.returns" role="returns">
+<title>Returns</title>
+<para>The shaping plan. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.4.0">1.4.0</link></para></refsect2>
+<refsect2 id="hb-shape-plan-create-cached2" role="function" condition="since:1.4.0">
+<title>hb_shape_plan_create_cached2&#160;()</title>
+<indexterm zone="hb-shape-plan-create-cached2" role="1.4.0"><primary>hb_shape_plan_create_cached2</primary></indexterm>
+<programlisting language="C"><link linkend="hb-shape-plan-t"><returnvalue>hb_shape_plan_t</returnvalue></link>&#160;*
+hb_shape_plan_create_cached2 (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                              <parameter>const <link linkend="hb-segment-properties-t"><type>hb_segment_properties_t</type></link> *props</parameter>,
+                              <parameter>const <link linkend="hb-feature-t"><type>hb_feature_t</type></link> *user_features</parameter>,
+                              <parameter>unsigned <link linkend="int"><type>int</type></link> num_user_features</parameter>,
+                              <parameter>const <link linkend="int"><type>int</type></link> *coords</parameter>,
+                              <parameter>unsigned <link linkend="int"><type>int</type></link> num_coords</parameter>,
+                              <parameter>const <link linkend="char"><type>char</type></link> * const *shaper_list</parameter>);</programlisting>
+<para>The variable-font version of <link linkend="hb-shape-plan-create-cached"><type>hb_shape_plan_create_cached</type></link>. 
+Creates a cached shaping plan suitable for reuse, for a combination
+of <parameter>face</parameter>
+, <parameter>user_features</parameter>
+, <parameter>props</parameter>
+, and <parameter>shaper_list</parameter>
+, plus the
+variation-space coordinates <parameter>coords</parameter>
+.</para>
+<refsect3 id="hb-shape-plan-create-cached2.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-face-t"><type>hb_face_t</type></link> to use</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>props</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-segment-properties-t"><type>hb_segment_properties_t</type></link> of the segment</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>user_features</para></entry>
+<entry role="parameter_description"><para>The list of user-selected features. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> length=num_user_features]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>num_user_features</para></entry>
+<entry role="parameter_description"><para>The number of user-selected features</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>coords</para></entry>
+<entry role="parameter_description"><para>The list of variation-space coordinates. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> length=num_coords]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>num_coords</para></entry>
+<entry role="parameter_description"><para>The number of variation-space coordinates</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>shaper_list</para></entry>
+<entry role="parameter_description"><para>List of shapers to try. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> zero-terminated=1]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-shape-plan-create-cached2.returns" role="returns">
+<title>Returns</title>
+<para>The shaping plan. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-1.4.0">1.4.0</link></para></refsect2>
+<refsect2 id="hb-shape-plan-get-empty" role="function" condition="since:0.9.7">
+<title>hb_shape_plan_get_empty&#160;()</title>
+<indexterm zone="hb-shape-plan-get-empty" role="0.9.7"><primary>hb_shape_plan_get_empty</primary></indexterm>
+<programlisting language="C"><link linkend="hb-shape-plan-t"><returnvalue>hb_shape_plan_t</returnvalue></link>&#160;*
+hb_shape_plan_get_empty (<parameter><type>void</type></parameter>);</programlisting>
+<para>Fetches the singleton empty shaping plan.</para>
+<refsect3 id="hb-shape-plan-get-empty.returns" role="returns">
+<title>Returns</title>
+<para>The empty shaping plan. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-shape-plan-reference" role="function" condition="since:0.9.7">
+<title>hb_shape_plan_reference&#160;()</title>
+<indexterm zone="hb-shape-plan-reference" role="0.9.7"><primary>hb_shape_plan_reference</primary></indexterm>
+<programlisting language="C"><link linkend="hb-shape-plan-t"><returnvalue>hb_shape_plan_t</returnvalue></link>&#160;*
+hb_shape_plan_reference (<parameter><link linkend="hb-shape-plan-t"><type>hb_shape_plan_t</type></link> *shape_plan</parameter>);</programlisting>
+<para>Increases the reference count on the given shaping plan.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-shape-plan-reference.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>shape_plan</para></entry>
+<entry role="parameter_description"><para>A shaping plan</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-shape-plan-reference.returns" role="returns">
+<title>Returns</title>
+<para><parameter>shape_plan</parameter>
+. </para>
+<para><emphasis role="annotation">[<acronym>transfer full</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-shape-plan-destroy" role="function" condition="since:0.9.7">
+<title>hb_shape_plan_destroy&#160;()</title>
+<indexterm zone="hb-shape-plan-destroy" role="0.9.7"><primary>hb_shape_plan_destroy</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_shape_plan_destroy (<parameter><link linkend="hb-shape-plan-t"><type>hb_shape_plan_t</type></link> *shape_plan</parameter>);</programlisting>
+<para>Decreases the reference count on the given shaping plan. When the
+reference count reaches zero, the shaping plan is destroyed,
+freeing all memory.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-shape-plan-destroy.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>shape_plan</para></entry>
+<entry role="parameter_description"><para>A shaping plan</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-shape-plan-set-user-data" role="function" condition="since:0.9.7">
+<title>hb_shape_plan_set_user_data&#160;()</title>
+<indexterm zone="hb-shape-plan-set-user-data" role="0.9.7"><primary>hb_shape_plan_set_user_data</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_shape_plan_set_user_data (<parameter><link linkend="hb-shape-plan-t"><type>hb_shape_plan_t</type></link> *shape_plan</parameter>,
+                             <parameter><link linkend="hb-user-data-key-t"><type>hb_user_data_key_t</type></link> *key</parameter>,
+                             <parameter><link linkend="void"><type>void</type></link> *data</parameter>,
+                             <parameter><link linkend="hb-destroy-func-t"><type>hb_destroy_func_t</type></link> destroy</parameter>,
+                             <parameter><link linkend="hb-bool-t"><type>hb_bool_t</type></link> replace</parameter>);</programlisting>
+<para>Attaches a user-data key/data pair to the given shaping plan.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-shape-plan-set-user-data.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>shape_plan</para></entry>
+<entry role="parameter_description"><para>A shaping plan</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>key</para></entry>
+<entry role="parameter_description"><para>The user-data key to set</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>data</para></entry>
+<entry role="parameter_description"><para>A pointer to the user data</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>destroy</para></entry>
+<entry role="parameter_description"><para>A callback to call when <parameter>data</parameter>
+is not needed anymore. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>replace</para></entry>
+<entry role="parameter_description"><para>Whether to replace an existing data with the same key</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-shape-plan-set-user-data.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if success, <literal>false</literal> otherwise.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-shape-plan-get-user-data" role="function" condition="since:0.9.7">
+<title>hb_shape_plan_get_user_data&#160;()</title>
+<indexterm zone="hb-shape-plan-get-user-data" role="0.9.7"><primary>hb_shape_plan_get_user_data</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>&#160;*
+hb_shape_plan_get_user_data (<parameter>const <link linkend="hb-shape-plan-t"><type>hb_shape_plan_t</type></link> *shape_plan</parameter>,
+                             <parameter><link linkend="hb-user-data-key-t"><type>hb_user_data_key_t</type></link> *key</parameter>);</programlisting>
+<para>Fetches the user data associated with the specified key, 
+attached to the specified shaping plan.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-shape-plan-get-user-data.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>shape_plan</para></entry>
+<entry role="parameter_description"><para>A shaping plan</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>key</para></entry>
+<entry role="parameter_description"><para>The user-data key to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-shape-plan-get-user-data.returns" role="returns">
+<title>Returns</title>
+<para>A pointer to the user data. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-shape-plan-execute" role="function" condition="since:0.9.7">
+<title>hb_shape_plan_execute&#160;()</title>
+<indexterm zone="hb-shape-plan-execute" role="0.9.7"><primary>hb_shape_plan_execute</primary></indexterm>
+<programlisting language="C"><link linkend="hb-bool-t"><returnvalue>hb_bool_t</returnvalue></link>
+hb_shape_plan_execute (<parameter><link linkend="hb-shape-plan-t"><type>hb_shape_plan_t</type></link> *shape_plan</parameter>,
+                       <parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>,
+                       <parameter><link linkend="hb-buffer-t"><type>hb_buffer_t</type></link> *buffer</parameter>,
+                       <parameter>const <link linkend="hb-feature-t"><type>hb_feature_t</type></link> *features</parameter>,
+                       <parameter>unsigned <link linkend="int"><type>int</type></link> num_features</parameter>);</programlisting>
+<para>Executes the given shaping plan on the specified buffer, using
+the given <parameter>font</parameter>
+ and <parameter>features</parameter>
+.</para>
+<refsect3 id="hb-shape-plan-execute.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>shape_plan</para></entry>
+<entry role="parameter_description"><para>A shaping plan</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-font-t"><type>hb_font_t</type></link> to use</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>buffer</para></entry>
+<entry role="parameter_description"><para>The <link linkend="hb-buffer-t"><type>hb_buffer_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>features</para></entry>
+<entry role="parameter_description"><para>Features to enable. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>array</acronym> length=num_features]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>num_features</para></entry>
+<entry role="parameter_description"><para>The number of features to enable</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-shape-plan-execute.returns" role="returns">
+<title>Returns</title>
+<para> <literal>true</literal> if success, <literal>false</literal> otherwise.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+<refsect2 id="hb-shape-plan-get-shaper" role="function" condition="since:0.9.7">
+<title>hb_shape_plan_get_shaper&#160;()</title>
+<indexterm zone="hb-shape-plan-get-shaper" role="0.9.7"><primary>hb_shape_plan_get_shaper</primary></indexterm>
+<programlisting language="C">const <link linkend="char"><returnvalue>char</returnvalue></link>&#160;*
+hb_shape_plan_get_shaper (<parameter><link linkend="hb-shape-plan-t"><type>hb_shape_plan_t</type></link> *shape_plan</parameter>);</programlisting>
+<para>Fetches the shaper from a given shaping plan.</para>
+<refsect3 id="hb-shape-plan-get-shaper.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>shape_plan</para></entry>
+<entry role="parameter_description"><para>A shaping plan</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-shape-plan-get-shaper.returns" role="returns">
+<title>Returns</title>
+<para>The shaper. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.7">0.9.7</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-shape-plan.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="hb-shape-plan-t" role="typedef">
+<title>hb_shape_plan_t</title>
+<indexterm zone="hb-shape-plan-t"><primary>hb_shape_plan_t</primary></indexterm>
+<programlisting language="C">typedef struct hb_shape_plan_t hb_shape_plan_t;
+</programlisting>
+<para>Data type for holding a shaping plan. </para>
+<para>Shape plans contain information about how HarfBuzz will shape a
+particular text segment, based on the segment's properties and the
+capabilities in the font face in use.</para>
+<para>Shape plans can be queried about how shaping will perform, given a set
+of specific input parameters (script, language, direction, features,
+etc.).</para>
+</refsect2>
+
+</refsect1>
+
+</refentry>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-8.0.0">
+<indexdiv><title>C</title>
+<indexentry><primaryie linkends="HB-CODEPOINT-INVALID:CAPS"><link linkend="HB-CODEPOINT-INVALID:CAPS">HB_CODEPOINT_INVALID</link>, macro in <link linkend="harfbuzz-hb-common">hb-common</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>O</title>
+<indexentry><primaryie linkends="hb-ot-layout-get-baseline2"><link linkend="hb-ot-layout-get-baseline2">hb_ot_layout_get_baseline2</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-layout-get-baseline-with-fallback2"><link linkend="hb-ot-layout-get-baseline-with-fallback2">hb_ot_layout_get_baseline_with_fallback2</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-layout-get-font-extents"><link linkend="hb-ot-layout-get-font-extents">hb_ot_layout_get_font_extents</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-layout-get-font-extents2"><link linkend="hb-ot-layout-get-font-extents2">hb_ot_layout_get_font_extents2</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

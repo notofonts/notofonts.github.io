@@ -1,0 +1,11 @@
+prefix=/usr/local
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+Name: harfbuzz-subset
+Description: HarfBuzz font subsetter
+Version: 8.1.1
+Requires: harfbuzz =  8.1.1
+Libs: -L${libdir} -lharfbuzz-subset
+Libs.private: -lm
+Cflags: -I${includedir}/harfbuzz

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-2.1.0">
+<indexdiv><title>C</title>
+<indexentry><primaryie linkends="HB-COLOR:CAPS"><link linkend="HB-COLOR:CAPS">HB_COLOR</link>, macro in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-color-get-alpha"><link linkend="hb-color-get-alpha">hb_color_get_alpha</link>, function in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-color-get-blue"><link linkend="hb-color-get-blue">hb_color_get_blue</link>, function in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-color-get-green"><link linkend="hb-color-get-green">hb_color_get_green</link>, function in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-color-get-red"><link linkend="hb-color-get-red">hb_color_get_red</link>, function in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-color-t"><link linkend="hb-color-t">hb_color_t</link>, typedef in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>O</title>
+<indexentry><primaryie linkends="hb-ot-color-glyph-get-layers"><link linkend="hb-ot-color-glyph-get-layers">hb_ot_color_glyph_get_layers</link>, function in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-color-glyph-reference-png"><link linkend="hb-ot-color-glyph-reference-png">hb_ot_color_glyph_reference_png</link>, function in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-color-glyph-reference-svg"><link linkend="hb-ot-color-glyph-reference-svg">hb_ot_color_glyph_reference_svg</link>, function in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-color-has-layers"><link linkend="hb-ot-color-has-layers">hb_ot_color_has_layers</link>, function in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-color-has-palettes"><link linkend="hb-ot-color-has-palettes">hb_ot_color_has_palettes</link>, function in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-color-has-png"><link linkend="hb-ot-color-has-png">hb_ot_color_has_png</link>, function in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-color-has-svg"><link linkend="hb-ot-color-has-svg">hb_ot_color_has_svg</link>, function in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-color-layer-t"><link linkend="hb-ot-color-layer-t">hb_ot_color_layer_t</link>, struct in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-color-palette-color-get-name-id"><link linkend="hb-ot-color-palette-color-get-name-id">hb_ot_color_palette_color_get_name_id</link>, function in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-color-palette-flags-t"><link linkend="hb-ot-color-palette-flags-t">hb_ot_color_palette_flags_t</link>, enum in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-color-palette-get-colors"><link linkend="hb-ot-color-palette-get-colors">hb_ot_color_palette_get_colors</link>, function in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-color-palette-get-count"><link linkend="hb-ot-color-palette-get-count">hb_ot_color_palette_get_count</link>, function in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-color-palette-get-flags"><link linkend="hb-ot-color-palette-get-flags">hb_ot_color_palette_get_flags</link>, function in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-color-palette-get-name-id"><link linkend="hb-ot-color-palette-get-name-id">hb_ot_color_palette_get_name_id</link>, function in <link linkend="harfbuzz-hb-ot-color">hb-ot-color</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-name-entry-t"><link linkend="hb-ot-name-entry-t">hb_ot_name_entry_t</link>, struct in <link linkend="harfbuzz-hb-ot-name">hb-ot-name</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-name-get-utf16"><link linkend="hb-ot-name-get-utf16">hb_ot_name_get_utf16</link>, function in <link linkend="harfbuzz-hb-ot-name">hb-ot-name</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-name-get-utf32"><link linkend="hb-ot-name-get-utf32">hb_ot_name_get_utf32</link>, function in <link linkend="harfbuzz-hb-ot-name">hb-ot-name</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-name-get-utf8"><link linkend="hb-ot-name-get-utf8">hb_ot_name_get_utf8</link>, function in <link linkend="harfbuzz-hb-ot-name">hb-ot-name</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-name-list-names"><link linkend="hb-ot-name-list-names">hb_ot_name_list_names</link>, function in <link linkend="harfbuzz-hb-ot-name">hb-ot-name</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

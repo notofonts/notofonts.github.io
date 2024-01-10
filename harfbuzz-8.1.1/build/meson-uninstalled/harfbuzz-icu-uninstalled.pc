@@ -1,0 +1,12 @@
+prefix=/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build
+srcdir=/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+Name: harfbuzz-icu
+Description: HarfBuzz text shaping library ICU integration
+Version: 8.1.1
+Requires: harfbuzz =  8.1.1
+Requires.private: icu-uc
+Libs: -L${prefix}/src -lharfbuzz-icu
+Cflags: -I${prefix}/src -I${srcdir}/src -I${prefix}/. -I${srcdir}/.

@@ -1,0 +1,628 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>hb-cairo: HarfBuzz Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="HarfBuzz Manual">
+<link rel="up" href="integration-api.html" title="Integration API">
+<link rel="prev" href="harfbuzz-hb-directwrite.html" title="hb-directwrite">
+<link rel="next" href="style-api.html" title="Style API">
+<meta name="generator" content="GTK-Doc V1.33.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#harfbuzz-hb-cairo.description" class="shortcut">Description</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="integration-api.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="harfbuzz-hb-directwrite.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="style-api.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="harfbuzz-hb-cairo"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="harfbuzz-hb-cairo.top_of_page"></a>hb-cairo</span></h2>
+<p>hb-cairo — Cairo integration</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="harfbuzz-hb-cairo.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<span class="returnvalue">cairo_font_face_t</span> *
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-cairo.html#hb-cairo-font-face-create-for-font" title="hb_cairo_font_face_create_for_font ()">hb_cairo_font_face_create_for_font</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="returnvalue">hb_font_t</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-cairo.html#hb-cairo-font-face-get-font" title="hb_cairo_font_face_get_font ()">hb_cairo_font_face_get_font</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">cairo_font_face_t</span> *
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-cairo.html#hb-cairo-font-face-create-for-face" title="hb_cairo_font_face_create_for_face ()">hb_cairo_font_face_create_for_face</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-face.html#hb-face-t" title="hb_face_t"><span class="returnvalue">hb_face_t</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-cairo.html#hb-cairo-font-face-get-face" title="hb_cairo_font_face_get_face ()">hb_cairo_font_face_get_face</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="returnvalue">hb_font_t</span></a> *
+</td>
+<td class="function_name">
+<span class="c_punctuation">(</span><a class="link" href="harfbuzz-hb-cairo.html#hb-cairo-font-init-func-t" title="hb_cairo_font_init_func_t ()">*hb_cairo_font_init_func_t</a><span class="c_punctuation">)</span> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-cairo.html#hb-cairo-font-face-set-font-init-func" title="hb_cairo_font_face_set_font_init_func ()">hb_cairo_font_face_set_font_init_func</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="returnvalue">hb_font_t</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-cairo.html#hb-cairo-scaled-font-get-font" title="hb_cairo_scaled_font_get_font ()">hb_cairo_scaled_font_get_font</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-cairo.html#hb-cairo-font-face-set-scale-factor" title="hb_cairo_font_face_set_scale_factor ()">hb_cairo_font_face_set_scale_factor</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">unsigned <span class="returnvalue">int</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-cairo.html#hb-cairo-font-face-get-scale-factor" title="hb_cairo_font_face_get_scale_factor ()">hb_cairo_font_face_get_scale_factor</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-cairo.html#hb-cairo-glyphs-from-buffer" title="hb_cairo_glyphs_from_buffer ()">hb_cairo_glyphs_from_buffer</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-cairo.includes"></a><h2>Includes</h2>
+<pre class="synopsis">#include &lt;hb-cairo.h&gt;
+</pre>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-cairo.description"></a><h2>Description</h2>
+<p>Functions for using HarfBuzz with the cairo library.</p>
+<p>HarfBuzz supports using cairo for rendering.</p>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-cairo.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="hb-cairo-font-face-create-for-font"></a><h3>hb_cairo_font_face_create_for_font ()</h3>
+<pre class="programlisting"><span class="returnvalue">cairo_font_face_t</span> *
+hb_cairo_font_face_create_for_font (<em class="parameter"><code><a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> *font</code></em>);</pre>
+<p>Creates a <span class="type">cairo_font_face_t</span> for rendering text according
+to <em class="parameter"><code>font</code></em>
+.</p>
+<p>Note that the scale of <em class="parameter"><code>font</code></em>
+ does not affect the rendering,
+but the variations and slant that are set on <em class="parameter"><code>font</code></em>
+ do.</p>
+<div class="refsect3">
+<a name="hb-cairo-font-face-create-for-font.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>font</p></td>
+<td class="parameter_description"><p>a <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-cairo-font-face-create-for-font.returns"></a><h4>Returns</h4>
+<p>a newly created <span class="type">cairo_font_face_t</span>. </p>
+<p><span class="annotation">[<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-cairo-font-face-get-font"></a><h3>hb_cairo_font_face_get_font ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="returnvalue">hb_font_t</span></a> *
+hb_cairo_font_face_get_font (<em class="parameter"><code><span class="type">cairo_font_face_t</span> *font_face</code></em>);</pre>
+<p>Gets the <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> that <em class="parameter"><code>font_face</code></em>
+ was created from.</p>
+<div class="refsect3">
+<a name="hb-cairo-font-face-get-font.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>font_face</p></td>
+<td class="parameter_description"><p>a <span class="type">cairo_font_face_t</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-cairo-font-face-get-font.returns"></a><h4>Returns</h4>
+<p>the <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> that <em class="parameter"><code>font_face</code></em>
+was created from. </p>
+<p><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-cairo-font-face-create-for-face"></a><h3>hb_cairo_font_face_create_for_face ()</h3>
+<pre class="programlisting"><span class="returnvalue">cairo_font_face_t</span> *
+hb_cairo_font_face_create_for_face (<em class="parameter"><code><a class="link" href="harfbuzz-hb-face.html#hb-face-t" title="hb_face_t"><span class="type">hb_face_t</span></a> *face</code></em>);</pre>
+<p>Creates a <span class="type">cairo_font_face_t</span> for rendering text according
+to <em class="parameter"><code>face</code></em>
+.</p>
+<div class="refsect3">
+<a name="hb-cairo-font-face-create-for-face.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>face</p></td>
+<td class="parameter_description"><p>a <a class="link" href="harfbuzz-hb-face.html#hb-face-t" title="hb_face_t"><span class="type">hb_face_t</span></a></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-cairo-font-face-create-for-face.returns"></a><h4>Returns</h4>
+<p>a newly created <span class="type">cairo_font_face_t</span>. </p>
+<p><span class="annotation">[<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-cairo-font-face-get-face"></a><h3>hb_cairo_font_face_get_face ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-face.html#hb-face-t" title="hb_face_t"><span class="returnvalue">hb_face_t</span></a> *
+hb_cairo_font_face_get_face (<em class="parameter"><code><span class="type">cairo_font_face_t</span> *font_face</code></em>);</pre>
+<p>Gets the <a class="link" href="harfbuzz-hb-face.html#hb-face-t" title="hb_face_t"><span class="type">hb_face_t</span></a> associated with <em class="parameter"><code>font_face</code></em>
+.</p>
+<div class="refsect3">
+<a name="hb-cairo-font-face-get-face.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>font_face</p></td>
+<td class="parameter_description"><p>a <span class="type">cairo_font_face_t</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-cairo-font-face-get-face.returns"></a><h4>Returns</h4>
+<p>the <a class="link" href="harfbuzz-hb-face.html#hb-face-t" title="hb_face_t"><span class="type">hb_face_t</span></a> associated with <em class="parameter"><code>font_face</code></em>
+. </p>
+<p><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-cairo-font-init-func-t"></a><h3>hb_cairo_font_init_func_t ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="returnvalue">hb_font_t</span></a> *
+<span class="c_punctuation">(</span>*hb_cairo_font_init_func_t<span class="c_punctuation">)</span> (<em class="parameter"><code><a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> *font</code></em>,
+                              <em class="parameter"><code><span class="type">cairo_scaled_font_t</span> *scaled_font</code></em>,
+                              <em class="parameter"><code><span class="type">void</span> *user_data</code></em>);</pre>
+<p>The type of a virtual method to be called when a cairo
+face created using <a class="link" href="harfbuzz-hb-cairo.html#hb-cairo-font-face-create-for-face" title="hb_cairo_font_face_create_for_face ()"><code class="function">hb_cairo_font_face_create_for_face()</code></a>
+creates an <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> for a <span class="type">cairo_scaled_font_t</span>.</p>
+<div class="refsect3">
+<a name="hb-cairo-font-init-func-t.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>font</p></td>
+<td class="parameter_description"><p>The <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> being created</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>scaled_font</p></td>
+<td class="parameter_description"><p>The respective <span class="type">cairo_scaled_font_t</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>User data accompanying this method</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-cairo-font-init-func-t.returns"></a><h4>Returns</h4>
+<p> the <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> value to use; in most cases same as <em class="parameter"><code>font</code></em>
+</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-cairo-font-face-set-font-init-func"></a><h3>hb_cairo_font_face_set_font_init_func ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_cairo_font_face_set_font_init_func (<em class="parameter"><code><span class="type">cairo_font_face_t</span> *font_face</code></em>,
+                                       <em class="parameter"><code><a class="link" href="harfbuzz-hb-cairo.html#hb-cairo-font-init-func-t" title="hb_cairo_font_init_func_t ()"><span class="type">hb_cairo_font_init_func_t</span></a> func</code></em>,
+                                       <em class="parameter"><code><span class="type">void</span> *user_data</code></em>,
+                                       <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-destroy-func-t" title="hb_destroy_func_t ()"><span class="type">hb_destroy_func_t</span></a> destroy</code></em>);</pre>
+<p>Set the virtual method to be called when a cairo
+face created using <a class="link" href="harfbuzz-hb-cairo.html#hb-cairo-font-face-create-for-face" title="hb_cairo_font_face_create_for_face ()"><code class="function">hb_cairo_font_face_create_for_face()</code></a>
+creates an <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> for a <span class="type">cairo_scaled_font_t</span>.</p>
+<div class="refsect3">
+<a name="hb-cairo-font-face-set-font-init-func.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>font_face</p></td>
+<td class="parameter_description"><p>a <span class="type">cairo_font_face_t</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>func</p></td>
+<td class="parameter_description"><p>The virtual method to use</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data accompanying the method</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>destroy</p></td>
+<td class="parameter_description"><p>function to call when <em class="parameter"><code>user_data</code></em>
+is not needed anymore</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-cairo-scaled-font-get-font"></a><h3>hb_cairo_scaled_font_get_font ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="returnvalue">hb_font_t</span></a> *
+hb_cairo_scaled_font_get_font (<em class="parameter"><code><span class="type">cairo_scaled_font_t</span> *scaled_font</code></em>);</pre>
+<p>Gets the <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> associated with <em class="parameter"><code>scaled_font</code></em>
+.</p>
+<div class="refsect3">
+<a name="hb-cairo-scaled-font-get-font.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>scaled_font</p></td>
+<td class="parameter_description"><p>a <span class="type">cairo_scaled_font_t</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-cairo-scaled-font-get-font.returns"></a><h4>Returns</h4>
+<p>the <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> associated with <em class="parameter"><code>scaled_font</code></em>
+. </p>
+<p><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>][<acronym title="The data is owned by the callee, which is responsible of freeing it."><span class="acronym">transfer none</span></acronym>]</span></p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-cairo-font-face-set-scale-factor"></a><h3>hb_cairo_font_face_set_scale_factor ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_cairo_font_face_set_scale_factor (<em class="parameter"><code><span class="type">cairo_font_face_t</span> *font_face</code></em>,
+                                     <em class="parameter"><code>unsigned <span class="type">int</span> scale_factor</code></em>);</pre>
+<p>Sets the scale factor of the <em class="parameter"><code>font_face</code></em>
+. Default scale
+factor is zero.</p>
+<p>When a <span class="type">cairo_font_face_t</span> is created from a <a class="link" href="harfbuzz-hb-face.html#hb-face-t" title="hb_face_t"><span class="type">hb_face_t</span></a> using
+<a class="link" href="harfbuzz-hb-cairo.html#hb-cairo-font-face-create-for-face" title="hb_cairo_font_face_create_for_face ()"><code class="function">hb_cairo_font_face_create_for_face()</code></a>, such face will create
+<a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> objects during scaled-font creation.  The scale
+factor defines how the scale set on such <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> objects
+relates to the font-matrix (as such font size) of the cairo
+scaled-font.</p>
+<p>If the scale-factor is zero (default), then the scale of the
+<a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> object will be left at default, which is the UPEM
+value of the respective <a class="link" href="harfbuzz-hb-face.html#hb-face-t" title="hb_face_t"><span class="type">hb_face_t</span></a>.</p>
+<p>If the scale-factor is set to non-zero, then the X and Y scale
+of the <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> object will be respectively set to the
+<em class="parameter"><code>scale_factor</code></em>
+ times the xx and yy elements of the scale-matrix
+of the cairo scaled-font being created.</p>
+<p>When using the <a class="link" href="harfbuzz-hb-cairo.html#hb-cairo-glyphs-from-buffer" title="hb_cairo_glyphs_from_buffer ()"><code class="function">hb_cairo_glyphs_from_buffer()</code></a> API to convert the
+HarfBuzz glyph buffer that resulted from shaping with such a <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a>,
+if the scale-factor was non-zero, you can pass it directly to
+that API as both X and Y scale factors.</p>
+<p>If the scale-factor was zero however, or the cairo face was
+created using the alternative constructor
+<a class="link" href="harfbuzz-hb-cairo.html#hb-cairo-font-face-create-for-font" title="hb_cairo_font_face_create_for_font ()"><code class="function">hb_cairo_font_face_create_for_font()</code></a>, you need to calculate the
+correct X/Y scale-factors to pass to <a class="link" href="harfbuzz-hb-cairo.html#hb-cairo-glyphs-from-buffer" title="hb_cairo_glyphs_from_buffer ()"><code class="function">hb_cairo_glyphs_from_buffer()</code></a>
+by dividing the <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> X/Y scale-factors by the
+cairo scaled-font's scale-matrix XX/YY components respectively
+and use those values.  Or if you know that relationship offhand
+(because you set the scale of the <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> yourself), use
+the conversion rate involved.</p>
+<div class="refsect3">
+<a name="hb-cairo-font-face-set-scale-factor.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>scale_factor</p></td>
+<td class="parameter_description"><p>The scale factor to use. See below</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>font_face</p></td>
+<td class="parameter_description"><p>a <span class="type">cairo_font_face_t</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-cairo-font-face-get-scale-factor"></a><h3>hb_cairo_font_face_get_scale_factor ()</h3>
+<pre class="programlisting">unsigned <span class="returnvalue">int</span>
+hb_cairo_font_face_get_scale_factor (<em class="parameter"><code><span class="type">cairo_font_face_t</span> *font_face</code></em>);</pre>
+<p>Gets the scale factor set on the <em class="parameter"><code>font_face</code></em>
+. Defaults to zero.
+See <a class="link" href="harfbuzz-hb-cairo.html#hb-cairo-font-face-set-scale-factor" title="hb_cairo_font_face_set_scale_factor ()"><code class="function">hb_cairo_font_face_set_scale_factor()</code></a> for details.</p>
+<div class="refsect3">
+<a name="hb-cairo-font-face-get-scale-factor.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody><tr>
+<td class="parameter_name"><p>font_face</p></td>
+<td class="parameter_description"><p>a <span class="type">cairo_font_face_t</span></p></td>
+<td class="parameter_annotations"> </td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-cairo-font-face-get-scale-factor.returns"></a><h4>Returns</h4>
+<p> the scale factor of <em class="parameter"><code>font_face</code></em>
+</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-cairo-glyphs-from-buffer"></a><h3>hb_cairo_glyphs_from_buffer ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_cairo_glyphs_from_buffer (<em class="parameter"><code><a class="link" href="harfbuzz-hb-buffer.html#hb-buffer-t" title="hb_buffer_t"><span class="type">hb_buffer_t</span></a> *buffer</code></em>,
+                             <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="type">hb_bool_t</span></a> utf8_clusters</code></em>,
+                             <em class="parameter"><code><span class="type">double</span> x_scale_factor</code></em>,
+                             <em class="parameter"><code><span class="type">double</span> y_scale_factor</code></em>,
+                             <em class="parameter"><code><span class="type">double</span> x</code></em>,
+                             <em class="parameter"><code><span class="type">double</span> y</code></em>,
+                             <em class="parameter"><code>const <span class="type">char</span> *utf8</code></em>,
+                             <em class="parameter"><code><span class="type">int</span> utf8_len</code></em>,
+                             <em class="parameter"><code><span class="type">cairo_glyph_t</span> **glyphs</code></em>,
+                             <em class="parameter"><code>unsigned <span class="type">int</span> *num_glyphs</code></em>,
+                             <em class="parameter"><code><span class="type">cairo_text_cluster_t</span> **clusters</code></em>,
+                             <em class="parameter"><code>unsigned <span class="type">int</span> *num_clusters</code></em>,
+                             <em class="parameter"><code><span class="type">cairo_text_cluster_flags_t</span> *cluster_flags</code></em>);</pre>
+<p>Extracts information from <em class="parameter"><code>buffer</code></em>
+ in a form that can be
+passed to <code class="function">cairo_show_text_glyphs()</code> or <code class="function">cairo_show_glyphs()</code>.
+This API is modeled after <code class="function">cairo_scaled_font_text_to_glyphs()</code> and
+cairo_user_scaled_font_text_to_glyphs_func_t.</p>
+<p>The <em class="parameter"><code>num_glyphs</code></em>
+ argument should be preset to the number of glyph entries available
+in the <em class="parameter"><code>glyphs</code></em>
+ buffer. If the <em class="parameter"><code>glyphs</code></em>
+ buffer is <code class="literal">NULL</code>, the value of
+<em class="parameter"><code>num_glyphs</code></em>
+ must be zero.  If the provided glyph array is too short for
+the conversion (or for convenience), a new glyph array may be allocated
+using <code class="function">cairo_glyph_allocate()</code> and placed in <em class="parameter"><code>glyphs</code></em>
+.  Upon return,
+<em class="parameter"><code>num_glyphs</code></em>
+ should contain the number of generated glyphs.  If the value
+<em class="parameter"><code>glyphs</code></em>
+ points at has changed after the call, the caller will free the
+allocated glyph array using <code class="function">cairo_glyph_free()</code>.  The caller will also free
+the original value of <em class="parameter"><code>glyphs</code></em>
+, so this function shouldn't do so.</p>
+<p>If <em class="parameter"><code>clusters</code></em>
+ is not <code class="literal">NULL</code>, then <em class="parameter"><code>num_clusters</code></em>
+ and <em class="parameter"><code>cluster_flags</code></em>
+
+should not be either, and <em class="parameter"><code>utf8</code></em>
+ must be provided, and cluster
+mapping will be computed. The semantics of how
+cluster array allocation works is similar to the glyph array.  That is,
+if <em class="parameter"><code>clusters</code></em>
+ initially points to a non-<code class="literal">NULL</code> value, that array may be used
+as a cluster buffer, and <em class="parameter"><code>num_clusters</code></em>
+ points to the number of cluster
+entries available there.  If the provided cluster array is too short for
+the conversion (or for convenience), a new cluster array may be allocated
+using <code class="function">cairo_text_cluster_allocate()</code> and placed in <em class="parameter"><code>clusters</code></em>
+.  In this case,
+the original value of <em class="parameter"><code>clusters</code></em>
+ will still be freed by the caller.  Upon
+return, <em class="parameter"><code>num_clusters</code></em>
+ will contain the number of generated clusters.
+If the value <em class="parameter"><code>clusters</code></em>
+ points at has changed after the call, the caller
+will free the allocated cluster array using <code class="function">cairo_text_cluster_free()</code>.</p>
+<p>See <a class="link" href="harfbuzz-hb-cairo.html#hb-cairo-font-face-set-scale-factor" title="hb_cairo_font_face_set_scale_factor ()"><code class="function">hb_cairo_font_face_set_scale_factor()</code></a> for the details of
+the <em class="parameter"><code>scale_factor</code></em>
+ argument.</p>
+<p>The returned <em class="parameter"><code>glyphs</code></em>
+ vector actually has <code class="literal">@num_glyphs + 1</code> entries in
+it and the x,y values of the extra entry at the end add up the advance
+x,y of all the glyphs in the <em class="parameter"><code>buffer</code></em>
+.</p>
+<div class="refsect3">
+<a name="hb-cairo-glyphs-from-buffer.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>buffer</p></td>
+<td class="parameter_description"><p>a <a class="link" href="harfbuzz-hb-buffer.html#hb-buffer-t" title="hb_buffer_t"><span class="type">hb_buffer_t</span></a> containing glyphs</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>utf8_clusters</p></td>
+<td class="parameter_description"><p><code class="literal">true</code> if <em class="parameter"><code>buffer</code></em>
+clusters are in bytes, instead of characters</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x_scale_factor</p></td>
+<td class="parameter_description"><p>scale factor to divide <a class="link" href="harfbuzz-hb-common.html#hb-position-t" title="hb_position_t"><span class="type">hb_position_t</span></a> Y values by</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y_scale_factor</p></td>
+<td class="parameter_description"><p>scale factor to divide <a class="link" href="harfbuzz-hb-common.html#hb-position-t" title="hb_position_t"><span class="type">hb_position_t</span></a> X values by</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>x</p></td>
+<td class="parameter_description"><p>X position to place first glyph</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>y</p></td>
+<td class="parameter_description"><p>Y position to place first glyph</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>utf8</p></td>
+<td class="parameter_description"><p>the text that was shaped in <em class="parameter"><code>buffer</code></em>
+. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>utf8_len</p></td>
+<td class="parameter_description"><p>the length of <em class="parameter"><code>utf8</code></em>
+in bytes</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>glyphs</p></td>
+<td class="parameter_description"><p>return location for an array of <span class="type">cairo_glyph_t</span>. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>num_glyphs</p></td>
+<td class="parameter_description"><p>return location for the length of <em class="parameter"><code>glyphs</code></em>
+. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for input and for returning results. Default is transfer full."><span class="acronym">inout</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>clusters</p></td>
+<td class="parameter_description"><p>return location for an array of cluster positions. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>num_clusters</p></td>
+<td class="parameter_description"><p>return location for the length of <em class="parameter"><code>clusters</code></em>
+. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for input and for returning results. Default is transfer full."><span class="acronym">inout</span></acronym>][<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>cluster_flags</p></td>
+<td class="parameter_description"><p>return location for cluster flags. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed as the value in, out, in-out; or as a return value."><span class="acronym">nullable</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-7-0-0.html#api-index-7.0.0">7.0.0</a></p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.33.1</div>
+</body>
+</html>

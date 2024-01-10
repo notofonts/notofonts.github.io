@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-1.4.0">
+<indexdiv><title>O</title>
+<indexentry><primaryie linkends="hb-ot-layout-feature-with-variations-get-lookups"><link linkend="hb-ot-layout-feature-with-variations-get-lookups">hb_ot_layout_feature_with_variations_get_lookups</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-layout-table-find-feature-variations"><link linkend="hb-ot-layout-table-find-feature-variations">hb_ot_layout_table_find_feature_variations</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>S</title>
+<indexentry><primaryie linkends="hb-shape-plan-create2"><link linkend="hb-shape-plan-create2">hb_shape_plan_create2</link>, function in <link linkend="harfbuzz-hb-shape-plan">hb-shape-plan</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-shape-plan-create-cached2"><link linkend="hb-shape-plan-create-cached2">hb_shape_plan_create_cached2</link>, function in <link linkend="harfbuzz-hb-shape-plan">hb-shape-plan</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

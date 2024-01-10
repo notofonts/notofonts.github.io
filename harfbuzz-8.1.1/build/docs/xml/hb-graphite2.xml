@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-graphite2">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-graphite2.top_of_page">hb-graphite2</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-graphite2</refname>
+<refpurpose>Graphite2 integration</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-graphite2.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="gr-face"><returnvalue>gr_face</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-graphite2-face-get-gr-face">hb_graphite2_face_get_gr_face</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type"><link linkend="gr-font"><returnvalue>gr_font</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-graphite2-font-get-gr-font">hb_graphite2_font_get_gr_font</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="harfbuzz-hb-graphite2.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="define_keyword">#define</entry><entry role="function_name"><link linkend="HB-GRAPHITE2-TAG-SILF:CAPS">HB_GRAPHITE2_TAG_SILF</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-graphite2.includes"><title>Includes</title><synopsis>#include &lt;hb-graphite2.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-graphite2.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Functions for using HarfBuzz with fonts that include Graphite features.</para>
+<para>For Graphite features to work, you must be sure that HarfBuzz was compiled
+with the <literal>graphite2</literal> shaping engine enabled. Currently, the default is to
+not enable <literal>graphite2</literal> shaping.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-graphite2.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-graphite2-face-get-gr-face" role="function" condition="since:0.9.10">
+<title>hb_graphite2_face_get_gr_face&#160;()</title>
+<indexterm zone="hb-graphite2-face-get-gr-face" role="0.9.10"><primary>hb_graphite2_face_get_gr_face</primary></indexterm>
+<programlisting language="C"><link linkend="gr-face"><returnvalue>gr_face</returnvalue></link>&#160;*
+hb_graphite2_face_get_gr_face (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>);</programlisting>
+<para>Fetches the Graphite2 gr_face corresponding to the specified
+<link linkend="hb-face-t"><type>hb_face_t</type></link> face object.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-graphite2-face-get-gr-face.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para><parameter>hb_face_t</parameter>
+to query</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-graphite2-face-get-gr-face.returns" role="returns">
+<title>Returns</title>
+<para> the gr_face found</para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.10">0.9.10</link></para></refsect2>
+<refsect2 id="hb-graphite2-font-get-gr-font" role="function" condition="deprecated:1.4.2|since:0.9.10">
+<title>hb_graphite2_font_get_gr_font&#160;()</title>
+<indexterm zone="hb-graphite2-font-get-gr-font" role="deprecated"><primary>hb_graphite2_font_get_gr_font</primary></indexterm><indexterm zone="hb-graphite2-font-get-gr-font" role="0.9.10"><primary>hb_graphite2_font_get_gr_font</primary></indexterm>
+<programlisting language="C"><link linkend="gr-font"><returnvalue>gr_font</returnvalue></link>&#160;*
+hb_graphite2_font_get_gr_font (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>);</programlisting>
+<warning><para><literal>hb_graphite2_font_get_gr_font</literal> has been deprecated since version 1.4.2 and should not be used in newly-written code.</para></warning>
+<para>Always returns <literal>NULL</literal>. Use <link linkend="hb-graphite2-face-get-gr-face"><function>hb_graphite2_face_get_gr_face()</function></link> instead.</para>
+
+<para><emphasis role="annotation">[<acronym>skip</acronym>]</emphasis></para><refsect3 id="hb-graphite2-font-get-gr-font.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para>An <link linkend="hb-font-t"><type>hb_font_t</type></link></para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-graphite2-font-get-gr-font.returns" role="returns">
+<title>Returns</title>
+<para>Graphite2 font associated with <parameter>font</parameter>
+. </para>
+<para><emphasis role="annotation">[<acronym>nullable</acronym>]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.10">0.9.10</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-graphite2.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="HB-GRAPHITE2-TAG-SILF:CAPS" role="macro">
+<title>HB_GRAPHITE2_TAG_SILF</title>
+<indexterm zone="HB-GRAPHITE2-TAG-SILF:CAPS"><primary>HB_GRAPHITE2_TAG_SILF</primary></indexterm>
+<programlisting language="C">#define HB_GRAPHITE2_TAG_SILF HB_TAG('S','i','l','f')
+</programlisting>
+<para>The <link linkend="hb-tag-t"><type>hb_tag_t</type></link> tag for the <literal>Silf</literal> table, which holds Graphite
+features. </para>
+<para>For more information, see http://graphite.sil.org/</para>
+</refsect2>
+
+</refsect1>
+
+</refentry>

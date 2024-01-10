@@ -1,0 +1,528 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>hb-ot-metrics: HarfBuzz Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="HarfBuzz Manual">
+<link rel="up" href="opentype-api.html" title="OpenType API">
+<link rel="prev" href="harfbuzz-hb-ot-meta.html" title="hb-ot-meta">
+<link rel="next" href="harfbuzz-hb-ot-name.html" title="hb-ot-name">
+<meta name="generator" content="GTK-Doc V1.33.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#harfbuzz-hb-ot-metrics.description" class="shortcut">Description</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="opentype-api.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="harfbuzz-hb-ot-meta.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="harfbuzz-hb-ot-name.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="harfbuzz-hb-ot-metrics"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="harfbuzz-hb-ot-metrics.top_of_page"></a>hb-ot-metrics</span></h2>
+<p>hb-ot-metrics — OpenType Metrics</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="harfbuzz-hb-ot-metrics.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="returnvalue">hb_bool_t</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-ot-metrics.html#hb-ot-metrics-get-position" title="hb_ot_metrics_get_position ()">hb_ot_metrics_get_position</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-ot-metrics.html#hb-ot-metrics-get-position-with-fallback" title="hb_ot_metrics_get_position_with_fallback ()">hb_ot_metrics_get_position_with_fallback</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">float</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-ot-metrics.html#hb-ot-metrics-get-variation" title="hb_ot_metrics_get_variation ()">hb_ot_metrics_get_variation</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-common.html#hb-position-t" title="hb_position_t"><span class="returnvalue">hb_position_t</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-ot-metrics.html#hb-ot-metrics-get-x-variation" title="hb_ot_metrics_get_x_variation ()">hb_ot_metrics_get_x_variation</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-common.html#hb-position-t" title="hb_position_t"><span class="returnvalue">hb_position_t</span></a>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-ot-metrics.html#hb-ot-metrics-get-y-variation" title="hb_ot_metrics_get_y_variation ()">hb_ot_metrics_get_y_variation</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-ot-metrics.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody><tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-ot-metrics.html#hb-ot-metrics-tag-t" title="enum hb_ot_metrics_tag_t">hb_ot_metrics_tag_t</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-ot-metrics.includes"></a><h2>Includes</h2>
+<pre class="synopsis">#include &lt;hb-ot.h&gt;
+</pre>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-ot-metrics.description"></a><h2>Description</h2>
+<p>Functions for fetching metrics from fonts.</p>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-ot-metrics.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="hb-ot-metrics-get-position"></a><h3>hb_ot_metrics_get_position ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-common.html#hb-bool-t" title="hb_bool_t"><span class="returnvalue">hb_bool_t</span></a>
+hb_ot_metrics_get_position (<em class="parameter"><code><a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> *font</code></em>,
+                            <em class="parameter"><code><a class="link" href="harfbuzz-hb-ot-metrics.html#hb-ot-metrics-tag-t" title="enum hb_ot_metrics_tag_t"><span class="type">hb_ot_metrics_tag_t</span></a> metrics_tag</code></em>,
+                            <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-position-t" title="hb_position_t"><span class="type">hb_position_t</span></a> *position</code></em>);</pre>
+<p>Fetches metrics value corresponding to <em class="parameter"><code>metrics_tag</code></em>
+ from <em class="parameter"><code>font</code></em>
+.</p>
+<div class="refsect3">
+<a name="hb-ot-metrics-get-position.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>font</p></td>
+<td class="parameter_description"><p>an <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> object.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>metrics_tag</p></td>
+<td class="parameter_description"><p>tag of metrics value you like to fetch.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>position</p></td>
+<td class="parameter_description"><p>result of metrics value from the font. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-ot-metrics-get-position.returns"></a><h4>Returns</h4>
+<p> Whether found the requested metrics in the font.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-2-6-0.html#api-index-2.6.0">2.6.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-ot-metrics-get-position-with-fallback"></a><h3>hb_ot_metrics_get_position_with_fallback ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+hb_ot_metrics_get_position_with_fallback
+                               (<em class="parameter"><code><a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> *font</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-ot-metrics.html#hb-ot-metrics-tag-t" title="enum hb_ot_metrics_tag_t"><span class="type">hb_ot_metrics_tag_t</span></a> metrics_tag</code></em>,
+                                <em class="parameter"><code><a class="link" href="harfbuzz-hb-common.html#hb-position-t" title="hb_position_t"><span class="type">hb_position_t</span></a> *position</code></em>);</pre>
+<p>Fetches metrics value corresponding to <em class="parameter"><code>metrics_tag</code></em>
+ from <em class="parameter"><code>font</code></em>
+,
+and synthesizes a value if it the value is missing in the font.</p>
+<div class="refsect3">
+<a name="hb-ot-metrics-get-position-with-fallback.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>font</p></td>
+<td class="parameter_description"><p>an <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> object.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>metrics_tag</p></td>
+<td class="parameter_description"><p>tag of metrics value you like to fetch.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>position</p></td>
+<td class="parameter_description"><p>result of metrics value from the font. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for returning results. Default is transfer full."><span class="acronym">out</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-4-0-0.html#api-index-4.0.0">4.0.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-ot-metrics-get-variation"></a><h3>hb_ot_metrics_get_variation ()</h3>
+<pre class="programlisting"><span class="returnvalue">float</span>
+hb_ot_metrics_get_variation (<em class="parameter"><code><a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> *font</code></em>,
+                             <em class="parameter"><code><a class="link" href="harfbuzz-hb-ot-metrics.html#hb-ot-metrics-tag-t" title="enum hb_ot_metrics_tag_t"><span class="type">hb_ot_metrics_tag_t</span></a> metrics_tag</code></em>);</pre>
+<p>Fetches metrics value corresponding to <em class="parameter"><code>metrics_tag</code></em>
+ from <em class="parameter"><code>font</code></em>
+ with the
+current font variation settings applied.</p>
+<div class="refsect3">
+<a name="hb-ot-metrics-get-variation.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>font</p></td>
+<td class="parameter_description"><p>an <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> object.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>metrics_tag</p></td>
+<td class="parameter_description"><p>tag of metrics value you like to fetch.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-ot-metrics-get-variation.returns"></a><h4>Returns</h4>
+<p> The requested metric value.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-2-6-0.html#api-index-2.6.0">2.6.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-ot-metrics-get-x-variation"></a><h3>hb_ot_metrics_get_x_variation ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-common.html#hb-position-t" title="hb_position_t"><span class="returnvalue">hb_position_t</span></a>
+hb_ot_metrics_get_x_variation (<em class="parameter"><code><a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> *font</code></em>,
+                               <em class="parameter"><code><a class="link" href="harfbuzz-hb-ot-metrics.html#hb-ot-metrics-tag-t" title="enum hb_ot_metrics_tag_t"><span class="type">hb_ot_metrics_tag_t</span></a> metrics_tag</code></em>);</pre>
+<p>Fetches horizontal metrics value corresponding to <em class="parameter"><code>metrics_tag</code></em>
+ from <em class="parameter"><code>font</code></em>
+
+with the current font variation settings applied.</p>
+<div class="refsect3">
+<a name="hb-ot-metrics-get-x-variation.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>font</p></td>
+<td class="parameter_description"><p>an <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> object.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>metrics_tag</p></td>
+<td class="parameter_description"><p>tag of metrics value you like to fetch.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-ot-metrics-get-x-variation.returns"></a><h4>Returns</h4>
+<p> The requested metric value.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-2-6-0.html#api-index-2.6.0">2.6.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-ot-metrics-get-y-variation"></a><h3>hb_ot_metrics_get_y_variation ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-common.html#hb-position-t" title="hb_position_t"><span class="returnvalue">hb_position_t</span></a>
+hb_ot_metrics_get_y_variation (<em class="parameter"><code><a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> *font</code></em>,
+                               <em class="parameter"><code><a class="link" href="harfbuzz-hb-ot-metrics.html#hb-ot-metrics-tag-t" title="enum hb_ot_metrics_tag_t"><span class="type">hb_ot_metrics_tag_t</span></a> metrics_tag</code></em>);</pre>
+<p>Fetches vertical metrics value corresponding to <em class="parameter"><code>metrics_tag</code></em>
+ from <em class="parameter"><code>font</code></em>
+ with
+the current font variation settings applied.</p>
+<div class="refsect3">
+<a name="hb-ot-metrics-get-y-variation.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>font</p></td>
+<td class="parameter_description"><p>an <a class="link" href="harfbuzz-hb-font.html#hb-font-t" title="hb_font_t"><span class="type">hb_font_t</span></a> object.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>metrics_tag</p></td>
+<td class="parameter_description"><p>tag of metrics value you like to fetch.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-ot-metrics-get-y-variation.returns"></a><h4>Returns</h4>
+<p> The requested metric value.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-2-6-0.html#api-index-2.6.0">2.6.0</a></p>
+</div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-ot-metrics.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="hb-ot-metrics-tag-t"></a><h3>enum hb_ot_metrics_tag_t</h3>
+<p>Metric tags corresponding to <a class="ulink" href="https://docs.microsoft.com/en-us/typography/opentype/spec/mvar#value-tags" target="_top">MVAR Value
+Tags</a></p>
+<div class="refsect3">
+<a name="hb-ot-metrics-tag-t.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-HORIZONTAL-ASCENDER:CAPS"></a>HB_OT_METRICS_TAG_HORIZONTAL_ASCENDER</p></td>
+<td class="enum_member_description">
+<p>horizontal ascender.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-HORIZONTAL-DESCENDER:CAPS"></a>HB_OT_METRICS_TAG_HORIZONTAL_DESCENDER</p></td>
+<td class="enum_member_description">
+<p>horizontal descender.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-HORIZONTAL-LINE-GAP:CAPS"></a>HB_OT_METRICS_TAG_HORIZONTAL_LINE_GAP</p></td>
+<td class="enum_member_description">
+<p>horizontal line gap.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-HORIZONTAL-CLIPPING-ASCENT:CAPS"></a>HB_OT_METRICS_TAG_HORIZONTAL_CLIPPING_ASCENT</p></td>
+<td class="enum_member_description">
+<p>horizontal clipping ascent.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-HORIZONTAL-CLIPPING-DESCENT:CAPS"></a>HB_OT_METRICS_TAG_HORIZONTAL_CLIPPING_DESCENT</p></td>
+<td class="enum_member_description">
+<p>horizontal clipping descent.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-VERTICAL-ASCENDER:CAPS"></a>HB_OT_METRICS_TAG_VERTICAL_ASCENDER</p></td>
+<td class="enum_member_description">
+<p>vertical ascender.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-VERTICAL-DESCENDER:CAPS"></a>HB_OT_METRICS_TAG_VERTICAL_DESCENDER</p></td>
+<td class="enum_member_description">
+<p>vertical descender.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-VERTICAL-LINE-GAP:CAPS"></a>HB_OT_METRICS_TAG_VERTICAL_LINE_GAP</p></td>
+<td class="enum_member_description">
+<p>vertical line gap.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-HORIZONTAL-CARET-RISE:CAPS"></a>HB_OT_METRICS_TAG_HORIZONTAL_CARET_RISE</p></td>
+<td class="enum_member_description">
+<p>horizontal caret rise.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-HORIZONTAL-CARET-RUN:CAPS"></a>HB_OT_METRICS_TAG_HORIZONTAL_CARET_RUN</p></td>
+<td class="enum_member_description">
+<p>horizontal caret run.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-HORIZONTAL-CARET-OFFSET:CAPS"></a>HB_OT_METRICS_TAG_HORIZONTAL_CARET_OFFSET</p></td>
+<td class="enum_member_description">
+<p>horizontal caret offset.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-VERTICAL-CARET-RISE:CAPS"></a>HB_OT_METRICS_TAG_VERTICAL_CARET_RISE</p></td>
+<td class="enum_member_description">
+<p>vertical caret rise.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-VERTICAL-CARET-RUN:CAPS"></a>HB_OT_METRICS_TAG_VERTICAL_CARET_RUN</p></td>
+<td class="enum_member_description">
+<p>vertical caret run.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-VERTICAL-CARET-OFFSET:CAPS"></a>HB_OT_METRICS_TAG_VERTICAL_CARET_OFFSET</p></td>
+<td class="enum_member_description">
+<p>vertical caret offset.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-X-HEIGHT:CAPS"></a>HB_OT_METRICS_TAG_X_HEIGHT</p></td>
+<td class="enum_member_description">
+<p>x height.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-CAP-HEIGHT:CAPS"></a>HB_OT_METRICS_TAG_CAP_HEIGHT</p></td>
+<td class="enum_member_description">
+<p>cap height.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-SUBSCRIPT-EM-X-SIZE:CAPS"></a>HB_OT_METRICS_TAG_SUBSCRIPT_EM_X_SIZE</p></td>
+<td class="enum_member_description">
+<p>subscript em x size.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-SUBSCRIPT-EM-Y-SIZE:CAPS"></a>HB_OT_METRICS_TAG_SUBSCRIPT_EM_Y_SIZE</p></td>
+<td class="enum_member_description">
+<p>subscript em y size.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-SUBSCRIPT-EM-X-OFFSET:CAPS"></a>HB_OT_METRICS_TAG_SUBSCRIPT_EM_X_OFFSET</p></td>
+<td class="enum_member_description">
+<p>subscript em x offset.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-SUBSCRIPT-EM-Y-OFFSET:CAPS"></a>HB_OT_METRICS_TAG_SUBSCRIPT_EM_Y_OFFSET</p></td>
+<td class="enum_member_description">
+<p>subscript em y offset.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-SUPERSCRIPT-EM-X-SIZE:CAPS"></a>HB_OT_METRICS_TAG_SUPERSCRIPT_EM_X_SIZE</p></td>
+<td class="enum_member_description">
+<p>superscript em x size.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-SUPERSCRIPT-EM-Y-SIZE:CAPS"></a>HB_OT_METRICS_TAG_SUPERSCRIPT_EM_Y_SIZE</p></td>
+<td class="enum_member_description">
+<p>superscript em y size.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-SUPERSCRIPT-EM-X-OFFSET:CAPS"></a>HB_OT_METRICS_TAG_SUPERSCRIPT_EM_X_OFFSET</p></td>
+<td class="enum_member_description">
+<p>superscript em x offset.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-SUPERSCRIPT-EM-Y-OFFSET:CAPS"></a>HB_OT_METRICS_TAG_SUPERSCRIPT_EM_Y_OFFSET</p></td>
+<td class="enum_member_description">
+<p>superscript em y offset.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-STRIKEOUT-SIZE:CAPS"></a>HB_OT_METRICS_TAG_STRIKEOUT_SIZE</p></td>
+<td class="enum_member_description">
+<p>strikeout size.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-STRIKEOUT-OFFSET:CAPS"></a>HB_OT_METRICS_TAG_STRIKEOUT_OFFSET</p></td>
+<td class="enum_member_description">
+<p>strikeout offset.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-UNDERLINE-SIZE:CAPS"></a>HB_OT_METRICS_TAG_UNDERLINE_SIZE</p></td>
+<td class="enum_member_description">
+<p>underline size.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-METRICS-TAG-UNDERLINE-OFFSET:CAPS"></a>HB_OT_METRICS_TAG_UNDERLINE_OFFSET</p></td>
+<td class="enum_member_description">
+<p>underline offset.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-2-6-0.html#api-index-2.6.0">2.6.0</a></p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.33.1</div>
+</body>
+</html>

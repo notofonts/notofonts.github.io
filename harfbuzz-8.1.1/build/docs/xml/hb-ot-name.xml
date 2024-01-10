@@ -1,0 +1,422 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-ot-name">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-ot-name.top_of_page">hb-ot-name</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-ot-name</refname>
+<refpurpose>OpenType font name information</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-ot-name.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type">const <link linkend="hb-ot-name-entry-t"><returnvalue>hb_ot_name_entry_t</returnvalue></link>&#160;*
+</entry><entry role="function_name"><link linkend="hb-ot-name-list-names">hb_ot_name_list_names</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-name-get-utf16">hb_ot_name_get_utf16</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-name-get-utf32">hb_ot_name_get_utf32</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+<row><entry role="function_type">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-name-get-utf8">hb_ot_name_get_utf8</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-name.other" role="other_proto">
+<title role="other_proto.title">Types and Values</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="other_proto_type" colwidth="150px"/>
+<colspec colname="other_proto_name"/>
+<tbody>
+<row><entry role="typedef_keyword">typedef</entry><entry role="function_name"><link linkend="hb-ot-name-id-t">hb_ot_name_id_t</link></entry></row>
+<row><entry role="datatype_keyword">enum</entry><entry role="function_name"><link linkend="hb-ot-name-id-predefined-t">hb_ot_name_id_predefined_t</link></entry></row>
+<row><entry role="datatype_keyword"></entry><entry role="function_name"><link linkend="hb-ot-name-entry-t">hb_ot_name_entry_t</link></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-ot-name.includes"><title>Includes</title><synopsis>#include &lt;hb-ot.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-ot-name.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Functions for fetching name strings from OpenType fonts.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-name.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-ot-name-list-names" role="function" condition="since:2.1.0">
+<title>hb_ot_name_list_names&#160;()</title>
+<indexterm zone="hb-ot-name-list-names" role="2.1.0"><primary>hb_ot_name_list_names</primary></indexterm>
+<programlisting language="C">const <link linkend="hb-ot-name-entry-t"><returnvalue>hb_ot_name_entry_t</returnvalue></link>&#160;*
+hb_ot_name_list_names (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                       <parameter>unsigned <link linkend="int"><type>int</type></link> *num_entries</parameter>);</programlisting>
+<para>Enumerates all available name IDs and language combinations. Returned
+array is owned by the <parameter>face</parameter>
+ and should not be modified.  It can be
+used as long as <parameter>face</parameter>
+ is alive.</para>
+<refsect3 id="hb-ot-name-list-names.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>font face.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>num_entries</para></entry>
+<entry role="parameter_description"><para>number of returned entries. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-name-list-names.returns" role="returns">
+<title>Returns</title>
+<para>Array of available name entries. </para>
+<para><emphasis role="annotation">[<acronym>transfer none</acronym>][<acronym>array</acronym> length=num_entries]</emphasis></para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-ot-name-get-utf16" role="function" condition="since:2.1.0">
+<title>hb_ot_name_get_utf16&#160;()</title>
+<indexterm zone="hb-ot-name-get-utf16" role="2.1.0"><primary>hb_ot_name_get_utf16</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_name_get_utf16 (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                      <parameter><link linkend="hb-ot-name-id-t"><type>hb_ot_name_id_t</type></link> name_id</parameter>,
+                      <parameter><link linkend="hb-language-t"><type>hb_language_t</type></link> language</parameter>,
+                      <parameter>unsigned <link linkend="int"><type>int</type></link> *text_size</parameter>,
+                      <parameter><link linkend="uint16-t"><type>uint16_t</type></link> *text</parameter>);</programlisting>
+<para>Fetches a font name from the OpenType 'name' table.
+If <parameter>language</parameter>
+ is <link linkend="HB-LANGUAGE-INVALID:CAPS"><type>HB_LANGUAGE_INVALID</type></link>, English ("en") is assumed.
+Returns string in UTF-16 encoding. A NUL terminator is always written
+for convenience, and isn't included in the output <parameter>text_size</parameter>
+.</para>
+<refsect3 id="hb-ot-name-get-utf16.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>font face.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>name_id</para></entry>
+<entry role="parameter_description"><para>OpenType name identifier to fetch.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language</para></entry>
+<entry role="parameter_description"><para>language to fetch the name for.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>text_size</para></entry>
+<entry role="parameter_description"><para>input size of <parameter>text</parameter>
+buffer, and output size of
+text written to buffer. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>text</para></entry>
+<entry role="parameter_description"><para>buffer to write fetched name into. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out caller-allocates</acronym>][<acronym>array</acronym> length=text_size]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-name-get-utf16.returns" role="returns">
+<title>Returns</title>
+<para> full length of the requested string, or 0 if not found.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-ot-name-get-utf32" role="function" condition="since:2.1.0">
+<title>hb_ot_name_get_utf32&#160;()</title>
+<indexterm zone="hb-ot-name-get-utf32" role="2.1.0"><primary>hb_ot_name_get_utf32</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_name_get_utf32 (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                      <parameter><link linkend="hb-ot-name-id-t"><type>hb_ot_name_id_t</type></link> name_id</parameter>,
+                      <parameter><link linkend="hb-language-t"><type>hb_language_t</type></link> language</parameter>,
+                      <parameter>unsigned <link linkend="int"><type>int</type></link> *text_size</parameter>,
+                      <parameter><link linkend="uint32-t"><type>uint32_t</type></link> *text</parameter>);</programlisting>
+<para>Fetches a font name from the OpenType 'name' table.
+If <parameter>language</parameter>
+ is <link linkend="HB-LANGUAGE-INVALID:CAPS"><type>HB_LANGUAGE_INVALID</type></link>, English ("en") is assumed.
+Returns string in UTF-32 encoding. A NUL terminator is always written
+for convenience, and isn't included in the output <parameter>text_size</parameter>
+.</para>
+<refsect3 id="hb-ot-name-get-utf32.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>font face.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>name_id</para></entry>
+<entry role="parameter_description"><para>OpenType name identifier to fetch.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language</para></entry>
+<entry role="parameter_description"><para>language to fetch the name for.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>text_size</para></entry>
+<entry role="parameter_description"><para>input size of <parameter>text</parameter>
+buffer, and output size of
+text written to buffer. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>text</para></entry>
+<entry role="parameter_description"><para>buffer to write fetched name into. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out caller-allocates</acronym>][<acronym>array</acronym> length=text_size]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-name-get-utf32.returns" role="returns">
+<title>Returns</title>
+<para> full length of the requested string, or 0 if not found.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+<refsect2 id="hb-ot-name-get-utf8" role="function" condition="since:2.1.0">
+<title>hb_ot_name_get_utf8&#160;()</title>
+<indexterm zone="hb-ot-name-get-utf8" role="2.1.0"><primary>hb_ot_name_get_utf8</primary></indexterm>
+<programlisting language="C">unsigned <link linkend="int"><returnvalue>int</returnvalue></link>
+hb_ot_name_get_utf8 (<parameter><link linkend="hb-face-t"><type>hb_face_t</type></link> *face</parameter>,
+                     <parameter><link linkend="hb-ot-name-id-t"><type>hb_ot_name_id_t</type></link> name_id</parameter>,
+                     <parameter><link linkend="hb-language-t"><type>hb_language_t</type></link> language</parameter>,
+                     <parameter>unsigned <link linkend="int"><type>int</type></link> *text_size</parameter>,
+                     <parameter><link linkend="char"><type>char</type></link> *text</parameter>);</programlisting>
+<para>Fetches a font name from the OpenType 'name' table.
+If <parameter>language</parameter>
+ is <link linkend="HB-LANGUAGE-INVALID:CAPS"><type>HB_LANGUAGE_INVALID</type></link>, English ("en") is assumed.
+Returns string in UTF-8 encoding. A NUL terminator is always written
+for convenience, and isn't included in the output <parameter>text_size</parameter>
+.</para>
+<refsect3 id="hb-ot-name-get-utf8.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>face</para></entry>
+<entry role="parameter_description"><para>font face.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>name_id</para></entry>
+<entry role="parameter_description"><para>OpenType name identifier to fetch.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>language</para></entry>
+<entry role="parameter_description"><para>language to fetch the name for.</para></entry>
+<entry role="parameter_annotations"></entry></row>
+<row><entry role="parameter_name"><para>text_size</para></entry>
+<entry role="parameter_description"><para>input size of <parameter>text</parameter>
+buffer, and output size of
+text written to buffer. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>inout</acronym>][<acronym>optional</acronym>]</emphasis></entry></row>
+<row><entry role="parameter_name"><para>text</para></entry>
+<entry role="parameter_description"><para>buffer to write fetched name into. </para></entry>
+<entry role="parameter_annotations"><emphasis role="annotation">[<acronym>out caller-allocates</acronym>][<acronym>array</acronym> length=text_size]</emphasis></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><refsect3 id="hb-ot-name-get-utf8.returns" role="returns">
+<title>Returns</title>
+<para> full length of the requested string, or 0 if not found.</para>
+</refsect3><para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-name.other_details" role="details">
+<title role="details.title">Types and Values</title>
+<refsect2 id="hb-ot-name-id-t" role="typedef" condition="since:2.0.0">
+<title>hb_ot_name_id_t</title>
+<indexterm zone="hb-ot-name-id-t" role="2.0.0"><primary>hb_ot_name_id_t</primary></indexterm>
+<programlisting language="C">typedef unsigned int hb_ot_name_id_t;
+</programlisting>
+<para>An integral type representing an OpenType 'name' table name identifier.
+There are predefined name IDs, as well as name IDs return from other
+API.  These can be used to fetch name strings from a font face.</para>
+<para role="since">Since: <link linkend="api-index-2.0.0">2.0.0</link></para></refsect2>
+<refsect2 id="hb-ot-name-id-predefined-t" role="enum" condition="since:7.0.0">
+<title>enum hb_ot_name_id_predefined_t</title>
+<indexterm zone="hb-ot-name-id-predefined-t" role="7.0.0"><primary>hb_ot_name_id_predefined_t</primary></indexterm>
+<para>An enum type representing the pre-defined name IDs.</para>
+<para>For more information on these fields, see the
+<ulink url="https://docs.microsoft.com/en-us/typography/opentype/spec/name#name-ids">OpenType spec</ulink>.</para>
+<refsect3 id="hb-ot-name-id-predefined-t.members" role="enum_members">
+<title>Members</title>
+<informaltable role="enum_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="enum_members_name" colwidth="300px"/>
+<colspec colname="enum_members_description"/>
+<colspec colname="enum_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-COPYRIGHT:CAPS">HB_OT_NAME_ID_COPYRIGHT</para></entry>
+<entry role="enum_member_description"><para>Copyright notice</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-FONT-FAMILY:CAPS">HB_OT_NAME_ID_FONT_FAMILY</para></entry>
+<entry role="enum_member_description"><para>Font Family name</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-FONT-SUBFAMILY:CAPS">HB_OT_NAME_ID_FONT_SUBFAMILY</para></entry>
+<entry role="enum_member_description"><para>Font Subfamily name</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-UNIQUE-ID:CAPS">HB_OT_NAME_ID_UNIQUE_ID</para></entry>
+<entry role="enum_member_description"><para>Unique font identifier</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-FULL-NAME:CAPS">HB_OT_NAME_ID_FULL_NAME</para></entry>
+<entry role="enum_member_description"><para>Full font name that reflects
+all family and relevant subfamily descriptors</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-VERSION-STRING:CAPS">HB_OT_NAME_ID_VERSION_STRING</para></entry>
+<entry role="enum_member_description"><para>Version string</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-POSTSCRIPT-NAME:CAPS">HB_OT_NAME_ID_POSTSCRIPT_NAME</para></entry>
+<entry role="enum_member_description"><para>PostScript name for the font</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-TRADEMARK:CAPS">HB_OT_NAME_ID_TRADEMARK</para></entry>
+<entry role="enum_member_description"><para>Trademark</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-MANUFACTURER:CAPS">HB_OT_NAME_ID_MANUFACTURER</para></entry>
+<entry role="enum_member_description"><para>Manufacturer Name</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-DESIGNER:CAPS">HB_OT_NAME_ID_DESIGNER</para></entry>
+<entry role="enum_member_description"><para>Designer</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-DESCRIPTION:CAPS">HB_OT_NAME_ID_DESCRIPTION</para></entry>
+<entry role="enum_member_description"><para>Description</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-VENDOR-URL:CAPS">HB_OT_NAME_ID_VENDOR_URL</para></entry>
+<entry role="enum_member_description"><para>URL of font vendor</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-DESIGNER-URL:CAPS">HB_OT_NAME_ID_DESIGNER_URL</para></entry>
+<entry role="enum_member_description"><para>URL of typeface designer</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-LICENSE:CAPS">HB_OT_NAME_ID_LICENSE</para></entry>
+<entry role="enum_member_description"><para>License Description</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-LICENSE-URL:CAPS">HB_OT_NAME_ID_LICENSE_URL</para></entry>
+<entry role="enum_member_description"><para>URL where additional licensing
+information can be found</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-TYPOGRAPHIC-FAMILY:CAPS">HB_OT_NAME_ID_TYPOGRAPHIC_FAMILY</para></entry>
+<entry role="enum_member_description"><para>Typographic Family name</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-TYPOGRAPHIC-SUBFAMILY:CAPS">HB_OT_NAME_ID_TYPOGRAPHIC_SUBFAMILY</para></entry>
+<entry role="enum_member_description"><para>Typographic Subfamily name</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-MAC-FULL-NAME:CAPS">HB_OT_NAME_ID_MAC_FULL_NAME</para></entry>
+<entry role="enum_member_description"><para>Compatible Full Name for MacOS</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-SAMPLE-TEXT:CAPS">HB_OT_NAME_ID_SAMPLE_TEXT</para></entry>
+<entry role="enum_member_description"><para>Sample text</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-CID-FINDFONT-NAME:CAPS">HB_OT_NAME_ID_CID_FINDFONT_NAME</para></entry>
+<entry role="enum_member_description"><para>PostScript CID findfont name</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-WWS-FAMILY:CAPS">HB_OT_NAME_ID_WWS_FAMILY</para></entry>
+<entry role="enum_member_description"><para>WWS Family Name</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-WWS-SUBFAMILY:CAPS">HB_OT_NAME_ID_WWS_SUBFAMILY</para></entry>
+<entry role="enum_member_description"><para>WWS Subfamily Name</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-LIGHT-BACKGROUND:CAPS">HB_OT_NAME_ID_LIGHT_BACKGROUND</para></entry>
+<entry role="enum_member_description"><para>Light Background Palette</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-DARK-BACKGROUND:CAPS">HB_OT_NAME_ID_DARK_BACKGROUND</para></entry>
+<entry role="enum_member_description"><para>Dark Background Palette</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-VARIATIONS-PS-PREFIX:CAPS">HB_OT_NAME_ID_VARIATIONS_PS_PREFIX</para></entry>
+<entry role="enum_member_description"><para>Variations PostScript Name Prefix</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+<row role="constant"><entry role="enum_member_name"><para id="HB-OT-NAME-ID-INVALID:CAPS">HB_OT_NAME_ID_INVALID</para></entry>
+<entry role="enum_member_description"><para>Value to represent a nonexistent name ID.</para>
+</entry>
+<entry role="enum_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-7.0.0">7.0.0</link></para></refsect2>
+<refsect2 id="hb-ot-name-entry-t" role="struct" condition="since:2.1.0">
+<title>hb_ot_name_entry_t</title>
+<indexterm zone="hb-ot-name-entry-t" role="2.1.0"><primary>hb_ot_name_entry_t</primary></indexterm>
+<programlisting language="C">typedef struct {
+  hb_ot_name_id_t name_id;
+  hb_language_t   language;
+} hb_ot_name_entry_t;
+</programlisting>
+<para>Structure representing a name ID in a particular language.</para>
+<refsect3 id="hb-ot-name-entry-t.members" role="struct_members">
+<title>Members</title>
+<informaltable role="struct_members_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="struct_members_name" colwidth="300px"/>
+<colspec colname="struct_members_description"/>
+<colspec colname="struct_members_annotations" colwidth="200px"/>
+<tbody>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-ot-name-id-t"><type>hb_ot_name_id_t</type></link>&#160;<structfield id="hb-ot-name-entry-t.name-id">name_id</structfield>;</para></entry>
+<entry role="struct_member_description"><para>name ID</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+<row role="member"><entry role="struct_member_name"><para><link linkend="hb-language-t"><type>hb_language_t</type></link>&#160;<structfield id="hb-ot-name-entry-t.language">language</structfield>;</para></entry>
+<entry role="struct_member_description"><para>language</para></entry>
+<entry role="struct_member_annotations"></entry>
+</row>
+</tbody></tgroup></informaltable>
+</refsect3>
+<para role="since">Since: <link linkend="api-index-2.1.0">2.1.0</link></para></refsect2>
+
+</refsect1>
+
+</refentry>

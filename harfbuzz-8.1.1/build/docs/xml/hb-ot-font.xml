@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<refentry id="harfbuzz-hb-ot-font">
+<refmeta>
+<refentrytitle role="top_of_page" id="harfbuzz-hb-ot-font.top_of_page">hb-ot-font</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>HARFBUZZ Library</refmiscinfo>
+</refmeta>
+<refnamediv>
+<refname>hb-ot-font</refname>
+<refpurpose>OpenType font implementation</refpurpose>
+</refnamediv>
+
+<refsect1 id="harfbuzz-hb-ot-font.functions" role="functions_proto">
+<title role="functions_proto.title">Functions</title>
+<informaltable pgwide="1" frame="none">
+<tgroup cols="2">
+<colspec colname="functions_proto_type" colwidth="150px"/>
+<colspec colname="functions_proto_name"/>
+<tbody>
+<row><entry role="function_type"><link linkend="void"><returnvalue>void</returnvalue></link>
+</entry><entry role="function_name"><link linkend="hb-ot-font-set-funcs">hb_ot_font_set_funcs</link>&#160;<phrase role="c_punctuation">()</phrase></entry></row>
+
+</tbody>
+</tgroup>
+</informaltable>
+</refsect1>
+
+<refsect1 id="harfbuzz-hb-ot-font.includes"><title>Includes</title><synopsis>#include &lt;hb-ot.h&gt;
+</synopsis></refsect1>
+
+<refsect1 id="harfbuzz-hb-ot-font.description" role="desc">
+<title role="desc.title">Description</title>
+<para>Functions for using OpenType fonts with <link linkend="hb-shape"><function>hb_shape()</function></link>.  Note that fonts returned
+by <link linkend="hb-font-create"><function>hb_font_create()</function></link> default to using these functions, so most clients would
+never need to call these functions directly.</para>
+
+</refsect1>
+<refsect1 id="harfbuzz-hb-ot-font.functions_details" role="details">
+<title role="details.title">Functions</title>
+<refsect2 id="hb-ot-font-set-funcs" role="function" condition="since:0.9.28">
+<title>hb_ot_font_set_funcs&#160;()</title>
+<indexterm zone="hb-ot-font-set-funcs" role="0.9.28"><primary>hb_ot_font_set_funcs</primary></indexterm>
+<programlisting language="C"><link linkend="void"><returnvalue>void</returnvalue></link>
+hb_ot_font_set_funcs (<parameter><link linkend="hb-font-t"><type>hb_font_t</type></link> *font</parameter>);</programlisting>
+<para>Sets the font functions to use when working with <parameter>font</parameter>
+.</para>
+<refsect3 id="hb-ot-font-set-funcs.parameters" role="parameters">
+<title>Parameters</title>
+<informaltable role="parameters_table" pgwide="1" frame="none">
+<tgroup cols="3">
+<colspec colname="parameters_name" colwidth="150px"/>
+<colspec colname="parameters_description"/>
+<colspec colname="parameters_annotations" colwidth="200px"/>
+<tbody>
+<row><entry role="parameter_name"><para>font</para></entry>
+<entry role="parameter_description"><para><link linkend="hb-font-t"><type>hb_font_t</type></link> to work upon</para></entry>
+<entry role="parameter_annotations"></entry></row>
+</tbody></tgroup></informaltable>
+</refsect3><para role="since">Since: <link linkend="api-index-0.9.28">0.9.28</link></para></refsect2>
+
+</refsect1>
+
+</refentry>

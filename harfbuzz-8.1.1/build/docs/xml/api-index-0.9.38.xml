@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-0.9.38">
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="hb-ft-face-create-referenced"><link linkend="hb-ft-face-create-referenced">hb_ft_face_create_referenced</link>, function in <link linkend="harfbuzz-hb-ft">hb-ft</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ft-font-create-referenced"><link linkend="hb-ft-font-create-referenced">hb_ft_font_create_referenced</link>, function in <link linkend="harfbuzz-hb-ft">hb-ft</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>G</title>
+<indexentry><primaryie linkends="hb-glib-blob-create"><link linkend="hb-glib-blob-create">hb_glib_blob_create</link>, function in <link linkend="harfbuzz-hb-glib">hb-glib</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-glib-get-unicode-funcs"><link linkend="hb-glib-get-unicode-funcs">hb_glib_get_unicode_funcs</link>, function in <link linkend="harfbuzz-hb-glib">hb-glib</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-glib-script-from-script"><link linkend="hb-glib-script-from-script">hb_glib_script_from_script</link>, function in <link linkend="harfbuzz-hb-glib">hb-glib</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-glib-script-to-script"><link linkend="hb-glib-script-to-script">hb_glib_script_to_script</link>, function in <link linkend="harfbuzz-hb-glib">hb-glib</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>I</title>
+<indexentry><primaryie linkends="hb-icu-get-unicode-funcs"><link linkend="hb-icu-get-unicode-funcs">hb_icu_get_unicode_funcs</link>, function in <link linkend="harfbuzz-hb-icu">hb-icu</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

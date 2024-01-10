@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-6.0.0">
+<indexdiv><title>S</title>
+<indexentry><primaryie linkends="hb-subset-input-pin-axis-location"><link linkend="hb-subset-input-pin-axis-location">hb_subset_input_pin_axis_location</link>, function in <link linkend="harfbuzz-hb-subset">hb-subset</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-subset-input-pin-axis-to-default"><link linkend="hb-subset-input-pin-axis-to-default">hb_subset_input_pin_axis_to_default</link>, function in <link linkend="harfbuzz-hb-subset">hb-subset</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-subset-preprocess"><link linkend="hb-subset-preprocess">hb_subset_preprocess</link>, function in <link linkend="harfbuzz-hb-subset">hb-subset</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

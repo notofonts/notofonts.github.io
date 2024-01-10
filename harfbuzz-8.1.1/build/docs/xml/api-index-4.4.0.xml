@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-4.4.0">
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="hb-font-changed"><link linkend="hb-font-changed">hb_font_changed</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-serial"><link linkend="hb-font-get-serial">hb_font_get_serial</link>, function in <link linkend="harfbuzz-hb-font">hb-font</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ft-hb-font-changed"><link linkend="hb-ft-hb-font-changed">hb_ft_hb_font_changed</link>, function in <link linkend="harfbuzz-hb-ft">hb-ft</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>M</title>
+<indexentry><primaryie linkends="hb-map-copy"><link linkend="hb-map-copy">hb_map_copy</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-map-hash"><link linkend="hb-map-hash">hb_map_hash</link>, function in <link linkend="harfbuzz-hb-map">hb-map</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>S</title>
+<indexentry><primaryie linkends="hb-set-hash"><link linkend="hb-set-hash">hb_set_hash</link>, function in <link linkend="harfbuzz-hb-set">hb-set</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

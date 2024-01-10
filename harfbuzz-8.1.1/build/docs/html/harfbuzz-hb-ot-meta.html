@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>hb-ot-meta: HarfBuzz Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets Vsnapshot">
+<link rel="home" href="index.html" title="HarfBuzz Manual">
+<link rel="up" href="opentype-api.html" title="OpenType API">
+<link rel="prev" href="harfbuzz-hb-ot-math.html" title="hb-ot-math">
+<link rel="next" href="harfbuzz-hb-ot-metrics.html" title="hb-ot-metrics">
+<meta name="generator" content="GTK-Doc V1.33.1 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#harfbuzz-hb-ot-meta.description" class="shortcut">Description</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="opentype-api.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="harfbuzz-hb-ot-math.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="harfbuzz-hb-ot-metrics.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="harfbuzz-hb-ot-meta"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="harfbuzz-hb-ot-meta.top_of_page"></a>hb-ot-meta</span></h2>
+<p>hb-ot-meta — OpenType Metadata</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="harfbuzz-hb-ot-meta.functions"></a><h2>Functions</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="functions_proto_type">
+<col class="functions_proto_name">
+</colgroup>
+<tbody>
+<tr>
+<td class="function_type">unsigned <span class="returnvalue">int</span>
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-ot-meta.html#hb-ot-meta-get-entry-tags" title="hb_ot_meta_get_entry_tags ()">hb_ot_meta_get_entry_tags</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="harfbuzz-hb-blob.html#hb-blob-t" title="hb_blob_t"><span class="returnvalue">hb_blob_t</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="harfbuzz-hb-ot-meta.html#hb-ot-meta-reference-entry" title="hb_ot_meta_reference_entry ()">hb_ot_meta_reference_entry</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-ot-meta.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="other_proto_type">
+<col class="other_proto_name">
+</colgroup>
+<tbody><tr>
+<td class="datatype_keyword">enum</td>
+<td class="function_name"><a class="link" href="harfbuzz-hb-ot-meta.html#hb-ot-meta-tag-t" title="enum hb_ot_meta_tag_t">hb_ot_meta_tag_t</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-ot-meta.includes"></a><h2>Includes</h2>
+<pre class="synopsis">#include &lt;hb-ot.h&gt;
+</pre>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-ot-meta.description"></a><h2>Description</h2>
+<p>Functions for fetching metadata from fonts.</p>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-ot-meta.functions_details"></a><h2>Functions</h2>
+<div class="refsect2">
+<a name="hb-ot-meta-get-entry-tags"></a><h3>hb_ot_meta_get_entry_tags ()</h3>
+<pre class="programlisting">unsigned <span class="returnvalue">int</span>
+hb_ot_meta_get_entry_tags (<em class="parameter"><code><a class="link" href="harfbuzz-hb-face.html#hb-face-t" title="hb_face_t"><span class="type">hb_face_t</span></a> *face</code></em>,
+                           <em class="parameter"><code>unsigned <span class="type">int</span> start_offset</code></em>,
+                           <em class="parameter"><code>unsigned <span class="type">int</span> *entries_count</code></em>,
+                           <em class="parameter"><code><a class="link" href="harfbuzz-hb-ot-meta.html#hb-ot-meta-tag-t" title="enum hb_ot_meta_tag_t"><span class="type">hb_ot_meta_tag_t</span></a> *entries</code></em>);</pre>
+<p>Fetches all available feature types.</p>
+<div class="refsect3">
+<a name="hb-ot-meta-get-entry-tags.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>face</p></td>
+<td class="parameter_description"><p>a face object</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>start_offset</p></td>
+<td class="parameter_description"><p>iteration's start offset</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>entries_count</p></td>
+<td class="parameter_description"><p>buffer size as input, filled size as output. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Parameter for input and for returning results. Default is transfer full."><span class="acronym">inout</span></acronym>][<acronym title="NULL may be passed instead of a pointer to a location."><span class="acronym">optional</span></acronym>]</span></td>
+</tr>
+<tr>
+<td class="parameter_name"><p>entries</p></td>
+<td class="parameter_description"><p>entries tags buffer. </p></td>
+<td class="parameter_annotations"><span class="annotation">[<acronym title="Out parameter, where caller must allocate storage."><span class="acronym">out caller-allocates</span></acronym>][<acronym title="Parameter points to an array of items."><span class="acronym">array</span></acronym> length=entries_count]</span></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-ot-meta-get-entry-tags.returns"></a><h4>Returns</h4>
+<p> Number of all available feature types.</p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-2-6-0.html#api-index-2.6.0">2.6.0</a></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="hb-ot-meta-reference-entry"></a><h3>hb_ot_meta_reference_entry ()</h3>
+<pre class="programlisting"><a class="link" href="harfbuzz-hb-blob.html#hb-blob-t" title="hb_blob_t"><span class="returnvalue">hb_blob_t</span></a> *
+hb_ot_meta_reference_entry (<em class="parameter"><code><a class="link" href="harfbuzz-hb-face.html#hb-face-t" title="hb_face_t"><span class="type">hb_face_t</span></a> *face</code></em>,
+                            <em class="parameter"><code><a class="link" href="harfbuzz-hb-ot-meta.html#hb-ot-meta-tag-t" title="enum hb_ot_meta_tag_t"><span class="type">hb_ot_meta_tag_t</span></a> meta_tag</code></em>);</pre>
+<p>It fetches metadata entry of a given tag from a font.</p>
+<div class="refsect3">
+<a name="hb-ot-meta-reference-entry.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>face</p></td>
+<td class="parameter_description"><p>a <a class="link" href="harfbuzz-hb-face.html#hb-face-t" title="hb_face_t"><span class="type">hb_face_t</span></a> object.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>meta_tag</p></td>
+<td class="parameter_description"><p>tag of metadata you like to have.</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="hb-ot-meta-reference-entry.returns"></a><h4>Returns</h4>
+<p>A blob containing the blob. </p>
+<p><span class="annotation">[<acronym title="The caller owns the data, and is responsible for free it."><span class="acronym">transfer full</span></acronym>]</span></p>
+</div>
+<p class="since">Since: <a class="link" href="api-index-2-6-0.html#api-index-2.6.0">2.6.0</a></p>
+</div>
+</div>
+<div class="refsect1">
+<a name="harfbuzz-hb-ot-meta.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="hb-ot-meta-tag-t"></a><h3>enum hb_ot_meta_tag_t</h3>
+<p>Known metadata tags from https://docs.microsoft.com/en-us/typography/opentype/spec/meta</p>
+<div class="refsect3">
+<a name="hb-ot-meta-tag-t.members"></a><h4>Members</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="300px" class="enum_members_name">
+<col class="enum_members_description">
+<col width="200px" class="enum_members_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-META-TAG-DESIGN-LANGUAGES:CAPS"></a>HB_OT_META_TAG_DESIGN_LANGUAGES</p></td>
+<td class="enum_member_description">
+<p>Design languages. Text, using only
+Basic Latin (ASCII) characters. Indicates languages and/or scripts
+for the user audiences that the font was primarily designed for.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+<tr>
+<td class="enum_member_name"><p><a name="HB-OT-META-TAG-SUPPORTED-LANGUAGES:CAPS"></a>HB_OT_META_TAG_SUPPORTED_LANGUAGES</p></td>
+<td class="enum_member_description">
+<p>Supported languages. Text, using
+only Basic Latin (ASCII) characters. Indicates languages and/or scripts
+that the font is declared to be capable of supporting.</p>
+</td>
+<td class="enum_member_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<p class="since">Since: <a class="link" href="api-index-2-6-0.html#api-index-2.6.0">2.6.0</a></p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.33.1</div>
+</body>
+</html>

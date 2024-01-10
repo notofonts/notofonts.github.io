@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+               "http://www.oasis-open.org/docbook/xml/4.3/docbookx.dtd" [
+  <!ENTITY % local.common.attrib "xmlns:xi  CDATA  #FIXED 'http://www.w3.org/2003/XInclude'">
+  <!ENTITY version SYSTEM "version.xml">
+]>
+<indexdiv id="api-index-4.0.0">
+<indexdiv><title>D</title>
+<indexentry><primaryie linkends="hb-draw-close-path"><link linkend="hb-draw-close-path">hb_draw_close_path</link>, function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-close-path-func-t"><link linkend="hb-draw-close-path-func-t">hb_draw_close_path_func_t</link>, user_function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-cubic-to"><link linkend="hb-draw-cubic-to">hb_draw_cubic_to</link>, function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-cubic-to-func-t"><link linkend="hb-draw-cubic-to-func-t">hb_draw_cubic_to_func_t</link>, user_function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-funcs-create"><link linkend="hb-draw-funcs-create">hb_draw_funcs_create</link>, function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-funcs-destroy"><link linkend="hb-draw-funcs-destroy">hb_draw_funcs_destroy</link>, function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-funcs-is-immutable"><link linkend="hb-draw-funcs-is-immutable">hb_draw_funcs_is_immutable</link>, function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-funcs-make-immutable"><link linkend="hb-draw-funcs-make-immutable">hb_draw_funcs_make_immutable</link>, function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-funcs-reference"><link linkend="hb-draw-funcs-reference">hb_draw_funcs_reference</link>, function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-funcs-set-close-path-func"><link linkend="hb-draw-funcs-set-close-path-func">hb_draw_funcs_set_close_path_func</link>, function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-funcs-set-cubic-to-func"><link linkend="hb-draw-funcs-set-cubic-to-func">hb_draw_funcs_set_cubic_to_func</link>, function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-funcs-set-line-to-func"><link linkend="hb-draw-funcs-set-line-to-func">hb_draw_funcs_set_line_to_func</link>, function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-funcs-set-move-to-func"><link linkend="hb-draw-funcs-set-move-to-func">hb_draw_funcs_set_move_to_func</link>, function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-funcs-set-quadratic-to-func"><link linkend="hb-draw-funcs-set-quadratic-to-func">hb_draw_funcs_set_quadratic_to_func</link>, function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-funcs-t"><link linkend="hb-draw-funcs-t">hb_draw_funcs_t</link>, typedef in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-line-to"><link linkend="hb-draw-line-to">hb_draw_line_to</link>, function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-line-to-func-t"><link linkend="hb-draw-line-to-func-t">hb_draw_line_to_func_t</link>, user_function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-move-to"><link linkend="hb-draw-move-to">hb_draw_move_to</link>, function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-move-to-func-t"><link linkend="hb-draw-move-to-func-t">hb_draw_move_to_func_t</link>, user_function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-quadratic-to"><link linkend="hb-draw-quadratic-to">hb_draw_quadratic_to</link>, function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-quadratic-to-func-t"><link linkend="hb-draw-quadratic-to-func-t">hb_draw_quadratic_to_func_t</link>, user_function in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-draw-state-t"><link linkend="hb-draw-state-t">hb_draw_state_t</link>, struct in <link linkend="harfbuzz-hb-draw">hb-draw</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>F</title>
+<indexentry><primaryie linkends="hb-font-funcs-set-glyph-shape-func"><link linkend="hb-font-funcs-set-glyph-shape-func">hb_font_funcs_set_glyph_shape_func</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-shape"><link linkend="hb-font-get-glyph-shape">hb_font_get_glyph_shape</link>, function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-font-get-glyph-shape-func-t"><link linkend="hb-font-get-glyph-shape-func-t">hb_font_get_glyph_shape_func_t</link>, user_function in <link linkend="harfbuzz-hb-deprecated">hb-deprecated</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>O</title>
+<indexentry><primaryie linkends="hb-ot-layout-get-baseline-with-fallback"><link linkend="hb-ot-layout-get-baseline-with-fallback">hb_ot_layout_get_baseline_with_fallback</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-layout-get-horizontal-baseline-tag-for-script"><link linkend="hb-ot-layout-get-horizontal-baseline-tag-for-script">hb_ot_layout_get_horizontal_baseline_tag_for_script</link>, function in <link linkend="harfbuzz-hb-ot-layout">hb-ot-layout</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-ot-metrics-get-position-with-fallback"><link linkend="hb-ot-metrics-get-position-with-fallback">hb_ot_metrics_get_position_with_fallback</link>, function in <link linkend="harfbuzz-hb-ot-metrics">hb-ot-metrics</link></primaryie></indexentry>
+</indexdiv>
+<indexdiv><title>S</title>
+<indexentry><primaryie linkends="hb-subset-plan-create-or-fail"><link linkend="hb-subset-plan-create-or-fail">hb_subset_plan_create_or_fail</link>, function in <link linkend="harfbuzz-hb-subset">hb-subset</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-subset-plan-destroy"><link linkend="hb-subset-plan-destroy">hb_subset_plan_destroy</link>, function in <link linkend="harfbuzz-hb-subset">hb-subset</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-subset-plan-execute-or-fail"><link linkend="hb-subset-plan-execute-or-fail">hb_subset_plan_execute_or_fail</link>, function in <link linkend="harfbuzz-hb-subset">hb-subset</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-subset-plan-get-user-data"><link linkend="hb-subset-plan-get-user-data">hb_subset_plan_get_user_data</link>, function in <link linkend="harfbuzz-hb-subset">hb-subset</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-subset-plan-new-to-old-glyph-mapping"><link linkend="hb-subset-plan-new-to-old-glyph-mapping">hb_subset_plan_new_to_old_glyph_mapping</link>, function in <link linkend="harfbuzz-hb-subset">hb-subset</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-subset-plan-old-to-new-glyph-mapping"><link linkend="hb-subset-plan-old-to-new-glyph-mapping">hb_subset_plan_old_to_new_glyph_mapping</link>, function in <link linkend="harfbuzz-hb-subset">hb-subset</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-subset-plan-reference"><link linkend="hb-subset-plan-reference">hb_subset_plan_reference</link>, function in <link linkend="harfbuzz-hb-subset">hb-subset</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-subset-plan-set-user-data"><link linkend="hb-subset-plan-set-user-data">hb_subset_plan_set_user_data</link>, function in <link linkend="harfbuzz-hb-subset">hb-subset</link></primaryie></indexentry>
+<indexentry><primaryie linkends="hb-subset-plan-unicode-to-old-glyph-mapping"><link linkend="hb-subset-plan-unicode-to-old-glyph-mapping">hb_subset_plan_unicode_to_old_glyph_mapping</link>, function in <link linkend="harfbuzz-hb-subset">hb-subset</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

@@ -1,0 +1,11 @@
+prefix=/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1/build
+srcdir=/home/runner/work/notofonts.github.io/notofonts.github.io/harfbuzz-8.1.1
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+Name: harfbuzz-gobject
+Description: HarfBuzz text shaping library GObject integration
+Version: 8.1.1
+Requires: harfbuzz =  8.1.1, glib-2.0, gobject-2.0
+Libs: -L${prefix}/src -lharfbuzz-gobject
+Cflags: -I${prefix}/src -I${srcdir}/src -I${prefix}/. -I${srcdir}/.
