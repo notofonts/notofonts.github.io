@@ -178,7 +178,7 @@
    }
   ],
   "repo_url": "https://www.github.com/notofonts/ahom",
-  "tier": 4,
+  "tier": 3,
   "title": "Noto Ahom"
  },
  "anatolian-hieroglyphs": {
@@ -10641,8 +10641,23 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 113,
+  "issue_count": 116,
   "issues": [
+   {
+    "number": 459,
+    "title": "Make semibold masters sparse",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/459"
+   },
+   {
+    "number": 458,
+    "title": "Kerning inconsistency in Cyrillic",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/458"
+   },
+   {
+    "number": 457,
+    "title": "Intention to \"sparsify\" semibold master",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/457"
+   },
    {
     "number": 456,
     "title": "Interpolation problems in `NotoSerif-Italic[wdth,wght].ttf`",
@@ -12565,8 +12580,33 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 13,
   "issues": [
+   {
+    "number": 53,
+    "title": "Minusplus symbol misaligned",
+    "url": "https://github.com/notofonts/math/issues/53"
+   },
+   {
+    "number": 52,
+    "title": "Sans coproduct sign is confusable with disjoint union",
+    "url": "https://github.com/notofonts/math/issues/52"
+   },
+   {
+    "number": 51,
+    "title": "Integrals are too upright and confusable with brackets/lines",
+    "url": "https://github.com/notofonts/math/issues/51"
+   },
+   {
+    "number": 50,
+    "title": "Placement of index in radicals is too tight",
+    "url": "https://github.com/notofonts/math/issues/50"
+   },
+   {
+    "number": 49,
+    "title": "Spacing is too tight",
+    "url": "https://github.com/notofonts/math/issues/49"
+   },
    {
     "number": 47,
     "title": "Isosceles right triangle glyphs aren\u2019t right-angled",
