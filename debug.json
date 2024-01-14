@@ -635,8 +635,18 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 8,
   "issues": [
+   {
+    "number": 228,
+    "title": "[naskh] Fix allah-ar ligature",
+    "url": "https://github.com/notofonts/arabic/pull/228"
+   },
+   {
+    "number": 227,
+    "title": "Allah does not ligate",
+    "url": "https://github.com/notofonts/arabic/issues/227"
+   },
    {
     "number": 226,
     "title": "Interpolation problems in `NotoNaskhArabic[wght].ttf`",
