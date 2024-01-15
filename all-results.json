@@ -59,56 +59,56 @@
   "closedAt": "2023-07-24T11:06:59Z",
   "createdAt": "2022-06-22T17:11:54Z",
   "repo": "ahom",
-  "tier": 4,
+  "tier": 3,
   "url": "https://github.com/notofonts/ahom/issues/5"
  },
  {
   "closedAt": "2023-03-24T16:17:59Z",
   "createdAt": "2022-07-04T05:37:57Z",
   "repo": "ahom",
-  "tier": 4,
+  "tier": 3,
   "url": "https://github.com/notofonts/ahom/issues/6"
  },
  {
   "closedAt": "2023-07-24T11:04:36Z",
   "createdAt": "2022-11-16T00:03:32Z",
   "repo": "ahom",
-  "tier": 4,
+  "tier": 3,
   "url": "https://github.com/notofonts/ahom/issues/14"
  },
  {
   "closedAt": "2023-09-22T09:29:57Z",
   "createdAt": "2023-03-24T19:34:56Z",
   "repo": "ahom",
-  "tier": 4,
+  "tier": 3,
   "url": "https://github.com/notofonts/ahom/issues/16"
  },
  {
   "closedAt": "2023-10-16T10:31:26Z",
   "createdAt": "2023-09-27T20:43:19Z",
   "repo": "ahom",
-  "tier": 4,
+  "tier": 3,
   "url": "https://github.com/notofonts/ahom/issues/17"
  },
  {
   "closedAt": null,
   "createdAt": "2023-09-28T01:59:53Z",
   "repo": "ahom",
-  "tier": 4,
+  "tier": 3,
   "url": "https://github.com/notofonts/ahom/issues/18"
  },
  {
   "closedAt": null,
   "createdAt": "2023-09-29T02:16:56Z",
   "repo": "ahom",
-  "tier": 4,
+  "tier": 3,
   "url": "https://github.com/notofonts/ahom/issues/19"
  },
  {
   "closedAt": null,
   "createdAt": "2023-09-29T18:10:45Z",
   "repo": "ahom",
-  "tier": 4,
+  "tier": 3,
   "url": "https://github.com/notofonts/ahom/issues/20"
  },
  {
@@ -530,6 +530,13 @@
   "repo": "arabic",
   "tier": 1,
   "url": "https://github.com/notofonts/arabic/issues/226"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-01-13T14:15:29Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/227"
  },
  {
   "closedAt": "2023-09-25T08:47:47Z",
@@ -1589,7 +1596,7 @@
   "url": "https://github.com/notofonts/grantha/issues/20"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-01-08T10:24:03Z",
   "createdAt": "2023-12-31T21:06:16Z",
   "repo": "grantha",
   "tier": 4,
@@ -4802,6 +4809,20 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/456"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-01-10T17:36:42Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/457"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-01-11T19:13:57Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/458"
+ },
+ {
   "closedAt": "2023-05-24T20:06:31Z",
   "createdAt": "2018-03-06T02:22:11Z",
   "repo": "limbu",
@@ -5258,6 +5279,41 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-01-12T09:15:19Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/49"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-01-12T09:19:41Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/50"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-01-12T09:21:58Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/51"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-01-12T09:23:46Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/52"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-01-12T09:28:14Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/53"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2018-06-10T14:53:53Z",
   "repo": "meetei-mayek",
   "tier": 3,
@@ -5444,6 +5500,13 @@
   "repo": "multani",
   "tier": 3,
   "url": "https://github.com/notofonts/multani/issues/2"
+ },
+ {
+  "closedAt": "2024-01-12T12:56:38Z",
+  "createdAt": "2024-01-11T10:00:49Z",
+  "repo": "multani",
+  "tier": 3,
+  "url": "https://github.com/notofonts/multani/issues/4"
  },
  {
   "closedAt": "2023-04-17T15:52:39Z",
@@ -8057,7 +8120,7 @@
   "url": "https://github.com/notofonts/toto/issues/3"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-01-08T10:38:35Z",
   "createdAt": "2023-12-28T20:09:30Z",
   "repo": "toto",
   "tier": 3,
