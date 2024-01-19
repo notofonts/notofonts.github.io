@@ -12585,8 +12585,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 12,
+  "issue_count": 13,
   "issues": [
+   {
+    "number": 54,
+    "title": "Request to consider splitting Noto Sans Math into two fonts---a serif and a sans serif one",
+    "url": "https://github.com/notofonts/math/issues/54"
+   },
    {
     "number": 53,
     "title": "Minusplus symbol misaligned",

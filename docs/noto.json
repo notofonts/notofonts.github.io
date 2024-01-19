@@ -10406,6 +10406,11 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 54,
+    "title": "Request to consider splitting Noto Sans Math into two fonts---a serif and a sans serif one",
+    "url": "https://github.com/notofonts/math/issues/54"
+   },
+   {
     "number": 53,
     "title": "Minusplus symbol misaligned",
     "url": "https://github.com/notofonts/math/issues/53"
