@@ -3041,6 +3041,11 @@
   "gh_url": "https://notofonts.github.io/duployan",
   "issues": [
    {
+    "number": 8,
+    "title": "Two fonts in wrong directory?",
+    "url": "https://github.com/notofonts/duployan/issues/8"
+   },
+   {
     "number": 6,
     "title": "Leave and rename v2",
     "url": "https://github.com/notofonts/duployan/issues/6"
@@ -7869,7 +7874,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/lao",
-  "issues": [],
+  "issues": [
+   {
+    "number": 17,
+    "title": "Virama positioning",
+    "url": "https://github.com/notofonts/lao/issues/17"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/lao",
   "tier": 3,
   "title": "Noto Lao"
@@ -12499,6 +12510,11 @@
   },
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
+   {
+    "number": 38,
+    "title": "Sans: Above and below mark positioning",
+    "url": "https://github.com/notofonts/oriya/issues/38"
+   },
    {
     "number": 31,
     "title": "Bump cryptography from 41.0.1 to 41.0.4",
