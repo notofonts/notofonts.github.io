@@ -12069,6 +12069,11 @@
   "gh_url": "https://notofonts.github.io/old-hungarian",
   "issues": [
    {
+    "number": 19,
+    "title": "Choose between glyphs format and UFO",
+    "url": "https://github.com/notofonts/old-hungarian/issues/19"
+   },
+   {
     "number": 17,
     "title": "It might to good thing add syllable like ligatures.",
     "url": "https://github.com/notofonts/old-hungarian/issues/17"
