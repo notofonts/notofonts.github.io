@@ -1253,7 +1253,7 @@
   "url": "https://github.com/notofonts/devanagari/issues/34"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-01-17T15:08:43Z",
   "createdAt": "2023-04-04T20:10:21Z",
   "repo": "devanagari",
   "tier": 1,
@@ -1398,6 +1398,13 @@
   "repo": "duployan",
   "tier": 3,
   "url": "https://github.com/notofonts/duployan/issues/6"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-01-19T03:37:25Z",
+  "repo": "duployan",
+  "tier": 3,
+  "url": "https://github.com/notofonts/duployan/issues/8"
  },
  {
   "closedAt": null,
@@ -2749,6 +2756,13 @@
   "repo": "lao",
   "tier": 3,
   "url": "https://github.com/notofonts/lao/issues/14"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-01-19T18:55:10Z",
+  "repo": "lao",
+  "tier": 3,
+  "url": "https://github.com/notofonts/lao/issues/17"
  },
  {
   "closedAt": null,
@@ -5278,7 +5292,7 @@
   "url": "https://github.com/notofonts/math/issues/48"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-01-15T11:46:59Z",
   "createdAt": "2024-01-12T09:15:19Z",
   "repo": "math",
   "tier": 3,
@@ -5311,6 +5325,13 @@
   "repo": "math",
   "tier": 3,
   "url": "https://github.com/notofonts/math/issues/53"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-01-18T13:10:47Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/54"
  },
  {
   "closedAt": null,
@@ -6371,6 +6392,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-01-20T23:49:52Z",
+  "repo": "old-hungarian",
+  "tier": 4,
+  "url": "https://github.com/notofonts/old-hungarian/issues/19"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2022-12-07T08:25:20Z",
   "repo": "old-hungarian-ui",
   "tier": 4,
@@ -6620,6 +6648,13 @@
   "repo": "oriya",
   "tier": 1,
   "url": "https://github.com/notofonts/oriya/issues/37"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-01-20T00:37:32Z",
+  "repo": "oriya",
+  "tier": 1,
+  "url": "https://github.com/notofonts/oriya/issues/38"
  },
  {
   "closedAt": "2023-06-28T14:00:56Z",
