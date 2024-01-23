@@ -2092,10 +2092,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Brahmi v2.003\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-19T08:43:15",
-     "url": "https://github.com/notofonts/brahmi/releases/tag/NotoSansBrahmi-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Brahmi v2.004\n\nThis release:\n\n* Covers new codepoints in Unicode 14.0 (U+11071, U+11072), thanks to Ek Type.\n* Adds space before vocalic R (#6)\n* Improves the anchoring of AI vowel, BHATTIPROLU AA, and digits (#2, #4, #5)\n",
+     "published": "2024-01-22T21:55:28+00:00",
+     "url": "https://github.com/notofonts/brahmi/releases/tag/NotoSansBrahmi-v2.004",
+     "version": "v2.004"
     },
     "third_party_versions": {
      "Android 12": {
@@ -3699,13 +3699,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/devanagari",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 6,
   "issues": [
-   {
-    "number": 36,
-    "title": "Updated the position of Devanagari Nukta for the Santali language",
-    "url": "https://github.com/notofonts/devanagari/issues/36"
-   },
    {
     "number": 34,
     "title": "Noto Devanagari : Addition of more alternative glyphs",
@@ -8351,8 +8346,14 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/khitan-small-script",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 2,
+    "title": "Clarify difference between SerifKSS vs FangsonKSSVertical vs FangsongKSSRotated",
+    "url": "https://github.com/notofonts/khitan-small-script/issues/2"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/khitan-small-script",
   "tier": 5,
   "title": "Noto Khitan Small Script"
@@ -9607,14 +9608,8 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/lao",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 17,
-    "title": "Virama positioning",
-    "url": "https://github.com/notofonts/lao/issues/17"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/lao",
   "tier": 3,
   "title": "Noto Lao"

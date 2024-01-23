@@ -1525,23 +1525,24 @@
   "families": {
    "Noto Sans Brahmi": {
     "files": [
-     "fonts/NotoSansBrahmi/full/ttf/NotoSansBrahmi-Regular.ttf",
-     "fonts/NotoSansBrahmi/full/otf/NotoSansBrahmi-Regular.otf",
-     "fonts/NotoSansBrahmi/googlefonts/ttf/NotoSansBrahmi-Regular.ttf",
-     "fonts/NotoSansBrahmi/unhinted/ttf/NotoSansBrahmi-Regular.ttf",
      "fonts/NotoSansBrahmi/unhinted/otf/NotoSansBrahmi-Regular.otf",
-     "fonts/NotoSansBrahmi/hinted/ttf/NotoSansBrahmi-Regular.ttf"
+     "fonts/NotoSansBrahmi/unhinted/ttf/NotoSansBrahmi-Regular.ttf",
+     "fonts/NotoSansBrahmi/full/otf/NotoSansBrahmi-Regular.otf",
+     "fonts/NotoSansBrahmi/full/ttf/NotoSansBrahmi-Regular.ttf",
+     "fonts/NotoSansBrahmi/hinted/ttf/NotoSansBrahmi-Regular.ttf",
+     "fonts/NotoSansBrahmi/googlefonts/ttf/NotoSansBrahmi-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Brahmi v2.003\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-19T08:43:15",
-     "url": "https://github.com/notofonts/brahmi/releases/tag/NotoSansBrahmi-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Brahmi v2.004\n\nThis release:\n\n* Covers new codepoints in Unicode 14.0 (U+11071, U+11072), thanks to Ek Type.\n* Adds space before vocalic R (#6)\n* Improves the anchoring of AI vowel, BHATTIPROLU AA, and digits (#2, #4, #5)\n",
+     "published": "2024-01-22T21:55:28+00:00",
+     "url": "https://github.com/notofonts/brahmi/releases/tag/NotoSansBrahmi-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "known_releases": [
-   "NotoSansBrahmi-v2.003"
+   "NotoSansBrahmi-v2.003",
+   "NotoSansBrahmi-v2.004"
   ]
  },
  "buginese": {
