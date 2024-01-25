@@ -3077,9 +3077,24 @@
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "issues": [
    {
-    "number": 10,
-    "title": "U14 cows etc",
-    "url": "https://github.com/notofonts/egyptian-hieroglyphs/pull/10"
+    "number": 14,
+    "title": "NL8 = 13228: replace spear?",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/14"
+   },
+   {
+    "number": 13,
+    "title": "A60 = 13045: replace dashed line with dots?",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/13"
+   },
+   {
+    "number": 12,
+    "title": "Should we increase 25CC to the size of an average hiero?",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/12"
+   },
+   {
+    "number": 11,
+    "title": "Should I make big cartouches (13379\u20267B, 42F) as big as 13258 etc?",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/11"
    },
    {
     "number": 9,
@@ -3100,11 +3115,6 @@
     "number": 5,
     "title": "Add seven new hieroglyphs: reversed cartouche end, 2D destruction signs, 2D blanks",
     "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/5"
-   },
-   {
-    "number": 3,
-    "title": "Redraw Egyptian hieroglyphs according to 2021 changes",
-    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/3"
    },
    {
     "number": 2,
@@ -10825,6 +10835,11 @@
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
    {
+    "number": 36,
+    "title": "Fix OTL",
+    "url": "https://github.com/notofonts/mongolian/pull/36"
+   },
+   {
     "number": 32,
     "title": "Weights?",
     "url": "https://github.com/notofonts/mongolian/issues/32"
@@ -12063,16 +12078,6 @@
   },
   "gh_url": "https://notofonts.github.io/old-hungarian",
   "issues": [
-   {
-    "number": 19,
-    "title": "Choose between glyphs format and UFO",
-    "url": "https://github.com/notofonts/old-hungarian/issues/19"
-   },
-   {
-    "number": 17,
-    "title": "It might to good thing add syllable like ligatures.",
-    "url": "https://github.com/notofonts/old-hungarian/issues/17"
-   },
    {
     "number": 16,
     "title": "Small and capital letter must be aligned to a baseline.",
