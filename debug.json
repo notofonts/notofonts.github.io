@@ -3699,8 +3699,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/devanagari",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 40,
+    "title": "NotoSansDevanagari Font's Glyph named 'katadeva' is not working.",
+    "url": "https://github.com/notofonts/devanagari/issues/40"
+   },
    {
     "number": 34,
     "title": "Noto Devanagari : Addition of more alternative glyphs",
@@ -3990,8 +3995,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 11,
   "issues": [
+   {
+    "number": 15,
+    "title": "U14 part 3",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/pull/15"
+   },
    {
     "number": 14,
     "title": "NL8 = 13228: replace spear?",
@@ -14222,8 +14232,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 9,
   "issues": [
+   {
+    "number": 64,
+    "title": "dot collision, lam followed by peh",
+    "url": "https://github.com/notofonts/nastaliq/issues/64"
+   },
    {
     "number": 63,
     "title": "Collision between U+0650 ARABIC KASRA ARABIC KASRAH(\u25cc\u0650) and U+0628 ARABIC LETTER BEH(\u0628)",
