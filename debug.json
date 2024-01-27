@@ -635,18 +635,8 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 6,
   "issues": [
-   {
-    "number": 228,
-    "title": "[naskh] Fix allah-ar ligature",
-    "url": "https://github.com/notofonts/arabic/pull/228"
-   },
-   {
-    "number": 227,
-    "title": "Allah does not ligate",
-    "url": "https://github.com/notofonts/arabic/issues/227"
-   },
    {
     "number": 226,
     "title": "Interpolation problems in `NotoNaskhArabic[wght].ttf`",
@@ -2129,8 +2119,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/brahmi",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 13,
+    "title": "Vowel signs block non-spacing candrabindu",
+    "url": "https://github.com/notofonts/brahmi/issues/13"
+   },
    {
     "number": 1,
     "title": "Brahmi: conjucts are missing from the font",
@@ -12611,7 +12606,7 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 13,
+  "issue_count": 14,
   "issues": [
    {
     "number": 54,
@@ -12652,6 +12647,11 @@
     "number": 42,
     "title": " Incorrect baseline and size for U+2032  (prime)",
     "url": "https://github.com/notofonts/math/issues/42"
+   },
+   {
+    "number": 41,
+    "title": "Incorrect baseline and size for U+221E (infinity symbol)",
+    "url": "https://github.com/notofonts/math/issues/41"
    },
    {
     "number": 38,
@@ -14846,6 +14846,11 @@
   "issue_count": 5,
   "issues": [
    {
+    "number": 17,
+    "title": "It might to good thing add syllable like ligatures.",
+    "url": "https://github.com/notofonts/old-hungarian/issues/17"
+   },
+   {
     "number": 16,
     "title": "Small and capital letter must be aligned to a baseline.",
     "url": "https://github.com/notofonts/old-hungarian/issues/16"
@@ -14854,11 +14859,6 @@
     "number": 15,
     "title": "Old Hungarian font need capital ligatures, and several ligspec must not in the disc regio",
     "url": "https://github.com/notofonts/old-hungarian/issues/15"
-   },
-   {
-    "number": 14,
-    "title": "Missing capital ligatures in Old Hungarian script and ltr letters must be removed",
-    "url": "https://github.com/notofonts/old-hungarian/issues/14"
    },
    {
     "number": 2,
