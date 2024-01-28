@@ -10667,8 +10667,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 116,
+  "issue_count": 117,
   "issues": [
+   {
+    "number": 460,
+    "title": "U+1D5E and U+1D60 are subscript instead of superscript in Noto Serif",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/460"
+   },
    {
     "number": 459,
     "title": "Make semibold masters sparse",
@@ -14232,8 +14237,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 10,
   "issues": [
+   {
+    "number": 65,
+    "title": "Need Help With Android font issue",
+    "url": "https://github.com/notofonts/nastaliq/issues/65"
+   },
    {
     "number": 64,
     "title": "dot collision, lam followed by peh",
