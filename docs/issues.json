@@ -1,17 +1,17 @@
 {
  "closed_per_month": {
-  "1": 5
+  "1": 11
  },
  "open_per_repo": {
   "ahom": 3,
-  "arabic": 6,
-  "armenian": 1,
+  "arabic": 5,
+  "armenian": 2,
   "balinese": 4,
   "bamum": 1,
   "batak": 4,
   "bengali": 6,
   "bhaiksuki": 5,
-  "brahmi": 1,
+  "brahmi": 2,
   "canadian-aboriginal": 1,
   "chakma": 1,
   "chorasmian": 1,
@@ -21,7 +21,7 @@
   "dives-akuru": 6,
   "dogra": 1,
   "duployan": 2,
-  "egyptian-hieroglyphs": 7,
+  "egyptian-hieroglyphs": 10,
   "elbasan": 1,
   "ethiopic": 1,
   "georgian": 1,
@@ -36,14 +36,14 @@
   "kannada": 7,
   "kawi": 4,
   "kharoshthi": 1,
+  "khitan-small-script": 1,
   "khojki": 2,
   "khudawadi": 1,
-  "lao": 1,
-  "latin-greek-cyrillic": 115,
+  "latin-greek-cyrillic": 116,
   "lydian": 1,
   "malayalam": 9,
   "manichaean": 3,
-  "math": 13,
+  "math": 14,
   "meetei-mayek": 1,
   "miao": 1,
   "modi": 6,
@@ -52,9 +52,9 @@
   "music": 1,
   "myanmar": 31,
   "nandinagari": 3,
-  "nastaliq": 8,
+  "nastaliq": 10,
   "nko": 1,
-  "old-hungarian": 7,
+  "old-hungarian": 5,
   "old-hungarian-ui": 2,
   "old-italic": 1,
   "old-turkic": 2,
@@ -86,14 +86,14 @@
   "tirhuta": 10
  },
  "open_per_tier": {
-  "1": 187,
+  "1": 190,
   "2": 40,
   "3": 92,
-  "4": 52,
-  "5": 22
+  "4": 54,
+  "5": 23
  },
  "opened_per_month": {
-  "1": 20
+  "1": 31
  },
  "releases_per_month": {
   "1": [
@@ -112,6 +112,10 @@
    {
     "tag": "NotoSansBalinese-v2.004",
     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSansBalinese-v2.004"
+   },
+   {
+    "tag": "NotoSansBrahmi-v2.004",
+    "url": "https://github.com/notofonts/brahmi/releases/tag/NotoSansBrahmi-v2.004"
    },
    {
     "tag": "NotoSansCarian-v2.002",
@@ -676,6 +680,6 @@
   ]
  },
  "totals_per_month": {
-  "1": 378
+  "1": 379
  }
 }
