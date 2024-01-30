@@ -935,6 +935,11 @@
   "gh_url": "https://notofonts.github.io/armenian",
   "issues": [
    {
+    "number": 11,
+    "title": "Was Noto Sans Armenian removed / not on GitHub Pages?",
+    "url": "https://github.com/notofonts/armenian/issues/11"
+   },
+   {
     "number": 3,
     "title": "Italic (cursive) variants of Georgian and Armenian",
     "url": "https://github.com/notofonts/armenian/issues/3"
