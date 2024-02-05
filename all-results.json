@@ -736,6 +736,20 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-02-02T18:32:34Z",
+  "repo": "balinese",
+  "tier": 2,
+  "url": "https://github.com/notofonts/balinese/issues/37"
+ },
+ {
+  "closedAt": "2024-02-02T19:04:41Z",
+  "createdAt": "2024-02-02T18:40:48Z",
+  "repo": "balinese",
+  "tier": 2,
+  "url": "https://github.com/notofonts/balinese/issues/38"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2018-07-01T16:09:24Z",
   "repo": "bamum",
   "tier": 3,
@@ -2091,6 +2105,20 @@
   "repo": "hebrew",
   "tier": 1,
   "url": "https://github.com/notofonts/hebrew/issues/35"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-02-04T21:29:45Z",
+  "repo": "hebrew",
+  "tier": 1,
+  "url": "https://github.com/notofonts/hebrew/issues/36"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-02-04T21:40:31Z",
+  "repo": "hebrew",
+  "tier": 1,
+  "url": "https://github.com/notofonts/hebrew/issues/37"
  },
  {
   "closedAt": "2023-06-28T12:08:07Z",
@@ -4900,6 +4928,13 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/460"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-02-03T23:27:35Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/461"
+ },
+ {
   "closedAt": "2023-05-24T20:06:31Z",
   "createdAt": "2018-03-06T02:22:11Z",
   "repo": "limbu",
@@ -6972,6 +7007,13 @@
   "url": "https://github.com/notofonts/siddham/issues/23"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-02-02T18:43:09Z",
+  "repo": "siddham",
+  "tier": 3,
+  "url": "https://github.com/notofonts/siddham/issues/24"
+ },
+ {
   "closedAt": "2023-04-26T13:40:17Z",
   "createdAt": "2020-12-05T00:27:12Z",
   "repo": "sign-writing",
@@ -7082,6 +7124,13 @@
   "repo": "soyombo",
   "tier": 4,
   "url": "https://github.com/notofonts/soyombo/issues/3"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-01-31T22:31:34Z",
+  "repo": "soyombo",
+  "tier": 4,
+  "url": "https://github.com/notofonts/soyombo/issues/6"
  },
  {
   "closedAt": "2023-04-14T20:43:29Z",
@@ -7903,6 +7952,13 @@
   "url": "https://github.com/notofonts/telugu/issues/22"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-02-02T14:06:46Z",
+  "repo": "telugu",
+  "tier": 1,
+  "url": "https://github.com/notofonts/telugu/issues/23"
+ },
+ {
   "closedAt": "2023-05-25T19:38:07Z",
   "createdAt": "2023-01-24T07:09:45Z",
   "repo": "thaana",
@@ -8006,6 +8062,13 @@
   "repo": "thai",
   "tier": 2,
   "url": "https://github.com/notofonts/thai/issues/27"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-01-31T18:32:25Z",
+  "repo": "thai",
+  "tier": 2,
+  "url": "https://github.com/notofonts/thai/issues/28"
  },
  {
   "closedAt": null,
