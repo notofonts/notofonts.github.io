@@ -7113,8 +7113,23 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/hebrew",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 10,
   "issues": [
+   {
+    "number": 38,
+    "title": "Nikud misplaced horizontally under double-yud and double-vov digraphs",
+    "url": "https://github.com/notofonts/hebrew/issues/38"
+   },
+   {
+    "number": 37,
+    "title": "Noto Rashi Hebrew - no support for U+FB4F (Hebrew Ligature Alef Lamed)",
+    "url": "https://github.com/notofonts/hebrew/issues/37"
+   },
+   {
+    "number": 36,
+    "title": "Noto Rashi Hebrew - no support for U+FB1E (Hebrew Point Judeo-Spanish Varika)",
+    "url": "https://github.com/notofonts/hebrew/issues/36"
+   },
    {
     "number": 33,
     "title": "Kerning of the letter \u05e6",
@@ -10672,8 +10687,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 117,
+  "issue_count": 118,
   "issues": [
+   {
+    "number": 461,
+    "title": "Kerning inconsistent for decimal numbers '.'",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/461"
+   },
    {
     "number": 460,
     "title": "U+1D5E and U+1D60 are subscript instead of superscript in Noto Serif",
@@ -16497,8 +16517,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/siddham",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 24,
+    "title": "NotoSansSiddham-Regular.ttf GPOS table shows error",
+    "url": "https://github.com/notofonts/siddham/issues/24"
+   },
    {
     "number": 23,
     "title": "Matra is too wide in 'ss05' \u201cj\u00f1\u012b\u201d",
@@ -17354,8 +17379,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/soyombo",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 4,
   "issues": [
+   {
+    "number": 6,
+    "title": "Dotted circle disappears before most combining marks",
+    "url": "https://github.com/notofonts/soyombo/issues/6"
+   },
    {
     "number": 3,
     "title": "A few more fixups to Soyombo",
@@ -19808,8 +19838,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/telugu",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 5,
   "issues": [
+   {
+    "number": 23,
+    "title": "NotoSansTelugu font is not working in iOS 15 and 16 version",
+    "url": "https://github.com/notofonts/telugu/issues/23"
+   },
    {
     "number": 22,
     "title": "U+0C3C TELUGU SIGN NUKTA overlaps marks and blocks ligation",
@@ -20635,7 +20670,7 @@
     }
    }
   },
-  "families_count": 4,
+  "families_count": 3,
   "gh_url": "https://notofonts.github.io/thai",
   "has_releases": true,
   "issue_count": 3,
@@ -20891,8 +20926,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tifinagh",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 19,
+    "title": "Hello, I found an issue with a ligature, it is mentioned in the file attached",
+    "url": "https://github.com/notofonts/tifinagh/issues/19"
+   },
    {
     "number": 8,
     "title": "Half-implemented variant Tifinagh glyphs at inappropriate code points",
