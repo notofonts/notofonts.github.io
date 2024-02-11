@@ -91,3 +91,8 @@ It defines two kind of tests:
 
 * `python -m notoqa.regression` downloads the latest release of the family and runs regression tests between the current build and the previous, using `gftools.qa`.
 
+## Note
+This repository does not contain the following fonts:
+
+* Noto CJK fonts: https://github.com/notofonts/noto-cjk
+* Noto Emoji: https://github.com/googlefonts/noto-emoji
