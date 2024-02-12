@@ -567,7 +567,7 @@
   "url": "https://github.com/notofonts/armenian/issues/5"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-07T16:59:31Z",
   "createdAt": "2024-01-29T02:41:43Z",
   "repo": "armenian",
   "tier": 1,
@@ -735,7 +735,7 @@
   "url": "https://github.com/notofonts/balinese/issues/36"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-05T21:21:37Z",
   "createdAt": "2024-02-02T18:32:34Z",
   "repo": "balinese",
   "tier": 2,
@@ -2119,6 +2119,13 @@
   "repo": "hebrew",
   "tier": 1,
   "url": "https://github.com/notofonts/hebrew/issues/37"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-02-07T00:57:46Z",
+  "repo": "hebrew",
+  "tier": 1,
+  "url": "https://github.com/notofonts/hebrew/issues/38"
  },
  {
   "closedAt": "2023-06-28T12:08:07Z",
@@ -8064,7 +8071,7 @@
   "url": "https://github.com/notofonts/thai/issues/27"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-05T09:20:29Z",
   "createdAt": "2024-01-31T18:32:25Z",
   "repo": "thai",
   "tier": 2,
@@ -8216,6 +8223,13 @@
   "repo": "tifinagh",
   "tier": 3,
   "url": "https://github.com/notofonts/tifinagh/issues/17"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-02-06T17:41:50Z",
+  "repo": "tifinagh",
+  "tier": 3,
+  "url": "https://github.com/notofonts/tifinagh/issues/19"
  },
  {
   "closedAt": null,
