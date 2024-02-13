@@ -287,10 +287,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Kufi Arabic v2.108\n\nThis release:\n\n* Brings codepoint support up to Unicode 14\n* Includes extensive re-engineering to fix bugs (particularly in minority languages), reduce glyphset size, and increase consistency with other Noto Arabic families\n",
-     "published": "2023-10-13T09:33:56+00:00",
-     "url": "https://github.com/notofonts/arabic/releases/tag/NotoKufiArabic-v2.108",
-     "version": "v2.108"
+     "notes": "Noto Kufi Arabi v2.109\n\nThis version restores the older (tighter) vertical metrics and fixes some issues anchoring marks to the dotted circle.\n",
+     "published": "2024-02-12T15:45:56+00:00",
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoKufiArabic-v2.109",
+     "version": "v2.109"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -635,17 +635,12 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 5,
   "issues": [
    {
     "number": 226,
     "title": "Interpolation problems in `NotoNaskhArabic[wght].ttf`",
     "url": "https://github.com/notofonts/arabic/issues/226"
-   },
-   {
-    "number": 224,
-    "title": "Add anchor to space and thinspace glyphs",
-    "url": "https://github.com/notofonts/arabic/pull/224"
    },
    {
     "number": 217,
@@ -4806,10 +4801,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Georgian v2.003\n\nThis release adds the numero to full builds (#6) and fixing a kerning issue (#2)\n",
-     "published": "2023-09-25T12:25:36",
-     "url": "https://github.com/notofonts/georgian/releases/tag/NotoSansGeorgian-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Georgian v2.004\n\nThis release:\n* corrects an issue with anchoring of accents on full builds\n* removes the semibold master - there may be some subtle weight changes but also some kerning improvements!\n",
+     "published": "2024-02-12T09:42:58+00:00",
+     "url": "https://github.com/notofonts/georgian/releases/tag/NotoSansGeorgian-v2.004",
+     "version": "v2.004"
     },
     "third_party_versions": {
      "Android 12": {
@@ -7108,8 +7103,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/hebrew",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 11,
   "issues": [
+   {
+    "number": 39,
+    "title": "3 Yiddish ligatures spacing should match component characters spacing (for a proportional font)",
+    "url": "https://github.com/notofonts/hebrew/issues/39"
+   },
    {
     "number": 38,
     "title": "Nikud misplaced horizontally under double-yud and double-vov digraphs",
