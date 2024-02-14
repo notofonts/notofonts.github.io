@@ -1203,7 +1203,7 @@
       "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-Medium.ttf",
       "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-Regular.ttf",
       "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-SemiBold.ttf",
-      "fonts/NotoSansBalinese/full/variable-ttf/NotoSansBalinese[wght].ttf"
+      "fonts/NotoSansBalinese/full/variable/NotoSansBalinese[wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSansBalinese/hinted/ttf/NotoSansBalinese-Bold.ttf",
@@ -1221,14 +1221,14 @@
       "fonts/NotoSansBalinese/unhinted/ttf/NotoSansBalinese-Medium.ttf",
       "fonts/NotoSansBalinese/unhinted/ttf/NotoSansBalinese-Regular.ttf",
       "fonts/NotoSansBalinese/unhinted/ttf/NotoSansBalinese-SemiBold.ttf",
-      "fonts/NotoSansBalinese/unhinted/variable-ttf/NotoSansBalinese[wght].ttf"
+      "fonts/NotoSansBalinese/unhinted/variable/NotoSansBalinese[wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Balinese v2.004\n\nThis release:\n\n* Encodes a number of new glyphs introduced in Unicode 14 (see #14)\n* Uses a precomposed glyph for the ma-suku ligature (see #15)\n* Fixes the formation of vowel ligatures with conjuncts (see #12)\n* Fixes a collision when using U+1B6A BALINESE MUSICAL SYMBOL DANG GEDE (see #13)\n",
-     "published": "2023-01-10T14:00:00",
-     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSansBalinese-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Balinese v2.005\n\nThis release:\n* Fixes many third-level stacking conjuncts (#3)\n* Fixes several other conjunct issues (#4)\n* Monospaces the musical symbols (#6)\n* Improves the rendering of -u/-uu after conjuncts (#10)\n* Improves the positioning of anchors on a dotted circles (#16)\n* Fixes a number of overlaps (#33)\n* Removes hinting from non-hinted builds (#37)\n",
+     "published": "2024-02-13T17:07:43+00:00",
+     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSansBalinese-v2.005",
+     "version": "v2.005"
     },
     "third_party_versions": {
      "Android 12": {
