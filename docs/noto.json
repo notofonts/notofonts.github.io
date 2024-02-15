@@ -1776,7 +1776,7 @@
       "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-Regular.ttf",
       "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-SemiBold.ttf",
       "fonts/NotoSansCanadianAboriginal/full/ttf/NotoSansCanadianAboriginal-Thin.ttf",
-      "fonts/NotoSansCanadianAboriginal/full/variable-ttf/NotoSansCanadianAboriginal[wght].ttf"
+      "fonts/NotoSansCanadianAboriginal/full/variable/NotoSansCanadianAboriginal[wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSansCanadianAboriginal/hinted/ttf/NotoSansCanadianAboriginal-Black.ttf",
@@ -1809,14 +1809,14 @@
       "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-Regular.ttf",
       "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-SemiBold.ttf",
       "fonts/NotoSansCanadianAboriginal/unhinted/ttf/NotoSansCanadianAboriginal-Thin.ttf",
-      "fonts/NotoSansCanadianAboriginal/unhinted/variable-ttf/NotoSansCanadianAboriginal[wght].ttf"
+      "fonts/NotoSansCanadianAboriginal/unhinted/variable/NotoSansCanadianAboriginal[wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "This release:\r\n\r\n* Adds stylistic set support for mid/low finals used in Athabaskan languages (#2)\r\n* Fixes inconsistent dot spacing (#5)",
-     "published": "2023-06-21T14:04:43",
-     "url": "https://github.com/notofonts/canadian-aboriginal/releases/tag/NotoSansCanadianAboriginal-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Canadian Aboriginal v2.004\n\nThis release:\n\n* adds the narrow no-break space character (U+202F) used in Cree.\n* removes the semibold master, regularizing some spacing and dot positioning.\n",
+     "published": "2024-02-14T08:09:00+00:00",
+     "url": "https://github.com/notofonts/canadian-aboriginal/releases/tag/NotoSansCanadianAboriginal-v2.004",
+     "version": "v2.004"
     }
    }
   },
@@ -3808,10 +3808,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Georgian v2.004\n\nThis release:\n* corrects an issue with anchoring of accents on full builds\n* removes the semibold master - there may be some subtle weight changes but also some kerning improvements!\n",
-     "published": "2024-02-12T09:42:58+00:00",
-     "url": "https://github.com/notofonts/georgian/releases/tag/NotoSansGeorgian-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Georgian v2.005\n\nThis release fixes an interpolation issue in Un+macron and Om+macron\n",
+     "published": "2024-02-14T11:24:07+00:00",
+     "url": "https://github.com/notofonts/georgian/releases/tag/NotoSansGeorgian-v2.005",
+     "version": "v2.005"
     }
    },
    "Noto Serif Georgian": {
@@ -4017,6 +4017,11 @@
   },
   "gh_url": "https://notofonts.github.io/georgian",
   "issues": [
+   {
+    "number": 7,
+    "title": "Combining characters are not in 'cmap'",
+    "url": "https://github.com/notofonts/georgian/issues/7"
+   },
    {
     "number": 4,
     "title": "Georgian Nuskhuri 2D00\u20262D2F is not canonical",
@@ -10238,6 +10243,16 @@
   },
   "gh_url": "https://notofonts.github.io/malayalam",
   "issues": [
+   {
+    "number": 27,
+    "title": "U10 Traditional Conjuncts?",
+    "url": "https://github.com/notofonts/malayalam/issues/27"
+   },
+   {
+    "number": 26,
+    "title": "BvBvD and BvDvD should not use a BvD ligature",
+    "url": "https://github.com/notofonts/malayalam/issues/26"
+   },
    {
     "number": 25,
     "title": "Interpolation problems in `NotoSansMalayalam[wdth,wght].ttf`",
