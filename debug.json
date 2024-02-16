@@ -3985,32 +3985,12 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "has_releases": true,
-  "issue_count": 11,
+  "issue_count": 7,
   "issues": [
-   {
-    "number": 15,
-    "title": "U14 part 3",
-    "url": "https://github.com/notofonts/egyptian-hieroglyphs/pull/15"
-   },
-   {
-    "number": 14,
-    "title": "NL8 = 13228: replace spear?",
-    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/14"
-   },
-   {
-    "number": 13,
-    "title": "A60 = 13045: replace dashed line with dots?",
-    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/13"
-   },
    {
     "number": 12,
     "title": "Should we increase 25CC to the size of an average hiero?",
     "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/12"
-   },
-   {
-    "number": 11,
-    "title": "Should I make big cartouches (13379\u20267B, 42F) as big as 13258 etc?",
-    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/11"
    },
    {
     "number": 9,
