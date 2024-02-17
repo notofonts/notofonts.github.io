@@ -1036,6 +1036,11 @@
   "gh_url": "https://notofonts.github.io/balinese",
   "issues": [
    {
+    "number": 40,
+    "title": "Marks block tedung ligatures",
+    "url": "https://github.com/notofonts/balinese/issues/40"
+   },
+   {
     "number": 36,
     "title": "\"Unhinted\" Balinese Sans TTF seems to be hinted",
     "url": "https://github.com/notofonts/balinese/issues/36"
@@ -6583,6 +6588,11 @@
   "gh_url": "https://notofonts.github.io/kawi",
   "issues": [
    {
+    "number": 16,
+    "title": "User shaping bug report on fonts.google.com",
+    "url": "https://github.com/notofonts/kawi/issues/16"
+   },
+   {
     "number": 13,
     "title": "Above-base anchors on post-base forms are inconsistent",
     "url": "https://github.com/notofonts/kawi/issues/13"
@@ -8879,6 +8889,11 @@
   },
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
+   {
+    "number": 462,
+    "title": "Issue with Noto Sans Display glyph \"\u00c7\"",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/462"
+   },
    {
     "number": 461,
     "title": "Kerning inconsistent for decimal numbers '.'",
@@ -14259,6 +14274,11 @@
   },
   "gh_url": "https://notofonts.github.io/syriac",
   "issues": [
+   {
+    "number": 25,
+    "title": "Shaping improvement recommendations",
+    "url": "https://github.com/notofonts/syriac/issues/25"
+   },
    {
     "number": 24,
     "title": "Interpolation problems in `NotoSansSyriac[wght].ttf`",
