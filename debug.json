@@ -10680,9 +10680,9 @@
   "issue_count": 119,
   "issues": [
    {
-    "number": 462,
-    "title": "Issue with Noto Sans Display glyph \"\u00c7\"",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/462"
+    "number": 463,
+    "title": "placement of diacritical wrong",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/463"
    },
    {
     "number": 461,
@@ -12308,7 +12308,7 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/malayalam",
   "has_releases": true,
-  "issue_count": 11,
+  "issue_count": 8,
   "issues": [
    {
     "number": 27,
@@ -12321,29 +12321,14 @@
     "url": "https://github.com/notofonts/malayalam/issues/26"
    },
    {
-    "number": 25,
-    "title": "Interpolation problems in `NotoSansMalayalam[wdth,wght].ttf`",
-    "url": "https://github.com/notofonts/malayalam/issues/25"
-   },
-   {
     "number": 24,
     "title": "Many marks overlap other glyphs",
     "url": "https://github.com/notofonts/malayalam/issues/24"
    },
    {
-    "number": 23,
-    "title": "U+0D4E MALAYALAM LETTER DOT REPH has inconsistent height",
-    "url": "https://github.com/notofonts/malayalam/issues/23"
-   },
-   {
     "number": 22,
     "title": "'dist' ignores marks that its rules would otherwise apply to",
     "url": "https://github.com/notofonts/malayalam/issues/22"
-   },
-   {
-    "number": 21,
-    "title": "U+0D4E MALAYALAM LETTER DOT REPH blocks alternative -i and -\u012b glyphs",
-    "url": "https://github.com/notofonts/malayalam/issues/21"
    },
    {
     "number": 20,
@@ -17704,8 +17689,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/symbols",
   "has_releases": true,
-  "issue_count": 11,
+  "issue_count": 12,
   "issues": [
+   {
+    "number": 82,
+    "title": "Character spacing problem \u266d\u266f\u266e",
+    "url": "https://github.com/notofonts/symbols/issues/82"
+   },
    {
     "number": 81,
     "title": "U+1D377 \"\ud834\udf77\" TALLY MARK ONE is spaced improperly",
