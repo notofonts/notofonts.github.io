@@ -1295,18 +1295,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/balinese",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 3,
   "issues": [
-   {
-    "number": 40,
-    "title": "Marks block tedung ligatures",
-    "url": "https://github.com/notofonts/balinese/issues/40"
-   },
-   {
-    "number": 36,
-    "title": "\"Unhinted\" Balinese Sans TTF seems to be hinted",
-    "url": "https://github.com/notofonts/balinese/issues/36"
-   },
    {
     "number": 34,
     "title": "Third-level la needs drawing",
@@ -1947,13 +1937,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/bengali",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 5,
   "issues": [
-   {
-    "number": 23,
-    "title": "Interpolation problems in `NotoSerifBengali[wdth,wght].ttf`",
-    "url": "https://github.com/notofonts/bengali/issues/23"
-   },
    {
     "number": 22,
     "title": "UI font has regressions",
@@ -5752,13 +5737,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/gujarati",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 6,
   "issues": [
-   {
-    "number": 34,
-    "title": "Interpolation problems in `NotoSerifGujarati[wght].ttf`",
-    "url": "https://github.com/notofonts/gujarati/issues/34"
-   },
    {
     "number": 29,
     "title": "Marks without anchor points overlap other glyphs",
@@ -5768,11 +5748,6 @@
     "number": 27,
     "title": "Ja-based clusters are not always ligated with vowel signs\u2019 vertical stems",
     "url": "https://github.com/notofonts/gujarati/issues/27"
-   },
-   {
-    "number": 11,
-    "title": "Position of anusvara (\u0a82) for Gujarati \u0a87, \u0a88, \u0a89",
-    "url": "https://github.com/notofonts/gujarati/issues/11"
    },
    {
     "number": 8,
@@ -12308,17 +12283,12 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/malayalam",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 7,
   "issues": [
    {
     "number": 27,
     "title": "U10 Traditional Conjuncts?",
     "url": "https://github.com/notofonts/malayalam/issues/27"
-   },
-   {
-    "number": 26,
-    "title": "BvBvD and BvDvD should not use a BvD ligature",
-    "url": "https://github.com/notofonts/malayalam/issues/26"
    },
    {
     "number": 24,
