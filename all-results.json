@@ -728,7 +728,7 @@
   "url": "https://github.com/notofonts/balinese/issues/35"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-18T12:07:24Z",
   "createdAt": "2023-10-18T18:21:57Z",
   "repo": "balinese",
   "tier": 2,
@@ -747,6 +747,13 @@
   "repo": "balinese",
   "tier": 2,
   "url": "https://github.com/notofonts/balinese/issues/38"
+ },
+ {
+  "closedAt": "2024-02-18T12:06:52Z",
+  "createdAt": "2024-02-16T20:04:54Z",
+  "repo": "balinese",
+  "tier": 2,
+  "url": "https://github.com/notofonts/balinese/issues/40"
  },
  {
   "closedAt": null,
@@ -882,7 +889,7 @@
   "url": "https://github.com/notofonts/bengali/issues/22"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-18T15:14:19Z",
   "createdAt": "2023-11-23T01:54:48Z",
   "repo": "bengali",
   "tier": 1,
@@ -1006,6 +1013,13 @@
   "repo": "canadian-aboriginal",
   "tier": 3,
   "url": "https://github.com/notofonts/canadian-aboriginal/issues/5"
+ },
+ {
+  "closedAt": "2024-02-13T21:01:56Z",
+  "createdAt": "2024-02-13T18:37:53Z",
+  "repo": "canadian-aboriginal",
+  "tier": 3,
+  "url": "https://github.com/notofonts/canadian-aboriginal/issues/7"
  },
  {
   "closedAt": "2023-01-03T08:27:14Z",
@@ -1491,7 +1505,7 @@
   "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/9"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-15T22:07:02Z",
   "createdAt": "2024-01-24T21:37:00Z",
   "repo": "egyptian-hieroglyphs",
   "tier": 4,
@@ -1505,14 +1519,14 @@
   "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/12"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-15T22:06:47Z",
   "createdAt": "2024-01-24T22:34:36Z",
   "repo": "egyptian-hieroglyphs",
   "tier": 4,
   "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/13"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-15T22:06:39Z",
   "createdAt": "2024-01-24T23:38:11Z",
   "repo": "egyptian-hieroglyphs",
   "tier": 4,
@@ -1594,6 +1608,13 @@
   "repo": "georgian",
   "tier": 2,
   "url": "https://github.com/notofonts/georgian/issues/6"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-02-14T13:51:27Z",
+  "repo": "georgian",
+  "tier": 2,
+  "url": "https://github.com/notofonts/georgian/issues/7"
  },
  {
   "closedAt": "2023-07-31T13:58:32Z",
@@ -1757,7 +1778,7 @@
   "url": "https://github.com/notofonts/gujarati/issues/10"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-18T15:02:38Z",
   "createdAt": "2020-07-21T11:42:56Z",
   "repo": "gujarati",
   "tier": 1,
@@ -1869,7 +1890,7 @@
   "url": "https://github.com/notofonts/gujarati/issues/33"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-18T12:15:31Z",
   "createdAt": "2024-01-04T15:19:26Z",
   "repo": "gujarati",
   "tier": 1,
@@ -2126,6 +2147,13 @@
   "repo": "hebrew",
   "tier": 1,
   "url": "https://github.com/notofonts/hebrew/issues/38"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-02-12T23:46:30Z",
+  "repo": "hebrew",
+  "tier": 1,
+  "url": "https://github.com/notofonts/hebrew/issues/39"
  },
  {
   "closedAt": "2023-06-28T12:08:07Z",
@@ -2392,6 +2420,13 @@
   "repo": "kawi",
   "tier": 4,
   "url": "https://github.com/notofonts/kawi/issues/15"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-02-16T22:28:55Z",
+  "repo": "kawi",
+  "tier": 4,
+  "url": "https://github.com/notofonts/kawi/issues/16"
  },
  {
   "closedAt": "2023-02-16T07:44:37Z",
@@ -4942,6 +4977,20 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/461"
  },
  {
+  "closedAt": "2024-02-17T16:51:27Z",
+  "createdAt": "2024-02-16T19:57:11Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/462"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-02-17T02:53:11Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/463"
+ },
+ {
   "closedAt": "2023-05-24T20:06:31Z",
   "createdAt": "2018-03-06T02:22:11Z",
   "repo": "limbu",
@@ -5047,7 +5096,7 @@
   "url": "https://github.com/notofonts/malayalam/issues/20"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-17T18:00:16Z",
   "createdAt": "2023-04-01T14:07:37Z",
   "repo": "malayalam",
   "tier": 1,
@@ -5061,7 +5110,7 @@
   "url": "https://github.com/notofonts/malayalam/issues/22"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-17T18:00:16Z",
   "createdAt": "2023-04-01T17:25:57Z",
   "repo": "malayalam",
   "tier": 1,
@@ -5075,11 +5124,25 @@
   "url": "https://github.com/notofonts/malayalam/issues/24"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-17T18:00:17Z",
   "createdAt": "2024-01-04T15:19:17Z",
   "repo": "malayalam",
   "tier": 1,
   "url": "https://github.com/notofonts/malayalam/issues/25"
+ },
+ {
+  "closedAt": "2024-02-18T11:56:15Z",
+  "createdAt": "2024-02-14T18:14:43Z",
+  "repo": "malayalam",
+  "tier": 1,
+  "url": "https://github.com/notofonts/malayalam/issues/26"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-02-14T18:18:17Z",
+  "repo": "malayalam",
+  "tier": 1,
+  "url": "https://github.com/notofonts/malayalam/issues/27"
  },
  {
   "closedAt": "2023-06-28T10:29:41Z",
@@ -7504,6 +7567,13 @@
   "url": "https://github.com/notofonts/symbols/issues/81"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-02-17T09:03:14Z",
+  "repo": "symbols",
+  "tier": 3,
+  "url": "https://github.com/notofonts/symbols/issues/82"
+ },
+ {
   "closedAt": "2023-01-03T07:09:33Z",
   "createdAt": "2015-08-07T14:12:30Z",
   "repo": "syriac",
@@ -7614,6 +7684,13 @@
   "repo": "syriac",
   "tier": 3,
   "url": "https://github.com/notofonts/syriac/issues/24"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-02-16T18:46:47Z",
+  "repo": "syriac",
+  "tier": 3,
+  "url": "https://github.com/notofonts/syriac/issues/25"
  },
  {
   "closedAt": "2023-06-09T11:14:09Z",

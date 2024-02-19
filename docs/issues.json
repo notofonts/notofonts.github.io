@@ -1,16 +1,16 @@
 {
  "closed_per_month": {
   "1": 11,
-  "2": 4
+  "2": 18
  },
  "open_per_repo": {
   "ahom": 3,
   "arabic": 5,
   "armenian": 1,
-  "balinese": 4,
+  "balinese": 3,
   "bamum": 1,
   "batak": 4,
-  "bengali": 6,
+  "bengali": 5,
   "bhaiksuki": 5,
   "brahmi": 2,
   "canadian-aboriginal": 1,
@@ -22,27 +22,27 @@
   "dives-akuru": 6,
   "dogra": 1,
   "duployan": 2,
-  "egyptian-hieroglyphs": 10,
+  "egyptian-hieroglyphs": 7,
   "elbasan": 1,
   "ethiopic": 1,
-  "georgian": 1,
+  "georgian": 2,
   "glagolitic": 1,
   "grantha": 2,
-  "gujarati": 8,
+  "gujarati": 6,
   "gurmukhi": 5,
   "hanunoo": 1,
-  "hebrew": 10,
+  "hebrew": 11,
   "javanese": 4,
   "kaithi": 7,
   "kannada": 7,
-  "kawi": 4,
+  "kawi": 5,
   "kharoshthi": 1,
   "khitan-small-script": 1,
   "khojki": 2,
   "khudawadi": 1,
-  "latin-greek-cyrillic": 117,
+  "latin-greek-cyrillic": 118,
   "lydian": 1,
-  "malayalam": 9,
+  "malayalam": 7,
   "manichaean": 3,
   "math": 14,
   "meetei-mayek": 1,
@@ -71,8 +71,8 @@
   "soyombo": 4,
   "sundanese": 1,
   "syloti-nagri": 5,
-  "symbols": 11,
-  "syriac": 6,
+  "symbols": 12,
+  "syriac": 7,
   "tagalog": 2,
   "tai-le": 1,
   "tai-tham": 1,
@@ -87,15 +87,15 @@
   "tirhuta": 10
  },
  "open_per_tier": {
-  "1": 194,
+  "1": 191,
   "2": 40,
-  "3": 94,
-  "4": 55,
+  "3": 96,
+  "4": 53,
   "5": 23
  },
  "opened_per_month": {
   "1": 31,
-  "2": 9
+  "2": 20
  },
  "releases_per_month": {
   "1": [
@@ -162,6 +162,28 @@
    {
     "tag": "NotoFangsongKSSRotated-v1.000",
     "url": "https://github.com/notofonts/khitan-small-script/releases/tag/NotoFangsongKSSRotated-v1.000"
+   }
+  ],
+  "2": [
+   {
+    "tag": "NotoKufiArabic-v2.109",
+    "url": "https://github.com/notofonts/arabic/releases/tag/NotoKufiArabic-v2.109"
+   },
+   {
+    "tag": "NotoSansBalinese-v2.005",
+    "url": "https://github.com/notofonts/balinese/releases/tag/NotoSansBalinese-v2.005"
+   },
+   {
+    "tag": "NotoSansCanadianAboriginal-v2.004",
+    "url": "https://github.com/notofonts/canadian-aboriginal/releases/tag/NotoSansCanadianAboriginal-v2.004"
+   },
+   {
+    "tag": "NotoSansGeorgian-v2.005",
+    "url": "https://github.com/notofonts/georgian/releases/tag/NotoSansGeorgian-v2.005"
+   },
+   {
+    "tag": "NotoSansGeorgian-v2.004",
+    "url": "https://github.com/notofonts/georgian/releases/tag/NotoSansGeorgian-v2.004"
    }
   ],
   "3": [
