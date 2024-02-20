@@ -10417,6 +10417,11 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 56,
+    "title": "Handle Unicode Variation Sequences using cmap to GSUB",
+    "url": "https://github.com/notofonts/math/pull/56"
+   },
+   {
     "number": 54,
     "title": "Request to consider splitting Noto Sans Math into two fonts---a serif and a sans serif one",
     "url": "https://github.com/notofonts/math/issues/54"
