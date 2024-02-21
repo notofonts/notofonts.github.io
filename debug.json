@@ -3975,8 +3975,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 8,
   "issues": [
+   {
+    "number": 16,
+    "title": "Strange metrics?",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/16"
+   },
    {
     "number": 12,
     "title": "Should we increase 25CC to the size of an average hiero?",
@@ -15525,13 +15530,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/oriya",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 3,
   "issues": [
-   {
-    "number": 38,
-    "title": "Sans: Above and below mark positioning",
-    "url": "https://github.com/notofonts/oriya/issues/38"
-   },
    {
     "number": 31,
     "title": "Bump cryptography from 41.0.1 to 41.0.4",

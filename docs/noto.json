@@ -3062,6 +3062,11 @@
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "issues": [
    {
+    "number": 16,
+    "title": "Strange metrics?",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/16"
+   },
+   {
     "number": 12,
     "title": "Should we increase 25CC to the size of an average hiero?",
     "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/12"
@@ -12530,11 +12535,6 @@
   },
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
-   {
-    "number": 38,
-    "title": "Sans: Above and below mark positioning",
-    "url": "https://github.com/notofonts/oriya/issues/38"
-   },
    {
     "number": 31,
     "title": "Bump cryptography from 41.0.1 to 41.0.4",
