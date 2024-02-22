@@ -635,8 +635,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 6,
   "issues": [
+   {
+    "number": 229,
+    "title": "Overlap Issue in Noto Sans Arabic",
+    "url": "https://github.com/notofonts/arabic/issues/229"
+   },
    {
     "number": 226,
     "title": "Interpolation problems in `NotoNaskhArabic[wght].ttf`",
@@ -2891,8 +2896,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/cuneiform",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 1,
+    "title": "Some glyphs do not show up in Adobe products",
+    "url": "https://github.com/notofonts/cuneiform/issues/1"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/cuneiform",
   "tier": 4,
   "title": "Noto Cuneiform"
