@@ -3986,7 +3986,7 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 7,
   "issues": [
    {
     "number": 16,
@@ -4012,11 +4012,6 @@
     "number": 6,
     "title": "Add hieroglyphic variants controlled by variation selectors",
     "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/6"
-   },
-   {
-    "number": 5,
-    "title": "Add seven new hieroglyphs: reversed cartouche end, 2D destruction signs, 2D blanks",
-    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/5"
    },
    {
     "number": 2,
@@ -12612,13 +12607,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 15,
+  "issue_count": 14,
   "issues": [
-   {
-    "number": 56,
-    "title": "Handle Unicode Variation Sequences using cmap to GSUB",
-    "url": "https://github.com/notofonts/math/pull/56"
-   },
    {
     "number": 54,
     "title": "Request to consider splitting Noto Sans Math into two fonts---a serif and a sans serif one",
@@ -19824,17 +19814,12 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/telugu",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 3,
   "issues": [
    {
     "number": 23,
     "title": "NotoSansTelugu font is not working in iOS 15 and 16 version",
     "url": "https://github.com/notofonts/telugu/issues/23"
-   },
-   {
-    "number": 22,
-    "title": "U+0C3C TELUGU SIGN NUKTA overlaps marks and blocks ligation",
-    "url": "https://github.com/notofonts/telugu/issues/22"
    },
    {
     "number": 21,
@@ -19845,11 +19830,6 @@
     "number": 18,
     "title": "Components of subscript j\u00f1a are positioned inconsistently",
     "url": "https://github.com/notofonts/telugu/issues/18"
-   },
-   {
-    "number": 17,
-    "title": "U+0C62 and U+0C63 overlap below-base marks",
-    "url": "https://github.com/notofonts/telugu/issues/17"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/telugu",
