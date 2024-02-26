@@ -539,6 +539,13 @@
   "url": "https://github.com/notofonts/arabic/issues/227"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-02-21T06:25:55Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/229"
+ },
+ {
   "closedAt": "2023-09-25T08:47:47Z",
   "createdAt": "2019-11-20T23:51:15Z",
   "repo": "armenian",
@@ -1177,6 +1184,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-02-21T15:50:49Z",
+  "repo": "cuneiform",
+  "tier": 4,
+  "url": "https://github.com/notofonts/cuneiform/issues/1"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2018-11-27T18:37:00Z",
   "repo": "deseret",
   "tier": 4,
@@ -1477,7 +1491,7 @@
   "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/3"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-22T18:54:37Z",
   "createdAt": "2022-09-14T07:45:07Z",
   "repo": "egyptian-hieroglyphs",
   "tier": 4,
@@ -1531,6 +1545,13 @@
   "repo": "egyptian-hieroglyphs",
   "tier": 4,
   "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/14"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-02-20T22:46:16Z",
+  "repo": "egyptian-hieroglyphs",
+  "tier": 4,
+  "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/16"
  },
  {
   "closedAt": "2023-06-28T11:05:00Z",
@@ -4991,6 +5012,13 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/463"
  },
  {
+  "closedAt": "2024-02-20T10:41:29Z",
+  "createdAt": "2024-02-20T03:27:26Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/464"
+ },
+ {
   "closedAt": "2023-05-24T20:06:31Z",
   "createdAt": "2018-03-06T02:22:11Z",
   "repo": "limbu",
@@ -6832,7 +6860,7 @@
   "url": "https://github.com/notofonts/oriya/issues/37"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-20T16:03:51Z",
   "createdAt": "2024-01-20T00:37:32Z",
   "repo": "oriya",
   "tier": 1,
@@ -8001,7 +8029,7 @@
   "url": "https://github.com/notofonts/telugu/issues/16"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-22T14:31:08Z",
   "createdAt": "2023-04-08T20:28:13Z",
   "repo": "telugu",
   "tier": 1,
@@ -8029,7 +8057,7 @@
   "url": "https://github.com/notofonts/telugu/issues/21"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-22T15:30:11Z",
   "createdAt": "2023-10-14T17:45:32Z",
   "repo": "telugu",
   "tier": 1,

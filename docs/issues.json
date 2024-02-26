@@ -1,11 +1,11 @@
 {
  "closed_per_month": {
   "1": 11,
-  "2": 18
+  "2": 23
  },
  "open_per_repo": {
   "ahom": 3,
-  "arabic": 5,
+  "arabic": 6,
   "armenian": 1,
   "balinese": 3,
   "bamum": 1,
@@ -17,6 +17,7 @@
   "chakma": 1,
   "chorasmian": 1,
   "coptic": 2,
+  "cuneiform": 1,
   "deseret": 1,
   "devanagari": 7,
   "dives-akuru": 6,
@@ -59,7 +60,7 @@
   "old-hungarian-ui": 2,
   "old-italic": 1,
   "old-turkic": 2,
-  "oriya": 2,
+  "oriya": 1,
   "pahawh-hmong": 1,
   "phags-pa": 1,
   "rejang": 1,
@@ -80,22 +81,22 @@
   "tamil": 2,
   "tangsa": 1,
   "tangut": 1,
-  "telugu": 5,
+  "telugu": 3,
   "thai": 3,
   "tibetan": 4,
   "tifinagh": 3,
   "tirhuta": 10
  },
  "open_per_tier": {
-  "1": 191,
+  "1": 189,
   "2": 40,
   "3": 96,
-  "4": 53,
+  "4": 54,
   "5": 23
  },
  "opened_per_month": {
   "1": 31,
-  "2": 20
+  "2": 24
  },
  "releases_per_month": {
   "1": [
