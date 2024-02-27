@@ -7079,8 +7079,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/hebrew",
   "has_releases": true,
-  "issue_count": 11,
+  "issue_count": 12,
   "issues": [
+   {
+    "number": 40,
+    "title": "VAV bottom anchor x position is too far right in Noto Hebrew Rashi for most weights",
+    "url": "https://github.com/notofonts/hebrew/issues/40"
+   },
    {
     "number": 39,
     "title": "3 Yiddish ligatures spacing should match component characters spacing (for a proportional font)",
@@ -13225,13 +13230,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mongolian",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 36,
-    "title": "Fix OTL",
-    "url": "https://github.com/notofonts/mongolian/pull/36"
-   },
    {
     "number": 32,
     "title": "Weights?",
@@ -17899,13 +17899,8 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/syriac",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 6,
   "issues": [
-   {
-    "number": 25,
-    "title": "Shaping improvement recommendations",
-    "url": "https://github.com/notofonts/syriac/issues/25"
-   },
    {
     "number": 24,
     "title": "Interpolation problems in `NotoSansSyriac[wght].ttf`",
