@@ -3915,13 +3915,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/duployan",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 8,
-    "title": "Two fonts in wrong directory?",
-    "url": "https://github.com/notofonts/duployan/issues/8"
-   },
    {
     "number": 6,
     "title": "Leave and rename v2",
@@ -7079,13 +7074,8 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/hebrew",
   "has_releases": true,
-  "issue_count": 12,
+  "issue_count": 11,
   "issues": [
-   {
-    "number": 40,
-    "title": "VAV bottom anchor x position is too far right in Noto Hebrew Rashi for most weights",
-    "url": "https://github.com/notofonts/hebrew/issues/40"
-   },
    {
     "number": 39,
     "title": "3 Yiddish ligatures spacing should match component characters spacing (for a proportional font)",
@@ -12612,8 +12602,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 14,
+  "issue_count": 15,
   "issues": [
+   {
+    "number": 57,
+    "title": "General review and fixes",
+    "url": "https://github.com/notofonts/math/pull/57"
+   },
    {
     "number": 54,
     "title": "Request to consider splitting Noto Sans Math into two fonts---a serif and a sans serif one",
@@ -13855,8 +13850,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/myanmar",
   "has_releases": true,
-  "issue_count": 31,
+  "issue_count": 32,
   "issues": [
+   {
+    "number": 65,
+    "title": "redesign of some glyphs for Shan",
+    "url": "https://github.com/notofonts/myanmar/pull/65"
+   },
    {
     "number": 62,
     "title": "Instance settings incorrect in Noto Serif Myanmar",
