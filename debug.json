@@ -7077,9 +7077,9 @@
   "issue_count": 11,
   "issues": [
    {
-    "number": 39,
-    "title": "3 Yiddish ligatures spacing should match component characters spacing (for a proportional font)",
-    "url": "https://github.com/notofonts/hebrew/issues/39"
+    "number": 43,
+    "title": "Correct bottom anchor x position for vav-vav/yod-yod digraphs (#38)",
+    "url": "https://github.com/notofonts/hebrew/pull/43"
    },
    {
     "number": 38,
@@ -12602,8 +12602,18 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 15,
+  "issue_count": 17,
   "issues": [
+   {
+    "number": 59,
+    "title": "Mono-space math alphanumeric glyphs are not distinguishable from sans-serif ones ",
+    "url": "https://github.com/notofonts/math/issues/59"
+   },
+   {
+    "number": 58,
+    "title": "`ssty` variants are too bold",
+    "url": "https://github.com/notofonts/math/issues/58"
+   },
    {
     "number": 57,
     "title": "General review and fixes",
@@ -13853,9 +13863,9 @@
   "issue_count": 32,
   "issues": [
    {
-    "number": 65,
+    "number": 66,
     "title": "redesign of some glyphs for Shan",
-    "url": "https://github.com/notofonts/myanmar/pull/65"
+    "url": "https://github.com/notofonts/myanmar/pull/66"
    },
    {
     "number": 62,
