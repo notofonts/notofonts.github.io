@@ -10423,6 +10423,11 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 60,
+    "title": "Binary and relational operators are too small and misaligned vertically",
+    "url": "https://github.com/notofonts/math/issues/60"
+   },
+   {
     "number": 59,
     "title": "Mono-space math alphanumeric glyphs are not distinguishable from sans-serif ones ",
     "url": "https://github.com/notofonts/math/issues/59"
