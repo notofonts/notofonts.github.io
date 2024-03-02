@@ -13240,8 +13240,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mongolian",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 37,
+    "title": "Fix OTL",
+    "url": "https://github.com/notofonts/mongolian/pull/37"
+   },
    {
     "number": 32,
     "title": "Weights?",
