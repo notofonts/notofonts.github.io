@@ -8871,6 +8871,16 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 467,
+    "title": "U+1AC7 COMBINING INVERTED DOUBLE ARCH ABOVE has inverted anchor points",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/467"
+   },
+   {
+    "number": 466,
+    "title": "Not all Cyrillic glyphs were updated in the 2023 refresh",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/466"
+   },
+   {
     "number": 463,
     "title": "placement of diacritical wrong",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/463"
@@ -10423,13 +10433,18 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 61,
+    "title": "Chancery style should be the default for script math alpahebt",
+    "url": "https://github.com/notofonts/math/issues/61"
+   },
+   {
     "number": 60,
     "title": "Binary and relational operators are too small and misaligned vertically",
     "url": "https://github.com/notofonts/math/issues/60"
    },
    {
     "number": 59,
-    "title": "Mono-space math alphanumeric glyphs are not distinguishable from sans-serif ones ",
+    "title": "Monospace math alphanumeric glyphs are not distinguishable from sans-serif ones ",
     "url": "https://github.com/notofonts/math/issues/59"
    },
    {
