@@ -1,7 +1,8 @@
 {
  "closed_per_month": {
   "1": 11,
-  "2": 23
+  "2": 27,
+  "3": 0
  },
  "open_per_repo": {
   "ahom": 3,
@@ -22,7 +23,7 @@
   "devanagari": 7,
   "dives-akuru": 6,
   "dogra": 1,
-  "duployan": 2,
+  "duployan": 1,
   "egyptian-hieroglyphs": 7,
   "elbasan": 1,
   "ethiopic": 1,
@@ -32,7 +33,7 @@
   "gujarati": 6,
   "gurmukhi": 5,
   "hanunoo": 1,
-  "hebrew": 11,
+  "hebrew": 10,
   "javanese": 4,
   "kaithi": 7,
   "kannada": 7,
@@ -41,11 +42,11 @@
   "khitan-small-script": 1,
   "khojki": 2,
   "khudawadi": 1,
-  "latin-greek-cyrillic": 118,
+  "latin-greek-cyrillic": 120,
   "lydian": 1,
   "malayalam": 7,
   "manichaean": 3,
-  "math": 14,
+  "math": 18,
   "meetei-mayek": 1,
   "miao": 1,
   "modi": 6,
@@ -73,7 +74,7 @@
   "sundanese": 1,
   "syloti-nagri": 5,
   "symbols": 12,
-  "syriac": 7,
+  "syriac": 6,
   "tagalog": 2,
   "tai-le": 1,
   "tai-tham": 1,
@@ -88,15 +89,16 @@
   "tirhuta": 10
  },
  "open_per_tier": {
-  "1": 189,
+  "1": 190,
   "2": 40,
-  "3": 96,
+  "3": 98,
   "4": 54,
   "5": 23
  },
  "opened_per_month": {
   "1": 31,
-  "2": 24
+  "2": 27,
+  "3": 3
  },
  "releases_per_month": {
   "1": [
@@ -185,6 +187,10 @@
    {
     "tag": "NotoSansGeorgian-v2.004",
     "url": "https://github.com/notofonts/georgian/releases/tag/NotoSansGeorgian-v2.004"
+   },
+   {
+    "tag": "NotoSerifHentaigana-v1.000",
+    "url": "https://github.com/notofonts/hentaigana/releases/tag/NotoSerifHentaigana-v1.000"
    }
   ],
   "3": [
@@ -706,6 +712,7 @@
  },
  "totals_per_month": {
   "1": 379,
-  "2": 401
+  "2": 401,
+  "3": 402
  }
 }

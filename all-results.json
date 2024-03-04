@@ -1463,7 +1463,7 @@
   "url": "https://github.com/notofonts/duployan/issues/6"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-27T13:05:41Z",
   "createdAt": "2024-01-19T03:37:25Z",
   "repo": "duployan",
   "tier": 3,
@@ -2170,11 +2170,18 @@
   "url": "https://github.com/notofonts/hebrew/issues/38"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-28T09:52:19Z",
   "createdAt": "2024-02-12T23:46:30Z",
   "repo": "hebrew",
   "tier": 1,
   "url": "https://github.com/notofonts/hebrew/issues/39"
+ },
+ {
+  "closedAt": "2024-02-27T12:53:49Z",
+  "createdAt": "2024-02-27T00:05:55Z",
+  "repo": "hebrew",
+  "tier": 1,
+  "url": "https://github.com/notofonts/hebrew/issues/40"
  },
  {
   "closedAt": "2023-06-28T12:08:07Z",
@@ -5019,6 +5026,27 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/464"
  },
  {
+  "closedAt": "2024-02-29T13:31:33Z",
+  "createdAt": "2024-02-29T12:40:55Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/465"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-03-02T17:16:07Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/466"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-03-02T17:28:55Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/467"
+ },
+ {
   "closedAt": "2023-05-24T20:06:31Z",
   "createdAt": "2018-03-06T02:22:11Z",
   "repo": "limbu",
@@ -5528,6 +5556,34 @@
   "repo": "math",
   "tier": 3,
   "url": "https://github.com/notofonts/math/issues/54"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-02-28T18:38:25Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/58"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-02-28T20:59:22Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/59"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-02-29T14:00:19Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/60"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-03-02T13:53:21Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/61"
  },
  {
   "closedAt": null,
@@ -7714,7 +7770,7 @@
   "url": "https://github.com/notofonts/syriac/issues/24"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-02-26T07:55:03Z",
   "createdAt": "2024-02-16T18:46:47Z",
   "repo": "syriac",
   "tier": 3,
