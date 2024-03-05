@@ -5737,16 +5737,6 @@
   "gh_url": "https://notofonts.github.io/hebrew",
   "issues": [
    {
-    "number": 43,
-    "title": "Correct bottom anchor x position for vav-vav/yod-yod digraphs (#38)",
-    "url": "https://github.com/notofonts/hebrew/pull/43"
-   },
-   {
-    "number": 38,
-    "title": "Nikud misplaced horizontally under double-yud and double-vov digraphs",
-    "url": "https://github.com/notofonts/hebrew/issues/38"
-   },
-   {
     "number": 37,
     "title": "Noto Rashi Hebrew - no support for U+FB4F (Hebrew Ligature Alef Lamed)",
     "url": "https://github.com/notofonts/hebrew/issues/37"
@@ -10432,6 +10422,11 @@
   },
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
+   {
+    "number": 62,
+    "title": "Why does the source include `gcommaaccent`?",
+    "url": "https://github.com/notofonts/math/issues/62"
+   },
    {
     "number": 61,
     "title": "Chancery style should be the default for script math alpahebt",
