@@ -5737,6 +5737,11 @@
   "gh_url": "https://notofonts.github.io/hebrew",
   "issues": [
    {
+    "number": 44,
+    "title": "Where are Common script characters for Noto generally and for Hebrew in particular?",
+    "url": "https://github.com/notofonts/hebrew/issues/44"
+   },
+   {
     "number": 37,
     "title": "Noto Rashi Hebrew - no support for U+FB4F (Hebrew Ligature Alef Lamed)",
     "url": "https://github.com/notofonts/hebrew/issues/37"
@@ -10448,11 +10453,6 @@
     "url": "https://github.com/notofonts/math/issues/58"
    },
    {
-    "number": 57,
-    "title": "General review and fixes",
-    "url": "https://github.com/notofonts/math/pull/57"
-   },
-   {
     "number": 54,
     "title": "Request to consider splitting Noto Sans Math into two fonts---a serif and a sans serif one",
     "url": "https://github.com/notofonts/math/issues/54"
@@ -10473,34 +10473,9 @@
     "url": "https://github.com/notofonts/math/issues/51"
    },
    {
-    "number": 50,
-    "title": "Placement of index in radicals is too tight",
-    "url": "https://github.com/notofonts/math/issues/50"
-   },
-   {
-    "number": 47,
-    "title": "Isosceles right triangle glyphs aren\u2019t right-angled",
-    "url": "https://github.com/notofonts/math/issues/47"
-   },
-   {
     "number": 44,
     "title": "Wrong symbols for multi-storey brackets",
     "url": "https://github.com/notofonts/math/issues/44"
-   },
-   {
-    "number": 42,
-    "title": " Incorrect baseline and size for U+2032  (prime)",
-    "url": "https://github.com/notofonts/math/issues/42"
-   },
-   {
-    "number": 41,
-    "title": "Incorrect baseline and size for U+221E (infinity symbol)",
-    "url": "https://github.com/notofonts/math/issues/41"
-   },
-   {
-    "number": 38,
-    "title": "U+2273 and U+2A9D variants have reversed tildes",
-    "url": "https://github.com/notofonts/math/issues/38"
    },
    {
     "number": 36,
@@ -10516,11 +10491,6 @@
     "number": 5,
     "title": "Missing anchor points in Noto Sans Math",
     "url": "https://github.com/notofonts/math/issues/5"
-   },
-   {
-    "number": 4,
-    "title": "Inconsistent glyphs for horizontal brackets",
-    "url": "https://github.com/notofonts/math/issues/4"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/math",
@@ -12471,7 +12441,7 @@
       "fonts/NotoSansOriya/full/ttf/NotoSansOriya-ExtraCondensedThin.ttf",
       "fonts/NotoSansOriya/full/ttf/NotoSansOriya-Regular.ttf",
       "fonts/NotoSansOriya/full/ttf/NotoSansOriya-Thin.ttf",
-      "fonts/NotoSansOriya/full/variable-ttf/NotoSansOriya[wdth,wght].ttf"
+      "fonts/NotoSansOriya/full/variable/NotoSansOriya[wdth,wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSansOriya/hinted/ttf/NotoSansOriya-Black.ttf",
@@ -12513,14 +12483,14 @@
       "fonts/NotoSansOriya/unhinted/ttf/NotoSansOriya-ExtraCondensedThin.ttf",
       "fonts/NotoSansOriya/unhinted/ttf/NotoSansOriya-Regular.ttf",
       "fonts/NotoSansOriya/unhinted/ttf/NotoSansOriya-Thin.ttf",
-      "fonts/NotoSansOriya/unhinted/variable-ttf/NotoSansOriya[wdth,wght].ttf"
+      "fonts/NotoSansOriya/unhinted/variable/NotoSansOriya[wdth,wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Oriya v2.005\n\nThis release:\n* Improves the connection of subscript conjuncts to anchors (#8, thanks to @KazunariTsuboi)\n* Fixes the width axis of the variable font (#15)\n* Supports the U+0B55 ORIYA SIGN OVERLINE character (#3)\n",
-     "published": "2023-03-27T09:09:02",
-     "url": "https://github.com/notofonts/oriya/releases/tag/NotoSansOriya-v2.005",
-     "version": "v2.005"
+     "notes": "Noto Sans Oriya v2.006\n\nThis version fixes an interpolation issue with the width axis at regular weight.\n",
+     "published": "2024-03-05T14:19:58+00:00",
+     "url": "https://github.com/notofonts/oriya/releases/tag/NotoSansOriya-v2.006",
+     "version": "v2.006"
     }
    },
    "Noto Serif Oriya": {
