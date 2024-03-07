@@ -12607,8 +12607,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 13,
+  "issue_count": 14,
   "issues": [
+   {
+    "number": 63,
+    "title": "Redesign",
+    "url": "https://github.com/notofonts/math/pull/63"
+   },
    {
     "number": 62,
     "title": "Why does the source include `gcommaaccent`?",

@@ -10428,6 +10428,11 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 63,
+    "title": "Redesign",
+    "url": "https://github.com/notofonts/math/pull/63"
+   },
+   {
     "number": 62,
     "title": "Why does the source include `gcommaaccent`?",
     "url": "https://github.com/notofonts/math/issues/62"
