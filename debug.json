@@ -635,8 +635,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 230,
+    "title": "Farsi symbol named \"\u0633\u0631\u06cc\u0627\u0621\"",
+    "url": "https://github.com/notofonts/arabic/issues/230"
+   },
    {
     "number": 229,
     "title": "Overlap Issue in Noto Sans Arabic",
@@ -12607,8 +12612,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 14,
+  "issue_count": 15,
   "issues": [
+   {
+    "number": 64,
+    "title": "Arabic math alpahabet needs redesign",
+    "url": "https://github.com/notofonts/math/issues/64"
+   },
    {
     "number": 63,
     "title": "Redesign",
