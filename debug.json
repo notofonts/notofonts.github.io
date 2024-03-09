@@ -15314,18 +15314,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/old-turkic",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 5,
-    "title": "Own 10C47",
-    "url": "https://github.com/notofonts/old-turkic/pull/5"
-   },
-   {
-    "number": 2,
-    "title": "Wrong glyph for U+10C47 OLD TURKIC LETTER ORKHON OT",
-    "url": "https://github.com/notofonts/old-turkic/issues/2"
-   },
    {
     "number": 1,
     "title": "Additional weights for Old Turkic",
