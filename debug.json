@@ -7079,13 +7079,8 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/hebrew",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 9,
   "issues": [
-   {
-    "number": 44,
-    "title": "Where are Common script characters for Noto generally and for Hebrew in particular?",
-    "url": "https://github.com/notofonts/hebrew/issues/44"
-   },
    {
     "number": 37,
     "title": "Noto Rashi Hebrew - no support for U+FB4F (Hebrew Ligature Alef Lamed)",
