@@ -2,11 +2,11 @@
  "closed_per_month": {
   "1": 11,
   "2": 27,
-  "3": 0
+  "3": 11
  },
  "open_per_repo": {
   "ahom": 3,
-  "arabic": 6,
+  "arabic": 7,
   "armenian": 1,
   "balinese": 3,
   "bamum": 1,
@@ -33,7 +33,7 @@
   "gujarati": 6,
   "gurmukhi": 5,
   "hanunoo": 1,
-  "hebrew": 10,
+  "hebrew": 9,
   "javanese": 4,
   "kaithi": 7,
   "kannada": 7,
@@ -46,7 +46,7 @@
   "lydian": 1,
   "malayalam": 7,
   "manichaean": 3,
-  "math": 18,
+  "math": 14,
   "meetei-mayek": 1,
   "miao": 1,
   "modi": 6,
@@ -60,7 +60,7 @@
   "old-hungarian": 5,
   "old-hungarian-ui": 2,
   "old-italic": 1,
-  "old-turkic": 2,
+  "old-turkic": 1,
   "oriya": 1,
   "pahawh-hmong": 1,
   "phags-pa": 1,
@@ -91,14 +91,14 @@
  "open_per_tier": {
   "1": 190,
   "2": 40,
-  "3": 98,
+  "3": 94,
   "4": 54,
-  "5": 23
+  "5": 22
  },
  "opened_per_month": {
   "1": 31,
   "2": 27,
-  "3": 3
+  "3": 9
  },
  "releases_per_month": {
   "1": [
@@ -253,6 +253,10 @@
    {
     "tag": "NotoSansMath-v2.539",
     "url": "https://github.com/notofonts/math/releases/tag/NotoSansMath-v2.539"
+   },
+   {
+    "tag": "NotoSansOriya-v2.006",
+    "url": "https://github.com/notofonts/oriya/releases/tag/NotoSansOriya-v2.006"
    },
    {
     "tag": "NotoSansOriya-v2.005",
