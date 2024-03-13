@@ -8866,6 +8866,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 468,
+    "title": "add 1df25..a",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/468"
+   },
+   {
     "number": 467,
     "title": "U+1AC7 COMBINING INVERTED DOUBLE ARCH ABOVE has inverted anchor points",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/467"
@@ -10427,6 +10432,11 @@
   },
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
+   {
+    "number": 65,
+    "title": "Support all characters that have defined macros in unicode-math LaTeX package",
+    "url": "https://github.com/notofonts/math/issues/65"
+   },
    {
     "number": 64,
     "title": "Arabic math alpahabet needs redesign",
