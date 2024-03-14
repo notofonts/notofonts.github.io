@@ -10433,6 +10433,11 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 66,
+    "title": "Add missing Arabic math symbols",
+    "url": "https://github.com/notofonts/math/issues/66"
+   },
+   {
     "number": 65,
     "title": "Support all characters that have defined macros in unicode-math LaTeX package",
     "url": "https://github.com/notofonts/math/issues/65"
