@@ -8866,6 +8866,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 469,
+    "title": "Noto Sans Missed Characters `partialdiff`, `increment` (Delta) and more.",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/469"
+   },
+   {
     "number": 468,
     "title": "add 1df25..a",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/468"
