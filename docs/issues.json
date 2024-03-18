@@ -42,11 +42,11 @@
   "khitan-small-script": 1,
   "khojki": 2,
   "khudawadi": 1,
-  "latin-greek-cyrillic": 120,
+  "latin-greek-cyrillic": 122,
   "lydian": 1,
   "malayalam": 7,
   "manichaean": 3,
-  "math": 14,
+  "math": 16,
   "meetei-mayek": 1,
   "miao": 1,
   "modi": 6,
@@ -89,16 +89,16 @@
   "tirhuta": 10
  },
  "open_per_tier": {
-  "1": 190,
+  "1": 192,
   "2": 40,
-  "3": 94,
+  "3": 96,
   "4": 54,
   "5": 22
  },
  "opened_per_month": {
   "1": 31,
   "2": 27,
-  "3": 9
+  "3": 13
  },
  "releases_per_month": {
   "1": [
