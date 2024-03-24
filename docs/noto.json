@@ -10438,6 +10438,11 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 67,
+    "title": "Request for a bold math font for use in section and title headers",
+    "url": "https://github.com/notofonts/math/issues/67"
+   },
+   {
     "number": 66,
     "title": "Add missing Arabic math symbols",
     "url": "https://github.com/notofonts/math/issues/66"
