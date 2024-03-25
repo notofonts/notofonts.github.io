@@ -495,6 +495,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 232,
+    "title": "Incorrect diacritic position for letter jeem when using bullets in InDesign",
+    "url": "https://github.com/notofonts/arabic/issues/232"
+   },
+   {
     "number": 230,
     "title": "Farsi symbol named \"\u0633\u0631\u06cc\u0627\u0621\"",
     "url": "https://github.com/notofonts/arabic/issues/230"
