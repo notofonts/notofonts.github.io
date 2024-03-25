@@ -6,7 +6,7 @@
  },
  "open_per_repo": {
   "ahom": 3,
-  "arabic": 7,
+  "arabic": 8,
   "armenian": 1,
   "balinese": 3,
   "bamum": 1,
@@ -46,7 +46,7 @@
   "lydian": 1,
   "malayalam": 7,
   "manichaean": 3,
-  "math": 16,
+  "math": 17,
   "meetei-mayek": 1,
   "miao": 1,
   "modi": 6,
@@ -89,16 +89,16 @@
   "tirhuta": 10
  },
  "open_per_tier": {
-  "1": 192,
+  "1": 193,
   "2": 40,
-  "3": 96,
+  "3": 97,
   "4": 54,
   "5": 22
  },
  "opened_per_month": {
   "1": 31,
   "2": 27,
-  "3": 13
+  "3": 15
  },
  "releases_per_month": {
   "1": [

@@ -560,6 +560,13 @@
   "url": "https://github.com/notofonts/arabic/issues/231"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-03-24T19:42:33Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/232"
+ },
+ {
   "closedAt": "2023-09-25T08:47:47Z",
   "createdAt": "2019-11-20T23:51:15Z",
   "repo": "armenian",
@@ -5647,6 +5654,13 @@
   "repo": "math",
   "tier": 3,
   "url": "https://github.com/notofonts/math/issues/66"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-03-23T06:56:15Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/67"
  },
  {
   "closedAt": null,
