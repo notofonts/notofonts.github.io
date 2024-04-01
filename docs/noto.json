@@ -7227,6 +7227,11 @@
   "gh_url": "https://notofonts.github.io/khojki",
   "issues": [
    {
+    "number": 28,
+    "title": "Sans: 11241 is missing",
+    "url": "https://github.com/notofonts/khojki/issues/28"
+   },
+   {
     "number": 27,
     "title": "Interpolation problems in `NotoSerifKhojki[wght].ttf`",
     "url": "https://github.com/notofonts/khojki/issues/27"
@@ -10951,6 +10956,11 @@
   },
   "gh_url": "https://notofonts.github.io/multani",
   "issues": [
+   {
+    "number": 5,
+    "title": "Does not build",
+    "url": "https://github.com/notofonts/multani/issues/5"
+   },
    {
     "number": 1,
     "title": "Wrong glyphs for some Multani digits",
