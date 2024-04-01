@@ -2891,6 +2891,13 @@
   "url": "https://github.com/notofonts/khojki/issues/27"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-03-31T03:38:10Z",
+  "repo": "khojki",
+  "tier": 3,
+  "url": "https://github.com/notofonts/khojki/issues/28"
+ },
+ {
   "closedAt": "2023-01-03T12:35:21Z",
   "createdAt": "2019-10-29T17:32:50Z",
   "repo": "khudawadi",
@@ -5857,6 +5864,13 @@
   "repo": "multani",
   "tier": 3,
   "url": "https://github.com/notofonts/multani/issues/4"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-03-31T02:51:56Z",
+  "repo": "multani",
+  "tier": 3,
+  "url": "https://github.com/notofonts/multani/issues/5"
  },
  {
   "closedAt": "2023-01-25T15:31:26Z",
