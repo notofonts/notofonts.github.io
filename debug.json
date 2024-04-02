@@ -7084,8 +7084,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/hebrew",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 10,
   "issues": [
+   {
+    "number": 45,
+    "title": "Does not build",
+    "url": "https://github.com/notofonts/hebrew/issues/45"
+   },
    {
     "number": 37,
     "title": "Noto Rashi Hebrew - no support for U+FB4F (Hebrew Ligature Alef Lamed)",
@@ -13386,13 +13391,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/multani",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 5,
-    "title": "Does not build",
-    "url": "https://github.com/notofonts/multani/issues/5"
-   },
    {
     "number": 1,
     "title": "Wrong glyphs for some Multani digits",
