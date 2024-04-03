@@ -5747,11 +5747,6 @@
   "gh_url": "https://notofonts.github.io/hebrew",
   "issues": [
    {
-    "number": 45,
-    "title": "Does not build",
-    "url": "https://github.com/notofonts/hebrew/issues/45"
-   },
-   {
     "number": 37,
     "title": "Noto Rashi Hebrew - no support for U+FB4F (Hebrew Ligature Alef Lamed)",
     "url": "https://github.com/notofonts/hebrew/issues/37"
