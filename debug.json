@@ -5102,8 +5102,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/glagolitic",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 7,
+    "title": "U+2C2F and U+2C5F missing",
+    "url": "https://github.com/notofonts/glagolitic/issues/7"
+   },
    {
     "number": 6,
     "title": "U+25CC DOTTED CIRCLE has no anchor point",
@@ -7084,8 +7089,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/hebrew",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 10,
   "issues": [
+   {
+    "number": 46,
+    "title": "U+05EF missing",
+    "url": "https://github.com/notofonts/hebrew/issues/46"
+   },
    {
     "number": 37,
     "title": "Noto Rashi Hebrew - no support for U+FB4F (Hebrew Ligature Alef Lamed)",
