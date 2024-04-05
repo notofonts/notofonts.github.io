@@ -495,6 +495,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 233,
+    "title": "Noto Naskh Arabic - More Weights?",
+    "url": "https://github.com/notofonts/arabic/issues/233"
+   },
+   {
     "number": 232,
     "title": "Incorrect diacritic position for letter jeem when using bullets in InDesign",
     "url": "https://github.com/notofonts/arabic/issues/232"
@@ -8885,6 +8890,11 @@
   },
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
+   {
+    "number": 470,
+    "title": "Add U+1DFA",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/470"
+   },
    {
     "number": 469,
     "title": "Noto Sans Missed Characters `partialdiff`, `increment` (Delta) and more.",
