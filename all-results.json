@@ -567,6 +567,20 @@
   "url": "https://github.com/notofonts/arabic/issues/232"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-04-04T05:13:35Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/233"
+ },
+ {
+  "closedAt": "2024-04-04T16:14:53Z",
+  "createdAt": "2024-04-04T12:40:45Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/234"
+ },
+ {
   "closedAt": "2023-09-25T08:47:47Z",
   "createdAt": "2019-11-20T23:51:15Z",
   "repo": "armenian",
@@ -1687,6 +1701,13 @@
   "url": "https://github.com/notofonts/glagolitic/issues/6"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-04-03T04:15:56Z",
+  "repo": "glagolitic",
+  "tier": 4,
+  "url": "https://github.com/notofonts/glagolitic/issues/7"
+ },
+ {
   "closedAt": "2023-02-09T09:07:18Z",
   "createdAt": "2022-09-19T15:09:04Z",
   "repo": "gothic",
@@ -2210,6 +2231,20 @@
   "repo": "hebrew",
   "tier": 1,
   "url": "https://github.com/notofonts/hebrew/issues/44"
+ },
+ {
+  "closedAt": "2024-04-02T14:14:58Z",
+  "createdAt": "2024-04-01T23:46:56Z",
+  "repo": "hebrew",
+  "tier": 1,
+  "url": "https://github.com/notofonts/hebrew/issues/45"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-04-03T04:12:55Z",
+  "repo": "hebrew",
+  "tier": 1,
+  "url": "https://github.com/notofonts/hebrew/issues/46"
  },
  {
   "closedAt": "2023-06-28T12:08:07Z",
@@ -5096,6 +5131,13 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/469"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-04-04T03:49:47Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/470"
+ },
+ {
   "closedAt": "2023-05-24T20:06:31Z",
   "createdAt": "2018-03-06T02:22:11Z",
   "repo": "limbu",
@@ -5866,7 +5908,7 @@
   "url": "https://github.com/notofonts/multani/issues/4"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-04-01T20:26:03Z",
   "createdAt": "2024-03-31T02:51:56Z",
   "repo": "multani",
   "tier": 3,
@@ -8104,6 +8146,13 @@
   "repo": "tangut",
   "tier": 5,
   "url": "https://github.com/notofonts/tangut/issues/3"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-04-07T15:44:09Z",
+  "repo": "tangut",
+  "tier": 5,
+  "url": "https://github.com/notofonts/tangut/issues/4"
  },
  {
   "closedAt": "2023-02-13T12:07:51Z",
