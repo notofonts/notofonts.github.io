@@ -19366,13 +19366,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tangut",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 4,
-    "title": "Will there be sans version?",
-    "url": "https://github.com/notofonts/tangut/issues/4"
-   },
    {
     "number": 3,
     "title": "Change six glyphs to U15.1",

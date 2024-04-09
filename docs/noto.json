@@ -15449,11 +15449,6 @@
   "gh_url": "https://notofonts.github.io/tangut",
   "issues": [
    {
-    "number": 4,
-    "title": "Will there be sans version?",
-    "url": "https://github.com/notofonts/tangut/issues/4"
-   },
-   {
     "number": 3,
     "title": "Change six glyphs to U15.1",
     "url": "https://github.com/notofonts/tangut/issues/3"
