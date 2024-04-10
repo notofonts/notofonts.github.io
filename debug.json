@@ -7094,8 +7094,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/hebrew",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 11,
   "issues": [
+   {
+    "number": 47,
+    "title": "Dagesh overlaps in heavier weights of Noto Sans Hebrew",
+    "url": "https://github.com/notofonts/hebrew/issues/47"
+   },
    {
     "number": 46,
     "title": "U+05EF missing",
