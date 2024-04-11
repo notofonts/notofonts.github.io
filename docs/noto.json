@@ -12170,11 +12170,6 @@
   "gh_url": "https://notofonts.github.io/old-hungarian",
   "issues": [
    {
-    "number": 17,
-    "title": "It might to good thing add syllable like ligatures.",
-    "url": "https://github.com/notofonts/old-hungarian/issues/17"
-   },
-   {
     "number": 16,
     "title": "Small and capital letter must be aligned to a baseline.",
     "url": "https://github.com/notofonts/old-hungarian/issues/16"
