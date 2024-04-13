@@ -7210,8 +7210,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/imperial-aramaic",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 2,
+    "title": "Imperial Aramaic does not list Imperial Aramaic as a supported script.",
+    "url": "https://github.com/notofonts/imperial-aramaic/issues/2"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/imperial-aramaic",
   "tier": 5,
   "title": "Noto Imperial Aramaic"
