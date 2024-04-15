@@ -581,6 +581,13 @@
   "url": "https://github.com/notofonts/arabic/issues/234"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-04-14T20:05:45Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/235"
+ },
+ {
   "closedAt": "2023-09-25T08:47:47Z",
   "createdAt": "2019-11-20T23:51:15Z",
   "repo": "armenian",
@@ -2245,6 +2252,20 @@
   "repo": "hebrew",
   "tier": 1,
   "url": "https://github.com/notofonts/hebrew/issues/46"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-04-09T08:43:26Z",
+  "repo": "hebrew",
+  "tier": 1,
+  "url": "https://github.com/notofonts/hebrew/issues/47"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-04-12T17:22:21Z",
+  "repo": "imperial-aramaic",
+  "tier": 5,
+  "url": "https://github.com/notofonts/imperial-aramaic/issues/2"
  },
  {
   "closedAt": "2023-06-28T12:08:07Z",
@@ -6776,7 +6797,7 @@
   "url": "https://github.com/notofonts/old-hungarian/issues/16"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-04-10T06:54:47Z",
   "createdAt": "2023-06-07T21:18:31Z",
   "repo": "old-hungarian",
   "tier": 4,
@@ -7910,6 +7931,13 @@
   "url": "https://github.com/notofonts/syriac/issues/25"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-04-15T01:30:40Z",
+  "repo": "syriac",
+  "tier": 3,
+  "url": "https://github.com/notofonts/syriac/issues/26"
+ },
+ {
   "closedAt": "2023-06-09T11:14:09Z",
   "createdAt": "2022-09-16T18:36:03Z",
   "repo": "tagalog",
@@ -8148,7 +8176,7 @@
   "url": "https://github.com/notofonts/tangut/issues/3"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-04-08T08:13:27Z",
   "createdAt": "2024-04-07T15:44:09Z",
   "repo": "tangut",
   "tier": 5,
