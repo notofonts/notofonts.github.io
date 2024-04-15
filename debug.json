@@ -635,8 +635,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 10,
   "issues": [
+   {
+    "number": 235,
+    "title": "no hinted/ in NotoNaskhArabic",
+    "url": "https://github.com/notofonts/arabic/issues/235"
+   },
    {
     "number": 233,
     "title": "Noto Naskh Arabic - More Weights?",
@@ -17960,8 +17965,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/syriac",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 26,
+    "title": "Weights 200, 300, 500-800 present on Google Fonts but not here (even in googlefonts/, for all three variants)",
+    "url": "https://github.com/notofonts/syriac/issues/26"
+   },
    {
     "number": 24,
     "title": "Interpolation problems in `NotoSansSyriac[wght].ttf`",
