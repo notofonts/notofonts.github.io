@@ -2728,23 +2728,24 @@
   "families": {
    "Noto Sans Egyptian Hieroglyphs": {
     "files": [
-     "fonts/NotoSansEgyptianHieroglyphs/full/ttf/NotoSansEgyptianHieroglyphs-Regular.ttf",
      "fonts/NotoSansEgyptianHieroglyphs/full/otf/NotoSansEgyptianHieroglyphs-Regular.otf",
+     "fonts/NotoSansEgyptianHieroglyphs/full/ttf/NotoSansEgyptianHieroglyphs-Regular.ttf",
      "fonts/NotoSansEgyptianHieroglyphs/googlefonts/ttf/NotoSansEgyptianHieroglyphs-Regular.ttf",
-     "fonts/NotoSansEgyptianHieroglyphs/unhinted/ttf/NotoSansEgyptianHieroglyphs-Regular.ttf",
      "fonts/NotoSansEgyptianHieroglyphs/unhinted/otf/NotoSansEgyptianHieroglyphs-Regular.otf",
+     "fonts/NotoSansEgyptianHieroglyphs/unhinted/ttf/NotoSansEgyptianHieroglyphs-Regular.ttf",
      "fonts/NotoSansEgyptianHieroglyphs/hinted/ttf/NotoSansEgyptianHieroglyphs-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Egyptian Hieroglyphs v2.001\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-19T08:47:34",
-     "url": "https://github.com/notofonts/egyptian-hieroglyphs/releases/tag/NotoSansEgyptianHieroglyphs-v2.001",
-     "version": "v2.001"
+     "notes": "Noto Sans Egyptian Hieroglyphs v2.002\n\nThis release adds support for various codepoints added in Unicode 14.\nThanks to @mercury13 (drawing) and @dwerning (consultancy).\n",
+     "published": "2024-04-15T09:29:21+00:00",
+     "url": "https://github.com/notofonts/egyptian-hieroglyphs/releases/tag/NotoSansEgyptianHieroglyphs-v2.002",
+     "version": "v2.002"
     }
    }
   },
   "known_releases": [
-   "NotoSansEgyptianHieroglyphs-v2.001"
+   "NotoSansEgyptianHieroglyphs-v2.001",
+   "NotoSansEgyptianHieroglyphs-v2.002"
   ]
  },
  "elbasan": {
@@ -13525,18 +13526,18 @@
   "families": {
    "Noto Sans Test": {
     "files": [
-     "fonts/NotoSansTest/unhinted/ttf/NotoSansTest-Regular.ttf",
-     "fonts/NotoSansTest/unhinted/otf/NotoSansTest-Regular.otf",
-     "fonts/NotoSansTest/hinted/ttf/NotoSansTest-Regular.ttf",
-     "fonts/NotoSansTest/googlefonts/ttf/NotoSansTest-Regular.ttf",
+     "fonts/NotoSansTest/full/otf/NotoSansTest-Regular.otf",
      "fonts/NotoSansTest/full/ttf/NotoSansTest-Regular.ttf",
-     "fonts/NotoSansTest/full/otf/NotoSansTest-Regular.otf"
+     "fonts/NotoSansTest/googlefonts/ttf/NotoSansTest-Regular.ttf",
+     "fonts/NotoSansTest/unhinted/otf/NotoSansTest-Regular.otf",
+     "fonts/NotoSansTest/unhinted/ttf/NotoSansTest-Regular.ttf",
+     "fonts/NotoSansTest/hinted/ttf/NotoSansTest-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Ported from noto-source",
-     "published": "2022-06-20T15:10:02",
-     "url": "https://github.com/notofonts/test/releases/tag/NotoSansTest-v1.000",
-     "version": "v1.000"
+     "notes": "Noto Sans Test v1.002\n\nThere are no changes in this release.\n",
+     "published": "2024-04-15T10:03:54+00:00",
+     "url": "https://github.com/notofonts/test/releases/tag/NotoSansTest-v1.002",
+     "version": "v1.002"
     }
    },
    "Noto Serif Test": {
@@ -13570,7 +13571,8 @@
   },
   "known_releases": [
    "NotoSerifTest-v1.000",
-   "NotoSansTest-v1.000"
+   "NotoSansTest-v1.000",
+   "NotoSansTest-v1.002"
   ]
  },
  "thaana": {

@@ -495,11 +495,6 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
-    "number": 235,
-    "title": "no hinted/ in NotoNaskhArabic",
-    "url": "https://github.com/notofonts/arabic/issues/235"
-   },
-   {
     "number": 233,
     "title": "Noto Naskh Arabic - More Weights?",
     "url": "https://github.com/notofonts/arabic/issues/233"
@@ -3052,6 +3047,11 @@
   "gh_url": "https://notofonts.github.io/duployan",
   "issues": [
    {
+    "number": 9,
+    "title": "no full/",
+    "url": "https://github.com/notofonts/duployan/issues/9"
+   },
+   {
     "number": 6,
     "title": "Leave and rename v2",
     "url": "https://github.com/notofonts/duployan/issues/6"
@@ -3078,10 +3078,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Egyptian Hieroglyphs v2.001\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-19T08:47:34",
-     "url": "https://github.com/notofonts/egyptian-hieroglyphs/releases/tag/NotoSansEgyptianHieroglyphs-v2.001",
-     "version": "v2.001"
+     "notes": "Noto Sans Egyptian Hieroglyphs v2.002\n\nThis release adds support for various codepoints added in Unicode 14.\nThanks to @mercury13 (drawing) and @dwerning (consultancy).\n",
+     "published": "2024-04-15T09:29:21+00:00",
+     "url": "https://github.com/notofonts/egyptian-hieroglyphs/releases/tag/NotoSansEgyptianHieroglyphs-v2.002",
+     "version": "v2.002"
     }
    }
   },
@@ -3091,11 +3091,6 @@
     "number": 16,
     "title": "Strange metrics?",
     "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/16"
-   },
-   {
-    "number": 12,
-    "title": "Should we increase 25CC to the size of an average hiero?",
-    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/12"
    },
    {
     "number": 9,
@@ -5846,13 +5841,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/imperial-aramaic",
-  "issues": [
-   {
-    "number": 2,
-    "title": "Imperial Aramaic does not list Imperial Aramaic as a supported script.",
-    "url": "https://github.com/notofonts/imperial-aramaic/issues/2"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/imperial-aramaic",
   "tier": 5,
   "title": "Noto Imperial Aramaic"
@@ -8906,6 +8895,11 @@
   },
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
+   {
+    "number": 471,
+    "title": "no full/ for Sans Mono",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/471"
+   },
    {
     "number": 470,
     "title": "Add U+1DFA",
@@ -15962,10 +15956,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Ported from noto-source",
-     "published": "2022-06-20T15:10:02",
-     "url": "https://github.com/notofonts/test/releases/tag/NotoSansTest-v1.000",
-     "version": "v1.000"
+     "notes": "Noto Sans Test v1.002\n\nThere are no changes in this release.\n",
+     "published": "2024-04-15T10:03:54+00:00",
+     "url": "https://github.com/notofonts/test/releases/tag/NotoSansTest-v1.002",
+     "version": "v1.002"
     }
    },
    "Noto Serif Test": {
