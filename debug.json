@@ -3930,13 +3930,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/duployan",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 9,
-    "title": "no full/",
-    "url": "https://github.com/notofonts/duployan/issues/9"
-   },
    {
     "number": 6,
     "title": "Leave and rename v2",
@@ -10683,13 +10678,8 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 125,
+  "issue_count": 124,
   "issues": [
-   {
-    "number": 471,
-    "title": "no full/ for Sans Mono",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/471"
-   },
    {
     "number": 470,
     "title": "Add U+1DFA",
