@@ -14914,8 +14914,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/old-hungarian",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 5,
   "issues": [
+   {
+    "number": 20,
+    "title": "Added capital ligatures",
+    "url": "https://github.com/notofonts/old-hungarian/pull/20"
+   },
    {
     "number": 16,
     "title": "Small and capital letter must be aligned to a baseline.",
