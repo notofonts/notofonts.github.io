@@ -8891,6 +8891,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 472,
+    "title": "-> symbols don't align very well",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/472"
+   },
+   {
     "number": 470,
     "title": "Add U+1DFA",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/470"
