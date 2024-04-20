@@ -7089,8 +7089,18 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/hebrew",
   "has_releases": true,
-  "issue_count": 11,
+  "issue_count": 13,
   "issues": [
+   {
+    "number": 49,
+    "title": "When can Noto Hebrew Fonts be released?",
+    "url": "https://github.com/notofonts/hebrew/issues/49"
+   },
+   {
+    "number": 48,
+    "title": "Diamond dots?",
+    "url": "https://github.com/notofonts/hebrew/issues/48"
+   },
    {
     "number": 47,
     "title": "Dagesh overlaps in heavier weights of Noto Sans Hebrew",

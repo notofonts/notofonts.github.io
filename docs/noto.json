@@ -5752,6 +5752,16 @@
   "gh_url": "https://notofonts.github.io/hebrew",
   "issues": [
    {
+    "number": 49,
+    "title": "When can Noto Hebrew Fonts be released?",
+    "url": "https://github.com/notofonts/hebrew/issues/49"
+   },
+   {
+    "number": 48,
+    "title": "Diamond dots?",
+    "url": "https://github.com/notofonts/hebrew/issues/48"
+   },
+   {
     "number": 47,
     "title": "Dagesh overlaps in heavier weights of Noto Sans Hebrew",
     "url": "https://github.com/notofonts/hebrew/issues/47"
