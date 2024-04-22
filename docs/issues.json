@@ -3,11 +3,11 @@
   "1": 11,
   "2": 27,
   "3": 11,
-  "4": 5
+  "4": 10
  },
  "open_per_repo": {
   "ahom": 3,
-  "arabic": 10,
+  "arabic": 9,
   "armenian": 1,
   "balinese": 3,
   "bamum": 1,
@@ -25,7 +25,7 @@
   "dives-akuru": 6,
   "dogra": 1,
   "duployan": 1,
-  "egyptian-hieroglyphs": 7,
+  "egyptian-hieroglyphs": 6,
   "elbasan": 1,
   "ethiopic": 1,
   "georgian": 2,
@@ -34,8 +34,7 @@
   "gujarati": 6,
   "gurmukhi": 5,
   "hanunoo": 1,
-  "hebrew": 11,
-  "imperial-aramaic": 1,
+  "hebrew": 13,
   "javanese": 4,
   "kaithi": 7,
   "kannada": 7,
@@ -44,7 +43,7 @@
   "khitan-small-script": 1,
   "khojki": 3,
   "khudawadi": 1,
-  "latin-greek-cyrillic": 123,
+  "latin-greek-cyrillic": 124,
   "lydian": 1,
   "malayalam": 7,
   "manichaean": 3,
@@ -91,17 +90,17 @@
   "tirhuta": 10
  },
  "open_per_tier": {
-  "1": 198,
+  "1": 200,
   "2": 40,
   "3": 99,
-  "4": 54,
-  "5": 23
+  "4": 53,
+  "5": 22
  },
  "opened_per_month": {
   "1": 31,
   "2": 27,
   "3": 15,
-  "4": 11
+  "4": 16
  },
  "releases_per_month": {
   "1": [
@@ -300,6 +299,10 @@
   ],
   "4": [
    {
+    "tag": "NotoSansTest-v1.002",
+    "url": "https://github.com/notofonts/test/releases/tag/NotoSansTest-v1.002"
+   },
+   {
     "tag": "NotoSerif-v2.012",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.012"
    },
@@ -314,6 +317,14 @@
    {
     "tag": "NotoSansMono-v2.012",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSansMono-v2.012"
+   },
+   {
+    "tag": "NotoNaskhArabic-v2.018",
+    "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.018"
+   },
+   {
+    "tag": "NotoSansEgyptianHieroglyphs-v2.002",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/releases/tag/NotoSansEgyptianHieroglyphs-v2.002"
    },
    {
     "tag": "NotoSerifGujarati-v2.104",
@@ -681,10 +692,6 @@
    }
   ],
   "11": [
-   {
-    "tag": "NotoNaskhArabic-v2.018",
-    "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.018"
-   },
    {
     "tag": "NotoSansArabic-v2.012",
     "url": "https://github.com/notofonts/arabic/releases/tag/NotoSansArabic-v2.012"
