@@ -67,7 +67,7 @@ def do_one_repo(reponame):
             print(result)
             break
         for issue in result["nodes"]:
-            if issue["closedAt"] and issue["closedAt"] <= "2023-01-01":
+            if issue["closedAt"] and issue["closedAt"] <= "2024-01-01":
                 continue
             issue["repo"] = reponame
             issue["tier"] = tier
@@ -114,7 +114,7 @@ def get_releases(rpm):
             return
         for repo in result["nodes"]:
             for release in repo["releases"]["nodes"]:
-                if not release["publishedAt"] or release["publishedAt"] <= "2023-01-01":
+                if not release["publishedAt"] or release["publishedAt"] <= "2024-01-01":
                     continue
                 if "notofonts.github.io" in release["url"]:
                     continue
