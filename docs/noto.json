@@ -495,6 +495,16 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 237,
+    "title": "U+FDFA is missing diacritics in Noto Naskh Arabic",
+    "url": "https://github.com/notofonts/arabic/issues/237"
+   },
+   {
+    "number": 236,
+    "title": "U+FDFB missing diacritics in Noto Sans Arabic",
+    "url": "https://github.com/notofonts/arabic/issues/236"
+   },
+   {
     "number": 233,
     "title": "Noto Naskh Arabic - More Weights?",
     "url": "https://github.com/notofonts/arabic/issues/233"
@@ -10468,6 +10478,16 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 70,
+    "title": "Improve weight of ssty infinity",
+    "url": "https://github.com/notofonts/math/pull/70"
+   },
+   {
+    "number": 69,
+    "title": "Improve ssty operators",
+    "url": "https://github.com/notofonts/math/pull/69"
+   },
+   {
     "number": 68,
     "title": "Weight of \u221e (U+221E) seems too low",
     "url": "https://github.com/notofonts/math/issues/68"
@@ -11688,6 +11708,11 @@
   },
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
+   {
+    "number": 66,
+    "title": "Missing ligatures",
+    "url": "https://github.com/notofonts/nastaliq/issues/66"
+   },
    {
     "number": 65,
     "title": "Need Help With Android font issue",
