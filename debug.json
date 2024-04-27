@@ -12647,32 +12647,12 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 12,
+  "issue_count": 8,
   "issues": [
-   {
-    "number": 79,
-    "title": "Make overline and underline a bit closer to the glyph",
-    "url": "https://github.com/notofonts/math/pull/79"
-   },
    {
     "number": 77,
     "title": "Make serif as a stub, just to recycle existing serif glyphs",
     "url": "https://github.com/notofonts/math/issues/77"
-   },
-   {
-    "number": 76,
-    "title": "Improve fraction and stack gap",
-    "url": "https://github.com/notofonts/math/pull/76"
-   },
-   {
-    "number": 75,
-    "title": "Overline is very high up",
-    "url": "https://github.com/notofonts/math/issues/75"
-   },
-   {
-    "number": 74,
-    "title": "Unbalanced spacing in fractions",
-    "url": "https://github.com/notofonts/math/issues/74"
    },
    {
     "number": 73,
