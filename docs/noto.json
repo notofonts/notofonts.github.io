@@ -10468,6 +10468,11 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 80,
+    "title": "Make lower case kappa more distinguishable from lower case k",
+    "url": "https://github.com/notofonts/math/pull/80"
+   },
+   {
     "number": 77,
     "title": "Make serif as a stub, just to recycle existing serif glyphs",
     "url": "https://github.com/notofonts/math/issues/77"
