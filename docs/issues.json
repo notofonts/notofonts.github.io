@@ -3,7 +3,7 @@
   "1": 11,
   "2": 27,
   "3": 11,
-  "4": 10
+  "4": 34
  },
  "open_per_repo": {
   "ahom": 3,
@@ -34,7 +34,7 @@
   "gujarati": 6,
   "gurmukhi": 5,
   "hanunoo": 1,
-  "hebrew": 13,
+  "hebrew": 10,
   "javanese": 4,
   "kaithi": 7,
   "kannada": 7,
@@ -47,7 +47,7 @@
   "lydian": 1,
   "malayalam": 7,
   "manichaean": 3,
-  "math": 17,
+  "math": 7,
   "meetei-mayek": 1,
   "miao": 1,
   "modi": 6,
@@ -56,7 +56,7 @@
   "music": 1,
   "myanmar": 31,
   "nandinagari": 3,
-  "nastaliq": 10,
+  "nastaliq": 11,
   "nko": 1,
   "old-hungarian": 4,
   "old-hungarian-ui": 2,
@@ -90,9 +90,9 @@
   "tirhuta": 10
  },
  "open_per_tier": {
-  "1": 200,
+  "1": 198,
   "2": 40,
-  "3": 99,
+  "3": 89,
   "4": 53,
   "5": 22
  },
@@ -100,73 +100,13 @@
   "1": 31,
   "2": 27,
   "3": 15,
-  "4": 16
+  "4": 28
  },
  "releases_per_month": {
   "1": [
    {
-    "tag": "NotoSans-v2.010",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSans-v2.010"
-   },
-   {
-    "tag": "NotoSansAvestan-v2.003",
-    "url": "https://github.com/notofonts/avestan/releases/tag/NotoSansAvestan-v2.003"
-   },
-   {
-    "tag": "NotoSerifBalinese-v2.005",
-    "url": "https://github.com/notofonts/balinese/releases/tag/NotoSerifBalinese-v2.005"
-   },
-   {
-    "tag": "NotoSansBalinese-v2.004",
-    "url": "https://github.com/notofonts/balinese/releases/tag/NotoSansBalinese-v2.004"
-   },
-   {
     "tag": "NotoSansBrahmi-v2.004",
     "url": "https://github.com/notofonts/brahmi/releases/tag/NotoSansBrahmi-v2.004"
-   },
-   {
-    "tag": "NotoSansCarian-v2.002",
-    "url": "https://github.com/notofonts/carian/releases/tag/NotoSansCarian-v2.002"
-   },
-   {
-    "tag": "NotoSansDuployan-v3.001",
-    "url": "https://github.com/notofonts/duployan/releases/tag/NotoSansDuployan-v3.001"
-   },
-   {
-    "tag": "NotoSansKharoshthi-v2.004",
-    "url": "https://github.com/notofonts/kharoshthi/releases/tag/NotoSansKharoshthi-v2.004"
-   },
-   {
-    "tag": "NotoTraditionalNushu-v2.003",
-    "url": "https://github.com/notofonts/nushu/releases/tag/NotoTraditionalNushu-v2.003"
-   },
-   {
-    "tag": "NotoSansSyriacEastern-v3.001",
-    "url": "https://github.com/notofonts/syriac/releases/tag/NotoSansSyriacEastern-v3.001"
-   },
-   {
-    "tag": "NotoSansSyriacWestern-v3.000",
-    "url": "https://github.com/notofonts/syriac/releases/tag/NotoSansSyriacWestern-v3.000"
-   },
-   {
-    "tag": "NotoSansSyriacEastern-v3.000",
-    "url": "https://github.com/notofonts/syriac/releases/tag/NotoSansSyriacEastern-v3.000"
-   },
-   {
-    "tag": "NotoSansSyriac-v3.000",
-    "url": "https://github.com/notofonts/syriac/releases/tag/NotoSansSyriac-v3.000"
-   },
-   {
-    "tag": "NotoSerifKhitanSmallScript-v1.000",
-    "url": "https://github.com/notofonts/khitan-small-script/releases/tag/NotoSerifKhitanSmallScript-v1.000"
-   },
-   {
-    "tag": "NotoFangsongKSSVertical-v1.000",
-    "url": "https://github.com/notofonts/khitan-small-script/releases/tag/NotoFangsongKSSVertical-v1.000"
-   },
-   {
-    "tag": "NotoFangsongKSSRotated-v1.000",
-    "url": "https://github.com/notofonts/khitan-small-script/releases/tag/NotoFangsongKSSRotated-v1.000"
    }
   ],
   "2": [
@@ -197,126 +137,14 @@
   ],
   "3": [
    {
-    "tag": "NotoSerif-v2.010",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.010"
-   },
-   {
-    "tag": "NotoSansMono-v2.011",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSansMono-v2.011"
-   },
-   {
-    "tag": "NotoSans-v2.011",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSans-v2.011"
-   },
-   {
-    "tag": "NotoSerifAhom-v2.006",
-    "url": "https://github.com/notofonts/ahom/releases/tag/NotoSerifAhom-v2.006"
-   },
-   {
-    "tag": "NotoSerifDevanagari-v2.004",
-    "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSerifDevanagari-v2.004"
-   },
-   {
-    "tag": "NotoSansDevanagari-v2.004",
-    "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSansDevanagari-v2.004"
-   },
-   {
-    "tag": "NotoSerifGujarati-v2.103",
-    "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSerifGujarati-v2.103"
-   },
-   {
-    "tag": "NotoSansGujarati-v2.103",
-    "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSansGujarati-v2.103"
-   },
-   {
-    "tag": "NotoSerifGurmukhi-v2.004",
-    "url": "https://github.com/notofonts/gurmukhi/releases/tag/NotoSerifGurmukhi-v2.004"
-   },
-   {
-    "tag": "NotoSansGurmukhi-v2.004",
-    "url": "https://github.com/notofonts/gurmukhi/releases/tag/NotoSansGurmukhi-v2.004"
-   },
-   {
-    "tag": "NotoSerifKannada-v2.004",
-    "url": "https://github.com/notofonts/kannada/releases/tag/NotoSerifKannada-v2.004"
-   },
-   {
-    "tag": "NotoSansKannada-v2.004",
-    "url": "https://github.com/notofonts/kannada/releases/tag/NotoSansKannada-v2.004"
-   },
-   {
-    "tag": "NotoSerifMalayalam-v2.104",
-    "url": "https://github.com/notofonts/malayalam/releases/tag/NotoSerifMalayalam-v2.104"
-   },
-   {
-    "tag": "NotoSansMalayalam-v2.104",
-    "url": "https://github.com/notofonts/malayalam/releases/tag/NotoSansMalayalam-v2.104"
-   },
-   {
-    "tag": "NotoSansMath-v2.539",
-    "url": "https://github.com/notofonts/math/releases/tag/NotoSansMath-v2.539"
-   },
-   {
     "tag": "NotoSansOriya-v2.006",
     "url": "https://github.com/notofonts/oriya/releases/tag/NotoSansOriya-v2.006"
-   },
-   {
-    "tag": "NotoSansOriya-v2.005",
-    "url": "https://github.com/notofonts/oriya/releases/tag/NotoSansOriya-v2.005"
-   },
-   {
-    "tag": "NotoSerifSinhala-v2.007",
-    "url": "https://github.com/notofonts/sinhala/releases/tag/NotoSerifSinhala-v2.007"
-   },
-   {
-    "tag": "NotoSansSymbols2-v2.006",
-    "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols2-v2.006"
-   },
-   {
-    "tag": "NotoSerifTamil-v2.004",
-    "url": "https://github.com/notofonts/tamil/releases/tag/NotoSerifTamil-v2.004"
-   },
-   {
-    "tag": "NotoSansTamil-v2.004",
-    "url": "https://github.com/notofonts/tamil/releases/tag/NotoSansTamil-v2.004"
-   },
-   {
-    "tag": "NotoSerifTelugu-v2.004",
-    "url": "https://github.com/notofonts/telugu/releases/tag/NotoSerifTelugu-v2.004"
-   },
-   {
-    "tag": "NotoSansTelugu-v2.004",
-    "url": "https://github.com/notofonts/telugu/releases/tag/NotoSansTelugu-v2.004"
-   },
-   {
-    "tag": "NotoSerifOttomanSiyaq-v1.005",
-    "url": "https://github.com/notofonts/ottoman-siyaq-numbers/releases/tag/NotoSerifOttomanSiyaq-v1.005"
-   },
-   {
-    "tag": "NotoSansNagMundari-v1.000",
-    "url": "https://github.com/notofonts/nag-mundari/releases/tag/NotoSansNagMundari-v1.000"
    }
   ],
   "4": [
    {
     "tag": "NotoSansTest-v1.002",
     "url": "https://github.com/notofonts/test/releases/tag/NotoSansTest-v1.002"
-   },
-   {
-    "tag": "NotoSerif-v2.012",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.012"
-   },
-   {
-    "tag": "NotoSansMono-v2.013",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSansMono-v2.013"
-   },
-   {
-    "tag": "NotoSerif-v2.011",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.011"
-   },
-   {
-    "tag": "NotoSansMono-v2.012",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSansMono-v2.012"
    },
    {
     "tag": "NotoNaskhArabic-v2.018",
@@ -327,400 +155,16 @@
     "url": "https://github.com/notofonts/egyptian-hieroglyphs/releases/tag/NotoSansEgyptianHieroglyphs-v2.002"
    },
    {
-    "tag": "NotoSerifGujarati-v2.104",
-    "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSerifGujarati-v2.104"
+    "tag": "NotoSerifHebrew-v2.004",
+    "url": "https://github.com/notofonts/hebrew/releases/tag/NotoSerifHebrew-v2.004"
    },
    {
-    "tag": "NotoSansGujarati-v2.104",
-    "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSansGujarati-v2.104"
-   }
-  ],
-  "5": [
-   {
-    "tag": "NotoSans-v2.012",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSans-v2.012"
-   },
-   {
-    "tag": "NotoSansCypriot-v2.002",
-    "url": "https://github.com/notofonts/cypriot/releases/tag/NotoSansCypriot-v2.002"
-   },
-   {
-    "tag": "NotoSansLinearA-v2.002",
-    "url": "https://github.com/notofonts/linear-a/releases/tag/NotoSansLinearA-v2.002"
-   }
-  ],
-  "6": [
-   {
-    "tag": "NotoSansCanadianAboriginal-v2.003",
-    "url": "https://github.com/notofonts/canadian-aboriginal/releases/tag/NotoSansCanadianAboriginal-v2.003"
-   },
-   {
-    "tag": "NotoSansCham-v2.003",
-    "url": "https://github.com/notofonts/cham/releases/tag/NotoSansCham-v2.003"
-   },
-   {
-    "tag": "NotoSansCoptic-v2.003",
-    "url": "https://github.com/notofonts/coptic/releases/tag/NotoSansCoptic-v2.003"
-   },
-   {
-    "tag": "NotoSansHanifiRohingya-v2.102",
-    "url": "https://github.com/notofonts/hanifi-rohingya/releases/tag/NotoSansHanifiRohingya-v2.102"
-   },
-   {
-    "tag": "NotoSansHanunoo-v2.004",
-    "url": "https://github.com/notofonts/hanunoo/releases/tag/NotoSansHanunoo-v2.004"
-   },
-   {
-    "tag": "NotoSansJavanese-v2.005",
-    "url": "https://github.com/notofonts/javanese/releases/tag/NotoSansJavanese-v2.005"
-   },
-   {
-    "tag": "NotoSerifKhojki-v2.004",
-    "url": "https://github.com/notofonts/khojki/releases/tag/NotoSerifKhojki-v2.004"
-   },
-   {
-    "tag": "NotoSansKhojki-v2.004",
-    "url": "https://github.com/notofonts/khojki/releases/tag/NotoSansKhojki-v2.004"
-   },
-   {
-    "tag": "NotoSerifLao-v2.003",
-    "url": "https://github.com/notofonts/lao/releases/tag/NotoSerifLao-v2.003"
-   },
-   {
-    "tag": "NotoSansLaoLooped-v1.002",
-    "url": "https://github.com/notofonts/lao/releases/tag/NotoSansLaoLooped-v1.002"
-   },
-   {
-    "tag": "NotoSansLao-v2.003",
-    "url": "https://github.com/notofonts/lao/releases/tag/NotoSansLao-v2.003"
-   },
-   {
-    "tag": "NotoSansModi-v2.004",
-    "url": "https://github.com/notofonts/modi/releases/tag/NotoSansModi-v2.004"
-   },
-   {
-    "tag": "NotoMusic-v2.003",
-    "url": "https://github.com/notofonts/music/releases/tag/NotoMusic-v2.003"
-   },
-   {
-    "tag": "NotoSansNKoUnjoined-v2.004",
-    "url": "https://github.com/notofonts/nko/releases/tag/NotoSansNKoUnjoined-v2.004"
-   },
-   {
-    "tag": "NotoSansNKo-v2.004",
-    "url": "https://github.com/notofonts/nko/releases/tag/NotoSansNKo-v2.004"
-   },
-   {
-    "tag": "NotoSansOldHungarian-v2.005",
-    "url": "https://github.com/notofonts/old-hungarian/releases/tag/NotoSansOldHungarian-v2.005"
-   },
-   {
-    "tag": "NotoSansOldTurkic-v2.003",
-    "url": "https://github.com/notofonts/old-turkic/releases/tag/NotoSansOldTurkic-v2.003"
-   },
-   {
-    "tag": "NotoSansRejang-v2.002",
-    "url": "https://github.com/notofonts/rejang/releases/tag/NotoSansRejang-v2.002"
-   },
-   {
-    "tag": "NotoSansSiddham-v2.005",
-    "url": "https://github.com/notofonts/siddham/releases/tag/NotoSansSiddham-v2.005"
-   },
-   {
-    "tag": "NotoSansSignWriting-v2.005",
-    "url": "https://github.com/notofonts/sign-writing/releases/tag/NotoSansSignWriting-v2.005"
-   },
-   {
-    "tag": "NotoSansGunjalaGondi-v1.004",
-    "url": "https://github.com/notofonts/gunjala-gondi/releases/tag/NotoSansGunjalaGondi-v1.004"
-   },
-   {
-    "tag": "NotoSansSundanese-v2.004",
-    "url": "https://github.com/notofonts/sundanese/releases/tag/NotoSansSundanese-v2.004"
-   },
-   {
-    "tag": "NotoSansSylotiNagri-v2.004",
-    "url": "https://github.com/notofonts/syloti-nagri/releases/tag/NotoSansSylotiNagri-v2.004"
-   },
-   {
-    "tag": "NotoSansSymbols2-v2.007",
-    "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols2-v2.007"
-   },
-   {
-    "tag": "NotoSansSymbols-v2.003",
-    "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols-v2.003"
-   },
-   {
-    "tag": "NotoSansTagalog-v2.002",
-    "url": "https://github.com/notofonts/tagalog/releases/tag/NotoSansTagalog-v2.002"
-   },
-   {
-    "tag": "NotoSansTaiViet-v2.004",
-    "url": "https://github.com/notofonts/tai-viet/releases/tag/NotoSansTaiViet-v2.004"
-   },
-   {
-    "tag": "NotoSansTakri-v2.004",
-    "url": "https://github.com/notofonts/takri/releases/tag/NotoSansTakri-v2.004"
-   },
-   {
-    "tag": "NotoSansTangsa-v1.505",
-    "url": "https://github.com/notofonts/tangsa/releases/tag/NotoSansTangsa-v1.505"
-   },
-   {
-    "tag": "NotoSansTifinagh-v2.006",
-    "url": "https://github.com/notofonts/tifinagh/releases/tag/NotoSansTifinagh-v2.006"
-   },
-   {
-    "tag": "NotoSansZanabazarSquare-v2.006",
-    "url": "https://github.com/notofonts/zanabazar-square/releases/tag/NotoSansZanabazarSquare-v2.006"
-   },
-   {
-    "tag": "NotoSansKawi-v1.000",
-    "url": "https://github.com/notofonts/kawi/releases/tag/NotoSansKawi-v1.000"
-   }
-  ],
-  "7": [
-   {
-    "tag": "NotoSansLycian-v2.002",
-    "url": "https://github.com/notofonts/lycian/releases/tag/NotoSansLycian-v2.002"
-   }
-  ],
-  "8": [
-   {
-    "tag": "Serif2.002",
-    "url": "https://github.com/notofonts/noto-cjk/releases/tag/Serif2.002"
-   },
-   {
-    "tag": "NotoSerifOttomanSiyaq-v1.006",
-    "url": "https://github.com/notofonts/ottoman-siyaq-numbers/releases/tag/NotoSerifOttomanSiyaq-v1.006"
-   }
-  ],
-  "9": [
-   {
-    "tag": "NotoSerif-v2.013",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.013"
-   },
-   {
-    "tag": "NotoSansMono-v2.014",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSansMono-v2.014"
-   },
-   {
-    "tag": "NotoSans-v2.013",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSans-v2.013"
-   },
-   {
-    "tag": "NotoSerifAhom-v2.007",
-    "url": "https://github.com/notofonts/ahom/releases/tag/NotoSerifAhom-v2.007"
-   },
-   {
-    "tag": "NotoSerifArmenian-v2.008",
-    "url": "https://github.com/notofonts/armenian/releases/tag/NotoSerifArmenian-v2.008"
-   },
-   {
-    "tag": "NotoSansArmenian-v2.008",
-    "url": "https://github.com/notofonts/armenian/releases/tag/NotoSansArmenian-v2.008"
-   },
-   {
-    "tag": "NotoSansBatak-v2.003",
-    "url": "https://github.com/notofonts/batak/releases/tag/NotoSansBatak-v2.003"
-   },
-   {
-    "tag": "NotoSansCaucasianAlbanian-v2.005",
-    "url": "https://github.com/notofonts/caucasian-albanian/releases/tag/NotoSansCaucasianAlbanian-v2.005"
-   },
-   {
-    "tag": "NotoSansCham-v2.004",
-    "url": "https://github.com/notofonts/cham/releases/tag/NotoSansCham-v2.004"
-   },
-   {
-    "tag": "NotoSansChorasmian-v1.003",
-    "url": "https://github.com/notofonts/chorasmian/releases/tag/NotoSansChorasmian-v1.003"
-   },
-   {
-    "tag": "NotoSansCoptic-v2.004",
-    "url": "https://github.com/notofonts/coptic/releases/tag/NotoSansCoptic-v2.004"
-   },
-   {
-    "tag": "NotoSerifDogra-v1.007",
-    "url": "https://github.com/notofonts/dogra/releases/tag/NotoSerifDogra-v1.007"
-   },
-   {
-    "tag": "NotoSansElymaic-v1.002",
-    "url": "https://github.com/notofonts/elymaic/releases/tag/NotoSansElymaic-v1.002"
-   },
-   {
-    "tag": "NotoSerifGeorgian-v2.003",
-    "url": "https://github.com/notofonts/georgian/releases/tag/NotoSerifGeorgian-v2.003"
-   },
-   {
-    "tag": "NotoSansGeorgian-v2.003",
-    "url": "https://github.com/notofonts/georgian/releases/tag/NotoSansGeorgian-v2.003"
-   },
-   {
-    "tag": "NotoSansGlagolitic-v2.003",
-    "url": "https://github.com/notofonts/glagolitic/releases/tag/NotoSansGlagolitic-v2.003"
-   },
-   {
-    "tag": "NotoSerifGujarati-v2.105",
-    "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSerifGujarati-v2.105"
-   },
-   {
-    "tag": "NotoSansGujarati-v2.105",
-    "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSansGujarati-v2.105"
-   },
-   {
-    "tag": "NotoSansKaithi-v2.005",
-    "url": "https://github.com/notofonts/kaithi/releases/tag/NotoSansKaithi-v2.005"
-   },
-   {
-    "tag": "NotoSerifKannada-v2.005",
-    "url": "https://github.com/notofonts/kannada/releases/tag/NotoSerifKannada-v2.005"
-   },
-   {
-    "tag": "NotoSansKannada-v2.005",
-    "url": "https://github.com/notofonts/kannada/releases/tag/NotoSansKannada-v2.005"
-   },
-   {
-    "tag": "NotoSerifKhmer-v2.004",
-    "url": "https://github.com/notofonts/khmer/releases/tag/NotoSerifKhmer-v2.004"
-   },
-   {
-    "tag": "NotoSansKhmer-v2.004",
-    "url": "https://github.com/notofonts/khmer/releases/tag/NotoSansKhmer-v2.004"
-   },
-   {
-    "tag": "NotoSerifKhojki-v2.005",
-    "url": "https://github.com/notofonts/khojki/releases/tag/NotoSerifKhojki-v2.005"
-   },
-   {
-    "tag": "NotoSansKhojki-v2.005",
-    "url": "https://github.com/notofonts/khojki/releases/tag/NotoSansKhojki-v2.005"
-   },
-   {
-    "tag": "NotoSansLydian-v2.002",
-    "url": "https://github.com/notofonts/lydian/releases/tag/NotoSansLydian-v2.002"
-   },
-   {
-    "tag": "NotoSansManichaean-v2.005",
-    "url": "https://github.com/notofonts/manichaean/releases/tag/NotoSansManichaean-v2.005"
-   },
-   {
-    "tag": "NotoSansMeroitic-v2.002",
-    "url": "https://github.com/notofonts/meroitic/releases/tag/NotoSansMeroitic-v2.002"
-   },
-   {
-    "tag": "NotoSansNandinagari-v1.002",
-    "url": "https://github.com/notofonts/nandinagari/releases/tag/NotoSansNandinagari-v1.002"
-   },
-   {
-    "tag": "NotoSansNewTaiLue-v2.004",
-    "url": "https://github.com/notofonts/new-tai-lue/releases/tag/NotoSansNewTaiLue-v2.004"
-   },
-   {
-    "tag": "NotoSerifOldUyghur-v1.003",
-    "url": "https://github.com/notofonts/old-uyghur/releases/tag/NotoSerifOldUyghur-v1.003"
-   },
-   {
-    "tag": "NotoSansSundanese-v2.005",
-    "url": "https://github.com/notofonts/sundanese/releases/tag/NotoSansSundanese-v2.005"
-   },
-   {
-    "tag": "NotoSansTakri-v2.005",
-    "url": "https://github.com/notofonts/takri/releases/tag/NotoSansTakri-v2.005"
-   },
-   {
-    "tag": "NotoSansTangsa-v1.506",
-    "url": "https://github.com/notofonts/tangsa/releases/tag/NotoSansTangsa-v1.506"
-   },
-   {
-    "tag": "NotoSerifTelugu-v2.005",
-    "url": "https://github.com/notofonts/telugu/releases/tag/NotoSerifTelugu-v2.005"
-   },
-   {
-    "tag": "NotoSansTelugu-v2.005",
-    "url": "https://github.com/notofonts/telugu/releases/tag/NotoSansTelugu-v2.005"
-   },
-   {
-    "tag": "NotoSansThaana-v3.001",
-    "url": "https://github.com/notofonts/thaana/releases/tag/NotoSansThaana-v3.001"
-   },
-   {
-    "tag": "NotoSansThaana-v3.000",
-    "url": "https://github.com/notofonts/thaana/releases/tag/NotoSansThaana-v3.000"
-   },
-   {
-    "tag": "NotoSerifThai-v2.002",
-    "url": "https://github.com/notofonts/thai/releases/tag/NotoSerifThai-v2.002"
-   },
-   {
-    "tag": "NotoSansThai-v2.002",
-    "url": "https://github.com/notofonts/thai/releases/tag/NotoSansThai-v2.002"
-   }
-  ],
-  "10": [
-   {
-    "tag": "v0.2.19",
-    "url": "https://github.com/notofonts/nototools/releases/tag/v0.2.19"
-   },
-   {
-    "tag": "NotoSansArabic-v2.011",
-    "url": "https://github.com/notofonts/arabic/releases/tag/NotoSansArabic-v2.011"
-   },
-   {
-    "tag": "NotoNaskhArabic-v2.017",
-    "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.017"
-   },
-   {
-    "tag": "NotoKufiArabic-v2.108",
-    "url": "https://github.com/notofonts/arabic/releases/tag/NotoKufiArabic-v2.108"
-   },
-   {
-    "tag": "NotoSerifGujarati-v2.106",
-    "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSerifGujarati-v2.106"
-   },
-   {
-    "tag": "NotoSansGujarati-v2.106",
-    "url": "https://github.com/notofonts/gujarati/releases/tag/NotoSansGujarati-v2.106"
-   },
-   {
-    "tag": "NotoNastaliqUrdu-v3.009",
-    "url": "https://github.com/notofonts/nastaliq/releases/tag/NotoNastaliqUrdu-v3.009"
-   },
-   {
-    "tag": "NotoSansSymbols2-v2.008",
-    "url": "https://github.com/notofonts/symbols/releases/tag/NotoSansSymbols2-v2.008"
-   }
-  ],
-  "11": [
-   {
-    "tag": "NotoSansArabic-v2.012",
-    "url": "https://github.com/notofonts/arabic/releases/tag/NotoSansArabic-v2.012"
-   },
-   {
-    "tag": "NotoSansGlagolitic-v2.004",
-    "url": "https://github.com/notofonts/glagolitic/releases/tag/NotoSansGlagolitic-v2.004"
-   },
-   {
-    "tag": "NotoSansMongolian-v3.001",
-    "url": "https://github.com/notofonts/mongolian/releases/tag/NotoSansMongolian-v3.001"
-   },
-   {
-    "tag": "NotoSansMongolian-v3.000",
-    "url": "https://github.com/notofonts/mongolian/releases/tag/NotoSansMongolian-v3.000"
-   }
-  ],
-  "12": [
-   {
-    "tag": "NotoSansChorasmian-v1.004",
-    "url": "https://github.com/notofonts/chorasmian/releases/tag/NotoSansChorasmian-v1.004"
-   },
-   {
-    "tag": "NotoSansPhagsPa-v2.004",
-    "url": "https://github.com/notofonts/phags-pa/releases/tag/NotoSansPhagsPa-v2.004"
+    "tag": "NotoSansHebrew-v2.004",
+    "url": "https://github.com/notofonts/hebrew/releases/tag/NotoSansHebrew-v2.004"
    },
    {
-    "tag": "NotoZnamennyMusicalNotation-v1.003",
-    "url": "https://github.com/notofonts/znamenny/releases/tag/NotoZnamennyMusicalNotation-v1.003"
+    "tag": "NotoRashiHebrew-v1.007",
+    "url": "https://github.com/notofonts/hebrew/releases/tag/NotoRashiHebrew-v1.007"
    }
   ]
  },
