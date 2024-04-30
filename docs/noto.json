@@ -10468,6 +10468,11 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 81,
+    "title": "Sync Greek with Noto Sans",
+    "url": "https://github.com/notofonts/math/issues/81"
+   },
+   {
     "number": 77,
     "title": "Make serif as a stub, just to recycle existing serif glyphs",
     "url": "https://github.com/notofonts/math/issues/77"
@@ -10476,6 +10481,11 @@
     "number": 73,
     "title": "Inconsistent kerning",
     "url": "https://github.com/notofonts/math/issues/73"
+   },
+   {
+    "number": 71,
+    "title": "Alpha and kappa are a bit too close to their latin lookalikes",
+    "url": "https://github.com/notofonts/math/issues/71"
    },
    {
     "number": 67,
@@ -14065,6 +14075,11 @@
   },
   "gh_url": "https://notofonts.github.io/symbols",
   "issues": [
+   {
+    "number": 83,
+    "title": "Starting work on U16 legacy ex?",
+    "url": "https://github.com/notofonts/symbols/issues/83"
+   },
    {
     "number": 82,
     "title": "Character spacing problem \u266d\u266f\u266e",
