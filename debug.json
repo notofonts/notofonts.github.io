@@ -10673,8 +10673,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 125,
+  "issue_count": 126,
   "issues": [
+   {
+    "number": 474,
+    "title": "Kerning and overlapping issues in heavier weights of Noto Serif",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/474"
+   },
    {
     "number": 472,
     "title": "-> symbols don't align very well",
@@ -17675,7 +17680,7 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/symbols",
   "has_releases": true,
-  "issue_count": 13,
+  "issue_count": 12,
   "issues": [
    {
     "number": 83,
@@ -17686,11 +17691,6 @@
     "number": 82,
     "title": "Character spacing problem \u266d\u266f\u266e",
     "url": "https://github.com/notofonts/symbols/issues/82"
-   },
-   {
-    "number": 81,
-    "title": "U+1D377 \"\ud834\udf77\" TALLY MARK ONE is spaced improperly",
-    "url": "https://github.com/notofonts/symbols/issues/81"
    },
    {
     "number": 80,
