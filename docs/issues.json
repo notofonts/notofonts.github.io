@@ -3,7 +3,8 @@
   "1": 11,
   "2": 27,
   "3": 11,
-  "4": 34
+  "4": 33,
+  "5": 0
  },
  "open_per_repo": {
   "ahom": 3,
@@ -43,11 +44,11 @@
   "khitan-small-script": 1,
   "khojki": 3,
   "khudawadi": 1,
-  "latin-greek-cyrillic": 124,
+  "latin-greek-cyrillic": 125,
   "lydian": 1,
   "malayalam": 7,
   "manichaean": 3,
-  "math": 7,
+  "math": 9,
   "meetei-mayek": 1,
   "miao": 1,
   "modi": 6,
@@ -90,9 +91,9 @@
   "tirhuta": 10
  },
  "open_per_tier": {
-  "1": 198,
+  "1": 199,
   "2": 40,
-  "3": 89,
+  "3": 91,
   "4": 53,
   "5": 22
  },
@@ -100,7 +101,8 @@
   "1": 31,
   "2": 27,
   "3": 15,
-  "4": 28
+  "4": 30,
+  "5": 0
  },
  "releases_per_month": {
   "1": [
@@ -172,6 +174,7 @@
   "1": 379,
   "2": 401,
   "3": 402,
-  "4": 408
+  "4": 408,
+  "5": 405
  }
 }

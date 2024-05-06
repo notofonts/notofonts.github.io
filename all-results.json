@@ -133,6 +133,13 @@
   "url": "https://github.com/notofonts/arabic/issues/238"
  },
  {
+  "closedAt": "2024-04-30T05:47:07Z",
+  "createdAt": "2024-04-30T03:10:40Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/239"
+ },
+ {
   "closedAt": null,
   "createdAt": "2021-05-06T04:03:47Z",
   "repo": "armenian",
@@ -2003,6 +2010,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-04-30T09:49:05Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/474"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2022-05-29T17:13:30Z",
   "repo": "lydian",
   "tier": 4,
@@ -2282,7 +2296,7 @@
   "url": "https://github.com/notofonts/math/issues/68"
  },
  {
-  "closedAt": "2024-04-28T18:05:33Z",
+  "closedAt": null,
   "createdAt": "2024-04-25T11:12:13Z",
   "repo": "math",
   "tier": 3,
@@ -2322,6 +2336,13 @@
   "repo": "math",
   "tier": 3,
   "url": "https://github.com/notofonts/math/issues/77"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-04-29T14:39:52Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/81"
  },
  {
   "closedAt": null,
@@ -3066,7 +3087,7 @@
   "url": "https://github.com/notofonts/symbols/issues/80"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-04-30T13:14:00Z",
   "createdAt": "2023-11-27T09:59:35Z",
   "repo": "symbols",
   "tier": 3,
@@ -3078,6 +3099,13 @@
   "repo": "symbols",
   "tier": 3,
   "url": "https://github.com/notofonts/symbols/issues/82"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-04-29T07:38:34Z",
+  "repo": "symbols",
+  "tier": 3,
+  "url": "https://github.com/notofonts/symbols/issues/83"
  },
  {
   "closedAt": null,
