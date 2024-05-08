@@ -7089,8 +7089,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/hebrew",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 11,
   "issues": [
+   {
+    "number": 50,
+    "title": "Overlap issues with shin dot and holam",
+    "url": "https://github.com/notofonts/hebrew/issues/50"
+   },
    {
     "number": 48,
     "title": "Diamond dots?",

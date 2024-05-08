@@ -5752,6 +5752,11 @@
   "gh_url": "https://notofonts.github.io/hebrew",
   "issues": [
    {
+    "number": 50,
+    "title": "Overlap issues with shin dot and holam",
+    "url": "https://github.com/notofonts/hebrew/issues/50"
+   },
+   {
     "number": 48,
     "title": "Diamond dots?",
     "url": "https://github.com/notofonts/hebrew/issues/48"
