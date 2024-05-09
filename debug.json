@@ -10678,8 +10678,18 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 126,
+  "issue_count": 128,
   "issues": [
+   {
+    "number": 476,
+    "title": "Wrong font families",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/476"
+   },
+   {
+    "number": 475,
+    "title": "Kerning problem in with Greek capital A in Noto Serif italics",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/475"
+   },
    {
     "number": 474,
     "title": "Kerning and overlapping issues in heavier weights of Noto Serif",
