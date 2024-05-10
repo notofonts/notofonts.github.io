@@ -10678,13 +10678,8 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 128,
+  "issue_count": 127,
   "issues": [
-   {
-    "number": 476,
-    "title": "Wrong font families",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/476"
-   },
    {
     "number": 475,
     "title": "Kerning problem in with Greek capital A in Noto Serif italics",
@@ -17929,8 +17924,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/syriac",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 8,
   "issues": [
+   {
+    "number": 27,
+    "title": "Final Semkath [U+0724] rendered incorrectly when connected",
+    "url": "https://github.com/notofonts/syriac/issues/27"
+   },
    {
     "number": 26,
     "title": "Weights 200, 300, 500-800 present on Google Fonts but not here (even in googlefonts/, for all three variants)",
