@@ -1137,8 +1137,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/armenian",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 12,
+    "title": "Full now has mismatched Latin weights",
+    "url": "https://github.com/notofonts/armenian/issues/12"
+   },
    {
     "number": 3,
     "title": "Italic (cursive) variants of Georgian and Armenian",
@@ -5031,8 +5036,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/georgian",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 8,
+    "title": "Style link issue in serif too",
+    "url": "https://github.com/notofonts/georgian/issues/8"
+   },
    {
     "number": 7,
     "title": "Combining characters are not in 'cmap'",
