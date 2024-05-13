@@ -155,6 +155,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-05-10T05:38:43Z",
+  "repo": "armenian",
+  "tier": 1,
+  "url": "https://github.com/notofonts/armenian/issues/12"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2018-10-12T07:48:44Z",
   "repo": "balinese",
   "tier": 2,
@@ -631,6 +638,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-05-10T05:20:46Z",
+  "repo": "georgian",
+  "tier": 2,
+  "url": "https://github.com/notofonts/georgian/issues/8"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-09-25T16:54:25Z",
   "repo": "glagolitic",
   "tier": 4,
@@ -887,6 +901,13 @@
   "repo": "hebrew",
   "tier": 1,
   "url": "https://github.com/notofonts/hebrew/issues/49"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-05-07T16:12:18Z",
+  "repo": "hebrew",
+  "tier": 1,
+  "url": "https://github.com/notofonts/hebrew/issues/50"
  },
  {
   "closedAt": "2024-04-15T16:08:48Z",
@@ -2017,6 +2038,20 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-05-08T11:31:11Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/475"
+ },
+ {
+  "closedAt": "2024-05-09T09:56:55Z",
+  "createdAt": "2024-05-08T14:44:04Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/476"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2022-05-29T17:13:30Z",
   "repo": "lydian",
   "tier": 4,
@@ -2829,6 +2864,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-05-13T01:47:02Z",
+  "repo": "old-italic",
+  "tier": 5,
+  "url": "https://github.com/notofonts/old-italic/issues/3"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2021-12-27T05:20:18Z",
   "repo": "old-turkic",
   "tier": 5,
@@ -3162,6 +3204,13 @@
   "repo": "syriac",
   "tier": 3,
   "url": "https://github.com/notofonts/syriac/issues/26"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-05-09T20:58:29Z",
+  "repo": "syriac",
+  "tier": 3,
+  "url": "https://github.com/notofonts/syriac/issues/27"
  },
  {
   "closedAt": null,
