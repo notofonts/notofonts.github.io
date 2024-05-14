@@ -6048,11 +6048,6 @@
     "url": "https://github.com/notofonts/kaithi/issues/25"
    },
    {
-    "number": 24,
-    "title": "Reph blocks 'ss02' form of U+110B3 KAITHI VOWEL SIGN U",
-    "url": "https://github.com/notofonts/kaithi/issues/24"
-   },
-   {
     "number": 2,
     "title": "Kaithi letter \"a\" and other characters having this glyph look wrongly written ",
     "url": "https://github.com/notofonts/kaithi/issues/2"
@@ -8900,6 +8895,11 @@
   },
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
+   {
+    "number": 477,
+    "title": "Interrobang Replacement?",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/477"
+   },
    {
     "number": 475,
     "title": "Kerning problem in with Greek capital A in Noto Serif italics",
@@ -12572,6 +12572,11 @@
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
    {
+    "number": 39,
+    "title": "U+0B69 ORIYA DIGIT THREE left side should not join vertical stem",
+    "url": "https://github.com/notofonts/oriya/issues/39"
+   },
+   {
     "number": 31,
     "title": "Bump cryptography from 41.0.1 to 41.0.4",
     "url": "https://github.com/notofonts/oriya/pull/31"
@@ -15899,11 +15904,6 @@
   },
   "gh_url": "https://notofonts.github.io/telugu",
   "issues": [
-   {
-    "number": 23,
-    "title": "NotoSansTelugu font is not working in iOS 15 and 16 version",
-    "url": "https://github.com/notofonts/telugu/issues/23"
-   },
    {
     "number": 21,
     "title": "\u0c28\u0c4d\u0c26\u0c4d\u0c30\u0952 ndra with vedic anudatta overlapping",
