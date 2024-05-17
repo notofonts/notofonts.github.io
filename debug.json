@@ -25,10 +25,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Adlam v3.001\n\nThis is an administrative release.\n",
-     "published": "2022-07-13T15:51:43",
-     "url": "https://github.com/notofonts/adlam/releases/tag/NotoSansAdlam-v3.001",
-     "version": "v3.001"
+     "notes": "Noto Sans Adlam v3.002\n\nThis release:\n\n- Corrects the form of ADLAM VOWEL LENGTHENER when nukta is present (#3)\n- Adds a medial form to ADLAM NASALIZATION MARK (#4)\n- Fixes an interpolation bug (#13)\n- Removes the fraction slash character (#2)\n- Improves the positioning of marks on the dotted circle (#9)\n- Removes the erroneous 'case' feature (#10)\n- Makes the HAMZA stack on modifier glyphs (#11)\n",
+     "published": "2024-05-16T09:03:52+00:00",
+     "url": "https://github.com/notofonts/adlam/releases/tag/NotoSansAdlam-v3.002",
+     "version": "v3.002"
     },
     "third_party_versions": {
      "Android 12": {
@@ -43,7 +43,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "3.001"
      },
      "iOS 16.1": {
@@ -82,10 +82,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Adlam Unjoined v3.001\n\nThis is an administrative release.\n",
-     "published": "2022-07-13T15:50:54",
-     "url": "https://github.com/notofonts/adlam/releases/tag/NotoSansAdlamUnjoined-v3.001",
-     "version": "v3.001"
+     "notes": "Noto Sans Adlam Unjoined v3.002\n\nThis release:\n\n- Removes the fraction slash character (#2)\n- Improves the positioning of marks on the dotted circle (#9)\n- Removes the erroneous 'case' feature (#10)\n- Makes the HAMZA stack on modifier glyphs (#11)\n",
+     "published": "2024-05-16T09:04:12+00:00",
+     "url": "https://github.com/notofonts/adlam/releases/tag/NotoSansAdlamUnjoined-v3.002",
+     "version": "v3.002"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -95,7 +95,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "3.001"
      }
     }
@@ -104,8 +104,19 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/adlam",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 2,
+  "issues": [
+   {
+    "number": 16,
+    "title": "U+1E923 ADLAM SMALL LETTER DAALI\u2019s ascender is contextualized differently in the two fonts",
+    "url": "https://github.com/notofonts/adlam/issues/16"
+   },
+   {
+    "number": 15,
+    "title": "Mark positioning is broken in Noto Sans Adlam Unjoined",
+    "url": "https://github.com/notofonts/adlam/issues/15"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/adlam",
   "tier": 2,
   "title": "Noto Adlam"
@@ -1228,7 +1239,7 @@
       "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-Medium.ttf",
       "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-Regular.ttf",
       "fonts/NotoSansBalinese/full/ttf/NotoSansBalinese-SemiBold.ttf",
-      "fonts/NotoSansBalinese/full/variable/NotoSansBalinese[wght].ttf"
+      "fonts/NotoSansBalinese/full/variable-ttf/NotoSansBalinese[wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSansBalinese/hinted/ttf/NotoSansBalinese-Bold.ttf",
@@ -1246,14 +1257,14 @@
       "fonts/NotoSansBalinese/unhinted/ttf/NotoSansBalinese-Medium.ttf",
       "fonts/NotoSansBalinese/unhinted/ttf/NotoSansBalinese-Regular.ttf",
       "fonts/NotoSansBalinese/unhinted/ttf/NotoSansBalinese-SemiBold.ttf",
-      "fonts/NotoSansBalinese/unhinted/variable/NotoSansBalinese[wght].ttf"
+      "fonts/NotoSansBalinese/unhinted/variable-ttf/NotoSansBalinese[wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Balinese v2.005\n\nThis release:\n* Fixes many third-level stacking conjuncts (#3)\n* Fixes several other conjunct issues (#4)\n* Monospaces the musical symbols (#6)\n* Improves the rendering of -u/-uu after conjuncts (#10)\n* Improves the positioning of anchors on a dotted circles (#16)\n* Fixes a number of overlaps (#33)\n* Removes hinting from non-hinted builds (#37)\n",
-     "published": "2024-02-13T17:07:43+00:00",
-     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSansBalinese-v2.005",
-     "version": "v2.005"
+     "notes": "Noto Sans Balinese v2.006\n\nThis release ignores marks when forming tedung ligatures (#40) and fixes various fontbakery fails.\n",
+     "published": "2024-05-16T10:43:22+00:00",
+     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSansBalinese-v2.006",
+     "version": "v2.006"
     },
     "third_party_versions": {
      "Android 12": {
@@ -1288,10 +1299,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Balinese v2.005\n\nThis release:\n* Fixes the formation of short jha with vowel marks (see #7, #9)\n* Moves certain lookups from the liga feature to the rlig feature (see #11)\n* Fixes the formation of vowel ligatures with conjuncts (see #12)\n",
-     "published": "2023-01-10T13:59:52",
-     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSerifBalinese-v2.005",
-     "version": "v2.005"
+     "notes": "Noto Serif Balinese v2.006\n\nThis release:\n\n* Fixes third level conjunct stacks (#3, #4)\n* Monospaces the musical symbols (#6)\n* Improves anchors of marks on dotted circles (#16)\n* Adds the Unicode 14 character ARCHAIC JNYA (#34)\n* Adds a default language system\n",
+     "published": "2024-05-16T10:54:52+00:00",
+     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSerifBalinese-v2.006",
+     "version": "v2.006"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -2566,7 +2577,7 @@
       "fonts/NotoSansCham/full/ttf/NotoSansCham-Regular.ttf",
       "fonts/NotoSansCham/full/ttf/NotoSansCham-SemiBold.ttf",
       "fonts/NotoSansCham/full/ttf/NotoSansCham-Thin.ttf",
-      "fonts/NotoSansCham/full/variable/NotoSansCham[wght].ttf"
+      "fonts/NotoSansCham/full/variable-ttf/NotoSansCham[wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSansCham/hinted/ttf/NotoSansCham-Black.ttf",
@@ -2599,14 +2610,14 @@
       "fonts/NotoSansCham/unhinted/ttf/NotoSansCham-Regular.ttf",
       "fonts/NotoSansCham/unhinted/ttf/NotoSansCham-SemiBold.ttf",
       "fonts/NotoSansCham/unhinted/ttf/NotoSansCham-Thin.ttf",
-      "fonts/NotoSansCham/unhinted/variable/NotoSansCham[wght].ttf"
+      "fonts/NotoSansCham/unhinted/variable-ttf/NotoSansCham[wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Cham v2.004\n\nThis release:\n\n* Removes errant style map family names\n* Corrects the kerning of the dotless double danda (#9)\n",
-     "published": "2023-09-25T11:02:31",
-     "url": "https://github.com/notofonts/cham/releases/tag/NotoSansCham-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Cham v2.005\n\nThis release simplifies the font's maintenance by removing the semibold master.\n",
+     "published": "2024-05-16T10:59:16+00:00",
+     "url": "https://github.com/notofonts/cham/releases/tag/NotoSansCham-v2.005",
+     "version": "v2.005"
     },
     "third_party_versions": {
      "Android 12": {
@@ -3131,42 +3142,6 @@
       "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagari-SemiCondensedSemiBold.otf",
       "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagari-SemiCondensedThin.otf",
       "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagari-Thin.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-Black.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-Bold.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-Condensed.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-CondensedBlack.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-CondensedBold.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-CondensedExtraBold.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-CondensedExtraLight.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-CondensedLight.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-CondensedMedium.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-CondensedSemiBold.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-CondensedThin.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-ExtraBold.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-ExtraCondensed.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-ExtraCondensedBlack.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-ExtraCondensedBold.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-ExtraCondensedExtraBold.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-ExtraCondensedExtraLight.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-ExtraCondensedLight.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-ExtraCondensedMedium.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-ExtraCondensedSemiBold.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-ExtraCondensedThin.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-ExtraLight.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-Light.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-Medium.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-Regular.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-SemiBold.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-SemiCondensed.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-SemiCondensedBlack.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-SemiCondensedBold.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-SemiCondensedExtraBold.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-SemiCondensedExtraLight.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-SemiCondensedLight.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-SemiCondensedMedium.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-SemiCondensedSemiBold.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-SemiCondensedThin.otf",
-      "fonts/NotoSansDevanagari/full/otf/NotoSansDevanagariUI-Thin.otf",
       "fonts/NotoSansDevanagari/full/slim-variable-ttf/NotoSansDevanagari[wght].ttf",
       "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagari-Black.ttf",
       "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagari-Bold.ttf",
@@ -3204,42 +3179,6 @@
       "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagari-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagari-SemiCondensedThin.ttf",
       "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagari-Thin.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-Black.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-Bold.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-Condensed.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-CondensedBlack.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-CondensedBold.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-CondensedExtraBold.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-CondensedExtraLight.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-CondensedLight.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-CondensedMedium.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-CondensedSemiBold.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-CondensedThin.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-ExtraBold.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-ExtraCondensed.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-ExtraCondensedBlack.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-ExtraCondensedBold.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-ExtraCondensedExtraBold.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-ExtraCondensedExtraLight.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-ExtraCondensedLight.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-ExtraCondensedMedium.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-ExtraCondensedSemiBold.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-ExtraCondensedThin.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-ExtraLight.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-Light.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-Medium.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-Regular.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-SemiBold.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-SemiCondensed.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-SemiCondensedBlack.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-SemiCondensedBold.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-SemiCondensedExtraBold.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-SemiCondensedExtraLight.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-SemiCondensedLight.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-SemiCondensedMedium.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-SemiCondensedSemiBold.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-SemiCondensedThin.ttf",
-      "fonts/NotoSansDevanagari/full/ttf/NotoSansDevanagariUI-Thin.ttf",
       "fonts/NotoSansDevanagari/full/variable-ttf/NotoSansDevanagari[wdth,wght].ttf"
      ],
      "hinted": [
@@ -3278,43 +3217,7 @@
       "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagari-SemiCondensedMedium.ttf",
       "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagari-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagari-SemiCondensedThin.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagari-Thin.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-Black.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-Bold.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-Condensed.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-CondensedBlack.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-CondensedBold.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-CondensedExtraBold.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-CondensedExtraLight.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-CondensedLight.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-CondensedMedium.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-CondensedSemiBold.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-CondensedThin.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-ExtraBold.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-ExtraCondensed.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-ExtraCondensedBlack.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-ExtraCondensedBold.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-ExtraCondensedExtraBold.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-ExtraCondensedExtraLight.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-ExtraCondensedLight.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-ExtraCondensedMedium.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-ExtraCondensedSemiBold.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-ExtraCondensedThin.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-ExtraLight.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-Light.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-Medium.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-Regular.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-SemiBold.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-SemiCondensed.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-SemiCondensedBlack.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-SemiCondensedBold.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-SemiCondensedExtraBold.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-SemiCondensedExtraLight.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-SemiCondensedLight.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-SemiCondensedMedium.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-SemiCondensedSemiBold.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-SemiCondensedThin.ttf",
-      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagariUI-Thin.ttf"
+      "fonts/NotoSansDevanagari/hinted/ttf/NotoSansDevanagari-Thin.ttf"
      ],
      "unhinted": [
       "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagari-Black.otf",
@@ -3353,42 +3256,6 @@
       "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagari-SemiCondensedSemiBold.otf",
       "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagari-SemiCondensedThin.otf",
       "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagari-Thin.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-Black.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-Bold.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-Condensed.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-CondensedBlack.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-CondensedBold.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-CondensedExtraBold.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-CondensedExtraLight.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-CondensedLight.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-CondensedMedium.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-CondensedSemiBold.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-CondensedThin.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-ExtraBold.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-ExtraCondensed.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-ExtraCondensedBlack.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-ExtraCondensedBold.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-ExtraCondensedExtraBold.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-ExtraCondensedExtraLight.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-ExtraCondensedLight.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-ExtraCondensedMedium.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-ExtraCondensedSemiBold.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-ExtraCondensedThin.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-ExtraLight.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-Light.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-Medium.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-Regular.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-SemiBold.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-SemiCondensed.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-SemiCondensedBlack.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-SemiCondensedBold.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-SemiCondensedExtraBold.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-SemiCondensedExtraLight.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-SemiCondensedLight.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-SemiCondensedMedium.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-SemiCondensedSemiBold.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-SemiCondensedThin.otf",
-      "fonts/NotoSansDevanagari/unhinted/otf/NotoSansDevanagariUI-Thin.otf",
       "fonts/NotoSansDevanagari/unhinted/slim-variable-ttf/NotoSansDevanagari[wght].ttf",
       "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagari-Black.ttf",
       "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagari-Bold.ttf",
@@ -3426,50 +3293,14 @@
       "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagari-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagari-SemiCondensedThin.ttf",
       "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagari-Thin.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-Black.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-Bold.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-Condensed.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-CondensedBlack.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-CondensedBold.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-CondensedExtraBold.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-CondensedExtraLight.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-CondensedLight.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-CondensedMedium.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-CondensedSemiBold.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-CondensedThin.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-ExtraBold.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-ExtraCondensed.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-ExtraCondensedBlack.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-ExtraCondensedBold.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-ExtraCondensedExtraBold.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-ExtraCondensedExtraLight.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-ExtraCondensedLight.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-ExtraCondensedMedium.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-ExtraCondensedSemiBold.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-ExtraCondensedThin.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-ExtraLight.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-Light.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-Medium.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-Regular.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-SemiBold.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-SemiCondensed.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-SemiCondensedBlack.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-SemiCondensedBold.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-SemiCondensedExtraBold.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-SemiCondensedExtraLight.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-SemiCondensedLight.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-SemiCondensedMedium.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-SemiCondensedSemiBold.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-SemiCondensedThin.ttf",
-      "fonts/NotoSansDevanagari/unhinted/ttf/NotoSansDevanagariUI-Thin.ttf",
       "fonts/NotoSansDevanagari/unhinted/variable-ttf/NotoSansDevanagari[wdth,wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "This release: \r\n\r\n*  adds kerning between the UU vowel and punctuation (#2) \r\n*  ensures vedic marks attach to the base instead of any following visarga (#5) \r\n*  makes the kerning of za and zha consistent with ja (#6) \r\n*  blocks conjuncts after ZWJ half forms (#8) \r\n*  uses the reph form of ra + l-vocalic (#32) \r\n*  avoids a clash between some subsequent vedic marks (#10)",
-     "published": "2023-03-29T11:40:37",
-     "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSansDevanagari-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Devanagari v2.005\n\nThis release:\n\n* Adds a number of new Unicode characters\n* Cleans up the OpenType code\n* Encodes a number of vedic signs (#39)\n* Removes the semibold master\n* Fixes a bug in kerning between z-dda\n* Fixes a number of fontbakery fails\n* Improves support for the Santali language (#36)\n* Fixes a clash between nukta and lower vowel signs (#35)\n",
+     "published": "2024-05-16T14:40:03+00:00",
+     "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSansDevanagari-v2.005",
+     "version": "v2.005"
     },
     "third_party_versions": {
      "Android 12": {
@@ -3683,10 +3514,10 @@
      ]
     },
     "latest_release": {
-     "notes": "This release: \r\n* changes the category of ardhavisarga to fix a spacing issue (#32) \r\n* uses the reph form of ra + l-vocalic (#32) \r\n* avoids a clash between some subsequent vedic marks (#10)",
-     "published": "2023-03-29T11:41:26",
-     "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSerifDevanagari-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Serif Devanagari v2.005\n\nThis release:\n\n* Adds a number of new Unicode characters\n* Cleans up the OpenType code\n* Encodes a number of vedic signs (#39)\n* Removes the semibold master\n* Fixes a bug in kerning between z-dda\n* Fixes a number of fontbakery fails\n* Improves support for the Santali language (#36)\n* Fixes a clash between nukta and lower vowel signs (#35)\n",
+     "published": "2024-05-16T14:39:53+00:00",
+     "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSerifDevanagari-v2.005",
+     "version": "v2.005"
     },
     "third_party_versions": {
      "Android 12": {
@@ -7178,10 +7009,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Imperial Aramaic v2.001\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-21T14:22:21",
-     "url": "https://github.com/notofonts/imperial-aramaic/releases/tag/NotoSansImperialAramaic-v2.001",
-     "version": "v2.001"
+     "notes": "Noto Sans Imperial Aramaic v2.002\n\nThis very minor update adds a default languagesystem.\n",
+     "published": "2024-05-16T11:20:06+00:00",
+     "url": "https://github.com/notofonts/imperial-aramaic/releases/tag/NotoSansImperialAramaic-v2.002",
+     "version": "v2.002"
     },
     "third_party_versions": {
      "Android 12": {
@@ -7283,10 +7114,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Inscriptional Pahlavi v2.003\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-21T14:39:12",
-     "url": "https://github.com/notofonts/inscriptional-pahlavi/releases/tag/NotoSansInscriptionalPahlavi-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Inscriptional Pahlavi v2.004\n\nThis release improves the kerning after beth (#1) and fixes repeated beths (#2)\n",
+     "published": "2024-05-16T11:26:55+00:00",
+     "url": "https://github.com/notofonts/inscriptional-pahlavi/releases/tag/NotoSansInscriptionalPahlavi-v2.004",
+     "version": "v2.004"
     },
     "third_party_versions": {
      "Android 12": {
@@ -7343,10 +7174,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Inscriptional Parthian v2.003\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-10-20T12:38:37",
-     "url": "https://github.com/notofonts/inscriptional-parthian/releases/tag/NotoSansInscriptionalParthian-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Inscriptional Parthian v2.004\n\nThis release fixes the kerning of swash nuns (#1, #4)\n",
+     "published": "2024-05-16T11:21:58+00:00",
+     "url": "https://github.com/notofonts/inscriptional-parthian/releases/tag/NotoSansInscriptionalParthian-v2.004",
+     "version": "v2.004"
     },
     "third_party_versions": {
      "Android 12": {
@@ -10683,8 +10514,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 128,
+  "issue_count": 129,
   "issues": [
+   {
+    "number": 478,
+    "title": "R can overlap the next letter",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/478"
+   },
    {
     "number": 477,
     "title": "Interrobang Replacement?",
@@ -13265,13 +13101,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mongolian",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 37,
-    "title": "Fix OTL",
-    "url": "https://github.com/notofonts/mongolian/pull/37"
-   },
    {
     "number": 32,
     "title": "Weights?",
@@ -21644,5 +21475,54 @@
   "repo_url": "https://www.github.com/notofonts/zanabazar-square",
   "tier": 3,
   "title": "Noto Zanabazar Square"
+ },
+ "znamenny": {
+  "families": {
+   "Noto Znamenny Musical Notation": {
+    "files": {
+     "full": [
+      "fonts/NotoZnamennyMusicalNotation/full/otf/NotoZnamennyMusicalNotation-Regular.otf",
+      "fonts/NotoZnamennyMusicalNotation/full/ttf/NotoZnamennyMusicalNotation-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoZnamennyMusicalNotation/hinted/ttf/NotoZnamennyMusicalNotation-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoZnamennyMusicalNotation/unhinted/otf/NotoZnamennyMusicalNotation-Regular.otf",
+      "fonts/NotoZnamennyMusicalNotation/unhinted/ttf/NotoZnamennyMusicalNotation-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Znamenny Musical Notation\n\nThis is the first release of this font supporting Znamenny Chant notation.\n",
+     "published": "2023-12-11T10:34:37+00:00",
+     "url": "https://github.com/notofonts/znamenny/releases/tag/NotoZnamennyMusicalNotation-v1.003",
+     "version": "v1.003"
+    }
+   }
+  },
+  "families_count": 1,
+  "gh_url": "https://notofonts.github.io/znamenny",
+  "has_releases": true,
+  "issue_count": 3,
+  "issues": [
+   {
+    "number": 4,
+    "title": " U+1CFBB ZNAMENNY NEUME STRELA KRYUKOVAYA GROMOPOVODNAYA WITH DOUBLE ZAPYATAYA lacks vertical stroke",
+    "url": "https://github.com/notofonts/znamenny/issues/4"
+   },
+   {
+    "number": 3,
+    "title": "Many glyphs have mispositioned components",
+    "url": "https://github.com/notofonts/znamenny/issues/3"
+   },
+   {
+    "number": 2,
+    "title": "Priznak modifiers are not supported",
+    "url": "https://github.com/notofonts/znamenny/issues/2"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/znamenny",
+  "tier": 4,
+  "title": "Noto Znammeny Musical Notation"
  }
 }
