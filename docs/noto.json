@@ -5737,7 +5737,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/inscriptional-pahlavi",
-  "issues": [],
+  "issues": [
+   {
+    "number": 3,
+    "title": "Unnecessary spacing between beth and gimel or waw",
+    "url": "https://github.com/notofonts/inscriptional-pahlavi/issues/3"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/inscriptional-pahlavi",
   "tier": 5,
   "title": "Noto Inscriptional Pahlavi"
@@ -5767,7 +5773,28 @@
    }
   },
   "gh_url": "https://notofonts.github.io/inscriptional-parthian",
-  "issues": [],
+  "issues": [
+   {
+    "number": 8,
+    "title": "U+0323 COMBINING DOT BELOW is missing",
+    "url": "https://github.com/notofonts/inscriptional-parthian/issues/8"
+   },
+   {
+    "number": 7,
+    "title": "U+10B4D INSCRIPTIONAL PARTHIAN LETTER NUN has too much or too little kerning",
+    "url": "https://github.com/notofonts/inscriptional-parthian/issues/7"
+   },
+   {
+    "number": 6,
+    "title": "U+10B4D NUN overlaps the bottom piece of U+10B43 DALETH",
+    "url": "https://github.com/notofonts/inscriptional-parthian/issues/6"
+   },
+   {
+    "number": 5,
+    "title": "On the site, the hinted version still downloads 2.003",
+    "url": "https://github.com/notofonts/inscriptional-parthian/issues/5"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/inscriptional-parthian",
   "tier": 5,
   "title": "Noto Inscriptional Parthian"
@@ -8726,11 +8753,6 @@
   },
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
-   {
-    "number": 478,
-    "title": "R can overlap the next letter",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/478"
-   },
    {
     "number": 477,
     "title": "Interrobang Replacement?",
@@ -11980,6 +12002,11 @@
   },
   "gh_url": "https://notofonts.github.io/old-hungarian",
   "issues": [
+   {
+    "number": 22,
+    "title": "The Old Hungarian numbers must to capital form",
+    "url": "https://github.com/notofonts/old-hungarian/issues/22"
+   },
    {
     "number": 16,
     "title": "Small and capital letter must be aligned to a baseline.",
