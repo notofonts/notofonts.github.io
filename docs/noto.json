@@ -5788,11 +5788,6 @@
     "number": 6,
     "title": "U+10B4D NUN overlaps the bottom piece of U+10B43 DALETH",
     "url": "https://github.com/notofonts/inscriptional-parthian/issues/6"
-   },
-   {
-    "number": 5,
-    "title": "On the site, the hinted version still downloads 2.003",
-    "url": "https://github.com/notofonts/inscriptional-parthian/issues/5"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/inscriptional-parthian",
@@ -8774,11 +8769,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/472"
    },
    {
-    "number": 470,
-    "title": "Add U+1DFA",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/470"
-   },
-   {
     "number": 469,
     "title": "Noto Sans Missed Characters `partialdiff`, `increment` (Delta) and more.",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/469"
@@ -10846,6 +10836,11 @@
   },
   "gh_url": "https://notofonts.github.io/music",
   "issues": [
+   {
+    "number": 11,
+    "title": "Glyphs for notes extending down are missing",
+    "url": "https://github.com/notofonts/music/issues/11"
+   },
    {
     "number": 3,
     "title": "Incomplete coverage of ancient Greek musical notation",

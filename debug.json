@@ -7217,7 +7217,7 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/inscriptional-parthian",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 3,
   "issues": [
    {
     "number": 8,
@@ -7233,11 +7233,6 @@
     "number": 6,
     "title": "U+10B4D NUN overlaps the bottom piece of U+10B43 DALETH",
     "url": "https://github.com/notofonts/inscriptional-parthian/issues/6"
-   },
-   {
-    "number": 5,
-    "title": "On the site, the hinted version still downloads 2.003",
-    "url": "https://github.com/notofonts/inscriptional-parthian/issues/5"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/inscriptional-parthian",
@@ -10541,7 +10536,7 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 128,
+  "issue_count": 127,
   "issues": [
    {
     "number": 477,
@@ -10562,11 +10557,6 @@
     "number": 472,
     "title": "-> symbols don't align very well",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/472"
-   },
-   {
-    "number": 470,
-    "title": "Add U+1DFA",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/470"
    },
    {
     "number": 469,
@@ -13291,8 +13281,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/music",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 11,
+    "title": "Glyphs for notes extending down are missing",
+    "url": "https://github.com/notofonts/music/issues/11"
+   },
    {
     "number": 3,
     "title": "Incomplete coverage of ancient Greek musical notation",
