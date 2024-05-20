@@ -4,9 +4,10 @@
   "2": 27,
   "3": 11,
   "4": 33,
-  "5": 1
+  "5": 9
  },
  "open_per_repo": {
+  "adlam": 2,
   "ahom": 3,
   "arabic": 9,
   "armenian": 2,
@@ -36,8 +37,10 @@
   "gurmukhi": 5,
   "hanunoo": 1,
   "hebrew": 11,
+  "inscriptional-pahlavi": 1,
+  "inscriptional-parthian": 3,
   "javanese": 4,
-  "kaithi": 7,
+  "kaithi": 6,
   "kannada": 7,
   "kawi": 5,
   "kharoshthi": 1,
@@ -54,16 +57,16 @@
   "modi": 6,
   "mongolian": 1,
   "multani": 1,
-  "music": 1,
+  "music": 2,
   "myanmar": 31,
   "nandinagari": 3,
   "nastaliq": 11,
   "nko": 1,
-  "old-hungarian": 4,
+  "old-hungarian": 5,
   "old-hungarian-ui": 2,
-  "old-italic": 2,
+  "old-italic": 1,
   "old-turkic": 1,
-  "oriya": 1,
+  "oriya": 2,
   "pahawh-hmong": 1,
   "phags-pa": 1,
   "rejang": 1,
@@ -84,25 +87,26 @@
   "tamil": 2,
   "tangsa": 1,
   "tangut": 1,
-  "telugu": 3,
+  "telugu": 2,
   "thai": 3,
   "tibetan": 4,
   "tifinagh": 3,
-  "tirhuta": 10
+  "tirhuta": 10,
+  "znamenny": 3
  },
  "open_per_tier": {
   "1": 202,
-  "2": 41,
-  "3": 92,
-  "4": 53,
-  "5": 23
+  "2": 43,
+  "3": 93,
+  "4": 56,
+  "5": 26
  },
  "opened_per_month": {
-  "1": 31,
+  "1": 32,
   "2": 27,
   "3": 15,
   "4": 30,
-  "5": 7
+  "5": 21
  },
  "releases_per_month": {
   "1": [
@@ -168,13 +172,59 @@
     "tag": "NotoRashiHebrew-v1.007",
     "url": "https://github.com/notofonts/hebrew/releases/tag/NotoRashiHebrew-v1.007"
    }
+  ],
+  "5": [
+   {
+    "tag": "NotoSansAdlamUnjoined-v3.002",
+    "url": "https://github.com/notofonts/adlam/releases/tag/NotoSansAdlamUnjoined-v3.002"
+   },
+   {
+    "tag": "NotoSansAdlam-v3.002",
+    "url": "https://github.com/notofonts/adlam/releases/tag/NotoSansAdlam-v3.002"
+   },
+   {
+    "tag": "NotoSerifBalinese-v2.006",
+    "url": "https://github.com/notofonts/balinese/releases/tag/NotoSerifBalinese-v2.006"
+   },
+   {
+    "tag": "NotoSansBalinese-v2.006",
+    "url": "https://github.com/notofonts/balinese/releases/tag/NotoSansBalinese-v2.006"
+   },
+   {
+    "tag": "NotoSansCham-v2.005",
+    "url": "https://github.com/notofonts/cham/releases/tag/NotoSansCham-v2.005"
+   },
+   {
+    "tag": "NotoSerifDevanagari-v2.005",
+    "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSerifDevanagari-v2.005"
+   },
+   {
+    "tag": "NotoSansDevanagari-v2.005",
+    "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSansDevanagari-v2.005"
+   },
+   {
+    "tag": "NotoSansImperialAramaic-v2.002",
+    "url": "https://github.com/notofonts/imperial-aramaic/releases/tag/NotoSansImperialAramaic-v2.002"
+   },
+   {
+    "tag": "NotoSansInscriptionalPahlavi-v2.004",
+    "url": "https://github.com/notofonts/inscriptional-pahlavi/releases/tag/NotoSansInscriptionalPahlavi-v2.004"
+   },
+   {
+    "tag": "NotoSansInscriptionalParthian-v2.004",
+    "url": "https://github.com/notofonts/inscriptional-parthian/releases/tag/NotoSansInscriptionalParthian-v2.004"
+   },
+   {
+    "tag": "v0.001",
+    "url": "https://github.com/notofonts/noto-cjk-varco/releases/tag/v0.001"
+   }
   ]
  },
  "totals_per_month": {
-  "1": 379,
-  "2": 401,
-  "3": 402,
-  "4": 408,
-  "5": 405
+  "1": 381,
+  "2": 404,
+  "3": 405,
+  "4": 411,
+  "5": 408
  }
 }
