@@ -2246,10 +2246,10 @@
      "fonts/NotoSansDevanagari/unhinted/variable-ttf/NotoSansDevanagari[wdth,wght].ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Devanagari v2.005\n\nThis release:\n\n* Adds a number of new Unicode characters\n* Cleans up the OpenType code\n* Encodes a number of vedic signs (#39)\n* Removes the semibold master\n* Fixes a bug in kerning between z-dda\n* Fixes a number of fontbakery fails\n* Improves support for the Santali language (#36)\n* Fixes a clash between nukta and lower vowel signs (#35)\n",
-     "published": "2024-05-16T14:40:03+00:00",
-     "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSansDevanagari-v2.005",
-     "version": "v2.005"
+     "notes": "Noto Sans Devanagari 2.006\n\nThis release fixes a number of sequences broken in the previous release.\n",
+     "published": "2024-05-20T12:01:05+00:00",
+     "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSansDevanagari-v2.006",
+     "version": "v2.006"
     }
    },
    "Noto Serif Devanagari": {
@@ -2450,10 +2450,10 @@
      "fonts/NotoSerifDevanagari/unhinted/variable-ttf/NotoSerifDevanagari[wdth,wght].ttf"
     ],
     "latest_release": {
-     "notes": "Noto Serif Devanagari v2.005\n\nThis release:\n\n* Adds a number of new Unicode characters\n* Cleans up the OpenType code\n* Encodes a number of vedic signs (#39)\n* Removes the semibold master\n* Fixes a bug in kerning between z-dda\n* Fixes a number of fontbakery fails\n* Improves support for the Santali language (#36)\n* Fixes a clash between nukta and lower vowel signs (#35)\n",
-     "published": "2024-05-16T14:39:53+00:00",
-     "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSerifDevanagari-v2.005",
-     "version": "v2.005"
+     "notes": "Noto Serif Devanagari v2.006\n\nThis release fixes a small number of sequences broken in the previous release.\n",
+     "published": "2024-05-20T11:47:33+00:00",
+     "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSerifDevanagari-v2.006",
+     "version": "v2.006"
     }
    }
   },
@@ -2463,7 +2463,9 @@
    "NotoSansDevanagari-v2.004",
    "NotoSerifDevanagari-v2.004",
    "NotoSerifDevanagari-v2.005",
-   "NotoSansDevanagari-v2.005"
+   "NotoSansDevanagari-v2.005",
+   "NotoSerifDevanagari-v2.006",
+   "NotoSansDevanagari-v2.006"
   ]
  },
  "dives-akuru": {
@@ -2519,27 +2521,28 @@
   "families": {
    "Noto Sans Duployan": {
     "files": [
-     "fonts/NotoSansDuployan/unhinted/ttf/NotoSansDuployan-Regular.ttf",
-     "fonts/NotoSansDuployan/unhinted/ttf/NotoSansDuployan-Bold.ttf",
-     "fonts/NotoSansDuployan/unhinted/otf/NotoSansDuployan-Bold.otf",
-     "fonts/NotoSansDuployan/unhinted/otf/NotoSansDuployan-Regular.otf",
      "fonts/NotoSansDuployan/googlefonts/ttf/NotoSansDuployan-Regular.ttf",
      "fonts/NotoSansDuployan/googlefonts/ttf/NotoSansDuployan-Bold.ttf",
+     "fonts/NotoSansDuployan/hinted/otf/NotoSansDuployan-Bold.otf",
+     "fonts/NotoSansDuployan/hinted/otf/NotoSansDuployan-Regular.otf",
      "fonts/NotoSansDuployan/hinted/ttf/NotoSansDuployan-Regular.ttf",
      "fonts/NotoSansDuployan/hinted/ttf/NotoSansDuployan-Bold.ttf",
-     "fonts/NotoSansDuployan/hinted/otf/NotoSansDuployan-Bold.otf",
-     "fonts/NotoSansDuployan/hinted/otf/NotoSansDuployan-Regular.otf"
+     "fonts/NotoSansDuployan/unhinted/otf/NotoSansDuployan-Bold.otf",
+     "fonts/NotoSansDuployan/unhinted/otf/NotoSansDuployan-Regular.otf",
+     "fonts/NotoSansDuployan/unhinted/ttf/NotoSansDuployan-Regular.ttf",
+     "fonts/NotoSansDuployan/unhinted/ttf/NotoSansDuployan-Bold.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Duployan v3.001\n\nThis is a completely new version of the font, which implements Duployan connections and shaping.\n",
-     "published": "2023-01-10T11:27:10",
-     "url": "https://github.com/notofonts/duployan/releases/tag/NotoSansDuployan-v3.001",
-     "version": "v3.001"
+     "notes": "Production ready fonts",
+     "published": "2024-05-20T11:40:09+00:00",
+     "url": "https://github.com/notofonts/duployan/releases/tag/NotoSansDuployan-v3.002",
+     "version": "v3.002"
     }
    }
   },
   "known_releases": [
-   "NotoSansDuployan-v3.001"
+   "NotoSansDuployan-v3.001",
+   "NotoSansDuployan-v3.002"
   ]
  },
  "egyptian-hieroglyphs": {
@@ -3504,40 +3507,42 @@
   "families": {
    "Noto Sans Grantha": {
     "files": [
-     "fonts/NotoSansGrantha/full/ttf/NotoSansGrantha-Regular.ttf",
-     "fonts/NotoSansGrantha/full/otf/NotoSansGrantha-Regular.otf",
      "fonts/NotoSansGrantha/googlefonts/ttf/NotoSansGrantha-Regular.ttf",
-     "fonts/NotoSansGrantha/unhinted/ttf/NotoSansGrantha-Regular.ttf",
+     "fonts/NotoSansGrantha/full/otf/NotoSansGrantha-Regular.otf",
+     "fonts/NotoSansGrantha/full/ttf/NotoSansGrantha-Regular.ttf",
+     "fonts/NotoSansGrantha/hinted/ttf/NotoSansGrantha-Regular.ttf",
      "fonts/NotoSansGrantha/unhinted/otf/NotoSansGrantha-Regular.otf",
-     "fonts/NotoSansGrantha/hinted/ttf/NotoSansGrantha-Regular.ttf"
+     "fonts/NotoSansGrantha/unhinted/ttf/NotoSansGrantha-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Grantha v2.003\n\nThis release\n* fixes a number of fontbakery fails\n* adds names to all stylistic sets\n* fixes a rare issue with Tamil numerals (see #6)\n",
-     "published": "2022-08-28T10:17:21",
-     "url": "https://github.com/notofonts/grantha/releases/tag/NotoSansGrantha-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Grantha v2.005\n\nThis release:\n\n* Fills out the \"flat tails\" stylistic set (#17)\n* Fills out the \"alternate kha\" stylistic set (#18)\n* Fixes the spacing of vocalic R/RR (#21)\n* Ensures that successive YA PHALAA glyphs do not overlap (#22)\n",
+     "published": "2024-05-20T12:40:13+00:00",
+     "url": "https://github.com/notofonts/grantha/releases/tag/NotoSansGrantha-v2.005",
+     "version": "v2.005"
     }
    },
    "Noto Serif Grantha": {
     "files": [
-     "fonts/NotoSerifGrantha/full/ttf/NotoSerifGrantha-Regular.ttf",
-     "fonts/NotoSerifGrantha/full/otf/NotoSerifGrantha-Regular.otf",
      "fonts/NotoSerifGrantha/googlefonts/ttf/NotoSerifGrantha-Regular.ttf",
-     "fonts/NotoSerifGrantha/unhinted/ttf/NotoSerifGrantha-Regular.ttf",
+     "fonts/NotoSerifGrantha/full/otf/NotoSerifGrantha-Regular.otf",
+     "fonts/NotoSerifGrantha/full/ttf/NotoSerifGrantha-Regular.ttf",
+     "fonts/NotoSerifGrantha/hinted/ttf/NotoSerifGrantha-Regular.ttf",
      "fonts/NotoSerifGrantha/unhinted/otf/NotoSerifGrantha-Regular.otf",
-     "fonts/NotoSerifGrantha/hinted/ttf/NotoSerifGrantha-Regular.ttf"
+     "fonts/NotoSerifGrantha/unhinted/ttf/NotoSerifGrantha-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Serif Grantha v2.004\n\nThis release fixes a number of fontbakery fails, as well as adding\nnames to the stylistic sets.\n",
-     "published": "2022-09-06T09:44:05",
-     "url": "https://github.com/notofonts/grantha/releases/tag/NotoSerifGrantha-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Serif Grantha v2.005\n\nThis release:\n\n* Fixes the spacing of vocalic R/RR (#21)\n* Ensures that successive YA PHALAA glyphs do not overlap (#22)\n",
+     "published": "2024-05-20T12:40:07+00:00",
+     "url": "https://github.com/notofonts/grantha/releases/tag/NotoSerifGrantha-v2.005",
+     "version": "v2.005"
     }
    }
   },
   "known_releases": [
    "NotoSansGrantha-v2.003",
-   "NotoSerifGrantha-v2.004"
+   "NotoSerifGrantha-v2.004",
+   "NotoSerifGrantha-v2.005",
+   "NotoSansGrantha-v2.005"
   ]
  },
  "gujarati": {
