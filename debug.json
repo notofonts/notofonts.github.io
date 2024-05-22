@@ -1431,14 +1431,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/bamum",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 2,
-    "title": "Inconsistent weights of Bamum glyphs",
-    "url": "https://github.com/notofonts/bamum/issues/2"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/bamum",
   "tier": 3,
   "title": "Noto Bamum"
@@ -15388,22 +15382,12 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/oriya",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 2,
   "issues": [
    {
     "number": 39,
     "title": "U+0B69 ORIYA DIGIT THREE left side should not join vertical stem",
     "url": "https://github.com/notofonts/oriya/issues/39"
-   },
-   {
-    "number": 31,
-    "title": "Bump cryptography from 41.0.1 to 41.0.4",
-    "url": "https://github.com/notofonts/oriya/pull/31"
-   },
-   {
-    "number": 27,
-    "title": "Bump certifi from 2023.5.7 to 2023.7.22",
-    "url": "https://github.com/notofonts/oriya/pull/27"
    },
    {
     "number": 26,
