@@ -8771,10 +8771,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Khudawadai v2.003\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-19T12:23:25",
-     "url": "https://github.com/notofonts/khudawadi/releases/tag/NotoSansKhudawadi-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Khudawadi v2.004\n\nThis release fixes the contextual form of o vowel after certain consonants (#3)\n",
+     "published": "2024-05-24T07:19:56+00:00",
+     "url": "https://github.com/notofonts/khudawadi/releases/tag/NotoSansKhudawadi-v2.004",
+     "version": "v2.004"
     },
     "third_party_versions": {
      "Fedora 38": {
