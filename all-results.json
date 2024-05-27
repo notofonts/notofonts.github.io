@@ -190,6 +190,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2021-09-29T16:53:48Z",
+  "repo": "balinese",
+  "tier": 2,
+  "url": "https://github.com/notofonts/balinese/issues/12"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-07-17T09:00:12Z",
   "repo": "balinese",
   "tier": 2,
@@ -224,7 +231,7 @@
   "url": "https://github.com/notofonts/balinese/issues/40"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-05-21T09:02:18Z",
   "createdAt": "2018-07-01T16:09:24Z",
   "repo": "bamum",
   "tier": 3,
@@ -413,14 +420,14 @@
   "url": "https://github.com/notofonts/deseret/issues/2"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-05-20T12:26:01Z",
   "createdAt": "2015-06-08T18:34:30Z",
   "repo": "devanagari",
   "tier": 1,
   "url": "https://github.com/notofonts/devanagari/issues/1"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-05-20T12:29:17Z",
   "createdAt": "2015-08-10T13:17:38Z",
   "repo": "devanagari",
   "tier": 1,
@@ -434,14 +441,14 @@
   "url": "https://github.com/notofonts/devanagari/issues/4"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-05-20T12:26:48Z",
   "createdAt": "2020-04-12T18:17:54Z",
   "repo": "devanagari",
   "tier": 1,
   "url": "https://github.com/notofonts/devanagari/issues/7"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-05-20T12:27:50Z",
   "createdAt": "2022-04-27T07:46:23Z",
   "repo": "devanagari",
   "tier": 1,
@@ -469,11 +476,18 @@
   "url": "https://github.com/notofonts/devanagari/issues/36"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-05-20T12:28:08Z",
   "createdAt": "2024-01-25T11:06:58Z",
   "repo": "devanagari",
   "tier": 1,
   "url": "https://github.com/notofonts/devanagari/issues/40"
+ },
+ {
+  "closedAt": "2024-05-25T16:16:07Z",
+  "createdAt": "2024-05-25T12:33:21Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/41"
  },
  {
   "closedAt": null,
@@ -686,14 +700,14 @@
   "url": "https://github.com/notofonts/grantha/issues/21"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-05-20T12:05:49Z",
   "createdAt": "2023-12-31T21:10:55Z",
   "repo": "grantha",
   "tier": 4,
   "url": "https://github.com/notofonts/grantha/issues/22"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-05-20T12:07:01Z",
   "createdAt": "2023-12-31T21:18:44Z",
   "repo": "grantha",
   "tier": 4,
