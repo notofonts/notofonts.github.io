@@ -82,10 +82,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Adlam Unjoined v3.002\n\nThis release:\n\n- Removes the fraction slash character (#2)\n- Improves the positioning of marks on the dotted circle (#9)\n- Removes the erroneous 'case' feature (#10)\n- Makes the HAMZA stack on modifier glyphs (#11)\n",
-     "published": "2024-05-16T09:04:12+00:00",
-     "url": "https://github.com/notofonts/adlam/releases/tag/NotoSansAdlamUnjoined-v3.002",
-     "version": "v3.002"
+     "notes": "Noto Sans Adlam Unjoined\n\nThis release adds a missing languagesystem, fixing mark positioning.\n",
+     "published": "2024-05-27T09:25:48+00:00",
+     "url": "https://github.com/notofonts/adlam/releases/tag/NotoSansAdlamUnjoined-v3.003",
+     "version": "v3.003"
     },
     "third_party_versions": {
      "Fedora 38": {
