@@ -328,7 +328,7 @@
       "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-Medium.ttf",
       "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-Regular.ttf",
       "fonts/NotoNaskhArabic/full/ttf/NotoNaskhArabic-SemiBold.ttf",
-      "fonts/NotoNaskhArabic/full/variable/NotoNaskhArabic[wght].ttf"
+      "fonts/NotoNaskhArabic/full/variable-ttf/NotoNaskhArabic[wght].ttf"
      ],
      "hinted": [
       "fonts/NotoNaskhArabic/hinted/ttf/NotoNaskhArabic-Bold.ttf",
@@ -346,14 +346,14 @@
       "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-Medium.ttf",
       "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-Regular.ttf",
       "fonts/NotoNaskhArabic/unhinted/ttf/NotoNaskhArabic-SemiBold.ttf",
-      "fonts/NotoNaskhArabic/unhinted/variable/NotoNaskhArabic[wght].ttf"
+      "fonts/NotoNaskhArabic/unhinted/variable-ttf/NotoNaskhArabic[wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Naskh Arabic v2.018\n\nThis release:\n\n* Fixes an interpolation issue with the footnote marker\n* Updates the OS/2 usWinAscent vertical metrics\n* Fixes U+FB96 dots\n* Fixes U+FEE9 shape\n\n(All changes thanks to Khaled Hosny)\n",
-     "published": "2023-11-22T14:05:21+00:00",
-     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.018",
-     "version": "v2.018"
+     "notes": "Noto Naskh Arabic v2.019\n\nThis release de-encodes the U+2011 NON-BREAKING HYPHEN character.\n",
+     "published": "2024-05-30T15:34:45+00:00",
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.019",
+     "version": "v2.019"
     },
     "third_party_versions": {
      "Android 12": {
@@ -646,13 +646,8 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 7,
   "issues": [
-   {
-    "number": 233,
-    "title": "Noto Naskh Arabic - More Weights?",
-    "url": "https://github.com/notofonts/arabic/issues/233"
-   },
    {
     "number": 232,
     "title": "Incorrect diacritic position for letter jeem when using bullets in InDesign",
@@ -662,11 +657,6 @@
     "number": 230,
     "title": "Farsi symbol named \"\u0633\u0631\u06cc\u0627\u0621\"",
     "url": "https://github.com/notofonts/arabic/issues/230"
-   },
-   {
-    "number": 229,
-    "title": "Overlap Issue in Noto Sans Arabic",
-    "url": "https://github.com/notofonts/arabic/issues/229"
    },
    {
     "number": 226,
