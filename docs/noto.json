@@ -10294,6 +10294,11 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 82,
+    "title": "Building OpenType math fonts article",
+    "url": "https://github.com/notofonts/math/pull/82"
+   },
+   {
     "number": 81,
     "title": "Sync Greek with Noto Sans",
     "url": "https://github.com/notofonts/math/issues/81"
@@ -11524,6 +11529,11 @@
   },
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
+   {
+    "number": 67,
+    "title": "Overlap in the string '\u0631\u0641\u062d'",
+    "url": "https://github.com/notofonts/nastaliq/issues/67"
+   },
    {
     "number": 66,
     "title": "Missing ligatures",
