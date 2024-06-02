@@ -12473,13 +12473,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 9,
   "issues": [
-   {
-    "number": 82,
-    "title": "Building OpenType math fonts article",
-    "url": "https://github.com/notofonts/math/pull/82"
-   },
    {
     "number": 81,
     "title": "Sync Greek with Noto Sans",
