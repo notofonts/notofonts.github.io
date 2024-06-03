@@ -8702,6 +8702,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 479,
+    "title": "[Noto Sans Mono] Unslashed zero stylistic set",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/479"
+   },
+   {
     "number": 477,
     "title": "Interrobang Replacement?",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/477"
