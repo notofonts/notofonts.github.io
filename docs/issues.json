@@ -4,12 +4,13 @@
   "2": 27,
   "3": 11,
   "4": 33,
-  "5": 18
+  "5": 20,
+  "6": 0
  },
  "open_per_repo": {
   "adlam": 2,
   "ahom": 3,
-  "arabic": 9,
+  "arabic": 7,
   "armenian": 2,
   "balinese": 4,
   "batak": 4,
@@ -58,7 +59,7 @@
   "music": 2,
   "myanmar": 31,
   "nandinagari": 3,
-  "nastaliq": 11,
+  "nastaliq": 12,
   "nko": 1,
   "old-hungarian": 5,
   "old-hungarian-ui": 2,
@@ -93,7 +94,7 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 197,
+  "1": 196,
   "2": 44,
   "3": 92,
   "4": 54,
@@ -104,7 +105,8 @@
   "2": 27,
   "3": 15,
   "4": 30,
-  "5": 22
+  "5": 22,
+  "6": 0
  },
  "releases_per_month": {
   "1": [
@@ -173,12 +175,20 @@
   ],
   "5": [
    {
+    "tag": "NotoSansAdlamUnjoined-v3.003",
+    "url": "https://github.com/notofonts/adlam/releases/tag/NotoSansAdlamUnjoined-v3.003"
+   },
+   {
     "tag": "NotoSansAdlamUnjoined-v3.002",
     "url": "https://github.com/notofonts/adlam/releases/tag/NotoSansAdlamUnjoined-v3.002"
    },
    {
     "tag": "NotoSansAdlam-v3.002",
     "url": "https://github.com/notofonts/adlam/releases/tag/NotoSansAdlam-v3.002"
+   },
+   {
+    "tag": "NotoNaskhArabic-v2.019",
+    "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.019"
    },
    {
     "tag": "NotoSerifBalinese-v2.006",
@@ -247,6 +257,7 @@
   "2": 405,
   "3": 406,
   "4": 412,
-  "5": 409
+  "5": 409,
+  "6": 412
  }
 }
