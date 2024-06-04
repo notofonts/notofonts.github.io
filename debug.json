@@ -6521,7 +6521,7 @@
       "fonts/NotoSansHebrew/full/ttf/NotoSansHebrew-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansHebrew/full/ttf/NotoSansHebrew-SemiCondensedThin.ttf",
       "fonts/NotoSansHebrew/full/ttf/NotoSansHebrew-Thin.ttf",
-      "fonts/NotoSansHebrew/full/variable/NotoSansHebrew[wdth,wght].ttf"
+      "fonts/NotoSansHebrew/full/variable-ttf/NotoSansHebrew[wdth,wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSansHebrew/hinted/ttf/NotoSansHebrew-Black.ttf",
@@ -6635,14 +6635,14 @@
       "fonts/NotoSansHebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansHebrew/unhinted/ttf/NotoSansHebrew-SemiCondensedThin.ttf",
       "fonts/NotoSansHebrew/unhinted/ttf/NotoSansHebrew-Thin.ttf",
-      "fonts/NotoSansHebrew/unhinted/variable/NotoSansHebrew[wdth,wght].ttf"
+      "fonts/NotoSansHebrew/unhinted/variable-ttf/NotoSansHebrew[wdth,wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Hebrew v2.004\n\nThis release:\n\n* Fixes interpolation issues\n* Corrects the width (#39) and position of marks under double-yud and double-vov (#38, thanks to @markhdavid)\n* Removes semibold masters\n* Adds the U+053F yod triangle character (#46)\n* Improves the spacing of decomposed dagesh forms (#47)\n",
-     "published": "2024-04-22T13:35:47+00:00",
-     "url": "https://github.com/notofonts/hebrew/releases/tag/NotoSansHebrew-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Hebrew v3.001\n\nThis release introduces a new design by Ben Nathan.\n",
+     "published": "2024-06-03T13:44:21+00:00",
+     "url": "https://github.com/notofonts/hebrew/releases/tag/NotoSansHebrew-v3.001",
+     "version": "v3.001"
     },
     "third_party_versions": {
      "Android 12": {
@@ -10489,13 +10489,8 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 128,
+  "issue_count": 127,
   "issues": [
-   {
-    "number": 479,
-    "title": "[Noto Sans Mono] Unslashed zero stylistic set",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/479"
-   },
    {
     "number": 477,
     "title": "Interrobang Replacement?",
