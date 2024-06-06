@@ -5546,6 +5546,11 @@
   "gh_url": "https://notofonts.github.io/hebrew",
   "issues": [
    {
+    "number": 51,
+    "title": "Overlap with Tsadi in Noto Rashi Hebrew",
+    "url": "https://github.com/notofonts/hebrew/issues/51"
+   },
+   {
     "number": 50,
     "title": "Overlap issues with shin dot and holam",
     "url": "https://github.com/notofonts/hebrew/issues/50"
@@ -10279,20 +10284,24 @@
      ],
      "unhinted": [
       "fonts/NotoSansMath/unhinted/otf/NotoSansMath-Regular.otf",
-      "fonts/NotoSansMath/unhinted/slim-otf/NotoSansMath-Regular.otf",
       "fonts/NotoSansMath/unhinted/ttf/NotoSansMath-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Math v2.539\n\nThis is a new version including many fixes and OpenType MATH table support.\n",
-     "published": "2023-03-15T15:33:32",
-     "url": "https://github.com/notofonts/math/releases/tag/NotoSansMath-v2.539",
-     "version": "v2.539"
+     "notes": "Noto Sans Math 3.000\n\nThis is a comprehensive reworking of the design by Khaled Hosny to create a \"truly sans serif\" math font.\n",
+     "published": "2024-06-05T13:29:16+00:00",
+     "url": "https://github.com/notofonts/math/releases/tag/NotoSansMath-v3.000",
+     "version": "v3.000"
     }
    }
   },
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
+   {
+    "number": 85,
+    "title": "U+2974, U+2975, and U+2B49 have incorrect tildes",
+    "url": "https://github.com/notofonts/math/issues/85"
+   },
    {
     "number": 81,
     "title": "Sync Greek with Noto Sans",

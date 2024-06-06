@@ -8888,24 +8888,24 @@
   "families": {
    "Noto Sans Math": {
     "files": [
+     "fonts/NotoSansMath/googlefonts/ttf/NotoSansMath-Regular.ttf",
      "fonts/NotoSansMath/full/otf/NotoSansMath-Regular.otf",
      "fonts/NotoSansMath/full/ttf/NotoSansMath-Regular.ttf",
-     "fonts/NotoSansMath/googlefonts/ttf/NotoSansMath-Regular.ttf",
      "fonts/NotoSansMath/hinted/ttf/NotoSansMath-Regular.ttf",
      "fonts/NotoSansMath/unhinted/otf/NotoSansMath-Regular.otf",
-     "fonts/NotoSansMath/unhinted/ttf/NotoSansMath-Regular.ttf",
-     "fonts/NotoSansMath/unhinted/slim-otf/NotoSansMath-Regular.otf"
+     "fonts/NotoSansMath/unhinted/ttf/NotoSansMath-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Math v2.539\n\nThis is a new version including many fixes and OpenType MATH table support.\n",
-     "published": "2023-03-15T15:33:32",
-     "url": "https://github.com/notofonts/math/releases/tag/NotoSansMath-v2.539",
-     "version": "v2.539"
+     "notes": "Noto Sans Math 3.000\n\nThis is a comprehensive reworking of the design by Khaled Hosny to create a \"truly sans serif\" math font.\n",
+     "published": "2024-06-05T13:29:16+00:00",
+     "url": "https://github.com/notofonts/math/releases/tag/NotoSansMath-v3.000",
+     "version": "v3.000"
     }
    }
   },
   "known_releases": [
-   "NotoSansMath-v2.539"
+   "NotoSansMath-v2.539",
+   "NotoSansMath-v3.000"
   ]
  },
  "mayan-numerals": {
