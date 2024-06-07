@@ -8107,25 +8107,26 @@
   "families": {
    "Noto Sans Limbu": {
     "files": [
-     "fonts/NotoSansLimbu/hinted/ttf/NotoSansLimbu-Regular.ttf",
      "fonts/NotoSansLimbu/googlefonts/ttf/NotoSansLimbu-Regular.ttf",
-     "fonts/NotoSansLimbu/unhinted/ttf/NotoSansLimbu-Regular.ttf",
-     "fonts/NotoSansLimbu/unhinted/otf/NotoSansLimbu-Regular.otf",
+     "fonts/NotoSansLimbu/full/otf/NotoSansLimbu-Regular.otf",
      "fonts/NotoSansLimbu/full/ttf/NotoSansLimbu-Regular.ttf",
-     "fonts/NotoSansLimbu/full/otf/NotoSansLimbu-Regular.otf"
+     "fonts/NotoSansLimbu/hinted/ttf/NotoSansLimbu-Regular.ttf",
+     "fonts/NotoSansLimbu/unhinted/otf/NotoSansLimbu-Regular.otf",
+     "fonts/NotoSansLimbu/unhinted/ttf/NotoSansLimbu-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Limbu v2.004\n\nThis release adds the characters U+0964 DEVANAGARI DANDA and U+0965 DEVANAGARI DOUBLE DANDA to the full builds.\n",
-     "published": "2022-09-28T15:18:48",
-     "url": "https://github.com/notofonts/limbu/releases/tag/NotoSansLimbu-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Limbu v2.005\n\nThis release:\n\n* Anchors vowels to base consonants after medial consonants (#1)\n* Avoids overlaps with the vowel sign I (#2)\n",
+     "published": "2024-06-06T13:12:23+00:00",
+     "url": "https://github.com/notofonts/limbu/releases/tag/NotoSansLimbu-v2.005",
+     "version": "v2.005"
     }
    }
   },
   "known_releases": [
    "NotoSansLimbu-v2.002",
    "NotoSansLimbu-v2.003",
-   "NotoSansLimbu-v2.004"
+   "NotoSansLimbu-v2.004",
+   "NotoSansLimbu-v2.005"
   ]
  },
  "linear-a": {
@@ -8795,23 +8796,24 @@
   "families": {
    "Noto Sans Mandaic": {
     "files": [
-     "fonts/NotoSansMandaic/full/ttf/NotoSansMandaic-Regular.ttf",
-     "fonts/NotoSansMandaic/full/otf/NotoSansMandaic-Regular.otf",
      "fonts/NotoSansMandaic/googlefonts/ttf/NotoSansMandaic-Regular.ttf",
-     "fonts/NotoSansMandaic/unhinted/ttf/NotoSansMandaic-Regular.ttf",
+     "fonts/NotoSansMandaic/full/otf/NotoSansMandaic-Regular.otf",
+     "fonts/NotoSansMandaic/full/ttf/NotoSansMandaic-Regular.ttf",
+     "fonts/NotoSansMandaic/hinted/ttf/NotoSansMandaic-Regular.ttf",
      "fonts/NotoSansMandaic/unhinted/otf/NotoSansMandaic-Regular.otf",
-     "fonts/NotoSansMandaic/hinted/ttf/NotoSansMandaic-Regular.ttf"
+     "fonts/NotoSansMandaic/unhinted/ttf/NotoSansMandaic-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Mandaic v2.002\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-21T14:07:05",
-     "url": "https://github.com/notofonts/mandaic/releases/tag/NotoSansMandaic-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Sans Mandaic v2.003\n\nThis release:\n\n* Contextually shortens ATT in medial position (#2)\n* Fixes the joining behaviour of DUSHENNA, KAD and AIN (#3)\n* Improves the display of final tatweel (#4)\n",
+     "published": "2024-06-06T13:48:58+00:00",
+     "url": "https://github.com/notofonts/mandaic/releases/tag/NotoSansMandaic-v2.003",
+     "version": "v2.003"
     }
    }
   },
   "known_releases": [
-   "NotoSansMandaic-v2.002"
+   "NotoSansMandaic-v2.002",
+   "NotoSansMandaic-v2.003"
   ]
  },
  "manichaean": {
@@ -8842,23 +8844,24 @@
   "families": {
    "Noto Sans Marchen": {
     "files": [
-     "fonts/NotoSansMarchen/full/ttf/NotoSansMarchen-Regular.ttf",
-     "fonts/NotoSansMarchen/full/otf/NotoSansMarchen-Regular.otf",
      "fonts/NotoSansMarchen/googlefonts/ttf/NotoSansMarchen-Regular.ttf",
-     "fonts/NotoSansMarchen/unhinted/ttf/NotoSansMarchen-Regular.ttf",
+     "fonts/NotoSansMarchen/full/otf/NotoSansMarchen-Regular.otf",
+     "fonts/NotoSansMarchen/full/ttf/NotoSansMarchen-Regular.ttf",
+     "fonts/NotoSansMarchen/hinted/ttf/NotoSansMarchen-Regular.ttf",
      "fonts/NotoSansMarchen/unhinted/otf/NotoSansMarchen-Regular.otf",
-     "fonts/NotoSansMarchen/hinted/ttf/NotoSansMarchen-Regular.ttf"
+     "fonts/NotoSansMarchen/unhinted/ttf/NotoSansMarchen-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Marchen v2.003\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-24T14:10:33",
-     "url": "https://github.com/notofonts/marchen/releases/tag/NotoSansMarchen-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Marchen v2.004\n\nThis release:\n\n* Adds anchor points to LETTER A and SUBJOINED LETTER A (#1)\n* Uses a narrow candrabindu after an I vowel + letter (#4)\n* Adds a default languagesystem\n",
+     "published": "2024-06-06T13:54:58+00:00",
+     "url": "https://github.com/notofonts/marchen/releases/tag/NotoSansMarchen-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "known_releases": [
-   "NotoSansMarchen-v2.003"
+   "NotoSansMarchen-v2.003",
+   "NotoSansMarchen-v2.004"
   ]
  },
  "masaram-gondi": {

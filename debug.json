@@ -646,8 +646,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 8,
   "issues": [
+   {
+    "number": 240,
+    "title": "The Nastaliq Urdu font should not be chosen for Arabic or Persian text",
+    "url": "https://github.com/notofonts/arabic/issues/240"
+   },
    {
     "number": 232,
     "title": "Incorrect diacritic position for letter jeem when using bullets in InDesign",
@@ -6883,7 +6888,7 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/hebrew",
   "has_releases": true,
-  "issue_count": 12,
+  "issue_count": 13,
   "issues": [
    {
     "number": 51,
@@ -6929,6 +6934,11 @@
     "number": 8,
     "title": "Misplaced puncta extraordinaria in Rashi",
     "url": "https://github.com/notofonts/hebrew/issues/8"
+   },
+   {
+    "number": 28,
+    "title": "Overlapping Rashi \u27e8\u05e6\u05df\u27e9",
+    "url": "https://github.com/notofonts/hebrew/issues/28"
    },
    {
     "number": 6,
@@ -11213,10 +11223,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Limbu v2.004\n\nThis release adds the characters U+0964 DEVANAGARI DANDA and U+0965 DEVANAGARI DOUBLE DANDA to the full builds.\n",
-     "published": "2022-09-28T15:18:48",
-     "url": "https://github.com/notofonts/limbu/releases/tag/NotoSansLimbu-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Limbu v2.005\n\nThis release:\n\n* Anchors vowels to base consonants after medial consonants (#1)\n* Avoids overlaps with the vowel sign I (#2)\n",
+     "published": "2024-06-06T13:12:23+00:00",
+     "url": "https://github.com/notofonts/limbu/releases/tag/NotoSansLimbu-v2.005",
+     "version": "v2.005"
     },
     "third_party_versions": {
      "Android 12": {
@@ -11231,7 +11241,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "2.004"
      },
      "iOS 16.1": {
@@ -12224,10 +12234,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Mandaic v2.002\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-21T14:07:05",
-     "url": "https://github.com/notofonts/mandaic/releases/tag/NotoSansMandaic-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Sans Mandaic v2.003\n\nThis release:\n\n* Contextually shortens ATT in medial position (#2)\n* Fixes the joining behaviour of DUSHENNA, KAD and AIN (#3)\n* Improves the display of final tatweel (#4)\n",
+     "published": "2024-06-06T13:48:58+00:00",
+     "url": "https://github.com/notofonts/mandaic/releases/tag/NotoSansMandaic-v2.003",
+     "version": "v2.003"
     },
     "third_party_versions": {
      "Android 12": {
@@ -12355,10 +12365,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Marchen v2.003\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-24T14:10:33",
-     "url": "https://github.com/notofonts/marchen/releases/tag/NotoSansMarchen-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Marchen v2.004\n\nThis release:\n\n* Adds anchor points to LETTER A and SUBJOINED LETTER A (#1)\n* Uses a narrow candrabindu after an I vowel + letter (#4)\n* Adds a default languagesystem\n",
+     "published": "2024-06-06T13:54:58+00:00",
+     "url": "https://github.com/notofonts/marchen/releases/tag/NotoSansMarchen-v2.004",
+     "version": "v2.004"
     },
     "third_party_versions": {
      "Fedora 38": {
