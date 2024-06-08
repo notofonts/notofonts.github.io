@@ -12420,10 +12420,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Masaram Gondi v1.004\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes overlaps between vowel signs and visarga (#2)\n",
-     "published": "2022-09-06T12:16:51",
-     "url": "https://github.com/notofonts/masaram-gondi/releases/tag/NotoSansMasaramGondi-v1.004",
-     "version": "v1.004"
+     "notes": "Noto Sans Masaram Gondi v1.005\n\nThis release fixes the stylistic variants of digits 5 and 6 which were accidentally switched (#3)\n",
+     "published": "2024-06-07T06:28:16+00:00",
+     "url": "https://github.com/notofonts/masaram-gondi/releases/tag/NotoSansMasaramGondi-v1.005",
+     "version": "v1.005"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -12433,7 +12433,7 @@
      },
      "Google Fonts": {
       "icon": "<img data-toggle=\"tooltip\" title=\"Google Fonts\" src=\"gflogo.png\" width=18 height=18></img>",
-      "up_to_date": true,
+      "up_to_date": false,
       "version": "1.004"
      }
     }
@@ -12442,8 +12442,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/masaram-gondi",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 4,
+    "title": "U+11D42 MASARAM GONDI SIGN NUKTA blocks half forms",
+    "url": "https://github.com/notofonts/masaram-gondi/issues/4"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/masaram-gondi",
   "tier": 3,
   "title": "Noto Masaram Gondi"

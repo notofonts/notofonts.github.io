@@ -8868,23 +8868,24 @@
   "families": {
    "Noto Sans Masaram Gondi": {
     "files": [
-     "fonts/NotoSansMasaramGondi/full/ttf/NotoSansMasaramGondi-Regular.ttf",
-     "fonts/NotoSansMasaramGondi/full/otf/NotoSansMasaramGondi-Regular.otf",
      "fonts/NotoSansMasaramGondi/googlefonts/ttf/NotoSansMasaramGondi-Regular.ttf",
-     "fonts/NotoSansMasaramGondi/unhinted/ttf/NotoSansMasaramGondi-Regular.ttf",
+     "fonts/NotoSansMasaramGondi/full/otf/NotoSansMasaramGondi-Regular.otf",
+     "fonts/NotoSansMasaramGondi/full/ttf/NotoSansMasaramGondi-Regular.ttf",
+     "fonts/NotoSansMasaramGondi/hinted/ttf/NotoSansMasaramGondi-Regular.ttf",
      "fonts/NotoSansMasaramGondi/unhinted/otf/NotoSansMasaramGondi-Regular.otf",
-     "fonts/NotoSansMasaramGondi/hinted/ttf/NotoSansMasaramGondi-Regular.ttf"
+     "fonts/NotoSansMasaramGondi/unhinted/ttf/NotoSansMasaramGondi-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Masaram Gondi v1.004\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes overlaps between vowel signs and visarga (#2)\n",
-     "published": "2022-09-06T12:16:51",
-     "url": "https://github.com/notofonts/masaram-gondi/releases/tag/NotoSansMasaramGondi-v1.004",
-     "version": "v1.004"
+     "notes": "Noto Sans Masaram Gondi v1.005\n\nThis release fixes the stylistic variants of digits 5 and 6 which were accidentally switched (#3)\n",
+     "published": "2024-06-07T06:28:16+00:00",
+     "url": "https://github.com/notofonts/masaram-gondi/releases/tag/NotoSansMasaramGondi-v1.005",
+     "version": "v1.005"
     }
    }
   },
   "known_releases": [
-   "NotoSansMasaramGondi-v1.004"
+   "NotoSansMasaramGondi-v1.004",
+   "NotoSansMasaramGondi-v1.005"
   ]
  },
  "math": {
