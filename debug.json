@@ -11260,8 +11260,24 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/limbu",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 3,
+  "issues": [
+   {
+    "number": 6,
+    "title": "Spacing vowel signs block mark attachment",
+    "url": "https://github.com/notofonts/limbu/issues/6"
+   },
+   {
+    "number": 5,
+    "title": "U+1932 LIMBU SMALL LETTER ANUSVARA overlaps below-base marks",
+    "url": "https://github.com/notofonts/limbu/issues/5"
+   },
+   {
+    "number": 4,
+    "title": "Clusters with multiple spacing marks have extra advance width",
+    "url": "https://github.com/notofonts/limbu/issues/4"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/limbu",
   "tier": 2,
   "title": "Noto Limbu"
