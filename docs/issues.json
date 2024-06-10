@@ -10,7 +10,7 @@
  "open_per_repo": {
   "adlam": 2,
   "ahom": 3,
-  "arabic": 7,
+  "arabic": 8,
   "armenian": 2,
   "balinese": 4,
   "batak": 4,
@@ -35,7 +35,7 @@
   "gujarati": 6,
   "gurmukhi": 5,
   "hanunoo": 1,
-  "hebrew": 11,
+  "hebrew": 13,
   "inscriptional-pahlavi": 1,
   "inscriptional-parthian": 3,
   "javanese": 4,
@@ -47,10 +47,12 @@
   "khojki": 3,
   "khudawadi": 1,
   "latin-greek-cyrillic": 126,
+  "limbu": 3,
   "lydian": 1,
   "malayalam": 7,
   "manichaean": 3,
-  "math": 9,
+  "masaram-gondi": 1,
+  "math": 10,
   "meetei-mayek": 1,
   "miao": 1,
   "modi": 6,
@@ -94,9 +96,9 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 196,
-  "2": 44,
-  "3": 92,
+  "1": 199,
+  "2": 47,
+  "3": 94,
   "4": 54,
   "5": 26
  },
@@ -106,7 +108,7 @@
   "3": 15,
   "4": 30,
   "5": 22,
-  "6": 0
+  "6": 7
  },
  "releases_per_month": {
   "1": [
@@ -250,14 +252,40 @@
     "tag": "v0.001",
     "url": "https://github.com/notofonts/noto-cjk-varco/releases/tag/v0.001"
    }
+  ],
+  "6": [
+   {
+    "tag": "NotoSansLimbu-v2.005",
+    "url": "https://github.com/notofonts/limbu/releases/tag/NotoSansLimbu-v2.005"
+   },
+   {
+    "tag": "NotoSansHebrew-v3.001",
+    "url": "https://github.com/notofonts/hebrew/releases/tag/NotoSansHebrew-v3.001"
+   },
+   {
+    "tag": "NotoSansMandaic-v2.003",
+    "url": "https://github.com/notofonts/mandaic/releases/tag/NotoSansMandaic-v2.003"
+   },
+   {
+    "tag": "NotoSansMarchen-v2.004",
+    "url": "https://github.com/notofonts/marchen/releases/tag/NotoSansMarchen-v2.004"
+   },
+   {
+    "tag": "NotoSansMasaramGondi-v1.005",
+    "url": "https://github.com/notofonts/masaram-gondi/releases/tag/NotoSansMasaramGondi-v1.005"
+   },
+   {
+    "tag": "NotoSansMath-v3.000",
+    "url": "https://github.com/notofonts/math/releases/tag/NotoSansMath-v3.000"
+   }
   ]
  },
  "totals_per_month": {
-  "1": 382,
-  "2": 405,
-  "3": 406,
-  "4": 412,
-  "5": 409,
-  "6": 412
+  "1": 383,
+  "2": 406,
+  "3": 407,
+  "4": 413,
+  "5": 410,
+  "6": 413
  }
 }

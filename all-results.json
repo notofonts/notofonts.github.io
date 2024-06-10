@@ -155,6 +155,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-06-07T00:24:35Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/240"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2021-05-06T04:03:47Z",
   "repo": "armenian",
   "tier": 1,
@@ -834,6 +841,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2019-12-27T21:03:35Z",
+  "repo": "hebrew",
+  "tier": 1,
+  "url": "https://github.com/notofonts/hebrew/issues/28"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2019-12-28T20:34:15Z",
   "repo": "hebrew",
   "tier": 1,
@@ -943,6 +957,13 @@
   "repo": "hebrew",
   "tier": 1,
   "url": "https://github.com/notofonts/hebrew/issues/50"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-06-05T14:52:42Z",
+  "repo": "hebrew",
+  "tier": 1,
+  "url": "https://github.com/notofonts/hebrew/issues/51"
  },
  {
   "closedAt": "2024-04-15T16:08:48Z",
@@ -2136,6 +2157,27 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-06-09T17:17:40Z",
+  "repo": "limbu",
+  "tier": 2,
+  "url": "https://github.com/notofonts/limbu/issues/4"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-06-09T17:25:42Z",
+  "repo": "limbu",
+  "tier": 2,
+  "url": "https://github.com/notofonts/limbu/issues/5"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-06-09T17:36:45Z",
+  "repo": "limbu",
+  "tier": 2,
+  "url": "https://github.com/notofonts/limbu/issues/6"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2022-05-29T17:13:30Z",
   "repo": "lydian",
   "tier": 4,
@@ -2238,6 +2280,13 @@
   "repo": "manichaean",
   "tier": 4,
   "url": "https://github.com/notofonts/manichaean/issues/8"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-06-07T15:22:31Z",
+  "repo": "masaram-gondi",
+  "tier": 3,
+  "url": "https://github.com/notofonts/masaram-gondi/issues/4"
  },
  {
   "closedAt": "2024-03-05T14:01:52Z",
@@ -2462,6 +2511,13 @@
   "repo": "math",
   "tier": 3,
   "url": "https://github.com/notofonts/math/issues/81"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-06-05T23:42:02Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/85"
  },
  {
   "closedAt": null,
