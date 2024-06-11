@@ -506,11 +506,6 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
-    "number": 240,
-    "title": "The Nastaliq Urdu font should not be chosen for Arabic or Persian text",
-    "url": "https://github.com/notofonts/arabic/issues/240"
-   },
-   {
     "number": 232,
     "title": "Incorrect diacritic position for letter jeem when using bullets in InDesign",
     "url": "https://github.com/notofonts/arabic/issues/232"
@@ -10186,7 +10181,18 @@
    }
   },
   "gh_url": "https://notofonts.github.io/mandaic",
-  "issues": [],
+  "issues": [
+   {
+    "number": 6,
+    "title": "Medial and final U+0848 and U+0849 are contextualized inconsistently after U+0848",
+    "url": "https://github.com/notofonts/mandaic/issues/6"
+   },
+   {
+    "number": 5,
+    "title": "Three final letters lack anchor points",
+    "url": "https://github.com/notofonts/mandaic/issues/5"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/mandaic",
   "tier": 4,
   "title": "Noto Mandaic"
