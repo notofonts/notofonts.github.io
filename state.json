@@ -9694,34 +9694,33 @@
   "families": {
    "Noto Sans Nag Mundari": {
     "files": [
-     "fonts/NotoSansNagMundari/full/slim-variable-ttf/NotoSansNagMundari[wght].ttf",
-     "fonts/NotoSansNagMundari/full/variable-ttf/NotoSansNagMundari[wght].ttf",
-     "fonts/NotoSansNagMundari/full/otf/NotoSansNagMundari-Bold.otf",
+     "fonts/NotoSansNagMundari/googlefonts/variable-ttf/NotoSansNagMundari[wght].ttf",
      "fonts/NotoSansNagMundari/full/otf/NotoSansNagMundari-Regular.otf",
+     "fonts/NotoSansNagMundari/full/otf/NotoSansNagMundari-Bold.otf",
      "fonts/NotoSansNagMundari/full/ttf/NotoSansNagMundari-Regular.ttf",
      "fonts/NotoSansNagMundari/full/ttf/NotoSansNagMundari-Bold.ttf",
-     "fonts/NotoSansNagMundari/googlefonts/variable-ttf/NotoSansNagMundari[wght].ttf",
-     "fonts/NotoSansNagMundari/googlefonts/ttf/NotoSansNagMundari-Regular.ttf",
-     "fonts/NotoSansNagMundari/googlefonts/ttf/NotoSansNagMundari-Bold.ttf",
+     "fonts/NotoSansNagMundari/full/slim-variable-ttf/NotoSansNagMundari[wght].ttf",
+     "fonts/NotoSansNagMundari/full/variable-ttf/NotoSansNagMundari[wght].ttf",
      "fonts/NotoSansNagMundari/hinted/ttf/NotoSansNagMundari-Regular.ttf",
      "fonts/NotoSansNagMundari/hinted/ttf/NotoSansNagMundari-Bold.ttf",
-     "fonts/NotoSansNagMundari/unhinted/slim-variable-ttf/NotoSansNagMundari[wght].ttf",
-     "fonts/NotoSansNagMundari/unhinted/variable-ttf/NotoSansNagMundari[wght].ttf",
-     "fonts/NotoSansNagMundari/unhinted/otf/NotoSansNagMundari-Bold.otf",
      "fonts/NotoSansNagMundari/unhinted/otf/NotoSansNagMundari-Regular.otf",
+     "fonts/NotoSansNagMundari/unhinted/otf/NotoSansNagMundari-Bold.otf",
      "fonts/NotoSansNagMundari/unhinted/ttf/NotoSansNagMundari-Regular.ttf",
-     "fonts/NotoSansNagMundari/unhinted/ttf/NotoSansNagMundari-Bold.ttf"
+     "fonts/NotoSansNagMundari/unhinted/ttf/NotoSansNagMundari-Bold.ttf",
+     "fonts/NotoSansNagMundari/unhinted/slim-variable-ttf/NotoSansNagMundari[wght].ttf",
+     "fonts/NotoSansNagMundari/unhinted/variable-ttf/NotoSansNagMundari[wght].ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Nag Mundari v1.000 This is the initial Noto release of this family.\n",
-     "published": "2023-03-16T15:46:56",
-     "url": "https://github.com/notofonts/nag-mundari/releases/tag/NotoSansNagMundari-v1.000",
-     "version": "v1.000"
+     "notes": "Noto Sans Nag Mundari v1.001\n\nThis release:\n\n* Fixes anchoring of marks on the dotted circle\n* Fixes interpolation issues (#5)\n* Corrects mark categories and language systems\n",
+     "published": "2024-06-11T06:31:28+00:00",
+     "url": "https://github.com/notofonts/nag-mundari/releases/tag/NotoSansNagMundari-v1.001",
+     "version": "v1.001"
     }
    }
   },
   "known_releases": [
-   "NotoSansNagMundari-v1.000"
+   "NotoSansNagMundari-v1.000",
+   "NotoSansNagMundari-v1.001"
   ]
  },
  "nandinagari": {
@@ -10113,23 +10112,24 @@
   "families": {
    "Noto Sans Old Italic": {
     "files": [
-     "fonts/NotoSansOldItalic/full/ttf/NotoSansOldItalic-Regular.ttf",
-     "fonts/NotoSansOldItalic/full/otf/NotoSansOldItalic-Regular.otf",
      "fonts/NotoSansOldItalic/googlefonts/ttf/NotoSansOldItalic-Regular.ttf",
-     "fonts/NotoSansOldItalic/unhinted/ttf/NotoSansOldItalic-Regular.ttf",
+     "fonts/NotoSansOldItalic/full/otf/NotoSansOldItalic-Regular.otf",
+     "fonts/NotoSansOldItalic/full/ttf/NotoSansOldItalic-Regular.ttf",
+     "fonts/NotoSansOldItalic/hinted/ttf/NotoSansOldItalic-Regular.ttf",
      "fonts/NotoSansOldItalic/unhinted/otf/NotoSansOldItalic-Regular.otf",
-     "fonts/NotoSansOldItalic/hinted/ttf/NotoSansOldItalic-Regular.ttf"
+     "fonts/NotoSansOldItalic/unhinted/ttf/NotoSansOldItalic-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Old Italic v2.003\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-24T14:16:47",
-     "url": "https://github.com/notofonts/old-italic/releases/tag/NotoSansOldItalic-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Old Italic v2.003\n\nThis version fixes the WWS bits to stop Windows thinking that Old Italic is Italic. (#3)\n",
+     "published": "2024-06-11T07:17:26+00:00",
+     "url": "https://github.com/notofonts/old-italic/releases/tag/NotoSansOldItalic-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "known_releases": [
-   "NotoSansOldItalic-v2.003"
+   "NotoSansOldItalic-v2.003",
+   "NotoSansOldItalic-v2.004"
   ]
  },
  "old-north-arabian": {
@@ -10205,23 +10205,24 @@
   "families": {
    "Noto Sans Old Sogdian": {
     "files": [
-     "fonts/NotoSansOldSogdian/hinted/ttf/NotoSansOldSogdian-Regular.ttf",
      "fonts/NotoSansOldSogdian/googlefonts/ttf/NotoSansOldSogdian-Regular.ttf",
-     "fonts/NotoSansOldSogdian/unhinted/ttf/NotoSansOldSogdian-Regular.ttf",
-     "fonts/NotoSansOldSogdian/unhinted/otf/NotoSansOldSogdian-Regular.otf",
+     "fonts/NotoSansOldSogdian/full/otf/NotoSansOldSogdian-Regular.otf",
      "fonts/NotoSansOldSogdian/full/ttf/NotoSansOldSogdian-Regular.ttf",
-     "fonts/NotoSansOldSogdian/full/otf/NotoSansOldSogdian-Regular.otf"
+     "fonts/NotoSansOldSogdian/hinted/ttf/NotoSansOldSogdian-Regular.ttf",
+     "fonts/NotoSansOldSogdian/unhinted/otf/NotoSansOldSogdian-Regular.otf",
+     "fonts/NotoSansOldSogdian/unhinted/ttf/NotoSansOldSogdian-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Old Sogdian v2.002\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-24T14:37:45",
-     "url": "https://github.com/notofonts/old-sogdian/releases/tag/NotoSansOldSogdian-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Sans Old Sogdian v2.003\n\nThis release fixes the encoding of alternate FINAL SADHE and AYIN (#1, #3)\n",
+     "published": "2024-06-11T07:46:50+00:00",
+     "url": "https://github.com/notofonts/old-sogdian/releases/tag/NotoSansOldSogdian-v2.003",
+     "version": "v2.003"
     }
    }
   },
   "known_releases": [
-   "NotoSansOldSogdian-v2.002"
+   "NotoSansOldSogdian-v2.002",
+   "NotoSansOldSogdian-v2.003"
   ]
  },
  "old-south-arabian": {
@@ -10251,49 +10252,50 @@
   "families": {
    "Noto Sans Old Turkic": {
     "files": [
-     "fonts/NotoSansOldTurkic/full/ttf/NotoSansOldTurkic-Regular.ttf",
-     "fonts/NotoSansOldTurkic/full/otf/NotoSansOldTurkic-Regular.otf",
      "fonts/NotoSansOldTurkic/googlefonts/ttf/NotoSansOldTurkic-Regular.ttf",
-     "fonts/NotoSansOldTurkic/unhinted/slim-otf/NotoSansOldTurkic-Regular.otf",
-     "fonts/NotoSansOldTurkic/unhinted/ttf/NotoSansOldTurkic-Regular.ttf",
+     "fonts/NotoSansOldTurkic/full/otf/NotoSansOldTurkic-Regular.otf",
+     "fonts/NotoSansOldTurkic/full/ttf/NotoSansOldTurkic-Regular.ttf",
+     "fonts/NotoSansOldTurkic/hinted/ttf/NotoSansOldTurkic-Regular.ttf",
      "fonts/NotoSansOldTurkic/unhinted/otf/NotoSansOldTurkic-Regular.otf",
-     "fonts/NotoSansOldTurkic/hinted/ttf/NotoSansOldTurkic-Regular.ttf"
+     "fonts/NotoSansOldTurkic/unhinted/ttf/NotoSansOldTurkic-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Bump version to 2.003",
-     "published": "2023-06-22T10:06:03",
-     "url": "https://github.com/notofonts/old-turkic/releases/tag/NotoSansOldTurkic-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Old Turkic v2.004\n\nThis release fixes the shape of U+10C47 ORKHON OT.\n",
+     "published": "2024-06-11T10:03:36+00:00",
+     "url": "https://github.com/notofonts/old-turkic/releases/tag/NotoSansOldTurkic-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "known_releases": [
    "NotoSansOldTurkic-v2.002",
-   "NotoSansOldTurkic-v2.003"
+   "NotoSansOldTurkic-v2.003",
+   "NotoSansOldTurkic-v2.004"
   ]
  },
  "old-uyghur": {
   "families": {
    "Noto Serif Old Uyghur": {
     "files": [
-     "fonts/NotoSerifOldUyghur/unhinted/ttf/NotoSerifOldUyghur-Regular.ttf",
-     "fonts/NotoSerifOldUyghur/unhinted/otf/NotoSerifOldUyghur-Regular.otf",
-     "fonts/NotoSerifOldUyghur/full/ttf/NotoSerifOldUyghur-Regular.ttf",
+     "fonts/NotoSerifOldUyghur/googlefonts/ttf/NotoSerifOldUyghur-Regular.ttf",
      "fonts/NotoSerifOldUyghur/full/otf/NotoSerifOldUyghur-Regular.otf",
+     "fonts/NotoSerifOldUyghur/full/ttf/NotoSerifOldUyghur-Regular.ttf",
      "fonts/NotoSerifOldUyghur/hinted/ttf/NotoSerifOldUyghur-Regular.ttf",
-     "fonts/NotoSerifOldUyghur/googlefonts/ttf/NotoSerifOldUyghur-Regular.ttf"
+     "fonts/NotoSerifOldUyghur/unhinted/otf/NotoSerifOldUyghur-Regular.otf",
+     "fonts/NotoSerifOldUyghur/unhinted/ttf/NotoSerifOldUyghur-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Serif Old Uyghur v1.003\n\nThis release:\n\n* Fixes the behaviour of kaf-alef\n* Forms the correct forms of isolated ligatures (#3)\n* Corrects the side-bearing of the kashida glyph (#4)\n* Allows for correct topographic shaping of letters with marks (#2)\n",
-     "published": "2023-09-26T06:57:29",
-     "url": "https://github.com/notofonts/old-uyghur/releases/tag/NotoSerifOldUyghur-v1.003",
-     "version": "v1.003"
+     "notes": "Noto Serif Old Uyghur v1.004\n\nThis release:\n\n* Adds anchors for combining marks (#5)\n* Improves the joining PE+KAPH (#6)\n* Disables the MEM+LESH ligature to avoid confusion with LESH+MEM (#7)\n",
+     "published": "2024-06-11T10:26:23+00:00",
+     "url": "https://github.com/notofonts/old-uyghur/releases/tag/NotoSerifOldUyghur-v1.004",
+     "version": "v1.004"
     }
    }
   },
   "known_releases": [
    "NotoSerifOldUyghur-v1.002",
-   "NotoSerifOldUyghur-v1.003"
+   "NotoSerifOldUyghur-v1.003",
+   "NotoSerifOldUyghur-v1.004"
   ]
  },
  "oriya": {
