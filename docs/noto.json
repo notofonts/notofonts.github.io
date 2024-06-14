@@ -6044,10 +6044,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Kaithi v2.005\n\nThis release:\n\n* Adds the newly encoded glyph U+110C2 KAITHI VOWEL SIGN VOCALIC R\n* Forms reph only when there is a following glyph (#18)\n* Blocks reph with nukta (#19)\n* Ensures that all stylistic sets work in combination (#3)\n",
-     "published": "2023-09-25T12:38:54",
-     "url": "https://github.com/notofonts/kaithi/releases/tag/NotoSansKaithi-v2.005",
-     "version": "v2.005"
+     "notes": "Noto Sans Kaithi v2.006\n\nThis release:\n\n* Improves the display of half forms with zero width joiners (#26)\n* Deletes duplicate above marks (#27)\n* Anchors U vowel correctly onto dotless YA (#22)\n* Places the REPH correctly on LA (#23)\n* Improves the display of alternate U vowel conjuncts (#24)\n",
+     "published": "2024-06-13T09:32:12+00:00",
+     "url": "https://github.com/notofonts/kaithi/releases/tag/NotoSansKaithi-v2.006",
+     "version": "v2.006"
     }
    }
   },
@@ -12908,10 +12908,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Psalter Pahlavi v2.002\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-24T18:27:39",
-     "url": "https://github.com/notofonts/psalter-pahlavi/releases/tag/NotoSansPsalterPahlavi-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Sans Psalter Pahlavi v2.003\n\nThis release:\n* Corrects the joining behaviour of numbers (#1)\n* Drops the KAF after descenders (#2)\n* Adds a default languagesystem\n",
+     "published": "2024-06-13T09:36:54+00:00",
+     "url": "https://github.com/notofonts/psalter-pahlavi/releases/tag/NotoSansPsalterPahlavi-v2.003",
+     "version": "v2.003"
     }
    }
   },
@@ -17041,15 +17041,21 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Toto v2.001\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes clashes between the \"ja\" glyph and following glyphs (#1)\n",
-     "published": "2022-09-05T14:41:51",
-     "url": "https://github.com/notofonts/toto/releases/tag/NotoSerifToto-v2.001",
-     "version": "v2.001"
+     "notes": "Noto Serif Toto v2.002\n\nThis release:\n\n* Adds a meta table entry to show designed languages\n* Adds the missing languagesystem (#4)\n* Uses a breathy component in WA (#3)\n",
+     "published": "2024-06-13T09:47:11+00:00",
+     "url": "https://github.com/notofonts/toto/releases/tag/NotoSerifToto-v2.002",
+     "version": "v2.002"
     }
    }
   },
   "gh_url": "https://notofonts.github.io/toto",
-  "issues": [],
+  "issues": [
+   {
+    "number": 5,
+    "title": "U+1E2A9 TOTO LETTER BREATHY EO is kerned less than U+1E2A8 TOTO LETTER EO",
+    "url": "https://github.com/notofonts/toto/issues/5"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/toto",
   "tier": 3,
   "title": "Noto Toto"

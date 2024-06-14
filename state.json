@@ -5446,24 +5446,25 @@
   "families": {
    "Noto Sans Kaithi": {
     "files": [
-     "fonts/NotoSansKaithi/unhinted/ttf/NotoSansKaithi-Regular.ttf",
-     "fonts/NotoSansKaithi/unhinted/otf/NotoSansKaithi-Regular.otf",
-     "fonts/NotoSansKaithi/full/ttf/NotoSansKaithi-Regular.ttf",
+     "fonts/NotoSansKaithi/googlefonts/ttf/NotoSansKaithi-Regular.ttf",
      "fonts/NotoSansKaithi/full/otf/NotoSansKaithi-Regular.otf",
+     "fonts/NotoSansKaithi/full/ttf/NotoSansKaithi-Regular.ttf",
      "fonts/NotoSansKaithi/hinted/ttf/NotoSansKaithi-Regular.ttf",
-     "fonts/NotoSansKaithi/googlefonts/ttf/NotoSansKaithi-Regular.ttf"
+     "fonts/NotoSansKaithi/unhinted/otf/NotoSansKaithi-Regular.otf",
+     "fonts/NotoSansKaithi/unhinted/ttf/NotoSansKaithi-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Kaithi v2.005\n\nThis release:\n\n* Adds the newly encoded glyph U+110C2 KAITHI VOWEL SIGN VOCALIC R\n* Forms reph only when there is a following glyph (#18)\n* Blocks reph with nukta (#19)\n* Ensures that all stylistic sets work in combination (#3)\n",
-     "published": "2023-09-25T12:38:54",
-     "url": "https://github.com/notofonts/kaithi/releases/tag/NotoSansKaithi-v2.005",
-     "version": "v2.005"
+     "notes": "Noto Sans Kaithi v2.006\n\nThis release:\n\n* Improves the display of half forms with zero width joiners (#26)\n* Deletes duplicate above marks (#27)\n* Anchors U vowel correctly onto dotless YA (#22)\n* Places the REPH correctly on LA (#23)\n* Improves the display of alternate U vowel conjuncts (#24)\n",
+     "published": "2024-06-13T09:32:12+00:00",
+     "url": "https://github.com/notofonts/kaithi/releases/tag/NotoSansKaithi-v2.006",
+     "version": "v2.006"
     }
    }
   },
   "known_releases": [
    "NotoSansKaithi-v2.004",
-   "NotoSansKaithi-v2.005"
+   "NotoSansKaithi-v2.005",
+   "NotoSansKaithi-v2.006"
   ]
  },
  "kannada": {
@@ -10815,23 +10816,24 @@
   "families": {
    "Noto Sans Psalter Pahlavi": {
     "files": [
-     "fonts/NotoSansPsalterPahlavi/full/ttf/NotoSansPsalterPahlavi-Regular.ttf",
-     "fonts/NotoSansPsalterPahlavi/full/otf/NotoSansPsalterPahlavi-Regular.otf",
      "fonts/NotoSansPsalterPahlavi/googlefonts/ttf/NotoSansPsalterPahlavi-Regular.ttf",
-     "fonts/NotoSansPsalterPahlavi/unhinted/ttf/NotoSansPsalterPahlavi-Regular.ttf",
+     "fonts/NotoSansPsalterPahlavi/full/otf/NotoSansPsalterPahlavi-Regular.otf",
+     "fonts/NotoSansPsalterPahlavi/full/ttf/NotoSansPsalterPahlavi-Regular.ttf",
+     "fonts/NotoSansPsalterPahlavi/hinted/ttf/NotoSansPsalterPahlavi-Regular.ttf",
      "fonts/NotoSansPsalterPahlavi/unhinted/otf/NotoSansPsalterPahlavi-Regular.otf",
-     "fonts/NotoSansPsalterPahlavi/hinted/ttf/NotoSansPsalterPahlavi-Regular.ttf"
+     "fonts/NotoSansPsalterPahlavi/unhinted/ttf/NotoSansPsalterPahlavi-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Psalter Pahlavi v2.002\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-09-24T18:27:39",
-     "url": "https://github.com/notofonts/psalter-pahlavi/releases/tag/NotoSansPsalterPahlavi-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Sans Psalter Pahlavi v2.003\n\nThis release:\n* Corrects the joining behaviour of numbers (#1)\n* Drops the KAF after descenders (#2)\n* Adds a default languagesystem\n",
+     "published": "2024-06-13T09:36:54+00:00",
+     "url": "https://github.com/notofonts/psalter-pahlavi/releases/tag/NotoSansPsalterPahlavi-v2.003",
+     "version": "v2.003"
     }
    }
   },
   "known_releases": [
-   "NotoSansPsalterPahlavi-v2.002"
+   "NotoSansPsalterPahlavi-v2.002",
+   "NotoSansPsalterPahlavi-v2.003"
   ]
  },
  "rejang": {
@@ -14499,46 +14501,43 @@
   "families": {
    "Noto Serif Toto": {
     "files": [
-     "fonts/NotoSerifToto/full/slim-variable-ttf/NotoSerifToto[wght].ttf",
+     "fonts/NotoSerifToto/googlefonts/variable-ttf/NotoSerifToto[wght].ttf",
+     "fonts/NotoSerifToto/full/otf/NotoSerifToto-Regular.otf",
+     "fonts/NotoSerifToto/full/otf/NotoSerifToto-SemiBold.otf",
+     "fonts/NotoSerifToto/full/otf/NotoSerifToto-Medium.otf",
+     "fonts/NotoSerifToto/full/otf/NotoSerifToto-Bold.otf",
      "fonts/NotoSerifToto/full/ttf/NotoSerifToto-Bold.ttf",
+     "fonts/NotoSerifToto/full/ttf/NotoSerifToto-Regular.ttf",
      "fonts/NotoSerifToto/full/ttf/NotoSerifToto-SemiBold.ttf",
      "fonts/NotoSerifToto/full/ttf/NotoSerifToto-Medium.ttf",
-     "fonts/NotoSerifToto/full/ttf/NotoSerifToto-Regular.ttf",
+     "fonts/NotoSerifToto/full/slim-variable-ttf/NotoSerifToto[wght].ttf",
      "fonts/NotoSerifToto/full/variable-ttf/NotoSerifToto[wght].ttf",
-     "fonts/NotoSerifToto/full/otf/NotoSerifToto-Bold.otf",
-     "fonts/NotoSerifToto/full/otf/NotoSerifToto-Medium.otf",
-     "fonts/NotoSerifToto/full/otf/NotoSerifToto-SemiBold.otf",
-     "fonts/NotoSerifToto/full/otf/NotoSerifToto-Regular.otf",
-     "fonts/NotoSerifToto/googlefonts/ttf/NotoSerifToto-Bold.ttf",
-     "fonts/NotoSerifToto/googlefonts/ttf/NotoSerifToto-SemiBold.ttf",
-     "fonts/NotoSerifToto/googlefonts/ttf/NotoSerifToto-Medium.ttf",
-     "fonts/NotoSerifToto/googlefonts/ttf/NotoSerifToto-Regular.ttf",
-     "fonts/NotoSerifToto/googlefonts/variable-ttf/NotoSerifToto[wght].ttf",
-     "fonts/NotoSerifToto/unhinted/slim-variable-ttf/NotoSerifToto[wght].ttf",
-     "fonts/NotoSerifToto/unhinted/ttf/NotoSerifToto-Bold.ttf",
-     "fonts/NotoSerifToto/unhinted/ttf/NotoSerifToto-SemiBold.ttf",
-     "fonts/NotoSerifToto/unhinted/ttf/NotoSerifToto-Medium.ttf",
-     "fonts/NotoSerifToto/unhinted/ttf/NotoSerifToto-Regular.ttf",
-     "fonts/NotoSerifToto/unhinted/variable-ttf/NotoSerifToto[wght].ttf",
-     "fonts/NotoSerifToto/unhinted/otf/NotoSerifToto-Bold.otf",
-     "fonts/NotoSerifToto/unhinted/otf/NotoSerifToto-Medium.otf",
-     "fonts/NotoSerifToto/unhinted/otf/NotoSerifToto-SemiBold.otf",
-     "fonts/NotoSerifToto/unhinted/otf/NotoSerifToto-Regular.otf",
      "fonts/NotoSerifToto/hinted/ttf/NotoSerifToto-Bold.ttf",
+     "fonts/NotoSerifToto/hinted/ttf/NotoSerifToto-Regular.ttf",
      "fonts/NotoSerifToto/hinted/ttf/NotoSerifToto-SemiBold.ttf",
      "fonts/NotoSerifToto/hinted/ttf/NotoSerifToto-Medium.ttf",
-     "fonts/NotoSerifToto/hinted/ttf/NotoSerifToto-Regular.ttf"
+     "fonts/NotoSerifToto/unhinted/otf/NotoSerifToto-Regular.otf",
+     "fonts/NotoSerifToto/unhinted/otf/NotoSerifToto-SemiBold.otf",
+     "fonts/NotoSerifToto/unhinted/otf/NotoSerifToto-Medium.otf",
+     "fonts/NotoSerifToto/unhinted/otf/NotoSerifToto-Bold.otf",
+     "fonts/NotoSerifToto/unhinted/ttf/NotoSerifToto-Bold.ttf",
+     "fonts/NotoSerifToto/unhinted/ttf/NotoSerifToto-Regular.ttf",
+     "fonts/NotoSerifToto/unhinted/ttf/NotoSerifToto-SemiBold.ttf",
+     "fonts/NotoSerifToto/unhinted/ttf/NotoSerifToto-Medium.ttf",
+     "fonts/NotoSerifToto/unhinted/slim-variable-ttf/NotoSerifToto[wght].ttf",
+     "fonts/NotoSerifToto/unhinted/variable-ttf/NotoSerifToto[wght].ttf"
     ],
     "latest_release": {
-     "notes": "Noto Serif Toto v2.001\n\nThis release:\n* fixes a number of fontbakery fails\n* fixes clashes between the \"ja\" glyph and following glyphs (#1)\n",
-     "published": "2022-09-05T14:41:51",
-     "url": "https://github.com/notofonts/toto/releases/tag/NotoSerifToto-v2.001",
-     "version": "v2.001"
+     "notes": "Noto Serif Toto v2.002\n\nThis release:\n\n* Adds a meta table entry to show designed languages\n* Adds the missing languagesystem (#4)\n* Uses a breathy component in WA (#3)\n",
+     "published": "2024-06-13T09:47:11+00:00",
+     "url": "https://github.com/notofonts/toto/releases/tag/NotoSerifToto-v2.002",
+     "version": "v2.002"
     }
    }
   },
   "known_releases": [
-   "NotoSerifToto-v2.001"
+   "NotoSerifToto-v2.001",
+   "NotoSerifToto-v2.002"
   ]
  },
  "ugaritic": {
