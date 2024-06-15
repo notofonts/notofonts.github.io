@@ -10531,6 +10531,11 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 86,
+    "title": "Some vertical variants have variants themselves",
+    "url": "https://github.com/notofonts/math/issues/86"
+   },
+   {
     "number": 85,
     "title": "U+2974, U+2975, and U+2B49 have incorrect tildes",
     "url": "https://github.com/notofonts/math/issues/85"
@@ -10928,6 +10933,11 @@
   },
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
+   {
+    "number": 39,
+    "title": "Dots on \u043d+mvs+\u0430/\u044d and \u0433+mvs+\u0430/\u044d are too low",
+    "url": "https://github.com/notofonts/mongolian/issues/39"
+   },
    {
     "number": 32,
     "title": "Weights?",
