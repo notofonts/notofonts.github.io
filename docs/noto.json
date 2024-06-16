@@ -8907,6 +8907,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 480,
+    "title": "Missing characters",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/480"
+   },
+   {
     "number": 477,
     "title": "Interrobang Replacement?",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/477"
