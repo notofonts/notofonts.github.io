@@ -154,7 +154,7 @@
   "url": "https://github.com/notofonts/arabic/issues/239"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-06-10T08:23:42Z",
   "createdAt": "2024-06-07T00:24:35Z",
   "repo": "arabic",
   "tier": 1,
@@ -418,6 +418,13 @@
   "repo": "cuneiform",
   "tier": 4,
   "url": "https://github.com/notofonts/cuneiform/issues/1"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-06-11T14:15:55Z",
+  "repo": "cuneiform",
+  "tier": 4,
+  "url": "https://github.com/notofonts/cuneiform/issues/2"
  },
  {
   "closedAt": null,
@@ -966,6 +973,13 @@
   "url": "https://github.com/notofonts/hebrew/issues/51"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-06-12T21:55:09Z",
+  "repo": "hebrew",
+  "tier": 1,
+  "url": "https://github.com/notofonts/hebrew/issues/52"
+ },
+ {
   "closedAt": "2024-04-15T16:08:48Z",
   "createdAt": "2024-04-12T17:22:21Z",
   "repo": "imperial-aramaic",
@@ -1064,21 +1078,21 @@
   "url": "https://github.com/notofonts/kaithi/issues/25"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-06-13T09:25:16Z",
   "createdAt": "2023-10-04T19:07:16Z",
   "repo": "kaithi",
   "tier": 4,
   "url": "https://github.com/notofonts/kaithi/issues/26"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-06-12T15:31:13Z",
   "createdAt": "2023-10-04T19:33:59Z",
   "repo": "kaithi",
   "tier": 4,
   "url": "https://github.com/notofonts/kaithi/issues/27"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-06-12T15:31:06Z",
   "createdAt": "2023-10-05T13:46:36Z",
   "repo": "kaithi",
   "tier": 4,
@@ -2157,6 +2171,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-06-15T23:50:50Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/480"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -2259,6 +2280,20 @@
   "repo": "malayalam",
   "tier": 1,
   "url": "https://github.com/notofonts/malayalam/issues/27"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-06-10T19:42:58Z",
+  "repo": "mandaic",
+  "tier": 4,
+  "url": "https://github.com/notofonts/mandaic/issues/5"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-06-10T22:55:17Z",
+  "repo": "mandaic",
+  "tier": 4,
+  "url": "https://github.com/notofonts/mandaic/issues/6"
  },
  {
   "closedAt": null,
@@ -2521,6 +2556,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-06-14T12:04:26Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/86"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2018-06-10T14:53:53Z",
   "repo": "meetei-mayek",
   "tier": 3,
@@ -2581,6 +2623,13 @@
   "repo": "mongolian",
   "tier": 3,
   "url": "https://github.com/notofonts/mongolian/issues/32"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-06-14T09:23:47Z",
+  "repo": "mongolian",
+  "tier": 3,
+  "url": "https://github.com/notofonts/mongolian/issues/39"
  },
  {
   "closedAt": null,
@@ -3645,6 +3694,13 @@
   "repo": "toto",
   "tier": 3,
   "url": "https://github.com/notofonts/toto/issues/4"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-06-13T15:12:07Z",
+  "repo": "toto",
+  "tier": 3,
+  "url": "https://github.com/notofonts/toto/issues/5"
  },
  {
   "closedAt": "2024-03-07T09:36:36Z",

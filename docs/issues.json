@@ -5,12 +5,12 @@
   "3": 11,
   "4": 33,
   "5": 20,
-  "6": 0
+  "6": 4
  },
  "open_per_repo": {
   "adlam": 2,
   "ahom": 3,
-  "arabic": 8,
+  "arabic": 7,
   "armenian": 2,
   "balinese": 4,
   "batak": 4,
@@ -21,7 +21,7 @@
   "chakma": 1,
   "chorasmian": 1,
   "coptic": 2,
-  "cuneiform": 1,
+  "cuneiform": 2,
   "deseret": 1,
   "devanagari": 2,
   "dives-akuru": 6,
@@ -35,28 +35,29 @@
   "gujarati": 6,
   "gurmukhi": 5,
   "hanunoo": 1,
-  "hebrew": 13,
+  "hebrew": 14,
   "inscriptional-pahlavi": 1,
   "inscriptional-parthian": 3,
   "javanese": 4,
-  "kaithi": 6,
+  "kaithi": 3,
   "kannada": 7,
   "kawi": 5,
   "kharoshthi": 1,
   "khitan-small-script": 1,
   "khojki": 3,
   "khudawadi": 1,
-  "latin-greek-cyrillic": 126,
+  "latin-greek-cyrillic": 127,
   "limbu": 3,
   "lydian": 1,
   "malayalam": 7,
+  "mandaic": 2,
   "manichaean": 3,
   "masaram-gondi": 1,
-  "math": 10,
+  "math": 11,
   "meetei-mayek": 1,
   "miao": 1,
   "modi": 6,
-  "mongolian": 1,
+  "mongolian": 2,
   "multani": 1,
   "music": 2,
   "myanmar": 31,
@@ -93,12 +94,13 @@
   "tibetan": 4,
   "tifinagh": 3,
   "tirhuta": 10,
+  "toto": 1,
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 199,
+  "1": 200,
   "2": 47,
-  "3": 94,
+  "3": 97,
   "4": 54,
   "5": 26
  },
@@ -108,7 +110,7 @@
   "3": 15,
   "4": 30,
   "5": 22,
-  "6": 7
+  "6": 15
  },
  "releases_per_month": {
   "1": [
@@ -255,12 +257,24 @@
   ],
   "6": [
    {
+    "tag": "v0.2.20",
+    "url": "https://github.com/notofonts/nototools/releases/tag/v0.2.20"
+   },
+   {
     "tag": "NotoSansLimbu-v2.005",
     "url": "https://github.com/notofonts/limbu/releases/tag/NotoSansLimbu-v2.005"
    },
    {
+    "tag": "NotoSansArabicUI-v2.011",
+    "url": "https://github.com/notofonts/arabic/releases/tag/NotoSansArabicUI-v2.011"
+   },
+   {
     "tag": "NotoSansHebrew-v3.001",
     "url": "https://github.com/notofonts/hebrew/releases/tag/NotoSansHebrew-v3.001"
+   },
+   {
+    "tag": "NotoSansKaithi-v2.006",
+    "url": "https://github.com/notofonts/kaithi/releases/tag/NotoSansKaithi-v2.006"
    },
    {
     "tag": "NotoSansMandaic-v2.003",
@@ -277,6 +291,34 @@
    {
     "tag": "NotoSansMath-v3.000",
     "url": "https://github.com/notofonts/math/releases/tag/NotoSansMath-v3.000"
+   },
+   {
+    "tag": "NotoSansOldItalic-v2.004",
+    "url": "https://github.com/notofonts/old-italic/releases/tag/NotoSansOldItalic-v2.004"
+   },
+   {
+    "tag": "NotoSansOldSogdian-v2.003",
+    "url": "https://github.com/notofonts/old-sogdian/releases/tag/NotoSansOldSogdian-v2.003"
+   },
+   {
+    "tag": "NotoSansOldTurkic-v2.004",
+    "url": "https://github.com/notofonts/old-turkic/releases/tag/NotoSansOldTurkic-v2.004"
+   },
+   {
+    "tag": "NotoSerifOldUyghur-v1.004",
+    "url": "https://github.com/notofonts/old-uyghur/releases/tag/NotoSerifOldUyghur-v1.004"
+   },
+   {
+    "tag": "NotoSansPsalterPahlavi-v2.003",
+    "url": "https://github.com/notofonts/psalter-pahlavi/releases/tag/NotoSansPsalterPahlavi-v2.003"
+   },
+   {
+    "tag": "NotoSerifToto-v2.002",
+    "url": "https://github.com/notofonts/toto/releases/tag/NotoSerifToto-v2.002"
+   },
+   {
+    "tag": "NotoSansNagMundari-v1.001",
+    "url": "https://github.com/notofonts/nag-mundari/releases/tag/NotoSansNagMundari-v1.001"
    }
   ]
  },
