@@ -7100,13 +7100,8 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/hebrew",
   "has_releases": true,
-  "issue_count": 14,
+  "issue_count": 13,
   "issues": [
-   {
-    "number": 52,
-    "title": "Regression on Three Yiddish spacing (#39)",
-    "url": "https://github.com/notofonts/hebrew/issues/52"
-   },
    {
     "number": 51,
     "title": "Overlap with Tsadi in Noto Rashi Hebrew",
@@ -12727,8 +12722,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 11,
+  "issue_count": 12,
   "issues": [
+   {
+    "number": 87,
+    "title": "OpenType MATH Table in latest release",
+    "url": "https://github.com/notofonts/math/issues/87"
+   },
    {
     "number": 86,
     "title": "Some vertical variants have variants themselves",
@@ -15474,8 +15474,29 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/old-uyghur",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 4,
+  "issues": [
+   {
+    "number": 11,
+    "title": "Medial aleph becomes isolated after medial pe",
+    "url": "https://github.com/notofonts/old-uyghur/issues/11"
+   },
+   {
+    "number": 10,
+    "title": "Medial letters are scrambled after kaph or pe",
+    "url": "https://github.com/notofonts/old-uyghur/issues/10"
+   },
+   {
+    "number": 9,
+    "title": "Initial and medial <mem, lesh> could be improved",
+    "url": "https://github.com/notofonts/old-uyghur/issues/9"
+   },
+   {
+    "number": 8,
+    "title": "Combining marks are not positioned properly on U+25CC DOTTED CIRCLE",
+    "url": "https://github.com/notofonts/old-uyghur/issues/8"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/old-uyghur",
   "tier": 5,
   "title": "Noto Old Uyghur"
@@ -16162,8 +16183,24 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/psalter-pahlavi",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 3,
+  "issues": [
+   {
+    "number": 4,
+    "title": "Kaph contextually becomes nun and vice versa",
+    "url": "https://github.com/notofonts/psalter-pahlavi/issues/4"
+   },
+   {
+    "number": 3,
+    "title": "Kaph\u2019s descender overlaps final glyphs\u2019 descenders",
+    "url": "https://github.com/notofonts/psalter-pahlavi/issues/3"
+   },
+   {
+    "number": 1,
+    "title": "Incorrect shaping of Psalter Pahlavi numbers",
+    "url": "https://github.com/notofonts/psalter-pahlavi/issues/1"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/psalter-pahlavi",
   "tier": 5,
   "title": "Noto Psalter Pahlavi"
