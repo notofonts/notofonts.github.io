@@ -264,18 +264,7 @@
    },
    "Noto Naskh Arabic UI": {
     "files": {
-     "full": [
-      "fonts/NotoNaskhArabicUI/full/otf/NotoNaskhArabicUI-Bold.otf",
-      "fonts/NotoNaskhArabicUI/full/otf/NotoNaskhArabicUI-Medium.otf",
-      "fonts/NotoNaskhArabicUI/full/otf/NotoNaskhArabicUI-Regular.otf",
-      "fonts/NotoNaskhArabicUI/full/otf/NotoNaskhArabicUI-SemiBold.otf",
-      "fonts/NotoNaskhArabicUI/full/slim-variable-ttf/NotoNaskhArabicUI[wght].ttf",
-      "fonts/NotoNaskhArabicUI/full/ttf/NotoNaskhArabicUI-Bold.ttf",
-      "fonts/NotoNaskhArabicUI/full/ttf/NotoNaskhArabicUI-Medium.ttf",
-      "fonts/NotoNaskhArabicUI/full/ttf/NotoNaskhArabicUI-Regular.ttf",
-      "fonts/NotoNaskhArabicUI/full/ttf/NotoNaskhArabicUI-SemiBold.ttf",
-      "fonts/NotoNaskhArabicUI/full/variable-ttf/NotoNaskhArabicUI[wght].ttf"
-     ],
+     "full": [],
      "hinted": [
       "fonts/NotoNaskhArabicUI/hinted/ttf/NotoNaskhArabicUI-Bold.ttf",
       "fonts/NotoNaskhArabicUI/hinted/ttf/NotoNaskhArabicUI-Medium.ttf",
@@ -296,10 +285,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Naskh Arabic UI v2.014\n\nThis release\n* fixes U+06F7 to prefer the Persian form and localize to the Urdu form on demand (issue #27)\n* fixes some accents that were not correctly anchoring to the dotted\n* brings Noto Naskh Arabic UI up to Google Fonts production standards\ncircle\n",
-     "published": "2022-08-01T14:51:32",
-     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabicUI-v2.014",
-     "version": "v2.014"
+     "notes": "Noto Naskh Arabic UI v2.017\n\nThis release de-encodes the U+2011 non-breaking hyphen character.\n",
+     "published": "2024-06-18T08:22:19+00:00",
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabicUI-v2.017",
+     "version": "v2.017"
     }
    },
    "Noto Sans Arabic": {
@@ -10938,11 +10927,6 @@
   },
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
-   {
-    "number": 39,
-    "title": "Dots on \u043d+mvs+\u0430/\u044d and \u0433+mvs+\u0430/\u044d are too low",
-    "url": "https://github.com/notofonts/mongolian/issues/39"
-   },
    {
     "number": 32,
     "title": "Weights?",
