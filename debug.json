@@ -8826,8 +8826,14 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/khmer",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 29,
+    "title": "Noto Sans Khmer appears Black on latest browsers on Android",
+    "url": "https://github.com/notofonts/khmer/issues/29"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/khmer",
   "tier": 2,
   "title": "Noto Khmer"
