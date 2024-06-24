@@ -973,7 +973,7 @@
   "url": "https://github.com/notofonts/hebrew/issues/51"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-06-17T08:15:12Z",
   "createdAt": "2024-06-12T21:55:09Z",
   "repo": "hebrew",
   "tier": 1,
@@ -1195,6 +1195,13 @@
   "repo": "khitan-small-script",
   "tier": 5,
   "url": "https://github.com/notofonts/khitan-small-script/issues/2"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-06-22T03:34:43Z",
+  "repo": "khmer",
+  "tier": 2,
+  "url": "https://github.com/notofonts/khmer/issues/29"
  },
  {
   "closedAt": null,
@@ -2563,6 +2570,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-06-17T22:52:57Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/87"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2018-06-10T14:53:53Z",
   "repo": "meetei-mayek",
   "tier": 3,
@@ -2625,7 +2639,7 @@
   "url": "https://github.com/notofonts/mongolian/issues/32"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-06-18T11:34:10Z",
   "createdAt": "2024-06-14T09:23:47Z",
   "repo": "mongolian",
   "tier": 3,
@@ -3102,6 +3116,34 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-06-17T20:46:14Z",
+  "repo": "old-uyghur",
+  "tier": 5,
+  "url": "https://github.com/notofonts/old-uyghur/issues/8"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-06-17T22:44:46Z",
+  "repo": "old-uyghur",
+  "tier": 5,
+  "url": "https://github.com/notofonts/old-uyghur/issues/9"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-06-17T23:24:06Z",
+  "repo": "old-uyghur",
+  "tier": 5,
+  "url": "https://github.com/notofonts/old-uyghur/issues/10"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-06-17T23:43:17Z",
+  "repo": "old-uyghur",
+  "tier": 5,
+  "url": "https://github.com/notofonts/old-uyghur/issues/11"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-06-26T13:28:18Z",
   "repo": "oriya",
   "tier": 1,
@@ -3134,6 +3176,27 @@
   "repo": "phags-pa",
   "tier": 4,
   "url": "https://github.com/notofonts/phags-pa/issues/9"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2018-09-23T15:41:52Z",
+  "repo": "psalter-pahlavi",
+  "tier": 5,
+  "url": "https://github.com/notofonts/psalter-pahlavi/issues/1"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-06-17T18:14:40Z",
+  "repo": "psalter-pahlavi",
+  "tier": 5,
+  "url": "https://github.com/notofonts/psalter-pahlavi/issues/3"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-06-17T18:27:25Z",
+  "repo": "psalter-pahlavi",
+  "tier": 5,
+  "url": "https://github.com/notofonts/psalter-pahlavi/issues/4"
  },
  {
   "closedAt": null,

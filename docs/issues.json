@@ -5,7 +5,7 @@
   "3": 11,
   "4": 33,
   "5": 20,
-  "6": 4
+  "6": 6
  },
  "open_per_repo": {
   "adlam": 2,
@@ -35,7 +35,7 @@
   "gujarati": 6,
   "gurmukhi": 5,
   "hanunoo": 1,
-  "hebrew": 14,
+  "hebrew": 13,
   "inscriptional-pahlavi": 1,
   "inscriptional-parthian": 3,
   "javanese": 4,
@@ -44,6 +44,7 @@
   "kawi": 5,
   "kharoshthi": 1,
   "khitan-small-script": 1,
+  "khmer": 1,
   "khojki": 3,
   "khudawadi": 1,
   "latin-greek-cyrillic": 127,
@@ -53,11 +54,11 @@
   "mandaic": 2,
   "manichaean": 3,
   "masaram-gondi": 1,
-  "math": 11,
+  "math": 12,
   "meetei-mayek": 1,
   "miao": 1,
   "modi": 6,
-  "mongolian": 2,
+  "mongolian": 1,
   "multani": 1,
   "music": 2,
   "myanmar": 31,
@@ -68,9 +69,11 @@
   "old-hungarian-ui": 2,
   "old-italic": 1,
   "old-turkic": 1,
+  "old-uyghur": 4,
   "oriya": 2,
   "pahawh-hmong": 1,
   "phags-pa": 1,
+  "psalter-pahlavi": 3,
   "rejang": 1,
   "saurashtra": 1,
   "sharada": 3,
@@ -98,11 +101,11 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 200,
-  "2": 47,
+  "1": 199,
+  "2": 48,
   "3": 97,
   "4": 54,
-  "5": 26
+  "5": 33
  },
  "opened_per_month": {
   "1": 32,
@@ -110,7 +113,7 @@
   "3": 15,
   "4": 30,
   "5": 22,
-  "6": 15
+  "6": 23
  },
  "releases_per_month": {
   "1": [
@@ -265,6 +268,10 @@
     "url": "https://github.com/notofonts/limbu/releases/tag/NotoSansLimbu-v2.005"
    },
    {
+    "tag": "NotoNaskhArabicUI-v2.017",
+    "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabicUI-v2.017"
+   },
+   {
     "tag": "NotoSansArabicUI-v2.011",
     "url": "https://github.com/notofonts/arabic/releases/tag/NotoSansArabicUI-v2.011"
    },
@@ -323,11 +330,11 @@
   ]
  },
  "totals_per_month": {
-  "1": 383,
-  "2": 406,
-  "3": 407,
-  "4": 413,
-  "5": 410,
-  "6": 413
+  "1": 384,
+  "2": 407,
+  "3": 408,
+  "4": 414,
+  "5": 411,
+  "6": 414
  }
 }
