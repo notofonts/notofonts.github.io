@@ -10526,21 +10526,6 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
-    "number": 87,
-    "title": "OpenType MATH Table in latest release",
-    "url": "https://github.com/notofonts/math/issues/87"
-   },
-   {
-    "number": 86,
-    "title": "Some vertical variants have variants themselves",
-    "url": "https://github.com/notofonts/math/issues/86"
-   },
-   {
-    "number": 85,
-    "title": "U+2974, U+2975, and U+2B49 have incorrect tildes",
-    "url": "https://github.com/notofonts/math/issues/85"
-   },
-   {
     "number": 81,
     "title": "Sync Greek with Noto Sans",
     "url": "https://github.com/notofonts/math/issues/81"
@@ -10549,11 +10534,6 @@
     "number": 77,
     "title": "Make serif as a stub, just to recycle existing serif glyphs",
     "url": "https://github.com/notofonts/math/issues/77"
-   },
-   {
-    "number": 73,
-    "title": "Inconsistent kerning",
-    "url": "https://github.com/notofonts/math/issues/73"
    },
    {
     "number": 71,
