@@ -10696,7 +10696,7 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 128,
+  "issue_count": 127,
   "issues": [
    {
     "number": 480,
@@ -10797,11 +10797,6 @@
     "number": 446,
     "title": "Design inconsistency in Cyrillic",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/446"
-   },
-   {
-    "number": 434,
-    "title": "Noto Sans Bold not working in Google Docs",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/434"
    },
    {
     "number": 426,
