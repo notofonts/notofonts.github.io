@@ -9652,8 +9652,14 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/lao",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 18,
+    "title": "Virama positioning",
+    "url": "https://github.com/notofonts/lao/issues/18"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/lao",
   "tier": 3,
   "title": "Noto Lao"
@@ -14188,8 +14194,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nag-mundari",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 6,
+    "title": "U+1E4EC and U+1E4ED are misplaced on U+25CC DOTTED CIRCLE",
+    "url": "https://github.com/notofonts/nag-mundari/issues/6"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/nag-mundari",
   "tier": 3,
   "title": "Noto Sans Nag Mundari"

@@ -7907,7 +7907,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/lao",
-  "issues": [],
+  "issues": [
+   {
+    "number": 18,
+    "title": "Virama positioning",
+    "url": "https://github.com/notofonts/lao/issues/18"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/lao",
   "tier": 3,
   "title": "Noto Lao"
@@ -11660,7 +11666,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/nag-mundari",
-  "issues": [],
+  "issues": [
+   {
+    "number": 6,
+    "title": "U+1E4EC and U+1E4ED are misplaced on U+25CC DOTTED CIRCLE",
+    "url": "https://github.com/notofonts/nag-mundari/issues/6"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/nag-mundari",
   "tier": 3,
   "title": "Noto Sans Nag Mundari"
