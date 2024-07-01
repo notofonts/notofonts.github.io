@@ -1240,6 +1240,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-06-29T02:39:33Z",
+  "repo": "lao",
+  "tier": 3,
+  "url": "https://github.com/notofonts/lao/issues/18"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2015-06-08T18:31:08Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -1988,7 +1995,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/426"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-06-28T16:29:27Z",
   "createdAt": "2023-06-03T23:00:04Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -2520,7 +2527,7 @@
   "url": "https://github.com/notofonts/math/issues/72"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-06-25T08:06:23Z",
   "createdAt": "2024-04-25T11:32:59Z",
   "repo": "math",
   "tier": 3,
@@ -2555,21 +2562,21 @@
   "url": "https://github.com/notofonts/math/issues/81"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-06-25T06:04:35Z",
   "createdAt": "2024-06-05T23:42:02Z",
   "repo": "math",
   "tier": 3,
   "url": "https://github.com/notofonts/math/issues/85"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-06-25T06:04:23Z",
   "createdAt": "2024-06-14T12:04:26Z",
   "repo": "math",
   "tier": 3,
   "url": "https://github.com/notofonts/math/issues/86"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-06-25T06:14:06Z",
   "createdAt": "2024-06-17T22:52:57Z",
   "repo": "math",
   "tier": 3,
@@ -2896,6 +2903,13 @@
   "repo": "myanmar",
   "tier": 2,
   "url": "https://github.com/notofonts/myanmar/issues/62"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-06-29T23:30:59Z",
+  "repo": "nag-mundari",
+  "tier": 3,
+  "url": "https://github.com/notofonts/nag-mundari/issues/6"
  },
  {
   "closedAt": null,
