@@ -10915,11 +10915,6 @@
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
    {
-    "number": 42,
-    "title": "Fix OTL",
-    "url": "https://github.com/notofonts/mongolian/pull/42"
-   },
-   {
     "number": 32,
     "title": "Weights?",
     "url": "https://github.com/notofonts/mongolian/issues/32"
