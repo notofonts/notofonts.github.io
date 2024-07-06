@@ -695,6 +695,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 241,
+    "title": "Noto Naskh Arabic diacritics slightly small and close to base characters",
+    "url": "https://github.com/notofonts/arabic/issues/241"
+   },
+   {
     "number": 232,
     "title": "Incorrect diacritic position for letter jeem when using bullets in InDesign",
     "url": "https://github.com/notofonts/arabic/issues/232"
