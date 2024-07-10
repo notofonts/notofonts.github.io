@@ -1151,18 +1151,18 @@
    },
    "Noto Serif Balinese": {
     "files": [
-     "fonts/NotoSerifBalinese/googlefonts/ttf/NotoSerifBalinese-Regular.ttf",
-     "fonts/NotoSerifBalinese/full/otf/NotoSerifBalinese-Regular.otf",
-     "fonts/NotoSerifBalinese/full/ttf/NotoSerifBalinese-Regular.ttf",
      "fonts/NotoSerifBalinese/hinted/ttf/NotoSerifBalinese-Regular.ttf",
+     "fonts/NotoSerifBalinese/unhinted/ttf/NotoSerifBalinese-Regular.ttf",
      "fonts/NotoSerifBalinese/unhinted/otf/NotoSerifBalinese-Regular.otf",
-     "fonts/NotoSerifBalinese/unhinted/ttf/NotoSerifBalinese-Regular.ttf"
+     "fonts/NotoSerifBalinese/googlefonts/ttf/NotoSerifBalinese-Regular.ttf",
+     "fonts/NotoSerifBalinese/full/ttf/NotoSerifBalinese-Regular.ttf",
+     "fonts/NotoSerifBalinese/full/otf/NotoSerifBalinese-Regular.otf"
     ],
     "latest_release": {
-     "notes": "Noto Serif Balinese v2.006\n\nThis release:\n\n* Fixes third level conjunct stacks (#3, #4)\n* Monospaces the musical symbols (#6)\n* Improves anchors of marks on dotted circles (#16)\n* Adds the Unicode 14 character ARCHAIC JNYA (#34)\n* Adds a default language system\n",
-     "published": "2024-05-16T10:54:52+00:00",
-     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSerifBalinese-v2.006",
-     "version": "v2.006"
+     "notes": "Noto Serif Balinese v2.007\n\nThis release fixes overlaps between some above marks (#8)\n",
+     "published": "2024-07-09T08:41:06+00:00",
+     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSerifBalinese-v2.007",
+     "version": "v2.007"
     }
    }
   },
@@ -1174,7 +1174,8 @@
    "NotoSansBalinese-v2.004",
    "NotoSansBalinese-v2.005",
    "NotoSansBalinese-v2.006",
-   "NotoSerifBalinese-v2.006"
+   "NotoSerifBalinese-v2.006",
+   "NotoSerifBalinese-v2.007"
   ]
  },
  "bamum": {
