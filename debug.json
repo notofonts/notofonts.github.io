@@ -847,8 +847,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 9,
   "issues": [
+   {
+    "number": 242,
+    "title": "Is there a way to get ARABIC KASRA be placed beneath the letter instead of ARABIC SHADDA?",
+    "url": "https://github.com/notofonts/arabic/issues/242"
+   },
    {
     "number": 241,
     "title": "Noto Naskh Arabic diacritics slightly small and close to base characters",
