@@ -6,12 +6,12 @@
   "4": 33,
   "5": 20,
   "6": 11,
-  "7": 0
+  "7": 1
  },
  "open_per_repo": {
   "adlam": 2,
   "ahom": 3,
-  "arabic": 8,
+  "arabic": 9,
   "armenian": 2,
   "balinese": 4,
   "batak": 4,
@@ -104,7 +104,7 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 199,
+  "1": 200,
   "2": 48,
   "3": 95,
   "4": 54,
@@ -117,7 +117,7 @@
   "4": 30,
   "5": 22,
   "6": 25,
-  "7": 1
+  "7": 3
  },
  "releases_per_month": {
   "1": [
@@ -330,6 +330,12 @@
    {
     "tag": "NotoSansNagMundari-v1.001",
     "url": "https://github.com/notofonts/nag-mundari/releases/tag/NotoSansNagMundari-v1.001"
+   }
+  ],
+  "7": [
+   {
+    "tag": "NotoSerifBalinese-v2.007",
+    "url": "https://github.com/notofonts/balinese/releases/tag/NotoSerifBalinese-v2.007"
    }
   ]
  },
