@@ -14287,7 +14287,7 @@
       "fonts/NotoNastaliqUrdu/full/slim-variable-ttf/NotoNastaliqUrdu[wght].ttf",
       "fonts/NotoNastaliqUrdu/full/ttf/NotoNastaliqUrdu-Bold.ttf",
       "fonts/NotoNastaliqUrdu/full/ttf/NotoNastaliqUrdu-Regular.ttf",
-      "fonts/NotoNastaliqUrdu/full/variable/NotoNastaliqUrdu[wght].ttf"
+      "fonts/NotoNastaliqUrdu/full/variable-ttf/NotoNastaliqUrdu[wght].ttf"
      ],
      "hinted": [
       "fonts/NotoNastaliqUrdu/hinted/ttf/NotoNastaliqUrdu-Bold.ttf",
@@ -14299,14 +14299,14 @@
       "fonts/NotoNastaliqUrdu/unhinted/slim-variable-ttf/NotoNastaliqUrdu[wght].ttf",
       "fonts/NotoNastaliqUrdu/unhinted/ttf/NotoNastaliqUrdu-Bold.ttf",
       "fonts/NotoNastaliqUrdu/unhinted/ttf/NotoNastaliqUrdu-Regular.ttf",
-      "fonts/NotoNastaliqUrdu/unhinted/variable/NotoNastaliqUrdu[wght].ttf"
+      "fonts/NotoNastaliqUrdu/unhinted/variable-ttf/NotoNastaliqUrdu[wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Nastaliq Urdu v3.009\n\n*Important*: This release replaces the yanked v3.008.\n\nThis release:\n\n* Encodes a number of new characters: U+06B5 LAM WITH SMALL V, U+06AD NG, U+06CB VE (#50), U+0695 RE WITH V BELOW (#53), U+0682, U+0690, U+0692, U+0694, U+0695, U+0697, U+069D, U+069F, U+06A3, U+06A5, U+06AC, U+06AD, U+06AE, U+06B2, U+06B4, U+06B5, U+06B6, U+06B8, U+06B9, U+06BF, U+06C5, U+06C8, U+06C9, U+06CB, U+06D1, U+0764, U+0765, U+0766 (#10)\n* Improves the positioning of the LOW ALEF character (#7)\n* Uses localized form of digits after a subtending mark (#47)\n* Improves the contextualization of the divine name ligature (#4)\n* Improves the display of isolated U+0768 NOON WITH SMALL TAH (#6)\n* Fixes the position of nuktas and tahs ove lam (#16)\n",
-     "published": "2023-10-02T12:00:24+00:00",
-     "url": "https://github.com/notofonts/nastaliq/releases/tag/NotoNastaliqUrdu-v3.009",
-     "version": "v3.009"
+     "notes": "Noto Nastaliq Urdu v4.000\n\nThis is a major re-engineering of the font, which fixes most open issues. Dot positioning and bari ye handling has been extensively revised. Some connections have been simplified, reducing the glyphset dramatically.\n",
+     "published": "2024-07-17T17:00:20+00:00",
+     "url": "https://github.com/notofonts/nastaliq/releases/tag/NotoNastaliqUrdu-v4.000",
+     "version": "v4.000"
     },
     "third_party_versions": {
      "Fedora 38": {
