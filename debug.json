@@ -21721,8 +21721,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/znamenny",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 4,
   "issues": [
+   {
+    "number": 5,
+    "title": "fix typos",
+    "url": "https://github.com/notofonts/znamenny/pull/5"
+   },
    {
     "number": 4,
     "title": " U+1CFBB ZNAMENNY NEUME STRELA KRYUKOVAYA GROMOPOVODNAYA WITH DOUBLE ZAPYATAYA lacks vertical stroke",
