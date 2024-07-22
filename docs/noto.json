@@ -8918,6 +8918,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 482,
+    "title": "[googlefonts] Thin Serif Greek has noticeable extra thick parts",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/482"
+   },
+   {
     "number": 480,
     "title": "Missing characters",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/480"
