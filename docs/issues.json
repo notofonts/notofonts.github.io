@@ -6,12 +6,12 @@
   "4": 33,
   "5": 20,
   "6": 11,
-  "7": 1
+  "7": 13
  },
  "open_per_repo": {
   "adlam": 2,
   "ahom": 3,
-  "arabic": 9,
+  "arabic": 10,
   "armenian": 2,
   "balinese": 4,
   "batak": 4,
@@ -49,7 +49,7 @@
   "khojki": 3,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 126,
+  "latin-greek-cyrillic": 127,
   "limbu": 3,
   "lydian": 1,
   "malayalam": 7,
@@ -66,7 +66,7 @@
   "myanmar": 31,
   "nag-mundari": 1,
   "nandinagari": 3,
-  "nastaliq": 12,
+  "nastaliq": 2,
   "nko": 1,
   "old-hungarian": 5,
   "old-hungarian-ui": 2,
@@ -104,7 +104,7 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 200,
+  "1": 192,
   "2": 48,
   "3": 95,
   "4": 54,
@@ -117,7 +117,7 @@
   "4": 30,
   "5": 22,
   "6": 25,
-  "7": 3
+  "7": 7
  },
  "releases_per_month": {
   "1": [
@@ -336,6 +336,14 @@
    {
     "tag": "NotoSerifBalinese-v2.007",
     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSerifBalinese-v2.007"
+   },
+   {
+    "tag": "NotoNastaliqUrdu-v4.000",
+    "url": "https://github.com/notofonts/nastaliq/releases/tag/NotoNastaliqUrdu-v4.000"
+   },
+   {
+    "tag": "v0.002",
+    "url": "https://github.com/notofonts/noto-cjk-varco/releases/tag/v0.002"
    }
   ]
  },
