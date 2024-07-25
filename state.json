@@ -9343,25 +9343,26 @@
   "families": {
    "Noto Sans Mongolian": {
     "files": [
-     "fonts/NotoSansMongolian/hinted/ttf/NotoSansMongolian-Regular.ttf",
-     "fonts/NotoSansMongolian/googlefonts/ttf/NotoSansMongolian-Regular.ttf",
-     "fonts/NotoSansMongolian/unhinted/ttf/NotoSansMongolian-Regular.ttf",
      "fonts/NotoSansMongolian/unhinted/otf/NotoSansMongolian-Regular.otf",
+     "fonts/NotoSansMongolian/unhinted/ttf/NotoSansMongolian-Regular.ttf",
+     "fonts/NotoSansMongolian/full/otf/NotoSansMongolian-Regular.otf",
      "fonts/NotoSansMongolian/full/ttf/NotoSansMongolian-Regular.ttf",
-     "fonts/NotoSansMongolian/full/otf/NotoSansMongolian-Regular.otf"
+     "fonts/NotoSansMongolian/googlefonts/ttf/NotoSansMongolian-Regular.ttf",
+     "fonts/NotoSansMongolian/hinted/ttf/NotoSansMongolian-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Mongolian 3.001\n\nThis release upgrades the embedded Latin subset in full builds to GF Latin Core.\n",
-     "published": "2023-11-07T08:59:56+00:00",
-     "url": "https://github.com/notofonts/mongolian/releases/tag/NotoSansMongolian-v3.001",
-     "version": "v3.001"
+     "notes": "Noto Sans Mongolian v3.002\n\nThis release updates the shaping rules to meet the published standard (UTN#57).\n",
+     "published": "2024-07-24T17:01:39+00:00",
+     "url": "https://github.com/notofonts/mongolian/releases/tag/NotoSansMongolian-v3.002",
+     "version": "v3.002"
     }
    }
   },
   "known_releases": [
    "NotoSansMongolian-v2.003",
    "NotoSansMongolian-v3.000",
-   "NotoSansMongolian-v3.001"
+   "NotoSansMongolian-v3.001",
+   "NotoSansMongolian-v3.002"
   ]
  },
  "mro": {
