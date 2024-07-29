@@ -6,7 +6,7 @@
   "4": 33,
   "5": 20,
   "6": 11,
-  "7": 13
+  "7": 15
  },
  "open_per_repo": {
   "adlam": 2,
@@ -117,7 +117,7 @@
   "4": 30,
   "5": 22,
   "6": 25,
-  "7": 7
+  "7": 9
  },
  "releases_per_month": {
   "1": [
@@ -336,6 +336,10 @@
    {
     "tag": "NotoSerifBalinese-v2.007",
     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSerifBalinese-v2.007"
+   },
+   {
+    "tag": "NotoSansMongolian-v3.002",
+    "url": "https://github.com/notofonts/mongolian/releases/tag/NotoSansMongolian-v3.002"
    },
    {
     "tag": "NotoNastaliqUrdu-v4.000",
