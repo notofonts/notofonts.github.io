@@ -16089,7 +16089,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/thaana",
-  "issues": [],
+  "issues": [
+   {
+    "number": 4,
+    "title": "Noto Sans Thaana font no longer following Faruma style (?)",
+    "url": "https://github.com/notofonts/thaana/issues/4"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/thaana",
   "tier": 3,
   "title": "Noto Thaana"
