@@ -847,8 +847,23 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 13,
   "issues": [
+   {
+    "number": 247,
+    "title": "Work around jeem bug in Adobe\u2019s pre-HarfBuzz composers",
+    "url": "https://github.com/notofonts/arabic/pull/247"
+   },
+   {
+    "number": 246,
+    "title": "Sans: Don\u2019t use short alef with hamza below",
+    "url": "https://github.com/notofonts/arabic/pull/246"
+   },
+   {
+    "number": 245,
+    "title": "Use the tailed form of U+0620 KASHMIRI YEH as per Unicode consensus",
+    "url": "https://github.com/notofonts/arabic/issues/245"
+   },
    {
     "number": 243,
     "title": "Alef height",
