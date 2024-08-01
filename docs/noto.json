@@ -695,16 +695,6 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
-    "number": 247,
-    "title": "Work around jeem bug in Adobe\u2019s pre-HarfBuzz composers",
-    "url": "https://github.com/notofonts/arabic/pull/247"
-   },
-   {
-    "number": 246,
-    "title": "Sans: Don\u2019t use short alef with hamza below",
-    "url": "https://github.com/notofonts/arabic/pull/246"
-   },
-   {
     "number": 245,
     "title": "Use the tailed form of U+0620 KASHMIRI YEH as per Unicode consensus",
     "url": "https://github.com/notofonts/arabic/issues/245"
@@ -723,11 +713,6 @@
     "number": 241,
     "title": "Noto Naskh Arabic diacritics slightly small and close to base characters",
     "url": "https://github.com/notofonts/arabic/issues/241"
-   },
-   {
-    "number": 232,
-    "title": "Incorrect diacritic position for letter jeem when using bullets in InDesign",
-    "url": "https://github.com/notofonts/arabic/issues/232"
    },
    {
     "number": 230,
