@@ -847,17 +847,12 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 9,
   "issues": [
    {
     "number": 245,
     "title": "Use the tailed form of U+0620 KASHMIRI YEH as per Unicode consensus",
     "url": "https://github.com/notofonts/arabic/issues/245"
-   },
-   {
-    "number": 243,
-    "title": "Alef height",
-    "url": "https://github.com/notofonts/arabic/issues/243"
    },
    {
     "number": 242,
