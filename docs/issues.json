@@ -6,12 +6,13 @@
   "4": 33,
   "5": 20,
   "6": 11,
-  "7": 15
+  "7": 15,
+  "8": 1
  },
  "open_per_repo": {
   "adlam": 2,
   "ahom": 3,
-  "arabic": 10,
+  "arabic": 9,
   "armenian": 2,
   "balinese": 4,
   "batak": 4,
@@ -96,6 +97,7 @@
   "tangsa": 1,
   "tangut": 1,
   "telugu": 2,
+  "thaana": 1,
   "thai": 3,
   "tibetan": 4,
   "tifinagh": 3,
@@ -104,9 +106,9 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 192,
+  "1": 191,
   "2": 48,
-  "3": 95,
+  "3": 96,
   "4": 54,
   "5": 33
  },
@@ -117,7 +119,8 @@
   "4": 30,
   "5": 22,
   "6": 25,
-  "7": 9
+  "7": 11,
+  "8": 0
  },
  "releases_per_month": {
   "1": [
@@ -334,6 +337,10 @@
   ],
   "7": [
    {
+    "tag": "Serif2.003",
+    "url": "https://github.com/notofonts/noto-cjk/releases/tag/Serif2.003"
+   },
+   {
     "tag": "NotoSerifBalinese-v2.007",
     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSerifBalinese-v2.007"
    },
@@ -358,6 +365,7 @@
   "4": 414,
   "5": 411,
   "6": 414,
-  "7": 428
+  "7": 428,
+  "8": 423
  }
 }

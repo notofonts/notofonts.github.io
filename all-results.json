@@ -98,7 +98,7 @@
   "url": "https://github.com/notofonts/arabic/issues/231"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-07-31T11:07:42Z",
   "createdAt": "2024-03-24T19:42:33Z",
   "repo": "arabic",
   "tier": 1,
@@ -175,7 +175,7 @@
   "url": "https://github.com/notofonts/arabic/issues/242"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-08-03T09:04:24Z",
   "createdAt": "2024-07-20T23:15:43Z",
   "repo": "arabic",
   "tier": 1,
@@ -187,6 +187,13 @@
   "repo": "arabic",
   "tier": 1,
   "url": "https://github.com/notofonts/arabic/issues/244"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-07-30T04:59:15Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/245"
  },
  {
   "closedAt": null,
@@ -3680,6 +3687,13 @@
   "repo": "telugu",
   "tier": 1,
   "url": "https://github.com/notofonts/telugu/issues/23"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-07-29T17:06:51Z",
+  "repo": "thaana",
+  "tier": 3,
+  "url": "https://github.com/notofonts/thaana/issues/4"
  },
  {
   "closedAt": null,
