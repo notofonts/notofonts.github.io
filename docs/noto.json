@@ -12798,7 +12798,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/pau-cin-hau",
-  "issues": [],
+  "issues": [
+   {
+    "number": 1,
+    "title": "Request for new style of Pau Cin Hau Alphabets to add the next version of Notosans PauCinHau regular",
+    "url": "https://github.com/notofonts/pau-cin-hau/issues/1"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/pau-cin-hau",
   "tier": 3,
   "title": "Noto Pau Cin Hau"
