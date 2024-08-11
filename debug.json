@@ -10712,8 +10712,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 128,
+  "issue_count": 129,
   "issues": [
+   {
+    "number": 483,
+    "title": "Missing minus sign (U+2212) ",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/483"
+   },
    {
     "number": 482,
     "title": "[googlefonts] Thin Serif Greek has noticeable extra thick parts",
