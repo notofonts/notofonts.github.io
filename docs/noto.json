@@ -695,6 +695,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 248,
+    "title": " Incorrect Font Weight Rendering When Printing",
+    "url": "https://github.com/notofonts/arabic/issues/248"
+   },
+   {
     "number": 245,
     "title": "Use the tailed form of U+0620 KASHMIRI YEH as per Unicode consensus",
     "url": "https://github.com/notofonts/arabic/issues/245"
@@ -8912,6 +8917,11 @@
   },
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
+   {
+    "number": 484,
+    "title": "Alternate with low circumflex for \u27e8\u0125\u27e9; smaller white space in \u27e8t\u0302\u27e9 ",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/484"
+   },
    {
     "number": 483,
     "title": "Missing minus sign (U+2212) ",
