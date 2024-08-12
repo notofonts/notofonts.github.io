@@ -197,6 +197,20 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-08-11T07:16:35Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/248"
+ },
+ {
+  "closedAt": "2024-08-11T16:40:39Z",
+  "createdAt": "2024-08-11T07:18:15Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/249"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2021-05-06T04:03:47Z",
   "repo": "armenian",
   "tier": 1,
@@ -2248,6 +2262,20 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-07-29T13:14:02Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/483"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-08-11T16:03:37Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/484"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -3253,6 +3281,13 @@
   "repo": "pahawh-hmong",
   "tier": 3,
   "url": "https://github.com/notofonts/pahawh-hmong/issues/2"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-08-05T08:46:02Z",
+  "repo": "pau-cin-hau",
+  "tier": 3,
+  "url": "https://github.com/notofonts/pau-cin-hau/issues/1"
  },
  {
   "closedAt": null,
