@@ -2570,8 +2570,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/canadian-aboriginal",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 8,
+    "title": "Canadian-aboriginal uni18F3 - outstroke added. Minor fixes to uni18D4\u2026",
+    "url": "https://github.com/notofonts/canadian-aboriginal/pull/8"
+   },
    {
     "number": 3,
     "title": "Identical glyphs for U+144A and U+18F3",
