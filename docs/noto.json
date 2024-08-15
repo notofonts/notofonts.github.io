@@ -2040,18 +2040,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/canadian-aboriginal",
-  "issues": [
-   {
-    "number": 8,
-    "title": "Canadian-aboriginal uni18F3 - outstroke added. Minor fixes to uni18D4\u2026",
-    "url": "https://github.com/notofonts/canadian-aboriginal/pull/8"
-   },
-   {
-    "number": 3,
-    "title": "Identical glyphs for U+144A and U+18F3",
-    "url": "https://github.com/notofonts/canadian-aboriginal/issues/3"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/canadian-aboriginal",
   "tier": 3,
   "title": "Noto Canadian Aboriginal"
@@ -8928,19 +8917,9 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/484"
    },
    {
-    "number": 483,
-    "title": "Missing minus sign (U+2212) ",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/483"
-   },
-   {
     "number": 482,
     "title": "[googlefonts] Thin Serif Greek has noticeable extra thick parts",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/482"
-   },
-   {
-    "number": 480,
-    "title": "Missing characters",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/480"
    },
    {
     "number": 477,
@@ -8961,11 +8940,6 @@
     "number": 472,
     "title": "-> symbols don't align very well",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/472"
-   },
-   {
-    "number": 469,
-    "title": "Noto Sans Missed Characters `partialdiff`, `increment` (Delta) and more.",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/469"
    },
    {
     "number": 468,
@@ -9181,11 +9155,6 @@
     "number": 26,
     "title": "U+A7AF LATIN LETTER SMALL CAPITAL Q is too tall",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/26"
-   },
-   {
-    "number": 32,
-    "title": "Noto Serif: Missing Unicode arrows",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/32"
    },
    {
     "number": 33,
@@ -11793,6 +11762,16 @@
   },
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
+   {
+    "number": 70,
+    "title": "Theonym ligature is not forming in v4.000",
+    "url": "https://github.com/notofonts/nastaliq/issues/70"
+   },
+   {
+    "number": 69,
+    "title": "Some incorrect joins in v4.000",
+    "url": "https://github.com/notofonts/nastaliq/issues/69"
+   },
    {
     "number": 14,
     "title": "Add support for Central Asian Turkic language characters to Noto Nastaliq Urdu",
