@@ -10983,13 +10983,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/multani",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Wrong glyphs for some Multani digits",
-    "url": "https://github.com/notofonts/multani/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/multani",
   "tier": 3,
   "title": "Noto Multani"
