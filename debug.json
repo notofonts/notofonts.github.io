@@ -5122,8 +5122,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/glagolitic",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 9,
+    "title": "Does not build",
+    "url": "https://github.com/notofonts/glagolitic/issues/9"
+   },
    {
     "number": 7,
     "title": "U+2C2F and U+2C5F missing",
@@ -7098,8 +7103,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/hebrew",
   "has_releases": true,
-  "issue_count": 13,
+  "issue_count": 14,
   "issues": [
+   {
+    "number": 54,
+    "title": "Shekel Discrepancy",
+    "url": "https://github.com/notofonts/hebrew/issues/54"
+   },
    {
     "number": 51,
     "title": "Overlap with Tsadi in Noto Rashi Hebrew",
@@ -11794,8 +11804,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/lydian",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 4,
+    "title": "Does not build",
+    "url": "https://github.com/notofonts/lydian/issues/4"
+   },
    {
     "number": 2,
     "title": "Three inaccurate Lydian glyphs",
