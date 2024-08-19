@@ -7,7 +7,7 @@
   "5": 20,
   "6": 11,
   "7": 15,
-  "8": 2
+  "8": 8
  },
  "open_per_repo": {
   "adlam": 2,
@@ -19,7 +19,6 @@
   "bengali": 5,
   "bhaiksuki": 5,
   "brahmi": 2,
-  "canadian-aboriginal": 1,
   "chakma": 1,
   "chorasmian": 1,
   "coptic": 2,
@@ -33,11 +32,11 @@
   "elbasan": 1,
   "ethiopic": 1,
   "georgian": 3,
-  "glagolitic": 2,
+  "glagolitic": 3,
   "gujarati": 6,
   "gurmukhi": 5,
   "hanunoo": 1,
-  "hebrew": 13,
+  "hebrew": 14,
   "inscriptional-pahlavi": 1,
   "inscriptional-parthian": 3,
   "javanese": 4,
@@ -50,9 +49,9 @@
   "khojki": 3,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 129,
+  "latin-greek-cyrillic": 125,
   "limbu": 3,
-  "lydian": 1,
+  "lydian": 2,
   "malayalam": 7,
   "mandaic": 2,
   "manichaean": 3,
@@ -62,12 +61,11 @@
   "miao": 1,
   "modi": 6,
   "mongolian": 1,
-  "multani": 1,
   "music": 2,
   "myanmar": 31,
   "nag-mundari": 1,
   "nandinagari": 3,
-  "nastaliq": 2,
+  "nastaliq": 4,
   "nko": 1,
   "old-hungarian": 5,
   "old-hungarian-ui": 2,
@@ -107,10 +105,10 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 194,
+  "1": 193,
   "2": 48,
-  "3": 97,
-  "4": 54,
+  "3": 95,
+  "4": 56,
   "5": 33
  },
  "opened_per_month": {
@@ -121,7 +119,7 @@
   "5": 22,
   "6": 25,
   "7": 12,
-  "8": 4
+  "8": 9
  },
  "releases_per_month": {
   "1": [

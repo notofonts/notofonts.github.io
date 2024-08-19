@@ -420,7 +420,7 @@
   "url": "https://github.com/notofonts/brahmi/issues/13"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-08-14T15:43:01Z",
   "createdAt": "2020-04-17T14:04:58Z",
   "repo": "canadian-aboriginal",
   "tier": 3,
@@ -763,6 +763,13 @@
   "url": "https://github.com/notofonts/glagolitic/issues/7"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-08-19T00:40:03Z",
+  "repo": "glagolitic",
+  "tier": 4,
+  "url": "https://github.com/notofonts/glagolitic/issues/9"
+ },
+ {
   "closedAt": "2024-01-08T10:24:03Z",
   "createdAt": "2023-12-31T21:06:16Z",
   "repo": "grantha",
@@ -1034,6 +1041,13 @@
   "repo": "hebrew",
   "tier": 1,
   "url": "https://github.com/notofonts/hebrew/issues/52"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-08-18T13:55:17Z",
+  "repo": "hebrew",
+  "tier": 1,
+  "url": "https://github.com/notofonts/hebrew/issues/54"
  },
  {
   "closedAt": "2024-04-15T16:08:48Z",
@@ -1841,7 +1855,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/33"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-08-14T19:21:53Z",
   "createdAt": "2020-12-13T22:54:33Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -2170,7 +2184,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/468"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-08-14T08:56:58Z",
   "createdAt": "2024-03-16T16:26:35Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -2240,7 +2254,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/478"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-08-14T08:56:19Z",
   "createdAt": "2024-06-15T23:50:50Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -2261,7 +2275,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/482"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-08-14T08:55:40Z",
   "createdAt": "2024-07-29T13:14:02Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -2301,6 +2315,13 @@
   "repo": "lydian",
   "tier": 4,
   "url": "https://github.com/notofonts/lydian/issues/2"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-08-19T00:41:19Z",
+  "repo": "lydian",
+  "tier": 4,
+  "url": "https://github.com/notofonts/lydian/issues/4"
  },
  {
   "closedAt": null,
@@ -2744,7 +2765,7 @@
   "url": "https://github.com/notofonts/mongolian/issues/39"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-08-15T12:36:05Z",
   "createdAt": "2018-09-24T13:43:50Z",
   "repo": "multani",
   "tier": 3,
@@ -3113,6 +3134,20 @@
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/68"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-08-14T07:30:25Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/69"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-08-14T07:47:05Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/70"
  },
  {
   "closedAt": null,
