@@ -5122,13 +5122,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/glagolitic",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 2,
   "issues": [
-   {
-    "number": 9,
-    "title": "Does not build",
-    "url": "https://github.com/notofonts/glagolitic/issues/9"
-   },
    {
     "number": 7,
     "title": "U+2C2F and U+2C5F missing",
@@ -11804,13 +11799,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/lydian",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 4,
-    "title": "Does not build",
-    "url": "https://github.com/notofonts/lydian/issues/4"
-   },
    {
     "number": 2,
     "title": "Three inaccurate Lydian glyphs",
@@ -14338,8 +14328,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 5,
   "issues": [
+   {
+    "number": 71,
+    "title": "Initial kaf and gaf etc not aligning to margin",
+    "url": "https://github.com/notofonts/nastaliq/issues/71"
+   },
    {
     "number": 70,
     "title": "Theonym ligature is not forming in v4.000",
@@ -18001,8 +17996,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/syriac",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 9,
   "issues": [
+   {
+    "number": 28,
+    "title": "Noto Sans Syriac Western on Google Fonts",
+    "url": "https://github.com/notofonts/syriac/issues/28"
+   },
    {
     "number": 27,
     "title": "Final Semkath [U+0724] rendered incorrectly when connected",
