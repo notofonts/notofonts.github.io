@@ -5122,13 +5122,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/glagolitic",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 7,
-    "title": "U+2C2F and U+2C5F missing",
-    "url": "https://github.com/notofonts/glagolitic/issues/7"
-   },
    {
     "number": 6,
     "title": "U+25CC DOTTED CIRCLE has no anchor point",
@@ -11799,14 +11794,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/lydian",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 2,
-    "title": "Three inaccurate Lydian glyphs",
-    "url": "https://github.com/notofonts/lydian/issues/2"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/lydian",
   "tier": 4,
   "title": "Noto Lydian"
