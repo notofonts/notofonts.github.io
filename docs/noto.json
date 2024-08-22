@@ -2910,6 +2910,16 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
+    "number": 43,
+    "title": "The position of Devanagari Nukta with U+0913, U+0914 for the Santali language",
+    "url": "https://github.com/notofonts/devanagari/issues/43"
+   },
+   {
+    "number": 42,
+    "title": "The position of Devanagari Nukta for the Santali language with U+093E, U+094B, U+094C",
+    "url": "https://github.com/notofonts/devanagari/issues/42"
+   },
+   {
     "number": 34,
     "title": "Noto Devanagari : Addition of more alternative glyphs",
     "url": "https://github.com/notofonts/devanagari/issues/34"
@@ -10306,6 +10316,11 @@
   "gh_url": "https://notofonts.github.io/malayalam",
   "issues": [
    {
+    "number": 28,
+    "title": "Chandrakkala comes down the letter in Indesign",
+    "url": "https://github.com/notofonts/malayalam/issues/28"
+   },
+   {
     "number": 27,
     "title": "U10 Traditional Conjuncts?",
     "url": "https://github.com/notofonts/malayalam/issues/27"
@@ -15482,6 +15497,11 @@
   },
   "gh_url": "https://notofonts.github.io/tangut",
   "issues": [
+   {
+    "number": 5,
+    "title": "updates to 5 tangut glyphs",
+    "url": "https://github.com/notofonts/tangut/pull/5"
+   },
    {
     "number": 3,
     "title": "Change six glyphs to U15.1",
