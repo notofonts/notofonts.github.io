@@ -19427,13 +19427,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tangut",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 5,
-    "title": "updates to 5 tangut glyphs",
-    "url": "https://github.com/notofonts/tangut/pull/5"
-   },
    {
     "number": 3,
     "title": "Change six glyphs to U15.1",

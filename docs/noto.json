@@ -15498,11 +15498,6 @@
   "gh_url": "https://notofonts.github.io/tangut",
   "issues": [
    {
-    "number": 5,
-    "title": "updates to 5 tangut glyphs",
-    "url": "https://github.com/notofonts/tangut/pull/5"
-   },
-   {
     "number": 3,
     "title": "Change six glyphs to U15.1",
     "url": "https://github.com/notofonts/tangut/issues/3"
