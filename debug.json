@@ -12731,8 +12731,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 9,
   "issues": [
+   {
+    "number": 91,
+    "title": "Question mark discrepancy",
+    "url": "https://github.com/notofonts/math/issues/91"
+   },
    {
     "number": 81,
     "title": "Sync Greek with Noto Sans",
@@ -19427,14 +19432,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tangut",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 3,
-    "title": "Change six glyphs to U15.1",
-    "url": "https://github.com/notofonts/tangut/issues/3"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/tangut",
   "tier": 5,
   "title": "Noto Tangut"
