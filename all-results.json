@@ -561,6 +561,27 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-08-21T04:56:24Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/42"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-08-21T05:03:54Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/43"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-08-25T23:58:38Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/45"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2022-04-22T19:51:54Z",
   "repo": "dives-akuru",
   "tier": 5,
@@ -756,14 +777,14 @@
   "url": "https://github.com/notofonts/glagolitic/issues/6"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-08-20T14:48:54Z",
   "createdAt": "2024-04-03T04:15:56Z",
   "repo": "glagolitic",
   "tier": 4,
   "url": "https://github.com/notofonts/glagolitic/issues/7"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-08-19T04:06:18Z",
   "createdAt": "2024-08-19T00:40:03Z",
   "repo": "glagolitic",
   "tier": 4,
@@ -2310,14 +2331,14 @@
   "url": "https://github.com/notofonts/limbu/issues/6"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-08-20T14:54:55Z",
   "createdAt": "2022-05-29T17:13:30Z",
   "repo": "lydian",
   "tier": 4,
   "url": "https://github.com/notofonts/lydian/issues/2"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-08-19T04:18:16Z",
   "createdAt": "2024-08-19T00:41:19Z",
   "repo": "lydian",
   "tier": 4,
@@ -2399,6 +2420,13 @@
   "repo": "malayalam",
   "tier": 1,
   "url": "https://github.com/notofonts/malayalam/issues/27"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-08-21T16:24:31Z",
+  "repo": "malayalam",
+  "tier": 1,
+  "url": "https://github.com/notofonts/malayalam/issues/28"
  },
  {
   "closedAt": null,
@@ -2686,6 +2714,13 @@
   "repo": "math",
   "tier": 3,
   "url": "https://github.com/notofonts/math/issues/87"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-08-24T06:57:20Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/91"
  },
  {
   "closedAt": "2024-07-24T16:09:41Z",
@@ -3148,6 +3183,13 @@
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/70"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-08-19T17:08:32Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/71"
  },
  {
   "closedAt": null,
@@ -3655,6 +3697,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-08-20T00:20:55Z",
+  "repo": "syriac",
+  "tier": 3,
+  "url": "https://github.com/notofonts/syriac/issues/28"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-06-28T10:04:23Z",
   "repo": "tagalog",
   "tier": 3,
@@ -3710,7 +3759,7 @@
   "url": "https://github.com/notofonts/tangsa/issues/7"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-08-24T14:00:39Z",
   "createdAt": "2023-09-27T16:39:12Z",
   "repo": "tangut",
   "tier": 5,

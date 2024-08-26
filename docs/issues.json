@@ -7,7 +7,7 @@
   "5": 20,
   "6": 11,
   "7": 15,
-  "8": 8
+  "8": 13
  },
  "open_per_repo": {
   "adlam": 2,
@@ -24,7 +24,7 @@
   "coptic": 2,
   "cuneiform": 2,
   "deseret": 1,
-  "devanagari": 2,
+  "devanagari": 5,
   "dives-akuru": 6,
   "dogra": 1,
   "duployan": 1,
@@ -32,7 +32,7 @@
   "elbasan": 1,
   "ethiopic": 1,
   "georgian": 3,
-  "glagolitic": 3,
+  "glagolitic": 1,
   "gujarati": 6,
   "gurmukhi": 5,
   "hanunoo": 1,
@@ -51,12 +51,11 @@
   "lao": 1,
   "latin-greek-cyrillic": 125,
   "limbu": 3,
-  "lydian": 2,
-  "malayalam": 7,
+  "malayalam": 8,
   "mandaic": 2,
   "manichaean": 3,
   "masaram-gondi": 1,
-  "math": 8,
+  "math": 9,
   "meetei-mayek": 1,
   "miao": 1,
   "modi": 6,
@@ -65,7 +64,7 @@
   "myanmar": 31,
   "nag-mundari": 1,
   "nandinagari": 3,
-  "nastaliq": 4,
+  "nastaliq": 5,
   "nko": 1,
   "old-hungarian": 5,
   "old-hungarian-ui": 2,
@@ -87,14 +86,13 @@
   "sundanese": 1,
   "syloti-nagri": 5,
   "symbols": 12,
-  "syriac": 8,
+  "syriac": 9,
   "tagalog": 2,
   "tai-le": 1,
   "tai-tham": 1,
   "takri": 1,
   "tamil": 2,
   "tangsa": 1,
-  "tangut": 1,
   "telugu": 2,
   "thaana": 1,
   "thai": 3,
@@ -105,11 +103,11 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 193,
+  "1": 198,
   "2": 48,
-  "3": 95,
-  "4": 56,
-  "5": 33
+  "3": 97,
+  "4": 52,
+  "5": 32
  },
  "opened_per_month": {
   "1": 32,
@@ -119,7 +117,7 @@
   "5": 22,
   "6": 25,
   "7": 12,
-  "8": 9
+  "8": 16
  },
  "releases_per_month": {
   "1": [
