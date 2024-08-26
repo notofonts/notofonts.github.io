@@ -3745,8 +3745,18 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/devanagari",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 6,
   "issues": [
+   {
+    "number": 46,
+    "title": "Adjustment for Marathi",
+    "url": "https://github.com/notofonts/devanagari/pull/46"
+   },
+   {
+    "number": 45,
+    "title": "Display issue of Rakar U+094D and U+0930 for the Marathi language",
+    "url": "https://github.com/notofonts/devanagari/issues/45"
+   },
    {
     "number": 43,
     "title": "The position of Devanagari Nukta with U+0913, U+0914 for the Santali language",
