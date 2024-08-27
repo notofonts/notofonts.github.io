@@ -8932,6 +8932,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 485,
+    "title": "Kerning issues for Slovak and Czech languages",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/485"
+   },
+   {
     "number": 484,
     "title": "Alternate with low circumflex for \u27e8\u0125\u27e9; smaller white space in \u27e8t\u0302\u27e9 ",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/484"
@@ -10325,6 +10330,11 @@
   },
   "gh_url": "https://notofonts.github.io/malayalam",
   "issues": [
+   {
+    "number": 29,
+    "title": "/gamamlym updated in Malayalam Sans and Serif",
+    "url": "https://github.com/notofonts/malayalam/pull/29"
+   },
    {
     "number": 28,
     "title": "Chandrakkala comes down the letter in Indesign",
