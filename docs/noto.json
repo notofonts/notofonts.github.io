@@ -8932,11 +8932,6 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
-    "number": 486,
-    "title": "Noto Sans: U+03C6 is shown with Capitel PHI (like U+03D5), instead of small phi",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/486"
-   },
-   {
     "number": 485,
     "title": "Kerning issues for Slovak and Czech languages",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/485"
