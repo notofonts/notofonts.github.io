@@ -8932,6 +8932,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 487,
+    "title": "Combining doesn't work with numbers",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/487"
+   },
+   {
     "number": 485,
     "title": "Kerning issues for Slovak and Czech languages",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/485"
@@ -11790,11 +11795,6 @@
   },
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
-   {
-    "number": 71,
-    "title": "Initial kaf and gaf etc not aligning to margin",
-    "url": "https://github.com/notofonts/nastaliq/issues/71"
-   },
    {
     "number": 70,
     "title": "Theonym ligature is not forming in v4.000",
