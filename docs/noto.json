@@ -10860,6 +10860,11 @@
   "gh_url": "https://notofonts.github.io/miao",
   "issues": [
    {
+    "number": 6,
+    "title": "9 Miao glyph variants added to source",
+    "url": "https://github.com/notofonts/miao/pull/6"
+   },
+   {
     "number": 2,
     "title": "Alternate Glyphs for Lipo [lpo]",
     "url": "https://github.com/notofonts/miao/issues/2"
@@ -11795,6 +11800,11 @@
   },
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
+   {
+    "number": 72,
+    "title": "More letters busting right margin",
+    "url": "https://github.com/notofonts/nastaliq/issues/72"
+   },
    {
     "number": 70,
     "title": "Theonym ligature is not forming in v4.000",
@@ -14021,6 +14031,11 @@
   },
   "gh_url": "https://notofonts.github.io/sundanese",
   "issues": [
+   {
+    "number": 8,
+    "title": "conjunct updates and minor tweaks",
+    "url": "https://github.com/notofonts/sundanese/pull/8"
+   },
    {
     "number": 2,
     "title": "U+1BAB SUNDANESE SIGN VIRAMA does not form conjuncts",
@@ -17442,6 +17457,11 @@
   },
   "gh_url": "https://notofonts.github.io/znamenny",
   "issues": [
+   {
+    "number": 6,
+    "title": "Bump actions/download-artifact from 3 to 4.1.7 in /.github/workflows",
+    "url": "https://github.com/notofonts/znamenny/pull/6"
+   },
    {
     "number": 5,
     "title": "fix typos",
