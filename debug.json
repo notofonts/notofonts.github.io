@@ -847,8 +847,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 11,
   "issues": [
+   {
+    "number": 250,
+    "title": "Underline feature is mixing in with dots and diacritics",
+    "url": "https://github.com/notofonts/arabic/issues/250"
+   },
    {
     "number": 248,
     "title": " Incorrect Font Weight Rendering When Printing",
@@ -6529,14 +6534,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/hanunoo",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 1,
-    "title": "U+172D: HANUNOO LETTER RA (\u172d) should be updated to modern Ra.",
-    "url": "https://github.com/notofonts/hanunoo/issues/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/hanunoo",
   "tier": 3,
   "title": "Noto Hanunoo"
@@ -8958,8 +8957,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/khojki",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 4,
   "issues": [
+   {
+    "number": 29,
+    "title": "KHOJKI VOWEL SIGN VOCALIC R (U+11241) added to San serif Khojki",
+    "url": "https://github.com/notofonts/khojki/pull/29"
+   },
    {
     "number": 28,
     "title": "Sans: 11241 is missing",
@@ -13191,19 +13195,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/miao",
   "has_releases": true,
-  "issue_count": 2,
-  "issues": [
-   {
-    "number": 6,
-    "title": "9 Miao glyph variants added to source",
-    "url": "https://github.com/notofonts/miao/pull/6"
-   },
-   {
-    "number": 2,
-    "title": "Alternate Glyphs for Lipo [lpo]",
-    "url": "https://github.com/notofonts/miao/issues/2"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/miao",
   "tier": 3,
   "title": "Noto Miao"
@@ -15870,14 +15863,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/pahawh-hmong",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 2,
-    "title": "Noto Sans Pahawh Hmong character U+16B26 is not the original character",
-    "url": "https://github.com/notofonts/pahawh-hmong/issues/2"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/pahawh-hmong",
   "tier": 3,
   "title": "Noto Pahawh Hmong"

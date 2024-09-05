@@ -695,6 +695,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 250,
+    "title": "Underline feature is mixing in with dots and diacritics",
+    "url": "https://github.com/notofonts/arabic/issues/250"
+   },
+   {
     "number": 248,
     "title": " Incorrect Font Weight Rendering When Printing",
     "url": "https://github.com/notofonts/arabic/issues/248"
@@ -5252,13 +5257,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/hanunoo",
-  "issues": [
-   {
-    "number": 1,
-    "title": "U+172D: HANUNOO LETTER RA (\u172d) should be updated to modern Ra.",
-    "url": "https://github.com/notofonts/hanunoo/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/hanunoo",
   "tier": 3,
   "title": "Noto Hanunoo"
@@ -7276,6 +7275,11 @@
   },
   "gh_url": "https://notofonts.github.io/khojki",
   "issues": [
+   {
+    "number": 29,
+    "title": "KHOJKI VOWEL SIGN VOCALIC R (U+11241) added to San serif Khojki",
+    "url": "https://github.com/notofonts/khojki/pull/29"
+   },
    {
     "number": 28,
     "title": "Sans: 11241 is missing",
@@ -10858,18 +10862,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/miao",
-  "issues": [
-   {
-    "number": 6,
-    "title": "9 Miao glyph variants added to source",
-    "url": "https://github.com/notofonts/miao/pull/6"
-   },
-   {
-    "number": 2,
-    "title": "Alternate Glyphs for Lipo [lpo]",
-    "url": "https://github.com/notofonts/miao/issues/2"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/miao",
   "tier": 3,
   "title": "Noto Miao"
@@ -12774,13 +12767,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/pahawh-hmong",
-  "issues": [
-   {
-    "number": 2,
-    "title": "Noto Sans Pahawh Hmong character U+16B26 is not the original character",
-    "url": "https://github.com/notofonts/pahawh-hmong/issues/2"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/pahawh-hmong",
   "tier": 3,
   "title": "Noto Pahawh Hmong"
