@@ -2915,26 +2915,6 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
-    "number": 46,
-    "title": "Adjustment for Marathi",
-    "url": "https://github.com/notofonts/devanagari/pull/46"
-   },
-   {
-    "number": 45,
-    "title": "Display issue of Rakar U+094D and U+0930 for the Marathi language",
-    "url": "https://github.com/notofonts/devanagari/issues/45"
-   },
-   {
-    "number": 43,
-    "title": "The position of Devanagari Nukta with U+0913, U+0914 for the Santali language",
-    "url": "https://github.com/notofonts/devanagari/issues/43"
-   },
-   {
-    "number": 42,
-    "title": "The position of Devanagari Nukta for the Santali language with U+093E, U+094B, U+094C",
-    "url": "https://github.com/notofonts/devanagari/issues/42"
-   },
-   {
     "number": 34,
     "title": "Noto Devanagari : Addition of more alternative glyphs",
     "url": "https://github.com/notofonts/devanagari/issues/34"
@@ -8936,6 +8916,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 488,
+    "title": "build faild",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/488"
+   },
+   {
     "number": 487,
     "title": "Combining doesn't work with numbers",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/487"
@@ -9469,11 +9454,6 @@
     "number": 145,
     "title": "Misplaced anchor points on transformed glyphs",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/145"
-   },
-   {
-    "number": 197,
-    "title": "Overline U+203E is too short in Noto Sans Mono",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/197"
    },
    {
     "number": 146,
@@ -10456,6 +10436,11 @@
   },
   "gh_url": "https://notofonts.github.io/manichaean",
   "issues": [
+   {
+    "number": 9,
+    "title": "updates to u10ACF, u10ACF.fina, u10ADD10ACF and u10ADD10ACF.fina",
+    "url": "https://github.com/notofonts/manichaean/pull/9"
+   },
    {
     "number": 8,
     "title": "U+10ACF MANICHAEAN LETTER YODH has two shapes: curl and dot",
@@ -14503,13 +14488,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/tai-le",
-  "issues": [
-   {
-    "number": 1,
-    "title": "Glyph variants for digits in Tai Le",
-    "url": "https://github.com/notofonts/tai-le/issues/1"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/tai-le",
   "tier": 3,
   "title": "Noto Tai Le"
