@@ -8916,11 +8916,6 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
-    "number": 488,
-    "title": "build faild",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/488"
-   },
-   {
     "number": 487,
     "title": "Combining doesn't work with numbers",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/487"
@@ -10320,19 +10315,9 @@
   "gh_url": "https://notofonts.github.io/malayalam",
   "issues": [
    {
-    "number": 29,
-    "title": "/gamamlym updated in Malayalam Sans and Serif",
-    "url": "https://github.com/notofonts/malayalam/pull/29"
-   },
-   {
     "number": 28,
     "title": "Chandrakkala comes down the letter in Indesign",
     "url": "https://github.com/notofonts/malayalam/issues/28"
-   },
-   {
-    "number": 27,
-    "title": "U10 Traditional Conjuncts?",
-    "url": "https://github.com/notofonts/malayalam/issues/27"
    },
    {
     "number": 24,
@@ -10353,11 +10338,6 @@
     "number": 19,
     "title": "Ensure we support the latest script reform",
     "url": "https://github.com/notofonts/malayalam/issues/19"
-   },
-   {
-    "number": 6,
-    "title": "Sans Malayalam: Wrong glyph shape for: G-MA cluster",
-    "url": "https://github.com/notofonts/malayalam/issues/6"
    },
    {
     "number": 1,
@@ -10436,11 +10416,6 @@
   },
   "gh_url": "https://notofonts.github.io/manichaean",
   "issues": [
-   {
-    "number": 9,
-    "title": "updates to u10ACF, u10ACF.fina, u10ADD10ACF and u10ADD10ACF.fina",
-    "url": "https://github.com/notofonts/manichaean/pull/9"
-   },
    {
     "number": 8,
     "title": "U+10ACF MANICHAEAN LETTER YODH has two shapes: curl and dot",
@@ -11457,11 +11432,6 @@
   },
   "gh_url": "https://notofonts.github.io/myanmar",
   "issues": [
-   {
-    "number": 66,
-    "title": "redesign of some glyphs for Shan",
-    "url": "https://github.com/notofonts/myanmar/pull/66"
-   },
    {
     "number": 62,
     "title": "Instance settings incorrect in Noto Serif Myanmar",
