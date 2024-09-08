@@ -5862,8 +5862,19 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/gunjala-gondi",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 2,
+  "issues": [
+   {
+    "number": 6,
+    "title": "Aberant spacing of vowel matras and anusvara",
+    "url": "https://github.com/notofonts/gunjala-gondi/issues/6"
+   },
+   {
+    "number": 5,
+    "title": "ZWJ behavior and Bha half form",
+    "url": "https://github.com/notofonts/gunjala-gondi/issues/5"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/gunjala-gondi",
   "tier": 3,
   "title": "Noto Gunjala Gondi"
