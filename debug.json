@@ -14917,8 +14917,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/old-hungarian",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 6,
   "issues": [
+   {
+    "number": 23,
+    "title": "ligature \"ti\" looks like ligature \"tii\"",
+    "url": "https://github.com/notofonts/old-hungarian/issues/23"
+   },
    {
     "number": 22,
     "title": "The Old Hungarian numbers must to capital form",
