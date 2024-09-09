@@ -8,12 +8,12 @@
   "6": 11,
   "7": 15,
   "8": 14,
-  "9": 0
+  "9": 15
  },
  "open_per_repo": {
   "adlam": 2,
   "ahom": 3,
-  "arabic": 10,
+  "arabic": 11,
   "armenian": 2,
   "balinese": 4,
   "batak": 4,
@@ -25,7 +25,7 @@
   "coptic": 2,
   "cuneiform": 2,
   "deseret": 1,
-  "devanagari": 5,
+  "devanagari": 2,
   "dives-akuru": 6,
   "dogra": 1,
   "duployan": 1,
@@ -35,8 +35,8 @@
   "georgian": 3,
   "glagolitic": 1,
   "gujarati": 6,
+  "gunjala-gondi": 2,
   "gurmukhi": 5,
-  "hanunoo": 1,
   "hebrew": 14,
   "inscriptional-pahlavi": 1,
   "inscriptional-parthian": 3,
@@ -52,13 +52,12 @@
   "lao": 1,
   "latin-greek-cyrillic": 126,
   "limbu": 3,
-  "malayalam": 8,
+  "malayalam": 6,
   "mandaic": 2,
   "manichaean": 3,
   "masaram-gondi": 1,
   "math": 9,
   "meetei-mayek": 1,
-  "miao": 1,
   "modi": 6,
   "mongolian": 1,
   "music": 2,
@@ -67,13 +66,12 @@
   "nandinagari": 3,
   "nastaliq": 5,
   "nko": 1,
-  "old-hungarian": 5,
+  "old-hungarian": 6,
   "old-hungarian-ui": 2,
   "old-italic": 1,
   "old-turkic": 1,
   "old-uyghur": 4,
   "oriya": 2,
-  "pahawh-hmong": 1,
   "pau-cin-hau": 1,
   "phags-pa": 1,
   "psalter-pahlavi": 3,
@@ -89,7 +87,6 @@
   "symbols": 12,
   "syriac": 9,
   "tagalog": 2,
-  "tai-le": 1,
   "tai-tham": 1,
   "takri": 1,
   "tamil": 2,
@@ -104,10 +101,10 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 199,
+  "1": 195,
   "2": 48,
-  "3": 97,
-  "4": 52,
+  "3": 95,
+  "4": 53,
   "5": 32
  },
  "opened_per_month": {
@@ -119,7 +116,7 @@
   "6": 25,
   "7": 12,
   "8": 18,
-  "9": 0
+  "9": 10
  },
  "releases_per_month": {
   "1": [
