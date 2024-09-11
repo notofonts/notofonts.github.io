@@ -19,5 +19,5 @@ jobs:
         run: python3 scripts/issue-stats.py
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v5
         name: Commit downloaded fonts and data
