@@ -490,7 +490,7 @@
   "url": "https://github.com/notofonts/cuneiform/issues/2"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-09-11T15:32:34Z",
   "createdAt": "2018-11-27T18:37:00Z",
   "repo": "deseret",
   "tier": 4,
@@ -770,7 +770,7 @@
   "url": "https://github.com/notofonts/georgian/issues/7"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-09-11T15:35:52Z",
   "createdAt": "2024-05-10T05:20:46Z",
   "repo": "georgian",
   "tier": 2,
@@ -875,7 +875,7 @@
   "url": "https://github.com/notofonts/gujarati/issues/34"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-09-11T11:15:06Z",
   "createdAt": "2024-09-07T22:04:53Z",
   "repo": "gunjala-gondi",
   "tier": 3,
@@ -1323,14 +1323,14 @@
   "url": "https://github.com/notofonts/khojki/issues/21"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-09-11T15:55:43Z",
   "createdAt": "2024-01-04T15:19:37Z",
   "repo": "khojki",
   "tier": 3,
   "url": "https://github.com/notofonts/khojki/issues/27"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-09-11T15:57:07Z",
   "createdAt": "2024-03-31T03:38:10Z",
   "repo": "khojki",
   "tier": 3,
@@ -2380,14 +2380,14 @@
   "url": "https://github.com/notofonts/limbu/issues/4"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-09-11T15:02:53Z",
   "createdAt": "2024-06-09T17:25:42Z",
   "repo": "limbu",
   "tier": 2,
   "url": "https://github.com/notofonts/limbu/issues/5"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-09-11T15:02:53Z",
   "createdAt": "2024-06-09T17:36:45Z",
   "repo": "limbu",
   "tier": 2,
@@ -2791,6 +2791,13 @@
   "repo": "math",
   "tier": 3,
   "url": "https://github.com/notofonts/math/issues/92"
+ },
+ {
+  "closedAt": "2024-09-11T14:44:04Z",
+  "createdAt": "2024-09-11T14:07:35Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/93"
  },
  {
   "closedAt": "2024-07-24T16:09:41Z",
