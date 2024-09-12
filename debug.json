@@ -3298,14 +3298,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/deseret",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 2,
-    "title": "Wrong glyphs for DESERET CAPITAL/SMALL LETTER VEE",
-    "url": "https://github.com/notofonts/deseret/issues/2"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/deseret",
   "tier": 4,
   "title": "Noto Deseret"
@@ -4599,14 +4593,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/ethiopic",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 13,
-    "title": "Interpolation problems in `NotoSansEthiopic[wdth,wght].ttf`",
-    "url": "https://github.com/notofonts/ethiopic/issues/13"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/ethiopic",
   "tier": 2,
   "title": "Noto Ethiopic"
@@ -5051,13 +5039,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/georgian",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 2,
   "issues": [
-   {
-    "number": 8,
-    "title": "Style link issue in serif too",
-    "url": "https://github.com/notofonts/georgian/issues/8"
-   },
    {
     "number": 7,
     "title": "Combining characters are not in 'cmap'",
@@ -5862,17 +5845,12 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/gunjala-gondi",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
    {
     "number": 6,
     "title": "Aberant spacing of vowel matras and anusvara",
     "url": "https://github.com/notofonts/gunjala-gondi/issues/6"
-   },
-   {
-    "number": 5,
-    "title": "ZWJ behavior and Bha half form",
-    "url": "https://github.com/notofonts/gunjala-gondi/issues/5"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/gunjala-gondi",
@@ -8948,23 +8926,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/khojki",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 29,
-    "title": "KHOJKI VOWEL SIGN VOCALIC R (U+11241) added to San serif Khojki",
-    "url": "https://github.com/notofonts/khojki/pull/29"
-   },
-   {
-    "number": 28,
-    "title": "Sans: 11241 is missing",
-    "url": "https://github.com/notofonts/khojki/issues/28"
-   },
-   {
-    "number": 27,
-    "title": "Interpolation problems in `NotoSerifKhojki[wght].ttf`",
-    "url": "https://github.com/notofonts/khojki/issues/27"
-   },
    {
     "number": 21,
     "title": "U+1123E KHOJKI SIGN SUKUN is placed inconsistently in Noto Serif Khojki",
@@ -11482,18 +11445,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/limbu",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 6,
-    "title": "Spacing vowel signs block mark attachment",
-    "url": "https://github.com/notofonts/limbu/issues/6"
-   },
-   {
-    "number": 5,
-    "title": "U+1932 LIMBU SMALL LETTER ANUSVARA overlaps below-base marks",
-    "url": "https://github.com/notofonts/limbu/issues/5"
-   },
    {
     "number": 4,
     "title": "Clusters with multiple spacing marks have extra advance width",
@@ -16131,18 +16084,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/psalter-pahlavi",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 4,
-    "title": "Kaph contextually becomes nun and vice versa",
-    "url": "https://github.com/notofonts/psalter-pahlavi/issues/4"
-   },
-   {
-    "number": 3,
-    "title": "Kaph\u2019s descender overlaps final glyphs\u2019 descenders",
-    "url": "https://github.com/notofonts/psalter-pahlavi/issues/3"
-   },
    {
     "number": 1,
     "title": "Incorrect shaping of Psalter Pahlavi numbers",
@@ -21736,17 +21679,12 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/znamenny",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 4,
   "issues": [
    {
     "number": 6,
     "title": "Bump actions/download-artifact from 3 to 4.1.7 in /.github/workflows",
     "url": "https://github.com/notofonts/znamenny/pull/6"
-   },
-   {
-    "number": 5,
-    "title": "fix typos",
-    "url": "https://github.com/notofonts/znamenny/pull/5"
    },
    {
     "number": 4,
@@ -21766,6 +21704,6 @@
   ],
   "repo_url": "https://www.github.com/notofonts/znamenny",
   "tier": 4,
-  "title": "Noto Znammeny Musical Notation"
+  "title": "Noto Znamenny Musical Notation"
  }
 }
