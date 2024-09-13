@@ -10689,8 +10689,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 127,
+  "issue_count": 128,
   "issues": [
+   {
+    "number": 492,
+    "title": "Add some characters from Unicode 16.0",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/492"
+   },
    {
     "number": 487,
     "title": "Combining doesn't work with numbers",

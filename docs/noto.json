@@ -8890,6 +8890,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 492,
+    "title": "Add some characters from Unicode 16.0",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/492"
+   },
+   {
     "number": 487,
     "title": "Combining doesn't work with numbers",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/487"
