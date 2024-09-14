@@ -8823,8 +8823,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/khmer",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 30,
+    "title": "Anchoring issue on DirectWrite",
+    "url": "https://github.com/notofonts/khmer/issues/30"
+   },
    {
     "number": 29,
     "title": "Noto Sans Khmer appears Black on latest browsers on Android",
@@ -14875,8 +14880,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/old-hungarian",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 24,
+    "title": "Old-Hungarian symbols on same baseline",
+    "url": "https://github.com/notofonts/old-hungarian/pull/24"
+   },
    {
     "number": 23,
     "title": "ligature \"ti\" looks like ligature \"tii\"",
@@ -15572,13 +15582,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/oriya",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 39,
-    "title": "U+0B69 ORIYA DIGIT THREE left side should not join vertical stem",
-    "url": "https://github.com/notofonts/oriya/issues/39"
-   },
    {
     "number": 26,
     "title": "Serif: 0B55 is still missing",
