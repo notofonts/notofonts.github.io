@@ -749,7 +749,7 @@
   "url": "https://github.com/notofonts/elbasan/issues/2"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-09-11T16:22:27Z",
   "createdAt": "2023-11-23T01:54:47Z",
   "repo": "ethiopic",
   "tier": 2,
@@ -1314,6 +1314,13 @@
   "repo": "khmer",
   "tier": 2,
   "url": "https://github.com/notofonts/khmer/issues/29"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-09-13T09:46:06Z",
+  "repo": "khmer",
+  "tier": 2,
+  "url": "https://github.com/notofonts/khmer/issues/30"
  },
  {
   "closedAt": null,
@@ -2371,6 +2378,13 @@
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/490"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-09-12T22:53:41Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/492"
  },
  {
   "closedAt": null,
@@ -3437,7 +3451,7 @@
   "url": "https://github.com/notofonts/oriya/issues/38"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-09-13T18:31:53Z",
   "createdAt": "2024-05-13T08:40:36Z",
   "repo": "oriya",
   "tier": 1,
@@ -3472,14 +3486,14 @@
   "url": "https://github.com/notofonts/psalter-pahlavi/issues/1"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-09-11T16:42:36Z",
   "createdAt": "2024-06-17T18:14:40Z",
   "repo": "psalter-pahlavi",
   "tier": 5,
   "url": "https://github.com/notofonts/psalter-pahlavi/issues/3"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-09-11T16:42:35Z",
   "createdAt": "2024-06-17T18:27:25Z",
   "repo": "psalter-pahlavi",
   "tier": 5,

@@ -8,7 +8,7 @@
   "6": 11,
   "7": 15,
   "8": 14,
-  "9": 23
+  "9": 27
  },
  "open_per_repo": {
   "adlam": 2,
@@ -30,7 +30,6 @@
   "duployan": 1,
   "egyptian-hieroglyphs": 6,
   "elbasan": 1,
-  "ethiopic": 1,
   "georgian": 2,
   "glagolitic": 1,
   "gujarati": 6,
@@ -45,11 +44,11 @@
   "kawi": 5,
   "kharoshthi": 1,
   "khitan-small-script": 1,
-  "khmer": 1,
+  "khmer": 2,
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 126,
+  "latin-greek-cyrillic": 127,
   "limbu": 1,
   "malayalam": 6,
   "mandaic": 2,
@@ -70,10 +69,10 @@
   "old-italic": 1,
   "old-turkic": 1,
   "old-uyghur": 4,
-  "oriya": 2,
+  "oriya": 1,
   "pau-cin-hau": 1,
   "phags-pa": 1,
-  "psalter-pahlavi": 3,
+  "psalter-pahlavi": 1,
   "rejang": 1,
   "saurashtra": 1,
   "sharada": 3,
@@ -104,7 +103,7 @@
   "2": 45,
   "3": 92,
   "4": 52,
-  "5": 32
+  "5": 30
  },
  "opened_per_month": {
   "1": 32,
@@ -115,7 +114,7 @@
   "6": 25,
   "7": 12,
   "8": 18,
-  "9": 11
+  "9": 13
  },
  "releases_per_month": {
   "1": [
