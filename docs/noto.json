@@ -12119,11 +12119,6 @@
   "gh_url": "https://notofonts.github.io/old-hungarian",
   "issues": [
    {
-    "number": 24,
-    "title": "Old-Hungarian symbols on same baseline",
-    "url": "https://github.com/notofonts/old-hungarian/pull/24"
-   },
-   {
     "number": 23,
     "title": "ligature \"ti\" looks like ligature \"tii\"",
     "url": "https://github.com/notofonts/old-hungarian/issues/23"
