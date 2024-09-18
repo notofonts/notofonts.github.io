@@ -695,11 +695,6 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
-    "number": 250,
-    "title": "Underline feature is mixing in with dots and diacritics",
-    "url": "https://github.com/notofonts/arabic/issues/250"
-   },
-   {
     "number": 248,
     "title": " Incorrect Font Weight Rendering When Printing",
     "url": "https://github.com/notofonts/arabic/issues/248"
@@ -6506,11 +6501,6 @@
   "gh_url": "https://notofonts.github.io/kannada",
   "issues": [
    {
-    "number": 56,
-    "title": "Position of Nukta U+0CBC with some vowels in Noto Serif Kannada",
-    "url": "https://github.com/notofonts/kannada/issues/56"
-   },
-   {
     "number": 14,
     "title": "The glyphs of some vowel sign combinations of \u0c9f need to be revisited in Serif",
     "url": "https://github.com/notofonts/kannada/issues/14"
@@ -8894,6 +8884,11 @@
   },
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
+   {
+    "number": 493,
+    "title": "Adjustment for Slovak and Czech languages",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/493"
+   },
    {
     "number": 492,
     "title": "Add some characters from Unicode 16.0",
@@ -15436,7 +15431,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/tangut",
-  "issues": [],
+  "issues": [
+   {
+    "number": 6,
+    "title": "U+2FFC-U+2FFF and U+31EF missing",
+    "url": "https://github.com/notofonts/tangut/issues/6"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/tangut",
   "tier": 5,
   "title": "Noto Tangut"
