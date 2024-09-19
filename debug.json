@@ -9797,8 +9797,8 @@
       "fonts/NotoSans/full/ttf/NotoSans-SemiCondensedThinItalic.ttf",
       "fonts/NotoSans/full/ttf/NotoSans-Thin.ttf",
       "fonts/NotoSans/full/ttf/NotoSans-ThinItalic.ttf",
-      "fonts/NotoSans/full/variable/NotoSans-Italic[wdth,wght].ttf",
-      "fonts/NotoSans/full/variable/NotoSans[wdth,wght].ttf"
+      "fonts/NotoSans/full/variable-ttf/NotoSans-Italic[wdth,wght].ttf",
+      "fonts/NotoSans/full/variable-ttf/NotoSans[wdth,wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSans/hinted/ttf/NotoSans-Black.ttf",
@@ -10021,15 +10021,15 @@
       "fonts/NotoSans/unhinted/ttf/NotoSans-SemiCondensedThinItalic.ttf",
       "fonts/NotoSans/unhinted/ttf/NotoSans-Thin.ttf",
       "fonts/NotoSans/unhinted/ttf/NotoSans-ThinItalic.ttf",
-      "fonts/NotoSans/unhinted/variable/NotoSans-Italic[wdth,wght].ttf",
-      "fonts/NotoSans/unhinted/variable/NotoSans[wdth,wght].ttf"
+      "fonts/NotoSans/unhinted/variable-ttf/NotoSans-Italic[wdth,wght].ttf",
+      "fonts/NotoSans/unhinted/variable-ttf/NotoSans[wdth,wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans v2.103\n\nThis release:\n\n* Corrects the shape of U+A7AB LATIN CAPITAL LETTER REVERSED OPEN E and\nU+026F TURNED M in italic (#48, #148)\n* Improves the hook shape on V WITH HOOK (#178)\n* Makes U+A7AE CAPITAL LETTER SMALL CAPITAL I a capital (#154)\n* Improves the design and anchor positions of Latin upsilons (#179, #121)\n* Corrects the placement of U+031A COMBINING LEFT ANGLE ABOVE (#183)\n* Improves the design of U+1DF15 and U+1DF16 (#432)\n* Corrects anchor positions on U+1D16 TOP HALF O and U+1D17 BOTTOM HALF O (#67)\n* Allows the onum feature to apply to the figurespace (#39)\n* Corrects the shape of U+2E49 DOUBLE STACKED COMMA (#59)\n* Uses a Cyrillic breve when U+0306 COMBINING BREVE is used with Cyrillic (#38)\n* Fixes the right side bearing of U+2057 QUADRUPLE PRIME (#415)\n* Allows more African Latin combinations to be have the small caps feature\n* Updates the shape of U+AB5A SMALL LETTER Y WITH SHORT RIGHT LEG to match Unicode 15.1\n* Allows the pokrytie to be placed over superscript letters (#138)\n* Support the sequence U+2E2B, U+032E for typicon notation (#63)\n* Improves the anchoring of U+A69E COMBINING CYRILLIC LETTER EF (#220)\n* Improves U+019E SMALL LETTER N WITH LONG RIGHT LEG and U+A798 CAPITAL LETTER F WITH STROKE\n* Fixes the anchors on U+03D4, U+047E, and U+047F (#68)\n* Adds IPA localizations to Greek script (#110)\n",
-     "published": "2023-09-30T10:47:34+00:00",
-     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSans-v2.013",
-     "version": "v2.013"
+     "notes": "Noto Sans v2.014\n\nThis release:\n\n* Removes the semibold masters\n* Fixes style linking of the bold instances (#476)\n* Improves kerning for Slovak, Czech and Kamba (thanks to Yusuke Shirakihara)\n* Fixes an issue with the right sidebearing of quadrupleprime (#415)\n* Improves the anchoring of U+1AC7 COMBINING INVERTED DOUBLE ARCH ABOVE (#467)\n* Corrects the width of U+2212 MINUS SIGN (#396)\n",
+     "published": "2024-09-18T16:10:53+00:00",
+     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSans-v2.014",
+     "version": "v2.014"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -10405,15 +10405,15 @@
       "fonts/NotoSerif/unhinted/ttf/NotoSerif-SemiCondensedThinItalic.ttf",
       "fonts/NotoSerif/unhinted/ttf/NotoSerif-Thin.ttf",
       "fonts/NotoSerif/unhinted/ttf/NotoSerif-ThinItalic.ttf",
-      "fonts/NotoSerif/unhinted/variable/NotoSerif-Italic[wdth,wght].ttf",
-      "fonts/NotoSerif/unhinted/variable/NotoSerif[wdth,wght].ttf"
+      "fonts/NotoSerif/unhinted/variable-ttf/NotoSerif-Italic[wdth,wght].ttf",
+      "fonts/NotoSerif/unhinted/variable-ttf/NotoSerif[wdth,wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif v2.013\n\nThis release:\n\n* Improves the anchoring of U+A69E COMBINING CYRILLIC LETTER EF (#220)\n* Adds IPA localizations to Greek script (#110)\n* Uses a Cyrillic breve when U+0306 COMBINING BREVE is used with Cyrillic (#38)\n* Fixes the anchors on U+03D4, U+047E, and U+047F (#68)\n* Corrects the shape of U+2E49 DOUBLE STACKED COMMA (#59)\n* Allows the onum feature to apply to the figurespace (#39)\n* Fixes the right side bearing of U+2057 QUADRUPLE PRIME (#415)\n* Updates the shape of U+AB5A SMALL LETTER Y WITH SHORT RIGHT LEG to match Unico\nde 15.1\n* Support the sequence U+2E2B, U+032E for typicon notation (#63)\n* Corrects anchor positions on U+1D16 TOP HALF O and U+1D17 BOTTOM HALF O (#67)\n* Corrects the placement of U+031A COMBINING LEFT ANGLE ABOVE (#183)\n* Improves the hook shape on V WITH HOOK (#178)\n* Improves U+019E SMALL LETTER N WITH LONG RIGHT LEG, U+1D1F SMALL LETTER SIDEWAYS TURNED M,  and U+A798 CAPITAL LETTER F WITH STROKE\n* Fixes the design of the tail on U+03D7 GREEK KAI SYMBOL (#420)\n* Adds an anchor to the bottom of U+A7AF SMALL CAPITAL Q (#218)\n* Adds a missing serif to U+1D7E SMALL CAPITAL LETTER U WITH STROKE (#49)\n* Adds anchors to U+AB65 GREEK LETTER SMALL CAPITAL OMEGA\n",
-     "published": "2023-09-30T10:56:43+00:00",
-     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.013",
-     "version": "v2.013"
+     "notes": "Noto Serif v2.014\n\nThis release:\n\n* Removes the semibold masters\n* Fixes style linking of the bold instances (#476)\n* Improves kerning for Slovak, Czech and Kamba (thanks to Yusuke Shirakihara)\n* Fixes an issue with the right sidebearing of quadrupleprime (#415)\n* Improves the anchoring of U+1AC7 COMBINING INVERTED DOUBLE ARCH ABOVE (#467)\n* Corrects the width of U+2212 MINUS SIGN (#396)\n",
+     "published": "2024-09-18T16:10:56+00:00",
+     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.014",
+     "version": "v2.014"
     },
     "third_party_versions": {
      "Android 12": {
@@ -10684,27 +10684,12 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 129,
+  "issue_count": 116,
   "issues": [
-   {
-    "number": 493,
-    "title": "Adjustment for Slovak and Czech languages",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/493"
-   },
-   {
-    "number": 492,
-    "title": "Add some characters from Unicode 16.0",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/492"
-   },
    {
     "number": 487,
     "title": "Combining doesn't work with numbers",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/487"
-   },
-   {
-    "number": 485,
-    "title": "Kerning issues for Slovak and Czech languages",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/485"
    },
    {
     "number": 484,
@@ -10727,26 +10712,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/475"
    },
    {
-    "number": 474,
-    "title": "Kerning and overlapping issues in heavier weights of Noto Serif",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/474"
-   },
-   {
-    "number": 472,
-    "title": "-> symbols don't align very well",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/472"
-   },
-   {
-    "number": 468,
-    "title": "add 1df25..a",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/468"
-   },
-   {
-    "number": 467,
-    "title": "U+1AC7 COMBINING INVERTED DOUBLE ARCH ABOVE has inverted anchor points",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/467"
-   },
-   {
     "number": 466,
     "title": "Not all Cyrillic glyphs were updated in the 2023 refresh",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/466"
@@ -10757,34 +10722,14 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/463"
    },
    {
-    "number": 461,
-    "title": "Kerning inconsistent for decimal numbers '.'",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/461"
-   },
-   {
     "number": 460,
     "title": "U+1D5E and U+1D60 are subscript instead of superscript in Noto Serif",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/460"
    },
    {
-    "number": 459,
-    "title": "Make semibold masters sparse",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/459"
-   },
-   {
     "number": 458,
     "title": "Kerning inconsistency in Cyrillic",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/458"
-   },
-   {
-    "number": 457,
-    "title": "Intention to \"sparsify\" semibold master",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/457"
-   },
-   {
-    "number": 456,
-    "title": "Interpolation problems in `NotoSerif-Italic[wdth,wght].ttf`",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/456"
    },
    {
     "number": 455,
@@ -10795,11 +10740,6 @@
     "number": 454,
     "title": "Combining Dot Below (U+0323) with Greek",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/454"
-   },
-   {
-    "number": 449,
-    "title": "Noto Sans renders \"not equal to\" glyph (\u2260) incorrectly",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/449"
    },
    {
     "number": 446,
@@ -10857,6 +10797,11 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/406"
    },
    {
+    "number": 405,
+    "title": "Extraneous glyphs at U+11AB0 and U+11AB1",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/405"
+   },
+   {
     "number": 400,
     "title": "Visual ambiguity between left/right quotes",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/400"
@@ -10870,11 +10815,6 @@
     "number": 397,
     "title": "Fractions for -thirds are wider than -fourths and -half",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/397"
-   },
-   {
-    "number": 396,
-    "title": "Minus sign U+2212 too short and looking like hyphen-minus",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/396"
    },
    {
     "number": 387,
@@ -11095,11 +11035,6 @@
     "number": 213,
     "title": "Bad combinations of spacing Greek diacritics",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/213"
-   },
-   {
-    "number": 229,
-    "title": "Noto Sans: missing U+266A Eighth Note and U+266B Beamed Eighth Notes for complete subtitle support",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/229"
    },
    {
     "number": 212,
