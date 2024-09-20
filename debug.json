@@ -1537,8 +1537,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/balinese",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 5,
   "issues": [
+   {
+    "number": 42,
+    "title": "updates to include hooked form of La (third level)",
+    "url": "https://github.com/notofonts/balinese/pull/42"
+   },
    {
     "number": 41,
     "title": "U+1B37 BALINESE VOWEL SIGN ULU SARI overlaps above-base marks",
@@ -3795,8 +3800,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/dives-akuru",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 18,
+    "title": "New version",
+    "url": "https://github.com/notofonts/dives-akuru/pull/18"
+   },
    {
     "number": 7,
     "title": "Extraneous Dives Akuru conjuncts without viramas",
@@ -7529,8 +7539,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/kaithi",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 4,
   "issues": [
+   {
+    "number": 29,
+    "title": "Shape/ductus updates to ktA (U+11083), ktAA (U+11084), ktO (U+1108B) and ktAU (U+1\u2026",
+    "url": "https://github.com/notofonts/kaithi/pull/29"
+   },
    {
     "number": 25,
     "title": "Reph overlaps vowel signs U+110B5..U+110B8",
@@ -7701,7 +7716,7 @@
       "fonts/NotoSansKannada/full/ttf/NotoSansKannadaUI-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansKannada/full/ttf/NotoSansKannadaUI-SemiCondensedThin.ttf",
       "fonts/NotoSansKannada/full/ttf/NotoSansKannadaUI-Thin.ttf",
-      "fonts/NotoSansKannada/full/variable/NotoSansKannada[wdth,wght].ttf"
+      "fonts/NotoSansKannada/full/variable-ttf/NotoSansKannada[wdth,wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSansKannada/hinted/ttf/NotoSansKannada-Black.ttf",
@@ -7923,15 +7938,15 @@
       "fonts/NotoSansKannada/unhinted/ttf/NotoSansKannadaUI-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansKannada/unhinted/ttf/NotoSansKannadaUI-SemiCondensedThin.ttf",
       "fonts/NotoSansKannada/unhinted/ttf/NotoSansKannadaUI-Thin.ttf",
-      "fonts/NotoSansKannada/unhinted/variable/NotoSansKannada-UI-VF.ttf",
-      "fonts/NotoSansKannada/unhinted/variable/NotoSansKannada[wdth,wght].ttf"
+      "fonts/NotoSansKannada/unhinted/variable-ttf/NotoSansKannada-UI-VF.ttf",
+      "fonts/NotoSansKannada/unhinted/variable-ttf/NotoSansKannada[wdth,wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Kannada v2.005\n\nThis release adds the Unicode 14 glyph NAKAARA POLLU U+0CDD and Unicode 15 glyph COMBINING ANUSVARA ABOVE RIGHT U+0CF3.\n",
-     "published": "2023-09-27T09:10:27",
-     "url": "https://github.com/notofonts/kannada/releases/tag/NotoSansKannada-v2.005",
-     "version": "v2.005"
+     "notes": "Noto Sans Kannada v2.006\n\nThis release fives the interpolation of anusvaraboveright (#59) and imprves the shaping behaviour of some marks (#56, #60)\n",
+     "published": "2024-09-19T04:20:15+00:00",
+     "url": "https://github.com/notofonts/kannada/releases/tag/NotoSansKannada-v2.006",
+     "version": "v2.006"
     },
     "third_party_versions": {
      "Android 12": {
@@ -14568,8 +14583,14 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/nushu",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 9,
+    "title": "Traditional Nushu blank glyphs",
+    "url": "https://github.com/notofonts/nushu/issues/9"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/nushu",
   "tier": 4,
   "title": "Noto Nushu"
@@ -15507,8 +15528,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/oriya",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 41,
+    "title": "Adjust for SABARA(\u0b38\u0b4d\u0b2c\u0b4d\u0b30) in Noto Sans Oriya",
+    "url": "https://github.com/notofonts/oriya/pull/41"
+   },
    {
     "number": 26,
     "title": "Serif: 0B55 is still missing",
