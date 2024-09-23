@@ -8,12 +8,12 @@
   "6": 11,
   "7": 15,
   "8": 14,
-  "9": 27
+  "9": 43
  },
  "open_per_repo": {
   "adlam": 2,
   "ahom": 3,
-  "arabic": 11,
+  "arabic": 10,
   "armenian": 2,
   "balinese": 4,
   "batak": 4,
@@ -40,7 +40,7 @@
   "inscriptional-parthian": 3,
   "javanese": 4,
   "kaithi": 3,
-  "kannada": 7,
+  "kannada": 6,
   "kawi": 5,
   "kharoshthi": 1,
   "khitan-small-script": 1,
@@ -48,7 +48,7 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 127,
+  "latin-greek-cyrillic": 116,
   "limbu": 1,
   "malayalam": 6,
   "mandaic": 2,
@@ -64,6 +64,7 @@
   "nandinagari": 3,
   "nastaliq": 5,
   "nko": 1,
+  "nushu": 1,
   "old-hungarian": 6,
   "old-hungarian-ui": 2,
   "old-italic": 1,
@@ -89,6 +90,7 @@
   "takri": 1,
   "tamil": 2,
   "tangsa": 1,
+  "tangut": 1,
   "telugu": 2,
   "thaana": 1,
   "thai": 3,
@@ -99,11 +101,11 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 195,
+  "1": 182,
   "2": 45,
   "3": 92,
-  "4": 52,
-  "5": 30
+  "4": 53,
+  "5": 31
  },
  "opened_per_month": {
   "1": 32,
@@ -114,7 +116,7 @@
   "6": 25,
   "7": 12,
   "8": 18,
-  "9": 13
+  "9": 17
  },
  "releases_per_month": {
   "1": [
@@ -350,17 +352,31 @@
     "tag": "v0.002",
     "url": "https://github.com/notofonts/noto-cjk-varco/releases/tag/v0.002"
    }
+  ],
+  "9": [
+   {
+    "tag": "NotoSerif-v2.014",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.014"
+   },
+   {
+    "tag": "NotoSans-v2.014",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSans-v2.014"
+   },
+   {
+    "tag": "NotoSansKannada-v2.006",
+    "url": "https://github.com/notofonts/kannada/releases/tag/NotoSansKannada-v2.006"
+   }
   ]
  },
  "totals_per_month": {
-  "1": 384,
-  "2": 407,
-  "3": 408,
-  "4": 414,
-  "5": 411,
-  "6": 414,
-  "7": 428,
-  "8": 424,
-  "9": 428
+  "1": 385,
+  "2": 408,
+  "3": 409,
+  "4": 415,
+  "5": 412,
+  "6": 415,
+  "7": 429,
+  "8": 425,
+  "9": 429
  }
 }
