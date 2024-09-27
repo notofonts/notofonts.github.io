@@ -9015,11 +9015,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/406"
    },
    {
-    "number": 405,
-    "title": "Extraneous glyphs at U+11AB0 and U+11AB1",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/405"
-   },
-   {
     "number": 400,
     "title": "Visual ambiguity between left/right quotes",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/400"
@@ -12526,16 +12521,6 @@
   },
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
-   {
-    "number": 42,
-    "title": "Change the Unicode for the hyphen from U+2010 to U+002D",
-    "url": "https://github.com/notofonts/oriya/pull/42"
-   },
-   {
-    "number": 41,
-    "title": "Adjust for SABARA(\u0b38\u0b4d\u0b2c\u0b4d\u0b30) in Noto Sans Oriya",
-    "url": "https://github.com/notofonts/oriya/pull/41"
-   },
    {
     "number": 26,
     "title": "Serif: 0B55 is still missing",
