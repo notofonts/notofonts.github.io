@@ -8905,6 +8905,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 495,
+    "title": "Two random size issues",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/495"
+   },
+   {
     "number": 487,
     "title": "Combining doesn't work with numbers",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/487"
