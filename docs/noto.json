@@ -9120,6 +9120,11 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/35"
    },
    {
+    "number": 39,
+    "title": "'onum' should apply to U+2007 FIGURE SPACE",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/39"
+   },
+   {
     "number": 40,
     "title": "Bad serif on italic U+0507 CYRILLIC SMALL LETTER KOMI DZJE",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/40"
