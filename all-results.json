@@ -1099,6 +1099,13 @@
   "url": "https://github.com/notofonts/hebrew/issues/54"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-09-24T11:26:01Z",
+  "repo": "hebrew",
+  "tier": 1,
+  "url": "https://github.com/notofonts/hebrew/issues/55"
+ },
+ {
   "closedAt": "2024-04-15T16:08:48Z",
   "createdAt": "2024-04-12T17:22:21Z",
   "repo": "imperial-aramaic",
@@ -1905,6 +1912,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2020-09-05T23:53:27Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/39"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2020-09-24T11:21:14Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -2058,7 +2072,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/400"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-09-26T16:13:15Z",
   "createdAt": "2023-03-12T14:43:26Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -2406,6 +2420,20 @@
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/492"
+ },
+ {
+  "closedAt": "2024-09-23T07:03:46Z",
+  "createdAt": "2024-09-23T06:36:21Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/494"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-09-28T20:11:36Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/495"
  },
  {
   "closedAt": null,
@@ -3764,6 +3792,13 @@
   "repo": "symbols",
   "tier": 3,
   "url": "https://github.com/notofonts/symbols/issues/83"
+ },
+ {
+  "closedAt": "2024-09-24T21:03:58Z",
+  "createdAt": "2024-09-24T19:43:17Z",
+  "repo": "symbols",
+  "tier": 3,
+  "url": "https://github.com/notofonts/symbols/issues/84"
  },
  {
   "closedAt": null,

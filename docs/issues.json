@@ -8,7 +8,7 @@
   "6": 11,
   "7": 15,
   "8": 14,
-  "9": 43
+  "9": 46
  },
  "open_per_repo": {
   "adlam": 2,
@@ -35,7 +35,7 @@
   "gujarati": 6,
   "gunjala-gondi": 1,
   "gurmukhi": 5,
-  "hebrew": 14,
+  "hebrew": 15,
   "inscriptional-pahlavi": 1,
   "inscriptional-parthian": 3,
   "javanese": 4,
@@ -48,7 +48,7 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 116,
+  "latin-greek-cyrillic": 117,
   "limbu": 1,
   "malayalam": 6,
   "mandaic": 2,
@@ -101,7 +101,7 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 182,
+  "1": 184,
   "2": 45,
   "3": 92,
   "4": 53,
@@ -116,7 +116,7 @@
   "6": 25,
   "7": 12,
   "8": 18,
-  "9": 17
+  "9": 21
  },
  "releases_per_month": {
   "1": [
@@ -365,18 +365,22 @@
    {
     "tag": "NotoSansKannada-v2.006",
     "url": "https://github.com/notofonts/kannada/releases/tag/NotoSansKannada-v2.006"
+   },
+   {
+    "tag": "NotoSerifTodhri-v1.000",
+    "url": "https://github.com/notofonts/todhri/releases/tag/NotoSerifTodhri-v1.000"
    }
   ]
  },
  "totals_per_month": {
-  "1": 385,
-  "2": 408,
-  "3": 409,
-  "4": 415,
-  "5": 412,
-  "6": 415,
-  "7": 429,
-  "8": 425,
-  "9": 429
+  "1": 386,
+  "2": 409,
+  "3": 410,
+  "4": 416,
+  "5": 413,
+  "6": 416,
+  "7": 430,
+  "8": 426,
+  "9": 430
  }
 }
