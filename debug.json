@@ -10704,7 +10704,7 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 117,
+  "issue_count": 116,
   "issues": [
    {
     "number": 495,
@@ -10920,11 +10920,6 @@
     "number": 35,
     "title": "Bad kerning between left single quote mark and some capital letters",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/35"
-   },
-   {
-    "number": 39,
-    "title": "'onum' should apply to U+2007 FIGURE SPACE",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/39"
    },
    {
     "number": 40,
