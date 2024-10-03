@@ -695,6 +695,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 252,
+    "title": "Adjust size and positioning of some diacritics",
+    "url": "https://github.com/notofonts/arabic/pull/252"
+   },
+   {
     "number": 248,
     "title": " Incorrect Font Weight Rendering When Printing",
     "url": "https://github.com/notofonts/arabic/issues/248"
