@@ -2914,6 +2914,11 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
+    "number": 47,
+    "title": "Noto Devanagari: there is a bug",
+    "url": "https://github.com/notofonts/devanagari/issues/47"
+   },
+   {
     "number": 34,
     "title": "Noto Devanagari : Addition of more alternative glyphs",
     "url": "https://github.com/notofonts/devanagari/issues/34"
@@ -3058,6 +3063,11 @@
   },
   "gh_url": "https://notofonts.github.io/duployan",
   "issues": [
+   {
+    "number": 10,
+    "title": "Merge upstream changes as of 2024-10-05",
+    "url": "https://github.com/notofonts/duployan/pull/10"
+   },
    {
     "number": 6,
     "title": "Leave and rename v2",
