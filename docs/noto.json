@@ -11633,6 +11633,16 @@
   "gh_url": "https://notofonts.github.io/nandinagari",
   "issues": [
    {
+    "number": 16,
+    "title": "repha is broken and spacing in some conjuncts with ba and ma",
+    "url": "https://github.com/notofonts/nandinagari/issues/16"
+   },
+   {
+    "number": 15,
+    "title": "Conjuncts are not formed when - NA/GA/GHA are second members",
+    "url": "https://github.com/notofonts/nandinagari/issues/15"
+   },
+   {
     "number": 14,
     "title": "Stylistic sets are incomplete",
     "url": "https://github.com/notofonts/nandinagari/issues/14"
@@ -14071,6 +14081,16 @@
   },
   "gh_url": "https://notofonts.github.io/symbols",
   "issues": [
+   {
+    "number": 86,
+    "title": "Symbols for Legacy Computing Supplement",
+    "url": "https://github.com/notofonts/symbols/issues/86"
+   },
+   {
+    "number": 85,
+    "title": "Add missing star rating symbols to Noto Sans Symbols",
+    "url": "https://github.com/notofonts/symbols/issues/85"
+   },
    {
     "number": 83,
     "title": "Starting work on U16 legacy ex?",
