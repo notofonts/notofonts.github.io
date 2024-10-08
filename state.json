@@ -9863,24 +9863,25 @@
   "families": {
    "Noto Sans Nandinagari": {
     "files": [
-     "fonts/NotoSansNandinagari/unhinted/ttf/NotoSansNandinagari-Regular.ttf",
-     "fonts/NotoSansNandinagari/unhinted/otf/NotoSansNandinagari-Regular.otf",
      "fonts/NotoSansNandinagari/full/ttf/NotoSansNandinagari-Regular.ttf",
      "fonts/NotoSansNandinagari/full/otf/NotoSansNandinagari-Regular.otf",
+     "fonts/NotoSansNandinagari/unhinted/ttf/NotoSansNandinagari-Regular.ttf",
+     "fonts/NotoSansNandinagari/unhinted/otf/NotoSansNandinagari-Regular.otf",
      "fonts/NotoSansNandinagari/hinted/ttf/NotoSansNandinagari-Regular.ttf",
      "fonts/NotoSansNandinagari/googlefonts/ttf/NotoSansNandinagari-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Nandinagari v1.002\n\nThis release:\n\n* Fixes the kerning of sa-virama (#5)\n* Only forms reph if there is a following letter (#2)\n",
-     "published": "2023-09-25T14:16:57",
-     "url": "https://github.com/notofonts/nandinagari/releases/tag/NotoSansNandinagari-v1.002",
-     "version": "v1.002"
+     "notes": "Noto Sans Nandinagari v1.003\n\nThis version:\n\n* Fixes anchor propagation (#12)\n* Closes a gap between PRISHTHAMATRA E and nya. (#10)\n* Makes the ss04 feature more complete (#9)\n* Fixes the handling of ZWNJ for certain half forms (#8)\n* Fixes a number of broken compounds (#6, #7)\n",
+     "published": "2024-10-07T10:05:23+00:00",
+     "url": "https://github.com/notofonts/nandinagari/releases/tag/NotoSansNandinagari-v1.003",
+     "version": "v1.003"
     }
    }
   },
   "known_releases": [
    "NotoSansNandinagari-v1.001",
-   "NotoSansNandinagari-v1.002"
+   "NotoSansNandinagari-v1.002",
+   "NotoSansNandinagari-v1.003"
   ]
  },
  "nastaliq": {
