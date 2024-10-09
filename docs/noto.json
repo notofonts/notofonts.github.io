@@ -5747,6 +5747,11 @@
   "gh_url": "https://notofonts.github.io/hebrew",
   "issues": [
    {
+    "number": 56,
+    "title": "Incorrect quotation mark",
+    "url": "https://github.com/notofonts/hebrew/issues/56"
+   },
+   {
     "number": 55,
     "title": "Cantillation/Niqqud Overlap",
     "url": "https://github.com/notofonts/hebrew/issues/55"
