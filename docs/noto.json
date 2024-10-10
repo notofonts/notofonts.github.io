@@ -11633,6 +11633,11 @@
   "gh_url": "https://notofonts.github.io/nandinagari",
   "issues": [
    {
+    "number": 18,
+    "title": "Need documentation for stylistic sets",
+    "url": "https://github.com/notofonts/nandinagari/issues/18"
+   },
+   {
     "number": 17,
     "title": "Broken conjunct glyphs in version 1.003",
     "url": "https://github.com/notofonts/nandinagari/issues/17"
@@ -16720,6 +16725,11 @@
   },
   "gh_url": "https://notofonts.github.io/tibetan",
   "issues": [
+   {
+    "number": 46,
+    "title": "Misaligned  0xFC6 symbol (tibetan symbol padma gdan)",
+    "url": "https://github.com/notofonts/tibetan/issues/46"
+   },
    {
     "number": 44,
     "title": "`uni0F4A0FB70FB1` has misplaced anchor points and is vertically compressed",
