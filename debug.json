@@ -3810,13 +3810,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/dives-akuru",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 6,
   "issues": [
-   {
-    "number": 18,
-    "title": "New version",
-    "url": "https://github.com/notofonts/dives-akuru/pull/18"
-   },
    {
     "number": 7,
     "title": "Extraneous Dives Akuru conjuncts without viramas",
@@ -14264,8 +14259,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 6,
   "issues": [
+   {
+    "number": 73,
+    "title": "More tight Noto Nastaliq (like Gulzar)",
+    "url": "https://github.com/notofonts/nastaliq/issues/73"
+   },
    {
     "number": 72,
     "title": "More letters busting right margin",
