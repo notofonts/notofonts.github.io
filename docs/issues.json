@@ -9,11 +9,11 @@
   "7": 15,
   "8": 14,
   "9": 46,
-  "10": 0
+  "10": 5
  },
  "open_per_repo": {
   "adlam": 2,
-  "ahom": 3,
+  "ahom": 4,
   "arabic": 10,
   "armenian": 2,
   "balinese": 4,
@@ -63,7 +63,7 @@
   "myanmar": 31,
   "nag-mundari": 1,
   "nandinagari": 5,
-  "nastaliq": 5,
+  "nastaliq": 6,
   "nko": 1,
   "nushu": 1,
   "old-hungarian": 6,
@@ -84,7 +84,7 @@
   "soyombo": 4,
   "sundanese": 1,
   "syloti-nagri": 5,
-  "symbols": 14,
+  "symbols": 12,
   "syriac": 9,
   "tagalog": 2,
   "tai-tham": 1,
@@ -95,14 +95,14 @@
   "telugu": 2,
   "thaana": 1,
   "thai": 3,
-  "tibetan": 4,
+  "tibetan": 5,
   "tifinagh": 3,
   "tirhuta": 10,
   "toto": 1,
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 184,
+  "1": 185,
   "2": 45,
   "3": 94,
   "4": 53,
@@ -118,7 +118,7 @@
   "7": 12,
   "8": 18,
   "9": 21,
-  "10": 5
+  "10": 11
  },
  "releases_per_month": {
   "1": [
@@ -371,6 +371,12 @@
    {
     "tag": "NotoSerifTodhri-v1.000",
     "url": "https://github.com/notofonts/todhri/releases/tag/NotoSerifTodhri-v1.000"
+   }
+  ],
+  "10": [
+   {
+    "tag": "NotoSansNandinagari-v1.003",
+    "url": "https://github.com/notofonts/nandinagari/releases/tag/NotoSansNandinagari-v1.003"
    }
   ]
  },

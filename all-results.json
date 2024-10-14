@@ -36,6 +36,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-10-11T05:44:42Z",
+  "repo": "ahom",
+  "tier": 3,
+  "url": "https://github.com/notofonts/ahom/issues/21"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-08-11T23:07:03Z",
   "repo": "arabic",
   "tier": 1,
@@ -1106,11 +1113,18 @@
   "url": "https://github.com/notofonts/hebrew/issues/54"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-10-13T07:48:42Z",
   "createdAt": "2024-09-24T11:26:01Z",
   "repo": "hebrew",
   "tier": 1,
   "url": "https://github.com/notofonts/hebrew/issues/55"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-10-08T19:47:48Z",
+  "repo": "hebrew",
+  "tier": 1,
+  "url": "https://github.com/notofonts/hebrew/issues/56"
  },
  {
   "closedAt": "2024-04-15T16:08:48Z",
@@ -3227,18 +3241,32 @@
   "url": "https://github.com/notofonts/nandinagari/issues/14"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-10-07T09:54:31Z",
   "createdAt": "2024-10-06T06:57:27Z",
   "repo": "nandinagari",
   "tier": 5,
   "url": "https://github.com/notofonts/nandinagari/issues/15"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-10-07T09:57:36Z",
   "createdAt": "2024-10-06T08:00:15Z",
   "repo": "nandinagari",
   "tier": 5,
   "url": "https://github.com/notofonts/nandinagari/issues/16"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-10-07T14:33:50Z",
+  "repo": "nandinagari",
+  "tier": 5,
+  "url": "https://github.com/notofonts/nandinagari/issues/17"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-10-09T09:43:42Z",
+  "repo": "nandinagari",
+  "tier": 5,
+  "url": "https://github.com/notofonts/nandinagari/issues/18"
  },
  {
   "closedAt": "2024-07-16T11:57:07Z",
@@ -3358,6 +3386,13 @@
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/72"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-10-10T09:58:49Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/73"
  },
  {
   "closedAt": null,
@@ -3822,14 +3857,14 @@
   "url": "https://github.com/notofonts/symbols/issues/84"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-10-07T09:36:39Z",
   "createdAt": "2024-10-06T02:27:53Z",
   "repo": "symbols",
   "tier": 3,
   "url": "https://github.com/notofonts/symbols/issues/85"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-10-07T09:37:19Z",
   "createdAt": "2024-10-06T07:21:35Z",
   "repo": "symbols",
   "tier": 3,
@@ -4079,6 +4114,13 @@
   "repo": "tibetan",
   "tier": 3,
   "url": "https://github.com/notofonts/tibetan/issues/44"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-10-09T09:55:57Z",
+  "repo": "tibetan",
+  "tier": 3,
+  "url": "https://github.com/notofonts/tibetan/issues/46"
  },
  {
   "closedAt": null,
