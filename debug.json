@@ -7096,17 +7096,12 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/hebrew",
   "has_releases": true,
-  "issue_count": 16,
+  "issue_count": 15,
   "issues": [
    {
     "number": 56,
     "title": "Incorrect quotation mark",
     "url": "https://github.com/notofonts/hebrew/issues/56"
-   },
-   {
-    "number": 55,
-    "title": "Cantillation/Niqqud Overlap",
-    "url": "https://github.com/notofonts/hebrew/issues/55"
    },
    {
     "number": 54,
