@@ -11372,6 +11372,11 @@
   "gh_url": "https://notofonts.github.io/myanmar",
   "issues": [
    {
+    "number": 67,
+    "title": "S'Gaw Karen Sha + U/UU is incorrect",
+    "url": "https://github.com/notofonts/myanmar/issues/67"
+   },
+   {
     "number": 62,
     "title": "Instance settings incorrect in Noto Serif Myanmar",
     "url": "https://github.com/notofonts/myanmar/issues/62"
