@@ -9,12 +9,12 @@
   "7": 15,
   "8": 14,
   "9": 46,
-  "10": 5
+  "10": 6
  },
  "open_per_repo": {
   "adlam": 2,
   "ahom": 4,
-  "arabic": 10,
+  "arabic": 11,
   "armenian": 2,
   "balinese": 4,
   "batak": 4,
@@ -60,7 +60,7 @@
   "modi": 6,
   "mongolian": 1,
   "music": 2,
-  "myanmar": 31,
+  "myanmar": 32,
   "nag-mundari": 1,
   "nandinagari": 5,
   "nastaliq": 6,
@@ -102,8 +102,8 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 185,
-  "2": 45,
+  "1": 186,
+  "2": 46,
   "3": 94,
   "4": 53,
   "5": 33
@@ -118,7 +118,7 @@
   "7": 12,
   "8": 18,
   "9": 21,
-  "10": 11
+  "10": 14
  },
  "releases_per_month": {
   "1": [

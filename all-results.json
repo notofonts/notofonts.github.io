@@ -231,6 +231,20 @@
   "url": "https://github.com/notofonts/arabic/issues/251"
  },
  {
+  "closedAt": "2024-10-16T18:57:37Z",
+  "createdAt": "2024-10-16T18:05:51Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/253"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-10-17T07:15:04Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/254"
+ },
+ {
   "closedAt": null,
   "createdAt": "2021-05-06T04:03:47Z",
   "repo": "armenian",
@@ -3211,6 +3225,13 @@
   "repo": "myanmar",
   "tier": 2,
   "url": "https://github.com/notofonts/myanmar/issues/62"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-10-18T09:36:29Z",
+  "repo": "myanmar",
+  "tier": 2,
+  "url": "https://github.com/notofonts/myanmar/issues/67"
  },
  {
   "closedAt": null,
