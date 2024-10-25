@@ -15568,13 +15568,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/oriya",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 43,
-    "title": "Inquiry About Future Updates for Noto Serif Oriya",
-    "url": "https://github.com/notofonts/oriya/issues/43"
-   },
    {
     "number": 26,
     "title": "Serif: 0B55 is still missing",
