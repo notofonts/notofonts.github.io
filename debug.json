@@ -12659,8 +12659,18 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 11,
   "issues": [
+   {
+    "number": 97,
+    "title": "Fraktur is too cramped in footnotes",
+    "url": "https://github.com/notofonts/math/issues/97"
+   },
+   {
+    "number": 96,
+    "title": "Request for a slightly curved hook at the bottom of italic l",
+    "url": "https://github.com/notofonts/math/issues/96"
+   },
    {
     "number": 91,
     "title": "Question mark discrepancy",
