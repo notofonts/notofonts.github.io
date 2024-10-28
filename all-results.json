@@ -2898,6 +2898,27 @@
   "url": "https://github.com/notofonts/math/issues/93"
  },
  {
+  "closedAt": "2024-10-25T15:18:07Z",
+  "createdAt": "2024-10-25T03:02:58Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/94"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-10-26T15:23:29Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/96"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-10-26T15:27:14Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/97"
+ },
+ {
   "closedAt": "2024-07-24T16:09:41Z",
   "createdAt": "2024-07-24T15:00:07Z",
   "repo": "medefaidrin",
@@ -3589,6 +3610,13 @@
   "repo": "oriya",
   "tier": 1,
   "url": "https://github.com/notofonts/oriya/issues/39"
+ },
+ {
+  "closedAt": "2024-10-23T23:25:49Z",
+  "createdAt": "2024-10-22T23:59:17Z",
+  "repo": "oriya",
+  "tier": 1,
+  "url": "https://github.com/notofonts/oriya/issues/43"
  },
  {
   "closedAt": "2024-09-04T10:05:52Z",
