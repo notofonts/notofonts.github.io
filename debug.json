@@ -10719,8 +10719,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 116,
+  "issue_count": 117,
   "issues": [
+   {
+    "number": 496,
+    "title": "Fix Slash Length and Angle for \u2c65 and \u0247 in NotoSans{Italic,Mono}",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/496"
+   },
    {
     "number": 495,
     "title": "Two random size issues",
@@ -15578,8 +15583,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/oriya",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 44,
+    "title": "Enable Ligature Support for \u0b10 and \u0b14 with Candrabindu or Reph in Noto Sans Oriya",
+    "url": "https://github.com/notofonts/oriya/pull/44"
+   },
    {
     "number": 26,
     "title": "Serif: 0B55 is still missing",
