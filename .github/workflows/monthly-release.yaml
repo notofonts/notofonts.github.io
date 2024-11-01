@@ -25,6 +25,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ steps.generate_release_tag.outputs.release_tag }}
-          release_name: Noto Monthly Release ${{ steps.generate_release_tag.outputs.release_tag }}
+          tag_name: ${{ steps.generate_release_tag.outputs.next_release_tag }}
+          release_name: Noto Monthly Release ${{ steps.generate_release_tag.outputs.next_release_tag }}
           body: Monthly Noto release for downstream distributions
