@@ -8920,6 +8920,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 497,
+    "title": "Noto Serif: Revert iota-latin, use in iota-cy",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/497"
+   },
+   {
     "number": 496,
     "title": "Fix Slash Length and Angle for \u2c65 and \u0247 in NotoSans{Italic,Mono}",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/496"
