@@ -16228,8 +16228,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/runic",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 3,
+    "title": "Should `\u16eb` U+16EB Runic Single Punctuation and `\u16ec` U+16EC Runic Multiple Punctuation be the same size?",
+    "url": "https://github.com/notofonts/runic/issues/3"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/runic",
   "tier": 4,
   "title": "Noto Runic"

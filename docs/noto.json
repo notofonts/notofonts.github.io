@@ -12942,7 +12942,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/runic",
-  "issues": [],
+  "issues": [
+   {
+    "number": 3,
+    "title": "Should `\u16eb` U+16EB Runic Single Punctuation and `\u16ec` U+16EC Runic Multiple Punctuation be the same size?",
+    "url": "https://github.com/notofonts/runic/issues/3"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/runic",
   "tier": 4,
   "title": "Noto Runic"
