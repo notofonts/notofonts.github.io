@@ -7478,8 +7478,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/javanese",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 5,
   "issues": [
+   {
+    "number": 35,
+    "title": "Fix pengkal blocking above-base mark ligatures",
+    "url": "https://github.com/notofonts/javanese/pull/35"
+   },
    {
     "number": 34,
     "title": "Contextually unnecessary alternative form of U+A9BF JAVANESE CONSONANT SIGN CAKRA",
@@ -10719,8 +10724,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 118,
+  "issue_count": 119,
   "issues": [
+   {
+    "number": 498,
+    "title": "GitHub Actions Workflow Failures",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/498"
+   },
    {
     "number": 497,
     "title": "Noto Serif: Revert iota-latin, use in iota-cy",
@@ -17963,17 +17973,12 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/syriac",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 8,
   "issues": [
    {
     "number": 28,
     "title": "Noto Sans Syriac Western on Google Fonts",
     "url": "https://github.com/notofonts/syriac/issues/28"
-   },
-   {
-    "number": 27,
-    "title": "Final Semkath [U+0724] rendered incorrectly when connected",
-    "url": "https://github.com/notofonts/syriac/issues/27"
    },
    {
     "number": 26,
