@@ -13180,6 +13180,11 @@
   "gh_url": "https://notofonts.github.io/sign-writing",
   "issues": [
    {
+    "number": 10,
+    "title": "1DA6E SIGNWRITING SHOULDER HIP POSITIONS + 1DAA2 SIGNWRITING ROTATION MODIFIER-3 displays the wrong glyph.",
+    "url": "https://github.com/notofonts/sign-writing/issues/10"
+   },
+   {
     "number": 9,
     "title": "U+1D9C7 can be unreadable for certain fills and rotations",
     "url": "https://github.com/notofonts/sign-writing/issues/9"
