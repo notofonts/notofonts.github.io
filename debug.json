@@ -2198,8 +2198,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/bengali",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 6,
   "issues": [
+   {
+    "number": 24,
+    "title": "Noto Serif Bengali not displaying properly ",
+    "url": "https://github.com/notofonts/bengali/issues/24"
+   },
    {
     "number": 22,
     "title": "UI font has regressions",
@@ -7478,22 +7483,12 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/javanese",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 3,
   "issues": [
-   {
-    "number": 35,
-    "title": "Fix pengkal blocking above-base mark ligatures",
-    "url": "https://github.com/notofonts/javanese/pull/35"
-   },
    {
     "number": 34,
     "title": "Contextually unnecessary alternative form of U+A9BF JAVANESE CONSONANT SIGN CAKRA",
     "url": "https://github.com/notofonts/javanese/issues/34"
-   },
-   {
-    "number": 33,
-    "title": "U+A9BE JAVANESE CONSONANT SIGN PENGKAL blocks above-base mark ligatures",
-    "url": "https://github.com/notofonts/javanese/issues/33"
    },
    {
     "number": 32,
@@ -10727,9 +10722,9 @@
   "issue_count": 119,
   "issues": [
    {
-    "number": 498,
-    "title": "GitHub Actions Workflow Failures",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/498"
+    "number": 499,
+    "title": "A little Greek overlap",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/499"
    },
    {
     "number": 497,
@@ -16602,8 +16597,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/sign-writing",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 4,
   "issues": [
+   {
+    "number": 11,
+    "title": "1DA77 SIGNWRITING LIMB LENGTH-1 + 1DAA9 SIGNWRITING ROTATION MODIFIER-10 displays the wrong glyph.",
+    "url": "https://github.com/notofonts/sign-writing/issues/11"
+   },
    {
     "number": 10,
     "title": "1DA6E SIGNWRITING SHOULDER HIP POSITIONS + 1DAA2 SIGNWRITING ROTATION MODIFIER-3 displays the wrong glyph.",

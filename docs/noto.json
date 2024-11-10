@@ -1805,6 +1805,11 @@
   "gh_url": "https://notofonts.github.io/bengali",
   "issues": [
    {
+    "number": 24,
+    "title": "Noto Serif Bengali not displaying properly ",
+    "url": "https://github.com/notofonts/bengali/issues/24"
+   },
+   {
     "number": 22,
     "title": "UI font has regressions",
     "url": "https://github.com/notofonts/bengali/issues/22"
@@ -6009,19 +6014,9 @@
   "gh_url": "https://notofonts.github.io/javanese",
   "issues": [
    {
-    "number": 35,
-    "title": "Fix pengkal blocking above-base mark ligatures",
-    "url": "https://github.com/notofonts/javanese/pull/35"
-   },
-   {
     "number": 34,
     "title": "Contextually unnecessary alternative form of U+A9BF JAVANESE CONSONANT SIGN CAKRA",
     "url": "https://github.com/notofonts/javanese/issues/34"
-   },
-   {
-    "number": 33,
-    "title": "U+A9BE JAVANESE CONSONANT SIGN PENGKAL blocks above-base mark ligatures",
-    "url": "https://github.com/notofonts/javanese/issues/33"
    },
    {
     "number": 32,
@@ -8925,9 +8920,9 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
-    "number": 498,
-    "title": "GitHub Actions Workflow Failures",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/498"
+    "number": 499,
+    "title": "A little Greek overlap",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/499"
    },
    {
     "number": 497,
@@ -13179,6 +13174,11 @@
   },
   "gh_url": "https://notofonts.github.io/sign-writing",
   "issues": [
+   {
+    "number": 11,
+    "title": "1DA77 SIGNWRITING LIMB LENGTH-1 + 1DAA9 SIGNWRITING ROTATION MODIFIER-10 displays the wrong glyph.",
+    "url": "https://github.com/notofonts/sign-writing/issues/11"
+   },
    {
     "number": 10,
     "title": "1DA6E SIGNWRITING SHOULDER HIP POSITIONS + 1DAA2 SIGNWRITING ROTATION MODIFIER-3 displays the wrong glyph.",
