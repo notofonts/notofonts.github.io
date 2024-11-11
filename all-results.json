@@ -407,6 +407,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-11-09T17:50:53Z",
+  "repo": "bengali",
+  "tier": 1,
+  "url": "https://github.com/notofonts/bengali/issues/24"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2018-11-11T17:38:48Z",
   "repo": "bhaiksuki",
   "tier": 5,
@@ -1197,7 +1204,7 @@
   "url": "https://github.com/notofonts/javanese/issues/32"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-11-09T08:18:59Z",
   "createdAt": "2023-06-30T16:04:20Z",
   "repo": "javanese",
   "tier": 3,
@@ -2471,6 +2478,20 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/495"
  },
  {
+  "closedAt": "2024-11-09T21:38:52Z",
+  "createdAt": "2024-11-07T23:29:42Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/498"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-11-09T18:27:35Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/499"
+ },
+ {
   "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
@@ -3669,6 +3690,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-11-06T05:09:16Z",
+  "repo": "runic",
+  "tier": 4,
+  "url": "https://github.com/notofonts/runic/issues/3"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2019-04-28T16:31:59Z",
   "repo": "saurashtra",
   "tier": 3,
@@ -3729,6 +3757,20 @@
   "repo": "sign-writing",
   "tier": 3,
   "url": "https://github.com/notofonts/sign-writing/issues/9"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-11-08T15:14:09Z",
+  "repo": "sign-writing",
+  "tier": 3,
+  "url": "https://github.com/notofonts/sign-writing/issues/10"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-11-09T05:18:17Z",
+  "repo": "sign-writing",
+  "tier": 3,
+  "url": "https://github.com/notofonts/sign-writing/issues/11"
  },
  {
   "closedAt": null,
@@ -3976,7 +4018,7 @@
   "url": "https://github.com/notofonts/syriac/issues/26"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-11-07T22:25:56Z",
   "createdAt": "2024-05-09T20:58:29Z",
   "repo": "syriac",
   "tier": 3,
