@@ -2198,8 +2198,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/bengali",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 25,
+    "title": "Request to support conjuncts for Prakrit and Pali",
+    "url": "https://github.com/notofonts/bengali/issues/25"
+   },
    {
     "number": 24,
     "title": "Noto Serif Bengali not displaying properly ",
@@ -10719,8 +10724,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 119,
+  "issue_count": 120,
   "issues": [
+   {
+    "number": 500,
+    "title": "Serif: revert psi-cy",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/500"
+   },
    {
     "number": 499,
     "title": "A little Greek overlap",
