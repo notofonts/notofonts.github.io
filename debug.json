@@ -170,8 +170,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/ahom",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 5,
   "issues": [
+   {
+    "number": 22,
+    "title": "Need for doubled combination of 01172A and 01172B",
+    "url": "https://github.com/notofonts/ahom/issues/22"
+   },
    {
     "number": 21,
     "title": "Permitting the combination of 011711 011722 011721 01172B",
