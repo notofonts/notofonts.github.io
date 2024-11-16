@@ -6024,14 +6024,14 @@
   "gh_url": "https://notofonts.github.io/javanese",
   "issues": [
    {
+    "number": 36,
+    "title": "Above marks aren't being properly positioned after derived pengkal glyphs",
+    "url": "https://github.com/notofonts/javanese/issues/36"
+   },
+   {
     "number": 34,
     "title": "Contextually unnecessary alternative form of U+A9BF JAVANESE CONSONANT SIGN CAKRA",
     "url": "https://github.com/notofonts/javanese/issues/34"
-   },
-   {
-    "number": 32,
-    "title": "U+25CC is deleted in <U+A98E, U+A980, U+25CC, U+A9B4>",
-    "url": "https://github.com/notofonts/javanese/issues/32"
    },
    {
     "number": 31,
