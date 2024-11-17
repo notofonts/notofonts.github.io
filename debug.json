@@ -21177,8 +21177,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/toto",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 6,
+    "title": "The update to the glyph for U+1E29C is undesired",
+    "url": "https://github.com/notofonts/toto/issues/6"
+   },
    {
     "number": 5,
     "title": "U+1E2A9 TOTO LETTER BREATHY EO is kerned less than U+1E2A8 TOTO LETTER EO",
