@@ -8930,6 +8930,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 501,
+    "title": "Preceding cyrllic letters",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/501"
+   },
+   {
     "number": 500,
     "title": "Serif: revert psi-cy",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/500"

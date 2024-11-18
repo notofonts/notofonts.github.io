@@ -10729,8 +10729,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 120,
+  "issue_count": 121,
   "issues": [
+   {
+    "number": 501,
+    "title": "Preceding cyrllic letters",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/501"
+   },
    {
     "number": 500,
     "title": "Serif: revert psi-cy",
