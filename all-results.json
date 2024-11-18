@@ -43,6 +43,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-11-14T03:58:21Z",
+  "repo": "ahom",
+  "tier": 3,
+  "url": "https://github.com/notofonts/ahom/issues/22"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-08-11T23:07:03Z",
   "repo": "arabic",
   "tier": 1,
@@ -411,6 +418,13 @@
   "repo": "bengali",
   "tier": 1,
   "url": "https://github.com/notofonts/bengali/issues/24"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-11-11T10:12:17Z",
+  "repo": "bengali",
+  "tier": 1,
+  "url": "https://github.com/notofonts/bengali/issues/25"
  },
  {
   "closedAt": null,
@@ -1197,7 +1211,7 @@
   "url": "https://github.com/notofonts/javanese/issues/31"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-11-15T08:18:25Z",
   "createdAt": "2023-06-30T15:46:30Z",
   "repo": "javanese",
   "tier": 3,
@@ -1216,6 +1230,13 @@
   "repo": "javanese",
   "tier": 3,
   "url": "https://github.com/notofonts/javanese/issues/34"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-11-15T06:39:21Z",
+  "repo": "javanese",
+  "tier": 3,
+  "url": "https://github.com/notofonts/javanese/issues/36"
  },
  {
   "closedAt": null,
@@ -2490,6 +2511,13 @@
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/499"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-11-17T08:38:50Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/501"
  },
  {
   "closedAt": null,
@@ -4317,6 +4345,13 @@
   "repo": "toto",
   "tier": 3,
   "url": "https://github.com/notofonts/toto/issues/5"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-11-16T06:11:23Z",
+  "repo": "toto",
+  "tier": 3,
+  "url": "https://github.com/notofonts/toto/issues/6"
  },
  {
   "closedAt": "2024-03-07T09:36:36Z",
