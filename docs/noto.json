@@ -11748,6 +11748,11 @@
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
+    "number": 74,
+    "title": "Request to add characters",
+    "url": "https://github.com/notofonts/nastaliq/issues/74"
+   },
+   {
     "number": 73,
     "title": "More tight Noto Nastaliq (like Gulzar)",
     "url": "https://github.com/notofonts/nastaliq/issues/73"
@@ -17060,11 +17065,6 @@
   },
   "gh_url": "https://notofonts.github.io/toto",
   "issues": [
-   {
-    "number": 6,
-    "title": "The update to the glyph for U+1E29C is undesired",
-    "url": "https://github.com/notofonts/toto/issues/6"
-   },
    {
     "number": 5,
     "title": "U+1E2A9 TOTO LETTER BREATHY EO is kerned less than U+1E2A8 TOTO LETTER EO",
