@@ -8325,10 +8325,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans v2.014\n\nThis release:\n\n* Removes the semibold masters\n* Fixes style linking of the bold instances (#476)\n* Improves kerning for Slovak, Czech and Kamba (thanks to Yusuke Shirakihara)\n* Fixes an issue with the right sidebearing of quadrupleprime (#415)\n* Improves the anchoring of U+1AC7 COMBINING INVERTED DOUBLE ARCH ABOVE (#467)\n* Corrects the width of U+2212 MINUS SIGN (#396)\n",
-     "published": "2024-09-18T16:10:53+00:00",
-     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSans-v2.014",
-     "version": "v2.014"
+     "notes": "Noto Sans v2.015\n\nThis release fixes some kinks in the six.osf glyph and removes some errant glyphs (#405)\n",
+     "published": "2024-11-20T17:23:44+00:00",
+     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSans-v2.015",
+     "version": "v2.015"
     }
    },
    "Noto Sans Mono": {
@@ -8685,10 +8685,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif v2.014\n\nThis release:\n\n* Removes the semibold masters\n* Fixes style linking of the bold instances (#476)\n* Improves kerning for Slovak, Czech and Kamba (thanks to Yusuke Shirakihara)\n* Fixes an issue with the right sidebearing of quadrupleprime (#415)\n* Improves the anchoring of U+1AC7 COMBINING INVERTED DOUBLE ARCH ABOVE (#467)\n* Corrects the width of U+2212 MINUS SIGN (#396)\n",
-     "published": "2024-09-18T16:10:56+00:00",
-     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.014",
-     "version": "v2.014"
+     "notes": "Noto Serif v2.015\n\nThis release:\n\n* Removes some errant glyphs (#405)\n* Adds the figurespace to the onum feature (#39)\n* Fixes the use of Iota in components (#497)\n* Removes kinks in `two` and other glyphs.\n",
+     "published": "2024-11-20T17:21:25+00:00",
+     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.015",
+     "version": "v2.015"
     }
    },
    "Noto Serif Display": {
@@ -8930,24 +8930,9 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
-    "number": 501,
-    "title": "Preceding cyrllic letters",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/501"
-   },
-   {
-    "number": 500,
-    "title": "Serif: revert psi-cy",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/500"
-   },
-   {
     "number": 499,
     "title": "A little Greek overlap",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/499"
-   },
-   {
-    "number": 497,
-    "title": "Noto Serif: Revert iota-latin, use in iota-cy",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/497"
    },
    {
     "number": 496,
