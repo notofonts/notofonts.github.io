@@ -10,11 +10,11 @@
   "8": 14,
   "9": 46,
   "10": 8,
-  "11": 4
+  "11": 7
  },
  "open_per_repo": {
   "adlam": 2,
-  "ahom": 5,
+  "ahom": 6,
   "arabic": 11,
   "armenian": 2,
   "balinese": 4,
@@ -50,7 +50,7 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 118,
+  "latin-greek-cyrillic": 117,
   "limbu": 1,
   "malayalam": 6,
   "mandaic": 2,
@@ -64,7 +64,7 @@
   "myanmar": 32,
   "nag-mundari": 1,
   "nandinagari": 5,
-  "nastaliq": 6,
+  "nastaliq": 7,
   "nko": 1,
   "nushu": 1,
   "old-hungarian": 6,
@@ -100,7 +100,7 @@
   "tibetan": 5,
   "tifinagh": 3,
   "tirhuta": 10,
-  "toto": 2,
+  "toto": 1,
   "znamenny": 3
  },
  "open_per_tier": {
@@ -121,7 +121,7 @@
   "8": 18,
   "9": 21,
   "10": 18,
-  "11": 11
+  "11": 14
  },
  "releases_per_month": {
   "1": [
@@ -380,6 +380,16 @@
    {
     "tag": "NotoSansNandinagari-v1.003",
     "url": "https://github.com/notofonts/nandinagari/releases/tag/NotoSansNandinagari-v1.003"
+   }
+  ],
+  "11": [
+   {
+    "tag": "NotoSerif-v2.015",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSerif-v2.015"
+   },
+   {
+    "tag": "NotoSans-v2.015",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSans-v2.015"
    }
   ]
  },

@@ -50,6 +50,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-11-24T17:07:21Z",
+  "repo": "ahom",
+  "tier": 3,
+  "url": "https://github.com/notofonts/ahom/issues/23"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-08-11T23:07:03Z",
   "repo": "arabic",
   "tier": 1,
@@ -1160,6 +1167,13 @@
   "repo": "hebrew",
   "tier": 1,
   "url": "https://github.com/notofonts/hebrew/issues/56"
+ },
+ {
+  "closedAt": "2024-11-24T17:29:05Z",
+  "createdAt": "2024-11-24T10:13:53Z",
+  "repo": "hebrew",
+  "tier": 1,
+  "url": "https://github.com/notofonts/hebrew/issues/57"
  },
  {
   "closedAt": "2024-04-15T16:08:48Z",
@@ -2513,7 +2527,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/499"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-11-20T19:50:39Z",
   "createdAt": "2024-11-17T08:38:50Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -3487,6 +3501,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-11-18T17:21:39Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/74"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-06-27T16:18:47Z",
   "repo": "nko",
   "tier": 3,
@@ -4347,7 +4368,7 @@
   "url": "https://github.com/notofonts/toto/issues/5"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-11-18T08:59:02Z",
   "createdAt": "2024-11-16T06:11:23Z",
   "repo": "toto",
   "tier": 3,
