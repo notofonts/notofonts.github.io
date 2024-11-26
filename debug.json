@@ -170,8 +170,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/ahom",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 24,
+    "title": "Code point sequence for UM doesn't produce ligature",
+    "url": "https://github.com/notofonts/ahom/issues/24"
+   },
    {
     "number": 23,
     "title": "Some combinations of AM+I vowel signs munge together after a dotted circle",
