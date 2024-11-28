@@ -13195,6 +13195,11 @@
   "gh_url": "https://notofonts.github.io/sign-writing",
   "issues": [
    {
+    "number": 12,
+    "title": "1DA86 \ud836\ude86 SIGNWRITING LOCATION LIMBS DIGITS rotation variants",
+    "url": "https://github.com/notofonts/sign-writing/issues/12"
+   },
+   {
     "number": 11,
     "title": "1DA77 SIGNWRITING LIMB LENGTH-1 + 1DAA9 SIGNWRITING ROTATION MODIFIER-10 displays the wrong glyph.",
     "url": "https://github.com/notofonts/sign-writing/issues/11"
