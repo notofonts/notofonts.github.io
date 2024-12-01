@@ -12689,8 +12689,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 11,
+  "issue_count": 12,
   "issues": [
+   {
+    "number": 98,
+    "title": "Subscript (and superscript) size seems too small?",
+    "url": "https://github.com/notofonts/math/issues/98"
+   },
    {
     "number": 97,
     "title": "Fraktur is too cramped in footnotes",
