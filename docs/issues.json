@@ -10,11 +10,12 @@
   "8": 14,
   "9": 46,
   "10": 8,
-  "11": 7
+  "11": 7,
+  "12": 0
  },
  "open_per_repo": {
   "adlam": 2,
-  "ahom": 6,
+  "ahom": 7,
   "arabic": 11,
   "armenian": 2,
   "balinese": 4,
@@ -56,7 +57,7 @@
   "mandaic": 2,
   "manichaean": 3,
   "masaram-gondi": 1,
-  "math": 11,
+  "math": 12,
   "meetei-mayek": 1,
   "modi": 6,
   "mongolian": 1,
@@ -81,7 +82,7 @@
   "saurashtra": 1,
   "sharada": 3,
   "siddham": 3,
-  "sign-writing": 4,
+  "sign-writing": 5,
   "sogdian": 1,
   "soyombo": 4,
   "sundanese": 1,
@@ -106,7 +107,7 @@
  "open_per_tier": {
   "1": 190,
   "2": 46,
-  "3": 98,
+  "3": 101,
   "4": 54,
   "5": 33
  },
@@ -121,7 +122,8 @@
   "8": 18,
   "9": 21,
   "10": 18,
-  "11": 14
+  "11": 16,
+  "12": 0
  },
  "releases_per_month": {
   "1": [
@@ -404,6 +406,7 @@
   "8": 426,
   "9": 430,
   "10": 404,
-  "11": 414
+  "11": 414,
+  "12": 424
  }
 }

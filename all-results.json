@@ -57,6 +57,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-11-25T12:02:32Z",
+  "repo": "ahom",
+  "tier": 3,
+  "url": "https://github.com/notofonts/ahom/issues/24"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-08-11T23:07:03Z",
   "repo": "arabic",
   "tier": 1,
@@ -2982,6 +2989,13 @@
   "url": "https://github.com/notofonts/math/issues/97"
  },
  {
+  "closedAt": null,
+  "createdAt": "2024-11-30T14:32:57Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/98"
+ },
+ {
   "closedAt": "2024-07-24T16:09:41Z",
   "createdAt": "2024-07-24T15:00:07Z",
   "repo": "medefaidrin",
@@ -3820,6 +3834,13 @@
   "repo": "sign-writing",
   "tier": 3,
   "url": "https://github.com/notofonts/sign-writing/issues/11"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-11-27T16:19:08Z",
+  "repo": "sign-writing",
+  "tier": 3,
+  "url": "https://github.com/notofonts/sign-writing/issues/12"
  },
  {
   "closedAt": null,
