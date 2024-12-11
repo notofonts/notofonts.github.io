@@ -170,7 +170,7 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/ahom",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 6,
   "issues": [
    {
     "number": 24,
@@ -181,11 +181,6 @@
     "number": 23,
     "title": "Some combinations of AM+I vowel signs munge together after a dotted circle",
     "url": "https://github.com/notofonts/ahom/issues/23"
-   },
-   {
-    "number": 22,
-    "title": "Need for doubled combination of 01172A and 01172B",
-    "url": "https://github.com/notofonts/ahom/issues/22"
    },
    {
     "number": 21,
@@ -10739,8 +10734,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 118,
+  "issue_count": 119,
   "issues": [
+   {
+    "number": 502,
+    "title": "Add missing block cyrillic extended-d",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/502"
+   },
    {
     "number": 499,
     "title": "A little Greek overlap",

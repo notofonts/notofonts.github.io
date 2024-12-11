@@ -116,11 +116,6 @@
     "url": "https://github.com/notofonts/ahom/issues/23"
    },
    {
-    "number": 22,
-    "title": "Need for doubled combination of 01172A and 01172B",
-    "url": "https://github.com/notofonts/ahom/issues/22"
-   },
-   {
     "number": 21,
     "title": "Permitting the combination of 011711 011722 011721 01172B",
     "url": "https://github.com/notofonts/ahom/issues/21"
@@ -8939,6 +8934,11 @@
   },
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
+   {
+    "number": 502,
+    "title": "Add missing block cyrillic extended-d",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/502"
+   },
    {
     "number": 499,
     "title": "A little Greek overlap",
