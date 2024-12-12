@@ -8935,9 +8935,9 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
-    "number": 502,
-    "title": "Add missing block cyrillic extended-d",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/502"
+    "number": 505,
+    "title": "Redraw cyrillic extended-d",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/505"
    },
    {
     "number": 499,
