@@ -1379,8 +1379,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/armenian",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 13,
+    "title": "Dialectology diacritics",
+    "url": "https://github.com/notofonts/armenian/pull/13"
+   },
    {
     "number": 12,
     "title": "Full now has mismatched Latin weights",
