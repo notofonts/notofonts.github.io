@@ -1180,16 +1180,6 @@
   "gh_url": "https://notofonts.github.io/armenian",
   "issues": [
    {
-    "number": 13,
-    "title": "Dialectology diacritics",
-    "url": "https://github.com/notofonts/armenian/pull/13"
-   },
-   {
-    "number": 12,
-    "title": "Full now has mismatched Latin weights",
-    "url": "https://github.com/notofonts/armenian/issues/12"
-   },
-   {
     "number": 3,
     "title": "Italic (cursive) variants of Georgian and Armenian",
     "url": "https://github.com/notofonts/armenian/issues/3"
