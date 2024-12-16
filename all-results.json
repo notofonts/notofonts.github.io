@@ -42,7 +42,7 @@
   "url": "https://github.com/notofonts/ahom/issues/21"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-12-10T09:10:11Z",
   "createdAt": "2024-11-14T03:58:21Z",
   "repo": "ahom",
   "tier": 3,
@@ -280,7 +280,7 @@
   "url": "https://github.com/notofonts/armenian/issues/11"
  },
  {
-  "closedAt": null,
+  "closedAt": "2024-12-13T10:09:42Z",
   "createdAt": "2024-05-10T05:38:43Z",
   "repo": "armenian",
   "tier": 1,
@@ -2539,6 +2539,34 @@
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/501"
+ },
+ {
+  "closedAt": "2024-12-11T16:50:07Z",
+  "createdAt": "2024-12-10T15:27:05Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/502"
+ },
+ {
+  "closedAt": "2024-12-11T13:33:59Z",
+  "createdAt": "2024-12-11T13:24:49Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/503"
+ },
+ {
+  "closedAt": "2024-12-11T15:30:17Z",
+  "createdAt": "2024-12-11T13:45:34Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/504"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-12-11T17:17:00Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/505"
  },
  {
   "closedAt": null,
