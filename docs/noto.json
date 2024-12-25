@@ -10829,6 +10829,11 @@
   "gh_url": "https://notofonts.github.io/modi",
   "issues": [
    {
+    "number": 15,
+    "title": "MODI VOWEL SIGN II and MODI VOWEL SIGN I obscures Repha",
+    "url": "https://github.com/notofonts/modi/issues/15"
+   },
+   {
     "number": 14,
     "title": "go-re and go-ro only show one VOWEL SIGN E mark",
     "url": "https://github.com/notofonts/modi/issues/14"
