@@ -11743,6 +11743,11 @@
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
+    "number": 75,
+    "title": "The little kaf",
+    "url": "https://github.com/notofonts/nastaliq/issues/75"
+   },
+   {
     "number": 74,
     "title": "Request to add characters",
     "url": "https://github.com/notofonts/nastaliq/issues/74"
