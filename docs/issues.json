@@ -59,13 +59,13 @@
   "masaram-gondi": 1,
   "math": 12,
   "meetei-mayek": 1,
-  "modi": 6,
+  "modi": 7,
   "mongolian": 1,
   "music": 2,
   "myanmar": 32,
   "nag-mundari": 1,
   "nandinagari": 5,
-  "nastaliq": 7,
+  "nastaliq": 8,
   "nko": 1,
   "nushu": 1,
   "old-hungarian": 6,
@@ -105,9 +105,9 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 189,
+  "1": 190,
   "2": 46,
-  "3": 100,
+  "3": 101,
   "4": 54,
   "5": 33
  },
@@ -123,7 +123,7 @@
   "9": 21,
   "10": 18,
   "11": 16,
-  "12": 4
+  "12": 6
  },
  "releases_per_month": {
   "1": [

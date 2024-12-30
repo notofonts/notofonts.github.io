@@ -3088,6 +3088,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2024-12-25T01:44:48Z",
+  "repo": "modi",
+  "tier": 3,
+  "url": "https://github.com/notofonts/modi/issues/15"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-07-11T07:18:26Z",
   "repo": "mongolian",
   "tier": 3,
@@ -3547,6 +3554,13 @@
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/74"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-12-26T10:11:29Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/75"
  },
  {
   "closedAt": null,
