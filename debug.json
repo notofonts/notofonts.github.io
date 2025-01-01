@@ -862,8 +862,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 12,
+  "issue_count": 13,
   "issues": [
+   {
+    "number": 255,
+    "title": "Hamza overlap",
+    "url": "https://github.com/notofonts/arabic/issues/255"
+   },
    {
     "number": 254,
     "title": "Noto Sans Arabic on Android doesn't render U+FD40-U+FD4F",
@@ -10729,8 +10734,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 118,
+  "issue_count": 119,
   "issues": [
+   {
+    "number": 506,
+    "title": "Mismatching spacing issues with Unicode U+2018 and U+201C in Noto Sans",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/506"
+   },
    {
     "number": 499,
     "title": "A little Greek overlap",
