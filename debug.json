@@ -14319,8 +14319,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 9,
   "issues": [
+   {
+    "number": 76,
+    "title": "Sukun overlap",
+    "url": "https://github.com/notofonts/nastaliq/issues/76"
+   },
    {
     "number": 75,
     "title": "The little kaf",
