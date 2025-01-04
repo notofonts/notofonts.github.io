@@ -862,8 +862,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 13,
+  "issue_count": 14,
   "issues": [
+   {
+    "number": 256,
+    "title": "Gaps in Thin weight",
+    "url": "https://github.com/notofonts/arabic/issues/256"
+   },
    {
     "number": 255,
     "title": "Hamza overlap",

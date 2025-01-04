@@ -710,6 +710,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 256,
+    "title": "Gaps in Thin weight",
+    "url": "https://github.com/notofonts/arabic/issues/256"
+   },
+   {
     "number": 255,
     "title": "Hamza overlap",
     "url": "https://github.com/notofonts/arabic/issues/255"
