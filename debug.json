@@ -2390,8 +2390,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/brahmi",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 14,
+    "title": "Problem in glyph brm_RA",
+    "url": "https://github.com/notofonts/brahmi/issues/14"
+   },
    {
     "number": 13,
     "title": "Vowel signs block non-spacing candrabindu",

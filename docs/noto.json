@@ -1942,6 +1942,11 @@
   "gh_url": "https://notofonts.github.io/brahmi",
   "issues": [
    {
+    "number": 14,
+    "title": "Problem in glyph brm_RA",
+    "url": "https://github.com/notofonts/brahmi/issues/14"
+   },
+   {
     "number": 13,
     "title": "Vowel signs block non-spacing candrabindu",
     "url": "https://github.com/notofonts/brahmi/issues/13"
