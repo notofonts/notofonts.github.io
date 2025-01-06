@@ -1,28 +1,17 @@
 {
  "closed_per_month": {
-  "1": 11,
-  "2": 27,
-  "3": 11,
-  "4": 33,
-  "5": 20,
-  "6": 11,
-  "7": 15,
-  "8": 14,
-  "9": 46,
-  "10": 8,
-  "11": 7,
-  "12": 6
+  "1": 0
  },
  "open_per_repo": {
   "adlam": 2,
   "ahom": 6,
-  "arabic": 11,
+  "arabic": 13,
   "armenian": 1,
   "balinese": 4,
   "batak": 4,
   "bengali": 7,
   "bhaiksuki": 5,
-  "brahmi": 2,
+  "brahmi": 3,
   "chakma": 1,
   "chorasmian": 1,
   "coptic": 2,
@@ -51,7 +40,7 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 117,
+  "latin-greek-cyrillic": 118,
   "limbu": 1,
   "malayalam": 6,
   "mandaic": 2,
@@ -65,7 +54,7 @@
   "myanmar": 32,
   "nag-mundari": 1,
   "nandinagari": 5,
-  "nastaliq": 8,
+  "nastaliq": 9,
   "nko": 1,
   "nushu": 1,
   "old-hungarian": 6,
@@ -105,25 +94,14 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 190,
+  "1": 194,
   "2": 46,
   "3": 101,
-  "4": 54,
+  "4": 55,
   "5": 33
  },
  "opened_per_month": {
-  "1": 32,
-  "2": 27,
-  "3": 15,
-  "4": 30,
-  "5": 22,
-  "6": 25,
-  "7": 12,
-  "8": 18,
-  "9": 21,
-  "10": 18,
-  "11": 16,
-  "12": 6
+  "1": 4
  },
  "releases_per_month": {
   "1": [
@@ -396,17 +374,6 @@
   ]
  },
  "totals_per_month": {
-  "1": 386,
-  "2": 409,
-  "3": 410,
-  "4": 416,
-  "5": 413,
-  "6": 416,
-  "7": 430,
-  "8": 426,
-  "9": 430,
-  "10": 404,
-  "11": 414,
-  "12": 424
+  "1": 425
  }
 }
