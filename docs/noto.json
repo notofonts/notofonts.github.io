@@ -10508,6 +10508,11 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 99,
+    "title": "Subscripts need kerning",
+    "url": "https://github.com/notofonts/math/issues/99"
+   },
+   {
     "number": 98,
     "title": "Subscript (and superscript) size seems too small?",
     "url": "https://github.com/notofonts/math/issues/98"
