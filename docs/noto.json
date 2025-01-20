@@ -4655,11 +4655,6 @@
     "number": 5,
     "title": "Question regarding the shape of \u0ab0\u0ac1 (ru) in Gujarati fonts",
     "url": "https://github.com/notofonts/gujarati/issues/5"
-   },
-   {
-    "number": 1,
-    "title": "Ja design, and ja-ya ligature",
-    "url": "https://github.com/notofonts/gujarati/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/gujarati",
@@ -9528,16 +9523,6 @@
     "number": 181,
     "title": "Add <IPPH> and <APPH> (if necessary) to deal with IPA + Greek unification",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/181"
-   },
-   {
-    "number": 186,
-    "title": "Combining commas above are inconsistent with those below",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/186"
-   },
-   {
-    "number": 187,
-    "title": "Bulgarian Cyrillic is Russian Cyrillic",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/187"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/latin-greek-cyrillic",
