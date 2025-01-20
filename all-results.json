@@ -581,13 +581,6 @@
   "url": "https://github.com/notofonts/deseret/issues/2"
  },
  {
-  "closedAt": "2024-05-20T12:26:01Z",
-  "createdAt": "2015-06-08T18:34:30Z",
-  "repo": "devanagari",
-  "tier": 1,
-  "url": "https://github.com/notofonts/devanagari/issues/1"
- },
- {
   "closedAt": "2024-05-20T12:29:17Z",
   "createdAt": "2015-08-10T13:17:38Z",
   "repo": "devanagari",
@@ -908,13 +901,6 @@
   "repo": "grantha",
   "tier": 4,
   "url": "https://github.com/notofonts/grantha/issues/23"
- },
- {
-  "closedAt": null,
-  "createdAt": "2015-06-08T18:32:28Z",
-  "repo": "gujarati",
-  "tier": 1,
-  "url": "https://github.com/notofonts/gujarati/issues/1"
  },
  {
   "closedAt": null,
@@ -1489,20 +1475,6 @@
   "repo": "lao",
   "tier": 3,
   "url": "https://github.com/notofonts/lao/issues/18"
- },
- {
-  "closedAt": null,
-  "createdAt": "2015-06-08T18:31:08Z",
-  "repo": "latin-greek-cyrillic",
-  "tier": 1,
-  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/187"
- },
- {
-  "closedAt": null,
-  "createdAt": "2015-06-08T18:31:37Z",
-  "repo": "latin-greek-cyrillic",
-  "tier": 1,
-  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/186"
  },
  {
   "closedAt": null,
@@ -3050,6 +3022,13 @@
   "repo": "math",
   "tier": 3,
   "url": "https://github.com/notofonts/math/issues/98"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-01-17T10:11:07Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/99"
  },
  {
   "closedAt": "2024-07-24T16:09:41Z",

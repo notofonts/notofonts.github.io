@@ -24,7 +24,7 @@
   "elbasan": 1,
   "georgian": 2,
   "glagolitic": 1,
-  "gujarati": 6,
+  "gujarati": 5,
   "gunjala-gondi": 1,
   "gurmukhi": 5,
   "hebrew": 15,
@@ -40,13 +40,13 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 118,
+  "latin-greek-cyrillic": 116,
   "limbu": 1,
   "malayalam": 6,
   "mandaic": 2,
   "manichaean": 3,
   "masaram-gondi": 1,
-  "math": 12,
+  "math": 13,
   "meetei-mayek": 1,
   "modi": 7,
   "mongolian": 1,
@@ -94,14 +94,14 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 194,
+  "1": 191,
   "2": 46,
-  "3": 101,
+  "3": 102,
   "4": 55,
   "5": 33
  },
  "opened_per_month": {
-  "1": 4
+  "1": 5
  },
  "releases_per_month": {
   "1": [
@@ -374,6 +374,6 @@
   ]
  },
  "totals_per_month": {
-  "1": 425
+  "1": 422
  }
 }
