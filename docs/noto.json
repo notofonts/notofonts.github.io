@@ -11753,6 +11753,11 @@
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
+    "number": 77,
+    "title": "Position of small v on ARABIC LETTER LAM WITH SMALL V",
+    "url": "https://github.com/notofonts/nastaliq/issues/77"
+   },
+   {
     "number": 76,
     "title": "Sukun overlap",
     "url": "https://github.com/notofonts/nastaliq/issues/76"
