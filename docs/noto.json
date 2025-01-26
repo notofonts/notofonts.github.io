@@ -10493,6 +10493,11 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 100,
+    "title": "Noto Math cannot be used with MS Word's equation editor",
+    "url": "https://github.com/notofonts/math/issues/100"
+   },
+   {
     "number": 99,
     "title": "Subscripts need kerning",
     "url": "https://github.com/notofonts/math/issues/99"
