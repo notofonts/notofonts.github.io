@@ -3031,6 +3031,13 @@
   "url": "https://github.com/notofonts/math/issues/99"
  },
  {
+  "closedAt": null,
+  "createdAt": "2025-01-25T15:45:59Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/100"
+ },
+ {
   "closedAt": "2024-07-24T16:09:41Z",
   "createdAt": "2024-07-24T15:00:07Z",
   "repo": "medefaidrin",
@@ -3575,6 +3582,13 @@
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/76"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-01-22T18:32:14Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/77"
  },
  {
   "closedAt": null,

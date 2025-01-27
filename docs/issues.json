@@ -46,7 +46,7 @@
   "mandaic": 2,
   "manichaean": 3,
   "masaram-gondi": 1,
-  "math": 13,
+  "math": 14,
   "meetei-mayek": 1,
   "modi": 7,
   "mongolian": 1,
@@ -54,7 +54,7 @@
   "myanmar": 32,
   "nag-mundari": 1,
   "nandinagari": 5,
-  "nastaliq": 9,
+  "nastaliq": 10,
   "nko": 1,
   "nushu": 1,
   "old-hungarian": 6,
@@ -94,14 +94,14 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 191,
+  "1": 192,
   "2": 46,
-  "3": 102,
+  "3": 103,
   "4": 55,
   "5": 33
  },
  "opened_per_month": {
-  "1": 5
+  "1": 7
  },
  "releases_per_month": {
   "1": [
