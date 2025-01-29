@@ -18033,8 +18033,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/syriac",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 9,
   "issues": [
+   {
+    "number": 30,
+    "title": "SAM (U+070F) breaks with commonly used diacritics",
+    "url": "https://github.com/notofonts/syriac/issues/30"
+   },
    {
     "number": 28,
     "title": "Noto Sans Syriac Western on Google Fonts",
