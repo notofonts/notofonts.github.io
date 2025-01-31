@@ -2390,8 +2390,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/brahmi",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 4,
   "issues": [
+   {
+    "number": 15,
+    "title": "Anusvara vs Candrabindu",
+    "url": "https://github.com/notofonts/brahmi/issues/15"
+   },
    {
     "number": 14,
     "title": "Problem in glyph brm_RA",

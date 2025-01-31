@@ -1942,6 +1942,11 @@
   "gh_url": "https://notofonts.github.io/brahmi",
   "issues": [
    {
+    "number": 15,
+    "title": "Anusvara vs Candrabindu",
+    "url": "https://github.com/notofonts/brahmi/issues/15"
+   },
+   {
     "number": 14,
     "title": "Problem in glyph brm_RA",
     "url": "https://github.com/notofonts/brahmi/issues/14"
