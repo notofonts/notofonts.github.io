@@ -8180,8 +8180,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/kawi",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 6,
   "issues": [
+   {
+    "number": 17,
+    "title": "Add Kawi Sign Nukta (U+11F5A) introduced in Unicode 16.0",
+    "url": "https://github.com/notofonts/kawi/issues/17"
+   },
    {
     "number": 16,
     "title": "User shaping bug report on fonts.google.com",
