@@ -1,6 +1,7 @@
 {
  "closed_per_month": {
-  "1": 0
+  "1": 0,
+  "2": 0
  },
  "open_per_repo": {
   "adlam": 2,
@@ -11,7 +12,7 @@
   "batak": 4,
   "bengali": 7,
   "bhaiksuki": 5,
-  "brahmi": 3,
+  "brahmi": 4,
   "chakma": 1,
   "chorasmian": 1,
   "coptic": 2,
@@ -33,7 +34,7 @@
   "javanese": 3,
   "kaithi": 3,
   "kannada": 6,
-  "kawi": 5,
+  "kawi": 6,
   "kharoshthi": 1,
   "khitan-small-script": 1,
   "khmer": 2,
@@ -77,7 +78,7 @@
   "sundanese": 1,
   "syloti-nagri": 5,
   "symbols": 12,
-  "syriac": 8,
+  "syriac": 9,
   "tagalog": 2,
   "tai-tham": 1,
   "takri": 1,
@@ -96,12 +97,13 @@
  "open_per_tier": {
   "1": 192,
   "2": 46,
-  "3": 103,
-  "4": 55,
+  "3": 104,
+  "4": 57,
   "5": 33
  },
  "opened_per_month": {
-  "1": 7
+  "1": 9,
+  "2": 0
  },
  "releases_per_month": {
   "1": [
@@ -374,6 +376,7 @@
   ]
  },
  "totals_per_month": {
-  "1": 422
+  "1": 422,
+  "2": 432
  }
 }

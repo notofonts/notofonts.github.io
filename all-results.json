@@ -511,6 +511,13 @@
   "url": "https://github.com/notofonts/brahmi/issues/14"
  },
  {
+  "closedAt": null,
+  "createdAt": "2025-01-30T19:20:09Z",
+  "repo": "brahmi",
+  "tier": 4,
+  "url": "https://github.com/notofonts/brahmi/issues/15"
+ },
+ {
   "closedAt": "2024-08-14T15:43:01Z",
   "createdAt": "2020-04-17T14:04:58Z",
   "repo": "canadian-aboriginal",
@@ -1349,6 +1356,13 @@
   "repo": "kawi",
   "tier": 4,
   "url": "https://github.com/notofonts/kawi/issues/16"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-01-31T23:16:05Z",
+  "repo": "kawi",
+  "tier": 4,
+  "url": "https://github.com/notofonts/kawi/issues/17"
  },
  {
   "closedAt": null,
@@ -4170,6 +4184,13 @@
   "repo": "syriac",
   "tier": 3,
   "url": "https://github.com/notofonts/syriac/issues/28"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-01-28T06:53:27Z",
+  "repo": "syriac",
+  "tier": 3,
+  "url": "https://github.com/notofonts/syriac/issues/30"
  },
  {
   "closedAt": null,
