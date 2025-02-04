@@ -710,6 +710,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 257,
+    "title": "Inconsistent Latin Subset Weights in Noto Naskh Arabic Build",
+    "url": "https://github.com/notofonts/arabic/issues/257"
+   },
+   {
     "number": 256,
     "title": "Gaps in Thin weight",
     "url": "https://github.com/notofonts/arabic/issues/256"
@@ -15534,6 +15539,11 @@
   },
   "gh_url": "https://notofonts.github.io/tangut",
   "issues": [
+   {
+    "number": 7,
+    "title": "Glyphs at 17121, 17C51, 17D0B, 180DF updated in Unicode 16.0",
+    "url": "https://github.com/notofonts/tangut/issues/7"
+   },
    {
     "number": 6,
     "title": "U+2FFC-U+2FFF and U+31EF missing",
