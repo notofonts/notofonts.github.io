@@ -710,6 +710,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 258,
+    "title": "NotoNaskhArabic missing diacritic",
+    "url": "https://github.com/notofonts/arabic/issues/258"
+   },
+   {
     "number": 257,
     "title": "Inconsistent Latin Subset Weights in Noto Naskh Arabic Build",
     "url": "https://github.com/notofonts/arabic/issues/257"

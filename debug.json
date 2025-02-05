@@ -862,8 +862,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 15,
+  "issue_count": 16,
   "issues": [
+   {
+    "number": 258,
+    "title": "NotoNaskhArabic missing diacritic",
+    "url": "https://github.com/notofonts/arabic/issues/258"
+   },
    {
     "number": 257,
     "title": "Inconsistent Latin Subset Weights in Noto Naskh Arabic Build",
