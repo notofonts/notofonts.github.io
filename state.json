@@ -2655,23 +2655,24 @@
   "families": {
    "Noto Serif Dives Akuru": {
     "files": [
-     "fonts/NotoSerifDivesAkuru/hinted/ttf/NotoSerifDivesAkuru-Regular.ttf",
-     "fonts/NotoSerifDivesAkuru/googlefonts/ttf/NotoSerifDivesAkuru-Regular.ttf",
-     "fonts/NotoSerifDivesAkuru/unhinted/ttf/NotoSerifDivesAkuru-Regular.ttf",
      "fonts/NotoSerifDivesAkuru/unhinted/otf/NotoSerifDivesAkuru-Regular.otf",
+     "fonts/NotoSerifDivesAkuru/unhinted/ttf/NotoSerifDivesAkuru-Regular.ttf",
+     "fonts/NotoSerifDivesAkuru/googlefonts/ttf/NotoSerifDivesAkuru-Regular.ttf",
+     "fonts/NotoSerifDivesAkuru/full/otf/NotoSerifDivesAkuru-Regular.otf",
      "fonts/NotoSerifDivesAkuru/full/ttf/NotoSerifDivesAkuru-Regular.ttf",
-     "fonts/NotoSerifDivesAkuru/full/otf/NotoSerifDivesAkuru-Regular.otf"
+     "fonts/NotoSerifDivesAkuru/hinted/ttf/NotoSerifDivesAkuru-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Serif Dives Akuru v1.001\n\nThis release:\n\n* Improves the appearance of the initial ra glyph (#8)\n* Improves mark positioning and adds missing touching conjuncts (#9)\n* Increases consistency by using the attached form of the prefixed nasal sign (#10)\n* Renders certain ligatures as touching forms (#11)\n* Avoids collisions between multiple above marks (#12)\n* Uses the correct (dist) feature for spacing (#13)\n* Adds the dotted circle glyph (#14)\n* Removes an incorrect stylistic set (#15)\n* Fixes the ligation of letter ya (#1)\n* and fixes a number of fontbakery fails.\n\nMany thanks to @sergiolmartins for all his work on this release!\n",
-     "published": "2022-10-10T14:33:58",
-     "url": "https://github.com/notofonts/dives-akuru/releases/tag/NotoSerifDivesAkuru-v1.001",
-     "version": "v1.001"
+     "notes": "Noto Serif Dives Akuru v2.000\n\nThis release introduces a new design by Fernando Caro based on his research at the ANRT Missing Scripts project.\n",
+     "published": "2025-02-06T14:08:19+00:00",
+     "url": "https://github.com/notofonts/dives-akuru/releases/tag/NotoSerifDivesAkuru-v2.000",
+     "version": "v2.000"
     }
    }
   },
   "known_releases": [
-   "NotoSerifDivesAkuru-v1.001"
+   "NotoSerifDivesAkuru-v1.001",
+   "NotoSerifDivesAkuru-v2.000"
   ]
  },
  "dogra": {

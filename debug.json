@@ -862,7 +862,7 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 16,
+  "issue_count": 17,
   "issues": [
    {
     "number": 258,
@@ -933,6 +933,11 @@
     "number": 211,
     "title": "maybe there exist some problems with these glyphs, and others\u2026",
     "url": "https://github.com/notofonts/arabic/issues/211"
+   },
+   {
+    "number": 205,
+    "title": "Small circles should only appear below initial & medial forms of KASHMIRI YEH",
+    "url": "https://github.com/notofonts/arabic/issues/205"
    },
    {
     "number": 203,
@@ -3843,10 +3848,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Dives Akuru v1.001\n\nThis release:\n\n* Improves the appearance of the initial ra glyph (#8)\n* Improves mark positioning and adds missing touching conjuncts (#9)\n* Increases consistency by using the attached form of the prefixed nasal sign (#10)\n* Renders certain ligatures as touching forms (#11)\n* Avoids collisions between multiple above marks (#12)\n* Uses the correct (dist) feature for spacing (#13)\n* Adds the dotted circle glyph (#14)\n* Removes an incorrect stylistic set (#15)\n* Fixes the ligation of letter ya (#1)\n* and fixes a number of fontbakery fails.\n\nMany thanks to @sergiolmartins for all his work on this release!\n",
-     "published": "2022-10-10T14:33:58",
-     "url": "https://github.com/notofonts/dives-akuru/releases/tag/NotoSerifDivesAkuru-v1.001",
-     "version": "v1.001"
+     "notes": "Noto Serif Dives Akuru v2.000\n\nThis release introduces a new design by Fernando Caro based on his research at the ANRT Missing Scripts project.\n",
+     "published": "2025-02-06T14:08:19+00:00",
+     "url": "https://github.com/notofonts/dives-akuru/releases/tag/NotoSerifDivesAkuru-v2.000",
+     "version": "v2.000"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -12704,7 +12709,7 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 14,
+  "issue_count": 13,
   "issues": [
    {
     "number": 100,
@@ -12765,11 +12770,6 @@
     "number": 58,
     "title": "`ssty` variants are too bold",
     "url": "https://github.com/notofonts/math/issues/58"
-   },
-   {
-    "number": 36,
-    "title": "U+2044 FRACTION SLASH does not create vulgar fractions",
-    "url": "https://github.com/notofonts/math/issues/36"
    },
    {
     "number": 7,
