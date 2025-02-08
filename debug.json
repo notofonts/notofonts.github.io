@@ -3870,8 +3870,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/dives-akuru",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 21,
+    "title": "What\u2019s missing in 2.0\u2026",
+    "url": "https://github.com/notofonts/dives-akuru/issues/21"
+   },
    {
     "number": 7,
     "title": "Extraneous Dives Akuru conjuncts without viramas",
