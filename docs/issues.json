@@ -1,12 +1,12 @@
 {
  "closed_per_month": {
   "1": 0,
-  "2": 0
+  "2": 4
  },
  "open_per_repo": {
   "adlam": 2,
   "ahom": 6,
-  "arabic": 13,
+  "arabic": 16,
   "armenian": 1,
   "balinese": 4,
   "batak": 4,
@@ -18,7 +18,7 @@
   "coptic": 2,
   "cuneiform": 2,
   "devanagari": 3,
-  "dives-akuru": 6,
+  "dives-akuru": 7,
   "dogra": 1,
   "duployan": 1,
   "egyptian-hieroglyphs": 6,
@@ -47,7 +47,7 @@
   "mandaic": 2,
   "manichaean": 3,
   "masaram-gondi": 1,
-  "math": 14,
+  "math": 13,
   "meetei-mayek": 1,
   "modi": 7,
   "mongolian": 1,
@@ -84,7 +84,7 @@
   "takri": 1,
   "tamil": 2,
   "tangsa": 1,
-  "tangut": 1,
+  "tangut": 2,
   "telugu": 2,
   "thaana": 1,
   "thai": 3,
@@ -95,15 +95,15 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 192,
+  "1": 195,
   "2": 46,
-  "3": 104,
+  "3": 103,
   "4": 57,
-  "5": 33
+  "5": 35
  },
  "opened_per_month": {
   "1": 9,
-  "2": 0
+  "2": 7
  },
  "releases_per_month": {
   "1": [
@@ -124,6 +124,10 @@
    {
     "tag": "NotoSansCanadianAboriginal-v2.004",
     "url": "https://github.com/notofonts/canadian-aboriginal/releases/tag/NotoSansCanadianAboriginal-v2.004"
+   },
+   {
+    "tag": "NotoSerifDivesAkuru-v2.000",
+    "url": "https://github.com/notofonts/dives-akuru/releases/tag/NotoSerifDivesAkuru-v2.000"
    },
    {
     "tag": "NotoSansGeorgian-v2.005",
@@ -376,7 +380,7 @@
   ]
  },
  "totals_per_month": {
-  "1": 422,
-  "2": 432
+  "1": 423,
+  "2": 433
  }
 }

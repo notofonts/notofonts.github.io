@@ -78,6 +78,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2023-10-14T05:38:53Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/205"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-10-31T03:34:35Z",
   "repo": "arabic",
   "tier": 1,
@@ -278,6 +285,27 @@
   "repo": "arabic",
   "tier": 1,
   "url": "https://github.com/notofonts/arabic/issues/256"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-02-03T04:45:53Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/257"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-02-04T17:54:35Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/258"
+ },
+ {
+  "closedAt": "2025-02-06T08:35:34Z",
+  "createdAt": "2025-02-06T06:46:40Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/259"
  },
  {
   "closedAt": null,
@@ -719,6 +747,20 @@
   "repo": "dives-akuru",
   "tier": 5,
   "url": "https://github.com/notofonts/dives-akuru/issues/7"
+ },
+ {
+  "closedAt": "2025-02-06T16:00:13Z",
+  "createdAt": "2025-02-06T15:45:05Z",
+  "repo": "dives-akuru",
+  "tier": 5,
+  "url": "https://github.com/notofonts/dives-akuru/issues/20"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-02-07T07:38:01Z",
+  "repo": "dives-akuru",
+  "tier": 5,
+  "url": "https://github.com/notofonts/dives-akuru/issues/21"
  },
  {
   "closedAt": null,
@@ -2765,7 +2807,7 @@
   "url": "https://github.com/notofonts/math/issues/7"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-02-06T06:51:41Z",
   "createdAt": "2023-03-19T19:48:12Z",
   "repo": "math",
   "tier": 3,
@@ -3605,6 +3647,13 @@
   "url": "https://github.com/notofonts/nastaliq/issues/77"
  },
  {
+  "closedAt": "2025-02-13T15:36:07Z",
+  "createdAt": "2025-02-13T11:10:37Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/78"
+ },
+ {
   "closedAt": null,
   "createdAt": "2023-06-27T16:18:47Z",
   "repo": "nko",
@@ -4268,6 +4317,13 @@
   "repo": "tangut",
   "tier": 5,
   "url": "https://github.com/notofonts/tangut/issues/6"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-02-03T04:07:32Z",
+  "repo": "tangut",
+  "tier": 5,
+  "url": "https://github.com/notofonts/tangut/issues/7"
  },
  {
   "closedAt": "2024-02-22T14:31:08Z",
