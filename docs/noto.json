@@ -3020,6 +3020,11 @@
   "gh_url": "https://notofonts.github.io/dives-akuru",
   "issues": [
    {
+    "number": 22,
+    "title": "Reserved code point U+11939 should not have a glyph",
+    "url": "https://github.com/notofonts/dives-akuru/issues/22"
+   },
+   {
     "number": 21,
     "title": "What\u2019s missing in 2.0\u2026",
     "url": "https://github.com/notofonts/dives-akuru/issues/21"
@@ -11782,6 +11787,11 @@
   },
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
+   {
+    "number": 79,
+    "title": "Decomposed Sharada OM representation doesn't centre the diacritic",
+    "url": "https://github.com/notofonts/nastaliq/issues/79"
+   },
    {
     "number": 77,
     "title": "Position of small v on ARABIC LETTER LAM WITH SMALL V",

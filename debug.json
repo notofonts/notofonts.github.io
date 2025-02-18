@@ -3870,8 +3870,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/dives-akuru",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 8,
   "issues": [
+   {
+    "number": 22,
+    "title": "Reserved code point U+11939 should not have a glyph",
+    "url": "https://github.com/notofonts/dives-akuru/issues/22"
+   },
    {
     "number": 21,
     "title": "What\u2019s missing in 2.0\u2026",
@@ -14349,8 +14354,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 11,
   "issues": [
+   {
+    "number": 79,
+    "title": "Decomposed Sharada OM representation doesn't centre the diacritic",
+    "url": "https://github.com/notofonts/nastaliq/issues/79"
+   },
    {
     "number": 77,
     "title": "Position of small v on ARABIC LETTER LAM WITH SMALL V",
