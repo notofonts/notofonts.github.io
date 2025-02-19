@@ -14354,13 +14354,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 11,
+  "issue_count": 10,
   "issues": [
-   {
-    "number": 79,
-    "title": "Decomposed Sharada OM representation doesn't centre the diacritic",
-    "url": "https://github.com/notofonts/nastaliq/issues/79"
-   },
    {
     "number": 77,
     "title": "Position of small v on ARABIC LETTER LAM WITH SMALL V",
@@ -16505,8 +16500,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/sharada",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 4,
   "issues": [
+   {
+    "number": 15,
+    "title": "Decomposed Sharada OM representation doesn't centre the diacritic",
+    "url": "https://github.com/notofonts/sharada/issues/15"
+   },
    {
     "number": 14,
     "title": "Full version is missing letters",
