@@ -15430,8 +15430,18 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/old-turkic",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 7,
+    "title": "Increase the distinguishing factor of \"z\" glyphs internally and to \"n\"",
+    "url": "https://github.com/notofonts/old-turkic/issues/7"
+   },
+   {
+    "number": 6,
+    "title": "Increase the distinguishing factor of \"z\" glyphs",
+    "url": "https://github.com/notofonts/old-turkic/pull/6"
+   },
    {
     "number": 1,
     "title": "Additional weights for Old Turkic",
@@ -20440,6 +20450,7 @@
       "fonts/NotoSansThaiLooped/full/otf/NotoSansThaiLooped-SemiCondensedSemiBold.otf",
       "fonts/NotoSansThaiLooped/full/otf/NotoSansThaiLooped-SemiCondensedThin.otf",
       "fonts/NotoSansThaiLooped/full/otf/NotoSansThaiLooped-Thin.otf",
+      "fonts/NotoSansThaiLooped/full/slim-variable-ttf/NotoSansThaiLooped[wght].ttf",
       "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-Black.ttf",
       "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-Bold.ttf",
       "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-Condensed.ttf",
@@ -20475,7 +20486,8 @@
       "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-SemiCondensedMedium.ttf",
       "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-SemiCondensedThin.ttf",
-      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-Thin.ttf"
+      "fonts/NotoSansThaiLooped/full/ttf/NotoSansThaiLooped-Thin.ttf",
+      "fonts/NotoSansThaiLooped/full/variable-ttf/NotoSansThaiLooped[wdth,wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSansThaiLooped/hinted/ttf/NotoSansThaiLooped-Black.ttf",
@@ -20552,6 +20564,7 @@
       "fonts/NotoSansThaiLooped/unhinted/otf/NotoSansThaiLooped-SemiCondensedSemiBold.otf",
       "fonts/NotoSansThaiLooped/unhinted/otf/NotoSansThaiLooped-SemiCondensedThin.otf",
       "fonts/NotoSansThaiLooped/unhinted/otf/NotoSansThaiLooped-Thin.otf",
+      "fonts/NotoSansThaiLooped/unhinted/slim-variable-ttf/NotoSansThaiLooped[wght].ttf",
       "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-Black.ttf",
       "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-Bold.ttf",
       "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-Condensed.ttf",
@@ -20587,14 +20600,15 @@
       "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-SemiCondensedMedium.ttf",
       "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-SemiCondensedThin.ttf",
-      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-Thin.ttf"
+      "fonts/NotoSansThaiLooped/unhinted/ttf/NotoSansThaiLooped-Thin.ttf",
+      "fonts/NotoSansThaiLooped/unhinted/variable-ttf/NotoSansThaiLooped[wdth,wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Thai Looped v1.001\n\nThis is an administrative release; it renames the font from\n\"Noto Looped Thai\" to \"Noto Sans Thai Looped\" and additionally fixes\nsome fontbakery fails:\n\n* The Extrabold instance has been renamed to ExtraBold\n* Underline thickness has been set to constant across the family\n",
-     "published": "2022-08-23T07:33:13",
-     "url": "https://github.com/notofonts/thai/releases/tag/NotoSansThaiLooped-v1.001",
-     "version": "v1.001"
+     "notes": "Noto Sans Thai Looped v2.000\n\nThis is an updated design by Cadson Demak.\n",
+     "published": "2025-02-19T11:25:14+00:00",
+     "url": "https://github.com/notofonts/thai/releases/tag/NotoSansThaiLooped-v2.000",
+     "version": "v2.000"
     }
    },
    "Noto Serif Thai": {
