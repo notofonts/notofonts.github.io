@@ -14233,6 +14233,11 @@
   "gh_url": "https://notofonts.github.io/symbols",
   "issues": [
    {
+    "number": 87,
+    "title": "[Meta] Downstreaming fallback - request for suggestions",
+    "url": "https://github.com/notofonts/symbols/issues/87"
+   },
+   {
     "number": 83,
     "title": "Starting work on U16 legacy ex?",
     "url": "https://github.com/notofonts/symbols/issues/83"

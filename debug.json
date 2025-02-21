@@ -17844,8 +17844,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/symbols",
   "has_releases": true,
-  "issue_count": 12,
+  "issue_count": 13,
   "issues": [
+   {
+    "number": 87,
+    "title": "[Meta] Downstreaming fallback - request for suggestions",
+    "url": "https://github.com/notofonts/symbols/issues/87"
+   },
    {
     "number": 83,
     "title": "Starting work on U16 legacy ex?",
