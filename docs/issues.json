@@ -18,7 +18,7 @@
   "coptic": 2,
   "cuneiform": 2,
   "devanagari": 3,
-  "dives-akuru": 7,
+  "dives-akuru": 8,
   "dogra": 1,
   "duployan": 1,
   "egyptian-hieroglyphs": 6,
@@ -61,7 +61,7 @@
   "old-hungarian": 6,
   "old-hungarian-ui": 2,
   "old-italic": 1,
-  "old-turkic": 1,
+  "old-turkic": 2,
   "old-uyghur": 4,
   "oriya": 1,
   "pau-cin-hau": 1,
@@ -70,14 +70,14 @@
   "rejang": 1,
   "runic": 1,
   "saurashtra": 1,
-  "sharada": 3,
+  "sharada": 4,
   "siddham": 3,
   "sign-writing": 5,
   "sogdian": 1,
   "soyombo": 4,
   "sundanese": 1,
   "syloti-nagri": 5,
-  "symbols": 12,
+  "symbols": 13,
   "syriac": 9,
   "tagalog": 2,
   "tai-tham": 1,
@@ -97,13 +97,13 @@
  "open_per_tier": {
   "1": 195,
   "2": 46,
-  "3": 103,
+  "3": 105,
   "4": 57,
-  "5": 35
+  "5": 37
  },
  "opened_per_month": {
   "1": 9,
-  "2": 7
+  "2": 11
  },
  "releases_per_month": {
   "1": [
@@ -136,6 +136,10 @@
    {
     "tag": "NotoSansGeorgian-v2.004",
     "url": "https://github.com/notofonts/georgian/releases/tag/NotoSansGeorgian-v2.004"
+   },
+   {
+    "tag": "NotoSansThaiLooped-v2.000",
+    "url": "https://github.com/notofonts/thai/releases/tag/NotoSansThaiLooped-v2.000"
    },
    {
     "tag": "NotoSerifHentaigana-v1.000",

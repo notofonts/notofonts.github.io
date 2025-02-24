@@ -764,6 +764,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-02-17T15:01:51Z",
+  "repo": "dives-akuru",
+  "tier": 5,
+  "url": "https://github.com/notofonts/dives-akuru/issues/22"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2022-06-24T18:03:13Z",
   "repo": "dogra",
   "tier": 4,
@@ -3781,6 +3788,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-02-19T17:00:28Z",
+  "repo": "old-turkic",
+  "tier": 5,
+  "url": "https://github.com/notofonts/old-turkic/issues/7"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-17T20:46:14Z",
   "repo": "old-uyghur",
   "tier": 5,
@@ -3918,6 +3932,13 @@
   "repo": "sharada",
   "tier": 3,
   "url": "https://github.com/notofonts/sharada/issues/14"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-02-17T09:06:57Z",
+  "repo": "sharada",
+  "tier": 3,
+  "url": "https://github.com/notofonts/sharada/issues/15"
  },
  {
   "closedAt": null,
@@ -4163,6 +4184,13 @@
   "repo": "symbols",
   "tier": 3,
   "url": "https://github.com/notofonts/symbols/issues/86"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-02-20T11:15:20Z",
+  "repo": "symbols",
+  "tier": 3,
+  "url": "https://github.com/notofonts/symbols/issues/87"
  },
  {
   "closedAt": null,
