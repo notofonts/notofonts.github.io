@@ -8975,6 +8975,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 507,
+    "title": "U+2260 included on Google Fonts but not on Github",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/507"
+   },
+   {
     "number": 506,
     "title": "Mismatching spacing issues with Unicode U+2018 and U+201C in Noto Sans",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/506"
