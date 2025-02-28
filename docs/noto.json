@@ -12486,16 +12486,6 @@
   "gh_url": "https://notofonts.github.io/old-turkic",
   "issues": [
    {
-    "number": 7,
-    "title": "Increase the distinguishing factor of \"z\" glyphs internally and to \"n\"",
-    "url": "https://github.com/notofonts/old-turkic/issues/7"
-   },
-   {
-    "number": 6,
-    "title": "Increase the distinguishing factor of \"z\" glyphs",
-    "url": "https://github.com/notofonts/old-turkic/pull/6"
-   },
-   {
     "number": 1,
     "title": "Additional weights for Old Turkic",
     "url": "https://github.com/notofonts/old-turkic/issues/1"
