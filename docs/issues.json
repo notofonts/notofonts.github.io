@@ -1,7 +1,8 @@
 {
  "closed_per_month": {
   "1": 0,
-  "2": 4
+  "2": 5,
+  "3": 0
  },
  "open_per_repo": {
   "adlam": 2,
@@ -41,7 +42,7 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 116,
+  "latin-greek-cyrillic": 118,
   "limbu": 1,
   "malayalam": 6,
   "mandaic": 2,
@@ -61,7 +62,7 @@
   "old-hungarian": 6,
   "old-hungarian-ui": 2,
   "old-italic": 1,
-  "old-turkic": 2,
+  "old-turkic": 1,
   "old-uyghur": 4,
   "oriya": 1,
   "pau-cin-hau": 1,
@@ -95,15 +96,16 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 195,
+  "1": 197,
   "2": 46,
   "3": 105,
   "4": 57,
-  "5": 37
+  "5": 36
  },
  "opened_per_month": {
   "1": 9,
-  "2": 11
+  "2": 12,
+  "3": 0
  },
  "releases_per_month": {
   "1": [
@@ -385,6 +387,7 @@
  },
  "totals_per_month": {
   "1": 423,
-  "2": 433
+  "2": 433,
+  "3": 441
  }
 }
