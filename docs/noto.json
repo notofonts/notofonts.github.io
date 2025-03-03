@@ -14112,6 +14112,11 @@
   "gh_url": "https://notofonts.github.io/syloti-nagri",
   "issues": [
    {
+    "number": 10,
+    "title": "small update to Syloti conjuncts",
+    "url": "https://github.com/notofonts/syloti-nagri/pull/10"
+   },
+   {
     "number": 5,
     "title": "Syloti is poorly hinted in W10/GDI",
     "url": "https://github.com/notofonts/syloti-nagri/issues/5"
