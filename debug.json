@@ -4673,8 +4673,14 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/ethiopic",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 14,
+    "title": "Provide Monospaced Variant",
+    "url": "https://github.com/notofonts/ethiopic/issues/14"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/ethiopic",
   "tier": 2,
   "title": "Noto Ethiopic"

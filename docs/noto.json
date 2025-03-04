@@ -3669,7 +3669,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/ethiopic",
-  "issues": [],
+  "issues": [
+   {
+    "number": 14,
+    "title": "Provide Monospaced Variant",
+    "url": "https://github.com/notofonts/ethiopic/issues/14"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/ethiopic",
   "tier": 2,
   "title": "Noto Ethiopic"
