@@ -897,6 +897,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-03-03T08:23:11Z",
+  "repo": "ethiopic",
+  "tier": 2,
+  "url": "https://github.com/notofonts/ethiopic/issues/14"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2021-09-12T22:18:52Z",
   "repo": "georgian",
   "tier": 2,
