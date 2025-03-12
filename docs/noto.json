@@ -710,6 +710,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 260,
+    "title": "Fix the shape of U+FDFC",
+    "url": "https://github.com/notofonts/arabic/pull/260"
+   },
+   {
     "number": 258,
     "title": "NotoNaskhArabic missing diacritic",
     "url": "https://github.com/notofonts/arabic/issues/258"

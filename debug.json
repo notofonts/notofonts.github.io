@@ -862,8 +862,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 17,
+  "issue_count": 18,
   "issues": [
+   {
+    "number": 260,
+    "title": "Fix the shape of U+FDFC",
+    "url": "https://github.com/notofonts/arabic/pull/260"
+   },
    {
     "number": 258,
     "title": "NotoNaskhArabic missing diacritic",
