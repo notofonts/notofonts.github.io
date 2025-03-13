@@ -865,9 +865,9 @@
   "issue_count": 18,
   "issues": [
    {
-    "number": 260,
-    "title": "Fix the shape of U+FDFC",
-    "url": "https://github.com/notofonts/arabic/pull/260"
+    "number": 261,
+    "title": "[Request] Keep U+FDFC ligature as an alternate",
+    "url": "https://github.com/notofonts/arabic/issues/261"
    },
    {
     "number": 258,
@@ -17702,13 +17702,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/syloti-nagri",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 5,
   "issues": [
-   {
-    "number": 10,
-    "title": "small update to Syloti conjuncts",
-    "url": "https://github.com/notofonts/syloti-nagri/pull/10"
-   },
    {
     "number": 5,
     "title": "Syloti is poorly hinted in W10/GDI",
@@ -19520,8 +19515,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tangut",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 8,
+    "title": "Request new Tangut font release with issue #2 fix",
+    "url": "https://github.com/notofonts/tangut/issues/8"
+   },
    {
     "number": 7,
     "title": "Glyphs at 17121, 17C51, 17D0B, 180DF updated in Unicode 16.0",
