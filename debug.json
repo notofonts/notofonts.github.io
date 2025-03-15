@@ -7620,13 +7620,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/kaithi",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 3,
   "issues": [
-   {
-    "number": 29,
-    "title": "Shape/ductus updates to ktA (U+11083), ktAA (U+11084), ktO (U+1108B) and ktAU (U+1\u2026",
-    "url": "https://github.com/notofonts/kaithi/pull/29"
-   },
    {
     "number": 25,
     "title": "Reph overlaps vowel signs U+110B5..U+110B8",
