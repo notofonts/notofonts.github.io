@@ -12735,8 +12735,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 13,
+  "issue_count": 14,
   "issues": [
+   {
+    "number": 101,
+    "title": "Circled operators are too large",
+    "url": "https://github.com/notofonts/math/issues/101"
+   },
    {
     "number": 100,
     "title": "Noto Math cannot be used with MS Word's equation editor",
