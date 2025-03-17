@@ -309,6 +309,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-03-12T18:58:01Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/261"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2021-05-06T04:03:47Z",
   "repo": "armenian",
   "tier": 1,
@@ -3122,6 +3129,13 @@
   "url": "https://github.com/notofonts/math/issues/100"
  },
  {
+  "closedAt": null,
+  "createdAt": "2025-03-16T00:03:32Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/101"
+ },
+ {
   "closedAt": "2024-07-24T16:09:41Z",
   "createdAt": "2024-07-24T15:00:07Z",
   "repo": "medefaidrin",
@@ -4373,6 +4387,13 @@
   "repo": "tangut",
   "tier": 5,
   "url": "https://github.com/notofonts/tangut/issues/7"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-03-12T11:50:24Z",
+  "repo": "tangut",
+  "tier": 5,
+  "url": "https://github.com/notofonts/tangut/issues/8"
  },
  {
   "closedAt": "2024-02-22T14:31:08Z",
