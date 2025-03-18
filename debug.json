@@ -1587,22 +1587,12 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/balinese",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 3,
   "issues": [
-   {
-    "number": 42,
-    "title": "updates to include hooked form of La (third level)",
-    "url": "https://github.com/notofonts/balinese/pull/42"
-   },
    {
     "number": 41,
     "title": "U+1B37 BALINESE VOWEL SIGN ULU SARI overlaps above-base marks",
     "url": "https://github.com/notofonts/balinese/issues/41"
-   },
-   {
-    "number": 34,
-    "title": "Third-level la needs drawing",
-    "url": "https://github.com/notofonts/balinese/issues/34"
    },
    {
     "number": 12,
@@ -3814,8 +3804,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/devanagari",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 4,
   "issues": [
+   {
+    "number": 48,
+    "title": "AU + CANDRABINDU squished on Noto Sans Devanagari UI",
+    "url": "https://github.com/notofonts/devanagari/issues/48"
+   },
    {
     "number": 47,
     "title": "Noto Devanagari: there is a bug",
@@ -17630,13 +17625,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/sundanese",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 8,
-    "title": "conjunct updates and minor tweaks",
-    "url": "https://github.com/notofonts/sundanese/pull/8"
-   },
    {
     "number": 2,
     "title": "U+1BAB SUNDANESE SIGN VIRAMA does not form conjuncts",
