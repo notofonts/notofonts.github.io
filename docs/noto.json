@@ -14076,6 +14076,11 @@
   "gh_url": "https://notofonts.github.io/sundanese",
   "issues": [
    {
+    "number": 9,
+    "title": "Wrong glyph 1BBF final M",
+    "url": "https://github.com/notofonts/sundanese/issues/9"
+   },
+   {
     "number": 2,
     "title": "U+1BAB SUNDANESE SIGN VIRAMA does not form conjuncts",
     "url": "https://github.com/notofonts/sundanese/issues/2"
