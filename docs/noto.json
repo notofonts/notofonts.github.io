@@ -8976,6 +8976,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 509,
+    "title": "Stylistic set for sans-serif `r` in Noto Sans Mono",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/509"
+   },
+   {
     "number": 508,
     "title": "The `U+20E3 COMBINING ENCLOSING KEYCAP` renders too far downward and to the right.",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/508"
