@@ -357,7 +357,7 @@
   "url": "https://github.com/notofonts/balinese/issues/12"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-03-17T06:21:30Z",
   "createdAt": "2023-07-17T09:00:12Z",
   "repo": "balinese",
   "tier": 2,
@@ -712,6 +712,13 @@
   "repo": "devanagari",
   "tier": 1,
   "url": "https://github.com/notofonts/devanagari/issues/47"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-03-17T22:12:05Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/48"
  },
  {
   "closedAt": null,
@@ -2661,6 +2668,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-03-21T01:49:10Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/509"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -4072,6 +4086,13 @@
   "repo": "sundanese",
   "tier": 3,
   "url": "https://github.com/notofonts/sundanese/issues/2"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-03-19T06:05:23Z",
+  "repo": "sundanese",
+  "tier": 3,
+  "url": "https://github.com/notofonts/sundanese/issues/9"
  },
  {
   "closedAt": null,
