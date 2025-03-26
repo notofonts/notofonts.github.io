@@ -710,6 +710,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 262,
+    "title": "Interpolation issue in FINAL REH",
+    "url": "https://github.com/notofonts/arabic/issues/262"
+   },
+   {
     "number": 261,
     "title": "[Request] Keep U+FDFC ligature as an alternate",
     "url": "https://github.com/notofonts/arabic/issues/261"
@@ -6069,6 +6074,11 @@
   },
   "gh_url": "https://notofonts.github.io/javanese",
   "issues": [
+   {
+    "number": 38,
+    "title": "Diacritic shifts when combining \ua9b3 and \ua9bf",
+    "url": "https://github.com/notofonts/javanese/issues/38"
+   },
    {
     "number": 36,
     "title": "Above marks aren't being properly positioned after derived pengkal glyphs",
