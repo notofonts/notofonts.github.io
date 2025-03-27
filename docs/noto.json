@@ -1321,6 +1321,11 @@
   "gh_url": "https://notofonts.github.io/balinese",
   "issues": [
    {
+    "number": 43,
+    "title": "Add new Balinese characters",
+    "url": "https://github.com/notofonts/balinese/issues/43"
+   },
+   {
     "number": 41,
     "title": "U+1B37 BALINESE VOWEL SIGN ULU SARI overlaps above-base marks",
     "url": "https://github.com/notofonts/balinese/issues/41"
@@ -14090,6 +14095,11 @@
   },
   "gh_url": "https://notofonts.github.io/sundanese",
   "issues": [
+   {
+    "number": 10,
+    "title": "Incorrect sizing and positioning of panolong, panaelaeng, pamaaeh, and avagraha",
+    "url": "https://github.com/notofonts/sundanese/issues/10"
+   },
    {
     "number": 9,
     "title": "Wrong glyph 1BBF final M",
