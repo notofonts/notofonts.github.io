@@ -8991,6 +8991,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 510,
+    "title": "\u2264 and \u2265 are not supported in Noto Sans and Noto Serif",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/510"
+   },
+   {
     "number": 509,
     "title": "Stylistic set for sans-serif `r` in Noto Sans Mono",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/509"
