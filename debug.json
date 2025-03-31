@@ -20878,8 +20878,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/thai",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 4,
   "issues": [
+   {
+    "number": 29,
+    "title": "Request: Noto Thai Pali fonts",
+    "url": "https://github.com/notofonts/thai/issues/29"
+   },
    {
     "number": 27,
     "title": "'aalt' contains invalid substitutions",
