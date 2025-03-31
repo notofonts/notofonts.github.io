@@ -7,9 +7,9 @@
  "open_per_repo": {
   "adlam": 2,
   "ahom": 6,
-  "arabic": 17,
+  "arabic": 18,
   "armenian": 1,
-  "balinese": 3,
+  "balinese": 4,
   "batak": 4,
   "bengali": 7,
   "bhaiksuki": 5,
@@ -33,7 +33,7 @@
   "hebrew": 15,
   "inscriptional-pahlavi": 1,
   "inscriptional-parthian": 3,
-  "javanese": 3,
+  "javanese": 4,
   "kaithi": 3,
   "kannada": 6,
   "kawi": 6,
@@ -43,7 +43,7 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 119,
+  "latin-greek-cyrillic": 120,
   "limbu": 1,
   "malayalam": 6,
   "mandaic": 2,
@@ -77,7 +77,7 @@
   "sign-writing": 5,
   "sogdian": 1,
   "soyombo": 4,
-  "sundanese": 2,
+  "sundanese": 3,
   "syloti-nagri": 5,
   "symbols": 13,
   "syriac": 9,
@@ -89,7 +89,7 @@
   "tangut": 3,
   "telugu": 2,
   "thaana": 1,
-  "thai": 3,
+  "thai": 4,
   "tibetan": 5,
   "tifinagh": 3,
   "tirhuta": 10,
@@ -97,16 +97,16 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 200,
-  "2": 46,
-  "3": 107,
+  "1": 202,
+  "2": 48,
+  "3": 109,
   "4": 57,
   "5": 37
  },
  "opened_per_month": {
   "1": 9,
   "2": 12,
-  "3": 7
+  "3": 13
  },
  "releases_per_month": {
   "1": [

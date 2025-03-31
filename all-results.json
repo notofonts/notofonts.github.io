@@ -316,6 +316,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-03-25T19:06:12Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/262"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2021-05-06T04:03:47Z",
   "repo": "armenian",
   "tier": 1,
@@ -397,6 +404,13 @@
   "repo": "balinese",
   "tier": 2,
   "url": "https://github.com/notofonts/balinese/issues/41"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-03-26T07:56:26Z",
+  "repo": "balinese",
+  "tier": 2,
+  "url": "https://github.com/notofonts/balinese/issues/43"
  },
  {
   "closedAt": "2024-05-21T09:02:18Z",
@@ -1342,6 +1356,13 @@
   "repo": "javanese",
   "tier": 3,
   "url": "https://github.com/notofonts/javanese/issues/36"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-03-25T19:37:25Z",
+  "repo": "javanese",
+  "tier": 3,
+  "url": "https://github.com/notofonts/javanese/issues/38"
  },
  {
   "closedAt": null,
@@ -2672,6 +2693,13 @@
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/509"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-03-28T10:02:49Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/510"
  },
  {
   "closedAt": null,
@@ -4096,6 +4124,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-03-26T15:52:45Z",
+  "repo": "sundanese",
+  "tier": 3,
+  "url": "https://github.com/notofonts/sundanese/issues/10"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2017-11-07T06:48:41Z",
   "repo": "syloti-nagri",
   "tier": 3,
@@ -4485,6 +4520,13 @@
   "repo": "thai",
   "tier": 2,
   "url": "https://github.com/notofonts/thai/issues/28"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-03-30T15:15:06Z",
+  "repo": "thai",
+  "tier": 2,
+  "url": "https://github.com/notofonts/thai/issues/29"
  },
  {
   "closedAt": null,
