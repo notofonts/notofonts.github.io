@@ -862,8 +862,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 19,
+  "issue_count": 20,
   "issues": [
+   {
+    "number": 263,
+    "title": "Adding the Dirham symbol to Noto Sans project",
+    "url": "https://github.com/notofonts/arabic/issues/263"
+   },
    {
     "number": 262,
     "title": "Interpolation issue in FINAL REH",
@@ -6433,8 +6438,18 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/gurmukhi",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 28,
+    "title": "Issue with Addak (\u0a71) Position with TTHA (\u0a20) and NA (\u0a28) in Noto Sans",
+    "url": "https://github.com/notofonts/gurmukhi/issues/28"
+   },
+   {
+    "number": 27,
+    "title": "Issue with Nukta Position in LLA(\u0a33) for Noto Sans",
+    "url": "https://github.com/notofonts/gurmukhi/issues/27"
+   },
    {
     "number": 26,
     "title": "Add support for Additional Pairin and Addha Forms in Gurmukhi as per Unicode Standard 15.0.0",
@@ -15714,8 +15729,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/oriya",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 45,
+    "title": "Fix: Corrected previous commit for Microsoft Word compatibility",
+    "url": "https://github.com/notofonts/oriya/pull/45"
+   },
    {
     "number": 26,
     "title": "Serif: 0B55 is still missing",
