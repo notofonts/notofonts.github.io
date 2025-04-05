@@ -165,7 +165,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/anatolian-hieroglyphs",
-  "issues": [],
+  "issues": [
+   {
+    "number": 2,
+    "title": "When vertical, gaps between characters are too wide",
+    "url": "https://github.com/notofonts/anatolian-hieroglyphs/issues/2"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/anatolian-hieroglyphs",
   "tier": 5,
   "title": "Noto Anatolian Hieroglyphs"
@@ -9006,6 +9012,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 513,
+    "title": "smcp feature shouldn\u2019t substitute combining marks on capitals",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/513"
+   },
+   {
     "number": 510,
     "title": "\u2264 and \u2265 are not supported in Noto Sans and Noto Serif",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/510"
@@ -16861,6 +16872,11 @@
   },
   "gh_url": "https://notofonts.github.io/thai",
   "issues": [
+   {
+    "number": 30,
+    "title": "Noto Sans Thai Looped selection in Illustrator",
+    "url": "https://github.com/notofonts/thai/issues/30"
+   },
    {
     "number": 27,
     "title": "'aalt' contains invalid substitutions",
