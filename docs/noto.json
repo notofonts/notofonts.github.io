@@ -9012,6 +9012,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 514,
+    "title": "Cross-tailed J overlap in Noto Sans",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/514"
+   },
+   {
     "number": 513,
     "title": "smcp feature shouldn\u2019t substitute combining marks on capitals",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/513"
@@ -13284,6 +13289,11 @@
   },
   "gh_url": "https://notofonts.github.io/siddham",
   "issues": [
+   {
+    "number": 25,
+    "title": "-AI, -AU, and R-GH incorrectly shaped",
+    "url": "https://github.com/notofonts/siddham/issues/25"
+   },
    {
     "number": 24,
     "title": "NotoSansSiddham-Regular.ttf GPOS table shows error",
