@@ -64,6 +64,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-04-04T15:45:18Z",
+  "repo": "anatolian-hieroglyphs",
+  "tier": 5,
+  "url": "https://github.com/notofonts/anatolian-hieroglyphs/issues/2"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-08-11T23:07:03Z",
   "repo": "arabic",
   "tier": 1,
@@ -320,6 +327,13 @@
   "repo": "arabic",
   "tier": 1,
   "url": "https://github.com/notofonts/arabic/issues/262"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-04-03T11:01:10Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/263"
  },
  {
   "closedAt": null,
@@ -1090,6 +1104,20 @@
   "repo": "gurmukhi",
   "tier": 1,
   "url": "https://github.com/notofonts/gurmukhi/issues/26"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-04-03T02:48:01Z",
+  "repo": "gurmukhi",
+  "tier": 1,
+  "url": "https://github.com/notofonts/gurmukhi/issues/27"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-04-03T02:49:17Z",
+  "repo": "gurmukhi",
+  "tier": 1,
+  "url": "https://github.com/notofonts/gurmukhi/issues/28"
  },
  {
   "closedAt": "2024-09-04T10:04:13Z",
@@ -2702,6 +2730,27 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/510"
  },
  {
+  "closedAt": "2025-03-31T10:47:42Z",
+  "createdAt": "2025-03-31T08:13:21Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/511"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-04-04T04:34:37Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/513"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-04-05T07:13:51Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/514"
+ },
+ {
   "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
@@ -4040,6 +4089,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-04-05T15:27:01Z",
+  "repo": "siddham",
+  "tier": 3,
+  "url": "https://github.com/notofonts/siddham/issues/25"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-04-27T11:05:10Z",
   "repo": "sign-writing",
   "tier": 3,
@@ -4522,11 +4578,18 @@
   "url": "https://github.com/notofonts/thai/issues/28"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-03-31T04:49:55Z",
   "createdAt": "2025-03-30T15:15:06Z",
   "repo": "thai",
   "tier": 2,
   "url": "https://github.com/notofonts/thai/issues/29"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-04-04T22:40:37Z",
+  "repo": "thai",
+  "tier": 2,
+  "url": "https://github.com/notofonts/thai/issues/30"
  },
  {
   "closedAt": null,
