@@ -9012,6 +9012,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 515,
+    "title": "`U+0332 COMBINING LOW LINE` renders too far upward.",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/515"
+   },
+   {
     "number": 514,
     "title": "Cross-tailed J overlap in Noto Sans",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/514"
@@ -9033,7 +9038,7 @@
    },
    {
     "number": 508,
-    "title": "The `U+20E3 COMBINING ENCLOSING KEYCAP` renders too far downward and to the right.",
+    "title": "`U+20E3 COMBINING ENCLOSING KEYCAP` renders too far downward and to the right.",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/508"
    },
    {
