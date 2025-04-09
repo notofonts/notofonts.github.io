@@ -3186,6 +3186,11 @@
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "issues": [
    {
+    "number": 17,
+    "title": "Egyptian-Hieroglyphs-Extended-A (13460-U+143FF)",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/17"
+   },
+   {
     "number": 16,
     "title": "Strange metrics?",
     "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/16"
@@ -12743,11 +12748,6 @@
   },
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
-   {
-    "number": 45,
-    "title": "Fix: Corrected previous commit for Microsoft Word compatibility",
-    "url": "https://github.com/notofonts/oriya/pull/45"
-   },
    {
     "number": 26,
     "title": "Serif: 0B55 is still missing",
