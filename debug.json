@@ -3825,8 +3825,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/devanagari",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 5,
   "issues": [
+   {
+    "number": 51,
+    "title": "Diacritics, overlap, and misalignment",
+    "url": "https://github.com/notofonts/devanagari/issues/51"
+   },
    {
     "number": 48,
     "title": "AU + CANDRABINDU squished on Noto Sans Devanagari UI",
