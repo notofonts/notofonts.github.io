@@ -2022,7 +2022,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/buginese",
-  "issues": [],
+  "issues": [
+   {
+    "number": 2,
+    "title": "Request update for NotoSansBuginese.glyphs",
+    "url": "https://github.com/notofonts/buginese/pull/2"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/buginese",
   "tier": 3,
   "title": "Noto Buginese"
