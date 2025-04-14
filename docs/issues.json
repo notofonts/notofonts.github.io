@@ -3,7 +3,7 @@
   "1": 0,
   "2": 5,
   "3": 1,
-  "4": 0
+  "4": 1
  },
  "open_per_repo": {
   "adlam": 2,
@@ -20,18 +20,18 @@
   "chorasmian": 1,
   "coptic": 2,
   "cuneiform": 2,
-  "devanagari": 4,
+  "devanagari": 5,
   "dives-akuru": 8,
   "dogra": 1,
   "duployan": 1,
-  "egyptian-hieroglyphs": 6,
+  "egyptian-hieroglyphs": 7,
   "elbasan": 1,
   "ethiopic": 1,
   "georgian": 2,
   "glagolitic": 1,
   "gujarati": 5,
   "gunjala-gondi": 1,
-  "gurmukhi": 7,
+  "gurmukhi": 6,
   "hebrew": 15,
   "inscriptional-pahlavi": 1,
   "inscriptional-parthian": 3,
@@ -45,7 +45,7 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 122,
+  "latin-greek-cyrillic": 123,
   "limbu": 1,
   "malayalam": 6,
   "mandaic": 2,
@@ -99,17 +99,17 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 207,
+  "1": 208,
   "2": 48,
   "3": 110,
-  "4": 57,
+  "4": 58,
   "5": 38
  },
  "opened_per_month": {
   "1": 9,
   "2": 12,
   "3": 13,
-  "4": 8
+  "4": 11
  },
  "releases_per_month": {
   "1": [

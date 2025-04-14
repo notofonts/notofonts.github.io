@@ -750,6 +750,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-04-12T21:37:49Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/51"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2022-04-22T19:51:54Z",
   "repo": "dives-akuru",
   "tier": 5,
@@ -922,6 +929,13 @@
   "repo": "egyptian-hieroglyphs",
   "tier": 4,
   "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/16"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-04-08T15:51:09Z",
+  "repo": "egyptian-hieroglyphs",
+  "tier": 4,
+  "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/17"
  },
  {
   "closedAt": null,
@@ -1106,7 +1120,7 @@
   "url": "https://github.com/notofonts/gurmukhi/issues/26"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-04-11T10:43:21Z",
   "createdAt": "2025-04-03T02:48:01Z",
   "repo": "gurmukhi",
   "tier": 1,
@@ -2749,6 +2763,13 @@
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/514"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-04-07T15:21:45Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/515"
  },
  {
   "closedAt": null,
