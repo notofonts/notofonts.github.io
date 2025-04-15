@@ -2996,6 +2996,11 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
+    "number": 52,
+    "title": "Ba disconnect in heavier weights",
+    "url": "https://github.com/notofonts/devanagari/issues/52"
+   },
+   {
     "number": 51,
     "title": "Diacritics, overlap, and misalignment",
     "url": "https://github.com/notofonts/devanagari/issues/51"
@@ -12754,6 +12759,11 @@
   },
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
+   {
+    "number": 46,
+    "title": "Added Support for DABHARA (\u0b26\u0b4d\u0b2d\u0b4d\u0b30) in Noto Sans",
+    "url": "https://github.com/notofonts/oriya/pull/46"
+   },
    {
     "number": 26,
     "title": "Serif: 0B55 is still missing",
