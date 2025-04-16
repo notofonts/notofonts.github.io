@@ -9028,6 +9028,16 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 517,
+    "title": "Multiple Diacritics Don't Attach to Uppercase in Terminal Emulators",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/517"
+   },
+   {
+    "number": 516,
+    "title": "Enable automatic alignment on most composites",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/516"
+   },
+   {
     "number": 515,
     "title": "`U+0332 COMBINING LOW LINE` renders too far upward.",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/515"
@@ -14394,6 +14404,11 @@
     "number": 12,
     "title": "Combining character combines with the following character",
     "url": "https://github.com/notofonts/symbols/issues/12"
+   },
+   {
+    "number": 11,
+    "title": "Inaccurate U+101FD PHAISTOS DISC SIGN COMBINING OBLIQUE STROKE",
+    "url": "https://github.com/notofonts/symbols/issues/11"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/symbols",
