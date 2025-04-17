@@ -2996,6 +2996,11 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
+    "number": 53,
+    "title": "Anusvara overlap",
+    "url": "https://github.com/notofonts/devanagari/issues/53"
+   },
+   {
     "number": 52,
     "title": "Ba disconnect in heavier weights",
     "url": "https://github.com/notofonts/devanagari/issues/52"

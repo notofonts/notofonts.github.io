@@ -3831,8 +3831,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/devanagari",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 53,
+    "title": "Anusvara overlap",
+    "url": "https://github.com/notofonts/devanagari/issues/53"
+   },
    {
     "number": 52,
     "title": "Ba disconnect in heavier weights",
