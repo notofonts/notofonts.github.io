@@ -2244,8 +2244,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/bengali",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 8,
   "issues": [
+   {
+    "number": 26,
+    "title": "Microsoft Excel-\u098f Noto Sans Bengali \u09ab\u09a8\u09cd\u099f\u09c7\u09b0 Bold \u09b8\u0982\u09b8\u09cd\u0995\u09b0\u09a3 \u09ad\u09c1\u09b2\u09ad\u09be\u09ac\u09c7 \u09b0\u09c7\u09a8\u09cd\u09a1\u09be\u09b0 \u09b9\u099a\u09cd\u099b\u09c7",
+    "url": "https://github.com/notofonts/bengali/issues/26"
+   },
    {
     "number": 25,
     "title": "Request to support conjuncts for Prakrit and Pali",
