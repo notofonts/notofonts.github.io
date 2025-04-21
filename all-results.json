@@ -519,6 +519,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-04-19T14:27:49Z",
+  "repo": "bengali",
+  "tier": 1,
+  "url": "https://github.com/notofonts/bengali/issues/26"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2018-11-11T17:38:48Z",
   "repo": "bhaiksuki",
   "tier": 5,
@@ -754,6 +761,20 @@
   "repo": "devanagari",
   "tier": 1,
   "url": "https://github.com/notofonts/devanagari/issues/51"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-04-14T10:52:00Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/52"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-04-16T05:51:44Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/53"
  },
  {
   "closedAt": null,
@@ -2773,6 +2794,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-04-15T18:52:15Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/517"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -4240,6 +4268,13 @@
   "repo": "syloti-nagri",
   "tier": 3,
   "url": "https://github.com/notofonts/syloti-nagri/issues/5"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2018-03-02T00:32:58Z",
+  "repo": "symbols",
+  "tier": 3,
+  "url": "https://github.com/notofonts/symbols/issues/11"
  },
  {
   "closedAt": null,
