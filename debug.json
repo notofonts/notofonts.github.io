@@ -10837,8 +10837,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 126,
+  "issue_count": 127,
   "issues": [
+   {
+    "number": 518,
+    "title": "Lowercase f and interrogation mark (?) overlap a little",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/518"
+   },
    {
     "number": 517,
     "title": "Multiple Diacritics Don't Attach to Uppercase in Terminal Emulators",

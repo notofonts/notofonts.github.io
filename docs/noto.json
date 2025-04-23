@@ -9038,6 +9038,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 518,
+    "title": "Lowercase f and interrogation mark (?) overlap a little",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/518"
+   },
+   {
     "number": 517,
     "title": "Multiple Diacritics Don't Attach to Uppercase in Terminal Emulators",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/517"
