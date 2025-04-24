@@ -16375,8 +16375,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/rejang",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 4,
+    "title": "Form of JA is incorrect.",
+    "url": "https://github.com/notofonts/rejang/issues/4"
+   },
    {
     "number": 1,
     "title": "Overlapping marks in Rejang",

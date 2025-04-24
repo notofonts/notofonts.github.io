@@ -13116,6 +13116,11 @@
   "gh_url": "https://notofonts.github.io/rejang",
   "issues": [
    {
+    "number": 4,
+    "title": "Form of JA is incorrect.",
+    "url": "https://github.com/notofonts/rejang/issues/4"
+   },
+   {
     "number": 1,
     "title": "Overlapping marks in Rejang",
     "url": "https://github.com/notofonts/rejang/issues/1"
