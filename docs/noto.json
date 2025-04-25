@@ -1851,6 +1851,11 @@
   "gh_url": "https://notofonts.github.io/bengali",
   "issues": [
    {
+    "number": 27,
+    "title": "Stretching of '\u09bf' (i-kar) looks unnatural with wide consonants like \u09b2 or conjuncts like \u09ae\u09cd\u09aa",
+    "url": "https://github.com/notofonts/bengali/issues/27"
+   },
+   {
     "number": 26,
     "title": "Microsoft Excel-\u098f Noto Sans Bengali \u09ab\u09a8\u09cd\u099f\u09c7\u09b0 Bold \u09b8\u0982\u09b8\u09cd\u0995\u09b0\u09a3 \u09ad\u09c1\u09b2\u09ad\u09be\u09ac\u09c7 \u09b0\u09c7\u09a8\u09cd\u09a1\u09be\u09b0 \u09b9\u099a\u09cd\u099b\u09c7",
     "url": "https://github.com/notofonts/bengali/issues/26"
@@ -13115,11 +13120,6 @@
   },
   "gh_url": "https://notofonts.github.io/rejang",
   "issues": [
-   {
-    "number": 4,
-    "title": "Form of JA is incorrect.",
-    "url": "https://github.com/notofonts/rejang/issues/4"
-   },
    {
     "number": 1,
     "title": "Overlapping marks in Rejang",
