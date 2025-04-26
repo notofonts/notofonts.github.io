@@ -3841,8 +3841,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/devanagari",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 8,
   "issues": [
+   {
+    "number": 54,
+    "title": "Halant and comma overlap",
+    "url": "https://github.com/notofonts/devanagari/issues/54"
+   },
    {
     "number": 53,
     "title": "Anusvara overlap",

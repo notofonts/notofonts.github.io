@@ -3006,6 +3006,11 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
+    "number": 54,
+    "title": "Halant and comma overlap",
+    "url": "https://github.com/notofonts/devanagari/issues/54"
+   },
+   {
     "number": 53,
     "title": "Anusvara overlap",
     "url": "https://github.com/notofonts/devanagari/issues/53"
