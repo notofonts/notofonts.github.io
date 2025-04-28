@@ -526,6 +526,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-04-24T20:50:12Z",
+  "repo": "bengali",
+  "tier": 1,
+  "url": "https://github.com/notofonts/bengali/issues/27"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2018-11-11T17:38:48Z",
   "repo": "bhaiksuki",
   "tier": 5,
@@ -775,6 +782,13 @@
   "repo": "devanagari",
   "tier": 1,
   "url": "https://github.com/notofonts/devanagari/issues/53"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-04-25T14:29:15Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/54"
  },
  {
   "closedAt": null,
@@ -2801,6 +2815,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-04-22T22:55:18Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/518"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -4072,6 +4093,13 @@
   "repo": "rejang",
   "tier": 3,
   "url": "https://github.com/notofonts/rejang/issues/1"
+ },
+ {
+  "closedAt": "2025-04-24T05:20:18Z",
+  "createdAt": "2025-04-23T13:29:46Z",
+  "repo": "rejang",
+  "tier": 3,
+  "url": "https://github.com/notofonts/rejang/issues/4"
  },
  {
   "closedAt": null,
