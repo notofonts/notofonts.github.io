@@ -3841,8 +3841,18 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/devanagari",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 10,
   "issues": [
+   {
+    "number": 56,
+    "title": "Candrabindu Overlap",
+    "url": "https://github.com/notofonts/devanagari/issues/56"
+   },
+   {
+    "number": 55,
+    "title": "Quotation marks default to typewriter quotes",
+    "url": "https://github.com/notofonts/devanagari/issues/55"
+   },
    {
     "number": 54,
     "title": "Halant and comma overlap",
@@ -6651,8 +6661,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/hanunoo",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 4,
+    "title": "The vowel forms are not correct for U+172D",
+    "url": "https://github.com/notofonts/hanunoo/issues/4"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/hanunoo",
   "tier": 3,
   "title": "Noto Hanunoo"
