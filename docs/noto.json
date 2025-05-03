@@ -9064,6 +9064,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 520,
+    "title": "Are combiners combining correctly?",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/520"
+   },
+   {
     "number": 518,
     "title": "Lowercase f and interrogation mark (?) overlap a little",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/518"
