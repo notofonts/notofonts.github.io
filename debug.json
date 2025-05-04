@@ -10863,13 +10863,8 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 128,
+  "issue_count": 127,
   "issues": [
-   {
-    "number": 520,
-    "title": "Are combiners combining correctly?",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/520"
-   },
    {
     "number": 518,
     "title": "Lowercase f and interrogation mark (?) overlap a little",
