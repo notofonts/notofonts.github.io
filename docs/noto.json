@@ -12359,6 +12359,16 @@
   "gh_url": "https://notofonts.github.io/old-hungarian",
   "issues": [
    {
+    "number": 27,
+    "title": "Removed Old Hungarian \"ij\" from dligs",
+    "url": "https://github.com/notofonts/old-hungarian/pull/27"
+   },
+   {
+    "number": 25,
+    "title": "Must remove small \"ij\" ligature from dligs section. It's reserved for \"y\"",
+    "url": "https://github.com/notofonts/old-hungarian/issues/25"
+   },
+   {
     "number": 23,
     "title": "ligature \"ti\" looks like ligature \"tii\"",
     "url": "https://github.com/notofonts/old-hungarian/issues/23"
