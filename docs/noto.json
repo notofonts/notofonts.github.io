@@ -9064,6 +9064,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 521,
+    "title": "[Request] Add Latin Capital Letter Lambda (\ua7da, U+A7DA), Latin Small Letter Lambda (\ua7db, U+A7DB), and Latin Capital Letter Lambda With Stroke (\ua7dc, U+A7DC) to Noto Sans, Noto Serif, and Noto Mono",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/521"
+   },
+   {
     "number": 518,
     "title": "Lowercase f and interrogation mark (?) overlap a little",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/518"
