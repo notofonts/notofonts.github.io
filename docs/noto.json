@@ -9064,6 +9064,16 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 523,
+    "title": "Combining Turned Comma Above (\u25cc\u0312, U+0312), Combining Comma Above (\u25cc\u0313, U+0313) and Combining Reversed Comma Above (\u25cc\u0314, U+0314) are rendered too big in Noto Sans",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/523"
+   },
+   {
+    "number": 522,
+    "title": "Inconsistent Design of tcaron (\u0165) in Noto Sans Upright and Italic",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/522"
+   },
+   {
     "number": 521,
     "title": "[Request] Add Latin Capital Letter Lambda (\ua7da, U+A7DA), Latin Small Letter Lambda (\ua7db, U+A7DB), and Latin Capital Letter Lambda With Stroke (\ua7dc, U+A7DC) to Noto Sans, Noto Serif, and Noto Mono",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/521"
