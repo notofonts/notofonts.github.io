@@ -10863,7 +10863,7 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 130,
+  "issue_count": 131,
   "issues": [
    {
     "number": 523,
@@ -10879,6 +10879,11 @@
     "number": 521,
     "title": "[Request] Add Latin Capital Letter Lambda (\ua7da, U+A7DA), Latin Small Letter Lambda (\ua7db, U+A7DB), and Latin Capital Letter Lambda With Stroke (\ua7dc, U+A7DC) to Noto Sans, Noto Serif, and Noto Mono",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/521"
+   },
+   {
+    "number": 520,
+    "title": "Are combiners combining correctly?",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/520"
    },
    {
     "number": 518,
