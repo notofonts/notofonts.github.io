@@ -9064,11 +9064,6 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
-    "number": 523,
-    "title": "Combining Turned Comma Above (\u25cc\u0312, U+0312), Combining Comma Above (\u25cc\u0313, U+0313) and Combining Reversed Comma Above (\u25cc\u0314, U+0314) are rendered too big in Noto Sans",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/523"
-   },
-   {
     "number": 522,
     "title": "Inconsistent Design of tcaron (\u0165) in Noto Sans Upright and Italic",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/522"
