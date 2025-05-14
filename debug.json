@@ -4028,8 +4028,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/dogra",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 14,
+    "title": "Addition of digits",
+    "url": "https://github.com/notofonts/dogra/issues/14"
+   },
    {
     "number": 7,
     "title": "Conjuncts are to be added in the Dogra font",

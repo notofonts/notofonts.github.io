@@ -3158,6 +3158,11 @@
   "gh_url": "https://notofonts.github.io/dogra",
   "issues": [
    {
+    "number": 14,
+    "title": "Addition of digits",
+    "url": "https://github.com/notofonts/dogra/issues/14"
+   },
+   {
     "number": 7,
     "title": "Conjuncts are to be added in the Dogra font",
     "url": "https://github.com/notofonts/dogra/issues/7"
