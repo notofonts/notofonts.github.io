@@ -11952,6 +11952,11 @@
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
+    "number": 80,
+    "title": "Kasratan overlap",
+    "url": "https://github.com/notofonts/nastaliq/issues/80"
+   },
+   {
     "number": 77,
     "title": "Position of small v on ARABIC LETTER LAM WITH SMALL V",
     "url": "https://github.com/notofonts/nastaliq/issues/77"
