@@ -17820,6 +17820,17 @@
   "tier": 3,
   "title": "Noto Sundanese"
  },
+ "sunuwar": {
+  "families": {},
+  "families_count": 0,
+  "gh_url": "https://notofonts.github.io/sunuwar",
+  "has_releases": false,
+  "issue_count": 0,
+  "issues": [],
+  "repo_url": "https://www.github.com/notofonts/sunuwar",
+  "tier": 3,
+  "title": "Sunuwar font"
+ },
  "syloti-nagri": {
   "families": {
    "Noto Sans Syloti Nagri": {
