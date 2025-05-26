@@ -792,6 +792,27 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-04-28T03:38:55Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/55"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-04-28T18:18:04Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/56"
+ },
+ {
+  "closedAt": "2025-05-10T11:43:36Z",
+  "createdAt": "2025-05-10T07:27:46Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/57"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2022-04-22T19:51:54Z",
   "repo": "dives-akuru",
   "tier": 5,
@@ -859,6 +880,13 @@
   "repo": "dogra",
   "tier": 4,
   "url": "https://github.com/notofonts/dogra/issues/7"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-05-13T05:43:33Z",
+  "repo": "dogra",
+  "tier": 4,
+  "url": "https://github.com/notofonts/dogra/issues/14"
  },
  {
   "closedAt": null,
@@ -1174,6 +1202,13 @@
   "repo": "hanunoo",
   "tier": 3,
   "url": "https://github.com/notofonts/hanunoo/issues/1"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-04-29T04:28:01Z",
+  "repo": "hanunoo",
+  "tier": 3,
+  "url": "https://github.com/notofonts/hanunoo/issues/4"
  },
  {
   "closedAt": null,
@@ -2821,6 +2856,41 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/518"
  },
  {
+  "closedAt": "2025-04-28T19:21:28Z",
+  "createdAt": "2025-04-28T17:50:29Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/519"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-05-03T00:40:10Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/520"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-05-07T13:51:40Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/521"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-05-08T04:51:53Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/522"
+ },
+ {
+  "closedAt": "2025-05-11T18:23:18Z",
+  "createdAt": "2025-05-09T00:21:15Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/523"
+ },
+ {
   "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
@@ -3858,6 +3928,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-05-15T09:17:13Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/80"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-06-27T16:18:47Z",
   "repo": "nko",
   "tier": 3,
@@ -3939,6 +4016,13 @@
   "repo": "old-hungarian",
   "tier": 4,
   "url": "https://github.com/notofonts/old-hungarian/issues/23"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-05-06T15:03:34Z",
+  "repo": "old-hungarian",
+  "tier": 4,
+  "url": "https://github.com/notofonts/old-hungarian/issues/25"
  },
  {
   "closedAt": null,
