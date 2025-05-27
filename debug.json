@@ -1425,8 +1425,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/armenian",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 14,
+    "title": "Armenian Capital Letter Ho looks weird.",
+    "url": "https://github.com/notofonts/armenian/issues/14"
+   },
    {
     "number": 3,
     "title": "Italic (cursive) variants of Georgian and Armenian",
@@ -10868,8 +10873,23 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 130,
+  "issue_count": 133,
   "issues": [
+   {
+    "number": 526,
+    "title": "Latin small letter av with horizontal bar looks ugly.",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/526"
+   },
+   {
+    "number": 525,
+    "title": "Latin Small Letter L with Inverted Lazy S: the lazy is should NOT be rounded.",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/525"
+   },
+   {
+    "number": 524,
+    "title": "Letter small aa (U+A733) looks defective and ugly.",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/524"
+   },
    {
     "number": 522,
     "title": "Inconsistent Design of tcaron (\u0165) in Noto Sans Upright and Italic",
