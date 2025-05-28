@@ -2147,7 +2147,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/canadian-aboriginal",
-  "issues": [],
+  "issues": [
+   {
+    "number": 9,
+    "title": "The glyph \u150c is not correct",
+    "url": "https://github.com/notofonts/canadian-aboriginal/issues/9"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/canadian-aboriginal",
   "tier": 3,
   "title": "Noto Canadian Aboriginal"
@@ -9073,6 +9079,16 @@
   },
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
+   {
+    "number": 528,
+    "title": "Alternative sets for \u010f, \u013d, \u013e, \u0165 (Noto Serif Only)",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/528"
+   },
+   {
+    "number": 527,
+    "title": "There are many wrong glyphs in Cyrillic",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/527"
+   },
    {
     "number": 526,
     "title": "Latin small letter av with horizontal bar looks ugly.",
