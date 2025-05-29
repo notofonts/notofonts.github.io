@@ -1226,11 +1226,6 @@
   "gh_url": "https://notofonts.github.io/armenian",
   "issues": [
    {
-    "number": 14,
-    "title": "Armenian Capital Letter Ho looks weird.",
-    "url": "https://github.com/notofonts/armenian/issues/14"
-   },
-   {
     "number": 3,
     "title": "Italic (cursive) variants of Georgian and Armenian",
     "url": "https://github.com/notofonts/armenian/issues/3"
