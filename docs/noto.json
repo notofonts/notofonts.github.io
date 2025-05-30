@@ -2142,13 +2142,7 @@
    }
   },
   "gh_url": "https://notofonts.github.io/canadian-aboriginal",
-  "issues": [
-   {
-    "number": 9,
-    "title": "The glyph \u150c is not correct",
-    "url": "https://github.com/notofonts/canadian-aboriginal/issues/9"
-   }
-  ],
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/canadian-aboriginal",
   "tier": 3,
   "title": "Noto Canadian Aboriginal"
@@ -9074,6 +9068,11 @@
   },
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
+   {
+    "number": 529,
+    "title": "Large type pieces are not uniform width in Noto Sans Mono",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/529"
+   },
    {
     "number": 528,
     "title": "Alternative sets for \u010f, \u013d, \u013e, \u0165 (Noto Serif Only)",
@@ -16418,6 +16417,11 @@
   },
   "gh_url": "https://notofonts.github.io/thaana",
   "issues": [
+   {
+    "number": 5,
+    "title": "Basic Latin Punctuation is not aligned correctly",
+    "url": "https://github.com/notofonts/thaana/issues/5"
+   },
    {
     "number": 4,
     "title": "Noto Sans Thaana font no longer following Faruma style (?)",
