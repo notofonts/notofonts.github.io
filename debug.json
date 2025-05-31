@@ -10868,13 +10868,8 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 136,
+  "issue_count": 135,
   "issues": [
-   {
-    "number": 529,
-    "title": "Large type pieces are not uniform width in Noto Sans Mono",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/529"
-   },
    {
     "number": 528,
     "title": "Alternative sets for \u010f, \u013d, \u013e, \u0165 (Noto Serif Only)",
