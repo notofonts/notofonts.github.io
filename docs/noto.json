@@ -3087,6 +3087,11 @@
   "gh_url": "https://notofonts.github.io/dives-akuru",
   "issues": [
    {
+    "number": 23,
+    "title": "IPA Non-syllabic Diacritic Misaligned under \"u\" in Noto Serif",
+    "url": "https://github.com/notofonts/dives-akuru/issues/23"
+   },
+   {
     "number": 22,
     "title": "Reserved code point U+11939 should not have a glyph",
     "url": "https://github.com/notofonts/dives-akuru/issues/22"
