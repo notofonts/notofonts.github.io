@@ -357,6 +357,13 @@
   "url": "https://github.com/notofonts/armenian/issues/12"
  },
  {
+  "closedAt": "2025-05-28T06:58:33Z",
+  "createdAt": "2025-05-26T23:56:46Z",
+  "repo": "armenian",
+  "tier": 1,
+  "url": "https://github.com/notofonts/armenian/issues/14"
+ },
+ {
   "closedAt": null,
   "createdAt": "2018-10-12T07:48:44Z",
   "repo": "balinese",
@@ -607,6 +614,13 @@
   "repo": "canadian-aboriginal",
   "tier": 3,
   "url": "https://github.com/notofonts/canadian-aboriginal/issues/7"
+ },
+ {
+  "closedAt": "2025-05-29T15:10:18Z",
+  "createdAt": "2025-05-28T00:30:37Z",
+  "repo": "canadian-aboriginal",
+  "tier": 3,
+  "url": "https://github.com/notofonts/canadian-aboriginal/issues/9"
  },
  {
   "closedAt": null,
@@ -875,6 +889,13 @@
   "url": "https://github.com/notofonts/dives-akuru/issues/22"
  },
  {
+  "closedAt": "2025-06-01T06:00:18Z",
+  "createdAt": "2025-06-01T00:30:30Z",
+  "repo": "dives-akuru",
+  "tier": 5,
+  "url": "https://github.com/notofonts/dives-akuru/issues/23"
+ },
+ {
   "closedAt": null,
   "createdAt": "2022-06-24T18:03:13Z",
   "repo": "dogra",
@@ -999,6 +1020,13 @@
   "repo": "egyptian-hieroglyphs",
   "tier": 4,
   "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/17"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-06-01T15:01:30Z",
+  "repo": "egyptian-hieroglyphs",
+  "tier": 4,
+  "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/18"
  },
  {
   "closedAt": null,
@@ -2892,6 +2920,55 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-05-26T05:40:37Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/524"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-05-26T05:46:26Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/525"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-05-26T05:52:20Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/526"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-05-28T00:15:15Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/527"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-05-28T00:26:57Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/528"
+ },
+ {
+  "closedAt": "2025-05-30T04:21:52Z",
+  "createdAt": "2025-05-29T23:32:20Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/529"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-06-01T06:01:46Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/530"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -4716,6 +4793,13 @@
   "repo": "thaana",
   "tier": 3,
   "url": "https://github.com/notofonts/thaana/issues/4"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-05-30T00:15:17Z",
+  "repo": "thaana",
+  "tier": 3,
+  "url": "https://github.com/notofonts/thaana/issues/5"
  },
  {
   "closedAt": null,
