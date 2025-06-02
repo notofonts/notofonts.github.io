@@ -3937,13 +3937,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/dives-akuru",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 8,
   "issues": [
-   {
-    "number": 23,
-    "title": "IPA Non-syllabic Diacritic Misaligned under \"u\" in Noto Serif",
-    "url": "https://github.com/notofonts/dives-akuru/issues/23"
-   },
    {
     "number": 22,
     "title": "Reserved code point U+11939 should not have a glyph",
@@ -4167,8 +4162,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 8,
   "issues": [
+   {
+    "number": 18,
+    "title": "U17 review",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/18"
+   },
    {
     "number": 17,
     "title": "Egyptian-Hieroglyphs-Extended-A (13460-U+143FF)",
@@ -10873,8 +10873,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 135,
+  "issue_count": 136,
   "issues": [
+   {
+    "number": 530,
+    "title": "IPA Non-syllabic Diacritic Misaligned under \"u\" in Noto Serif",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/530"
+   },
    {
     "number": 528,
     "title": "Alternative sets for \u010f, \u013d, \u013e, \u0165 (Noto Serif Only)",
