@@ -65,6 +65,11 @@
   "gh_url": "https://notofonts.github.io/adlam",
   "issues": [
    {
+    "number": 17,
+    "title": "U17: reform",
+    "url": "https://github.com/notofonts/adlam/issues/17"
+   },
+   {
     "number": 16,
     "title": "U+1E923 ADLAM SMALL LETTER DAALI\u2019s ascender is contextualized differently in the two fonts",
     "url": "https://github.com/notofonts/adlam/issues/16"
