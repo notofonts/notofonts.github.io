@@ -4167,8 +4167,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 9,
   "issues": [
+   {
+    "number": 19,
+    "title": "U17",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/pull/19"
+   },
    {
     "number": 18,
     "title": "U17 review",

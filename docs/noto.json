@@ -3242,6 +3242,11 @@
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "issues": [
    {
+    "number": 19,
+    "title": "U17",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/pull/19"
+   },
+   {
     "number": 18,
     "title": "U17 review",
     "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/18"
