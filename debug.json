@@ -3233,8 +3233,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/cuneiform",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 3,
+    "title": "U16",
+    "url": "https://github.com/notofonts/cuneiform/pull/3"
+   },
    {
     "number": 2,
     "title": "U+12326 and U+12327 are swapped",

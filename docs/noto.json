@@ -2500,6 +2500,11 @@
   "gh_url": "https://notofonts.github.io/cuneiform",
   "issues": [
    {
+    "number": 3,
+    "title": "U16",
+    "url": "https://github.com/notofonts/cuneiform/pull/3"
+   },
+   {
     "number": 2,
     "title": "U+12326 and U+12327 are swapped",
     "url": "https://github.com/notofonts/cuneiform/issues/2"
