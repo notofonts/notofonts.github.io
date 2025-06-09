@@ -15,6 +15,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-06-02T18:05:28Z",
+  "repo": "adlam",
+  "tier": 2,
+  "url": "https://github.com/notofonts/adlam/issues/17"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-09-28T01:59:53Z",
   "repo": "ahom",
   "tier": 3,
@@ -1022,11 +1029,18 @@
   "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/17"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-06-05T14:53:09Z",
   "createdAt": "2025-06-01T15:01:30Z",
   "repo": "egyptian-hieroglyphs",
   "tier": 4,
   "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/18"
+ },
+ {
+  "closedAt": "2025-06-05T18:58:13Z",
+  "createdAt": "2025-06-05T17:42:20Z",
+  "repo": "egyptian-hieroglyphs",
+  "tier": 4,
+  "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/20"
  },
  {
   "closedAt": null,
