@@ -11721,7 +11721,29 @@
    "NotoSansSundanese-v2.005"
   ]
  },
- "sunuwar": {},
+ "sunuwar": {
+  "families": {
+   "Noto Sans Sunuwar": {
+    "files": [
+     "fonts/NotoSansSunuwar/hinted/ttf/NotoSansSunuwar-Regular.ttf",
+     "fonts/NotoSansSunuwar/googlefonts/ttf/NotoSansSunuwar-Regular.ttf",
+     "fonts/NotoSansSunuwar/unhinted/ttf/NotoSansSunuwar-Regular.ttf",
+     "fonts/NotoSansSunuwar/unhinted/otf/NotoSansSunuwar-Regular.otf",
+     "fonts/NotoSansSunuwar/full/ttf/NotoSansSunuwar-Regular.ttf",
+     "fonts/NotoSansSunuwar/full/otf/NotoSansSunuwar-Regular.otf"
+    ],
+    "latest_release": {
+     "notes": "Noto Sans Sunuwar v1.000\n\nThis is the first release of Noto Sans Sunuwar. Thanks to the Script Encoding Initiative for providing this font.\n",
+     "published": "2025-06-10T16:41:13+00:00",
+     "url": "https://github.com/notofonts/sunuwar/releases/tag/NotoSansSunuwar-v1.000",
+     "version": "v1.000"
+    }
+   }
+  },
+  "known_releases": [
+   "NotoSansSunuwar-v1.000"
+  ]
+ },
  "syloti-nagri": {
   "families": {
    "Noto Sans Syloti Nagri": {

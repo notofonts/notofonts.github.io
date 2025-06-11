@@ -3233,18 +3233,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/cuneiform",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 3,
-    "title": "U16",
-    "url": "https://github.com/notofonts/cuneiform/pull/3"
-   },
-   {
-    "number": 2,
-    "title": "U+12326 and U+12327 are swapped",
-    "url": "https://github.com/notofonts/cuneiform/issues/2"
-   },
    {
     "number": 1,
     "title": "Some glyphs do not show up in Adobe products",
@@ -17861,10 +17851,32 @@
   "title": "Noto Sundanese"
  },
  "sunuwar": {
-  "families": {},
-  "families_count": 0,
+  "families": {
+   "Noto Sans Sunuwar": {
+    "files": {
+     "full": [
+      "fonts/NotoSansSunuwar/full/otf/NotoSansSunuwar-Regular.otf",
+      "fonts/NotoSansSunuwar/full/ttf/NotoSansSunuwar-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSansSunuwar/hinted/ttf/NotoSansSunuwar-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSansSunuwar/unhinted/otf/NotoSansSunuwar-Regular.otf",
+      "fonts/NotoSansSunuwar/unhinted/ttf/NotoSansSunuwar-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Sans Sunuwar v1.000\n\nThis is the first release of Noto Sans Sunuwar. Thanks to the Script Encoding Initiative for providing this font.\n",
+     "published": "2025-06-10T16:41:13+00:00",
+     "url": "https://github.com/notofonts/sunuwar/releases/tag/NotoSansSunuwar-v1.000",
+     "version": "v1.000"
+    }
+   }
+  },
+  "families_count": 1,
   "gh_url": "https://notofonts.github.io/sunuwar",
-  "has_releases": false,
+  "has_releases": true,
   "issue_count": 0,
   "issues": [],
   "repo_url": "https://www.github.com/notofonts/sunuwar",
