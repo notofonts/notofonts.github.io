@@ -721,6 +721,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 264,
+    "title": "Small damma overlap",
+    "url": "https://github.com/notofonts/arabic/issues/264"
+   },
+   {
     "number": 263,
     "title": "Adding the Dirham symbol to Noto Sans project",
     "url": "https://github.com/notofonts/arabic/issues/263"

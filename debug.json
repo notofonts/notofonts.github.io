@@ -873,8 +873,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 20,
+  "issue_count": 21,
   "issues": [
+   {
+    "number": 264,
+    "title": "Small damma overlap",
+    "url": "https://github.com/notofonts/arabic/issues/264"
+   },
    {
     "number": 263,
     "title": "Adding the Dirham symbol to Noto Sans project",
