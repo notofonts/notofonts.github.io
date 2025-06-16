@@ -344,6 +344,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-06-11T04:20:51Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/264"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2021-05-06T04:03:47Z",
   "repo": "armenian",
   "tier": 1,
@@ -672,11 +679,18 @@
   "url": "https://github.com/notofonts/cuneiform/issues/1"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-06-10T12:03:56Z",
   "createdAt": "2024-06-11T14:15:55Z",
   "repo": "cuneiform",
   "tier": 4,
   "url": "https://github.com/notofonts/cuneiform/issues/2"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-06-15T23:01:19Z",
+  "repo": "cuneiform",
+  "tier": 4,
+  "url": "https://github.com/notofonts/cuneiform/issues/4"
  },
  {
   "closedAt": "2024-09-11T15:32:34Z",

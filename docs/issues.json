@@ -5,13 +5,13 @@
   "3": 1,
   "4": 3,
   "5": 5,
-  "6": 3
+  "6": 4
  },
  "open_per_repo": {
   "adlam": 3,
   "ahom": 6,
   "anatolian-hieroglyphs": 1,
-  "arabic": 19,
+  "arabic": 20,
   "armenian": 1,
   "balinese": 4,
   "batak": 4,
@@ -102,7 +102,7 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 227,
+  "1": 228,
   "2": 49,
   "3": 113,
   "4": 60,
@@ -114,7 +114,7 @@
   "3": 13,
   "4": 23,
   "5": 17,
-  "6": 5
+  "6": 7
  },
  "releases_per_month": {
   "1": [
@@ -335,6 +335,10 @@
    {
     "tag": "NotoSansNagMundari-v1.001",
     "url": "https://github.com/notofonts/nag-mundari/releases/tag/NotoSansNagMundari-v1.001"
+   },
+   {
+    "tag": "NotoSansSunuwar-v1.000",
+    "url": "https://github.com/notofonts/sunuwar/releases/tag/NotoSansSunuwar-v1.000"
    }
   ],
   "7": [
