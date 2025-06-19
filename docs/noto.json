@@ -2505,11 +2505,6 @@
   "gh_url": "https://notofonts.github.io/cuneiform",
   "issues": [
    {
-    "number": 4,
-    "title": "Does not build",
-    "url": "https://github.com/notofonts/cuneiform/issues/4"
-   },
-   {
     "number": 1,
     "title": "Some glyphs do not show up in Adobe products",
     "url": "https://github.com/notofonts/cuneiform/issues/1"
