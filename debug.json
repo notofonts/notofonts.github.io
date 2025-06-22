@@ -3846,8 +3846,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/devanagari",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 11,
   "issues": [
+   {
+    "number": 58,
+    "title": "Overlap of dirgha ii with cadrabindu and anusvara",
+    "url": "https://github.com/notofonts/devanagari/issues/58"
+   },
    {
     "number": 56,
     "title": "Candrabindu Overlap",

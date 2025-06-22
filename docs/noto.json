@@ -3011,6 +3011,11 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
+    "number": 58,
+    "title": "Overlap of dirgha ii with cadrabindu and anusvara",
+    "url": "https://github.com/notofonts/devanagari/issues/58"
+   },
+   {
     "number": 56,
     "title": "Candrabindu Overlap",
     "url": "https://github.com/notofonts/devanagari/issues/56"
