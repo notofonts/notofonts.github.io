@@ -686,7 +686,7 @@
   "url": "https://github.com/notofonts/cuneiform/issues/2"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-06-18T13:23:15Z",
   "createdAt": "2025-06-15T23:01:19Z",
   "repo": "cuneiform",
   "tier": 4,
@@ -845,6 +845,13 @@
   "repo": "devanagari",
   "tier": 1,
   "url": "https://github.com/notofonts/devanagari/issues/57"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-06-21T16:06:07Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/58"
  },
  {
   "closedAt": null,
