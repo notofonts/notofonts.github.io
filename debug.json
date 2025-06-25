@@ -10881,6 +10881,11 @@
   "issue_count": 136,
   "issues": [
    {
+    "number": 532,
+    "title": "Two commits went missing",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/532"
+   },
+   {
     "number": 530,
     "title": "IPA Non-syllabic Diacritic Misaligned under \"u\" in Noto Serif",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/530"
@@ -11034,11 +11039,6 @@
     "number": 460,
     "title": "U+1D5E and U+1D60 are subscript instead of superscript in Noto Serif",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/460"
-   },
-   {
-    "number": 458,
-    "title": "Kerning inconsistency in Cyrillic",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/458"
    },
    {
     "number": 455,
@@ -14558,8 +14558,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 11,
+  "issue_count": 12,
   "issues": [
+   {
+    "number": 81,
+    "title": "Shadda/Kaf overlap in Bold weight",
+    "url": "https://github.com/notofonts/nastaliq/issues/81"
+   },
    {
     "number": 80,
     "title": "Kasratan overlap",
