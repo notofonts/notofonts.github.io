@@ -1279,20 +1279,21 @@
      "fonts/NotoSansBatak/unhinted/otf/NotoSansBatak-Regular.otf",
      "fonts/NotoSansBatak/full/ttf/NotoSansBatak-Regular.ttf",
      "fonts/NotoSansBatak/full/otf/NotoSansBatak-Regular.otf",
-     "fonts/NotoSansBatak/hinted/ttf/NotoSansBatak-Regular.ttf",
-     "fonts/NotoSansBatak/googlefonts/ttf/NotoSansBatak-Regular.ttf"
+     "fonts/NotoSansBatak/googlefonts/ttf/NotoSansBatak-Regular.ttf",
+     "fonts/NotoSansBatak/hinted/ttf/NotoSansBatak-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Batak 2.003\n\nThis release:\n\n* Adds a default languagesystem tag (#11)\n* Swaps postvowel and ng (#8)\n",
-     "published": "2023-09-25T09:27:41",
-     "url": "https://github.com/notofonts/batak/releases/tag/NotoSansBatak-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Batak v2.004\n\nThis release fixes a number of ligature forms of the u-vowel. (#7)\n",
+     "published": "2025-06-25T17:01:25+00:00",
+     "url": "https://github.com/notofonts/batak/releases/tag/NotoSansBatak-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "known_releases": [
    "NotoSansBatak-v2.002",
-   "NotoSansBatak-v2.003"
+   "NotoSansBatak-v2.003",
+   "NotoSansBatak-v2.004"
   ]
  },
  "bengali": {

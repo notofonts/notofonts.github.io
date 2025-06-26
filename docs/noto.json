@@ -1481,10 +1481,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Batak 2.003\n\nThis release:\n\n* Adds a default languagesystem tag (#11)\n* Swaps postvowel and ng (#8)\n",
-     "published": "2023-09-25T09:27:41",
-     "url": "https://github.com/notofonts/batak/releases/tag/NotoSansBatak-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Batak v2.004\n\nThis release fixes a number of ligature forms of the u-vowel. (#7)\n",
+     "published": "2025-06-25T17:01:25+00:00",
+     "url": "https://github.com/notofonts/batak/releases/tag/NotoSansBatak-v2.004",
+     "version": "v2.004"
     }
    }
   },
@@ -2152,7 +2152,28 @@
    }
   },
   "gh_url": "https://notofonts.github.io/canadian-aboriginal",
-  "issues": [],
+  "issues": [
+   {
+    "number": 14,
+    "title": "Spacing between syllabics",
+    "url": "https://github.com/notofonts/canadian-aboriginal/issues/14"
+   },
+   {
+    "number": 13,
+    "title": "Modifier Turned h is missing",
+    "url": "https://github.com/notofonts/canadian-aboriginal/issues/13"
+   },
+   {
+    "number": 12,
+    "title": "Incorrect placement for 'raised dot'",
+    "url": "https://github.com/notofonts/canadian-aboriginal/issues/12"
+   },
+   {
+    "number": 11,
+    "title": "Square Form and Naskapi Spwa alternative form",
+    "url": "https://github.com/notofonts/canadian-aboriginal/issues/11"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/canadian-aboriginal",
   "tier": 3,
   "title": "Noto Canadian Aboriginal"
@@ -9078,6 +9099,11 @@
   },
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
+   {
+    "number": 533,
+    "title": "Ukrainian Yi is broken... again",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/533"
+   },
    {
     "number": 532,
     "title": "Two commits went missing",
