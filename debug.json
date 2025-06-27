@@ -3867,7 +3867,7 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/devanagari",
   "has_releases": true,
-  "issue_count": 11,
+  "issue_count": 10,
   "issues": [
    {
     "number": 58,
@@ -3878,11 +3878,6 @@
     "number": 56,
     "title": "Candrabindu Overlap",
     "url": "https://github.com/notofonts/devanagari/issues/56"
-   },
-   {
-    "number": 55,
-    "title": "Quotation marks default to typewriter quotes",
-    "url": "https://github.com/notofonts/devanagari/issues/55"
    },
    {
     "number": 54,
