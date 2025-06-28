@@ -2254,8 +2254,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/bengali",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 10,
   "issues": [
+   {
+    "number": 29,
+    "title": "V3.000 Noto Sans Bengali and Noto Serif Bengali",
+    "url": "https://github.com/notofonts/bengali/pull/29"
+   },
    {
     "number": 27,
     "title": "Stretching of '\u09bf' (i-kar) looks unnatural with wide consonants like \u09b2 or conjuncts like \u09ae\u09cd\u09aa",
@@ -11700,8 +11705,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/limbu",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 7,
+    "title": "[\u190c\u1922] U+190C with U+1922",
+    "url": "https://github.com/notofonts/limbu/issues/7"
+   },
    {
     "number": 4,
     "title": "Clusters with multiple spacing marks have extra advance width",
@@ -16049,8 +16059,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/osmanya",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 1,
+    "title": "New weights for Noto Osmanya",
+    "url": "https://github.com/notofonts/osmanya/issues/1"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/osmanya",
   "tier": 3,
   "title": "Noto Osmanya"
@@ -17864,8 +17880,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/sundanese",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 4,
   "issues": [
+   {
+    "number": 11,
+    "title": "The small tail in U+1B86 should not be round",
+    "url": "https://github.com/notofonts/sundanese/issues/11"
+   },
    {
     "number": 10,
     "title": "Incorrect sizing and positioning of panolong, panaelaeng, pamaaeh, and avagraha",
@@ -21710,8 +21731,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/vai",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 1,
+    "title": "New weights",
+    "url": "https://github.com/notofonts/vai/issues/1"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/vai",
   "tier": 3,
   "title": "Noto Vai"
