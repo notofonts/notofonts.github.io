@@ -17880,13 +17880,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/sundanese",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 3,
   "issues": [
-   {
-    "number": 11,
-    "title": "The small tail in U+1B86 should not be round",
-    "url": "https://github.com/notofonts/sundanese/issues/11"
-   },
    {
     "number": 10,
     "title": "Incorrect sizing and positioning of panolong, panaelaeng, pamaaeh, and avagraha",
