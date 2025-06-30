@@ -637,6 +637,41 @@
   "url": "https://github.com/notofonts/canadian-aboriginal/issues/9"
  },
  {
+  "closedAt": "2025-06-25T08:57:26Z",
+  "createdAt": "2025-06-25T08:45:45Z",
+  "repo": "canadian-aboriginal",
+  "tier": 3,
+  "url": "https://github.com/notofonts/canadian-aboriginal/issues/10"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-06-25T09:02:57Z",
+  "repo": "canadian-aboriginal",
+  "tier": 3,
+  "url": "https://github.com/notofonts/canadian-aboriginal/issues/11"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-06-25T12:59:31Z",
+  "repo": "canadian-aboriginal",
+  "tier": 3,
+  "url": "https://github.com/notofonts/canadian-aboriginal/issues/12"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-06-25T13:09:12Z",
+  "repo": "canadian-aboriginal",
+  "tier": 3,
+  "url": "https://github.com/notofonts/canadian-aboriginal/issues/13"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-06-25T23:13:31Z",
+  "repo": "canadian-aboriginal",
+  "tier": 3,
+  "url": "https://github.com/notofonts/canadian-aboriginal/issues/14"
+ },
+ {
   "closedAt": null,
   "createdAt": "2023-09-25T13:21:06Z",
   "repo": "chakma",
@@ -649,6 +684,13 @@
   "repo": "cham",
   "tier": 3,
   "url": "https://github.com/notofonts/cham/issues/10"
+ },
+ {
+  "closedAt": "2025-06-27T11:39:48Z",
+  "createdAt": "2025-06-27T08:18:09Z",
+  "repo": "cherokee",
+  "tier": 3,
+  "url": "https://github.com/notofonts/cherokee/issues/6"
  },
  {
   "closedAt": null,
@@ -826,7 +868,7 @@
   "url": "https://github.com/notofonts/devanagari/issues/54"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-06-26T11:36:13Z",
   "createdAt": "2025-04-28T03:38:55Z",
   "repo": "devanagari",
   "tier": 1,
@@ -2555,7 +2597,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/457"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-06-24T15:48:03Z",
   "createdAt": "2024-01-11T19:13:57Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -3004,6 +3046,20 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-06-24T10:39:36Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/532"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-06-25T09:17:18Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/533"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -3022,6 +3078,13 @@
   "repo": "limbu",
   "tier": 2,
   "url": "https://github.com/notofonts/limbu/issues/6"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-06-27T07:42:04Z",
+  "repo": "limbu",
+  "tier": 2,
+  "url": "https://github.com/notofonts/limbu/issues/7"
  },
  {
   "closedAt": "2024-08-20T14:54:55Z",
@@ -4047,6 +4110,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-06-24T20:17:25Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/81"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-06-27T16:18:47Z",
   "repo": "nko",
   "tier": 3,
@@ -4240,6 +4310,13 @@
   "repo": "oriya",
   "tier": 1,
   "url": "https://github.com/notofonts/oriya/issues/43"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-06-27T07:58:53Z",
+  "repo": "osmanya",
+  "tier": 3,
+  "url": "https://github.com/notofonts/osmanya/issues/1"
  },
  {
   "closedAt": "2024-09-04T10:05:52Z",
@@ -4457,6 +4534,13 @@
   "repo": "sundanese",
   "tier": 3,
   "url": "https://github.com/notofonts/sundanese/issues/10"
+ },
+ {
+  "closedAt": "2025-06-28T05:03:58Z",
+  "createdAt": "2025-06-27T07:53:38Z",
+  "repo": "sundanese",
+  "tier": 3,
+  "url": "https://github.com/notofonts/sundanese/issues/11"
  },
  {
   "closedAt": null,
@@ -5024,6 +5108,13 @@
   "repo": "toto",
   "tier": 3,
   "url": "https://github.com/notofonts/toto/issues/6"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-06-27T08:02:06Z",
+  "repo": "vai",
+  "tier": 3,
+  "url": "https://github.com/notofonts/vai/issues/1"
  },
  {
   "closedAt": "2024-03-07T09:36:36Z",

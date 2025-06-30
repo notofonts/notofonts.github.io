@@ -5,7 +5,7 @@
   "3": 1,
   "4": 3,
   "5": 5,
-  "6": 5
+  "6": 10
  },
  "open_per_repo": {
   "adlam": 3,
@@ -18,11 +18,12 @@
   "bengali": 9,
   "bhaiksuki": 5,
   "brahmi": 4,
+  "canadian-aboriginal": 4,
   "chakma": 1,
   "chorasmian": 1,
   "coptic": 2,
   "cuneiform": 1,
-  "devanagari": 11,
+  "devanagari": 10,
   "dives-akuru": 8,
   "dogra": 2,
   "duployan": 1,
@@ -48,8 +49,8 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 134,
-  "limbu": 1,
+  "latin-greek-cyrillic": 135,
+  "limbu": 2,
   "malayalam": 6,
   "mandaic": 2,
   "manichaean": 3,
@@ -62,7 +63,7 @@
   "myanmar": 32,
   "nag-mundari": 1,
   "nandinagari": 5,
-  "nastaliq": 11,
+  "nastaliq": 12,
   "nko": 1,
   "nushu": 1,
   "old-hungarian": 7,
@@ -71,6 +72,7 @@
   "old-turkic": 1,
   "old-uyghur": 4,
   "oriya": 1,
+  "osmanya": 1,
   "pau-cin-hau": 1,
   "phags-pa": 1,
   "psalter-pahlavi": 1,
@@ -99,12 +101,13 @@
   "tifinagh": 3,
   "tirhuta": 10,
   "toto": 1,
+  "vai": 1,
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 229,
-  "2": 49,
-  "3": 113,
+  "1": 230,
+  "2": 50,
+  "3": 119,
   "4": 59,
   "5": 38
  },
@@ -114,7 +117,7 @@
   "3": 13,
   "4": 23,
   "5": 17,
-  "6": 8
+  "6": 21
  },
  "releases_per_month": {
   "1": [
@@ -283,6 +286,10 @@
    {
     "tag": "NotoSansArabicUI-v2.011",
     "url": "https://github.com/notofonts/arabic/releases/tag/NotoSansArabicUI-v2.011"
+   },
+   {
+    "tag": "NotoSansBatak-v2.004",
+    "url": "https://github.com/notofonts/batak/releases/tag/NotoSansBatak-v2.004"
    },
    {
     "tag": "NotoSansHebrew-v3.001",
