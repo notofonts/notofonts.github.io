@@ -1856,11 +1856,6 @@
   "gh_url": "https://notofonts.github.io/bengali",
   "issues": [
    {
-    "number": 29,
-    "title": "V3.000 Noto Sans Bengali and Noto Serif Bengali",
-    "url": "https://github.com/notofonts/bengali/pull/29"
-   },
-   {
     "number": 27,
     "title": "Stretching of '\u09bf' (i-kar) looks unnatural with wide consonants like \u09b2 or conjuncts like \u09ae\u09cd\u09aa",
     "url": "https://github.com/notofonts/bengali/issues/27"
