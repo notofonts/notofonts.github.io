@@ -1879,26 +1879,6 @@
     "number": 22,
     "title": "UI font has regressions",
     "url": "https://github.com/notofonts/bengali/issues/22"
-   },
-   {
-    "number": 10,
-    "title": "Half forms are not to be used in Bengali",
-    "url": "https://github.com/notofonts/bengali/issues/10"
-   },
-   {
-    "number": 6,
-    "title": "TTA-RA conjunct needs redrawing",
-    "url": "https://github.com/notofonts/bengali/issues/6"
-   },
-   {
-    "number": 2,
-    "title": "Noto Sans Tirhuta and Noto Sans Bengali fonts need knots",
-    "url": "https://github.com/notofonts/bengali/issues/2"
-   },
-   {
-    "number": 1,
-    "title": "Characters needed in Bengali font",
-    "url": "https://github.com/notofonts/bengali/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/bengali",
