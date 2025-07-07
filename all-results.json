@@ -455,7 +455,7 @@
   "url": "https://github.com/notofonts/bamum/issues/2"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-07-01T16:02:19Z",
   "createdAt": "2023-07-10T16:20:47Z",
   "repo": "batak",
   "tier": 3,
@@ -483,28 +483,28 @@
   "url": "https://github.com/notofonts/batak/issues/12"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-07-03T15:11:05Z",
   "createdAt": "2017-12-01T08:17:07Z",
   "repo": "bengali",
   "tier": 1,
   "url": "https://github.com/notofonts/bengali/issues/1"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-07-03T15:14:53Z",
   "createdAt": "2019-01-10T15:21:55Z",
   "repo": "bengali",
   "tier": 1,
   "url": "https://github.com/notofonts/bengali/issues/2"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-07-03T15:14:26Z",
   "createdAt": "2021-04-01T05:06:01Z",
   "repo": "bengali",
   "tier": 1,
   "url": "https://github.com/notofonts/bengali/issues/6"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-07-03T15:12:34Z",
   "createdAt": "2022-06-26T17:33:42Z",
   "repo": "bengali",
   "tier": 1,
@@ -684,6 +684,13 @@
   "repo": "cham",
   "tier": 3,
   "url": "https://github.com/notofonts/cham/issues/10"
+ },
+ {
+  "closedAt": "2025-06-30T07:09:59Z",
+  "createdAt": "2025-06-30T05:34:15Z",
+  "repo": "cham",
+  "tier": 3,
+  "url": "https://github.com/notofonts/cham/issues/11"
  },
  {
   "closedAt": "2025-06-27T11:39:48Z",
@@ -3085,6 +3092,13 @@
   "repo": "limbu",
   "tier": 2,
   "url": "https://github.com/notofonts/limbu/issues/7"
+ },
+ {
+  "closedAt": "2025-07-02T14:06:49Z",
+  "createdAt": "2025-07-02T13:07:23Z",
+  "repo": "lisu",
+  "tier": 2,
+  "url": "https://github.com/notofonts/lisu/issues/3"
  },
  {
   "closedAt": "2024-08-20T14:54:55Z",
