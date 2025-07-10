@@ -10944,8 +10944,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 137,
+  "issue_count": 138,
   "issues": [
+   {
+    "number": 534,
+    "title": "Some glyphs' design look very inconsistent",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/534"
+   },
    {
     "number": 533,
     "title": "Ukrainian Yi is broken... again",

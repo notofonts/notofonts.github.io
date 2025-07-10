@@ -9145,6 +9145,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 534,
+    "title": "Some glyphs' design look very inconsistent",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/534"
+   },
+   {
     "number": 533,
     "title": "Ukrainian Yi is broken... again",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/533"
