@@ -749,6 +749,13 @@
   "url": "https://github.com/notofonts/deseret/issues/2"
  },
  {
+  "closedAt": "2024-05-20T12:26:01Z",
+  "createdAt": "2015-06-08T18:34:30Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/1"
+ },
+ {
   "closedAt": "2024-05-20T12:29:17Z",
   "createdAt": "2015-08-10T13:17:38Z",
   "repo": "devanagari",
@@ -901,6 +908,20 @@
   "repo": "devanagari",
   "tier": 1,
   "url": "https://github.com/notofonts/devanagari/issues/58"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-07-07T04:25:48Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/59"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-07-07T04:27:08Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/60"
  },
  {
   "closedAt": null,
@@ -1195,6 +1216,13 @@
   "repo": "grantha",
   "tier": 4,
   "url": "https://github.com/notofonts/grantha/issues/23"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2015-06-08T18:32:28Z",
+  "repo": "gujarati",
+  "tier": 1,
+  "url": "https://github.com/notofonts/gujarati/issues/1"
  },
  {
   "closedAt": null,
@@ -1804,6 +1832,20 @@
   "repo": "lao",
   "tier": 3,
   "url": "https://github.com/notofonts/lao/issues/18"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2015-06-08T18:31:08Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/187"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2015-06-08T18:31:37Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/186"
  },
  {
   "closedAt": null,
@@ -3067,6 +3109,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-07-09T10:52:33Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/534"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -3897,6 +3946,13 @@
   "repo": "myanmar",
   "tier": 2,
   "url": "https://github.com/notofonts/myanmar/issues/67"
+ },
+ {
+  "closedAt": "2025-07-09T10:17:00Z",
+  "createdAt": "2025-07-09T09:50:01Z",
+  "repo": "myanmar",
+  "tier": 2,
+  "url": "https://github.com/notofonts/myanmar/issues/68"
  },
  {
   "closedAt": null,

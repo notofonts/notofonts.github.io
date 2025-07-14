@@ -6,7 +6,7 @@
   "4": 3,
   "5": 5,
   "6": 10,
-  "7": 6
+  "7": 7
  },
  "open_per_repo": {
   "adlam": 3,
@@ -24,7 +24,7 @@
   "chorasmian": 1,
   "coptic": 2,
   "cuneiform": 1,
-  "devanagari": 10,
+  "devanagari": 12,
   "dives-akuru": 8,
   "dogra": 2,
   "duployan": 1,
@@ -33,7 +33,7 @@
   "ethiopic": 1,
   "georgian": 2,
   "glagolitic": 1,
-  "gujarati": 5,
+  "gujarati": 6,
   "gunjala-gondi": 1,
   "gurmukhi": 6,
   "hanunoo": 1,
@@ -50,7 +50,7 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 135,
+  "latin-greek-cyrillic": 138,
   "limbu": 2,
   "malayalam": 6,
   "mandaic": 2,
@@ -106,7 +106,7 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 226,
+  "1": 232,
   "2": 50,
   "3": 118,
   "4": 59,
@@ -119,7 +119,7 @@
   "4": 23,
   "5": 17,
   "6": 21,
-  "7": 1
+  "7": 5
  },
  "releases_per_month": {
   "1": [
@@ -360,6 +360,14 @@
     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSerifBalinese-v2.007"
    },
    {
+    "tag": "NotoSerifBengali-v3.000",
+    "url": "https://github.com/notofonts/bengali/releases/tag/NotoSerifBengali-v3.000"
+   },
+   {
+    "tag": "NotoSansBengali-v3.000",
+    "url": "https://github.com/notofonts/bengali/releases/tag/NotoSansBengali-v3.000"
+   },
+   {
     "tag": "NotoSansMongolian-v3.002",
     "url": "https://github.com/notofonts/mongolian/releases/tag/NotoSansMongolian-v3.002"
    },
@@ -408,12 +416,12 @@
   ]
  },
  "totals_per_month": {
-  "1": 424,
-  "2": 434,
-  "3": 442,
-  "4": 453,
-  "5": 473,
-  "6": 485,
-  "7": 496
+  "1": 427,
+  "2": 437,
+  "3": 445,
+  "4": 456,
+  "5": 476,
+  "6": 488,
+  "7": 499
  }
 }
