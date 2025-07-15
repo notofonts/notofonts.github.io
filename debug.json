@@ -3902,13 +3902,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/devanagari",
   "has_releases": true,
-  "issue_count": 13,
+  "issue_count": 12,
   "issues": [
-   {
-    "number": 61,
-    "title": "Fix NEP rendering for Reph conjuncts and \u0908\u0901 ligature",
-    "url": "https://github.com/notofonts/devanagari/pull/61"
-   },
    {
     "number": 60,
     "title": "Ligature for \u0908\u0901 (ii-deva + candrabindu) not formed correctly",
