@@ -3067,16 +3067,6 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
-    "number": 60,
-    "title": "Ligature for \u0908\u0901 (ii-deva + candrabindu) not formed correctly",
-    "url": "https://github.com/notofonts/devanagari/issues/60"
-   },
-   {
-    "number": 59,
-    "title": "Reph conjuncts (\u091f\u094d\u0930, \u0920\u094d\u0930, \u0921\u094d\u0930, etc.) render incorrectly with NEP language tag",
-    "url": "https://github.com/notofonts/devanagari/issues/59"
-   },
-   {
     "number": 58,
     "title": "Overlap of dirgha ii with cadrabindu and anusvara",
     "url": "https://github.com/notofonts/devanagari/issues/58"
