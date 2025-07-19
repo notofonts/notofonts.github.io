@@ -3902,8 +3902,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/devanagari",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 11,
   "issues": [
+   {
+    "number": 62,
+    "title": "Remove localized Nepali form for Devanagari Digit Nine (\u096f, U+896F) from Noto fonts",
+    "url": "https://github.com/notofonts/devanagari/issues/62"
+   },
    {
     "number": 58,
     "title": "Overlap of dirgha ii with cadrabindu and anusvara",
@@ -19826,10 +19831,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Tangut v2.169\n\nThis release fixes a number of fontbakery fails.\n",
-     "published": "2022-10-04T13:18:39",
-     "url": "https://github.com/notofonts/tangut/releases/tag/NotoSerifTangut-v2.169",
-     "version": "v2.169"
+     "notes": "Noto Serif Tangut v2.170\n\nThis release removes some unnecessary unencoded glyphs (#2) and updates five glyphs to corrected forms (#5), thanks to @PaulHanslow.\n",
+     "published": "2025-07-18T07:31:00+00:00",
+     "url": "https://github.com/notofonts/tangut/releases/tag/NotoSerifTangut-v2.170",
+     "version": "v2.170"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -22067,8 +22072,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/yezidi",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 3,
+    "title": "Is persistence of Noto Serif Yezidi a known issue between Chrome browser sessions?",
+    "url": "https://github.com/notofonts/yezidi/issues/3"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/yezidi",
   "tier": 4,
   "title": "Noto Yezidi"
