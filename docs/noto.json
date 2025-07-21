@@ -2189,6 +2189,11 @@
   "gh_url": "https://notofonts.github.io/canadian-aboriginal",
   "issues": [
    {
+    "number": 15,
+    "title": "Consider adding a Noto Serif Canadian Aboriginal family with upright and italics, and adding italics to Noto Sans Canadian Aboriginal",
+    "url": "https://github.com/notofonts/canadian-aboriginal/issues/15"
+   },
+   {
     "number": 14,
     "title": "Spacing between syllabics",
     "url": "https://github.com/notofonts/canadian-aboriginal/issues/14"
