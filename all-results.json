@@ -673,6 +673,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-07-20T23:55:48Z",
+  "repo": "canadian-aboriginal",
+  "tier": 3,
+  "url": "https://github.com/notofonts/canadian-aboriginal/issues/15"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-09-25T13:21:06Z",
   "repo": "chakma",
   "tier": 3,
@@ -910,18 +917,25 @@
   "url": "https://github.com/notofonts/devanagari/issues/58"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-07-16T04:04:40Z",
   "createdAt": "2025-07-07T04:25:48Z",
   "repo": "devanagari",
   "tier": 1,
   "url": "https://github.com/notofonts/devanagari/issues/59"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-07-16T04:05:01Z",
   "createdAt": "2025-07-07T04:27:08Z",
   "repo": "devanagari",
   "tier": 1,
   "url": "https://github.com/notofonts/devanagari/issues/60"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-07-18T16:59:39Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/62"
  },
  {
   "closedAt": null,
@@ -3116,6 +3130,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-07-17T06:30:16Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/535"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -4942,6 +4963,13 @@
   "url": "https://github.com/notofonts/tangut/issues/8"
  },
  {
+  "closedAt": null,
+  "createdAt": "2025-07-19T08:36:28Z",
+  "repo": "tangut",
+  "tier": 5,
+  "url": "https://github.com/notofonts/tangut/issues/9"
+ },
+ {
   "closedAt": "2024-02-22T14:31:08Z",
   "createdAt": "2023-04-08T20:28:13Z",
   "repo": "telugu",
@@ -5185,6 +5213,13 @@
   "repo": "vai",
   "tier": 3,
   "url": "https://github.com/notofonts/vai/issues/1"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-07-19T01:21:54Z",
+  "repo": "yezidi",
+  "tier": 4,
+  "url": "https://github.com/notofonts/yezidi/issues/3"
  },
  {
   "closedAt": "2024-03-07T09:36:36Z",

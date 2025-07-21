@@ -6,7 +6,7 @@
   "4": 3,
   "5": 5,
   "6": 10,
-  "7": 7
+  "7": 9
  },
  "open_per_repo": {
   "adlam": 3,
@@ -19,12 +19,12 @@
   "bengali": 5,
   "bhaiksuki": 5,
   "brahmi": 4,
-  "canadian-aboriginal": 4,
+  "canadian-aboriginal": 5,
   "chakma": 1,
   "chorasmian": 1,
   "coptic": 2,
   "cuneiform": 1,
-  "devanagari": 12,
+  "devanagari": 11,
   "dives-akuru": 8,
   "dogra": 2,
   "duployan": 1,
@@ -50,7 +50,7 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 138,
+  "latin-greek-cyrillic": 139,
   "limbu": 2,
   "malayalam": 6,
   "mandaic": 2,
@@ -94,7 +94,7 @@
   "takri": 1,
   "tamil": 2,
   "tangsa": 1,
-  "tangut": 3,
+  "tangut": 4,
   "telugu": 2,
   "thaana": 2,
   "thai": 4,
@@ -103,14 +103,15 @@
   "tirhuta": 10,
   "toto": 1,
   "vai": 1,
+  "yezidi": 1,
   "znamenny": 3
  },
  "open_per_tier": {
   "1": 232,
   "2": 50,
-  "3": 118,
-  "4": 59,
-  "5": 38
+  "3": 119,
+  "4": 60,
+  "5": 39
  },
  "opened_per_month": {
   "1": 9,
@@ -119,7 +120,7 @@
   "4": 23,
   "5": 17,
   "6": 21,
-  "7": 5
+  "7": 10
  },
  "releases_per_month": {
   "1": [
@@ -374,6 +375,10 @@
    {
     "tag": "NotoNastaliqUrdu-v4.000",
     "url": "https://github.com/notofonts/nastaliq/releases/tag/NotoNastaliqUrdu-v4.000"
+   },
+   {
+    "tag": "NotoSerifTangut-v2.170",
+    "url": "https://github.com/notofonts/tangut/releases/tag/NotoSerifTangut-v2.170"
    },
    {
     "tag": "v0.002",
