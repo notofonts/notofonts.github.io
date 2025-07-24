@@ -3072,6 +3072,11 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
+    "number": 64,
+    "title": "Fix rendering of \u0908\u0901 and \u0908\u0902 in Noto Serif Devanagari",
+    "url": "https://github.com/notofonts/devanagari/pull/64"
+   },
+   {
     "number": 62,
     "title": "Remove localized Nepali form for Devanagari Digit Nine (\u096f, U+896F) from Noto fonts",
     "url": "https://github.com/notofonts/devanagari/issues/62"
@@ -12072,6 +12077,11 @@
   },
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
+   {
+    "number": 82,
+    "title": "Reh/Yeh Overlap in Bold Weight",
+    "url": "https://github.com/notofonts/nastaliq/issues/82"
+   },
    {
     "number": 81,
     "title": "Shadda/Kaf overlap in Bold weight",
