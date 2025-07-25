@@ -3072,19 +3072,9 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
-    "number": 64,
-    "title": "Fix rendering of \u0908\u0901 and \u0908\u0902 in Noto Serif Devanagari",
-    "url": "https://github.com/notofonts/devanagari/pull/64"
-   },
-   {
     "number": 62,
     "title": "Remove localized Nepali form for Devanagari Digit Nine (\u096f, U+896F) from Noto fonts",
     "url": "https://github.com/notofonts/devanagari/issues/62"
-   },
-   {
-    "number": 58,
-    "title": "Overlap of dirgha ii with cadrabindu and anusvara",
-    "url": "https://github.com/notofonts/devanagari/issues/58"
    },
    {
     "number": 56,
@@ -3095,11 +3085,6 @@
     "number": 54,
     "title": "Halant and comma overlap",
     "url": "https://github.com/notofonts/devanagari/issues/54"
-   },
-   {
-    "number": 53,
-    "title": "Anusvara overlap",
-    "url": "https://github.com/notofonts/devanagari/issues/53"
    },
    {
     "number": 52,
