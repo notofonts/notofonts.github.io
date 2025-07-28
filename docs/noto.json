@@ -12063,6 +12063,11 @@
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
+    "number": 83,
+    "title": "Fatha and Kasra change position between Regular and Bold weights",
+    "url": "https://github.com/notofonts/nastaliq/issues/83"
+   },
+   {
     "number": 82,
     "title": "Reh/Yeh Overlap in Bold Weight",
     "url": "https://github.com/notofonts/nastaliq/issues/82"
@@ -17166,6 +17171,11 @@
   },
   "gh_url": "https://notofonts.github.io/thai",
   "issues": [
+   {
+    "number": 31,
+    "title": "Mai tho overlap with Fo fan in heavier weights of Noto Sans Thai Looped",
+    "url": "https://github.com/notofonts/thai/issues/31"
+   },
    {
     "number": 30,
     "title": "Noto Sans Thai Looped selection in Illustrator",
