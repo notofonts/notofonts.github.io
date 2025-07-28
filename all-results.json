@@ -875,7 +875,7 @@
   "url": "https://github.com/notofonts/devanagari/issues/52"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-07-24T15:51:23Z",
   "createdAt": "2025-04-16T05:51:44Z",
   "repo": "devanagari",
   "tier": 1,
@@ -910,7 +910,7 @@
   "url": "https://github.com/notofonts/devanagari/issues/57"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-07-24T15:50:30Z",
   "createdAt": "2025-06-21T16:06:07Z",
   "repo": "devanagari",
   "tier": 1,
@@ -936,6 +936,13 @@
   "repo": "devanagari",
   "tier": 1,
   "url": "https://github.com/notofonts/devanagari/issues/62"
+ },
+ {
+  "closedAt": "2025-07-22T18:45:23Z",
+  "createdAt": "2025-07-22T11:05:02Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/63"
  },
  {
   "closedAt": null,
@@ -4208,6 +4215,20 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-07-23T17:11:04Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/82"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-07-27T20:57:19Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/83"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-06-27T16:18:47Z",
   "repo": "nko",
   "tier": 3,
@@ -4627,7 +4648,7 @@
   "url": "https://github.com/notofonts/sundanese/issues/10"
  },
  {
-  "closedAt": "2025-06-28T05:03:58Z",
+  "closedAt": null,
   "createdAt": "2025-06-27T07:53:38Z",
   "repo": "sundanese",
   "tier": 3,
@@ -5059,6 +5080,13 @@
   "repo": "thai",
   "tier": 2,
   "url": "https://github.com/notofonts/thai/issues/30"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-07-27T19:37:57Z",
+  "repo": "thai",
+  "tier": 2,
+  "url": "https://github.com/notofonts/thai/issues/31"
  },
  {
   "closedAt": null,

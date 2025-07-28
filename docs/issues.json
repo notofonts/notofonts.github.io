@@ -5,8 +5,8 @@
   "3": 1,
   "4": 3,
   "5": 5,
-  "6": 10,
-  "7": 9
+  "6": 9,
+  "7": 12
  },
  "open_per_repo": {
   "adlam": 3,
@@ -24,7 +24,7 @@
   "chorasmian": 1,
   "coptic": 2,
   "cuneiform": 1,
-  "devanagari": 11,
+  "devanagari": 9,
   "dives-akuru": 8,
   "dogra": 2,
   "duployan": 1,
@@ -64,7 +64,7 @@
   "myanmar": 32,
   "nag-mundari": 1,
   "nandinagari": 5,
-  "nastaliq": 12,
+  "nastaliq": 14,
   "nko": 1,
   "nushu": 1,
   "old-hungarian": 7,
@@ -85,7 +85,7 @@
   "sign-writing": 5,
   "sogdian": 1,
   "soyombo": 4,
-  "sundanese": 3,
+  "sundanese": 4,
   "syloti-nagri": 5,
   "symbols": 14,
   "syriac": 9,
@@ -97,7 +97,7 @@
   "tangut": 4,
   "telugu": 2,
   "thaana": 2,
-  "thai": 4,
+  "thai": 5,
   "tibetan": 5,
   "tifinagh": 3,
   "tirhuta": 10,
@@ -108,8 +108,8 @@
  },
  "open_per_tier": {
   "1": 232,
-  "2": 50,
-  "3": 119,
+  "2": 51,
+  "3": 120,
   "4": 60,
   "5": 39
  },
@@ -120,7 +120,7 @@
   "4": 23,
   "5": 17,
   "6": 21,
-  "7": 10
+  "7": 14
  },
  "releases_per_month": {
   "1": [
@@ -381,6 +381,10 @@
     "url": "https://github.com/notofonts/tangut/releases/tag/NotoSerifTangut-v2.170"
    },
    {
+    "tag": "v0.003",
+    "url": "https://github.com/notofonts/noto-cjk-varco/releases/tag/v0.003"
+   },
+   {
     "tag": "v0.002",
     "url": "https://github.com/notofonts/noto-cjk-varco/releases/tag/v0.002"
    }
@@ -427,6 +431,6 @@
   "4": 456,
   "5": 476,
   "6": 488,
-  "7": 499
+  "7": 500
  }
 }
