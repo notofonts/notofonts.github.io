@@ -3072,11 +3072,6 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
-    "number": 62,
-    "title": "Remove localized Nepali form for Devanagari Digit Nine (\u096f, U+896F) from Noto fonts",
-    "url": "https://github.com/notofonts/devanagari/issues/62"
-   },
-   {
     "number": 56,
     "title": "Candrabindu Overlap",
     "url": "https://github.com/notofonts/devanagari/issues/56"
@@ -3808,6 +3803,11 @@
   },
   "gh_url": "https://notofonts.github.io/ethiopic",
   "issues": [
+   {
+    "number": 15,
+    "title": "Noto Serif Ethiopic Contains a Circular LSB Reference",
+    "url": "https://github.com/notofonts/ethiopic/issues/15"
+   },
    {
     "number": 14,
     "title": "Provide Monospaced Variant",
@@ -11312,11 +11312,6 @@
   "gh_url": "https://notofonts.github.io/music",
   "issues": [
    {
-    "number": 11,
-    "title": "Glyphs for notes extending down are missing",
-    "url": "https://github.com/notofonts/music/issues/11"
-   },
-   {
     "number": 3,
     "title": "Incomplete coverage of ancient Greek musical notation",
     "url": "https://github.com/notofonts/music/issues/3"
@@ -12062,11 +12057,6 @@
   },
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
-   {
-    "number": 83,
-    "title": "Fatha and Kasra change position between Regular and Bold weights",
-    "url": "https://github.com/notofonts/nastaliq/issues/83"
-   },
    {
     "number": 82,
     "title": "Reh/Yeh Overlap in Bold Weight",
