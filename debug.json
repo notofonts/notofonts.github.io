@@ -4218,8 +4218,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 8,
   "issues": [
+   {
+    "number": 21,
+    "title": "Let\u2019s invent some distinct beard for foreigners?",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/21"
+   },
    {
     "number": 17,
     "title": "Egyptian-Hieroglyphs-Extended-A (13460-U+143FF)",

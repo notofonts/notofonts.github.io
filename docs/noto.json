@@ -3293,6 +3293,11 @@
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "issues": [
    {
+    "number": 21,
+    "title": "Let\u2019s invent some distinct beard for foreigners?",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/21"
+   },
+   {
     "number": 17,
     "title": "Egyptian-Hieroglyphs-Extended-A (13460-U+143FF)",
     "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/17"
