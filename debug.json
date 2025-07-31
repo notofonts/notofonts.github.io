@@ -14629,13 +14629,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 13,
+  "issue_count": 12,
   "issues": [
-   {
-    "number": 82,
-    "title": "Reh/Yeh Overlap in Bold Weight",
-    "url": "https://github.com/notofonts/nastaliq/issues/82"
-   },
    {
     "number": 81,
     "title": "Shadda/Kaf overlap in Bold weight",

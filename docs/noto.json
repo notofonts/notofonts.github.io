@@ -12063,11 +12063,6 @@
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
-    "number": 82,
-    "title": "Reh/Yeh Overlap in Bold Weight",
-    "url": "https://github.com/notofonts/nastaliq/issues/82"
-   },
-   {
     "number": 81,
     "title": "Shadda/Kaf overlap in Bold weight",
     "url": "https://github.com/notofonts/nastaliq/issues/81"
