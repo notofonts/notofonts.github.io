@@ -721,6 +721,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 265,
+    "title": "Small overlap with Yeh dots and Bari Yeh",
+    "url": "https://github.com/notofonts/arabic/issues/265"
+   },
+   {
     "number": 264,
     "title": "Small damma overlap",
     "url": "https://github.com/notofonts/arabic/issues/264"
