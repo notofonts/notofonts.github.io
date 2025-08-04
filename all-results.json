@@ -351,6 +351,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-07-31T05:02:34Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/265"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2021-05-06T04:03:47Z",
   "repo": "armenian",
   "tier": 1,
@@ -931,7 +938,7 @@
   "url": "https://github.com/notofonts/devanagari/issues/60"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-07-28T11:53:55Z",
   "createdAt": "2025-07-18T16:59:39Z",
   "repo": "devanagari",
   "tier": 1,
@@ -943,6 +950,13 @@
   "repo": "devanagari",
   "tier": 1,
   "url": "https://github.com/notofonts/devanagari/issues/63"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-08-03T15:33:41Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/65"
  },
  {
   "closedAt": null,
@@ -1156,6 +1170,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-07-29T13:47:55Z",
+  "repo": "egyptian-hieroglyphs",
+  "tier": 4,
+  "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/21"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2018-11-16T20:41:38Z",
   "repo": "elbasan",
   "tier": 5,
@@ -1174,6 +1195,13 @@
   "repo": "ethiopic",
   "tier": 2,
   "url": "https://github.com/notofonts/ethiopic/issues/14"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-07-28T12:42:47Z",
+  "repo": "ethiopic",
+  "tier": 2,
+  "url": "https://github.com/notofonts/ethiopic/issues/15"
  },
  {
   "closedAt": null,
@@ -3144,6 +3172,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-08-03T04:12:59Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/536"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -3633,6 +3668,13 @@
   "url": "https://github.com/notofonts/math/issues/101"
  },
  {
+  "closedAt": "2025-08-01T16:28:24Z",
+  "createdAt": "2025-08-01T15:45:48Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/102"
+ },
+ {
   "closedAt": "2024-07-24T16:09:41Z",
   "createdAt": "2024-07-24T15:00:07Z",
   "repo": "medefaidrin",
@@ -3745,7 +3787,7 @@
   "url": "https://github.com/notofonts/music/issues/3"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-07-28T06:33:07Z",
   "createdAt": "2024-05-18T15:46:18Z",
   "repo": "music",
   "tier": 3,
@@ -4214,18 +4256,46 @@
   "url": "https://github.com/notofonts/nastaliq/issues/81"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-07-31T01:06:38Z",
   "createdAt": "2025-07-23T17:11:04Z",
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/82"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-07-28T06:30:00Z",
   "createdAt": "2025-07-27T20:57:19Z",
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/83"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-08-01T23:18:19Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/84"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-08-01T23:33:56Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/85"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-08-01T23:51:23Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/86"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-08-02T01:38:34Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/87"
  },
  {
   "closedAt": null,
