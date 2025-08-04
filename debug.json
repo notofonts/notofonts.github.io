@@ -3912,8 +3912,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/devanagari",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 9,
   "issues": [
+   {
+    "number": 65,
+    "title": "Consistent and nicer way for rendering \u091b\u094d\u0930\u094d\u092f, \u091f\u094d\u0930\u094d\u092f, \u0920\u094d\u0930\u094d\u092f, \u0921\u094d\u0930\u094d\u092f, \u0922\u094d\u0930\u094d\u092f  and \u0926\u094d\u0930\u094d\u092f",
+    "url": "https://github.com/notofonts/devanagari/issues/65"
+   },
    {
     "number": 56,
     "title": "Candrabindu Overlap",
@@ -10939,8 +10944,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 139,
+  "issue_count": 140,
   "issues": [
+   {
+    "number": 536,
+    "title": "Noto Sans sans Devanagari",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/536"
+   },
    {
     "number": 535,
     "title": "The combining inverted breve below is misplaced in a\u032f and u\u032f in Noto Serif",
