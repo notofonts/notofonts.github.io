@@ -9145,11 +9145,6 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
-    "number": 536,
-    "title": "Noto Sans sans Devanagari",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/536"
-   },
-   {
     "number": 535,
     "title": "The combining inverted breve below is misplaced in a\u032f and u\u032f in Noto Serif",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/535"
