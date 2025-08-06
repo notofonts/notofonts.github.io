@@ -873,8 +873,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 22,
+  "issue_count": 23,
   "issues": [
+   {
+    "number": 266,
+    "title": "Madda crossover",
+    "url": "https://github.com/notofonts/arabic/issues/266"
+   },
    {
     "number": 265,
     "title": "Small overlap with Yeh dots and Bari Yeh",
@@ -14639,8 +14644,23 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 16,
+  "issue_count": 19,
   "issues": [
+   {
+    "number": 90,
+    "title": "Overlap with beh dot and yeh dots",
+    "url": "https://github.com/notofonts/nastaliq/issues/90"
+   },
+   {
+    "number": 89,
+    "title": "Madda overlap",
+    "url": "https://github.com/notofonts/nastaliq/issues/89"
+   },
+   {
+    "number": 88,
+    "title": "Small overlap with thal and heh goal in bold weight",
+    "url": "https://github.com/notofonts/nastaliq/issues/88"
+   },
    {
     "number": 87,
     "title": "Yeh and peh dots overlap",
