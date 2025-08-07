@@ -873,8 +873,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 23,
+  "issue_count": 24,
   "issues": [
+   {
+    "number": 267,
+    "title": "Quranic marks too close in heavier weights",
+    "url": "https://github.com/notofonts/arabic/issues/267"
+   },
    {
     "number": 266,
     "title": "Madda crossover",
@@ -13788,8 +13793,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/music",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 12,
+    "title": "Provide a SMuFL set",
+    "url": "https://github.com/notofonts/music/issues/12"
+   },
    {
     "number": 3,
     "title": "Incomplete coverage of ancient Greek musical notation",
@@ -14644,8 +14654,28 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 19,
+  "issue_count": 23,
   "issues": [
+   {
+    "number": 94,
+    "title": "Damma changes positions and overlaps",
+    "url": "https://github.com/notofonts/nastaliq/issues/94"
+   },
+   {
+    "number": 93,
+    "title": "Fatha overlap",
+    "url": "https://github.com/notofonts/nastaliq/issues/93"
+   },
+   {
+    "number": 92,
+    "title": "Overlap with teh dots and qaf dots",
+    "url": "https://github.com/notofonts/nastaliq/issues/92"
+   },
+   {
+    "number": 91,
+    "title": "Kasra overlap",
+    "url": "https://github.com/notofonts/nastaliq/issues/91"
+   },
    {
     "number": 90,
     "title": "Overlap with beh dot and yeh dots",
