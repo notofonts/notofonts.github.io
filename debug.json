@@ -873,8 +873,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 24,
+  "issue_count": 25,
   "issues": [
+   {
+    "number": 268,
+    "title": "U+06E1 overlap",
+    "url": "https://github.com/notofonts/arabic/issues/268"
+   },
    {
     "number": 267,
     "title": "Quranic marks too close in heavier weights",
@@ -10954,7 +10959,7 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 139,
+  "issue_count": 138,
   "issues": [
    {
     "number": 535,
@@ -10990,11 +10995,6 @@
     "number": 527,
     "title": "There are many wrong glyphs in Cyrillic",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/527"
-   },
-   {
-    "number": 526,
-    "title": "Latin small letter av with horizontal bar looks ugly.",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/526"
    },
    {
     "number": 525,
@@ -14654,8 +14654,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 23,
+  "issue_count": 24,
   "issues": [
+   {
+    "number": 95,
+    "title": "Overlap with teh dots and noon dot",
+    "url": "https://github.com/notofonts/nastaliq/issues/95"
+   },
    {
     "number": 94,
     "title": "Damma changes positions and overlaps",

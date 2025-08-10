@@ -721,6 +721,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 268,
+    "title": "U+06E1 overlap",
+    "url": "https://github.com/notofonts/arabic/issues/268"
+   },
+   {
     "number": 267,
     "title": "Quranic marks too close in heavier weights",
     "url": "https://github.com/notofonts/arabic/issues/267"
@@ -9190,11 +9195,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/527"
    },
    {
-    "number": 526,
-    "title": "Latin small letter av with horizontal bar looks ugly.",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/526"
-   },
-   {
     "number": 525,
     "title": "Latin Small Letter L with Inverted Lazy S: the lazy is should NOT be rounded.",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/525"
@@ -12087,6 +12087,11 @@
   },
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
+   {
+    "number": 95,
+    "title": "Overlap with teh dots and noon dot",
+    "url": "https://github.com/notofonts/nastaliq/issues/95"
+   },
    {
     "number": 94,
     "title": "Damma changes positions and overlaps",
