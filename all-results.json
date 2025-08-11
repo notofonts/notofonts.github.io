@@ -358,6 +358,27 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-08-05T11:55:26Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/266"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-08-06T12:17:06Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/267"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-08-09T18:30:53Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/268"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2021-05-06T04:03:47Z",
   "repo": "armenian",
   "tier": 1,
@@ -684,6 +705,13 @@
   "repo": "canadian-aboriginal",
   "tier": 3,
   "url": "https://github.com/notofonts/canadian-aboriginal/issues/15"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-08-10T16:52:22Z",
+  "repo": "canadian-aboriginal",
+  "tier": 3,
+  "url": "https://github.com/notofonts/canadian-aboriginal/issues/16"
  },
  {
   "closedAt": null,
@@ -3108,7 +3136,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/525"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-08-09T13:19:30Z",
   "createdAt": "2025-05-26T05:52:20Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -3171,11 +3199,25 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/535"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-08-04T06:36:25Z",
   "createdAt": "2025-08-03T04:12:59Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/536"
+ },
+ {
+  "closedAt": "2025-08-08T10:37:43Z",
+  "createdAt": "2025-08-08T09:34:42Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/537"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-08-10T11:54:51Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/538"
  },
  {
   "closedAt": null,
@@ -3795,6 +3837,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-08-06T14:54:28Z",
+  "repo": "music",
+  "tier": 3,
+  "url": "https://github.com/notofonts/music/issues/12"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2016-10-27T14:05:48Z",
   "repo": "myanmar",
   "tier": 2,
@@ -4296,6 +4345,62 @@
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/87"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-08-05T11:26:06Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/88"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-08-05T11:45:50Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/89"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-08-05T12:14:12Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/90"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-08-06T10:21:47Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/91"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-08-06T10:49:34Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/92"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-08-06T11:18:17Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/93"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-08-06T11:35:05Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/94"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-08-09T05:20:41Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/95"
  },
  {
   "closedAt": null,
