@@ -2737,8 +2737,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/canadian-aboriginal",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 6,
   "issues": [
+   {
+    "number": 16,
+    "title": "Add an alternate form of Canadian Syllabics Ng (\u1595, U+1595) for the Nunavik dialect of Inuktitut",
+    "url": "https://github.com/notofonts/canadian-aboriginal/issues/16"
+   },
    {
     "number": 15,
     "title": "Consider adding a Noto Serif Canadian Aboriginal family with upright and italics, and adding italics to Noto Sans Canadian Aboriginal",
@@ -10959,8 +10964,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 138,
+  "issue_count": 139,
   "issues": [
+   {
+    "number": 538,
+    "title": "The Som Sign (U+20C0) is still missing in several fonts.",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/538"
+   },
    {
     "number": 535,
     "title": "The combining inverted breve below is misplaced in a\u032f and u\u032f in Noto Serif",
