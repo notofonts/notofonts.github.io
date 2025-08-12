@@ -13803,13 +13803,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/music",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 12,
-    "title": "Provide a SMuFL set",
-    "url": "https://github.com/notofonts/music/issues/12"
-   },
    {
     "number": 3,
     "title": "Incomplete coverage of ancient Greek musical notation",
@@ -14664,8 +14659,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 24,
+  "issue_count": 25,
   "issues": [
+   {
+    "number": 96,
+    "title": "Zain and Reh overlap",
+    "url": "https://github.com/notofonts/nastaliq/issues/96"
+   },
    {
     "number": 95,
     "title": "Overlap with teh dots and noon dot",
