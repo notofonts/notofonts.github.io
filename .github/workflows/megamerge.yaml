@@ -14,7 +14,7 @@ jobs:
             ref: main
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.13"
       # We need harfbuzz for optimal packing!
       - name: Install harfbuzz
         uses: notofonts/install-harfbuzz-action@main
