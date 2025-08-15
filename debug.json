@@ -2737,8 +2737,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/canadian-aboriginal",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 17,
+    "title": "Wrong glyph for \u1635 (U+1635)",
+    "url": "https://github.com/notofonts/canadian-aboriginal/issues/17"
+   },
    {
     "number": 16,
     "title": "Add an alternate form of Canadian Syllabics Ng (\u1595, U+1595) for the Nunavik dialect of Inuktitut",
@@ -10964,8 +10969,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 139,
+  "issue_count": 140,
   "issues": [
+   {
+    "number": 539,
+    "title": "Improve ring design",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/539"
+   },
    {
     "number": 538,
     "title": "The Som Sign (U+20C0) is still missing in several fonts.",
