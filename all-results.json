@@ -715,6 +715,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-08-15T01:44:36Z",
+  "repo": "canadian-aboriginal",
+  "tier": 3,
+  "url": "https://github.com/notofonts/canadian-aboriginal/issues/17"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-09-25T13:21:06Z",
   "repo": "chakma",
   "tier": 3,
@@ -3836,7 +3843,7 @@
   "url": "https://github.com/notofonts/music/issues/11"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-08-11T10:34:24Z",
   "createdAt": "2025-08-06T14:54:28Z",
   "repo": "music",
   "tier": 3,
@@ -4401,6 +4408,13 @@
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/95"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-08-11T07:56:04Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/96"
  },
  {
   "closedAt": null,
