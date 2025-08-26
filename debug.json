@@ -19958,17 +19958,12 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tangut",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 3,
   "issues": [
    {
     "number": 9,
     "title": "TTF hinting has gone",
     "url": "https://github.com/notofonts/tangut/issues/9"
-   },
-   {
-    "number": 8,
-    "title": "Request new Tangut font release with issue #2 fix",
-    "url": "https://github.com/notofonts/tangut/issues/8"
    },
    {
     "number": 7,
