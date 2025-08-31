@@ -2943,8 +2943,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/chakma",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 16,
+    "title": "Update Noto Sans Chakma Font in Android 12.0 to latest Version.",
+    "url": "https://github.com/notofonts/chakma/issues/16"
+   },
    {
     "number": 15,
     "title": "New Style",
