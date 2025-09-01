@@ -728,6 +728,13 @@
   "url": "https://github.com/notofonts/chakma/issues/15"
  },
  {
+  "closedAt": null,
+  "createdAt": "2025-08-30T07:59:52Z",
+  "repo": "chakma",
+  "tier": 3,
+  "url": "https://github.com/notofonts/chakma/issues/16"
+ },
+ {
   "closedAt": "2024-05-17T05:51:33Z",
   "createdAt": "2024-05-17T03:38:01Z",
   "repo": "cham",
@@ -5173,7 +5180,7 @@
   "url": "https://github.com/notofonts/tangut/issues/7"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-08-25T17:14:50Z",
   "createdAt": "2025-03-12T11:50:24Z",
   "repo": "tangut",
   "tier": 5,
