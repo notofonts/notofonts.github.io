@@ -10974,8 +10974,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 140,
+  "issue_count": 141,
   "issues": [
+   {
+    "number": 540,
+    "title": "Noto Sans Mono: missing monospaced flag - not selectable in some applications",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/540"
+   },
    {
     "number": 539,
     "title": "Improve ring design",
