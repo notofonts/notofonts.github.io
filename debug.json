@@ -10974,8 +10974,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 141,
+  "issue_count": 142,
   "issues": [
+   {
+    "number": 542,
+    "title": "Small overlap with g and y in Noto Serif Italic",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/542"
+   },
    {
     "number": 540,
     "title": "Noto Sans Mono: missing monospaced flag - not selectable in some applications",
