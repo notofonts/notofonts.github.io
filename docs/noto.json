@@ -1936,6 +1936,11 @@
   "gh_url": "https://notofonts.github.io/bengali",
   "issues": [
    {
+    "number": 30,
+    "title": "Glyph overlap issue with Bengali sequences \"\u09ce\u09af\u09bc\u09cd\u09b0\" and \"\u09a8\u09c1\u0995\u09cd\u09b2\u09c0\"",
+    "url": "https://github.com/notofonts/bengali/issues/30"
+   },
+   {
     "number": 27,
     "title": "Stretching of '\u09bf' (i-kar) looks unnatural with wide consonants like \u09b2 or conjuncts like \u09ae\u09cd\u09aa",
     "url": "https://github.com/notofonts/bengali/issues/27"
@@ -4874,6 +4879,11 @@
     "number": 5,
     "title": "Question regarding the shape of \u0ab0\u0ac1 (ru) in Gujarati fonts",
     "url": "https://github.com/notofonts/gujarati/issues/5"
+   },
+   {
+    "number": 1,
+    "title": "Ja design, and ja-ya ligature",
+    "url": "https://github.com/notofonts/gujarati/issues/1"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/gujarati",
@@ -9883,6 +9893,16 @@
     "number": 181,
     "title": "Add <IPPH> and <APPH> (if necessary) to deal with IPA + Greek unification",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/181"
+   },
+   {
+    "number": 186,
+    "title": "Combining commas above are inconsistent with those below",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/186"
+   },
+   {
+    "number": 187,
+    "title": "Bulgarian Cyrillic is Russian Cyrillic",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/187"
    }
   ],
   "repo_url": "https://www.github.com/notofonts/latin-greek-cyrillic",
