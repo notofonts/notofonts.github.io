@@ -3947,8 +3947,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/devanagari",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 10,
   "issues": [
+   {
+    "number": 66,
+    "title": "Rupee Discrepancy",
+    "url": "https://github.com/notofonts/devanagari/issues/66"
+   },
    {
     "number": 65,
     "title": "Consistent and nicer way for rendering \u091b\u094d\u0930\u094d\u092f, \u091f\u094d\u0930\u094d\u092f, \u0920\u094d\u0930\u094d\u092f, \u0921\u094d\u0930\u094d\u092f, \u0922\u094d\u0930\u094d\u092f  and \u0926\u094d\u0930\u094d\u092f",
@@ -10984,8 +10989,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 144,
+  "issue_count": 145,
   "issues": [
+   {
+    "number": 543,
+    "title": "A few currency issues",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/543"
+   },
    {
     "number": 542,
     "title": "Small overlap with g and y in Noto Serif Italic",
@@ -14305,8 +14315,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/myanmar",
   "has_releases": true,
-  "issue_count": 32,
+  "issue_count": 33,
   "issues": [
+   {
+    "number": 69,
+    "title": "Incorrect Ligature for \"\u1e63\u1e6d\" (\u1051\u100b) Consonant Cluster in Noto Sans Myanmar",
+    "url": "https://github.com/notofonts/myanmar/issues/69"
+   },
    {
     "number": 67,
     "title": "S'Gaw Karen Sha + U/UU is incorrect",
