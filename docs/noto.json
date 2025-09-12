@@ -3142,11 +3142,6 @@
     "url": "https://github.com/notofonts/devanagari/issues/51"
    },
    {
-    "number": 48,
-    "title": "AU + CANDRABINDU squished on Noto Sans Devanagari UI",
-    "url": "https://github.com/notofonts/devanagari/issues/48"
-   },
-   {
     "number": 47,
     "title": "Noto Devanagari: there is a bug",
     "url": "https://github.com/notofonts/devanagari/issues/47"
@@ -9201,7 +9196,7 @@
    },
    {
     "number": 540,
-    "title": "Noto Sans Mono: missing monospaced flag - not selectable in some applications",
+    "title": "Noto Sans Mono: missing monospaced flag - not selectable in some applications (TTF only)",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/540"
    },
    {
