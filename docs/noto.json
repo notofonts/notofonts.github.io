@@ -3338,6 +3338,11 @@
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "issues": [
    {
+    "number": 22,
+    "title": "Rotation with U+FE03 does not work",
+    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/22"
+   },
+   {
     "number": 21,
     "title": "Let\u2019s invent some distinct beard for foreigners?",
     "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/21"
