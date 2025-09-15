@@ -582,6 +582,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-09-09T00:47:44Z",
+  "repo": "bengali",
+  "tier": 1,
+  "url": "https://github.com/notofonts/bengali/issues/30"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2018-11-11T17:38:48Z",
   "repo": "bhaiksuki",
   "tier": 5,
@@ -910,7 +917,7 @@
   "url": "https://github.com/notofonts/devanagari/issues/47"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-09-11T05:59:04Z",
   "createdAt": "2025-03-17T22:12:05Z",
   "repo": "devanagari",
   "tier": 1,
@@ -1006,6 +1013,13 @@
   "repo": "devanagari",
   "tier": 1,
   "url": "https://github.com/notofonts/devanagari/issues/65"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-09-09T15:48:47Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/66"
  },
  {
   "closedAt": null,
@@ -1223,6 +1237,13 @@
   "repo": "egyptian-hieroglyphs",
   "tier": 4,
   "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/21"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-09-13T20:34:46Z",
+  "repo": "egyptian-hieroglyphs",
+  "tier": 4,
+  "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/22"
  },
  {
   "closedAt": null,
@@ -3263,6 +3284,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-09-09T21:19:37Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/543"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -4114,6 +4142,13 @@
   "repo": "myanmar",
   "tier": 2,
   "url": "https://github.com/notofonts/myanmar/issues/68"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-09-09T09:04:01Z",
+  "repo": "myanmar",
+  "tier": 2,
+  "url": "https://github.com/notofonts/myanmar/issues/69"
  },
  {
   "closedAt": null,
