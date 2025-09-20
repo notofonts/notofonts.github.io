@@ -721,6 +721,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 269,
+    "title": "Add the Saudi Riyal currency sign (U+20C1)",
+    "url": "https://github.com/notofonts/arabic/issues/269"
+   },
+   {
     "number": 268,
     "title": "U+06E1 overlap",
     "url": "https://github.com/notofonts/arabic/issues/268"
