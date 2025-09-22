@@ -379,6 +379,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-09-19T08:47:03Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/269"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2021-05-06T04:03:47Z",
   "repo": "armenian",
   "tier": 1,
