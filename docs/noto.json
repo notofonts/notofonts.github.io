@@ -5401,6 +5401,11 @@
   "gh_url": "https://notofonts.github.io/gurmukhi",
   "issues": [
    {
+    "number": 29,
+    "title": "Clarification on identical rendering of independent vowels followed by BINDI vs TIPPI",
+    "url": "https://github.com/notofonts/gurmukhi/issues/29"
+   },
+   {
     "number": 28,
     "title": "Issue with Addak (\u0a71) Position with TTHA (\u0a20) and NA (\u0a28) in Noto Sans",
     "url": "https://github.com/notofonts/gurmukhi/issues/28"
