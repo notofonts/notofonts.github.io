@@ -138,6 +138,9 @@
   "hebrew": {
     "tier": 1
   },
+  "hentaigana": {
+    "tier": 3
+  },
   "imperial-aramaic": {
     "tier": 5
   },
@@ -458,6 +461,9 @@
   },
   "tirhuta": {
     "tier": 4
+  },
+  "todhri": {
+    "tier": 3
   },
   "toto": {
     "tier": 3
