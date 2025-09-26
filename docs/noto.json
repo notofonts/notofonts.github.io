@@ -1936,6 +1936,11 @@
   "gh_url": "https://notofonts.github.io/bengali",
   "issues": [
    {
+    "number": 31,
+    "title": "Fix glyph overlap issues in Bengali sequences \u09ce\u09af\u09bc\u09cd\u09b0 and \u09a8\u09c1\u0995\u09cd\u09b2\u09c0",
+    "url": "https://github.com/notofonts/bengali/pull/31"
+   },
+   {
     "number": 30,
     "title": "Glyph overlap issue with Bengali sequences \"\u09ce\u09af\u09bc\u09cd\u09b0\" and \"\u09a8\u09c1\u0995\u09cd\u09b2\u09c0\"",
     "url": "https://github.com/notofonts/bengali/issues/30"
