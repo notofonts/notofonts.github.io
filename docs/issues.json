@@ -8,13 +8,13 @@
   "6": 9,
   "7": 15,
   "8": 7,
-  "9": 2
+  "9": 3
  },
  "open_per_repo": {
   "adlam": 3,
   "ahom": 6,
   "anatolian-hieroglyphs": 1,
-  "arabic": 25,
+  "arabic": 24,
   "armenian": 1,
   "balinese": 4,
   "batak": 3,
@@ -37,7 +37,7 @@
   "glagolitic": 1,
   "gujarati": 6,
   "gunjala-gondi": 1,
-  "gurmukhi": 6,
+  "gurmukhi": 7,
   "hanunoo": 1,
   "hebrew": 15,
   "inscriptional-pahlavi": 1,
@@ -124,7 +124,7 @@
   "6": 21,
   "7": 16,
   "8": 26,
-  "9": 9
+  "9": 10
  },
  "releases_per_month": {
   "1": [

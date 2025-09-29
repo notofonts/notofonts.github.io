@@ -301,7 +301,7 @@
   "url": "https://github.com/notofonts/arabic/issues/256"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-09-22T06:04:24Z",
   "createdAt": "2025-02-03T04:45:53Z",
   "repo": "arabic",
   "tier": 1,
@@ -1461,6 +1461,13 @@
   "repo": "gurmukhi",
   "tier": 1,
   "url": "https://github.com/notofonts/gurmukhi/issues/28"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-09-23T05:06:26Z",
+  "repo": "gurmukhi",
+  "tier": 1,
+  "url": "https://github.com/notofonts/gurmukhi/issues/29"
  },
  {
   "closedAt": "2024-09-04T10:04:13Z",
