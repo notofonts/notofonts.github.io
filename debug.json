@@ -873,8 +873,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 25,
+  "issue_count": 26,
   "issues": [
+   {
+    "number": 270,
+    "title": "Arabic monospaced version",
+    "url": "https://github.com/notofonts/arabic/issues/270"
+   },
    {
     "number": 269,
     "title": "Add the Saudi Riyal currency sign (U+20C1)",
@@ -6626,13 +6631,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/gurmukhi",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 6,
   "issues": [
-   {
-    "number": 29,
-    "title": "Clarification on identical rendering of independent vowels followed by BINDI vs TIPPI",
-    "url": "https://github.com/notofonts/gurmukhi/issues/29"
-   },
    {
     "number": 28,
     "title": "Issue with Addak (\u0a71) Position with TTHA (\u0a20) and NA (\u0a28) in Noto Sans",
