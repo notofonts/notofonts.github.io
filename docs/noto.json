@@ -6106,6 +6106,111 @@
   "tier": 1,
   "title": "Noto Hebrew"
  },
+ "hentaigana": {
+  "families": {
+   "Noto Serif Hentaigana": {
+    "files": {
+     "full": [
+      "fonts/NotoSerifHentaigana/full/otf/NotoSerifHentaigana-Black.otf",
+      "fonts/NotoSerifHentaigana/full/otf/NotoSerifHentaigana-Bold.otf",
+      "fonts/NotoSerifHentaigana/full/otf/NotoSerifHentaigana-ExtraLight.otf",
+      "fonts/NotoSerifHentaigana/full/otf/NotoSerifHentaigana-Light.otf",
+      "fonts/NotoSerifHentaigana/full/otf/NotoSerifHentaigana-Medium.otf",
+      "fonts/NotoSerifHentaigana/full/otf/NotoSerifHentaigana-Regular.otf",
+      "fonts/NotoSerifHentaigana/full/otf/NotoSerifHentaigana-SemiBold.otf",
+      "fonts/NotoSerifHentaigana/full/slim-variable-ttf/NotoSerifHentaigana[wght].ttf",
+      "fonts/NotoSerifHentaigana/full/ttf/NotoSerifHentaigana-Black.ttf",
+      "fonts/NotoSerifHentaigana/full/ttf/NotoSerifHentaigana-Bold.ttf",
+      "fonts/NotoSerifHentaigana/full/ttf/NotoSerifHentaigana-ExtraLight.ttf",
+      "fonts/NotoSerifHentaigana/full/ttf/NotoSerifHentaigana-Light.ttf",
+      "fonts/NotoSerifHentaigana/full/ttf/NotoSerifHentaigana-Medium.ttf",
+      "fonts/NotoSerifHentaigana/full/ttf/NotoSerifHentaigana-Regular.ttf",
+      "fonts/NotoSerifHentaigana/full/ttf/NotoSerifHentaigana-SemiBold.ttf",
+      "fonts/NotoSerifHentaigana/full/variable/NotoSerifHentaigana[wght].ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSerifHentaigana/hinted/ttf/NotoSerifHentaigana-Black.ttf",
+      "fonts/NotoSerifHentaigana/hinted/ttf/NotoSerifHentaigana-Bold.ttf",
+      "fonts/NotoSerifHentaigana/hinted/ttf/NotoSerifHentaigana-ExtraLight.ttf",
+      "fonts/NotoSerifHentaigana/hinted/ttf/NotoSerifHentaigana-Light.ttf",
+      "fonts/NotoSerifHentaigana/hinted/ttf/NotoSerifHentaigana-Medium.ttf",
+      "fonts/NotoSerifHentaigana/hinted/ttf/NotoSerifHentaigana-Regular.ttf",
+      "fonts/NotoSerifHentaigana/hinted/ttf/NotoSerifHentaigana-SemiBold.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSerifHentaigana/unhinted/otf/NotoSerifHentaigana-Black.otf",
+      "fonts/NotoSerifHentaigana/unhinted/otf/NotoSerifHentaigana-Bold.otf",
+      "fonts/NotoSerifHentaigana/unhinted/otf/NotoSerifHentaigana-ExtraLight.otf",
+      "fonts/NotoSerifHentaigana/unhinted/otf/NotoSerifHentaigana-Light.otf",
+      "fonts/NotoSerifHentaigana/unhinted/otf/NotoSerifHentaigana-Medium.otf",
+      "fonts/NotoSerifHentaigana/unhinted/otf/NotoSerifHentaigana-Regular.otf",
+      "fonts/NotoSerifHentaigana/unhinted/otf/NotoSerifHentaigana-SemiBold.otf",
+      "fonts/NotoSerifHentaigana/unhinted/slim-variable-ttf/NotoSerifHentaigana[wght].ttf",
+      "fonts/NotoSerifHentaigana/unhinted/ttf/NotoSerifHentaigana-Black.ttf",
+      "fonts/NotoSerifHentaigana/unhinted/ttf/NotoSerifHentaigana-Bold.ttf",
+      "fonts/NotoSerifHentaigana/unhinted/ttf/NotoSerifHentaigana-ExtraLight.ttf",
+      "fonts/NotoSerifHentaigana/unhinted/ttf/NotoSerifHentaigana-Light.ttf",
+      "fonts/NotoSerifHentaigana/unhinted/ttf/NotoSerifHentaigana-Medium.ttf",
+      "fonts/NotoSerifHentaigana/unhinted/ttf/NotoSerifHentaigana-Regular.ttf",
+      "fonts/NotoSerifHentaigana/unhinted/ttf/NotoSerifHentaigana-SemiBold.ttf",
+      "fonts/NotoSerifHentaigana/unhinted/variable/NotoSerifHentaigana[wght].ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Serif Hentaigana v1.000\n\nThis is the first release of Noto Serif Hentaigana, a font to cover the codepoints of the Kana Extended Unicode block.\n",
+     "published": "2024-02-26T20:43:02+00:00",
+     "url": "https://github.com/notofonts/hentaigana/releases/tag/NotoSerifHentaigana-v1.000",
+     "version": "v1.000"
+    }
+   }
+  },
+  "gh_url": "https://notofonts.github.io/hentaigana",
+  "issues": [
+   {
+    "number": 11,
+    "title": "Missing characters",
+    "url": "https://github.com/notofonts/hentaigana/issues/11"
+   },
+   {
+    "number": 10,
+    "title": "Update fontinfo.plist",
+    "url": "https://github.com/notofonts/hentaigana/pull/10"
+   },
+   {
+    "number": 9,
+    "title": "Kerning is too long when writing vertically",
+    "url": "https://github.com/notofonts/hentaigana/issues/9"
+   },
+   {
+    "number": 8,
+    "title": "[Bug]Noto Serif Hentaigana font is not reflected in Microsoft Office.",
+    "url": "https://github.com/notofonts/hentaigana/issues/8"
+   },
+   {
+    "number": 7,
+    "title": "The order of glyphs with (semi-)voiced sound",
+    "url": "https://github.com/notofonts/hentaigana/issues/7"
+   },
+   {
+    "number": 6,
+    "title": "Request for supplements and improvements",
+    "url": "https://github.com/notofonts/hentaigana/issues/6"
+   },
+   {
+    "number": 5,
+    "title": "Missing Glyph for U+1B11F in Version 1.000",
+    "url": "https://github.com/notofonts/hentaigana/issues/5"
+   },
+   {
+    "number": 1,
+    "title": "How about rename \u201cNoto Serif Kana\u201d? seems not quite \u201chentaigana\u201d",
+    "url": "https://github.com/notofonts/hentaigana/issues/1"
+   }
+  ],
+  "repo_url": "https://www.github.com/notofonts/hentaigana",
+  "tier": 3,
+  "title": "Noto Serif Hentaigana"
+ },
  "imperial-aramaic": {
   "families": {
    "Noto Sans Imperial Aramaic": {
@@ -11310,6 +11415,11 @@
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
    {
+    "number": 44,
+    "title": "Missing U+3000 (Ideographic Space)",
+    "url": "https://github.com/notofonts/mongolian/issues/44"
+   },
+   {
     "number": 32,
     "title": "Weights?",
     "url": "https://github.com/notofonts/mongolian/issues/32"
@@ -14909,10 +15019,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Syriac Western v3.000\n\nThis release:\n* Comprises only of the Western (Ser\u1e6d\u0101) style of Noto Sans Syriac\n* Interpolates as a variable font\n* Fixes the naming of the stylistic sets (#1)\n* Fixes a problem with the rish-dieresis ligature (#8)\n* Cleans up some of the OpenType layout code\n* and fixes various fontbakery fails.\n",
-     "published": "2023-01-03T13:56:39",
-     "url": "https://github.com/notofonts/syriac/releases/tag/NotoSansSyriacWestern-v3.000",
-     "version": "v3.000"
+     "notes": "Noto Sans Syriac Western v3.001\n\nThis release fixes the weight of glyphs which change their shape (dalesh rish, shin, etc.)\n",
+     "published": "2025-10-02T13:14:25+00:00",
+     "url": "https://github.com/notofonts/syriac/releases/tag/NotoSansSyriacWestern-v3.001",
+     "version": "v3.001"
     }
    }
   },
@@ -17639,6 +17749,36 @@
   "repo_url": "https://www.github.com/notofonts/tirhuta",
   "tier": 4,
   "title": "Noto Tirhuta"
+ },
+ "todhri": {
+  "families": {
+   "Noto Serif Todhri": {
+    "files": {
+     "full": [
+      "fonts/NotoSerifTodhri/full/otf/NotoSerifTodhri-Regular.otf",
+      "fonts/NotoSerifTodhri/full/ttf/NotoSerifTodhri-Regular.ttf"
+     ],
+     "hinted": [
+      "fonts/NotoSerifTodhri/hinted/ttf/NotoSerifTodhri-Regular.ttf"
+     ],
+     "unhinted": [
+      "fonts/NotoSerifTodhri/unhinted/otf/NotoSerifTodhri-Regular.otf",
+      "fonts/NotoSerifTodhri/unhinted/ttf/NotoSerifTodhri-Regular.ttf"
+     ]
+    },
+    "latest_release": {
+     "notes": "Noto Serif Todhri, v1.000 This is the first release of Noto Serif Todhri, a script added in Unicode 16.0. Thanks to @Mercury13 for contributing this font.\n",
+     "published": "2024-09-25T08:42:28+00:00",
+     "url": "https://github.com/notofonts/todhri/releases/tag/NotoSerifTodhri-v1.000",
+     "version": "v1.000"
+    }
+   }
+  },
+  "gh_url": "https://notofonts.github.io/todhri",
+  "issues": [],
+  "repo_url": "https://www.github.com/notofonts/todhri",
+  "tier": 3,
+  "title": "Noto Todhri"
  },
  "toto": {
   "families": {
