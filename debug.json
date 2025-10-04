@@ -2334,8 +2334,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/bengali",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 33,
+    "title": "Features and lookups aren\u2019t correctly registered under language systems",
+    "url": "https://github.com/notofonts/bengali/issues/33"
+   },
    {
     "number": 32,
     "title": "Bad ukar ligature in \u09b8\u09cd\u0995\u09c1\u09b2",
@@ -13809,13 +13814,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mongolian",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 44,
-    "title": "Missing U+3000 (Ideographic Space)",
-    "url": "https://github.com/notofonts/mongolian/issues/44"
-   },
    {
     "number": 32,
     "title": "Weights?",
