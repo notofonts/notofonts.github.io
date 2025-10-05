@@ -1941,6 +1941,11 @@
   "gh_url": "https://notofonts.github.io/bengali",
   "issues": [
    {
+    "number": 34,
+    "title": "V3.010 Noto Sans Bengali - Bugfixes ",
+    "url": "https://github.com/notofonts/bengali/pull/34"
+   },
+   {
     "number": 33,
     "title": "Features and lookups aren\u2019t correctly registered under language systems",
     "url": "https://github.com/notofonts/bengali/issues/33"
