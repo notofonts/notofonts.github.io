@@ -386,6 +386,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-09-30T16:20:23Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/270"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2021-05-06T04:03:47Z",
   "repo": "armenian",
   "tier": 1,
@@ -588,11 +595,25 @@
   "url": "https://github.com/notofonts/bengali/issues/27"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-10-01T09:38:57Z",
   "createdAt": "2025-09-09T00:47:44Z",
   "repo": "bengali",
   "tier": 1,
   "url": "https://github.com/notofonts/bengali/issues/30"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-10-01T09:39:47Z",
+  "repo": "bengali",
+  "tier": 1,
+  "url": "https://github.com/notofonts/bengali/issues/32"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-10-04T01:34:05Z",
+  "repo": "bengali",
+  "tier": 1,
+  "url": "https://github.com/notofonts/bengali/issues/33"
  },
  {
   "closedAt": null,
@@ -1463,7 +1484,7 @@
   "url": "https://github.com/notofonts/gurmukhi/issues/28"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-09-30T02:26:25Z",
   "createdAt": "2025-09-23T05:06:26Z",
   "repo": "gurmukhi",
   "tier": 1,
@@ -1664,6 +1685,62 @@
   "repo": "hebrew",
   "tier": 1,
   "url": "https://github.com/notofonts/hebrew/issues/57"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2023-04-13T15:26:25Z",
+  "repo": "hentaigana",
+  "tier": 3,
+  "url": "https://github.com/notofonts/hentaigana/issues/1"
+ },
+ {
+  "closedAt": "2024-02-19T09:08:00Z",
+  "createdAt": "2023-10-04T23:55:17Z",
+  "repo": "hentaigana",
+  "tier": 3,
+  "url": "https://github.com/notofonts/hentaigana/issues/4"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-02-27T11:55:33Z",
+  "repo": "hentaigana",
+  "tier": 3,
+  "url": "https://github.com/notofonts/hentaigana/issues/5"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-02-27T11:57:49Z",
+  "repo": "hentaigana",
+  "tier": 3,
+  "url": "https://github.com/notofonts/hentaigana/issues/6"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-05-11T01:30:46Z",
+  "repo": "hentaigana",
+  "tier": 3,
+  "url": "https://github.com/notofonts/hentaigana/issues/7"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2024-10-30T04:22:50Z",
+  "repo": "hentaigana",
+  "tier": 3,
+  "url": "https://github.com/notofonts/hentaigana/issues/8"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-02-02T05:52:49Z",
+  "repo": "hentaigana",
+  "tier": 3,
+  "url": "https://github.com/notofonts/hentaigana/issues/9"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-05-30T02:38:34Z",
+  "repo": "hentaigana",
+  "tier": 3,
+  "url": "https://github.com/notofonts/hentaigana/issues/11"
  },
  {
   "closedAt": "2024-04-15T16:08:48Z",
@@ -3885,6 +3962,13 @@
   "url": "https://github.com/notofonts/mongolian/issues/39"
  },
  {
+  "closedAt": "2025-10-03T08:36:36Z",
+  "createdAt": "2025-10-02T19:05:27Z",
+  "repo": "mongolian",
+  "tier": 3,
+  "url": "https://github.com/notofonts/mongolian/issues/44"
+ },
+ {
   "closedAt": "2024-08-15T12:36:05Z",
   "createdAt": "2018-09-24T13:43:50Z",
   "repo": "multani",
@@ -5486,6 +5570,13 @@
   "repo": "tirhuta",
   "tier": 4,
   "url": "https://github.com/notofonts/tirhuta/issues/15"
+ },
+ {
+  "closedAt": "2024-09-04T21:24:33Z",
+  "createdAt": "2024-08-14T11:53:17Z",
+  "repo": "todhri",
+  "tier": 3,
+  "url": "https://github.com/notofonts/todhri/issues/1"
  },
  {
   "closedAt": "2024-01-08T10:38:35Z",

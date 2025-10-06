@@ -8,17 +8,18 @@
   "6": 9,
   "7": 15,
   "8": 7,
-  "9": 3
+  "9": 3,
+  "10": 2
  },
  "open_per_repo": {
   "adlam": 3,
   "ahom": 6,
   "anatolian-hieroglyphs": 1,
-  "arabic": 24,
+  "arabic": 25,
   "armenian": 1,
   "balinese": 4,
   "batak": 3,
-  "bengali": 6,
+  "bengali": 7,
   "bhaiksuki": 5,
   "brahmi": 4,
   "canadian-aboriginal": 7,
@@ -37,9 +38,10 @@
   "glagolitic": 1,
   "gujarati": 6,
   "gunjala-gondi": 1,
-  "gurmukhi": 7,
+  "gurmukhi": 6,
   "hanunoo": 1,
   "hebrew": 15,
+  "hentaigana": 7,
   "inscriptional-pahlavi": 1,
   "inscriptional-parthian": 3,
   "javanese": 4,
@@ -109,22 +111,23 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 252,
+  "1": 253,
   "2": 53,
-  "3": 122,
+  "3": 129,
   "4": 62,
   "5": 38
  },
  "opened_per_month": {
   "1": 9,
-  "2": 12,
+  "2": 13,
   "3": 13,
   "4": 23,
-  "5": 17,
+  "5": 18,
   "6": 21,
   "7": 16,
   "8": 26,
-  "9": 10
+  "9": 10,
+  "10": 3
  },
  "releases_per_month": {
   "1": [
@@ -421,6 +424,10 @@
    {
     "tag": "NotoSansNandinagari-v1.003",
     "url": "https://github.com/notofonts/nandinagari/releases/tag/NotoSansNandinagari-v1.003"
+   },
+   {
+    "tag": "NotoSansSyriacWestern-v3.001",
+    "url": "https://github.com/notofonts/syriac/releases/tag/NotoSansSyriacWestern-v3.001"
    }
   ],
   "11": [
@@ -435,14 +442,15 @@
   ]
  },
  "totals_per_month": {
-  "1": 427,
-  "2": 437,
-  "3": 445,
-  "4": 456,
-  "5": 476,
-  "6": 488,
-  "7": 500,
-  "8": 501,
-  "9": 520
+  "1": 432,
+  "2": 442,
+  "3": 451,
+  "4": 462,
+  "5": 482,
+  "6": 495,
+  "7": 507,
+  "8": 508,
+  "9": 527,
+  "10": 534
  }
 }
