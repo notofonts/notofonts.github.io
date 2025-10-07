@@ -2334,13 +2334,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/bengali",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 7,
   "issues": [
-   {
-    "number": 34,
-    "title": "V3.010 Noto Sans Bengali - Bugfixes ",
-    "url": "https://github.com/notofonts/bengali/pull/34"
-   },
    {
     "number": 33,
     "title": "Features and lookups aren\u2019t correctly registered under language systems",
