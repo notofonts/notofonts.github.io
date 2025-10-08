@@ -9305,6 +9305,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 544,
+    "title": "U+0361 overlap in heavier weights",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/544"
+   },
+   {
     "number": 543,
     "title": "A few currency issues",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/543"
