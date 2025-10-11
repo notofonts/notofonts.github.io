@@ -801,11 +801,6 @@
     "url": "https://github.com/notofonts/arabic/issues/248"
    },
    {
-    "number": 245,
-    "title": "Use the tailed form of U+0620 KASHMIRI YEH as per Unicode consensus",
-    "url": "https://github.com/notofonts/arabic/issues/245"
-   },
-   {
     "number": 242,
     "title": "Is there a way to get ARABIC KASRA be placed beneath the letter instead of ARABIC SHADDA?",
     "url": "https://github.com/notofonts/arabic/issues/242"

@@ -873,7 +873,7 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 26,
+  "issue_count": 25,
   "issues": [
    {
     "number": 270,
@@ -954,11 +954,6 @@
     "number": 248,
     "title": " Incorrect Font Weight Rendering When Printing",
     "url": "https://github.com/notofonts/arabic/issues/248"
-   },
-   {
-    "number": 245,
-    "title": "Use the tailed form of U+0620 KASHMIRI YEH as per Unicode consensus",
-    "url": "https://github.com/notofonts/arabic/issues/245"
    },
    {
     "number": 242,
