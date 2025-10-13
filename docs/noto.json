@@ -6027,6 +6027,11 @@
   "gh_url": "https://notofonts.github.io/hebrew",
   "issues": [
    {
+    "number": 58,
+    "title": "Segol and Meteg overlap",
+    "url": "https://github.com/notofonts/hebrew/issues/58"
+   },
+   {
     "number": 56,
     "title": "Incorrect quotation mark",
     "url": "https://github.com/notofonts/hebrew/issues/56"
@@ -9299,6 +9304,11 @@
   },
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
+   {
+    "number": 545,
+    "title": "Mis-positioned anchors for Ancient Greek letters with iota subscript in Noto Sans",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/545"
+   },
    {
     "number": 544,
     "title": "U+0361 overlap in heavier weights",
