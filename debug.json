@@ -873,7 +873,7 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 25,
+  "issue_count": 12,
   "issues": [
    {
     "number": 270,
@@ -884,21 +884,6 @@
     "number": 269,
     "title": "Add the Saudi Riyal currency sign (U+20C1)",
     "url": "https://github.com/notofonts/arabic/issues/269"
-   },
-   {
-    "number": 268,
-    "title": "U+06E1 overlap",
-    "url": "https://github.com/notofonts/arabic/issues/268"
-   },
-   {
-    "number": 267,
-    "title": "Quranic marks too close in heavier weights",
-    "url": "https://github.com/notofonts/arabic/issues/267"
-   },
-   {
-    "number": 266,
-    "title": "Madda crossover",
-    "url": "https://github.com/notofonts/arabic/issues/266"
    },
    {
     "number": 265,
@@ -916,44 +901,9 @@
     "url": "https://github.com/notofonts/arabic/issues/263"
    },
    {
-    "number": 262,
-    "title": "Interpolation issue in FINAL REH",
-    "url": "https://github.com/notofonts/arabic/issues/262"
-   },
-   {
-    "number": 261,
-    "title": "[Request] Keep U+FDFC ligature as an alternate",
-    "url": "https://github.com/notofonts/arabic/issues/261"
-   },
-   {
-    "number": 258,
-    "title": "NotoNaskhArabic missing diacritic",
-    "url": "https://github.com/notofonts/arabic/issues/258"
-   },
-   {
     "number": 256,
     "title": "Gaps in Thin weight",
     "url": "https://github.com/notofonts/arabic/issues/256"
-   },
-   {
-    "number": 255,
-    "title": "Hamza overlap",
-    "url": "https://github.com/notofonts/arabic/issues/255"
-   },
-   {
-    "number": 254,
-    "title": "Noto Sans Arabic on Android doesn't render U+FD40-U+FD4F",
-    "url": "https://github.com/notofonts/arabic/issues/254"
-   },
-   {
-    "number": 252,
-    "title": "Adjust size and positioning of some diacritics",
-    "url": "https://github.com/notofonts/arabic/pull/252"
-   },
-   {
-    "number": 248,
-    "title": " Incorrect Font Weight Rendering When Printing",
-    "url": "https://github.com/notofonts/arabic/issues/248"
    },
    {
     "number": 242,
@@ -961,19 +911,9 @@
     "url": "https://github.com/notofonts/arabic/issues/242"
    },
    {
-    "number": 241,
-    "title": "Noto Naskh Arabic diacritics slightly small and close to base characters",
-    "url": "https://github.com/notofonts/arabic/issues/241"
-   },
-   {
     "number": 230,
     "title": "Farsi symbol named \"\u0633\u0631\u06cc\u0627\u0621\"",
     "url": "https://github.com/notofonts/arabic/issues/230"
-   },
-   {
-    "number": 226,
-    "title": "Interpolation problems in `NotoNaskhArabic[wght].ttf`",
-    "url": "https://github.com/notofonts/arabic/issues/226"
    },
    {
     "number": 217,
@@ -984,11 +924,6 @@
     "number": 211,
     "title": "maybe there exist some problems with these glyphs, and others\u2026",
     "url": "https://github.com/notofonts/arabic/issues/211"
-   },
-   {
-    "number": 205,
-    "title": "Small circles should only appear below initial & medial forms of KASHMIRI YEH",
-    "url": "https://github.com/notofonts/arabic/issues/205"
    },
    {
     "number": 203,
@@ -17928,8 +17863,14 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/sinhala",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 7,
+    "title": "Noto Sans Sinhala; v3 Major Update",
+    "url": "https://github.com/notofonts/sinhala/pull/7"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/sinhala",
   "tier": 1,
   "title": "Noto Sinhala"
