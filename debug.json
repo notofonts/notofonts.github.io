@@ -287,7 +287,7 @@
       "fonts/NotoKufiArabic/full/ttf/NotoKufiArabic-Regular.ttf",
       "fonts/NotoKufiArabic/full/ttf/NotoKufiArabic-SemiBold.ttf",
       "fonts/NotoKufiArabic/full/ttf/NotoKufiArabic-Thin.ttf",
-      "fonts/NotoKufiArabic/full/variable/NotoKufiArabic[wght].ttf"
+      "fonts/NotoKufiArabic/full/variable-ttf/NotoKufiArabic[wght].ttf"
      ],
      "hinted": [
       "fonts/NotoKufiArabic/hinted/ttf/NotoKufiArabic-Black.ttf",
@@ -320,14 +320,14 @@
       "fonts/NotoKufiArabic/unhinted/ttf/NotoKufiArabic-Regular.ttf",
       "fonts/NotoKufiArabic/unhinted/ttf/NotoKufiArabic-SemiBold.ttf",
       "fonts/NotoKufiArabic/unhinted/ttf/NotoKufiArabic-Thin.ttf",
-      "fonts/NotoKufiArabic/unhinted/variable/NotoKufiArabic[wght].ttf"
+      "fonts/NotoKufiArabic/unhinted/variable-ttf/NotoKufiArabic[wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Kufi Arabi v2.109\n\nThis version restores the older (tighter) vertical metrics and fixes some issues anchoring marks to the dotted circle.\n",
-     "published": "2024-02-12T15:45:56+00:00",
-     "url": "https://github.com/notofonts/arabic/releases/tag/NotoKufiArabic-v2.109",
-     "version": "v2.109"
+     "notes": "Noto Kufi Arabic v2.110\n\nThis release:\n\n* Fixes the shape of Kashmiri Yeh (#245, #205)\n* Fixes the shape of U+FDFC (#260, thanks to @khaledhosny)\n* Works around jeem bug in Adobe\u2019s pre-HarfBuzz composers (#247, thanks to @khaledhosny)\n* Fixes the width of some presentation forms\n",
+     "published": "2025-10-15T10:43:35+00:00",
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoKufiArabic-v2.110",
+     "version": "v2.110"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -376,10 +376,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Naskh Arabic v2.019\n\nThis release de-encodes the U+2011 NON-BREAKING HYPHEN character.\n",
-     "published": "2024-05-30T15:34:45+00:00",
-     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.019",
-     "version": "v2.019"
+     "notes": "Noto Naskh Arabic v2.020\n\nThis release:\n\n* Fixes some interpolation issues (#226, #262)\n* Adjusts the size and positioning of some diacritics (#252, thanks to @MonongaFont\n* Fixes the shape of Kashmiri Yeh (#245, #205)\n* Fixes the shape of U+FDFC (#260, thanks to @khaledhosny)\n* Works around jeem bug in Adobe\u2019s pre-HarfBuzz composers (#247, thanks to @khaledhosny)\n",
+     "published": "2025-10-15T10:44:49+00:00",
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.020",
+     "version": "v2.020"
     },
     "third_party_versions": {
      "Android 12": {
@@ -521,7 +521,7 @@
       "fonts/NotoSansArabic/full/ttf/NotoSansArabic-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansArabic/full/ttf/NotoSansArabic-SemiCondensedThin.ttf",
       "fonts/NotoSansArabic/full/ttf/NotoSansArabic-Thin.ttf",
-      "fonts/NotoSansArabic/full/variable/NotoSansArabic[wdth,wght].ttf"
+      "fonts/NotoSansArabic/full/variable-ttf/NotoSansArabic[wdth,wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSansArabic/hinted/ttf/NotoSansArabic-Black.ttf",
@@ -635,14 +635,14 @@
       "fonts/NotoSansArabic/unhinted/ttf/NotoSansArabic-SemiCondensedSemiBold.ttf",
       "fonts/NotoSansArabic/unhinted/ttf/NotoSansArabic-SemiCondensedThin.ttf",
       "fonts/NotoSansArabic/unhinted/ttf/NotoSansArabic-Thin.ttf",
-      "fonts/NotoSansArabic/unhinted/variable/NotoSansArabic[wdth,wght].ttf"
+      "fonts/NotoSansArabic/unhinted/variable-ttf/NotoSansArabic[wdth,wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Arabic v2.012\n\nThis release:\n\n* Fixes the shape of U+FEE9 (#206)\n* Improves the positioning of the dots in TCHEHEH FINAL FORM (#208)\n* Improves the positioning of marks on ZAIN WITH INVERTED V ABOVE (#209)\n* Improves the positioning of the bar on REH WITH STROKE (#210)\n* Fixes the position of marks on KAF/GAF (#213, #214, #218)\n* Improves the positioning of marks on TAH (#215)\n* Restores kerning which had gone missing (#216)\n* Corrects the dots under GUEH (#219)\n* Fixes the vertical metrics (#221)\n",
-     "published": "2023-11-07T09:43:46+00:00",
-     "url": "https://github.com/notofonts/arabic/releases/tag/NotoSansArabic-v2.012",
-     "version": "v2.012"
+     "notes": "Noto Sans Arabic 2.013\n\nThis release:\n\n* Adjusts the positioning of some diacritics (#268, #266, #265)\n* Fixes the shape of Kashmiri Yeh (#245, #205)\n* Fixes the shape of U+FDFC (#260, thanks to @khaledhosny)\n* Fixes the shape of alef with hamza below (#246, thanks to @khaledhosny)\n* Works around jeem bug in Adobe\u2019s pre-HarfBuzz composers (#247, thanks to @khaledhosny)\n* Fixes a number of Fontspector fails\n",
+     "published": "2025-10-15T10:42:32+00:00",
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoSansArabic-v2.013",
+     "version": "v2.013"
     },
     "third_party_versions": {
      "Fedora 38": {
