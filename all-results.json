@@ -91,7 +91,7 @@
   "url": "https://github.com/notofonts/arabic/issues/203"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-10-13T10:47:51Z",
   "createdAt": "2023-10-14T05:38:53Z",
   "repo": "arabic",
   "tier": 1,
@@ -112,7 +112,7 @@
   "url": "https://github.com/notofonts/arabic/issues/217"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-10-13T10:54:07Z",
   "createdAt": "2024-01-04T15:19:28Z",
   "repo": "arabic",
   "tier": 1,
@@ -210,7 +210,7 @@
   "url": "https://github.com/notofonts/arabic/issues/240"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-10-13T10:38:09Z",
   "createdAt": "2024-07-05T05:41:28Z",
   "repo": "arabic",
   "tier": 1,
@@ -245,7 +245,7 @@
   "url": "https://github.com/notofonts/arabic/issues/245"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-10-13T10:41:17Z",
   "createdAt": "2024-08-11T07:16:35Z",
   "repo": "arabic",
   "tier": 1,
@@ -280,14 +280,14 @@
   "url": "https://github.com/notofonts/arabic/issues/253"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-10-13T10:41:01Z",
   "createdAt": "2024-10-17T07:15:04Z",
   "repo": "arabic",
   "tier": 1,
   "url": "https://github.com/notofonts/arabic/issues/254"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-10-13T10:54:07Z",
   "createdAt": "2024-12-31T02:33:37Z",
   "repo": "arabic",
   "tier": 1,
@@ -308,7 +308,7 @@
   "url": "https://github.com/notofonts/arabic/issues/257"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-10-13T10:38:52Z",
   "createdAt": "2025-02-04T17:54:35Z",
   "repo": "arabic",
   "tier": 1,
@@ -322,14 +322,14 @@
   "url": "https://github.com/notofonts/arabic/issues/259"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-10-13T10:48:41Z",
   "createdAt": "2025-03-12T18:58:01Z",
   "repo": "arabic",
   "tier": 1,
   "url": "https://github.com/notofonts/arabic/issues/261"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-10-13T10:54:06Z",
   "createdAt": "2025-03-25T19:06:12Z",
   "repo": "arabic",
   "tier": 1,
@@ -357,21 +357,21 @@
   "url": "https://github.com/notofonts/arabic/issues/265"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-10-13T10:58:06Z",
   "createdAt": "2025-08-05T11:55:26Z",
   "repo": "arabic",
   "tier": 1,
   "url": "https://github.com/notofonts/arabic/issues/266"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-10-13T10:38:32Z",
   "createdAt": "2025-08-06T12:17:06Z",
   "repo": "arabic",
   "tier": 1,
   "url": "https://github.com/notofonts/arabic/issues/267"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-10-13T11:10:20Z",
   "createdAt": "2025-08-09T18:30:53Z",
   "repo": "arabic",
   "tier": 1,
@@ -4968,6 +4968,13 @@
   "repo": "sign-writing",
   "tier": 3,
   "url": "https://github.com/notofonts/sign-writing/issues/12"
+ },
+ {
+  "closedAt": "2025-10-14T15:25:42Z",
+  "createdAt": "2025-10-14T14:50:08Z",
+  "repo": "sinhala",
+  "tier": 1,
+  "url": "https://github.com/notofonts/sinhala/issues/8"
  },
  {
   "closedAt": null,

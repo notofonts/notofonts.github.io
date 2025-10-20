@@ -9,13 +9,13 @@
   "7": 15,
   "8": 7,
   "9": 3,
-  "10": 3
+  "10": 16
  },
  "open_per_repo": {
   "adlam": 3,
   "ahom": 6,
   "anatolian-hieroglyphs": 1,
-  "arabic": 24,
+  "arabic": 12,
   "armenian": 1,
   "balinese": 4,
   "batak": 3,
@@ -111,7 +111,7 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 255,
+  "1": 243,
   "2": 53,
   "3": 129,
   "4": 62,
@@ -127,7 +127,7 @@
   "7": 16,
   "8": 26,
   "9": 10,
-  "10": 6
+  "10": 7
  },
  "releases_per_month": {
   "1": [
@@ -422,8 +422,24 @@
   ],
   "10": [
    {
+    "tag": "NotoSansArabic-v2.013",
+    "url": "https://github.com/notofonts/arabic/releases/tag/NotoSansArabic-v2.013"
+   },
+   {
+    "tag": "NotoNaskhArabic-v2.020",
+    "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.020"
+   },
+   {
+    "tag": "NotoKufiArabic-v2.110",
+    "url": "https://github.com/notofonts/arabic/releases/tag/NotoKufiArabic-v2.110"
+   },
+   {
     "tag": "NotoSansNandinagari-v1.003",
     "url": "https://github.com/notofonts/nandinagari/releases/tag/NotoSansNandinagari-v1.003"
+   },
+   {
+    "tag": "NotoSansSinhala-v3.000",
+    "url": "https://github.com/notofonts/sinhala/releases/tag/NotoSansSinhala-v3.000"
    },
    {
     "tag": "NotoSansSyriacWestern-v3.001",
