@@ -3052,6 +3052,11 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
+    "number": 67,
+    "title": "Add localized Nepali form for Devanagari Digit One (\u0967, U+0967)",
+    "url": "https://github.com/notofonts/devanagari/issues/67"
+   },
+   {
     "number": 66,
     "title": "Rupee Discrepancy",
     "url": "https://github.com/notofonts/devanagari/issues/66"
