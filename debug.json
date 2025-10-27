@@ -18111,8 +18111,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/symbols",
   "has_releases": true,
-  "issue_count": 14,
+  "issue_count": 15,
   "issues": [
+   {
+    "number": 88,
+    "title": "Drew alchemical and geomancy",
+    "url": "https://github.com/notofonts/symbols/issues/88"
+   },
    {
     "number": 87,
     "title": "[Meta] Downstreaming fallback - request for suggestions",
