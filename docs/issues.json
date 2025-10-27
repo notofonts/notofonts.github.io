@@ -27,7 +27,7 @@
   "chorasmian": 1,
   "coptic": 2,
   "cuneiform": 1,
-  "devanagari": 9,
+  "devanagari": 10,
   "dives-akuru": 8,
   "dogra": 2,
   "duployan": 1,
@@ -91,7 +91,7 @@
   "soyombo": 4,
   "sundanese": 4,
   "syloti-nagri": 5,
-  "symbols": 14,
+  "symbols": 15,
   "syriac": 9,
   "tagalog": 2,
   "tai-tham": 1,
@@ -111,9 +111,9 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 243,
+  "1": 244,
   "2": 53,
-  "3": 129,
+  "3": 130,
   "4": 62,
   "5": 38
  },
@@ -127,7 +127,7 @@
   "7": 16,
   "8": 26,
   "9": 10,
-  "10": 7
+  "10": 9
  },
  "releases_per_month": {
   "1": [

@@ -1051,6 +1051,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-10-23T21:19:36Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/67"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2022-04-22T19:51:54Z",
   "repo": "dives-akuru",
   "tier": 5,
@@ -5199,6 +5206,13 @@
   "repo": "symbols",
   "tier": 3,
   "url": "https://github.com/notofonts/symbols/issues/87"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-10-26T19:28:48Z",
+  "repo": "symbols",
+  "tier": 3,
+  "url": "https://github.com/notofonts/symbols/issues/88"
  },
  {
   "closedAt": null,
