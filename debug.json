@@ -7316,8 +7316,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/hebrew",
   "has_releases": true,
-  "issue_count": 16,
+  "issue_count": 17,
   "issues": [
+   {
+    "number": 59,
+    "title": "Holam and sin dot issues in Rashi",
+    "url": "https://github.com/notofonts/hebrew/issues/59"
+   },
    {
     "number": 58,
     "title": "Segol and Meteg overlap",

@@ -5967,6 +5967,11 @@
   "gh_url": "https://notofonts.github.io/hebrew",
   "issues": [
    {
+    "number": 59,
+    "title": "Holam and sin dot issues in Rashi",
+    "url": "https://github.com/notofonts/hebrew/issues/59"
+   },
+   {
     "number": 58,
     "title": "Segol and Meteg overlap",
     "url": "https://github.com/notofonts/hebrew/issues/58"
