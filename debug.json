@@ -6566,8 +6566,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/gurmukhi",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 30,
+    "title": "Conjunct + Imatra reordering different between Sans and Serif",
+    "url": "https://github.com/notofonts/gurmukhi/issues/30"
+   },
    {
     "number": 28,
     "title": "Issue with Addak (\u0a71) Position with TTHA (\u0a20) and NA (\u0a28) in Noto Sans",
