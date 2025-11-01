@@ -11380,6 +11380,11 @@
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
    {
+    "number": 45,
+    "title": "Fix a `make clean` error",
+    "url": "https://github.com/notofonts/mongolian/pull/45"
+   },
+   {
     "number": 32,
     "title": "Weights?",
     "url": "https://github.com/notofonts/mongolian/issues/32"
