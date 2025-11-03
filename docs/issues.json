@@ -9,7 +9,8 @@
   "7": 15,
   "8": 7,
   "9": 3,
-  "10": 16
+  "10": 16,
+  "11": 0
  },
  "open_per_repo": {
   "adlam": 3,
@@ -38,9 +39,9 @@
   "glagolitic": 1,
   "gujarati": 6,
   "gunjala-gondi": 1,
-  "gurmukhi": 6,
+  "gurmukhi": 7,
   "hanunoo": 1,
-  "hebrew": 16,
+  "hebrew": 17,
   "hentaigana": 7,
   "inscriptional-pahlavi": 1,
   "inscriptional-parthian": 3,
@@ -111,7 +112,7 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 244,
+  "1": 246,
   "2": 53,
   "3": 130,
   "4": 62,
@@ -127,7 +128,8 @@
   "7": 16,
   "8": 26,
   "9": 10,
-  "10": 9
+  "10": 11,
+  "11": 0
  },
  "releases_per_month": {
   "1": [
@@ -467,6 +469,7 @@
   "7": 507,
   "8": 508,
   "9": 527,
-  "10": 534
+  "10": 534,
+  "11": 529
  }
 }

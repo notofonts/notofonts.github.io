@@ -1498,6 +1498,13 @@
   "url": "https://github.com/notofonts/gurmukhi/issues/29"
  },
  {
+  "closedAt": null,
+  "createdAt": "2025-10-29T10:31:44Z",
+  "repo": "gurmukhi",
+  "tier": 1,
+  "url": "https://github.com/notofonts/gurmukhi/issues/30"
+ },
+ {
   "closedAt": "2024-09-04T10:04:13Z",
   "createdAt": "2021-01-14T09:39:22Z",
   "repo": "hanunoo",
@@ -1699,6 +1706,13 @@
   "repo": "hebrew",
   "tier": 1,
   "url": "https://github.com/notofonts/hebrew/issues/58"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-10-28T11:58:49Z",
+  "repo": "hebrew",
+  "tier": 1,
+  "url": "https://github.com/notofonts/hebrew/issues/59"
  },
  {
   "closedAt": null,
