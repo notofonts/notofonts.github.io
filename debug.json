@@ -873,8 +873,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 12,
+  "issue_count": 13,
   "issues": [
+   {
+    "number": 271,
+    "title": "Connection issue between \u0647 and \u0627 in Naskh",
+    "url": "https://github.com/notofonts/arabic/issues/271"
+   },
    {
     "number": 270,
     "title": "Arabic monospaced version",
@@ -13774,13 +13779,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mongolian",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 45,
-    "title": "Fix a `make clean` error",
-    "url": "https://github.com/notofonts/mongolian/pull/45"
-   },
    {
     "number": 32,
     "title": "Weights?",
