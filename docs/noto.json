@@ -9260,6 +9260,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 546,
+    "title": "There is a bug where some letters appear differently.",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/546"
+   },
+   {
     "number": 545,
     "title": "Mis-positioned anchors for Ancient Greek letters with iota subscript in Noto Sans",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/545"

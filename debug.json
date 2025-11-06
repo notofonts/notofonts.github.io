@@ -11062,8 +11062,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 147,
+  "issue_count": 148,
   "issues": [
+   {
+    "number": 546,
+    "title": "There is a bug where some letters appear differently.",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/546"
+   },
    {
     "number": 545,
     "title": "Mis-positioned anchors for Ancient Greek letters with iota subscript in Noto Sans",
