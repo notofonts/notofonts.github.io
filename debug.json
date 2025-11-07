@@ -873,8 +873,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 13,
+  "issue_count": 14,
   "issues": [
+   {
+    "number": 272,
+    "title": "Dots of letters shift excessively in italics",
+    "url": "https://github.com/notofonts/arabic/issues/272"
+   },
    {
     "number": 271,
     "title": "Connection issue between \u0647 and \u0627 in Naskh",
