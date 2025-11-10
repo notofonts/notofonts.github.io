@@ -393,6 +393,20 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-11-04T20:11:30Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/271"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-11-06T15:36:09Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/272"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2021-05-06T04:03:47Z",
   "repo": "armenian",
   "tier": 1,
@@ -3421,6 +3435,13 @@
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/545"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-11-05T11:15:38Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/546"
  },
  {
   "closedAt": null,
