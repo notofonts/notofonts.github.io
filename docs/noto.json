@@ -9265,6 +9265,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 547,
+    "title": "Greek with combining caron for Pontic Greek",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/547"
+   },
+   {
     "number": 546,
     "title": "There is a bug where some letters appear differently.",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/546"
