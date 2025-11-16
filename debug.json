@@ -3897,8 +3897,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/devanagari",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 11,
   "issues": [
+   {
+    "number": 68,
+    "title": "Website failed to rebuild for latest build four months ago.",
+    "url": "https://github.com/notofonts/devanagari/issues/68"
+   },
    {
     "number": 67,
     "title": "Add localized Nepali form for Devanagari Digit One (\u0967, U+0967)",
@@ -16811,8 +16816,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/rejang",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 5,
+    "title": "Website failed to rebuild for latest build four months ago.",
+    "url": "https://github.com/notofonts/rejang/issues/5"
+   },
    {
     "number": 1,
     "title": "Overlapping marks in Rejang",
