@@ -7625,6 +7625,11 @@
   "gh_url": "https://notofonts.github.io/khojki",
   "issues": [
    {
+    "number": 30,
+    "title": "Noto Sans Khojki is missing from the development builds page.",
+    "url": "https://github.com/notofonts/khojki/issues/30"
+   },
+   {
     "number": 21,
     "title": "U+1123E KHOJKI SIGN SUKUN is placed inconsistently in Noto Serif Khojki",
     "url": "https://github.com/notofonts/khojki/issues/21"
