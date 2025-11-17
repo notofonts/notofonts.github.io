@@ -1072,6 +1072,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-11-15T02:20:42Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/68"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2022-04-22T19:51:54Z",
   "repo": "dives-akuru",
   "tier": 5,
@@ -2063,6 +2070,13 @@
   "repo": "khojki",
   "tier": 3,
   "url": "https://github.com/notofonts/khojki/issues/28"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-11-16T03:46:00Z",
+  "repo": "khojki",
+  "tier": 3,
+  "url": "https://github.com/notofonts/khojki/issues/30"
  },
  {
   "closedAt": null,
@@ -3442,6 +3456,13 @@
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/546"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-11-10T20:14:26Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/547"
  },
  {
   "closedAt": null,
@@ -4908,6 +4929,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-11-16T00:03:25Z",
+  "repo": "rejang",
+  "tier": 3,
+  "url": "https://github.com/notofonts/rejang/issues/5"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-11-06T05:09:16Z",
   "repo": "runic",
   "tier": 4,
@@ -5248,6 +5276,13 @@
   "repo": "symbols",
   "tier": 3,
   "url": "https://github.com/notofonts/symbols/issues/88"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-11-14T20:27:35Z",
+  "repo": "symbols",
+  "tier": 3,
+  "url": "https://github.com/notofonts/symbols/issues/89"
  },
  {
   "closedAt": null,

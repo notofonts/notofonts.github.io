@@ -28,7 +28,7 @@
   "chorasmian": 1,
   "coptic": 2,
   "cuneiform": 1,
-  "devanagari": 10,
+  "devanagari": 11,
   "dives-akuru": 8,
   "dogra": 2,
   "duployan": 1,
@@ -52,10 +52,10 @@
   "kharoshthi": 1,
   "khitan-small-script": 1,
   "khmer": 2,
-  "khojki": 1,
+  "khojki": 2,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 145,
+  "latin-greek-cyrillic": 146,
   "limbu": 2,
   "malayalam": 6,
   "mandaic": 2,
@@ -82,7 +82,7 @@
   "pau-cin-hau": 1,
   "phags-pa": 1,
   "psalter-pahlavi": 1,
-  "rejang": 1,
+  "rejang": 2,
   "runic": 1,
   "saurashtra": 1,
   "sharada": 4,
@@ -92,7 +92,7 @@
   "soyombo": 4,
   "sundanese": 4,
   "syloti-nagri": 5,
-  "symbols": 15,
+  "symbols": 16,
   "syriac": 9,
   "tagalog": 2,
   "tai-tham": 1,
@@ -112,9 +112,9 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 249,
+  "1": 251,
   "2": 53,
-  "3": 130,
+  "3": 133,
   "4": 62,
   "5": 38
  },
@@ -129,7 +129,7 @@
   "8": 26,
   "9": 10,
   "10": 11,
-  "11": 3
+  "11": 8
  },
  "releases_per_month": {
   "1": [
