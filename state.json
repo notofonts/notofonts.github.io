@@ -10840,25 +10840,25 @@
   "families": {
    "Noto Sans Rejang": {
     "files": [
+     "fonts/NotoSansRejang/hinted/ttf/NotoSansRejang-Regular.ttf",
      "fonts/NotoSansRejang/full/ttf/NotoSansRejang-Regular.ttf",
      "fonts/NotoSansRejang/full/otf/NotoSansRejang-Regular.otf",
-     "fonts/NotoSansRejang/hinted/ttf/NotoSansRejang-Regular.ttf",
-     "fonts/NotoSansRejang/unhinted/slim-otf/NotoSansRejang-Regular.otf",
      "fonts/NotoSansRejang/unhinted/ttf/NotoSansRejang-Regular.ttf",
      "fonts/NotoSansRejang/unhinted/otf/NotoSansRejang-Regular.otf",
      "fonts/NotoSansRejang/googlefonts/ttf/NotoSansRejang-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "This release fixes a number of overlapping glyphs (#1, #2, #3)",
-     "published": "2023-06-22T12:49:31",
-     "url": "https://github.com/notofonts/rejang/releases/tag/NotoSansRejang-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Sans Rejang v2.003\n\nThis version includes improvements to the RA (#4)\n",
+     "published": "2025-11-17T09:02:40+00:00",
+     "url": "https://github.com/notofonts/rejang/releases/tag/NotoSansRejang-v2.003",
+     "version": "v2.003"
     }
    }
   },
   "known_releases": [
    "NotoSansRejang-v2.001",
-   "NotoSansRejang-v2.002"
+   "NotoSansRejang-v2.002",
+   "NotoSansRejang-v2.003"
   ]
  },
  "runic": {
