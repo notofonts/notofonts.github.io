@@ -873,8 +873,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 14,
+  "issue_count": 15,
   "issues": [
+   {
+    "number": 273,
+    "title": "Request: Correct Shape for Digit Two (U+06F2) in Central Kurdish (ckb) Locale",
+    "url": "https://github.com/notofonts/arabic/issues/273"
+   },
    {
     "number": 272,
     "title": "Dots of letters shift excessively in italics",
