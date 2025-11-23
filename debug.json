@@ -873,8 +873,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 15,
+  "issue_count": 16,
   "issues": [
+   {
+    "number": 274,
+    "title": "No harmony weights between Latin and Arabic characters (full font version)",
+    "url": "https://github.com/notofonts/arabic/issues/274"
+   },
    {
     "number": 273,
     "title": "Request: Correct Shape for Digit Two (U+06F2) in Central Kurdish (ckb) Locale",
