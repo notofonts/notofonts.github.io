@@ -10,13 +10,13 @@
   "8": 7,
   "9": 3,
   "10": 16,
-  "11": 0
+  "11": 3
  },
  "open_per_repo": {
   "adlam": 3,
   "ahom": 6,
   "anatolian-hieroglyphs": 1,
-  "arabic": 14,
+  "arabic": 16,
   "armenian": 1,
   "balinese": 4,
   "batak": 3,
@@ -28,7 +28,7 @@
   "chorasmian": 1,
   "coptic": 2,
   "cuneiform": 1,
-  "devanagari": 11,
+  "devanagari": 10,
   "dives-akuru": 8,
   "dogra": 2,
   "duployan": 1,
@@ -52,7 +52,7 @@
   "kharoshthi": 1,
   "khitan-small-script": 1,
   "khmer": 2,
-  "khojki": 2,
+  "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
   "latin-greek-cyrillic": 146,
@@ -82,7 +82,7 @@
   "pau-cin-hau": 1,
   "phags-pa": 1,
   "psalter-pahlavi": 1,
-  "rejang": 2,
+  "rejang": 1,
   "runic": 1,
   "saurashtra": 1,
   "sharada": 4,
@@ -112,9 +112,9 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 251,
+  "1": 252,
   "2": 53,
-  "3": 133,
+  "3": 131,
   "4": 62,
   "5": 38
  },
@@ -129,7 +129,7 @@
   "8": 26,
   "9": 10,
   "10": 11,
-  "11": 8
+  "11": 10
  },
  "releases_per_month": {
   "1": [
@@ -456,6 +456,10 @@
    {
     "tag": "NotoSans-v2.015",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/releases/tag/NotoSans-v2.015"
+   },
+   {
+    "tag": "NotoSansRejang-v2.003",
+    "url": "https://github.com/notofonts/rejang/releases/tag/NotoSansRejang-v2.003"
    }
   ]
  },

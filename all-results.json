@@ -407,6 +407,20 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-11-21T13:00:15Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/273"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-11-22T20:16:50Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/274"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2021-05-06T04:03:47Z",
   "repo": "armenian",
   "tier": 1,
@@ -1071,7 +1085,7 @@
   "url": "https://github.com/notofonts/devanagari/issues/67"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-11-17T18:02:36Z",
   "createdAt": "2025-11-15T02:20:42Z",
   "repo": "devanagari",
   "tier": 1,
@@ -2072,7 +2086,7 @@
   "url": "https://github.com/notofonts/khojki/issues/28"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-11-17T10:14:32Z",
   "createdAt": "2025-11-16T03:46:00Z",
   "repo": "khojki",
   "tier": 3,
@@ -4928,7 +4942,7 @@
   "url": "https://github.com/notofonts/rejang/issues/4"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-11-17T09:11:54Z",
   "createdAt": "2025-11-16T00:03:25Z",
   "repo": "rejang",
   "tier": 3,
