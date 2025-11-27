@@ -721,6 +721,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 275,
+    "title": "Ain/Kasra overlap in Naskh",
+    "url": "https://github.com/notofonts/arabic/issues/275"
+   },
+   {
     "number": 274,
     "title": "No harmony weights between Latin and Arabic characters (full font version)",
     "url": "https://github.com/notofonts/arabic/issues/274"
