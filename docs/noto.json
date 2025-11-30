@@ -1466,6 +1466,11 @@
   "gh_url": "https://notofonts.github.io/batak",
   "issues": [
    {
+    "number": 13,
+    "title": "Position of ee\u1be9 1BE9 on Batak letter a 1BC0",
+    "url": "https://github.com/notofonts/batak/issues/13"
+   },
+   {
     "number": 12,
     "title": "U+1BFF BATAK SYMBOL BINDU PANGOLAT overlaps marks and 'dist' should ignore U+1BE6 BATAK SIGN TOMPI",
     "url": "https://github.com/notofonts/batak/issues/12"
