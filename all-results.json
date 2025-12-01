@@ -399,7 +399,7 @@
   "url": "https://github.com/notofonts/arabic/issues/271"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-11-27T08:03:37Z",
   "createdAt": "2025-11-06T15:36:09Z",
   "repo": "arabic",
   "tier": 1,
@@ -418,6 +418,13 @@
   "repo": "arabic",
   "tier": 1,
   "url": "https://github.com/notofonts/arabic/issues/274"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-11-26T10:27:58Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/275"
  },
  {
   "closedAt": null,
@@ -551,6 +558,13 @@
   "repo": "batak",
   "tier": 3,
   "url": "https://github.com/notofonts/batak/issues/12"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-11-29T12:02:22Z",
+  "repo": "batak",
+  "tier": 3,
+  "url": "https://github.com/notofonts/batak/issues/13"
  },
  {
   "closedAt": "2025-07-03T15:11:05Z",
@@ -2066,6 +2080,20 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-11-28T01:56:54Z",
+  "repo": "khmer",
+  "tier": 2,
+  "url": "https://github.com/notofonts/khmer/issues/31"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-11-28T02:08:56Z",
+  "repo": "khmer",
+  "tier": 2,
+  "url": "https://github.com/notofonts/khmer/issues/32"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-06-27T21:13:52Z",
   "repo": "khojki",
   "tier": 3,
@@ -3477,6 +3505,13 @@
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/547"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-11-30T19:02:27Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/548"
  },
  {
   "closedAt": null,
@@ -4947,6 +4982,13 @@
   "repo": "rejang",
   "tier": 3,
   "url": "https://github.com/notofonts/rejang/issues/5"
+ },
+ {
+  "closedAt": "2025-11-26T16:26:07Z",
+  "createdAt": "2025-11-26T15:20:20Z",
+  "repo": "rejang",
+  "tier": 3,
+  "url": "https://github.com/notofonts/rejang/issues/6"
  },
  {
   "closedAt": null,
