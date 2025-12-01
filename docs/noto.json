@@ -9295,6 +9295,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 548,
+    "title": "Add superscript glyphs for commas and dashes",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/548"
+   },
+   {
     "number": 547,
     "title": "Greek with combining caron for Pontic Greek",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/547"
