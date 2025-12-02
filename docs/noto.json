@@ -3277,6 +3277,11 @@
   "gh_url": "https://notofonts.github.io/duployan",
   "issues": [
    {
+    "number": 11,
+    "title": "Bump fonttools from 4.53.1 to 4.61.0",
+    "url": "https://github.com/notofonts/duployan/pull/11"
+   },
+   {
     "number": 6,
     "title": "Leave and rename v2",
     "url": "https://github.com/notofonts/duployan/issues/6"
@@ -11017,6 +11022,11 @@
   },
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
+   {
+    "number": 104,
+    "title": "link to mathfonts.github.io",
+    "url": "https://github.com/notofonts/math/pull/104"
+   },
    {
     "number": 101,
     "title": "Circled operators are too large",
