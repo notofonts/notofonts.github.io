@@ -11023,11 +11023,6 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
-    "number": 104,
-    "title": "link to mathfonts.github.io",
-    "url": "https://github.com/notofonts/math/pull/104"
-   },
-   {
     "number": 101,
     "title": "Circled operators are too large",
     "url": "https://github.com/notofonts/math/issues/101"

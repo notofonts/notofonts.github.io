@@ -13217,13 +13217,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 15,
+  "issue_count": 14,
   "issues": [
-   {
-    "number": 104,
-    "title": "link to mathfonts.github.io",
-    "url": "https://github.com/notofonts/math/pull/104"
-   },
    {
     "number": 101,
     "title": "Circled operators are too large",
