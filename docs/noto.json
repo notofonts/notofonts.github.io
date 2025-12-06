@@ -721,6 +721,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 276,
+    "title": "[naskh] Add Saudi Riyal (U+20C1)",
+    "url": "https://github.com/notofonts/arabic/pull/276"
+   },
+   {
     "number": 275,
     "title": "Ain/Kasra overlap in Naskh",
     "url": "https://github.com/notofonts/arabic/issues/275"
