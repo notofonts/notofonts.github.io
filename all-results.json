@@ -5342,6 +5342,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-12-07T19:31:53Z",
+  "repo": "symbols",
+  "tier": 3,
+  "url": "https://github.com/notofonts/symbols/issues/90"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2016-04-18T20:20:06Z",
   "repo": "syriac",
   "tier": 3,

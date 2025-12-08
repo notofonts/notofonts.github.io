@@ -93,7 +93,7 @@
   "soyombo": 4,
   "sundanese": 4,
   "syloti-nagri": 5,
-  "symbols": 16,
+  "symbols": 17,
   "syriac": 9,
   "tagalog": 2,
   "tai-tham": 1,
@@ -115,7 +115,7 @@
  "open_per_tier": {
   "1": 253,
   "2": 55,
-  "3": 132,
+  "3": 133,
   "4": 62,
   "5": 38
  },
@@ -131,7 +131,7 @@
   "9": 10,
   "10": 11,
   "11": 15,
-  "12": 0
+  "12": 1
  },
  "releases_per_month": {
   "1": [
