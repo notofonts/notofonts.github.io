@@ -14568,6 +14568,11 @@
   "gh_url": "https://notofonts.github.io/symbols",
   "issues": [
    {
+    "number": 90,
+    "title": "Bump Symbols 2 version number",
+    "url": "https://github.com/notofonts/symbols/issues/90"
+   },
+   {
     "number": 89,
     "title": "Font names \"Noto Sans Symbols2\" vs \"Noto Sans Symbols 2\"",
     "url": "https://github.com/notofonts/symbols/issues/89"
