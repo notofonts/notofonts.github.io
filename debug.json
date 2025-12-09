@@ -20373,8 +20373,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/telugu",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 24,
+    "title": "Incorrect Telugu \u0c18 (U+0C18) glyph in Noto Sans Telugu UI \u2014 missing traditional downward stroke",
+    "url": "https://github.com/notofonts/telugu/issues/24"
+   },
    {
     "number": 21,
     "title": "\u0c28\u0c4d\u0c26\u0c4d\u0c30\u0952 ndra with vedic anudatta overlapping",
