@@ -3515,6 +3515,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-12-14T11:59:29Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/549"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -5556,6 +5563,13 @@
   "repo": "telugu",
   "tier": 1,
   "url": "https://github.com/notofonts/telugu/issues/23"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-12-08T09:14:45Z",
+  "repo": "telugu",
+  "tier": 1,
+  "url": "https://github.com/notofonts/telugu/issues/24"
  },
  {
   "closedAt": null,
