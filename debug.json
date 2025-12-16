@@ -11107,17 +11107,12 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 151,
+  "issue_count": 150,
   "issues": [
    {
     "number": 549,
     "title": "Request to add calligraphic/script and Fraktur letters",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/549"
-   },
-   {
-    "number": 548,
-    "title": "Add superscript glyphs for commas and dashes",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/548"
    },
    {
     "number": 547,
