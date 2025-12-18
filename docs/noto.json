@@ -11028,6 +11028,11 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 105,
+    "title": "It's in need for variable weight",
+    "url": "https://github.com/notofonts/math/issues/105"
+   },
+   {
     "number": 101,
     "title": "Circled operators are too large",
     "url": "https://github.com/notofonts/math/issues/101"
@@ -14567,6 +14572,11 @@
   },
   "gh_url": "https://notofonts.github.io/symbols",
   "issues": [
+   {
+    "number": 91,
+    "title": "Please add variable weight to Noto Sans Symbols 2",
+    "url": "https://github.com/notofonts/symbols/issues/91"
+   },
    {
     "number": 90,
     "title": "Bump Symbols 2 version number",
