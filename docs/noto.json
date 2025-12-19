@@ -13262,6 +13262,11 @@
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
    {
+    "number": 47,
+    "title": "Some below-base mark attachments are implemented in `abvm` GPOS feature (Oriya Sans; possibly others)",
+    "url": "https://github.com/notofonts/oriya/issues/47"
+   },
+   {
     "number": 46,
     "title": "Added Support for DABHARA (\u0b26\u0b4d\u0b2d\u0b4d\u0b30) in Noto Sans",
     "url": "https://github.com/notofonts/oriya/pull/46"
