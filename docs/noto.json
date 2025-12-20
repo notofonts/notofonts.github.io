@@ -1901,6 +1901,11 @@
   "gh_url": "https://notofonts.github.io/bengali",
   "issues": [
    {
+    "number": 36,
+    "title": "Improving glyph face of Noto Sans Bengali for weight 100, 200,300",
+    "url": "https://github.com/notofonts/bengali/issues/36"
+   },
+   {
     "number": 33,
     "title": "Features and lookups aren\u2019t correctly registered under language systems",
     "url": "https://github.com/notofonts/bengali/issues/33"
@@ -13261,11 +13266,6 @@
   },
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
-   {
-    "number": 47,
-    "title": "Some below-base mark attachments are implemented in `abvm` GPOS feature (Oriya Sans; possibly others)",
-    "url": "https://github.com/notofonts/oriya/issues/47"
-   },
    {
     "number": 46,
     "title": "Added Support for DABHARA (\u0b26\u0b4d\u0b2d\u0b4d\u0b30) in Noto Sans",
