@@ -2050,10 +2050,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Bengali v3.00\n\nThis release incudes a new design and improved engineering by Universal Thirst.\n",
-     "published": "2025-07-08T11:30:11+00:00",
-     "url": "https://github.com/notofonts/bengali/releases/tag/NotoSansBengali-v3.000",
-     "version": "v3.000"
+     "notes": "Noto Sans Bengali v3.010\n\nThis version integrates fixes to conjunct ordering for old renderers\n",
+     "published": "2025-12-21T12:37:42+00:00",
+     "url": "https://github.com/notofonts/bengali/releases/tag/NotoSansBengali-v3.010",
+     "version": "v3.010"
     },
     "third_party_versions": {
      "Android 12": {
