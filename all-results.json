@@ -658,6 +658,20 @@
   "url": "https://github.com/notofonts/bengali/issues/33"
  },
  {
+  "closedAt": "2025-12-19T18:02:01Z",
+  "createdAt": "2025-12-19T15:57:11Z",
+  "repo": "bengali",
+  "tier": 1,
+  "url": "https://github.com/notofonts/bengali/issues/35"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-12-19T16:56:10Z",
+  "repo": "bengali",
+  "tier": 1,
+  "url": "https://github.com/notofonts/bengali/issues/36"
+ },
+ {
   "closedAt": null,
   "createdAt": "2018-11-11T17:38:48Z",
   "repo": "bhaiksuki",
@@ -3507,7 +3521,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/547"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-12-15T14:53:42Z",
   "createdAt": "2025-11-30T19:02:27Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -4016,6 +4030,13 @@
   "repo": "math",
   "tier": 3,
   "url": "https://github.com/notofonts/math/issues/102"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-12-17T16:19:36Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/105"
  },
  {
   "closedAt": "2024-07-24T16:09:41Z",
@@ -4921,6 +4942,13 @@
   "url": "https://github.com/notofonts/oriya/issues/43"
  },
  {
+  "closedAt": "2025-12-19T08:03:30Z",
+  "createdAt": "2025-12-18T18:56:35Z",
+  "repo": "oriya",
+  "tier": 1,
+  "url": "https://github.com/notofonts/oriya/issues/47"
+ },
+ {
   "closedAt": null,
   "createdAt": "2025-06-27T07:58:53Z",
   "repo": "osmanya",
@@ -5353,6 +5381,13 @@
   "repo": "symbols",
   "tier": 3,
   "url": "https://github.com/notofonts/symbols/issues/90"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-12-17T16:17:36Z",
+  "repo": "symbols",
+  "tier": 3,
+  "url": "https://github.com/notofonts/symbols/issues/91"
  },
  {
   "closedAt": null,

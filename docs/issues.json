@@ -11,7 +11,7 @@
   "9": 3,
   "10": 16,
   "11": 5,
-  "12": 0
+  "12": 3
  },
  "open_per_repo": {
   "adlam": 3,
@@ -21,7 +21,7 @@
   "armenian": 1,
   "balinese": 4,
   "batak": 4,
-  "bengali": 7,
+  "bengali": 8,
   "bhaiksuki": 5,
   "brahmi": 4,
   "canadian-aboriginal": 7,
@@ -56,13 +56,13 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 148,
+  "latin-greek-cyrillic": 147,
   "limbu": 2,
   "malayalam": 6,
   "mandaic": 2,
   "manichaean": 3,
   "masaram-gondi": 1,
-  "math": 14,
+  "math": 15,
   "meetei-mayek": 1,
   "modi": 7,
   "mongolian": 1,
@@ -93,7 +93,7 @@
   "soyombo": 4,
   "sundanese": 4,
   "syloti-nagri": 5,
-  "symbols": 17,
+  "symbols": 18,
   "syriac": 9,
   "tagalog": 2,
   "tai-tham": 1,
@@ -115,7 +115,7 @@
  "open_per_tier": {
   "1": 255,
   "2": 55,
-  "3": 133,
+  "3": 135,
   "4": 62,
   "5": 38
  },
@@ -131,7 +131,7 @@
   "9": 10,
   "10": 11,
   "11": 15,
-  "12": 3
+  "12": 8
  },
  "releases_per_month": {
   "1": [
@@ -462,6 +462,12 @@
    {
     "tag": "NotoSansRejang-v2.003",
     "url": "https://github.com/notofonts/rejang/releases/tag/NotoSansRejang-v2.003"
+   }
+  ],
+  "12": [
+   {
+    "tag": "NotoSansBengali-v3.010",
+    "url": "https://github.com/notofonts/bengali/releases/tag/NotoSansBengali-v3.010"
    }
   ]
  },
