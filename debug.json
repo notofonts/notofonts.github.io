@@ -2294,8 +2294,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/bengali",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 9,
   "issues": [
+   {
+    "number": 37,
+    "title": "The ZWJ form of consonants are cannot be called in new versions",
+    "url": "https://github.com/notofonts/bengali/issues/37"
+   },
    {
     "number": 36,
     "title": "Improving glyph face of Noto Sans Bengali for weight 100, 200,300",
@@ -4182,8 +4187,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/duployan",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 12,
+    "title": "Some \ud82f\udc46 \ud82f\udc47 shapes are wrong",
+    "url": "https://github.com/notofonts/duployan/issues/12"
+   },
    {
     "number": 11,
     "title": "Bump fonttools from 4.53.1 to 4.61.0",
@@ -20571,8 +20581,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/thaana",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 6,
+    "title": "Feedback on Noto Sans Thaana: Cultural Authenticity and Aesthetic Concerns",
+    "url": "https://github.com/notofonts/thaana/issues/6"
+   },
    {
     "number": 5,
     "title": "Basic Latin Punctuation is not aligned correctly",
