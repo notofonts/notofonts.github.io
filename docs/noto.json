@@ -16576,11 +16576,6 @@
   "gh_url": "https://notofonts.github.io/thaana",
   "issues": [
    {
-    "number": 6,
-    "title": "Feedback on Noto Sans Thaana: Cultural Authenticity and Aesthetic Concerns",
-    "url": "https://github.com/notofonts/thaana/issues/6"
-   },
-   {
     "number": 5,
     "title": "Basic Latin Punctuation is not aligned correctly",
     "url": "https://github.com/notofonts/thaana/issues/5"
