@@ -3292,6 +3292,11 @@
   "gh_url": "https://notofonts.github.io/duployan",
   "issues": [
    {
+    "number": 13,
+    "title": "\ud82f\udc00 combines wrongly?",
+    "url": "https://github.com/notofonts/duployan/issues/13"
+   },
+   {
     "number": 12,
     "title": "Some \ud82f\udc46 \ud82f\udc47 shapes are wrong",
     "url": "https://github.com/notofonts/duployan/issues/12"
@@ -16575,6 +16580,11 @@
   },
   "gh_url": "https://notofonts.github.io/thaana",
   "issues": [
+   {
+    "number": 7,
+    "title": "Request for reverting to version v2.001",
+    "url": "https://github.com/notofonts/thaana/issues/7"
+   },
    {
     "number": 5,
     "title": "Basic Latin Punctuation is not aligned correctly",
