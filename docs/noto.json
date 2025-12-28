@@ -12308,6 +12308,11 @@
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
+    "number": 97,
+    "title": "Overlap with \u06af and lumpy connection points",
+    "url": "https://github.com/notofonts/nastaliq/issues/97"
+   },
+   {
     "number": 96,
     "title": "Zain and Reh overlap",
     "url": "https://github.com/notofonts/nastaliq/issues/96"
