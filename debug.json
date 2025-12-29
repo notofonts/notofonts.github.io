@@ -11117,8 +11117,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 150,
+  "issue_count": 151,
   "issues": [
+   {
+    "number": 550,
+    "title": "Noto Sans Mono zero distorted in BoldExtraCondensed master",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/550"
+   },
    {
     "number": 549,
     "title": "Request to add calligraphic/script and Fraktur letters",

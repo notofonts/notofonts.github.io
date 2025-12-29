@@ -9315,6 +9315,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 550,
+    "title": "Noto Sans Mono zero distorted in BoldExtraCondensed master",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/550"
+   },
+   {
     "number": 549,
     "title": "Request to add calligraphic/script and Fraktur letters",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/549"
