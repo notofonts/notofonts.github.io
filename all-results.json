@@ -567,6 +567,13 @@
   "url": "https://github.com/notofonts/batak/issues/13"
  },
  {
+  "closedAt": null,
+  "createdAt": "2025-12-22T04:19:29Z",
+  "repo": "batak",
+  "tier": 3,
+  "url": "https://github.com/notofonts/batak/issues/14"
+ },
+ {
   "closedAt": "2025-07-03T15:11:05Z",
   "createdAt": "2017-12-01T08:17:07Z",
   "repo": "bengali",
@@ -665,11 +672,18 @@
   "url": "https://github.com/notofonts/bengali/issues/35"
  },
  {
-  "closedAt": null,
+  "closedAt": "2025-12-26T19:11:31Z",
   "createdAt": "2025-12-19T16:56:10Z",
   "repo": "bengali",
   "tier": 1,
   "url": "https://github.com/notofonts/bengali/issues/36"
+ },
+ {
+  "closedAt": "2025-12-26T11:47:55Z",
+  "createdAt": "2025-12-22T16:20:24Z",
+  "repo": "bengali",
+  "tier": 1,
+  "url": "https://github.com/notofonts/bengali/issues/37"
  },
  {
   "closedAt": null,
@@ -1223,6 +1237,20 @@
   "repo": "duployan",
   "tier": 3,
   "url": "https://github.com/notofonts/duployan/issues/9"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-12-22T14:11:16Z",
+  "repo": "duployan",
+  "tier": 3,
+  "url": "https://github.com/notofonts/duployan/issues/12"
+ },
+ {
+  "closedAt": "2025-12-26T11:49:40Z",
+  "createdAt": "2025-12-24T05:12:00Z",
+  "repo": "duployan",
+  "tier": 3,
+  "url": "https://github.com/notofonts/duployan/issues/13"
  },
  {
   "closedAt": null,
@@ -3536,6 +3564,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-12-28T21:16:38Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/550"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -4747,6 +4782,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2025-12-27T14:28:38Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/97"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-06-27T16:18:47Z",
   "repo": "nko",
   "tier": 3,
@@ -5619,6 +5661,20 @@
   "repo": "thaana",
   "tier": 3,
   "url": "https://github.com/notofonts/thaana/issues/5"
+ },
+ {
+  "closedAt": "2025-12-23T10:13:14Z",
+  "createdAt": "2025-12-22T20:23:32Z",
+  "repo": "thaana",
+  "tier": 3,
+  "url": "https://github.com/notofonts/thaana/issues/6"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2025-12-24T10:43:40Z",
+  "repo": "thaana",
+  "tier": 3,
+  "url": "https://github.com/notofonts/thaana/issues/7"
  },
  {
   "closedAt": null,
