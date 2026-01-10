@@ -1696,10 +1696,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Bengali v3.010\n\nThis version integrates fixes to conjunct ordering for old renderers\n",
-     "published": "2025-12-21T12:37:42+00:00",
-     "url": "https://github.com/notofonts/bengali/releases/tag/NotoSansBengali-v3.010",
-     "version": "v3.010"
+     "notes": "Noto Sans Bengali v3.011\n\nThis version fixes an interpolation error in the visarga and adds very basic Mundari language support.\n",
+     "published": "2026-01-09T16:11:17+00:00",
+     "url": "https://github.com/notofonts/bengali/releases/tag/NotoSansBengali-v3.011",
+     "version": "v3.011"
     }
    },
    "Noto Serif Bengali": {
