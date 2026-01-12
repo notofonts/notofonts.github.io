@@ -114,6 +114,10 @@
  "releases_per_month": {
   "1": [
    {
+    "tag": "NotoSansBengali-v3.011",
+    "url": "https://github.com/notofonts/bengali/releases/tag/NotoSansBengali-v3.011"
+   },
+   {
     "tag": "NotoSansBrahmi-v2.004",
     "url": "https://github.com/notofonts/brahmi/releases/tag/NotoSansBrahmi-v2.004"
    }
