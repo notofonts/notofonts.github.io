@@ -206,10 +206,10 @@
      "fonts/NotoNaskhArabic/googlefonts/variable-ttf/NotoNaskhArabic[wght].ttf"
     ],
     "latest_release": {
-     "notes": "Noto Naskh Arabic v2.020\n\nThis release:\n\n* Fixes some interpolation issues (#226, #262)\n* Adjusts the size and positioning of some diacritics (#252, thanks to @MonongaFont\n* Fixes the shape of Kashmiri Yeh (#245, #205)\n* Fixes the shape of U+FDFC (#260, thanks to @khaledhosny)\n* Works around jeem bug in Adobe\u2019s pre-HarfBuzz composers (#247, thanks to @khaledhosny)\n",
-     "published": "2025-10-15T10:44:49+00:00",
-     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.020",
-     "version": "v2.020"
+     "notes": "Noto Naskh Arabic v2.021\n\nThis release adds the Saudi Riyal sign (U+20C1), thanks to Khaled Hosny.\n",
+     "published": "2026-01-16T09:25:27+00:00",
+     "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.021",
+     "version": "v2.021"
     }
    },
    "Noto Naskh Arabic UI": {
@@ -646,7 +646,8 @@
    "NotoNaskhArabicUI-v2.017",
    "NotoSansArabic-v2.013",
    "NotoKufiArabic-v2.110",
-   "NotoNaskhArabic-v2.020"
+   "NotoNaskhArabic-v2.020",
+   "NotoNaskhArabic-v2.021"
   ]
  },
  "armenian": {
