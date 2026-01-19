@@ -114,6 +114,10 @@
  "releases_per_month": {
   "1": [
    {
+    "tag": "NotoNaskhArabic-v2.021",
+    "url": "https://github.com/notofonts/arabic/releases/tag/NotoNaskhArabic-v2.021"
+   },
+   {
     "tag": "NotoSansBengali-v3.011",
     "url": "https://github.com/notofonts/bengali/releases/tag/NotoSansBengali-v3.011"
    },
