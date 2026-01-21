@@ -3082,6 +3082,11 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
+    "number": 70,
+    "title": "The rendering for the Hindi text - \u091f\u094d\u0935\u093f\u0938\u094d\u091f - seems incorrect",
+    "url": "https://github.com/notofonts/devanagari/issues/70"
+   },
+   {
     "number": 69,
     "title": "Add Nepali digit 1 (see #67); needs review",
     "url": "https://github.com/notofonts/devanagari/pull/69"
