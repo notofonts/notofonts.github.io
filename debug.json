@@ -16291,8 +16291,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/oriya",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 48,
+    "title": "Shaping of \u0b38\u0b4d\u0b15\u0b4d\u0b30\u0b3f\u0b28 appears broken",
+    "url": "https://github.com/notofonts/oriya/issues/48"
+   },
    {
     "number": 46,
     "title": "Added Support for DABHARA (\u0b26\u0b4d\u0b2d\u0b4d\u0b30) in Noto Sans",
@@ -17667,8 +17672,14 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/sinhala",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 10,
+    "title": "Digit Six not loopy enough",
+    "url": "https://github.com/notofonts/sinhala/issues/10"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/sinhala",
   "tier": 1,
   "title": "Noto Sinhala"
