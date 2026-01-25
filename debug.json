@@ -873,8 +873,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 16,
+  "issue_count": 17,
   "issues": [
+   {
+    "number": 277,
+    "title": "Weight Mismatch",
+    "url": "https://github.com/notofonts/arabic/issues/277"
+   },
    {
     "number": 275,
     "title": "Ain/Kasra overlap in Naskh",
@@ -8465,8 +8470,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/kannada",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 7,
   "issues": [
+   {
+    "number": 61,
+    "title": "\u0cb0\u0cc3 changes to something else, if I paste it onto noto sans kannada font",
+    "url": "https://github.com/notofonts/kannada/issues/61"
+   },
    {
     "number": 14,
     "title": "The glyphs of some vowel sign combinations of \u0c9f need to be revisited in Serif",
