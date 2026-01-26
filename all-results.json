@@ -428,6 +428,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-01-24T15:43:27Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/277"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2021-05-06T04:03:47Z",
   "repo": "armenian",
   "tier": 1,
@@ -1132,6 +1139,13 @@
   "repo": "devanagari",
   "tier": 1,
   "url": "https://github.com/notofonts/devanagari/issues/68"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-01-20T10:00:36Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/70"
  },
  {
   "closedAt": null,
@@ -2091,6 +2105,13 @@
   "repo": "kannada",
   "tier": 1,
   "url": "https://github.com/notofonts/kannada/issues/60"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-01-25T01:55:25Z",
+  "repo": "kannada",
+  "tier": 1,
+  "url": "https://github.com/notofonts/kannada/issues/61"
  },
  {
   "closedAt": null,
@@ -4992,6 +5013,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-01-22T19:12:06Z",
+  "repo": "oriya",
+  "tier": 1,
+  "url": "https://github.com/notofonts/oriya/issues/48"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2025-06-27T07:58:53Z",
   "repo": "osmanya",
   "tier": 3,
@@ -5178,6 +5206,13 @@
   "repo": "sinhala",
   "tier": 1,
   "url": "https://github.com/notofonts/sinhala/issues/8"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-01-22T16:37:32Z",
+  "repo": "sinhala",
+  "tier": 1,
+  "url": "https://github.com/notofonts/sinhala/issues/10"
  },
  {
   "closedAt": null,

@@ -6,7 +6,7 @@
   "adlam": 3,
   "ahom": 6,
   "anatolian-hieroglyphs": 1,
-  "arabic": 16,
+  "arabic": 17,
   "armenian": 1,
   "balinese": 4,
   "batak": 5,
@@ -18,7 +18,7 @@
   "chorasmian": 1,
   "coptic": 2,
   "cuneiform": 1,
-  "devanagari": 10,
+  "devanagari": 11,
   "dives-akuru": 8,
   "dogra": 2,
   "duployan": 2,
@@ -37,7 +37,7 @@
   "inscriptional-parthian": 3,
   "javanese": 4,
   "kaithi": 3,
-  "kannada": 6,
+  "kannada": 7,
   "kawi": 6,
   "kharoshthi": 1,
   "khitan-small-script": 1,
@@ -67,7 +67,7 @@
   "old-italic": 1,
   "old-turkic": 1,
   "old-uyghur": 4,
-  "oriya": 1,
+  "oriya": 2,
   "osmanya": 1,
   "pau-cin-hau": 1,
   "phags-pa": 1,
@@ -78,6 +78,7 @@
   "sharada": 4,
   "siddham": 4,
   "sign-writing": 5,
+  "sinhala": 1,
   "sogdian": 1,
   "soyombo": 4,
   "sundanese": 4,
@@ -102,14 +103,14 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 256,
+  "1": 261,
   "2": 55,
   "3": 138,
   "4": 62,
   "5": 38
  },
  "opened_per_month": {
-  "1": 0
+  "1": 5
  },
  "releases_per_month": {
   "1": [
