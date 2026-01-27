@@ -11127,8 +11127,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 151,
+  "issue_count": 152,
   "issues": [
+   {
+    "number": 551,
+    "title": "Add support for integral pieces, to noto sans mono",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/551"
+   },
    {
     "number": 550,
     "title": "Noto Sans Mono zero distorted in BoldExtraCondensed master",
