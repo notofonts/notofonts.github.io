@@ -4861,8 +4861,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/ethiopic",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 16,
+    "title": "Deemphasize 3rd-Order Diacritic Serifs (Relative to Noto Serif Ethiopic)",
+    "url": "https://github.com/notofonts/ethiopic/issues/16"
+   },
    {
     "number": 15,
     "title": "Noto Serif Ethiopic Contains a Circular LSB Reference",
