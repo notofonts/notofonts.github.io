@@ -9330,6 +9330,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 552,
+    "title": "Sync Hebrew with Noto Sans Hebrew",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/552"
+   },
+   {
     "number": 551,
     "title": "Add support for integral pieces, to noto sans mono",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/551"
@@ -11062,6 +11067,11 @@
   },
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
+   {
+    "number": 106,
+    "title": "Sync Hebrew with Noto Sans Hebrew",
+    "url": "https://github.com/notofonts/math/issues/106"
+   },
    {
     "number": 105,
     "title": "It's in need for variable weight",
@@ -13301,6 +13311,11 @@
   },
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
+   {
+    "number": 49,
+    "title": "Some regressions",
+    "url": "https://github.com/notofonts/oriya/issues/49"
+   },
    {
     "number": 26,
     "title": "Serif: 0B55 is still missing",
