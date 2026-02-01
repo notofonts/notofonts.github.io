@@ -11132,8 +11132,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 153,
+  "issue_count": 154,
   "issues": [
+   {
+    "number": 553,
+    "title": "Acute overlap in heavier weights of Noto Sans",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/553"
+   },
    {
     "number": 552,
     "title": "Sync Hebrew with Noto Sans Hebrew",
@@ -17158,8 +17163,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/sharada",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 5,
   "issues": [
+   {
+    "number": 16,
+    "title": "Support Sharada Supplement block",
+    "url": "https://github.com/notofonts/sharada/issues/16"
+   },
    {
     "number": 15,
     "title": "Decomposed Sharada OM representation doesn't centre the diacritic",
