@@ -1415,6 +1415,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-01-29T13:38:18Z",
+  "repo": "ethiopic",
+  "tier": 2,
+  "url": "https://github.com/notofonts/ethiopic/issues/16"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2021-09-12T22:18:52Z",
   "repo": "georgian",
   "tier": 2,
@@ -3592,6 +3599,27 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-01-26T23:23:09Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/551"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-01-30T11:32:17Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/552"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-01-31T10:55:21Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/553"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -4093,6 +4121,13 @@
   "repo": "math",
   "tier": 3,
   "url": "https://github.com/notofonts/math/issues/105"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-01-30T11:21:51Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/106"
  },
  {
   "closedAt": "2024-07-24T16:09:41Z",
@@ -5012,11 +5047,18 @@
   "url": "https://github.com/notofonts/oriya/issues/47"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-01-27T16:06:31Z",
   "createdAt": "2026-01-22T19:12:06Z",
   "repo": "oriya",
   "tier": 1,
   "url": "https://github.com/notofonts/oriya/issues/48"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-01-30T15:34:07Z",
+  "repo": "oriya",
+  "tier": 1,
+  "url": "https://github.com/notofonts/oriya/issues/49"
  },
  {
   "closedAt": null,
@@ -5136,6 +5178,13 @@
   "repo": "sharada",
   "tier": 3,
   "url": "https://github.com/notofonts/sharada/issues/15"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-01-31T03:06:02Z",
+  "repo": "sharada",
+  "tier": 3,
+  "url": "https://github.com/notofonts/sharada/issues/16"
  },
  {
   "closedAt": null,

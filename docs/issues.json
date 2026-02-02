@@ -1,6 +1,7 @@
 {
  "closed_per_month": {
-  "1": 0
+  "1": 1,
+  "2": 0
  },
  "open_per_repo": {
   "adlam": 3,
@@ -24,7 +25,7 @@
   "duployan": 2,
   "egyptian-hieroglyphs": 9,
   "elbasan": 1,
-  "ethiopic": 2,
+  "ethiopic": 3,
   "georgian": 2,
   "glagolitic": 1,
   "gujarati": 6,
@@ -45,13 +46,13 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 148,
+  "latin-greek-cyrillic": 151,
   "limbu": 2,
   "malayalam": 6,
   "mandaic": 2,
   "manichaean": 3,
   "masaram-gondi": 1,
-  "math": 15,
+  "math": 16,
   "meetei-mayek": 1,
   "modi": 7,
   "mongolian": 1,
@@ -75,7 +76,7 @@
   "rejang": 1,
   "runic": 1,
   "saurashtra": 1,
-  "sharada": 4,
+  "sharada": 5,
   "siddham": 4,
   "sign-writing": 5,
   "sinhala": 1,
@@ -103,14 +104,15 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 261,
-  "2": 55,
-  "3": 138,
+  "1": 264,
+  "2": 56,
+  "3": 140,
   "4": 62,
   "5": 38
  },
  "opened_per_month": {
-  "1": 5
+  "1": 10,
+  "2": 0
  },
  "releases_per_month": {
   "1": [
@@ -459,6 +461,7 @@
   ]
  },
  "totals_per_month": {
-  "1": 549
+  "1": 549,
+  "2": 560
  }
 }
