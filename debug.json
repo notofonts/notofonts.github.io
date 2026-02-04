@@ -16191,7 +16191,7 @@
       "fonts/NotoSansOriya/full/ttf/NotoSansOriya-ExtraCondensedThin.ttf",
       "fonts/NotoSansOriya/full/ttf/NotoSansOriya-Regular.ttf",
       "fonts/NotoSansOriya/full/ttf/NotoSansOriya-Thin.ttf",
-      "fonts/NotoSansOriya/full/variable/NotoSansOriya[wdth,wght].ttf"
+      "fonts/NotoSansOriya/full/variable-ttf/NotoSansOriya[wdth,wght].ttf"
      ],
      "hinted": [
       "fonts/NotoSansOriya/hinted/ttf/NotoSansOriya-Black.ttf",
@@ -16233,14 +16233,14 @@
       "fonts/NotoSansOriya/unhinted/ttf/NotoSansOriya-ExtraCondensedThin.ttf",
       "fonts/NotoSansOriya/unhinted/ttf/NotoSansOriya-Regular.ttf",
       "fonts/NotoSansOriya/unhinted/ttf/NotoSansOriya-Thin.ttf",
-      "fonts/NotoSansOriya/unhinted/variable/NotoSansOriya[wdth,wght].ttf"
+      "fonts/NotoSansOriya/unhinted/variable-ttf/NotoSansOriya[wdth,wght].ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Oriya v2.006\n\nThis version fixes an interpolation issue with the width axis at regular weight.\n",
-     "published": "2024-03-05T14:19:58+00:00",
-     "url": "https://github.com/notofonts/oriya/releases/tag/NotoSansOriya-v2.006",
-     "version": "v2.006"
+     "notes": "Noto Sans Oriya v2.007\n\n* ORIYA DIGIT THREE (U+0B69) updated, thanks to Paul Hanslow\n* Ligature support for candrabindu and reph, thanks to Yusuke Shirakihara\n* Improved positioning of subjoining ra\n* Restored some missing conjuncts\n",
+     "published": "2026-02-03T17:44:55+00:00",
+     "url": "https://github.com/notofonts/oriya/releases/tag/NotoSansOriya-v2.007",
+     "version": "v2.007"
     },
     "third_party_versions": {
      "Android 12": {
@@ -16326,13 +16326,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/oriya",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 49,
-    "title": "Some regressions",
-    "url": "https://github.com/notofonts/oriya/issues/49"
-   },
    {
     "number": 26,
     "title": "Serif: 0B55 is still missing",
@@ -19941,8 +19936,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tangut",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 4,
   "issues": [
+   {
+    "number": 10,
+    "title": "Noto Tangut Serif is not representative",
+    "url": "https://github.com/notofonts/tangut/issues/10"
+   },
    {
     "number": 9,
     "title": "TTF hinting has gone",
