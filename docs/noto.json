@@ -721,6 +721,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 278,
+    "title": "Incomplete implementation of U+0620 KASHMIRI YEH fix across Noto Arabic fonts",
+    "url": "https://github.com/notofonts/arabic/issues/278"
+   },
+   {
     "number": 277,
     "title": "Weight Mismatch",
     "url": "https://github.com/notofonts/arabic/issues/277"

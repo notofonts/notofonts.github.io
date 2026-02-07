@@ -873,8 +873,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 17,
+  "issue_count": 18,
   "issues": [
+   {
+    "number": 278,
+    "title": "Incomplete implementation of U+0620 KASHMIRI YEH fix across Noto Arabic fonts",
+    "url": "https://github.com/notofonts/arabic/issues/278"
+   },
    {
     "number": 277,
     "title": "Weight Mismatch",
