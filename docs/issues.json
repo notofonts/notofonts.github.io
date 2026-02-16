@@ -7,7 +7,7 @@
   "adlam": 3,
   "ahom": 6,
   "anatolian-hieroglyphs": 1,
-  "arabic": 18,
+  "arabic": 19,
   "armenian": 1,
   "balinese": 4,
   "batak": 5,
@@ -104,7 +104,7 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 263,
+  "1": 264,
   "2": 56,
   "3": 140,
   "4": 62,
@@ -112,7 +112,7 @@
  },
  "opened_per_month": {
   "1": 10,
-  "2": 2
+  "2": 3
  },
  "releases_per_month": {
   "1": [
