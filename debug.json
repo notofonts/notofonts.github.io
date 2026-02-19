@@ -11142,8 +11142,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 153,
+  "issue_count": 154,
   "issues": [
+   {
+    "number": 554,
+    "title": "Over-italicisation of glottal characters for Egyptian transliteration",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/554"
+   },
    {
     "number": 553,
     "title": "Acute overlap in heavier weights of Noto Sans",

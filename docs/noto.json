@@ -9340,6 +9340,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 554,
+    "title": "Over-italicisation of glottal characters for Egyptian transliteration",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/554"
+   },
+   {
     "number": 553,
     "title": "Acute overlap in heavier weights of Noto Sans",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/553"
