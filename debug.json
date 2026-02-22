@@ -11142,8 +11142,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 154,
+  "issue_count": 155,
   "issues": [
+   {
+    "number": 555,
+    "title": "A few tiny IPA overlaps",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/555"
+   },
    {
     "number": 554,
     "title": "Over-italicisation of glottal characters for Egyptian transliteration",
