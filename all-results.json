@@ -3634,6 +3634,20 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-02-18T19:35:35Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/554"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-02-21T11:21:28Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/555"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
