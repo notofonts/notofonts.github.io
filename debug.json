@@ -11142,8 +11142,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 155,
+  "issue_count": 156,
   "issues": [
+   {
+    "number": 556,
+    "title": "Noto Serif number characters are different widths between weights",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/556"
+   },
    {
     "number": 555,
     "title": "A few tiny IPA overlaps",
@@ -16341,8 +16346,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/oriya",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 50,
+    "title": "Descender depth is too small for clipping",
+    "url": "https://github.com/notofonts/oriya/issues/50"
+   },
    {
     "number": 26,
     "title": "Serif: 0B55 is still missing",
