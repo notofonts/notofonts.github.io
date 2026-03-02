@@ -873,8 +873,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 19,
+  "issue_count": 20,
   "issues": [
+   {
+    "number": 280,
+    "title": "The wandering wasla",
+    "url": "https://github.com/notofonts/arabic/issues/280"
+   },
    {
     "number": 279,
     "title": "Madda crossover 2",
@@ -19961,8 +19966,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tangut",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 5,
   "issues": [
+   {
+    "number": 11,
+    "title": "Incorrect glyph for Tangut ideograph \u201c\ud81e\udee1\u201d (U+17AE1) - missing 1 stroke",
+    "url": "https://github.com/notofonts/tangut/issues/11"
+   },
    {
     "number": 10,
     "title": "Noto Tangut Serif is not representative",
