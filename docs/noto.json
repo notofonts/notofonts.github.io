@@ -13347,6 +13347,11 @@
   "gh_url": "https://notofonts.github.io/oriya",
   "issues": [
    {
+    "number": 51,
+    "title": "Letters with nukta cannot concatenate vertically with virama",
+    "url": "https://github.com/notofonts/oriya/issues/51"
+   },
+   {
     "number": 50,
     "title": "Descender depth is too small for clipping",
     "url": "https://github.com/notofonts/oriya/issues/50"
