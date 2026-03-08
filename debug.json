@@ -11152,8 +11152,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 156,
+  "issue_count": 157,
   "issues": [
+   {
+    "number": 557,
+    "title": "Noto Serif on Android 13 does not display proper OpenType small caps, but the Google Fonts Noto Serif used in a font viewer does",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/557"
+   },
    {
     "number": 556,
     "title": "Noto Serif number characters are different widths between weights",
