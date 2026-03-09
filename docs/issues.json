@@ -5,7 +5,7 @@
   "3": 0
  },
  "open_per_repo": {
-  "adlam": 3,
+  "adlam": 4,
   "ahom": 6,
   "anatolian-hieroglyphs": 1,
   "arabic": 20,
@@ -47,7 +47,7 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 153,
+  "latin-greek-cyrillic": 154,
   "limbu": 2,
   "malayalam": 6,
   "mandaic": 2,
@@ -69,7 +69,7 @@
   "old-italic": 1,
   "old-turkic": 1,
   "old-uyghur": 4,
-  "oriya": 2,
+  "oriya": 3,
   "osmanya": 1,
   "pau-cin-hau": 1,
   "phags-pa": 1,
@@ -105,8 +105,8 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 269,
-  "2": 56,
+  "1": 271,
+  "2": 57,
   "3": 140,
   "4": 62,
   "5": 40
@@ -114,7 +114,7 @@
  "opened_per_month": {
   "1": 10,
   "2": 7,
-  "3": 2
+  "3": 5
  },
  "releases_per_month": {
   "1": [

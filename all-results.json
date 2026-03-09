@@ -22,6 +22,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-03-03T02:34:49Z",
+  "repo": "adlam",
+  "tier": 2,
+  "url": "https://github.com/notofonts/adlam/issues/18"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-09-28T01:59:53Z",
   "repo": "ahom",
   "tier": 3,
@@ -3662,6 +3669,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-03-07T19:11:17Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/557"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -5108,6 +5122,13 @@
   "repo": "oriya",
   "tier": 1,
   "url": "https://github.com/notofonts/oriya/issues/50"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-03-04T11:45:36Z",
+  "repo": "oriya",
+  "tier": 1,
+  "url": "https://github.com/notofonts/oriya/issues/51"
  },
  {
   "closedAt": null,
