@@ -19855,13 +19855,8 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/tamil",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 2,
   "issues": [
-   {
-    "number": 16,
-    "title": "Using \u0bb5 or \u0baa followed by a vowel ligature (e.g. \u0bb5\u0bbe, \u0baa\u0bcb) at the beginning of a line in Linux Electron Flatpaks causes the entire line to tofu",
-    "url": "https://github.com/notofonts/tamil/issues/16"
-   },
    {
     "number": 5,
     "title": "Inclusion of original Tamil uyirmeyye\u1e3buttuka\u1e37 no longer used in India?",
