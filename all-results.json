@@ -932,6 +932,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-03-17T04:44:36Z",
+  "repo": "coptic",
+  "tier": 3,
+  "url": "https://github.com/notofonts/coptic/issues/17"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-02-21T15:50:49Z",
   "repo": "cuneiform",
   "tier": 4,
@@ -4282,6 +4289,13 @@
   "repo": "mongolian",
   "tier": 3,
   "url": "https://github.com/notofonts/mongolian/issues/44"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-03-19T13:38:55Z",
+  "repo": "mongolian",
+  "tier": 3,
+  "url": "https://github.com/notofonts/mongolian/issues/46"
  },
  {
   "closedAt": "2024-08-15T12:36:05Z",

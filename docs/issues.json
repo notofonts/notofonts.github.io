@@ -18,7 +18,7 @@
   "canadian-aboriginal": 7,
   "chakma": 2,
   "chorasmian": 1,
-  "coptic": 2,
+  "coptic": 3,
   "cuneiform": 1,
   "devanagari": 11,
   "dives-akuru": 8,
@@ -56,7 +56,7 @@
   "math": 16,
   "meetei-mayek": 1,
   "modi": 7,
-  "mongolian": 1,
+  "mongolian": 2,
   "music": 1,
   "myanmar": 33,
   "nag-mundari": 1,
@@ -107,14 +107,14 @@
  "open_per_tier": {
   "1": 271,
   "2": 57,
-  "3": 140,
+  "3": 142,
   "4": 62,
   "5": 40
  },
  "opened_per_month": {
   "1": 10,
   "2": 7,
-  "3": 7
+  "3": 9
  },
  "releases_per_month": {
   "1": [
