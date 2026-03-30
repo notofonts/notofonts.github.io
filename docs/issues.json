@@ -89,6 +89,7 @@
   "syriac": 9,
   "tagalog": 2,
   "tai-tham": 1,
+  "tai-viet": 1,
   "takri": 1,
   "tamil": 2,
   "tangsa": 1,
@@ -107,14 +108,14 @@
  "open_per_tier": {
   "1": 271,
   "2": 57,
-  "3": 142,
+  "3": 143,
   "4": 62,
   "5": 40
  },
  "opened_per_month": {
   "1": 10,
   "2": 7,
-  "3": 9
+  "3": 10
  },
  "releases_per_month": {
   "1": [
