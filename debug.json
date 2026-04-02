@@ -2324,8 +2324,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/bengali",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 8,
   "issues": [
+   {
+    "number": 38,
+    "title": "Incorrect shaping (GSUB and GPOS) on Safari macOS and iOS up to and including 26.3.1",
+    "url": "https://github.com/notofonts/bengali/issues/38"
+   },
    {
     "number": 33,
     "title": "Features and lookups aren\u2019t correctly registered under language systems",
