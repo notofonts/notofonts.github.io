@@ -2,7 +2,8 @@
  "closed_per_month": {
   "1": 1,
   "2": 2,
-  "3": 2
+  "3": 2,
+  "4": 0
  },
  "open_per_repo": {
   "adlam": 4,
@@ -12,7 +13,7 @@
   "armenian": 1,
   "balinese": 4,
   "batak": 5,
-  "bengali": 7,
+  "bengali": 8,
   "bhaiksuki": 5,
   "brahmi": 4,
   "canadian-aboriginal": 7,
@@ -106,7 +107,7 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 271,
+  "1": 272,
   "2": 57,
   "3": 143,
   "4": 62,
@@ -115,7 +116,8 @@
  "opened_per_month": {
   "1": 10,
   "2": 7,
-  "3": 10
+  "3": 10,
+  "4": 1
  },
  "releases_per_month": {
   "1": [
@@ -470,6 +472,7 @@
  "totals_per_month": {
   "1": 549,
   "2": 560,
-  "3": 565
+  "3": 565,
+  "4": 573
  }
 }

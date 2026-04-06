@@ -729,6 +729,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-04-01T10:28:32Z",
+  "repo": "bengali",
+  "tier": 1,
+  "url": "https://github.com/notofonts/bengali/issues/38"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2018-11-11T17:38:48Z",
   "repo": "bhaiksuki",
   "tier": 5,
