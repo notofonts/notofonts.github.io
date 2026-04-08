@@ -878,8 +878,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 21,
+  "issue_count": 22,
   "issues": [
+   {
+    "number": 283,
+    "title": "Request for Lhaal (U+08C7) support for Punjabi",
+    "url": "https://github.com/notofonts/arabic/issues/283"
+   },
    {
     "number": 281,
     "title": "Fixes Kurdish lam-alef ligature in Noto Sans Arabic UI fonts",
