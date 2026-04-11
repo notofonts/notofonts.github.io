@@ -878,8 +878,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 22,
+  "issue_count": 23,
   "issues": [
+   {
+    "number": 284,
+    "title": "NotoSansArabic-Regular.otf: poor Arabic text extraction from LibreOffice-exported PDF, especially with diacritics",
+    "url": "https://github.com/notofonts/arabic/issues/284"
+   },
    {
     "number": 283,
     "title": "Request for Lhaal (U+08C7) support for Punjabi",
