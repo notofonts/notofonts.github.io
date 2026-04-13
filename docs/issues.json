@@ -9,7 +9,7 @@
   "adlam": 4,
   "ahom": 6,
   "anatolian-hieroglyphs": 1,
-  "arabic": 20,
+  "arabic": 22,
   "armenian": 1,
   "balinese": 4,
   "batak": 5,
@@ -48,7 +48,7 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 154,
+  "latin-greek-cyrillic": 155,
   "limbu": 2,
   "malayalam": 6,
   "mandaic": 2,
@@ -107,7 +107,7 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 272,
+  "1": 275,
   "2": 57,
   "3": 143,
   "4": 62,
@@ -117,7 +117,7 @@
   "1": 10,
   "2": 7,
   "3": 10,
-  "4": 1
+  "4": 4
  },
  "releases_per_month": {
   "1": [
