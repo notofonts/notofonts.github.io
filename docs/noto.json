@@ -12438,6 +12438,11 @@
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
+    "number": 98,
+    "title": "Regression: dots for yeh misplaced under reh in the word \"\u0628\u062d\u0631\u06cc\u06c1\"",
+    "url": "https://github.com/notofonts/nastaliq/issues/98"
+   },
+   {
     "number": 97,
     "title": "Overlap with \u06af and lumpy connection points",
     "url": "https://github.com/notofonts/nastaliq/issues/97"
