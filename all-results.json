@@ -484,6 +484,27 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-04-13T23:15:35Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/285"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-04-13T23:18:40Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/286"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-04-13T23:19:33Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/287"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2021-05-06T04:03:47Z",
   "repo": "armenian",
   "tier": 1,
@@ -3717,6 +3738,13 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/558"
  },
  {
+  "closedAt": "2026-04-19T20:04:31Z",
+  "createdAt": "2026-04-14T15:40:57Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/559"
+ },
+ {
   "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
@@ -4947,6 +4975,13 @@
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/97"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-04-18T22:51:27Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/98"
  },
  {
   "closedAt": null,

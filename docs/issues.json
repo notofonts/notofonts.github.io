@@ -3,13 +3,13 @@
   "1": 1,
   "2": 2,
   "3": 2,
-  "4": 0
+  "4": 1
  },
  "open_per_repo": {
   "adlam": 4,
   "ahom": 6,
   "anatolian-hieroglyphs": 1,
-  "arabic": 22,
+  "arabic": 25,
   "armenian": 1,
   "balinese": 4,
   "batak": 5,
@@ -62,7 +62,7 @@
   "myanmar": 33,
   "nag-mundari": 1,
   "nandinagari": 5,
-  "nastaliq": 26,
+  "nastaliq": 27,
   "nko": 1,
   "nushu": 1,
   "old-hungarian": 7,
@@ -107,7 +107,7 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 275,
+  "1": 279,
   "2": 57,
   "3": 143,
   "4": 62,
@@ -117,7 +117,7 @@
   "1": 10,
   "2": 7,
   "3": 10,
-  "4": 4
+  "4": 9
  },
  "releases_per_month": {
   "1": [
