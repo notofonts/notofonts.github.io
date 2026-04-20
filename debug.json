@@ -11192,13 +11192,8 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 159,
+  "issue_count": 158,
   "issues": [
-   {
-    "number": 559,
-    "title": "Add full supporr for two blocks in lcg:",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/559"
-   },
    {
     "number": 558,
     "title": "Small Caps J Overlap",
