@@ -736,11 +736,6 @@
     "url": "https://github.com/notofonts/arabic/issues/286"
    },
    {
-    "number": 285,
-    "title": "Noto Naskh Arabic: U+0647 (ARABIC LETTER HEH) is rendered with an initial-like glyph when isolated",
-    "url": "https://github.com/notofonts/arabic/issues/285"
-   },
-   {
     "number": 284,
     "title": "NotoSansArabic-Regular.otf: poor Arabic text extraction from LibreOffice-exported PDF, especially with diacritics",
     "url": "https://github.com/notofonts/arabic/issues/284"
@@ -9389,6 +9384,16 @@
   },
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
+   {
+    "number": 561,
+    "title": "There is a unicode version of NSerif???",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/561"
+   },
+   {
+    "number": 560,
+    "title": "Overlap with \"Wh\" in Noto Serif Italic",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/560"
+   },
    {
     "number": 558,
     "title": "Small Caps J Overlap",
