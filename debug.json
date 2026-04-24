@@ -11187,8 +11187,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 160,
+  "issue_count": 161,
   "issues": [
+   {
+    "number": 562,
+    "title": "Overlap with italic f and upright parentheses",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/562"
+   },
    {
     "number": 561,
     "title": "There is a unicode version of NSerif???",
@@ -22390,8 +22395,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/yi",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 2,
+    "title": "Suboptimal glyph designs",
+    "url": "https://github.com/notofonts/yi/issues/2"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/yi",
   "tier": 3,
   "title": "Noto Yi"
