@@ -2767,8 +2767,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/canadian-aboriginal",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 8,
   "issues": [
+   {
+    "number": 18,
+    "title": "Incorrect vertical placement for \u18de (U+18DE) \u2014 Final Small Ring sits too high relative to other finals",
+    "url": "https://github.com/notofonts/canadian-aboriginal/issues/18"
+   },
    {
     "number": 17,
     "title": "Wrong glyph for \u1635 (U+1635)",
