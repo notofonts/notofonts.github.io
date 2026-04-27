@@ -3,20 +3,20 @@
   "1": 1,
   "2": 2,
   "3": 2,
-  "4": 1
+  "4": 2
  },
  "open_per_repo": {
   "adlam": 4,
   "ahom": 6,
   "anatolian-hieroglyphs": 1,
-  "arabic": 25,
+  "arabic": 24,
   "armenian": 1,
   "balinese": 4,
   "batak": 5,
   "bengali": 8,
   "bhaiksuki": 5,
   "brahmi": 4,
-  "canadian-aboriginal": 7,
+  "canadian-aboriginal": 8,
   "chakma": 2,
   "chorasmian": 1,
   "coptic": 3,
@@ -48,7 +48,7 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 155,
+  "latin-greek-cyrillic": 158,
   "limbu": 2,
   "malayalam": 6,
   "mandaic": 2,
@@ -104,12 +104,13 @@
   "toto": 1,
   "vai": 1,
   "yezidi": 1,
+  "yi": 1,
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 279,
+  "1": 281,
   "2": 57,
-  "3": 143,
+  "3": 145,
   "4": 62,
   "5": 40
  },
@@ -117,7 +118,7 @@
   "1": 10,
   "2": 7,
   "3": 10,
-  "4": 9
+  "4": 14
  },
  "releases_per_month": {
   "1": [

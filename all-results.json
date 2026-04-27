@@ -483,7 +483,7 @@
   "url": "https://github.com/notofonts/arabic/issues/284"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-04-21T00:01:51Z",
   "createdAt": "2026-04-13T23:15:35Z",
   "repo": "arabic",
   "tier": 1,
@@ -908,6 +908,13 @@
   "repo": "canadian-aboriginal",
   "tier": 3,
   "url": "https://github.com/notofonts/canadian-aboriginal/issues/17"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-04-24T02:04:24Z",
+  "repo": "canadian-aboriginal",
+  "tier": 3,
+  "url": "https://github.com/notofonts/canadian-aboriginal/issues/18"
  },
  {
   "closedAt": null,
@@ -3746,6 +3753,27 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-04-20T10:57:37Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/560"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-04-20T22:29:46Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/561"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-04-23T09:27:50Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/562"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -6158,6 +6186,13 @@
   "repo": "yezidi",
   "tier": 4,
   "url": "https://github.com/notofonts/yezidi/issues/3"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-04-23T08:27:32Z",
+  "repo": "yi",
+  "tier": 3,
+  "url": "https://github.com/notofonts/yi/issues/2"
  },
  {
   "closedAt": "2024-03-07T09:36:36Z",
