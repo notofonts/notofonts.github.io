@@ -7594,17 +7594,12 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/hentaigana",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 7,
   "issues": [
    {
     "number": 11,
     "title": "Missing characters",
     "url": "https://github.com/notofonts/hentaigana/issues/11"
-   },
-   {
-    "number": 10,
-    "title": "Update fontinfo.plist",
-    "url": "https://github.com/notofonts/hentaigana/pull/10"
    },
    {
     "number": 9,
@@ -11192,7 +11187,7 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 161,
+  "issue_count": 160,
   "issues": [
    {
     "number": 562,
@@ -11418,11 +11413,6 @@
     "number": 499,
     "title": "A little Greek overlap",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/499"
-   },
-   {
-    "number": 496,
-    "title": "Fix Slash Length and Angle for \u2c65 and \u0247 in NotoSans{Italic,Mono}",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/496"
    },
    {
     "number": 495,
@@ -22485,13 +22475,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/znamenny",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 3,
   "issues": [
-   {
-    "number": 6,
-    "title": "Bump actions/download-artifact from 3 to 4.1.7 in /.github/workflows",
-    "url": "https://github.com/notofonts/znamenny/pull/6"
-   },
    {
     "number": 4,
     "title": " U+1CFBB ZNAMENNY NEUME STRELA KRYUKOVAYA GROMOPOVODNAYA WITH DOUBLE ZAPYATAYA lacks vertical stroke",
