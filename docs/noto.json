@@ -6247,6 +6247,11 @@
     "url": "https://github.com/notofonts/hentaigana/issues/11"
    },
    {
+    "number": 10,
+    "title": "Update fontinfo.plist",
+    "url": "https://github.com/notofonts/hentaigana/pull/10"
+   },
+   {
     "number": 9,
     "title": "Kerning is too long when writing vertically",
     "url": "https://github.com/notofonts/hentaigana/issues/9"
@@ -9608,6 +9613,11 @@
     "number": 499,
     "title": "A little Greek overlap",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/499"
+   },
+   {
+    "number": 496,
+    "title": "Fix Slash Length and Angle for \u2c65 and \u0247 in NotoSans{Italic,Mono}",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/496"
    },
    {
     "number": 495,
@@ -18139,6 +18149,11 @@
   },
   "gh_url": "https://notofonts.github.io/znamenny",
   "issues": [
+   {
+    "number": 6,
+    "title": "Bump actions/download-artifact from 3 to 4.1.7 in /.github/workflows",
+    "url": "https://github.com/notofonts/znamenny/pull/6"
+   },
    {
     "number": 4,
     "title": " U+1CFBB ZNAMENNY NEUME STRELA KRYUKOVAYA GROMOPOVODNAYA WITH DOUBLE ZAPYATAYA lacks vertical stroke",
