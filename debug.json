@@ -11192,17 +11192,12 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 161,
+  "issue_count": 160,
   "issues": [
    {
     "number": 562,
     "title": "Overlap with italic f and upright parentheses",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/562"
-   },
-   {
-    "number": 561,
-    "title": "There is a unicode version of NSerif???",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/561"
    },
    {
     "number": 560,
