@@ -3759,7 +3759,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/560"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-04-30T09:44:23Z",
   "createdAt": "2026-04-20T22:29:46Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -4282,6 +4282,13 @@
   "repo": "math",
   "tier": 3,
   "url": "https://github.com/notofonts/math/issues/106"
+ },
+ {
+  "closedAt": "2026-04-29T23:37:01Z",
+  "createdAt": "2026-04-29T22:51:38Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/107"
  },
  {
   "closedAt": "2024-07-24T16:09:41Z",
