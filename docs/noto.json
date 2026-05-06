@@ -726,6 +726,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 288,
+    "title": "Tiny jeh overlap",
+    "url": "https://github.com/notofonts/arabic/issues/288"
+   },
+   {
     "number": 287,
     "title": "Noto Naskh Arabic: Shadda collision on GAF (U+06AF) in Urdu",
     "url": "https://github.com/notofonts/arabic/issues/287"
