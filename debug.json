@@ -22334,14 +22334,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/yezidi",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 3,
-    "title": "Is persistence of Noto Serif Yezidi a known issue between Chrome browser sessions?",
-    "url": "https://github.com/notofonts/yezidi/issues/3"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/yezidi",
   "tier": 4,
   "title": "Noto Yezidi"
