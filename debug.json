@@ -16777,8 +16777,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/pau-cin-hau",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 2,
+    "title": "Proposal for Typographical Refinement of Noto Sans Pau Cin Hau to Match Native Community Usage (Zolai Style)",
+    "url": "https://github.com/notofonts/pau-cin-hau/issues/2"
+   },
    {
     "number": 1,
     "title": "Request for new style of Pau Cin Hau Alphabets to add the next version of Notosans PauCinHau regular",
