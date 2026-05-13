@@ -6097,6 +6097,11 @@
   "gh_url": "https://notofonts.github.io/hebrew",
   "issues": [
    {
+    "number": 60,
+    "title": "Niqqud isn't very legible at smaller sizes.",
+    "url": "https://github.com/notofonts/hebrew/issues/60"
+   },
+   {
     "number": 59,
     "title": "Holam and sin dot issues in Rashi",
     "url": "https://github.com/notofonts/hebrew/issues/59"

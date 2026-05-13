@@ -7446,8 +7446,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/hebrew",
   "has_releases": true,
-  "issue_count": 17,
+  "issue_count": 18,
   "issues": [
+   {
+    "number": 60,
+    "title": "Niqqud isn't very legible at smaller sizes.",
+    "url": "https://github.com/notofonts/hebrew/issues/60"
+   },
    {
     "number": 59,
     "title": "Holam and sin dot issues in Rashi",
