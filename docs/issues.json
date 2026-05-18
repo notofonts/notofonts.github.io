@@ -4,13 +4,13 @@
   "2": 2,
   "3": 2,
   "4": 3,
-  "5": 0
+  "5": 3
  },
  "open_per_repo": {
   "adlam": 4,
   "ahom": 6,
   "anatolian-hieroglyphs": 1,
-  "arabic": 24,
+  "arabic": 25,
   "armenian": 1,
   "balinese": 4,
   "batak": 5,
@@ -35,7 +35,7 @@
   "gunjala-gondi": 1,
   "gurmukhi": 7,
   "hanunoo": 1,
-  "hebrew": 17,
+  "hebrew": 18,
   "hentaigana": 7,
   "inscriptional-pahlavi": 1,
   "inscriptional-parthian": 3,
@@ -49,7 +49,7 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 157,
+  "latin-greek-cyrillic": 158,
   "limbu": 2,
   "malayalam": 6,
   "mandaic": 2,
@@ -73,7 +73,7 @@
   "old-uyghur": 4,
   "oriya": 3,
   "osmanya": 1,
-  "pau-cin-hau": 1,
+  "pau-cin-hau": 2,
   "phags-pa": 1,
   "psalter-pahlavi": 1,
   "rejang": 1,
@@ -104,15 +104,14 @@
   "tirhuta": 10,
   "toto": 1,
   "vai": 1,
-  "yezidi": 1,
   "yi": 1,
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 280,
+  "1": 283,
   "2": 57,
-  "3": 145,
-  "4": 62,
+  "3": 146,
+  "4": 61,
   "5": 40
  },
  "opened_per_month": {
@@ -120,7 +119,7 @@
   "2": 7,
   "3": 10,
   "4": 15,
-  "5": 0
+  "5": 6
  },
  "releases_per_month": {
   "1": [
