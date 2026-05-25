@@ -49,7 +49,7 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 158,
+  "latin-greek-cyrillic": 159,
   "limbu": 2,
   "malayalam": 6,
   "mandaic": 2,
@@ -108,7 +108,7 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 283,
+  "1": 284,
   "2": 57,
   "3": 146,
   "4": 61,
@@ -119,7 +119,7 @@
   "2": 7,
   "3": 10,
   "4": 15,
-  "5": 6
+  "5": 7
  },
  "releases_per_month": {
   "1": [
