@@ -21894,8 +21894,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/toto",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 7,
+    "title": "The change that was supposed to have fixed issue #6 doesn't appear to have had an affect",
+    "url": "https://github.com/notofonts/toto/issues/7"
+   },
    {
     "number": 5,
     "title": "U+1E2A9 TOTO LETTER BREATHY EO is kerned less than U+1E2A8 TOTO LETTER EO",
