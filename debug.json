@@ -2349,8 +2349,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/bengali",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 9,
   "issues": [
+   {
+    "number": 39,
+    "title": "Some LGC glyphs are thinner than they should be",
+    "url": "https://github.com/notofonts/bengali/issues/39"
+   },
    {
     "number": 38,
     "title": "Incorrect shaping (GSUB and GPOS) on Safari macOS and iOS up to and including 26.3.1",
