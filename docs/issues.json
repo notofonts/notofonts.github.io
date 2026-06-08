@@ -15,7 +15,7 @@
   "armenian": 1,
   "balinese": 4,
   "batak": 5,
-  "bengali": 8,
+  "bengali": 9,
   "bhaiksuki": 5,
   "brahmi": 4,
   "canadian-aboriginal": 8,
@@ -97,7 +97,7 @@
   "tamil": 2,
   "tangsa": 1,
   "tangut": 5,
-  "telugu": 3,
+  "telugu": 4,
   "thaana": 3,
   "thai": 5,
   "tibetan": 5,
@@ -109,7 +109,7 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 284,
+  "1": 286,
   "2": 57,
   "3": 147,
   "4": 61,
@@ -121,7 +121,7 @@
   "3": 10,
   "4": 15,
   "5": 8,
-  "6": 0
+  "6": 2
  },
  "releases_per_month": {
   "1": [

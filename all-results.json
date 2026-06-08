@@ -778,6 +778,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-06-03T13:53:09Z",
+  "repo": "bengali",
+  "tier": 1,
+  "url": "https://github.com/notofonts/bengali/issues/39"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2018-11-11T17:38:48Z",
   "repo": "bhaiksuki",
   "tier": 5,
@@ -5997,6 +6004,13 @@
   "repo": "telugu",
   "tier": 1,
   "url": "https://github.com/notofonts/telugu/issues/24"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-06-05T07:05:02Z",
+  "repo": "telugu",
+  "tier": 1,
+  "url": "https://github.com/notofonts/telugu/issues/25"
  },
  {
   "closedAt": null,
