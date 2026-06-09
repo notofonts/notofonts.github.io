@@ -9405,6 +9405,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 566,
+    "title": "please add more latin extended D glyphs",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/566"
+   },
+   {
     "number": 565,
     "title": "Small overlap with U+0129",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/565"

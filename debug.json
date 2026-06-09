@@ -11207,8 +11207,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 162,
+  "issue_count": 163,
   "issues": [
+   {
+    "number": 566,
+    "title": "please add more latin extended D glyphs",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/566"
+   },
    {
     "number": 565,
     "title": "Small overlap with U+0129",
