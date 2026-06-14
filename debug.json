@@ -7951,8 +7951,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/javanese",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 5,
   "issues": [
+   {
+    "number": 39,
+    "title": "Will the Javanese font have a serif version in the future?",
+    "url": "https://github.com/notofonts/javanese/issues/39"
+   },
    {
     "number": 38,
     "title": "Diacritic shifts when combining \ua9b3 and \ua9bf",
@@ -11207,8 +11212,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 163,
+  "issue_count": 164,
   "issues": [
+   {
+    "number": 567,
+    "title": "Greek Misalignment",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/567"
+   },
    {
     "number": 566,
     "title": "please add more latin extended D glyphs",
