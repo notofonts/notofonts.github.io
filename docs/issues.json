@@ -40,7 +40,7 @@
   "hentaigana": 7,
   "inscriptional-pahlavi": 1,
   "inscriptional-parthian": 3,
-  "javanese": 4,
+  "javanese": 5,
   "kaithi": 3,
   "kannada": 7,
   "kawi": 6,
@@ -50,7 +50,7 @@
   "khojki": 1,
   "khudawadi": 1,
   "lao": 1,
-  "latin-greek-cyrillic": 159,
+  "latin-greek-cyrillic": 161,
   "limbu": 2,
   "malayalam": 6,
   "mandaic": 2,
@@ -88,7 +88,7 @@
   "soyombo": 4,
   "sundanese": 4,
   "syloti-nagri": 5,
-  "symbols": 18,
+  "symbols": 19,
   "syriac": 9,
   "tagalog": 2,
   "tai-tham": 1,
@@ -109,9 +109,9 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 286,
+  "1": 288,
   "2": 57,
-  "3": 147,
+  "3": 149,
   "4": 61,
   "5": 40
  },
@@ -121,7 +121,7 @@
   "3": 10,
   "4": 15,
   "5": 8,
-  "6": 2
+  "6": 6
  },
  "releases_per_month": {
   "1": [

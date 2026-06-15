@@ -2080,6 +2080,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-06-13T12:35:56Z",
+  "repo": "javanese",
+  "tier": 3,
+  "url": "https://github.com/notofonts/javanese/issues/39"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2018-12-10T19:59:02Z",
   "repo": "kaithi",
   "tier": 4,
@@ -3813,6 +3820,20 @@
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/565"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-06-08T12:42:33Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/566"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-06-13T22:38:09Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/567"
  },
  {
   "closedAt": null,
@@ -5759,6 +5780,13 @@
   "repo": "symbols",
   "tier": 3,
   "url": "https://github.com/notofonts/symbols/issues/92"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-06-15T03:02:05Z",
+  "repo": "symbols",
+  "tier": 3,
+  "url": "https://github.com/notofonts/symbols/issues/93"
  },
  {
   "closedAt": null,
