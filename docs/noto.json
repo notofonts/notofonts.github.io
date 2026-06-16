@@ -14789,6 +14789,11 @@
   "gh_url": "https://notofonts.github.io/symbols",
   "issues": [
    {
+    "number": 93,
+    "title": "Add Block Elements and Box Drawing to Noto Sans Symbols 2",
+    "url": "https://github.com/notofonts/symbols/issues/93"
+   },
+   {
     "number": 91,
     "title": "Please add variable weight to Noto Sans Symbols 2",
     "url": "https://github.com/notofonts/symbols/issues/91"

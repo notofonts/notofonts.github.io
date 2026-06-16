@@ -18406,8 +18406,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/symbols",
   "has_releases": true,
-  "issue_count": 18,
+  "issue_count": 19,
   "issues": [
+   {
+    "number": 93,
+    "title": "Add Block Elements and Box Drawing to Noto Sans Symbols 2",
+    "url": "https://github.com/notofonts/symbols/issues/93"
+   },
    {
     "number": 91,
     "title": "Please add variable weight to Noto Sans Symbols 2",
