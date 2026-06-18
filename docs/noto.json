@@ -726,6 +726,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 289,
+    "title": "Noto Kufi Arabic vertical metrics significantly larger than Graphik Arabic in mobile UI environments",
+    "url": "https://github.com/notofonts/arabic/issues/289"
+   },
+   {
     "number": 288,
     "title": "Tiny jeh overlap",
     "url": "https://github.com/notofonts/arabic/issues/288"
