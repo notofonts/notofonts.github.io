@@ -5,13 +5,13 @@
   "3": 2,
   "4": 3,
   "5": 3,
-  "6": 0
+  "6": 1
  },
  "open_per_repo": {
   "adlam": 4,
   "ahom": 6,
   "anatolian-hieroglyphs": 1,
-  "arabic": 25,
+  "arabic": 26,
   "armenian": 1,
   "balinese": 4,
   "batak": 5,
@@ -109,7 +109,7 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 288,
+  "1": 289,
   "2": 57,
   "3": 149,
   "4": 61,
@@ -121,7 +121,7 @@
   "3": 10,
   "4": 15,
   "5": 8,
-  "6": 6
+  "6": 8
  },
  "releases_per_month": {
   "1": [
