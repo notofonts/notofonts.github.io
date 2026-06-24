@@ -22421,8 +22421,18 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/yi",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 5,
+    "title": "Fix glyph source contours for U+A29A and U+A3E0 in Noto Sans Yi",
+    "url": "https://github.com/notofonts/yi/pull/5"
+   },
+   {
+    "number": 4,
+    "title": "Glyph errors in Noto Sans Yi (U+A29A and U+A3E0)",
+    "url": "https://github.com/notofonts/yi/issues/4"
+   },
    {
     "number": 2,
     "title": "Suboptimal glyph designs",
