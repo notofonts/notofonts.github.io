@@ -13307,10 +13307,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Old Uyghur v1.004\n\nThis release:\n\n* Adds anchors for combining marks (#5)\n* Improves the joining PE+KAPH (#6)\n* Disables the MEM+LESH ligature to avoid confusion with LESH+MEM (#7)\n",
-     "published": "2024-06-11T10:26:23+00:00",
-     "url": "https://github.com/notofonts/old-uyghur/releases/tag/NotoSerifOldUyghur-v1.004",
-     "version": "v1.004"
+     "notes": "Noto Serif Old Uyghur v1.005\n\nThis release:\n* Stops scrambling medial letters after kaph or pe (#10)\n* Stops aleph becoming isolated after medial pe (#11)\n* Improves the positioning of marks on the dotted circle glyph (#8)\n",
+     "published": "2026-06-26T07:23:34+00:00",
+     "url": "https://github.com/notofonts/old-uyghur/releases/tag/NotoSerifOldUyghur-v1.005",
+     "version": "v1.005"
     }
    }
   },
