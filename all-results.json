@@ -2248,6 +2248,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-06-24T09:41:15Z",
+  "repo": "kannada",
+  "tier": 1,
+  "url": "https://github.com/notofonts/kannada/issues/62"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2018-04-09T16:17:12Z",
   "repo": "kharoshthi",
   "tier": 5,
@@ -5236,7 +5243,7 @@
   "url": "https://github.com/notofonts/old-turkic/issues/7"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-06-25T13:53:27Z",
   "createdAt": "2024-06-17T20:46:14Z",
   "repo": "old-uyghur",
   "tier": 5,
@@ -5250,14 +5257,14 @@
   "url": "https://github.com/notofonts/old-uyghur/issues/9"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-06-25T13:43:15Z",
   "createdAt": "2024-06-17T23:24:06Z",
   "repo": "old-uyghur",
   "tier": 5,
   "url": "https://github.com/notofonts/old-uyghur/issues/10"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-06-25T13:47:19Z",
   "createdAt": "2024-06-17T23:43:17Z",
   "repo": "old-uyghur",
   "tier": 5,
@@ -6312,6 +6319,13 @@
   "repo": "yi",
   "tier": 3,
   "url": "https://github.com/notofonts/yi/issues/2"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-06-23T08:49:10Z",
+  "repo": "yi",
+  "tier": 3,
+  "url": "https://github.com/notofonts/yi/issues/4"
  },
  {
   "closedAt": "2024-03-07T09:36:36Z",

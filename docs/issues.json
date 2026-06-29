@@ -5,7 +5,7 @@
   "3": 2,
   "4": 3,
   "5": 3,
-  "6": 1
+  "6": 4
  },
  "open_per_repo": {
   "adlam": 4,
@@ -42,7 +42,7 @@
   "inscriptional-parthian": 3,
   "javanese": 5,
   "kaithi": 3,
-  "kannada": 7,
+  "kannada": 8,
   "kawi": 6,
   "kharoshthi": 1,
   "khitan-small-script": 1,
@@ -71,7 +71,7 @@
   "old-hungarian-ui": 2,
   "old-italic": 1,
   "old-turkic": 1,
-  "old-uyghur": 4,
+  "old-uyghur": 1,
   "oriya": 3,
   "osmanya": 1,
   "pau-cin-hau": 2,
@@ -105,15 +105,15 @@
   "tirhuta": 10,
   "toto": 2,
   "vai": 1,
-  "yi": 1,
+  "yi": 2,
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 289,
+  "1": 290,
   "2": 57,
-  "3": 149,
+  "3": 150,
   "4": 61,
-  "5": 40
+  "5": 37
  },
  "opened_per_month": {
   "1": 10,
@@ -121,7 +121,7 @@
   "3": 10,
   "4": 15,
   "5": 8,
-  "6": 8
+  "6": 10
  },
  "releases_per_month": {
   "1": [
@@ -342,6 +342,10 @@
    {
     "tag": "NotoSansOldTurkic-v2.004",
     "url": "https://github.com/notofonts/old-turkic/releases/tag/NotoSansOldTurkic-v2.004"
+   },
+   {
+    "tag": "NotoSerifOldUyghur-v1.005",
+    "url": "https://github.com/notofonts/old-uyghur/releases/tag/NotoSerifOldUyghur-v1.005"
    },
    {
     "tag": "NotoSerifOldUyghur-v1.004",
