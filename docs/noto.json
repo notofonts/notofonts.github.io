@@ -2610,6 +2610,11 @@
   "gh_url": "https://notofonts.github.io/coptic",
   "issues": [
    {
+    "number": 18,
+    "title": "Coptic should Support the Combining Greek Ypogegrammeni (U+0345)",
+    "url": "https://github.com/notofonts/coptic/issues/18"
+   },
+   {
     "number": 17,
     "title": "request for a monospace and serif version",
     "url": "https://github.com/notofonts/coptic/issues/17"
