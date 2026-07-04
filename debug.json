@@ -1845,10 +1845,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Batak v2.004\n\nThis release fixes a number of ligature forms of the u-vowel. (#7)\n",
-     "published": "2025-06-25T17:01:25+00:00",
-     "url": "https://github.com/notofonts/batak/releases/tag/NotoSansBatak-v2.004",
-     "version": "v2.004"
+     "notes": "Noto Sans Batak v2.005\n\nThis fixes the lack of anchoring on the A letter (#14)\n",
+     "published": "2026-07-03T10:57:50+00:00",
+     "url": "https://github.com/notofonts/batak/releases/tag/NotoSansBatak-v2.005",
+     "version": "v2.005"
     },
     "third_party_versions": {
      "Android 12": {
