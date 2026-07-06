@@ -5,7 +5,8 @@
   "3": 2,
   "4": 3,
   "5": 3,
-  "6": 4
+  "6": 4,
+  "7": 1
  },
  "open_per_repo": {
   "adlam": 4,
@@ -21,7 +22,7 @@
   "canadian-aboriginal": 8,
   "chakma": 2,
   "chorasmian": 1,
-  "coptic": 3,
+  "coptic": 4,
   "cuneiform": 1,
   "devanagari": 11,
   "dives-akuru": 8,
@@ -111,7 +112,7 @@
  "open_per_tier": {
   "1": 290,
   "2": 57,
-  "3": 150,
+  "3": 151,
   "4": 61,
   "5": 37
  },
@@ -121,7 +122,8 @@
   "3": 10,
   "4": 15,
   "5": 8,
-  "6": 10
+  "6": 10,
+  "7": 2
  },
  "releases_per_month": {
   "1": [
@@ -378,6 +380,10 @@
     "url": "https://github.com/notofonts/balinese/releases/tag/NotoSerifBalinese-v2.007"
    },
    {
+    "tag": "NotoSansBatak-v2.005",
+    "url": "https://github.com/notofonts/batak/releases/tag/NotoSansBatak-v2.005"
+   },
+   {
     "tag": "NotoSerifBengali-v3.000",
     "url": "https://github.com/notofonts/bengali/releases/tag/NotoSerifBengali-v3.000"
    },
@@ -483,6 +489,7 @@
   "3": 565,
   "4": 573,
   "5": 584,
-  "6": 589
+  "6": 589,
+  "7": 595
  }
 }

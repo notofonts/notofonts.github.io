@@ -28,6 +28,13 @@
   "url": "https://github.com/notofonts/adlam/issues/18"
  },
  {
+  "closedAt": "2026-07-04T06:32:48Z",
+  "createdAt": "2026-07-04T06:32:37Z",
+  "repo": "adlam",
+  "tier": 2,
+  "url": "https://github.com/notofonts/adlam/issues/19"
+ },
+ {
   "closedAt": null,
   "createdAt": "2023-09-28T01:59:53Z",
   "repo": "ahom",
@@ -1006,6 +1013,13 @@
   "repo": "coptic",
   "tier": 3,
   "url": "https://github.com/notofonts/coptic/issues/17"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-07-01T07:27:44Z",
+  "repo": "coptic",
+  "tier": 3,
+  "url": "https://github.com/notofonts/coptic/issues/18"
  },
  {
   "closedAt": null,
