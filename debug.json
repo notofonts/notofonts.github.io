@@ -1882,13 +1882,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/batak",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 4,
   "issues": [
-   {
-    "number": 14,
-    "title": "Correct the position of the e    \u1be9 and ng   \u1bf0   diacritics",
-    "url": "https://github.com/notofonts/batak/issues/14"
-   },
    {
     "number": 13,
     "title": "Position of ee\u1be9 1BE9 on Batak letter a 1BC0",
