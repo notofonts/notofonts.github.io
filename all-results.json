@@ -665,7 +665,7 @@
   "url": "https://github.com/notofonts/batak/issues/13"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-07-07T07:53:24Z",
   "createdAt": "2025-12-22T04:19:29Z",
   "repo": "batak",
   "tier": 3,
@@ -3869,6 +3869,13 @@
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/567"
+ },
+ {
+  "closedAt": "2026-07-07T10:17:58Z",
+  "createdAt": "2026-07-07T09:30:13Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/568"
  },
  {
   "closedAt": null,
