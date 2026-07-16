@@ -11222,13 +11222,8 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 165,
+  "issue_count": 164,
   "issues": [
-   {
-    "number": 569,
-    "title": "(Google Fonts) Misplaced diacritics in combination Latin lowercase i + combining dot above + combining grave accent",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/569"
-   },
    {
     "number": 567,
     "title": "Greek Misalignment",
