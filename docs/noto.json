@@ -6262,6 +6262,11 @@
   "gh_url": "https://notofonts.github.io/hentaigana",
   "issues": [
    {
+    "number": 12,
+    "title": "U+1B0E2: an incomprehensible inexplicable loop at the left center of the glyph",
+    "url": "https://github.com/notofonts/hentaigana/issues/12"
+   },
+   {
     "number": 11,
     "title": "Missing characters",
     "url": "https://github.com/notofonts/hentaigana/issues/11"
