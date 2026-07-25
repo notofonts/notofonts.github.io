@@ -11218,6 +11218,11 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 108,
+    "title": "U+2394 \u2394 should be the same size as U+2B23 \u2b23",
+    "url": "https://github.com/notofonts/math/issues/108"
+   },
+   {
     "number": 106,
     "title": "Sync Hebrew with Noto Sans Hebrew",
     "url": "https://github.com/notofonts/math/issues/106"
