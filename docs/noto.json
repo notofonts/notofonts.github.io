@@ -726,6 +726,11 @@
   "gh_url": "https://notofonts.github.io/arabic",
   "issues": [
    {
+    "number": 290,
+    "title": "Update glyph of U+06C4 ARABIC LETTER WAW WITH RING, as per UTC 187-C13",
+    "url": "https://github.com/notofonts/arabic/issues/290"
+   },
+   {
     "number": 289,
     "title": "Noto Kufi Arabic vertical metrics significantly larger than Graphik Arabic in mobile UI environments",
     "url": "https://github.com/notofonts/arabic/issues/289"
@@ -4358,6 +4363,11 @@
   },
   "gh_url": "https://notofonts.github.io/georgian",
   "issues": [
+   {
+    "number": 9,
+    "title": "Diacritical mark support improvement",
+    "url": "https://github.com/notofonts/georgian/issues/9"
+   },
    {
     "number": 7,
     "title": "Combining characters are not in 'cmap'",
