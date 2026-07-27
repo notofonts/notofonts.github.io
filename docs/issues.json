@@ -12,7 +12,7 @@
   "adlam": 4,
   "ahom": 6,
   "anatolian-hieroglyphs": 1,
-  "arabic": 26,
+  "arabic": 27,
   "armenian": 1,
   "balinese": 4,
   "batak": 4,
@@ -31,14 +31,14 @@
   "egyptian-hieroglyphs": 9,
   "elbasan": 1,
   "ethiopic": 3,
-  "georgian": 2,
+  "georgian": 3,
   "glagolitic": 1,
   "gujarati": 6,
   "gunjala-gondi": 1,
   "gurmukhi": 7,
   "hanunoo": 1,
   "hebrew": 18,
-  "hentaigana": 7,
+  "hentaigana": 8,
   "inscriptional-pahlavi": 1,
   "inscriptional-parthian": 3,
   "javanese": 5,
@@ -57,7 +57,7 @@
   "mandaic": 2,
   "manichaean": 3,
   "masaram-gondi": 1,
-  "math": 16,
+  "math": 17,
   "meetei-mayek": 1,
   "modi": 7,
   "mongolian": 2,
@@ -110,9 +110,9 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 290,
-  "2": 57,
-  "3": 150,
+  "1": 291,
+  "2": 58,
+  "3": 152,
   "4": 61,
   "5": 37
  },
@@ -123,7 +123,7 @@
   "4": 15,
   "5": 8,
   "6": 10,
-  "7": 4
+  "7": 8
  },
  "releases_per_month": {
   "1": [

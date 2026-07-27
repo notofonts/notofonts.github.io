@@ -526,6 +526,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-07-25T06:09:24Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/290"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2021-05-06T04:03:47Z",
   "repo": "armenian",
   "tier": 1,
@@ -1569,6 +1576,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-07-25T06:36:24Z",
+  "repo": "georgian",
+  "tier": 2,
+  "url": "https://github.com/notofonts/georgian/issues/9"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-09-25T16:54:25Z",
   "repo": "glagolitic",
   "tier": 4,
@@ -2014,6 +2028,13 @@
   "repo": "hentaigana",
   "tier": 3,
   "url": "https://github.com/notofonts/hentaigana/issues/11"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-07-20T05:11:57Z",
+  "repo": "hentaigana",
+  "tier": 3,
+  "url": "https://github.com/notofonts/hentaigana/issues/12"
  },
  {
   "closedAt": "2024-04-15T16:08:48Z",
@@ -4401,6 +4422,13 @@
   "repo": "math",
   "tier": 3,
   "url": "https://github.com/notofonts/math/issues/107"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-07-24T16:17:17Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/108"
  },
  {
   "closedAt": "2024-07-24T16:09:41Z",
