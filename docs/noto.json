@@ -12513,6 +12513,11 @@
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
+    "number": 99,
+    "title": "Update glyph for U+06C4 \"\u06c4\" as per UTC 187 consensus.",
+    "url": "https://github.com/notofonts/nastaliq/issues/99"
+   },
+   {
     "number": 98,
     "title": "Regression: dots for yeh misplaced under reh in the word \"\u0628\u062d\u0631\u06cc\u06c1\"",
     "url": "https://github.com/notofonts/nastaliq/issues/98"
