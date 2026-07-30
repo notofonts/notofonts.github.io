@@ -11237,8 +11237,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 164,
+  "issue_count": 165,
   "issues": [
+   {
+    "number": 570,
+    "title": "Ukranian capital \"I\" problem",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/570"
+   },
    {
     "number": 567,
     "title": "Greek Misalignment",

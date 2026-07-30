@@ -9435,6 +9435,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 570,
+    "title": "Ukranian capital \"I\" problem",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/570"
+   },
+   {
     "number": 567,
     "title": "Greek Misalignment",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/567"
