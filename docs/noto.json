@@ -17453,6 +17453,11 @@
   "gh_url": "https://notofonts.github.io/thai",
   "issues": [
    {
+    "number": 32,
+    "title": "The Latin tilde (accent mark) is misaligned.",
+    "url": "https://github.com/notofonts/thai/issues/32"
+   },
+   {
     "number": 31,
     "title": "Mai tho overlap with Fo fan in heavier weights of Noto Sans Thai Looped",
     "url": "https://github.com/notofonts/thai/issues/31"
