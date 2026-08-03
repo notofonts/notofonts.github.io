@@ -3907,6 +3907,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-07-29T18:08:41Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/570"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -5160,6 +5167,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-07-28T16:43:45Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/99"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2023-06-27T16:18:47Z",
   "repo": "nko",
   "tier": 3,
@@ -6193,6 +6207,13 @@
   "repo": "thai",
   "tier": 2,
   "url": "https://github.com/notofonts/thai/issues/31"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-08-01T07:38:43Z",
+  "repo": "thai",
+  "tier": 2,
+  "url": "https://github.com/notofonts/thai/issues/32"
  },
  {
   "closedAt": null,
