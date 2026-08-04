@@ -11237,7 +11237,7 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 165,
+  "issue_count": 164,
   "issues": [
    {
     "number": 570,
@@ -11268,11 +11268,6 @@
     "number": 562,
     "title": "Overlap with italic f and upright parentheses",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/562"
-   },
-   {
-    "number": 560,
-    "title": "Overlap with \"Wh\" in Noto Serif Italic",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/560"
    },
    {
     "number": 558,
@@ -15087,8 +15082,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 28,
+  "issue_count": 29,
   "issues": [
+   {
+    "number": 100,
+    "title": "winAscent insufficient to cover shaped text",
+    "url": "https://github.com/notofonts/nastaliq/issues/100"
+   },
    {
     "number": 99,
     "title": "Update glyph for U+06C4 \"\u06c4\" as per UTC 187 consensus.",
