@@ -9308,23 +9308,24 @@
   "families": {
    "Noto Sans Miao": {
     "files": [
+     "fonts/NotoSansMiao/hinted/ttf/NotoSansMiao-Regular.ttf",
      "fonts/NotoSansMiao/full/ttf/NotoSansMiao-Regular.ttf",
      "fonts/NotoSansMiao/full/otf/NotoSansMiao-Regular.otf",
      "fonts/NotoSansMiao/googlefonts/ttf/NotoSansMiao-Regular.ttf",
      "fonts/NotoSansMiao/unhinted/ttf/NotoSansMiao-Regular.ttf",
-     "fonts/NotoSansMiao/unhinted/otf/NotoSansMiao-Regular.otf",
-     "fonts/NotoSansMiao/hinted/ttf/NotoSansMiao-Regular.ttf"
+     "fonts/NotoSansMiao/unhinted/otf/NotoSansMiao-Regular.otf"
     ],
     "latest_release": {
-     "notes": "Noto Sans Miao v2.003\n\nThis release fixes a number of fontbakery fails\n",
-     "published": "2022-08-29T08:13:06",
-     "url": "https://github.com/notofonts/miao/releases/tag/NotoSansMiao-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Sans Miao v2.004\n\nThis release adds 9 Miao glyph variants for the Lipo language (#2, thanks to @PaulHanslow)\n",
+     "published": "2026-08-05T08:39:44+00:00",
+     "url": "https://github.com/notofonts/miao/releases/tag/NotoSansMiao-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "known_releases": [
-   "NotoSansMiao-v2.003"
+   "NotoSansMiao-v2.003",
+   "NotoSansMiao-v2.004"
   ]
  },
  "modi": {
