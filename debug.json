@@ -13902,8 +13902,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/miao",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 7,
+    "title": "Lipo glyphs are missing for vowels with tone shifters",
+    "url": "https://github.com/notofonts/miao/issues/7"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/miao",
   "tier": 3,
   "title": "Noto Miao"
