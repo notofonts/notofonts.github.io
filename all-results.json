@@ -533,6 +533,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-08-07T15:23:46Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/291"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2021-05-06T04:03:47Z",
   "repo": "armenian",
   "tier": 1,
@@ -1972,6 +1979,13 @@
   "repo": "hebrew",
   "tier": 1,
   "url": "https://github.com/notofonts/hebrew/issues/60"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-08-07T02:00:45Z",
+  "repo": "hebrew",
+  "tier": 1,
+  "url": "https://github.com/notofonts/hebrew/issues/62"
  },
  {
   "closedAt": null,
@@ -3836,7 +3850,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/559"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-08-03T17:00:43Z",
   "createdAt": "2026-04-20T10:57:37Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -3911,6 +3925,13 @@
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/570"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-08-07T15:20:29Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/571"
  },
  {
   "closedAt": null,
@@ -4457,6 +4478,13 @@
   "repo": "miao",
   "tier": 3,
   "url": "https://github.com/notofonts/miao/issues/2"
+ },
+ {
+  "closedAt": "2026-08-07T11:01:03Z",
+  "createdAt": "2026-08-06T19:10:54Z",
+  "repo": "miao",
+  "tier": 3,
+  "url": "https://github.com/notofonts/miao/issues/7"
  },
  {
   "closedAt": null,
@@ -5166,11 +5194,25 @@
   "url": "https://github.com/notofonts/nastaliq/issues/98"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-08-04T11:42:41Z",
   "createdAt": "2026-07-28T16:43:45Z",
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/99"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-08-03T17:38:26Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/100"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-08-07T04:12:02Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/101"
  },
  {
   "closedAt": null,
@@ -6158,6 +6200,13 @@
   "repo": "thaana",
   "tier": 3,
   "url": "https://github.com/notofonts/thaana/issues/7"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-08-07T15:28:57Z",
+  "repo": "thaana",
+  "tier": 3,
+  "url": "https://github.com/notofonts/thaana/issues/8"
  },
  {
   "closedAt": null,

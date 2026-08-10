@@ -7,13 +7,13 @@
   "5": 3,
   "6": 4,
   "7": 4,
-  "8": 0
+  "8": 3
  },
  "open_per_repo": {
   "adlam": 4,
   "ahom": 6,
   "anatolian-hieroglyphs": 1,
-  "arabic": 27,
+  "arabic": 28,
   "armenian": 1,
   "balinese": 4,
   "batak": 4,
@@ -38,7 +38,7 @@
   "gunjala-gondi": 1,
   "gurmukhi": 7,
   "hanunoo": 1,
-  "hebrew": 18,
+  "hebrew": 19,
   "hentaigana": 8,
   "inscriptional-pahlavi": 1,
   "inscriptional-parthian": 3,
@@ -66,7 +66,7 @@
   "myanmar": 33,
   "nag-mundari": 1,
   "nandinagari": 5,
-  "nastaliq": 28,
+  "nastaliq": 29,
   "nko": 1,
   "nushu": 1,
   "old-hungarian": 7,
@@ -100,7 +100,7 @@
   "tangsa": 1,
   "tangut": 5,
   "telugu": 4,
-  "thaana": 3,
+  "thaana": 4,
   "thai": 6,
   "tibetan": 5,
   "tifinagh": 3,
@@ -111,9 +111,9 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 293,
+  "1": 296,
   "2": 59,
-  "3": 152,
+  "3": 153,
   "4": 61,
   "5": 37
  },
@@ -125,7 +125,7 @@
   "5": 8,
   "6": 10,
   "7": 10,
-  "8": 1
+  "8": 8
  },
  "releases_per_month": {
   "1": [
@@ -416,8 +416,20 @@
   ],
   "8": [
    {
+    "tag": "v0.4.1",
+    "url": "https://github.com/notofonts/nototools/releases/tag/v0.4.1"
+   },
+   {
+    "tag": "v0.4.0",
+    "url": "https://github.com/notofonts/nototools/releases/tag/v0.4.0"
+   },
+   {
     "tag": "v0.3.2",
     "url": "https://github.com/notofonts/nototools/releases/tag/v0.3.2"
+   },
+   {
+    "tag": "NotoSansMiao-v2.004",
+    "url": "https://github.com/notofonts/miao/releases/tag/NotoSansMiao-v2.004"
    }
   ],
   "9": [
