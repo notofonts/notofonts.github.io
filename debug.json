@@ -878,17 +878,12 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 29,
+  "issue_count": 25,
   "issues": [
    {
     "number": 291,
     "title": "[Request] Add Saudi Riyal Sign (\u20c1, U+20C1), UAE Dirham Sign (\u20c3, U+20C3) and Omani Rial Sign (\u20c4, U+20C4) to Noto Sans Arabic and Noto Kufi Arabic",
     "url": "https://github.com/notofonts/arabic/issues/291"
-   },
-   {
-    "number": 290,
-    "title": "Update glyph of U+06C4 ARABIC LETTER WAW WITH RING, as per UTC 187-C13",
-    "url": "https://github.com/notofonts/arabic/issues/290"
    },
    {
     "number": 289,
@@ -901,29 +896,14 @@
     "url": "https://github.com/notofonts/arabic/issues/288"
    },
    {
-    "number": 287,
-    "title": "Noto Naskh Arabic: Shadda collision on GAF (U+06AF) in Urdu",
-    "url": "https://github.com/notofonts/arabic/issues/287"
-   },
-   {
     "number": 286,
     "title": "Noto Naskh Arabic: Kerning and spacing issues in Arabic and Urdu text",
     "url": "https://github.com/notofonts/arabic/issues/286"
    },
    {
-    "number": 284,
-    "title": "NotoSansArabic-Regular.otf: poor Arabic text extraction from LibreOffice-exported PDF, especially with diacritics",
-    "url": "https://github.com/notofonts/arabic/issues/284"
-   },
-   {
     "number": 283,
     "title": "Request for Lhaal (U+08C7) support for Punjabi",
     "url": "https://github.com/notofonts/arabic/issues/283"
-   },
-   {
-    "number": 281,
-    "title": "Fixes Kurdish lam-alef ligature in Noto Sans Arabic UI fonts",
-    "url": "https://github.com/notofonts/arabic/pull/281"
    },
    {
     "number": 280,
