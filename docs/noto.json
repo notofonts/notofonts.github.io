@@ -11451,7 +11451,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/miao",
-  "issues": [],
+  "issues": [
+   {
+    "number": 8,
+    "title": "Wrong Aspiration Shape & Placement",
+    "url": "https://github.com/notofonts/miao/issues/8"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/miao",
   "tier": 3,
   "title": "Noto Miao"
