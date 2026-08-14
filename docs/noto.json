@@ -8326,6 +8326,11 @@
   "gh_url": "https://notofonts.github.io/lao",
   "issues": [
    {
+    "number": 19,
+    "title": "Yy ascender overlap",
+    "url": "https://github.com/notofonts/lao/issues/19"
+   },
+   {
     "number": 18,
     "title": "Virama positioning",
     "url": "https://github.com/notofonts/lao/issues/18"

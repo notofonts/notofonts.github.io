@@ -10069,8 +10069,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/lao",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 19,
+    "title": "Yy ascender overlap",
+    "url": "https://github.com/notofonts/lao/issues/19"
+   },
    {
     "number": 18,
     "title": "Virama positioning",
