@@ -12414,6 +12414,11 @@
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
+    "number": 102,
+    "title": "U+0620 should use same joining properties and style as  U+06CC",
+    "url": "https://github.com/notofonts/nastaliq/issues/102"
+   },
+   {
     "number": 101,
     "title": "Urdu letter \u06a9 rendered wrong",
     "url": "https://github.com/notofonts/nastaliq/issues/101"
