@@ -483,7 +483,7 @@
   "url": "https://github.com/notofonts/arabic/issues/283"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-08-11T14:31:19Z",
   "createdAt": "2026-04-10T13:50:32Z",
   "repo": "arabic",
   "tier": 1,
@@ -504,7 +504,7 @@
   "url": "https://github.com/notofonts/arabic/issues/286"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-08-11T12:55:47Z",
   "createdAt": "2026-04-13T23:19:33Z",
   "repo": "arabic",
   "tier": 1,
@@ -525,7 +525,7 @@
   "url": "https://github.com/notofonts/arabic/issues/289"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-08-11T12:47:01Z",
   "createdAt": "2026-07-25T06:09:24Z",
   "repo": "arabic",
   "tier": 1,
@@ -2399,6 +2399,13 @@
   "repo": "lao",
   "tier": 3,
   "url": "https://github.com/notofonts/lao/issues/18"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-08-13T02:11:10Z",
+  "repo": "lao",
+  "tier": 3,
+  "url": "https://github.com/notofonts/lao/issues/19"
  },
  {
   "closedAt": null,
@@ -4488,6 +4495,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-08-12T05:43:05Z",
+  "repo": "miao",
+  "tier": 3,
+  "url": "https://github.com/notofonts/miao/issues/8"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2020-03-27T22:12:50Z",
   "repo": "modi",
   "tier": 3,
@@ -5213,6 +5227,13 @@
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/101"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-08-15T09:28:27Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/102"
  },
  {
   "closedAt": null,

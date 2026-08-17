@@ -7,13 +7,13 @@
   "5": 3,
   "6": 4,
   "7": 4,
-  "8": 3
+  "8": 6
  },
  "open_per_repo": {
   "adlam": 4,
   "ahom": 6,
   "anatolian-hieroglyphs": 1,
-  "arabic": 28,
+  "arabic": 25,
   "armenian": 1,
   "balinese": 4,
   "batak": 4,
@@ -51,7 +51,7 @@
   "khmer": 4,
   "khojki": 1,
   "khudawadi": 1,
-  "lao": 1,
+  "lao": 2,
   "latin-greek-cyrillic": 162,
   "limbu": 2,
   "malayalam": 6,
@@ -60,13 +60,14 @@
   "masaram-gondi": 1,
   "math": 17,
   "meetei-mayek": 1,
+  "miao": 1,
   "modi": 7,
   "mongolian": 2,
   "music": 1,
   "myanmar": 33,
   "nag-mundari": 1,
   "nandinagari": 5,
-  "nastaliq": 29,
+  "nastaliq": 30,
   "nko": 1,
   "nushu": 1,
   "old-hungarian": 7,
@@ -111,9 +112,9 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 296,
+  "1": 294,
   "2": 59,
-  "3": 153,
+  "3": 155,
   "4": 61,
   "5": 37
  },
@@ -125,7 +126,7 @@
   "5": 8,
   "6": 10,
   "7": 10,
-  "8": 8
+  "8": 11
  },
  "releases_per_month": {
   "1": [
@@ -430,6 +431,10 @@
    {
     "tag": "NotoSansMiao-v2.004",
     "url": "https://github.com/notofonts/miao/releases/tag/NotoSansMiao-v2.004"
+   },
+   {
+    "tag": "v0.004",
+    "url": "https://github.com/notofonts/noto-cjk-varco/releases/tag/v0.004"
    }
   ],
   "9": [
