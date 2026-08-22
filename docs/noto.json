@@ -9325,11 +9325,6 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
-    "number": 573,
-    "title": "Export Thorndouble and Wynndouble",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/573"
-   },
-   {
     "number": 571,
     "title": "[Request] Add Saudi Riyal Sign (\u20c1, U+20C1), Rufiyaa Sign (\u20c2, U+20C2), UAE Dirham Sign (\u20c3, U+20C3) and Omani Rial Sign (\u20c4, U+20C4) to Noto Sans, Noto Serif, and Noto Mono",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/571"
