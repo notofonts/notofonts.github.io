@@ -14229,43 +14229,44 @@
   "families": {
    "Noto Serif Toto": {
     "files": [
-     "fonts/NotoSerifToto/googlefonts/variable-ttf/NotoSerifToto[wght].ttf",
+     "fonts/NotoSerifToto/full/otf/NotoSerifToto-Bold.otf",
      "fonts/NotoSerifToto/full/otf/NotoSerifToto-Regular.otf",
      "fonts/NotoSerifToto/full/otf/NotoSerifToto-SemiBold.otf",
      "fonts/NotoSerifToto/full/otf/NotoSerifToto-Medium.otf",
-     "fonts/NotoSerifToto/full/otf/NotoSerifToto-Bold.otf",
+     "fonts/NotoSerifToto/full/variable-ttf/NotoSerifToto[wght].ttf",
+     "fonts/NotoSerifToto/full/slim-variable-ttf/NotoSerifToto[wght].ttf",
      "fonts/NotoSerifToto/full/ttf/NotoSerifToto-Bold.ttf",
      "fonts/NotoSerifToto/full/ttf/NotoSerifToto-Regular.ttf",
      "fonts/NotoSerifToto/full/ttf/NotoSerifToto-SemiBold.ttf",
      "fonts/NotoSerifToto/full/ttf/NotoSerifToto-Medium.ttf",
-     "fonts/NotoSerifToto/full/slim-variable-ttf/NotoSerifToto[wght].ttf",
-     "fonts/NotoSerifToto/full/variable-ttf/NotoSerifToto[wght].ttf",
-     "fonts/NotoSerifToto/hinted/ttf/NotoSerifToto-Bold.ttf",
-     "fonts/NotoSerifToto/hinted/ttf/NotoSerifToto-Regular.ttf",
-     "fonts/NotoSerifToto/hinted/ttf/NotoSerifToto-SemiBold.ttf",
-     "fonts/NotoSerifToto/hinted/ttf/NotoSerifToto-Medium.ttf",
+     "fonts/NotoSerifToto/unhinted/otf/NotoSerifToto-Bold.otf",
      "fonts/NotoSerifToto/unhinted/otf/NotoSerifToto-Regular.otf",
      "fonts/NotoSerifToto/unhinted/otf/NotoSerifToto-SemiBold.otf",
      "fonts/NotoSerifToto/unhinted/otf/NotoSerifToto-Medium.otf",
-     "fonts/NotoSerifToto/unhinted/otf/NotoSerifToto-Bold.otf",
+     "fonts/NotoSerifToto/unhinted/variable-ttf/NotoSerifToto[wght].ttf",
+     "fonts/NotoSerifToto/unhinted/slim-variable-ttf/NotoSerifToto[wght].ttf",
      "fonts/NotoSerifToto/unhinted/ttf/NotoSerifToto-Bold.ttf",
      "fonts/NotoSerifToto/unhinted/ttf/NotoSerifToto-Regular.ttf",
      "fonts/NotoSerifToto/unhinted/ttf/NotoSerifToto-SemiBold.ttf",
      "fonts/NotoSerifToto/unhinted/ttf/NotoSerifToto-Medium.ttf",
-     "fonts/NotoSerifToto/unhinted/slim-variable-ttf/NotoSerifToto[wght].ttf",
-     "fonts/NotoSerifToto/unhinted/variable-ttf/NotoSerifToto[wght].ttf"
+     "fonts/NotoSerifToto/googlefonts/variable-ttf/NotoSerifToto[wght].ttf",
+     "fonts/NotoSerifToto/hinted/ttf/NotoSerifToto-Bold.ttf",
+     "fonts/NotoSerifToto/hinted/ttf/NotoSerifToto-Regular.ttf",
+     "fonts/NotoSerifToto/hinted/ttf/NotoSerifToto-SemiBold.ttf",
+     "fonts/NotoSerifToto/hinted/ttf/NotoSerifToto-Medium.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Serif Toto v2.002\n\nThis release:\n\n* Adds a meta table entry to show designed languages\n* Adds the missing languagesystem (#4)\n* Uses a breathy component in WA (#3)\n",
-     "published": "2024-06-13T09:47:11+00:00",
-     "url": "https://github.com/notofonts/toto/releases/tag/NotoSerifToto-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Serif Toto v2.003\n\nThis release:\n\n* Improves the kerning of BREATHY EO (#5)\n* Reverts the change to the dot under TOTO LETTER WA (#6)\n",
+     "published": "2026-08-24T17:41:01+00:00",
+     "url": "https://github.com/notofonts/toto/releases/tag/NotoSerifToto-v2.003",
+     "version": "v2.003"
     }
    }
   },
   "known_releases": [
    "NotoSerifToto-v2.001",
-   "NotoSerifToto-v2.002"
+   "NotoSerifToto-v2.002",
+   "NotoSerifToto-v2.003"
   ]
  },
  "ugaritic": {

@@ -21840,10 +21840,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Serif Toto v2.002\n\nThis release:\n\n* Adds a meta table entry to show designed languages\n* Adds the missing languagesystem (#4)\n* Uses a breathy component in WA (#3)\n",
-     "published": "2024-06-13T09:47:11+00:00",
-     "url": "https://github.com/notofonts/toto/releases/tag/NotoSerifToto-v2.002",
-     "version": "v2.002"
+     "notes": "Noto Serif Toto v2.003\n\nThis release:\n\n* Improves the kerning of BREATHY EO (#5)\n* Reverts the change to the dot under TOTO LETTER WA (#6)\n",
+     "published": "2026-08-24T17:41:01+00:00",
+     "url": "https://github.com/notofonts/toto/releases/tag/NotoSerifToto-v2.003",
+     "version": "v2.003"
     },
     "third_party_versions": {
      "Fedora 38": {
@@ -21862,19 +21862,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/toto",
   "has_releases": true,
-  "issue_count": 2,
-  "issues": [
-   {
-    "number": 7,
-    "title": "The change that was supposed to have fixed issue #6 doesn't appear to have had an affect",
-    "url": "https://github.com/notofonts/toto/issues/7"
-   },
-   {
-    "number": 5,
-    "title": "U+1E2A9 TOTO LETTER BREATHY EO is kerned less than U+1E2A8 TOTO LETTER EO",
-    "url": "https://github.com/notofonts/toto/issues/5"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/toto",
   "tier": 3,
   "title": "Noto Toto"
