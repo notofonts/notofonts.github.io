@@ -3152,6 +3152,11 @@
   "gh_url": "https://notofonts.github.io/devanagari",
   "issues": [
    {
+    "number": 71,
+    "title": "Horizontal line running at the top the Devanagari Visarga \u0903 needs to be removed.",
+    "url": "https://github.com/notofonts/devanagari/issues/71"
+   },
+   {
     "number": 70,
     "title": "The rendering for the Hindi text - \u091f\u094d\u0935\u093f\u0938\u094d\u091f - seems incorrect",
     "url": "https://github.com/notofonts/devanagari/issues/70"
