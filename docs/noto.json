@@ -9450,11 +9450,6 @@
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/538"
    },
    {
-    "number": 535,
-    "title": "The combining inverted breve below is misplaced in a\u032f and u\u032f in Noto Serif",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/535"
-   },
-   {
     "number": 534,
     "title": "Some glyphs' design look very inconsistent",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/534"
@@ -9468,11 +9463,6 @@
     "number": 532,
     "title": "Two commits went missing",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/532"
-   },
-   {
-    "number": 530,
-    "title": "IPA Non-syllabic Diacritic Misaligned under \"u\" in Noto Serif",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/530"
    },
    {
     "number": 528,
@@ -9608,11 +9598,6 @@
     "number": 466,
     "title": "Not all Cyrillic glyphs were updated in the 2023 refresh",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/466"
-   },
-   {
-    "number": 463,
-    "title": "placement of diacritical wrong",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/463"
    },
    {
     "number": 460,
