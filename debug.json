@@ -3743,10 +3743,10 @@
      ]
     },
     "latest_release": {
-     "notes": "Noto Sans Devanagari 2.006\n\nThis release fixes a number of sequences broken in the previous release.\n",
-     "published": "2024-05-20T12:01:05+00:00",
-     "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSansDevanagari-v2.006",
-     "version": "v2.006"
+     "notes": "Noto Sans Devanagari 2.007\n\nThis release:\n\n* Removes an incorrectly localized Nepali fixes (#62)\n* Improves rendering of \u0908\u0901 in Noto Sans Devanagari (thanks to Yusuke Shirakihara)\n* Improves rendering of certain Nepali conjuncts (thanks to Yusuke Shirakihara)\n* Improves Rakar U+094D and U+0930 for the Marathi language (thanks to Yusuke Shirakihara)\n* Adjusts some glyphs for Santali (thanks to Yusuke Shirakihara)\n",
+     "published": "2026-09-09T07:58:53+00:00",
+     "url": "https://github.com/notofonts/devanagari/releases/tag/NotoSansDevanagari-v2.007",
+     "version": "v2.007"
     },
     "third_party_versions": {
      "Android 12": {
@@ -14965,8 +14965,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 30,
+  "issue_count": 31,
   "issues": [
+   {
+    "number": 103,
+    "title": "Initial gaf's ink extends about 0.6em past the run's advance, so a text box sized to the advance clips or breaks the word (Android, v3.007; v4.000 shows the same outcome, mechanism not separated)",
+    "url": "https://github.com/notofonts/nastaliq/issues/103"
+   },
    {
     "number": 102,
     "title": "U+0620 should use same joining properties and style as  U+06CC",
