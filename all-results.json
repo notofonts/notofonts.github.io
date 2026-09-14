@@ -1289,6 +1289,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-08-31T06:03:56Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/71"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2022-04-22T19:51:54Z",
   "repo": "dives-akuru",
   "tier": 5,
@@ -3248,7 +3255,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/462"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-09-07T10:28:05Z",
   "createdAt": "2024-02-17T02:53:11Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -3661,7 +3668,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/529"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-09-07T10:28:06Z",
   "createdAt": "2025-06-01T06:01:46Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -3689,7 +3696,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/534"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-09-07T10:28:06Z",
   "createdAt": "2025-07-17T06:30:16Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -3701,13 +3708,6 @@
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/536"
- },
- {
-  "closedAt": "2025-08-08T10:37:43Z",
-  "createdAt": "2025-08-08T09:34:42Z",
-  "repo": "latin-greek-cyrillic",
-  "tier": 1,
-  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/537"
  },
  {
   "closedAt": null,
@@ -3864,13 +3864,6 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/560"
  },
  {
-  "closedAt": "2026-04-30T09:44:23Z",
-  "createdAt": "2026-04-20T22:29:46Z",
-  "repo": "latin-greek-cyrillic",
-  "tier": 1,
-  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/561"
- },
- {
   "closedAt": null,
   "createdAt": "2026-04-23T09:27:50Z",
   "repo": "latin-greek-cyrillic",
@@ -3885,7 +3878,7 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/563"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-09-03T05:36:51Z",
   "createdAt": "2026-05-07T04:32:23Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
@@ -5234,6 +5227,13 @@
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/102"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-09-09T12:17:12Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/103"
  },
  {
   "closedAt": null,
