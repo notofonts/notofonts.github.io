@@ -1460,8 +1460,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/armenian",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 16,
+    "title": "Superscript vowels for dialectological notation",
+    "url": "https://github.com/notofonts/armenian/issues/16"
+   },
    {
     "number": 3,
     "title": "Italic (cursive) variants of Georgian and Armenian",
