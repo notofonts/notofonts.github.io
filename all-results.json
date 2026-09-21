@@ -568,6 +568,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-09-18T11:50:13Z",
+  "repo": "armenian",
+  "tier": 1,
+  "url": "https://github.com/notofonts/armenian/issues/16"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2018-10-12T07:48:44Z",
   "repo": "balinese",
   "tier": 2,
@@ -1288,7 +1295,7 @@
   "url": "https://github.com/notofonts/devanagari/issues/70"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-09-17T10:54:12Z",
   "createdAt": "2026-08-31T06:03:56Z",
   "repo": "devanagari",
   "tier": 1,
@@ -3934,6 +3941,13 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/571"
  },
  {
+  "closedAt": "2026-09-18T06:05:00Z",
+  "createdAt": "2026-09-18T02:12:57Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/574"
+ },
+ {
   "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
@@ -6452,6 +6466,13 @@
   "repo": "vai",
   "tier": 3,
   "url": "https://github.com/notofonts/vai/issues/1"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-09-19T16:01:37Z",
+  "repo": "vithkuqi",
+  "tier": 4,
+  "url": "https://github.com/notofonts/vithkuqi/issues/4"
  },
  {
   "closedAt": "2026-05-06T06:06:03Z",

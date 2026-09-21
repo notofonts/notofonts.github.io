@@ -8,14 +8,14 @@
   "6": 4,
   "7": 4,
   "8": 8,
-  "9": 4
+  "9": 6
  },
  "open_per_repo": {
   "adlam": 4,
   "ahom": 6,
   "anatolian-hieroglyphs": 1,
   "arabic": 25,
-  "armenian": 1,
+  "armenian": 2,
   "balinese": 4,
   "batak": 4,
   "bengali": 9,
@@ -26,7 +26,7 @@
   "chorasmian": 1,
   "coptic": 4,
   "cuneiform": 1,
-  "devanagari": 12,
+  "devanagari": 11,
   "dives-akuru": 8,
   "dogra": 2,
   "duployan": 2,
@@ -108,6 +108,7 @@
   "tifinagh": 3,
   "tirhuta": 10,
   "vai": 1,
+  "vithkuqi": 1,
   "yi": 2,
   "znamenny": 3
  },
@@ -115,7 +116,7 @@
   "1": 292,
   "2": 59,
   "3": 153,
-  "4": 61,
+  "4": 62,
   "5": 37
  },
  "opened_per_month": {
@@ -127,7 +128,7 @@
   "6": 10,
   "7": 10,
   "8": 11,
-  "9": 1
+  "9": 4
  },
  "releases_per_month": {
   "1": [
