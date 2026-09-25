@@ -22099,14 +22099,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/vithkuqi",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 4,
-    "title": "Add anchor on letter G",
-    "url": "https://github.com/notofonts/vithkuqi/issues/4"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/vithkuqi",
   "tier": 4,
   "title": "Noto Vithkuqi"
