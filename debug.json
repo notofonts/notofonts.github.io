@@ -14880,8 +14880,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nandinagari",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 6,
   "issues": [
+   {
+    "number": 19,
+    "title": "Proposal for Noto Sans Siddham, Noto Sans Tibetan, Noto Sans Toto, Noto Serif Nandinagari, and others",
+    "url": "https://github.com/notofonts/nandinagari/issues/19"
+   },
    {
     "number": 18,
     "title": "Need documentation for stylistic sets",
