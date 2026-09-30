@@ -9361,8 +9361,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/khojki",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 32,
+    "title": "Please tag a release that builds with current glyphsLib (main does, v2.005 does not)",
+    "url": "https://github.com/notofonts/khojki/issues/32"
+   },
    {
     "number": 21,
     "title": "U+1123E KHOJKI SIGN SUKUN is placed inconsistently in Noto Serif Khojki",
@@ -14109,8 +14114,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/music",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 13,
+    "title": "Please tag a release that includes the width-axis fix (2c97b9e)",
+    "url": "https://github.com/notofonts/music/issues/13"
+   },
    {
     "number": 3,
     "title": "Incomplete coverage of ancient Greek musical notation",
