@@ -13942,18 +13942,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mongolian",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 47,
-    "title": "Major update: support the revised national standard for Todo, Sibe and Manchu",
-    "url": "https://github.com/notofonts/mongolian/pull/47"
-   },
-   {
-    "number": 46,
-    "title": "The GitHub Pages autodeployment has failed",
-    "url": "https://github.com/notofonts/mongolian/issues/46"
-   },
    {
     "number": 32,
     "title": "Weights?",
