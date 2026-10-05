@@ -539,6 +539,20 @@
   "url": "https://github.com/notofonts/arabic/issues/291"
  },
  {
+  "closedAt": "2026-10-02T09:46:42Z",
+  "createdAt": "2026-10-02T05:42:38Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/295"
+ },
+ {
+  "closedAt": "2026-10-02T09:46:32Z",
+  "createdAt": "2026-10-02T05:42:59Z",
+  "repo": "arabic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/arabic/issues/296"
+ },
+ {
   "closedAt": null,
   "createdAt": "2021-05-06T04:03:47Z",
   "repo": "armenian",
@@ -2395,6 +2409,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-09-29T10:51:57Z",
+  "repo": "khojki",
+  "tier": 3,
+  "url": "https://github.com/notofonts/khojki/issues/32"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2020-05-10T14:07:14Z",
   "repo": "khudawadi",
   "tier": 4,
@@ -3913,13 +3934,6 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/567"
  },
  {
-  "closedAt": "2026-07-07T10:17:58Z",
-  "createdAt": "2026-07-07T09:30:13Z",
-  "repo": "latin-greek-cyrillic",
-  "tier": 1,
-  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/568"
- },
- {
   "closedAt": "2026-07-15T08:10:36Z",
   "createdAt": "2026-07-15T01:32:03Z",
   "repo": "latin-greek-cyrillic",
@@ -3939,13 +3953,6 @@
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/571"
- },
- {
-  "closedAt": "2026-09-18T06:05:00Z",
-  "createdAt": "2026-09-18T02:12:57Z",
-  "repo": "latin-greek-cyrillic",
-  "tier": 1,
-  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/574"
  },
  {
   "closedAt": null,
@@ -4578,7 +4585,7 @@
   "url": "https://github.com/notofonts/mongolian/issues/44"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-09-30T13:47:18Z",
   "createdAt": "2026-03-19T13:38:55Z",
   "repo": "mongolian",
   "tier": 3,
@@ -4625,6 +4632,13 @@
   "repo": "music",
   "tier": 3,
   "url": "https://github.com/notofonts/music/issues/12"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-09-29T10:51:56Z",
+  "repo": "music",
+  "tier": 3,
+  "url": "https://github.com/notofonts/music/issues/13"
  },
  {
   "closedAt": null,
@@ -4919,6 +4933,13 @@
   "repo": "nandinagari",
   "tier": 5,
   "url": "https://github.com/notofonts/nandinagari/issues/18"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-09-28T22:37:36Z",
+  "repo": "nandinagari",
+  "tier": 5,
+  "url": "https://github.com/notofonts/nandinagari/issues/19"
  },
  {
   "closedAt": "2024-07-16T11:57:07Z",
@@ -6468,7 +6489,7 @@
   "url": "https://github.com/notofonts/vai/issues/1"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-09-24T12:20:47Z",
   "createdAt": "2026-09-19T16:01:37Z",
   "repo": "vithkuqi",
   "tier": 4,
