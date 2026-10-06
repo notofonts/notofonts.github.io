@@ -13940,8 +13940,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mongolian",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 48,
+    "title": "Update to mongfontbuilder 0.15.3 and release 3.101",
+    "url": "https://github.com/notofonts/mongolian/pull/48"
+   },
    {
     "number": 32,
     "title": "Weights?",
