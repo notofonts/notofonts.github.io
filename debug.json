@@ -2344,8 +2344,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/bengali",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 10,
   "issues": [
+   {
+    "number": 40,
+    "title": "Use number values for per-master abvm code",
+    "url": "https://github.com/notofonts/bengali/pull/40"
+   },
    {
     "number": 39,
     "title": "Some LGC glyphs are thinner than they should be",
@@ -3098,8 +3103,14 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/cham",
   "has_releases": true,
-  "issue_count": 0,
-  "issues": [],
+  "issue_count": 1,
+  "issues": [
+   {
+    "number": 12,
+    "title": "Use number values for per-master positioning rules",
+    "url": "https://github.com/notofonts/cham/pull/12"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/cham",
   "tier": 3,
   "title": "Noto Cham"
@@ -3992,8 +4003,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/devanagari",
   "has_releases": true,
-  "issue_count": 12,
+  "issue_count": 13,
   "issues": [
+   {
+    "number": 72,
+    "title": "Use number values for per-master UI positioning rules",
+    "url": "https://github.com/notofonts/devanagari/pull/72"
+   },
    {
     "number": 70,
     "title": "The rendering for the Hindi text - \u091f\u094d\u0935\u093f\u0938\u094d\u091f - seems incorrect",
@@ -10079,8 +10095,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/lao",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 20,
+    "title": "Use number value for per-master mkmk offset",
+    "url": "https://github.com/notofonts/lao/pull/20"
+   },
    {
     "number": 19,
     "title": "Yy ascender overlap",
@@ -11134,8 +11155,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 161,
+  "issue_count": 162,
   "issues": [
+   {
+    "number": 576,
+    "title": "Noto Sans U+02D7 lacks weight contrast in Bold",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/576"
+   },
    {
     "number": 571,
     "title": "[Request] Add Saudi Riyal Sign (\u20c1, U+20C1), Rufiyaa Sign (\u20c2, U+20C2), UAE Dirham Sign (\u20c3, U+20C3) and Omani Rial Sign (\u20c4, U+20C4) to Noto Sans, Noto Serif, and Noto Mono",
