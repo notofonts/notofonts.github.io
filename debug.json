@@ -3103,14 +3103,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/cham",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 12,
-    "title": "Use number values for per-master positioning rules",
-    "url": "https://github.com/notofonts/cham/pull/12"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/cham",
   "tier": 3,
   "title": "Noto Cham"
@@ -10095,13 +10089,8 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/lao",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 2,
   "issues": [
-   {
-    "number": 20,
-    "title": "Use number value for per-master mkmk offset",
-    "url": "https://github.com/notofonts/lao/pull/20"
-   },
    {
     "number": 19,
     "title": "Yy ascender overlap",
@@ -13966,8 +13955,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mongolian",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 49,
+    "title": "3.100: vertical origin moved to the ascender, upright punctuation misplaced in vertical text",
+    "url": "https://github.com/notofonts/mongolian/issues/49"
+   },
    {
     "number": 48,
     "title": "Update to mongfontbuilder 0.15.3 and release 3.101",
