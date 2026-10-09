@@ -8806,8 +8806,13 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/khitan-small-script",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 3,
+    "title": "Noto Serif Khitan Small Script: unify the layout into one font and rebuild from a packaged UFO",
+    "url": "https://github.com/notofonts/khitan-small-script/pull/3"
+   },
    {
     "number": 2,
     "title": "Clarify difference between SerifKSS vs FangsonKSSVertical vs FangsongKSSRotated",
@@ -11144,8 +11149,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 162,
+  "issue_count": 163,
   "issues": [
+   {
+    "number": 577,
+    "title": "\"Build main TTFs\" failed",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/577"
+   },
    {
     "number": 576,
     "title": "Noto Sans U+02D7 lacks weight contrast in Bold",
@@ -13955,17 +13965,12 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mongolian",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 2,
   "issues": [
    {
     "number": 49,
     "title": "3.100: vertical origin moved to the ascender, upright punctuation misplaced in vertical text",
     "url": "https://github.com/notofonts/mongolian/issues/49"
-   },
-   {
-    "number": 48,
-    "title": "Update to mongfontbuilder 0.15.3 and release 3.101",
-    "url": "https://github.com/notofonts/mongolian/pull/48"
    },
    {
     "number": 32,
