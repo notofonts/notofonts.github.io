@@ -11138,6 +11138,11 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
+    "number": 109,
+    "title": "Can you make these unicode blocks compatible",
+    "url": "https://github.com/notofonts/math/issues/109"
+   },
+   {
     "number": 108,
     "title": "U+2394 \u2394 should be the same size as U+2B23 \u2b23",
     "url": "https://github.com/notofonts/math/issues/108"
@@ -11675,6 +11680,11 @@
   },
   "gh_url": "https://notofonts.github.io/music",
   "issues": [
+   {
+    "number": 14,
+    "title": "Hey",
+    "url": "https://github.com/notofonts/music/issues/14"
+   },
    {
     "number": 13,
     "title": "Please tag a release that includes the width-axis fix (2c97b9e)",
