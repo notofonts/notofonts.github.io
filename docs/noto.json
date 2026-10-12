@@ -17630,6 +17630,11 @@
   "gh_url": "https://notofonts.github.io/tifinagh",
   "issues": [
    {
+    "number": 21,
+    "title": "Critical Bug: Overlapping ligatures in Noto Sans Tifinagh change \u2d4d\u2d4d (YAL-YAL) into looking like \u2d4f\u2d4f (YAN-YAN)",
+    "url": "https://github.com/notofonts/tifinagh/issues/21"
+   },
+   {
     "number": 19,
     "title": "Ligature issues.",
     "url": "https://github.com/notofonts/tifinagh/issues/19"
