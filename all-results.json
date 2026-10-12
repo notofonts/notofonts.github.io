@@ -3956,6 +3956,20 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-10-06T07:31:55Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/576"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-10-08T02:11:15Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/577"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -4480,6 +4494,13 @@
   "url": "https://github.com/notofonts/math/issues/108"
  },
  {
+  "closedAt": null,
+  "createdAt": "2026-10-10T09:38:55Z",
+  "repo": "math",
+  "tier": 3,
+  "url": "https://github.com/notofonts/math/issues/109"
+ },
+ {
   "closedAt": "2024-07-24T16:09:41Z",
   "createdAt": "2024-07-24T15:00:07Z",
   "repo": "medefaidrin",
@@ -4592,6 +4613,13 @@
   "url": "https://github.com/notofonts/mongolian/issues/46"
  },
  {
+  "closedAt": null,
+  "createdAt": "2026-10-07T10:03:07Z",
+  "repo": "mongolian",
+  "tier": 3,
+  "url": "https://github.com/notofonts/mongolian/issues/49"
+ },
+ {
   "closedAt": "2024-08-15T12:36:05Z",
   "createdAt": "2018-09-24T13:43:50Z",
   "repo": "multani",
@@ -4639,6 +4667,13 @@
   "repo": "music",
   "tier": 3,
   "url": "https://github.com/notofonts/music/issues/13"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-10-10T08:46:16Z",
+  "repo": "music",
+  "tier": 3,
+  "url": "https://github.com/notofonts/music/issues/14"
  },
  {
   "closedAt": null,
@@ -6375,6 +6410,13 @@
   "repo": "tifinagh",
   "tier": 3,
   "url": "https://github.com/notofonts/tifinagh/issues/19"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-10-11T20:06:27Z",
+  "repo": "tifinagh",
+  "tier": 3,
+  "url": "https://github.com/notofonts/tifinagh/issues/21"
  },
  {
   "closedAt": null,
