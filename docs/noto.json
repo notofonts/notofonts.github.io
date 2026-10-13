@@ -11138,11 +11138,6 @@
   "gh_url": "https://notofonts.github.io/math",
   "issues": [
    {
-    "number": 109,
-    "title": "Can you make these unicode blocks compatible",
-    "url": "https://github.com/notofonts/math/issues/109"
-   },
-   {
     "number": 108,
     "title": "U+2394 \u2394 should be the same size as U+2B23 \u2b23",
     "url": "https://github.com/notofonts/math/issues/108"
@@ -11658,38 +11653,25 @@
    "Noto Music": {
     "files": {
      "full": [
-      "fonts/NotoMusic/full/otf/NotoMusic-Regular.otf",
       "fonts/NotoMusic/full/ttf/NotoMusic-Regular.ttf"
      ],
      "hinted": [
       "fonts/NotoMusic/hinted/ttf/NotoMusic-Regular.ttf"
      ],
      "unhinted": [
-      "fonts/NotoMusic/unhinted/otf/NotoMusic-Regular.otf",
-      "fonts/NotoMusic/unhinted/slim-otf/NotoMusic-Regular.otf",
       "fonts/NotoMusic/unhinted/ttf/NotoMusic-Regular.ttf"
      ]
     },
     "latest_release": {
-     "notes": "Noto Music v2.003\r\n\r\nThis release:\r\n\r\n* Fixes the height and alignment of mensural rests (#2)\r\n* Supports up to four staccato dots (#9)\r\n* Makes null notehead visible when unattached (#5)\r\n* Fixes positions of Byzantine symbols (#1)",
-     "published": "2023-06-21T06:28:11",
-     "url": "https://github.com/notofonts/music/releases/tag/NotoMusic-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Music v2.004\n\nThis release improves the spacing of the augmentation dot, and fixes some source-level issues with no user-facing impact.\n",
+     "published": "2026-10-12T07:01:16+00:00",
+     "url": "https://github.com/notofonts/music/releases/tag/NotoMusic-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "gh_url": "https://notofonts.github.io/music",
   "issues": [
-   {
-    "number": 14,
-    "title": "Hey",
-    "url": "https://github.com/notofonts/music/issues/14"
-   },
-   {
-    "number": 13,
-    "title": "Please tag a release that includes the width-axis fix (2c97b9e)",
-    "url": "https://github.com/notofonts/music/issues/13"
-   },
    {
     "number": 3,
     "title": "Incomplete coverage of ancient Greek musical notation",
@@ -12446,6 +12428,11 @@
   },
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
+   {
+    "number": 104,
+    "title": "Poor kerning/ligature shaping between YEH (U+064A) and SHEEN (U+0634) in \"\u0642\u0631\u06cc\u0634\u06cc\", and excessive spacing in \"\u0642\u0627\u0633\u0645\".",
+    "url": "https://github.com/notofonts/nastaliq/issues/104"
+   },
    {
     "number": 103,
     "title": "Initial gaf's ink extends about 0.6em past the run's advance, so a text box sized to the advance clips or breaks the word (Android, v3.007; v4.000 shows the same outcome, mechanism not separated)",
@@ -17629,11 +17616,6 @@
   },
   "gh_url": "https://notofonts.github.io/tifinagh",
   "issues": [
-   {
-    "number": 21,
-    "title": "Critical Bug: Overlapping ligatures in Noto Sans Tifinagh change \u2d4d\u2d4d (YAL-YAL) into looking like \u2d4f\u2d4f (YAN-YAN)",
-    "url": "https://github.com/notofonts/tifinagh/issues/21"
-   },
    {
     "number": 19,
     "title": "Ligature issues.",

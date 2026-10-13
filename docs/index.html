@@ -61639,14 +61639,13 @@ This release fixes the stylistic variants of digits 5 and 6 which were accidenta
 									data-target="#math .issuescard"
 								>
 									<span class="material-icons"></span>
-									Known Issues (18)
+									Known Issues (17)
 								</button>
 							</h5>
 						</div>
 						<div class="collapse issuescard">
 							<div class="card-body">
 								<ul>
-									<li>Can you make these unicode blocks compatible (<a href="https://github.com/notofonts/math/issues/109">#109</a>)</li>
 									<li>U+2394 ⎔ should be the same size as U+2B23 ⬣ (<a href="https://github.com/notofonts/math/issues/108">#108</a>)</li>
 									<li>Sync Hebrew with Noto Sans Hebrew (<a href="https://github.com/notofonts/math/issues/106">#106</a>)</li>
 									<li>It&#x27;s in need for variable weight (<a href="https://github.com/notofonts/math/issues/105">#105</a>)</li>
@@ -63821,15 +63820,13 @@ This release fixes a number of fontbakery fails.
 									data-target="#music .issuescard"
 								>
 									<span class="material-icons"></span>
-									Known Issues (3)
+									Known Issues (1)
 								</button>
 							</h5>
 						</div>
 						<div class="collapse issuescard">
 							<div class="card-body">
 								<ul>
-									<li>Hey (<a href="https://github.com/notofonts/music/issues/14">#14</a>)</li>
-									<li>Please tag a release that includes the width-axis fix (2c97b9e) (<a href="https://github.com/notofonts/music/issues/13">#13</a>)</li>
 									<li>Incomplete coverage of ancient Greek musical notation (<a href="https://github.com/notofonts/music/issues/3">#3</a>)</li>
 								</ul>
 							</div>
@@ -63853,8 +63850,8 @@ This release fixes a number of fontbakery fails.
 							<div class="card-body">
 								<h6>
 									Noto Music
-									<a href="https://github.com/notofonts/music/releases/tag/NotoMusic-v2.003"
-										>v2.003</a
+									<a href="https://github.com/notofonts/music/releases/tag/NotoMusic-v2.004"
+										>v2.004</a
 									>
 									<span class="ml-5 font-weight-normal">
 										<img data-toggle="tooltip" title="Fedora 38" src="fedora.png" width=18 height=18></img> <span class="up-to-date-false">2.001</span>
@@ -63863,14 +63860,10 @@ This release fixes a number of fontbakery fails.
 									</span>
 
 								</h6>
-								<pre>Noto Music v2.003
+								<pre>Noto Music v2.004
 
-This release:
-
-* Fixes the height and alignment of mensural rests (#2)
-* Supports up to four staccato dots (#9)
-* Makes null notehead visible when unattached (#5)
-* Fixes positions of Byzantine symbols (#1)</pre>
+This release improves the spacing of the augmentation dot, and fixes some source-level issues with no user-facing impact.
+</pre>
 								
 							</div>
 						</div>
@@ -63901,23 +63894,9 @@ This release:
 										<ul class="list-unstyled">
 											<li class="text-nowrap">
 												<a
-													href="https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io/fonts/NotoMusic/unhinted/otf/NotoMusic-Regular.otf"
-													>NotoMusic-Regular.otf</a
-												> <span class="text-nowrap">(63.3 kB)</span>
-												
-											</li>
-											<li class="text-nowrap">
-												<a
-													href="https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io/fonts/NotoMusic/unhinted/slim-otf/NotoMusic-Regular.otf"
-													>NotoMusic-Regular.otf</a
-												> <span class="text-nowrap">(63.3 kB)</span>
-												
-											</li>
-											<li class="text-nowrap">
-												<a
 													href="https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io/fonts/NotoMusic/unhinted/ttf/NotoMusic-Regular.ttf"
 													>NotoMusic-Regular.ttf</a
-												> <span class="text-nowrap">(82.3 kB)</span>
+												> <span class="text-nowrap">(80.7 kB)</span>
 												
 											</li>
 										</ul>
@@ -63930,7 +63909,7 @@ This release:
 												<a
 													href="https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io/fonts/NotoMusic/hinted/ttf/NotoMusic-Regular.ttf"
 													>NotoMusic-Regular.ttf</a
-												> <span class="text-nowrap">(82.3 kB)</span>
+												> <span class="text-nowrap">(80.7 kB)</span>
 												
 											</li>
 										</ul>
@@ -63941,17 +63920,9 @@ This release:
 										<ul class="list-unstyled">
 											<li class="text-nowrap">
 												<a
-													href="https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io/fonts/NotoMusic/full/otf/NotoMusic-Regular.otf"
-													>NotoMusic-Regular.otf</a
-												> <span class="text-nowrap">(94.2 kB)</span>
-												
-												</li>
-											</li>
-											<li class="text-nowrap">
-												<a
 													href="https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io/fonts/NotoMusic/full/ttf/NotoMusic-Regular.ttf"
 													>NotoMusic-Regular.ttf</a
-												> <span class="text-nowrap">(181.1 kB)</span>
+												> <span class="text-nowrap">(124.3 kB)</span>
 												
 												</li>
 											</li>
@@ -67471,13 +67442,14 @@ This version:
 									data-target="#nastaliq .issuescard"
 								>
 									<span class="material-icons"></span>
-									Known Issues (31)
+									Known Issues (32)
 								</button>
 							</h5>
 						</div>
 						<div class="collapse issuescard">
 							<div class="card-body">
 								<ul>
+									<li>Poor kerning/ligature shaping between YEH (U+064A) and SHEEN (U+0634) in &quot;قریشی&quot;, and excessive spacing in &quot;قاسم&quot;. (<a href="https://github.com/notofonts/nastaliq/issues/104">#104</a>)</li>
 									<li>Initial gaf&#x27;s ink extends about 0.6em past the run&#x27;s advance, so a text box sized to the advance clips or breaks the word (Android, v3.007; v4.000 shows the same outcome, mechanism not separated) (<a href="https://github.com/notofonts/nastaliq/issues/103">#103</a>)</li>
 									<li>U+0620 should use same joining properties and style as  U+06CC (<a href="https://github.com/notofonts/nastaliq/issues/102">#102</a>)</li>
 									<li>Urdu letter ک rendered wrong (<a href="https://github.com/notofonts/nastaliq/issues/101">#101</a>)</li>
@@ -95167,14 +95139,13 @@ This release:
 									data-target="#tifinagh .issuescard"
 								>
 									<span class="material-icons"></span>
-									Known Issues (4)
+									Known Issues (3)
 								</button>
 							</h5>
 						</div>
 						<div class="collapse issuescard">
 							<div class="card-body">
 								<ul>
-									<li>Critical Bug: Overlapping ligatures in Noto Sans Tifinagh change ⵍⵍ (YAL-YAL) into looking like ⵏⵏ (YAN-YAN) (<a href="https://github.com/notofonts/tifinagh/issues/21">#21</a>)</li>
 									<li>Ligature issues. (<a href="https://github.com/notofonts/tifinagh/issues/19">#19</a>)</li>
 									<li>Half-implemented variant Tifinagh glyphs at inappropriate code points (<a href="https://github.com/notofonts/tifinagh/issues/8">#8</a>)</li>
 									<li>Tifinagh: some ligatures seem erroneous (<a href="https://github.com/notofonts/tifinagh/issues/7">#7</a>)</li>

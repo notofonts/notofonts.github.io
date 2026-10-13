@@ -9422,25 +9422,23 @@
   "families": {
    "Noto Music": {
     "files": [
-     "fonts/NotoMusic/full/ttf/NotoMusic-Regular.ttf",
-     "fonts/NotoMusic/full/otf/NotoMusic-Regular.otf",
      "fonts/NotoMusic/googlefonts/ttf/NotoMusic-Regular.ttf",
-     "fonts/NotoMusic/unhinted/slim-otf/NotoMusic-Regular.otf",
-     "fonts/NotoMusic/unhinted/ttf/NotoMusic-Regular.ttf",
-     "fonts/NotoMusic/unhinted/otf/NotoMusic-Regular.otf",
-     "fonts/NotoMusic/hinted/ttf/NotoMusic-Regular.ttf"
+     "fonts/NotoMusic/hinted/ttf/NotoMusic-Regular.ttf",
+     "fonts/NotoMusic/full/ttf/NotoMusic-Regular.ttf",
+     "fonts/NotoMusic/unhinted/ttf/NotoMusic-Regular.ttf"
     ],
     "latest_release": {
-     "notes": "Noto Music v2.003\r\n\r\nThis release:\r\n\r\n* Fixes the height and alignment of mensural rests (#2)\r\n* Supports up to four staccato dots (#9)\r\n* Makes null notehead visible when unattached (#5)\r\n* Fixes positions of Byzantine symbols (#1)",
-     "published": "2023-06-21T06:28:11",
-     "url": "https://github.com/notofonts/music/releases/tag/NotoMusic-v2.003",
-     "version": "v2.003"
+     "notes": "Noto Music v2.004\n\nThis release improves the spacing of the augmentation dot, and fixes some source-level issues with no user-facing impact.\n",
+     "published": "2026-10-12T07:01:16+00:00",
+     "url": "https://github.com/notofonts/music/releases/tag/NotoMusic-v2.004",
+     "version": "v2.004"
     }
    }
   },
   "known_releases": [
    "NotoMusic-v2.002",
-   "NotoMusic-v2.003"
+   "NotoMusic-v2.003",
+   "NotoMusic-v2.004"
   ]
  },
  "myanmar": {
