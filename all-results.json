@@ -833,6 +833,13 @@
   "url": "https://github.com/notofonts/bengali/issues/39"
  },
  {
+  "closedAt": "2026-10-16T20:34:39Z",
+  "createdAt": "2026-10-16T18:58:40Z",
+  "repo": "bengali",
+  "tier": 1,
+  "url": "https://github.com/notofonts/bengali/issues/41"
+ },
+ {
   "closedAt": null,
   "createdAt": "2018-11-11T17:38:48Z",
   "repo": "bhaiksuki",
@@ -4494,7 +4501,7 @@
   "url": "https://github.com/notofonts/math/issues/108"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-10-12T06:34:40Z",
   "createdAt": "2026-10-10T09:38:55Z",
   "repo": "math",
   "tier": 3,
@@ -4613,7 +4620,7 @@
   "url": "https://github.com/notofonts/mongolian/issues/46"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-10-13T07:17:55Z",
   "createdAt": "2026-10-07T10:03:07Z",
   "repo": "mongolian",
   "tier": 3,
@@ -4662,14 +4669,14 @@
   "url": "https://github.com/notofonts/music/issues/12"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-10-12T06:57:21Z",
   "createdAt": "2026-09-29T10:51:56Z",
   "repo": "music",
   "tier": 3,
   "url": "https://github.com/notofonts/music/issues/13"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-10-12T06:41:19Z",
   "createdAt": "2026-10-10T08:46:16Z",
   "repo": "music",
   "tier": 3,
@@ -5304,6 +5311,13 @@
   "repo": "nastaliq",
   "tier": 1,
   "url": "https://github.com/notofonts/nastaliq/issues/103"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-10-12T06:34:50Z",
+  "repo": "nastaliq",
+  "tier": 1,
+  "url": "https://github.com/notofonts/nastaliq/issues/104"
  },
  {
   "closedAt": null,
@@ -6391,6 +6405,13 @@
   "url": "https://github.com/notofonts/tibetan/issues/46"
  },
  {
+  "closedAt": "2026-10-15T06:44:48Z",
+  "createdAt": "2026-10-15T05:52:14Z",
+  "repo": "tibetan",
+  "tier": 3,
+  "url": "https://github.com/notofonts/tibetan/issues/47"
+ },
+ {
   "closedAt": null,
   "createdAt": "2019-11-23T22:40:50Z",
   "repo": "tifinagh",
@@ -6412,7 +6433,7 @@
   "url": "https://github.com/notofonts/tifinagh/issues/19"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-10-12T06:33:22Z",
   "createdAt": "2026-10-11T20:06:27Z",
   "repo": "tifinagh",
   "tier": 3,
