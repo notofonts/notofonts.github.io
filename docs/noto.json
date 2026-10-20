@@ -9350,6 +9350,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 578,
+    "title": "Letters iotated yat' (\ua652) and blended yus (\ua65a) do not have proper diacritic positioning anchors",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/578"
+   },
+   {
     "number": 577,
     "title": "\"Build main TTFs\" failed",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/577"
@@ -12423,6 +12428,16 @@
   },
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
+   {
+    "number": 106,
+    "title": "Use the Farsi yeh final shape for Kashmiri yeh (fixes #102)",
+    "url": "https://github.com/notofonts/nastaliq/pull/106"
+   },
+   {
+    "number": 105,
+    "title": "Don't skip marks when checking for the Allah ligature (fixes #70)",
+    "url": "https://github.com/notofonts/nastaliq/pull/105"
+   },
    {
     "number": 104,
     "title": "Poor kerning/ligature shaping between YEH (U+064A) and SHEEN (U+0634) in \"\u0642\u0631\u06cc\u0634\u06cc\", and excessive spacing in \"\u0642\u0627\u0633\u0645\".",
