@@ -12429,11 +12429,6 @@
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
    {
-    "number": 106,
-    "title": "Use the Farsi yeh final shape for Kashmiri yeh (fixes #102)",
-    "url": "https://github.com/notofonts/nastaliq/pull/106"
-   },
-   {
     "number": 105,
     "title": "Don't skip marks when checking for the Allah ligature (fixes #70)",
     "url": "https://github.com/notofonts/nastaliq/pull/105"
@@ -12447,11 +12442,6 @@
     "number": 103,
     "title": "Initial gaf's ink extends about 0.6em past the run's advance, so a text box sized to the advance clips or breaks the word (Android, v3.007; v4.000 shows the same outcome, mechanism not separated)",
     "url": "https://github.com/notofonts/nastaliq/issues/103"
-   },
-   {
-    "number": 102,
-    "title": "U+0620 should use same joining properties and style as  U+06CC",
-    "url": "https://github.com/notofonts/nastaliq/issues/102"
    },
    {
     "number": 101,
