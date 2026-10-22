@@ -11149,13 +11149,8 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 164,
+  "issue_count": 163,
   "issues": [
-   {
-    "number": 578,
-    "title": "Letters iotated yat' (\ua652) and blended yus (\ua65a) do not have proper diacritic positioning anchors",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/578"
-   },
    {
     "number": 577,
     "title": "\"Build main TTFs\" failed",
@@ -14995,8 +14990,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 32,
+  "issue_count": 33,
   "issues": [
+   {
+    "number": 108,
+    "title": "Keep yeh dots clear of the descender after a long reh (fixes #98)",
+    "url": "https://github.com/notofonts/nastaliq/pull/108"
+   },
    {
     "number": 105,
     "title": "Don't skip marks when checking for the Allah ligature (fixes #70)",
