@@ -11149,8 +11149,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 163,
+  "issue_count": 164,
   "issues": [
+   {
+    "number": 580,
+    "title": "Strokes are misplaced on italic U+2E55..U+2E58 and U+1DF0B..U+1DF0C",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/580"
+   },
    {
     "number": 577,
     "title": "\"Build main TTFs\" failed",
