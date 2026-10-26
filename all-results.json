@@ -3969,11 +3969,32 @@
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/576"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-10-24T15:48:14Z",
   "createdAt": "2026-10-08T02:11:15Z",
   "repo": "latin-greek-cyrillic",
   "tier": 1,
   "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/577"
+ },
+ {
+  "closedAt": "2026-10-21T08:15:06Z",
+  "createdAt": "2026-10-19T03:10:57Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/578"
+ },
+ {
+  "closedAt": "2026-10-22T18:00:59Z",
+  "createdAt": "2026-10-22T14:50:20Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/579"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-10-22T15:45:34Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/580"
  },
  {
   "closedAt": null,
@@ -5299,7 +5320,7 @@
   "url": "https://github.com/notofonts/nastaliq/issues/101"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-10-20T12:25:44Z",
   "createdAt": "2026-08-15T09:28:27Z",
   "repo": "nastaliq",
   "tier": 1,

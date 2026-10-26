@@ -9,7 +9,7 @@
   "7": 3,
   "8": 8,
   "9": 6,
-  "10": 9
+  "10": 13
  },
  "open_per_repo": {
   "adlam": 4,
@@ -69,7 +69,7 @@
   "myanmar": 33,
   "nag-mundari": 1,
   "nandinagari": 6,
-  "nastaliq": 32,
+  "nastaliq": 31,
   "nko": 1,
   "nushu": 1,
   "old-hungarian": 7,
@@ -113,7 +113,7 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 295,
+  "1": 294,
   "2": 59,
   "3": 153,
   "4": 61,
@@ -129,7 +129,7 @@
   "7": 9,
   "8": 11,
   "9": 6,
-  "10": 11
+  "10": 14
  },
  "releases_per_month": {
   "1": [
@@ -502,6 +502,10 @@
    {
     "tag": "NotoSansSyriacWestern-v3.001",
     "url": "https://github.com/notofonts/syriac/releases/tag/NotoSansSyriacWestern-v3.001"
+   },
+   {
+    "tag": "v0.005",
+    "url": "https://github.com/notofonts/noto-cjk-varco/releases/tag/v0.005"
    }
   ],
   "11": [
