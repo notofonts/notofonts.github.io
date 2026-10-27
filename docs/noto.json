@@ -9350,6 +9350,11 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
+    "number": 581,
+    "title": "feat(greek): add calibrated GPOS anchors for Pontic combining marks (#547)",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/pull/581"
+   },
+   {
     "number": 580,
     "title": "Strokes are misplaced on italic U+2E55..U+2E58 and U+1DF0B..U+1DF0C",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/580"
