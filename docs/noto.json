@@ -11579,11 +11579,6 @@
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
    {
-    "number": 52,
-    "title": "Read past the gender markers whatever GDEF says",
-    "url": "https://github.com/notofonts/mongolian/pull/52"
-   },
-   {
     "number": 51,
     "title": "Regression: The glyphs for \"Mongol\" written in the Mongolian script are incorrect",
     "url": "https://github.com/notofonts/mongolian/issues/51"
