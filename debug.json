@@ -16434,8 +16434,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/oriya",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 4,
   "issues": [
+   {
+    "number": 52,
+    "title": "Improve/danda height and spacing",
+    "url": "https://github.com/notofonts/oriya/pull/52"
+   },
    {
     "number": 51,
     "title": "Letters with nukta cannot concatenate vertically with virama",
