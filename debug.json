@@ -256,13 +256,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/anatolian-hieroglyphs",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 4,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/anatolian-hieroglyphs/pull/4"
-   },
    {
     "number": 2,
     "title": "When vertical, gaps between characters are too wide",
@@ -1465,13 +1460,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/armenian",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 2,
   "issues": [
-   {
-    "number": 17,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/armenian/pull/17"
-   },
    {
     "number": 16,
     "title": "Superscript vowels for dialectological notation",
@@ -1541,14 +1531,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/avestan",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 3,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/avestan/pull/3"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/avestan",
   "tier": 5,
   "title": "Noto Avestan"
@@ -1659,13 +1643,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/balinese",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 4,
   "issues": [
-   {
-    "number": 44,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/balinese/pull/44"
-   },
    {
     "number": 43,
     "title": "Add new Balinese characters",
@@ -1838,14 +1817,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/bassa-vah",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 4,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/bassa-vah/pull/4"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/bassa-vah",
   "tier": 3,
   "title": "Noto Bassa Vah"
@@ -1904,13 +1877,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/batak",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 4,
   "issues": [
-   {
-    "number": 16,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/batak/pull/16"
-   },
    {
     "number": 13,
     "title": "Position of ee\u1be9 1BE9 on Batak letter a 1BC0",
@@ -2376,13 +2344,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/bengali",
   "has_releases": true,
-  "issue_count": 11,
+  "issue_count": 10,
   "issues": [
-   {
-    "number": 42,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/bengali/pull/42"
-   },
    {
     "number": 40,
     "title": "Use number values for per-master abvm code",
@@ -2573,13 +2536,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/brahmi",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 4,
   "issues": [
-   {
-    "number": 16,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/brahmi/pull/16"
-   },
    {
     "number": 15,
     "title": "Anusvara vs Candrabindu",
@@ -2659,13 +2617,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/buginese",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 3,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/buginese/pull/3"
-   },
    {
     "number": 2,
     "title": "Request update for NotoSansBuginese.glyphs",
@@ -2730,14 +2683,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/buhid",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 3,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/buhid/pull/3"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/buhid",
   "tier": 3,
   "title": "Noto Buhid"
@@ -2931,14 +2878,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/carian",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 2,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/carian/pull/2"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/carian",
   "tier": 5,
   "title": "Noto Carian"
@@ -2992,14 +2933,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/caucasian-albanian",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 6,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/caucasian-albanian/pull/6"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/caucasian-albanian",
   "tier": 5,
   "title": "Noto Caucasian Albanian"
@@ -3053,13 +2988,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/chakma",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 2,
   "issues": [
-   {
-    "number": 17,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/chakma/pull/17"
-   },
    {
     "number": 16,
     "title": "Update Noto Sans Chakma Font in Android 12.0 to latest Version.",
@@ -3173,14 +3103,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/cham",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 13,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/cham/pull/13"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/cham",
   "tier": 3,
   "title": "Noto Cham"
@@ -3273,14 +3197,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/cherokee",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 8,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/cherokee/pull/8"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/cherokee",
   "tier": 3,
   "title": "Noto Cherokee"
@@ -3390,13 +3308,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/coptic",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 4,
   "issues": [
-   {
-    "number": 19,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/coptic/pull/19"
-   },
    {
     "number": 18,
     "title": "Coptic should Support the Combining Greek Ypogegrammeni (U+0345)",
@@ -3543,14 +3456,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/cypriot",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 1,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/cypriot/pull/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/cypriot",
   "tier": 5,
   "title": "Noto Cypriot"
@@ -3644,14 +3551,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/deseret",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 4,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/deseret/pull/4"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/deseret",
   "tier": 4,
   "title": "Noto Deseret"
@@ -4096,13 +3997,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/devanagari",
   "has_releases": true,
-  "issue_count": 14,
+  "issue_count": 13,
   "issues": [
-   {
-    "number": 73,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/devanagari/pull/73"
-   },
    {
     "number": 72,
     "title": "Use number values for per-master UI positioning rules",
@@ -4212,13 +4108,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/dives-akuru",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 8,
   "issues": [
-   {
-    "number": 24,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/dives-akuru/pull/24"
-   },
    {
     "number": 22,
     "title": "Reserved code point U+11939 should not have a glyph",
@@ -4308,13 +4199,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/dogra",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 2,
   "issues": [
-   {
-    "number": 15,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/dogra/pull/15"
-   },
    {
     "number": 14,
     "title": "Addition of digits",
@@ -4457,13 +4343,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 9,
   "issues": [
-   {
-    "number": 23,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/egyptian-hieroglyphs/pull/23"
-   },
    {
     "number": 22,
     "title": "Rotation with U+FE03 does not work",
@@ -4614,14 +4495,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/elymaic",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 5,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/elymaic/pull/5"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/elymaic",
   "tier": 5,
   "title": "Noto Elymaic"
@@ -5066,13 +4941,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/ethiopic",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 3,
   "issues": [
-   {
-    "number": 17,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/ethiopic/pull/17"
-   },
    {
     "number": 16,
     "title": "Deemphasize 3rd-Order Diacritic Serifs (Relative to Noto Serif Ethiopic)",
@@ -5675,14 +5545,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/gothic",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 4,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/gothic/pull/4"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/gothic",
   "tier": 4,
   "title": "Noto Gothic"
@@ -5764,14 +5628,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/grantha",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 24,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/grantha/pull/24"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/grantha",
   "tier": 4,
   "title": "Noto Grantha"
@@ -6356,13 +6214,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/gunjala-gondi",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 7,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/gunjala-gondi/pull/7"
-   },
    {
     "number": 6,
     "title": "Aberant spacing of vowel matras and anusvara",
@@ -6858,13 +6711,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/gurmukhi",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 7,
   "issues": [
-   {
-    "number": 31,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/gurmukhi/pull/31"
-   },
    {
     "number": 30,
     "title": "Conjunct + Imatra reordering different between Sans and Serif",
@@ -6973,14 +6821,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/hanifi-rohingya",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 4,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/hanifi-rohingya/pull/4"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/hanifi-rohingya",
   "tier": 3,
   "title": "Noto Hanifi Rohingya"
@@ -7101,14 +6943,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/hatran",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 1,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/hatran/pull/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/hatran",
   "tier": 5,
   "title": "Noto Hatran"
@@ -7836,14 +7672,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/indic-siyaq-numbers",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 1,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/indic-siyaq-numbers/pull/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/indic-siyaq-numbers",
   "tier": 5,
   "title": "Noto Indic Siyaq Numbers"
@@ -7902,13 +7732,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/inscriptional-pahlavi",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 4,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/inscriptional-pahlavi/pull/4"
-   },
    {
     "number": 3,
     "title": "Unnecessary spacing between beth and gimel or waw",
@@ -7973,13 +7798,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/inscriptional-parthian",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 3,
   "issues": [
-   {
-    "number": 9,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/inscriptional-parthian/pull/9"
-   },
    {
     "number": 8,
     "title": "U+0323 COMBINING DOT BELOW is missing",
@@ -8048,13 +7868,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/javanese",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 5,
   "issues": [
-   {
-    "number": 40,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/javanese/pull/40"
-   },
    {
     "number": 39,
     "title": "Will the Javanese font have a serif version in the future?",
@@ -8139,13 +7954,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/kaithi",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 3,
   "issues": [
-   {
-    "number": 30,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/kaithi/pull/30"
-   },
    {
     "number": 25,
     "title": "Reph overlaps vowel signs U+110B5..U+110B8",
@@ -8662,13 +8472,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/kannada",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 8,
   "issues": [
-   {
-    "number": 63,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/kannada/pull/63"
-   },
    {
     "number": 62,
     "title": "Vocalic L/LL glyphs",
@@ -8860,14 +8665,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/kayah-li",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 4,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/kayah-li/pull/4"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/kayah-li",
   "tier": 3,
   "title": "Noto Kayah Li"
@@ -8926,13 +8725,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/kharoshthi",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 13,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/kharoshthi/pull/13"
-   },
    {
     "number": 1,
     "title": "Missing Kharoshthi conjuncts",
@@ -9648,13 +9442,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/khudawadi",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 5,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/khudawadi/pull/5"
-   },
    {
     "number": 2,
     "title": "Inconsistent placement of U+112DF KHUDAWADI SIGN ANUSVARA",
@@ -12246,14 +12035,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/lepcha",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 7,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/lepcha/pull/7"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/lepcha",
   "tier": 3,
   "title": "Noto Lepcha"
@@ -12312,13 +12095,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/limbu",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 2,
   "issues": [
-   {
-    "number": 9,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/limbu/pull/9"
-   },
    {
     "number": 7,
     "title": "[\u190c\u1922] U+190C with U+1922",
@@ -12384,14 +12162,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/linear-a",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 2,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/linear-a/pull/2"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/linear-a",
   "tier": 4,
   "title": "Noto Linear A"
@@ -12590,14 +12362,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/lycian",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 1,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/lycian/pull/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/lycian",
   "tier": 5,
   "title": "Noto Lycian"
@@ -12656,14 +12422,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/lydian",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 5,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/lydian/pull/5"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/lydian",
   "tier": 4,
   "title": "Noto Lydian"
@@ -12717,14 +12477,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mahajani",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 3,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/mahajani/pull/3"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/mahajani",
   "tier": 4,
   "title": "Noto Mahajani"
@@ -12768,14 +12522,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/makasar",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 4,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/makasar/pull/4"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/makasar",
   "tier": 4,
   "title": "Noto Makasar"
@@ -13358,13 +13106,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mandaic",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 2,
   "issues": [
-   {
-    "number": 7,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/mandaic/pull/7"
-   },
    {
     "number": 6,
     "title": "Medial and final U+0848 and U+0849 are contextualized inconsistently after U+0848",
@@ -13429,13 +13172,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/manichaean",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 3,
   "issues": [
-   {
-    "number": 11,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/manichaean/pull/11"
-   },
    {
     "number": 8,
     "title": "U+10ACF MANICHAEAN LETTER YODH has two shapes: curl and dot",
@@ -13505,14 +13243,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/marchen",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 5,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/marchen/pull/5"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/marchen",
   "tier": 5,
   "title": "Noto Marchen"
@@ -13556,13 +13288,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/masaram-gondi",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 5,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/masaram-gondi/pull/5"
-   },
    {
     "number": 4,
     "title": "U+11D42 MASARAM GONDI SIGN NUKTA blocks half forms",
@@ -13612,13 +13339,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/math",
   "has_releases": true,
-  "issue_count": 18,
+  "issue_count": 17,
   "issues": [
-   {
-    "number": 110,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/math/pull/110"
-   },
    {
     "number": 108,
     "title": "U+2394 \u2394 should be the same size as U+2B23 \u2b23",
@@ -13748,14 +13470,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mayan-numerals",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 1,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/mayan-numerals/pull/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/mayan-numerals",
   "tier": 5,
   "title": "Noto Mayan Numerals"
@@ -13823,14 +13539,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/medefaidrin",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 3,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/medefaidrin/pull/3"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/medefaidrin",
   "tier": 3,
   "title": "Noto Medefaidrin"
@@ -13933,13 +13643,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/meetei-mayek",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 8,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/meetei-mayek/pull/8"
-   },
    {
     "number": 1,
     "title": "No Meetei Mayek conjuncts",
@@ -13999,14 +13704,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mende-kikakui",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 2,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/mende-kikakui/pull/2"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/mende-kikakui",
   "tier": 3,
   "title": "Noto Mende Kikakui"
@@ -14060,14 +13759,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/meroitic",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 3,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/meroitic/pull/3"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/meroitic",
   "tier": 5,
   "title": "Noto Meroitic"
@@ -14121,13 +13814,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/miao",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 9,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/miao/pull/9"
-   },
    {
     "number": 8,
     "title": "Wrong Aspiration Shape & Placement",
@@ -14193,13 +13881,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/modi",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 7,
   "issues": [
-   {
-    "number": 16,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/modi/pull/16"
-   },
    {
     "number": 15,
     "title": "MODI VOWEL SIGN II and MODI VOWEL SIGN I obscures Repha",
@@ -14292,13 +13975,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mongolian",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 2,
   "issues": [
-   {
-    "number": 53,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/mongolian/pull/53"
-   },
    {
     "number": 51,
     "title": "Regression: The glyphs for \"Mongol\" written in the Mongolian script are incorrect",
@@ -14363,14 +14041,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mro",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 1,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/mro/pull/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/mro",
   "tier": 3,
   "title": "Noto Mro"
@@ -14424,14 +14096,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/multani",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 7,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/multani/pull/7"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/multani",
   "tier": 3,
   "title": "Noto Multani"
@@ -14930,13 +14596,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/myanmar",
   "has_releases": true,
-  "issue_count": 34,
+  "issue_count": 33,
   "issues": [
-   {
-    "number": 70,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/myanmar/pull/70"
-   },
    {
     "number": 69,
     "title": "Incorrect Ligature for \"\u1e63\u1e6d\" (\u1051\u100b) Consonant Cluster in Noto Sans Myanmar",
@@ -15198,13 +14859,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nag-mundari",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 7,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/nag-mundari/pull/7"
-   },
    {
     "number": 6,
     "title": "U+1E4EC and U+1E4ED are misplaced on U+25CC DOTTED CIRCLE",
@@ -15349,13 +15005,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nastaliq",
   "has_releases": true,
-  "issue_count": 34,
+  "issue_count": 33,
   "issues": [
-   {
-    "number": 109,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/nastaliq/pull/109"
-   },
    {
     "number": 108,
     "title": "Keep yeh dots clear of the descender after a long reh (fixes #98)",
@@ -15745,13 +15396,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/nko",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 13,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/nko/pull/13"
-   },
    {
     "number": 12,
     "title": "Italic variants of Noto Sans N'Ko and N'Ko Unjoined are needed",
@@ -15848,13 +15494,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/nushu",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 10,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/nushu/pull/10"
-   },
    {
     "number": 9,
     "title": "Traditional Nushu blank glyphs",
@@ -15911,14 +15552,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/nyiakeng-puachue-hmong",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 4,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/nyiakeng-puachue-hmong/pull/4"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/nyiakeng-puachue-hmong",
   "tier": 3,
   "title": "Noto Nyiakeng Puachue Hmong"
@@ -15972,14 +15607,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/ogham",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 1,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/ogham/pull/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/ogham",
   "tier": 4,
   "title": "Noto Ogham"
@@ -16057,14 +15686,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/ol-chiki",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 3,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/ol-chiki/pull/3"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/ol-chiki",
   "tier": 3,
   "title": "Noto Ol Chiki"
@@ -16119,13 +15742,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/old-hungarian",
   "has_releases": true,
-  "issue_count": 9,
+  "issue_count": 8,
   "issues": [
-   {
-    "number": 28,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/old-hungarian/pull/28"
-   },
    {
     "number": 27,
     "title": "Removed Old Hungarian \"ij\" from dligs",
@@ -16176,13 +15794,8 @@
   "families_count": 0,
   "gh_url": "https://notofonts.github.io/old-hungarian-ui",
   "has_releases": false,
-  "issue_count": 3,
+  "issue_count": 2,
   "issues": [
-   {
-    "number": 12,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/old-hungarian-ui/pull/12"
-   },
    {
     "number": 11,
     "title": "Deprecate this repo?",
@@ -16252,13 +15865,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/old-italic",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 4,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/old-italic/pull/4"
-   },
    {
     "number": 1,
     "title": "Noto Sans Old Italic should support Old Italic variant forms",
@@ -16373,14 +15981,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/old-permic",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 1,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/old-permic/pull/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/old-permic",
   "tier": 5,
   "title": "Noto Old Permic"
@@ -16439,14 +16041,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/old-persian",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 3,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/old-persian/pull/3"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/old-persian",
   "tier": 5,
   "title": "Noto Old Persian"
@@ -16490,14 +16086,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/old-sogdian",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 4,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/old-sogdian/pull/4"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/old-sogdian",
   "tier": 5,
   "title": "Noto Old Sogdian"
@@ -16616,13 +16206,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/old-turkic",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 8,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/old-turkic/pull/8"
-   },
    {
     "number": 1,
     "title": "Additional weights for Old Turkic",
@@ -16672,13 +16257,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/old-uyghur",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 12,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/old-uyghur/pull/12"
-   },
    {
     "number": 9,
     "title": "Initial and medial <mem, lesh> could be improved",
@@ -16935,14 +16515,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/osage",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 2,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/osage/pull/2"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/osage",
   "tier": 3,
   "title": "Noto Osage"
@@ -17001,13 +16575,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/osmanya",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 2,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/osmanya/pull/2"
-   },
    {
     "number": 1,
     "title": "New weights for Noto Osmanya",
@@ -17046,14 +16615,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/ottoman-siyaq-numbers",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 5,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/ottoman-siyaq-numbers/pull/5"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/ottoman-siyaq-numbers",
   "tier": 5,
   "title": "Noto Serif Ottoman Siyaq Numbers"
@@ -17107,14 +16670,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/pahawh-hmong",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 5,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/pahawh-hmong/pull/5"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/pahawh-hmong",
   "tier": 3,
   "title": "Noto Pahawh Hmong"
@@ -17168,14 +16725,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/palmyrene",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 1,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/palmyrene/pull/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/palmyrene",
   "tier": 5,
   "title": "Noto Palmyrene"
@@ -17229,13 +16780,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/pau-cin-hau",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 2,
   "issues": [
-   {
-    "number": 3,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/pau-cin-hau/pull/3"
-   },
    {
     "number": 2,
     "title": "Proposal for Typographical Refinement of Noto Sans Pau Cin Hau to Match Native Community Usage (Zolai Style)",
@@ -17305,13 +16851,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/phags-pa",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 11,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/phags-pa/pull/11"
-   },
    {
     "number": 9,
     "title": "U+FE00 VARIATION SELECTOR-1 is ignored after a transitively mirrored glyph",
@@ -17376,14 +16917,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/phoenician",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 2,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/phoenician/pull/2"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/phoenician",
   "tier": 4,
   "title": "Noto Phoenician"
@@ -17437,13 +16972,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/psalter-pahlavi",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 5,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/psalter-pahlavi/pull/5"
-   },
    {
     "number": 1,
     "title": "Incorrect shaping of Psalter Pahlavi numbers",
@@ -17508,13 +17038,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/rejang",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 7,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/rejang/pull/7"
-   },
    {
     "number": 1,
     "title": "Overlapping marks in Rejang",
@@ -17574,13 +17099,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/runic",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 5,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/runic/pull/5"
-   },
    {
     "number": 3,
     "title": "Should `\u16eb` U+16EB Runic Single Punctuation and `\u16ec` U+16EC Runic Multiple Punctuation be the same size?",
@@ -17705,13 +17225,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/saurashtra",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 5,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/saurashtra/pull/5"
-   },
    {
     "number": 1,
     "title": "Missing Saurashtra conjuncts",
@@ -17771,13 +17286,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/sharada",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 5,
   "issues": [
-   {
-    "number": 17,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/sharada/pull/17"
-   },
    {
     "number": 16,
     "title": "Support Sharada Supplement block",
@@ -17857,14 +17367,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/shavian",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 1,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/shavian/pull/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/shavian",
   "tier": 4,
   "title": "Noto Shavian"
@@ -17919,13 +17423,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/siddham",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 4,
   "issues": [
-   {
-    "number": 26,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/siddham/pull/26"
-   },
    {
     "number": 25,
     "title": "-AI, -AU, and R-GH incorrectly shaped",
@@ -17979,13 +17478,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/sign-writing",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 5,
   "issues": [
-   {
-    "number": 13,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/sign-writing/pull/13"
-   },
    {
     "number": 12,
     "title": "1DA86 \ud836\ude86 SIGNWRITING LOCATION LIMBS DIGITS rotation variants",
@@ -18336,13 +17830,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/sinhala",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 11,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/sinhala/pull/11"
-   },
    {
     "number": 10,
     "title": "Digit Six not loopy enough",
@@ -18392,13 +17881,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/sogdian",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 4,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/sogdian/pull/4"
-   },
    {
     "number": 3,
     "title": "No stylistic variants of Sogdian contextual forms",
@@ -18477,14 +17961,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/sora-sompeng",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 1,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/sora-sompeng/pull/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/sora-sompeng",
   "tier": 3,
   "title": "Noto Sora Sompeng"
@@ -18533,13 +18011,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/soyombo",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 4,
   "issues": [
-   {
-    "number": 7,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/soyombo/pull/7"
-   },
    {
     "number": 6,
     "title": "Dotted circle disappears before most combining marks",
@@ -18638,13 +18111,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/sundanese",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 4,
   "issues": [
-   {
-    "number": 12,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/sundanese/pull/12"
-   },
    {
     "number": 11,
     "title": "The small tail in U+1B86 should not be round",
@@ -18758,13 +18226,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/syloti-nagri",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 5,
   "issues": [
-   {
-    "number": 11,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/syloti-nagri/pull/11"
-   },
    {
     "number": 5,
     "title": "Syloti is poorly hinted in W10/GDI",
@@ -18916,13 +18379,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/symbols",
   "has_releases": true,
-  "issue_count": 20,
+  "issue_count": 19,
   "issues": [
-   {
-    "number": 94,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/symbols/pull/94"
-   },
    {
     "number": 93,
     "title": "Add Block Elements and Box Drawing to Noto Sans Symbols 2",
@@ -19190,13 +18648,8 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/syriac",
   "has_releases": true,
-  "issue_count": 10,
+  "issue_count": 9,
   "issues": [
-   {
-    "number": 31,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/syriac/pull/31"
-   },
    {
     "number": 30,
     "title": "SAM (U+070F) breaks with commonly used diacritics",
@@ -19302,13 +18755,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tagalog",
   "has_releases": true,
-  "issue_count": 3,
+  "issue_count": 2,
   "issues": [
-   {
-    "number": 10,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/tagalog/pull/10"
-   },
    {
     "number": 9,
     "title": "Kudlit Rendering Issue in MS PowerPoint 2016",
@@ -19378,14 +18826,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tagbanwa",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 1,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/tagbanwa/pull/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/tagbanwa",
   "tier": 3,
   "title": "Noto Tagbanwa"
@@ -19444,14 +18886,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tai-le",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 4,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/tai-le/pull/4"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/tai-le",
   "tier": 3,
   "title": "Noto Tai Le"
@@ -20588,13 +20024,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tangsa",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 10,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/tangsa/pull/10"
-   },
    {
     "number": 7,
     "title": "Kerning is still mixed up",
@@ -20644,13 +20075,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tangut",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 5,
   "issues": [
-   {
-    "number": 12,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/tangut/pull/12"
-   },
    {
     "number": 11,
     "title": "Incorrect glyph for Tangut ideograph \u201c\ud81e\udee1\u201d (U+17AE1) - missing 1 stroke",
@@ -21167,13 +20593,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/telugu",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 4,
   "issues": [
-   {
-    "number": 26,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/telugu/pull/26"
-   },
    {
     "number": 25,
     "title": "Incorrect rendering with Nukta",
@@ -21256,14 +20677,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/test",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 3,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/test/pull/3"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/test",
   "tier": 5,
   "title": "Noto Test (ONLY FOR TESTING)"
@@ -21366,13 +20781,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/thaana",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 4,
   "issues": [
-   {
-    "number": 9,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/thaana/pull/9"
-   },
    {
     "number": 8,
     "title": "[Request] Add Rufiyaa Sign (\u20c2, U+20C2) to Noto Sans Thaana",
@@ -22038,13 +21448,8 @@
   "families_count": 3,
   "gh_url": "https://notofonts.github.io/thai",
   "has_releases": true,
-  "issue_count": 7,
+  "issue_count": 6,
   "issues": [
-   {
-    "number": 33,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/thai/pull/33"
-   },
    {
     "number": 32,
     "title": "The Latin tilde (accent mark) is misaligned.",
@@ -22168,13 +21573,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tibetan",
   "has_releases": true,
-  "issue_count": 6,
+  "issue_count": 5,
   "issues": [
-   {
-    "number": 48,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/tibetan/pull/48"
-   },
    {
     "number": 46,
     "title": "Misaligned  0xFC6 symbol (tibetan symbol padma gdan)",
@@ -22392,13 +21792,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/tirhuta",
   "has_releases": true,
-  "issue_count": 11,
+  "issue_count": 10,
   "issues": [
-   {
-    "number": 16,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/tirhuta/pull/16"
-   },
    {
     "number": 15,
     "title": "U+114C3 TIRHUTA SIGN NUKTA should block 'rphf'",
@@ -22512,14 +21907,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/toto",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 8,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/toto/pull/8"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/toto",
   "tier": 3,
   "title": "Noto Toto"
@@ -22578,14 +21967,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/ugaritic",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 1,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/ugaritic/pull/1"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/ugaritic",
   "tier": 5,
   "title": "Noto Ugaritic"
@@ -22644,13 +22027,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/vai",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 1,
   "issues": [
-   {
-    "number": 2,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/vai/pull/2"
-   },
    {
     "number": 1,
     "title": "New weights",
@@ -22771,14 +22149,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/vithkuqi",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 5,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/vithkuqi/pull/5"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/vithkuqi",
   "tier": 4,
   "title": "Noto Vithkuqi"
@@ -22832,14 +22204,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/wancho",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 3,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/wancho/pull/3"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/wancho",
   "tier": 3,
   "title": "Noto Wancho"
@@ -22893,14 +22259,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/warang-citi",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 4,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/warang-citi/pull/4"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/warang-citi",
   "tier": 3,
   "title": "Noto Warang Citi"
@@ -22968,14 +22328,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/yezidi",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 4,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/yezidi/pull/4"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/yezidi",
   "tier": 4,
   "title": "Noto Yezidi"
@@ -23034,13 +22388,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/yi",
   "has_releases": true,
-  "issue_count": 4,
+  "issue_count": 3,
   "issues": [
-   {
-    "number": 6,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/yi/pull/6"
-   },
    {
     "number": 5,
     "title": "Fix glyph source contours for U+A29A and U+A3E0 in Noto Sans Yi",
@@ -23101,14 +22450,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/zanabazar-square",
   "has_releases": true,
-  "issue_count": 1,
-  "issues": [
-   {
-    "number": 13,
-    "title": "Trigger internal mirror sync [skip ci]",
-    "url": "https://github.com/notofonts/zanabazar-square/pull/13"
-   }
-  ],
+  "issue_count": 0,
+  "issues": [],
   "repo_url": "https://www.github.com/notofonts/zanabazar-square",
   "tier": 3,
   "title": "Noto Zanabazar Square"
