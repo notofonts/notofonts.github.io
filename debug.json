@@ -17478,8 +17478,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/sign-writing",
   "has_releases": true,
-  "issue_count": 5,
+  "issue_count": 6,
   "issues": [
+   {
+    "number": 15,
+    "title": "How can a writer choose which eye has a single-eye gaze?",
+    "url": "https://github.com/notofonts/sign-writing/issues/15"
+   },
    {
     "number": 12,
     "title": "1DA86 \ud836\ude86 SIGNWRITING LOCATION LIMBS DIGITS rotation variants",
