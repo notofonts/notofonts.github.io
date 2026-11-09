@@ -3998,6 +3998,13 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-10-31T23:41:47Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/582"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -4646,6 +4653,13 @@
   "repo": "mongolian",
   "tier": 3,
   "url": "https://github.com/notofonts/mongolian/issues/49"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-10-27T16:47:32Z",
+  "repo": "mongolian",
+  "tier": 3,
+  "url": "https://github.com/notofonts/mongolian/issues/51"
  },
  {
   "closedAt": "2024-08-15T12:36:05Z",
@@ -5663,6 +5677,13 @@
   "url": "https://github.com/notofonts/runic/issues/3"
  },
  {
+  "closedAt": "2026-10-27T13:59:32Z",
+  "createdAt": "2026-10-27T13:55:42Z",
+  "repo": "runic",
+  "tier": 4,
+  "url": "https://github.com/notofonts/runic/issues/4"
+ },
+ {
   "closedAt": null,
   "createdAt": "2019-04-28T16:31:59Z",
   "repo": "saurashtra",
@@ -5766,6 +5787,13 @@
   "repo": "sign-writing",
   "tier": 3,
   "url": "https://github.com/notofonts/sign-writing/issues/12"
+ },
+ {
+  "closedAt": "2026-11-05T10:32:49Z",
+  "createdAt": "2026-11-04T22:11:28Z",
+  "repo": "sign-writing",
+  "tier": 3,
+  "url": "https://github.com/notofonts/sign-writing/issues/15"
  },
  {
   "closedAt": "2025-10-14T15:25:42Z",
