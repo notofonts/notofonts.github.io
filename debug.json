@@ -15737,13 +15737,8 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/old-hungarian",
   "has_releases": true,
-  "issue_count": 8,
+  "issue_count": 7,
   "issues": [
-   {
-    "number": 27,
-    "title": "Removed Old Hungarian \"ij\" from dligs",
-    "url": "https://github.com/notofonts/old-hungarian/pull/27"
-   },
    {
     "number": 25,
     "title": "Must remove small \"ij\" ligature from dligs section. It's reserved for \"y\"",
