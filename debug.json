@@ -878,8 +878,13 @@
   "families_count": 5,
   "gh_url": "https://notofonts.github.io/arabic",
   "has_releases": true,
-  "issue_count": 26,
+  "issue_count": 27,
   "issues": [
+   {
+    "number": 298,
+    "title": "Noto Naskh Arabic \u2013 Regular Font Weight on Mobile Devices",
+    "url": "https://github.com/notofonts/arabic/issues/298"
+   },
    {
     "number": 297,
     "title": "Noto Sans Arabic: Incorrect positioning, excessive offsets, and overlaps in Quranic combining marks",
@@ -11154,8 +11159,13 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 163,
+  "issue_count": 164,
   "issues": [
+   {
+    "number": 583,
+    "title": "Github Actions STILL not building Noto Serif Unhinted Variable",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/583"
+   },
    {
     "number": 582,
     "title": "Small Caps Figures",
