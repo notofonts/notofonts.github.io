@@ -10,13 +10,13 @@
   "8": 8,
   "9": 6,
   "10": 14,
-  "11": 1
+  "11": 2
  },
  "open_per_repo": {
   "adlam": 4,
   "ahom": 6,
   "anatolian-hieroglyphs": 1,
-  "arabic": 25,
+  "arabic": 27,
   "armenian": 2,
   "balinese": 4,
   "batak": 4,
@@ -114,7 +114,7 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 295,
+  "1": 297,
   "2": 59,
   "3": 154,
   "4": 61,
@@ -131,7 +131,7 @@
   "8": 11,
   "9": 6,
   "10": 16,
-  "11": 1
+  "11": 4
  },
  "releases_per_month": {
   "1": [
@@ -522,6 +522,14 @@
    {
     "tag": "NotoSansRejang-v2.003",
     "url": "https://github.com/notofonts/rejang/releases/tag/NotoSansRejang-v2.003"
+   },
+   {
+    "tag": "NotoSerifOlOnal-v1.000",
+    "url": "https://github.com/notofonts/ol-onal/releases/tag/NotoSerifOlOnal-v1.000"
+   },
+   {
+    "tag": "NotoSansGurungKhema-v1.000",
+    "url": "https://github.com/notofonts/gurung-khema/releases/tag/NotoSansGurungKhema-v1.000"
    }
   ],
   "12": [
