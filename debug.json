@@ -11159,8 +11159,18 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 164,
+  "issue_count": 166,
   "issues": [
+   {
+    "number": 585,
+    "title": "Noto Serif Mono",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/585"
+   },
+   {
+    "number": 584,
+    "title": "Underscore and lowercase j overlap",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/584"
+   },
    {
     "number": 583,
     "title": "Github Actions STILL not building Noto Serif Unhinted Variable",
@@ -13980,8 +13990,13 @@
   "families_count": 1,
   "gh_url": "https://notofonts.github.io/mongolian",
   "has_releases": true,
-  "issue_count": 2,
+  "issue_count": 3,
   "issues": [
+   {
+    "number": 56,
+    "title": "Regression: Noto Sans Mongolian 3.100+ Google Fonts builds render Mongolian letter shapes incorrectly",
+    "url": "https://github.com/notofonts/mongolian/issues/56"
+   },
    {
     "number": 51,
     "title": "Regression: The glyphs for \"Mongol\" written in the Mongolian script are incorrect",
