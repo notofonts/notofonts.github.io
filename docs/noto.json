@@ -11599,6 +11599,11 @@
   "gh_url": "https://notofonts.github.io/mongolian",
   "issues": [
    {
+    "number": 57,
+    "title": "Noto Sans Mongolian 3.103 hinted \u2014 Mongolian text appears left of center in vertical mixed-script editing",
+    "url": "https://github.com/notofonts/mongolian/issues/57"
+   },
+   {
     "number": 56,
     "title": "Regression: Noto Sans Mongolian 3.100+ Google Fonts builds render Mongolian letter shapes incorrectly",
     "url": "https://github.com/notofonts/mongolian/issues/56"
