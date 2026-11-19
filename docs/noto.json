@@ -4505,7 +4505,13 @@
    }
   },
   "gh_url": "https://notofonts.github.io/grantha",
-  "issues": [],
+  "issues": [
+   {
+    "number": 26,
+    "title": "Serif Grantha: extra gap after the vocalic R / RR vowel sign (AddSpaceBackToSpacingCombining doubles the advance)",
+    "url": "https://github.com/notofonts/grantha/issues/26"
+   }
+  ],
   "repo_url": "https://www.github.com/notofonts/grantha",
   "tier": 4,
   "title": "Noto Grantha"
@@ -9359,6 +9365,11 @@
   },
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
+   {
+    "number": 586,
+    "title": "Add Noto Squad OFL",
+    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/586"
+   },
    {
     "number": 585,
     "title": "Noto Serif Mono",
