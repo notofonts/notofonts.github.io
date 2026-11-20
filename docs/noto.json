@@ -14402,6 +14402,11 @@
   "gh_url": "https://notofonts.github.io/sinhala",
   "issues": [
    {
+    "number": 13,
+    "title": "Noto Sans Sinhala: harmonize and check outlines",
+    "url": "https://github.com/notofonts/sinhala/pull/13"
+   },
+   {
     "number": 10,
     "title": "Digit Six not loopy enough",
     "url": "https://github.com/notofonts/sinhala/issues/10"

@@ -17861,8 +17861,13 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/sinhala",
   "has_releases": true,
-  "issue_count": 1,
+  "issue_count": 2,
   "issues": [
+   {
+    "number": 13,
+    "title": "Noto Sans Sinhala: harmonize and check outlines",
+    "url": "https://github.com/notofonts/sinhala/pull/13"
+   },
    {
     "number": 10,
     "title": "Digit Six not loopy enough",
