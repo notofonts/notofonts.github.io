@@ -3428,11 +3428,6 @@
   "gh_url": "https://notofonts.github.io/egyptian-hieroglyphs",
   "issues": [
    {
-    "number": 22,
-    "title": "Rotation with U+FE03 does not work",
-    "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/22"
-   },
-   {
     "number": 21,
     "title": "Let\u2019s invent some distinct beard for foreigners?",
     "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/21"
@@ -12474,6 +12469,11 @@
   },
   "gh_url": "https://notofonts.github.io/nastaliq",
   "issues": [
+   {
+    "number": 111,
+    "title": "Raise winAscent to 2850 in the Bold master and static instances (fixes #100)",
+    "url": "https://github.com/notofonts/nastaliq/pull/111"
+   },
    {
     "number": 108,
     "title": "Keep yeh dots clear of the descender after a long reh (fixes #98)",
