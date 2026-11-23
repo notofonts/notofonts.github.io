@@ -11165,13 +11165,8 @@
   "families_count": 4,
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "has_releases": true,
-  "issue_count": 167,
+  "issue_count": 166,
   "issues": [
-   {
-    "number": 586,
-    "title": "Add Noto Squad OFL",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/586"
-   },
    {
     "number": 585,
     "title": "Noto Serif Mono",

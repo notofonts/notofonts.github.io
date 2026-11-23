@@ -9366,11 +9366,6 @@
   "gh_url": "https://notofonts.github.io/latin-greek-cyrillic",
   "issues": [
    {
-    "number": 586,
-    "title": "Add Noto Squad OFL",
-    "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/586"
-   },
-   {
     "number": 585,
     "title": "Noto Serif Mono",
     "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/585"
