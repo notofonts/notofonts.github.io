@@ -1337,6 +1337,13 @@
   "url": "https://github.com/notofonts/devanagari/issues/71"
  },
  {
+  "closedAt": "2026-11-23T01:23:38Z",
+  "createdAt": "2026-11-21T17:00:47Z",
+  "repo": "devanagari",
+  "tier": 1,
+  "url": "https://github.com/notofonts/devanagari/issues/75"
+ },
+ {
   "closedAt": null,
   "createdAt": "2022-04-22T19:51:54Z",
   "repo": "dives-akuru",
@@ -1568,7 +1575,7 @@
   "url": "https://github.com/notofonts/egyptian-hieroglyphs/issues/21"
  },
  {
-  "closedAt": null,
+  "closedAt": "2026-11-20T15:19:23Z",
   "createdAt": "2025-09-13T20:34:46Z",
   "repo": "egyptian-hieroglyphs",
   "tier": 4,
@@ -1678,6 +1685,13 @@
   "repo": "grantha",
   "tier": 4,
   "url": "https://github.com/notofonts/grantha/issues/23"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-11-18T06:59:01Z",
+  "repo": "grantha",
+  "tier": 4,
+  "url": "https://github.com/notofonts/grantha/issues/26"
  },
  {
   "closedAt": null,
@@ -4026,6 +4040,27 @@
  },
  {
   "closedAt": null,
+  "createdAt": "2026-11-16T22:07:24Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/584"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-11-17T00:14:54Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/585"
+ },
+ {
+  "closedAt": "2026-11-22T18:38:26Z",
+  "createdAt": "2026-11-18T20:44:38Z",
+  "repo": "latin-greek-cyrillic",
+  "tier": 1,
+  "url": "https://github.com/notofonts/latin-greek-cyrillic/issues/586"
+ },
+ {
+  "closedAt": null,
   "createdAt": "2024-06-09T17:17:40Z",
   "repo": "limbu",
   "tier": 2,
@@ -4681,6 +4716,27 @@
   "repo": "mongolian",
   "tier": 3,
   "url": "https://github.com/notofonts/mongolian/issues/51"
+ },
+ {
+  "closedAt": "2026-11-16T09:28:37Z",
+  "createdAt": "2026-11-16T09:07:50Z",
+  "repo": "mongolian",
+  "tier": 3,
+  "url": "https://github.com/notofonts/mongolian/issues/55"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-11-16T09:42:26Z",
+  "repo": "mongolian",
+  "tier": 3,
+  "url": "https://github.com/notofonts/mongolian/issues/56"
+ },
+ {
+  "closedAt": null,
+  "createdAt": "2026-11-17T08:57:52Z",
+  "repo": "mongolian",
+  "tier": 3,
+  "url": "https://github.com/notofonts/mongolian/issues/57"
  },
  {
   "closedAt": "2024-08-15T12:36:05Z",

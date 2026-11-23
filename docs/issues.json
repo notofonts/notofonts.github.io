@@ -10,7 +10,7 @@
   "8": 8,
   "9": 6,
   "10": 14,
-  "11": 2
+  "11": 6
  },
  "open_per_repo": {
   "adlam": 4,
@@ -32,11 +32,12 @@
   "dives-akuru": 8,
   "dogra": 2,
   "duployan": 2,
-  "egyptian-hieroglyphs": 9,
+  "egyptian-hieroglyphs": 8,
   "elbasan": 1,
   "ethiopic": 3,
   "georgian": 3,
   "glagolitic": 1,
+  "grantha": 1,
   "gujarati": 6,
   "gunjala-gondi": 1,
   "gurmukhi": 7,
@@ -55,7 +56,7 @@
   "khojki": 2,
   "khudawadi": 1,
   "lao": 2,
-  "latin-greek-cyrillic": 161,
+  "latin-greek-cyrillic": 163,
   "limbu": 2,
   "malayalam": 6,
   "mandaic": 2,
@@ -65,7 +66,7 @@
   "meetei-mayek": 1,
   "miao": 1,
   "modi": 7,
-  "mongolian": 2,
+  "mongolian": 4,
   "music": 1,
   "myanmar": 33,
   "nag-mundari": 1,
@@ -114,9 +115,9 @@
   "znamenny": 3
  },
  "open_per_tier": {
-  "1": 297,
+  "1": 299,
   "2": 59,
-  "3": 154,
+  "3": 156,
   "4": 61,
   "5": 38
  },
@@ -131,7 +132,7 @@
   "8": 11,
   "9": 6,
   "10": 16,
-  "11": 4
+  "11": 12
  },
  "releases_per_month": {
   "1": [
