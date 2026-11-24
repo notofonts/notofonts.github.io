@@ -4007,13 +4007,8 @@
   "families_count": 2,
   "gh_url": "https://notofonts.github.io/devanagari",
   "has_releases": true,
-  "issue_count": 14,
+  "issue_count": 13,
   "issues": [
-   {
-    "number": 75,
-    "title": "It seems that Noto Serif Devanagari does not include the ligature \u0915\u094d\u0924 (kta) and therefore uses \u0915\u094d\u200d\u0924 instead.",
-    "url": "https://github.com/notofonts/devanagari/issues/75"
-   },
    {
     "number": 72,
     "title": "Use number values for per-master UI positioning rules",
